@@ -1,6 +1,6 @@
 # Canonical prompt and deck-delivery repository
 
-This repository versions the contents formerly kept under the platform's `torneos_yugioh/context/gpt/`. Application implementation belongs in the separate `platform-yugioh-md` repository, whose `gpt` directory stays empty except for its Git marker.
+This independent repository is the canonical home of prompts, research and source deliveries. Application implementation belongs in the separate `platform-yugioh-md` repository, which must not contain a `gpt` directory or marker. Active tools in that application resolve this sibling repository by default or accept `YGO_PROMPTS_ROOT`.
 
 Read the existing main prompt and the relevant modular section before editing a deck or instructions. Preserve the 36 modular prompts and the three base documents. Keep original deck identities, card quantities, zones, Skills, route IDs and evidence states. Follow the current owner instructions excluding forbidden/limited card lists and requiring only indispensable importable files.
 
