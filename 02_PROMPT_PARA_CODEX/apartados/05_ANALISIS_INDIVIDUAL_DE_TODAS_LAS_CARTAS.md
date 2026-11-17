@@ -8,6 +8,8 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+**Mínimo de cierre por identidad A05:** registrar ID/CID o identidad documental sin confirmar, nombre y copias por zona, texto/efecto contrastado o fuente pendiente, requisito/coste/ventana/límite, función concreta en esta lista, recurso obtenido/consumido, riesgo y vínculo A06. Si no tiene jugada o combo acreditado, justificar `SIN_JUGADA_IDENTIFICADA`/`SIN_COMBO_IDENTIFICADO` y no crear un ID ficticio. Una ficha con campos sin evidencia queda PARCIAL aunque tenga fotografía y texto extenso; declarar cobertura como identidades completas/identidades confirmadas por zona.
+
 **Contrato de ficha útil V58:** en la plataforma el usuario debe comprender
 en menos de un minuto **qué hace esta carta en SU deck**, su coste o requisito,
 cuándo conviene usarla, qué motor o carta recibe su efecto, qué consecuencia

@@ -4,9 +4,11 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 **Entrada:** abrir únicamente el archivo del deck solicitado en `01_INFORMACION_PARA_IMPORTAR/decks/` y sus salidas previas pertinentes. Consultar las instrucciones generales vigentes de `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` y las reglas contextuales de `02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` cuando correspondan; no ejecutar el orquestador para corregir este apartado.
 
-**Salida:** guardar el resultado de este apartado en el mismo archivo del deck, sección `APARTADO_23`, con estado real (SIN_INICIAR, EN_PROCESO, PARCIAL, COMPLETA o NO_APLICA justificado), referencias cruzadas por ID, evidencias cuando existan y siguiente tarea concreta. No crear un nuevo archivo de resultados.
+**Salida auxiliar:** aplicar los criterios de este módulo al A06/A08/A09, únicamente cuando proceda, mediante referencias a la ficha canónica y al registro central permitido. Este módulo no crea sección persistida APARTADO_23, porcentaje ni estado de avance independiente; documentar en el eje A01–A10 correspondiente la evidencia y el pendiente sin duplicar contenido.
 
 ## Instrucción editorial específica
+
+**Configuración condicional identificable:** cada plan Side tiene `plan_side_id`, `deck_id`, rival/formato, estado inicial por zona, lista exacta de salidas y entradas con cantidades, estado posterior y rutas A08/A09 habilitadas o invalidadas. Conservar el inventario original; varios planes son alternativas mutuamente excluyentes, no una suma de cartas disponibles. La Reserva solo genera propuesta `HIPOTETICA_NO_DISPONIBLE` hasta aprobación expresa, nunca un Side implícito.
 
 **Vínculo con guías:** las alternativas de Side o Reserva que cambien una ruta requieren variante **expresamente condicional** según los apartados 09 (ficha causal) y 10 (guía visual) vigentes; nunca aparecerán como mano o campo de un deck actual sin incorporación aprobada.
 

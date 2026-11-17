@@ -12,6 +12,8 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+**Registro mínimo A08:** `jugada_id`, categoría, cartas y copias participantes, zona/fase y estado inicial, condición habilitante, acción y utilidad concreta, resultado y evidencia, `combo_id` padre o referencia cuando exista, estado y próxima comprobación. La coincidencia de cartas con A09 no basta: vincular únicamente tras comprobar la cadena causal y los recursos exactos. Variantes del mismo plan conservan ID padre y un identificador de variante estable; registrar una familia independiente solo si existe apertura propia y desenlace táctico sustancialmente distinto, no por cambiar la redacción.
+
 **Método vigente:** este apartado descubre y clasifica las familias de rutas. Las secuencias causales verificables se desarrollan únicamente en el apartado 09 y sus fotografías y guías en el 10. No confundir exploración con ruta certificada.
 
 Explorar sistemáticamente combinaciones funcionales de 1, 2, 3 y 4+ cartas, todos los starters, buscadores, extensores, mano/campo/GY/destierro, cada objetivo alcanzable del Extra, efectos en turno rival, líneas primero/segundo, control, daño, ruptura de campo, recursos bajos, bricks, medio/tardío y respuestas a interrupciones.

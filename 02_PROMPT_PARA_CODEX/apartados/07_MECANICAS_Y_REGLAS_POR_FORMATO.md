@@ -8,6 +8,8 @@ Módulo de trabajo independiente del proyecto Station X. Revisión de alcance vi
 
 ## Instrucción editorial específica
 
+**Contrato de validación A07:** cada `regla_id` se comprueba en contexto de formato, versión, carta, zona, fase y límite aplicable; el módulo auxiliar 11 documenta la cadena específica de una ruta A09 y devuelve su evidencia al mismo ID, sin segundo expediente. Si falta texto oficial o la Skill local exacta, el caso queda PARCIAL/CONDICIONAL con fuente o duda concreta, y las rutas dependientes no pasan a CERTIFICADA. Una comprobación de regla no equivale a simulación física.
+
 **Contrato UI único A06–A10:** A07 no exige una pestaña de reglas. Cada `regla_id` se muestra junto a la **acción o carta concreta** a la que afecta (`Ver por qué se puede hacer`, `Coste y restricciones`, `Qué ocurre en cadena`); el reglamento exhaustivo queda desplegable por contexto. La regla crítica que invalida una jugada se muestra siempre de forma breve **antes de ejecutarla**. No eliminar comprobaciones ni copiar la misma explicación en cinco tarjetas.
 
 Revisar únicamente las mecánicas que la lista usa: Normal, Especial, Sacrificio, Fusión, Sincronía, Xyz, Enlace, Péndulo, Ritual y otras pertinentes. Verificar materiales, niveles, tipos, nombres, zona, cadenas, ventanas, restricciones y uso previo de efectos.

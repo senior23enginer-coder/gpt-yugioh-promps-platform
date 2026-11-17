@@ -8,6 +8,8 @@ Módulo de trabajo independiente del proyecto Station X. Revisión de alcance vi
 
 ## Instrucción editorial específica
 
+**Desambiguación de clases A06:** `ENGINE` exige participación en un motor con entrada, transformación y salida reconocibles; `DIRECTA` exige un efecto que opere causalmente sobre otra carta/recurso específico; `INDIRECTA` exige utilidad demostrable como material, coste, objetivo o soporte sin enlace directo; `CONDICIONAL` añade una precondición verificable y puede coexistir con otra clase; `CONFLICTO` exige incompatibilidad concreta de efectos/restricciones. `SIN_EVIDENCIA_SUFICIENTE` no es sinergia cero. Registrar clase primaria y etiquetas secundarias, relación ID, cartas implicadas y justificación; una carta autónoma útil no requiere vínculo inventado.
+
 **Filtro V58 de relevancia humana (prevalece sobre «VISIBLE» histórico):**
 el jugador recibe **primero un resumen de por qué las cartas cooperan**, no
 un inventario técnico. Cada motor necesita piezas fotografiadas, vínculo
@@ -23,7 +25,7 @@ se rige por la política vigente de importación del orquestador, sin matriz ext
 
 ### Salida humana A06.0 — siempre antes de la tabla carta por carta
 
-**Obligatorio para los 11 decks con inventario:** redactar «En 30 segundos: cómo cooperan realmente estas cartas», con **siete** conclusiones específicas: `Dictamen de conjunto`, `Motor que mueve el deck`, `Puentes reales`, `Sinergia indirecta`, `Conflicto decisivo`, `Decisión concreta`, `Qué aprender después`. Cada conclusión debe nombrar cartas **de ese deck** y describir un vínculo comprobable, recurso, restricción o decisión; no usar clichés («buena sinergia», «campo fuerte»). Si faltan pruebas, explicitarlo allí. El jugador primero ve dictamen, motor y puentes; el resto puede expandirse. La tabla exhaustiva A06.1 sigue completa para estudio, **pero no se muestra como pantalla principal independiente**. Nada se descarta: se reordena el nivel de detalle.
+**Obligatorio para los 16 decks documentados y futuras altas con inventario:** redactar «En 30 segundos: cómo cooperan realmente estas cartas», con **siete** conclusiones específicas: `Dictamen de conjunto`, `Motor que mueve el deck`, `Puentes reales`, `Sinergia indirecta`, `Conflicto decisivo`, `Decisión concreta`, `Qué aprender después`. Cada conclusión debe nombrar cartas **de ese deck** y describir un vínculo comprobable, recurso, restricción o decisión; no usar clichés («buena sinergia», «campo fuerte»). Si faltan pruebas, explicitarlo allí. El jugador primero ve dictamen, motor y puentes; el resto puede expandirse. La tabla exhaustiva A06.1 sigue completa para estudio, **pero no se muestra como pantalla principal independiente**. Nada se descarta: se reordena el nivel de detalle.
 
 Auditar **cada identidad de carta de Main, Extra, Side y Reserva**, incluyendo sus copias reales, para decidir si coopera con un motor, aporta una función autónoma útil, se aprovecha como coste/recurso o resulta incompatible. **Ausencia de vínculo directo NO implica carta inútil**: un descarte, envío, destierro, objetivo de recuperación, handtrap, respuesta táctica o pieza que se roba poco puede ser deliberado. Explicar el motivo concreto. Después identificar motores reales, iniciadores, extensiones, dependencias, recuperación y enlaces al Extra. Representar un mapa fotográfico; **un vínculo de búsqueda no equivale todavía a combo completo**.
 

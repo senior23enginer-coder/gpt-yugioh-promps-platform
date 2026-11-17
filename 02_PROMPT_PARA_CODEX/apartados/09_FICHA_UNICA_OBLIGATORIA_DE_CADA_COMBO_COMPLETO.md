@@ -10,6 +10,8 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+**Identidad estable de ruta:** `familia_id` identifica una apertura y propósito táctico; `combo_id` identifica una secuencia reproducible con mano/estado, pasos y resultado; `variante_id` se asigna si cambian de forma relevante starter, materiales/costes, exposición a interrupción, cadena o tablero, y siempre conserva su `combo_id` padre. Una respuesta en turno rival, transformación sin nueva apertura o repetición textual no suma otra familia. Mantener referencias históricas como alias sin renumerar rutas existentes. El cierre editorial requiere todos los pasos y destinos trazables; si falta texto, objetivo, material o ventana decisiva, marcar la ruta condicional/pendiente y no certificarla.
+
 **Método vigente:** registrar aquí las precondiciones, pasos, costes, comprobación de estados y resultado, con cotejo reglamentario de A07/A11. Este apartado **es dueño de la única ficha canónica**; las guías A10, planes y respuestas deben vincularla por ID, no duplicarla.
 
 Registrar en **una sola ficha canónica**: ID de familia y variante, objetivo (control, romper campo, OTK condicionado, interrupciones, recuperación, etc.), dificultad, primero/segundo/turno rival, formato, versión, mano inicial mínima ilustrada y estados iniciales propios/rivales (fase, campo, GY, destierro, Extra, Normal usada y efectos consumidos).

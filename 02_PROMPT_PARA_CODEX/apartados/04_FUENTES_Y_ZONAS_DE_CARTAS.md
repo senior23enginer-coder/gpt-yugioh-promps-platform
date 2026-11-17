@@ -16,4 +16,4 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 - **Reserva:** propuestas o alternativas futuras, fuera del Main/Extra/Side actuales. Nunca simular una carta de Reserva como disponible sin cambio expresamente aprobado.
 - **Skill/Habilidad Rush:** una entidad aparte, no robable, que no cuenta en Main/Extra/Side/Reserva, materiales ni probabilidades de mano. Para el flujo personalizado de los decks Rush de Miguel se requiere Skill recibida para declarar completo ese aspecto; Extra=0 no bloquea.
 
-El inventario **vivo** de Station X es la fuente prioritaria cuando pueda consultarse; el catálogo histórico del final es una referencia y no una lectura de producción.
+El inventario **vivo** de Station X es prioritario para cotejar ID real, formato y versión, pero **no sustituye automáticamente** las cartas y cantidades de la lista física aprobada por Miguel. Si difieren, registrar ambas fuentes y las diferencias por zona/cantidad, bloquear cambios de inventario y consultar al propietario; el catálogo histórico no es lectura de producción.

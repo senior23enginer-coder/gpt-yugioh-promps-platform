@@ -8,6 +8,8 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+**Separación de puertas de salida:** `DOCUMENTADA` significa ficha causal A09 trazable; `GUIA_COMPLETA` significa fotografías y secuencia A10 fieles; `REGLA_CERTIFICADA` exige cotejo contextual A07 y módulos auxiliares 11–13 cuando correspondan. `IMPORTABLE` requiere además integridad de archivos, referencias y contrato del importador real; `PUBLICABLE` requiere autorización expresa y que no se anuncien como legales rutas pendientes de cotejo. Son decisiones distintas: ninguna se infiere automáticamente de la anterior. Un caso parcial permanece documentado en privado y no se presenta como jugada validada.
+
 **Regla de importación V58:** las fotografías y tablas de esta guía son
 **contenido de la misma ficha A09**, nunca otra ficha independiente ni una
 pantalla de auditoría. Conservar en borrador privado una ruta documentada con

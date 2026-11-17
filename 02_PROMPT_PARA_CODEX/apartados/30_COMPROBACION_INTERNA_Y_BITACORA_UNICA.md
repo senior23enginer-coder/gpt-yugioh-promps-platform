@@ -9,11 +9,13 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 **Entrada:** abrir únicamente el archivo del deck solicitado en `01_INFORMACION_PARA_IMPORTAR/decks/` y sus salidas previas pertinentes. Consultar las instrucciones generales vigentes de `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` y las reglas contextuales de `02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` cuando correspondan; no ejecutar el orquestador para corregir este apartado.
 
-**Salida:** controlar de forma privada la calidad del **apartado A01–A10 que se esté trabajando** en el deck elegido y sincronizar el registro central. Este módulo 30 **no crea una fila de progreso A30**, un archivo de resultados ni un estado dentro de Station X.
+**Salida auxiliar:** aplicar los criterios de este módulo al registro único de control privado, únicamente cuando proceda, mediante referencias a la ficha canónica y al registro central permitido. Este módulo no crea sección persistida APARTADO_30, porcentaje ni estado de avance independiente; documentar en el eje A01–A10 correspondiente la evidencia y el pendiente sin duplicar contenido.
 
 ## Instrucción editorial específica
 
-Revisar coherencia de inventario, cartas/cantidades, materiales, textos de efectos, resolución, rutas alternativas, resultados, cálculos e imágenes **antes de afirmar que una ficha está terminada**. Este trabajo se refleja en el **control A01–A10 de la ficha del deck seleccionado** y el único resumen central, sin informes independientes ni hojas de seguimiento adicionales. El registro existente `03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md` es **privado, no importable a Station X**; los 36 módulos están en `02_PROMPT_PARA_CODEX/apartados/` y los **13** contenidos en `01_INFORMACION_PARA_IMPORTAR/decks/`. Los ZIPs parciales de decks **no incluyen este control central**, ni los prompts, ni datos de otro deck.
+**Criterio de aceptación uniforme:** por cada eje A01–A10 informar `unidades aplicables identificadas`, `unidades con evidencia suficiente`, `unidades pendientes`, `NO_APLICA justificados` y fecha/fuente. Una unidad incompleta no cuenta en el numerador; si el denominador aún no está conciliado, mostrar `—` y no 0 % ni 100 %. Las tareas de los módulos 11–36 se reflejan en el eje correspondiente, nunca como 26 estados adicionales. El cierre documental no certifica una jugada reglamentaria ni una partida física.
+
+Revisar coherencia de inventario, cartas/cantidades, materiales, textos de efectos, resolución, rutas alternativas, resultados, cálculos e imágenes **antes de afirmar que una ficha está terminada**. Este trabajo se refleja en el **control A01–A10 de la ficha del deck seleccionado** y el único resumen central, sin informes independientes ni hojas de seguimiento adicionales. El registro existente `03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md` es **privado, no importable a Station X**; los 36 módulos están en `02_PROMPT_PARA_CODEX/apartados/` y los **16** contenidos en `01_INFORMACION_PARA_IMPORTAR/decks/`. Los ZIPs parciales de decks **no incluyen este control central**, ni los prompts, ni datos de otro deck.
 
 La bitácora registra por deck/version: tarea, cantidad esperada o conocida, cantidad resuelta, porcentaje, estado, punto de pausa, siguiente acción, fecha y observación corta. **No generar ni exigir evidencia fotográfica, actas, reportes o documentos auxiliares para alimentar la bitácora.** Si hay una duda, escribirla de manera concreta en el registro del propio deck.
 
@@ -51,7 +53,7 @@ expresa del usuario.
 
 **Fórmula por indicador:** porcentaje = 100 × elementos efectivamente terminados / elementos aplicables conocidos. No contar una casilla por el mero hecho de que tenga un título; requiere contenido útil. Si no se conocen todas las familias de combo posibles, el porcentaje se denomina **cobertura de las familias identificadas**; nunca «porcentaje de todos los combos existentes». Evitar un porcentaje global único engañoso; si se desea una vista general, mostrar los indicadores documentales, visuales y reglamentarios **por separado**.
 
-**Inicialización o reanudación:** leer **solo la evidencia del deck seleccionado** entre los trece disponibles y conservar su progreso real A01–A10; no reiniciar ni recalcular los otros doce decks, ni fabricar porcentajes. Los estados quedan exclusivamente en el control documental privado, no en Station X.
+**Inicialización o reanudación:** leer **solo la evidencia del deck seleccionado** entre los 16 disponibles y conservar su progreso real A01–A10; no reiniciar ni recalcular otros decks, ni fabricar porcentajes. Los estados quedan exclusivamente en el control documental privado, no en Station X.
 
 **Actualización de cada sesión:** registrar en el archivo único los checks
 realmente cumplidos y la siguiente tarea. El seguimiento se comunica al

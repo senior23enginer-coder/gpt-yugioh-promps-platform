@@ -1,6 +1,6 @@
 # Anexo obligatorio — propósito táctico, sinergias y editor
 
-Fuente: texto facilitado por el usuario el 15 de noviembre de 2026. Este contenido es un **contrato editorial y de interfaz**, no una certificación de combos ni una modificación de las listas físicas. Se aplica a los 11 decks actuales y futuros cuando corresponda. Su incorporación al prompt no realiza cambios en Station X ni en los datos de jugadas.
+Fuente: texto facilitado por el usuario el 15 de noviembre de 2026. Este contenido es un **contrato editorial y de interfaz**, no una certificación de combos ni una modificación de las listas físicas. Se aplica a los **16 decks documentados** y futuros cuando corresponda; los 11 originales constituyen un corte histórico. Su incorporación al prompt no realiza cambios en Station X ni en los datos de jugadas.
 
 STATION X — PROPÓSITO TÁCTICO ESPECÍFICO DE CADA JUGADA
 Fecha: 15 de noviembre de 2026
