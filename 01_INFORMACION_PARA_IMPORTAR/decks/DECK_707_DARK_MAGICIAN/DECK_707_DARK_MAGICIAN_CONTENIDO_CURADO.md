@@ -1,5 +1,8 @@
 # Dark Magician
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -36,16 +39,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2
 - **Contraste de fuente Rush:** CID 15451: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye todas las cartas Mágicas y Trampas del campo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ataque Mágico Oscuro**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye todas las cartas Mágicas y Trampas del campo rival.
-- **Cómo aprovecharla en este deck:** Destruye todas las cartas Mágicas y Trampas del campo rival.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Distribuidor Maravilloso
@@ -64,16 +63,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&ope=2
 - **Contraste de fuente Rush:** CID 16772: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Enviar tres cartas de la mano al Cementerio y robar tres cartas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Distribuidor Maravilloso**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Enviar tres cartas de la mano al Cementerio y robar tres cartas.
-- **Cómo aprovecharla en este deck:** Enviar tres cartas de la mano al Cementerio y robar tres cartas.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Maga Legendaria
@@ -92,16 +87,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&ope=2
 - **Contraste de fuente Rush:** CID 18685: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Maga Legendaria**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio.
-- **Cómo aprovecharla en este deck:** Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Mago Oscuro Sabio
@@ -120,16 +111,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2
 - **Contraste de fuente Rush:** CID 19597: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba una carta; después puede Invocar de Modo Especial un Mago Oscuro del Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mago Oscuro Sabio**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba una carta; después puede Invocar de Modo Especial un Mago Oscuro del Cementerio.
-- **Cómo aprovecharla en este deck:** Roba una carta; después puede Invocar de Modo Especial un Mago Oscuro del Cementerio.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Grito de Monstruo
@@ -148,16 +135,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&ope=2
 - **Contraste de fuente Rush:** CID 19329: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba una carta; después puede Invocar del Cementerio un monstruo sin efecto que tenga ATK 2000 o DEF 2100.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Grito de Monstruo**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba una carta; después puede Invocar del Cementerio un monstruo sin efecto que tenga ATK 2000 o DEF 2100.
-- **Cómo aprovecharla en este deck:** Roba una carta; después puede Invocar del Cementerio un monstruo sin efecto que tenga ATK 2000 o DEF 2100.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Hechicero Eliminador Oscuro
@@ -176,16 +159,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2
 - **Contraste de fuente Rush:** CID 19773: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Hechicero Eliminador Oscuro**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior.
-- **Cómo aprovecharla en este deck:** Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Ráfaga de Resonancia Oscura
@@ -204,16 +183,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&ope=2
 - **Contraste de fuente Rush:** CID 17209: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ráfaga de Resonancia Oscura**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura.
-- **Cómo aprovecharla en este deck:** Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Brillo Sombrío
@@ -232,16 +207,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2
 - **Contraste de fuente Rush:** CID 20151: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Brillo Sombrío**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Cómo aprovecharla en este deck:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Piedra de los Magos Oscuros
@@ -260,16 +231,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2
 - **Contraste de fuente Rush:** CID 19598: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca desde la mano y/o Cementerio hasta un Lanzador de Conjuros OSCURIDAD con 2500 ATK y hasta otro con 2000 ATK, boca arriba.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Piedra de los Magos Oscuros**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca desde la mano y/o Cementerio hasta un Lanzador de Conjuros OSCURIDAD con 2500 ATK y hasta otro con 2000 ATK, boca arriba.
-- **Cómo aprovecharla en este deck:** Invoca desde la mano y/o Cementerio hasta un Lanzador de Conjuros OSCURIDAD con 2500 ATK y hasta otro con 2000 ATK, boca arriba.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Mago Oscuro
@@ -288,16 +255,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2
 - **Contraste de fuente Rush:** CID 15410: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal LEGEND.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mago Oscuro**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal LEGEND.
-- **Cómo aprovecharla en este deck:** Monstruo Normal LEGEND.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Lily Aniquiladora
@@ -316,16 +279,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2
 - **Contraste de fuente Rush:** CID 20305: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Envía la primera carta del Deck al Cementerio; si era Lanzador de Conjuros, esta carta cuenta por dos Sacrificios para un Lanzador de Conjuros/OSCURIDAD en Ataque este turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Lily Aniquiladora**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Envía la primera carta del Deck al Cementerio; si era Lanzador de Conjuros, esta carta cuenta por dos Sacrificios para un Lanzador de Conjuros/OSCURIDAD en Ataque este turno.
-- **Cómo aprovecharla en este deck:** Envía la primera carta del Deck al Cementerio; si era Lanzador de Conjuros, esta carta cuenta por dos Sacrificios para un Lanzador de Conjuros/OSCURIDAD en Ataque este turno.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Chica Maga Oscura
@@ -344,16 +303,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2
 - **Contraste de fuente Rush:** CID 16371: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Gana 500 ATK por cada Mago Oscuro en ambos Cementerios.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chica Maga Oscura**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Gana 500 ATK por cada Mago Oscuro en ambos Cementerios.
-- **Cómo aprovecharla en este deck:** Gana 500 ATK por cada Mago Oscuro en ambos Cementerios.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Mil Cuchillos
@@ -372,16 +327,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2
 - **Contraste de fuente Rush:** CID 15450: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye un monstruo del Campo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mil Cuchillos**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye un monstruo del Campo rival.
-- **Cómo aprovecharla en este deck:** Destruye un monstruo del Campo rival.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. ¡Equitación Lindasesina!
@@ -400,16 +351,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&ope=2
 - **Contraste de fuente Rush:** CID 19341: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — ¡Equitación Lindasesina!**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno.
-- **Cómo aprovecharla en este deck:** Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Orden Secreta
@@ -428,16 +375,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2
 - **Contraste de fuente Rush:** CID 17212: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Orden Secreta**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Cómo aprovecharla en este deck:** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo….
 - **Cuándo tener precaución:** la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Olla de la Codicia
@@ -456,16 +399,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2
 - **Contraste de fuente Rush:** CID 16372: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Olla de la Codicia**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba dos cartas.
 - **Cómo aprovecharla en este deck:** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. Maldición de la Luz Ascendente
@@ -484,16 +424,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2
 - **Contraste de fuente Rush:** CID 21007: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Maldición de la Luz Ascendente**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos.
 - **Cómo aprovecharla en este deck:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Gaia el Campeón Dragón Rápido
@@ -512,16 +449,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2
 - **Contraste de fuente Rush:** CID 19995: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gaia el Campeón Dragón Rápido**
 
 - **Label funcional:** **SIN ACCESO CON EL MAIN ACTUAL**: falta Curse of Dragon, material obligatorio; **probar quitar sus 3 copias** si el dueño aprueba.
 - **Qué hace:** Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta.
 - **Cómo aprovecharla en este deck:** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -543,16 +477,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2
 - **Contraste de fuente Rush:** CID 18298: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gaia el Campeón Dragón**
 
 - **Label funcional:** **SIN ACCESO CON EL MAIN ACTUAL**: faltan Gaia the Fierce Knight y Curse of Dragon; **probar quitar sus 3 copias** si el dueño aprueba.
 - **Qué hace:** Monstruo Fusión sin efecto activado.
 - **Cómo aprovecharla en este deck:** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo….
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -574,16 +505,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2
 - **Contraste de fuente Rush:** CID 19323: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gaia, el Conquistador de Campeones**
 
 - **Label funcional:** **SIN ACCESO CON EL MAIN ACTUAL**: faltan Gaia the Fierce Knight y Curse of Dragon; **probar quitar su única copia** si el dueño aprueba.
 - **Qué hace:** Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival.
 - **Cómo aprovecharla en este deck:** Extra Gaia sin Maldición de Dragón ni Fusión en Main: no hay ruta de acceso demostrada.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 

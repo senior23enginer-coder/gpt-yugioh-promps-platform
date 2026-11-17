@@ -1,5 +1,8 @@
 # Hero
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -36,16 +39,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&ope=2
 - **Contraste de fuente Rush:** CID 20460: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Avian**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera.
-- **Cómo aprovecharla en este deck:** Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Héroe Elemental Sparkman
@@ -64,16 +63,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&ope=2
 - **Contraste de fuente Rush:** CID 20457: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal de 1600 ATK; se emplea como material nombrado de Voltic Wingman, Heliosfera y Shining Flare Wingman.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Sparkman**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal de 1600 ATK; se emplea como material nombrado de Voltic Wingman, Heliosfera y Shining Flare Wingman.
-- **Cómo aprovecharla en este deck:** Monstruo Normal de 1600 ATK; se emplea como material nombrado de Voltic Wingman, Heliosfera y Shining Flare Wingman.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Héroe Elemental Burstinatrix
@@ -92,16 +87,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&ope=2
 - **Contraste de fuente Rush:** CID 20459: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Burstinatrix**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera.
-- **Cómo aprovecharla en este deck:** Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Héroe Ascendente de Argen
@@ -120,16 +111,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2
 - **Contraste de fuente Rush:** CID 20461: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Ascendente de Argen**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido.
-- **Cómo aprovecharla en este deck:** Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Inicio Reinicio
@@ -148,16 +135,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&ope=2
 - **Contraste de fuente Rush:** CID 16929: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Inicio Reinicio**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio.
-- **Cómo aprovecharla en este deck:** Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo….
 - **Cuándo tener precaución:** la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Descenso de Héroe
@@ -176,16 +159,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&ope=2
 - **Contraste de fuente Rush:** CID 20665: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Descenso de Héroe**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros.
 - **Cómo aprovecharla en este deck:** Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Brillo Sombrío
@@ -204,16 +184,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2
 - **Contraste de fuente Rush:** CID 20151: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Brillo Sombrío**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Cómo aprovecharla en este deck:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Circulación Elemental
@@ -232,16 +208,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&ope=2
 - **Contraste de fuente Rush:** CID 20465: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba tres, luego manda una carta de la mano al Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Circulación Elemental**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros.
 - **Cómo aprovecharla en este deck:** Roba tres, luego manda una carta de la mano al Cementerio.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Estrategia Mágica Aviar
@@ -260,16 +233,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&ope=2
 - **Contraste de fuente Rush:** CID 16358: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Estrategia Mágica Aviar**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio.
-- **Cómo aprovecharla en este deck:** Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Fusión
@@ -288,16 +257,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2
 - **Contraste de fuente Rush:** CID 16934: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fusión**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Cómo aprovecharla en este deck:** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Agujero Trampa
@@ -316,16 +281,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2
 - **Contraste de fuente Rush:** CID 15913: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye ese monstruo invocado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Agujero Trampa**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye ese monstruo invocado.
-- **Cómo aprovecharla en este deck:** Destruye ese monstruo invocado.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Olla de la Codicia
@@ -344,16 +305,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2
 - **Contraste de fuente Rush:** CID 16372: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Olla de la Codicia**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba dos cartas.
 - **Cómo aprovecharla en este deck:** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Héroe Elemental Voltic Wingman
@@ -372,16 +330,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&ope=2
 - **Contraste de fuente Rush:** CID 21316: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Devuelve al Deck monstruos del Cementerio empleados como materiales y realiza una Fusión de un monstruo Guerrero Nivel 6 a 8 que solo se pueda Invocar por Fusión. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Voltic Wingman**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Devuelve al Deck monstruos del Cementerio empleados como materiales y realiza una Fusión de un monstruo Guerrero Nivel 6 a 8 que solo se pueda Invocar por Fusión.
 - **Cómo aprovecharla en este deck:** Devuelve al Deck monstruos del Cementerio empleados como materiales y realiza una Fusión de un monstruo Guerrero Nivel 6 a 8 que solo se pueda Invocar por Fusión. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -405,16 +360,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&ope=2
 - **Contraste de fuente Rush:** CID 20454: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Aumenta 1000 ATK de un Guerrero propio boca arriba hasta el final del siguiente turno rival; después puede destruir una Mágica/Trampa rival. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental del Estallido Wingman**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Aumenta 1000 ATK de un Guerrero propio boca arriba hasta el final del siguiente turno rival; después puede destruir una Mágica/Trampa rival.
 - **Cómo aprovecharla en este deck:** Aumenta 1000 ATK de un Guerrero propio boca arriba hasta el final del siguiente turno rival; después puede destruir una Mágica/Trampa rival. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -437,16 +389,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&ope=2
 - **Contraste de fuente Rush:** CID 20453: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Si destruye en batalla un monstruo y lo manda al Cementerio, inflige daño igual al ATK original de ese monstruo. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental de la Llama Wingman**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Si destruye en batalla un monstruo y lo manda al Cementerio, inflige daño igual al ATK original de ese monstruo.
 - **Cómo aprovecharla en este deck:** Si destruye en batalla un monstruo y lo manda al Cementerio, inflige daño igual al ATK original de ese monstruo. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -470,16 +419,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2
 - **Contraste de fuente Rush:** CID 21501: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Robar y revelar una carta; si resulta ser monstruo, además puede destruir una carta del Campo rival. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Heliosfera**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Robar y revelar una carta; si resulta ser monstruo, además puede destruir una carta del Campo rival.
 - **Cómo aprovecharla en este deck:** Robar y revelar una carta; si resulta ser monstruo, además puede destruir una carta del Campo rival. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -501,16 +447,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2
 - **Contraste de fuente Rush:** CID 20610: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Gana 300 ATK por cada Guerrero en tu Cementerio; al destruir en batalla y enviar al Cementerio un monstruo, inflige daño igual a su ATK original. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Héroe Elemental Shining Flare Wingman**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Gana 300 ATK por cada Guerrero en tu Cementerio; al destruir en batalla y enviar al Cementerio un monstruo, inflige daño igual a su ATK original.
 - **Cómo aprovecharla en este deck:** Gana 300 ATK por cada Guerrero en tu Cementerio; al destruir en batalla y enviar al Cementerio un monstruo, inflige daño igual a su ATK original. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 

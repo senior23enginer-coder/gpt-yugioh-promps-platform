@@ -1,5 +1,5 @@
 STATION X — IDENTIDADES Y CANTIDADES CONFIRMADAS POR MIGUEL
-Alcance: A02-A04 de 13 decks documentados; no sustituir datos de producción. Los 11 primeros conservan sus IDs reales; los 2 nuevos aún requieren asignación de ID real antes de importar.
+Alcance: inventarios A02-A04 del corte original de 13 decks que se enumeran abajo. La biblioteca vigente comprende 16 decks; los otros tres están registrados en sus fichas individuales y en el seguimiento único. No sustituir datos de producción. Los 16 IDs reales están confirmados; conservar las identidades y cantidades de cada corte.
 
 deck_id | Nombre | Formato | Main | Extra | Side | Reserva
 650 | Elfnote | TCG | 40 | 15 | 15 | 0
@@ -16,7 +16,7 @@ deck_id | Nombre | Formato | Main | Extra | Side | Reserva
 671 | Memento (estudio Mementotlán / Demoniherrero) | TCG Advanced | 41 | 15 | 14 | 0
 677 | Crystron (estudio Cristron / Horus) | TCG Advanced | 40 | 15 | 15 | 0
 
-Vínculos confirmados por Miguel el 16-11-2026: NUEVO_12 → 671 Memento; NUEVO_13 → 677 Crystron. Ambos IDs y su formato tcg_advanced se cotejaron en el catálogo vivo. Esta confirmación sustituye las menciones históricas de asignación pendiente de las dos altas.
+Vínculos confirmados por Miguel: NUEVO_12 → 671 Memento; NUEVO_13 → 677 Crystron (16-11-2026); NUEVO_14 → 660 Purrely; NUEVO_15 → 673 Salamangreat; NUEVO_16 → 699 Goat Control (17-11-2026). Esta confirmación sustituye las menciones históricas de asignación pendiente.
 
 REGLAS
 - La Reserva no forma parte del Main ni del Side activo.
@@ -24,7 +24,7 @@ REGLAS
 - Los primeros once inventarios y sus deck_id reales fueron confirmados previamente.
   Las dos listas nuevas se recibieron de Miguel el 16-11-2026; sus cantidades
   están cotejadas por suma, no sus nombres/CID ni su legalidad de formato.
-  No inventar deck_id de Station X. Resolver la identidad real de los dos
-  decks nuevos con Miguel antes de asociar o importar cualquier contenido.
+  No inventar deck_id de Station X. Los cinco destinos reales ya confirmados
+  prevalecen sobre las advertencias históricas de identificación pendiente.
 - Solo se importa información jugable A02-A10. El estado de evaluación
   editorial no es dato ni función de Station X.

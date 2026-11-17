@@ -1,5 +1,8 @@
 # Infernoble
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -42,7 +45,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Kashtira Fenrir**
 
@@ -51,9 +53,7 @@
 - **Cómo aprovecharla en este deck:** Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «starter Kashtira».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** El destierro no es destrucción ni se activa libremente en cualquier fase. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Kashtira Riseheart
@@ -78,7 +78,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** La Invocación propia de Riseheart bloquea Extra a Xyz: compite con Sincronía/Enlace Infernoble; reservar para plan compatible o evaluar sustitución.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Kashtira Riseheart**
 
@@ -87,9 +86,7 @@
 - **Cómo aprovecharla en este deck:** La Invocación propia de Riseheart bloquea Extra a Xyz: compite con Sincronía/Enlace Infernoble; reservar para plan compatible o evaluar sustitución.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «extensor Kashtira».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Su extensión restringe el Extra a Xyz durante el turno. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Diabellstar la Bruja Negra
@@ -114,7 +111,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; colocación de Mágicas/Trampas o recursos.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Diabellstar la Bruja Negra**
 
@@ -123,9 +119,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; colocación de Mágicas/Trampas o recursos.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Immortal Phoenix Gearfried
@@ -150,7 +144,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Immortal Phoenix Gearfried**
 
@@ -159,9 +152,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Infernoble Caballero Turpin
@@ -186,7 +177,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Turpin**
 
@@ -195,9 +185,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Infernoble Caballero Maugis
@@ -222,7 +210,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo; interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Maugis**
 
@@ -231,9 +218,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo; interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Infernoble Caballero Ogier
@@ -258,7 +243,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Ogier**
 
@@ -267,9 +251,7 @@
 - **Cómo aprovecharla en este deck:** interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Infernoble Caballero Ricciardetto
@@ -294,7 +276,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Ricciardetto**
 
@@ -303,9 +284,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Infernoble Caballero Renaud
@@ -330,7 +309,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; destierro de recursos o de amenazas; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Renaud**
 
@@ -339,9 +317,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; destierro de recursos o de amenazas; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Infernoble Caballero Oliver
@@ -366,7 +342,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Caballero Oliver**
 
@@ -375,9 +350,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Neo Space Connector
@@ -402,7 +375,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Neo Space Connector**
 
@@ -411,9 +383,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: Sacrificio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Neo-Spacian Aqua Dolphin
@@ -438,7 +408,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Neo-Spacian Aqua Dolphin**
 
@@ -447,9 +416,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Fire Flint Lady
@@ -474,7 +441,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fire Flint Lady**
 
@@ -483,9 +449,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Droll & Lock Bird
@@ -510,7 +474,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Droll & Lock Bird**
 
@@ -519,9 +482,7 @@
 - **Cómo aprovecharla en este deck:** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Effect Veiler
@@ -546,7 +507,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Effect Veiler**
 
@@ -555,9 +515,7 @@
 - **Cómo aprovecharla en este deck:** Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** La ventana es la Main Phase del adversario, no cualquier fase. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Ash Blossom & Joyous Spring
@@ -582,7 +540,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ash Blossom & Joyous Spring**
 
@@ -591,9 +548,7 @@
 - **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. Angelica's Angelic Ring
@@ -618,7 +573,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Angelica's Angelic Ring**
 
@@ -627,10 +581,8 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Infernoble Arms - Almace
@@ -655,7 +607,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Arms - Almace**
 
@@ -664,9 +615,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 19. Infernoble Arms - Durendal
@@ -691,7 +640,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Arms - Durendal**
 
@@ -700,9 +648,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 20. Noble Arms Museum
@@ -727,7 +673,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Noble Arms Museum**
 
@@ -736,9 +681,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 21. Divine Sword - Phoenix Blade
@@ -763,7 +706,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Divine Sword - Phoenix Blade**
 
@@ -772,10 +714,8 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 22. D.D.R. - Different Dimension Reincarnation
@@ -800,7 +740,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — D.D.R. - Different Dimension Reincarnation**
 
@@ -809,10 +748,8 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 23. WANTED: Seeker of Sinful Spoils
@@ -837,7 +774,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas; generación de cartas por robo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — WANTED: Seeker of Sinful Spoils**
 
@@ -846,9 +782,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas; generación de cartas por robo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 24. Heritage of the Chalice
@@ -873,7 +807,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Heritage of the Chalice**
 
@@ -882,9 +815,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 25. Reinforcement of the Army
@@ -909,7 +840,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Reinforcement of the Army**
 
@@ -918,10 +848,8 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 26. Original Sinful Spoils - Snake-Eye
@@ -946,7 +874,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Original Sinful Spoils - Snake-Eye**
 
@@ -955,9 +882,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 27. Infernoble Knight Captain Roland [Synchro]
@@ -982,7 +907,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Knight Captain Roland [Synchro]**
 
@@ -991,9 +915,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1021,7 +943,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Baronne de Fleur [Synchro]**
 
@@ -1030,9 +951,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1060,7 +979,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infernoble Knight Emperor Charles [Synchro]**
 
@@ -1069,9 +987,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1100,7 +1016,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Battlin' Boxer King Dempsey [Xyz]**
 
@@ -1109,9 +1024,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1141,7 +1054,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `670:A09:RENAUD:TYPHON10`: Renaud único en campo por Normal → TY-PHON tras dos Especiales del Extra rival este/turno anterior; un desprendimiento devuelve un monstruo y consume la continuación de Invocaciones.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Super Starslayer TY-PHON - Sky Crisis [Xyz]**
 
@@ -1150,9 +1062,7 @@
 - **Cómo aprovecharla en este deck:** invoca Normalmente Renaud como único monstruo si el rival Invocó 2+ monstruos del Extra en el turno actual/anterior; convertirlo por el procedimiento alternativo de TY-PHON y desacoplarlo para devolver un monstruo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA CONDICIONAL V13**
 
@@ -1180,7 +1090,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; destierro de recursos o de amenazas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Angelica, Princess of Noble Arms [Synchro]**
 
@@ -1189,9 +1098,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; destierro de recursos o de amenazas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1220,7 +1127,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; colocación de Mágicas/Trampas o recursos; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Isolde, Two Tales of the Noble Knights [Link]**
 
@@ -1229,9 +1135,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; colocación de Mágicas/Trampas o recursos; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1261,7 +1165,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Emperor Charles the Great [Link]**
 
@@ -1270,9 +1173,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1300,7 +1201,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Apollousa, Bow of the Goddess [Link]**
 
@@ -1309,9 +1209,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1339,7 +1237,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `670:A09:OGIER:RENAUD:ANIMA:SP09`: Ogier Normal envía Durendal, Renaud Especial recupera Durendal; Renaud Nivel1 → Anima, que puede equipar el monstruo rival señalado. Anima Link1 + Ogier → S:P. La salida de Anima suelta el Equipo hacia GY; S:P puede activar destierro inicial por haber usado material Enlace. La posición rival y las ventanas son obligatorias.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Relinquished Anima [Link]**
 
@@ -1348,9 +1245,7 @@
 - **Cómo aprovecharla en este deck:** Invoca primero a Renaud con Ogier FUEGO en Campo, recupera Durendal y usa ese Renaud de Nivel1 para Anima. Selecciona un monstruo rival boca arriba que Anima señale desde una zona Extra adecuada y equípalo; luego usa Anima+Ogier para S:P, cuyo primer efecto sí queda habilitado por usar Link como material.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA CONDICIONAL Y GUÍA**
 
@@ -1378,7 +1273,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Link Spider [Link]**
 
@@ -1387,9 +1281,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1417,7 +1309,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `670:A09:OGIER:RENAUD:SP_DEFENSA08` y `670:A09:OGIER:RENAUD:ANIMA:SP09`, ambas desde Ogier+Renaud y Durendal en Deck. La primera conserva Durendal en mano y prepara Efecto Rápido; la segunda equipa rival apuntado vía Anima y habilita destierro de Invocación por usar material Link.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — S:P Little Knight [Link]**
 
@@ -1426,9 +1317,7 @@
 - **Cómo aprovecharla en este deck:** Ogier Normal envía Durendal, Renaud Especial la recupera. Opción A: ambos a S:P Link2; **no** hay destierro al invocarla. Opción B: Renaud→Anima en zona apuntando a rival elegible, después Anima+Ogier→S:P; al usar Link como material puede desterrar una carta Campo/GY al Invocar. Ambas permiten respuesta rápida posterior ante activación del rival, **sin negar**.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — DOS RUTAS ILUSTRADAS**
 
@@ -1457,7 +1346,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Nibiru, the Primal Being**
 
@@ -1466,9 +1354,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Cuenta invocaciones y entrega una Ficha cuyo ATK/DEF depende de lo sacrificado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 40. D.D. Crow
@@ -1493,7 +1379,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Descarta para desterrar una carta elegida del Cementerio rival como efecto rápido.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — D.D. Crow**
 
@@ -1502,9 +1387,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Descarta para desterrar una carta elegida del Cementerio rival como efecto rápido.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Destierro como uso/recurso; comprobar origen, coste o efecto y recuperación.
 - **Cuándo tener precaución:** No afecta cartas fuera del Cementerio. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 41. Herald of the Abyss
@@ -1529,7 +1412,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. interacción propia de la carta que requiere consultar el texto íntegro enlazado.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Herald of the Abyss**
 
@@ -1538,9 +1420,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. interacción propia de la carta que requiere consultar el texto íntegro enlazado.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pago de LP.
 - **Cuándo tener precaución:** Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 42. Triple Tactics Talent
@@ -1565,7 +1445,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Triple Tactics Talent**
 
@@ -1574,9 +1453,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 43. Triple Tactics Thrust
@@ -1601,7 +1478,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Después de activarse un efecto de monstruo rival, fija o incorpora una Mágica/Trampa Normal del Deck según presencia de monstruos enemigos.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Triple Tactics Thrust**
 
@@ -1610,9 +1486,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Después de activarse un efecto de monstruo rival, fija o incorpora una Mágica/Trampa Normal del Deck según presencia de monstruos enemigos.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La carta Colocada tiene restricción de activación; no equiparar a una búsqueda instantánea. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 44. Evenly Matched
@@ -1637,7 +1511,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Al final de Battle Phase y con más cartas rivales, obliga al adversario a desterrar boca abajo hasta igualar las cantidades.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Evenly Matched**
 
@@ -1646,9 +1519,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Al final de Battle Phase y con más cartas rivales, obliga al adversario a desterrar boca abajo hasta igualar las cantidades.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «trampa».
-- **Uso y consumo de recursos:** Destierro como uso/recurso; comprobar origen, coste o efecto y recuperación.
 - **Cuándo tener precaución:** La activación desde mano exige no controlar cartas; aplica al final de Battle Phase. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 45. Dimensional Barrier
@@ -1673,7 +1544,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Declara un tipo de monstruo y bloquea sus Invocaciones Especiales y efectos ese turno.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Dimensional Barrier**
 
@@ -1682,9 +1552,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Declara un tipo de monstruo y bloquea sus Invocaciones Especiales y efectos ese turno.. No aporta recursos durante este duelo.
 - **Al jugar primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «trampa».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Se declara un tipo; impacta a ambos jugadores. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 670

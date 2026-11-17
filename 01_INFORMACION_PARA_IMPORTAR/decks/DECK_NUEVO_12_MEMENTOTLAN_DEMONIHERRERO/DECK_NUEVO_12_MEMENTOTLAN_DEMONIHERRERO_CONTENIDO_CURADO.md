@@ -7,9 +7,7 @@
 > **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 39/39 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
 
 
-> **ACTUALIZACIÓN V36 — FOTOGRAFÍAS REALES 39/39 (100 % del inventario identificado)**. Las cifras de imágenes pendientes mencionadas en los apartados V35 son históricas. Ver [actualización](#actualizacion-v37), [galería visual](guias/GUIA_VISUAL_A01_A10.html) y [manifiesto](#actualizacion-v37). Los combos son análisis escritos, **no simulaciones comprobadas**; las cartas y cantidades siguen intactas.
 
-> **Complemento V35 A01–A05:** [profundización A01–A05 integrada](#profundizacion-a01-a05). Preserva las 70 copias, 39 CIDs y 13 fotografías; no altera A06–A10 ni afirma simulación.
 
 ## IDENTIDAD BÁSICA
 
@@ -1103,6 +1101,10 @@ La **matriz única A06.2** del documento principal ya clasifica **cada una de la
 ---
 
 <a id="auditoria-ampliada-v38"></a>
+## HISTORIAL DE PROFUNDIZACIÓN — V38–V40 (evidencia complementaria, no apartados vigentes)
+
+Los diez apartados A01–A10 anteriores constituyen la navegación principal. Los cortes siguientes conservan detalles, escenarios y verificaciones de origen; no son un segundo inventario ni pruebas ejecutadas.
+
 ## CORTE V38 · Profundización de todos los apartados A01–A10 (17-11-2026)
 **Inventario inmutable:** Main 41, Extra 15, Side 14; **39/39 identidades** con fotografía real, CID y nombre oficial cotejados.
 **Estado técnico:** 12 fichas/rutas/variantes observables en A09, **0 replays de simulador aportados**, importación real sin ejecutar. Los enlaces a imágenes de cada carta están contenidos en esta misma carpeta. Las declaraciones de fotos pendientes de V35/V36 son históricas y quedan sustituidas por este corte.

@@ -1,5 +1,8 @@
 # Elfnote
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -42,7 +45,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Regina**
 
@@ -51,9 +53,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Elfnote Lucina
@@ -78,7 +78,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Lucina**
 
@@ -87,9 +86,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Elfnote Tinia
@@ -114,7 +111,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Tinia**
 
@@ -123,9 +119,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; manipulación de posiciones o zonas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Elfnote Power Patron
@@ -150,7 +144,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Power Patron**
 
@@ -159,9 +152,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Elfnote Fortuna
@@ -186,7 +177,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Fortuna**
 
@@ -195,9 +185,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; manipulación de posiciones o zonas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Fidraulis Harmony
@@ -222,7 +210,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; destrucción de cartas o empleo de destrucción como detonante.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fidraulis Harmony**
 
@@ -231,9 +218,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; destrucción de cartas o empleo de destrucción como detonante.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Medius the Pure
@@ -258,7 +243,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Medius the Pure**
 
@@ -267,9 +251,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: reciclaje de recurso propio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Vidolium the Unstable Power Patron of Unity
@@ -295,7 +277,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Estar en Main permite colocar Vidolium como Mágica en Zona Péndulo. Puede autodestruirse para Invocar un Power Patron de mano/GY o dar +5000 ATK a uno de Nivel original 12; al llegar boca arriba al Extra puede buscar Power Patron. Su Invocación como monstruo exige Fusión + Sincronía + Xyz distintos.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Vidolium the Unstable Power Patron of Unity**
 
@@ -304,9 +285,7 @@
 - **Cómo aprovecharla en este deck:** Estar en Main permite colocar Vidolium como Mágica en Zona Péndulo. Puede autodestruirse para Invocar un Power Patron de mano/GY o dar +5000 ATK a uno de Nivel original 12; al llegar boca arriba al Extra puede buscar Power Patron. Su Invocación como monstruo exige Fusión + Sincronía + Xyz distintos.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Bystial Magnamhut
@@ -331,7 +310,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Bystial Magnamhut**
 
@@ -340,9 +318,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Dogmatika Ecclesia, the Virtuous
@@ -367,7 +343,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; protección o resistencia contra respuestas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Dogmatika Ecclesia, the Virtuous**
 
@@ -376,9 +351,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; protección o resistencia contra respuestas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Nervedo the Shadebeast Power Patron
@@ -404,7 +377,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; habilitación o continuación de una invocación del Extra Deck; destrucción de cartas o empleo de destrucción como detonante. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Nervedo the Shadebeast Power Patron**
 
@@ -413,10 +385,8 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; habilitación o continuación de una invocación del Extra Deck; destrucción de cartas o empleo de destrucción como detonante. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Ash Blossom & Joyous Spring
@@ -441,7 +411,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ash Blossom & Joyous Spring**
 
@@ -450,9 +419,7 @@
 - **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Mulcharmy Fuwalos
@@ -477,7 +444,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mulcharmy Fuwalos**
 
@@ -486,9 +452,7 @@
 - **Cómo aprovecharla en este deck:** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Mulcharmy Purulia
@@ -513,7 +477,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Con campo propio sin cartas, descarta y roba cuando el rival Invoca desde la mano; en End Phase devuelve exceso de mano al Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mulcharmy Purulia**
 
@@ -522,9 +485,7 @@
 - **Cómo aprovecharla en este deck:** Con campo propio sin cartas, descarta y roba cuando el rival Invoca desde la mano; en End Phase devuelve exceso de mano al Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** No confundir la condición de Purulia con la de Fuwalos. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Ghost Belle & Haunted Mansion
@@ -549,7 +510,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ghost Belle & Haunted Mansion**
 
@@ -558,9 +518,7 @@
 - **Cómo aprovecharla en este deck:** Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** No niega todos los efectos: exige que el efecto incluya una de las acciones enumeradas. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Prohibited Power Patron Portal - Terminus
@@ -585,7 +543,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Prohibited Power Patron Portal - Terminus**
 
@@ -594,9 +551,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. The Fallen & The Virtuous
@@ -621,7 +576,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — The Fallen & The Virtuous**
 
@@ -630,9 +584,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Elfnotes: Welcome Home
@@ -657,7 +609,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnotes: Welcome Home**
 
@@ -666,9 +617,7 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 19. Elfnotes: Rhapsodia of Madness
@@ -693,7 +642,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnotes: Rhapsodia of Madness**
 
@@ -702,9 +650,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 20. The Three Champions of Swordsoul [Synchro; Konami 22356]
@@ -729,7 +675,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — The Three Champions of Swordsoul [Synchro; Konami 22356]**
 
@@ -738,9 +683,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -768,7 +711,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Golden Cloud Beast - Malong [Synchro]**
 
@@ -777,9 +719,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -807,7 +747,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Storm-Bane Dragon Destorbim [Synchro]**
 
@@ -816,9 +755,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -846,7 +783,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ecclesia and the Dark Dragon [extra; efecto y material según carta]**
 
@@ -855,9 +791,7 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -885,7 +819,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Seraphim Strelitzia [Synchro]**
 
@@ -894,9 +827,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -926,7 +857,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Lucina 6→9 por Power Patron Nivel1; Sincronía inmediata legal a June Pride Nivel10 central. El bloqueo de ataque exige permanecer en centro; puede regresar al Extra para desplegar hasta un Elfnote de mano, Deck y GY.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote June Pride [Synchro]**
 
@@ -935,9 +865,7 @@
 - **Cómo aprovecharla en este deck:** Lucina 6→9 por Power Patron Nivel1; Sincronía inmediata legal a June Pride Nivel10 central. El bloqueo de ataque exige permanecer en centro; puede regresar al Extra para desplegar hasta un Elfnote de mano, Deck y GY.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA DOCUMENTADA**
 
@@ -965,7 +893,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; interacción sobre monstruos en campo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — S:P Little Knight [Link]**
 
@@ -974,9 +901,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; interacción sobre monstruos en campo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1004,7 +929,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Despian Luluwalilith [Synchro]**
 
@@ -1013,9 +937,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1043,7 +965,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Lucina Hechicero Nivel6 + Patron Cantante Nivel1 sin subir Niveles → Arcanite Sincro7, 2 contadores y 2400 ATK. Cada contador gastado de Arcanite baja 1000 ATK y permite destruir un objetivo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Arcanite Magician [Synchro]**
 
@@ -1052,9 +973,7 @@
 - **Cómo aprovecharla en este deck:** Lucina Hechicero Nivel6 + Patron Cantante Nivel1 sin subir Niveles → Arcanite Sincro7, 2 contadores y 2400 ATK. Cada contador gastado de Arcanite baja 1000 ATK y permite destruir un objetivo rival.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA DOCUMENTADA**
 
@@ -1082,7 +1001,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Crystal Wing Synchro Dragon [Synchro]**
 
@@ -1091,9 +1009,7 @@
 - **Cómo aprovecharla en este deck:** negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1121,7 +1037,6 @@
 - **Utilidad editorial:** **0/5 como carta utilizable en TCG Advanced vigente** por prohibición; la explicación de su hipotético efecto es histórica. La propuesta separada recomienda Extra 1→0, **sin alterar** copias hasta aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta histórica dentro de este deck (A06), NO EJECUTABLE TCG:** Lucina Nivel6 + Patron Cantante Nivel1 sin subir Niveles permitirían Dawn Dragster Sincro7, 2100 ATK; ante M/T rival, bajar 2 Niveles (a 5) para negar la activación y destruir (1500 ATK). **Dawn Dragster está PROHIBIDA** en la lista TCG Advanced vigente (19/10/2026).
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — F.A. Dawn Dragster [Synchro]**
 
@@ -1130,9 +1045,7 @@
 - **Cómo aprovecharla en este deck:** **NO SE PUEDE USAR EN TCG Advanced vigente.** Solo para comprender la antigua alternativa 6+1 y justificar una propuesta de sustitución del Extra; consultar la guía histórica etiquetada.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA DOCUMENTADA**
 
@@ -1160,7 +1073,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; negación de efectos o activaciones; uso de Sacrificios como parte del efecto. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ruddy Rose Dragon [Synchro]**
 
@@ -1169,9 +1081,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; negación de efectos o activaciones; uso de Sacrificios como parte del efecto. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1199,7 +1109,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck; colocación de Mágicas/Trampas o recursos. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Albion the Branded Dragon [Fusion]**
 
@@ -1208,9 +1117,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck; colocación de Mágicas/Trampas o recursos. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1238,7 +1145,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chaos Angel [Synchro]**
 
@@ -1247,9 +1153,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1277,7 +1181,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Junora the Power Patron of Tuning [Synchro]**
 
@@ -1286,9 +1189,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1316,7 +1217,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Bystial Druiswurm**
 
@@ -1325,9 +1225,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 36. Droll & Lock Bird
@@ -1352,7 +1250,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Droll & Lock Bird**
 
@@ -1361,9 +1258,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 37. Ghost Ogre & Snow Rabbit
@@ -1388,7 +1283,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ghost Ogre & Snow Rabbit**
 
@@ -1397,9 +1291,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** Destruir no equivale a negar la resolución del efecto activado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 38. Called by the Grave
@@ -1424,7 +1316,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Called by the Grave**
 
@@ -1433,9 +1324,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «mágica rápida».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 39. Triple Tactics Talent
@@ -1460,7 +1349,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Triple Tactics Talent**
 
@@ -1469,9 +1357,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 40. Contact "C"
@@ -1496,7 +1382,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Contact "C"**
 
@@ -1505,9 +1390,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 41. Solemn Judgment
@@ -1532,7 +1415,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; destrucción de cartas o empleo de destrucción como detonante.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Solemn Judgment**
 
@@ -1541,9 +1423,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; destrucción de cartas o empleo de destrucción como detonante.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «side técnico».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pago de LP.
 - **Cuándo tener precaución:** Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 42. Pot of Avarice
@@ -1568,7 +1448,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Pot of Avarice**
 
@@ -1577,9 +1456,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo.. No inicia la mano del Main actual.
 - **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «side técnico».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 650

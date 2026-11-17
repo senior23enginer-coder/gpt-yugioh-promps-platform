@@ -7,11 +7,9 @@
 > **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 39/39 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
 
 
-> **ACTUALIZACIÓN V36 — FOTOGRAFÍAS REALES 39/39 (100 % del inventario identificado)**. Las cifras de imágenes pendientes mencionadas en los apartados V35 son históricas. Ver [actualización](#actualizacion-v37), [galería visual](guias/GUIA_VISUAL_A01_A10.html) y [manifiesto](#actualizacion-v37). Los combos son análisis escritos, **no simulaciones comprobadas**. «Caballero del Aire Parshath» corresponde a **Caballero del Aire Parsath**, CID 5023, sin alterar el nombre transcrito. Side no recibido.
 
 **Formato identificado:** GOAT histórico de referencia 2005. Listas físicas y textos de efecto documentados sin cambiar cantidades.
 
-> **Actualización V35 solo A01–A05:** ver [profundización A01–A05 integrada](#profundizacion-a01-a05). Se reutilizó por CID **1 imagen auténtica de Tifón del Espacio Místico**; **38/39** identidades siguen sin foto local. No hay nuevos datos de Side ni Extra.
 
 ## CUADRO A01–A10 (solo este deck)
 
@@ -375,6 +373,10 @@ El documento base contiene **39/39 fichas** (29 Main, 10 Extra), cada una con su
 ---
 
 <a id="auditoria-ampliada-v38"></a>
+## HISTORIAL DE PROFUNDIZACIÓN — V38–V40 (evidencia complementaria, no apartados vigentes)
+
+Los diez apartados A01–A10 anteriores constituyen la navegación principal. Los cortes siguientes conservan detalles, escenarios y verificaciones de origen; no son un segundo inventario ni pruebas ejecutadas.
+
 ## CORTE V38 · Profundización de todos los apartados A01–A10 (17-11-2026)
 **Inventario inmutable:** Main 40, Extra 14, Side 0; **39/39 identidades** con fotografía real, CID y nombre oficial cotejados.
 **Estado técnico:** 9 fichas/rutas/variantes observables en A09, **0 replays de simulador aportados**, importación real sin ejecutar. Los enlaces a imágenes de cada carta están contenidos en esta misma carpeta. Las declaraciones de fotos pendientes de V35/V36 son históricas y quedan sustituidas por este corte.

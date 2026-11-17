@@ -1,5 +1,8 @@
 # Royal
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -36,16 +39,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2
 - **Contraste de fuente Rush:** CID 16344: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Elegir un Demonio de Nivel 5 o superior boca arriba propio; sus ataques infligen daño de penetración este turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Kheiron el Caballero Estelar**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Elegir un Demonio de Nivel 5 o superior boca arriba propio; sus ataques infligen daño de penetración este turno.
-- **Cómo aprovecharla en este deck:** Elegir un Demonio de Nivel 5 o superior boca arriba propio; sus ataques infligen daño de penetración este turno.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Phaser del Rebelde Real
@@ -64,16 +63,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2
 - **Contraste de fuente Rush:** CID 16330: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Phaser del Rebelde Real**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio.
-- **Cómo aprovecharla en este deck:** Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Impasse Ignoto
@@ -92,16 +87,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2
 - **Contraste de fuente Rush:** CID 19760: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Mientras permanezca boca arriba, aumenta en 300 el ATK de todos tus Demonios boca arriba, incluido él mismo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Impasse Ignoto**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Mientras permanezca boca arriba, aumenta en 300 el ATK de todos tus Demonios boca arriba, incluido él mismo.
-- **Cómo aprovecharla en este deck:** Mientras permanezca boca arriba, aumenta en 300 el ATK de todos tus Demonios boca arriba, incluido él mismo.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Metal Maldito del Rebelde Real
@@ -120,16 +111,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2
 - **Contraste de fuente Rush:** CID 16331: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye todos los monstruos boca arriba rivales; después inflige 100 LP por la suma de sus Niveles originales.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Metal Maldito del Rebelde Real**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye todos los monstruos boca arriba rivales; después inflige 100 LP por la suma de sus Niveles originales.
-- **Cómo aprovecharla en este deck:** Destruye todos los monstruos boca arriba rivales; después inflige 100 LP por la suma de sus Niveles originales.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos….
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos en Defensa NO equivale a Invocación por Sacrificio; sus efectos de tributo requieren el procedimiento específico.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Heavy Metal del Rebelde Real
@@ -148,16 +135,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2
 - **Contraste de fuente Rush:** CID 15441: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Entre los monstruos boca arriba rivales de Nivel 8 o menor, elegir uno del Nivel más bajo; gana su ATK hasta fin del turno y lo destruye.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Heavy Metal del Rebelde Real**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Entre los monstruos boca arriba rivales de Nivel 8 o menor, elegir uno del Nivel más bajo; gana su ATK hasta fin del turno y lo destruye.
-- **Cómo aprovecharla en este deck:** Entre los monstruos boca arriba rivales de Nivel 8 o menor, elegir uno del Nivel más bajo; gana su ATK hasta fin del turno y lo destruye.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos….
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos en Defensa NO equivale a Invocación por Sacrificio; sus efectos de tributo requieren el procedimiento específico.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Progrock del Rebelde Real
@@ -176,16 +159,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2
 - **Contraste de fuente Rush:** CID 19761: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye una Mágica/Trampa rival; después puede destruir otra carta boca abajo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Progrock del Rebelde Real**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye una Mágica/Trampa rival; después puede destruir otra carta boca abajo rival. Este turno solo pueden atacar tus Demonios.
 - **Cómo aprovecharla en este deck:** Destruye una Mágica/Trampa rival; después puede destruir otra carta boca abajo rival.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos….
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. la Skill que pone monstruos en Defensa NO equivale a Invocación por Sacrificio; sus efectos de tributo requieren el procedimiento específico.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Descendiente de Titanes
@@ -204,16 +184,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2
 - **Contraste de fuente Rush:** CID 16135: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal sin efecto.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Descendiente de Titanes**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal sin efecto.
-- **Cómo aprovecharla en este deck:** Monstruo Normal sin efecto.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Canjear
@@ -232,16 +208,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2
 - **Contraste de fuente Rush:** CID 17721: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba dos cartas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Canjear**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba dos cartas.
-- **Cómo aprovecharla en este deck:** Roba dos cartas.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Aliento de Fuego del Genio
@@ -260,16 +232,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2
 - **Contraste de fuente Rush:** CID 15673: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Devuelve a la mano del dueño una Mágica o Trampa del rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Aliento de Fuego del Genio**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Devuelve a la mano del dueño una Mágica o Trampa del rival.
-- **Cómo aprovecharla en este deck:** Devuelve a la mano del dueño una Mágica o Trampa del rival.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Restauración de Cartas
@@ -288,16 +256,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2
 - **Contraste de fuente Rush:** CID 17543: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba hasta tener cinco cartas en mano, revela toda la mano y recupera 200 LP por cada monstruo revelado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Restauración de Cartas**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba hasta tener cinco cartas en mano, revela toda la mano y recupera 200 LP por cada monstruo revelado.
-- **Cómo aprovecharla en este deck:** Roba hasta tener cinco cartas en mano, revela toda la mano y recupera 200 LP por cada monstruo revelado.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Maldición de la Luz Ascendente
@@ -316,16 +280,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2
 - **Contraste de fuente Rush:** CID 21007: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Maldición de la Luz Ascendente**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos.
 - **Cómo aprovecharla en este deck:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Gelatina Defensiva
@@ -344,16 +305,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2
 - **Contraste de fuente Rush:** CID 18646, nombre japonés **バッファード・スライム** (Buffered Slime): texto oficial localizado con `request_locale=ja`, tipo Carta de Trampa Normal. La condición de ataque de monstruo rival de Nivel 8 o inferior, el envío de la carta superior del Deck, la prevención de daño de batalla del turno y el daño de efecto de 2000 si los LP propios son al menos 3000 coinciden con el resumen previo. La denominación española «Gelatina Defensiva» sigue siendo un alias del inventario; no se impone traducción oficial.
 - **Aplicación concreta dentro de este deck (A06):** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gelatina Defensiva**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Cómo aprovecharla en este deck:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Avaricia del Rey
@@ -372,16 +329,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2
 - **Contraste de fuente Rush:** CID 19799: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Cambia a Defensa boca arriba un Demonio LUZ propio que esté en Ataque y, si se desea, roba dos cartas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Avaricia del Rey**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Cambia a Defensa boca arriba un Demonio LUZ propio que esté en Ataque y, si se desea, roba dos cartas.
-- **Cómo aprovecharla en este deck:** Cambia a Defensa boca arriba un Demonio LUZ propio que esté en Ataque y, si se desea, roba dos cartas.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo….
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Agujero Trampa
@@ -400,16 +353,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2
 - **Contraste de fuente Rush:** CID 15913: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye ese monstruo invocado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Agujero Trampa**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye ese monstruo invocado.
-- **Cómo aprovecharla en este deck:** Destruye ese monstruo invocado.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Esplendor del Rey
@@ -428,16 +377,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2
 - **Contraste de fuente Rush:** CID 15674: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Niega el ataque declarado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Esplendor del Rey**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Niega el ataque declarado.
-- **Cómo aprovecharla en este deck:** Niega el ataque declarado.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Monstruo Reencarnado
@@ -456,16 +401,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2
 - **Contraste de fuente Rush:** CID 16305: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Recupera a la mano un monstruo del Cementerio; es la versión Rush, no un efecto idéntico por defecto al TCG.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Monstruo Reencarnado**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Recupera a la mano un monstruo del Cementerio; es la versión Rush, no un efecto idéntico por defecto al TCG.
-- **Cómo aprovecharla en este deck:** Recupera a la mano un monstruo del Cementerio; es la versión Rush, no un efecto idéntico por defecto al TCG.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 705

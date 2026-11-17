@@ -1,4 +1,12 @@
-# Station X — Estado único de avance, validaciones y pendientes (A01–A10; 13 decks, 11 de estudio previo)
+# Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
+
+## Depuración editorial del repositorio — 17-11-2026
+
+Alcance vigente: **16 decks**, con las 11 identidades originales y cinco altas ya vinculadas a IDs reales. Se retiraron de las once fichas originales **370 advertencias de alcance de ficha**, **366 advertencias de guía**, **364 repeticiones literales de uso de recursos** y **56 duplicaciones literales de explicación práctica**. Cada deck conserva una advertencia editorial general; los inventarios, cartas, CIDs, rutas y estados de evidencia no se modificaron. En los cinco estudios nuevos se simplificaron los avisos históricos del encabezado y se marcó V38–V40 como historial complementario, conservando sus análisis.
+
+Las guías duplicadas entre `decks/*/guias/` y `guias_a10/` se conservan deliberadamente: los ZIPs de un deck necesitan su carpeta autocontenida y el maestro mantiene consumidores de las rutas compartidas. Tampoco se eliminaron pares JSON/Markdown sin comprobar el contrato de generación ni se alteró `previsualizacion_v19/datos_v19.js`. Los cortes de 11 y 13 decks que figuran más abajo son históricos y **no deben leerse como estado vigente**.
+
+Prompts editados puntualmente en esta depuración: `00_PROMPT_UNICO_STATION_X_V31.md`, `apartados/02_RECEPCION_DE_UN_DECK.md` y `apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md` para aclarar 16 decks e IDs confirmados. Todos los demás prompts protegidos permanecen byte por byte idénticos; actualizaron sus tres huellas en la tabla de integridad. No hubo importación ni publicación en la plataforma.
 
 ## Ajuste de prompts solicitado por Miguel — 17-11-2026
 
@@ -88,8 +96,8 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | Archivo protegido (ruta relativa desde la raíz del ZIP) | SHA-256 de referencia |
 |---|---|
 | `02_PROMPT_PARA_CODEX/apartados/01_ROL_Y_OBJETIVO_PRINCIPAL.md` | `1d1382980a556d56e1092c5d095f583a33064b3cdad84ff45d064a0c37108665` |
-| `02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md` | `3955b5f72c08ced4d4480b68f31fbb5c7be9d68b529d0ce4ad8b0192b4150954` |
-| `02_PROMPT_PARA_CODEX/apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md` | `ae7a276ca8bc2af10710b18ee2d2c158ce820dc228a2ddc208c0c64179794d11` |
+| `02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md` | `debfe1d8cb6a3997fe4f9c30b44dcf1e9df2e1acd313b41272498c198c654c57` |
+| `02_PROMPT_PARA_CODEX/apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md` | `538238903057a51568ed6c19b909df1575d49b14d8cfb37bb60087a69a68885b` |
 | `02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md` | `03c82b61c09ce467a212228f3cba4ac1f5507b6ef3554bb85965f279d49c1fb6` |
 | `02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md` | `750e5b9521c90b3347a1c8c1220b12cc8db5091ff9efc151adb2cfd5e3b35817` |
 | `02_PROMPT_PARA_CODEX/apartados/06_SINERGIAS_Y_MOTORES.md` | `236994f0303584f12ac689f6fe1560977e0f6345e681950976af63c7d9b36c26` |
@@ -123,7 +131,7 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | `02_PROMPT_PARA_CODEX/apartados/34_CATALOGO_DE_DECKS.md` | `826a45fb950f8693e3a7ec1643ec85b666a48721c9fb0a786ad32a3c80af0a61` |
 | `02_PROMPT_PARA_CODEX/apartados/35_ESTADISTICAS_DEL_CATALOGO.md` | `49207ef170586096f898ca162a3b371aa1676a0d401544beace90da5c5307416` |
 | `02_PROMPT_PARA_CODEX/apartados/36_CONFIRMACION_FINAL_Y_CONTINUIDAD.md` | `758e2d9a98df75ec2d9b7e7ec0c31d877dd48e1e36eb676c9f7de33d83c2de72` |
-| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `3fea91fe055db69268dfdd07f4aa75775ae32c649903dd4b8d6053649c69f6ef` |
+| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `9eb54c8c8efbfa716733a6f6263f6582539dc225465cbdd82b7161d018c90272` |
 | `02_PROMPT_PARA_CODEX/01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md` | `94fcd62cb356b14f656d9432794ec46daa1280ded27d28e7138de289ef622446` |
 | `02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` | `bd56599d7c82fe3f1f5ce89c592ddd94261b7512858bb4fffff968934f3fb14e` |
 

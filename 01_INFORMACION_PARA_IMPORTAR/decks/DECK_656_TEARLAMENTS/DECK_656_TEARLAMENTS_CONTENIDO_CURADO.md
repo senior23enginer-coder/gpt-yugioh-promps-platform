@@ -1,5 +1,8 @@
 # Tearlaments
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -42,7 +45,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Súper Polimerización**
 
@@ -51,9 +53,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Aportación posible como material, coste o objetivo; verificar consumidor.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Lácrima las Lágrimas Carmesíes
@@ -78,7 +78,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** retorno o reciclaje hacia mano/Deck/Extra. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Lácrima las Lágrimas Carmesíes**
 
@@ -87,9 +86,7 @@
 - **Cómo aprovecharla en este deck:** retorno o reciclaje hacia mano/Deck/Extra. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Tiagrimientos Havnis
@@ -114,7 +111,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Havnis**
 
@@ -123,9 +119,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Planeta Primigenio Perlerreino
@@ -150,7 +144,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Planeta Primigenio Perlerreino**
 
@@ -159,9 +152,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Kashtira Fenrir
@@ -186,18 +177,14 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Kashtira Fenrir**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar.
-- **Cómo aprovecharla en este deck:** Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «starter Kashtira».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** El destierro no es destrucción ni se activa libremente en cualquier fase. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Flor de Ceniza & Primavera Feliz
@@ -222,7 +209,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Flor de Ceniza & Primavera Feliz**
 
@@ -231,9 +217,7 @@
 - **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Tiagrimientos Reinoheart
@@ -258,7 +242,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Reinoheart**
 
@@ -267,9 +250,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Tiagrimientos Scheiren
@@ -294,7 +275,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Scheiren**
 
@@ -303,9 +283,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Tiagrimientos Merrli
@@ -330,7 +308,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Merrli**
 
@@ -339,9 +316,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «habilitador de Extra».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Bienes del Entierro Insensato
@@ -366,7 +341,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Bienes del Entierro Insensato**
 
@@ -375,9 +349,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Trivikarma
@@ -402,7 +374,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Trivikarma**
 
@@ -411,9 +382,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Crimanto Tiagrimientos
@@ -438,7 +407,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Crimanto Tiagrimientos**
 
@@ -447,9 +415,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio; reciclaje de recurso propio.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Grito Tiagrimientos
@@ -474,7 +440,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Grito Tiagrimientos**
 
@@ -483,9 +448,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Mudora el Oráculo de la Espada
@@ -510,7 +473,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mudora el Oráculo de la Espada**
 
@@ -519,9 +481,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Amset, Gloria de Horus
@@ -546,7 +506,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Amset, Gloria de Horus**
 
@@ -555,9 +514,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Ocultador de Efectos
@@ -582,7 +539,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ocultador de Efectos**
 
@@ -591,9 +547,7 @@
 - **Cómo aprovecharla en este deck:** Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** La ventana es la Main Phase del adversario, no cualquier fase. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. Corona Prohibida
@@ -618,7 +572,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; protección o resistencia contra respuestas. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Corona Prohibida**
 
@@ -627,9 +580,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; protección o resistencia contra respuestas. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «habilitador de Extra».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Tiagrimientos Kashtira
@@ -654,7 +605,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; destierro de recursos o de amenazas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Kashtira**
 
@@ -663,9 +613,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; destierro de recursos o de amenazas.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: destierro de recurso propio.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 19. Planeta Bajo Presión Wraitsoth
@@ -690,7 +638,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Planeta Bajo Presión Wraitsoth**
 
@@ -699,9 +646,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 20. Metarruido Tiagrimientos
@@ -726,7 +671,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Metarruido Tiagrimientos**
 
@@ -735,9 +679,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «cierre».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 21. Demoniherrero Grabador
@@ -762,7 +704,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; retorno o reciclaje hacia mano/Deck/Extra; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Demoniherrero Grabador**
 
@@ -771,9 +712,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; retorno o reciclaje hacia mano/Deck/Extra; uso o producción de cartas equipadas.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano; reciclaje de recurso propio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 22. Sarcófago del Rey
@@ -798,7 +737,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Sarcófago del Rey**
 
@@ -807,9 +745,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 23. Hapi, Guía de Horus
@@ -834,7 +770,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Hapi, Guía de Horus**
 
@@ -843,9 +778,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 24. Tracto del Demoniherrero
@@ -870,7 +803,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tracto del Demoniherrero**
 
@@ -879,9 +811,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 25. Fabuloso Lurrie
@@ -906,7 +836,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fabuloso Lurrie**
 
@@ -915,9 +844,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 26. Keldo la Protectora Sagrada
@@ -942,7 +869,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Keldo la Protectora Sagrada**
 
@@ -951,9 +877,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 27. Agnumday del Demoniherrero
@@ -978,7 +902,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Agnumday del Demoniherrero**
 
@@ -987,9 +910,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1017,7 +938,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Sprind Spright**
 
@@ -1026,9 +946,7 @@
 - **Cómo aprovecharla en este deck:** gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1056,7 +974,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; interacción sobre monstruos en campo. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — S:P Pequeña Caballera**
 
@@ -1065,9 +982,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; interacción sobre monstruos en campo. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — DOS RUTAS DE ENLACE COTEJADAS**
 
@@ -1097,7 +1012,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas; uso de Sacrificios como parte del efecto. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Réquiem del Demoniherrero**
 
@@ -1106,9 +1020,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas; uso de Sacrificios como parte del efecto. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1138,7 +1050,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** generación de cartas por robo; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Garura, Alas de Vida Resonante**
 
@@ -1147,9 +1058,7 @@
 - **Cómo aprovecharla en este deck:** generación de cartas por robo; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1177,7 +1086,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; interacción sobre monstruos en campo; colocación o gasto de contadores. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Predaplanta Dragostapelia**
 
@@ -1186,9 +1094,7 @@
 - **Cómo aprovecharla en este deck:** negación de efectos o activaciones; interacción sobre monstruos en campo; colocación o gasto de contadores. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1216,7 +1122,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tiagrimientos Caleido-Heart**
 
@@ -1225,9 +1130,7 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1260,7 +1163,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck; protección o resistencia contra respuestas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — I:P Enmascarada**
 
@@ -1269,9 +1171,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck; protección o resistencia contra respuestas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA COTEJADA**
 
@@ -1300,7 +1200,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck; retorno o reciclaje hacia mano/Deck/Extra; interacción sobre monstruos en campo; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Secuencia del Demoniherrero**
 
@@ -1309,9 +1208,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck; retorno o reciclaje hacia mano/Deck/Extra; interacción sobre monstruos en campo; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1339,7 +1236,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fangodragón del Pantano**
 
@@ -1348,9 +1244,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1378,7 +1272,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Lácrima del Demoniherrero**
 
@@ -1387,9 +1280,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1417,7 +1308,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Parca Peregrina**
 
@@ -1426,9 +1316,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1456,7 +1344,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — El Vampiro Zombi**
 
@@ -1465,9 +1352,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1496,7 +1381,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Caballero Exciton Horda de Maldad**
 
@@ -1505,9 +1389,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1535,7 +1417,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; generación de cartas por robo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ladrón del Tiempo Repetidor**
 
@@ -1544,9 +1425,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; generación de cartas por robo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1574,7 +1453,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fuwalos Multivadora**
 
@@ -1583,9 +1461,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano; reciclaje de recurso propio.
 - **Cuándo tener precaución:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 43. Punto de Oveja
@@ -1610,7 +1486,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Punto de Oveja**
 
@@ -1619,9 +1494,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Riesgo operativo: interrupción del Cementerio, restricciones de materiales y mildeos aleatorios. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 44. Alma Desencadenada de Shyama
@@ -1646,7 +1519,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. interacción sobre monstruos en campo.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Alma Desencadenada de Shyama**
 
@@ -1655,9 +1527,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. interacción sobre monstruos en campo.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 45. Llamado por la Tumba
@@ -1682,7 +1552,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Llamado por la Tumba**
 
@@ -1691,9 +1560,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «mágica rápida».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 46. Ciclón del Cosmos
@@ -1718,7 +1585,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Paga 1000 LP para desterrar una Mágica/Trampa en campo.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ciclón del Cosmos**
 
@@ -1727,9 +1593,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Paga 1000 LP para desterrar una Mágica/Trampa en campo.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «mágica rápida».
-- **Uso y consumo de recursos:** Destierro como uso/recurso; comprobar origen, coste o efecto y recuperación.
 - **Cuándo tener precaución:** El coste de LP y selección de objetivo deben pagarse/declararse antes de la resolución. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 47. Polvo de Pluma de Arpía
@@ -1754,7 +1618,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Destruye todas las Mágicas/Trampas del campo contrario.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Polvo de Pluma de Arpía**
 
@@ -1763,9 +1626,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Destruye todas las Mágicas/Trampas del campo contrario.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «mágica».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** No destierra y no protege de respuestas encadenadas. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 48. Terraformación
@@ -1790,7 +1651,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Busca una Mágica de Campo en el Deck y la lleva a la mano.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Terraformación**
 
@@ -1799,9 +1659,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Busca una Mágica de Campo en el Deck y la lleva a la mano.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «mágica».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Si el objetivo de campo ya no está en Deck, pierde utilidad. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 49. Talento de Tácticas Triples
@@ -1826,7 +1684,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Talento de Tácticas Triples**
 
@@ -1835,9 +1692,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 50. Bella Fantasma & Mansión Embrujada
@@ -1862,7 +1717,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Bella Fantasma & Mansión Embrujada**
 
@@ -1871,9 +1725,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio.. No aporta recursos durante este duelo.
 - **Al jugar primero:** generar envíos por efecto sin malgastar recursos y preparar interacción. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** forzar respuestas rivales con Fusión/retiradas y conservar cementerio utilizable. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** No niega todos los efectos: exige que el efecto incluya una de las acciones enumeradas. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 656

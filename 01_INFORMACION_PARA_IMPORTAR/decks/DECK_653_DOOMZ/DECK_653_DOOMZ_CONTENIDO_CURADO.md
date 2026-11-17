@@ -1,5 +1,8 @@
 # DoomZ
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -42,7 +45,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Medius el Puro**
 
@@ -51,9 +53,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: reciclaje de recurso propio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Mando DoomZ «D.O.O.M.D.U.R.G.»
@@ -78,7 +78,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mando DoomZ «D.O.O.M.D.U.R.G.»**
 
@@ -87,9 +86,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. DoomZ Modelo de Poder
@@ -114,7 +111,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ Modelo de Poder**
 
@@ -123,9 +119,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. El Bufón y el Pájaro del Candado
@@ -150,7 +144,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — El Bufón y el Pájaro del Candado**
 
@@ -159,9 +152,7 @@
 - **Cómo aprovecharla en este deck:** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Modelo de Poder Máquina de Sombras Zegredo
@@ -187,7 +178,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Modelo de Poder Máquina de Sombras Zegredo**
 
@@ -196,9 +186,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Flor de Ceniza & Primavera Feliz
@@ -223,7 +211,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Flor de Ceniza & Primavera Feliz**
 
@@ -232,9 +219,7 @@
 - **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Therion «Rey» Regulus
@@ -259,7 +244,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Therion «Rey» Regulus**
 
@@ -268,9 +252,7 @@
 - **Cómo aprovecharla en este deck:** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor Máquina».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Su activación exige equipo/recursos adecuados y no se confunde con una negación pasiva. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. DoomZ XII Cero - Drastea
@@ -295,7 +277,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ XII Cero - Drastea**
 
@@ -304,9 +285,7 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. DoomZ V Cinco - Amalthe
@@ -331,7 +310,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ V Cinco - Amalthe**
 
@@ -340,9 +318,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. DoomZ VII Siete - Elara
@@ -367,7 +343,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ VII Siete - Elara**
 
@@ -376,9 +351,7 @@
 - **Cómo aprovecharla en este deck:** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Infinito Temporal
@@ -403,7 +376,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infinito Temporal**
 
@@ -412,9 +384,7 @@
 - **Cómo aprovecharla en este deck:** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «trampa».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Desde mano sólo con el campo propio vacío, conforme a la condición de activación de la Trampa. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Fuwalos Multivadora
@@ -439,7 +409,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fuwalos Multivadora**
 
@@ -448,9 +417,7 @@
 - **Cómo aprovecharla en este deck:** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Portal del Modelo de Poder Desatado - Terminus
@@ -475,7 +442,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Portal del Modelo de Poder Desatado - Terminus**
 
@@ -484,10 +450,8 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Incursores DoomZ
@@ -512,7 +476,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Incursores DoomZ**
 
@@ -521,9 +484,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Vidrium, Modelo de Poder de la Exterminación del Caos
@@ -549,7 +510,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Estar en Main permite activar Vidolium como Escala Péndulo; autodestruirse puede extender un Power Patron de mano/GY y su llegada boca arriba al Extra puede buscar Power Patron. La Invocación del monstruo de Nivel 12 sí necesita retornar Fusión + Sincronía + Xyz; no debe atribuirse sin prueba.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Vidrium, Modelo de Poder de la Exterminación del Caos**
 
@@ -558,9 +518,7 @@
 - **Cómo aprovecharla en este deck:** Estar en Main permite activar Vidolium como Escala Péndulo; autodestruirse puede extender un Power Patron de mano/GY y su llegada boca arriba al Extra puede buscar Power Patron. La Invocación del monstruo de Nivel 12 sí necesita retornar Fusión + Sincronía + Xyz; no debe atribuirse sin prueba.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Cambio DoomZ
@@ -585,7 +543,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cambio DoomZ**
 
@@ -594,9 +551,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. Destrucción DoomZ
@@ -621,7 +576,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Destrucción DoomZ**
 
@@ -630,9 +584,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Mando DoomZ «A.D.R.A.S.T.E.I.A.»
@@ -657,7 +609,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22567&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mando DoomZ «A.D.R.A.S.T.E.I.A.»**
 
@@ -666,9 +617,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 19. Número F0: Futuro Draco Utópico
@@ -693,7 +642,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Número F0: Futuro Draco Utópico**
 
@@ -702,9 +650,7 @@
 - **Cómo aprovecharla en este deck:** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -732,7 +678,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Springans Fiestero**
 
@@ -741,9 +686,7 @@
 - **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -771,7 +714,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gigantesco «Campeón» Sargas**
 
@@ -780,9 +722,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -810,7 +750,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ XII Fin - Drastrius**
 
@@ -819,9 +758,7 @@
 - **Cómo aprovecharla en este deck:** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -854,7 +791,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — DoomZ XIII Over - Graflario**
 
@@ -863,9 +799,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -894,7 +828,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fractura DoomZ - Diactorus**
 
@@ -903,9 +836,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -938,7 +869,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Júpiter el Modelo de Poder de Destrucción**
 
@@ -947,9 +877,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -980,7 +908,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Número F0: Futuro Utópico Zexal**
 
@@ -989,9 +916,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1019,7 +944,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Varudras, el Último Portador del Fin de los Tiempos**
 
@@ -1028,9 +952,7 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1058,7 +980,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** mano Incursores + Elara permite Drastrius 2700/2 materiales, batallar con monstruo de ATK inferior que no lo elimine y en MP2 superponer ZEUS 3000/3 materiales. Abrir `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Divino Arsenal AA-ZEUS - Trueno del Cielo**
 
@@ -1097,7 +1018,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Número F0: Futuro Utópico**
 
@@ -1106,9 +1026,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1136,7 +1054,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mago Gagagaga**
 
@@ -1145,9 +1062,7 @@
 - **Cómo aprovecharla en este deck:** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
 
@@ -1175,7 +1090,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ogro Fantasma & Conejo de las Nieves**
 
@@ -1184,9 +1098,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** Destruir no equivale a negar la resolución del efecto activado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 32. Talento de Tácticas Triples
@@ -1211,7 +1123,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Talento de Tácticas Triples**
 
@@ -1220,9 +1131,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 33. Número 60: Dugares el Eterno
@@ -1247,7 +1156,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Número 60: Dugares el Eterno**
 
@@ -1256,9 +1164,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 34. Llamado por la Tumba
@@ -1283,7 +1189,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Llamado por la Tumba**
 
@@ -1292,9 +1197,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica rápida».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 35. Tormenta de Relámpagos
@@ -1319,7 +1222,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tormenta de Relámpagos**
 
@@ -1328,9 +1230,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** No destruye monstruos en defensa con su primera opción. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 36. Nibiru, el Ser Primitivo
@@ -1355,7 +1255,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Nibiru, el Ser Primitivo**
 
@@ -1364,9 +1263,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Cuenta invocaciones y entrega una Ficha cuyo ATK/DEF depende de lo sacrificado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 37. Súper Asesino Estelar TY-PHON - Crisis Celeste
@@ -1391,7 +1288,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Súper Asesino Estelar TY-PHON - Crisis Celeste**
 
@@ -1400,9 +1296,7 @@
 - **Cómo aprovecharla en este deck:** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
 - **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
 - **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 653

@@ -7,11 +7,9 @@
 > **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 36/36 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
 
 
-> **ACTUALIZACIÓN V36 — FOTOGRAFÍAS REALES 36/36 (100 % del inventario identificado)**. Las cifras de imágenes pendientes mencionadas en los apartados V35 son históricas. Ver [actualización](#actualizacion-v37), [galería visual](guias/GUIA_VISUAL_A01_A10.html) y [manifiesto](#actualizacion-v37). Los combos son análisis escritos, **no simulaciones comprobadas**; Side físico conservado en 7 cartas.
 
 > DOCUMENTO DE ESTUDIO, NO REPORTE DE SIMULADOR. Conserva las 70 cartas físicamente identificadas: Main 48, Extra 15, Side 7. No se añadieron las 8 cartas que faltarían para un Side de 15. Referencia NUEVO_14 documental; el ID real de Station X se asigna mediante consulta, sin sobrescribir decks existentes.
 
-> **Actualización V35 solo A01–A05:** leer [profundización A01–A05 integrada](#profundizacion-a01-a05). Se recuperaron **10 fotos auténticas por CID** de otros decks del maestro; quedan **26/36 pendientes**. El contenido A06–A10 no fue revalidado ni modificado.
 
 ## TABLERO DE AVANCE A01–A10
 
@@ -370,6 +368,10 @@ Las **36 identidades están enumeradas individualmente** en la matriz A05 del do
 ---
 
 <a id="auditoria-ampliada-v38"></a>
+## HISTORIAL DE PROFUNDIZACIÓN — V38–V40 (evidencia complementaria, no apartados vigentes)
+
+Los diez apartados A01–A10 anteriores constituyen la navegación principal. Los cortes siguientes conservan detalles, escenarios y verificaciones de origen; no son un segundo inventario ni pruebas ejecutadas.
+
 ## CORTE V38 · Profundización de todos los apartados A01–A10 (17-11-2026)
 **Inventario inmutable:** Main 48, Extra 15, Side 7; **36/36 identidades** con fotografía real, CID y nombre oficial cotejados.
 **Estado técnico:** 8 fichas/rutas/variantes observables en A09, **0 replays de simulador aportados**, importación real sin ejecutar. Los enlaces a imágenes de cada carta están contenidos en esta misma carpeta. Las declaraciones de fotos pendientes de V35/V36 son históricas y quedan sustituidas por este corte.

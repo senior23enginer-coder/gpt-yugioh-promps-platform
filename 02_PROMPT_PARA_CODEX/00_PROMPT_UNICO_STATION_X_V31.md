@@ -1,6 +1,6 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
-**Estado:** guía global vigente del paquete de investigación de los **13 decks** (11 anteriores + 2 altas), complementada obligatoriamente por los **36 prompts modulares** de `02_PROMPT_PARA_CODEX/apartados/`. Leer las instrucciones específicas del apartado que se trabaje antes de revisar, implementar o importar. **No se autoriza importar automáticamente** nada a Station X ni cambiar inventarios con este documento.
+**Estado vigente (17-11-2026):** guía global de los **16 decks documentados** (11 originales + 5 incorporaciones), complementada obligatoriamente por los **36 prompts modulares** de `02_PROMPT_PARA_CODEX/apartados/`. Las cifras de 11 y 13 decks que aparecen más abajo documentan cortes anteriores, no el alcance vigente. El estado acreditado de la biblioteca está en el registro único. Leer las instrucciones específicas del apartado antes de revisar, implementar o importar. **No se autoriza importar automáticamente** nada a Station X ni cambiar inventarios con este documento.
 
 ## 0. PROTECCIÓN MANDATORIA E IRREVOCABLE DE PROMPTS — PRIORIDAD MÁXIMA
 
@@ -34,7 +34,7 @@ Se aplica a las rutas existentes, manualmente editadas y futuras, sin alterar el
 
 ## 1. Alcance inmutable
 
-La plataforma representa **Yu-Gi-Oh! físico**, no un simulador. El control A01–A10 abarca **13 decks independientes** contenidos en `01_INFORMACION_PARA_IMPORTAR/decks/`; las cifras de ejecución anteriores a las dos altas corresponden solo a los 11 originales. Preservar Main, Extra, Side, Reserva, números de copias, formatos y Skills Rush; no cambiar listas. No presentar replays de motor o partidas físicas como ejecutados: la prueba de mesa corresponde exclusivamente al usuario.
+La plataforma representa **Yu-Gi-Oh! físico**, no un simulador. El control A01–A10 abarca **16 decks independientes** contenidos en `01_INFORMACION_PARA_IMPORTAR/decks/`; las cifras de ejecución de 11 y 13 decks corresponden a cortes anteriores y se conservan como evidencia histórica. Preservar Main, Extra, Side, Reserva, números de copias, formatos y Skills Rush; no cambiar listas. No presentar replays de motor o partidas físicas como ejecutados: la prueba de mesa corresponde exclusivamente al usuario.
 
 **Decisión expresa de Miguel (17-11-2026), aplicable a todos los decks y apartados:** no consultar, aplicar ni tener en cuenta listas de cartas prohibidas, limitadas o semilimitadas, ni sus fechas de vigencia. Esta exclusión también rige recomendaciones de incorporación, retirada, sustitución y cantidades de A22, sin excepciones. No generar alertas, bloqueos, exclusiones, etiquetas históricas ni rechazar cartas o rutas por ese motivo; tampoco alterar el inventario ni reducir copias. Una advertencia de ese origen en una fuente anterior no se reutiliza como criterio del análisis. Mantener la comprobación de identidad, efectos, costes, materiales, zonas, ventanas, límites de uso por turno, reglas mecánicas del formato y condiciones de Skills: son requisitos de funcionamiento de la jugada y siguen vigentes.
 

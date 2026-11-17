@@ -1,5 +1,8 @@
 # Pyro
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -36,16 +39,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2
 - **Contraste de fuente Rush:** CID 15204: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Otorga daño de penetración este turno a un monstruo propio boca arriba.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — ¡Atraviesa!**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Otorga daño de penetración este turno a un monstruo propio boca arriba.
-- **Cómo aprovecharla en este deck:** Otorga daño de penetración este turno a un monstruo propio boca arriba.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Germalewe
@@ -64,16 +63,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2
 - **Contraste de fuente Rush:** CID 17285: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal; recurso para sacrificar o emplear como material. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Germalewe**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal; recurso para sacrificar o emplear como material.
 - **Cómo aprovecharla en este deck:** Monstruo Normal; recurso para sacrificar o emplear como material. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Orden Secreta
@@ -92,16 +88,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2
 - **Contraste de fuente Rush:** CID 17212: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Orden Secreta**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Cómo aprovecharla en este deck:** Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo….
 - **Cuándo tener precaución:** la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Hiperasistente Ember
@@ -120,16 +112,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2
 - **Contraste de fuente Rush:** CID 19291: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Invoca desde la mano un Piro de Nivel 7+; si SP Assistant Archer está en el Cementerio, ese monstruo gana 800 ATK este turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Hiperasistente Ember**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Invoca desde la mano un Piro de Nivel 7+; si SP Assistant Archer está en el Cementerio, ese monstruo gana 800 ATK este turno.
-- **Cómo aprovecharla en este deck:** Invoca desde la mano un Piro de Nivel 7+; si SP Assistant Archer está en el Cementerio, ese monstruo gana 800 ATK este turno.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Cromatográfagas
@@ -148,16 +136,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2
 - **Contraste de fuente Rush:** CID 18583: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal de Nivel 7 y material nombrado de Supergráfagas Archer.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cromatográfagas**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal de Nivel 7 y material nombrado de Supergráfagas Archer.
-- **Cómo aprovecharla en este deck:** Monstruo Normal de Nivel 7 y material nombrado de Supergráfagas Archer.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Superasistente Ember
@@ -176,16 +160,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2
 - **Contraste de fuente Rush:** CID 17963: fuente oficial Rush consultada en japonés; tipo Monstruo Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Superasistente Ember**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra.
-- **Cómo aprovecharla en este deck:** Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 07. Fusión
@@ -204,16 +184,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2
 - **Contraste de fuente Rush:** CID 16934: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fusión**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Cómo aprovecharla en este deck:** Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Fuego Ardiente
@@ -232,16 +208,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2
 - **Contraste de fuente Rush:** CID 16171: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fuego Ardiente**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival.
-- **Cómo aprovecharla en este deck:** Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Salamandra Quimicalizada
@@ -260,16 +232,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2
 - **Contraste de fuente Rush:** CID 17868: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Todos los monstruos boca arriba rivales pierden 100 ATK por cada monstruo en el Cementerio rival hasta fin de turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Salamandra Quimicalizada**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Todos los monstruos boca arriba rivales pierden 100 ATK por cada monstruo en el Cementerio rival hasta fin de turno.
-- **Cómo aprovecharla en este deck:** Todos los monstruos boca arriba rivales pierden 100 ATK por cada monstruo en el Cementerio rival hasta fin de turno.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: pagar/cumplir el requisito escrito antes de prometer la resolución.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Gelatina Defensiva
@@ -288,16 +256,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2
 - **Contraste de fuente Rush:** CID 18646, nombre japonés **バッファード・スライム** (Buffered Slime): texto oficial localizado con `request_locale=ja`, tipo Carta de Trampa Normal. La condición de ataque de monstruo rival de Nivel 8 o inferior, el envío de la carta superior del Deck, la prevención de daño de batalla del turno y el daño de efecto de 2000 si los LP propios son al menos 3000 coinciden con el resumen previo. La denominación española «Gelatina Defensiva» sigue siendo un alias del inventario; no se impone traducción oficial.
 - **Aplicación concreta dentro de este deck (A06):** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gelatina Defensiva**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Cómo aprovecharla en este deck:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto.
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 11. Amparo del Protector Estelar
@@ -316,16 +280,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2
 - **Contraste de fuente Rush:** CID 19700: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** El rival solo puede declarar un ataque en ese turno.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Amparo del Protector Estelar**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000.
 - **Cómo aprovecharla en este deck:** El rival solo puede declarar un ataque en ese turno.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso….
 - **Cuándo tener precaución:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Parar la Defensa
@@ -344,16 +305,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2
 - **Contraste de fuente Rush:** CID 16776: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Cambia un monstruo rival que esté en Defensa a Ataque boca arriba.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Parar la Defensa**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Cambia un monstruo rival que esté en Defensa a Ataque boca arriba.
-- **Cómo aprovecharla en este deck:** Cambia un monstruo rival que esté en Defensa a Ataque boca arriba.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Agujero Trampa
@@ -372,16 +329,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2
 - **Contraste de fuente Rush:** CID 15913: fuente oficial Rush consultada en japonés; tipo Carta de Trampa Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye ese monstruo invocado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Agujero Trampa**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye ese monstruo invocado.
-- **Cómo aprovecharla en este deck:** Destruye ese monstruo invocado.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Gobernante de las Llamas
@@ -400,16 +353,12 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2
 - **Contraste de fuente Rush:** CID 17926: fuente oficial Rush consultada en japonés; tipo Monstruo de Efecto; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Gobernante de las Llamas**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO.
-- **Cómo aprovecharla en este deck:** Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO.
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
 - **Cuándo tener precaución:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Olla de la Codicia
@@ -428,16 +377,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2
 - **Contraste de fuente Rush:** CID 16372: fuente oficial Rush consultada en japonés; tipo Carta Mágica Normal; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Olla de la Codicia**
 
 - **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Roba dos cartas.
 - **Cómo aprovecharla en este deck:** Roba dos cartas. Aportación posible como material, coste o objetivo; verificar consumidor.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Arquero Ígneo Supergráfagas
@@ -456,16 +402,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2
 - **Contraste de fuente Rush:** CID 19990: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Gana 2500 ATK este turno; opcionalmente reduce en 1500 ATK un monstruo rival boca arriba de Nivel 9 o inferior. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Arquero Ígneo Supergráfagas**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Gana 2500 ATK este turno; opcionalmente reduce en 1500 ATK un monstruo rival boca arriba de Nivel 9 o inferior.
 - **Cómo aprovecharla en este deck:** Gana 2500 ATK este turno; opcionalmente reduce en 1500 ATK un monstruo rival boca arriba de Nivel 9 o inferior. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** pagar/cumplir el requisito escrito antes de prometer la resolución.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -487,16 +430,13 @@
 - **Confianza:** **RESUMEN_FUNCIONAL_DE_GUIA_PREVIA_CON_FUENTE_KONAMI**; pendiente cotejo adicional de traducción/ventanas según la liga. Fuente Rush oficial: https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2
 - **Contraste de fuente Rush:** CID 18614: fuente oficial Rush consultada en japonés; tipo Monstruo de Fusión; descripción funcional en español procede de la guía previa y sigue siendo interpretación editorial.
 - **Aplicación concreta dentro de este deck (A06):** Destruye todas las Mágicas/Trampas de ambos Campos y opcionalmente reduce 1000 ATK a los monstruos rivales por cada Mágica destruida. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Salamandra Alquimicalizada**
 
 - **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Destruye todas las Mágicas/Trampas de ambos Campos y opcionalmente reduce 1000 ATK a los monstruos rivales por cada Mágica destruida.
 - **Cómo aprovecharla en este deck:** Destruye todas las Mágicas/Trampas de ambos Campos y opcionalmente reduce 1000 ATK a los monstruos rivales por cada Mágica destruida. A06 identifica su destino, condicionado a material/procedimiento.
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 

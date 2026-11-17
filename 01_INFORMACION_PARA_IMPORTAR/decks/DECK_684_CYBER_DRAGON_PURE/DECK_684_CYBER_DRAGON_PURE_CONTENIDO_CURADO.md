@@ -1,5 +1,8 @@
 # Cyber Dragon Pure
 
+> **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
+
+
 
 ## IDENTIDAD BÁSICA
 
@@ -42,18 +45,14 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Core**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival.
-- **Cómo aprovecharla en este deck:** Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «starter Cyber».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Los dos efectos principales comparten limitación de uso por turno. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 02. Cyber Dragon
@@ -78,7 +77,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Cyber Dragon se Invoca Especial desde mano únicamente cuando solo el oponente controla monstruos.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon**
 
@@ -87,9 +85,7 @@
 - **Cómo aprovecharla en este deck:** al usar **Power Bond no necesitas Invocar Cyber Dragon**: se emplea como material de Fusión directamente desde la mano. Con Nachster y Power Bond abre **Heosvarog** defensor (`684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`); si también tienes Herz puedes elegir **Eternity** 5600 ATK (`684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`) con coste 2800 LP propio al final del turno. Son alternativas, no campos simultáneos con una sola copia.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «extensor Cyber».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** En campo propio ocupado no se invoca gratis mediante ese procedimiento. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 03. Cyber Dragon Nachster
@@ -114,7 +110,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Nachster**
 
@@ -123,9 +118,7 @@
 - **Cómo aprovecharla en este deck:** como Máquina LUZ puede ser material desde mano sin activar ninguno de sus efectos. Con Cyber Dragon + Power Bond → **Heosvarog**, cuyos dos materiales quedan listos en GY para coste de negación M/T; si añades Herz → **Eternity**, atacante de 5600 con daño propio 2800 al final. Las guías `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09` y `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10` enseñan ambas manos.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 04. Cyber Dragon Herz
@@ -150,7 +143,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Herz**
 
@@ -159,9 +151,7 @@
 - **Cómo aprovecharla en este deck:** en `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10` sirve de **tercer material Máquina de Eternity**, pasa al GY por Power Bond y en una **cadena nueva** recupera el Cyber Dragon original del GY a tu mano. No es una búsqueda que ocurra durante la resolución de Power Bond y no equivale a invocar desde el Cementerio.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 05. Cyberdark Chimera
@@ -186,7 +176,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberdark Chimera**
 
@@ -195,9 +184,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 06. Cyberdark Horn
@@ -222,7 +209,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14` exige Cyber Dragon y Horn de nombres **distintos**, Night previamente activa y monstruo rival. Horn Normal, junto a Cyber Dragon Especial, se emplea como material para Barricadeborg; su efecto propio de Equipo no es requisito ni permanece tras Enlace.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberdark Horn**
 
@@ -231,10 +217,8 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia V11 demostrada:** con Cyber Dragon como nombre distinto, Horn es material de Barricadeborg Blocker, que protege Clockwork Night propia ya activa. Esta línea pierde ambos monstruos y no usa el efecto de equipo de Horn.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **GUÍA V11 — `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`:** [ver mano, campo anterior, fotos, materiales y campo final](guias/DECK_684_CLOCKWORK_KNIGHT_Y_BARRICADEBORG_ALTERNATIVAS_GUIA.md). No cambiar Horn por Core; Core pasaría a llamarse Cyber Dragon en campo y el Link2 pide nombres diferentes.
 
@@ -261,7 +245,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberdark Wurm [Konami 21164]**
 
@@ -270,9 +253,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 08. Cyberdark Claw
@@ -297,7 +278,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberdark Claw**
 
@@ -306,9 +286,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 09. Cyber Phoenix
@@ -333,7 +311,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** generación de cartas por robo. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Phoenix**
 
@@ -342,10 +319,8 @@
 - **Cómo aprovecharla en este deck:** generación de cartas por robo. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «ventaja de mano».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 10. Cyber Jormungardr [Konami 21163]
@@ -370,7 +345,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:JORMUNGARDR:VIMANA16`: Jormungardr Main 1x desde mano si rival tiene monstruo + **Cyber Dragon original desde Deck** (1x) → dos Máquinas Nivel5 para Vimana Rango5; Vimana se permite bajo el bloqueo a no-Máquinas y conserva dos materiales para negar activación de efecto de monstruo rival.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Jormungardr [Konami 21163]**
 
@@ -379,9 +353,7 @@
 - **Cómo aprovecharla en este deck:** vía de **un solo recurso en mano** a Vimana desde Cyber Dragon del Deck, siempre que el rival controle monstruo. Alternativa Xyz Nova/Infinity con los mismos 2 Nivel5, no campo acumulable.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **GUÍA V12 — `684:A09:JORMUNGARDR:VIMANA16`:** [entrada de una carta, Invocación de Cyber Dragon del Deck, restricción Máquina, Xyz y negación](guias/DECK_684_687_AZALEA_VIMANA_PRINCESS_GUIA_V12.md). Mantener 1x provisional; si el único Cyber Dragon está en mano o GY, NO afirmar que esta apertura llega a Vimana.
 
@@ -408,18 +380,14 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Therion "King" Regulus**
 
 - **Label funcional:** Sinergia directa. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
 - **Qué hace:** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion.
-- **Cómo aprovecharla en este deck:** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «extensor Máquina».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
 - **Cuándo tener precaución:** Su activación exige equipo/recursos adecuados y no se confunde con una negación pasiva. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 12. Ash Blossom & Joyous Spring
@@ -444,7 +412,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ash Blossom & Joyous Spring**
 
@@ -453,9 +420,7 @@
 - **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 13. Ghost Belle & Haunted Mansion
@@ -480,7 +445,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Ghost Belle & Haunted Mansion**
 
@@ -489,9 +453,7 @@
 - **Cómo aprovecharla en este deck:** Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
 - **Cuándo tener precaución:** No niega todos los efectos: exige que el efecto incluya una de las acciones enumeradas. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 14. Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]
@@ -517,7 +479,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]**
 
@@ -526,9 +487,7 @@
 - **Cómo aprovecharla en este deck:** acceso al campo desde la mano.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 15. Cyber Emergency
@@ -553,7 +512,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Emergency**
 
@@ -562,9 +520,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 16. Cyberdark Realm
@@ -589,7 +545,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberdark Realm**
 
@@ -598,9 +553,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 17. Cyber Revsystem
@@ -625,7 +578,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; protección o resistencia contra respuestas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Revsystem**
 
@@ -634,9 +586,7 @@
 - **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; protección o resistencia contra respuestas.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «recuperación».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 18. Cybernetic Horizon
@@ -661,7 +611,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cybernetic Horizon**
 
@@ -670,9 +619,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 19. Clockwork Night
@@ -697,7 +644,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Clockwork Night**
 
@@ -706,9 +652,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 20. Power Bond
@@ -733,7 +677,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Power Bond fusiona Máquinas con materiales de mano/campo, duplica el ATK de la Fusión y causa daño al propio jugador en End Phase.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Power Bond**
 
@@ -742,9 +685,7 @@
 - **Cómo aprovecharla en este deck:** escoge el **propósito antes de activarla**: (1) `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09` con Cyber Dragon + Nachster de mano = **Heosvarog DEF 2800**, negación de Mágica/Trampa y **cero daño** de Power Bond por ATK original cero; (2) `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10` añade Herz = **Eternity 5600 ATK** y **2800 LP propios de daño** en End Phase. No usar los mismos materiales en ambas Fusiones simultáneamente.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «mágica de Fusión».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Puede ganar la partida o perderla por el daño propio si no se termina el duelo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 21. Limiter Removal
@@ -769,7 +710,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Limiter Removal**
 
@@ -778,10 +718,8 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 22. Cyberload Fusion
@@ -806,7 +744,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyberload Fusion**
 
@@ -815,9 +752,7 @@
 - **Cómo aprovecharla en este deck:** destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 23. Overload Fusion
@@ -842,7 +777,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Overload Fusion**
 
@@ -851,9 +785,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 24. Cyber Eternal
@@ -878,7 +810,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Eternal**
 
@@ -887,9 +818,7 @@
 - **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 25. Mystical Space Typhoon
@@ -914,7 +843,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Mystical Space Typhoon**
 
@@ -923,10 +851,8 @@
 - **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «removal».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
 - **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 26. Cosmic Cyclone
@@ -951,7 +877,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Paga 1000 LP para desterrar una Mágica/Trampa en campo. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cosmic Cyclone**
 
@@ -960,9 +885,7 @@
 - **Cómo aprovecharla en este deck:** Paga 1000 LP para desterrar una Mágica/Trampa en campo. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «mágica rápida».
-- **Uso y consumo de recursos:** Destierro como uso/recurso; comprobar origen, coste o efecto y recuperación.
 - **Cuándo tener precaución:** El coste de LP y selección de objetivo deben pagarse/declararse antes de la resolución. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 27. Infinite Impermanence
@@ -987,7 +910,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Infinite Impermanence**
 
@@ -996,9 +918,7 @@
 - **Cómo aprovecharla en este deck:** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «trampa».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Desde mano sólo con el campo propio vacío, conforme a la condición de activación de la Trampa. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 28. Cybernetic Overflow
@@ -1023,7 +943,6 @@
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cybernetic Overflow**
 
@@ -1032,9 +951,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: destierro de recurso propio.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 29. Chimeratech Rampage Dragon (Konami ID 11764)
@@ -1059,7 +976,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chimeratech Rampage Dragon (Konami ID 11764)**
 
@@ -1068,9 +984,7 @@
 - **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1100,7 +1014,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Sieger**
 
@@ -1109,9 +1022,7 @@
 - **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1139,7 +1050,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fortress usa Cyber Dragon y Máquinas de cualquier campo enviadas al Cementerio para su Invocación especial del Extra. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chimeratech Fortress Dragon**
 
@@ -1148,9 +1058,7 @@
 - **Cómo aprovecharla en este deck:** Fortress usa Cyber Dragon y Máquinas de cualquier campo enviadas al Cementerio para su Invocación especial del Extra. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «Fusión de contacto».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No es una Fusión por efecto de Polimerización; el procedimiento es específico. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1178,7 +1086,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13` usa Core original ATK400 como único material del Link1; Knight envía como coste Clockwork Night boca arriba y busca otra en Deck. No puede activar esta segunda Night ese turno ni revivir Core sin una Máquina adicional propia que sacrificar.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Clockwork Knight (Konami ID 20787)**
 
@@ -1187,9 +1094,7 @@
 - **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA V11 DOCUMENTADA**
 
@@ -1217,7 +1122,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`: Cyber Dragon y Horn son nombres diferentes y forman Link2, con Clockwork Night ya boca arriba; la Mágica propia queda protegida contra destrucción por efectos del oponente, **no** destierro ni negación. Su recuperación de Mágica en End Phase exige una carta extra para descartar y otra Mágica Continua/de Campo elegible en GY.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Barricadeborg Blocker**
 
@@ -1226,9 +1130,7 @@
 - **Cómo aprovecharla en este deck:** con Clockwork Night ya activa, usar Cyber Dragon Especial + Cyberdark Horn Normal como dos nombres diferentes. Barricadeborg protege Night de destrucción por efectos rivales; sin un descarte y Mágica en GY no prometer recuperación End Phase.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA V11 DOCUMENTADA**
 
@@ -1256,7 +1158,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Nova revive Cyber Dragon del Cementerio, puede ganar ATK desterrando Cyber y al ser enviado al Cementerio por efecto rival trae Fusión Máquina del Extra. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Nova (Konami ID 10870)**
 
@@ -1265,9 +1166,7 @@
 - **Cómo aprovecharla en este deck:** Nova revive Cyber Dragon del Cementerio, puede ganar ATK desterrando Cyber y al ser enviado al Cementerio por efecto rival trae Fusión Máquina del Extra. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «Xyz Cyber».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** Para subir a Infinity, Nova debe existir legalmente como material. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1295,7 +1194,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** **Heosvarog desde mano Cyber Dragon + Nachster + Power Bond**, sin usar Normal ni depender de monstruo rival; los materiales quedan en GY para costear su respuesta M/T. Abrir `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Heosvarog the Mechanical Dawn (Konami ID 20511)**
 
@@ -1304,9 +1202,7 @@
 - **Cómo aprovecharla en este deck:** Power Bond Fusiona Cyber Dragon + Nachster desde mano; Heosvarog en Defensa, materiales enviados al GY; siguiente Standby puede recuperar Power Bond si es elegible. Guía `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — GUÍA VISUAL VERIFICADA EN ESTADO BASE**
 
@@ -1334,7 +1230,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** dos Máquinas (Cyber Dragon + Core) forman Genius Link2; este puede seleccionar **Clockwork Night propia** y **un monstruo rival** para negar ambos efectos hasta fin de turno. También se niega la conversión de Tipo de la propia Mágica. Genius Invocado por Enlace es inmune a efectos M/T y no recibe su bono de ATK. La búsqueda de Máquina Nivel5+ de Genius requiere invocaciones simultáneas a zonas apuntadas, que esta ruta **no genera**.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Qliphort Genius**
 
@@ -1373,7 +1268,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Megafleet requiere Cyber Dragon y monstruos en zona Extra, enviados desde cualquier campo al Cementerio. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chimeratech Megafleet Dragon**
 
@@ -1382,9 +1276,7 @@
 - **Cómo aprovecharla en este deck:** Megafleet requiere Cyber Dragon y monstruos en zona Extra, enviados desde cualquier campo al Cementerio. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «Fusión de contacto».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** No consume cualquier monstruo en zonas principales: importa la zona Extra. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1413,7 +1305,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:CYBER:CORE:AZALEA15`: Cyber Dragon Especial ante monstruo rival + Core Normal, ambos LUZ, cumplen Azalea Enlace-2 y Core busca Emergency. Azalea destruye carta seleccionable y **se envía a sí misma al GY si hay 3 o menos Mágicas en tu GY**; no conservarla en el endboard de esa variante.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Sky Striker Ace - Azalea**
 
@@ -1422,9 +1313,7 @@
 - **Cómo aprovecharla en este deck:** romper una carta rival destruyéndola en la variante con menos de 4 Mágicas en GY, a costa de perder Azalea tras resolver; con 4+ Mágicas es otra rama de campo final.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — V12, CONDICIONADO**
 
@@ -1452,7 +1341,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:JORMUNGARDR:VIMANA16`: Jormungardr (Nivel5) + Cyber Dragon del Deck (Nivel5), Máquina Rango5 de 2300 ATK con 2 materiales. Desacoplar ambos para negar activación de **efecto de monstruo del rival**, no efectos M/T ni destruir automáticamente.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chronomaly Vimana**
 
@@ -1461,9 +1349,7 @@
 - **Cómo aprovecharla en este deck:** salida alternativa a Nova/Infinity con 2 materiales para negar una activación posterior de efecto de monstruo (coste: desacoplar 2). Su aumento/recarga exige Xyz o Cronómalo elegible en GY: NO disponible en la entrada mínima.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — V12, CONDICIONADO**
 
@@ -1491,7 +1377,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Infinity sube sobre Nova, gana ATK por materiales, absorbe monstruo en ataque y niega activaciones al desacoplar. A06 identifica su destino, condicionado a material/procedimiento.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Dragon Infinity (Konami ID 11765)**
 
@@ -1500,9 +1385,7 @@
 - **Cómo aprovecharla en este deck:** Infinity sube sobre Nova, gana ATK por materiales, absorbe monstruo en ataque y niega activaciones al desacoplar. A06 identifica su destino, condicionado a material/procedimiento.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «jefe Xyz Cyber».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** Distinguir absorber como efecto de negación y conservar material Xyz. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1530,7 +1413,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** frente al Campo de un rival que ya tiene monstruo: Cyber Dragon se Invoca Especialmente de mano, Core se Invoca Normal y busca Emergency. Con ambos se Invoca S:P (Guerrero OSCURIDAD) por Enlace. En una activación rival posterior, S:P puede desterrar temporalmente dos monstruos boca arriba, incluido uno tuyo. No niega esa activación. **No** activar restricciones a Máquina procedentes de otras cartas antes de Invocarla.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — S:P Little Knight**
 
@@ -1539,9 +1421,7 @@
 - **Cómo aprovecharla en este deck:** gastar Cyber Dragon original + Core como dos monstruos de efecto para formar S:P cuando el rival ya controla monstruo. Conservar S:P como respuesta a una futura activación rival, no atribuirle destierro inmediato por esta Invocación.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
 - **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA DEFENSIVA CONDICIONAL**
 
@@ -1570,7 +1450,6 @@
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`: mano Cyber Dragon original + Herz + Nachster + Power Bond → Eternity 5600 ATK, Herz recupera original en cadena posterior; cuidado con daño fijo 2800 en End Phase y falta de protección inicial.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Cyber Eternity Dragon**
 
@@ -1609,7 +1488,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — El Calculador**
 
@@ -1618,9 +1496,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «cierre».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 44. Prisión Dimensional
@@ -1645,7 +1521,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Cuando un monstruo rival declara ataque, lo selecciona y destierra.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Prisión Dimensional**
 
@@ -1654,9 +1529,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Cuando un monstruo rival declara ataque, lo selecciona y destierra.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «trampa».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** No se activa fuera de la ventana de declaración de ataque. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 45. Fuwalos Multivadora
@@ -1681,7 +1554,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fuwalos Multivadora**
 
@@ -1690,9 +1562,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano; reciclaje de recurso propio.
 - **Cuándo tener precaución:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 46. Droll & Lock Bird
@@ -1717,7 +1587,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Droll & Lock Bird**
 
@@ -1726,9 +1595,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «handtrap».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 47. Tormenta de Relámpagos
@@ -1753,7 +1620,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Tormenta de Relámpagos**
 
@@ -1762,9 +1628,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «mágica».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** No destruye monstruos en defensa con su primera opción. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 48. Fusion Recycling Plant
@@ -1789,7 +1653,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Fusion Recycling Plant**
 
@@ -1798,9 +1661,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «buscador».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: descarte de mano.
 - **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 49. Talento de Tácticas Triples
@@ -1825,7 +1686,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Talento de Tácticas Triples**
 
@@ -1834,9 +1694,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 50. Revolución Cibernética
@@ -1861,7 +1719,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. uso de Sacrificios como parte del efecto.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Revolución Cibernética**
 
@@ -1870,9 +1727,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. uso de Sacrificios como parte del efecto.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «coste/recurso».
-- **Uso y consumo de recursos:** Coste o consumo descrito en A05: Sacrificio.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 51. Dragón Ciber Final
@@ -1897,7 +1752,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Dragón Ciber Final**
 
@@ -1906,9 +1760,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «habilitador de Extra».
-- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
 - **Cuándo tener precaución:** Riesgo operativo: materiales exigidos, efectos que requieren campo rival y bloqueos de Invocación Especial. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 
 #### 52. Chimeratech Overdragon
@@ -1933,7 +1785,6 @@
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
 - **Aplicación concreta dentro de este deck (A06):** Fuera de lista. Overdragon requiere Cyber Dragon más Máquinas, envía las otras cartas propias al Cementerio y escala ATK/ataques según materiales.. No aporta recursos durante este duelo.
-- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
 
 **USO PRÁCTICO Y SINERGIA — Chimeratech Overdragon**
 
@@ -1942,9 +1793,7 @@
 - **Cómo aprovecharla en este deck:** Fuera de lista. Overdragon requiere Cyber Dragon más Máquinas, envía las otras cartas propias al Cementerio y escala ATK/ataques según materiales.. No aporta recursos durante este duelo.
 - **Al jugar primero:** proteger acceso a Core/recursos y preparar presencia legal. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
 - **Al jugar segundo:** romper el campo rival y convertir Máquinas en Fusión o ataque de cierre. Identificar primero la respuesta rival que afecta su función «Fusión Cyber».
-- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
 - **Cuándo tener precaución:** Puede dejar tu propio campo vacío: revisar exactamente materiales y daño posible. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
-- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
 
 ## SINERGIAS Y MOTORES
 ## RESUMEN FUNCIONAL DE SINERGIAS — 684

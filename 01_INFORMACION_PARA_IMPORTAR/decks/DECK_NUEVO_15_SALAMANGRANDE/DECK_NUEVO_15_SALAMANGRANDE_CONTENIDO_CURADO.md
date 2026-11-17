@@ -7,11 +7,9 @@
 > **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 39/39 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
 
 
-> **ACTUALIZACIÓN V36 — FOTOGRAFÍAS REALES 39/39 (100 % del inventario identificado)**. Las cifras de imágenes pendientes mencionadas en los apartados V35 son históricas. Ver [actualización](#actualizacion-v37), [galería visual](guias/GUIA_VISUAL_A01_A10.html) y [manifiesto](#actualizacion-v37). Los combos son análisis escritos, **no simulaciones comprobadas**. «Salamangrande Espejismetal» se vincula por identidad confirmada a la carta oficial **Salamangrande Espejismental**, CID 14248, sin modificar el nombre transcrito.
 
 > INVENTARIO REAL SIN CAMBIOS: Main 40 = 24 monstruos + 12 mágicas + 4 trampas; Extra 15; Side 15; total 70. NUEVO_15 es un identificador de archivo, NO un ID real de Station X. Fuente: lista fotográfica transcrita por Miguel el 17-11-2026.
 
-> **Actualización V35 solo A01–A05:** ver [profundización A01–A05 integrada](#profundizacion-a01-a05); **9 JPG auténticos** reutilizados por CID y **30 fotos** pendientes. A06–A10 preservados como estudio documental.
 
 ## ESTADO DE LOS DIEZ APARTADOS
 
@@ -382,6 +380,10 @@ La matriz A05 del documento principal **incluye las 39 identidades** de Main, Ex
 ---
 
 <a id="auditoria-ampliada-v38"></a>
+## HISTORIAL DE PROFUNDIZACIÓN — V38–V40 (evidencia complementaria, no apartados vigentes)
+
+Los diez apartados A01–A10 anteriores constituyen la navegación principal. Los cortes siguientes conservan detalles, escenarios y verificaciones de origen; no son un segundo inventario ni pruebas ejecutadas.
+
 ## CORTE V38 · Profundización de todos los apartados A01–A10 (17-11-2026)
 **Inventario inmutable:** Main 40, Extra 15, Side 15; **39/39 identidades** con fotografía real, CID y nombre oficial cotejados.
 **Estado técnico:** 8 fichas/rutas/variantes observables en A09, **0 replays de simulador aportados**, importación real sin ejecutar. Los enlaces a imágenes de cada carta están contenidos en esta misma carpeta. Las declaraciones de fotos pendientes de V35/V36 son históricas y quedan sustituidas por este corte.
