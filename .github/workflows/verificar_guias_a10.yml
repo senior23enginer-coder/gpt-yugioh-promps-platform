@@ -1,0 +1,17 @@
+name: Verificar copias de guías A10
+
+on:
+  push:
+    branches: [base]
+  pull_request:
+    branches: [base]
+
+jobs:
+  verificar-guias:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar copias contra las guías compartidas
+        run: python3 tools/sincronizar_guias_a10.py
