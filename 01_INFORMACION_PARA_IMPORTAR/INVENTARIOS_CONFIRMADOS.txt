@@ -1,0 +1,30 @@
+STATION X — IDENTIDADES Y CANTIDADES CONFIRMADAS POR MIGUEL
+Alcance: A02-A04 de 13 decks documentados; no sustituir datos de producción. Los 11 primeros conservan sus IDs reales; los 2 nuevos aún requieren asignación de ID real antes de importar.
+
+deck_id | Nombre | Formato | Main | Extra | Side | Reserva
+650 | Elfnote | TCG | 40 | 15 | 15 | 0
+653 | DoomZ | TCG | 40 | 15 | 9 | 0
+656 | Tearlaments | TCG | 44 | 15 | 0 | 16
+665 | Kashtira Pure | TCG | 42 | 15 | 0 | 19
+670 | Infernoble | TCG | 42 | 15 | 0 | 12
+684 | Cyber Dragon Pure | TCG | 42 | 15 | 0 | 24
+687 | Volcanic | TCG | 42 | 15 | 0 | 14
+704 | Pyro | Rush Duel | 30 | 5 | 0 | 0
+705 | Royal | Rush Duel | 30 | 0 | 0 | 0
+706 | Hero | Rush Duel | 30 | 8 | 0 | 0
+707 | Dark Magician | Rush Duel | 30 | 7 | 0 | 0
+671 | Memento (estudio Mementotlán / Demoniherrero) | TCG Advanced | 41 | 15 | 14 | 0
+677 | Crystron (estudio Cristron / Horus) | TCG Advanced | 40 | 15 | 15 | 0
+
+Vínculos confirmados por Miguel el 16-11-2026: NUEVO_12 → 671 Memento; NUEVO_13 → 677 Crystron. Ambos IDs y su formato tcg_advanced se cotejaron en el catálogo vivo. Esta confirmación sustituye las menciones históricas de asignación pendiente de las dos altas.
+
+REGLAS
+- La Reserva no forma parte del Main ni del Side activo.
+- Una Skill Rush es externa al Deck; no se roba como carta del Main.
+- Los primeros once inventarios y sus deck_id reales fueron confirmados previamente.
+  Las dos listas nuevas se recibieron de Miguel el 16-11-2026; sus cantidades
+  están cotejadas por suma, no sus nombres/CID ni su legalidad de formato.
+  No inventar deck_id de Station X. Resolver la identidad real de los dos
+  decks nuevos con Miguel antes de asociar o importar cualquier contenido.
+- Solo se importa información jugable A02-A10. El estado de evaluación
+  editorial no es dato ni función de Station X.

@@ -1,0 +1,1060 @@
+{
+  "schema": "station-x-extra-rutas/13",
+  "fecha": "2026-11-14",
+  "descripcion": "Rutas de invocación, uso GY y rutas rivales condicionadas. Dos Fusión SuperPoly eran conocidas en V12 y han sido afinadas.",
+  "rutas": [
+    {
+      "id": "650:EXTRA:V13:22356",
+      "familia_de_jugada": "ELF-MEDIUS-PATRON-LV8",
+      "deck_id": 650,
+      "cid": 22356,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Los Tres Campeones de Almaespada / The Three Champions of Swordsoul [Synchro; Konami 22356]",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Abrir Tres Campeones de Almaespada para buscar un Spellcaster concreto y negar una carta.",
+      "mano_inicial": [
+        "Medius the Pure (CID 21419)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius (Nivel 4, OSCURIDAD, Hada) en zona distinta de la central.",
+          "resultado": "Medius queda de Nivel 4; Normal consumida.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar disparador de Medius; elegir Invocar Especial desde Deck a Elfnote Power Patron (Cantante Nivel 1) a la zona central.",
+          "resultado": "Medius Nivel 4 + Patron Cantante Nivel 1, ambos boca arriba.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Durante Main activar efecto rápido de Power Patron seleccionándose A SÍ MISMO en la zona central; sumarle 3 niveles. No elegir la Sincro inmediata opcional del propio efecto.",
+          "resultado": "Patron pasa de Nivel 1 a Nivel 4 hasta final de turno; quedan dos cuerpos de Nivel 4.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "En estado de juego abierto, realizar Invocación por Sincronía normal de The Three Champions of Swordsoul (22356, Nivel 8), usando Patron Cantante 4 + Medius no Cantante 4.",
+          "resultado": "Ambos pasan al GY como materiales; el Sincro Nivel 8 ocupa zona legal.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "En nueva cadena, activar efecto de Sincro para añadir del Deck Dogmatika Ecclesia (Nivel 4, Spellcaster, ATK=DEF 1500); activar también el efecto de Patron enviado como material para añadir una Elfnote disponible del Deck.",
+          "resultado": "Sincro en mesa + Ecclesia y recurso Elfnote en mano, condicionado a búsquedas no negadas.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "No hay descarte ni tributo de activación en Medius o Patron; Synchro consume Medius + Patron como materiales.",
+        "El objetivo del aumento de nivel es Patron en el centro."
+      ],
+      "restricciones_y_ventanas": [
+        "Power Patron, mientras está boca arriba como monstruo, impide Invocar desde Extra excepto Sincro.",
+        "La Sincro inmediata que ofrece el efecto de Patron solo permite Elfnote Sincro o Junora; se DECLINA y se ejecuta la Sincro normal después de resolver.",
+        "No usar búsqueda de Dogmatika Ecclesia antes de terminar la Sincro; esa búsqueda bloquea el Extra por el resto del turno."
+      ],
+      "campo_final": "The Three Champions (LV8); mano con Ecclesia y una Elfnote si ambos disparos resuelven.",
+      "respuesta_a_interrupciones": "Ash Blossom sobre Medius evita desplegar a Patron; Impermanence sobre Patron antes del aumento impide el Nivel 4; Ash sobre el efecto de búsqueda de Tres Campeones no revierte la invocación Sincro. No declaremos el campo final si esos efectos fueron negados.",
+      "variante_o_plan_b": "El mismo inicio puede elegir Ecclesia and the Dark Dragon (22144) como destino, para interacción rápida en vez de la búsqueda de Tres Campeones.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "650:EXTRA:V13:18666",
+      "familia_de_jugada": "ELF-HARMONIA-ENVIO-EXTRA",
+      "deck_id": 650,
+      "cid": 18666,
+      "clasificacion": "USO_DEL_EXTRA_SIN_INVOCAR",
+      "carta": "Bestia Nube Dorada – Malong / Golden Cloud Beast - Malong [Synchro]",
+      "tipo": "USO_DEL_EXTRA_SIN_INVOCAR",
+      "objetivo": "Mandar Malong directamente desde el Extra al GY con Harmonia para devolver a mano una carta rival boca arriba; NO se ha acreditado su Invocación Sincro Nivel 6.",
+      "mano_inicial": [
+        "Fydraulis Harmonia (22533)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Un monstruo controlado por el oponente activa un efecto; el rival controla además una carta boca arriba válida al resolver la cadena y comenzar la siguiente.",
+      "pasos": [
+        {
+          "accion": "Encadenar efecto rápido de Harmonia al efecto del monstruo rival (CL2). Revelar Harmonia y 3 Sincro de tu Extra, uno Malong (18666), más otros dos Sincro disponibles.",
+          "resultado": "Se alcanza umbral 4 cartas reveladas (Harmonia + 3 del Extra).",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Resolver CL2: aplicar primero 2+ para Invocar Especial a Harmonia desde mano y luego 4+ para ENVIAR a Malong revelado desde Extra al GY.",
+          "resultado": "Harmonia Nivel 7 en campo; Malong en GY, sin haber sido Invocado. Se aplica la restricción de activaciones de Extra de Harmonia hasta el fin del siguiente turno.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Completar resolución de CL1 rival. En cadena nueva, activar Malong enviado al GY, seleccionando una carta boca arriba del oponente para devolverla a la mano.",
+          "resultado": "Harmonia en campo y carta rival rebotada si se mantiene objetivo legal.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Revelación de Harmonia y 3 monstruos Sincro del Extra es requisito de activación; no descartas ni Invocas a Malong."
+      ],
+      "restricciones_y_ventanas": [
+        "Harmonia requiere activación de efecto de monstruo controlado por el rival.",
+        "Con Harmonia, no podrás ACTIVAR efectos de monstruos Invocados del Extra distintos de Sincro hasta el final de tu próximo turno.",
+        "La devolución de Malong es en cadena nueva, después de resolver la cadena original; si ya no queda carta rival boca arriba, no hay objetivo."
+      ],
+      "campo_final": "Harmonia Nivel 7 en campo, Malong en GY, rebote de una carta rival boca arriba sujeto a resolución.",
+      "respuesta_a_interrupciones": "Si niegan Harmonia no se envía Malong. Si mueven o voltean la carta rival antes de resolver Malong, el rebote puede fallar. No intentar encadenar el disparo de Malong dentro de la cadena original.",
+      "variante_o_plan_b": "Si la prioridad es preparar LIGHT Spellcaster para End Phase, enviar Luluwalilith (18505) en vez de Malong. La Synchro Summon propia de Malong Nivel 6 sigue SIN RUTA demostrada.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "650:EXTRA:V13:22144",
+      "familia_de_jugada": "ELF-MEDIUS-PATRON-LV8",
+      "deck_id": 650,
+      "cid": 22144,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Ecclesia y el Dragón Oscuro / Ecclesia and the Dark Dragon [extra; efecto y material según carta]",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Acceder a Ecclesia and the Dark Dragon como respuesta rápida y extensión a Albaz.",
+      "mano_inicial": [
+        "Medius the Pure (CID 21419)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius (Nivel 4, OSCURIDAD, Hada) en zona distinta de la central.",
+          "resultado": "Medius queda de Nivel 4; Normal consumida.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar disparador de Medius; elegir Invocar Especial desde Deck a Elfnote Power Patron (Cantante Nivel 1) a la zona central.",
+          "resultado": "Medius Nivel 4 + Patron Cantante Nivel 1, ambos boca arriba.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Durante Main activar efecto rápido de Power Patron seleccionándose A SÍ MISMO en la zona central; sumarle 3 niveles. No elegir la Sincro inmediata opcional del propio efecto.",
+          "resultado": "Patron pasa de Nivel 1 a Nivel 4 hasta final de turno; quedan dos cuerpos de Nivel 4.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "En estado de juego abierto, realizar Invocación por Sincronía normal de Ecclesia and the Dark Dragon (22144, Nivel 8), usando Patron Cantante 4 + Medius no Cantante 4.",
+          "resultado": "Ambos pasan al GY como materiales; el Sincro Nivel 8 ocupa zona legal.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Al enviar Patron como material, añadir una carta Elfnote a mano. Reservar a Ecclesia and the Dark Dragon para su efecto rápido en Main Phase: se destierra hasta End Phase y trae Albaz o un monstruo de Nivel 4 o menos que lo mencione.",
+          "resultado": "Sincro LV8 en campo, recurso Elfnote a mano; la invocación de Albaz puede esperar a la Main Phase rival.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "No hay descarte ni tributo de activación en Medius o Patron; Synchro consume Medius + Patron como materiales.",
+        "El objetivo del aumento de nivel es Patron en el centro."
+      ],
+      "restricciones_y_ventanas": [
+        "Power Patron, mientras está boca arriba como monstruo, impide Invocar desde Extra excepto Sincro.",
+        "La Sincro inmediata que ofrece el efecto de Patron solo permite Elfnote Sincro o Junora; se DECLINA y se ejecuta la Sincro normal después de resolver.",
+        "No usar búsqueda de Dogmatika Ecclesia antes de terminar la Sincro; esa búsqueda bloquea el Extra por el resto del turno."
+      ],
+      "campo_final": "Ecclesia and the Dark Dragon (LV8) en campo; recurso Elfnote buscado.",
+      "respuesta_a_interrupciones": "Ash Blossom sobre Medius evita desplegar a Patron; Impermanence sobre Patron antes del aumento impide el Nivel 4; Ash sobre el efecto de búsqueda de Tres Campeones no revierte la invocación Sincro. No declaremos el campo final si esos efectos fueron negados.",
+      "variante_o_plan_b": "Con los mismos materiales, elegir Tres Campeones (22356) si importa la búsqueda de Dogmatika Ecclesia y una negación.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "650:EXTRA:V13:18505",
+      "familia_de_jugada": "ELF-MEDIUS-ECCLESIA-LV12",
+      "deck_id": 650,
+      "cid": 18505,
+      "clasificacion": "APERTURA_CONDICIONADA",
+      "carta": "Luluwalilith Despiánica / Despian Luluwalilith [Synchro]",
+      "tipo": "APERTURA_CONDICIONADA",
+      "objetivo": "Invocar legítimamente a Despian Luluwalilith LV12 con Cantante LV4; uso alterno: enviarla con Harmonia y recuperar un Spellcaster LUZ en End Phase.",
+      "mano_inicial": [
+        "Dogmatika Ecclesia, the Virtuous (15239)",
+        "Medius the Pure (21419)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Existe AL MENOS un monstruo Invocado Especial desde el Extra Deck en cualquiera de los campos para poder Invocar a Ecclesia de mano.",
+      "pasos": [
+        {
+          "accion": "Con un monstruo Invocado desde Extra en algún campo, Invocar Especial a Dogmatika Ecclesia Nivel4 LUZ desde mano en una zona no central. NO activar su efecto de búsqueda.",
+          "resultado": "Ecclesia Lv4 no cantante, sin bloqueo Extra activado.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Invocar Normalmente a Medius Nivel4 OSCURIDAD en otra zona no central. Su efecto Invoca Especial a Elfnote Power Patron Nivel1 Cantante desde Deck en la zona central.",
+          "resultado": "Ecclesia 4, Medius 4 y Patron 1 simultáneos.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Patron se selecciona a sí mismo en centro y gana 3 niveles para ser Cantante Nivel4. Declinar la invocación inmediata opcional del propio Patron.",
+          "resultado": "3 cuerpos Nivel4, uno cantante válido.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Durante estado abierto hacer Sincro normal con Patron Cantante4 + Ecclesia4 + Medius4 = Despian Luluwalilith Nivel12.",
+          "resultado": "Luluwalilith LV12 en campo; se disparará la búsqueda de Elfnote de Patron enviada como material.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "En adelante, activar la negación de Luluwalilith solo DESPUÉS de que otra carta salga del Extra, por efecto o invocación, mientras ella permanezca en campo.",
+          "resultado": "No afirmar que Luluwalilith niega algo por el mero hecho de Invocarse.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Normal Medius; dos cartas en mano; Ecclesia requiere Extra Special Summoned ya en campo, no cantidad de cartas rivales.",
+        "Tres cuerpos pasan al GY como materiales Synchro; no activar efecto de búsqueda de Ecclesia."
+      ],
+      "restricciones_y_ventanas": [
+        "Si activas la búsqueda de Dogmatika Ecclesia en este turno, quedas sin Invocaciones Extra y la ruta se cae.",
+        "El efecto de negación de Luluwalilith requiere evento POSTERIOR de carta saliendo del Extra, no se dispara por su propia Invocación."
+      ],
+      "campo_final": "Luluwalilith Nivel12 (sin negación inmediata acreditada) y carta Elfnote buscada por Patron, si no se niega.",
+      "respuesta_a_interrupciones": "Si el rival no tiene monstruo Invocado desde Extra y tú tampoco, Ecclesia no puede autoInvocarse. Si niegan Medius o Patron, no hay Cantante4. Si retiran Ecclesia antes del Synchro, abortar.",
+      "variante_o_plan_b": "Alternativa sin Synchro: Harmonia en mano, al encadenarse a un efecto de monstruo rival, revela tres Sincro del Extra incluyendo Luluwalilith, la manda al GY; durante esa End Phase puede Invocar desde mano/Deck a Dogmatika Ecclesia (LUZ Spellcaster 1500/1500) si continúa en GY. Tampoco constituye una Invocación de Luluwalilith.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "650:EXTRA:V13:15996",
+      "familia_de_jugada": "ELF-MEDIUS-REGINA-LV10",
+      "deck_id": 650,
+      "cid": 15996,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Dragón de la Rosa Rojiza / Ruddy Rose Dragon [Synchro]",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Invocar Ruddy Rose Dragon LV10 para desterrar todos los cementerios, sin inventar destrucción masiva de campo.",
+      "mano_inicial": [
+        "Medius the Pure (21419)",
+        "Elfnote Regina (22523)",
+        "Elfnote Lucina (22116), para enviar"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius fuera de la zona central; su efecto Invoca a Elfnote Power Patron de Deck en otra zona NO central.",
+          "resultado": "Medius LV4 + Patron Cantante LV1, centro libre.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar efecto rápido de Regina en mano: ENVIAR Lucina de mano al GY como COSTE; Invocar Especial Regina al centro.",
+          "resultado": "Regina Nivel6 en zona central; Lucina GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Patron selecciona a Regina en el centro, aumenta sus niveles en 3: Regina6→9; DECLINAR Synchro inmediata especial.",
+          "resultado": "Patron cantante1 + Regina no cantante9 listos.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Hacer Invocación Sincro normal de Ruddy Rose Dragon LV10 usando Patron1 + Regina9; Medius LV4 permanece en campo.",
+          "resultado": "Ruddy Nivel10 y Medius LV4 propios; Patron y Regina van al GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Abrir cadena de disparadores por Synchro: Ruddy (destierra todos los GY), Regina enviada como material (se recupera a mano) y Patron enviada como material (añade Elfnote). Ordenar la cadena para recuperar/añadir antes de desterrar GY.",
+          "resultado": "Ruddy + Medius en campo, Regina y buscada Elfnote en mano; cementerios desterrados si Ruddy resuelve.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Regina envía Lucina desde mano como COSTE para autoinvocarse.",
+        "Medius consume Normal; Patron y Regina se usan de material Synchro."
+      ],
+      "restricciones_y_ventanas": [
+        "Ruddy destierra todos los cementerios al Invocarse por Sincro.",
+        "NO destruye todas las cartas de campo: eso solo se habilita si usó Black Rose Dragon o Sincro Planta como material, ausentes en esta línea.",
+        "El resultado de Regina y Patron recuperando depende de resolución de sus disparadores antes del destierro."
+      ],
+      "campo_final": "Ruddy Rose LV10 + Medius LV4; Regina y una Elfnote recuperadas a mano; los GY desterrados si resuelve.",
+      "respuesta_a_interrupciones": "Ash a Medius bloquea Patron; negate de Regina bloquea cuerpo LV6; si la cambian de zona o nivel antes de la Sincro ya no suma 10. La negación a Ruddy impide banish global, no su Invocación.",
+      "variante_o_plan_b": "Si no quieres desterrar tu propio GY o el rival depende poco del cementerio, conservar Regina/Lucina como control de centro, o usar Medius+Patron → Sincro LV8.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "650:EXTRA:V13:18507",
+      "familia_de_jugada": "ELF-FORTUNA-MEDIUS-CHAOS",
+      "deck_id": 650,
+      "cid": 18507,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Ángel del Caos / Chaos Angel [Synchro]",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Invocar Chaos Angel LV10 con materiales LUZ+OSCURIDAD y obtener sus dos protecciones.",
+      "mano_inicial": [
+        "Elfnote Fortuna (22118, LV6 LUZ)",
+        "Medius the Pure (21419, LV4 OSCURIDAD)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Especial de mano a Fortuna Nivel6 LUZ a la zona principal central (su propio procedimiento).",
+          "resultado": "Fortuna LV6 LUZ en el centro.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Invocar Normalmente a Medius Nivel4 OSCURIDAD en otra zona. Opcional: activar Medius para AÑADIR a mano Power Patron DoomZ/Elfnote Power Patron, no para Invocarlo.",
+          "resultado": "Fortuna6 + Medius4 en campo; Normal gastada. Si buscas Elfnote Patron, queda en mano, sin restringir invocaciones por estar boca arriba.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Tratar a Medius OSCURIDAD como Cantante SOLO para esta Invocación de Chaos Angel, según su texto; usar Medius4 como cantante y Fortuna6 LUZ como no Cantante.",
+          "resultado": "Invocar por Sincro Chaos Angel LV10 desde el Extra; ambos atributos originales contribuyen a sus bonificaciones.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Al ser Invocado, Chaos Angel puede seleccionar una carta en campo para desterrarla; si está vacío, conservar protecciones y no inventar objetivo.",
+          "resultado": "Protección LUZ de Synchros ante efectos de monstruos activados por rival, más protección OSCURIDAD de batalla para monstruos propios.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "No hay descarte; Normal Medius y dos cuerpos como materiales Sincro.",
+        "Chaos Angel selecciona una carta de campo solo si existe objetivo; la selección no es un coste."
+      ],
+      "restricciones_y_ventanas": [
+        "El requisito no Cantante LUZ/OSCURIDAD lo cumple Fortuna, y Medius OSCURIDAD puede ser tratado como Cantante.",
+        "No aplicar restricción de Power Patron si solo se añadió a mano y no se Invocó.",
+        "Al Invocarlo y con campo rival vacío no hay carta para desterrar, pero la Invocación no falla."
+      ],
+      "campo_final": "Chaos Angel Nivel10, con ambos efectos de materiales LUZ y OSCURIDAD, y posible destierro de carta del campo.",
+      "respuesta_a_interrupciones": "Si el rival impide la Invocación Especial de Fortuna, no hay Level6. Si Impermanence niega Medius, su Nivel4/Atributo OSCURIDAD siguen existiendo, y Chaos Angel puede tratarlo como Cantante por su PROPIO texto.",
+      "variante_o_plan_b": "Con Medius4 + Magnamhut6 (ambos OSCURIDAD) existe acceso condicional si Magnamhut pudo Invocarse desterrando un LUZ/OSCURIDAD del GY, pero se obtiene solo beneficio OSCURIDAD.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:20521",
+      "familia_de_jugada": "TEAR-ENGRAVER-TRACT-LURRIE",
+      "deck_id": 656,
+      "cid": 20521,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Agnumday del Demoniherrero",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Construir Agnumday Link3 vía Requiem → Lacrima Crimson → Sequence → Fusion Lacrima, sin cuerpos inventados.",
+      "mano_inicial": [
+        "Fiendsmith Engraver (20196), 1 copia de 3"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Activar Fiendsmith Engraver desde mano: DESCARTARLO como coste; añadir del Deck Fiendsmith's Tract (20240).",
+          "resultado": "Engraver queda en GY, Tract en mano.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Fiendsmith's Tract: añadir Fabled Lurrie (8092) del Deck y después DESCARTARLO por resolución (no coste).",
+          "resultado": "Lurrie va al GY; al finalizar Tract, su efecto lo Invoca Especial. Tract en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Usar Lurrie (LIGHT Fiend Nivel 1) para Invocación por Enlace de Fiendsmith's Requiem (20225), Link 1.",
+          "resultado": "Lurrie en GY, Requiem en zona legal.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Tributar Requiem como coste para Invocar Especial desde Deck a Lacrima the Crimson Tears (20490, Nivel4 LIGHT Fiend).",
+          "resultado": "Lacrima Crimson en campo; Requiem y Lurrie en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Opcional, Lacrima Crimson al llegar puede mandar otra carta Fiendsmith del Deck al GY; no se necesita para el camino base.",
+          "resultado": "Lacrima Crimson mantiene Nivel4; evita perder el objetivo de los siguientes pasos.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "En GY, Engraver (descartado inicialmente) devuelve Requiem LIGHT Fiend del GY al Extra Deck como coste y se Invoca Especial.",
+          "resultado": "Engraver Nivel6 + Lacrima Crimson Nivel4 en campo; Lurrie sigue en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Enlazar Engraver + Lacrima Crimson para Fiendsmith's Sequence Link2 (requiere incluir LIGHT Fiend).",
+          "resultado": "Sequence Link2 en campo; Engraver + Lacrima Crimson en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Sequence activa su efecto de Fusión en Main; barajar desde GY Engraver + Lacrima Crimson (ambos LIGHT Fiend) para Invocar Fiendsmith's Lacrima (Fusion LV6).",
+          "resultado": "Sequence Link2 + Fusion Lacrima LIGHT Fiend en campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Invocar Agnumday Link3 usando Sequence como valor Link2 + Fiendsmith's Lacrima como valor1; dos cuerpos, uno LIGHT Fiend.",
+          "resultado": "Agnumday Link3 en campo; Fusion Lacrima y Sequence en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Nueva cadena de la Fusion Lacrima enviada al GY: si aún tienes Lurrie LIGHT Fiend en GY, barajarlo para infligir 1200. Después, Agnumday puede seleccionar Fusion Lacrima en GY, Invocarla y equiparse a ella como Equip Spell.",
+          "resultado": "Fusion Lacrima LV6 equipada con Agnumday (protección ofensiva perforante, ATK por Link equipado).",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Descartar Engraver coste de búsqueda; Tract busca y DESCARTA Lurrie en resolución.",
+        "Tributar Requiem coste; devolver Requiem al Extra Deck coste de revivir Engraver.",
+        "Sequence fusiona con materiales del GY al resolver su efecto, no es un descarte.",
+        "La Fusion Lacrima en GY necesita otro LIGHT Fiend en GY si se desea su burn de 1200."
+      ],
+      "restricciones_y_ventanas": [
+        "Sequence necesita 2 monstruos, incluyendo un LIGHT Fiend; Engraver y Lacrima Crimson cumplen.",
+        "Agnumday Link3 requiere suma de ratings3, 2+ cuerpos y un LIGHT Fiend; Sequence2 + Fusion Lacrima1 cumplen.",
+        "No utilizar Requiem más de una Invocación Especial en ese turno.",
+        "Si el rival interrumpe o se han perdido materiales GY, no afirmar que la Fusión se puede resolver."
+      ],
+      "campo_final": "Agnumday Link3 o, si se usa su efecto rápido tras Invocarse, Fiendsmith's Lacrima LV6 con Agnumday equipado; posible 1200 daño si había Lurrie en GY.",
+      "respuesta_a_interrupciones": "Ash a Engraver, Tract o Requiem corta la extensión. D.D. Crow sobre Lacrima Crimson/Engraver cuando Sequence va a fusionar deja sin materiales; Impermanence a Sequence antes de su efecto de Fusión cierra Agnumday. Valorar guardar la Fusión si se necesita cuerpo Link3.",
+      "variante_o_plan_b": "El mismo arranque puede invocar Pilgrim Reaper Rank6 usando Requiem para traer segundo Engraver y reviviendo el primero con Lurrie en GY.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:17803",
+      "familia_de_jugada": "TEAR-FENRIR-MERRLI-LINK2",
+      "deck_id": 656,
+      "cid": 17803,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Sprind Spright",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Acceder a Spright Sprind Link2 usando REALMENTE un monstruo Nivel2, sin enviar una Merrli inexistente del Deck.",
+      "mano_inicial": [
+        "Kashtira Fenrir (17768)",
+        "Tearlaments Merrli (17414, única copia del Main)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Con campo propio vacío, Invocar Especial a Kashtira Fenrir Lv7 desde mano por su condición.",
+          "resultado": "Fenrir en campo; no activa búsqueda para esta línea.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Invocar Normalmente a Tearlaments Merrli Nivel2; su mill de 3 al Invocarse es opcional y puede resolverse si es oportuno.",
+          "resultado": "Fenrir7 + Merrli2 en mesa; posibles envíos por mill dependen de cartas aleatorias.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Invocar por Enlace Spright Sprind Link2 con Fenrir y Merrli (se cumple el requisito de incluir un monstruo Nivel2).",
+          "resultado": "Sprind en Extra Monster Zone, Fenrir y ÚNICA Merrli ahora en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "No activar el efecto de Sprind que manda Nivel2 del Deck si no queda OTRO Nivel2 real. En inventario no figura segunda Merrli ni otra carta Nivel2 en Main.",
+          "resultado": "Sprind es una salida Link de utilidad posicional; el envío de Merrli desde Deck es imposible tras usar la única copia como material.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Normal usada en Merrli; dos cuerpos Link consumidos.",
+        "La Invocación Especial de Fenrir requiere campo propio vacío al realizarla."
+      ],
+      "restricciones_y_ventanas": [
+        "Sprind necesita 2 monstruos con al menos uno Nivel2/Rango2/Link2; Merrli lo cumple.",
+        "Sprind no puede usarse como material Link el mismo turno en que fue Invocado.",
+        "Merrli está Limitada y solo existe 1x en la lista original; no simular segunda copia en Deck."
+      ],
+      "campo_final": "Spright Sprind Link2; Merrli y Fenrir en GY, con efectos de mill sólo si fueron legales y se activaron.",
+      "respuesta_a_interrupciones": "Impermanence sobre Merrli no cambia su Nivel2, así que todavía sirve como material. Si Fenrir es retirado antes del enlace, falta cuerpo; si se niega su Invocación Especial, no asumir Sprind.",
+      "variante_o_plan_b": "Si el rival controla monstruos y se prioriza negar con S:P, Fenrir y otros extensores pueden construir esa ruta en lugar de Sprind; no prometer envío de Merrli del Deck.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:12870",
+      "familia_de_jugada": "TEAR-SUPERPOLY-MATERIALES-RIVALES",
+      "deck_id": 656,
+      "cid": 12870,
+      "clasificacion": "RUTA_CONDICIONADA_AL_RIVAL",
+      "carta": "Predaplanta Dragostapelia",
+      "tipo": "RUTA_CONDICIONADA_AL_RIVAL",
+      "objetivo": "Convertir dos monstruos rivales aptos en Predaplant Dragostapelia sin ofrecer una fusión desde campo vacío.",
+      "mano_inicial": [
+        "Super Polymerization (7445)",
+        "Otra carta cualquiera en mano, para descartar"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "El oponente controla un monstruo FUSIÓN y otro monstruo OSCURIDAD utilizables, por ejemplo Lubellion the Searing Dragon (Fusión) + Fallen of Albaz (OSCURIDAD).",
+      "pasos": [
+        {
+          "accion": "Confirmar que Lubellion del rival es Monstruo de Fusión y Fallen of Albaz rival es de Atributo OSCURIDAD; ninguno tiene protección que impida ser utilizado.",
+          "resultado": "Dos materiales controlados por rival legalmente disponibles.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Super Polymerization, DESCARTAR una carta de mano como COSTE y declarar Destino Dragostapelia del Extra.",
+          "resultado": "Tras pagar coste, el rival no puede activar cartas/efectos en respuesta a la activación de Super Polymerization.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Al resolver, usar Fusión Lubellion + DARK Albaz desde campo rival como materiales y traer Predaplant Dragostapelia al campo propio.",
+          "resultado": "Dos monstruos rivales salen como materiales; Dragostapelia queda en tu campo.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Descartar 1 carta de mano como coste de Super Polymerization.",
+        "Consumir exactamente Fusión + OSCURIDAD como materiales, con textos comprobados."
+      ],
+      "restricciones_y_ventanas": [
+        "Super Polymerization no puede activarse sin al menos un Monstruo Fusión y uno DARK entre ambos campos y una fusión adecuada.",
+        "El rival no puede responder a la activación de Super Polymerization; sí puede haber efectos continuos que impidan utilización de materiales."
+      ],
+      "campo_final": "Predaplant Dragostapelia propia; el rival pierde los dos materiales elegidos.",
+      "respuesta_a_interrupciones": "Si falta Fusion o DARK no es legal activar esta línea. Si alguno es inmune a efectos de Magia, verificar si puede usarse; no afirmar que Super Poly rompe inmunidad universal.",
+      "variante_o_plan_b": "Cuando sólo hay mismo Atributo con Tipos distintos y no hay Fusion, mirar Mudragon; si el rival no presenta pareja válida, reservar Super Polymerization.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en",
+      "ruta_heredada_v12": true,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:13454",
+      "familia_de_jugada": "TEAR-SUPERPOLY-MATERIALES-RIVALES",
+      "deck_id": 656,
+      "cid": 13454,
+      "clasificacion": "RUTA_CONDICIONADA_AL_RIVAL",
+      "carta": "Fangodragón del Pantano",
+      "tipo": "RUTA_CONDICIONADA_AL_RIVAL",
+      "objetivo": "Acceder a Mudragon of the Swamp para quitar 2 cuerpos rivales sin requerir monstruo Fusión.",
+      "mano_inicial": [
+        "Super Polymerization (7445)",
+        "Otra carta de mano para coste"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "El oponente controla dos monstruos de un mismo Atributo y Tipos DIFERENTES: ejemplo Fallen of Albaz (DARK/Dragon) y Aluber the Jester of Despia (DARK/Fairy).",
+      "pasos": [
+        {
+          "accion": "Confirmar ambos monstruos boca arriba legales: DARK Dragon (Albaz) y DARK Fairy (Aluber), ambos mismo Atributo y distintos Tipos.",
+          "resultado": "Los materiales cumplen fórmula de Mudragon.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Super Polymerization; descartar una carta como COSTE.",
+          "resultado": "Se abre resolución sin posibilidad de encadenar efectos a la activación de esta Super Poly.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Fusionar con esos dos monstruos rivales y traer Mudragon of the Swamp desde el Extra.",
+          "resultado": "Mudragon propio y dos monstruos rivales enviados como material.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Una carta descartada como coste; dos monstruos apropiados como materiales Fusión."
+      ],
+      "restricciones_y_ventanas": [
+        "Dos monstruos deben compartir Atributo y tener distinto TIPO, no basta que ambos sean DARK.",
+        "El estado del rival es explícito: esta ruta no sirve contra campos que no tengan pareja adecuada."
+      ],
+      "campo_final": "Mudragon of the Swamp propio; pareja rival removida por la Fusión.",
+      "respuesta_a_interrupciones": "Si solo hay dos DARK de idéntico Tipo o alguno no puede ser usado, Mudragon no es opción. Si rival tiene protección de monstruos contra Magias, revisar antes de declarar.",
+      "variante_o_plan_b": "Si uno de los rivales es Fusión y el otro DARK, Dragostapelia puede ser mejor por presencia/negación posterior; elegir según materiales existentes.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en",
+      "ruta_heredada_v12": true,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:11005",
+      "familia_de_jugada": "TEAR-ENGRAVER-TRACT-LURRIE",
+      "deck_id": 656,
+      "cid": 11005,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Parca Peregrina",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Invocar Pilgrim Reaper Rank6 con DOS Engraver legítimos y moler 5 cartas por jugador para juego de cementerio.",
+      "mano_inicial": [
+        "Fiendsmith Engraver (20196), 1 copia de 3"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Activar Fiendsmith Engraver desde mano: DESCARTARLO como coste; añadir del Deck Fiendsmith's Tract (20240).",
+          "resultado": "Engraver queda en GY, Tract en mano.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Fiendsmith's Tract: añadir Fabled Lurrie (8092) del Deck y después DESCARTARLO por resolución (no coste).",
+          "resultado": "Lurrie va al GY; al finalizar Tract, su efecto lo Invoca Especial. Tract en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Usar Lurrie (LIGHT Fiend Nivel 1) para Invocación por Enlace de Fiendsmith's Requiem (20225), Link 1.",
+          "resultado": "Lurrie en GY, Requiem en zona legal.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Tributar Fiendsmith's Requiem como COSTE para Invocar Especial del Deck una SEGUNDA copia de Fiendsmith Engraver (Nivel6 LIGHT Fiend).",
+          "resultado": "Engraver #2 Lv6 en campo; Requiem y Lurrie en GY; Engraver #1 sigue en GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Desde GY, activar el Engraver #1 descartado antes; devolver al Deck el Fabled Lurrie LIGHT Fiend que quedó en GY como material de Requiem.",
+          "resultado": "Engraver #1 revivido Nivel6; dos Engraver Nivel6 en campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Superponer los 2 Engraver Nivel6 para Pilgrim Reaper Rank6. Opcional: desacoplar 1 material para mandar las 5 cartas superiores de AMBOS Decks al GY.",
+          "resultado": "Pilgrim Reaper con material restante; ambos jugadores muelen 5 si el efecto resuelve.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Descartar Engraver #1 es coste de su búsqueda.",
+        "Tract descarta Lurrie en resolución, NO como coste.",
+        "Tributar Requiem es coste; retornar Lurrie del GY al Deck es coste del revive de Engraver.",
+        "Al usar Pilgrim Reaper, desacoplar un material es coste; el mill es efecto."
+      ],
+      "restricciones_y_ventanas": [
+        "Engraver revivir desde GY solo una vez por nombre/turno.",
+        "Fiendsmith Requiem solo se Invoca Especial una vez por turno.",
+        "El mill de Pilgrim Reaper es simétrico: el rival también puede aprovechar GY; no siempre activar."
+      ],
+      "campo_final": "Pilgrim Reaper Rango6, 2 materiales antes de efecto o 1 después; recursos al GY de ambos Decks si se activa.",
+      "respuesta_a_interrupciones": "Ash en la búsqueda inicial de Engraver frena Tract. Ash en Tract frena Lurrie; Ash en la activación de Requiem niega la Invocación desde Deck AUNQUE Requiem ya se haya tributado como coste. Si el rival dependía de mill, reservar la activación de Reaper.",
+      "variante_o_plan_b": "Mismo iniciador Engraver puede abrir Agnumday Link3 usando Lacrima Crimson y Sequence, pero NO a la vez que Reaper con recursos de una sola copia.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "656:EXTRA:V13:10942",
+      "familia_de_jugada": "TEAR-REINOHEART-SCHEIREN-XYZ4",
+      "deck_id": 656,
+      "cid": 10942,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Caballero Exciton Horda de Maldad",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Construir Evilswarm Exciton Knight Rango4 y limpiar campo cuando rival supere la suma propia mano+campo.",
+      "mano_inicial": [
+        "Tearlaments Reinoheart (17417)",
+        "Tearlaments Scheiren (17415)",
+        "Un monstruo adicional para enviar desde mano con Scheiren"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Para USAR el efecto de limpieza de Exciton, el total de cartas en mano y campo rival debe exceder tu propio total en la ventana de activación. La Invocación Xyz no necesita esta condición.",
+      "pasos": [
+        {
+          "accion": "Normal Summon a Reinoheart Nivel4; su envío Tearlaments desde Deck al GY es opcional y no se presupone para esta línea.",
+          "resultado": "Reinoheart4 en campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Scheiren en mano: Especial Scheiren Nivel4, y al resolver ENVIAR otro monstruo desde mano al GY, luego enviar 3 cartas superiores del Deck al GY.",
+          "resultado": "Reinoheart4 + Scheiren4 en campo. Los mills y disparadores resultantes pueden cambiar jugada; resolverlos antes de superponer.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Xyz Summon Evilswarm Exciton Knight Rank4 usando ambos monstruos.",
+          "resultado": "Exciton R4 con 2 materiales.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Si el rival tiene MÁS cartas en mano+campo que tú, durante Main propia o Battle rival activar efecto de Exciton desacoplando un material: destruir todas las otras cartas en campo.",
+          "resultado": "Exciton permanece; los demás permanentes son destruidos si no hay protección. Rival no recibe daño de efectos en ese turno.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Scheiren ENVÍA monstruo de mano en RESOLUCIÓN (no coste), junto con mill3.",
+        "Normal Reinoheart; desacoplar 1 material es coste del efecto de Exciton, no de la Invocación."
+      ],
+      "restricciones_y_ventanas": [
+        "El efecto de destrucción solo puede activarse si rival tiene estrictamente MÁS cartas que tú sumando mano y campo.",
+        "Exciton destruye también las demás cartas propias; el oponente no recibe daño en el turno de uso.",
+        "Rango4 desde dos Nivel4 sí; no confundir con Pilgrim Rank6."
+      ],
+      "campo_final": "Exciton Rango4 (2 materiales antes del efecto / 1 después); mesa destruida condicionalmente salvo el propio Exciton.",
+      "respuesta_a_interrupciones": "Si Scheiren no tiene otro monstruo que enviar en mano, no declarar su secuencia. Ash sobre mill de Reinoheart no afecta sus niveles, pero una negación/destrucción de cuerpo previo a superponer aborta Xyz. Si rival no tiene más cartas, reservar detach.",
+      "variante_o_plan_b": "Usar esos dos Nivel4 para Time Thief Redoer (ruta V11) en lugar de Exciton; ambos destinos compiten por los mismos materiales.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:14958",
+      "familia_de_jugada": "DOOM-MEDIUS-DOS-DIACTORUS-F0",
+      "deck_id": 653,
+      "cid": 14958,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Número F0: Futuro Draco Utópico",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Acceder a Draco Future con capacidad de negar activaciones de monstruos, sin inventar un tercer Xyz.",
+      "mano_inicial": [
+        "Medius the Pure (21419)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)",
+        "DoomZ Command \"D.O.O.M.D.U.R.G.\" (21824)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius (Nivel 4); su efecto trae desde Deck Power Patron DoomZ (Nivel 1) al campo.",
+          "resultado": "Medius LV4 y Power Patron DoomZ en el campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Power Patron DoomZ seleccionando el otro monstruo propio Medius LV4. Invocar por su procedimiento DoomZ Break - Diactorus #1 Rango 4 usando SOLO Medius como material; equipar a él Power Patron DoomZ.",
+          "resultado": "Diactorus #1 con un material Medius y Power Patron equipado. El efecto de destrucción de Diactorus es opcional: no consumas más mano aquí.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders en Magia/Trampa. En Main resolver su efecto: destruir Elara desde mano y Especial desde Deck a Amalthe LV4.",
+          "resultado": "Diactorus #1 + Amalthe LV4 en campo; Elara destruida activa en cadena nueva para colocar una DoomZ Magia/Trampa si se desea. La destrucción de Elara no es coste.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Equipar desde mano DoomZ Command \"D.O.O.M.D.U.R.G.\" a Amalthe LV4. Activar efecto rápido de Amalthe equipada.",
+          "resultado": "Invocar por procedimiento propio a DoomZ Break - Diactorus #2 Rango 4 desde Extra, acoplando Amalthe y el Equipo como materiales.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Superponer los dos Diactorus Rango 4 (AMBOS no Number) para Number F0: Utopic Future.",
+          "resultado": "Number F0: Utopic Future (Rango original tratado como 1) en campo; los materiales antiguos que no transfieran expresamente van a GY.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Sobreponer Number F0: Utopic Future debajo de Number F0: Utopic Draco Future mediante procedimiento alternativo escrito; transferir materiales de F0 a Draco.",
+          "resultado": "Draco Future Rango original 1, con efecto rápido para negar activación de monstruo y ganar control si está en campo.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Normal consumida por Medius; cuatro cartas iniciales identificadas.",
+        "Raiders destruye Elara en resolución; NO es coste (si Raiders es negado, Elara no se destruye).",
+        "Power Patron no desacopla materiales para convertir Medius en Diactorus; lo equipas al Xyz al resolver.",
+        "Amalthe equipada acopla Amalthe y D.O.O.M.D.U.R.G. al segundo Diactorus; luego se usan ambos Rango 4 como Xyz materiales de F0."
+      ],
+      "restricciones_y_ventanas": [
+        "Power Patron DoomZ impide Invocaciones desde Extra distintas de Xyz mientras sea monstruo boca arriba; toda la ruta usa Xyz.",
+        "Raiders añade restricción Extra solo Xyz por resto del turno.",
+        "Se necesitan exactamente DOS copias de DoomZ Break - Diactorus en Extra, confirmadas en el inventario.",
+        "F0 Utopic Future no permite usar Xyz Number para sus dos materiales, y los dos Diactorus no son Number.",
+        "No atribuir a F0 Zexal el estado de la carta distinta y prohibida Number S0 Utopic ZEXAL."
+      ],
+      "campo_final": "Number F0: Utopic Draco Future (1 porción de negación + control de monstruo si está en campo).",
+      "respuesta_a_interrupciones": "Ash/negación sobre el efecto de Medius corta el primer Xyz; Ash sobre Raiders corta Amalthe y deja Elara en mano; si Impermanence niega el efecto de Amalthe equipada, no nace el segundo Xyz y no hay F0. Preservar el primer Diactorus y las cartas no consumidas.",
+      "variante_o_plan_b": "Elegir F0 Utopic Future Zexal en vez de Utopic Future/Draco para proteger mesa frente a selección, según rival.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:16002",
+      "familia_de_jugada": "DOOM-AMALTHE-RAIDERS-XYZ4",
+      "deck_id": 653,
+      "cid": 16002,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Springans Fiestero",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Construir Springans Merrymaker como puente real hacia Sargas (sin prometer su envío de Springans).",
+      "mano_inicial": [
+        "DoomZ V Five - Amalthe (21775)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Amalthe Nivel 4; puedes activar su búsqueda de otro DoomZ, pero no es indispensable para el acceso.",
+          "resultado": "Amalthe Nivel 4 en campo; Normal usada.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders (Continua) desde mano; usar su efecto en Main. Al resolver, destruir Elara en mano y ESPECIAL desde Deck otra copia de Elara Nivel 4.",
+          "resultado": "Amalthe Nivel 4 y Elara Nivel 4 simultáneamente en campo; Elara destruida puede activar después su disparador para colocar una Magia/Trampa DoomZ.",
+          "tipo": "resolucion_no_coste"
+        },
+        {
+          "accion": "Tras resolver los disparos de Elara y Amalthe si se eligieron, superponer Amalthe + Elara para invocar por Xyz Springans Merrymaker (Rango 4).",
+          "resultado": "Xyz Rango 4 con 2 materiales. El efecto de Merrymaker que manda un Springans desde Deck no puede usarse: el Main inventariado no lleva Springans.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Elara es DESTRUIDA DURANTE LA RESOLUCIÓN de Raiders: no se paga como coste de activación.",
+        "Se consumen dos cuerpos Nivel 4 como materiales Xyz.",
+        "Raiders no destruye su propia carta; destruye otra carta DoomZ de mano o campo boca arriba."
+      ],
+      "restricciones_y_ventanas": [
+        "Desde que resuelve DoomZ Raiders solo puedes Invocar desde Extra monstruos Xyz durante el resto del turno.",
+        "No activar el disparo de Merrymaker para enviar un Springans si no existe Springans Main; la invocación sigue siendo legal.",
+        "La oportunidad de Elara destruida ocurre al abrir cadena nueva después de la resolución de Raiders."
+      ],
+      "campo_final": "Springans Merrymaker R4 con 2 materiales; posibilidad real de subir a Sargas más tarde.",
+      "respuesta_a_interrupciones": "Ash Blossom a Raiders puede negar la invocación desde Deck ANTES de que Elara sea destruida: el efecto completo queda negado. Impermanence sobre Amalthe no elimina su Nivel ni impide superponer si Raiders sí trae Elara. Ante Maxx \"C\" u otra presión, valorar pasar con Amalthe y recurso de DoomZ sin extender.",
+      "variante_o_plan_b": "Subir inmediatamente a Sargas (18190), cuando se quiera una búsqueda Therion.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:18190",
+      "familia_de_jugada": "DOOM-AMALTHE-RAIDERS-XYZ4",
+      "deck_id": 653,
+      "cid": 18190,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Gigantesco «Campeón» Sargas",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Convertir 2 Nivel 4 en Sargas Rango 8 con búsqueda legal de Therion Regulus.",
+      "mano_inicial": [
+        "DoomZ V Five - Amalthe (21775)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Amalthe Nivel 4; puedes activar su búsqueda de otro DoomZ, pero no es indispensable para el acceso.",
+          "resultado": "Amalthe Nivel 4 en campo; Normal usada.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders (Continua) desde mano; usar su efecto en Main. Al resolver, destruir Elara en mano y ESPECIAL desde Deck otra copia de Elara Nivel 4.",
+          "resultado": "Amalthe Nivel 4 y Elara Nivel 4 simultáneamente en campo; Elara destruida puede activar después su disparador para colocar una Magia/Trampa DoomZ.",
+          "tipo": "resolucion_no_coste"
+        },
+        {
+          "accion": "Tras resolver los disparos de Elara y Amalthe si se eligieron, superponer Amalthe + Elara para invocar por Xyz Springans Merrymaker (Rango 4).",
+          "resultado": "Xyz Rango 4 con 2 materiales. El efecto de Merrymaker que manda un Springans desde Deck no puede usarse: el Main inventariado no lleva Springans.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Superponer Merrymaker bajo Gigantic \"Champion\" Sargas (Rango 8) por su procedimiento alternativo de un Xyz Springans, transfiriendo los materiales.",
+          "resultado": "Sargas en campo con material; Merrymaker no requiere haber resuelto ningún envío de Springans.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Sargas para añadir del Deck Therion \"King\" Regulus (17119), presente 1x.",
+          "resultado": "Sargas R8 en mesa y Regulus en mano; Regulus no se Invoca aquí si no hay Máquina válida en GY.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Elara es DESTRUIDA DURANTE LA RESOLUCIÓN de Raiders: no se paga como coste de activación.",
+        "Se consumen dos cuerpos Nivel 4 como materiales Xyz.",
+        "Raiders no destruye su propia carta; destruye otra carta DoomZ de mano o campo boca arriba."
+      ],
+      "restricciones_y_ventanas": [
+        "Desde que resuelve DoomZ Raiders solo puedes Invocar desde Extra monstruos Xyz durante el resto del turno.",
+        "No activar el disparo de Merrymaker para enviar un Springans si no existe Springans Main; la invocación sigue siendo legal.",
+        "La oportunidad de Elara destruida ocurre al abrir cadena nueva después de la resolución de Raiders."
+      ],
+      "campo_final": "Gigantic \"Champion\" Sargas R8 con material; Therion Regulus buscado a mano (no invocado).",
+      "respuesta_a_interrupciones": "Ash Blossom a Raiders puede negar la invocación desde Deck ANTES de que Elara sea destruida: el efecto completo queda negado. Impermanence sobre Amalthe no elimina su Nivel ni impide superponer si Raiders sí trae Elara. Ante Maxx \"C\" u otra presión, valorar pasar con Amalthe y recurso de DoomZ sin extender.",
+      "variante_o_plan_b": "Detenerse en Merrymaker si se prioriza conservar un Rango 4 para jugadas F0 posteriores.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:21453",
+      "familia_de_jugada": "DOOM-MEDIUS-DOS-DIACTORUS-F0",
+      "deck_id": 653,
+      "cid": 21453,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Número F0: Futuro Utópico Zexal",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Invocar Number F0: Utopic Future Zexal a partir de dos Xyz del mismo Rango.",
+      "mano_inicial": [
+        "Medius the Pure (21419)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)",
+        "DoomZ Command \"D.O.O.M.D.U.R.G.\" (21824)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius (Nivel 4); su efecto trae desde Deck Power Patron DoomZ (Nivel 1) al campo.",
+          "resultado": "Medius LV4 y Power Patron DoomZ en el campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Power Patron DoomZ seleccionando el otro monstruo propio Medius LV4. Invocar por su procedimiento DoomZ Break - Diactorus #1 Rango 4 usando SOLO Medius como material; equipar a él Power Patron DoomZ.",
+          "resultado": "Diactorus #1 con un material Medius y Power Patron equipado. El efecto de destrucción de Diactorus es opcional: no consumas más mano aquí.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders en Magia/Trampa. En Main resolver su efecto: destruir Elara desde mano y Especial desde Deck a Amalthe LV4.",
+          "resultado": "Diactorus #1 + Amalthe LV4 en campo; Elara destruida activa en cadena nueva para colocar una DoomZ Magia/Trampa si se desea. La destrucción de Elara no es coste.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Equipar desde mano DoomZ Command \"D.O.O.M.D.U.R.G.\" a Amalthe LV4. Activar efecto rápido de Amalthe equipada.",
+          "resultado": "Invocar por procedimiento propio a DoomZ Break - Diactorus #2 Rango 4 desde Extra, acoplando Amalthe y el Equipo como materiales.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Superponer los dos Diactorus Rango 4 para Number F0: Utopic Future Zexal; su requisito son dos Xyz del mismo Rango.",
+          "resultado": "Zexal en campo con dos Xyz usados como materiales.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Normal consumida por Medius; cuatro cartas iniciales identificadas.",
+        "Raiders destruye Elara en resolución; NO es coste (si Raiders es negado, Elara no se destruye).",
+        "Power Patron no desacopla materiales para convertir Medius en Diactorus; lo equipas al Xyz al resolver.",
+        "Amalthe equipada acopla Amalthe y D.O.O.M.D.U.R.G. al segundo Diactorus; luego se usan ambos Rango 4 como Xyz materiales de F0."
+      ],
+      "restricciones_y_ventanas": [
+        "Power Patron DoomZ impide Invocaciones desde Extra distintas de Xyz mientras sea monstruo boca arriba; toda la ruta usa Xyz.",
+        "Raiders añade restricción Extra solo Xyz por resto del turno.",
+        "Se necesitan exactamente DOS copias de DoomZ Break - Diactorus en Extra, confirmadas en el inventario.",
+        "F0 Utopic Future no permite usar Xyz Number para sus dos materiales, y los dos Diactorus no son Number.",
+        "No atribuir a F0 Zexal el estado de la carta distinta y prohibida Number S0 Utopic ZEXAL."
+      ],
+      "campo_final": "Number F0: Utopic Future Zexal (protege otras cartas propias de selección rival y puede apropiarse de monstruo al responder efecto de campo).",
+      "respuesta_a_interrupciones": "Ash/negación sobre el efecto de Medius corta el primer Xyz; Ash sobre Raiders corta Amalthe y deja Elara en mano; si Impermanence niega el efecto de Amalthe equipada, no nace el segundo Xyz y no hay F0. Preservar el primer Diactorus y las cartas no consumidas.",
+      "variante_o_plan_b": "Con los mismos dos Diactorus, puede elegirse F0 Utopic Future y, si se mantiene la ventana de Invocación, subir a Draco Future; no hacer ambas rutas en una misma secuencia.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:11413",
+      "familia_de_jugada": "DOOM-MEDIUS-DOS-DIACTORUS-F0",
+      "deck_id": 653,
+      "cid": 11413,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Número F0: Futuro Utópico",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Conseguir dos Xyz no Number de Rango 4 simultáneos y superponer Number F0: Utopic Future.",
+      "mano_inicial": [
+        "Medius the Pure (21419)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)",
+        "DoomZ Command \"D.O.O.M.D.U.R.G.\" (21824)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Medius (Nivel 4); su efecto trae desde Deck Power Patron DoomZ (Nivel 1) al campo.",
+          "resultado": "Medius LV4 y Power Patron DoomZ en el campo.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar Power Patron DoomZ seleccionando el otro monstruo propio Medius LV4. Invocar por su procedimiento DoomZ Break - Diactorus #1 Rango 4 usando SOLO Medius como material; equipar a él Power Patron DoomZ.",
+          "resultado": "Diactorus #1 con un material Medius y Power Patron equipado. El efecto de destrucción de Diactorus es opcional: no consumas más mano aquí.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders en Magia/Trampa. En Main resolver su efecto: destruir Elara desde mano y Especial desde Deck a Amalthe LV4.",
+          "resultado": "Diactorus #1 + Amalthe LV4 en campo; Elara destruida activa en cadena nueva para colocar una DoomZ Magia/Trampa si se desea. La destrucción de Elara no es coste.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Equipar desde mano DoomZ Command \"D.O.O.M.D.U.R.G.\" a Amalthe LV4. Activar efecto rápido de Amalthe equipada.",
+          "resultado": "Invocar por procedimiento propio a DoomZ Break - Diactorus #2 Rango 4 desde Extra, acoplando Amalthe y el Equipo como materiales.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Superponer los dos Diactorus Rango 4 (AMBOS no Number) para Number F0: Utopic Future.",
+          "resultado": "Number F0: Utopic Future (Rango original tratado como 1) en campo; los materiales antiguos que no transfieran expresamente van a GY.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Normal consumida por Medius; cuatro cartas iniciales identificadas.",
+        "Raiders destruye Elara en resolución; NO es coste (si Raiders es negado, Elara no se destruye).",
+        "Power Patron no desacopla materiales para convertir Medius en Diactorus; lo equipas al Xyz al resolver.",
+        "Amalthe equipada acopla Amalthe y D.O.O.M.D.U.R.G. al segundo Diactorus; luego se usan ambos Rango 4 como Xyz materiales de F0."
+      ],
+      "restricciones_y_ventanas": [
+        "Power Patron DoomZ impide Invocaciones desde Extra distintas de Xyz mientras sea monstruo boca arriba; toda la ruta usa Xyz.",
+        "Raiders añade restricción Extra solo Xyz por resto del turno.",
+        "Se necesitan exactamente DOS copias de DoomZ Break - Diactorus en Extra, confirmadas en el inventario.",
+        "F0 Utopic Future no permite usar Xyz Number para sus dos materiales, y los dos Diactorus no son Number.",
+        "No atribuir a F0 Zexal el estado de la carta distinta y prohibida Number S0 Utopic ZEXAL."
+      ],
+      "campo_final": "Number F0: Utopic Future (protección por material y toma de control en batalla).",
+      "respuesta_a_interrupciones": "Ash/negación sobre el efecto de Medius corta el primer Xyz; Ash sobre Raiders corta Amalthe y deja Elara en mano; si Impermanence niega el efecto de Amalthe equipada, no nace el segundo Xyz y no hay F0. Preservar el primer Diactorus y las cartas no consumidas.",
+      "variante_o_plan_b": "Elegir F0 Utopic Future Zexal en vez de Utopic Future/Draco para proteger mesa frente a selección, según rival.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    },
+    {
+      "id": "653:EXTRA:V13:14920",
+      "familia_de_jugada": "DOOM-AMALTHE-RAIDERS-XYZ4",
+      "deck_id": 653,
+      "cid": 14920,
+      "clasificacion": "APERTURA_REPRODUCIBLE",
+      "carta": "Mago Gagagaga",
+      "tipo": "APERTURA_REPRODUCIBLE",
+      "objetivo": "Construir Gagagaga Magician para una jugada posterior de resurrección de Xyz si ya existe uno en GY.",
+      "mano_inicial": [
+        "DoomZ V Five - Amalthe (21775)",
+        "DoomZ Raiders (21823)",
+        "DoomZ VII Seven - Elara (21776)"
+      ],
+      "campo_inicial": "Vacío",
+      "cementerio_inicial": "Vacío",
+      "condicion_rival": "Sin intervención en la secuencia base",
+      "pasos": [
+        {
+          "accion": "Invocar Normalmente a Amalthe Nivel 4; puedes activar su búsqueda de otro DoomZ, pero no es indispensable para el acceso.",
+          "resultado": "Amalthe Nivel 4 en campo; Normal usada.",
+          "tipo": "accion"
+        },
+        {
+          "accion": "Activar DoomZ Raiders (Continua) desde mano; usar su efecto en Main. Al resolver, destruir Elara en mano y ESPECIAL desde Deck otra copia de Elara Nivel 4.",
+          "resultado": "Amalthe Nivel 4 y Elara Nivel 4 simultáneamente en campo; Elara destruida puede activar después su disparador para colocar una Magia/Trampa DoomZ.",
+          "tipo": "resolucion_no_coste"
+        },
+        {
+          "accion": "Tras resolver los disparos de Elara y Amalthe si se eligieron, superponer Amalthe + Elara para invocar por Xyz Gagagaga Magician (Rango 4).",
+          "resultado": "Xyz Rango 4 con 2 materiales. No hay Xyz en GY demostrado, así que NO se promete resurrección.",
+          "tipo": "accion"
+        }
+      ],
+      "costes_y_pagados": [
+        "Elara es DESTRUIDA DURANTE LA RESOLUCIÓN de Raiders: no se paga como coste de activación.",
+        "Se consumen dos cuerpos Nivel 4 como materiales Xyz.",
+        "Raiders no destruye su propia carta; destruye otra carta DoomZ de mano o campo boca arriba."
+      ],
+      "restricciones_y_ventanas": [
+        "Desde que resuelve DoomZ Raiders solo puedes Invocar desde Extra monstruos Xyz durante el resto del turno.",
+        "No activar el disparo de Merrymaker para enviar un Springans si no existe Springans Main; la invocación sigue siendo legal.",
+        "La oportunidad de Elara destruida ocurre al abrir cadena nueva después de la resolución de Raiders."
+      ],
+      "campo_final": "Gagagaga Magician R4 con 2 materiales; rescate Xyz sólo si algún Xyz está en cementerio.",
+      "respuesta_a_interrupciones": "Ash Blossom a Raiders puede negar la invocación desde Deck ANTES de que Elara sea destruida: el efecto completo queda negado. Impermanence sobre Amalthe no elimina su Nivel ni impide superponer si Raiders sí trae Elara. Ante Maxx \"C\" u otra presión, valorar pasar con Amalthe y recurso de DoomZ sin extender.",
+      "variante_o_plan_b": "Seleccionar Merrymaker si lo que se busca es Sargas; Gagagaga tiene mayor sentido con un Xyz propio en GY.",
+      "cita_oficial": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=en",
+      "ruta_heredada_v12": false,
+      "certificacion": "Auditoría manual de requisitos Konami; simulación/replay externo pendiente"
+    }
+  ]
+}

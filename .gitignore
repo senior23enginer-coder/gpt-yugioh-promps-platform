@@ -1,0 +1,14 @@
+# Private configuration and temporary execution files, never research deliveries.
+.env
+.env.*
+!.env.example
+**/credentials*.json
+*.pem
+*.key
+__pycache__/
+*.pyc
+node_modules/
+*.tmp
+*.lock.tmp
+Thumbs.db
+.DS_Store

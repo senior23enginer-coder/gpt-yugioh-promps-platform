@@ -1,0 +1,303 @@
+{
+  "schema": "STATION_X_PRACTICA_V14",
+  "fecha": "2026-11-14",
+  "ejercicios": [
+    {
+      "id": "650:PRACTICA:V14:1",
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "escenario": "Ash sobre Medius",
+      "pregunta": "Mano Medius+Regina, Patron en Deck; Ash niega Medius. ¿Hay Patron en campo?",
+      "respuesta_controlada": "No. Normal gastada, Medius queda si no fue destruido; Regina requiere Elfnote adicional para entrar.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "650:PRACTICA:V14:2",
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "escenario": "Harmonia y Malong",
+      "pregunta": "Turno rival, solo 1 Sincro para revelar. ¿Puedes mandar Malong desde Extra?",
+      "respuesta_controlada": "No, falta cumplir el umbral exacto del efecto de Harmonia.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "650:PRACTICA:V14:3",
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "escenario": "Ventana central",
+      "pregunta": "Regina salió por efecto rival y Fortuna sigue afuera con Rhapsodia. ¿Puede rival atacar libremente?",
+      "respuesta_controlada": "Rhapsodia no impone objetivo central si la zona central está vacía; verificar texto ante cada declaración.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "653:PRACTICA:V14:1",
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "escenario": "Drastrius contra bounce",
+      "pregunta": "Rival apunta Drastrius con carta que lo devuelve a la mano. ¿Protección contra destrucción lo salva?",
+      "respuesta_controlada": "No: vuelve al Extra; materiales se mandan al GY.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "653:PRACTICA:V14:2",
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "escenario": "Drastea en cadena",
+      "pregunta": "Rival inicia Fusión; Drastea genera Xyz a la resolución. ¿Negación del nuevo Xyz interviene en esa misma cadena previa?",
+      "respuesta_controlada": "No: espera resolución y una nueva ventana para el efecto del Xyz.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "653:PRACTICA:V14:3",
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "escenario": "Nibiru",
+      "pregunta": "Has realizado cuatro invocaciones y tienes negación útil. ¿Debes hacer quinto Xyz?",
+      "respuesta_controlada": "No automáticamente; evalúa riesgo Nibiru y defensa existente.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "656:PRACTICA:V14:1",
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "escenario": "Horus y Tear",
+      "pregunta": "Envío una Tearlaments Kashtira de mano al GY como coste de Sarc. ¿Se activa un efecto que dice enviada por efecto?",
+      "respuesta_controlada": "No: un coste no cumple enviada por efecto.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "656:PRACTICA:V14:2",
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "escenario": "Zombie Vampire",
+      "pregunta": "Rival juega motor que activa mill del GY. ¿Debo usar Zombie Vampire siempre?",
+      "respuesta_controlada": "No: el mill4 de ambas barajas puede dar más ventaja al rival; evaluar antes de desacoplar.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "656:PRACTICA:V14:3",
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "escenario": "SuperPoly",
+      "pregunta": "Rival solo controla un OSCURIDAD; tienes Garura en Extra. ¿Es Fusion garantizada?",
+      "respuesta_controlada": "No: comprobar materiales exactos, atributos y número; no puedes inventar segundo cuerpo.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "665:PRACTICA:V14:1",
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "escenario": "Big Eye y ataque",
+      "pregunta": "Big Eye toma monstruo rival. ¿Puede Big Eye atacar ese mismo turno?",
+      "respuesta_controlada": "No; la restricción es de Big Eye, no necesariamente del monstruo tomado.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "665:PRACTICA:V14:2",
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "escenario": "Fenrir orden",
+      "pregunta": "Tienes Fenrir+Unicornio y campo vacío. ¿Invocar Unicornio después de Fenrir por su propio procedimiento?",
+      "respuesta_controlada": "No: ya controlas Fenrir. Birth permite la Normal sin tributos.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "665:PRACTICA:V14:3",
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "escenario": "Vuelta de oponente",
+      "pregunta": "Shangri-Ira logra bloqueos pero rival amenaza limpiar. ¿Usar todos los recursos ahora?",
+      "respuesta_controlada": "No necesariamente: calcula cuántas respuestas conservas y cómo reponer Birth/Unicornio.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "670:PRACTICA:V14:1",
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "escenario": "Renaud Nivel",
+      "pregunta": "Ogier es Nivel4 y Renaud Nivel1. ¿Puedo hacer Xyz Rank4 directamente?",
+      "respuesta_controlada": "No: los Niveles no coinciden. Para Sincro5, verificar que Renaud sea Cantante.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "670:PRACTICA:V14:2",
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "escenario": "Aqua Dolphin",
+      "pregunta": "El rival tiene Ash ATK0 y Connector ATK800. ¿Qué hace Dolphin tras descartar?",
+      "respuesta_controlada": "Seleccionas Ash, la destruyes de la mano rival y causas 500 si resuelve.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "670:PRACTICA:V14:3",
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "escenario": "Dolphin alto ATK",
+      "pregunta": "El único monstruo rival en mano tiene ATK3000; solo controlas Connector ATK800. ¿Qué pasa?",
+      "respuesta_controlada": "No destruyes ese monstruo, recibes 500 LP de daño y la carta descartada no regresa.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "684:PRACTICA:V14:1",
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "escenario": "Megafleet zona",
+      "pregunta": "Rival tiene Fusión en Main Monster Zone y no tiene nada en Extra Monster Zone. ¿Puedo convertirla en Megafleet por ese motivo?",
+      "respuesta_controlada": "No: Megafleet requiere material de la Extra Monster Zone.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "684:PRACTICA:V14:2",
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "escenario": "Clockwork",
+      "pregunta": "Night activa convierte monstruos boca arriba rivales en Máquina. ¿Puedo usar uno boca abajo como Máquina por Night?",
+      "respuesta_controlada": "No asumirlo: Night afecta monstruos boca arriba; comprueba el texto y la posición.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "684:PRACTICA:V14:3",
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "escenario": "Nova material",
+      "pregunta": "Dos Core Nivel2, ¿hacen Nova Rango5?",
+      "respuesta_controlada": "No. Necesitas dos Nivel5 o un procedimiento alternativo explícito.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "687:PRACTICA:V14:1",
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "escenario": "Sin objetivo VBA",
+      "pregunta": "Turno 1 campo rival vacío; activas VBA. ¿Puedes usar su destrucción para enviar Rimfire del Deck?",
+      "respuesta_controlada": "No: el efecto selecciona monstruo rival boca arriba. La alternativa legal es Fire Ejection a Rimfire.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "687:PRACTICA:V14:2",
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "escenario": "Rimfire coste",
+      "pregunta": "Blaze original en GY; Rimfire fue enviado por Ejection. ¿Puedes colocarte Reload?",
+      "respuesta_controlada": "Sí, desterrando el Blaze original para elegir la segunda modalidad de Rimfire si Reload está disponible.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "687:PRACTICA:V14:3",
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "escenario": "Emperor contra Reload",
+      "pregunta": "Ya desterraste Blaze original con Rimfire. ¿Puedes volver a desterrarlo para invocar Emperor?",
+      "respuesta_controlada": "No: ese mismo recurso ya salió del GY; necesitas otro Blaze Accelerator válido.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "704:PRACTICA:V14:1",
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "escenario": "Ember primero",
+      "pregunta": "Empiezas con Ember y Chemicized, rival sin monstruos. ¿Invocas especialmente al jefe?",
+      "respuesta_controlada": "No por Ember; falta monstruo del oponente.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "704:PRACTICA:V14:2",
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "escenario": "Bono ATK",
+      "pregunta": "Superassistant está en mano, no GY. ¿Recibe +800 el jefe de Ember?",
+      "respuesta_controlada": "No; exige Superassistant en GY.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "704:PRACTICA:V14:3",
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "escenario": "Normal Rush",
+      "pregunta": "Tienes dos monstruos Nivel4 en mano. ¿Solo puedes Normal uno?",
+      "respuesta_controlada": "No: Rush permite varias Normales por turno, sujetas a zonas y tributos.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "705:PRACTICA:V14:1",
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "escenario": "Phaser sin condición",
+      "pregunta": "Tienes Phaser en mesa y Deathdoom en GY, pero ningún Fiend Nivel7+ controlado. ¿Puedes usarlo?",
+      "respuesta_controlada": "No: falta jefe propio boca arriba.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "705:PRACTICA:V14:2",
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "escenario": "Revive en Defensa",
+      "pregunta": "Phaser trae Heavy Metal del GY. ¿Se activa un efecto que diga “si fue Invocado por Tributo”?",
+      "respuesta_controlada": "No: es Invocación Especial.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "705:PRACTICA:V14:3",
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "escenario": "Skill en turno1",
+      "pregunta": "Quieres usar Overture desde el primer turno. ¿Se puede?",
+      "respuesta_controlada": "Verifica su requisito de turno; no des por cumplida una condición de turno2.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "706:PRACTICA:V14:1",
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "escenario": "Top4 falla",
+      "pregunta": "Argento excava cuatro cartas sin Avian ni Burstinatrix. ¿Añades ambas del Deck?",
+      "respuesta_controlada": "No: cero cartas añadidas por ese efecto, se ponen las excavadas en fondo.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "706:PRACTICA:V14:2",
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "escenario": "Solo Avian",
+      "pregunta": "Argento encuentra Avian, Fusion está en mano, Burstinatrix no. ¿Puedes fusionar Wingman?",
+      "respuesta_controlada": "No todavía. Necesitas Burstinatrix en tu campo también.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "706:PRACTICA:V14:3",
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "escenario": "Daño Flame Wingman",
+      "pregunta": "Wingman se invoca con éxito pero aún no ha combatido. ¿Cuánto daño de su efecto infliges?",
+      "respuesta_controlada": "Cero; depende de destruir en batalla y mandar el monstruo al GY.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "707:PRACTICA:V14:1",
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "escenario": "Dealer coste",
+      "pregunta": "GY con 4 monstruos y 300 LP disponibles. ¿Puedes activar Dealer?",
+      "respuesta_controlada": "No, excediste máximo de 3 monstruos en GY.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "707:PRACTICA:V14:2",
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "escenario": "Dealer resolución",
+      "pregunta": "Pagas 300 LP y Dealer es negado. ¿Robas 3?",
+      "respuesta_controlada": "No; el pago se mantiene, no se resuelve el reemplazo.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    },
+    {
+      "id": "707:PRACTICA:V14:3",
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "escenario": "Dark Magic Attack",
+      "pregunta": "Dark Magician está solo en GY y no controlas Black Executor renombrado. ¿Se activa Attack?",
+      "respuesta_controlada": "No: necesitas nombre Dark Magician en tu campo.",
+      "tipo": "DECISION_REAL_NO_PREDICCION"
+    }
+  ]
+}

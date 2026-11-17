@@ -1,0 +1,1864 @@
+# DoomZ
+
+
+## IDENTIDAD BÁSICA
+
+- `deck_id`: **653**
+- Nombre registrado: **DoomZ**
+- Formato: **tcg_advanced**
+- Main: **40**; Extra: **15**; Side: **9**; Reserva: **0**.
+
+
+## PERFIL BREVE — CONOCE TU DECK
+
+- **Arquetipo:** DoomZ, con sus piezas de Modelo de Poder y Equipos registrados.
+- **Tipo de estrategia:** preparación de materiales y salidas Xyz condicionadas.
+- **Estilo de juego:** desarrollo por efectos encadenados y aprovechamiento de recursos que se equipan, destruyen o recuperan.
+- **Cómo se juega:** Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios.
+- **Cartas representativas:** Incursores DoomZ, Amalthe, Elara, Drastrius y Júpiter.
+- **Qué vigilar:** niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.
+
+## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
+
+#### 01. Medius el Puro
+
+![Miniatura oficial Konami de la carta CID 21419](imagenes/tcg/21419.jpg)
+
+- **Copias y zona:** Main 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Medius el Puro. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · extensor · recuperación.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: reciclaje de recurso propio.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) al invocarla Normal/Especial: Invocación Especial desde mano, incorpora la pieza indicada a la mano · 2) mientras está en Cementerio: Invocación Especial desde mano, devuelve recursos a mano/Deck/Extra. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; al llegar o estar en el Cementerio.
+- **Costes o recursos potenciales:** reciclaje de recurso propio.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Medius el Puro**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** Coste o consumo descrito en A05: reciclaje de recurso propio.
+- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 02. Mando DoomZ «D.O.O.M.D.U.R.G.»
+
+![Miniatura oficial Konami de la carta CID 21824](imagenes/tcg/21824.jpg)
+
+- **Copias y zona:** Main 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Mando DoomZ "D.O.O.M.D.U.R.G.". CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · removal · cierre · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) en Standby Phase: destruye la carta o recurso previsto, equipa carta/monstruo según texto, inflige daño. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Standby Phase; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Mando DoomZ «D.O.O.M.D.U.R.G.»**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 03. DoomZ Modelo de Poder
+
+![Miniatura oficial Konami de la carta CID 21777](imagenes/tcg/21777.jpg)
+
+- **Copias y zona:** Main 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ Modelo de Poder. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · removal · respuesta · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: habilita Xyz, Invocación Especial desde Extra Deck · 2) al destruirse: incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ Modelo de Poder**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 04. El Bufón y el Pájaro del Candado
+
+![Miniatura oficial Konami de la carta CID 9279](imagenes/tcg/9279.jpg)
+
+- **Copias y zona:** Main 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** El Bufón y el Pájaro del Candado. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** handtrap · bloqueo de búsquedas.
+- **Estado de sinergia y función:** Utilidad independiente. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
+- **Efecto operativo (paráfrasis analítica):** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. 
+- **Mapa de activación y resultados:** 1) con condición explícita en la carta: impide nuevas incorporaciones a mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
+- **Restricciones y requisitos:** aplicar restricciones de selección, activación y copias que consten en el texto original. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — El Bufón y el Pájaro del Candado**
+
+- **Label funcional:** Función independiente. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.
+- **Cómo aprovecharla en este deck:** Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
+- **Cuándo tener precaución:** No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 05. Modelo de Poder Máquina de Sombras Zegredo
+
+![Miniatura oficial Konami de la carta CID 22521](imagenes/tcg/22521.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Jupredo la Máquina Sombra Modelo de Poder. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · removal · habilitador Xyz.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Efecto Péndulo:** además de su efecto de monstruo, la fuente oficial declara acciones propias de su Zona Péndulo; aplicar por separado sus requisitos, coste y límite (incluido en clasificación mecánica).
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: habilita Xyz, Invocación Especial desde Extra Deck, destruye la carta o recurso previsto · 2) con condición explícita en la carta: incorpora la pieza indicada a la mano · 3) en Main Phase: destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Modelo de Poder Máquina de Sombras Zegredo**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 06. Flor de Ceniza & Primavera Feliz
+
+![Miniatura oficial Konami de la carta CID 12950](imagenes/tcg/12950.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Flor de Ceniza & Primavera Feliz. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** handtrap · negación.
+- **Estado de sinergia y función:** Utilidad independiente. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
+- **Efecto operativo (paráfrasis analítica):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. 
+- **Mapa de activación y resultados:** 1) con condición explícita en la carta: niega el efecto o la activación indicada, Invocación Especial desde Deck, incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** descarte de mano.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Flor de Ceniza & Primavera Feliz**
+
+- **Label funcional:** Función independiente. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck.
+- **Cómo aprovecharla en este deck:** Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
+- **Cuándo tener precaución:** Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 07. Therion «Rey» Regulus
+
+![Miniatura oficial Konami de la carta CID 17119](imagenes/tcg/17119.jpg)
+
+- **Copias y zona:** Main 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Therion "Rey" Regulus. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** extensor Máquina · negación.
+- **Estado de sinergia y función:** Utilidad independiente. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
+- **Efecto operativo (paráfrasis analítica):** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. 
+- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** respuesta a activación rival; Efecto Rápido.
+- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor Máquina».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Su activación exige equipo/recursos adecuados y no se confunde con una negación pasiva. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Therion «Rey» Regulus**
+
+- **Label funcional:** Función independiente. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion.
+- **Cómo aprovecharla en este deck:** Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor Máquina».
+- **Uso y consumo de recursos:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
+- **Cuándo tener precaución:** Su activación exige equipo/recursos adecuados y no se confunde con una negación pasiva. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 08. DoomZ XII Cero - Drastea
+
+![Miniatura oficial Konami de la carta CID 21774](imagenes/tcg/21774.jpg)
+
+- **Copias y zona:** Main 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ XII Cero - Drastea. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · extensor · habilitador Xyz · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde mano, equipa carta/monstruo según texto · 2) con Equipo requerido: habilita Xyz, Invocación Especial desde Extra Deck. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ XII Cero - Drastea**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 09. DoomZ V Cinco - Amalthe
+
+![Miniatura oficial Konami de la carta CID 21775](imagenes/tcg/21775.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ V Cinco - Amalthe. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · searcher · buscador · habilitador Xyz · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) al invocarla Normal/Especial: incorpora la pieza indicada a la mano · 2) con Equipo requerido: habilita Xyz, Invocación Especial desde Extra Deck. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ V Cinco - Amalthe**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 10. DoomZ VII Siete - Elara
+
+![Miniatura oficial Konami de la carta CID 21776](imagenes/tcg/21776.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ VII Siete - Elara. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · preparación · habilitador Xyz · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) al invocarla Normal/Especial: Coloca Mágicas/Trampas indicadas · 2) con Equipo requerido: habilita Xyz, Invocación Especial desde Extra Deck. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ VII Siete - Elara**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 11. Infinito Temporal
+
+![Miniatura oficial Konami de la carta CID 13631](imagenes/tcg/13631.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Infinito Temporal. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** trampa · negación.
+- **Estado de sinergia y función:** Utilidad independiente. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. 
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: niega el efecto o la activación indicada. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** campo propio vacío.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** requiere campo propio sin las cartas indicadas. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «trampa».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Desde mano sólo con el campo propio vacío, conforme a la condición de activación de la Trampa. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Infinito Temporal**
+
+- **Label funcional:** Función independiente. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente.
+- **Cómo aprovecharla en este deck:** Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «trampa».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Desde mano sólo con el campo propio vacío, conforme a la condición de activación de la Trampa. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 12. Fuwalos Multivadora
+
+![Miniatura oficial Konami de la carta CID 20500](imagenes/tcg/20500.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Fuwalos Multivadora. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** handtrap · robo condicional.
+- **Estado de sinergia y función:** Utilidad independiente. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
+- **Efecto operativo (paráfrasis analítica):** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. 
+- **Mapa de activación y resultados:** 1) con campo propio vacío: Invocación Especial desde Extra Deck, devuelve recursos a mano/Deck/Extra. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** campo propio vacío; Efecto Rápido.
+- **Costes o recursos potenciales:** descarte de mano; reciclaje de recurso propio.
+- **Restricciones y requisitos:** requiere campo propio sin las cartas indicadas; interactúa con información oculta o resultados no siempre elegibles. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Fuwalos Multivadora**
+
+- **Label funcional:** Función independiente. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase.
+- **Cómo aprovecharla en este deck:** Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Uso y consumo de recursos:** Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso.
+- **Cuándo tener precaución:** No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 13. Portal del Modelo de Poder Desatado - Terminus
+
+![Miniatura oficial Konami de la carta CID 22565](imagenes/tcg/22565.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Portal de Modelo de Poder Vetado - Término. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · removal.
+- **Estado de sinergia y función:** Sin relación demostrada. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: incorpora la pieza indicada a la mano · 2) con condición explícita en la carta: destierra el recurso u objetivo previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede limitar ataques; depende de recursos en Cementerio; interactúa con información oculta o resultados no siempre elegibles. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Portal del Modelo de Poder Desatado - Terminus**
+
+- **Label funcional:** Sin sinergia demostrada. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Sinergia no demostrada:** conservar su función individual si la tiene; no vincularla con otro combo sin una interacción real.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 14. Incursores DoomZ
+
+![Miniatura oficial Konami de la carta CID 21823](imagenes/tcg/21823.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Incursores DoomZ. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · extensor.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) en Main Phase: incorpora la pieza indicada a la mano, destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase; al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** puede bloquear tipos de Invocación del Extra Deck. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Incursores DoomZ**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 15. Vidrium, Modelo de Poder de la Exterminación del Caos
+
+![Miniatura oficial Konami de la carta CID 22519](imagenes/tcg/22519.jpg)
+
+- **Copias y zona:** Main 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Vidolium el Inestable Modelo de Poder de Unidad. El inventario usa el nombre histórico «Vidrium»; Konami en español registra el CID como «Vidolium el Inestable Modelo de Poder de Unidad». Mantener alias original hasta cotejo visual.
+- **Función principal y secundaria:** searcher · buscador · recuperación · extensor · removal.
+- **Estado de sinergia y función:** Recurso Péndulo condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Efecto Péndulo:** además de su efecto de monstruo, la fuente oficial declara acciones propias de su Zona Péndulo; aplicar por separado sus requisitos, coste y límite (incluido en clasificación mecánica).
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde Extra Deck · 2) con condición explícita en la carta: incorpora la pieza indicada a la mano · 3) al invocarse: destierra el recurso u objetivo previsto · 4) efecto propio o continuo: Invocación Especial desde Cementerio, destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles; tiene procedimiento especial de Invocación. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Estar en Main permite activar Vidolium como Escala Péndulo; autodestruirse puede extender un Power Patron de mano/GY y su llegada boca arriba al Extra puede buscar Power Patron. La Invocación del monstruo de Nivel 12 sí necesita retornar Fusión + Sincronía + Xyz; no debe atribuirse sin prueba.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Vidrium, Modelo de Poder de la Exterminación del Caos**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** Estar en Main permite activar Vidolium como Escala Péndulo; autodestruirse puede extender un Power Patron de mano/GY y su llegada boca arriba al Extra puede buscar Power Patron. La Invocación del monstruo de Nivel 12 sí necesita retornar Fusión + Sincronía + Xyz; no debe atribuirse sin prueba.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** No computar como invocación normal disponible: depende de su procedimiento y de recursos previos. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 16. Cambio DoomZ
+
+![Miniatura oficial Konami de la carta CID 22158](imagenes/tcg/22158.jpg)
+
+- **Copias y zona:** Main 3x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Cambio DoomZ. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · extensor · removal.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: destruye la carta o recurso previsto · 2) al destruirse: Invocación Especial desde Cementerio, incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Cambio DoomZ**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 17. Destrucción DoomZ
+
+![Miniatura oficial Konami de la carta CID 21840](imagenes/tcg/21840.jpg)
+
+- **Copias y zona:** Main 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Destrucción DoomZ. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** searcher · buscador · removal · respuesta · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: impide nuevas incorporaciones a mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Destrucción DoomZ**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «searcher».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Riesgo operativo: falta de Equipo/objetivo válido y cierres del Extra Deck a Xyz. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 18. Mando DoomZ «A.D.R.A.S.T.E.I.A.»
+
+![Miniatura oficial Konami de la carta CID 22567](imagenes/tcg/22567.jpg)
+
+- **Copias y zona:** Main 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Mando DoomZ "A.D.R.A.S.T.E.I.A.". CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** extensor · cierre · respuesta · motor Equipo.
+- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: equipa carta/monstruo según texto · 2) en Main Phase: Invocación Especial desde Cementerio, destruye la carta o recurso previsto, equipa carta/monstruo según texto · 3) mientras está en Cementerio: equipa carta/monstruo según texto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase; al llegar o estar en el Cementerio.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22567&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Mando DoomZ «A.D.R.A.S.T.E.I.A.»**
+
+- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «extensor».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 19. Número F0: Futuro Draco Utópico
+
+![Miniatura oficial Konami de la carta CID 14958](imagenes/tcg/14958.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Número F0: Futuro Draco Utópico. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · negación · habilitador Xyz · protección.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) en respuesta a activación rival: niega el efecto o la activación indicada, desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** respuesta a activación rival; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Número F0: Futuro Draco Utópico**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** negación de efectos o activaciones; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 20. Springans Fiestero
+
+![Miniatura oficial Konami de la carta CID 16002](imagenes/tcg/16002.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Springans Fiestero. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · extensor · recuperación · habilitador Xyz.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; exige materiales de Extra Deck o materiales adecuados. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Springans Fiestero**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 21. Gigantesco «Campeón» Sargas
+
+![Miniatura oficial Konami de la carta CID 18190](imagenes/tcg/18190.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Gigantesco "Campeón" Sargas. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · buscador · habilitador Xyz.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) con condición explícita en la carta: incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Gigantesco «Campeón» Sargas**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 22. DoomZ XII Fin - Drastrius
+
+![Miniatura oficial Konami de la carta CID 21811](imagenes/tcg/21811.jpg)
+
+- **Copias y zona:** Extra 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ XII Fin - Drastrius. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · negación · habilitador Xyz · motor Equipo.
+- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) tras su invocación desde el Extra: equipa carta/monstruo según texto · 2) en respuesta a activación rival: niega el efecto o la activación indicada, desacopla materiales Xyz, equipa carta/monstruo según texto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; respuesta a activación rival; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ XII Fin - Drastrius**
+
+- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
+
+- **Abrir guía `653:A09:RAIDERS:ELARA:DRAS01`:** entrada: Incursores DoomZ (21823, Mágica Continua) + DoomZ VII Siete - Elara (21776, Nivel 4). Campo y GY propios vacíos; en Main Deck queda Drastea (21774) y al menos un Mando DoomZ D.O.O.M.D.U.R.G. (21824, Equipo); en Extra Drastrius (21811, Xyz Máquina de VIENTO Rango 8). Main Phase propia; no respuesta rival ni cartas adversarias seleccionables.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:RAIDERS:AMALTHE:DRAS02`:** entrada: Incursores (21823) + Amalthe (21775, Nivel 4); campo/GY vacíos. En Main Deck quedan al menos 1 Drastea, 1 Elara y 1 Mando; Drastrius en Extra. Sin respuesta rival.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:RAIDERS:CHANGE:DRAS03`:** entrada: Incursores Incursores DoomZ (21823) + Cambio Cambio DoomZ (22158). Main Phase propia; Campo y Cementerio propios vacíos; rival sin respuestas. Deben permanecer en el Main Deck Amalthe (21775), Drastea (21774) y Mando DoomZ «D.O.O.M.D.U.R.G.» (21824), y en el Extra Drastrius (21811). La carta Cambio en la mano NO puede destruirse a sí misma con su propio efecto.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05`:** entrada: Medius Medius el Puro (21419) como única carta de mano; Campo/GY propios vacíos, Main Phase propia, sin respuesta rival. En Main permanecen DoomZ Modelo de Poder (21777), Cambio (22158), Amalthe (21775), Drastea (21774), Mando D.O.O.M.D.U.R.G. (21824) y, para recuperación opcional, Mando A.D.R.A.S.T.E.I.A. (22567); Extra conserva Diactorus (21812) y Drastrius (21811).. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:GRAFLAREIO:DRAS06`:** entrada: Medius Medius como única carta inicial; sin Campo/GY propios, Main Phase y sin interrupción rival. En Deck quedan DoomZ Modelo de Poder, Incursores, Cambio, Elara, Amalthe, Drastea y los dos Equipos Mando indicados; en Extra, Diactorus, Graflareio (22554), Drastrius. Ruta ramificada respecto de A09-05: en vez de destruir Modelo de Poder con Diactorus, lo pierde por el cambio Xyz a Graflareio.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`:** entrada: Cambio Cambio DoomZ (22158); propio Campo y GY vacíos, Main Phase propia y oponente sin respuestas. Deben quedar en Main Deck: DoomZ Modelo de Poder (21777), dos copias distintas de Elara (21776), al menos una Amalthe (21775), Drastea (21774), Incursores (21823) y las dos copias de Mando D.O.O.M.D.U.R.G. (21824). Extra: Diactorus (21812), Graflareio (22554) y Drastrius (21811). Esta línea consume las dos copias de Mando en destinos diferentes.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+
+#### 23. DoomZ XIII Over - Graflario
+
+![Miniatura oficial Konami de la carta CID 22554](imagenes/tcg/22554.jpg)
+
+- **Copias y zona:** Extra 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** DoomZ XIII Supremo - Graflareio. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · buscador · extensor · recuperación · habilitador Xyz.
+- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: incorpora la pieza indicada a la mano, destruye la carta o recurso previsto, desacopla materiales Xyz · 2) al destruirse: Invocación Especial desde Deck. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — DoomZ XIII Over - Graflario**
+
+- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
+
+- **Abrir guía `653:A09:MEDIUS:GRAFLAREIO:DRAS06`:** entrada: Medius Medius como única carta inicial; sin Campo/GY propios, Main Phase y sin interrupción rival. En Deck quedan DoomZ Modelo de Poder, Incursores, Cambio, Elara, Amalthe, Drastea y los dos Equipos Mando indicados; en Extra, Diactorus, Graflareio (22554), Drastrius. Ruta ramificada respecto de A09-05: en vez de destruir Modelo de Poder con Diactorus, lo pierde por el cambio Xyz a Graflareio.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`:** entrada: Cambio Cambio DoomZ (22158); propio Campo y GY vacíos, Main Phase propia y oponente sin respuestas. Deben quedar en Main Deck: DoomZ Modelo de Poder (21777), dos copias distintas de Elara (21776), al menos una Amalthe (21775), Drastea (21774), Incursores (21823) y las dos copias de Mando D.O.O.M.D.U.R.G. (21824). Extra: Diactorus (21812), Graflareio (22554) y Drastrius (21811). Esta línea consume las dos copias de Mando en destinos diferentes.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+
+#### 24. Fractura DoomZ - Diactorus
+
+![Miniatura oficial Konami de la carta CID 21812](imagenes/tcg/21812.jpg)
+
+- **Copias y zona:** Extra 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Fractura DoomZ - Diactorus. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · extensor · motor Equipo.
+- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** acceso al campo desde la mano; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) al invocarse: destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación; al destruirse.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Fractura DoomZ - Diactorus**
+
+- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** acceso al campo desde la mano; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** acceso al campo desde la mano; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
+
+- **Abrir guía `653:A09:RAIDERS:ELARA:DRAS01`:** entrada: Incursores DoomZ (21823, Mágica Continua) + DoomZ VII Siete - Elara (21776, Nivel 4). Campo y GY propios vacíos; en Main Deck queda Drastea (21774) y al menos un Mando DoomZ D.O.O.M.D.U.R.G. (21824, Equipo); en Extra Drastrius (21811, Xyz Máquina de VIENTO Rango 8). Main Phase propia; no respuesta rival ni cartas adversarias seleccionables.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:RAIDERS:AMALTHE:DRAS02`:** entrada: Incursores (21823) + Amalthe (21775, Nivel 4); campo/GY vacíos. En Main Deck quedan al menos 1 Drastea, 1 Elara y 1 Mando; Drastrius en Extra. Sin respuesta rival.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:RAIDERS:CHANGE:DRAS03`:** entrada: Incursores Incursores DoomZ (21823) + Cambio Cambio DoomZ (22158). Main Phase propia; Campo y Cementerio propios vacíos; rival sin respuestas. Deben permanecer en el Main Deck Amalthe (21775), Drastea (21774) y Mando DoomZ «D.O.O.M.D.U.R.G.» (21824), y en el Extra Drastrius (21811). La carta Cambio en la mano NO puede destruirse a sí misma con su propio efecto.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05`:** entrada: Medius Medius el Puro (21419) como única carta de mano; Campo/GY propios vacíos, Main Phase propia, sin respuesta rival. En Main permanecen DoomZ Modelo de Poder (21777), Cambio (22158), Amalthe (21775), Drastea (21774), Mando D.O.O.M.D.U.R.G. (21824) y, para recuperación opcional, Mando A.D.R.A.S.T.E.I.A. (22567); Extra conserva Diactorus (21812) y Drastrius (21811).. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:GRAFLAREIO:DRAS06`:** entrada: Medius Medius como única carta inicial; sin Campo/GY propios, Main Phase y sin interrupción rival. En Deck quedan DoomZ Modelo de Poder, Incursores, Cambio, Elara, Amalthe, Drastea y los dos Equipos Mando indicados; en Extra, Diactorus, Graflareio (22554), Drastrius. Ruta ramificada respecto de A09-05: en vez de destruir Modelo de Poder con Diactorus, lo pierde por el cambio Xyz a Graflareio.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`:** entrada: Cambio Cambio DoomZ (22158); propio Campo y GY vacíos, Main Phase propia y oponente sin respuestas. Deben quedar en Main Deck: DoomZ Modelo de Poder (21777), dos copias distintas de Elara (21776), al menos una Amalthe (21775), Drastea (21774), Incursores (21823) y las dos copias de Mando D.O.O.M.D.U.R.G. (21824). Extra: Diactorus (21812), Graflareio (22554) y Drastrius (21811). Esta línea consume las dos copias de Mando en destinos diferentes.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+
+#### 25. Júpiter el Modelo de Poder de Destrucción
+
+![Miniatura oficial Konami de la carta CID 21810](imagenes/tcg/21810.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Júpiter el Modelo de Poder de Destrucción. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · recuperación · removal · cierre · habilitador Xyz.
+- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** recuperación e invocación desde Cementerio/destierro; destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: equipa carta/monstruo según texto · 2) tras su invocación desde el Extra: equipa carta/monstruo según texto · 3) una vez por turno: Invocación Especial desde Cementerio, destruye la carta o recurso previsto, desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** al producirse una Invocación.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Júpiter el Modelo de Poder de Destrucción**
+
+- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** recuperación e invocación desde Cementerio/destierro; destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; gestión de materiales Xyz; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro. A06 identifica su destino, condicionado a material/procedimiento.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
+
+- **Abrir guía `653:A09:RAIDERS:CHANGE:DRAS03`:** entrada: Incursores Incursores DoomZ (21823) + Cambio Cambio DoomZ (22158). Main Phase propia; Campo y Cementerio propios vacíos; rival sin respuestas. Deben permanecer en el Main Deck Amalthe (21775), Drastea (21774) y Mando DoomZ «D.O.O.M.D.U.R.G.» (21824), y en el Extra Drastrius (21811). La carta Cambio en la mano NO puede destruirse a sí misma con su propio efecto.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:JUPREDO:JUPITER04`:** entrada: Medius Medius el Puro (21419), sin otra carta necesaria; propio Campo/GY vacíos; Main Phase propia; Jupredo la Máquina Sombra Modelo de Poder (22521; alias histórico «Zegredo», 3 copias) permanece en Deck y Júpiter Júpiter el Modelo de Poder de Destrucción (21810, 1 copia) permanece en Extra. Hay al menos 3 cartas en Deck para desterrar boca abajo; no hay respuesta del rival.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:MEDIUS:GRAFLAREIO:DRAS06`:** entrada: Medius Medius como única carta inicial; sin Campo/GY propios, Main Phase y sin interrupción rival. En Deck quedan DoomZ Modelo de Poder, Incursores, Cambio, Elara, Amalthe, Drastea y los dos Equipos Mando indicados; en Extra, Diactorus, Graflareio (22554), Drastrius. Ruta ramificada respecto de A09-05: en vez de destruir Modelo de Poder con Diactorus, lo pierde por el cambio Xyz a Graflareio.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+- **Abrir guía `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`:** entrada: Cambio Cambio DoomZ (22158); propio Campo y GY vacíos, Main Phase propia y oponente sin respuestas. Deben quedar en Main Deck: DoomZ Modelo de Poder (21777), dos copias distintas de Elara (21776), al menos una Amalthe (21775), Drastea (21774), Incursores (21823) y las dos copias de Mando D.O.O.M.D.U.R.G. (21824). Extra: Diactorus (21812), Graflareio (22554) y Drastrius (21811). Esta línea consume las dos copias de Mando en destinos diferentes.. Propósito descrito: Preparación de recursos / despliegue. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
+
+#### 26. Número F0: Futuro Utópico Zexal
+
+![Miniatura oficial Konami de la carta CID 21453](imagenes/tcg/21453.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Número F0: Futuro Utópico Zexal. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · cierre · respuesta · habilitador Xyz.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) una vez por turno: desacopla materiales Xyz, toma temporalmente el control. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Número F0: Futuro Utópico Zexal**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 27. Varudras, el Último Portador del Fin de los Tiempos
+
+![Miniatura oficial Konami de la carta CID 19886](imagenes/tcg/19886.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Varudras, el Último Portador del Fin de los Tiempos. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · removal · negación · habilitador Xyz.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) en respuesta a activación rival: niega el efecto o la activación indicada, destruye la carta o recurso previsto, desacopla materiales Xyz · 2) con condición explícita en la carta: destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** respuesta a activación rival; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Varudras, el Último Portador del Fin de los Tiempos**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 28. Divino Arsenal AA-ZEUS - Trueno del Cielo
+
+![Miniatura oficial Konami de la carta CID 15524](imagenes/tcg/15524.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Divino Arsenal AA-ZEUS - Trueno del Cielo. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** interrupción · resultado de Extra Deck · habilitador Xyz.
+- **Estado de sinergia y función:** Acceso condicionado **demostrado** desde Drastrius que sobreviva a batalla; el coste es renunciar a su negación individual de monstruo y conservar un barrido de ZEUS.
+- **Papel como recurso, descarte o coste:** ZEUS se superpone en MP2 sobre Drastrius y hereda sus dos materiales: **3 materiales**; desacopla **2** para enviar al GY todas las otras cartas del Campo.
+- **Efecto operativo (paráfrasis analítica):** Efecto Rápido de enviar **todas las demás cartas del campo al GY**, **no destruir**. Su procedimiento Xyz alternativo requiere que algún Xyz haya batallado durante ese turno. No niega activación de monstruo y no hereda la protección VIENTO del Mando.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** 2 de los 3 materiales de la continuación; **incluye a la propia Incursores** en el barrido, si sigue boca arriba.
+- **Restricciones y requisitos:** batallar primero con Xyz y conservarlo para superponer ZEUS en Main Phase 2. La limitación de Incursores a Invocaciones de Extra Xyz **sí permite** esta continuación; evitar el efecto de ataque directo del Mando que destruiría Drastrius tras batallar.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «interrupción».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** mano Incursores + Elara permite Drastrius 2700/2 materiales, batallar con monstruo de ATK inferior que no lo elimine y en MP2 superponer ZEUS 3000/3 materiales. Abrir `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Divino Arsenal AA-ZEUS - Trueno del Cielo**
+
+- **Label funcional:** Destino Extra de continuación Xyz demostrado después de batalla.
+- **Qué hace:** con 2 materiales desacoplados, envía todas las otras cartas del Campo al GY como Efecto Rápido; puede retirar amenazas que no son destruibles, siempre que sean afectables y enviables.
+- **Cómo aprovecharla en este deck:** `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`: Incursores + Elara → Drastea+Mando → Drastrius 2 materiales → batalla segura → ZEUS MP2 con **3 materiales**.
+- **Al jugar primero:** sin Battle Phase en el turno inicial del primer jugador, no hay este acceso a ZEUS; conserva Drastrius como negación específica de efecto de monstruo.
+- **Al jugar segundo:** después de una batalla legal con Drastrius superviviente, valorar ZEUS para la próxima respuesta al tablero rival.
+- **Uso y consumo de recursos:** sacrifica negación de Drastrius y 2 de los 3 materiales de ZEUS; el barrido también envía **tu Incursores** al GY.
+- **Cuándo tener precaución:** NO activar efecto de ataque directo del Mando en la línea hacia ZEUS: si Drastrius batalla con ese efecto, se destruye al final del Damage Step. ZEUS es LUZ, así que Mando como material ya no le da protección reservada a Máquina VIENTO.
+- **Alcance de la guía:** siete pasos y una mano inicial exacta cotejados con Konami; no certifica las demás variantes de DoomZ.
+
+**CÓMO LLEGAR DESDE TU DECK — GUÍA VISUAL DE 7 PASOS**
+
+- `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`: apertura Incursores + Elara; adversario con monstruo de 1000 ATK sin resistencia; Drastrius ataca y sobrevive, ZEUS con 3 materiales en MP2. Mostrar la decisión «conservar Drastrius vs limpieza de ZEUS» y el tablero final exacto; documento `guias_a10/DECK_653_DRASTRIUS_BATALLA_ZEUS_GUIA.md`.
+
+#### 29. Número F0: Futuro Utópico
+
+![Miniatura oficial Konami de la carta CID 11413](imagenes/tcg/11413.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Número F0: Futuro Utópico. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · cierre · habilitador Xyz · protección.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** aplicar restricciones de selección, activación y copias que consten en el texto original. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Número F0: Futuro Utópico**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** presión de combate o modificación de estadísticas; gestión de materiales Xyz; protección o resistencia contra respuestas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 30. Mago Gagagaga
+
+![Miniatura oficial Konami de la carta CID 14920](imagenes/tcg/14920.jpg)
+
+- **Copias y zona:** Extra 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Mago Gagagaga. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** resultado de Extra Deck · negación · cierre · respuesta · habilitador Xyz.
+- **Estado de sinergia y función:** Sin acceso al Extra demostrado. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: niega el efecto o la activación indicada, desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Mago Gagagaga**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** negación de efectos o activaciones; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+**CÓMO LLEGAR DESDE TU DECK — SIN RUTA DEMOSTRADA**
+
+- La biblioteca actual no contiene una ruta identificada para esta carta del Extra. No se debe exhibir una descripción genérica como sustituto de mano inicial, materiales y pasos. Para completarla, contrastar requisitos oficiales y recursos del Main; si no es alcanzable, explicar el impedimento exacto.
+
+#### 31. Ogro Fantasma & Conejo de las Nieves
+
+![Miniatura oficial Konami de la carta CID 11708](imagenes/tcg/11708.jpg)
+
+- **Copias y zona:** Side 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Ogro Fantasma & Conejo de las Nieves. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** handtrap · destrucción.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
+- **Efecto operativo (paráfrasis analítica):** Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta. 
+- **Mapa de activación y resultados:** 1) con condición explícita en la carta: destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Efecto Rápido.
+- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** Destruir no equivale a negar la resolución del efecto activado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Ogro Fantasma & Conejo de las Nieves**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Uso y consumo de recursos:** Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano.
+- **Cuándo tener precaución:** Destruir no equivale a negar la resolución del efecto activado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 32. Talento de Tácticas Triples
+
+![Miniatura oficial Konami de la carta CID 15296](imagenes/tcg/15296.jpg)
+
+- **Copias y zona:** Side 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Talento de Tácticas Triples. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** mágica de respuesta · ventaja.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck. 
+- **Mapa de activación y resultados:** 1) en Main Phase: devuelve recursos a mano/Deck/Extra, roba cartas, toma temporalmente el control. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Talento de Tácticas Triples**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 33. Número 60: Dugares el Eterno
+
+![Miniatura oficial Konami de la carta CID 14564](imagenes/tcg/14564.jpg)
+
+- **Copias y zona:** Side 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Número 60: Dugares el Eterno. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** side técnico · recuperación · ventaja de mano · cierre · habilitador Xyz.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde Cementerio, desacopla materiales Xyz, roba cartas. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** descarte de mano.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Número 60: Dugares el Eterno**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 34. Llamado por la Tumba
+
+![Miniatura oficial Konami de la carta CID 13619](imagenes/tcg/13619.jpg)
+
+- **Copias y zona:** Side 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Llamado por la Tumba. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** mágica rápida · negación de nombre.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente. 
+- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica rápida».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Llamado por la Tumba**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica rápida».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 35. Tormenta de Relámpagos
+
+![Miniatura oficial Konami de la carta CID 14876](imagenes/tcg/14876.jpg)
+
+- **Copias y zona:** Side 2x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Tormenta de Relámpagos. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** mágica · ruptura de mesa.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales. 
+- **Mapa de activación y resultados:** 1) con campo propio vacío: destruye la carta o recurso previsto. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** campo propio vacío.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; requiere campo propio sin las cartas indicadas; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** No destruye monstruos en defensa con su primera opción. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Tormenta de Relámpagos**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «mágica».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** No destruye monstruos en defensa con su primera opción. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 36. Nibiru, el Ser Primitivo
+
+![Miniatura oficial Konami de la carta CID 14741](imagenes/tcg/14741.jpg)
+
+- **Copias y zona:** Side 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Nibiru, el Ser Primitivo. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** handtrap · limpieza del campo.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Efecto operativo (paráfrasis analítica):** En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival. 
+- **Mapa de activación y resultados:** 1) en Main Phase: Invocación Especial desde mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** Main Phase; Efecto Rápido.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. No asumir que por sí misma recicla recursos si el texto no lo permite.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** Cuenta invocaciones y entrega una Ficha cuyo ATK/DEF depende de lo sacrificado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Nibiru, el Ser Primitivo**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «handtrap».
+- **Uso y consumo de recursos:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
+- **Cuándo tener precaución:** Cuenta invocaciones y entrega una Ficha cuyo ATK/DEF depende de lo sacrificado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+
+#### 37. Súper Asesino Estelar TY-PHON - Crisis Celeste
+
+![Miniatura oficial Konami de la carta CID 19184](imagenes/tcg/19184.jpg)
+
+- **Copias y zona:** Side 1x. No altera las cantidades registradas.
+- **Nombre oficial de referencia:** Súper Asesino Estelar TY-PHON - Crisis Celeste. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
+- **Función principal y secundaria:** side técnico · recuperación · cierre · habilitador Xyz.
+- **Estado de sinergia y función:** Side utilizable entre duelos. Es una clasificación de juego; revisar la relación concreta en A06.
+- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Efecto operativo (paráfrasis analítica):** retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Mapa de activación y resultados:** 1) una vez por turno: devuelve recursos a mano/Deck/Extra, desacopla materiales Xyz. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
+- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
+- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos. 
+- **Prioridad al ir primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Prioridad al ir segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
+- **Medio/tardío y recuperación:** reciclar piezas equipadas y cartas DoomZ del Cementerio. Verificar que el objetivo de recuperación continúe disponible.
+- **Sinergias y acceso a líneas:** Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. No habilita una ruta inicial antes del intercambio.
+- **Riesgo / brick / interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
+- **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
+- **Aplicación concreta dentro de este deck (A06):** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
+- **Alcance de esta ficha:** interpretación táctica editorial. Los costes, objetivos, ventanas y límites exactos se deben cotejar con el texto oficial antes de considerarlos verificados en una secuencia A09.
+
+**USO PRÁCTICO Y SINERGIA — Súper Asesino Estelar TY-PHON - Crisis Celeste**
+
+- **Label funcional:** Sin sinergia demostrada (con la evidencia actual). Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
+- **Qué hace:** retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
+- **Cómo aprovecharla en este deck:** Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual.
+- **Al jugar primero:** preparar Equipos, materiales Xyz y respuestas en turno rival. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+- **Al jugar segundo:** retirar amenazas y después convertir la destrucción propia en ventaja. Identificar primero la respuesta rival que afecta su función «side técnico».
+- **Uso y consumo de recursos:** Material o destino del Extra condicionado a los requisitos de invocación.
+- **Cuándo tener precaución:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Alcance de la guía:** explicación de función y aplicación derivada de la ficha existente. No certifica una nueva secuencia de invocación o cadena.
+
+## SINERGIAS Y MOTORES
+## RESUMEN FUNCIONAL DE SINERGIAS — 653
+
+**Medición descriptiva de etiquetas existentes (NO certificación):** 11/37 identidades con etiqueta directa/indirecta (29.7 %). Main: 11/18 (61.1 %); Extra: 0/12 (0.0 %). Se cuenta una identidad una sola vez; una carta autónoma puede ser útil sin sinergia de motor. Estas cifras provienen de clasificaciones documentales A05/A06: **no son el porcentaje final de sinergias verificadas**, ni una tasa estadística de victoria. Para promoverlas a métricas verificadas, se deben comprobar los pares de cartas y su operación legal.
+
+
+
+#### A06.0 — En 30 segundos: cómo cooperan realmente estas cartas
+
+
+- **Dictamen de conjunto:** núcleo de destrucción y Equipo coherente, con puentes a Modelo de Poder aún condicionados.
+- **Motor que mueve el deck:** Incursores, Cambio y Drastea buscan o preparan cartas DoomZ; la destrucción correcta crea recursos que se convierten en Equipos y habilitan el acceso Xyz.
+- **Puentes reales:** Amalthe/Elara convierten Equipos y monstruos de Nivel compatible en Xyz DoomZ; Medius/Zegredo conduce a Júpiter por procedimiento propio, no por el mismo coste de tres Equipos.
+- **Sinergia indirecta:** una pieza destinada a ser destruida, equipada o enviada al GY puede ser recurso necesario y no una carta sobrante. El efecto de destrucción no es equivalente a cualquier envío.
+- **Conflicto decisivo:** niveles/rangos, materiales todavía disponibles, límites por turno y bloqueos de Extra Xyz. La función Péndulo de Vidolium puede servir como apoyo aunque su Invocación como monstruo de Nivel 12 sea otra operación.
+- **Decisión concreta:** conservar la arquitectura DoomZ y separar las salidas Xyz/Júpiter; comprobar el acceso de cada carta Extra y los enlaces secundarios pendientes antes de valorar reemplazos.
+- **Qué aprender después:** seleccionar apertura DoomZ válida, seguir la transformación a Xyz y comprobar el material exacto antes de elegir un jefe.
+
+
+
+#### Motores y dependencias
+
+1. **Núcleo DoomZ: destruir cartas propias con provecho.** **Incursores DoomZ** (CID 21823) destruye otra carta DoomZ de mano/campo para añadir o Invocar desde Deck un monstruo DoomZ; su restricción permite después solo Extra **Xyz**, y **solo uno de sus dos efectos por turno**. **Cambio DoomZ** (22158) puede destruir una carta DoomZ de mano/Deck/campo, y si ese mismo Cambio es destruido por efecto puede recuperar otra carta DoomZ del GY y eventualmente extender desde la mano. No confundir «destruir» con «enviar».
+2. **Buscador de monstruo frente a colocador de Magia/Trampa.** **DoomZ V Cinco – Amalthe** (21775) busca un monstruo DoomZ **al ser Invocado o destruido por efecto**; **DoomZ VII Siete – Elara** (21776) **Coloca** una Mágica/Trampa DoomZ del Deck en esos casos. Ambos pueden convertirse en Xyz Máquina de VIENTO del **Rango igual a su Nivel** mientras estén equipados; no existe autorización para saltar a cualquier Rango.
+3. **Equipo, autodestrucción y Xyz.** **DoomZ XII Cero – Drastea** (21774) destruye una DoomZ propia para entrar desde mano y equipar una Mágica de Equipo desde Deck; equipada puede convertirse mediante su efecto rápido en Xyz Máquina de VIENTO de Rango igual a su Nivel, transfiriéndose con Equipos como materiales. **DoomZ Modelo de Poder** (21777) convierte otro Monstruo de Efecto en Xyz DoomZ o Júpiter de Rango igual a su Nivel, equipándose a él y bloqueando otras categorías Extra.
+4. **Modelo de Poder / Júpiter alternativo.** **Medius el Puro** (21419) permite acceder a un monstruo Modelo de Poder; **Modelo de Poder Máquina de Sombras Zegredo** (22521) puede destruirse tras desterrar las tres cartas superiores del Deck boca abajo para Invocar **Júpiter** (21810) del Extra como Xyz. La alternativa propia de Júpiter exige un monstruo **equipado con al menos tres Equipos**; no atribuir esa condición a cualquier invocación de Júpiter.
+5. **Destinos Extra disponibles.** **Fractura DoomZ – Diactorus** (21812) destruye una DoomZ propia al ser Invocada Especialmente y puede destruir un monstruo; **DoomZ XIII Over – Graflario** (22554) puede usar un Xyz DoomZ como material y busca Mágica/Trampa DoomZ desacoplando material, con destrucción opcional; **DoomZ XII Fin – Drastrius** (21811) equipa un monstruo boca arriba al ser Invocado Xyz y puede negar efectos de monstruo en Campo/GY desacoplando un material. Son destinos con requisitos distintos, no un mismo «boss» intercambiable.
+6. **Equipos y reactivación.** **Mando DoomZ D.O.O.M.D.U.R.G.** (21824) aporta protección de selección y efecto rápido de destruir otra carta propia, ganar ATK/atacar directamente, sujeto a autodestrucción tras batalla. **Mando DoomZ A.D.R.A.S.T.E.I.A.** (22567) destruye al equipado para revivir otro DoomZ; desde GY se equipa a un monstruo y provoca daño a su controlador. **Destrucción DoomZ** (21840) equipa un Xyz con bloqueo de búsquedas rivales y, destruida por efecto, puede equipar un DoomZ desde Deck.
+
+#### Mapa de conexiones y fuentes para fotos
+
+| Conexión con CID | Resultado | Restricción clave | Visual |
+|---|---|---|---|
+| Incursores (21823) → Amalthe (21775) / Elara (21776) | Destrucción propia que habilita acceso a monstruo o Mágica/Trampa según la pieza afectada. | Efectos por turno, evento exacto de destrucción y bloqueo a Xyz. | ![CID 21823](imagenes/tcg/21823.jpg) ![CID 21775](imagenes/tcg/21775.jpg) ![CID 21776](imagenes/tcg/21776.jpg) |
+| Cambio DoomZ (22158) → Drastea (21774) / Amalthe | Preparación de recursos destruidos y extensión posterior. | La destrucción debe alcanzar la carta correcta y la salida existir en inventario. | ![CID 22158](imagenes/tcg/22158.jpg) ![CID 21774](imagenes/tcg/21774.jpg) |
+| Drastea (21774) + Mando (21824) → Drastrius (21811) | Equipamiento y transformación Xyz con materiales. | Rango = Nivel, zona/equipo legal, no invocación gratuita. | ![CID 21774](imagenes/tcg/21774.jpg) ![CID 21824](imagenes/tcg/21824.jpg) ![CID 21811](imagenes/tcg/21811.jpg) |
+| Medius (21419) → Zegredo (22521) → Júpiter (21810) | Acceso Modelo de Poder y procedimiento Xyz específico. | Desterrar 3 cartas boca abajo y destruir Zegredo; no confundir con requisito 3 Equipos. | ![CID 21419](imagenes/tcg/21419.jpg) ![CID 22521](imagenes/tcg/22521.jpg) ![CID 21810](imagenes/tcg/21810.jpg) |
+| Graflario (22554) / Diactorus (21812) → piezas DoomZ | Búsqueda de M/T y destrucción propia controlada. | Materiales y ventanas por texto, no efecto universal de todos los Xyz. | ![CID 22554](imagenes/tcg/22554.jpg) ![CID 21812](imagenes/tcg/21812.jpg) |
+
+#### Choques y redundancias
+
+- **Secuenciación Extra:** Incursores y DoomZ Modelo de Poder pueden bloquear Fusión/Sincronía/Enlace; no combinar arbitrariamente con otros jefes. **Elara** y **Amalthe** cambian el valor de destruir una propia (Colocación vs búsqueda). Una carta destruida por coste/efecto debe comprobarse frente al disparador escrito.
+- **Vidrium/Vidolium como Péndulo — función diferenciada:** CID 22519 figura **1x en Main**, lo cual **sí es válido** para activar su Escala Péndulo desde la mano. Su efecto Péndulo puede autodestruirse para Invocar un «Power Patron» de mano/GY, o potenciar monstruos «Power Patron» de Nivel original 12; la carta destruida puede pasar boca arriba al Extra y habilitar su búsqueda «Power Patron». **No** confundir esto con Invocar como monstruo al Vidolium de Nivel 12, que requiere retornar al Extra Fusión + Sincronía + Xyz. Esa ruta avanzada no está demostrada en DoomZ. Investigar objetivos del efecto Péndulo y relación con autodestrucción DoomZ, sin declarar la ruta avanzada operativa ni modificar copias.
+- **Cartas Extra de Rango distinto:** la conversión instantánea de Amalthe o Elara no autoriza a elegir Drastrius u otra carta sin correspondencia de Rango; si no existe destino apropiado, la rama queda bloqueada.
+- **Side de 9 copias:** Ogro, Talento, Dugares, Called by, Tormenta, Nibiru y TY-PHON se excluyen de las rutas de partida inicial; Dugares/TY-PHON solo serían Extra en una lista modificada y aprobada.
+
+
+
+
+
+
+
+#### A06.1 — Arquitectura operativa de los motores (síntesis no redundante)
+
+Las siguientes filas son **relaciones funcionales**, no secuencias certificadas ni garantía de mano inicial. La lista real y los límites están en A04/A05/A07.
+
+| Tipo / motor | Starter o vía de acceso real | Recurso y destino | Cuello de botella |
+|---|---|---|---|
+| **Principal: DoomZ destrucción/equipo** | Incursores / Cambio / Drastea y piezas DoomZ destruibles | Acceso al Deck, Equipos y conversión a Xyz | Destrucción exacta, no envío; límites por turno y bloqueo Xyz |
+| **Submotor: Xyz DoomZ** | Amalthe, Elara, Modelo de Poder y Equipos de rangos compatibles | Diactorus / Graflario / Drastrius | Rango igual al Nivel y material/equipo correcto |
+| **Secundario: Medius / Zegredo / Júpiter** | Medius y Máquina de Sombras Zegredo | Ruta alternativa condicionada hacia Júpiter | Destierro de tres cartas y autodestrucción; alternativa de tres Equipos no es equivalente |
+
+#### A06.2 — Estado funcional y justificación de TODAS las cartas
+
+**Cómo leerlo:** un estado de sinergia describe el papel **de juego**, no el avance de una auditoría. No hay obligación de que cada carta tenga un enlace con otra: una defensa autónoma, una herramienta de Side o un recurso de descarte justificado también tiene propósito. Las relaciones directas descritas aquí se deben contrastar con los textos oficiales antes de representarlas como una ruta legal A09.
+
+| Carta / CID y zona | Estado funcional de sinergia | Motivo de inclusión | Relación y condición concreta | Papel como coste, descarte o material | Límite o riesgo | Decisión táctica |
+|---|---|---|---|---|---|---|
+| **Medius el Puro** (CID 21419) — Main 1x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · extensor · recuperación | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra | Coste o consumo descrito en A05: reciclaje de recurso propio | hay límite por turno según el efecto concreto; depende de recursos en Cementerio | Conservar; verificar coste y orden |
+| **Mando DoomZ «D.O.O.M.D.U.R.G.»** (CID 21824) — Main 2x | **Sinergia indirecta (soporte o recursos)** | interrupción · removal · cierre · motor Equipo | destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **DoomZ Modelo de Poder** (CID 21777) — Main 2x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · removal · respuesta · motor Equipo | búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck | Conservar; verificar coste y orden |
+| **El Bufón y el Pájaro del Candado** (CID 9279) — Main 2x | **Utilidad independiente** | handtrap · bloqueo de búsquedas | Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo | Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano | aplicar restricciones de selección, activación y copias que consten en el texto original | Conservar según rival y conflictos propios |
+| **Modelo de Poder Máquina de Sombras Zegredo** (CID 22521) — Main 3x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · removal · habilitador Xyz | búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; gestión de materiales Xyz | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles | Conservar; verificar coste y orden |
+| **Flor de Ceniza & Primavera Feliz** (CID 12950) — Main 3x | **Utilidad independiente** | handtrap · negación | Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo | Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso | hay límite por turno según el efecto concreto | Conservar según rival y conflictos propios |
+| **Therion «Rey» Regulus** (CID 17119) — Main 1x | **Utilidad independiente** | extensor Máquina · negación | Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. Aporta respuesta o consistencia sin exigir enlace directo | Coste o consumo descrito en A05: envío de recurso propio al Cementerio | hay límite por turno según el efecto concreto; depende de recursos en Cementerio | Conservar según rival y conflictos propios |
+| **DoomZ XII Cero - Drastea** (CID 21774) — Main 2x | **Sinergia indirecta (soporte o recursos)** | interrupción · extensor · habilitador Xyz · motor Equipo | extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; gestión de materiales Xyz; uso o producción de cartas equipadas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **DoomZ V Cinco - Amalthe** (CID 21775) — Main 3x | **Sinergia indirecta (soporte o recursos)** | interrupción · searcher · buscador · habilitador Xyz · motor Equipo | búsqueda o incorporación de cartas a mano; gestión de materiales Xyz; uso o producción de cartas equipadas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **DoomZ VII Siete - Elara** (CID 21776) — Main 3x | **Sinergia indirecta (soporte o recursos)** | interrupción · preparación · habilitador Xyz · motor Equipo | colocación de Mágicas/Trampas o recursos; gestión de materiales Xyz; uso o producción de cartas equipadas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **Infinito Temporal** (CID 13631) — Main 3x | **Utilidad independiente** | trampa · negación | Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo | No se demuestra que esta carta sea recurso de descarte o pago para otra | requiere campo propio sin las cartas indicadas | Conservar según rival y conflictos propios |
+| **Fuwalos Multivadora** (CID 20500) — Main 3x | **Utilidad independiente** | handtrap · robo condicional | Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo | Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso | requiere campo propio sin las cartas indicadas; interactúa con información oculta o resultados no siempre elegibles | Conservar según rival y conflictos propios |
+| **Portal del Modelo de Poder Desatado - Terminus** (CID 22565) — Main 3x | **Sin relación demostrada** | Función individual: searcher · buscador · removal | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; puede limitar ataques; depende de recursos en Cementerio; interactúa con información oculta o… | Cruzar A05/A09; alternativa no demostrada |
+| **Incursores DoomZ** (CID 21823) — Main 3x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · extensor | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck | No se demuestra que esta carta sea recurso de descarte o pago para otra | puede bloquear tipos de Invocación del Extra Deck | Conservar; verificar coste y orden |
+| **Vidrium, Modelo de Poder de la Exterminación del Caos** (CID 22519) — Main 1x | **Recurso Péndulo condicionado** | searcher · buscador · recuperación · extensor · removal | Estar en Main permite activar Vidolium como Escala Péndulo; autodestruirse puede extender un Power Patron de mano/GY y su llegada boca arriba al Extra puede buscar Power Patron. La Invocación del monstruo de Nivel 12 sí necesita retornar Fusión + Sincronía +… | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles; tiene procedimiento especial… | Revisar zona/acceso; sustitución por validar |
+| **Cambio DoomZ** (CID 22158) — Main 3x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · extensor · removal | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; destrucción de cartas o empleo de destrucción como detonante | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; depende de recursos en Cementerio | Conservar; verificar coste y orden |
+| **Destrucción DoomZ** (CID 21840) — Main 1x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · removal · respuesta · motor Equipo | búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; interacción sobre monstruos en campo; uso o producción de cartas equipadas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **Mando DoomZ «A.D.R.A.S.T.E.I.A.»** (CID 22567) — Main 1x | **Sinergia indirecta (soporte o recursos)** | extensor · cierre · respuesta · motor Equipo | acceso al campo desde la mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; depende de recursos en Cementerio | Conservar; verificar coste y orden |
+| **Número F0: Futuro Draco Utópico** (CID 14958) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · negación · habilitador Xyz · protección | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
+| **Springans Fiestero** (CID 16002) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · extensor · recuperación · habilitador Xyz | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; exige materiales de Extra Deck o materiales adecuados. Invocar sólo desde el Extra Deck usando su… | Cruzar A09/A07 antes de proponer reemplazo |
+| **Gigantesco «Campeón» Sargas** (CID 18190) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · buscador · habilitador Xyz | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
+| **DoomZ XII Fin - Drastrius** (CID 21811) — Extra 2x | **Destino Extra condicionado** | interrupción · resultado de Extra Deck · negación · habilitador Xyz · motor Equipo | negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Conservar si hay materiales legales |
+| **DoomZ XIII Over - Graflario** (CID 22554) — Extra 2x | **Destino Extra condicionado** | resultado de Extra Deck · buscador · extensor · recuperación · habilitador Xyz | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; gestión de materiales Xyz | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Conservar si hay materiales legales |
+| **Fractura DoomZ - Diactorus** (CID 21812) — Extra 2x | **Destino Extra condicionado** | resultado de Extra Deck · extensor · motor Equipo | acceso al campo desde la mano; uso o producción de cartas equipadas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Conservar si hay materiales legales |
+| **Júpiter el Modelo de Poder de Destrucción** (CID 21810) — Extra 1x | **Destino Extra condicionado** | resultado de Extra Deck · recuperación · removal · cierre · habilitador Xyz | recuperación e invocación desde Cementerio/destierro | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento… | Conservar si hay materiales legales |
+| **Número F0: Futuro Utópico Zexal** (CID 21453) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · cierre · respuesta · habilitador Xyz | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
+| **Varudras, el Último Portador del Fin de los Tiempos** (CID 19886) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · removal · negación · habilitador Xyz | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
+| **Divino Arsenal AA-ZEUS - Trueno del Cielo** (CID 15524) — Extra 1x | **Acceso desde Drastrius con batalla comprobado** | Xyz Rango 12; barrido de enviar al GY, no destruir | `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`: Incursores + Elara, Drastrius con 2 materiales, batalla y MP2 superposición a ZEUS con 3 | Invocación de Extra Xyz permitida por Incursores | Desacopla 2 y envía incluso tus otras cartas; ZEUS LUZ no hereda efecto VIENTO de Mando | Abrir siete pasos; elegir entre negador Drastrius y barrido ZEUS |
+| **Número F0: Futuro Utópico** (CID 11413) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · cierre · habilitador Xyz · protección | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | aplicar restricciones de selección, activación y copias que consten en el texto original. Invocar sólo desde el Extra Deck usando su… | Cruzar A09/A07 antes de proponer reemplazo |
+| **Mago Gagagaga** (CID 14920) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · negación · cierre · respuesta · habilitador Xyz | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento… | Cruzar A09/A07 antes de proponer reemplazo |
+| **Ogro Fantasma & Conejo de las Nieves** (CID 11708) — Side 2x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual | Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+| **Talento de Tácticas Triples** (CID 15296) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+| **Número 60: Dugares el Eterno** (CID 14564) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; recuperación e invocación desde Cementerio/destierro; generación de cartas por robo; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; depende de recursos en Cementerio; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+| **Llamado por la Tumba** (CID 13619) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual | No se demuestra que esta carta sea recurso de descarte o pago para otra | solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+| **Tormenta de Relámpagos** (CID 14876) — Side 2x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales.. No inicia la mano del Main actual | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; requiere campo propio sin las cartas indicadas; solo entra al Main después de un intercambio… | Side: probar enfrentamiento antes de sustituir |
+| **Nibiru, el Ser Primitivo** (CID 14741) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No inicia la mano del Main actual | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+| **Súper Asesino Estelar TY-PHON - Crisis Celeste** (CID 19184) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz.. No inicia la mano del Main actual | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
+
+## INTERACCIONES Y CLASIFICACIÓN
+
+| ID documental | Categoría provisional | Piezas | Resultado | Requisitos | Check |
+|---|---|---|---|---|---|
+| 653:A08:01 | STARTER | Incursores (21823) → Amalthe (21775) / Elara (21776) | Destrucción propia que habilita acceso a monstruo o Mágica/Trampa según la pieza afectada. | Efectos por turno, evento exacto de destrucción y bloqueo a Xyz. | |
+| 653:A08:02 | INTERACCION | Cambio DoomZ (22158) → Drastea (21774) / Amalthe | Preparación de recursos destruidos y extensión posterior. | La destrucción debe alcanzar la carta correcta y la salida existir en inventario. | |
+| 653:A08:03 | RUTA | Drastea (21774) + Mando (21824) → Drastrius (21811) | Equipamiento y transformación Xyz con materiales. | Rango = Nivel, zona/equipo legal, no invocación gratuita. | |
+| 653:A08:04 | RUTA | Medius (21419) → Zegredo (22521) → Júpiter (21810) | Acceso Modelo de Poder y procedimiento Xyz específico. | Desterrar 3 cartas boca abajo y destruir Zegredo; no confundir con requisito 3 Equipos. | |
+| 653:A08:05 | INTERACCION | Graflario (22554) / Diactorus (21812) → piezas DoomZ | Búsqueda de M/T y destrucción propia controlada. | Materiales y ventanas por texto, no efecto universal de todos los Xyz. | |
+
+#### Rol registrado por cada carta
+
+| ID A08 | Carta registrada | Zona | Clasificación funcional | Rol documentado en A05 | Check de clasificación |
+|---|---|---|---|---|---|
+| 653:A08:C001 | Medius el Puro | Main | EXTENSOR_POTENCIAL | searcher · buscador · extensor · recuperación. | |
+| 653:A08:C002 | Mando DoomZ «D.O.O.M.D.U.R.G.» | Main | INTERACCION_DEFENSIVA | interrupción · removal · cierre · motor Equipo. | |
+| 653:A08:C003 | DoomZ Modelo de Poder | Main | BUSCADOR_INTERACCION | searcher · buscador · removal · respuesta · motor Equipo. | |
+| 653:A08:C004 | El Bufón y el Pájaro del Candado | Main | BUSCADOR_INTERACCION | handtrap · bloqueo de búsquedas. | |
+| 653:A08:C005 | Modelo de Poder Máquina de Sombras Zegredo | Main | BUSCADOR_INTERACCION | searcher · buscador · removal · habilitador Xyz. | |
+| 653:A08:C006 | Flor de Ceniza & Primavera Feliz | Main | INTERACCION_DEFENSIVA | handtrap · negación. | |
+| 653:A08:C007 | Therion «Rey» Regulus | Main | EXTENSOR_POTENCIAL | extensor Máquina · negación. | |
+| 653:A08:C008 | DoomZ XII Cero - Drastea | Main | EXTENSOR_POTENCIAL | interrupción · extensor · habilitador Xyz · motor Equipo. | |
+| 653:A08:C009 | DoomZ V Cinco - Amalthe | Main | BUSCADOR_INTERACCION | interrupción · searcher · buscador · habilitador Xyz · motor Equipo. | |
+| 653:A08:C010 | DoomZ VII Siete - Elara | Main | INTERACCION_DEFENSIVA | interrupción · preparación · habilitador Xyz · motor Equipo. | |
+| 653:A08:C011 | Infinito Temporal | Main | INTERACCION_DEFENSIVA | trampa · negación. | |
+| 653:A08:C012 | Fuwalos Multivadora | Main | INTERACCION_DEFENSIVA | handtrap · robo condicional. | |
+| 653:A08:C013 | Portal del Modelo de Poder Desatado - Terminus | Main | BUSCADOR_INTERACCION | searcher · buscador · removal. | |
+| 653:A08:C014 | Incursores DoomZ | Main | EXTENSOR_POTENCIAL | searcher · buscador · extensor. | |
+| 653:A08:C015 | Vidrium, Modelo de Poder de la Exterminación del Caos | Main | EXTENSOR_POTENCIAL | searcher · buscador · recuperación · extensor · removal. | |
+| 653:A08:C016 | Cambio DoomZ | Main | EXTENSOR_POTENCIAL | searcher · buscador · extensor · removal. | |
+| 653:A08:C017 | Destrucción DoomZ | Main | BUSCADOR_INTERACCION | searcher · buscador · removal · respuesta · motor Equipo. | |
+| 653:A08:C018 | Mando DoomZ «A.D.R.A.S.T.E.I.A.» | Main | EXTENSOR_POTENCIAL | extensor · cierre · respuesta · motor Equipo. | |
+| 653:A08:C019 | Número F0: Futuro Draco Utópico | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | interrupción · resultado de Extra Deck · negación · habilitador Xyz · protección. | |
+| 653:A08:C020 | Springans Fiestero | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | interrupción · resultado de Extra Deck · extensor · recuperación · habilitador Xyz. | |
+| 653:A08:C021 | Gigantesco «Campeón» Sargas | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · buscador · habilitador Xyz. | |
+| 653:A08:C022 | DoomZ XII Fin - Drastrius | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | interrupción · resultado de Extra Deck · negación · habilitador Xyz · motor Equipo. | |
+| 653:A08:C023 | DoomZ XIII Over - Graflario | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · buscador · extensor · recuperación · habilitador Xyz. | |
+| 653:A08:C024 | Fractura DoomZ - Diactorus | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · extensor · motor Equipo. | |
+| 653:A08:C025 | Júpiter el Modelo de Poder de Destrucción | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · recuperación · removal · cierre · habilitador Xyz. | |
+| 653:A08:C026 | Número F0: Futuro Utópico Zexal | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | interrupción · resultado de Extra Deck · cierre · respuesta · habilitador Xyz. | |
+| 653:A08:C027 | Varudras, el Último Portador del Fin de los Tiempos | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | interrupción · resultado de Extra Deck · removal · negación · habilitador Xyz. | |
+| 653:A08:C028 | Divino Arsenal AA-ZEUS - Trueno del Cielo | Extra | CONTINUACIÓN XYZ DESPUÉS DE BATALLA | `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`: Drastrius con dos materiales → ZEUS tres; barrido disponible a coste dos, no negación de monstruo. | |
+| 653:A08:C029 | Número F0: Futuro Utópico | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · cierre · habilitador Xyz · protección. | |
+| 653:A08:C030 | Mago Gagagaga | Extra | DESTINO_EXTRA (materiales/procedimiento por comprobar) | resultado de Extra Deck · negación · cierre · respuesta · habilitador Xyz. | |
+| 653:A08:C031 | Ogro Fantasma & Conejo de las Nieves | Side | SIDE (solo disponible entre duelos con sustitución) | handtrap · destrucción. | |
+| 653:A08:C032 | Talento de Tácticas Triples | Side | SIDE (solo disponible entre duelos con sustitución) | mágica de respuesta · ventaja. | |
+| 653:A08:C033 | Número 60: Dugares el Eterno | Side | SIDE (solo disponible entre duelos con sustitución) | side técnico · recuperación · ventaja de mano · cierre · habilitador Xyz. | |
+| 653:A08:C034 | Llamado por la Tumba | Side | SIDE (solo disponible entre duelos con sustitución) | mágica rápida · negación de nombre. | |
+| 653:A08:C035 | Tormenta de Relámpagos | Side | SIDE (solo disponible entre duelos con sustitución) | mágica · ruptura de mesa. | |
+| 653:A08:C036 | Nibiru, el Ser Primitivo | Side | SIDE (solo disponible entre duelos con sustitución) | handtrap · limpieza del campo. | |
+| 653:A08:C037 | Súper Asesino Estelar TY-PHON - Crisis Celeste | Side | SIDE (solo disponible entre duelos con sustitución) | side técnico · recuperación · cierre · habilitador Xyz. | |
+
+## JUGADAS DOCUMENTADAS
+
+> Requieren comprobación A11–A13 y validación de estado final. No publicar las rutas como combos certificados por tener fotografías.
+
+#### A09 — `653:A09:RAIDERS:ELARA:DRAS01` (2 cartas; Normal disponible)
+
+**Referencias primarias de identidad y texto:** [Incursores](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es), [Elara](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es), [Drastea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es), [Drastrius](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=es). Son fuentes para cotejar cada condición y destino de cartas; la coincidencia de CIDs no constituye por sí misma una simulación legal de esta ruta.
+
+- **Mano inicial mínima exacta:** **Incursores DoomZ** (21823, Mágica Continua) + **DoomZ VII Siete - Elara** (21776, Nivel 4). Campo y GY propios vacíos; en Main Deck queda **Drastea** (21774) y al menos un **Mando DoomZ D.O.O.M.D.U.R.G.** (21824, Equipo); en Extra **Drastrius** (21811, Xyz Máquina de VIENTO Rango 8). Main Phase propia; no respuesta rival ni cartas adversarias seleccionables.
+1. Activar Incursores en zona M/T; usar su efecto en Main Phase **CL1**, eligiendo destruir **Elara en mano**. Al resolver, Elara es destruida **por el efecto**, no enviada como coste, y **Drastea** se Invoca Especialmente **desde Deck** en Ataque (ATK 2400). La restricción de Incursores permite solo **Xyz** desde Extra el resto del turno.
+2. **Nueva cadena CL1:** Elara, destruida por efecto, permite **Colocar Mando DoomZ D.O.O.M.D.U.R.G. desde Deck** en M/T. No confundir Colocar con equipar inmediatamente. Elara queda en GY.
+3. En esta misma Main Phase, **activar desde su posición Colocada la Mágica de Equipo** (no es Mágica Rápida) y **equiparla a Drastea** boca arriba. Esta activación sí es legal el turno en que fue Colocada.
+4. Drastea equipada activa su **Efecto Rápido** y efectúa Invocación Xyz de **Drastrius Rango 8** desde Extra, **acoplando Drastea y Mando como sus 2 materiales**. Es el **procedimiento alternativo expresamente indicado por Drastea**, no la Invocación estándar que pide 3 monstruos de Nivel 8. No se inventan dos cuerpos adicionales.
+5. **Final definido:** Drastrius en Ataque, ATK 2700 y **2 materiales (Drastea + Mando)**; Incursores **Continua boca arriba**; Elara en GY; mano vacía, Normal **sin gastar**, Extra restringido a Xyz. Drastrius tiene un posible uso de negación por desacoplar 1 material ante efecto de monstruo rival en Campo/GY; **no se activó en esta ruta**, ni se equipó monstruo rival inexistente. Mando como material le otorga efectos descritos por la Mágica, pero no se activó su ataque directo ni su autodestrucción por batalla.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:RAIDERS:ELARA:DRAS01`:** apertura de dos cartas, sin respuesta rival; el material acoplado nunca se muestra como Equipo ni monstruo independiente.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | ∅: Elara fue destruida desde mano | Drastea #21774 (2400 ATK) | Incursores #21823 (Continua) | Elara #21776 (destruida por efecto) | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal libre; solo Xyz desde Extra por Incursores |
+| P2 | ∅ | Drastea #21774 | Incursores #21823, Mando #21824 (Colocado; NO equipado aún) | Elara #21776 | ∅ | Sin cambios acreditados | Ninguno | Normal libre; solo Xyz desde Extra |
+| P3 | ∅ | Drastea #21774 (equipada) | Incursores #21823, Mando #21824 (Equipo de Drastea) | Elara #21776 | ∅ | Sin cambios acreditados | Ninguno | Normal libre; solo Xyz desde Extra |
+| P4 | ∅ | Drastrius #21811 (2700 ATK, Xyz Rango 8) | Incursores #21823 | Elara #21776 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + Mando #21824 (2 materiales) | Normal libre; Drastrius salido de Extra; solo Xyz |
+| P5 | ∅ | Drastrius #21811 (2700 ATK) | Incursores #21823 | Elara #21776 | ∅ | No se equipó monstruo rival ni usó negación | Drastrius: Drastea #21774 + Mando #21824 | Normal libre; Extra restringido a Xyz |
+
+#### A09 — `653:A09:RAIDERS:AMALTHE:DRAS02` (2 cartas; Normal empleada)
+
+- **Mano inicial mínima exacta:** Incursores (21823) + **Amalthe** (21775, Nivel 4); campo/GY vacíos. En Main Deck quedan al menos **1 Drastea**, **1 Elara** y **1 Mando**; Drastrius en Extra. Sin respuesta rival.
+1. Activar Incursores. Su efecto CL1 **destruye Amalthe en mano por efecto** y, después, **Invoca Drastea desde Deck**. Amalthe va al GY y el resto del turno Extra solo Xyz.
+2. Al acabar la cadena, **Amalthe**, destruida por efecto, inicia **nueva CL1** y **añade Elara desde Deck a mano** (no puede añadirse otra Amalthe).
+3. **Invocar Normalmente Elara** en Ataque (1400 ATK). Su efecto de Invocación CL1 permite **Colocar Mando desde Deck** en M/T.
+4. Activar Mando desde Colocada y **equiparlo a Drastea**; activar el Efecto Rápido de Drastea equipada para Invocar Xyz **Drastrius**, acoplando Drastea + Mando como sus **2 materiales**.
+5. **Final mínimo:** Drastrius ATK 2700 con 2 materiales, **Elara boca arriba (ATK 1400)** e Incursores Continua boca arriba; Amalthe GY, sin cartas restantes en mano, Normal gastada. **Variante opcional al Invocar Xyz:** Drastrius puede activar su efecto y **equiparse a Elara**, otro monstruo boca arriba en campo, dejando Elara en zona M/T en vez de zona de monstruos. Es una elección **excluyente**, no un monstruo adicional obtenido gratuitamente.
+
+**Fuentes oficiales:** [Incursores](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es), [Elara](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es), [Amalthe](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es), [Drastea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es), [Mando](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=es), [Drastrius](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:RAIDERS:AMALTHE:DRAS02`:** se visualiza la opción base que conserva Elara como monstruo; la variante opcional de equiparla es **excluyente**, no un tercer cuerpo.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | ∅ | Drastea #21774 | Incursores #21823 | Amalthe #21775 (destruida por efecto en mano) | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal libre; Extra solo Xyz |
+| P2 | Elara #21776 (buscada por Amalthe) | Drastea #21774 | Incursores #21823 | Amalthe #21775 | ∅ | Sin cambios acreditados | Ninguno | Normal libre; Extra solo Xyz |
+| P3 | ∅ | Drastea #21774, Elara #21776 (Normal) | Incursores #21823, Mando #21824 (Colocado desde Deck) | Amalthe #21775 | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; Extra solo Xyz |
+| P4 | ∅ | Drastrius #21811 (Xyz Rango 8), Elara #21776 (1400 ATK; sin activar equipamiento opcional de Drastrius) | Incursores #21823 | Amalthe #21775 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + Mando #21824 | Normal gastada; Drastrius desde Extra; solo Xyz |
+| P5 | ∅ | Drastrius #21811 (2700 ATK), Elara #21776 (1400 ATK, opción base) | Incursores #21823 | Amalthe #21775 | ∅ | Sin negación ni equipamiento opcional ejecutados | Drastrius: Drastea #21774 + Mando #21824 | Normal gastada; Extra solo Xyz |
+
+#### A09 — `653:A09:RAIDERS:CHANGE:DRAS03` (2 cartas; Normal disponible)
+
+**Mano inicial exacta:** ![Incursores](imagenes/tcg/21823.jpg) **Incursores DoomZ** (21823) + ![Cambio](imagenes/tcg/22158.jpg) **Cambio DoomZ** (22158). Main Phase propia; Campo y Cementerio propios vacíos; rival sin respuestas. Deben permanecer en el Main Deck **Amalthe** (21775), **Drastea** (21774) y **Mando DoomZ «D.O.O.M.D.U.R.G.»** (21824), y en el Extra **Drastrius** (21811). La carta Cambio en la mano NO puede destruirse a sí misma con su propio efecto.
+
+1. **Activación, sin usar el efecto de búsqueda:** poner **Incursores** boca arriba en zona M/T como Mágica Continua. Conservar su efecto principal sin utilizar; **no** destruir ninguna carta con Incursores.
+2. **Destrucción desde el Deck:** activar **Cambio** (Mágica Normal) como CL1. En resolución, destruir **Amalthe del Deck por efecto** y enviar Cambio al GY al terminar su resolución. Amalthe acaba en GY. No se destruyó Cambio y, por eso, su segundo efecto de recuperar carta **no se activa**.
+3. **Nueva cadena CL1:** la **Amalthe destruida por efecto** activa su búsqueda desde GY; añadir **Drastea** del Deck a la mano. No Invocar Amalthe ni tratar su búsqueda como parte de la cadena anterior.
+4. **Invocación desde la mano, con coste/objetivo exactos:** activar el efecto de **Drastea en mano**, seleccionando la carta **Incursores propia boca arriba**. En resolución, **destruir Incursores por efecto**, Invocar Especialmente **Drastea** de la mano y luego **equipar desde el Deck Mando D.O.O.M.D.U.R.G.** a la Drastea recién Invocada. Incursores termina en GY. Como Incursores destruida tiene un efecto opcional de destruir un monstruo boca arriba, **declinarlo explícitamente** al acabar la cadena; no destruir a la propia Drastea. Incursores no aplicó el bloqueo a Xyz, porque nunca se usó su efecto de Main Phase.
+5. **Transformación Xyz:** activar el **Efecto Rápido** de Drastea ya equipada. Invocar del Extra a ![Drastrius](imagenes/tcg/21811.jpg) **Drastrius** (Máquina VIENTO Rango 8), **acoplando Drastea y Mando como exactamente 2 materiales** por la excepción escrita de Drastea. No exigir los 3 monstruos de Nivel 8 de la Invocación convencional. Sin otro monstruo boca arriba, omitir el equipo opcional al Invocar Xyz.
+6. **Tablero verificable al cerrar:** 1 **Drastrius en Ataque, 2700 ATK, con 2 materiales [Drastea, Mando]**; Campo M/T propio vacío; GY propio = Incursores, Cambio, Amalthe; mano = 0; **Invocación Normal todavía disponible**, ninguna restricción de Extra impuesta por Incursores. Drastrius puede negar en una ventana futura un efecto rival de monstruo de Campo/GY pagando 1 material; **no se afirma que ya lo negó**. Mientras Mando siga acoplado, concede la protección correspondiente contra ser seleccionado por efectos rivales; desacoplar Mando como coste elimina esa concesión. No se promete OTK ni carta adicional.
+
+**Interrupciones que rompen la línea:** Ash Blossom a la búsqueda de Amalthe deja la Drastea **sin acceso desde mano**; negación de Cambio evita destruir Amalthe; negación del efecto de Drastea en mano impide la Invocación; negación del Efecto Rápido de Drastea **ya en campo** impide convertirla en Drastrius. Son escenarios alternativos; el Campo final descrito exige ausencia de respuestas.
+
+**Fuentes primarias:** [Cambio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es), [Amalthe](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es), [Drastea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es), [Incursores](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es), [Mando](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=es), [Drastrius](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:RAIDERS:CHANGE:DRAS03`:** Cambio destruye Amalthe en Deck; Incursores solo sirve como blanco de Drastea, de modo que no impone el bloqueo de Extra a Xyz.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | Cambio #22158 | ∅ | Incursores #21823 | ∅ | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal libre; Extra sin bloqueo por Incursores |
+| P2 | ∅ | ∅ | Incursores #21823 | Cambio #22158, Amalthe #21775 (destruida en Deck) | ∅ | Sin cambios acreditados | Ninguno | Normal libre; Extra sin bloqueo |
+| P3 | Drastea #21774 (buscada) | ∅ | Incursores #21823 | Cambio #22158, Amalthe #21775 | ∅ | Sin cambios acreditados | Ninguno | Normal libre; Extra sin bloqueo |
+| P4 | ∅ | Drastea #21774 (desde mano, equipada) | Mando #21824 (Equipo de Drastea) | Cambio #22158, Amalthe #21775, Incursores #21823 (destruida) | ∅ | Sin cambios acreditados | Ninguno | Normal libre; Extra sin bloqueo |
+| P5 | ∅ | Drastrius #21811 (Xyz) | ∅ | Cambio #22158, Amalthe #21775, Incursores #21823 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + Mando #21824 | Normal libre; Drastrius desde Extra; sin bloqueo |
+| P6 | ∅ | Drastrius #21811 (2700 ATK) | ∅ | Cambio #22158, Amalthe #21775, Incursores #21823 | ∅ | No se equipó o negó monstruo rival | Drastrius: Drastea #21774 + Mando #21824 | Normal libre; Extra sin bloqueo |
+
+#### A09 — `653:A09:MEDIUS:JUPREDO:JUPITER04` (1 carta; Normal empleada)
+
+**Mano inicial mínima:** ![Medius](imagenes/tcg/21419.jpg) **Medius el Puro** (21419), sin otra carta necesaria; propio Campo/GY vacíos; Main Phase propia; **Jupredo la Máquina Sombra Modelo de Poder** (22521; alias histórico «Zegredo», 3 copias) permanece en Deck y ![Júpiter](imagenes/tcg/21810.jpg) **Júpiter el Modelo de Poder de Destrucción** (21810, 1 copia) permanece en Extra. Hay **al menos 3 cartas en Deck** para desterrar boca abajo; no hay respuesta del rival.
+
+1. **Invocar Normalmente Medius** en Ataque (1800 ATK); gastar la Invocación Normal. Su efecto al Invocarse (CL1) permite **Invocar Especialmente desde el Deck a ![Jupredo](imagenes/tcg/22521.jpg) Jupredo** (Nivel 10, Péndulo). Elegir «Invocar Especialmente», no «añadir a mano». Campo propio: Medius + Jupredo.
+2. **Pagar coste de Jupredo:** durante Main Phase activar el **efecto de monstruo de Jupredo**; **desterrar las 3 cartas superiores del Deck boca abajo** como coste al activar (pueden ser recursos deseados: no se conoce su identidad de antemano). En resolución, **destruir Jupredo** en zona de Monstruos por efecto y, si realmente es destruida, **Invocar Especialmente a Júpiter desde Extra tratándose como Invocación Xyz**. No usar el efecto Péndulo de Jupredo ni pedirle 3 Cartas de Equipo: ese es **otro procedimiento alternativo distinto, propio de Júpiter**.
+3. **Destino correcto de Jupredo:** al ser destruido en el Campo como monstruo Péndulo, **Jupredo va boca arriba al Deck Extra**, no al Cementerio ni acoplado a Júpiter. Tras la cadena anterior, su efecto opcional por haber llegado boca arriba al Extra puede **añadir del Deck una Mágica/Trampa DoomZ o Modelo de Poder**. Ejemplo: **Cambio DoomZ** si queda copia en Deck tras desterrar las tres cartas. Esta búsqueda es una **cadena nueva**, no material Xyz adicional.
+4. **Tablero base verificable:** **Júpiter Rango 10, ATK 3500, 0 materiales**, y **Medius ATK 1800** en zonas de Monstruos; Jupredo boca arriba en Extra; 3 cartas superiores del Deck desterradas boca abajo (identidad no garantizada); Invocación Normal gastada; ninguna Mágica de Equipo en GY ni equipada automáticamente. La búsqueda de Jupredo deja una DoomZ M/T en mano **si queda objetivo**. Júpiter **no gana 3000 ATK** adicionales porque no tiene un Monstruo Xyz como material; tampoco puede desacoplar para revivir un DoomZ porque tiene **cero materiales**. Su efecto de equipar Mágicas de Equipo desde GY al ser Invocado Xyz no obtiene ninguna si GY estaba vacío.
+5. **Extensión condicional (opcional):** activar **Cambio** para destruir **Amalthe** desde Deck solo si Jupredo buscó Cambio y, tras los tres destierros del Deck, todavía quedan Amalthe y Drastea allí. En una **nueva cadena**, la Amalthe destruida busca Drastea a mano. No aparece un tercer monstruo: permanecen **Júpiter + Medius**, Cambio y Amalthe pasan al GY y Drastea queda en mano. Drastea no puede Invocarse sin otra carta DoomZ boca arriba que pueda destruir legalmente. Si el destierro aleatorio eliminó un objetivo necesario, **omitir esta extensión**.
+
+**Puntos vulnerables:** Ash Blossom puede negar la Invocación desde Deck efectuada por Medius, o la búsqueda de Jupredo; si Jupredo es negado/destruido antes de resolver su efecto, no se alcanza Júpiter. La pérdida aleatoria de tres cartas boca abajo no es un efecto de enviar al GY ni desencadena efectos de destrucción. Una negación posterior de Júpiter no inventa materiales Xyz que no existen.
+
+- **Si el rival niega la Invocación de Jupredo desde Deck por Medius:** la Normal fue gastada y **Medius queda en Campo**, salvo que la respuesta también lo retire; no hay Jupredo que destruir ni Júpiter que Invocar mediante esta línea. El Deck no pierde tres cartas por el coste de Jupredo porque su efecto nunca se activó.
+- **Si el rival niega el efecto de Jupredo después de pagar el destierro del tope del Deck:** las **tres cartas permanecen desterradas boca abajo** porque eran coste, pero **Jupredo sigue en Campo si nada más lo retiró**, junto a Medius; no se invoca Júpiter, ni se activa la búsqueda de Jupredo por pasar al Extra si nunca fue destruido.
+- **Si el rival niega únicamente la búsqueda posterior de Jupredo desde el Extra:** Jupredo ya fue destruido y está boca arriba en Extra, y **Júpiter sin materiales + Medius** quedan en Campo. No se añade Cambio a mano ni se ejecuta la extensión Amalthe/Drastea. Si los tres destierros aleatorios agotaron las piezas buscables, el mismo tablero Júpiter/Medius se conserva **sin asegurar carta extra**.
+
+**Fuentes primarias:** [Medius](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es), [Jupredo](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=es), [Júpiter](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=es), [Cambio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es), [Amalthe](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:MEDIUS:JUPREDO:JUPITER04`:** las 3 cartas del tope desterradas boca abajo son **identidades desconocidas**, no se dibujan como cartas específicas. En P5 se ilustra solo la extensión si quedaron Cambio, Amalthe y Drastea en Deck; de no ser así se mantiene P4.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | ∅ | Medius #21419, Jupredo #22521 (Péndulo Invocado desde Deck como monstruo) | ∅ | ∅ | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal gastada; Extra intacto |
+| P2 | ∅ | Medius #21419, Júpiter #21810 (Invocado como Xyz, 0 materiales) | ∅ | ∅; Jupredo destruido como Péndulo va al Extra boca arriba | 3 cartas superiores del Deck boca abajo; identidad desconocida | Sin cambios acreditados | Júpiter: ninguno, 0 materiales | Normal gastada; Júpiter salió del Extra; Jupredo boca arriba en Extra |
+| P3 | Cambio #22158 (solo si quedó en Deck y se elige buscarlo) | Medius #21419, Júpiter #21810 (3500 ATK; 0 materiales) | ∅ | ∅; Jupredo boca arriba en Extra | 3 cartas desconocidas boca abajo | Sin cambios acreditados | Júpiter: 0 | Normal gastada; Jupredo boca arriba en Extra |
+| P4 | Cambio #22158 (condicional; si faltó objetivo, mano vacía) | Medius #21419, Júpiter #21810 (3500 ATK; 0 materiales) | ∅ | ∅; Jupredo boca arriba en Extra | 3 cartas desconocidas boca abajo | No se usó efecto de desacoplar ni negar | Júpiter: 0 | Normal gastada; Jupredo boca arriba en Extra |
+| P5 | Drastea #21774 (solo si buscar Cambio y quedan Amalthe y Drastea en Deck) | Medius #21419, Júpiter #21810 (0 materiales) | ∅ | Cambio #22158, Amalthe #21775 (solo si extensión se ejecutó); Jupredo boca arriba en Extra | 3 cartas desconocidas boca abajo | Sin cambios acreditados | Júpiter: 0 | Normal gastada; extensión condicional, no una invocación adicional |
+
+#### A09 — `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05` (1 carta; Normal empleada)
+
+**Apertura:** ![Medius](imagenes/tcg/21419.jpg) **Medius el Puro** (21419) como única carta de mano; Campo/GY propios vacíos, Main Phase propia, sin respuesta rival. En Main permanecen **DoomZ Modelo de Poder** (21777), **Cambio** (22158), **Amalthe** (21775), **Drastea** (21774), **Mando D.O.O.M.D.U.R.G.** (21824) y, para recuperación opcional, **Mando A.D.R.A.S.T.E.I.A.** (22567); Extra conserva **Diactorus** (21812) y **Drastrius** (21811).
+
+1. **Normal Medius**, 1800 ATK. Activar su disparo (CL1) para **Invocar Especialmente DoomZ Modelo de Poder** desde el Deck (Máquina VIENTO Nivel 1, 300 ATK). Desde que Modelo de Poder esté como monstruo boca arriba, solo permite Invocaciones desde Extra de categoría Xyz.
+2. **Modelo de Poder** selecciona **Medius, otro Monstruo de Efecto propio de Nivel 4**. Por su procedimiento excepcional, Invocar Xyz **Fractura DoomZ – Diactorus Rango 4** usando **Medius como único material**, y **equipar Modelo de Poder como Mágica de Equipo** a Diactorus. No invocar Diactorus mediante sus dos materiales estándar.
+3. **Disparo de Diactorus por haber sido Invocado Especialmente (nueva CL1):** destruir el **Modelo de Poder propio, boca arriba y equipado en M/T**, que sigue contando como carta «DoomZ». Elegir **no destruir otro monstruo** con la parte opcional. Modelo de Poder destruido va al GY y, por su efecto **«Si esta carta es destruida»**, en cadena nueva busca **Cambio DoomZ desde Deck a mano**. Diactorus sigue con Medius como material.
+4. Activar **Cambio** y destruir **Amalthe desde Deck**; en cadena nueva Amalthe destruida por efecto busca **Drastea** desde Deck a mano. Cambio y Amalthe pasan al GY, Drastea está en mano.
+5. Activar Drastea desde mano **seleccionando Diactorus boca arriba**, una carta «DoomZ»: **destruir Diactorus por efecto**, Invocar Especialmente **Drastea** y **equiparle desde Deck Mando D.O.O.M.D.U.R.G.**. El material **Medius** que quedaba debajo de Diactorus se manda al GY al abandonarlo el Xyz, **no se destruye**. Como Diactorus fue destruido por efecto **teniendo a Medius como material**, en una cadena nueva puede **tomar una Mágica de Equipo del Deck y añadirla a mano o mandarla al GY**; ejemplo documentado: **Mando A.D.R.A.S.T.E.I.A. a mano** si queda en Deck. Esta recuperación es opcional y no modifica el material posterior.
+6. Drastea equipada activa su **Efecto Rápido** y efectúa Invocación Xyz **Drastrius Rango 8**, anexando **Drastea + Mando** como **2 materiales**. No ha aparecido un tercer monstruo de Nivel 8; se emplea la vía alternativa de Drastea.
+7. **Campo final mínimo:** **Drastrius en Ataque, 2700 ATK con 2 materiales [Drastea, Mando D.O.O.M.D.U.R.G.]**; sin otros monstruos; M/T vacío; **Normal gastada**; en GY al menos Medius, Modelo de Poder, Diactorus, Cambio y Amalthe. Si se usa la recuperación opcional, **Mando A.D.R.A.S.T.E.I.A. en mano**, sin haberse equipado todavía. Drastrius retiene la negación condicional y la protección de selección mientras Mando siga como material. No atribuirle efectos ni materiales de Diactorus.
+
+**Riesgos:** negar Medius impide traer Modelo de Poder; negar Modelo de Poder antes de Invocar Xyz impide Diactorus; retirar Modelo de Poder antes de que Diactorus lo destruya rompe la búsqueda de Cambio; negar Amalthe corta el acceso a Drastea; negar a Drastea ya equipada impide el Xyz final. Los efectos de Diactorus y Modelo de Poder son **dos cadenas distintas**: primero se destruye Equipo, después se busca.
+
+**Fuentes primarias:** [Medius](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es), [DoomZ Modelo de Poder](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=es), [Diactorus](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=es), [Cambio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es), [Drastea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05`:** único Medius en apertura; P3 y P5 tienen búsquedas opcionales ejecutadas como ejemplo A09, condicionadas a que exista el objetivo en Deck.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | ∅ | Medius #21419, Modelo de Poder #21777 (desde Deck) | ∅ | ∅ | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal gastada; solo Xyz desde Extra tras Modelo de Poder |
+| P2 | ∅ | Diactorus #21812 (Xyz Rango 4) | Modelo de Poder #21777 (Equipo de Diactorus; no monstruo) | ∅ | ∅ | Sin cambios acreditados | Diactorus: Medius #21419 (único material) | Normal gastada; Diactorus salió del Extra; solo Xyz |
+| P3 | Cambio #22158 (si aún está en Deck; búsqueda de Modelo de Poder) | Diactorus #21812 | ∅ | Modelo de Poder #21777 (Equipo destruido) | ∅ | Sin cambios acreditados | Diactorus: Medius #21419 | Normal gastada; solo Xyz |
+| P4 | Drastea #21774 (si Amalthe pudo buscarla) | Diactorus #21812 | ∅ | Modelo de Poder #21777, Cambio #22158, Amalthe #21775 (destruida en Deck) | ∅ | Sin cambios acreditados | Diactorus: Medius #21419 | Normal gastada; solo Xyz |
+| P5 | Mando A.D.R.A.S.T.E.I.A. #22567 (opcional; si se recuperó desde Deck) | Drastea #21774 | Mando D.O.O.M.D.U.R.G. #21824 (Equipo de Drastea) | Modelo de Poder #21777, Cambio #22158, Amalthe #21775, Diactorus #21812 (destruido), Medius #21419 (material enviado, no destruido) | ∅ | Sin cambios acreditados | Ninguno: Diactorus abandonó Campo; Medius pasó a GY | Normal gastada; solo Xyz |
+| P6 | Mando A.D.R.A.S.T.E.I.A. #22567 (si se buscó) | Drastrius #21811 (Xyz Rango 8) | ∅ | Modelo de Poder #21777, Cambio #22158, Amalthe #21775, Diactorus #21812, Medius #21419 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + Mando D.O.O.M.D.U.R.G. #21824 | Normal gastada; Drastrius salió del Extra; solo Xyz |
+| P7 | Mando A.D.R.A.S.T.E.I.A. #22567 (solo si búsqueda opcional legal y resuelta) | Drastrius #21811 (2700 ATK) | ∅ | Modelo de Poder #21777, Cambio #22158, Amalthe #21775, Diactorus #21812, Medius #21419 | ∅ | No se ha usado negación | Drastrius: Drastea #21774 + Mando D.O.O.M.D.U.R.G. #21824 | Normal gastada; solo Xyz |
+
+#### A09 — `653:A09:MEDIUS:GRAFLAREIO:DRAS06` (1 carta; Normal empleada; ruta de alto techo)
+
+**Apertura:** ![Medius](imagenes/tcg/21419.jpg) **Medius** como única carta inicial; sin Campo/GY propios, Main Phase y sin interrupción rival. En Deck quedan **DoomZ Modelo de Poder**, **Incursores**, **Cambio**, **Elara**, **Amalthe**, **Drastea** y los dos Equipos **Mando** indicados; en Extra, **Diactorus**, **Graflareio** (22554), **Drastrius**. **Ruta ramificada respecto de A09-05:** en vez de destruir Modelo de Poder con Diactorus, lo pierde por el cambio Xyz a Graflareio.
+
+1. Normal **Medius** y, por su efecto de Invocación, **Invocar Especialmente DoomZ Modelo de Poder desde Deck**. Este selecciona Medius (Nivel 4) y efectúa la **Invocación Xyz alternativa a Diactorus Rango 4**, con **Medius como material** y Modelo de Poder equipado a Diactorus. **No activar la destrucción opcional de Diactorus** tras su Invocación.
+2. Sobreponer **Graflareio (Xyz DoomZ Rango 5)** desde Extra usando **1 Xyz DoomZ propio, Diactorus** como material, transfiriendo el anterior material Medius. **Graflareio queda con 2 materiales [Diactorus, Medius]**. Al salir Diactorus del Campo, Modelo de Poder pierde el monstruo equipado y **es destruido por regla de Equipos** (no hace falta efecto que lo destruya). Al terminar la acción, Modelo de Poder activa su disparo **«Si esta carta es destruida»** desde GY y busca **Incursores DoomZ** del Deck a mano; a diferencia de Amalthe, **no exige que su destrucción sea por efecto**.
+3. En Main Phase activar el efecto de **Graflareio**, **desacoplando Medius como coste** para añadir **Cambio DoomZ** desde Deck a mano. **No** ejercer la destrucción de carta del campo que Graflareio permite opcionalmente. Graflareio mantiene **1 material [Diactorus]**. Medius termina en GY. Mano: Incursores + Cambio.
+4. Activar **Incursores** como Continua y usar su efecto de Main Phase: destruir **Graflareio boca arriba**, una carta DoomZ distinta de Incursores, y **Invocar Especialmente Elara desde Deck**. Tras esta resolución, queda aplicada la restricción de **solo Xyz desde Extra** por el resto del turno. Graflareio destruido fue al GY; su material Diactorus se manda al GY (no se destruye).
+5. **Disparos simultáneos, en una cadena nueva:** Graflareio destruido por efecto puede **Invocar Amalthe (DoomZ no Xyz) desde Deck**, mientras **Elara Invocada Especialmente** puede **Colocar Mando A.D.R.A.S.T.E.I.A.** del Deck en M/T. Orden declarado **CL1 Graflareio, CL2 Elara**: resolver CL2 (Colocar Mando) y luego CL1 (Invocar Amalthe). Tras esa cadena, **Amalthe**, recién Invocada, inicia otra cadena CL1 y **añade Drastea desde Deck a mano**. Mano: Cambio + Drastea; Campo monstruos: Elara + Amalthe.
+6. **Drastea en mano** selecciona **Incursores propia, aún boca arriba**, la destruye por efecto, **se Invoca Especialmente** y se **equipa Mando D.O.O.M.D.U.R.G.** desde Deck. Incursores destruida NO puede activar su otro efecto opcional ese turno, pues ya se utilizó su primer efecto (límite de uno de sus efectos por turno).
+7. Drastea equipada activa su Efecto Rápido para **Invocar Xyz a Drastrius Rango 8** con **2 materiales [Drastea, Mando D.O.O.M.D.U.R.G.]**. Elegir **no equipar otro monstruo boca arriba** mediante el disparo opcional de Drastrius: así Elara y Amalthe permanecen en zona de monstruos.
+8. **Tablero final:** Drastrius **2700 ATK con 2 materiales**, Elara **1400 ATK**, Amalthe **1600 ATK**; **Mando A.D.R.A.S.T.E.I.A. Colocado** (Equipo, activable luego desde Colocada en Main Phase), **Cambio DoomZ en mano**, Normal **gastada**, Extra **restringido a Xyz** el resto del turno. En GY: Medius, Modelo de Poder, Graflareio, Diactorus, Incursores. Las cartas destruidas no quedan como material de Drastrius ni se duplican en otra zona. No se presupone activación rival o daño directo.
+
+**Interrupciones sensibles:** Ash a Medius corta Modelo de Poder; Veiler a Modelo de Poder impide usarlo como habilitador; detener Graflareio impide obtener Cambio pero deja Incursores si Modelo fue destruido; negar el efecto de Incursores elimina Elara y puede impedir que se destruya Graflareio según la ventana; negar Amalthe deja Drastea fuera de mano. El final no es incondicional ante interacción adversaria.
+
+**Fuentes primarias:** [Cobertura oficial Konami del tramo Medius → Modelo de Poder → Diactorus → Graflareio → Incursores/Cambio](https://yugiohblog.konami.com/2026/ycs/advanced-format-round-13-feature-match-maurice-anderson-ickes-vs-henry-louis-gullens/), [Graflareio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=es), [Modelo de Poder](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=es), [Incursores](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es), [Elara](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es), [Amalthe](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:MEDIUS:GRAFLAREIO:DRAS06`:** 1 Medius inicial, 8 pasos. Tras P2 Modelo de Poder está **en GY** por destrucción del Equipo al superponer Xyz, no sigue equipado; tras P3 Medius ya fue desacoplado.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | ∅ | Diactorus #21812 (Xyz Rango 4) | Modelo de Poder #21777 (Equipo) | ∅ | ∅ | Sin respuesta; campo no determinado | Diactorus: Medius #21419 | Normal gastada; Extra limitado a Xyz por Modelo |
+| P2 | Incursores #21823 (buscada tras destruir Equipo) | Graflareio #22554 (Xyz Rango 5) | ∅ | Modelo de Poder #21777 (destruida por regla de Equipo) | ∅ | Sin cambios acreditados | Graflareio: Diactorus #21812 + Medius #21419 (dos materiales transferidos) | Normal gastada; Graflareio salió del Extra |
+| P3 | Incursores #21823, Cambio #22158 (buscada) | Graflareio #22554 (2400 ATK) | ∅ | Modelo de Poder #21777, Medius #21419 (desacoplado como coste) | ∅ | Sin cambios acreditados | Graflareio: Diactorus #21812 (uno restante) | Normal gastada; solo Xyz desde Extra |
+| P4 | Cambio #22158 | Elara #21776 (Invocada desde Deck) | Incursores #21823 (Continua) | Modelo de Poder #21777, Medius #21419, Graflareio #22554 (destruido), Diactorus #21812 (material enviado, no destruido) | ∅ | Sin cambios acreditados | Ninguno; el Xyz anterior abandonó Campo | Normal gastada; solo Xyz por Incursores |
+| P5 | Cambio #22158, Drastea #21774 (buscada por Amalthe) | Elara #21776, Amalthe #21775 (ambas desde Deck) | Incursores #21823, Mando A.D.R.A.S.T.E.I.A. #22567 (Colocado por Elara) | Modelo de Poder #21777, Medius #21419, Graflareio #22554, Diactorus #21812 | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; solo Xyz |
+| P6 | Cambio #22158 | Elara #21776, Amalthe #21775, Drastea #21774 (desde mano, equipada) | Mando A.D.R.A.S.T.E.I.A. #22567 (Colocado), Mando D.O.O.M.D.U.R.G. #21824 (Equipo de Drastea) | Modelo de Poder #21777, Medius #21419, Graflareio #22554, Diactorus #21812, Incursores #21823 (destruida) | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; solo Xyz |
+| P7 | Cambio #22158 | Elara #21776, Amalthe #21775, Drastrius #21811 (2700 ATK) | Mando A.D.R.A.S.T.E.I.A. #22567 (Colocado) | Modelo de Poder #21777, Medius #21419, Graflareio #22554, Diactorus #21812, Incursores #21823 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + Mando D.O.O.M.D.U.R.G. #21824 | Normal gastada; Drastrius desde Extra; solo Xyz |
+| P8 | Cambio #22158 (no activada aún) | Elara #21776 (1400 ATK), Amalthe #21775 (1600 ATK), Drastrius #21811 (2700 ATK) | Mando A.D.R.A.S.T.E.I.A. #22567 (Colocada) | Modelo de Poder #21777, Medius #21419, Graflareio #22554, Diactorus #21812, Incursores #21823 | ∅ | Sin negación ni equipamiento opcional usados | Drastrius: Drastea #21774 + Mando D.O.O.M.D.U.R.G. #21824 | Normal gastada; solo Xyz |
+
+#### A09 — `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07` (1 carta; Normal empleada)
+
+**Mano inicial mínima exacta:** ![Cambio](imagenes/tcg/22158.jpg) **Cambio DoomZ** (22158); propio Campo y GY vacíos, Main Phase propia y oponente sin respuestas. Deben quedar en Main Deck: **DoomZ Modelo de Poder** (21777), dos copias distintas de **Elara** (21776), al menos una **Amalthe** (21775), **Drastea** (21774), **Incursores** (21823) y las **dos copias** de **Mando D.O.O.M.D.U.R.G.** (21824). Extra: **Diactorus** (21812), **Graflareio** (22554) y **Drastrius** (21811). Esta línea consume **las dos copias de Mando** en destinos diferentes.
+
+1. **Cambio** como Mágica Normal: en resolución **destruir DoomZ Modelo de Poder directamente desde el Deck**, que se manda al GY, y posteriormente Cambio al GY. No se Invoca Modelo de Poder al Campo. En **cadena nueva** su efecto «Si esta carta es destruida» añade **Elara del Deck a la mano**. La búsqueda funciona al ser destruido en Deck; su texto no exige «destruida por efecto» ni estar equipado.
+2. **Invocar Normalmente Elara** (Nivel 4, ATK 1400), activando su efecto disparado por Invocación **una sola vez por nombre en el turno**. **Colocar Mando D.O.O.M.D.U.R.G. #1 desde Deck** en M/T. Activar la Mágica de Equipo desde su posición Colocada (legal para una Mágica de Equipo en Main Phase) y **equiparla a Elara**. La Normal ya está gastada.
+3. Elara equipada activa su **Efecto Rápido**, invocando de Extra a ![Diactorus](imagenes/tcg/21812.jpg) **Diactorus Rango 4** (Máquina VIENTO) con **2 materiales [Elara #1, Mando #1]**; no pedir 2 monstruos de Nivel 4 porque se usa la excepción de Elara. **Declinar el disparo opcional de Diactorus** al ser Invocado; destruir algo propio aquí no es necesario.
+4. Sobreponer ![Graflareio](imagenes/tcg/22554.jpg) **Graflareio Rango 5** mediante su procedimiento alternativo sobre **un Xyz DoomZ (Diactorus)**, transfiriendo ambos materiales: quedan **3 materiales [Diactorus, Elara #1, Mando #1]**. Graflareio activa su efecto de búsqueda desacoplando **Elara #1 como coste** y añade **Incursores** desde Deck a mano. **Omitir** la destrucción opcional de carta del Campo que permite Graflareio. Resultado intermedio válido, si se decide parar: Graflareio 2400 ATK con 2 materiales [Diactorus, Mando #1], Incursores en mano, Normal gastada; **no** se considera el resultado final de la extensión siguiente.
+5. Activar **Incursores** Continua; usar su efecto de Main Phase para **destruir Graflareio propio por efecto** e **Invocar Especialmente Elara #2 desde Deck**. La destrucción envía Graflareio al GY y sus 2 materiales [Diactorus, Mando #1] al GY **sin destruirlos**; aplicar restricción **solo Xyz desde Extra** el resto del turno.
+6. En la **siguiente cadena**, Graflareio destruido por efecto permite **Invocar Especialmente Amalthe desde Deck**. **Elara #2 no puede volver a Colocar una M/T:** Elara #1 ya utilizó el efecto «si es Invocada» ese turno y el límite se aplica por **nombre de carta**, no por copia. En cadena nueva, **Amalthe** recién Invocada busca **Drastea** desde Deck a mano.
+7. Drastea desde mano selecciona **Incursores propia boca arriba**; la destruye por efecto, se Invoca Especialmente y **se equipa Mando D.O.O.M.D.U.R.G. #2 desde Deck**. Como Incursores ya activó su efecto principal, **no puede** utilizar en el mismo turno su efecto de ser destruida. Drastea equipada activa su Efecto Rápido e Invoca Xyz **Drastrius Rango 8**, acoplando **Drastea + Mando #2 como 2 materiales**.
+8. **Final exacto:** Drastrius 2700 ATK con **2 materiales [Drastea, Mando #2]**, Elara #2 1400 ATK y Amalthe 1600 ATK como monstruos propios; sin M/T propias Colocadas, **mano vacía**, Invocación Normal gastada y Extra limitado a Xyz hasta finalizar turno. **En GY:** Cambio, Modelo de Poder, Elara #1, Diactorus, Graflareio, Mando #1 e Incursores. La segunda copia de Mando sigue **acoplada a Drastrius**. No se añade ficticiamente un segundo Mando A.D.R.A.S.T.E.I.A. por la Elara #2.
+
+**Puntos de corte:** Ash a la búsqueda de Modelo de Poder destruido corta el acceso a Elara; Ash al primer efecto de Elara impide Colocar Equipo; negación a Graflareio impide conseguir Incursores; negar a Amalthe impide buscar Drastea; negar Drastea equipada frena Drastrius. Las cartas de esta ruta son las registradas en inventario: **no se toman copias de Side/Reserva**.
+
+- **Si el rival niega la búsqueda del Modelo de Poder que Cambio destruyó:** **Cambio y Modelo de Poder quedan en GY** si su resolución de destrucción sucedió; **Elara no llega a la mano**, la Normal sigue libre y no existe un cuerpo propio para empezar Diactorus. No declarar Drastrius ni asumir la segunda copia de Elara ya en mano.
+- **Si el rival niega la Colocación de Mando #1 por Elara pero Elara permanece en Campo:** la **Normal ya fue gastada** y Elara sigue como un Nivel 4 sin el Equipo; falta el material que habilita su Xyz propia. No se Invoca Diactorus, Graflareio ni Drastrius desde esa mano mínima.
+- **Si el rival niega la búsqueda de Incursores por Graflareio después de desacoplar Elara #1:** existe un **Graflareio con 2 materiales [Diactorus, Mando #1]** y la Normal está gastada; Elara #1 queda en GY por el coste. Al no haber Incursores obtenida, **no se destruye Graflareio por su efecto** y no aparece Elara #2/Amalthe/Drastrius. Es un campo reducido concreto, no el campo final planeado.
+- **Si el rival niega la búsqueda de Drastea por Amalthe después de destruir Graflareio:** **Elara #2 y Amalthe** siguen en Campo si no fueron retiradas, Incursores permanece boca arriba y su efecto de Main Phase ya se consumió; **Drastea no está en mano**, y la segunda copia de Mando sigue en Deck. No atribuir una nueva búsqueda a Elara #2: el límite ya fue usado por Elara #1.
+- **Si el rival niega la colocación/equipamiento de Mando #2 o la Xyz propia de Drastea:** Elara #2, Amalthe y Drastea pueden permanecer como cuerpos si la respuesta no los retira, pero **no** se declara Drastrius ni su negación sin el Equipo y la Invocación legal correspondiente. Incursores ya destruida va al GY; cualquier Mando #2 Colocada/equipada debe mostrarse solo si ese efecto sí resolvió.
+
+**Fuentes primarias:** [Cambio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=es), [Modelo de Poder](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=es), [Elara](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=es), [Diactorus](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=es), [Graflareio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=es), [Incursores](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=es), [Amalthe](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=es), [Drastea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=es).;.
+
+**Traza A09 de zonas al terminar cada paso `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`:** dos ejemplares de Mando se usan en destinos distintos. La segunda Elara no puede repetir el efecto de Colocar por límite de nombre.
+
+| Hito | Mano | Monstruos | M/T | Cementerio | Destierro propio | Estado rival | Materiales | Normal y Extra |
+|---|---|---|---|---|---|---|---|---|
+| P1 | Elara #21776 (buscada desde Deck) | ∅ | ∅ | Cambio #22158, Modelo de Poder #21777 (destruida desde Deck) | ∅ | Sin respuesta; campo no determinado | Ninguno | Normal libre; Extra intacto |
+| P2 | ∅ | Primera Elara #21776 (Normal, equipada) | Primer Mando #21824 (Equipo de Elara) | Cambio #22158, Modelo de Poder #21777 | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; Extra intacto |
+| P3 | ∅ | Diactorus #21812 (Xyz Rango 4) | ∅ | Cambio #22158, Modelo de Poder #21777 | ∅ | Sin cambios acreditados | Diactorus: primera Elara #21776 + primer Mando #21824 | Normal gastada; Diactorus desde Extra |
+| P4 | Incursores #21823 (buscada por Graflareio) | Graflareio #22554 (Xyz Rango 5) | ∅ | Cambio #22158, Modelo de Poder #21777, primera Elara #21776 (desacoplada) | ∅ | Sin cambios acreditados | Graflareio: Diactorus #21812 + primer Mando #21824 (2 restantes) | Normal gastada; Graflareio desde Extra |
+| P5 | ∅ | Segunda Elara #21776 (desde Deck; no repite Colocación) | Incursores #21823 (Continua) | Cambio #22158, Modelo de Poder #21777, primera Elara #21776, Graflareio #22554 (destruido), Diactorus #21812, primer Mando #21824 (materiales al GY) | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; solo Xyz por Incursores |
+| P6 | Drastea #21774 (buscada por Amalthe) | Segunda Elara #21776, Amalthe #21775 (desde Deck) | Incursores #21823 | Cambio #22158, Modelo de Poder #21777, primera Elara #21776, Graflareio #22554, Diactorus #21812, primer Mando #21824 | ∅ | Sin cambios acreditados | Ninguno | Normal gastada; Elara #2 no recoloca Mando |
+| P7 | ∅ | Segunda Elara #21776, Amalthe #21775, Drastrius #21811 (desde Drastea equipada) | ∅ | Cambio #22158, Modelo de Poder #21777, primera Elara #21776, Graflareio #22554, Diactorus #21812, primer Mando #21824, Incursores #21823 | ∅ | Sin cambios acreditados | Drastrius: Drastea #21774 + segundo Mando #21824 (no el primero) | Normal gastada; solo Xyz |
+| P8 | ∅ | Segunda Elara #21776 (1400 ATK), Amalthe #21775 (1600 ATK), Drastrius #21811 (2700 ATK) | ∅ | Cambio #22158, Modelo de Poder #21777, primera Elara #21776, Graflareio #22554, Diactorus #21812, primer Mando #21824, Incursores #21823 | ∅ | No se activaron negaciones ni Equipos opcionales | Drastrius: Drastea #21774 + segundo Mando #21824 | Normal gastada; solo Xyz |
+
+#### A09 — Selección situacional de campos DoomZ
+
+| Situación | Apertura o transformación correcta | Resultado y razón de elegirla |
+|---|---|---|
+| **Primero, dos cartas y conservar Normal** | `RAIDERS:ELARA:DRAS01`: Incursores + Elara. | Drastrius **2 materiales**, Incursores activa, **Normal intacta**. Preferible si la Normal permitirá otra carta real en mano; no adjudicar cuerpo adicional. |
+| **Primero, dos cartas y dejar otro monstruo** | `RAIDERS:AMALTHE:DRAS02`: Incursores + Amalthe. | Drastrius 2 materiales **más Elara en Campo**, Normal gastada. Elegir mantener Elara como cuerpo, o equiparla al Xyz por su disparo: resultados excluyentes. |
+| **Primero, conservar sin restricción a Xyz** | `RAIDERS:CHANGE:DRAS03`: Incursores + Cambio, sin usar el efecto principal de Incursores. | Drastrius con dos materiales, **Normal intacta** y sin bloqueo adicional de Extra impuesto por Incursores. Incursores fue destruida y está en GY, no permanece boca arriba. |
+| **Primero, una sola carta y defensa reactiva** | `MEDIUS:POWERPATRON:DIACTORUS:DRAS05`: Medius. | Drastrius con **Mando como material**, posible negación de efecto de monstruo rival; con A.D.R.A.S.T.E.I.A. obtenida opcionalmente en mano si estaba en Deck. |
+| **Primero, una carta y mayor presencia** | `MEDIUS:GRAFLAREIO:DRAS06` o `CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`, según la carta inicial. | **Drastrius + Elara + Amalthe**; en la ruta Medius puede quedar otro Equipo Colocado y Cambio en mano; ruta Cambio usa **dos copias distintas** de Mando. |
+| **Alternativa si se busca jefe con ATK 3500** | `MEDIUS:JUPREDO:JUPITER04`: Medius → Jupredo → Júpiter. | **Júpiter 3500 ATK con 0 materiales + Medius**. No inventar su efecto de desacoplar ni protección basada en materiales, y advertir que 3 cartas de Deck se destierran **boca abajo** sin control de identidad. |
+| **Segundo, retirar una amenaza sin falsificar la Fusión/Xyz** | Completar cualquiera de los Drastrius anteriores; solo si hay **otro monstruo boca arriba** elegible al Invocarlo por Xyz, evaluar su efecto opcional de equipar ese monstruo. | En `AMALTHE:DRAS02` puede equipar la Elara **propia**; contra rival, no afirmar que se equipa un adversario indestructible/no seleccionable. **No** convertir un material desacoplado en monstruo destruido. |
+| **Turno rival: una interrupción real** | Con Drastrius y **materiales disponibles**, responder al efecto de monstruo rival que se active en **Campo/GY** según su texto. | Desacoplar **un material** como coste y negar si resuelve. Si se desacopla el Mando que confería protección, esa protección deja de existir; **no** negar M/T con ese efecto. |
+| **Recuperar un enlace interrumpido** | En `MEDIUS:GRAFLAREIO:DRAS06`, si se niega **el efecto de búsqueda de Graflareio**, detener la línea antes de consumir Incursores inexistente y conservar el Campo **Graflareio + Equipo/Búsqueda que realmente resolvieron**. | Un Campo reducido de Graflareio no equivale a Drastrius. Si la interrupción afecta a Amalthe, no se añade Drastea; seleccionar una alternativa **solo si está ya disponible**. |
+
+Estas son decisiones sobre **7 aperturas** y sus transformaciones de turno rival; **no nueve combos nuevos**. La secuencia completa de cada fila sigue siendo su A09 canónica y no se duplica en el TXT de checklist..
+
+<!-- STATION_X_EJECUCION_A01_A10_20261116 -->
+## EJECUCIÓN DOCUMENTAL A01–A10 Y MATRIZ CANÓNICA A06 — 16-11-2026
+
+**Naturaleza de este corte:** comprobación automática y cruzada de fuentes ya incluidas en el paquete. **No** es replay, juicio de legalidad completo, ensayo físico, confirmación nueva del titular ni integración en producción. Los estados parciales se conservan, incluso cuando la presencia estructural es del 100 %. No se añadieron cartas, modificaron cantidades ni inventaron combos. La investigación restante es tarea de IA; no se incorporan pruebas del usuario a sus denominadores.
+
+**Inventario base cotejado:** `653` · DoomZ · Main 40 · Extra 15 · Side 9 · Reserva 0 · 37 identidades distintas.
+
+### Estado de ejecución por apartado (contenido de este deck)
+
+**Control individual de DoomZ (corte 16-11-2026):** las diez filas A01–A10 de abajo son el tablero **de este deck**, no un promedio de los trece. La cobertura documental allí expresada no acredita cierres totales: el porcentaje de **cierre de cada apartado sigue sin conciliación**, y ninguno debe etiquetarse 100 % por existir una fila. En la comprobación funcional A05 reciente se contrastaron **3/37** fichas con fuente oficial para su función principal (restan **34** sin ese contraste de la misma tanda; las 3 tampoco suponen cierre integral de A05). A06 conserva **19 relaciones condicionales** y **1 accesos Extra** sin acreditar. **Próxima ejecución local recomendada:** concluir A05 por identidad, después A06/A07 con las relaciones, materiales y fuentes de este mismo inventario; finalmente A08–A10. Solo actualizar la fila A01–A10 trabajada de este archivo y su reflejo en el registro único; no actualizar otros decks ni llevar porcentajes para los módulos 11–36.
+
+| Apartado | Estado del corte | Resultado material comprobado | Pendiente específico para cerrar |
+|---|---|---|---|
+| **01** Rol y propósito | DOCUMENTADO; AUDITORÍA PARCIAL | Perfil y plan de juego anteriores conservados | Contrastar condiciones de victoria y sus cartas contra A09 y amenazas reales |
+| **02** Recepción e identidad | IDENTIDAD COTEJADA; AUDITORÍA PARCIAL | Deck ID, formato y cantidades confrontadas con inventario confirmado | Corroborar datos de equipo/versión cuando no consten; no cambiar inventario |
+| **03** Inventario | COINCIDE ESTRUCTURALMENTE; AUDITORÍA PARCIAL | 37/37 fichas visibles; zonas A05: Main 40/40, Extra 15/15, Side 9/9, Reserva 0/0 | Cotejar requisitos mecánicos individuales y excepciones de identidad sin revisión general de banlist |
+| **04** Fuentes y fotografías | COINCIDENCIA DE ARCHIVOS; AUDITORÍA PARCIAL | 37/37 imágenes CID decodificables; 37/37 fichas con URL de fuente | Cotejar texto vigente completo y fotografía correcta en fuente oficial; existencia de archivo no equivale a identidad visual validada |
+| **05** Cartas individuales | COBERTURA DOCUMENTAL 37/37; AUDITORÍA PARCIAL | 37 fichas A05 enlazadas a la matriz A06; funciones preexistentes preservadas | Verificar efecto, coste, restricción, utilidad y uso autónomo por identidad |
+| **06** Sinergias y motores | MATRIZ CREADA 37/37; AUDITORÍA PARCIAL | 37 filas por identidad y copias desglosadas por zona según A05; etiquetas A06 originales sin promoción de evidencia | Confirmar relaciones causales, Extra sin acceso acreditado y enlaces A08/A09 en ambos sentidos |
+| **07** Reglas | CONTRATOS EXISTENTES 37/37; AUDITORÍA PARCIAL | Identidad/CID cruzados con A05 en 37/37 identidades | Resolver ventanas, materiales, cadenas, restricciones y excepciones por efecto y formato |
+| **08** Jugadas y decisiones | 7 DECISIONES DOCUMENTADAS; AUDITORÍA PARCIAL | 7 casos A08 y 7 planes Side documentales; IDs referenciados en la matriz cuando consta CID | Demostrar acción legal y resultado, y ampliar combinaciones 1/2/3/4+ sin inflar combos |
+| **09** Combos y rutas | 8 EJERCICIOS DOCUMENTADOS; AUDITORÍA PARCIAL | 8 ejercicios y 10 manos registradas; fotos enlazadas solo como indicios, no como participantes certificados | Reconstruir pasos, comprobar todas las cartas/materiales y asignar participantes causales antes de declarar cualquier ruta legal |
+| **10** Guías visuales | CONFORME EDITORIAL SEGÚN DECISIÓN V31; REVISIÓN TÉCNICA PARCIAL | Archivo de guía existente; se conserva diseño actual | Cotejar visualmente por paso las rutas A09 comprobadas; no confundir aceptación editorial con simulación |
+
+### APARTADO_06 — Matriz única de trazabilidad por identidad de carta
+
+Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias y zonas que proviene de A05; cuando el mapa A06 agrupa copias bajo una zona primaria, **prevalece este desglose**. Los IDs A08 provienen de `cartas_relevantes` y representan **vínculos documentales por comprobar**. Los IDs A09 proceden únicamente de fotografías de los ejercicios; indican **candidatas a contraste**, **no** participación causal acreditada ni combo válido. No omitir una carta si todavía carece de enlaces. Los planes Side son condicionales entre duelos; Reserva nunca se trata como disponible.
+
+| ID / Carta | Zona y copias (A05) | Función A05 | Relación A06 | A08 documentado (sin validar) | A09 candidato por foto (sin validar) | Side / Reserva | Estado / acción siguiente |
+|---|---|---|---|---|---|---|---|
+| `653:CARD:21419` Medius the Pure | Main ×1 | EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:JUPREDO:JUPITER04; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21824` DoomZ Command "D.O.O.M.D.U.R.G." | Main ×2 | INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_XYZ · PRES… | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 653:A09:RAIDERS:ELARA:DRAS01; 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21777` Power Patron DoomZ | Main ×2 | EXTENSOR_CONDICIONADO · EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_XYZ | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:9279` Droll & Lock Bird | Main ×2 | HANDTRAP_BLOQUEO_BUSQUEDAS · CONTROL_DE_ACCESO_AL_DECK · FUNCION_AUTONOMA | CONDICIONAL_NO_VERIFICADA · FUNCIÓN_COTEJADA_CON_KONAMI | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:22521` Jupredo the Shademachine Power Patron | Main ×3 | EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · CONTROL_DESTIE… | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:MEDIUS:JUPREDO:JUPITER04 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:12950` Ash Blossom & Joyous Spring | Main ×3 | HANDTRAP_NEGACION_SELECTIVA · FUNCION_AUTONOMA; posible material Cantante solo si una ruta lo demuestra | CONDICIONAL_NO_VERIFICADA · FUNCIÓN_COTEJADA_CON_KONAMI | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:17119` Therion "King" Regulus | Main ×1 | EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · EQUIPAMIENTO · RESPUESTA_NEGACION ·… | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:21774` DoomZ XII Zero - Drastea | Main ×2 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJE… | SINERGIA_DE_ENGINE_DOCUMENTADA | A08:653:HABILIDAD_O_CONTINUIDAD; A08:653:MANO_IRREGULAR; A08:653:PRIMERO; A08:653:RECURSOS; A08:653:RESPUESTA_RIVAL; A08:653:SEGUNDO; A08:653:TURNO_TARDIO | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05; 653:A09:RAIDERS:AMALTHE:DRAS02; 653:A09:RAIDERS:CHANGE:DRAS03; 653:A09:RAIDERS:ELARA:DRAS01; 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21775` DoomZ V Five - Amalthe | Main ×3 | EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · EQUIPAMIENTO ·… | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05; 653:A09:RAIDERS:AMALTHE:DRAS02; 653:A09:RAIDERS:CHANGE:DRAS03 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21776` DoomZ VII Seven - Elara | Main ×3 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · ACCESO_XYZ · P… | SINERGIA_DE_ENGINE_DOCUMENTADA | A08:653:HABILIDAD_O_CONTINUIDAD; A08:653:MANO_IRREGULAR; A08:653:PRIMERO; A08:653:RECURSOS; A08:653:RESPUESTA_RIVAL; A08:653:SEGUNDO; A08:653:TURNO_TARDIO | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:RAIDERS:AMALTHE:DRAS02; 653:A09:RAIDERS:ELARA:DRAS01; 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:13631` Infinite Impermanence | Main ×3 | TRAMPA_NEGACION_MONSTRUO · CONTROL_DE_COLUMNA_CONDICIONAL · FUNCION_AUTONOMA | CONDICIONAL_NO_VERIFICADA · FUNCIÓN_COTEJADA_CON_KONAMI | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:20500` Mulcharmy Fuwalos | Main ×3 | EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:22565` Prohibited Power Patron Portal - Terminus | Main ×3 | CONSISTENCIA · CARGA_CEMENTERIO · CONTROL_DESTIERRO · PRESION_LP | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:21823` DoomZ Raiders | Main ×3 | EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJE… | SINERGIA_DE_ENGINE_DOCUMENTADA | A08:653:HABILIDAD_O_CONTINUIDAD; A08:653:MANO_IRREGULAR; A08:653:PRIMERO; A08:653:RECURSOS; A08:653:RESPUESTA_RIVAL; A08:653:SEGUNDO; A08:653:TURNO_TARDIO | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:RAIDERS:AMALTHE:DRAS02; 653:A09:RAIDERS:CHANGE:DRAS03; 653:A09:RAIDERS:ELARA:DRAS01; 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:22519` Vidrium, Modelo de Poder de la Exterminac… | Main ×1 | EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:22158` DoomZ Change | Main ×3 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RECICLAJE | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 653:A09:MEDIUS:JUPREDO:JUPITER04; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21840` DoomZ Destruction | Main ×1 | CONSISTENCIA | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:22567` DoomZ Command "A.D.R.A.S.T.E.I.A." | Main ×1 | CONSISTENCIA | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:14958` Number F0: Utopic Draco Future | Extra ×1 | INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · ACCESO_XYZ · INTERACCION_CADENA | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:16002` Springans Merrymaker | Extra ×1 | EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO · ACCESO_FUSION ·… | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:18190` Gigantic "Champion" Sargas | Extra ×1 | CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_XYZ · PRES… | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:21811` DoomZ XII End - Drastrius | Extra ×2 | INTERACCION_DESTRUCCION · EQUIPAMIENTO · RESPUESTA_NEGACION · ACCESO_XYZ · INTE… | SINERGIA_DE_ENGINE_DOCUMENTADA | A08:653:HABILIDAD_O_CONTINUIDAD; A08:653:MANO_IRREGULAR; A08:653:PRIMERO; A08:653:RECURSOS; A08:653:RESPUESTA_RIVAL; A08:653:SEGUNDO; A08:653:TURNO_TARDIO | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05; 653:A09:RAIDERS:AMALTHE:DRAS02; 653:A09:RAIDERS:CHANGE:DRAS03; 653:A09:RAIDERS:ELARA:DRAS01; 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:22554` DoomZ XIII Over - Graflareio | Extra ×2 | EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · ACCESO_XYZ | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:21812` DoomZ Break - Diactorus | Extra ×2 | EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · EQUIPAMIEN… | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21810` Jupiter the Power Patron of Destruction | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · ACCESO_XYZ | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:JUPREDO:JUPITER04; 653:A09:RAIDERS:CHANGE:DRAS03 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:21453` Number F0: Utopic Future Zexal | Extra ×1 | INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_XYZ · COMBATE · INTERACCI… | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:19886` Varudras, the Final Bringer of the End Ti… | Extra ×1 | INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · ACCESO_XYZ · PRESION_LP · INTERA… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:15524` Divine Arsenal AA-ZEUS - Sky Thunder | Extra ×1 | CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_XYZ · INTERACCION_CADENA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
+| `653:CARD:11413` Number F0: Utopic Future | Extra ×1 | INTERACCION_DESTRUCCION · ACCESO_XYZ · PRESION_LP | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:14920` Gagagaga Magician | Extra ×1 | EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:11708` Ghost Ogre & Snow Rabbit | Side ×2 | CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · INTERACCION_CADENA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:11708 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:15296` Triple Tactics Talent | Side ×1 | RECUPERACION_MANO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:15296 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:14564` Number 60: Dugares the Timeless | Side ×1 | EXTENSOR_CONDICIONADO · RECUPERACION_MANO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:14564 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:13619` Called by the Grave | Side ×1 | CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:13619 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:14876` Lightning Storm | Side ×2 | INTERACCION_DESTRUCCION | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:14876 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:14741` Nibiru, the Primal Being | Side ×1 | EXTENSOR_CONDICIONADO · TRIBUTO · COMBATE · INTERACCION_CADENA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:14741 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:19184` Super Starslayer TY-PHON - Sky Crisis | Side ×1 | EXTENSOR_CONDICIONADO · ACCESO_XYZ | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Side: solo tras sustitución; 653:SIDE_PLAN:19184 | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+
+### Balance de referencias y faltantes identificados
+
+- Identidades analizadas como **datos de inventario**, no como legalidad: **37/37**. Main 40; Extra 15; Side 9; Reserva 0.
+- Con referencia documental A08 mediante CID: **4/37** identidades. Sin referencia A08 por CID: **33**; ello no equivale a falta de utilidad.
+- Con fotografía en algún ejercicio A09: **13/37** identidades. Sin tal indicio: **24**; las fotos no certifican pasos ni participación.
+- Extra con acceso no acreditado según A06: **1** identidades; priorizar contraste de material, procedimiento, restricciones y usos alternativos.
+- Decisiones A08 que mencionan CID fuera del inventario: **0**; fotos A09 con CID ajeno: **0**; rutas de fotografía ausentes: **0**. Los casos requieren revisión contextual antes de clasificarlos como error de juego.
+- Hallazgos estructurales a tratar: **ninguno en los controles de existencia y conteo**.
+- Próxima ejecución IA prioritaria: cotejar texto completo y materiales de cada enlace, cerrar condiciones A07/A09, separar rutas verdaderas de interacciones y actualizar estados individuales en el único registro global. No se autoriza modificar las listas ni publicar resultados en Station X.
+
+<!-- STATION_X_CURADURIA_A05_A06_20261116 -->
+### APARTADOS 05 y 06 — Rectificación funcional con fuente oficial (16-11-2026)
+
+Se corrigen etiquetas derivadas de búsqueda automática de palabras: una carta que menciona Invocación Especial o enviar al Cementerio **no necesariamente realiza esa operación**. La tabla siguiente prevalece sobre los rótulos heurísticos anteriores para estos CID. El resto conserva su estado previo. Se verificó el **efecto/función de la carta**, no su participación en una ruta A09; las fotografías no acreditan combos. Sin revisión de banlist ni cambios al inventario.
+
+| CID / carta | Función real comprobada | Requisito, coste y límite decisivos | Sinergia o uso dentro del deck | Estado de combo | Fuente oficial |
+|---|---|---|---|---|---|
+| `9279` Droll & Lock Bird | HANDTRAP_BLOQUEO_BUSQUEDAS · CONTROL_DE_ACCESO_AL_DECK · FUNCION_AUTONOMA | Enviar esta carta de la mano al Cementerio. Efecto Rápido después de que el rival añada una o más cartas desde Main Deck a mano, fuera de Draw Phase; dura lo restante del turno. | Utilidad autónoma contra motores de búsqueda; conflicto temporal con buscadores propios como Fenrir/Unicorn cuando corresponda. | **NO VALIDADO A09**; verificar si aparece causalmente en alguna ruta | [Konami CID 9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en) |
+| `12950` Ash Blossom & Joyous Spring | HANDTRAP_NEGACION_SELECTIVA · FUNCION_AUTONOMA; posible material Cantante solo si una ruta lo demuestra | Descartar esta carta desde la mano al activar su Efecto Rápido. En cadena a la activación de un efecto que incluya una de las tres operaciones previstas; efecto una vez por turno. | Función autónoma de interrupción; para usarla como material Cantante hace falta ruta específica con Nivel y restricciones comprobados. | **NO VALIDADO A09**; verificar si aparece causalmente en alguna ruta | [Konami CID 12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en) |
+| `13631` Infinite Impermanence | TRAMPA_NEGACION_MONSTRUO · CONTROL_DE_COLUMNA_CONDICIONAL · FUNCION_AUTONOMA | No exige descarte ni sacrificio; requiere monstruo rival boca arriba seleccionable. Trampa Normal; desde mano solo si no controlas cartas. La negación de columna exige que estuviera Colocada y permanezca en campo al resolver. | Interrupción autónoma que protege el desarrollo del motor, sin ser starter ni buscador. | **NO VALIDADO A09**; verificar si aparece causalmente en alguna ruta | [Konami CID 13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) |
+
+Los vínculos por fotografía/ID previos siguen siendo **candidatos** hasta comprobar el paso exacto, la disponibilidad (Side/Reserva) y las restricciones del Extra. No se asume sinergia cero por falta de combo.

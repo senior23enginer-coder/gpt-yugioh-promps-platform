@@ -1,0 +1,4247 @@
+{
+  "schema": "STATION_X_HAND_FIXTURES_V14",
+  "fecha": "2026-11-14",
+  "semilla": "0x14c0de+deckId, xorshift32 / partial Fisher-Yates",
+  "manos": [
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 22565,
+          "nombre": "Prohibited Power Patron Portal - Terminus"
+        },
+        {
+          "cid": 22116,
+          "nombre": "Elfnote Lucina"
+        },
+        {
+          "cid": 22533,
+          "nombre": "Fidraulis Harmony"
+        },
+        {
+          "cid": 22116,
+          "nombre": "Elfnote Lucina"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22173,
+          "nombre": "Elfnotes: Rhapsodia of Madness"
+        },
+        {
+          "cid": 22533,
+          "nombre": "Fidraulis Harmony"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius the Pure"
+        },
+        {
+          "cid": 22523,
+          "nombre": "Elfnote Regina"
+        },
+        {
+          "cid": 22116,
+          "nombre": "Elfnote Lucina"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22523,
+          "nombre": "Elfnote Regina"
+        },
+        {
+          "cid": 22565,
+          "nombre": "Prohibited Power Patron Portal - Terminus"
+        },
+        {
+          "cid": 17762,
+          "nombre": "Bystial Magnamhut"
+        },
+        {
+          "cid": 20206,
+          "nombre": "Mulcharmy Purulia"
+        },
+        {
+          "cid": 22533,
+          "nombre": "Fidraulis Harmony"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22533,
+          "nombre": "Fidraulis Harmony"
+        },
+        {
+          "cid": 22117,
+          "nombre": "Elfnote Tinia"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 22116,
+          "nombre": "Elfnote Lucina"
+        },
+        {
+          "cid": 22117,
+          "nombre": "Elfnote Tinia"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 20500,
+          "nombre": "Mulcharmy Fuwalos"
+        },
+        {
+          "cid": 20500,
+          "nombre": "Mulcharmy Fuwalos"
+        },
+        {
+          "cid": 22117,
+          "nombre": "Elfnote Tinia"
+        },
+        {
+          "cid": 20206,
+          "nombre": "Mulcharmy Purulia"
+        },
+        {
+          "cid": 22519,
+          "nombre": "Vidolium the Unstable Power Patron of Unity"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22118,
+          "nombre": "Elfnote Fortuna"
+        },
+        {
+          "cid": 17762,
+          "nombre": "Bystial Magnamhut"
+        },
+        {
+          "cid": 20500,
+          "nombre": "Mulcharmy Fuwalos"
+        },
+        {
+          "cid": 22119,
+          "nombre": "Elfnote Power Patron"
+        },
+        {
+          "cid": 22523,
+          "nombre": "Elfnote Regina"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 20206,
+          "nombre": "Mulcharmy Purulia"
+        },
+        {
+          "cid": 22118,
+          "nombre": "Elfnote Fortuna"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius the Pure"
+        },
+        {
+          "cid": 22565,
+          "nombre": "Prohibited Power Patron Portal - Terminus"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22117,
+          "nombre": "Elfnote Tinia"
+        },
+        {
+          "cid": 15239,
+          "nombre": "Dogmatika Ecclesia, the Virtuous"
+        },
+        {
+          "cid": 22519,
+          "nombre": "Vidolium the Unstable Power Patron of Unity"
+        },
+        {
+          "cid": 22533,
+          "nombre": "Fidraulis Harmony"
+        },
+        {
+          "cid": 20500,
+          "nombre": "Mulcharmy Fuwalos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22519,
+          "nombre": "Vidolium the Unstable Power Patron of Unity"
+        },
+        {
+          "cid": 22116,
+          "nombre": "Elfnote Lucina"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        },
+        {
+          "cid": 22159,
+          "nombre": "Elfnotes: Welcome Home"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 650,
+      "deck": "Elfnote",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 20500,
+          "nombre": "Mulcharmy Fuwalos"
+        },
+        {
+          "cid": 22523,
+          "nombre": "Elfnote Regina"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius the Pure"
+        },
+        {
+          "cid": 17762,
+          "nombre": "Bystial Magnamhut"
+        },
+        {
+          "cid": 22519,
+          "nombre": "Vidolium the Unstable Power Patron of Unity"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Medius (starter)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Medius + Fortuna en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 13631,
+          "nombre": "Infinito Temporal"
+        },
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        },
+        {
+          "cid": 20500,
+          "nombre": "Fuwalos Multivadora"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        },
+        {
+          "cid": 21776,
+          "nombre": "DoomZ VII Siete - Elara"
+        },
+        {
+          "cid": 22521,
+          "nombre": "Modelo de Poder Máquina de Sombras Zegredo"
+        },
+        {
+          "cid": 21775,
+          "nombre": "DoomZ V Cinco - Amalthe"
+        },
+        {
+          "cid": 22567,
+          "nombre": "Mando DoomZ «A.D.R.A.S.T.E.I.A.»"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 21823,
+          "nombre": "Incursores DoomZ"
+        },
+        {
+          "cid": 21776,
+          "nombre": "DoomZ VII Siete - Elara"
+        },
+        {
+          "cid": 22519,
+          "nombre": "Vidrium, Modelo de Poder de la Exterminación del Caos"
+        },
+        {
+          "cid": 9279,
+          "nombre": "El Bufón y el Pájaro del Candado"
+        },
+        {
+          "cid": 17119,
+          "nombre": "Therion «Rey» Regulus"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 21777,
+          "nombre": "DoomZ Modelo de Poder"
+        },
+        {
+          "cid": 22567,
+          "nombre": "Mando DoomZ «A.D.R.A.S.T.E.I.A.»"
+        },
+        {
+          "cid": 21777,
+          "nombre": "DoomZ Modelo de Poder"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius el Puro"
+        },
+        {
+          "cid": 21823,
+          "nombre": "Incursores DoomZ"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        },
+        {
+          "cid": 22519,
+          "nombre": "Vidrium, Modelo de Poder de la Exterminación del Caos"
+        },
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        },
+        {
+          "cid": 21823,
+          "nombre": "Incursores DoomZ"
+        },
+        {
+          "cid": 22521,
+          "nombre": "Modelo de Poder Máquina de Sombras Zegredo"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17119,
+          "nombre": "Therion «Rey» Regulus"
+        },
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        },
+        {
+          "cid": 22521,
+          "nombre": "Modelo de Poder Máquina de Sombras Zegredo"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius el Puro"
+        },
+        {
+          "cid": 21840,
+          "nombre": "Destrucción DoomZ"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        },
+        {
+          "cid": 9279,
+          "nombre": "El Bufón y el Pájaro del Candado"
+        },
+        {
+          "cid": 21774,
+          "nombre": "DoomZ XII Cero - Drastea"
+        },
+        {
+          "cid": 22567,
+          "nombre": "Mando DoomZ «A.D.R.A.S.T.E.I.A.»"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinito Temporal"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 21777,
+          "nombre": "DoomZ Modelo de Poder"
+        },
+        {
+          "cid": 21776,
+          "nombre": "DoomZ VII Siete - Elara"
+        },
+        {
+          "cid": 21775,
+          "nombre": "DoomZ V Cinco - Amalthe"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 9279,
+          "nombre": "El Bufón y el Pájaro del Candado"
+        },
+        {
+          "cid": 21419,
+          "nombre": "Medius el Puro"
+        },
+        {
+          "cid": 21775,
+          "nombre": "DoomZ V Cinco - Amalthe"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinito Temporal"
+        },
+        {
+          "cid": 22158,
+          "nombre": "Cambio DoomZ"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 653,
+      "deck": "DoomZ",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 9279,
+          "nombre": "El Bufón y el Pájaro del Candado"
+        },
+        {
+          "cid": 22567,
+          "nombre": "Mando DoomZ «A.D.R.A.S.T.E.I.A.»"
+        },
+        {
+          "cid": 21823,
+          "nombre": "Incursores DoomZ"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinito Temporal"
+        },
+        {
+          "cid": 22521,
+          "nombre": "Modelo de Poder Máquina de Sombras Zegredo"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "DoomZ Raiders en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Raiders + Elara + Amalthe",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 8933,
+          "nombre": "Ocultador de Efectos"
+        },
+        {
+          "cid": 17603,
+          "nombre": "Keldo la Protectora Sagrada"
+        },
+        {
+          "cid": 18219,
+          "nombre": "Trivikarma"
+        },
+        {
+          "cid": 20240,
+          "nombre": "Tracto del Demoniherrero"
+        },
+        {
+          "cid": 17475,
+          "nombre": "Crimanto Tiagrimientos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 22169,
+          "nombre": "Corona Prohibida"
+        },
+        {
+          "cid": 12800,
+          "nombre": "Bienes del Entierro Insensato"
+        },
+        {
+          "cid": 12800,
+          "nombre": "Bienes del Entierro Insensato"
+        },
+        {
+          "cid": 17475,
+          "nombre": "Crimanto Tiagrimientos"
+        },
+        {
+          "cid": 18204,
+          "nombre": "Planeta Bajo Presión Wraitsoth"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17475,
+          "nombre": "Crimanto Tiagrimientos"
+        },
+        {
+          "cid": 22169,
+          "nombre": "Corona Prohibida"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17417,
+          "nombre": "Tiagrimientos Reinoheart"
+        },
+        {
+          "cid": 22169,
+          "nombre": "Corona Prohibida"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        },
+        {
+          "cid": 18219,
+          "nombre": "Trivikarma"
+        },
+        {
+          "cid": 19153,
+          "nombre": "Amset, Gloria de Horus"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 20196,
+          "nombre": "Demoniherrero Grabador"
+        },
+        {
+          "cid": 8933,
+          "nombre": "Ocultador de Efectos"
+        },
+        {
+          "cid": 19200,
+          "nombre": "Sarcófago del Rey"
+        },
+        {
+          "cid": 17813,
+          "nombre": "Grito Tiagrimientos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 19153,
+          "nombre": "Amset, Gloria de Horus"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 12800,
+          "nombre": "Bienes del Entierro Insensato"
+        },
+        {
+          "cid": 17604,
+          "nombre": "Mudora el Oráculo de la Espada"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17604,
+          "nombre": "Mudora el Oráculo de la Espada"
+        },
+        {
+          "cid": 17462,
+          "nombre": "Planeta Primigenio Perlerreino"
+        },
+        {
+          "cid": 8933,
+          "nombre": "Ocultador de Efectos"
+        },
+        {
+          "cid": 22169,
+          "nombre": "Corona Prohibida"
+        },
+        {
+          "cid": 19153,
+          "nombre": "Amset, Gloria de Horus"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 8092,
+          "nombre": "Fabuloso Lurrie"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        },
+        {
+          "cid": 17604,
+          "nombre": "Mudora el Oráculo de la Espada"
+        },
+        {
+          "cid": 20196,
+          "nombre": "Demoniherrero Grabador"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17813,
+          "nombre": "Grito Tiagrimientos"
+        },
+        {
+          "cid": 7445,
+          "nombre": "Súper Polimerización"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Flor de Ceniza & Primavera Feliz"
+        },
+        {
+          "cid": 12800,
+          "nombre": "Bienes del Entierro Insensato"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 656,
+      "deck": "Tearlaments",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12800,
+          "nombre": "Bienes del Entierro Insensato"
+        },
+        {
+          "cid": 18153,
+          "nombre": "Tiagrimientos Kashtira"
+        },
+        {
+          "cid": 17603,
+          "nombre": "Keldo la Protectora Sagrada"
+        },
+        {
+          "cid": 18204,
+          "nombre": "Planeta Bajo Presión Wraitsoth"
+        },
+        {
+          "cid": 17473,
+          "nombre": "Metarruido Tiagrimientos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Engraver sin Tract ni Lurrie en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Sarcófago del Rey en mano",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 5537,
+          "nombre": "Terraforming"
+        },
+        {
+          "cid": 5432,
+          "nombre": "Book of Moon"
+        },
+        {
+          "cid": 5432,
+          "nombre": "Book of Moon"
+        },
+        {
+          "cid": 18204,
+          "nombre": "Pressured Planet Wraitsoth"
+        },
+        {
+          "cid": 14740,
+          "nombre": "Dimension Shifter"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 4342,
+          "nombre": "Dark Hole"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 18204,
+          "nombre": "Pressured Planet Wraitsoth"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 15756,
+          "nombre": "Pot of Prosperity"
+        },
+        {
+          "cid": 18152,
+          "nombre": "Scareclaw Kashtira"
+        },
+        {
+          "cid": 17831,
+          "nombre": "Kashtira Preparations"
+        },
+        {
+          "cid": 4342,
+          "nombre": "Dark Hole"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 18220,
+          "nombre": "Kashtira Big Bang"
+        },
+        {
+          "cid": 18203,
+          "nombre": "Kashtiratheosis"
+        },
+        {
+          "cid": 5537,
+          "nombre": "Terraforming"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 15756,
+          "nombre": "Pot of Prosperity"
+        },
+        {
+          "cid": 5432,
+          "nombre": "Book of Moon"
+        },
+        {
+          "cid": 5432,
+          "nombre": "Book of Moon"
+        },
+        {
+          "cid": 5537,
+          "nombre": "Terraforming"
+        },
+        {
+          "cid": 4342,
+          "nombre": "Dark Hole"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 9352,
+          "nombre": "Forbidden Lance"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 18203,
+          "nombre": "Kashtiratheosis"
+        },
+        {
+          "cid": 18151,
+          "nombre": "Kashtira Riseheart"
+        },
+        {
+          "cid": 17770,
+          "nombre": "Kashtira Ogre"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17815,
+          "nombre": "Kashtira Birth"
+        },
+        {
+          "cid": 15756,
+          "nombre": "Pot of Prosperity"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 18151,
+          "nombre": "Kashtira Riseheart"
+        },
+        {
+          "cid": 18151,
+          "nombre": "Kashtira Riseheart"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17770,
+          "nombre": "Kashtira Ogre"
+        },
+        {
+          "cid": 15296,
+          "nombre": "Triple Tactics Talent"
+        },
+        {
+          "cid": 18220,
+          "nombre": "Kashtira Big Bang"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 15756,
+          "nombre": "Pot of Prosperity"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18203,
+          "nombre": "Kashtiratheosis"
+        },
+        {
+          "cid": 15756,
+          "nombre": "Pot of Prosperity"
+        },
+        {
+          "cid": 15296,
+          "nombre": "Triple Tactics Talent"
+        },
+        {
+          "cid": 4342,
+          "nombre": "Dark Hole"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 665,
+      "deck": "Kashtira Pure",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 5432,
+          "nombre": "Book of Moon"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 17815,
+          "nombre": "Kashtira Birth"
+        },
+        {
+          "cid": 15296,
+          "nombre": "Triple Tactics Talent"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Fenrir/Unicornio/Wraitsoth (al menos uno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fenrir + Unicornio + Birth simultáneos",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 18844,
+          "nombre": "Noble Arms Museum"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 15287,
+          "nombre": "Infernoble Arms - Durendal"
+        },
+        {
+          "cid": 18800,
+          "nombre": "Infernoble Caballero Ricciardetto"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 5328,
+          "nombre": "Reinforcement of the Army"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        },
+        {
+          "cid": 6458,
+          "nombre": "Divine Sword - Phoenix Blade"
+        },
+        {
+          "cid": 18801,
+          "nombre": "Infernoble Caballero Turpin"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18801,
+          "nombre": "Infernoble Caballero Turpin"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        },
+        {
+          "cid": 14085,
+          "nombre": "Neo Space Connector"
+        },
+        {
+          "cid": 18843,
+          "nombre": "Infernoble Arms - Almace"
+        },
+        {
+          "cid": 15392,
+          "nombre": "Fire Flint Lady"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 19196,
+          "nombre": "WANTED: Seeker of Sinful Spoils"
+        },
+        {
+          "cid": 18800,
+          "nombre": "Infernoble Caballero Ricciardetto"
+        },
+        {
+          "cid": 19207,
+          "nombre": "Angelica's Angelic Ring"
+        },
+        {
+          "cid": 18151,
+          "nombre": "Kashtira Riseheart"
+        },
+        {
+          "cid": 19196,
+          "nombre": "WANTED: Seeker of Sinful Spoils"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 14075,
+          "nombre": "Heritage of the Chalice"
+        },
+        {
+          "cid": 5328,
+          "nombre": "Reinforcement of the Army"
+        },
+        {
+          "cid": 8933,
+          "nombre": "Effect Veiler"
+        },
+        {
+          "cid": 6768,
+          "nombre": "Neo-Spacian Aqua Dolphin"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 15392,
+          "nombre": "Fire Flint Lady"
+        },
+        {
+          "cid": 15082,
+          "nombre": "Infernoble Caballero Renaud"
+        },
+        {
+          "cid": 18844,
+          "nombre": "Noble Arms Museum"
+        },
+        {
+          "cid": 14085,
+          "nombre": "Neo Space Connector"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 19207,
+          "nombre": "Angelica's Angelic Ring"
+        },
+        {
+          "cid": 7519,
+          "nombre": "D.D.R. - Different Dimension Reincarnation"
+        },
+        {
+          "cid": 15082,
+          "nombre": "Infernoble Caballero Renaud"
+        },
+        {
+          "cid": 14075,
+          "nombre": "Heritage of the Chalice"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 19148,
+          "nombre": "Diabellstar la Bruja Negra"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        },
+        {
+          "cid": 15082,
+          "nombre": "Infernoble Caballero Renaud"
+        },
+        {
+          "cid": 19199,
+          "nombre": "Original Sinful Spoils - Snake-Eye"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 14075,
+          "nombre": "Heritage of the Chalice"
+        },
+        {
+          "cid": 19196,
+          "nombre": "WANTED: Seeker of Sinful Spoils"
+        },
+        {
+          "cid": 15082,
+          "nombre": "Infernoble Caballero Renaud"
+        },
+        {
+          "cid": 18801,
+          "nombre": "Infernoble Caballero Turpin"
+        },
+        {
+          "cid": 15287,
+          "nombre": "Infernoble Arms - Durendal"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 670,
+      "deck": "Infernoble",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 15287,
+          "nombre": "Infernoble Arms - Durendal"
+        },
+        {
+          "cid": 9279,
+          "nombre": "Droll & Lock Bird"
+        },
+        {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir"
+        },
+        {
+          "cid": 18843,
+          "nombre": "Infernoble Arms - Almace"
+        },
+        {
+          "cid": 14075,
+          "nombre": "Heritage of the Chalice"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Connector/Museum/ROTA (alguno)",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Ogier + Renaud",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 16298,
+          "nombre": "Cyberdark Realm"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 6390,
+          "nombre": "Cyber Dragon"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 16301,
+          "nombre": "Cybernetic Horizon"
+        },
+        {
+          "cid": 6390,
+          "nombre": "Cyber Dragon"
+        },
+        {
+          "cid": 10866,
+          "nombre": "Cyber Dragon Core"
+        },
+        {
+          "cid": 6783,
+          "nombre": "Overload Fusion"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 14047,
+          "nombre": "Cyber Dragon Nachster"
+        },
+        {
+          "cid": 4909,
+          "nombre": "Mystical Space Typhoon"
+        },
+        {
+          "cid": 12464,
+          "nombre": "Cosmic Cyclone"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 8428,
+          "nombre": "Cyber Emergency"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 16301,
+          "nombre": "Cybernetic Horizon"
+        },
+        {
+          "cid": 13787,
+          "nombre": "Cybernetic Overflow"
+        },
+        {
+          "cid": 13770,
+          "nombre": "Cyber Revsystem"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 13181,
+          "nombre": "Cyberdark Claw"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 10866,
+          "nombre": "Cyber Dragon Core"
+        },
+        {
+          "cid": 14047,
+          "nombre": "Cyber Dragon Nachster"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 12464,
+          "nombre": "Cosmic Cyclone"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        },
+        {
+          "cid": 8428,
+          "nombre": "Cyber Emergency"
+        },
+        {
+          "cid": 12464,
+          "nombre": "Cosmic Cyclone"
+        },
+        {
+          "cid": 17625,
+          "nombre": "Clockwork Night"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 16297,
+          "nombre": "Cyber Eternal"
+        },
+        {
+          "cid": 13631,
+          "nombre": "Infinite Impermanence"
+        },
+        {
+          "cid": 10866,
+          "nombre": "Cyber Dragon Core"
+        },
+        {
+          "cid": 6390,
+          "nombre": "Cyber Dragon"
+        },
+        {
+          "cid": 10866,
+          "nombre": "Cyber Dragon Core"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 17119,
+          "nombre": "Therion \"King\" Regulus"
+        },
+        {
+          "cid": 8428,
+          "nombre": "Cyber Emergency"
+        },
+        {
+          "cid": 13770,
+          "nombre": "Cyber Revsystem"
+        },
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 13787,
+          "nombre": "Cybernetic Overflow"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 6390,
+          "nombre": "Cyber Dragon"
+        },
+        {
+          "cid": 12464,
+          "nombre": "Cosmic Cyclone"
+        },
+        {
+          "cid": 13181,
+          "nombre": "Cyberdark Claw"
+        },
+        {
+          "cid": 13587,
+          "nombre": "Ghost Belle & Haunted Mansion"
+        },
+        {
+          "cid": 21164,
+          "nombre": "Cyberdark Wurm [Konami 21164]"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 684,
+      "deck": "Cyber Dragon Pure",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 12950,
+          "nombre": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "cid": 5129,
+          "nombre": "Limiter Removal"
+        },
+        {
+          "cid": 14047,
+          "nombre": "Cyber Dragon Nachster"
+        },
+        {
+          "cid": 13723,
+          "nombre": "Cyber Dragon Herz"
+        },
+        {
+          "cid": 6398,
+          "nombre": "Power Bond"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Core o Emergency",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Cyber Dragon + Clockwork Night",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 1,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 18918,
+          "nombre": "Volcanic Blaze Accelerator — Acelerador de Llama Volcánico"
+        },
+        {
+          "cid": 18915,
+          "nombre": "Volcanic Emperor — Emperador Volcánico"
+        },
+        {
+          "cid": 18920,
+          "nombre": "Volcanic Emission — Emisión Volcánica"
+        },
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 2,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18915,
+          "nombre": "Volcanic Emperor — Emperador Volcánico"
+        },
+        {
+          "cid": 15299,
+          "nombre": "Forbidden Droplet — Gotas Prohibidas"
+        },
+        {
+          "cid": 18917,
+          "nombre": "Volcanic Rimfire — Percusión Anular Volcánica"
+        },
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        },
+        {
+          "cid": 11597,
+          "nombre": "Blaze Accelerator Reload — Recarga del Acelerador de Llama"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": false
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 3,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        },
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        },
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 14144,
+          "nombre": "Pot of Extravagance — Olla de la Extravagancia"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 4,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 9455,
+          "nombre": "Maxx \"C\" — «C» Maxx"
+        },
+        {
+          "cid": 7083,
+          "nombre": "Volcanic Scattershot — Disparo Disperso Volcánico"
+        },
+        {
+          "cid": 18918,
+          "nombre": "Volcanic Blaze Accelerator — Acelerador de Llama Volcánico"
+        },
+        {
+          "cid": 18916,
+          "nombre": "Volcanic Trooper — Soldado Volcánico"
+        },
+        {
+          "cid": 7082,
+          "nombre": "Volcanic Shell — Cartucho Volcánico"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 5,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18916,
+          "nombre": "Volcanic Trooper — Soldado Volcánico"
+        },
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 19027,
+          "nombre": "Bonfire — Hoguera"
+        },
+        {
+          "cid": 18916,
+          "nombre": "Volcanic Trooper — Soldado Volcánico"
+        },
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 6,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 6884,
+          "nombre": "Barrier Statue of the Inferno — Estatua-Barrera del Infierno"
+        },
+        {
+          "cid": 7083,
+          "nombre": "Volcanic Scattershot — Disparo Disperso Volcánico"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        },
+        {
+          "cid": 15299,
+          "nombre": "Forbidden Droplet — Gotas Prohibidas"
+        },
+        {
+          "cid": 11597,
+          "nombre": "Blaze Accelerator Reload — Recarga del Acelerador de Llama"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 7,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18921,
+          "nombre": "Volcanic Inferno — Infierno Volcánico"
+        },
+        {
+          "cid": 9455,
+          "nombre": "Maxx \"C\" — «C» Maxx"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        },
+        {
+          "cid": 11597,
+          "nombre": "Blaze Accelerator Reload — Recarga del Acelerador de Llama"
+        },
+        {
+          "cid": 14144,
+          "nombre": "Pot of Extravagance — Olla de la Extravagancia"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 8,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 7083,
+          "nombre": "Volcanic Scattershot — Disparo Disperso Volcánico"
+        },
+        {
+          "cid": 7934,
+          "nombre": "Gozen Match — Emparejamiento de Atributos"
+        },
+        {
+          "cid": 18916,
+          "nombre": "Volcanic Trooper — Soldado Volcánico"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 9,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 7083,
+          "nombre": "Volcanic Scattershot — Disparo Disperso Volcánico"
+        },
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        },
+        {
+          "cid": 7083,
+          "nombre": "Volcanic Scattershot — Disparo Disperso Volcánico"
+        },
+        {
+          "cid": 7086,
+          "nombre": "Blaze Accelerator — Acelerador de Llama"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 687,
+      "deck": "Volcanic",
+      "mano_numero": 10,
+      "formato": "TCG",
+      "cartas": [
+        {
+          "cid": 18916,
+          "nombre": "Volcanic Trooper — Soldado Volcánico"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        },
+        {
+          "cid": 7243,
+          "nombre": "Volcanic Rocket — Misil Volcánico"
+        },
+        {
+          "cid": 18919,
+          "nombre": "Fire Ejection — Eyección de Fuego"
+        }
+      ],
+      "numero_cartas": 5,
+      "indicios": [
+        {
+          "indicador": "Trooper/Bonfire/Rocket/Fire Ejection",
+          "coaparicion": true
+        },
+        {
+          "indicador": "VBA + Fire Ejection",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 1,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 19291,
+          "nombre": "Hiperasistente Ember"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 2,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17212,
+          "nombre": "Orden Secreta"
+        },
+        {
+          "cid": 18583,
+          "nombre": "Cromatográfagas"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 3,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16776,
+          "nombre": "Parar la Defensa"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        },
+        {
+          "cid": 19291,
+          "nombre": "Hiperasistente Ember"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 4,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17868,
+          "nombre": "Salamandra Quimicalizada"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 19291,
+          "nombre": "Hiperasistente Ember"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 5,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 15913,
+          "nombre": "Agujero Trampa"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        },
+        {
+          "cid": 18583,
+          "nombre": "Cromatográfagas"
+        },
+        {
+          "cid": 15204,
+          "nombre": "¡Atraviesa!"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 6,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17212,
+          "nombre": "Orden Secreta"
+        },
+        {
+          "cid": 19291,
+          "nombre": "Hiperasistente Ember"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 15913,
+          "nombre": "Agujero Trampa"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 7,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19700,
+          "nombre": "Amparo del Protector Estelar"
+        },
+        {
+          "cid": 18646,
+          "nombre": "Gelatina Defensiva"
+        },
+        {
+          "cid": 18583,
+          "nombre": "Cromatográfagas"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 8,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 16372,
+          "nombre": "Olla de la Codicia"
+        },
+        {
+          "cid": 17285,
+          "nombre": "Germalewe"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 9,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17868,
+          "nombre": "Salamandra Quimicalizada"
+        },
+        {
+          "cid": 17212,
+          "nombre": "Orden Secreta"
+        },
+        {
+          "cid": 17963,
+          "nombre": "Superasistente Ember"
+        },
+        {
+          "cid": 17926,
+          "nombre": "Gobernante de las Llamas"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 704,
+      "deck": "Pyro Rush",
+      "mano_numero": 10,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16776,
+          "nombre": "Parar la Defensa"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 19291,
+          "nombre": "Hiperasistente Ember"
+        },
+        {
+          "cid": 16171,
+          "nombre": "Fuego Ardiente"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Hyperassistant Ember",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Hyperassistant + Chemicized Salamandra",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 1,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17721,
+          "nombre": "Canjear"
+        },
+        {
+          "cid": 19760,
+          "nombre": "Impasse Ignoto"
+        },
+        {
+          "cid": 15674,
+          "nombre": "Esplendor del Rey"
+        },
+        {
+          "cid": 15673,
+          "nombre": "Aliento de Fuego del Genio"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 2,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17543,
+          "nombre": "Restauración de Cartas"
+        },
+        {
+          "cid": 19760,
+          "nombre": "Impasse Ignoto"
+        },
+        {
+          "cid": 17543,
+          "nombre": "Restauración de Cartas"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 3,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17721,
+          "nombre": "Canjear"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        },
+        {
+          "cid": 15673,
+          "nombre": "Aliento de Fuego del Genio"
+        },
+        {
+          "cid": 19760,
+          "nombre": "Impasse Ignoto"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 4,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19761,
+          "nombre": "Progrock del Rebelde Real"
+        },
+        {
+          "cid": 16135,
+          "nombre": "Descendiente de Titanes"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        },
+        {
+          "cid": 15913,
+          "nombre": "Agujero Trampa"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 5,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 18646,
+          "nombre": "Gelatina Defensiva"
+        },
+        {
+          "cid": 15441,
+          "nombre": "Heavy Metal del Rebelde Real"
+        },
+        {
+          "cid": 15441,
+          "nombre": "Heavy Metal del Rebelde Real"
+        },
+        {
+          "cid": 16330,
+          "nombre": "Phaser del Rebelde Real"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 6,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17543,
+          "nombre": "Restauración de Cartas"
+        },
+        {
+          "cid": 15673,
+          "nombre": "Aliento de Fuego del Genio"
+        },
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        },
+        {
+          "cid": 16331,
+          "nombre": "Metal Maldito del Rebelde Real"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 7,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        },
+        {
+          "cid": 17721,
+          "nombre": "Canjear"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 8,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17543,
+          "nombre": "Restauración de Cartas"
+        },
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        },
+        {
+          "cid": 16305,
+          "nombre": "Monstruo Reencarnado"
+        },
+        {
+          "cid": 15673,
+          "nombre": "Aliento de Fuego del Genio"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 9,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17543,
+          "nombre": "Restauración de Cartas"
+        },
+        {
+          "cid": 15673,
+          "nombre": "Aliento de Fuego del Genio"
+        },
+        {
+          "cid": 19760,
+          "nombre": "Impasse Ignoto"
+        },
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 705,
+      "deck": "Royal Rebel Rush",
+      "mano_numero": 10,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16330,
+          "nombre": "Phaser del Rebelde Real"
+        },
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        },
+        {
+          "cid": 16344,
+          "nombre": "Kheiron el Caballero Estelar"
+        },
+        {
+          "cid": 19799,
+          "nombre": "Avaricia del Rey"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Royal Rebel Phaser",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Phaser + algún jefe Fiend7+",
+          "coaparicion": true
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 1,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        },
+        {
+          "cid": 20465,
+          "nombre": "Circulación Elemental"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 2,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 20459,
+          "nombre": "Héroe Elemental Burstinatrix"
+        },
+        {
+          "cid": 16929,
+          "nombre": "Inicio Reinicio"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 3,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20460,
+          "nombre": "Héroe Elemental Avian"
+        },
+        {
+          "cid": 15913,
+          "nombre": "Agujero Trampa"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 20457,
+          "nombre": "Héroe Elemental Sparkman"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 4,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20461,
+          "nombre": "Héroe Ascendente de Argen"
+        },
+        {
+          "cid": 20460,
+          "nombre": "Héroe Elemental Avian"
+        },
+        {
+          "cid": 20457,
+          "nombre": "Héroe Elemental Sparkman"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 5,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        },
+        {
+          "cid": 20460,
+          "nombre": "Héroe Elemental Avian"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 6,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16358,
+          "nombre": "Estrategia Mágica Aviar"
+        },
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 20460,
+          "nombre": "Héroe Elemental Avian"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 7,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        },
+        {
+          "cid": 16372,
+          "nombre": "Olla de la Codicia"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 20457,
+          "nombre": "Héroe Elemental Sparkman"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 8,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16929,
+          "nombre": "Inicio Reinicio"
+        },
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 16372,
+          "nombre": "Olla de la Codicia"
+        },
+        {
+          "cid": 20465,
+          "nombre": "Circulación Elemental"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 9,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 20459,
+          "nombre": "Héroe Elemental Burstinatrix"
+        },
+        {
+          "cid": 20461,
+          "nombre": "Héroe Ascendente de Argen"
+        },
+        {
+          "cid": 16929,
+          "nombre": "Inicio Reinicio"
+        },
+        {
+          "cid": 15913,
+          "nombre": "Agujero Trampa"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 706,
+      "deck": "HERO Rush",
+      "mano_numero": 10,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 16934,
+          "nombre": "Fusión"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 20665,
+          "nombre": "Descenso de Héroe"
+        },
+        {
+          "cid": 20460,
+          "nombre": "Héroe Elemental Avian"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Rising HERO Argento",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Fusion + Avian + Burstinatrix",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 1,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        },
+        {
+          "cid": 16371,
+          "nombre": "Chica Maga Oscura"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        },
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 2,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19329,
+          "nombre": "Grito de Monstruo"
+        },
+        {
+          "cid": 18685,
+          "nombre": "Maga Legendaria"
+        },
+        {
+          "cid": 17209,
+          "nombre": "Ráfaga de Resonancia Oscura"
+        },
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 3,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17209,
+          "nombre": "Ráfaga de Resonancia Oscura"
+        },
+        {
+          "cid": 15451,
+          "nombre": "Ataque Mágico Oscuro"
+        },
+        {
+          "cid": 19773,
+          "nombre": "Hechicero Eliminador Oscuro"
+        },
+        {
+          "cid": 15451,
+          "nombre": "Ataque Mágico Oscuro"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 4,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19341,
+          "nombre": "¡Equitación Lindasesina!"
+        },
+        {
+          "cid": 16772,
+          "nombre": "Distribuidor Maravilloso"
+        },
+        {
+          "cid": 19597,
+          "nombre": "Mago Oscuro Sabio"
+        },
+        {
+          "cid": 19329,
+          "nombre": "Grito de Monstruo"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 5,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 17212,
+          "nombre": "Orden Secreta"
+        },
+        {
+          "cid": 17209,
+          "nombre": "Ráfaga de Resonancia Oscura"
+        },
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        },
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 6,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19329,
+          "nombre": "Grito de Monstruo"
+        },
+        {
+          "cid": 17209,
+          "nombre": "Ráfaga de Resonancia Oscura"
+        },
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        },
+        {
+          "cid": 18685,
+          "nombre": "Maga Legendaria"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 7,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19598,
+          "nombre": "Piedra de los Magos Oscuros"
+        },
+        {
+          "cid": 15410,
+          "nombre": "Mago Oscuro"
+        },
+        {
+          "cid": 19329,
+          "nombre": "Grito de Monstruo"
+        },
+        {
+          "cid": 18685,
+          "nombre": "Maga Legendaria"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": true
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 8,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19773,
+          "nombre": "Hechicero Eliminador Oscuro"
+        },
+        {
+          "cid": 15451,
+          "nombre": "Ataque Mágico Oscuro"
+        },
+        {
+          "cid": 21007,
+          "nombre": "Maldición de la Luz Ascendente"
+        },
+        {
+          "cid": 20151,
+          "nombre": "Brillo Sombrío"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 9,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 19597,
+          "nombre": "Mago Oscuro Sabio"
+        },
+        {
+          "cid": 16372,
+          "nombre": "Olla de la Codicia"
+        },
+        {
+          "cid": 19329,
+          "nombre": "Grito de Monstruo"
+        },
+        {
+          "cid": 15450,
+          "nombre": "Mil Cuchillos"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    },
+    {
+      "deck_id": 707,
+      "deck": "Dark Magician Rush",
+      "mano_numero": 10,
+      "formato": "RUSH",
+      "cartas": [
+        {
+          "cid": 18685,
+          "nombre": "Maga Legendaria"
+        },
+        {
+          "cid": 17212,
+          "nombre": "Orden Secreta"
+        },
+        {
+          "cid": 16371,
+          "nombre": "Chica Maga Oscura"
+        },
+        {
+          "cid": 15450,
+          "nombre": "Mil Cuchillos"
+        }
+      ],
+      "numero_cartas": 4,
+      "indicios": [
+        {
+          "indicador": "Dark Magician en mano",
+          "coaparicion": false
+        },
+        {
+          "indicador": "Dark Magician + Dark Magic Attack",
+          "coaparicion": false
+        }
+      ],
+      "advertencia": "MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival."
+    }
+  ]
+}
