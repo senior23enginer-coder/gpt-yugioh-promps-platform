@@ -453,6 +453,8 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 
 **Estado:** `COMPLETA` para la auditoría documental A07, con **34 controles R01–R34**, sus fuentes oficiales y los casos condicionales marcados por separado. Una secuencia explicada a partir de textos individuales **no es una prueba de simulador/partida física** ni sustituye el fallo de un juez para un caso controvertido. `C01–C12` se describen bajo estado inicial declarado y sin interrupción, salvo donde se marque una respuesta.
 
+**Decisión de alcance de Miguel (18-11-2026): A07 se cierra por verificación manual reglamentaria; NO se utilizará la calculadora para aceptar este apartado.** La certificación de implementación de software permanece como trabajo separado de Station X y no es una condición de aprobación de las fichas de reglas A07. Los casos de cadenas o respuestas que dependen de recursos del adversario se conservan como **condicionales de escritorio**, no como hechos comprobados en una partida. La existencia de un texto Konami verificado permite cerrar su explicación, pero no convierte una ruta A09 completa en duelo reproducido.
+
 | Control | Comprobación y consecuencia en este deck |
 |---|---|
 | **R01** Inicio de turno | **Oleada de Calor** (017) solo se activa al **inicio de tu Main Phase 1**. Su prohibición de Invocar monstruos de efecto afecta a ambos jugadores hasta tu próxima Draw Phase: no se añade al final de C01/C02/C03. |
@@ -609,6 +611,14 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 ### A07.6 — Dictamen de cierre y contrato de cálculo (18-11-2026)
 
 **Estado A07: COMPLETA en reglas documentales aplicadas a este deck.** Alcance exacto: **34/34 controles R01–R34 con ID**, **12/12 respuestas a interrupciones**, **6/6 desvíos MEMD-B01–B06**, **6/6 controles de piezas robadas MEM-A01–06**, y **4/4 cadenas cruzadas MC-X01–04**. Estos universos son distintos y **no** se suman como jugadas/combo ni se transforman en porcentajes de éxito.
+
+#### A07.6a — Aceptación manual sin calculadora (18-11-2026)
+
+**Dictamen final para el objetivo de este apartado:** `COMPLETA_VALIDACION_MANUAL_DOCUMENTAL`, **no** `ENGINE_TESTED` ni `REPLAY_CERTIFIED`. El catálogo R01–R34 está íntegro (34 IDs únicos), la auditoría focalizada R02/R04/R05/R06/R07 coteja sus cinco textos oficiales y contraejemplos, y los seis desvíos B, seis controles MEM-A y cuatro casos MC-X conservan expresamente los supuestos de mano, rival, objetivos y cadenas. La revisión A09.C mantiene las doce rutas como `CONDICIONAL_DOCUMENTADO`; ninguna se promociona a éxito empírico. La guía A10 acredita 12 paneles, 69 pasos y 39 imágenes existentes, no prueba de ejecución.
+
+**Lista de aceptación manual aplicada:** (1) formato `tcg_advanced` y deck 671; (2) mecánicas realmente presentes y `NO_APLICA` fundamentado; (3) materiales exactos y zonas; (4) activación y respuesta en ventana legal; (5) distinción entre coste, condición y resolución; (6) límites por nombre/efecto; (7) destino y posición residual; (8) acceso Extra solo con requisito; (9) interrupciones vinculadas a pasos; (10) casos sin información rival tratados como hipótesis. Los cinco registros anteriores permiten verificar la cobertura documental del apartado sin requerir motor ni inventar movimientos. **Inventario físico inalterado: 41 Main / 15 Extra / 14 Side / 0 Reserva.**
+
+**Fuera del alcance del cierre manual:** automatizar operadores, ejecutar suites de calculadora, certificar C01–C12 con replays, comprobar una partida física, arbitrar casos controvertidos sin estado suficiente, comparar un importador en producción o publicar la guía. A07.F conserva el historial de ingeniería como contexto independiente; sus estados `OPERADOR_PENDIENTE` no revierten este cierre editorial y tampoco se borran ni se declaran resueltos.
 
 **Fuentes y granularidad:** R01–R30 aplican efectos oficiales de los CID de A06.2 con fase/zona/material descrito; R31–R34 añaden temporización de Mágicas rápidas, costes, Extra y límites por nombre, sustentados por Neuron y reglamento TCG. A05 cubre 39/39 textos; A06 cubre 39/39 identidades y sus relaciones. Cualquier cambio de texto debe reabrir la regla afectada por ID. Los casos MC-X01–04 también enlazan a los textos oficiales de Ash/Tristaros/Noir/Rugido, y sus recursos rivales son **hipótesis de escritorio**, no partidas verificadas.
 
