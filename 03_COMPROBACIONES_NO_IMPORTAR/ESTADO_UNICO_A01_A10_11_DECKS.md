@@ -1,5 +1,18 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Segunda pasada individual — Elfnote 650 (18-11-2026)
+
+**Alcance efectivo:** continuó la auditoría individual de las funciones A05 de **Elfnote**, sin modificar inventario, CIDs, imágenes, conteos Main/Extra/Side, prompts protegidos, IDs de rutas ni otros decks. Se cotejaron otras **diez** cartas con sus páginas oficiales de Konami y se corrigió su explicación operativa y fila correspondiente de **A06.2**, incluida su relación con los escenarios A08/A09. Se mantuvo la distinción entre efecto comprobado, relación causal y ejecución de partida.
+
+| Control | Resultado de la segunda pasada | Pendiente vigente |
+|---|---|---|
+| **A05: funciones individuales** | **10 revisiones oficiales nuevas**: Regina `22523`, Lucina `22116`, Tinia `22117`, Power Patron `22119`, Fortuna `22118`, Medius `21419`, Strelitzia `22143`, Welcome Home `22159`, Rhapsodia `22173` y Junora `22142`. Se precisaron zonas de Invocación, costes, restricciones del Extra, tipos de Continua, Niveles, material Sincro, activación en turno rival y condiciones para negar o desterrar. | **333/370 pendientes** en los once decks originales: el total oficial pasa de **27/370 a 37/370**. Elfnote pasa de **6/42 a 16/42**, con **26 funciones por cotejar**. Estas cifras no acreditan el resto de las funciones por proximidad. |
+| **A06: relaciones condicionadas** | Las diez filas del motor/Extra afectadas en A06.2 ya distinguen **opciones excluyentes** (Medius añade *o* Invoca Patron), destinos del Extra, diferimiento de cadenas y ventanas; conciliación por CID en A06.4 de la ficha. | **201** relaciones del corte anterior siguen pendientes de cotejo **por ID antiguo**. No descontar diez por haber verificado diez funciones A05. |
+| **A08/A09: decisiones y ejercicios** | Se vinculó Regina/Lucina, Tinia/Welcome Home, Fortuna/Rhapsodia, Patron/Strelitzia, Medius y Junora a los **IDs de ruta ya existentes**. Se rechazó atribuir Fusión a Junora, búsqueda doble a Patron, negación automática a Rhapsodia y reducción de nivel obligatoria a Strelitzia. | Se conservan las cifras históricas **77 decisiones, 33 desafíos, 108 ejercicios A09 y 110 manos** pendientes de conciliación transversal. Esta pasada **no ejecutó replays ni creó nuevas aperturas**. |
+| **Extra y A10** | Se precisaron los materiales de Junora (**Cantante + 2 no Cantantes**) y la ruta alternativa a Crystal Wing desde Strelitzia; el criterio de usar una carta del Extra **no equivale** a Invocarla permanece inalterado. | El total anterior de **16 cartas Extra** sin acreditación integral no cambia hasta reconciliar identidades y pruebas. Falta revisar la correspondencia visual completa de las demás guías y sus escenarios. |
+
+**Límites:** no se revisaron en esta pasada efectos oficiales de los 26 CIDs restantes de Elfnote ni del resto de los decks. No se efectuaron pruebas en simulador, actualizaciones de la plataforma ni importaciones. Los cortes anteriores de 23/370 y 27/370 se mantienen abajo como **historial fechado**, no como totales vigentes.
+
 ## Continuación individual prioritaria — Elfnote ID 650, 18-11-2026
 
 **Alcance de esta iteración:** se trabajó sobre **un deck (Elfnote 650)** y sus apartados A05→A06→A08→A09→A10, respetando la unidad por deck/apartado. Se conservaron **42 identidades, 40 Main, 15 Extra y 15 Side**, CIDs, imágenes e IDs existentes; no se modificaron prompts, inventarios ni datos del resto de los decks. La guía A10 actualizada es `guias/DECK_650_EXTRA_ACCESOS_Y_BLOQUEOS_20261113.md` dentro del deck. **Fuentes:** fichas oficiales de Konami CIDs 22533, 18666, 22335 y 12321, y para las relaciones CIDs 22116, 22119, 22143 y 21419.
