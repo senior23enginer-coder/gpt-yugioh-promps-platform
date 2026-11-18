@@ -6,6 +6,18 @@
 
 **Fuente y conflictos:** la lista física aprobada por Miguel y sus cantidades son la base inmutable del análisis; el inventario vivo de Station X permite cotejar ID, formato y versión, **no reemplazar silenciosamente** esa lista. Si divergen, registrar ambas versiones y la diferencia exacta, detener escrituras de inventario y pedir decisión únicamente sobre el conflicto. Ninguna verificación documental, foto o cálculo implica por sí mismo prueba física ni autorización de importación o publicación.
 
+**Protocolo común de entrada de los módulos 01–35:** seleccionar **un solo deck** y abrir su ficha vigente en `01_INFORMACION_PARA_IMPORTAR/decks/` (y, para recepción, su subcarpeta individual), consultando únicamente evidencias y resultados previos relacionados con la tarea. Aplicar este orquestador y `REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` cuando corresponda al formato; resolver conflictos de fuentes según la sección 2 y registrar el trabajo según la sección 12. Consultar el módulo específico sin ejecutar el orquestador como una tarea global ni extender el alcance a otros decks por inferencia. La línea breve `Entrada` de cada módulo remite a este protocolo: **no permite omitir requisitos, comprobaciones ni evidencia del propio módulo**. El módulo 36 se conserva literalmente y se interpreta mediante el contrato transversal.
+
+**Precedencia de cortes y versiones:**
+
+| Corte | Alcance que documenta | Uso permitido hoy |
+|---|---|---|
+| Original: 11 decks | 370 fichas, rutas y controles de los estudios iniciales | Evidencia histórica individual, sin extrapolar resultados |
+| 16-11-2026: 13 decks | Dos altas `NUEVO_12` y `NUEVO_13`, métricas de ese momento | Archivo histórico de inventario y ejecución |
+| 17-11-2026: 16 decks | Cinco altas vinculadas a IDs reales; registro central y fichas vigentes | **Alcance operativo de trabajo** |
+
+Una etiqueta `V31`, `V40`, `v57` o `V58` **por sí sola no decide precedencia**: seguir las cláusulas marcadas como vigentes y las decisiones posteriores expresas, según tema, sin borrar el historial. Si una indicación antigua parece exigir un archivo faltante, un ID provisional, un conteo de decks o un estado incompatible, aplicar este contrato y registrar la discrepancia; no reconstruir dependencias retiradas ni reemplazar silenciosamente evidencia.
+
 ## 0. PROTECCIÓN MANDATORIA E IRREVOCABLE DE PROMPTS — PRIORIDAD MÁXIMA
 
 **Orden expresa de Miguel (16-11-2026): ningún prompt existente se puede eliminar de ninguna manera.** Esta protección prevalece sobre toda instrucción histórica de limpieza, compactación, consolidación, sustitución de versiones o depuración, incluyendo las secciones posteriores de este mismo documento. La autorización para «corregir», «continuar», «depurar el ZIP», «actualizar el paquete» o «eliminar lo innecesario» **NUNCA** autoriza eliminar un prompt.
@@ -93,7 +105,7 @@ Preservar la estructura de Station X y los **36 apartados modulares originales d
 
 **Práctica y mejora** contiene tareas para usuario físico, sugerencias opcionales de mejora, riesgos de brick, carencias, Side y respuestas por matchup; ningún cambio automático de deck.
 
-## 6. Estado medido y pendientes
+## 6. Estado medido y pendientes — corte histórico de 11 decks
 
 - 370 fichas en 11 decks: 138 engine documentadas, 201 relaciones condicionales no verificadas, 15 Extra condicionales con cotejo de escritorio y 16 Extra sin acceso acreditado.
 - Las **15/15 rutas en conflicto V27** se cotejaron en V28, pero **no** son 15 replays de motor ni 100% de A01–A10.
@@ -167,7 +179,9 @@ Antes de importar en una operación futura **expresamente autorizada**:
 
 **Control de coherencia:** la auditoría de instrucciones por apartado y cualquier discrepancia de implementación se registra **solo** en `ESTADO_UNICO_A01_A10_11_DECKS.md`. La recuperación de los 36 archivos no acredita ejecución de sus 36 contenidos sobre cada deck, ni implementación visual o porcentajes de validación A01–A10.
 
-## 10. Alta incremental de dos decks — 16-11-2026
+## 10. Histórico: alta incremental de dos decks — corte del 16-11-2026
+
+> **Archivo de decisiones y métricas anteriores.** Esta sección conserva el estado del 16-11-2026; no establece el alcance ni los IDs vigentes. Para ejecutar hoy, aplicar el contrato inicial de 16 decks, la sección 12 y el registro único actualizado. No se eliminan cantidades, CIDs, métricas ni decisiones históricas.
 
 **Decisión posterior y específica de Miguel:** el paquete pasa de **11 a 13 decks documentados**. Los once anteriores se preservan con sus IDs, listas, matrices, análisis y cifras históricas; se añaden **Mementotlán / Demoniherrero** y **Cristron / Horus** como decks **12 y 13 de esta carpeta**, no como IDs inventados de Station X.
 
@@ -181,6 +195,8 @@ Antes de importar en una operación futura **expresamente autorizada**:
 Esta sección incorpora **solo requisitos operativos vigentes y no redundantes** del material anterior. No reactiva `MATRIZ_IMPORTACION_00_36.txt`, ningún antiguo `PROMPT_MAESTRO.md`, `PROMPT_CODEX_STATION_X.md`, LEEME de entregas anteriores ni los archivos compartidos expresamente descartados. **Ninguno es dependencia de ejecución**, y no se añade una carpeta de históricos. Los 36 apartados actuales siguen siendo los únicos módulos vigentes para sus respectivos temas.
 
 ### Separación obligatoria entre control editorial y contenido para jugadores
+
+**Lectura vigente:** las instrucciones siguientes de separación, presentación y protección siguen operativas; las referencias a decks 12 y 13 sin ID y los recuentos de 13 decks reproducen un corte anterior. Sus IDs actuales (`671` y `677`) y los de las tres altas posteriores (`660`, `673`, `699`) constan confirmados y prevalecen para cualquier operación nueva.
 
 - `CONTROL_DEL_PROMPT`: verificar nombres/CID, funciones, reglas, ventanas, costes, materiales, disponibilidad de zona, evidencia y resultados. Guardar estados, porcentajes, bloqueos y bitácora **exclusivamente** en el registro de `03_COMPROBACIONES_NO_IMPORTAR/`; no implementar ni mostrar en Station X un campo, pantalla, atributo o persistencia de estado editorial o de certificación.
 - `CONTENIDO_UI`: presentar **solo** información táctica sustentada para el jugador: identidad, funcionamiento de cartas y motores, sinergias demostradas, decisiones, rutas con pasos reales, campo final y respuestas acreditadas. No introducir prompts completos, instrucciones para Codex, listas de pendientes, métricas editoriales o afirmaciones sin sustento. Cuando un paso no pueda justificarse, corregirlo u omitirlo **antes** de preparar su visualización; no publicarlo con una etiqueta de pendiente como sustituto.

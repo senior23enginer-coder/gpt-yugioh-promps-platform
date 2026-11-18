@@ -1,5 +1,7 @@
 # A07 — Reglas específicas contextuales de los 11 decks
 
+> **Alcance de este documento:** referencias A07 del corte original de **11 decks**, conservadas como evidencia contextual. No es el catálogo vigente ni una instrucción para limitar el estudio a once. Para los **16 decks actuales**, utilizar la ficha A07 de cada uno, el orquestador vigente y el formato/Skill correspondientes; no extender automáticamente estos cotejos a las cinco incorporaciones.
+
 > Soporte para asociar advertencias a fichas A05 y pasos A09/A10. No crear once pestañas ni publicar un reglamento genérico; verificar efectos y Skills antes de presentar pasos al jugador.
 
 ## Elfnote — tcg_advanced
