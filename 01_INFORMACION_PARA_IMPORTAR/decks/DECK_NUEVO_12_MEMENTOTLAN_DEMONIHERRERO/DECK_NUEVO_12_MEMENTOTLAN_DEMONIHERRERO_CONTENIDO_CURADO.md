@@ -4,34 +4,34 @@
 
 <a id="actualizacion-v37"></a>
 
-> **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 39/39 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
+> **ESTADO VIGENTE CONCILIADO (17-11-2026).** Deck real **671**, formato registrado **TCG Advanced**, con inventario de **41 Main / 15 Extra / 14 Side** ya asociado e importación V40 registrada en Station X. Las **39/39 fotografías** por CID están físicamente en esta carpeta (13 JPG y 26 PNG); los antiguos marcadores de foto pendiente de V35/V36 no describen el estado actual. A01–A10 tienen contenido documental; **0 replays acreditados** y ninguna certificación automática de jugadas. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html). No se cambió ninguna carta.
 
 
 
 
 ## IDENTIDAD BÁSICA
 
-- `deck_id` real de Station X: **PENDIENTE_DE_ASIGNACIÓN**. `NUEVO_12` es solo una referencia documental, nunca un ID de base de datos.
+- `deck_id` real confirmado de Station X: **671** (`Memento`, formato registrado `tcg_advanced`). `NUEVO_12` es solamente el nombre histórico de esta carpeta, **no** otro deck.
 - Fuente de inventario: listado completo compartido por Miguel el **16-11-2026**; **las cantidades y posiciones no se alteran**. La matriz usa etiquetas cortas legibles para varias cartas (p. ej., «Angbruja» por «Mementotlán Angbruja»), identificadas inequívocamente por CID, y anota dos variantes de nombre oficial; **no se ha sustituido ninguna carta**. **Cotejo de identidades:** 39/39 CIDs encontrados en la base oficial Konami Neuron.
 - **Main: 41** (25 monstruos, 16 mágicas, 0 trampas); **Extra: 15**; **Side: 14**; **Reserva: 0**; **total: 70 copias**.
 - El Side de 14 cartas se conserva **tal cual**, sin rellenar automáticamente el espacio restante.
 
 ## CONTROL INDIVIDUAL DE AVANCE A01–A10 — Mementotlán / Demoniherrero
 
-**Alcance y corte:** inventario 16-11-2026; **iteración ampliada 17-11-2026**, exclusivamente **A01–A10 para este deck**. `NUEVO_12` es referencia documental mientras falta el ID real de Station X. **Main 41, Extra 15, Side 14, Reserva 0; 70 copias y 39 identidades documentadas.** La cobertura editorial y de CIDs no equivale a certificación reglamentaria universal ni a prueba física. Los A11–A36 siguen siendo instrucciones, sin porcentaje por deck.
+**Alcance y corte:** inventario 16-11-2026 y actualización documental 17-11-2026, exclusivamente **A01–A10 para el deck 671**. **Main 41, Extra 15, Side 14, Reserva 0; 70 copias y 39 identidades documentadas.** Importación y guía publicadas según el registro central V40, sin que ello certifique las jugadas. La aprobación editorial expresa del inventario, si se requiere como acto separado de su carga confirmada, permanece sin constancia independiente. Los A11–A36 siguen siendo instrucciones, sin porcentaje por deck.
 
 | Apartado | Estado propio del deck | Progreso o evidencia comprobable | Pendiente para cerrar |
 |---|---|---|---|
-| **A01** Rol y propósito | PARCIAL AVANZADA | Motor/submotor, debilidades y nueve familias tácticas; 12 rutas documentadas | Confirmar ID de importación y ampliar decisiones ante rivales |
-| **A02** Planes y estilos | PARCIAL AVANZADA | Planes primero/segundo/medio/tardío; **12 rutas documentales**, 4 auditorías Extra y cinco probabilidades teóricas de apertura; **20 escenarios H01–H20** de decisión | Contrastar ejemplos en partidas y matchups reales |
-| **A03** Inventario | COMPLETA EN TRANSCRIPCIÓN; PENDIENTE DE APROBACIÓN | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas** | ID real; aprobación del inventario y formato; sin modificar Side de 14 |
-| **A04** Identidad, CID y fotos | IMÁGENES CERRADAS V37 | 39/39 fotos auténticas por CID; inventario sin cambios | Aprobación de Miguel y prueba del importador real pendientes |
+| **A01** Rol y propósito | PARCIAL AVANZADA | Motor/submotor, debilidades y nueve familias tácticas; 12 rutas documentadas; ID 671 confirmado | Contrastar prioridad motor/puente frente a interrupciones y rivales concretos |
+| **A02** Planes y estilos | PARCIAL AVANZADA | Planes primero/segundo/medio/tardío; **12 rutas documentales**, 4 auditorías Extra, probabilidades teóricas y **20 escenarios H01–H20** | Falta evidencia empírica de enfrentamientos; los casos de mano son ejercicios documentales |
+| **A03** Inventario | TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas**; ID 671 y formato registrados | Solo cotejar eventual autorización editorial adicional; conservar Side de 14 |
+| **A04** Identidad, CID y fotos | IMÁGENES CERRADAS V37; IMPORTACIÓN V40 REGISTRADA | 39/39 fotos auténticas por CID, 13 JPG + 26 PNG, sin cambios de inventario | No quedan fotos por obtener; verificar vínculos tras cualquier nueva regeneración |
 | **A05** Efectos y uso | PARCIAL AVANZADA | **39/39 funciones** en matriz; clasificación de 39/39 en cinco decisiones editoriales y seis riesgos de mano | Verificar variantes marginales y cartas de Side tras cambios |
 | **A06** Sinergias y Extra | PARCIAL AVANZADA | **39/39 filas**, **40 relaciones dirigidas**, 3 motores/puentes; **13/13 identidades Extra con materiales descritos**, varias condicionales | Contrastar en mesa los accesos menos útiles; resolver las interrupciones reales |
-| **A07** Reglas y cadenas | PARCIAL AVANZADA | **34 controles R01–R34**, **12 respuestas adversarias** ancladas a pasos, **6 desvíos** y seis casos complementarios | Probar resultados de cadenas en simulador y cotejar eventos nuevos |
+| **A07** Reglas y cadenas | PARCIAL AVANZADA | **34 controles R01–R34**, **12 respuestas adversarias** ancladas a pasos, **6 desvíos** y seis casos complementarios | Cerrar por evidencia textual los casos de cadenas condicionales; ninguna partida física es obligación del análisis IA |
 | **A08** Estrategia y Side | PARCIAL AVANZADA | **34 prefichas** clasificadas; **5 planes Side** exactos y alternativos | Test hands reales y criterios de elección por matchup |
-| **A09** Jugadas y manos | PARCIAL AVANZADA | **12 rutas C01–C12**: **9 familias + 3 variantes**; 3 continuaciones, 4 auditorías Extra; **20 escenarios H01–H20**; 0 replays | Probar ramas y aperturas en simulador; cuantificar ventajas reales |
-| **A10** Guías visuales | GUÍAS VISUALES V37 | Guía HTML local y 39/39 fotos disponibles | Combos y cadenas pendientes de contrastar en simulador |
+| **A09** Jugadas y manos | PARCIAL AVANZADA | **12 rutas C01–C12**: **9 familias + 3 variantes**; 3 continuaciones, 4 auditorías Extra; **20 escenarios H01–H20**; 0 replays | Resolver casos condicionales sin suponer piezas robadas o efectos rivales; contrastación de mesa opcional del usuario |
+| **A10** Guías visuales | GUÍAS VISUALES DISPONIBLES V40 | Guía HTML local, rutas vinculadas y 39/39 fotos presentes | Revisar consistencia de los paneles contra la versión textual después de cambios; no queda deuda fotográfica |
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
 
@@ -85,7 +85,7 @@ La matriz A06 de abajo representa el **inventario íntegro** y constituye la ún
 
 **39/39 CIDs contrastados** con fichas individuales de [Konami Neuron](https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=1&request_locale=es); cada CID enlaza a su página oficial desde la única matriz A06. Las fichas oficiales en español permiten reconocer diferencias documentales sin cambiar el inventario: `MEMD-005` aparece como **Mementoal Tecuhtlica - Creación Combinada** (no «Mementotlán»), y `MEMD-009` como **Mementotlán Desvantasma** (singular). Las equivalencias por CID quedan anotadas, no se reemplazan nombres sin consulta. `NUEVO_12` no es un ID de producción.
 
-**Fotografía real disponible en el maestro para 13/39 CIDs:** 20196, 12950, 9279, 20500, 15299, 13619, 15296, 12870, 19184, 20225, 19188, 20226, 20206. La carpeta individual de entrega incluirá **solo esas fotos** con su CID correcto y etiqueta `imagenes/<CID>.jpg`; para las otras 26 se conserva **`FOTO_PENDIENTE`** sin dibujo inventado. El estudio de texto oficial está avanzado, pero A10 visual no es completo. Las fuentes Neuron sustentan identidad y efectos, **no prueban que una secuencia completa haya sido ejecutada**.
+**Fotografía real actual: 39/39 identidades cotejadas por CID con la matriz A06.** Se preservan las 13 JPG iniciales y las 26 PNG incorporadas en V37; las imágenes se referencian con **su extensión existente** (`imagenes/<CID>.jpg` o `.png`). La mención anterior de 13/39 fotos corresponde a un corte histórico y ya está resuelta. Las fuentes Neuron sustentan identidad y efectos, pero no prueban por sí solas una secuencia completa.
 
 ## APARTADO_05 — Lectura funcional de las 39 cartas
 
@@ -241,7 +241,16 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 - **Tres accesos ampliados mediante nuevas familias:** Princesa Necroequipo **023** por **C09** (Grabador equipado con Réquiem + Goblin de mano); Secuencia **033** y Duque **034** por **C10** (Grabador+Desvantasma Link, fusionar Grabador+Goblin desde GY). **3/13** adicionales.
 - **Tres accesos condicionales con estado exacto:** Dragostapelia **024** por **EX-M01** (Rey+Goblin OSCURIDAD, segunda Fusión previamente Colocada, turno rival), TY-PHON **029** por **EX-M02** (rival realizó 2+ Invocaciones Extra), Aero Tiburón **035** por **EX-M03** (dos Angbruja Nivel 3). **3/13** adicionales: son **transformaciones o accesos**, no combos nuevos contables por sí solos.
 **EX-M04 — César (028):** dos Demonios Nivel 6 disponibles (Grabador + Duque) pueden usarse como materiales Xyz; comprobar zona y recursos, sin atribuir una partida simulada.
-- **Resultado:** **13/13 identidades del Extra** tienen materiales o procedimiento escrito (incluido EX-M04 para César); faltan comprobaciones de consistencia y utilidad en mesa para rutas marginales. No alterar el inventario.
+- **Resultado:** **13/13 identidades del Extra** tienen materiales o procedimiento escrito (incluido EX-M04 para César). Ello no significa trece aperturas independientes: EX-M01 necesita una segunda Fusión colocada previamente y turno rival posterior; EX-M02 depende de invocaciones rivales; EX-M03 exige dos Nivel 3 en campo; EX-M04 exige dos Demonios Nivel 6 simultáneos. Sin esos estados el acceso sigue `CONDICIONAL`. No alterar el inventario.
+
+**Comprobación de los cuatro accesos condicionales, sin sumar combos:**
+
+| ID | Estado inicial adicional exigido | Utilidad concreta | Punto en que se detiene la línea |
+|---|---|---|---|
+| EX-M01 · Dragostapelia | Rey de Fusión disponible, Goblin OSCURIDAD en mano y segunda Fusión colocada desde el turno anterior | Cambiar al Rey por una interacción de Contador Depredador para el turno rival | Si no sobrevivió el Rey, falta Goblin o la segunda Fusión se colocó ese mismo turno |
+| EX-M02 · TY-PHON | Se cumplió la condición temporal de Invocaciones del Extra rivales y controlas monstruo propio apropiado | Respuesta Xyz a una amenaza, a costa de más invocaciones propias ese turno | Si la condición rival no consta o todavía necesitas continuar invocando |
+| EX-M03 · Aero Tiburón | Dos monstruos Nivel 3 simultáneamente en campo y libres como materiales | Retener una salida Xyz marginal cuyo daño depende de desterrados propios reales | Si uno de los cuerpos ya se consumió o no hay desterrados propios para el daño |
+| EX-M04 · César | Grabador y Duque, ambos Demonios Nivel 6, presentes simultáneamente y no consumidos | Xyz Rango 6 con interrupción condicionada a material y ventana de Invocación Especial | Si uno se usó antes, no quedan dos Nivel 6 o se agotaron los materiales; no presentar solo la fórmula como combo independiente |
 
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
@@ -275,7 +284,7 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 | **R24** TY-PHON por superposición | Su procedimiento alternativo requiere **2+ Invocaciones Extra del rival durante el turno actual o el anterior**. Se superpone sobre el monstruo **de mayor ATK que tú controles**; después no más Invocaciones ese turno. El bloqueo de efectos activados de monstruos con ≥3000 ATK afecta también a tus jefes. |
 | **R25** Aero Tiburón | Requiere **2 monstruos Nivel 3** y sus materiales se colocan debajo del Xyz, no siguen en campo/GY. Solo causa **100 por monstruo propio desterrado**; sin esos monstruos el recorrido EX-M03 no proporciona daño de efecto valioso. |
 | **R26** Gran Fuga y Goblin | Gran Fuga Moto Goblin **Sacrifica como coste** un monstruo para traer un «Goblin» del Deck; no cuenta como destrucción para abrir los materiales de GY de Fusión Mementotlán. La destrucción posterior de Tatsun en C11 **sí** abre ese permiso. |
-| **R27** César y admisibilidad | Requiere materiales, zona y ventana de efecto comprobables; ruta documental condicionada |
+| **R27** César y acceso condicionado | EX-M04 necesita dos Demonios Nivel 6 simultáneos en campo (Grabador y Duque) y libres como materiales. Al activarse una carta/efecto que **incluya Invocar Especial**, César puede desacoplar 1 material para **negar esa activación y destruir la carta**; no es respuesta general a cualquier efecto. Si uno de los dos cuerpos fue consumido antes en C10, no se acredita este acceso. [Texto oficial](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en). |
 | **R28** Gordiano | Rebanador Gordiano solo al **inicio de tu Main Phase 1 o 2**; por **cada** carta boca arriba seleccionada se destierra **1 carta de mano o 6 del Extra boca abajo**. Costear dos cartas rivales únicamente con Extra requiere **12 cartas del Extra** de las 15; nunca ocultar el precio estratégico. |
 | **R29** Mulcharmies y Droll | Fuwalos, Meowls y Purulia desde mano requieren **que no controles cartas** al activarse; su robo depende respectivamente de Invocaciones desde Deck/Extra, GY/destierro o mano. Si ya resolvió Droll contra ti, **no puedes seguir robando del Deck** bajo esos efectos mientras dure. |
 | **R30** Lancea temporal | En turno rival, Lancea desde mano o campo boca arriba **se Sacrifica** para impedir destierros de **ambos jugadores** por ese turno. Restringe también el efecto desde GY de Fusión Mementotlán y Llamado por la Tumba durante esa ventana, no solamente las cartas del contrario. |
@@ -678,18 +687,18 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 **Censo de escenarios:** **14 manos H01–H14**, ninguna es muestreo aleatorio ni prueba de partidas. H09–H14 contrastan la utilidad de cartas menos centrales, turnos y costes; **no se suman a las 12 rutas C01–C12**. Cada mano solo usa las cartas conocidas y la condición del rival declarada.
 
-## APARTADO_10 — Doce secuencias didácticas (fotografía parcial)
+## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
-**Estado:** `PARCIAL_AVANZADO`, **no publicar como guía visual definitiva**. **Las doce guías G01–G12** corresponden a las rutas C01–C12; los cuatro paneles EX-M01–EX-M04 auditan el acceso al Extra sin contarlos como combos nuevos. El orden de miniaturas usa ficheros auténticos `imagenes/<CID>.jpg` **solo si existen**, sin inventar imágenes ni reetiquetar otro arte. Un CID sin archivo conserva `FOTO_PENDIENTE`. Los pasos son contenido editorial para el visor; **fotografías faltantes, diagramas finales y simulaciones siguen pendientes**.
+**Estado visual vigente:** las doce guías G01–G12 corresponden a C01–C12 y los cuatro accesos EX-M01–EX-M04 no son nuevos combos. Desde V37 existen las 39 imágenes auténticas por CID (JPG o PNG, según cada carta); la guía HTML local y la publicación V40 constan en el seguimiento. Los antiguos marcadores fotográficos de las viñetas siguientes son una fotografía **del estado editorial previo a V37**, no faltantes actuales. La revisión textual de cada ruta A07/A09 permanece separada del cierre visual y no es prueba de partidas.
 
 ### MEMD-G01 → C01: preparar doble jefe
 
 | Viñeta | Acción visible/zona después de actuar | Miniaturas auténticas necesarias |
 |---|---|---|
-| **1. Buscar** | **Mano:** Fusión + Tatsun. **Campo:** Angbruja recién Invocada Normal. | Angbruja `19364`: **FOTO_PENDIENTE**; Tatsun `19362`: **FOTO_PENDIENTE** |
-| **2. Llenar GY** | **Campo:** Desvantasma + Angbruja; **Mano:** Dormiveja. **GY:** Tatsun. | Desvantasma `19472`, Dormiveja `20199`: **FOTO_PENDIENTE** |
-| **3. Fusionar** | **Campo:** Rey Creación; **GY:** Angbruja + Desvantasma + Dormiveja; enviar 005+008+004 al GY. | Fusión `19904`, Rey `20216`: **FOTO_PENDIENTE** |
-| **4. Jefe 5000** | **Barajar cinco otros nombres**; **Campo:** Rey Creación + Creación Combinada; **GY:** Maza. | Jefes `20216`,`19360`: **FOTO_PENDIENTE** |
+| **1. Buscar** | **Mano:** Fusión + Tatsun. **Campo:** Angbruja recién Invocada Normal. | Angbruja `19364`: **FOTO_VERIFICADA_V37**; Tatsun `19362`: **FOTO_VERIFICADA_V37** |
+| **2. Llenar GY** | **Campo:** Desvantasma + Angbruja; **Mano:** Dormiveja. **GY:** Tatsun. | Desvantasma `19472`, Dormiveja `20199`: **FOTO_VERIFICADA_V37** |
+| **3. Fusionar** | **Campo:** Rey Creación; **GY:** Angbruja + Desvantasma + Dormiveja; enviar 005+008+004 al GY. | Fusión `19904`, Rey `20216`: **FOTO_VERIFICADA_V37** |
+| **4. Jefe 5000** | **Barajar cinco otros nombres**; **Campo:** Rey Creación + Creación Combinada; **GY:** Maza. | Jefes `20216`,`19360`: **FOTO_VERIFICADA_V37** |
 
 **Contexto para lector:** *No* necesitas tres cartas en mano para Fusión; una (Dormiveja) está en mano y dos están en campo al resolver. El 5000 no tiene ataque múltiple mientras Rey Creación permanezca a su lado.
 
@@ -697,10 +706,10 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Viñeta | Acción visible/zona después de actuar | Miniaturas auténticas necesarias |
 |---|---|---|
-| **1. Mano inicial** | Angbruja + Fiesta; Normal Angbruja y añadir el jefe 5000 a mano | `19364`, `19368`, `19360`: **FOTO_PENDIENTE** |
-| **2. Fiesta** | Destruir Angbruja; Especial Tatsun del Deck **en Defensa** | `19368`, `19362`: **FOTO_PENDIENTE** |
-| **3. Cinco nombres** | Tatsun se destruye y envía Goblin/Maza/Desvantasma; GY: **cinco nombres distintos** | `19366`, `19365`, `19472`: **FOTO_PENDIENTE** |
-| **4. Remate posible** | Barajar cinco para Invocar el 5000 **como único monstruo propio** | Creación Combinada `19360`: **FOTO_PENDIENTE** |
+| **1. Mano inicial** | Angbruja + Fiesta; Normal Angbruja y añadir el jefe 5000 a mano | `19364`, `19368`, `19360`: **FOTO_VERIFICADA_V37** |
+| **2. Fiesta** | Destruir Angbruja; Especial Tatsun del Deck **en Defensa** | `19368`, `19362`: **FOTO_VERIFICADA_V37** |
+| **3. Cinco nombres** | Tatsun se destruye y envía Goblin/Maza/Desvantasma; GY: **cinco nombres distintos** | `19366`, `19365`, `19472`: **FOTO_VERIFICADA_V37** |
+| **4. Remate posible** | Barajar cinco para Invocar el 5000 **como único monstruo propio** | Creación Combinada `19360`: **FOTO_VERIFICADA_V37** |
 
 **Contexto para lector:** la habilidad de atacar a todos los monstruos rivales no crea automáticamente daño letal, y el GY del motor queda vacío de monstruos en este cierre.
 
@@ -708,7 +717,7 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Viñeta | Acción visible/zona después de actuar | Miniaturas auténticas necesarias |
 |---|---|---|
-| **1. Dos cuerpos** | Normal Angbruja → buscar y Especial Tatsun | `19364`, `19362`: **FOTO_PENDIENTE** |
+| **1. Dos cuerpos** | Normal Angbruja → buscar y Especial Tatsun | `19364`, `19362`: **FOTO_VERIFICADA_V37** |
 | **2. Luz/Demonio** | Ambos cuerpos se usan para Invocar **Luna Link-2** | Luna `19932`: **FOTO PENDIENTE** |
 | **3. Réquiem** | Luna se usa para Invocar **Réquiem Link-1**; se tributa para traer Grabador | Réquiem `20225`: **FOTO DISPONIBLE**; Grabador `20196`: **FOTO DISPONIBLE** |
 | **4. Retirar** | Réquiem se equipa desde GY a Grabador; ambos seleccionados con objetivo rival; el equipo y monstruo rival van al GY | `20225`,`20196`: **FOTOS DISPONIBLES** |
@@ -721,12 +730,12 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Verbo breve de enseñanza | Cambio de zonas / fotografía |
 |---|---|---|
-| **1. NORMAL + BUSCAR** | Angbruja entra y obtiene Tatsun | Campo 001; mano 002; ambos **FOTO_PENDIENTE** |
-| **2. ESPECIAL + ENVIAR** | Tatsun se destruye y manda Goblin, Maza y Desvantasma (1+1+2) | GY 002,004,008,009; **FOTO_PENDIENTE** |
-| **3. REVIVIR + RECUPERAR** | Desvantasma revive y recupera Goblin | Campo 001,009; mano 004; **FOTO_PENDIENTE** |
-| **4. DESTRUIR + INVOCAR** | Angbruja se destruye para revivir Maza; Maza se destruye para **buscar Fusión** | Campo 009; mano 004,015; **FOTO_PENDIENTE** |
-| **5. FUSIONAR** | Fusión usa Desvantasma (campo), Goblin (mano), Tatsun (GY barajado) | Campo 026; GY 001,008,009,004,015; **FOTO_PENDIENTE** |
-| **6. ENVIAR + BARAJAR** | Rey envía 005+007+010; baraja otros cinco nombres | **Campo final:** 026+005; **GY:** 007+015; jefes **FOTO_PENDIENTE** |
+| **1. NORMAL + BUSCAR** | Angbruja entra y obtiene Tatsun | Campo 001; mano 002; ambos **FOTO_VERIFICADA_V37** |
+| **2. ESPECIAL + ENVIAR** | Tatsun se destruye y manda Goblin, Maza y Desvantasma (1+1+2) | GY 002,004,008,009; **FOTO_VERIFICADA_V37** |
+| **3. REVIVIR + RECUPERAR** | Desvantasma revive y recupera Goblin | Campo 001,009; mano 004; **FOTO_VERIFICADA_V37** |
+| **4. DESTRUIR + INVOCAR** | Angbruja se destruye para revivir Maza; Maza se destruye para **buscar Fusión** | Campo 009; mano 004,015; **FOTO_VERIFICADA_V37** |
+| **5. FUSIONAR** | Fusión usa Desvantasma (campo), Goblin (mano), Tatsun (GY barajado) | Campo 026; GY 001,008,009,004,015; **FOTO_VERIFICADA_V37** |
+| **6. ENVIAR + BARAJAR** | Rey envía 005+007+010; baraja otros cinco nombres | **Campo final:** 026+005; **GY:** 007+015; jefes **FOTO_VERIFICADA_V37** |
 
 **Si el rival interrumpe:** Ash al paso 1 o 2, o negación de Desvantasma en paso 3, corta los recursos previstos; no mostrar jefes ficticios. **No atribuir negación de efectos al Rey ni ataques múltiples al 5000 mientras Rey también esté en campo.**
 
@@ -736,12 +745,12 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Verbo breve de enseñanza | Cambio de zonas / fotografía |
 |---|---|---|
-| **1. NORMAL + CAMBIAR** | Hoja Oscura se destruye para invocar Angbruja del Deck | 003 GY; 001 campo; **FOTO_PENDIENTE** |
-| **2. BUSCAR + ENVIAR** | Angbruja busca Tatsun; Tatsun manda Goblin, Maza, Desvantasma | 002,004,008,009 al GY; **FOTO_PENDIENTE** |
-| **3. REVIVIR + RECURSO** | Desvantasma se Invoca y recupera **Maza**; Angbruja se destruye para revivir Goblin | Campo 009+004; Mano 008; **FOTO_PENDIENTE** |
-| **4. MANDAR MÁGICA+JEFE** | Goblin se destruye y manda **Fusión (015) + Creación Combinada (005)** | Campo 009; GY 015+005; **FOTO_PENDIENTE** |
-| **5. DESTERRAR + BUSCAR** | Fusión en GY se destierra y destruye Desvantasma para buscar **otra Fusión** | Destierro 015 (1.ª copia); Mano 008+015 (2.ª copia); **FOTO_PENDIENTE** |
-| **6. FUSIONAR + COMPLETAR** | 008 (mano) + 002 y 004 (GY) dan Rey; Rey envía 006+007+010; se barajan cinco de siete nombres | **Campo:** 026+005; **GY:** 006+007+015; **FOTO_PENDIENTE** |
+| **1. NORMAL + CAMBIAR** | Hoja Oscura se destruye para invocar Angbruja del Deck | 003 GY; 001 campo; **FOTO_VERIFICADA_V37** |
+| **2. BUSCAR + ENVIAR** | Angbruja busca Tatsun; Tatsun manda Goblin, Maza, Desvantasma | 002,004,008,009 al GY; **FOTO_VERIFICADA_V37** |
+| **3. REVIVIR + RECURSO** | Desvantasma se Invoca y recupera **Maza**; Angbruja se destruye para revivir Goblin | Campo 009+004; Mano 008; **FOTO_VERIFICADA_V37** |
+| **4. MANDAR MÁGICA+JEFE** | Goblin se destruye y manda **Fusión (015) + Creación Combinada (005)** | Campo 009; GY 015+005; **FOTO_VERIFICADA_V37** |
+| **5. DESTERRAR + BUSCAR** | Fusión en GY se destierra y destruye Desvantasma para buscar **otra Fusión** | Destierro 015 (1.ª copia); Mano 008+015 (2.ª copia); **FOTO_VERIFICADA_V37** |
+| **6. FUSIONAR + COMPLETAR** | 008 (mano) + 002 y 004 (GY) dan Rey; Rey envía 006+007+010; se barajan cinco de siete nombres | **Campo:** 026+005; **GY:** 006+007+015; **FOTO_VERIFICADA_V37** |
 
 **Si el rival interrumpe:** sin envío de Goblin **no aparece Fusión en GY**. Si se niega la búsqueda de otra copia, **no suponerla robada**. No colocar simultáneamente en campo Goblin y Maza cuando ya fueron materiales o destruídos.
 
@@ -751,11 +760,11 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Verbo breve de enseñanza | Cambio de zonas / fotografía |
 |---|---|---|
-| **1. BUSCAR** | Angbruja Normal → Tatsun Especial | Campo 001+002; **FOTO_PENDIENTE** |
-| **2. ENVIAR + RECUPERAR** | Tatsun manda Desvantasma+Dormiveja; Desvantasma devuelve Dormiveja a mano | Campo 001+009; Mano 007+015; **FOTO_PENDIENTE** |
-| **3. FUSIONAR GEMELO** | Fusión usa 001+009 de campo, crea Dragón Gemelo (027) | Campo 027; Mano 007; **FOTO_PENDIENTE** |
-| **4. DESTRUIR + BUSCAR** | Gemelo destruye Dormiveja de mano y busca jefe 005 + Goblin 004; Dormiveja manda Maza 008 al GY | Mano 005+004; GY 002,001,009,007,008; **FOTO_PENDIENTE** |
-| **5. JEFE + CONSERVAR** | Baraja los cinco nombres del GY e invoca 005 desde mano; **deja Goblin en mano** | **Campo:** Dragón Gemelo + 005; **Mano:** Goblin; **GY:** Fusión; **FOTO_PENDIENTE** |
+| **1. BUSCAR** | Angbruja Normal → Tatsun Especial | Campo 001+002; **FOTO_VERIFICADA_V37** |
+| **2. ENVIAR + RECUPERAR** | Tatsun manda Desvantasma+Dormiveja; Desvantasma devuelve Dormiveja a mano | Campo 001+009; Mano 007+015; **FOTO_VERIFICADA_V37** |
+| **3. FUSIONAR GEMELO** | Fusión usa 001+009 de campo, crea Dragón Gemelo (027) | Campo 027; Mano 007; **FOTO_VERIFICADA_V37** |
+| **4. DESTRUIR + BUSCAR** | Gemelo destruye Dormiveja de mano y busca jefe 005 + Goblin 004; Dormiveja manda Maza 008 al GY | Mano 005+004; GY 002,001,009,007,008; **FOTO_VERIFICADA_V37** |
+| **5. JEFE + CONSERVAR** | Baraja los cinco nombres del GY e invoca 005 desde mano; **deja Goblin en mano** | **Campo:** Dragón Gemelo + 005; **Mano:** Goblin; **GY:** Fusión; **FOTO_VERIFICADA_V37** |
 
 **Regla clave:** la protección que puede dar Goblin es **contra seleccionar**, no una negación general. Con Dragón Gemelo junto al 5000 tampoco se habilita el ataque múltiple del jefe por estar solo.
 
@@ -765,9 +774,9 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Verbo breve de enseñanza | Cambio de zonas / fotografía |
 |---|---|---|
-| **1. PREPARAR** | Normal Angbruja y Especial Tatsun | Campo 001+002; **FOTO_PENDIENTE** |
-| **2. DESCARGAR GY** | Tatsun manda Desvantasma y Dormiveja; Desvantasma devuelve Dormiveja a mano | Campo 001+009; Mano 007+015; **FOTO_PENDIENTE** |
-| **3. FUSIONAR** | Fusión usa **001+009 (campo)** y **007 (mano)** para Quimera 025 | Campo 025; GY 001,009,007,015,002; Quimera **FOTO_PENDIENTE** |
+| **1. PREPARAR** | Normal Angbruja y Especial Tatsun | Campo 001+002; **FOTO_VERIFICADA_V37** |
+| **2. DESCARGAR GY** | Tatsun manda Desvantasma y Dormiveja; Desvantasma devuelve Dormiveja a mano | Campo 001+009; Mano 007+015; **FOTO_VERIFICADA_V37** |
+| **3. FUSIONAR** | Fusión usa **001+009 (campo)** y **007 (mano)** para Quimera 025 | Campo 025; GY 001,009,007,015,002; Quimera **FOTO_VERIFICADA_V37** |
 | **4. ROBAR + DESTRUIR** | Por 1 material de mano se roba 1; por 2 de campo se destruyen 2 rivales | Mano +1 **SIN DATO**; rival −hasta 2 cartas; Quimera 3300 campo |
 
 **No confundir:** «Polimerización» no está en este Main; la mera activación de Fusión Mementotlán **no** activa la protección especial de Quimera contra seleccionar.
@@ -778,8 +787,8 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Verbo breve de enseñanza | Cambio de zonas / fotografía |
 |---|---|---|
-| **1. BUSCAR** | Normal Angbruja → Tatsun a mano | 001 campo, 002 mano; **FOTO_PENDIENTE** |
-| **2. INVOCAR** | Tatsun Especial de mano | 001+002 campo; **FOTO_PENDIENTE** |
+| **1. BUSCAR** | Normal Angbruja → Tatsun a mano | 001 campo, 002 mano; **FOTO_VERIFICADA_V37** |
+| **2. INVOCAR** | Tatsun Especial de mano | 001+002 campo; **FOTO_VERIFICADA_V37** |
 | **3. ENLAZAR** | Usa **ambos monstruos de efecto** para S:P Link-2 | **Campo final propio:** S:P 031; **GY:** 001+002; **FOTO DISPONIBLE** `imagenes/19188.jpg` |
 | **4. RESPONDER** | Si rival activa carta/efecto y hay objetivo rival boca arriba, apunta a **S:P propia + rival** | Ambos **desterrados hasta End Phase**, condicional; luego retorno si se resuelve |
 
@@ -791,10 +800,10 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 
 | Hito | Acción, coste y zona resultante | Imagen |
 |---|---|---|
-| **1. BUSCAR + ENLAZAR** | Normal Angbruja, busca Tatsun, SS Tatsun; ambos → Luna Link-2. GY 001+002 | Angbruja, Tatsun, Luna: **FOTO_PENDIENTE** |
+| **1. BUSCAR + ENLAZAR** | Normal Angbruja, busca Tatsun, SS Tatsun; ambos → Luna Link-2. GY 001+002 | Angbruja, Tatsun, Luna: **FOTO_VERIFICADA_V37** |
 | **2. RÉQUIEM + GRABADOR** | Luna → Réquiem Link-1; Sacrifica Réquiem, Invoca Grabador desde Deck. Campo Grabador; Réquiem en GY | Réquiem **disponible** `imagenes/20225.jpg`; Grabador **disponible** `imagenes/20196.jpg` |
 | **3. EQUIPAR** | Réquiem en GY se equipa a Grabador como **Carta de Monstruo de Equipo** | Réquiem, Grabador **disponibles** |
-| **4. INVOCAR PRINCESA** | Envía **Grabador equipado en campo + Goblin Demonio en mano** al GY; Invoca **Princesa Necroequipo 023** | Princesa/Goblin: **FOTO_PENDIENTE** |
+| **4. INVOCAR PRINCESA** | Envía **Grabador equipado en campo + Goblin Demonio en mano** al GY; Invoca **Princesa Necroequipo 023** | Princesa/Goblin: **FOTO_VERIFICADA_V37** |
 | **5. NO ROBAR GRATIS** | El envío de Goblin fue procedimiento de Invocación, **no** enviar para activar efecto; Princess queda en campo sin robo inmediato | Señalar explícitamente «robo no activado» |
 
 ### MEMD-G10 → C10: Secuencia convierte Cementerio en Duque
@@ -804,19 +813,19 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 | Hito | Acción visible y material | Imagen |
 |---|---|---|
 | **1. PUENTE** | Angbruja→Tatsun→Luna→Réquiem; tributar Réquiem → Grabador | Réquiem `20225`, Grabador `20196`: **disponibles** |
-| **2. DESTRUIR + REVIVIR MANO** | Fiesta destruye Goblin de mano, Invoca Desvantasma de Deck en DEF; Desvantasma **recupera Angbruja del GY a mano** | Fiesta, Goblin, Desvantasma: **FOTO_PENDIENTE** |
+| **2. DESTRUIR + REVIVIR MANO** | Fiesta destruye Goblin de mano, Invoca Desvantasma de Deck en DEF; Desvantasma **recupera Angbruja del GY a mano** | Fiesta, Goblin, Desvantasma: **FOTO_VERIFICADA_V37** |
 | **3. ENLAZAR** | Grabador Demonio LUZ + Desvantasma Demonio OSCURIDAD → **Secuencia Link-2** | Secuencia `20226`: **FOTO DISPONIBLE** |
-| **4. BARAJAR + FUSIONAR** | Secuencia baraja **Grabador+Goblin del GY** en Deck para traer **Duque Nivel 6** | Duque `20389`: **FOTO_PENDIENTE** |
+| **4. BARAJAR + FUSIONAR** | Secuencia baraja **Grabador+Goblin del GY** en Deck para traer **Duque Nivel 6** | Duque `20389`: **FOTO_VERIFICADA_V37** |
 | **5. NORMAL ADICIONAL** | Duque permite Normal a Angbruja recuperada; **sin repetir búsqueda** ya consumida por nombre | Campo final Secuencia+Duque+Angbruja |
 
 ### MEMD-G11 → C11: Gran Fuga es puente, no segundo jefe gratuito
 
 | Hito | Acción y zonas | Imagen |
 |---|---|---|
-| **1. PREPARAR** | Angbruja Normal busca Tatsun y lo Invoca Especial | 001/002: **FOTO_PENDIENTE** |
-| **2. SACRIFICAR** | Gran Fuga Sacrifica Angbruja **como coste** y trae Goblin del Deck. Campo Goblin+Tatsun | Gran Fuga `20533`: **FOTO_PENDIENTE** |
-| **3. ENVIAR + RECUPERAR** | Tatsun se destruye, manda Desvantasma+Dormiveja; Desvantasma Especial recupera Dormiveja | 009/007: **FOTO_PENDIENTE** |
-| **4. FUSIONAR** | Goblin+Desvantasma (campo) y Dormiveja (mano) → Rey Creación; envía 005+008+010 al GY | Rey 026: **FOTO_PENDIENTE** |
+| **1. PREPARAR** | Angbruja Normal busca Tatsun y lo Invoca Especial | 001/002: **FOTO_VERIFICADA_V37** |
+| **2. SACRIFICAR** | Gran Fuga Sacrifica Angbruja **como coste** y trae Goblin del Deck. Campo Goblin+Tatsun | Gran Fuga `20533`: **FOTO_VERIFICADA_V37** |
+| **3. ENVIAR + RECUPERAR** | Tatsun se destruye, manda Desvantasma+Dormiveja; Desvantasma Especial recupera Dormiveja | 009/007: **FOTO_VERIFICADA_V37** |
+| **4. FUSIONAR** | Goblin+Desvantasma (campo) y Dormiveja (mano) → Rey Creación; envía 005+008+010 al GY | Rey 026: **FOTO_VERIFICADA_V37** |
 | **5. JEFE** | Baraja cinco otros nombres; deja Dormiveja+Maza en GY | **Campo final:** Rey+Creación Combinada; 015+018 en GY |
 
 ### MEMD-G12 → C12: Dragón de Cuerno destruye cartas boca arriba
@@ -835,7 +844,7 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 |---|---|---|---|
 | **EX-M01** Dragostapelia | C01 terminado; Goblin OSCURIDAD en mano; **segunda Fusión Colocada**; llega Main del siguiente turno rival | Rey Fusión en campo + Goblin de mano → Memento Fusion rápida → Dragostapelia | `imagenes/12870.jpg` **disponible**; Rey desaparece como material, no mantener su efecto rápido |
 | **EX-M02** TY-PHON | Rival Invocó **2+** monstruos desde Extra en turno válido; Angbruja inicial | C08 hace S:P → S:P único monstruo y mayor ATK → superponer TY-PHON | `imagenes/19184.jpg` **disponible**; no más Invocaciones ese turno |
-| **EX-M03** Aero Tiburón | Angbruja + Fiesta + Goblin; segunda Angbruja y Dormiveja en Deck | Fiesta destruye Goblin; 2 Angbruja Nivel 3 → Aero Xyz; Dormiveja queda campo | Aero `9657` **FOTO_PENDIENTE**; ningún daño útil sin monstruos propios desterrados |
+| **EX-M03** Aero Tiburón | Angbruja + Fiesta + Goblin; segunda Angbruja y Dormiveja en Deck | Fiesta destruye Goblin; 2 Angbruja Nivel 3 → Aero Xyz; Dormiveja queda campo | Aero `9657` **FOTO_VERIFICADA_V37**; ningún daño útil sin monstruos propios desterrados |
 | **EX-M04** César | Grabador y Duque Demonio Nivel 6 coexistentes por línea mecánica | Dos Nivel 6 podrían superponerse → César | Condiciones de Invocación y efectos del texto oficial |
 
 ### A10.1 — Fotografías genuinas que sí acompañan el paquete
@@ -850,7 +859,7 @@ Solo deben utilizarse archivos asociados al **CID Neuron correcto**; son fotos e
 |---|---|---|
 | ![Secuencia del Demoniherrero](imagenes/20226.jpg) | ![Predaplanta Dragostapelia](imagenes/12870.jpg) | ![TY-PHON](imagenes/19184.jpg) |
 
-**Cobertura A10 actual:** **12/12 rutas A09 tienen guía secuencial**, y 4 accesos Extra paneles con condiciones; **13/39 identidades tienen fotografía genuina archivada**, **26 siguen `FOTO_PENDIENTE`**. La relación 12/12 es **cobertura editorial de guías**, no **100 % visual**, ni aprobación automática de cadenas, ni autorización para publicar. Lo desconocido permanece **SIN DATO**.
+**Cobertura A10 vigente:** **12/12 rutas A09 tienen guía secuencial**, y cuatro accesos Extra disponen de paneles condicionales; **39/39 identidades tienen fotografía genuina** (13 JPG + 26 PNG) desde V37. El 12/12 mide cobertura de guías, no aprobación universal de cadenas ni ejecución de duelos. Lo que no esté demostrado por una ruta permanece **SIN DATO**.
 
 ### A10.2 — Seis desvíos visuales para no continuar un combo roto
 
@@ -865,7 +874,7 @@ Estas viñetas se colocan **dentro de la guía madre** al fallar el paso indicad
 | **B05 → G10, hito 4** | Rival niega Secuencia con Infinito Temporal | Secuencia permanece en campo, Grabador+Goblin en GY; Duque **no** aparece | Mantener Angbruja recuperada en mano; Normal inicial gastada | Sin Duque no existe Normal adicional ni segundo efecto de búsqueda de Witch |
 | **B06 → G12, hito 4** | Rival encadena Llamado a Horn destruido, en GY | Fiesta sí trajo Hoja; Horn queda desterrado y el efecto de destrucción se niega | Conservar Angbruja+Hoja y revisar opciones de mano reales | Dos cartas rivales **no** destruidas por Horn; no contar retirada ni mover Horn al GY nuevamente |
 
-**Regla de publicación para A10:** foto auténtica identificada por CID, título del combo, propósito, requisitos, pasos numerados, **zona tras cada paso**, resultado y rama de fallo. Las **doce guías** reúnen texto y zonas, las cuatro EX son anexos condicionados; **faltan 26 fotografías y revisión en simulador**, por lo que la marca de este apartado continúa `PARCIAL; NO_PUBLICABLE`.
+**Regla editorial A10:** foto auténtica por CID, propósito, requisitos, pasos numerados, **zona tras cada paso**, resultado y rama de fallo. Las doce guías tienen recurso visual y se registró publicación V40; la revisión de reglas sigue su propio estado A07/A09 y no se transforma automáticamente en certificación por contar fotografías.
 
 ---
 
@@ -900,10 +909,10 @@ El inventario queda en Main 41, Extra 15 y Side 14, sin completar por deducción
 
 ### A04 · Imágenes: trazabilidad exhaustiva y orden de completado
 
-- **Imágenes genuinas ya archivadas, 13 CIDs:** `20196`, `12950`, `9279`, `20500`, `15299`, `13619`, `15296`, `12870`, `19184`, `20225`, `19188`, `20226`, `20206`. Todos son archivos presentes en `imagenes/` de este paquete y se conservan sin retoques.
-- **26 CIDs pendientes, prioridad motor/guías:** `19364` (Angbruja), `19362` (Tatsun), `19363` (Hoja), `19366` (Goblin), `19360` (Tecuhtlica), `20199` (Dormiveja), `19365` (Maza), `19472` (Desvantasma), `19904` (Fusión), `20216` (Rey), `19878` (Dragón Gemelo), `16845` (Quimera), `19368` (Fiesta), `19361` (Dragón de Cuerno).
-- **Pendientes del soporte y accesos condicionales:** `20491`, `9139`, `20533`, `19367`, `20423`, `13081`, `19932`, `20389`, `9657`, `20764`, `11243`, `21203`. **Conteo exacto:** 14 cartas prioritarias de motor/guías + 12 de soporte = **26 CIDs pendientes**, sin duplicados. Con 13 fotos genuinas disponibles, la cobertura física es **13/39**. **No se crea ninguna imagen ficticia**.
-- **Norma visual:** mostrar siempre `FOTO_PENDIENTE` hasta recibir la foto auténtica; usar identificador CID y enlace a ficha oficial para localizar la carta; no poner una ilustración de otro Memento para llenar huecos.
+- **Imágenes genuinas iniciales (13 JPG):** `20196`, `12950`, `9279`, `20500`, `15299`, `13619`, `15296`, `12870`, `19184`, `20225`, `19188`, `20226`, `20206`.
+- **CIDs del motor y guías incorporados como PNG en V37 (14):** `19364`, `19362`, `19363`, `19366`, `19360`, `20199`, `19365`, `19472`, `19904`, `20216`, `19878`, `16845`, `19368`, `19361`.
+- **CIDs de soporte y accesos incorporados como PNG en V37 (12):** `20491`, `9139`, `20533`, `19367`, `20423`, `13081`, `19932`, `20389`, `9657`, `20764`, `11243`, `21203`. **Total: 39/39 CIDs con imagen, sin faltantes.**
+- **Norma visual actual:** utilizar el archivo JPG/PNG que existe para cada CID; nunca sustituir un arte por otro ni marcar como ausente una imagen presente.
 
 ### A05 · Utilidad y riesgo por carta: ocho decisiones clave
 
@@ -1017,7 +1026,7 @@ Estos son **casos de decisión**, no seis combos nuevos: cada uno remite a C01�
 4. **Esperar la ventana:** en turno rival, si se activa una carta/efecto y existe un monstruo rival boca arriba seleccionable, evaluar efecto rápido de S:P; seleccionar **a S:P y al monstruo rival**, destierro temporal.
 5. **Resultado/contingencia:** si el rival no activa o no hay objetivo legal, S:P queda en campo **sin esa interacción**. Si sí resuelve, los dos desterrados regresan en End Phase, sujeto a reglas/estado. La foto real de S:P no convierte en genuinas las fotografías faltantes de los otros materiales.
 
-**Criterios de cierre A10:** cada uno de G01–G12 tiene título, objetivo, mano mínima, zonas, efecto con ventana, consumos y resultado; **V01–V03** añaden panel editorial para lectura rápida. Sin embargo, **solo 13/39 fotos son genuinas**, faltan 26 y **ninguna de las 12 rutas** tiene replay observado aquí. Estado final **`PARCIAL_AVANZADA · NO_PUBLICABLE_COMO_GUIA_FOTOGRAFICA_TOTAL · SIN_VALIDACION_SIMULADOR`**.
+**Criterios de cierre A10 conciliados:** G01–G12 tienen título, objetivo, mano mínima, zonas, ventana, consumos y resultado; V01–V03 aportan paneles didácticos. **Las 39 fotos son genuinas y están archivadas**, con guía HTML y publicación V40 registrada. Las doce rutas conservan **0 replays acreditados**, hecho separado de la completitud visual y que no impone prueba de mesa a la IA.
 
 ### Certificado de alcance de esta iteración
 
@@ -1076,10 +1085,9 @@ Los **39 CIDs oficiales están en la matriz única A06.2** del documento princip
 ## A04. Identificador oficial, imagen auténtica y certeza
 
 - **39/39 identidades enlazadas a fichas Konami Neuron mediante CID.** Mantener el nombre físico de Miguel y registrar aparte variantes oficiales (por ejemplo, *Mementoal Tecuhtlica - Creación Combinada* y *Mementotlán Desvantasma*).
-- **13/39 JPG verdaderos presentes** en `imagenes/`: CIDs `20196`, `12950`, `9279`, `20500`, `15299`, `13619`, `15296`, `12870`, `19184`, `20225`, `19188`, `20226` y `20206`.
-- **26/39 `FOTO_PENDIENTE`**. Una ficha del sitio oficial con texto legible no sustituye la imagen física vinculable; no se rellena con arte inventado.
-- El `deck_id` real sigue **PENDIENTE_DE_ASIGNACIÓN**. Un CID es identificador **de carta**, no de deck.
-- **Estado de evidencia:** `IDENTIDAD_OFICIAL_COTEJADA` para 39/39; `FOTO_LOCAL_DISPONIBLE` solo para las 13 enumeradas; `EFECTO_RESUMIDO` para matriz; `RUTA_DOCUMENTAL_NO_SIMULADA` para A09.
+- **39/39 fotografías reales presentes** en `imagenes/`: 13 JPG históricos y 26 PNG incorporados en V37, cada uno con el CID exacto de la matriz A06.2. Una ficha oficial no sustituye la foto local, pero aquí no faltan CIDs fotografiados.
+- El `deck_id` real es **671**. Un CID identifica una **carta**, no al deck; `NUEVO_12` solo nombra esta carpeta.
+- **Estado de evidencia:** `IDENTIDAD_OFICIAL_COTEJADA` y `FOTO_LOCAL_DISPONIBLE` para 39/39; `EFECTO_RESUMIDO` para matriz; `RUTA_DOCUMENTAL_NO_SIMULADA` para A09.
 
 ## A05. Función, propósito, riesgo y prioridades de las 39 identidades
 
@@ -1095,7 +1103,7 @@ La **matriz única A06.2** del documento principal ya clasifica **cada una de la
 
 **Chequeos concretos de A05:** (1) no otorgar a Desvantasma invocación si solo se mandó al GY como coste de Gotas; (2) no tomar a Grabador como buscador de carta que no existe; (3) no repetir el primer efecto de Fusión porque se tienen dos copias; (4) no inferir que tres Rey permiten tres activaciones del mismo efecto en el turno; (5) distinguir intervención con objetivo de efectos que no seleccionan; (6) conservar Side fuera del duelo 1. Todas las identidades tienen **utilidad o razón de limitación**, no un combo ficticio asignado para completar una estadística.
 
-**Cierre A01–A05:** A01/A02 profundizados con ocho decisiones; A03 **70/70** documentadas, por aprobar; A04 **39/39 CIDs, 13/39 imágenes**; A05 **39/39 roles** clasificados con prioridad de comprobación de efectos marginales. **No se ha simulado ni cambiado la lista.**
+**Cierre A01–A05 conciliado:** A01/A02 profundizados con ocho decisiones; A03 **70/70** documentadas y cargadas al ID 671 (sin constancia de aprobación editorial separada); A04 **39/39 CIDs e imágenes**; A05 **39/39 roles** clasificados con prioridad de comprobación de efectos marginales. **No se ha simulado ni cambiado la lista.**
 
 
 ---
@@ -1308,7 +1316,7 @@ Se calculan combinaciones sin reemplazo sobre **únicamente el Main Deck físico
 
 ### A03–A07 · Cómo invocar y para qué utilizar cada monstruo del Extra Deck
 
-Requisitos abreviados cotejados por CID con texto oficial; cuando exista un procedimiento alterno (Purrely, Santuario, ZEUS, Nova/Infinity o Metamorfosis) debe usarse **la condición especial de la ficha**, no inventar materiales. La columna de función compara utilidad de tablero/duelo.
+Requisitos abreviados cotejados por CID con texto oficial. En **este** Extra, TY-PHON tiene un procedimiento alterno condicionado a acciones del rival y Princesa Necroequipo utiliza su procedimiento propio con monstruo equipado; los otros accesos requieren los materiales descritos en su ficha. No trasladar procedimientos de otros decks.
 
 | Copia(s) / Monstruo del Extra | Materiales / acceso | Función y decisión |
 |---|---|---|
@@ -1317,7 +1325,7 @@ Requisitos abreviados cotejados por CID con texto oficial; cuando exista un proc
 | 1 × [Quimera Guardián](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en) | Fusión: 3 monstruos de nombres distintos; debe incluir al menos 1 de mano y 1 de campo. | Primero pide mano+campo, después transforma 1 material de mano en robo y 2 de campo en destrucción. |
 | 3 × [Rey Creación](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en) | Fusión: exactamente 3 monstruos Memento. | Motor de GY para cinco nombres y retirada rápida simétrica de recursos propios/rivales. |
 | 1 × [Dragón Gemelo](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en) | Fusión: 2 monstruos Memento. | Busca dos nombres al destruir un Memento de mano/campo; preparar jefe de 5000. |
-| 1 × [D/D/D César, Alto Rey de las Olas](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en) | 2 monstruos Nivel6 Demonio; Xyz | Condiciones de Invocación y efectos del texto oficial |
+| 1 × [D/D/D César, Alto Rey de las Olas](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en) | Xyz: 2 Demonios Nivel 6 simultáneos. EX-M04 propone Grabador + Duque solo si ambos permanecen libres en campo. | Al desacoplar 1 material puede negar la activación de un efecto que incluye Invocación Especial y destruir la carta; no presuponer que C10 deja ambos cuerpos disponibles. |
 | 1 × [TY-PHON - Crisis Celeste](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en) | Xyz: 2 Nivel12; alternativa tras 2 Invocaciones rivales del Extra, sobre 1 monstruo propio de mayor ATK. | Plan de respuesta cuando rival realizó múltiples invocaciones del Extra; evaluar requisitos y locks. |
 | 1 × [Réquiem del Demoniherrero](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en) | Enlace 1: 1 monstruo Demonio LUZ. | Puente Fiendsmith: Sacrificar para Invocar Grabador desde Deck; verificar objetivo y ventanas |
 | 1 × [S:P Pequeña Caballera](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en) | Enlace 2: 2 monstruos de efecto. | Retira temporalmente dos monstruos a respuesta, requiere dos efectos y ventanas legales. |
@@ -1328,7 +1336,7 @@ Requisitos abreviados cotejados por CID con texto oficial; cuando exista un proc
 
 ### A08 · Laboratorio estratégico de seis clases de rival
 
-Estos son **30 escenarios editoriales para cinco decks**: no predicciones de metajuego, duelos simulados ni cambios ejecutados. Cada uno distingue primer/segundo y señala Side físico real.
+Estos son **seis escenarios editoriales de Memento** (integrados en un total de 30 situaciones de cinco decks): decisiones de primero/segundo con Side físico registrado, no resultados de duelos ni cambios ejecutados.
 
 | Rival / situación | Si empiezas | Si vas segundo | Side físico / posibilidad | Error a evitar |
 |---|---|---|---|---|
@@ -1343,5 +1351,5 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 
 - [Abrir las seis decisiones estratégicas visuales](guias/GUIA_VISUAL_A01_A10.html#tacticas-v40) y después navegar a las rutas ilustradas A09.
 - La lista original, el número de copias, los nombres de ruta y las fotografías no se cambiaron. Se añadieron **únicamente análisis**.
-- Las 51 rutas de V39 son comprobaciones documentales con cero replays acreditados; ninguna carta de Side no registrada debe presumirse disponible.
-- Las recomendaciones de mejora son opcionales: solo el usuario puede autorizar cambios a las cartas físicas; los análisis conservan las listas originales. GOAT mantiene su contexto histórico.
+- **12 rutas C01–C12 de Memento** recibieron comprobación documental V39; la cifra 51 pertenece al conjunto de cinco decks estudiados, no a este deck. No hay replays acreditados.
+- Las recomendaciones de mejora son opcionales: solo Miguel puede autorizar cambios físicos y no se presume una decimoquinta carta Side.

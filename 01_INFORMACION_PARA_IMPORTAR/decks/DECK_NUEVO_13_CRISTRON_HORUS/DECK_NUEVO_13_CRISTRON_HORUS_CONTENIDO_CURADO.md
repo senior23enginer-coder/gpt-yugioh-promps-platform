@@ -4,33 +4,33 @@
 
 <a id="actualizacion-v37"></a>
 
-> **CORTE IMPORTABLE V37 (17-11-2026).** Fotos reales 39/39 correspondientes al 100 % de las identidades identificadas físicamente. Los recuentos antiguos de `FOTO_PENDIENTE` dentro de análisis V35/V36 son históricos y quedan sustituidos por este control. A01–A10 documentados; **0 replays y sin certificación de simulación**. Inventario sin cambios. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html).
+> **ESTADO VIGENTE CONCILIADO (17-11-2026).** Deck real **677**, formato registrado **TCG Advanced**, con inventario **40 Main / 15 Extra / 15 Side** ya asociado e importación V40 registrada en Station X. Las 39/39 imágenes auténticas por CID están en la carpeta (20 JPG y 19 PNG); los avisos históricos de fotos ausentes no son pendientes actuales. A01–A10 tienen análisis documental; **0 replays acreditados**, sin atribuir ejecución de jugadas. Guía visual: [abrir](guias/GUIA_VISUAL_A01_A10.html). Inventario intacto.
 
 
 
 
 ## IDENTIDAD BÁSICA
 
-- `deck_id` real de Station X: **PENDIENTE_DE_ASIGNACIÓN**. `NUEVO_13` es solo una referencia documental, nunca un ID de base de datos.
+- `deck_id` confirmado de Station X: **677** (`Crystron`, formato registrado `tcg_advanced`). `NUEVO_13` es solamente el nombre histórico de la carpeta, no otro deck.
 - Fuente de inventario: listado completo compartido por Miguel el **16-11-2026**; nombres y cantidades conservados exactamente como fueron proporcionados.
 - **Main: 40** (27 monstruos, 12 mágicas, 1 trampa); **Extra: 15**; **Side: 15**; **Reserva: 0**; **total: 70 copias**.
 
 ## CONTROL INDIVIDUAL DE AVANCE A01–A10 — Cristron / Horus
 
-**Alcance y corte:** primera iteración, ampliación v2 y **profundización v3 del 17-11-2026**. Este es el control **exclusivo de este deck**; `NUEVO_13` es referencia documental mientras falta el ID real de Station X. **Main 40, Extra 15, Side 15, Reserva 0; 70 copias y 39 identidades documentadas.** La v3 conserva las **siete rutas principales** C01–C07 y amplía de **cuatro a siete variantes V01–V07**; las trazas son lógicas **no simuladas** y sus campos dependen de supuestos explícitos. No se inventan porcentajes de victoria, fotografías ni replays. El control del maestro se sincronizará desde este archivo al incorporar la actualización; un ZIP individual no reemplaza por sí solo todo el registro maestro.
+**Alcance y corte:** primera iteración, ampliaciones v2/v3 y conciliación del 17-11-2026, exclusivamente para el deck **677**. **Main 40, Extra 15, Side 15, Reserva 0; 70 copias y 39 identidades documentadas.** Se conservan **siete rutas principales C01–C07 y siete variantes V01–V07**; son trazas documentales, no simuladas, cuyos resultados dependen de supuestos explícitos. La importación V40 y las imágenes están registradas; la aprobación editorial expresa del inventario, si se considera trámite separado, no consta de forma independiente.
 
 | Apartado | Estado propio del deck | Progreso o evidencia comprobable | Pendiente para cerrar |
 |---|---|---|---|
-| **A01** Rol y propósito | **PARCIAL AVANZADO** | Dos motores reales, tres ritmos de juego y matriz de fortalezas/riesgos por fase; salidas Sincronía/Xyz y Nova/Infinito | Medir resultados en partidas y confirmar formato |
-| **A02** Planes y estilos | **PARCIAL AVANZADO** | Plan primero/segundo, curva de riesgos, árbol de decisiones y **20 manos H01–H20** | Ensayar interrupciones y manos reales |
-| **A03** Inventario | **DOCUMENTADO; NO APROBADO** | Cantidad física preservada y documentada | Aprobación de Miguel; elección de reemplazos si ese es su formato |
-| **A04** Identidad, CID y fotos | IMÁGENES CERRADAS V37 | 39/39 fotos auténticas por CID; inventario sin cambios | Aprobación de Miguel y prueba del importador real pendientes |
+| **A01** Rol y propósito | **PARCIAL AVANZADO** | Dos motores, tres ritmos y salidas Sincronía/Xyz y Nova/Infinito; formato `tcg_advanced` registrado | Contrastar la preferencia de línea Cristron/Horus ante adversidades específicas |
+| **A02** Planes y estilos | **PARCIAL AVANZADO** | Plan primero/segundo, curva de riesgos, árbol de decisiones y **20 manos H01–H20** | Las manos son documentales: falta evidencia empírica comparativa, no una lista nueva |
+| **A03** Inventario | **TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO** | 70 copias, 39 identidades, zonas 40/15/15/0, ID 677 registrado | Cotejar únicamente si hay una autorización editorial independiente; no proponer reemplazos automáticos |
+| **A04** Identidad, CID y fotos | **IMÁGENES V37 COMPLETAS; IMPORTACIÓN V40 REGISTRADA** | 39/39 fotos auténticas por CID, 20 JPG + 19 PNG | Corregir enlaces de la guía que apuntan a `imagenes/` desde `guias/` |
 | **A05** Efectos y uso | **PARCIAL AVANZADO** | **39/39 roles funcionales resumidos** en la matriz; fuentes Konami por CID | Ampliar matices de todos los efectos y rulings raros |
-| **A06** Sinergias y Extra | **PARCIAL AVANZADO** | **39/39 filas**, 21 vínculos R01–R21; 13/13 Extra con coste, materiales, ventana y función; variantes V05–V07 | Contrastar líneas condicionales y simulación; no todas las Extra son alcanzables desde cualquier apertura |
-| **A07** Reglas y cadenas | **PARCIAL AVANZADO** | 21 reglas RGL01–RGL21 y 14 interrupciones INT01–INT14, con ventanas y materiales cotejados | Reproducir cadenas adversarias en prueba de mesa |
+| **A06** Sinergias y Extra | **PARCIAL AVANZADO** | **39/39 filas**, 21 vínculos R01–R21; 13/13 Extra con materiales/función; 8 accesos trazados en rutas, 5 potenciales o situacionales | Completar por evidencia textual las cinco salidas no reproducibles como apertura general |
+| **A07** Reglas y cadenas | **PARCIAL AVANZADO** | 21 reglas RGL01–RGL21 y 14 interrupciones INT01–INT14, ventanas/materiales cotejados | Revisar efectos en cadenas y desplazamiento de zonas sin inventar resoluciones |
 | **A08** Estrategia y Side | **PARCIAL AVANZADO** | 26 decisiones D01–D26 y seis planes Side S01–S06 con intercambio 1:1 | Medir utilidad real y ladrillos de apertura |
-| **A09** Jugadas y manos | **PARCIAL AVANZADO** | **7 combos C01–C07**, **7 variantes V01–V07**, **20 manos H01–H20**, **0 replays** | Ensayar secuencias, ventanas, interrupciones y combos condicionales |
-| **A10** Guías visuales | GUÍAS VISUALES V37 | Guía HTML local y 39/39 fotos disponibles | Combos y cadenas pendientes de contrastar en simulador |
+| **A09** Jugadas y manos | **PARCIAL AVANZADO** | **7 rutas C01–C07**, **7 variantes V01–V07**, **20 manos H01–H20**, **0 replays** | Mantener separados finales acreditados, rutas condicionales y transformaciones; prueba física voluntaria del usuario |
+| **A10** Guías visuales | **GUIAS V40 DISPONIBLES** | HTML y 39/39 fotos, sin imágenes faltantes | Conciliar rutas locales y texto tras esta revisión; la validación de cadenas es un eje distinto |
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
 
@@ -76,7 +76,7 @@
 
 **Lectura para jugar:** C06 produce la negación más general de estas aperturas, pero **su combinación exacta de tres nombres es poco frecuente en cinco cartas**; conviene practicar C01/C07/V03 también. **No sumar los porcentajes**: las manos se superponen. La probabilidad real de completar una ruta debe descontar objetivos fuera del Deck y estudiar interrupciones, sin extrapolar estas cifras a victoria/competitividad.
 
-**Identidad:** híbrido Cristron/Horus según cartas transcritas; `deck_id` real pendiente de asignación. No se modifican cantidades, nombres ni zonas.
+**Identidad:** híbrido Cristron/Horus según cartas transcritas; `deck_id` real **677**, registrado como TCG Advanced. No se modifican cantidades, nombres ni zonas.
 
 ## APARTADO_03 y APARTADO_04 — Inventario y fuentes
 
@@ -84,9 +84,9 @@ La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado
 
 **A03:** nombres y cantidades de Miguel inalterados: 40 Main (27 monstruos, 12 mágicas, 1 trampa), 15 Extra y 15 Side. Ninguna carta del Side se cuenta como inicial; el cotejo es numérico y de zonas.
 
-**A04:** las 39 filas siguientes contienen ahora **CID y enlace a la ficha individual Konami oficial**. «Cristron» es el nombre español de **Crystron**; «Caballero Mecánico» es **Clockwork Knight Link-1**. Se copiaron **20 fotos reales existentes** del maestro a `imagenes/<CID>.jpg`; **19 fotos faltan** y quedan como `FOTO_PENDIENTE`. El CID documental no es el ID real del deck. No se usaron imágenes fabricadas. El texto Konami es la fuente de identidad/regla, no una prueba de simulación.
+**A04:** las 39 filas siguientes contienen **CID y enlace a la ficha individual Konami oficial**. «Cristron» es el nombre español de **Crystron**; «Caballero Mecánico» es **Clockwork Knight Link-1**. Las **39 imágenes reales** ya están en esta carpeta: 20 JPG iniciales y 19 PNG agregadas en V37, con nombre de CID exacto; la indicación anterior de 19 fotografías faltantes era histórica. El CID documental identifica la carta; el ID del deck es **677**. El texto Konami es evidencia de identidad/efecto, no de una partida ejecutada.
 
-**Fotos locales útiles para esta iteración:** [Amset](imagenes/19153.jpg), [Hapi](imagenes/19155.jpg), [Sarcófago](imagenes/19200.jpg), [Flor de Ceniza](imagenes/12950.jpg), [Droll](imagenes/9279.jpg), [Fuwalos](imagenes/20500.jpg), [Purulia](imagenes/20206.jpg), [Gotas](imagenes/15299.jpg), [Súper Polimerización](imagenes/7445.jpg); [Número 90 — FOTO_PENDIENTE en fuente oficial](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=es). Los enlaces locales anteriores corresponden a imágenes efectivamente presentes.
+**Fotos locales útiles para esta iteración:** [Amset](imagenes/19153.jpg), [Hapi](imagenes/19155.jpg), [Sarcófago](imagenes/19200.jpg), [Flor de Ceniza](imagenes/12950.jpg), [Droll](imagenes/9279.jpg), [Fuwalos](imagenes/20500.jpg), [Purulia](imagenes/20206.jpg), [Gotas](imagenes/15299.jpg), [Súper Polimerización](imagenes/7445.jpg) y [Número 90](imagenes/13826.png). Las 39 identidades disponen de fotografía local, no solo estas diez.
 
 ## APARTADO_05 y APARTADO_06 — Matriz ÚNICA por identidad, función y sinergia
 
@@ -174,7 +174,7 @@ La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado
 | R20 | 005/003/002→023 | Máquina no Link ATK original ≤1000 puede **HACER** Caballero Mecánico; luego puede revivir una Máquina pequeña a coste de sacrificar otra | Acceso Link **antes** de bloqueos; «Noche Mecánica» ausente del Main, no adjudicar búsqueda; oficial |
 | R21 | 018+020→carta rival | Agrupamiento **RECICLA** carta Cristron de GY/destierro al Deck y **DESTRUYE** 1 boca arriba o 2 con Sincronía Cristron propia | Requiere objetivo(s) boca arriba, recurso Cristron y Trampa legalmente activa; oficial |
 
-**Mapa causal para enseñar:** `Inclusión → BUSCA Smiger → DESTRUYE Smiger → INVOCA Citree` (R01/R02); `Inclusión destruida → REVIVE Smiger` (R04/R05); `Citree + Sulfador → SINCRONIZA Elesqueletus → RECUPERA Inclusión` (R10); `Imsety + Hapi → BUSCA Sarcófago → REVIVE ambos → Xyz Número 90 / Vampiro Zombi` (R13–R16). Las cartas sin foto quedan como `[FOTO_PENDIENTE]` en estos nodos.
+**Mapa causal para enseñar:** `Inclusión → BUSCA Smiger → DESTRUYE Smiger → INVOCA Citree` (R01/R02); `Inclusión destruida → REVIVE Smiger` (R04/R05); `Citree + Sulfador → SINCRONIZA Elesqueletus → RECUPERA Inclusión` (R10); `Imsety + Hapi → BUSCA Sarcófago → REVIVE ambos → Xyz Número 90 / Vampiro Zombi` (R13–R16). Los 39 nodos pueden utilizar ahora la imagen JPG/PNG del CID correspondiente.
 
 **Cartas sin ruta A09 propia:** las 11 herramientas Main/Side de respuesta y los monstruos de Extra meramente condicionales se conservan como **AUTÓNOMA_ÚTIL**, **ACCESO_POTENCIAL** o **DEPENDIENTE_DE_MATCHUP**, nunca `CERO_SINERGIA` por falta de una cadena. Los 21 enlaces anteriores no equivalen a 21 combos ni 21 victorias.
 
@@ -196,9 +196,17 @@ La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado
 | Garura ×1 | Súper Polimerización + 2 materiales de igual Tipo/Atributo y distinto nombre | **Condicional** a Campo/matchup; Fusión prohibida tras bloqueos mencionados |
 | Fangodragón del Pantano ×1 | Súper Polimerización + 2 monstruos mismo Atributo y distinto Tipo | **Condicional** al Campo; no prometer materiales rivales |
 
-**Cobertura A06:** 39/39 identidades clasificadas; 21 relaciones de alcance explícito, no todas cerradas como secuencia. 13/13 Extra evaluadas por requisitos; **8 identidades tienen acceso trazado en C01–C07/V01–V04** (Hagoita, Elesqueletus, Quariongandrax, Número 90, Vampiro Zombi, Nova, Infinito y Destructor Samurái). Las demás conservan acceso **potencial, dependiente de rival o condicionado al formato**. No hay dictamen `COMPLETA` ni acreditación de simulador.
+**Cobertura A06:** 39/39 identidades clasificadas; 21 relaciones explícitas, no todas convertibles en secuencia. 13/13 Extra evaluadas por requisitos; **8 identidades tienen acceso trazado en C01–C07/V01–V04** (Hagoita, Elesqueletus, Quariongandrax, Número 90, Vampiro Zombi, Nova, Infinito y Destructor Samurái). Las otras cinco no se presentan como aperturas completas: F.A. Coche Trucado puede sincronizarse como alternativa con Cantante 2 + Máquina no Cantante 5; S:P requiere dos monstruos de efecto antes de los bloqueos; Caballero Mecánico un material Máquina no Link de ATK original ≤1000; Garura y Fangodragón necesitan Súper Polimerización y materiales rivales/propios compatibles. La disponibilidad de cada salida depende de estado y ventana, no de añadir cartas al inventario.
 
-## APARTADO_07 — Reglas, cadenas y materiales: 15 controles
+| Extra no integrado como combo principal | Entrada real y momento | Beneficio | Bloqueo / estado documental |
+|---|---|---|---|
+| **F.A. Coche Trucado ×2** | Citree Nivel 2 + Sulfador Nivel 5 en turno rival o una preparación que deje ambos disponibles; Sincronía 7 | Ante una activación de M/T rival, reducir 2 Niveles para negar la activación y destruir esa carta si resuelve; [texto oficial](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en) | **ALTERNATIVA** a Elesqueletus/Samurái; no suma otra ruta independiente sin mano y campo completos |
+| **S:P Pequeña Caballera** | Dos monstruos de efecto reales, antes de activar Smiger/Thystvern en campo o Sulfador que impida este Link | Interacción de destierro temporal en respuesta a activación rival, si existen blancos | **CONDICIONAL**; usar solo Main como materiales no otorga automáticamente el destierro de su propia Invocación |
+| **Caballero Mecánico** | Un monstruo Máquina no Link con ATK original ≤1000 y Zona Extra accesible | Convierte cuerpo en Link-1; su búsqueda no tiene objetivo en el Main recibido | **ACCESO AISLADO**, no atribuir buscador ni combo autosuficiente |
+| **Garura** | Súper Polimerización y dos monstruos de igual Tipo/Atributo y nombres diferentes, disponibles en campo | Retirada mediante materiales de Fusión compatibles | **DEPENDIENTE DEL RIVAL** o de dos cuerpos propios elegibles; no asumir blancos universales |
+| **Fangodragón del Pantano** | Súper Polimerización y dos monstruos del mismo Atributo con Tipos diferentes | Retirada y cuerpo de Fusión condicionado a la distribución real de atributos/tipos | **DEPENDIENTE DEL CAMPO**, no disponible si ya rige un bloqueo de Extra incompatible |
+
+## APARTADO_07 — Reglas, cadenas y materiales: 21 controles (RGL01–RGL21)
 
 | Regla | Dictamen comprobado con textos oficiales | Impacto práctico / casos |
 |---|---|---|
@@ -454,7 +462,7 @@ En todas las filas se presupone **rival sin intervención**, salvo que las líne
 
 ## APARTADO_10 — Siete guías numeradas con referencia visual auténtica
 
-**Criterio visual:** paneles en texto breve, orden de acciones y zonas verificables. Se insertan **solo** imágenes de los 20 CIDs auténticos presentes en esta carpeta; cada carta Cristron y Número 90 sin imagen real se muestra como **`[FOTO_PENDIENTE — CID]`**, no como dibujo sustituto. Por eso este apartado permanece **PARCIAL / NO PUBLICABLE**: se necesitan 19 fotografías y ejecución en simulador para guías finales completas. La ausencia de imagen **no** borra el texto del combo.
+**Criterio visual actualizado:** paneles con acciones, zonas y fotos reales por CID. **Las 39 fotografías ya existen** desde V37 (20 JPG y 19 PNG) y la guía HTML consta en la publicación V40. Lo que puede seguir siendo condicional es la **resolución de una cadena o ruta**, no la disponibilidad de sus imágenes; las pruebas físicas son opcionales y corresponden al jugador.
 
 ### G01 — Smiger → Citree → Hagoita (C01; primero/reactivo)
 
@@ -545,12 +553,12 @@ En todas las filas se presupone **rival sin intervención**, salvo que las líne
 
 **Guías de variantes dentro del mismo archivo:** V01 aporta Quariongandrax en dos turnos; V02 vuelve a G01 desde Inclusión; V03 prepara Agrupamiento **Colocado** y Tristaros, y V04 cambia G02 por Destructor Samurái sin recuperar Inclusión. Se leen vinculadas a su ficha canónica A09: **no** son cuatro guías fotográficas adicionales ni se cuentan como combos nuevos.
 
-### Cierre A10 — Lo que faltaría para declarar guía completa
+### Cierre A10 — Revisión de calidad posterior a las imágenes completas
 
-1. Reemplazar las **19 marcas FOTO_PENDIENTE** con **imágenes reales del CID correcto** y cotejar la presencia de las 20 actuales; sin fuentes, no generar dibujos ni pedir a la plataforma que muestre una carta distinta.
-2. Capturar 11 replays legales **C01–C07 + V01–V04**, con mano inicial, cadena, zona de cada carta, material, restricciones y campo final, distinguiendo las rutas que fracasen.
-3. Comprobar en simulador la sincronización dentro de la cadena de **Tristaros**, el disparador posterior de **Elesqueletus** y la construcción condicionada **V01**; ajustar las rutas si una interacción falla.
-4. Medir manos reales, puntos de interrupción por **Ash, Droll, Nibiru y efectos de destierro** sin atribuir porcentajes sin datos; cotejar compatibilidad de **F.A. Coche Trucado del Amanecer** con el formato acordado.
+1. **Resuelto V37:** las 19 fotografías antiguamente pendientes fueron incorporadas con su CID; siguen presentes los 20 JPG originales. Cotejar rutas locales después de regenerar HTML (desde `guias/` se usa `../imagenes/`).
+2. **Pendiente documental específico:** comprobar el estado de campo y las ventanas de Tristaros, el disparador posterior de Elesqueletus y la preparación V01; detener una línea cuando no estén los materiales/objetivos.
+3. **Pendiente estratégico, sin exigir simulador:** comparar las 20 manos y los puntos de interrupción por Ash, Droll, Nibiru y destierros; no atribuir porcentajes de éxito o victoria a los ejercicios escritos.
+4. **Contraste físico voluntario:** cualquier replay o prueba de mesa posterior del usuario puede agregarse como evidencia real; **no** se exige para dar por disponible una guía fotográfica documental.
 
 ---
 
@@ -720,15 +728,15 @@ Las **rutas principales siguen siendo C01–C07 (7)**. Las **variantes V01–V04
 
 **P08 → V05 | «Smiger: elige Elesqueletus, no Hagoita»**
 
-1. **Carta inicial:** Smiger `[FOTO_PENDIENTE CID12608]`, Normal en Campo. **Objetivo:** respuesta de Nivel7 y recuperar Smiger.
-2. **Campo→GY:** Smiger se destruye por su efecto y trae **Tristaros** `[FOTO_PENDIENTE CID20758]` del Deck. **No** declarar el efecto de Smiger en GY este turno.
-3. **Turno rival:** rival activa carta/efecto (CL1), Tristaros CL2; éste trae **Sulfador** `[FOTO_PENDIENTE CID20759]` y sincroniza **2+5** a Elesqueletus `[FOTO_PENDIENTE CID20778]`.
+1. **Carta inicial:** Smiger [imagen CID 12608](imagenes/12608.png), Normal en Campo. **Objetivo:** respuesta de Nivel7 y recuperar Smiger.
+2. **Campo→GY:** Smiger se destruye por su efecto y trae **Tristaros** [imagen CID 20758](imagenes/20758.png) del Deck. **No** declarar el efecto de Smiger en GY este turno.
+3. **Turno rival:** rival activa carta/efecto (CL1), Tristaros CL2; éste trae **Sulfador** [imagen CID 20759](imagenes/20759.png) y sincroniza **2+5** a Elesqueletus [imagen CID 20778](imagenes/20778.png).
 4. **Nueva cadena:** recuperar Smiger GY a mano si procede. **Marcador visual final:** `CAMPO[Elesqueletus7] MANO[Smiger] GY[Tristaros,Sulfador]`, rival CL1 **no negado**.
 
 **P09 → V06 | «Entierro solo, dos búsquedas, defensa reactiva»**
 
-1. **Entierro Insensato** `[FOTO_PENDIENTE CID5236]` envía Smiger del Deck al GY. **Sin Invocación**.
-2. **Smiger GY → destierro**, añade Inclusión `[FOTO_PENDIENTE CID20798]` a mano; activa Inclusión y añade Tristaros `[FOTO_PENDIENTE CID20758]` a mano.
+1. **Entierro Insensato** [imagen CID 5236](imagenes/5236.png) envía Smiger del Deck al GY. **Sin Invocación**.
+2. **Smiger GY → destierro**, añade Inclusión [imagen CID 20798](imagenes/20798.png) a mano; activa Inclusión y añade Tristaros [imagen CID 20758](imagenes/20758.png) a mano.
 3. **Normal Tristaros**, pasa turno: `CAMPO[Tristaros2,Inclusión] DESTIERRO[Smiger]`.
 4. En activación rival, Tristaros trae Sulfador y Sincroniza Elesqueletus; tras cadena puede recuperar Smiger desterrado. **Rama roja:** Ash/Droll entre dos búsquedas detiene el plan exacto; no aparece Elesqueletus si rival no activa.
 
@@ -742,10 +750,10 @@ Las **rutas principales siguen siendo C01–C07 (7)**. Las **variantes V01–V04
 
 1. **Mano:** Sarcófago+Hapi; **Amset en Deck**. Activa Sarcófago y manda Hapi **de mano a GY**, Amset **de Deck a GY**.
 2. Invoca ambos del GY bajo Sarcófago: `CAMPO[Hapi8,Amset8,Sarcófago]`.
-3. **Elección de final:** N.º90 `[FOTO_PENDIENTE CID13826]` para negación, o Vampiro Zombi `[imagenes/16850.jpg]` para molienda. **No dos Xyz simultáneos**.
+3. **Elección de final:** N.º90 [imagen CID 13826](imagenes/13826.png) para negación, o Vampiro Zombi [imagen CID 16850](imagenes/16850.jpg) para molienda. **No dos Xyz simultáneos**.
 4. **Campo final:** `Sarcófago + Xyz8[dos materiales Horus]`; ninguna identidad de carta molida está predeterminada.
 
-**Cierre A10 v3:** 7 guías principales + 3 paneles adicionales de variantes; las otras cuatro variantes siguen enlazadas en A09. **20/39 imágenes auténticas** (19 pendientes), **0 replays de simulador**. Estado `DOCUMENTACIÓN_AVANZADA / NO_PUBLICABLE_COMO_GUIA_FOTOGRAFICA_COMPLETA`. Las referencias de CID y el texto no sustituyen fotografías ni partidas ejecutadas.
+**Cierre A10 v3 conciliado con V37–V40:** 7 guías principales + 3 paneles adicionales de variantes; las otras cuatro variantes siguen enlazadas en A09. **39/39 imágenes auténticas** (20 JPG + 19 PNG), guía HTML y publicación V40 registrada; **0 replays acreditados**, estado de las rutas aún documental. El corte anterior de 20/39 fotos ya no es un pendiente.
 
 ### Certificado de integridad de la iteración v3
 
@@ -807,10 +815,10 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 ## A04. Evidencia y fotografía por identificador
 
 - **39/39 CIDs** cotejados con ficha oficial Konami Neuron, cruzados con la tabla del documento principal.
-- **20/39 imágenes auténticas** disponibles en `imagenes/<CID>.jpg` desde el maestro de V34; **19/39 `FOTO_PENDIENTE`**.
+- **39/39 imágenes auténticas** disponibles en `imagenes/`: 20 JPG iniciales y 19 PNG agregados desde V37, todas con CID de la matriz.
 - Muestras reproducibles: `19153.jpg` Amset; `19155.jpg` Hapi; `19200.jpg` Sarcófago; `12950.jpg` Ash; `9279.jpg` Droll; `20500.jpg` Fuwalos; `20206.jpg` Purulia; `7445.jpg` Súper Polimerización; `15299.jpg` Gotas.
-- Para las otras identidades, el enlace Konami CID sigue sirviendo como evidencia de **identidad y texto**, no como sustituto de imagen local ni de un replay.
-- El estado de A04 es `IDENTIDAD_OFICIAL_COTEJADA` para 39, `FOTO_LOCAL_DISPONIBLE` para 20, `FOTO_PENDIENTE` para 19 y `SIMULADOR_NO_EJECUTADO` para todas las rutas A09.
+- Las fichas Konami siguen sustentando **identidad y texto**; las fotos locales ya existen, pero no prueban la ejecución de un combo.
+- El estado actual A04 es `IDENTIDAD_OFICIAL_COTEJADA` y `FOTO_LOCAL_DISPONIBLE` para **39/39**. El estado independiente de A09 permanece `SIN_REPLAY_ACREDITADO`.
 
 ## A05. Uso concreto y restricciones de cartas decisivas
 
@@ -829,7 +837,7 @@ Las **39/39 fichas originales** enumeran cada identidad con CID, Main/Extra/Side
 | S:P / Caballero Mecánico | Salidas Link específicas | Caballero no busca «Noche Mecánica» ausente en Main; no invocar Link tras lock |
 | Droll, Purulia, Fuwalos, Ash y Side | Interacción y adaptación fuera del motor | No equiparar disparadores ni colocar Side en mano del duelo 1 |
 
-**Cierre A01–A05:** tres planes examinados, ocho casos de decisión, **70/70 copias** documentadas, **39/39 CIDs**, **20/39 fotos** y **39/39 roles** registrados. Persisten comprobaciones finas de rulings, formato y fotografías; **no hay simulaciones ni sustituciones aplicadas**.
+**Cierre A01–A05:** tres planes examinados, ocho casos de decisión, **70/70 copias** documentadas, **39/39 CIDs**, **39/39 fotos** y **39/39 roles** registrados. Persisten comprobaciones de cadenas y accesos situacionales; **no hay simulaciones ni sustituciones aplicadas**.
 
 
 ---
@@ -1058,11 +1066,11 @@ Se calculan combinaciones sin reemplazo sobre **únicamente el Main Deck físico
 
 ### A03–A07 · Cómo invocar y para qué utilizar cada monstruo del Extra Deck
 
-Requisitos abreviados cotejados por CID con texto oficial; cuando exista un procedimiento alterno (Purrely, Santuario, ZEUS, Nova/Infinity o Metamorfosis) debe usarse **la condición especial de la ficha**, no inventar materiales. La columna de función compara utilidad de tablero/duelo.
+Requisitos abreviados cotejados por CID con texto oficial, específicos de **este** Extra: Infinito puede superponerse sobre Nova ya controlado; los Xyz Horus exigen dos Nivel 8; las Sincronías requieren Cantante y Niveles exactos; las Fusiones de Súper Polimerización necesitan materiales compatibles. No trasladar procedimientos de arquetipos no presentes en el inventario.
 
 | Copia(s) / Monstruo del Extra | Materiales / acceso | Función y decisión |
 |---|---|---|
-| 2 × [F.A. Coche Trucado del Amanecer](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en) | 1 Cantante + 1 o más no Cantantes; Sincronía | Requiere materiales, zona y ventana de efecto comprobables; ruta documental condicionada |
+| 2 × [F.A. Coche Trucado del Amanecer](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en) | Sincronía Nivel 7: Cantante 2 (Citree) + no Cantante 5 (Sulfador) si ambos están disponibles; alternativa a Elesqueletus. | Ante la activación de M/T rival puede reducir su propio Nivel en 2 para negar la activación y destruir; no reclamar un segundo tablero si Citree/Sulfador se gastaron en otra Sincronía. |
 | 2 × [Cristron Elesqueletus](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en) | 1 Cantante + 1 o más no Cantantes; Sincronía | Sincronía Nivel7: recupera Cristron de GY/destierro; si destruida estando sincronizada, revive. |
 | 1 × [Cristron Quariongandrax](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en) | 2 o más Cantantes + 1 no Cantante; Sincronía | Sincronía Nivel9 con ≥2 Cantantes: destierra hasta tantos monstruos rivales como materiales reales. |
 | 1 × [S:P Pequeña Caballera](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en) | Enlace 2: 2 monstruos de efecto. | Link2 de dos efectos; reacción que destierra temporalmente 2 monstruos. |
@@ -1078,7 +1086,7 @@ Requisitos abreviados cotejados por CID con texto oficial; cuando exista un proc
 
 ### A08 · Laboratorio estratégico de seis clases de rival
 
-Estos son **30 escenarios editoriales para cinco decks**: no predicciones de metajuego, duelos simulados ni cambios ejecutados. Cada uno distingue primer/segundo y señala Side físico real.
+**Seis escenarios estratégicos propios de Crystron/Horus** (parte de 30 escenarios de cinco decks). Son decisiones condicionales de primero/segundo y Side físico real, no resultados empíricos ni cambios de inventario.
 
 | Rival / situación | Si empiezas | Si vas segundo | Side físico / posibilidad | Error a evitar |
 |---|---|---|---|---|
@@ -1093,5 +1101,5 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 
 - [Abrir las seis decisiones estratégicas visuales](guias/GUIA_VISUAL_A01_A10.html#tacticas-v40) y después navegar a las rutas ilustradas A09.
 - La lista original, el número de copias, los nombres de ruta y las fotografías no se cambiaron. Se añadieron **únicamente análisis**.
-- Las 51 rutas de V39 siguen clasificadas como comprobación documental con 0 replays reales; NO declarar legal una carta prohibida, ni importar Side inexistente.
-- Las recomendaciones de mejora son opcionales: solo el usuario puede autorizar cambios a las cartas físicas; los análisis conservan las listas originales. GOAT mantiene su contexto histórico.
+- **Las siete rutas C01–C07 y siete variantes V01–V07 de Crystron** conservaron el cotejo documental V39; **51** es un total conjunto de cinco estudios, no de este deck. No se atribuyen replays físicos.
+- Las recomendaciones de mejora son opcionales: Miguel decide cualquier cambio físico; el Side solo está disponible mediante el intercambio documentado entre duelos.
