@@ -1917,3 +1917,1386 @@ Se corrigen etiquetas derivadas de búsqueda automática de palabras: una carta 
 | `9279` Droll & Lock Bird | HANDTRAP_BLOQUEO_BUSQUEDAS · CONTROL_DE_ACCESO_AL_DECK · FUNCION_AUTONOMA | Enviar esta carta de la mano al Cementerio. Efecto Rápido después de que el rival añada una o más cartas desde Main Deck a mano, fuera de Draw Phase; dura lo restante del turno. | Utilidad autónoma contra motores de búsqueda; conflicto temporal con buscadores propios como Fenrir/Unicorn cuando corresponda. | **NO VALIDADO A09**; verificar si aparece causalmente en alguna ruta | [Konami CID 9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en) |
 
 Los vínculos por fotografía/ID previos siguen siendo **candidatos** hasta comprobar el paso exacto, la disponibilidad (Side/Reserva) y las restricciones del Extra. No se asume sinergia cero por falta de combo.
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 650 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_11_DECKS_A01_A10_V14","fecha":"2026-11-14"}`
+
+**Colecci?n:** `decks`
+
+**Registro 0**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `deck` | `"Elfnote"` |
+| `formato` | `"TCG"` |
+| `motor` | `"Medius Nivel4 → Power Patron Cantante Nivel1 al centro; Regina Nivel6 gasta una Elfnote de mano; Fortuna pone Rhapsodia. La zona central es un recurso escaso."` |
+| `ir_primero` | `["Si tienes Medius y no Regina+otro Elfnote, Normal Medius fuera de centro, Patron al centro y decide el Sincro objetivo ANTES de cambiar su Nivel.","Si tienes Regina+Lucina, el envío de Lucina es coste; entra Regina al centro y puede traer Fortuna para colocar Rhapsodia. Guarda la Normal para extensión real.","Contra amenaza Nibiru no conviertas en automático cinco invocaciones: si un Sincro ya obliga a responder, puedes detenerte con defensa posicional."]` |
+| `ir_segundo` | `["Si el rival tiene monstruo que gana por batalla, prioriza Regina+Rhapsodia para desviar ataques solo si mantendrás centro.","Con Harmonia + suficientes Sincros para mostrar, contempla Malong al GY y rebote después de la cadena del rival, no cuentes Malong como invocado.","No intentes buscar Ecclesia antes de concluir tus invocaciones desde Extra: su efecto restringe el resto del turno."]` |
+| `respuestas_interrupcion` | `[{"evento":"Ash a Medius","respuesta":"Patron no llega desde Deck; no sumes Sincro ni material. Redirige a Regina+otro Elfnote únicamente si está en mano."},{"evento":"Impermanence a Patron","respuesta":"No anotes aumento +3 niveles; verifica si existe otra suma de Niveles con los cuerpos reales."},{"evento":"Retiro del centro","respuesta":"La restricción de ataques de Rhapsodia deja de proteger mientras el centro esté vacío."}]` |
+| `decisiones` | `[{"decision":"¿Medius o Regina primero?","criterio":"Medius crea Cantante y consume Normal; Regina necesita otra Elfnote como coste, no consume Normal. Si la mano escasea, no sacrifiques el único extensor para Regina."},{"decision":"¿Harmonia en turno rival?","criterio":"Si no hay 2+ Sincros válidos que mostrar, NO invoques ni envíes Malong. Después del uso, respeta su bloqueo de activaciones Extra hasta fin del siguiente turno."}]` |
+| `practica` | `[{"id":"650:PRACTICA:V14:1"},{"id":"650:PRACTICA:V14:2"},{"id":"650:PRACTICA:V14:3"}]` |
+| `mejora_sin_aplicar` | `["Separar en la aplicación 4 estados del centro: libre, ocupado propio, ocupado rival y en transición.","Si se plantea incluir más Elfnote para el coste de Regina, proponerlo únicamente, sin alterar Main."]` |
+| `side_y_reserva` | `"Side registrado: Droll y Ghost Ogre disponibles; proponer su intercambio solo por matchup. Ghost Ogre destruye una carta adecuada, no niega el efecto; Droll espera primera incorporación del Deck a mano."` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 650 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_PROBABILIDADES_EXACTAS_V14","fecha":"2026-11-14","modelo":"Extracción hipergeométrica sin reemplazo. TCG 5 y Rush 4 cartas iniciales; ninguna Skill, Extra, Side ni Reserva se roba."}`
+
+**Colecci?n:** `indicadores`
+
+**Registro 0**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `deck` | `"Elfnote"` |
+| `formato` | `"TCG"` |
+| `deck_size` | `40` |
+| `mano_inicial` | `5` |
+| `indicador` | `"Medius (starter)"` |
+| `grupos_cid` | `[[21419]]` |
+| `probabilidad_exacta` | `0.23717948717948717` |
+| `porcentaje` | `23.718` |
+| `nota` | `"V13 abre Power Patron sólo si está disponible en Deck."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+**Registro 1**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `deck` | `"Elfnote"` |
+| `formato` | `"TCG"` |
+| `deck_size` | `40` |
+| `mano_inicial` | `5` |
+| `indicador` | `"Medius + Fortuna en mano"` |
+| `grupos_cid` | `[[21419],[22118]]` |
+| `probabilidad_exacta` | `0.024628879892037787` |
+| `porcentaje` | `2.463` |
+| `nota` | `"No implica automáticamente Chaos Angel; condicionada a secuencia y niveles."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 650 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_A06_REEVALUACION_200_CARTAS_V26","fecha":"2026-11-15","criterio":"Lectura de texto oficial de 149 identidades distintas sobre 200 fichas; uso textual distinto de sinergia acreditada.","resumen":{"fichas_revisadas":200,"identidades_oficiales_unicas":149,"funcion_textual_detectada":200,"referencia_a_carta_del_mismo_deck":13,"registros_no_incluidos_de_los_214":14,"por_deck":{"650":24,"653":20,"656":29,"665":25,"670":33,"684":39,"687":25,"704":5}}}`
+
+**Colecci?n:** `fichas`
+
+**Registro 0**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `22533` |
+| `nombre` | `"Fydraulis Harmonia"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `595` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 1**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `17762` |
+| `nombre` | `"Bystial Magnamhut"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `429` |
+| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 2**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `15239` |
+| `nombre` | `"Dogmatika Ecclesia, the Virtuous"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `545` |
+| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 3**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `22520` |
+| `nombre` | `"Nervedo the Shadebeast Power Patron"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `449` |
+| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESTRUCCION · DESTIERRO · INVOCACION_ESPECIAL_REFERIDA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 4**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `12950` |
+| `nombre` | `"Ash Blossom & Joyous Spring"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `317` |
+| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 5**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `20500` |
+| `nombre` | `"Mulcharmy Fuwalos"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `561` |
+| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 6**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `20206` |
+| `nombre` | `"Mulcharmy Purulia"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `553` |
+| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 7**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `13587` |
+| `nombre` | `"Ghost Belle & Haunted Mansion"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `358` |
+| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 8**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `22089` |
+| `nombre` | `"The Fallen & The Virtuous"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `410` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 9**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `22335` |
+| `nombre` | `"Storm-Bane Dragon Destorbim"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `478` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS · EFECTO_AL_ENVIARSE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 10**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `22984` |
+| `nombre` | `"Elfnote June Pride"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `476` |
+| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 11**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `19188` |
+| `nombre` | `"S:P Little Knight"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `485` |
+| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 12**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `8038` |
+| `nombre` | `"Arcanite Magician"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `274` |
+| `acciones_identificadas` | `[{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"MATERIALES_DECLARADOS"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 13**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `12321` |
+| `nombre` | `"Crystal Wing Synchro Dragon"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `507` |
+| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS · CONTROL_DE_COMBATE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 14**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `13710` |
+| `nombre` | `"F.A. Dawn Dragster"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `499` |
+| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS · CONTROL_DE_COMBATE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 15**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `15994` |
+| `nombre` | `"Albion the Branded Dragon"` |
+| `zona` | `"Extra"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `493` |
+| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"COLOCAR_CARTA","justificacion":"Coloca carta según efecto y su ventana de activación."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"BUSQUEDA_O_ACCESO · MATERIALES_DECLARADOS"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 16**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `17764` |
+| `nombre` | `"Bystial Druiswurm"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `378` |
+| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 17**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `9279` |
+| `nombre` | `"Droll & Lock Bird"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `252` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 18**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `11708` |
+| `nombre` | `"Ghost Ogre & Snow Rabbit"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `308` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 19**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `13619` |
+| `nombre` | `"Called by the Grave"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `221` |
+| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"DESTIERRO · SELECCION_OBJETIVO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 20**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `15296` |
+| `nombre` | `"Triple Tactics Talent"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `337` |
+| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"CONTROL_RIVAL","justificacion":"Puede tomar control de monstruos bajo requisitos."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ROBO · RECICLAJE · CONTROL_RIVAL"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 21**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `13407` |
+| `nombre` | `"Contact \"C\""` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `289` |
+| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INVOCACION_DESDE_MANO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 22**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `4861` |
+| `nombre` | `"Solemn Judgment"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `156` |
+| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 23**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `650` |
+| `cid` | `6511` |
+| `nombre` | `"Pot of Avarice"` |
+| `zona` | `"Side"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `77` |
+| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ROBO · SELECCION_OBJETIVO · RECICLAJE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 650 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_A06_370_EVALUACION_FUNCIONAL_ANCLADA_V22","fecha":"2026-11-15","total":370,"con_texto_oficial_recuperado":370,"porcentaje_cotejo_fuente":100,"relaciones_con_documento":157,"revision_editorial_anterior":162,"pendientes_editoriales":208,"nota":"100% de cartas con función anclada en texto oficial, aunque solo 162/370 recibieron cotejo editorial específico previo."}`
+
+**Colecci?n:** `fichas`
+
+**Registro 0**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22523"` |
+| `deck_id` | `650` |
+| `cid` | `22523` |
+| `nombre` | `"Elfnote Regina"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"ffe66027"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:002"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 1**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22116"` |
+| `deck_id` | `650` |
+| `cid` | `22116` |
+| `nombre` | `"Elfnote Lucina"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"ad760a7e"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:004","A06:REL:045","A06:REL:115"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 2**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22117"` |
+| `deck_id` | `650` |
+| `cid` | `22117` |
+| `nombre` | `"Elfnote Tinia"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"443b927e"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:044","A06:REL:045","A06:REL:111"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 3**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22119"` |
+| `deck_id` | `650` |
+| `cid` | `22119` |
+| `nombre` | `"Elfnote Power Patron"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"016ab07f"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO · ACCESO_SINCRO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:001","A06:REL:005"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 4**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22118"` |
+| `deck_id` | `650` |
+| `cid` | `22118` |
+| `nombre` | `"Elfnote Fortuna"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"6d4a9c47"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:002","A06:REL:003","A06:REL:004","A06:REL:112","A06:REL:114"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 5**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22533"` |
+| `deck_id` | `650` |
+| `cid` | `22533` |
+| `nombre` | `"Fydraulis Harmonia"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"239e13e3"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_SINCRO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 6**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:21419"` |
+| `deck_id` | `650` |
+| `cid` | `21419` |
+| `nombre` | `"Medius the Pure"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"dcc78580"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
+| `conexiones_concretas` | `["A06:REL:001","A06:REL:043"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 7**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22519"` |
+| `deck_id` | `650` |
+| `cid` | `22519` |
+| `nombre` | `"Vidolium the Unstable Power Patron of Unity"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"7baeb60c"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
+| `conexiones_concretas` | `["A06:REL:043","A06:REL:116"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 8**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:17762"` |
+| `deck_id` | `650` |
+| `cid` | `17762` |
+| `nombre` | `"Bystial Magnamhut"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"03f11d97"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 9**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:15239"` |
+| `deck_id` | `650` |
+| `cid` | `15239` |
+| `nombre` | `"Dogmatika Ecclesia, the Virtuous"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"9c8b94f3"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 10**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22520"` |
+| `deck_id` | `650` |
+| `cid` | `22520` |
+| `nombre` | `"Nervedo the Shadebeast Power Patron"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"217007ad"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · ACCESO_FUSION"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 11**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:12950"` |
+| `deck_id` | `650` |
+| `cid` | `12950` |
+| `nombre` | `"Ash Blossom & Joyous Spring"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"6ecfa187"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 12**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:20500"` |
+| `deck_id` | `650` |
+| `cid` | `20500` |
+| `nombre` | `"Mulcharmy Fuwalos"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"8a8de9ad"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 13**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:20206"` |
+| `deck_id` | `650` |
+| `cid` | `20206` |
+| `nombre` | `"Mulcharmy Purulia"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"38005f13"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 14**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:13587"` |
+| `deck_id` | `650` |
+| `cid` | `13587` |
+| `nombre` | `"Ghost Belle & Haunted Mansion"` |
+| `zona` | `[{"zona":"Main","copias":2},{"zona":"Side","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"37a14ba0"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 15**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22565"` |
+| `deck_id` | `650` |
+| `cid` | `22565` |
+| `nombre` | `"Prohibited Power Patron Portal - Terminus"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"71cddb6a"` |
+| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CARGA_CEMENTERIO · CONTROL_DESTIERRO · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `["A06:REL:116"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 16**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22089"` |
+| `deck_id` | `650` |
+| `cid` | `22089` |
+| `nombre` | `"The Fallen & The Virtuous"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"a5da123b"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 17**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22159"` |
+| `deck_id` | `650` |
+| `cid` | `22159` |
+| `nombre` | `"Elfnotes: Welcome Home"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"7150e136"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_SINCRO · TRIBUTO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
+| `conexiones_concretas` | `["A06:REL:044","A06:REL:111","A06:REL:112","A06:REL:117"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 18**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22173"` |
+| `deck_id` | `650` |
+| `cid` | `22173` |
+| `nombre` | `"Elfnotes: Rhapsodia of Madness"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"a15a0e0a"` |
+| `funcion_concreta_en_inventario` | `"CONSISTENCIA"` |
+| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
+| `conexiones_concretas` | `["A06:REL:003","A06:REL:113"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 19**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22356"` |
+| `deck_id` | `650` |
+| `cid` | `22356` |
+| `nombre` | `"The Three Champions of Swordsoul"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"f4a5f47a"` |
+| `funcion_concreta_en_inventario` | `"CONSISTENCIA · INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_SINCRO"` |
+| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 20**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:18666"` |
+| `deck_id` | `650` |
+| `cid` | `18666` |
+| `nombre` | `"Golden Cloud Beast - Malong"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"52ad3a6d"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 21**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22335"` |
+| `deck_id` | `650` |
+| `cid` | `22335` |
+| `nombre` | `"Storm-Bane Dragon Destorbim"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"fec3656e"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 22**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22144"` |
+| `deck_id` | `650` |
+| `cid` | `22144` |
+| `nombre` | `"Ecclesia and the Dark Dragon"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"add9cda4"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 23**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22143"` |
+| `deck_id` | `650` |
+| `cid` | `22143` |
+| `nombre` | `"Elfnote Seraphim Strelitzia"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"ae1d7060"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_SINCRO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:005","A06:REL:113","A06:REL:114","A06:REL:117"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 24**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22984"` |
+| `deck_id` | `650` |
+| `cid` | `22984` |
+| `nombre` | `"Elfnote June Pride"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"75cf46d3"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 25**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:19188"` |
+| `deck_id` | `650` |
+| `cid` | `19188` |
+| `nombre` | `"S:P Little Knight"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"3b99386c"` |
+| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 26**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:18505"` |
+| `deck_id` | `650` |
+| `cid` | `18505` |
+| `nombre` | `"Despian Luluwalilith"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"c2a23387"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · PRESION_LP · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 27**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:8038"` |
+| `deck_id` | `650` |
+| `cid` | `8038` |
+| `nombre` | `"Arcanite Magician"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"71a88b09"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_SINCRO"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 28**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:12321"` |
+| `deck_id` | `650` |
+| `cid` | `12321` |
+| `nombre` | `"Crystal Wing Synchro Dragon"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"dfbb9e23"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · ACCESO_SINCRO · PRESION_LP · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 29**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:13710"` |
+| `deck_id` | `650` |
+| `cid` | `13710` |
+| `nombre` | `"F.A. Dawn Dragster"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"ed19ddf6"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · PRESION_LP · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 30**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:15996"` |
+| `deck_id` | `650` |
+| `cid` | `15996` |
+| `nombre` | `"Ruddy Rose Dragon"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"357f7490"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · RESPUESTA_NEGACION · ACCESO_SINCRO · TRIBUTO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 31**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:15994"` |
+| `deck_id` | `650` |
+| `cid` | `15994` |
+| `nombre` | `"Albion the Branded Dragon"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"96b8e928"` |
+| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CONTROL_DESTIERRO · ACCESO_FUSION · PREPARACION_CAMPO"` |
+| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 32**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:18507"` |
+| `deck_id` | `650` |
+| `cid` | `18507` |
+| `nombre` | `"Chaos Angel"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"a369efc7"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_SINCRO · TRIBUTO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 33**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:22142"` |
+| `deck_id` | `650` |
+| `cid` | `22142` |
+| `nombre` | `"Junora the Power Patron of Tuning"` |
+| `zona` | `[{"zona":"Extra","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"f5c862f5"` |
+| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · ACCESO_SINCRO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"SINCRONIA","rol":"ACCESO_SINCRO","alcance":"Si corresponde a Sincro, calcular Cantante y Niveles exactos."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `["A06:REL:115"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 34**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:17764"` |
+| `deck_id` | `650` |
+| `cid` | `17764` |
+| `nombre` | `"Bystial Druiswurm"` |
+| `zona` | `[{"zona":"Side","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"47d18e29"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 35**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:9279"` |
+| `deck_id` | `650` |
+| `cid` | `9279` |
+| `nombre` | `"Droll & Lock Bird"` |
+| `zona` | `[{"zona":"Side","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"f2655959"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 36**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:11708"` |
+| `deck_id` | `650` |
+| `cid` | `11708` |
+| `nombre` | `"Ghost Ogre & Snow Rabbit"` |
+| `zona` | `[{"zona":"Side","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"306e791b"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 37**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:13619"` |
+| `deck_id` | `650` |
+| `cid` | `13619` |
+| `nombre` | `"Called by the Grave"` |
+| `zona` | `[{"zona":"Side","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"01d8bd35"` |
+| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 38**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:15296"` |
+| `deck_id` | `650` |
+| `cid` | `15296` |
+| `nombre` | `"Triple Tactics Talent"` |
+| `zona` | `[{"zona":"Side","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"6f5a85ef"` |
+| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 39**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:13407"` |
+| `deck_id` | `650` |
+| `cid` | `13407` |
+| `nombre` | `"Contact \"C\""` |
+| `zona` | `[{"zona":"Side","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"e041a5c8"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 40**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:4861"` |
+| `deck_id` | `650` |
+| `cid` | `4861` |
+| `nombre` | `"Solemn Judgment"` |
+| `zona` | `[{"zona":"Side","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"1945285a"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RESPUESTA_NEGACION"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 41**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"650:CARD:6511"` |
+| `deck_id` | `650` |
+| `cid` | `6511` |
+| `nombre` | `"Pot of Avarice"` |
+| `zona` | `[{"zona":"Side","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en"` |
+| `huella_texto_oficial` | `"e79b513a"` |
+| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO · SELECCION_OBJETIVO"` |
+| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
+| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |

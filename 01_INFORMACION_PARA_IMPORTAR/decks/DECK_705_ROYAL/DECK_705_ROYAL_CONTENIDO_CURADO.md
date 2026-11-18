@@ -708,3 +708,804 @@ Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias 
 - Decisiones A08 que mencionan CID fuera del inventario: **0**; fotos A09 con CID ajeno: **0**; rutas de fotografía ausentes: **0**. Los casos requieren revisión contextual antes de clasificarlos como error de juego.
 - Hallazgos estructurales a tratar: **ninguno en los controles de existencia y conteo**.
 - Próxima ejecución IA prioritaria: cotejar texto completo y materiales de cada enlace, cerrar condiciones A07/A09, separar rutas verdaderas de interacciones y actualizar estados individuales en el único registro global. No se autoriza modificar las listas ni publicar resultados en Station X.
+
+<!-- ESCENARIOS_DOCUMENTALES_CONSOLIDADOS_705 -->
+### Escenarios documentales y bloqueos por carta
+
+Evidencia documental hist?rica conservada con sus identificadores y estados originales; no constituye una prueba de motor ni de mesa. Los valores mantienen sus nombres de origen para preservar condiciones, referencias y pendientes.
+
+**Datos del conjunto:** `{"schema":"station-x-scenario-contract/1","deck_id":705,"deck":"Royal Rush"}`
+
+**705:COBERTURA:MAIN:16330:E05:ESCENARIO ? Phaser del Rebelde Real**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:16330:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:16330"` |
+| `cid` | `16330` |
+| `card_name` | `"Phaser del Rebelde Real"` |
+| `zone` | `"main"` |
+| `quantity` | `3` |
+| `image` | `"imagenes/rush/16330.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Monstruo de Efecto — extensor / habilitador de material.."` |
+| `scenario` | `{"initial_condition":"Controlar un Demonio de Nivel 7+ boca arriba y enviar este Phaser boca arriba del Campo al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"**HARD ROCK OVERTURE** puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Controlar un Demonio de Nivel 7+ boca arriba y enviar este Phaser boca arriba del Campo al Cementerio..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Controlar un Demonio de Nivel 7+ boca arriba y enviar este Phaser boca arriba del Campo al Cementerio..","when":"Se intenta la acción de Phaser del Rebelde Real","then":"Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:19760:E05:ESCENARIO ? Impasse Ignoto**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:19760:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:19760"` |
+| `cid` | `19760` |
+| `card_name` | `"Impasse Ignoto"` |
+| `zone` | `"main"` |
+| `quantity` | `3` |
+| `image` | `"imagenes/rush/19760.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Monstruo de Efecto — presión de combate / modificación de estadísticas.."` |
+| `scenario` | `{"initial_condition":"Mostrar al rival otro Demonio de la mano para Invocar esta carta de Modo Especial desde la mano..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Mientras permanezca boca arriba, aumenta en 300 el ATK de todos tus Demonios boca arriba, incluido él mismo..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Mostrar al rival otro Demonio de la mano para Invocar esta carta de Modo Especial desde la mano..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Mostrar al rival otro Demonio de la mano para Invocar esta carta de Modo Especial desde la mano..","when":"Se intenta la acción de Impasse Ignoto","then":"Mientras permanezca boca arriba, aumenta en 300 el ATK de todos tus Demonios boca arriba, incluido él mismo..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:16135:E05:ESCENARIO ? Descendiente de Titanes**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:16135:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:16135"` |
+| `cid` | `16135` |
+| `card_name` | `"Descendiente de Titanes"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/16135.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado.."` |
+| `scenario` | `{"initial_condition":"No tiene activación de efecto de monstruo..","action":"Invocar o utilizar como material únicamente por las reglas y cartas que lo permitan; no activar un efecto propio inexistente","expected_outcome":"Monstruo Normal sin efecto..","risk_and_counterexample":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «No tiene activación de efecto de monstruo..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"RECURSO_O_MATERIAL_SIN_EFECTO"` |
+| `acceptance` | `{"given":"No tiene activación de efecto de monstruo..","when":"Se usa Descendiente de Titanes como cuerpo/material, sin declarar efecto propio","then":"Monstruo Normal sin efecto..","negative_test":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:17721:E05:ESCENARIO ? Canjear**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:17721:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:17721"` |
+| `cid` | `17721` |
+| `card_name` | `"Canjear"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/17721.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"Enviar al Cementerio un monstruo de Nivel 8 de la mano..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba dos cartas..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Enviar al Cementerio un monstruo de Nivel 8 de la mano..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Enviar al Cementerio un monstruo de Nivel 8 de la mano..","when":"Se intenta la acción de Canjear","then":"Roba dos cartas..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:15673:E05:ESCENARIO ? Aliento de Fuego del Genio**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:15673:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:15673"` |
+| `cid` | `15673` |
+| `card_name` | `"Aliento de Fuego del Genio"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/15673.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — apoyo situacional sujeto a condición escrita.."` |
+| `scenario` | `{"initial_condition":"Controlar un Demonio boca arriba..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Devuelve a la mano del dueño una Mágica o Trampa del rival..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Controlar un Demonio boca arriba..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Controlar un Demonio boca arriba..","when":"Se intenta la acción de Aliento de Fuego del Genio","then":"Devuelve a la mano del dueño una Mágica o Trampa del rival..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:17543:E05:ESCENARIO ? Restauración de Cartas**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:17543:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:17543"` |
+| `cid` | `17543` |
+| `card_name` | `"Restauración de Cartas"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/17543.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"Cuando un monstruo rival declara ataque..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba hasta tener cinco cartas en mano, revela toda la mano y recupera 200 LP por cada monstruo revelado..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Cuando un monstruo rival declara ataque..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Cuando un monstruo rival declara ataque..","when":"Se intenta la acción de Restauración de Cartas","then":"Roba hasta tener cinco cartas en mano, revela toda la mano y recupera 200 LP por cada monstruo revelado..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:21007:E05:ESCENARIO ? Maldición de la Luz Ascendente**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:21007:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:21007"` |
+| `cid` | `21007` |
+| `card_name` | `"Maldición de la Luz Ascendente"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/21007.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"El rival debe tener una o ninguna carta en mano..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «El rival debe tener una o ninguna carta en mano..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"El rival debe tener una o ninguna carta en mano..","when":"Se intenta la acción de Maldición de la Luz Ascendente","then":"Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:18646:E05:ESCENARIO ? Gelatina Defensiva**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:18646:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:18646"` |
+| `cid` | `18646` |
+| `card_name` | `"Gelatina Defensiva"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/18646.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla.."` |
+| `scenario` | `{"initial_condition":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Cuando un monstruo rival de Nivel 8 o inferior declara ataque..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","when":"Se intenta la acción de Gelatina Defensiva","then":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:19799:E05:ESCENARIO ? Avaricia del Rey**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:19799:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:19799"` |
+| `cid` | `19799` |
+| `card_name` | `"Avaricia del Rey"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/19799.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"Enviar de la mano un Demonio LUZ de Nivel 5+ al Cementerio, o devolver del Cementerio al Deck tres Demonios LUZ de Nivel 7+..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cambia a Defensa boca arriba un Demonio LUZ propio que esté en Ataque y, si se desea, roba dos cartas..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Enviar de la mano un Demonio LUZ de Nivel 5+ al Cementerio, o devolver del Cementerio al Deck tres Demonios LUZ de Nivel 7+..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Enviar de la mano un Demonio LUZ de Nivel 5+ al Cementerio, o devolver del Cementerio al Deck tres Demonios LUZ de Nivel 7+..","when":"Se intenta la acción de Avaricia del Rey","then":"Cambia a Defensa boca arriba un Demonio LUZ propio que esté en Ataque y, si se desea, roba dos cartas..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:15913:E05:ESCENARIO ? Agujero Trampa**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:15913:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:15913"` |
+| `cid` | `15913` |
+| `card_name` | `"Agujero Trampa"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/15913.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — interrupción defensiva de Invocación Normal.."` |
+| `scenario` | `{"initial_condition":"Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Destruye ese monstruo invocado..","risk_and_counterexample":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..","when":"Se intenta la acción de Agujero Trampa","then":"Destruye ese monstruo invocado..","negative_test":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:15674:E05:ESCENARIO ? Esplendor del Rey**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:15674:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:15674"` |
+| `cid` | `15674` |
+| `card_name` | `"Esplendor del Rey"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/15674.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — apoyo situacional sujeto a condición escrita.."` |
+| `scenario` | `{"initial_condition":"Ante declaración de ataque rival, devolver al Deck un Demonio Normal de Nivel 1 del propio Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Niega el ataque declarado..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Ante declaración de ataque rival, devolver al Deck un Demonio Normal de Nivel 1 del propio Cementerio..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Ante declaración de ataque rival, devolver al Deck un Demonio Normal de Nivel 1 del propio Cementerio..","when":"Se intenta la acción de Esplendor del Rey","then":"Niega el ataque declarado..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**705:COBERTURA:MAIN:16305:E05:ESCENARIO ? Monstruo Reencarnado**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"705:COBERTURA:MAIN:16305:E05:ESCENARIO"` |
+| `deck_id` | `705` |
+| `deck` | `"Royal Rush"` |
+| `case_id` | `"705:COBERTURA:MAIN:16305"` |
+| `cid` | `16305` |
+| `card_name` | `"Monstruo Reencarnado"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/16305.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_705_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"Tener un monstruo en el Cementerio y enviar una carta de la mano al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Recupera a la mano un monstruo del Cementerio; es la versión Rush, no un efecto idéntico por defecto al TCG..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"La Skill **HARD ROCK OVERTURE** exige Demonios/LUZ y un Nivel 7/8 en mano para enviar al GY; no se roba..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Tener un monstruo en el Cementerio y enviar una carta de la mano al Cementerio..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Tener un monstruo en el Cementerio y enviar una carta de la mano al Cementerio..","when":"Se intenta la acción de Monstruo Reencarnado","then":"Recupera a la mano un monstruo del Cementerio; es la versión Rush, no un efecto idéntico por defecto al TCG..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS A06_14_CARTAS_RUSH_REVISADAS_V27.json 705 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `A06_14_CARTAS_RUSH_REVISADAS_V27.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_14_RUSH_V27","fecha":"2026-11-15","total":14}`
+
+**Colecci?n:** `fichas`
+
+**Registro 0**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `cid` | `17543` |
+| `nombre` | `"てふだぞうさつ 手札増刷"` |
+| `zona` | `"Main"` |
+| `proposito` | `"ROBO_CONDICIONAL"` |
+| `explicacion` | `"Trampa en declaración de ataque rival; roba hasta tener cinco cartas en mano y puede recuperar LP según monstruos revelados."` |
+| `clase` | `"AUTONOMA_CONDICIONAL"` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2"` |
+| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
+| `prueba_presencial` | `"NO_REALIZADA"` |
+| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+
+**Registro 1**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `cid` | `18646` |
+| `nombre` | `"バッファード・スライム バッファード・スライム"` |
+| `zona` | `"Main"` |
+| `proposito` | `"DEFENSA_Y_RECURSO_CEMENTERIO"` |
+| `explicacion` | `"Ante ataque de monstruo rival de Nivel 8 o menos, envía la carta superior del Deck al Cementerio y previene daño de batalla de ese turno; puede implicar pérdida de LP adicional."` |
+| `clase` | `"AUTONOMA_CONDICIONAL"` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
+| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
+| `prueba_presencial` | `"NO_REALIZADA"` |
+| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+
+**Registro 2**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `cid` | `15913` |
+| `nombre` | `"おとしあな 落とし穴"` |
+| `zona` | `"Main"` |
+| `proposito` | `"DESTRUCCION_EN_RESPUESTA"` |
+| `explicacion` | `"Trampa al Invocar Normalmente monstruo rival de ATK 1000 o más; destruye ese monstruo si la activación y resolución son legales."` |
+| `clase` | `"INTERRUPCION_AUTONOMA"` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
+| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
+| `prueba_presencial` | `"NO_REALIZADA"` |
+| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 705 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_11_DECKS_A01_A10_V14","fecha":"2026-11-14"}`
+
+**Colecci?n:** `decks`
+
+**Registro 8**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `formato` | `"RUSH"` |
+| `motor` | `"Royal Rebel Fiend y la Skill Hard Rock Overture: Phaser revive Nivel7+ Fiend desde GY si controlas otro Fiend Nivel7+; revivir NO es Invocación por Tributo."` |
+| `ir_primero` | `["Revisa la condición de la Skill por turno: Overture no se aplica indiscriminadamente en tu primer turno.","Busca establecer un Fiend Nivel7+ propio sin asumir que el Boss recién revivido cumple efectos “si fue Invocado por Tributo”.","Evita tirar todas las copias de bosses al GY sin plan real de Phaser/recuperación."]` |
+| `ir_segundo` | `["Si controlas un jefe Nivel7+ y hay otro en GY, Phaser puede enviar a sí mismo y traer el segundo en Defensa, preparando materiales para Tributo posterior.","No declares efecto potente de Deathdoom/Heavy Metal si el texto requiere Invocación por Tributo y llegó Especial por Phaser.","Frente a un campo de defensa, decide si usar Skill para romper posición o preservar cuerpos para Tributos."]` |
+| `respuestas_interrupcion` | `[{"evento":"Jefe removido antes de Phaser","respuesta":"Si ya no controlas Fiend Nivel7+ al activar, Phaser pierde condición."},{"evento":"Objetivo removido del GY","respuesta":"No declares revivir al jefe si sale del GY antes de la resolución."},{"evento":"Skill fuera de ventana","respuesta":"Hard Rock Overture no es un efecto reusable de carta Main; verifica turno y estado."}]` |
+| `decisiones` | `[{"decision":"¿Revivir jefe o tributar?","criterio":"Phaser revive en Defensa y no es Tribute Summon; si necesitas efecto al tributar, usa una Invocación por Tributo real."},{"decision":"¿Cuándo usar Skill?","criterio":"Conoce primero qué monstros quedan en campo y en GY y si se cumple turno habilitado; no actives por reflejo."}]` |
+| `practica` | `[{"id":"705:PRACTICA:V14:1"},{"id":"705:PRACTICA:V14:2"},{"id":"705:PRACTICA:V14:3"}]` |
+| `mejora_sin_aplicar` | `["Destacar en las guías una alerta para todos los bosses: “invocado por Tributo” ≠ “por Phaser”.","No mostrar probabilidades de Phaser+Boss como endboard garantizado: requieren dos zonas de estado diferentes."]` |
+| `side_y_reserva` | `"Rush sin Side; cualquier reemplazo en Main es propuesta pendiente de permiso."` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 705 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_PROBABILIDADES_EXACTAS_V14","fecha":"2026-11-14","modelo":"Extracción hipergeométrica sin reemplazo. TCG 5 y Rush 4 cartas iniciales; ninguna Skill, Extra, Side ni Reserva se roba."}`
+
+**Colecci?n:** `indicadores`
+
+**Registro 16**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `formato` | `"RUSH"` |
+| `deck_size` | `30` |
+| `mano_inicial` | `4` |
+| `indicador` | `"Royal Rebel Phaser"` |
+| `grupos_cid` | `[[16330]]` |
+| `probabilidad_exacta` | `0.35960591133004927` |
+| `porcentaje` | `35.961` |
+| `nota` | `"Revive del GY sólo si ya controlas Fiend Nivel7+."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+**Registro 17**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `705` |
+| `deck` | `"Royal Rebel Rush"` |
+| `formato` | `"RUSH"` |
+| `deck_size` | `30` |
+| `mano_inicial` | `4` |
+| `indicador` | `"Phaser + algún jefe Fiend7+"` |
+| `grupos_cid` | `[[16330],[16344,15441,19761]]` |
+| `probabilidad_exacta` | `0.21328224776500637` |
+| `porcentaje` | `21.328` |
+| `nota` | `"El jefe debe llegar al campo y el otro al GY; no es invocación por tributo."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 705 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_A06_370_EVALUACION_FUNCIONAL_ANCLADA_V22","fecha":"2026-11-15","total":370,"con_texto_oficial_recuperado":370,"porcentaje_cotejo_fuente":100,"relaciones_con_documento":157,"revision_editorial_anterior":162,"pendientes_editoriales":208,"nota":"100% de cartas con función anclada en texto oficial, aunque solo 162/370 recibieron cotejo editorial específico previo."}`
+
+**Colecci?n:** `fichas`
+
+**Registro 317**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:16344"` |
+| `deck_id` | `705` |
+| `cid` | `16344` |
+| `nombre` | `"せいせんきケーロン 星戦騎ケーロン"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2"` |
+| `huella_texto_oficial` | `"043a158b"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · PRESION_LP · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:082","A06:REL:083","A06:REL:084","A06:REL:085","A06:REL:087"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 318**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:16330"` |
+| `deck_id` | `705` |
+| `cid` | `16330` |
+| `nombre` | `"ロイヤルデモンズ・フェイザー ロイヤルデモンズ・フェイザー"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2"` |
+| `huella_texto_oficial` | `"e10a7443"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."}]` |
+| `conexiones_concretas` | `["A06:REL:035","A06:REL:036","A06:REL:067"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 319**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:19760"` |
+| `deck_id` | `705` |
+| `cid` | `19760` |
+| `nombre` | `"むぼうのカルドサック 無貌のカルドサック"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2"` |
+| `huella_texto_oficial` | `"d1acade8"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:066","A06:REL:085","A06:REL:086"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 320**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:16331"` |
+| `deck_id` | `705` |
+| `cid` | `16331` |
+| `nombre` | `"ロイヤルデモンズ・デスドゥーム ロイヤルデモンズ・デスドゥーム"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2"` |
+| `huella_texto_oficial` | `"fe5adb36"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · TRIBUTO · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `["A06:REL:065","A06:REL:066","A06:REL:067","A06:REL:088"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 321**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:15441"` |
+| `deck_id` | `705` |
+| `cid` | `15441` |
+| `nombre` | `"ロイヤルデモンズ・ヘヴィメタル ロイヤルデモンズ・ヘヴィメタル"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2"` |
+| `huella_texto_oficial` | `"a4cc07cd"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · TRIBUTO · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:035","A06:REL:082","A06:REL:089"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 322**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:19761"` |
+| `deck_id` | `705` |
+| `cid` | `19761` |
+| `nombre` | `"ロイヤルデモンズ・プログレッシブ ロイヤルデモンズ・プログレッシブ"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2"` |
+| `huella_texto_oficial` | `"396fde4f"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · TRIBUTO"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
+| `conexiones_concretas` | `["A06:REL:036","A06:REL:083"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 323**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:16135"` |
+| `deck_id` | `705` |
+| `cid` | `16135` |
+| `nombre` | `"ティタンのまつえい ティタンの末裔"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2"` |
+| `huella_texto_oficial` | `"e6e68db1"` |
+| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
+| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
+| `conexiones_concretas` | `["A06:REL:081"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 324**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:17721"` |
+| `deck_id` | `705` |
+| `cid` | `17721` |
+| `nombre` | `"トレード・イン トレード・イン"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2"` |
+| `huella_texto_oficial` | `"aca61129"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `["A06:REL:065"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 325**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:15673"` |
+| `deck_id` | `705` |
+| `cid` | `15673` |
+| `nombre` | `"まじんのねっぷう 魔人の熱風"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2"` |
+| `huella_texto_oficial` | `"c21a62fb"` |
+| `funcion_concreta_en_inventario` | `"REMOCION_POR_RETORNO"` |
+| `justificacion_por_texto` | `[{"clave":"RETORNO_A_MANO","rol":"REMOCION_POR_RETORNO","alcance":"Devuelve a mano solo el objetivo autorizado; no equivale a destruir."}]` |
+| `conexiones_concretas` | `["A06:REL:084"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 326**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:17543"` |
+| `deck_id` | `705` |
+| `cid` | `17543` |
+| `nombre` | `"てふだぞうさつ 手札増刷"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2"` |
+| `huella_texto_oficial` | `"6583d981"` |
+| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 327**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:21007"` |
+| `deck_id` | `705` |
+| `cid` | `21007` |
+| `nombre` | `"こうこうのじゅばく 昂光の呪縛"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2"` |
+| `huella_texto_oficial` | `"32af0535"` |
+| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `["A06:REL:089"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 328**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:18646"` |
+| `deck_id` | `705` |
+| `cid` | `18646` |
+| `nombre` | `"バッファード・スライム バッファード・スライム"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
+| `huella_texto_oficial` | `"0de43117"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 329**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:19799"` |
+| `deck_id` | `705` |
+| `cid` | `19799` |
+| `nombre` | `"キングス・グリード キングス・グリード"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2"` |
+| `huella_texto_oficial` | `"41803961"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `["A06:REL:086","A06:REL:087"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 330**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:15913"` |
+| `deck_id` | `705` |
+| `cid` | `15913` |
+| `nombre` | `"おとしあな 落とし穴"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
+| `huella_texto_oficial` | `"28959c9e"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 331**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:15674"` |
+| `deck_id` | `705` |
+| `cid` | `15674` |
+| `nombre` | `"キングス・ディグニティ キングス・ディグニティ"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2"` |
+| `huella_texto_oficial` | `"b3f4dee7"` |
+| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION"` |
+| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."}]` |
+| `conexiones_concretas` | `["A06:REL:081"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 332**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"705:CARD:16305"` |
+| `deck_id` | `705` |
+| `cid` | `16305` |
+| `nombre` | `"ししゃてんせい 死者転生"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2"` |
+| `huella_texto_oficial` | `"72689ecc"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."}]` |
+| `conexiones_concretas` | `["A06:REL:088"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |

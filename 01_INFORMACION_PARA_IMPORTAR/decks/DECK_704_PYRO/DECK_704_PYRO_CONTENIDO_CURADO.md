@@ -710,3 +710,728 @@ Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias 
 - Decisiones A08 que mencionan CID fuera del inventario: **0**; fotos A09 con CID ajeno: **0**; rutas de fotografía ausentes: **0**. Los casos requieren revisión contextual antes de clasificarlos como error de juego.
 - Hallazgos estructurales a tratar: **ninguno en los controles de existencia y conteo**.
 - Próxima ejecución IA prioritaria: cotejar texto completo y materiales de cada enlace, cerrar condiciones A07/A09, separar rutas verdaderas de interacciones y actualizar estados individuales en el único registro global. No se autoriza modificar las listas ni publicar resultados en Station X.
+
+<!-- ESCENARIOS_DOCUMENTALES_CONSOLIDADOS_704 -->
+### Escenarios documentales y bloqueos por carta
+
+Evidencia documental hist?rica conservada con sus identificadores y estados originales; no constituye una prueba de motor ni de mesa. Los valores mantienen sus nombres de origen para preservar condiciones, referencias y pendientes.
+
+**Datos del conjunto:** `{"schema":"station-x-scenario-contract/1","deck_id":704,"deck":"Pyro Rush"}`
+
+**704:COBERTURA:MAIN:17285:E05:ESCENARIO ? Germalewe**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:17285:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:17285"` |
+| `cid` | `17285` |
+| `card_name` | `"Germalewe"` |
+| `zone` | `"main"` |
+| `quantity` | `3` |
+| `image` | `"imagenes/rush/17285.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado.."` |
+| `scenario` | `{"initial_condition":"No tiene efecto..","action":"Invocar o utilizar como material únicamente por las reglas y cartas que lo permitan; no activar un efecto propio inexistente","expected_outcome":"Monstruo Normal; recurso para sacrificar o emplear como material..","risk_and_counterexample":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..","skill_gate":"**ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «No tiene efecto..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"RECURSO_O_MATERIAL_SIN_EFECTO"` |
+| `acceptance` | `{"given":"No tiene efecto..","when":"Se usa Germalewe como cuerpo/material, sin declarar efecto propio","then":"Monstruo Normal; recurso para sacrificar o emplear como material..","negative_test":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:16171:E05:ESCENARIO ? Fuego Ardiente**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:16171:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:16171"` |
+| `cid` | `16171` |
+| `card_name` | `"Fuego Ardiente"` |
+| `zone` | `"main"` |
+| `quantity` | `3` |
+| `image` | `"imagenes/rush/16171.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — apoyo situacional sujeto a condición escrita.."` |
+| `scenario` | `{"initial_condition":"Controlar dos o más monstruos Piro boca arriba..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..","risk_and_counterexample":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Controlar dos o más monstruos Piro boca arriba..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Controlar dos o más monstruos Piro boca arriba..","when":"Se intenta la acción de Fuego Ardiente","then":"Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..","negative_test":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:18646:E05:ESCENARIO ? Gelatina Defensiva**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:18646:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:18646"` |
+| `cid` | `18646` |
+| `card_name` | `"Gelatina Defensiva"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/18646.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla.."` |
+| `scenario` | `{"initial_condition":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Cuando un monstruo rival de Nivel 8 o inferior declara ataque..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","when":"Se intenta la acción de Gelatina Defensiva","then":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:19700:E05:ESCENARIO ? Amparo del Protector Estelar**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:19700:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:19700"` |
+| `cid` | `19700` |
+| `card_name` | `"Amparo del Protector Estelar"` |
+| `zone` | `"main"` |
+| `quantity` | `2` |
+| `image` | `"imagenes/rush/19700.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta de Trampa Normal — presión de combate / modificación de estadísticas.."` |
+| `scenario` | `{"initial_condition":"En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..","risk_and_counterexample":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"**ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..","when":"Se intenta la acción de Amparo del Protector Estelar","then":"El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..","negative_test":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:16776:E05:ESCENARIO ? Parar la Defensa**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:16776:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:16776"` |
+| `cid` | `16776` |
+| `card_name` | `"Parar la Defensa"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/16776.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — presión de combate / modificación de estadísticas.."` |
+| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Parar la Defensa","then":"Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:17926:E05:ESCENARIO ? Gobernante de las Llamas**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:17926:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:17926"` |
+| `cid` | `17926` |
+| `card_name` | `"Gobernante de las Llamas"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/17926.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Monstruo de Efecto — extensor / habilitador de material.."` |
+| `scenario` | `{"initial_condition":"No necesita activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «No necesita activación..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"No necesita activación..","when":"Se intenta la acción de Gobernante de las Llamas","then":"Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+**704:COBERTURA:MAIN:16372:E05:ESCENARIO ? Olla de la Codicia**
+
+| Campo | Valor conservado |
+|---|---|
+| `id` | `"704:COBERTURA:MAIN:16372:E05:ESCENARIO"` |
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `case_id` | `"704:COBERTURA:MAIN:16372"` |
+| `cid` | `16372` |
+| `card_name` | `"Olla de la Codicia"` |
+| `zone` | `"main"` |
+| `quantity` | `1` |
+| `image` | `"imagenes/rush/16372.png"` |
+| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
+| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
+| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba dos cartas..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
+| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
+| `a04` | `"Usar imagen real por CID y vincular fuente"` |
+| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
+| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
+| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
+| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
+| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
+| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
+| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
+| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Olla de la Codicia","then":"Roba dos cartas..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
+| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 704 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_11_DECKS_A01_A10_V14","fecha":"2026-11-14"}`
+
+**Colecci?n:** `decks`
+
+**Registro 7**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `formato` | `"RUSH"` |
+| `motor` | `"Rush Pyro: Hyperassistant Ember puede enviarse del campo al GY para traer un Piro Nivel7+ desde mano SI el rival controla monstruo; Chemicized Salamandra es objetivo real."` |
+| `ir_primero` | `["Sin monstruo rival, Hyperassistant Ember no ofrece Special Summon propio: no presentes una Salamandra gratis.","Guarda un jefe de la mano para Tributo si puedes reunir cuerpos Rush; el plan de Ember de turno posterior depende de supervivencia.","Fusión de Pyro solo con materiales efectivamente reunidos; no forzar Archer o Salamandra por título de ruta sin comprobar cartas."]` |
+| `ir_segundo` | `["Con rival controlando un monstruo y Chemicized Salamandra en mano, Ember pasa de campo a GY y trae jefe; si Superassistant está en GY, gana 800 ATK según texto.","Selecciona correctamente si quieres perforar defensa o evitar atacar un monstruo de ATK superior, no supongas el daño antes de declarar batalla.","En Rush puedes normal-summonar repetidamente monstruos pequeños; cuenta Tributaciones para Nivel7+ y zonas ocupadas."]` |
+| `respuestas_interrupcion` | `[{"evento":"Campo rival se vacía","respuesta":"Si el rival ya no controla monstruos en la ventana de activación, Hyperassistant no cumple condición."},{"evento":"Jefe no en mano","respuesta":"No puedes Especial desde Deck o GY por ese efecto si solo permite desde mano."},{"evento":"Superassistant no está en GY","respuesta":"El bono +800 no se aplica por estar en mano ni por “ser el arquetipo”."}]` |
+| `decisiones` | `[{"decision":"¿Invoco Ember ahora?","criterio":"Si rival aún no tiene monstruo, puede ser mejor conservarlo y usar Normales pequeñas para resistir."},{"decision":"¿Salamandra o Fusión?","criterio":"Salamandra inmediata al estar en mano y cumplir rival; Fusión pide materiales y carta Fusion, una inversión distinta."}]` |
+| `practica` | `[{"id":"704:PRACTICA:V14:1"},{"id":"704:PRACTICA:V14:2"},{"id":"704:PRACTICA:V14:3"}]` |
+| `mejora_sin_aplicar` | `["La Skill Rush es propia del deck: anotar siempre condición de turno antes de usarla.","No convertir una tasa de ver Ember en probabilidad de lograr su Invocación Especial."]` |
+| `side_y_reserva` | `"Rush: no hay Side listado. Dar alternativas solo como cambios propuestos, no partidas de sideado."` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 704 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_PROBABILIDADES_EXACTAS_V14","fecha":"2026-11-14","modelo":"Extracción hipergeométrica sin reemplazo. TCG 5 y Rush 4 cartas iniciales; ninguna Skill, Extra, Side ni Reserva se roba."}`
+
+**Colecci?n:** `indicadores`
+
+**Registro 14**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `formato` | `"RUSH"` |
+| `deck_size` | `30` |
+| `mano_inicial` | `4` |
+| `indicador` | `"Hyperassistant Ember"` |
+| `grupos_cid` | `[[19291]]` |
+| `probabilidad_exacta` | `0.35960591133004927` |
+| `porcentaje` | `35.961` |
+| `nota` | `"Su efecto depende de que el rival controle monstruo."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+**Registro 15**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `deck` | `"Pyro Rush"` |
+| `formato` | `"RUSH"` |
+| `deck_size` | `30` |
+| `mano_inicial` | `4` |
+| `indicador` | `"Hyperassistant + Chemicized Salamandra"` |
+| `grupos_cid` | `[[19291],[17868]]` |
+| `probabilidad_exacta` | `0.07407407407407407` |
+| `porcentaje` | `7.407` |
+| `nota` | `"Coincidencia de mano, no certifica que se cumpla condición rival."` |
+| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 704 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_A06_REEVALUACION_200_CARTAS_V26","fecha":"2026-11-15","criterio":"Lectura de texto oficial de 149 identidades distintas sobre 200 fichas; uso textual distinto de sinergia acreditada.","resumen":{"fichas_revisadas":200,"identidades_oficiales_unicas":149,"funcion_textual_detectada":200,"referencia_a_carta_del_mismo_deck":13,"registros_no_incluidos_de_los_214":14,"por_deck":{"650":24,"653":20,"656":29,"665":25,"670":33,"684":39,"687":25,"704":5}}}`
+
+**Colecci?n:** `fichas`
+
+**Registro 195**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `cid` | `18646` |
+| `nombre` | `"バッファード・スライム バッファード・スライム"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `114` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 196**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `cid` | `19700` |
+| `nombre` | `"きゅうせいぼうぎょ 救惺望御"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `192` |
+| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · CONTROL_DE_COMBATE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 197**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `cid` | `16776` |
+| `nombre` | `"『しゅび』ふうじ 『守備』封じ"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `44` |
+| `acciones_identificadas` | `[{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"CONTROL_POSICION","justificacion":"Cambia posición o depende de ella."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"SELECCION_OBJETIVO · CONTROL_POSICION"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 198**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `cid` | `15913` |
+| `nombre` | `"おとしあな 落とし穴"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `54` |
+| `acciones_identificadas` | `[{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"CONTROL_DE_COMBATE"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+**Registro 199**
+
+| Campo | Valor conservado |
+|---|---|
+| `deck_id` | `704` |
+| `cid` | `16372` |
+| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
+| `zona` | `"Main"` |
+| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
+| `texto_oficial_cotejado` | `true` |
+| `caracteres_texto` | `22` |
+| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
+| `referencias_a_cartas_del_mismo_deck` | `[]` |
+| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
+| `proposito_resumido` | `"ROBO"` |
+| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
+| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
+| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+
+
+<!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 704 -->
+### Evidencia documental por carta y decisiones del deck
+
+Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan los campos, estados, l?mites y pendientes tal como fueron registrados; son evidencia hist?rica y no acreditan pruebas de motor o mesa.
+
+**Metadatos de origen:** `{"schema":"STATION_X_A06_370_EVALUACION_FUNCIONAL_ANCLADA_V22","fecha":"2026-11-15","total":370,"con_texto_oficial_recuperado":370,"porcentaje_cotejo_fuente":100,"relaciones_con_documento":157,"revision_editorial_anterior":162,"pendientes_editoriales":208,"nota":"100% de cartas con función anclada en texto oficial, aunque solo 162/370 recibieron cotejo editorial específico previo."}`
+
+**Colecci?n:** `fichas`
+
+**Registro 300**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:15204"` |
+| `deck_id` | `704` |
+| `cid` | `15204` |
+| `nombre` | `"かんつう！ 貫通！"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2"` |
+| `huella_texto_oficial` | `"3ff4e2e2"` |
+| `funcion_concreta_en_inventario` | `"PRESION_LP · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:080"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 301**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:17285"` |
+| `deck_id` | `704` |
+| `cid` | `17285` |
+| `nombre` | `"ジャーマレーベ ジャーマレーベ"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2"` |
+| `huella_texto_oficial` | `"d7b92735"` |
+| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
+| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
+| `conexiones_concretas` | `["A06:REL:064","A06:REL:079"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 302**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:17212"` |
+| `deck_id` | `704` |
+| `cid` | `17212` |
+| `nombre` | `"シークレットオーダー 潜入開始"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2"` |
+| `huella_texto_oficial` | `"cc9cf057"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:072"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 303**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:19291"` |
+| `deck_id` | `704` |
+| `cid` | `19291` |
+| `nombre` | `"ハイパーアシスタント・アーチ HPアシスタント・アーチ"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2"` |
+| `huella_texto_oficial` | `"3ea53fc2"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:033","A06:REL:034","A06:REL:062"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 304**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:18583"` |
+| `deck_id` | `704` |
+| `cid` | `18583` |
+| `nombre` | `"クロマトグラファガス クロマトグラファガス"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2"` |
+| `huella_texto_oficial` | `"4d746b17"` |
+| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
+| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
+| `conexiones_concretas` | `["A06:REL:062","A06:REL:072","A06:REL:073","A06:REL:074"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 305**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:17963"` |
+| `deck_id` | `704` |
+| `cid` | `17963` |
+| `nombre` | `"スーパーアシスタント・アーチ SPアシスタント・アーチ"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2"` |
+| `huella_texto_oficial` | `"bf23d43b"` |
+| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
+| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
+| `conexiones_concretas` | `["A06:REL:034","A06:REL:075","A06:REL:077"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 306**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:16934"` |
+| `deck_id` | `704` |
+| `cid` | `16934` |
+| `nombre` | `"フュージョン フュージョン"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2"` |
+| `huella_texto_oficial` | `"14af690f"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · ACCESO_FUSION"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
+| `conexiones_concretas` | `["A06:REL:063","A06:REL:064","A06:REL:078"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 307**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:16171"` |
+| `deck_id` | `704` |
+| `cid` | `16171` |
+| `nombre` | `"かえん 火炎"` |
+| `zona` | `[{"zona":"Main","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2"` |
+| `huella_texto_oficial` | `"37864ba9"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `["A06:REL:079"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 308**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:17868"` |
+| `deck_id` | `704` |
+| `cid` | `17868` |
+| `nombre` | `"ケミカライズ・サラマンダー ケミカライズ・サラマンダー"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2"` |
+| `huella_texto_oficial` | `"c906d46b"` |
+| `funcion_concreta_en_inventario` | `"COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:033","A06:REL:076"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 309**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:18646"` |
+| `deck_id` | `704` |
+| `cid` | `18646` |
+| `nombre` | `"バッファード・スライム バッファード・スライム"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
+| `huella_texto_oficial` | `"0de43117"` |
+| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · PRESION_LP"` |
+| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 310**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:19700"` |
+| `deck_id` | `704` |
+| `cid` | `19700` |
+| `nombre` | `"きゅうせいぼうぎょ 救惺望御"` |
+| `zona` | `[{"zona":"Main","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2"` |
+| `huella_texto_oficial` | `"d0578e12"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · ACCESO_FUSION · COMBATE · INTERACCION_CADENA"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 311**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:16776"` |
+| `deck_id` | `704` |
+| `cid` | `16776` |
+| `nombre` | `"『しゅび』ふうじ 『守備』封じ"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2"` |
+| `huella_texto_oficial` | `"bf3da108"` |
+| `funcion_concreta_en_inventario` | `"CONTROL_POSICIONES"` |
+| `justificacion_por_texto` | `[{"clave":"CAMBIO_POSICION","rol":"CONTROL_POSICIONES","alcance":"Cambia posición conforme a la condición sin asumir destrucción ni negación."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 312**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:15913"` |
+| `deck_id` | `704` |
+| `cid` | `15913` |
+| `nombre` | `"おとしあな 落とし穴"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
+| `huella_texto_oficial` | `"28959c9e"` |
+| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 313**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:17926"` |
+| `deck_id` | `704` |
+| `cid` | `17926` |
+| `nombre` | `"フレイム・ルーラー 炎を支配する者"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2"` |
+| `huella_texto_oficial` | `"1c55bb32"` |
+| `funcion_concreta_en_inventario` | `"ACCESO_NORMAL · TRIBUTO"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
+| `conexiones_concretas` | `["A06:REL:073"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 314**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:16372"` |
+| `deck_id` | `704` |
+| `cid` | `16372` |
+| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
+| `zona` | `[{"zona":"Main","copias":1}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
+| `huella_texto_oficial` | `"06517b03"` |
+| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
+| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
+| `conexiones_concretas` | `[]` |
+| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
+| `sinergia_no_inventada` | `true` |
+| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 315**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:19990"` |
+| `deck_id` | `704` |
+| `cid` | `19990` |
+| `nombre` | `"スーパーグラファガス・アーチャー SPグラファガス・アーチャー"` |
+| `zona` | `[{"zona":"Extra","copias":2}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2"` |
+| `huella_texto_oficial` | `"ed3b21f9"` |
+| `funcion_concreta_en_inventario` | `"COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:063","A06:REL:074","A06:REL:075","A06:REL:080"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+**Registro 316**
+
+| Campo | Valor conservado |
+|---|---|
+| `modal_id` | `"704:CARD:18614"` |
+| `deck_id` | `704` |
+| `cid` | `18614` |
+| `nombre` | `"アルケミカライズ・サラマンドラ アルケミカライズ・サラマンドラ"` |
+| `zona` | `[{"zona":"Extra","copias":3}]` |
+| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2"` |
+| `huella_texto_oficial` | `"6c80f06d"` |
+| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE"` |
+| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
+| `conexiones_concretas` | `["A06:REL:076","A06:REL:077","A06:REL:078"]` |
+| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
+| `sinergia_no_inventada` | `false` |
+| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
+| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
+| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
