@@ -1081,6 +1081,28 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 **Dictamen:** `VALIDO_CONDICIONAL` significa una secuencia documental conciliada con los efectos oficiales **solo bajo sus premisas**, no `PROBADO_EN_SIMULADOR` ni garantía frente a negaciones. Si falla un objetivo, material, coste, zona, límite por nombre, ventana o efecto previo, esa instancia es `NO_ACREDITADO` hasta rehacerla. Para una certificación externa serían necesarios mano exacta de cinco, turno/fase, cadenas, zonas, capturas y replay por ID. **A09 COMPLETA en alcance documental**; la validación de mesa queda expresamente no realizada. **A10 solo se ejecutará por petición siguiente.**
 
+### A09.8 — Cotejo estático A09 ↔ guía V42, sin calculadora (18-11-2026)
+
+**Método y alcance:** inspección local, de solo lectura, del HTML `guias/GUIA_VISUAL_A01_A10.html` frente a las doce rutas A09. Se verificaron identificadores de panel, número de pasos visibles, descripción de transferencia de zona y bloque de interrupción por paso. Esta comprobación **no ejecuta jugadas**, no prueba las reglas mediante motor ni compara los registros del editor de plataforma V40 con su importación.
+
+| Ruta A09 | Panel V42 | Pasos en ficha y guía | Transferencias de zona visibles | Ramas de interrupción visibles | Cotejo estructural |
+|---|---|---:|---:|---:|---|
+| C01 | `a10-c01` | 7 / 7 | 7 | 7 | COINCIDE |
+| C02 | `a10-c02` | 4 / 4 | 4 | 4 | COINCIDE |
+| C03 | `a10-c03` | 7 / 7 | 7 | 7 | COINCIDE |
+| C04 | `a10-c04` | 8 / 8 | 8 | 8 | COINCIDE |
+| C05 | `a10-c05` | 9 / 9 | 9 | 9 | COINCIDE |
+| C06 | `a10-c06` | 5 / 5 | 5 | 5 | COINCIDE |
+| C07 | `a10-c07` | 4 / 4 | 4 | 4 | COINCIDE |
+| C08 | `a10-c08` | 4 / 4 | 4 | 4 | COINCIDE |
+| C09 | `a10-c09` | 5 / 5 | 5 | 5 | COINCIDE |
+| C10 | `a10-c10` | 5 / 5 | 5 | 5 | COINCIDE |
+| C11 | `a10-c11` | 6 / 6 | 6 | 6 | COINCIDE |
+| C12 | `a10-c12` | 5 / 5 | 5 | 5 | COINCIDE |
+| **TOTAL** | **12 / 12** | **69 / 69** | **69** | **69** | **COBERTURA ESTRUCTURAL COMPLETA** |
+
+**Resultado limitado:** ningún panel ni paso ausente en este cotejo, y cada paso expone un movimiento y una interrupción. La presencia de texto **no equivale a igualdad semántica de cada coste/estado**, ni a representación correcta en el navegador. Quedan `PENDIENTE_DE_INTEGRACION` el cotejo **campo a campo** contra los datos del editor V40 y `PENDIENTE_DE_QA` la verificación de render e interacciones de A10. Ninguno de esos pendientes obliga a usar una calculadora; ambos requieren acceso a las superficies correspondientes y evidencia observable. **A09 sigue cerrada documentalmente**, sin elevar `VALIDO_CONDICIONAL` a jugada certificada.
+
 ## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
 **Estado visual vigente (V42, 18-11-2026):** `COMPLETA_DOCUMENTAL`; las doce guías G01–G12 corresponden a C01–C12 y los cuatro accesos EX-M01–EX-M04 no son nuevos combos. Desde V37 existen las 39 imágenes auténticas por CID (JPG o PNG, según cada carta); la guía HTML local y la publicación V40 constan en el seguimiento. Los antiguos marcadores fotográficos de las viñetas siguientes son una fotografía **del estado editorial previo a V37**, no faltantes actuales. La revisión textual de cada ruta A07/A09 permanece separada del cierre visual y no es prueba de partidas.
