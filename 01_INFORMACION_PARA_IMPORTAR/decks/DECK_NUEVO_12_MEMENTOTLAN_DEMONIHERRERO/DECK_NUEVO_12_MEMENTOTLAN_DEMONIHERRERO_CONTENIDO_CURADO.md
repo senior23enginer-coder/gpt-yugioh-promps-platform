@@ -497,6 +497,21 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 
 **Mecánicas presentes en 671:** Normal, Especial, Fusión, Enlace y Xyz; Sacrificio como coste o Invocación cuando corresponda. **NO_APLICA**: Skill Rush, Péndulo, Ritual y Sincronía propia (no hay cartas de esas clases en esta lista); la Sincronía de Tristaros en MC-X02 pertenece al rival Crystron, no al motor Memento. Side solo tras intercambio entre duelos; Reserva 0.
 
+### A07.F — Auditoría funcional de la calculadora (18-11-2026; continúa A07)
+
+**Evidencia de ingeniería, diferente de las 34 reglas oficiales documentadas:** en la rama `calculator-combo-strategy` de Station X se incorporó el manifiesto [cobertura A07 de Memento](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/calculator-combo-strategy/torneos_yugioh/assets/editorial/memento-a07-functional-coverage.json) con las **34 reglas R01–R34**, su capacidad requerida y el estado `DOCUMENTED_NOT_ENGINE_TESTED`. Se añadió la [regresión de cobertura](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/calculator-combo-strategy/torneos_yugioh/tests/memento_a07_coverage_test.cjs), accesible con `npm run test:a07:memento`. La comprobación aislada del adaptador realizada durante esta revisión devolvió **34/34 controles sin falso certificado**, **12/12 rutas sin replay acreditado** y rechazo verificable del operador inexistente `fusion` (`Operacion no implementada: fusion`). **No se atribuye ejecución de la suite npm completa ni prueba en navegador.**
+
+| Prioridad de implementación A07 | Capacidades requeridas | Controles relacionados y aceptación |
+|---|---|---|
+| **P0 — eventos, costes y cadenas** | Disparadores de invocación/destrucción/envío, diferencia coste/resolución, negación de eslabón, HOPT por nombre y conservación de costes | R02, R04, R05, R07, R13, R15, R21, R26, R32, R34; casos positivo/negativo con estado residual |
+| **P0 — Fusión, materiales y destinos** | Validación de nombres/tipos/niveles, mano/campo/GY, destrucción previa, barajado/destierro, invocación legal desde Extra y zonas | R06, R07, R14, R16, R19, R20, R23, R33; impedir resultados sin material exacto |
+| **P1 — selecciones, restricciones e historial** | Destrucción simultánea/objetivos variables, cinco nombres distintos, límite de turno, equipamiento, conteos de invocación del Extra por turno actual/anterior | R01, R03, R08, R09, R10, R11, R12, R17, R18, R22, R24, R27, R28, R29, R30, R31 |
+| **P1 — procedimientos y cálculos restantes** | Xyz/Superposición, materiales acoplados, efecto de daño con condición y segundo Normal | R21, R24, R25, R27, R33 |
+
+**Estado A07 funcional:** `EN_PROCESO / OPERADORES_PENDIENTES`. Ninguna de las 34 reglas puede avanzar a `ENGINE_TESTED` sin caso de entrada, activación, resolución, expectativa antes/después y resultado efectivo en el motor. El rechazo seguro de Fusión es una prueba de límite, **no una implementación de Fusión**. No usar una imagen o una ruta documentada como evidencia de efecto ejecutado. El inventario sigue 41/15/14/0.
+
+**Siguiente ejecución verificable:** implementar primero la semántica de eventos y costes/negaciones, después procedimientos completos de Fusión, y registrar por ID los tests que superen antes de mover estados. A09 queda pendiente de estas capacidades para replays de C01–C12.
+
 ### A07.1 — Tres ventanas de interrupción reales que no deben ocultarse
 
 1. **Ash a la búsqueda de Angbruja:** si niega la búsqueda, no está garantizado Tatsun en mano y **no continuar C01/C02/C03 fingiendo ese recurso**. Registrar el resto de la mano y recalcular.
