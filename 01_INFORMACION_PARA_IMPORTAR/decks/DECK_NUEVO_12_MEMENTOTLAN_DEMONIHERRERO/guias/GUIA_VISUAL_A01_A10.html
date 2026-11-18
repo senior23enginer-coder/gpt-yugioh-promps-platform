@@ -328,7 +328,7 @@
 <tr class="even">
 <td><strong>A02</strong> Planes y estilos</td>
 <td>PARCIAL AVANZADA</td>
-<td>Planes primero/segundo/medio/tardío; <strong>12 rutas documentales</strong>, 4 auditorías Extra, probabilidades teóricas y <strong>20 escenarios H01–H20</strong></td>
+<td>Planes primero/segundo/medio/tardío; <strong>12 rutas documentales</strong>, 4 auditorías Extra, probabilidades teóricas y <strong>24 escenarios H01–H24</strong></td>
 <td>Falta evidencia empírica de enfrentamientos; los casos de mano son ejercicios documentales</td>
 </tr>
 <tr class="odd">
@@ -358,20 +358,20 @@
 <tr class="odd">
 <td><strong>A07</strong> Reglas y cadenas</td>
 <td>PARCIAL AVANZADA</td>
-<td><strong>34 controles R01–R34</strong>, <strong>12 respuestas adversarias</strong> ancladas a pasos, <strong>6 desvíos</strong> y seis casos complementarios</td>
-<td>Cerrar por evidencia textual los casos de cadenas condicionales; ninguna partida física es obligación del análisis IA</td>
+<td><strong>34 controles R01–R34</strong>, <strong>12 respuestas adversarias</strong> ancladas a pasos, <strong>6 desvíos B01–B06</strong> y <strong>6 controles adicionales MEM-A01–06</strong></td>
+<td>Rulings excepcionales no resueltos por texto y respuestas rivales no enumeradas; ninguna partida física es obligación del análisis IA</td>
 </tr>
 <tr class="even">
 <td><strong>A08</strong> Estrategia y Side</td>
 <td>PARCIAL AVANZADA</td>
-<td><strong>34 prefichas</strong> clasificadas; <strong>5 planes Side</strong> exactos y alternativos</td>
-<td>Test hands reales y criterios de elección por matchup</td>
+<td><strong>34 prefichas</strong> clasificadas; <strong>5 planes Side</strong> exactos, alternativos y cotejados por conflicto con el motor</td>
+<td>Rendimiento empírico por matchup no disponible; criterios de entrada/salida documentados</td>
 </tr>
 <tr class="odd">
 <td><strong>A09</strong> Jugadas y manos</td>
 <td>PARCIAL AVANZADA</td>
-<td><strong>12 rutas C01–C12</strong>: <strong>9 familias + 3 variantes</strong>; 3 continuaciones, 4 auditorías Extra; <strong>20 escenarios H01–H20</strong>; 0 replays</td>
-<td>Resolver casos condicionales sin suponer piezas robadas o efectos rivales; contrastación de mesa opcional del usuario</td>
+<td><strong>12 rutas C01–C12</strong>: <strong>9 familias + 3 variantes</strong>; 3 continuaciones, 4 auditorías Extra; <strong>24 escenarios H01–H24</strong>; 0 replays</td>
+<td>Resolver otros estados de manos/objetivos sin asumir cartas inexistentes; contrastación de mesa opcional del usuario</td>
 </tr>
 <tr class="even">
 <td><strong>A10</strong> Guías visuales</td>
@@ -1483,7 +1483,50 @@
 <li><strong>MEMD-B05 · Infinito Temporal niega Secuencia en C10.</strong> Después de preparar Grabador y destruir Goblin de mano con Fiesta, Desvantasma recupera Angbruja; Grabador+Desvantasma se convierten en Secuencia. El rival aplica <strong>Infinito Temporal</strong> legalmente a <strong>Secuencia boca arriba en campo</strong> antes de que resuelva su efecto de fusionar. <strong>Estado:</strong> Secuencia en campo, Angbruja recuperada en mano; Grabador+Goblin+Desvantasma en GY; la Normal inicial ya fue consumida. <strong>Sin Duque no hay Normal adicional</strong>; no Invocar Angbruja nuevamente ni devolver materiales al Deck.</li>
 <li><strong>MEMD-B06 · Llamado por la Tumba detiene Horn en C12.</strong> Fiesta <strong>ya destruyó</strong> Horn e Invocó Hoja del Deck. El efecto de Horn se activó desde GY y el rival encadenó <strong>Llamado por la Tumba</strong> válido, seleccionando Horn en GY. Si resuelve, destierra Horn y niega sus efectos del mismo nombre: <strong>no destruye</strong> Angbruja ni las dos cartas rivales. <strong>Campo propio:</strong> Angbruja+Hoja; <strong>GY</strong> contiene los otros Memento enviados y Fiesta, Horn está <strong>desterrado</strong>. No registrar retirada doble ni dejar Horn simultáneamente en GY y destierro.</li>
 </ul>
-<p><strong>B01–B06 son respuestas al corte de una ruta padre, no aperturas nuevas ni seis «combos» adicionales.</strong> Quedan listas para mostrar justo debajo del paso anclado en la guía visual; fotos no disponibles y verificaciones de cadenas siguen pendientes.</p>
+<p><strong>B01–B06 son respuestas al corte de una ruta padre, no aperturas nuevas ni seis «combos» adicionales.</strong> Quedan listas para mostrar justo debajo del paso anclado en la guía visual; las fotografías ya están completas y las cadenas descritas siguen siendo verificaciones documentales, no partidas ejecutadas.</p>
+<h3 id="a074--seis-verificaciones-de-cadena-y-posición-tras-robar-piezas-del-motor">A07.4 — Seis verificaciones de cadena y posición tras robar piezas del motor</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Control / ruta afectada</th>
+<th>Orden, coste y zona real</th>
+<th>Resultado y límite</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>MEM-A01 · C04: Droll tras buscar Tatsun</strong></td>
+<td>CL1 Angbruja buscó Tatsun; <strong>después</strong> de resolver esa adición el rival puede activar Droll en su ventana. Tatsun puede Invocarse y destruirse, Desvantasma puede Invocarse del GY; pero <strong>Maza no puede añadir Fusión del Deck</strong> mientras dure Droll.</td>
+<td>Con <strong>solo Angbruja</strong> inicial, C04 pierde su Fusión y no acredita doble jefe. Si Fusión estaba <strong>ya</strong> en mano, reconstruir la ruta con ese recurso explícito; no inventar una segunda búsqueda.</td>
+</tr>
+<tr class="even">
+<td><strong>MEM-A02 · C04/C05: Desvantasma fue robada</strong></td>
+<td>Solo hay <strong>una</strong> Desvantasma Main. Tatsun no puede enviarla desde Deck cuando ya está en mano; tampoco se activa su autorresurrección por estar simplemente en mano.</td>
+<td>C04/C05 <strong>literales</strong> se interrumpen en el envío previsto; puede existir otro itinerario (H24) que use nombres diferentes. No declarar automáticamente brick ni el resultado original.</td>
+</tr>
+<tr class="odd">
+<td><strong>MEM-A03 · C01/C04: Maza ya está en mano</strong></td>
+<td>Maza Main ×1 ya no es objetivo válido para enviar <strong>desde Deck</strong>. En C01, después de Fusionar, Rey puede enviar <strong>005 + Goblin + Horn</strong> si permanecen en Deck; los nombres previos Tatsun/Angbruja/Desvantasma/Dormiveja siguen en GY.</td>
+<td>Con seis nombres ajenos a 005 en GY, barajar cinco para Invocar el 5000 sigue siendo posible. <strong>Maza queda en mano</strong>; su efecto de descarte/robo de control tiene su propia ventana y no se atribuye como ejecutado. Véase H21.</td>
+</tr>
+<tr class="even">
+<td><strong>MEM-A04 · C03/C09: Grabador robado</strong></td>
+<td>Réquiem se sacrifica para Invocar <strong>Grabador desde mano o Deck</strong>; si su única copia estaba en mano, no puede salir <strong>del Deck</strong>, pero su Invocación <strong>desde mano</strong> satisface el propio texto de Réquiem. Después, equipar Réquiem exige Grabador LUZ Demonio no Link en Campo.</td>
+<td>C03 puede adaptarse en ese punto cuando el rival presenta un monstruo seleccionable. No ejecutar el envío de Grabador si falta el equipo o el objetivo rival. <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&amp;ope=2&amp;request_locale=en">Texto oficial Réquiem</a>.</td>
+</tr>
+<tr class="odd">
+<td><strong>MEM-A05 · C07: Droll y efecto de Quimera</strong></td>
+<td>Quimera fue Fusion Invocada con <strong>2 materiales de Campo + 1 de mano</strong>; su efecto intenta primero <strong>robar 1</strong> y <strong>si lo hace</strong>, destruir cartas rivales por los materiales de Campo.</td>
+<td>Si Droll ya prohíbe robar del Deck, <strong>no</strong> se acredita el robo ni la destrucción dependiente; el cuerpo de Quimera permanece si la Invocación fue válida. El texto no autoriza invertir el orden. <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&amp;ope=2&amp;request_locale=en">Texto oficial Quimera</a>.</td>
+</tr>
+<tr class="even">
+<td><strong>MEM-A06 · EX-M01/02/03/04: salidas excluyentes</strong></td>
+<td>Dragostapelia exige Fusión <strong>Colocada en un turno anterior</strong> más Rey+monstruo OSCURIDAD válidos; TY-PHON requiere dos Invocaciones Extra rivales y superponer sobre tu monstruo propio de mayor ATK; Aero Tiburón, dos Nivel 3; César, <strong>dos Demonios Nivel 6 simultáneos</strong>.</td>
+<td>No adjudicar las cuatro salidas al tablero C01 ni consumir <strong>dos veces</strong> Rey, Grabador, Duque o los mismos materiales. Cada panel exige declarar <strong>momento, materiales libres y efecto rival</strong>; no son cuatro starters adicionales.</td>
+</tr>
+</tbody>
+</table>
+<p>Estos <strong>seis controles MEM-A</strong> completan comprobaciones de <strong>condiciones y alternativas</strong>, no se suman a R01–R34 ni sustituyen B01–B06. Una ventana que requiera fallo de cadena se registra con el estado real, no con el tablero objetivo de la ruta intacta.</p>
 <h2 id="apartado_08--decisiones-planes-y-side-deck">APARTADO_08 — Decisiones, planes y Side Deck</h2>
 <p><strong>Estado:</strong> <code>PARCIAL_AVANZADO</code>; <strong>34 decisiones/prefichas I01–I34</strong> por objetivo/estado/rol (I01–I12 iniciales, I13–I24 segunda pasada, I25–I34 tercera pasada). <strong>Interacción básica, starter, extensión, combo completo y plan</strong> se distinguen; ninguna fila se suma al contador A09 por sí sola. No se calculan tasas de victoria/matchup sin muestra. <strong>Main 41 / Side 14</strong> se mantienen como listas fuente; los intercambios son configuraciones hipotéticas entre duelos, <strong>no edición del inventario original</strong>.</p>
 <table>
@@ -1798,6 +1841,50 @@
 </tbody>
 </table>
 <p><strong>Cinco configuraciones alternativas completas, NO simultáneas:</strong> S01–S05 son <strong>2/2 o 3/3</strong> entradas/salidas de cartas reales del Side/Main, con Main siempre en 41. Si se mezclan dos planes, <strong>recalcular todas las entradas/salidas</strong> y respetar la cantidad física de cada carta; el Side fuente permanece 14. S03 exige considerar costes de <strong>una carta de mano o seis del Extra boca abajo POR objetivo</strong>: no remover tus cartas clave solo por ejecutar Gordiano. En S01/S02/S04, Droll propio puede inutilizar robos posteriores de Multivadoras; en S05, Lancea también obstaculiza tus destierros. Ningún intercambio convierte a una carta del Side en material de los combos originales C01–C12.</p>
+<h3 id="a083--validación-táctica-de-s01s05-antes-de-intercambiar">A08.3 — Validación táctica de S01–S05 antes de intercambiar</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Plan</th>
+<th>Evidencia de rival que justificaría la entrada</th>
+<th>Compromiso que asume Memento</th>
+<th>Si no existe esa evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S01, Fuwalos</strong></td>
+<td>El rival Invoca Especial repetidamente desde <strong>Deck/Extra</strong></td>
+<td>Sale Oleada ×2; Fuwalos necesita empezar con <strong>Campo propio vacío</strong> al activarse y solo roba si se cumple evento posterior.</td>
+<td>Con rival de Invocación desde mano, no atribuirle robos desde Deck/Extra que no ocurrieron.</td>
+</tr>
+<tr class="even">
+<td><strong>S02, Meowls</strong></td>
+<td>Rival Invoca desde <strong>GY o destierro</strong> en condiciones que disparan el efecto</td>
+<td>Salen tres Oleadas; Droll propio puede impedir tus robos posteriores, aunque la carta Side se haya activado legalmente.</td>
+<td>Si rival no invoca de esas zonas, conservar respuestas del Main sin fingir utilidad de Meowls.</td>
+</tr>
+<tr class="odd">
+<td><strong>S03, Rebanador Gordiano</strong></td>
+<td>Rival deja cartas <strong>boca arriba</strong> cuya retirada justifica el precio</td>
+<td>Por objetivo debes desterrar 1 carta de mano <strong>o 6 de Extra boca abajo</strong>; dos objetivos financiados solo con Extra consumirían <strong>12 de tus 15 cartas Extra</strong>.</td>
+<td>Sin blancos críticos o sin recursos para pagar, el coste puede destruir más rutas propias de las que abre; no calcular un beneficio neto ficticio.</td>
+</tr>
+<tr class="even">
+<td><strong>S04, Purulia</strong></td>
+<td>Rival depende de Invocar Especial <strong>desde la mano</strong></td>
+<td>Tres copias Side pasan a Main y tres Oleadas salen; requiere Campo propio vacío al activar, no supone tres robos.</td>
+<td>Contra un rival que solo invoca desde Extra/Deck, Fuwalos y otras respuestas del Main pueden tener condiciones más adecuadas.</td>
+</tr>
+<tr class="odd">
+<td><strong>S05, Lancea</strong></td>
+<td>Destierro rival relevante <strong>durante su turno</strong></td>
+<td>Lancea impide también tus destierros: Fusión desde GY, Llamado por la Tumba y otras continuaciones pueden detenerse.</td>
+<td>Si el oponente no usa destierro, no convertir la protección hipotética en mejora acreditada.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Estado Side:</strong> <strong>5/5 planes con cantidades exactas y decisión condicional descrita</strong>; falta medición en enfrentamientos realmente jugados. No se han movido las catorce cartas Side a la lista Main.</p>
 <h3 id="a082--puntos-ciegos-y-mejora-evaluable-sin-sustituir-cartas-aún">A08.2 — Puntos ciegos y mejora evaluable, sin sustituir cartas aún</h3>
 <ul>
 <li><strong>Riesgo de atasco:</strong> solo una copia de Grabador; si está en GY, el Réquiem de C03 no puede Invocarlo del Deck. Su búsqueda de M/T Demoniherrero carece de destino, así que no debe contarse como buscador funcional.</li>
@@ -3350,6 +3437,40 @@
 </tbody>
 </table>
 <p><strong>Balance transparente:</strong> <strong>20 escenarios H01–H20, 12 rutas C01–C12, 9 familias + 3 variantes, 4 pruebas de acceso EX-M01–EX-M04, 0 replays, 0 tasas medidas</strong>. Para declarar un combo <code>PROBADO_EN_SIMULADOR</code> se exigirá fecha, plataforma, mano exacta, chain links, zonas y resultado guardados en un registro independiente. No sumar manos de contingencia a combos nuevos.</p>
+<h3 id="a096--h21h24-cuatro-manos-completas-de-cinco-cartas-y-piezas-fuera-del-deck">A09.6 — H21–H24: cuatro manos completas de cinco cartas y piezas fuera del Deck</h3>
+<p>Ejercicios <strong>con cinco cartas concretas del Main de 41</strong>, sin simular robos reales ni presumir otras cartas. Todos los supuestos de rival y de disponibilidad del Deck se identifican; son <strong>adaptaciones de C01–C12</strong>, no combos nuevos.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Mano inicial de cinco</th>
+<th>Pasos y control de recursos</th>
+<th>Resultado legal si no hay otras respuestas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>H21 · Angbruja + Fusión + Maza + Flor de Ceniza + Oleada</strong>, primero</td>
+<td>Elegir <strong>motor y no Oleada</strong>. Hacer prefijo de C01: Angbruja busca Tatsun, Tatsun manda Desvantasma+Dormiveja, recuperar Dormiveja, Fusión con tres nombres a Rey. <strong>Maza ×1 está en mano:</strong> Rey envía <strong>Creación Combinada + Goblin + Dragón de Cuerno</strong> del Deck, no una Maza inexistente allí.</td>
+<td>Hay al menos <strong>seis nombres diferentes ajenos al jefe en GY</strong> (Tatsun, Angbruja, Desvantasma, Dormiveja, Goblin, Horn): barajar cinco para invocar 5000. <strong>Rey + Creación Combinada</strong>; Maza, Ash y Oleada permanecen en mano salvo acción real. Maza no se descarta automáticamente.</td>
+</tr>
+<tr class="even">
+<td><strong>H22 · Hoja Oscura + Fusión + Fusión + Droll + Goblin</strong>, primero</td>
+<td>En C05 literal harían falta <strong>dos Fusiones en Deck</strong>: solo queda <strong>una</strong>, porque dos están robadas. En vez de buscar dos, Normal Hoja → autodestruirse e Invocar Angbruja del Deck; buscar y Especial Tatsun → enviar <strong>Desvantasma + Dormiveja</strong>; Desvantasma revive y recupera Dormiveja; <strong>usar una Fusión ya en mano</strong> con Angbruja+Desvantasma de Campo y Dormiveja de mano. Rey envía <strong>005+Maza+Horn</strong> desde Deck.</td>
+<td>El GY contiene al menos <strong>Hoja, Tatsun, Angbruja, Desvantasma, Dormiveja, Maza y Horn</strong> (siete nombres distintos fuera de 005): barajar cinco permite 5000 junto a Rey. La <strong>segunda Fusión permanece en mano</strong> y no se activa automáticamente; Droll/Goblin no fueron materiales.</td>
+</tr>
+<tr class="odd">
+<td><strong>H23 · Angbruja + Grabador + Fiesta + Flor de Ceniza + Gotas</strong>, segundo; rival controla monstruo que Grabador puede seleccionar</td>
+<td>Angbruja busca Tatsun, ambos pasan a <strong>Luna→Réquiem</strong> como en C03. El único <strong>Grabador ya está en mano</strong>: sacrificar Réquiem para traerlo <strong>desde mano</strong>, equipar Réquiem desde GY y seleccionar equipo+monstruo rival para mandarlos al GY.</td>
+<td>Grabador queda en Campo tras esa retirada; no se concede búsqueda de M/T Demoniherrero inexistente. Si el rival carece de objetivo válido o retira equipo, <strong>no</strong> se acredita la eliminación. Fiesta, Ash y Gotas permanecen en mano salvo uso declarado.</td>
+</tr>
+<tr class="even">
+<td><strong>H24 · Angbruja + Fiesta + Desvantasma + Droll + Fuwalos</strong>, primero</td>
+<td>Desvantasma única está <strong>en mano</strong>, no disponible para envío desde Deck de C02. Buscar <strong>Creación Combinada</strong> con Angbruja; Fiesta destruye Angbruja e Invoca Tatsun desde Deck; Tatsun se autodestruye y envía <strong>Goblin Nivel 1 + Maza Nivel 1 + Dormiveja Nivel 3</strong> (suma exactamente <strong>5</strong>).</td>
+<td>En GY quedan <strong>Angbruja, Tatsun, Goblin, Maza y Dormiveja</strong> (cinco nombres): barajarlos para Especial Invocar <strong>005 desde mano</strong> como <strong>único monstruo de 5000</strong>. Desvantasma/Droll/Fuwalos iniciales siguen en mano; no atribuir su autorresurrección ni un Rey no Fusionado.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nuevo corte A09:</strong> <strong>24 manos H01–H24</strong>, <strong>12 rutas C01–C12</strong> (nueve familias y tres variantes), <strong>4 accesos condicionales Extra</strong>, <strong>6 desvíos B01–B06</strong> y <strong>6 controles MEM-A</strong>; <strong>0 replays acreditados</strong>. Las manos adicionales evidencian que robar una pieza de un solo ejemplar <strong>cambia el recorrido, pero no implica necesariamente quedar sin jugada</strong>.</p>
 <h3 id="a10--guiones-visuales-precisos-para-tres-rutas-prioritarias">A10 · Guiones visuales precisos para tres rutas prioritarias</h3>
 <p><strong>Panel V01 → G01/C01 · Primer turno, dos jefes (no negación):</strong></p>
 <ol type="1">

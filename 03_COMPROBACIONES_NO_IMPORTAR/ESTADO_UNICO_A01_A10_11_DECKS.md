@@ -1,5 +1,18 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Continuación focalizada A01–A10: Memento 671 y Crystron 677 — 17-11-2026
+
+**Ámbito:** únicamente las dos fichas de deck, sus guías visuales HTML autogeneradas desde el contenido canónico y este registro. Los 36 prompts y tres documentos base, 39 CIDs por deck, zonas, cantidades, cartas, imágenes, IDs C/V y evidencias de partidas **permanecen intactos**. Se trabajó contra los efectos oficiales y el inventario, sin consultar ni utilizar listas de construcción.
+
+| Eje / deck | Avance de esta pasada, comprobable en el contenido | Lo que todavía **no** se acredita |
+|---|---|---|
+| **Memento 671 · A07** | Seis verificaciones **MEM-A01–MEM-A06**: Droll tras Angbruja, Desvantasma robada, Maza robada, Grabador de mano por Réquiem, Quimera con robo bloqueado y condiciones excluyentes de EX-M01–04. Conserva **34 reglas R01–R34**, **12 respuestas** y **6 desvíos B01–B06**. | Otras cadenas, rulings excepcionales y estados de rival no planteados; las verificaciones textuales **no son replays**. |
+| **Memento 671 · A08/A09** | Cinco planes Side **S01–S05** contrastados con la interferencia sobre el motor; **H21–H24** añaden cuatro manos de **cinco cartas** que reencaminan Maza, Desvantasma, Grabador y Fusiones robadas. Total **24 manos H01–H24**; siguen **12 rutas** (9 familias, 3 variantes) y 4 accesos Extra condicionales. | Rendimiento medido en enfrentamientos, combinaciones no enumeradas del espacio de manos y validación física voluntaria. |
+| **Crystron 677 · A05/A06/A07** | Se conciliaron los marcadores obsoletos de imagen en la matriz **39/39** (fotos ya presentes). Cinco accesos Extra **ACC01–ACC05** describen estado, materiales y alternativa concreta; seis controles **CR-A01–CR-A06** detallan cadena Tristaros, destierro Citree, destrucción Elesqueletus, fallo de segunda Azufafnir, elección de Xyz Horus y acceso Extra condicionado. Se conservan **21 RGL** y **14 INT**. | Interacciones de varios eslabones no especificadas y disparadores que requieran aclaración de rulings; no asumir efectos tras cambio de ubicación. |
+| **Crystron 677 · A08/A09** | Seis planes Side **S01–S06** analizados por ventanas/conflictos propios; **H21–H24** contrastan Smiger robado, dos Azufafnir robados, Hapi robado y Citree única robada. Total **24 manos H01–H24**; siguen **7 rutas C01–C07**, **7 variantes V01–V07**, 5 Extra situacionales y **0 replays**. | Medición por matchup y acceso universal a S:P, Caballero Mecánico, F.A., Garura o Fangodragón; dependen del Campo y de los bloqueos reales. |
+
+**Criterio de cierre:** no convertir planes Side ni manos en «combos» adicionales; no convertir una coincidencia probabilística en victoria o validación de partida. La matrícula real sigue **Memento 41/15/14/0 y Crystron 40/15/15/0**, ambas con **70 copias**. Las guías HTML reflejan estos controles como estudio de consulta, sin nuevas rutas o nodos publicados. La sincronización Git **no** constituye importación en Station X; cualquier importación o prueba física posterior requiere su flujo propio.
+
 ## Conciliación puntual de Memento 671 y Crystron 677 — 17-11-2026
 
 **Alcance exclusivo:** `NUEVO_12` (Memento/Demoniherrero, ID confirmado **671**) y `NUEVO_13` (Cristron/Horus, ID confirmado **677**). Se corrigieron **las dos fichas canónicas** y se regeneró únicamente el bloque de estudio de **sus dos guías HTML** a partir de esas fichas, conservando galerías, rutas e IDs. Cero cartas, cantidades, zonas, Skills, identificadores de ruta y prompts alterados. Esta revisión **no** reimporta el nuevo contenido a Station X ni despliega el sitio: la importación/publicación V40 citada más abajo es una evidencia histórica previa.
