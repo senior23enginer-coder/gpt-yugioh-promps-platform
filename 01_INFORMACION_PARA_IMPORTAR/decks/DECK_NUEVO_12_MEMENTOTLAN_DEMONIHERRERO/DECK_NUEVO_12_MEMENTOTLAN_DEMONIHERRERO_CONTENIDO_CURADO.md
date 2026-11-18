@@ -24,7 +24,7 @@
 |---|---|---|---|
 | **A01** Rol y propósito | **COMPLETA — alcance documental del rol (18-11-2026)** | Identidad Memento principal y puente Demoniherrero subordinado; nueve familias/12 rutas documentadas; tres matchups y cuatro cadenas cruzadas vinculadas por ID; jerarquía de decisiones A01.1 | **Sin pendiente propio de definición de rol.** Legalidad causal y resultados de rutas se acreditan individualmente en A05–A09; sin replays ni tasa de victoria |
 | **A02** Planes y estilos | **COMPLETA — decisiones documentales (18-11-2026)** | Planes primero/segundo/medio/tardío y salida ante interrupciones enlazados a C01–C12, MC-X01–04, B01–B06; probabilidades exactas recalculadas; **24 ejercicios H01–H24**, de los cuales H21–H24 explicitan cinco cartas | **Sin pendiente propio de definición de planes**; ejecución causal de cada jugada y validación física siguen bajo A07–A09. No hay rendimiento empírico certificado |
-| **A03** Inventario | TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas**; ID 671 y formato registrados | Solo cotejar eventual autorización editorial adicional; conservar Side de 14 |
+| **A03** Inventario | **COMPLETA — INVENTARIO APROBADO POR MIGUEL (18-11-2026)** | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas**; ID 671, formato `tcg_advanced`; aprobación editorial expresa del propietario registrada | Sin pendientes propios de inventario; conservar Side de 14 y lista inmutable |
 | **A04** Identidad, CID y fotos | IMÁGENES CERRADAS V37; IMPORTACIÓN V40 REGISTRADA | 39/39 fotos auténticas por CID, 13 JPG + 26 PNG, sin cambios de inventario | No quedan fotos por obtener; verificar vínculos tras cualquier nueva regeneración |
 | **A05** Efectos y uso | PARCIAL AVANZADA | **39/39 funciones** en matriz; clasificación de 39/39 en cinco decisiones editoriales y seis riesgos de mano | Verificar variantes marginales y cartas de Side tras cambios |
 | **A06** Sinergias y Extra | PARCIAL AVANZADA | **39/39 filas**, **40 relaciones dirigidas**, 3 motores/puentes; **13/13 identidades Extra con materiales descritos**, varias condicionales | Contrastar en mesa los accesos menos útiles; resolver las interrupciones reales |
@@ -113,6 +113,14 @@ Mano de **cinco** cartas aleatorias sin reemplazo en Main de **41**, sin reorden
 ## APARTADO_03 — Inventario inmutable y aprobación
 
 La matriz A06 de abajo representa el **inventario íntegro** y constituye la única tabla por identidad para este deck: una carta que aparece en Main y Side solo ocupa una fila, con sus cantidades separadas. Los totales provienen de sumar las copias de cada zona; un espacio vacío del Side no es una carta no identificada. **25 monstruos + 16 mágicas = 41 Main**, 15 Extra, 14 Side y 0 Reserva; **39 identidades, 70 copias**, sin trampas Main ni Skill. Side de 14 no se rellena sin autorización.
+
+### A03.1 — Aprobación expresa y cierre (18-11-2026)
+
+**Aprobación del propietario:** Miguel Ángel Claros Quintero confirmó expresamente: «Sí, apruebo el inventario de Memento de 41 Main, 15 Extra y 14 Side. Cierra A03 y registra mi aprobación en el repositorio» (18-11-2026). Se registra como autorización editorial **de las cantidades y zonas existentes**, no como permiso para añadir, retirar o sustituir cartas ni importar cambios a Station X.
+
+**Cotejo final A03:** las 39 filas `MEMD-001`–`MEMD-039` de la matriz única A06.2 suman exactamente **Main 41 / Extra 15 / Side 14 / Reserva 0 = 70 copias**; **22 identidades Main, 13 Extra, 5 Side**, con Fuwalos repetido entre Main y Side, para **39 identidades distintas**. Las 39 tienen CID oficial documentado. No se inventa una decimoquinta carta de Side, no se tratan cartas de Side como disponibles en duelo 1 y no existe Skill. Se conservan las variantes de denominación registradas por CID. **Diferencia de copias entre A03 y matriz: 0.**
+
+**Dictamen `COMPLETA` para A03:** transcripción, identidad, compatibilidad mecánica documental por zona y aprobación física/editorial cumplidas. Las comprobaciones de efectos, materiales y rutas continúan en A05–A09 sin afectar este cierre. La siguiente tarea secuencial, solamente cuando Miguel la solicite, es **A04**.
 
 ## APARTADO_04 — Fuente, CID, zona e imágenes
 
