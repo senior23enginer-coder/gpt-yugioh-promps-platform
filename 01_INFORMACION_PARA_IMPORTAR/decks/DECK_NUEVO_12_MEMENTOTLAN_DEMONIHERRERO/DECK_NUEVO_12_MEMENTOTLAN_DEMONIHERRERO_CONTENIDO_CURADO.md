@@ -487,7 +487,7 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 2. **Ash al envío desde Deck de Tatsun:** su efecto incluye envío desde Deck a GY; si es negado no se acreditan Desvantasma/Dormiveja ni el conteo de cinco nombres. **La autodestrucción de Tatsun no es coste de activación**: está en la resolución del efecto; si Ash niega ese efecto y ninguna otra carta modifica el estado, **Tatsun sigue en campo**. Con Angbruja en campo puede cambiarse a **C08 (S:P)**, sin fingir el jefe.
 3. **Droll después de la primera adición:** no se puede añadir más del Main Deck a mano durante el resto del turno, pero **no convierte automáticamente una Invocación desde Deck en una adición**. C02 usa Fiesta para **Invocar** Tatsun, no para añadirlo; su condición debe revisarse en el momento de resolver.
 
-**Notas de confiabilidad:** cadenas simultáneas, requisitos de activación y qué ocurre ante negaciones específicas requieren estudiar el escenario exacto; no se marca `VALIDADO_POR_SIMULADOR`. El repertorio cubre controles **R01–R30**, no todos los fallos posibles contra todos los arquetipos.
+**Notas de confiabilidad:** cadenas simultáneas, requisitos de activación y qué ocurre ante negaciones específicas requieren estudiar el escenario exacto; no se marca `VALIDADO_POR_SIMULADOR`. El repertorio cubre **R01–R34** tras el complemento A07.0b; no pretende enumerar todos los fallos posibles contra todos los arquetipos.
 
 ### A07.2 — Respuestas adversarias vinculadas al paso exacto
 
