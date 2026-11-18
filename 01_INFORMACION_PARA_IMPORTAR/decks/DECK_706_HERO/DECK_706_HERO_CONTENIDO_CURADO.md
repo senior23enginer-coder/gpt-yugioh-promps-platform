@@ -795,227 +795,307 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **706:COBERTURA:MAIN:20461:E05:ESCENARIO ? Héroe Ascendente de Argen**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:20461:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:20461"` |
-| `cid` | `20461` |
-| `card_name` | `"Héroe Ascendente de Argen"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/20461.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Efecto — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido..","risk_and_counterexample":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"La Skill local **HERO RUSH RISING** puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..","when":"Se intenta la acción de Héroe Ascendente de Argen","then":"Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido..","negative_test":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:20461:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:20461
+- **cid:** 20461
+- **card name:** Héroe Ascendente de Argen
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/20461.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Efecto — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido..
+  - **risk and counterexample:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **skill gate:** La Skill local **HERO RUSH RISING** puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck..
+  - **when:** Se intenta la acción de Héroe Ascendente de Argen
+  - **then:** Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido..
+  - **negative test:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:16929:E05:ESCENARIO ? Inicio Reinicio**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:16929:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:16929"` |
-| `cid` | `16929` |
-| `card_name` | `"Inicio Reinicio"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/16929.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — recurso táctico cuya condición y resultado están descritos en su ficha.."` |
-| `scenario` | `{"initial_condition":"Colocar una carta de la mano al fondo del Deck..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio..","risk_and_counterexample":"la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material..","skill_gate":"La Skill local **HERO RUSH RISING** puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Colocar una carta de la mano al fondo del Deck..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Colocar una carta de la mano al fondo del Deck..","when":"Se intenta la acción de Inicio Reinicio","then":"Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio..","negative_test":"la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:16929:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:16929
+- **cid:** 16929
+- **card name:** Inicio Reinicio
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/16929.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — recurso táctico cuya condición y resultado están descritos en su ficha..
+- **scenario:**
+  - **initial condition:** Colocar una carta de la mano al fondo del Deck..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio..
+  - **risk and counterexample:** la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material..
+  - **skill gate:** La Skill local **HERO RUSH RISING** puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Colocar una carta de la mano al fondo del Deck..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Colocar una carta de la mano al fondo del Deck..
+  - **when:** Se intenta la acción de Inicio Reinicio
+  - **then:** Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio..
+  - **negative test:** la condición de una Mágica/Trampa y sus blancos deben cumplirse antes de resolver. No confundir esta carta con un monstruo ni usarla como material..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:20665:E05:ESCENARIO ? Descenso de Héroe**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:20665:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:20665"` |
-| `cid` | `20665` |
-| `card_name` | `"Descenso de Héroe"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/20665.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — extensor / habilitador de material.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Descenso de Héroe","then":"Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:20665:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:20665
+- **cid:** 20665
+- **card name:** Descenso de Héroe
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/20665.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — extensor / habilitador de material..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Descenso de Héroe
+  - **then:** Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:20151:E05:ESCENARIO ? Brillo Sombrío**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:20151:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:20151"` |
-| `cid` | `20151` |
-| `card_name` | `"Brillo Sombrío"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/20151.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..","when":"Se intenta la acción de Brillo Sombrío","then":"Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:20151:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:20151
+- **cid:** 20151
+- **card name:** Brillo Sombrío
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/20151.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..
+  - **when:** Se intenta la acción de Brillo Sombrío
+  - **then:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:20465:E05:ESCENARIO ? Circulación Elemental**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:20465:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:20465"` |
-| `cid` | `20465` |
-| `card_name` | `"Circulación Elemental"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/20465.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..","when":"Se intenta la acción de Circulación Elemental","then":"Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:20465:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:20465
+- **cid:** 20465
+- **card name:** Circulación Elemental
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/20465.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión..
+  - **when:** Se intenta la acción de Circulación Elemental
+  - **then:** Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:16358:E05:ESCENARIO ? Estrategia Mágica Aviar**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:16358:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:16358"` |
-| `cid` | `16358` |
-| `card_name` | `"Estrategia Mágica Aviar"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/rush/16358.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — removal / apertura de campo.."` |
-| `scenario` | `{"initial_condition":"Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio..","risk_and_counterexample":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..","when":"Se intenta la acción de Estrategia Mágica Aviar","then":"Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio..","negative_test":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:16358:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:16358
+- **cid:** 16358
+- **card name:** Estrategia Mágica Aviar
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/rush/16358.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — removal / apertura de campo..
+- **scenario:**
+  - **initial condition:** Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio..
+  - **risk and counterexample:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba..
+  - **when:** Se intenta la acción de Estrategia Mágica Aviar
+  - **then:** Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio..
+  - **negative test:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:15913:E05:ESCENARIO ? Agujero Trampa**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:15913:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:15913"` |
-| `cid` | `15913` |
-| `card_name` | `"Agujero Trampa"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/15913.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — interrupción defensiva de Invocación Normal.."` |
-| `scenario` | `{"initial_condition":"Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Destruye ese monstruo invocado..","risk_and_counterexample":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..","when":"Se intenta la acción de Agujero Trampa","then":"Destruye ese monstruo invocado..","negative_test":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:15913:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:15913
+- **cid:** 15913
+- **card name:** Agujero Trampa
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/15913.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — interrupción defensiva de Invocación Normal..
+- **scenario:**
+  - **initial condition:** Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Destruye ese monstruo invocado..
+  - **risk and counterexample:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK..
+  - **when:** Se intenta la acción de Agujero Trampa
+  - **then:** Destruye ese monstruo invocado..
+  - **negative test:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **706:COBERTURA:MAIN:16372:E05:ESCENARIO ? Olla de la Codicia**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"706:COBERTURA:MAIN:16372:E05:ESCENARIO"` |
-| `deck_id` | `706` |
-| `deck` | `"Hero Rush"` |
-| `case_id` | `"706:COBERTURA:MAIN:16372"` |
-| `cid` | `16372` |
-| `card_name` | `"Olla de la Codicia"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/16372.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_706_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba dos cartas..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Olla de la Codicia","then":"Roba dos cartas..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 706:COBERTURA:MAIN:16372:E05:ESCENARIO
+- **deck id:** 706
+- **deck:** Hero Rush
+- **case id:** 706:COBERTURA:MAIN:16372
+- **cid:** 16372
+- **card name:** Olla de la Codicia
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/16372.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_706_HERO/guias/DECK_706_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Roba dos cartas..
+  - **risk and counterexample:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** Considerar la Skill **HERO RUSH RISING** como recurso separado: enviar una carta propia del campo no es coste gratuito..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Olla de la Codicia
+  - **then:** Roba dos cartas..
+  - **negative test:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS A06_14_CARTAS_RUSH_REVISADAS_V27.json 706 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -1028,71 +1108,63 @@ Fuente hist?rica: `A06_14_CARTAS_RUSH_REVISADAS_V27.json`. Se preservan los camp
 
 **Registro 3**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `cid` | `20151` |
-| `nombre` | `"シャイニーシェイディー シャイニーシェイディー"` |
-| `zona` | `"Main"` |
-| `proposito` | `"DESCARTE_Y_CONTROL_POSICION"` |
-| `explicacion` | `"En turno rival tras invocación, enviar una carta de mano al Cementerio como requisito; cambia hasta dos monstruos de efecto boca arriba a Defensa boca abajo."` |
-| `clase` | `"INTERRUPCION_CON_COSTE"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **cid:** 20151
+- **nombre:** シャイニーシェイディー シャイニーシェイディー
+- **zona:** Main
+- **proposito:** DESCARTE_Y_CONTROL_POSICION
+- **explicacion:** En turno rival tras invocación, enviar una carta de mano al Cementerio como requisito; cambia hasta dos monstruos de efecto boca arriba a Defensa boca abajo.
+- **clase:** INTERRUPCION_CON_COSTE
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 4**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `cid` | `15913` |
-| `nombre` | `"おとしあな 落とし穴"` |
-| `zona` | `"Main"` |
-| `proposito` | `"DESTRUCCION_EN_RESPUESTA"` |
-| `explicacion` | `"Trampa al Invocar Normalmente monstruo rival de ATK 1000 o más; destruye ese monstruo si la activación y resolución son legales."` |
-| `clase` | `"INTERRUPCION_AUTONOMA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **cid:** 15913
+- **nombre:** おとしあな 落とし穴
+- **zona:** Main
+- **proposito:** DESTRUCCION_EN_RESPUESTA
+- **explicacion:** Trampa al Invocar Normalmente monstruo rival de ATK 1000 o más; destruye ese monstruo si la activación y resolución son legales.
+- **clase:** INTERRUPCION_AUTONOMA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 5**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `"Main"` |
-| `proposito` | `"ROBO_DIRECTO"` |
-| `explicacion` | `"Mágica Rush que roba dos cartas sin condición adicional en el texto; útil para consistencia."` |
-| `clase` | `"UTILIDAD_AUTONOMA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:** Main
+- **proposito:** ROBO_DIRECTO
+- **explicacion:** Mágica Rush que roba dos cartas sin condición adicional en el texto; útil para consistencia.
+- **clase:** UTILIDAD_AUTONOMA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 6**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `cid` | `21501` |
-| `nombre` | `"エレメンタルヒーロー　ヘリオスフィアー E・HERO ヘリオスフィアー"` |
-| `zona` | `"Extra"` |
-| `proposito` | `"FUSION_TRES_MATERIALES"` |
-| `explicacion` | `"Heliosphere requiere Sparkman, Avian y Burstinatrix, los tres inventariados en HERO Rush. Fusión y cuerpos aún necesitan estar disponibles; su efecto roba y puede destruir si roba monstruo."` |
-| `clase` | `"ACCESO_EXTRA_CONDICIONAL"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2"` |
-| `sinergia_demostrada` | `"MATERIALES_PRESENTES_PERO_ESTADO_INICIAL_PENDIENTE"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **cid:** 21501
+- **nombre:** エレメンタルヒーロー　ヘリオスフィアー E・HERO ヘリオスフィアー
+- **zona:** Extra
+- **proposito:** FUSION_TRES_MATERIALES
+- **explicacion:** Heliosphere requiere Sparkman, Avian y Burstinatrix, los tres inventariados en HERO Rush. Fusión y cuerpos aún necesitan estar disponibles; su efecto roba y puede destruir si roba monstruo.
+- **clase:** ACCESO_EXTRA_CONDICIONAL
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&amp;ope=2
+- **sinergia demostrada:** MATERIALES_PRESENTES_PERO_ESTADO_INICIAL_PENDIENTE
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 706 -->
@@ -1106,19 +1178,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 9**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `formato` | `"RUSH"` |
-| `motor` | `"Rising HERO Argento excava cuatro; puede incorporar normales nombrados por Fusión Warrior Lv6/7 mostrada. Avian+Burstinatrix y Fusion hacen Flame Wingman."` |
-| `ir_primero` | `["Con Argento+Fusion pero sin materiales, revela Flame Wingman y excavación real: solo completa la Fusión si obtiene los normales faltantes.","Si robaste Avian y Burstinatrix juntos, la Fusión directa V16 es determinista con Fusion sin necesidad de arriesgar excavación.","En el turno siguiente usa regla Rush de robar hasta cinco; no tratar 4 cartas de apertura como si fueran 5."]` |
-| `ir_segundo` | `["Usa Flame Wingman sobre monstruo al que pueda destruir en batalla y enviar al GY; el daño de su efecto no se inflige solo por invocarlo.","Si aparece otro Fusión disponible con materiales distintos, Argento debe revelar aquel cuyos normales concretos quieres buscar.","No usar una Skill que requiera un estado de LP/turno si falta condición; anótalo antes de Fusión."]` |
-| `respuestas_interrupcion` | `[{"evento":"Excavas sin materiales","respuesta":"No añades nada; los cuatro restantes van al fondo y Fusion queda en mano."},{"evento":"Solo aparece Avian","respuesta":"Puedes sumar uno y aún necesitas Burstinatrix por otra vía; no inventar el segundo."},{"evento":"Fusión sin monstruos boca arriba","respuesta":"Fusion normal Rush requiere materiales apropiados en campo para las variantes documentadas."}]` |
-| `decisiones` | `[{"decision":"¿Argento o Fusion directa?","criterio":"Si ya tienes materiales en mano, fusiona sin exponerte a excavación; si falta alguno, Argento es una búsqueda condicionada, no garantizada."},{"decision":"¿Qué Fusion mostrar?","criterio":"Solo uno Nivel6/7 Guerrero y que nombre materiales normales que sí estén en tu Main; no mostrar objetivo arbitrario."}]` |
-| `practica` | `[{"id":"706:PRACTICA:V14:1"},{"id":"706:PRACTICA:V14:2"},{"id":"706:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["Incluir en previsualización la lista REAL de 4 cartas excavadas y contar solo las nombradas.","Separar la Skill de los requisitos del Fusión, sin asumir que la Skill regala materiales."]` |
-| `side_y_reserva` | `"Rush no tiene Side inventariado; recomendaciones de consistencia (más búsquedas de normales) son ideas sin cambiar las cantidades."` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **formato:** RUSH
+- **motor:** Rising HERO Argento excava cuatro; puede incorporar normales nombrados por Fusión Warrior Lv6/7 mostrada. Avian+Burstinatrix y Fusion hacen Flame Wingman.
+- **ir primero:**
+  - Con Argento+Fusion pero sin materiales, revela Flame Wingman y excavación real: solo completa la Fusión si obtiene los normales faltantes.
+  - Si robaste Avian y Burstinatrix juntos, la Fusión directa V16 es determinista con Fusion sin necesidad de arriesgar excavación.
+  - En el turno siguiente usa regla Rush de robar hasta cinco; no tratar 4 cartas de apertura como si fueran 5.
+- **ir segundo:**
+  - Usa Flame Wingman sobre monstruo al que pueda destruir en batalla y enviar al GY; el daño de su efecto no se inflige solo por invocarlo.
+  - Si aparece otro Fusión disponible con materiales distintos, Argento debe revelar aquel cuyos normales concretos quieres buscar.
+  - No usar una Skill que requiera un estado de LP/turno si falta condición; anótalo antes de Fusión.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Excavas sin materiales
+    - **respuesta:** No añades nada; los cuatro restantes van al fondo y Fusion queda en mano.
+  - Detalle:
+    - **evento:** Solo aparece Avian
+    - **respuesta:** Puedes sumar uno y aún necesitas Burstinatrix por otra vía; no inventar el segundo.
+  - Detalle:
+    - **evento:** Fusión sin monstruos boca arriba
+    - **respuesta:** Fusion normal Rush requiere materiales apropiados en campo para las variantes documentadas.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Argento o Fusion directa?
+    - **criterio:** Si ya tienes materiales en mano, fusiona sin exponerte a excavación; si falta alguno, Argento es una búsqueda condicionada, no garantizada.
+  - Detalle:
+    - **decision:** ¿Qué Fusion mostrar?
+    - **criterio:** Solo uno Nivel6/7 Guerrero y que nombre materiales normales que sí estén en tu Main; no mostrar objetivo arbitrario.
+- **practica:**
+  - Detalle:
+    - **id:** 706:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 706:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 706:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - Incluir en previsualización la lista REAL de 4 cartas excavadas y contar solo las nombradas.
+  - Separar la Skill de los requisitos del Fusión, sin asumir que la Skill regala materiales.
+- **side y reserva:** Rush no tiene Side inventariado; recomendaciones de consistencia (más búsquedas de normales) son ideas sin cambiar las cantidades.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 706 -->
@@ -1132,35 +1231,39 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 18**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Rising HERO Argento"` |
-| `grupos_cid` | `[[20461]]` |
-| `probabilidad_exacta` | `0.35960591133004927` |
-| `porcentaje` | `35.961` |
-| `nota` | `"Revela Extra nivel6/7 Warrior Fusion y excava las siguientes cuatro."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Rising HERO Argento
+- **grupos cid:**
+  - Detalle:
+    - 20461
+- **probabilidad exacta:** 0.35960591133004927
+- **porcentaje:** 35.961
+- **nota:** Revela Extra nivel6/7 Warrior Fusion y excava las siguientes cuatro.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 19**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `706` |
-| `deck` | `"HERO Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Fusion + Avian + Burstinatrix"` |
-| `grupos_cid` | `[[16934],[20460],[20459]]` |
-| `probabilidad_exacta` | `0.016091954022988506` |
-| `porcentaje` | `1.609` |
-| `nota` | `"Los 3 en mano sí habilitan la Fusión base; cartas en Extra confirmadas."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 706
+- **deck:** HERO Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Fusion + Avian + Burstinatrix
+- **grupos cid:**
+  - Detalle:
+    - 16934
+  - Detalle:
+    - 20460
+  - Detalle:
+    - 20459
+- **probabilidad exacta:** 0.016091954022988506
+- **porcentaje:** 1.609
+- **nota:** Los 3 en mano sí habilitan la Fusión base; cartas en Extra confirmadas.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 706 -->
@@ -1174,343 +1277,578 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 333**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20460"` |
-| `deck_id` | `706` |
-| `cid` | `20460` |
-| `nombre` | `"エレメンタルヒーロー　フェザーマン E・HERO フェザーマン"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&ope=2"` |
-| `huella_texto_oficial` | `"e74e18ee"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:037","A06:REL:090","A06:REL:094","A06:REL:096"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20460
+- **deck id:** 706
+- **cid:** 20460
+- **nombre:** エレメンタルヒーロー　フェザーマン E・HERO フェザーマン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&amp;ope=2
+- **huella texto oficial:** e74e18ee
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:037
+  - A06:REL:090
+  - A06:REL:094
+  - A06:REL:096
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 334**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20457"` |
-| `deck_id` | `706` |
-| `cid` | `20457` |
-| `nombre` | `"エレメンタルヒーロー　スパークマン E・HERO スパークマン"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&ope=2"` |
-| `huella_texto_oficial` | `"8359f5e3"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:068","A06:REL:069","A06:REL:091","A06:REL:095","A06:REL:098"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20457
+- **deck id:** 706
+- **cid:** 20457
+- **nombre:** エレメンタルヒーロー　スパークマン E・HERO スパークマン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&amp;ope=2
+- **huella texto oficial:** 8359f5e3
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:068
+  - A06:REL:069
+  - A06:REL:091
+  - A06:REL:095
+  - A06:REL:098
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 335**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20459"` |
-| `deck_id` | `706` |
-| `cid` | `20459` |
-| `nombre` | `"エレメンタルヒーロー　バーストレディ E・HERO バーストレディ"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&ope=2"` |
-| `huella_texto_oficial` | `"aef0aa10"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:038","A06:REL:092"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20459
+- **deck id:** 706
+- **cid:** 20459
+- **nombre:** エレメンタルヒーロー　バーストレディ E・HERO バーストレディ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&amp;ope=2
+- **huella texto oficial:** aef0aa10
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:038
+  - A06:REL:092
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 336**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20461"` |
-| `deck_id` | `706` |
-| `cid` | `20461` |
-| `nombre` | `"ライジングヒーロー　アルジェント R・HERO アルジェント"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2"` |
-| `huella_texto_oficial` | `"102ecc38"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:037","A06:REL:038"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20461
+- **deck id:** 706
+- **cid:** 20461
+- **nombre:** ライジングヒーロー　アルジェント R・HERO アルジェント
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&amp;ope=2
+- **huella texto oficial:** 102ecc38
+- **funcion concreta en inventario:** CONSISTENCIA · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:037
+  - A06:REL:038
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 337**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:16929"` |
-| `deck_id` | `706` |
-| `cid` | `16929` |
-| `nombre` | `"スター・リスタート スター・リスタート"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&ope=2"` |
-| `huella_texto_oficial` | `"c44fce05"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:090","A06:REL:091","A06:REL:092","A06:REL:093"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:16929
+- **deck id:** 706
+- **cid:** 16929
+- **nombre:** スター・リスタート スター・リスタート
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&amp;ope=2
+- **huella texto oficial:** c44fce05
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:090
+  - A06:REL:091
+  - A06:REL:092
+  - A06:REL:093
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 338**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20665"` |
-| `deck_id` | `706` |
-| `cid` | `20665` |
-| `nombre` | `"ヒーロー・ディセント ヒーロー・ディセント"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&ope=2"` |
-| `huella_texto_oficial` | `"27282bbf"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `["A06:REL:068"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20665
+- **deck id:** 706
+- **cid:** 20665
+- **nombre:** ヒーロー・ディセント ヒーロー・ディセント
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&amp;ope=2
+- **huella texto oficial:** 27282bbf
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - A06:REL:068
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 339**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20151"` |
-| `deck_id` | `706` |
-| `cid` | `20151` |
-| `nombre` | `"シャイニーシェイディー シャイニーシェイディー"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2"` |
-| `huella_texto_oficial` | `"d27ae064"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20151
+- **deck id:** 706
+- **cid:** 20151
+- **nombre:** シャイニーシェイディー シャイニーシェイディー
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&amp;ope=2
+- **huella texto oficial:** d27ae064
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 340**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20465"` |
-| `deck_id` | `706` |
-| `cid` | `20465` |
-| `nombre` | `"エレメンタル・サーキュレーション エレメンタル・サーキュレーション"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&ope=2"` |
-| `huella_texto_oficial` | `"bf590810"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:094","A06:REL:095"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20465
+- **deck id:** 706
+- **cid:** 20465
+- **nombre:** エレメンタル・サーキュレーション エレメンタル・サーキュレーション
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&amp;ope=2
+- **huella texto oficial:** bf590810
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RECUPERACION_MANO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:094
+  - A06:REL:095
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 341**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:16358"` |
-| `deck_id` | `706` |
-| `cid` | `16358` |
-| `nombre` | `"ちょうじゅせんじゅつ 鳥呪戦術"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&ope=2"` |
-| `huella_texto_oficial` | `"a581d428"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `["A06:REL:096"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:16358
+- **deck id:** 706
+- **cid:** 16358
+- **nombre:** ちょうじゅせんじゅつ 鳥呪戦術
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&amp;ope=2
+- **huella texto oficial:** a581d428
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - A06:REL:096
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 342**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:16934"` |
-| `deck_id` | `706` |
-| `cid` | `16934` |
-| `nombre` | `"フュージョン フュージョン"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2"` |
-| `huella_texto_oficial` | `"14af690f"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:039","A06:REL:093"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:16934
+- **deck id:** 706
+- **cid:** 16934
+- **nombre:** フュージョン フュージョン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&amp;ope=2
+- **huella texto oficial:** 14af690f
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:039
+  - A06:REL:093
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 343**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:15913"` |
-| `deck_id` | `706` |
-| `cid` | `15913` |
-| `nombre` | `"おとしあな 落とし穴"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
-| `huella_texto_oficial` | `"28959c9e"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:15913
+- **deck id:** 706
+- **cid:** 15913
+- **nombre:** おとしあな 落とし穴
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&amp;ope=2
+- **huella texto oficial:** 28959c9e
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 344**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:16372"` |
-| `deck_id` | `706` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `huella_texto_oficial` | `"06517b03"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:16372
+- **deck id:** 706
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **huella texto oficial:** 06517b03
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 345**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:21316"` |
-| `deck_id` | `706` |
-| `cid` | `21316` |
-| `nombre` | `"エレメンタルヒーロー　ボルテック・ウィングマン E・HERO ボルテック・ウィングマン"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&ope=2"` |
-| `huella_texto_oficial` | `"bf98ee5d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:069","A06:REL:099","A06:REL:100"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:21316
+- **deck id:** 706
+- **cid:** 21316
+- **nombre:** エレメンタルヒーロー　ボルテック・ウィングマン E・HERO ボルテック・ウィングマン
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&amp;ope=2
+- **huella texto oficial:** bf98ee5d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:069
+  - A06:REL:099
+  - A06:REL:100
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 346**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20454"` |
-| `deck_id` | `706` |
-| `cid` | `20454` |
-| `nombre` | `"エレメンタルヒーロー　バースト・ウィングマン E・HERO バースト・ウィングマン"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&ope=2"` |
-| `huella_texto_oficial` | `"f2939a3d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · COMBATE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `["A06:REL:101"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20454
+- **deck id:** 706
+- **cid:** 20454
+- **nombre:** エレメンタルヒーロー　バースト・ウィングマン E・HERO バースト・ウィングマン
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&amp;ope=2
+- **huella texto oficial:** f2939a3d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · COMBATE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - A06:REL:101
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 347**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20453"` |
-| `deck_id` | `706` |
-| `cid` | `20453` |
-| `nombre` | `"エレメンタルヒーロー　フレイム・ウィングマン E・HERO フレイム・ウィングマン"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&ope=2"` |
-| `huella_texto_oficial` | `"14125b9c"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:039","A06:REL:097","A06:REL:099","A06:REL:101"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20453
+- **deck id:** 706
+- **cid:** 20453
+- **nombre:** エレメンタルヒーロー　フレイム・ウィングマン E・HERO フレイム・ウィングマン
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&amp;ope=2
+- **huella texto oficial:** 14125b9c
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:039
+  - A06:REL:097
+  - A06:REL:099
+  - A06:REL:101
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 348**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:21501"` |
-| `deck_id` | `706` |
-| `cid` | `21501` |
-| `nombre` | `"エレメンタルヒーロー　ヘリオスフィアー E・HERO ヘリオスフィアー"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2"` |
-| `huella_texto_oficial` | `"dd4e161f"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RECUPERACION_MANO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:21501
+- **deck id:** 706
+- **cid:** 21501
+- **nombre:** エレメンタルヒーロー　ヘリオスフィアー E・HERO ヘリオスフィアー
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&amp;ope=2
+- **huella texto oficial:** dd4e161f
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RECUPERACION_MANO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 349**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"706:CARD:20610"` |
-| `deck_id` | `706` |
-| `cid` | `20610` |
-| `nombre` | `"エレメンタルヒーロー　シャイニング・フレア・ウィングマン E・HERO シャイニング・フレア・ウィングマン"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2"` |
-| `huella_texto_oficial` | `"19b9bbca"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:097","A06:REL:098","A06:REL:100"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 706:CARD:20610
+- **deck id:** 706
+- **cid:** 20610
+- **nombre:** エレメンタルヒーロー　シャイニング・フレア・ウィングマン E・HERO シャイニング・フレア・ウィングマン
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&amp;ope=2
+- **huella texto oficial:** 19b9bbca
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_FUSION · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:097
+  - A06:REL:098
+  - A06:REL:100
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_706 -->
 ### Fichas de cartas y sinergias documentadas
@@ -1801,3 +2139,278 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: La Skill local **HERO RUSH RISING** puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main..
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `706:A09:AVIAN:BURST01A` | [Avian + Burstinatrix: primera Fusión HERO](imagenes/infografias/706_A09_AVIAN_BURST01A.webp) |
+| `706:A09:AVIAN:BURST01B` | [Variante de la misma Fusión HERO inicial](imagenes/infografias/706_A09_AVIAN_BURST01B.webp) |
+| `706:A09:VOLTIC:SECOND01A` | [Voltic Wingman: primera variante con Skill Rush](imagenes/infografias/706_A09_VOLTIC_SECOND01A.webp) |
+| `706:A09:VOLTIC:SECOND01B` | [Voltic Wingman: segunda variante con Skill Rush](imagenes/infografias/706_A09_VOLTIC_SECOND01B.webp) |
+| `706:A09:VOLTIC:SECOND01C` | [Voltic Wingman: tercera variante con Skill Rush](imagenes/infografias/706_A09_VOLTIC_SECOND01C.webp) |
+| `706:A09:SHINING:DOUBLE01` | [Flame Wingman → Shining Flare: doble Fusión](imagenes/infografias/706_A09_SHINING_DOUBLE01.webp) |
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Descenso de Héroe (CID 20665), Circulación Elemental (CID 20465), Fusión (CID 16934), Descenso de Héroe (CID 20665). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Brillo Sombrío (CID 20151), Héroe Elemental Burstinatrix (CID 20459), Inicio Reinicio (CID 16929), Brillo Sombrío (CID 20151). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Héroe Elemental Avian (CID 20460), Agujero Trampa (CID 15913), Brillo Sombrío (CID 20151), Héroe Elemental Sparkman (CID 20457). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** Héroe Ascendente de Argen (CID 20461), Héroe Elemental Avian (CID 20460), Héroe Elemental Sparkman (CID 20457), Fusión (CID 16934). Rising HERO Argento: presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Fusión (CID 16934), Brillo Sombrío (CID 20151), Descenso de Héroe (CID 20665), Héroe Elemental Avian (CID 20460). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Estrategia Mágica Aviar (CID 16358), Descenso de Héroe (CID 20665), Fusión (CID 16934), Héroe Elemental Avian (CID 20460). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Descenso de Héroe (CID 20665), Olla de la Codicia (CID 16372), Brillo Sombrío (CID 20151), Héroe Elemental Sparkman (CID 20457). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Inicio Reinicio (CID 16929), Fusión (CID 16934), Olla de la Codicia (CID 16372), Circulación Elemental (CID 20465). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Héroe Elemental Burstinatrix (CID 20459), Héroe Ascendente de Argen (CID 20461), Inicio Reinicio (CID 16929), Agujero Trampa (CID 15913). Rising HERO Argento: presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Fusión (CID 16934), Brillo Sombrío (CID 20151), Descenso de Héroe (CID 20665), Héroe Elemental Avian (CID 20460). Rising HERO Argento: no presente; Fusion + Avian + Burstinatrix: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **706:PRACTICA:V14:1 ? Top4 falla:** Argento excava cuatro cartas sin Avian ni Burstinatrix. ¿Añades ambas del Deck? **Respuesta documentada:** No: cero cartas añadidas por ese efecto, se ponen las excavadas en fondo. (DECISION_REAL_NO_PREDICCION).
+- **706:PRACTICA:V14:2 ? Solo Avian:** Argento encuentra Avian, Fusion está en mano, Burstinatrix no. ¿Puedes fusionar Wingman? **Respuesta documentada:** No todavía. Necesitas Burstinatrix en tu campo también. (DECISION_REAL_NO_PREDICCION).
+- **706:PRACTICA:V14:3 ? Daño Flame Wingman:** Wingman se invoca con éxito pero aún no ha combatido. ¿Cuánto daño de su efecto infliges? **Respuesta documentada:** Cero; depende de destruir en batalla y mandar el monstruo al GY. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Una carta rival decisiva con posible retirada por efecto:** Tienes Sparkman, Avian, Burstinatrix, Fusion; Deck≥10. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. Sin Side Rush; escoger qué Fusión puede resolverse. Normal Summon tres monstruos en las tres zonas. Fusion con los 3 NOMBRES exactos para Heliosphere. Robar y revelar 1: si es monstruo, puedes destruir 1 carta rival; si es M/T no se destruye. Si no se cambia: Ruta 706:A09:V11:TRIPLE_NORMAL:HELIOSPHERE. Estado: SIN_SIDE_ACTUAL.
+- **Backrow que puede romper tercer material:** Sólo Avian+Burstinatrix y Fusion disponibles. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. Menos materiales disponibles favorecen la Fusión de dos en vez de inventar Sparkman. Usar Flame Wingman de dos materiales si se cumplen ambos nombres y posiciones. No elegir Heliosphere porque exige Sparkman adicional. Registrar carta rival que interrumpió la Fusión para entrenar ventana correcta en próxima mano. Si no se cambia: Seguir ruta previa de Flame Wingman; nuevo acceso Heliosphere no es universal. Estado: SIN_SIDE_ACTUAL.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Avian + Burstinatrix: primera Fusión HERO** ? `706:A09:AVIAN:BURST01A:PRACTICA_V06`, `706:A09:AVIAN:BURST01A`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: 1× E·HERO Avian (20460), 1× E·HERO Burstinatrix (20459), 1× Mágica Normal Fusión (16934). Campo propio vacío, Main Phase propia, dos zonas libres; Extra contiene 1× Flame Wingman (20453) y 1× Burst Wingman (20454). Rivales sin respuestas en esta rama. Ninguna carta se pone en mano por la Skill.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Invocar Normalmente a Avian (Guerrero Nivel 3, 1000 ATK) boca arriba.; last action: activar Fusión.; expected final: 01A | E·HERO Flame Wingman (20453), Nivel 6, ATK 2100 | En Campo; si destruye un monstruo en batalla y lo manda al GY, su efecto continuo inflige daño igual al ATK original de ese monstruo. No ocurre daño automáticamente al Invocar.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Variante de la misma Fusión HERO inicial** ? `706:A09:AVIAN:BURST01B:PRACTICA_V06`, `706:A09:AVIAN:BURST01B`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× E·HERO Avian (20460), 1× E·HERO Burstinatrix (20459), 1× Mágica Normal Fusión (16934). Campo propio vacío, Main Phase propia, dos zonas libres; Extra contiene 1× Flame Wingman (20453) y 1× Burst Wingman (20454). Rivales sin respuestas en esta rama. Ninguna carta se pone en mano por la Skill.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente a Avian (Guerrero Nivel 3, 1000 ATK) boca arriba.; last action: activar Fusión.; expected final: 01B | E·HERO Burst Wingman (20454), Nivel 6, ATK 2100 | En Campo; puede enviar la carta superior del Deck al GY para activar su efecto, dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y opcionalmente destruir 1 Mágica/Trampa rival. No se promete destrucción si el rival carece de M/T.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Voltic Wingman: primera variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01A:PRACTICA_V06`, `706:A09:VOLTIC:SECOND01A`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× E·HERO Sparkman (20457, Nivel 4, 1600 ATK), 1× E·HERO Avian (20460, Nivel 3, 1000 ATK), 1× E·HERO Burstinatrix (20459, Nivel 3, 1200 ATK), 1× Mágica Fusión (16934). Campo propio vacío, Main Phase propia, al menos tres zonas libres, ninguna respuesta adversaria en esta rama. Extra con Voltic Wingman (21316), Flame Wingman (20453), Burst Wingman (20454), Heliosfera (21501). Skill casera HERO RUSH RISING (RD/SK01-003) aprobada localmente y sin uso previo relevante.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente Sparkman, Avian y Burstinatrix en Ataque boca arriba, ocupando tres zonas.; last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.; expected final: 01A | Avian + Burstinatrix | Flame Wingman (20453, Nivel 6, 2100 ATK) | Voltic 1400 ATK (debuff temporal) + Flame 2100 ATK; Sparkman permanece en GY; Fusión en mano. Flame no quema por el mero hecho de ser Invocado.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20457.png; ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Voltic Wingman: segunda variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01B:PRACTICA_V06`, `706:A09:VOLTIC:SECOND01B`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× E·HERO Sparkman (20457, Nivel 4, 1600 ATK), 1× E·HERO Avian (20460, Nivel 3, 1000 ATK), 1× E·HERO Burstinatrix (20459, Nivel 3, 1200 ATK), 1× Mágica Fusión (16934). Campo propio vacío, Main Phase propia, al menos tres zonas libres, ninguna respuesta adversaria en esta rama. Extra con Voltic Wingman (21316), Flame Wingman (20453), Burst Wingman (20454), Heliosfera (21501). Skill casera HERO RUSH RISING (RD/SK01-003) aprobada localmente y sin uso previo relevante.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente Sparkman, Avian y Burstinatrix en Ataque boca arriba, ocupando tres zonas.; last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.; expected final: 01B | Avian + Burstinatrix | Burst Wingman (20454, Nivel 6, 2100 ATK) | Voltic 1400 ATK + Burst 2100 ATK; Sparkman permanece en GY; Fusión en mano. Opcional: enviar la carta superior del Deck al GY para dar +1000 ATK a un Guerrero propio (si se elige Burst: 3100 ATK hasta final del próximo turno rival) y poder destruir una M/T rival si existe.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20457.png; ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Voltic Wingman: tercera variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01C:PRACTICA_V06`, `706:A09:VOLTIC:SECOND01C`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× E·HERO Sparkman (20457, Nivel 4, 1600 ATK), 1× E·HERO Avian (20460, Nivel 3, 1000 ATK), 1× E·HERO Burstinatrix (20459, Nivel 3, 1200 ATK), 1× Mágica Fusión (16934). Campo propio vacío, Main Phase propia, al menos tres zonas libres, ninguna respuesta adversaria en esta rama. Extra con Voltic Wingman (21316), Flame Wingman (20453), Burst Wingman (20454), Heliosfera (21501). Skill casera HERO RUSH RISING (RD/SK01-003) aprobada localmente y sin uso previo relevante.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente Sparkman, Avian y Burstinatrix en Ataque boca arriba, ocupando tres zonas.; last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.; expected final: 01C | Sparkman + Avian + Burstinatrix | Heliosfera (21501, Nivel 7, 2800 ATK) | Voltic 1400 ATK + Heliosfera 2800 ATK; los tres Normales vuelven al Deck; Fusión en mano. Como el Deck tiene al menos 10 cartas, Heliosfera puede robar 1 y, solo si lo robado es monstruo, puede destruir una carta rival. No presumir el tipo de carta robada.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20457.png; ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Flame Wingman → Shining Flare: doble Fusión** ? `706:A09:SHINING:DOUBLE01:PRACTICA_V06`, `706:A09:SHINING:DOUBLE01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: 1× Avian (20460), 1× Burstinatrix (20459), 1× Sparkman (20457), 2× Fusión (16934). Las dos copias de Fusión existen en el Main registrado. Campo y GY propios vacíos; Extra con Flame Wingman (20453) y Shining Flare Wingman (20610). Sin respuesta rival; Skill HERO RUSH RISING no utilizada.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Invocar Normalmente Avian, Burstinatrix y Sparkman boca arriba en Campo.; last action: Contar los Guerreros en tu GY: Avian + Burstinatrix + Sparkman + Flame Wingman = 4 Guerreros.; expected final: Campo final: solo Shining Flare Wingman, 3700 ATK bajo el estado inicial especificado; Avian, Burstinatrix, Sparkman, Flame Wingman y dos Mágicas Fusión en GY, mano inicial consumida. La Skill no se activa y no hay una segunda Fusion en Campo. Su daño por destruir un monstruo en batalla no se aplica al Invocarlo., tablero fotográfico compuesto pendiente.
+- Check before play: ¿HERO RUSH RISING cumple Guerrero/LUZ y materiales nombrados?; Rush permite varias Normales pero no material de mano sin permiso textual; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Material Fusión ausente o Skill no aplicable; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/20460.png; ../imagenes/rush/20459.png; ../imagenes/rush/20457.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:706:PRIMERO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Argento y posibilidad de Fusion
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Revelar objetivo Fusion válido y comprobar top4 antes de tomar material.
+- Riesgo y respuesta: No elegir Avian si no aparece entre top4.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:706:SEGUNDO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Tres HERO Normales disponibles
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Valorar Heliosphere frente a Fusión de dos materiales según recursos y objetivo.
+- Riesgo y respuesta: No asumir destrucción si el robo es M/T.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:706:RESPUESTA_RIVAL`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Rival retira uno de los Normales
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Recalcular materiales y buscar alternativa de dos nombres.
+- Riesgo y respuesta: No completar la Fusión con material ausente.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:706:RECURSOS`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Shining/Shady disponible
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Evaluar protección de recurso con ventana correcta antes de Fusion.
+- Riesgo y respuesta: No dar por negada cualquier trampa sin texto.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:706:MANO_IRREGULAR`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Se quiere Flame Wingman
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Exigir Avian + Burstinatrix boca arriba y carta Fusion adecuada.
+- Riesgo y respuesta: No formar con Sparkman por semejanza de nombre.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:706:HABILIDAD_O_CONTINUIDAD`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Skill Hero Rush Rising
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Comprobar requisitos de Skill y conservarla externa al Main.
+- Riesgo y respuesta: No consumir Skill sin condición.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:706:TURNO_TARDIO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Turno posterior con mano corta
+- Cartas relevantes: cid: 20461; nombre: ライジングヒーロー アルジェント R・HERO アルジェント; cid: 20460; nombre: エレメンタルヒーロー フェザーマン E・HERO フェザーマン; cid: 20459; nombre: エレメンタルヒーロー バーストレディ E・HERO バーストレディ; cid: 20457; nombre: エレメンタルヒーロー スパークマン E・HERO スパークマン; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Evaluar recuperación de Normales y uso eficiente de Fusion.
+- Riesgo y respuesta: Evitar comprometer tres cuerpos para resultado no demostrado.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Avian + Burstinatrix: primera Fusión HERO** ? `706:A09:AVIAN:BURST01A`
+- Purpose: Ofensivo condicional
+- Format: rush
+- Final state text: 01A | E·HERO Flame Wingman (20453), Nivel 6, ATK 2100 | En Campo; si destruye un monstruo en batalla y lo manda al GY, su efecto continuo inflige daño igual al ATK original de ese monstruo. No ocurre daño automáticamente al Invocar.
+- Last action: activar Fusión.
+- Last detail: Fusión MATERIAL XYZ → Héroe Elemental Avian FUSIÓN → Héroe Elemental Burstinatrix FUSIÓN activar Fusión. Su efecto envía los dos monstruos boca arriba desde tu Campo al Cementerio como materiales y permite Invocar por Fusión desde Extra uno de los dos siguientes, que nombran exactamente a Avian + Burstinatrix: *Recurso / restricción:* Su efecto envía los dos monstruos boca arriba desde tu Campo al Cementerio como materiales y permite Invocar por Fusión desde Extra uno de los dos siguientes, que nombran exactamente a Avian + Burstinatrix:
+- Image assets: name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Variante de la misma Fusión HERO inicial** ? `706:A09:AVIAN:BURST01B`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 01B | E·HERO Burst Wingman (20454), Nivel 6, ATK 2100 | En Campo; puede enviar la carta superior del Deck al GY para activar su efecto, dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y opcionalmente destruir 1 Mágica/Trampa rival. No se promete destrucción si el rival carece de M/T.
+- Last action: activar Fusión.
+- Last detail: Fusión MATERIAL XYZ → Héroe Elemental Avian FUSIÓN → Héroe Elemental Burstinatrix FUSIÓN activar Fusión. Su efecto envía los dos monstruos boca arriba desde tu Campo al Cementerio como materiales y permite Invocar por Fusión desde Extra uno de los dos siguientes, que nombran exactamente a Avian + Burstinatrix: *Recurso / restricción:* Su efecto envía los dos monstruos boca arriba desde tu Campo al Cementerio como materiales y permite Invocar por Fusión desde Extra uno de los dos siguientes, que nombran exactamente a Avian + Burstinatrix:
+- Image assets: name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Voltic Wingman: primera variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01A`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 01A | Avian + Burstinatrix | Flame Wingman (20453, Nivel 6, 2100 ATK) | Voltic 1400 ATK (debuff temporal) + Flame 2100 ATK; Sparkman permanece en GY; Fusión en mano. Flame no quema por el mero hecho de ser Invocado.
+- Last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.
+- Last detail: Fusión ESTADO / CONTEXTO Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente. Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas: *Recurso / restricción:* Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas:
+- Image assets: name: Héroe Elemental Sparkman; image: ../imagenes/rush/20457.png; name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Voltic Wingman: segunda variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01B`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 01B | Avian + Burstinatrix | Burst Wingman (20454, Nivel 6, 2100 ATK) | Voltic 1400 ATK + Burst 2100 ATK; Sparkman permanece en GY; Fusión en mano. Opcional: enviar la carta superior del Deck al GY para dar +1000 ATK a un Guerrero propio (si se elige Burst: 3100 ATK hasta final del próximo turno rival) y poder destruir una M/T rival si existe.
+- Last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.
+- Last detail: Fusión ESTADO / CONTEXTO Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente. Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas: *Recurso / restricción:* Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas:
+- Image assets: name: Héroe Elemental Sparkman; image: ../imagenes/rush/20457.png; name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Voltic Wingman: tercera variante con Skill Rush** ? `706:A09:VOLTIC:SECOND01C`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 01C | Sparkman + Avian + Burstinatrix | Heliosfera (21501, Nivel 7, 2800 ATK) | Voltic 1400 ATK + Heliosfera 2800 ATK; los tres Normales vuelven al Deck; Fusión en mano. Como el Deck tiene al menos 10 cartas, Heliosfera puede robar 1 y, solo si lo robado es monstruo, puede destruir una carta rival. No presumir el tipo de carta robada.
+- Last action: Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente.
+- Last detail: Fusión ESTADO / CONTEXTO Activar el efecto de Voltic Wingman en la Main Phase en que fue Invocado Especialmente. Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas: *Recurso / restricción:* Ese efecto permite una Fusión de un Guerrero de Nivel 6 a 8 que solo pueda ser Invocado por Fusión, devolviendo materiales desde el GY al Deck. Elegir una sola de estas salidas:
+- Image assets: name: Héroe Elemental Sparkman; image: ../imagenes/rush/20457.png; name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Flame Wingman → Shining Flare: doble Fusión** ? `706:A09:SHINING:DOUBLE01`
+- Purpose: Ofensivo condicional
+- Format: rush
+- Final state text: Campo final: solo Shining Flare Wingman, 3700 ATK bajo el estado inicial especificado; Avian, Burstinatrix, Sparkman, Flame Wingman y dos Mágicas Fusión en GY, mano inicial consumida. La Skill no se activa y no hay una segunda Fusion en Campo. Su daño por destruir un monstruo en batalla no se aplica al Invocarlo., tablero fotográfico compuesto pendiente.
+- Last action: Contar los Guerreros en tu GY: Avian + Burstinatrix + Sparkman + Flame Wingman = 4 Guerreros.
+- Last detail: Héroe Elemental Avian ESTADO / CONTEXTO → Héroe Elemental Burstinatrix ESTADO / CONTEXTO → Héroe Elemental Sparkman ESTADO / CONTEXTO Contar los Guerreros en tu GY: Avian + Burstinatrix + Sparkman + Flame Wingman = 4 Guerreros. Efecto continuo de Shining Flare: 4×300 = 1200 ATK adicionales; 2500+1200 = 3700 ATK con ese GY exacto. Si en otra situación hay más/menos Guerreros en GY, recalcular; no fijar 3700 para todas las partidas. *Recurso / restricción:* Efecto continuo de Shining Flare: 4×300 = 1200 ATK adicionales; 2500+1200 = 3700 ATK con ese GY exacto. Si en otra situación hay más/menos Guerreros en GY, recalcular; no fijar 3700 para todas las partidas.
+- Image assets: name: Héroe Elemental Avian; image: ../imagenes/rush/20460.png; name: Héroe Elemental Burstinatrix; image: ../imagenes/rush/20459.png; name: Héroe Elemental Sparkman; image: ../imagenes/rush/20457.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.

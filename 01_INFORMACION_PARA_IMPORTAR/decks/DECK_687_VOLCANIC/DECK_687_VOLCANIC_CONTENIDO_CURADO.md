@@ -461,7 +461,7 @@
 - **Abrir guía `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`:** entrada: Objetivo: montar campo y una negación para turno rival con mano Trooper + Rocket, Campo/GY propios vacíos, Normal disponible. Deck: VBA, Blaze Accelerator original, 1 Reload, 1 Rimfire, 1 Emperor, las 3 Scattershot, 1 Inferno. Extra: I:P. Oponente sin respuestas; no requiere monstruo rival porque se genera Ficha. Dificultad alta, ir primero.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
 - **Abrir guía `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07`:** entrada: Mano: Trooper + VBA + Rocket + Fire Ejection. Deck: Blaze original, 1 Emperor, Inferno, Reload; Extra: I:P. Campo propio vacío, Normal libre, sin respuesta. Objetivo: conservar I:P + Emperor + Inferno y Reload Colocadas sin depender del envío de las tres Scattershot.. Propósito descrito: Ofensivo condicional. Consulta sus pasos, consumo y resultado; comprobar si esta carta es realmente invocada o solo mencionada.
 - **Continuación `687:A09:IP:EMPEROR:UNICORN14`:** I:P (Enlace-2) + Emperador (valor 1) → Unicornio Link-3 **durante Main Phase rival**, con una carta de mano reservada para descartar, sin Gozen/Estatua activos. Cinco pasos ilustrados y decisión entre conservar daño de Emperador o barajar una amenaza.
-- **Alternativa `687:A09:IP:EMPEROR:SP_DEFENSA16`:** I:P (contada como **valor1**) + Emperador (valor1) → S:P Link2 durante Main rival; **no hay descarte**, sí destierro al Invocar si existe objetivo elegible por haber usado material Link; protección heredada contra destrucción por efectos rivales. Guía visual: `guias_a10/DECK_687_IP_EMPEROR_SP_RESPUESTA_GUIA.md`.
+- **Alternativa `687:A09:IP:EMPEROR:SP_DEFENSA16`:** I:P (contada como **valor1**) + Emperador (valor1) → S:P Link2 durante Main rival; **no hay descarte**, sí destierro al Invocar si existe objetivo elegible por haber usado material Link; protección heredada contra destrucción por efectos rivales. Guía visual: `guias/DECK_687_IP_EMPEROR_SP_RESPUESTA_GUIA.md`.
 
 #### 20. Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida
 
@@ -644,7 +644,7 @@
 
 **CÓMO LLEGAR DESDE TU DECK — 5 PASOS Y ALTERNATIVAS**
 
-- `687:A09:IP:EMPEROR:SP_DEFENSA16`: I:P + Emperador propios → efecto rápido I:P en Main rival → S:P Link2 con I:P valor1 → destierro inicial permitido por material Link → S:P 1600 protegida contra destrucción por efectos rivales. Comparar coste y resultado con Unicornio o conservar Emperador. Guía de fotos, flechas y tablero final: `guias_a10/DECK_687_IP_EMPEROR_SP_RESPUESTA_GUIA.md`.
+- `687:A09:IP:EMPEROR:SP_DEFENSA16`: I:P + Emperador propios → efecto rápido I:P en Main rival → S:P Link2 con I:P valor1 → destierro inicial permitido por material Link → S:P 1600 protegida contra destrucción por efectos rivales. Comparar coste y resultado con Unicornio o conservar Emperador. Guía de fotos, flechas y tablero final: `guias/DECK_687_IP_EMPEROR_SP_RESPUESTA_GUIA.md`.
 
 #### 27. Salamangreat Almiraj — Salamangrande Almiraj
 
@@ -1453,87 +1453,117 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **687:COBERTURA:MAIN:6884:E05:ESCENARIO ? Estatua-Barrera del Infierno / Barrier Statue of the Inferno**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"687:COBERTURA:MAIN:6884:E05:ESCENARIO"` |
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `case_id` | `"687:COBERTURA:MAIN:6884"` |
-| `cid` | `6884` |
-| `card_name` | `"Estatua-Barrera del Infierno / Barrier Statue of the Inferno"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/6884.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_687_VOLCANIC_TRES_CASOS_20261113.md"` |
-| `purpose` | `""` |
-| `scenario` | `{"initial_condition":"Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main.","risk_and_counterexample":"destrucción en batalla, retirada de campo o negación de efecto continuo elimina su restricción cuando corresponda. No presume protección automática.","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.","when":"Se intenta la acción de Estatua-Barrera del Infierno / Barrier Statue of the Inferno","then":"un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main.","negative_test":"destrucción en batalla, retirada de campo o negación de efecto continuo elimina su restricción cuando corresponda. No presume protección automática.","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 687:COBERTURA:MAIN:6884:E05:ESCENARIO
+- **deck id:** 687
+- **deck:** Volcanic
+- **case id:** 687:COBERTURA:MAIN:6884
+- **cid:** 6884
+- **card name:** Estatua-Barrera del Infierno / Barrier Statue of the Inferno
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/6884.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_687_VOLCANIC/guias/DECK_687_VOLCANIC_TRES_CASOS_20261113.md
+- **purpose:** Sin dato documentado
+- **scenario:**
+  - **initial condition:** Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main.
+  - **risk and counterexample:** destrucción en batalla, retirada de campo o negación de efecto continuo elimina su restricción cuando corresponda. No presume protección automática.
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente.
+  - **when:** Se intenta la acción de Estatua-Barrera del Infierno / Barrier Statue of the Inferno
+  - **then:** un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main.
+  - **negative test:** destrucción en batalla, retirada de campo o negación de efecto continuo elimina su restricción cuando corresponda. No presume protección automática.
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **687:COBERTURA:MAIN:9455:E05:ESCENARIO ? "C" Maxx / Maxx "C"**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"687:COBERTURA:MAIN:9455:E05:ESCENARIO"` |
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `case_id` | `"687:COBERTURA:MAIN:9455"` |
-| `cid` | `9455` |
-| `card_name` | `"\"C\" Maxx / Maxx \"C\""` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/tcg/9455.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_687_VOLCANIC_TRES_CASOS_20261113.md"` |
-| `purpose` | `""` |
-| `scenario` | `{"initial_condition":"la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada en el inventario confirmado.","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No se acredita resultado autónomo sin condición y ruta","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada en el inventario confirmado.","when":"Se intenta la acción de \"C\" Maxx / Maxx \"C\"","then":"Sin resolución afirmada","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 687:COBERTURA:MAIN:9455:E05:ESCENARIO
+- **deck id:** 687
+- **deck:** Volcanic
+- **case id:** 687:COBERTURA:MAIN:9455
+- **cid:** 9455
+- **card name:** "C" Maxx / Maxx "C"
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/tcg/9455.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_687_VOLCANIC/guias/DECK_687_VOLCANIC_TRES_CASOS_20261113.md
+- **purpose:** Sin dato documentado
+- **scenario:**
+  - **initial condition:** la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada en el inventario confirmado.
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No se acredita resultado autónomo sin condición y ruta
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada en el inventario confirmado.
+  - **when:** Se intenta la acción de "C" Maxx / Maxx "C"
+  - **then:** Sin resolución afirmada
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **687:COBERTURA:MAIN:14144:E05:ESCENARIO ? Olla de la Extravagancia / Pot of Extravagance**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"687:COBERTURA:MAIN:14144:E05:ESCENARIO"` |
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `case_id` | `"687:COBERTURA:MAIN:14144"` |
-| `cid` | `14144` |
-| `card_name` | `"Olla de la Extravagancia / Pot of Extravagance"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/tcg/14144.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_687_VOLCANIC_TRES_CASOS_20261113.md"` |
-| `purpose` | `""` |
-| `scenario` | `{"initial_condition":"Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo aleatoriamente; no se ha robado por otro efecto este turno y se satisfacen sus restricciones.","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"mano y Extra actualizados con pérdida aleatoria; se aplican restricciones de robo de la carta durante el turno. No se puede convertir las cartas desterradas boca abajo en materiales de una ruta posterior.","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo al», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo aleatoriamente; no se ha robado por otro efecto este turno y se satisfacen sus restricciones.","when":"Se intenta la acción de Olla de la Extravagancia / Pot of Extravagance","then":"mano y Extra actualizados con pérdida aleatoria; se aplican restricciones de robo de la carta durante el turno. No se puede convertir las cartas desterradas boca abajo en materiales de una ruta posterior.","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 687:COBERTURA:MAIN:14144:E05:ESCENARIO
+- **deck id:** 687
+- **deck:** Volcanic
+- **case id:** 687:COBERTURA:MAIN:14144
+- **cid:** 14144
+- **card name:** Olla de la Extravagancia / Pot of Extravagance
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/tcg/14144.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_687_VOLCANIC/guias/DECK_687_VOLCANIC_TRES_CASOS_20261113.md
+- **purpose:** Sin dato documentado
+- **scenario:**
+  - **initial condition:** Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo aleatoriamente; no se ha robado por otro efecto este turno y se satisfacen sus restricciones.
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** mano y Extra actualizados con pérdida aleatoria; se aplican restricciones de robo de la carta durante el turno. No se puede convertir las cartas desterradas boca abajo en materiales de una ruta posterior.
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo al», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo aleatoriamente; no se ha robado por otro efecto este turno y se satisfacen sus restricciones.
+  - **when:** Se intenta la acción de Olla de la Extravagancia / Pot of Extravagance
+  - **then:** mano y Extra actualizados con pérdida aleatoria; se aplican restricciones de robo de la carta durante el turno. No se puede convertir las cartas desterradas boca abajo en materiales de una ruta posterior.
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 687 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -1546,19 +1576,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 6**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `formato` | `"TCG"` |
-| `motor` | `"Trooper busca piezas Volcanic; VBA envía Blaze original para activarse; Fire Ejection manda Piro exacto y Rimfire enlaza hacia Reload. Emperor vive del Blaze en GY."` |
-| `ir_primero` | `["Con VBA+Ejection y sin objetivo rival, manda Rimfire por Ejection para colocar Reload; no uses el efecto de destrucción de VBA sin objetivo.","Con Trooper+Fire Ejection, puedes colocar Inferno y cargar Shell para preparar negación futura si cumple el coste; no equivale a una negación ya usada.","No llamar combo a Rocket+Reload si solo buscas una carta y robas otra: interacción básica salvo que produzca un tablero y una ventaja demostrada."]` |
-| `ir_segundo` | `["Con monstruo enemigo boca arriba, VBA puede enviar Rimfire en su efecto de destrucción y encadenar colocación de Reload en nueva cadena.","Fire Ejection enviando Emperor causa 800 y habilita invocar Emperor si Blaze original está en GY para desterrar; no mezclar con ruta Rimfire.","Usa Phoenix contra backrow si hay materiales Link válidos, conserva Shell o munición si la línea requiere descartes."]` |
-| `respuestas_interrupcion` | `[{"evento":"Ash a Fire Ejection","respuesta":"No se manda Rimfire/Emperor del Deck; Fire Ejection no habilita derivaciones."},{"evento":"Destrucción de VBA","respuesta":"La colocación de Reload por Rimfire puede salvar valor, pero no atribuir destrucción previa al enemigo si nunca se eligió objetivo."},{"evento":"Efecto negado de Emperor","respuesta":"No marques daño futuro por Special Summons rivales si ese efecto no está activo."}]` |
-| `decisiones` | `[{"decision":"¿Rimfire o Emperor por Ejection?","criterio":"Rimfire busca infraestructura de Reload sin monstruos enemigos; Emperor amenaza 3100 + presión de daño, gastando Blaze del GY. Son rutas distintas que compiten por Blaze original."},{"decision":"¿Bomb Token o daño?","criterio":"Si vas primero, infligir daño por Nivel es más seguro que regalar un cuerpo al oponente; si necesitas objetivo para retirar o atacar, Token puede ser útil pero debes justificarlo."}]` |
-| `practica` | `[{"id":"687:PRACTICA:V14:1"},{"id":"687:PRACTICA:V14:2"},{"id":"687:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["Registrar que Blaze original es 1x: si ya está desterrado, la ruta de activación VBA desde Deck no puede repetirse así.","Diferenciar &#96;Shell → Linkuriboh&#96; (interacción) de secuencias de 3+ efectos con un final útil."]` |
-| `side_y_reserva` | `"Los nombres del inventario adicional son Reserva, no Side competitivo. Proponer respuestas a anti-GY/backrow que corta Reload, sin aplicarlas."` |
+- **deck id:** 687
+- **deck:** Volcanic
+- **formato:** TCG
+- **motor:** Trooper busca piezas Volcanic; VBA envía Blaze original para activarse; Fire Ejection manda Piro exacto y Rimfire enlaza hacia Reload. Emperor vive del Blaze en GY.
+- **ir primero:**
+  - Con VBA+Ejection y sin objetivo rival, manda Rimfire por Ejection para colocar Reload; no uses el efecto de destrucción de VBA sin objetivo.
+  - Con Trooper+Fire Ejection, puedes colocar Inferno y cargar Shell para preparar negación futura si cumple el coste; no equivale a una negación ya usada.
+  - No llamar combo a Rocket+Reload si solo buscas una carta y robas otra: interacción básica salvo que produzca un tablero y una ventaja demostrada.
+- **ir segundo:**
+  - Con monstruo enemigo boca arriba, VBA puede enviar Rimfire en su efecto de destrucción y encadenar colocación de Reload en nueva cadena.
+  - Fire Ejection enviando Emperor causa 800 y habilita invocar Emperor si Blaze original está en GY para desterrar; no mezclar con ruta Rimfire.
+  - Usa Phoenix contra backrow si hay materiales Link válidos, conserva Shell o munición si la línea requiere descartes.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Ash a Fire Ejection
+    - **respuesta:** No se manda Rimfire/Emperor del Deck; Fire Ejection no habilita derivaciones.
+  - Detalle:
+    - **evento:** Destrucción de VBA
+    - **respuesta:** La colocación de Reload por Rimfire puede salvar valor, pero no atribuir destrucción previa al enemigo si nunca se eligió objetivo.
+  - Detalle:
+    - **evento:** Efecto negado de Emperor
+    - **respuesta:** No marques daño futuro por Special Summons rivales si ese efecto no está activo.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Rimfire o Emperor por Ejection?
+    - **criterio:** Rimfire busca infraestructura de Reload sin monstruos enemigos; Emperor amenaza 3100 + presión de daño, gastando Blaze del GY. Son rutas distintas que compiten por Blaze original.
+  - Detalle:
+    - **decision:** ¿Bomb Token o daño?
+    - **criterio:** Si vas primero, infligir daño por Nivel es más seguro que regalar un cuerpo al oponente; si necesitas objetivo para retirar o atacar, Token puede ser útil pero debes justificarlo.
+- **practica:**
+  - Detalle:
+    - **id:** 687:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 687:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 687:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - Registrar que Blaze original es 1x: si ya está desterrado, la ruta de activación VBA desde Deck no puede repetirse así.
+  - Diferenciar `Shell → Linkuriboh` (interacción) de secuencias de 3+ efectos con un final útil.
+- **side y reserva:** Los nombres del inventario adicional son Reserva, no Side competitivo. Proponer respuestas a anti-GY/backrow que corta Reload, sin aplicarlas.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 687 -->
@@ -1572,35 +1629,40 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 12**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `42` |
-| `mano_inicial` | `5` |
-| `indicador` | `"Trooper/Bonfire/Rocket/Fire Ejection"` |
-| `grupos_cid` | `[[18916,19027,7243,18919]]` |
-| `probabilidad_exacta` | `0.8324775353016688` |
-| `porcentaje` | `83.248` |
-| `nota` | `"Probabilidad de al menos uno de cuatro accesos, no de un endboard."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 687
+- **deck:** Volcanic
+- **formato:** TCG
+- **deck size:** 42
+- **mano inicial:** 5
+- **indicador:** Trooper/Bonfire/Rocket/Fire Ejection
+- **grupos cid:**
+  - Detalle:
+    - 18916
+    - 19027
+    - 7243
+    - 18919
+- **probabilidad exacta:** 0.8324775353016688
+- **porcentaje:** 83.248
+- **nota:** Probabilidad de al menos uno de cuatro accesos, no de un endboard.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 13**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `deck` | `"Volcanic"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `42` |
-| `mano_inicial` | `5` |
-| `indicador` | `"VBA + Fire Ejection"` |
-| `grupos_cid` | `[[18918],[18919]]` |
-| `probabilidad_exacta` | `0.08951318258121853` |
-| `porcentaje` | `8.951` |
-| `nota` | `"No consume Normal; Rimfire/Blaze/Reload deben estar aún en Deck."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 687
+- **deck:** Volcanic
+- **formato:** TCG
+- **deck size:** 42
+- **mano inicial:** 5
+- **indicador:** VBA + Fire Ejection
+- **grupos cid:**
+  - Detalle:
+    - 18918
+  - Detalle:
+    - 18919
+- **probabilidad exacta:** 0.08951318258121853
+- **porcentaje:** 8.951
+- **nota:** No consume Normal; Rimfire/Blaze/Reload deben estar aún en Deck.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 687 -->
@@ -1614,478 +1676,657 @@ Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan l
 
 **Registro 170**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `6884` |
-| `nombre` | `"Barrier Statue of the Inferno"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `65` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_ESPECIAL_REFERIDA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 6884
+- **nombre:** Barrier Statue of the Inferno
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 65
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_ESPECIAL_REFERIDA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 171**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `9455` |
-| `nombre` | `"Maxx \"C\""` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `212` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 9455
+- **nombre:** Maxx "C"
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 212
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 172**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `15299` |
-| `nombre` | `"Forbidden Droplet"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `466` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 15299
+- **nombre:** Forbidden Droplet
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 466
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 173**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `19027` |
-| `nombre` | `"Bonfire"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `108` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 19027
+- **nombre:** Bonfire
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 108
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 174**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `14144` |
-| `nombre` | `"Pot of Extravagance"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `239` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO · ROBO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 14144
+- **nombre:** Pot of Extravagance
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 239
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO · ROBO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 175**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `18921` |
-| `nombre` | `"Volcanic Inferno"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `476` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO_DESDE_CEMENTERIO","justificacion":"Destierro desde Cementerio sujeto a la cláusula exacta."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO_DESDE_CEMENTERIO · INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 18921
+- **nombre:** Volcanic Inferno
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 476
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO_DESDE_CEMENTERIO
+    - **justificacion:** Destierro desde Cementerio sujeto a la cláusula exacta.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO_DESDE_CEMENTERIO · INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 176**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `7934` |
-| `nombre` | `"Gozen Match"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `108` |
-| `acciones_identificadas` | `[{"tipo":"RESTRICCION_ATRIBUTO","justificacion":"Cada jugador solo puede controlar monstruos de un Atributo; los demás se envían al Cementerio conforme al texto."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_CONCRETA"` |
-| `proposito_resumido` | `"RESTRICCION_ATRIBUTO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO"` |
+- **deck id:** 687
+- **cid:** 7934
+- **nombre:** Gozen Match
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 108
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** RESTRICCION_ATRIBUTO
+    - **justificacion:** Cada jugador solo puede controlar monstruos de un Atributo; los demás se envían al Cementerio conforme al texto.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_CONCRETA
+- **proposito resumido:** RESTRICCION_ATRIBUTO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO
 
 **Registro 177**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `14676` |
-| `nombre` | `"I:P Masquerena"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `359` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 14676
+- **nombre:** I:P Masquerena
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 359
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 178**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `14133` |
-| `nombre` | `"Hiita the Fire Charmer, Ablaze"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `492` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 14133
+- **nombre:** Hiita the Fire Charmer, Ablaze
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 492
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 179**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13601` |
-| `nombre` | `"Knightmare Unicorn"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `519` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13601
+- **nombre:** Knightmare Unicorn
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 519
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 180**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `15741` |
-| `nombre` | `"Underworld Goddess of the Closed World"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `482` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 15741
+- **nombre:** Underworld Goddess of the Closed World
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 482
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 181**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13600` |
-| `nombre` | `"Knightmare Phoenix"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `363` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13600
+- **nombre:** Knightmare Phoenix
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 363
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 182**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13346` |
-| `nombre` | `"Linkuriboh"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `326` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"TRIBUTO","justificacion":"Puede exigir o habilitar sacrificio; confirmar coste frente a efecto."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13346
+- **nombre:** Linkuriboh
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 326
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** TRIBUTO
+    - **justificacion:** Puede exigir o habilitar sacrificio; confirmar coste frente a efecto.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 183**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `19184` |
-| `nombre` | `"Super Starslayer TY-PHON - Sky Crisis"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `558` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_ESPECIAL_REFERIDA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 19184
+- **nombre:** Super Starslayer TY-PHON - Sky Crisis
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 558
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_ESPECIAL_REFERIDA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 184**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `485` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 485
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 185**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `14338` |
-| `nombre` | `"Salamangreat Almiraj"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `393` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"TRIBUTO","justificacion":"Puede exigir o habilitar sacrificio; confirmar coste frente a efecto."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 14338
+- **nombre:** Salamangreat Almiraj
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 393
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** TRIBUTO
+    - **justificacion:** Puede exigir o habilitar sacrificio; confirmar coste frente a efecto.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 186**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `19507` |
-| `nombre` | `"Promethean Princess, Bestower of Flames"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `510` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_CEMENTERIO","justificacion":"Recuperación o extensión desde Cementerio condicionada."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 19507
+- **nombre:** Promethean Princess, Bestower of Flames
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 510
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_CEMENTERIO
+    - **justificacion:** Recuperación o extensión desde Cementerio condicionada.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 187**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13631` |
-| `nombre` | `"Infinite Impermanence"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `327` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13631
+- **nombre:** Infinite Impermanence
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 327
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 188**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `317` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 317
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 189**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `8213` |
-| `nombre` | `"Forbidden Chalice"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `122` |
-| `acciones_identificadas` | `[{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"SELECCION_OBJETIVO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 8213
+- **nombre:** Forbidden Chalice
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 122
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** SELECCION_OBJETIVO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 190**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13002` |
-| `nombre` | `"Clashing Souls"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `528` |
-| `acciones_identificadas` | `[{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"PAGO_LP","justificacion":"Paga LP al activar si corresponde al coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13002
+- **nombre:** Clashing Souls
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 528
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** PAGO_LP
+    - **justificacion:** Paga LP al activar si corresponde al coste.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 191**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `13293` |
-| `nombre` | `"Evenly Matched"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `268` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 13293
+- **nombre:** Evenly Matched
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 268
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 192**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `5622` |
-| `nombre` | `"Rivalry of Warlords"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `103` |
-| `acciones_identificadas` | `[{"tipo":"RESTRICCION_TIPO","justificacion":"Cada jugador solo puede controlar monstruos de un Tipo; los demás se envían al Cementerio conforme al texto."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_CONCRETA"` |
-| `proposito_resumido` | `"RESTRICCION_TIPO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO"` |
+- **deck id:** 687
+- **cid:** 5622
+- **nombre:** Rivalry of Warlords
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 103
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** RESTRICCION_TIPO
+    - **justificacion:** Cada jugador solo puede controlar monstruos de un Tipo; los demás se envían al Cementerio conforme al texto.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_CONCRETA
+- **proposito resumido:** RESTRICCION_TIPO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO
 
 **Registro 193**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `4678` |
-| `nombre` | `"Harpie's Feather Duster"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `52` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 4678
+- **nombre:** Harpie's Feather Duster
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 52
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 194**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `687` |
-| `cid` | `15756` |
-| `nombre` | `"Pot of Prosperity"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `462` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 687
+- **cid:** 15756
+- **nombre:** Pot of Prosperity
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 462
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 687 -->
@@ -2099,723 +2340,1218 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 264**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18916"` |
-| `deck_id` | `687` |
-| `cid` | `18916` |
-| `nombre` | `"Volcanic Trooper"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"5215ee38"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:059"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18916
+- **deck id:** 687
+- **cid:** 18916
+- **nombre:** Volcanic Trooper
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 5215ee38
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:059
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 265**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18915"` |
-| `deck_id` | `687` |
-| `cid` | `18915` |
-| `nombre` | `"Volcanic Emperor"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"fdcf9c3c"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONTROL_DESTIERRO · PREPARACION_CAMPO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:032","A06:REL:061","A06:REL:156"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18915
+- **deck id:** 687
+- **cid:** 18915
+- **nombre:** Volcanic Emperor
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** fdcf9c3c
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONTROL_DESTIERRO · PREPARACION_CAMPO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:032
+  - A06:REL:061
+  - A06:REL:156
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 266**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:7243"` |
-| `deck_id` | `687` |
-| `cid` | `7243` |
-| `nombre` | `"Volcanic Rocket"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"e1877e0d"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
-| `conexiones_concretas` | `["A06:REL:151","A06:REL:152","A06:REL:157"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:7243
+- **deck id:** 687
+- **cid:** 7243
+- **nombre:** Volcanic Rocket
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** e1877e0d
+- **funcion concreta en inventario:** CONSISTENCIA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+- **conexiones concretas:**
+  - A06:REL:151
+  - A06:REL:152
+  - A06:REL:157
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 267**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18917"` |
-| `deck_id` | `687` |
-| `cid` | `18917` |
-| `nombre` | `"Volcanic Rimfire"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"735a8d78"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · CONTROL_DESTIERRO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
-| `conexiones_concretas` | `["A06:REL:030","A06:REL:031"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18917
+- **deck id:** 687
+- **cid:** 18917
+- **nombre:** Volcanic Rimfire
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 735a8d78
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · CONTROL_DESTIERRO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+- **conexiones concretas:**
+  - A06:REL:030
+  - A06:REL:031
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 268**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:7083"` |
-| `deck_id` | `687` |
-| `cid` | `7083` |
-| `nombre` | `"Volcanic Scattershot"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"2dc409f3"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:060","A06:REL:153","A06:REL:154"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:7083
+- **deck id:** 687
+- **cid:** 7083
+- **nombre:** Volcanic Scattershot
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 2dc409f3
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:060
+  - A06:REL:153
+  - A06:REL:154
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 269**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:7082"` |
-| `deck_id` | `687` |
-| `cid` | `7082` |
-| `nombre` | `"Volcanic Shell"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"bd99b50e"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
-| `conexiones_concretas` | `["A06:REL:155"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:7082
+- **deck id:** 687
+- **cid:** 7082
+- **nombre:** Volcanic Shell
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** bd99b50e
+- **funcion concreta en inventario:** CONSISTENCIA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+- **conexiones concretas:**
+  - A06:REL:155
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 270**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:6884"` |
-| `deck_id` | `687` |
-| `cid` | `6884` |
-| `nombre` | `"Barrier Statue of the Inferno"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"f0c5a342"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:6884
+- **deck id:** 687
+- **cid:** 6884
+- **nombre:** Barrier Statue of the Inferno
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** f0c5a342
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 271**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:9455"` |
-| `deck_id` | `687` |
-| `cid` | `9455` |
-| `nombre` | `"Maxx \"C\""` |
-| `zona` | `[{"zona":"Main","copias":2},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"535fcb54"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:9455
+- **deck id:** 687
+- **cid:** 9455
+- **nombre:** Maxx "C"
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 535fcb54
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 272**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18918"` |
-| `deck_id` | `687` |
-| `cid` | `18918` |
-| `nombre` | `"Volcanic Blaze Accelerator"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1a45d09a"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `["A06:REL:029","A06:REL:059","A06:REL:152"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18918
+- **deck id:** 687
+- **cid:** 18918
+- **nombre:** Volcanic Blaze Accelerator
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1a45d09a
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - A06:REL:029
+  - A06:REL:059
+  - A06:REL:152
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 273**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:7086"` |
-| `deck_id` | `687` |
-| `cid` | `7086` |
-| `nombre` | `"Blaze Accelerator"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"c49fd393"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `["A06:REL:029","A06:REL:060","A06:REL:153"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:7086
+- **deck id:** 687
+- **cid:** 7086
+- **nombre:** Blaze Accelerator
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** c49fd393
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - A06:REL:029
+  - A06:REL:060
+  - A06:REL:153
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 274**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18919"` |
-| `deck_id` | `687` |
-| `cid` | `18919` |
-| `nombre` | `"Fire Ejection"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"737c90d8"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:030","A06:REL:032"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18919
+- **deck id:** 687
+- **cid:** 18919
+- **nombre:** Fire Ejection
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 737c90d8
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:030
+  - A06:REL:032
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 275**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:15299"` |
-| `deck_id` | `687` |
-| `cid` | `15299` |
-| `nombre` | `"Forbidden Droplet"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4cf78bc7"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RESPUESTA_NEGACION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:15299
+- **deck id:** 687
+- **cid:** 15299
+- **nombre:** Forbidden Droplet
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4cf78bc7
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RESPUESTA_NEGACION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 276**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:19027"` |
-| `deck_id` | `687` |
-| `cid` | `19027` |
-| `nombre` | `"Bonfire"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"869ac3d8"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:19027
+- **deck id:** 687
+- **cid:** 19027
+- **nombre:** Bonfire
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 869ac3d8
+- **funcion concreta en inventario:** CONSISTENCIA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 277**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:14144"` |
-| `deck_id` | `687` |
-| `cid` | `14144` |
-| `nombre` | `"Pot of Extravagance"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"7ca953e4"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:14144
+- **deck id:** 687
+- **cid:** 14144
+- **nombre:** Pot of Extravagance
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 7ca953e4
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 278**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:11597"` |
-| `deck_id` | `687` |
-| `cid` | `11597` |
-| `nombre` | `"Blaze Accelerator Reload"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"77f618ae"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `["A06:REL:031","A06:REL:151","A06:REL:154","A06:REL:155"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:11597
+- **deck id:** 687
+- **cid:** 11597
+- **nombre:** Blaze Accelerator Reload
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 77f618ae
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - A06:REL:031
+  - A06:REL:151
+  - A06:REL:154
+  - A06:REL:155
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 279**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18921"` |
-| `deck_id` | `687` |
-| `cid` | `18921` |
-| `nombre` | `"Volcanic Inferno"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"77f618ae"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18921
+- **deck id:** 687
+- **cid:** 18921
+- **nombre:** Volcanic Inferno
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 77f618ae
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 280**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:18920"` |
-| `deck_id` | `687` |
-| `cid` | `18920` |
-| `nombre` | `"Volcanic Emission"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"77f618ae"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `["A06:REL:061","A06:REL:156","A06:REL:157"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:18920
+- **deck id:** 687
+- **cid:** 18920
+- **nombre:** Volcanic Emission
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 77f618ae
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · CONTROL_DESTIERRO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - A06:REL:061
+  - A06:REL:156
+  - A06:REL:157
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 281**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:7934"` |
-| `deck_id` | `687` |
-| `cid` | `7934` |
-| `nombre` | `"Gozen Match"` |
-| `zona` | `[{"zona":"Main","copias":2},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"18056d6e"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · TRIBUTO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:7934
+- **deck id:** 687
+- **cid:** 7934
+- **nombre:** Gozen Match
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 18056d6e
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · TRIBUTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 282**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:14676"` |
-| `deck_id` | `687` |
-| `cid` | `14676` |
-| `nombre` | `"I:P Masquerena"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"26e69366"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:14676
+- **deck id:** 687
+- **cid:** 14676
+- **nombre:** I:P Masquerena
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 26e69366
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 283**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:14133"` |
-| `deck_id` | `687` |
-| `cid` | `14133` |
-| `nombre` | `"Hiita the Fire Charmer, Ablaze"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d259834d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:14133
+- **deck id:** 687
+- **cid:** 14133
+- **nombre:** Hiita the Fire Charmer, Ablaze
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d259834d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 284**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13601"` |
-| `deck_id` | `687` |
-| `cid` | `13601` |
-| `nombre` | `"Knightmare Unicorn"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3b857ec1"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13601
+- **deck id:** 687
+- **cid:** 13601
+- **nombre:** Knightmare Unicorn
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3b857ec1
+- **funcion concreta en inventario:** RECUPERACION_MANO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 285**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:15741"` |
-| `deck_id` | `687` |
-| `cid` | `15741` |
-| `nombre` | `"Underworld Goddess of the Closed World"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d2cb8d7d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:15741
+- **deck id:** 687
+- **cid:** 15741
+- **nombre:** Underworld Goddess of the Closed World
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d2cb8d7d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 286**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13600"` |
-| `deck_id` | `687` |
-| `cid` | `13600` |
-| `nombre` | `"Knightmare Phoenix"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d3d8014e"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RECUPERACION_MANO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13600
+- **deck id:** 687
+- **cid:** 13600
+- **nombre:** Knightmare Phoenix
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d3d8014e
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · RECUPERACION_MANO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 287**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13346"` |
-| `deck_id` | `687` |
-| `cid` | `13346` |
-| `nombre` | `"Linkuriboh"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"06cd1370"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · TRIBUTO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13346
+- **deck id:** 687
+- **cid:** 13346
+- **nombre:** Linkuriboh
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 06cd1370
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · TRIBUTO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 288**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:19184"` |
-| `deck_id` | `687` |
-| `cid` | `19184` |
-| `nombre` | `"Super Starslayer TY-PHON - Sky Crisis"` |
-| `zona` | `[{"zona":"Extra","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"09bb2a33"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_XYZ"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"XYZ","rol":"ACCESO_XYZ","alcance":"Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:19184
+- **deck id:** 687
+- **cid:** 19184
+- **nombre:** Super Starslayer TY-PHON - Sky Crisis
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 09bb2a33
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_XYZ
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** XYZ
+    - **rol:** ACCESO_XYZ
+    - **alcance:** Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 289**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:19188"` |
-| `deck_id` | `687` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `[{"zona":"Extra","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3b99386c"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:19188
+- **deck id:** 687
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3b99386c
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 290**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:14338"` |
-| `deck_id` | `687` |
-| `cid` | `14338` |
-| `nombre` | `"Salamangreat Almiraj"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"95c55eec"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:14338
+- **deck id:** 687
+- **cid:** 14338
+- **nombre:** Salamangreat Almiraj
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 95c55eec
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 291**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:19507"` |
-| `deck_id` | `687` |
-| `cid` | `19507` |
-| `nombre` | `"Promethean Princess, Bestower of Flames"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"64e34cdb"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:19507
+- **deck id:** 687
+- **cid:** 19507
+- **nombre:** Promethean Princess, Bestower of Flames
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 64e34cdb
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 292**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13631"` |
-| `deck_id` | `687` |
-| `cid` | `13631` |
-| `nombre` | `"Infinite Impermanence"` |
-| `zona` | `[{"zona":"Reserva","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"21b1b175"` |
-| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · SELECCION_OBJETIVO · PREPARACION_CAMPO"` |
-| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13631
+- **deck id:** 687
+- **cid:** 13631
+- **nombre:** Infinite Impermanence
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 21b1b175
+- **funcion concreta en inventario:** RESPUESTA_NEGACION · SELECCION_OBJETIVO · PREPARACION_CAMPO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 293**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:12950"` |
-| `deck_id` | `687` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6ecfa187"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:12950
+- **deck id:** 687
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6ecfa187
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 294**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:8213"` |
-| `deck_id` | `687` |
-| `cid` | `8213` |
-| `nombre` | `"Forbidden Chalice"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"f702ddf0"` |
-| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:8213
+- **deck id:** 687
+- **cid:** 8213
+- **nombre:** Forbidden Chalice
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** f702ddf0
+- **funcion concreta en inventario:** RESPUESTA_NEGACION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 295**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13002"` |
-| `deck_id` | `687` |
-| `cid` | `13002` |
-| `nombre` | `"Clashing Souls"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"b8ba07cc"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13002
+- **deck id:** 687
+- **cid:** 13002
+- **nombre:** Clashing Souls
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** b8ba07cc
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 296**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:13293"` |
-| `deck_id` | `687` |
-| `cid` | `13293` |
-| `nombre` | `"Evenly Matched"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"744f25d4"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:13293
+- **deck id:** 687
+- **cid:** 13293
+- **nombre:** Evenly Matched
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 744f25d4
+- **funcion concreta en inventario:** CONTROL_DESTIERRO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 297**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:5622"` |
-| `deck_id` | `687` |
-| `cid` | `5622` |
-| `nombre` | `"Rivalry of Warlords"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"786da2a0"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:5622
+- **deck id:** 687
+- **cid:** 5622
+- **nombre:** Rivalry of Warlords
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 786da2a0
+- **funcion concreta en inventario:** CARGA_CEMENTERIO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 298**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:4678"` |
-| `deck_id` | `687` |
-| `cid` | `4678` |
-| `nombre` | `"Harpie's Feather Duster"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4a9f2e80"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:4678
+- **deck id:** 687
+- **cid:** 4678
+- **nombre:** Harpie's Feather Duster
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4a9f2e80
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 299**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"687:CARD:15756"` |
-| `deck_id` | `687` |
-| `cid` | `15756` |
-| `nombre` | `"Pot of Prosperity"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"8152cf9f"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RECUPERACION_MANO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 687:CARD:15756
+- **deck id:** 687
+- **cid:** 15756
+- **nombre:** Pot of Prosperity
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 8152cf9f
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · RECUPERACION_MANO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_687 -->
 ### Fichas de cartas y sinergias documentadas
@@ -3344,3 +4080,603 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: Sin Skill externa en este dossier
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `687:A09:BLAZE:RIMFIRE:RELOAD01` | [Blaze Accelerator + Rimfire: preparar Reload](imagenes/infografias/687_A09_BLAZE_RIMFIRE_RELOAD01.webp) |
+| `687:A09:BLAZE:SHELL:RESOURCE01` | [Blaze Accelerator + Shell: retirada y ventaja de recursos](imagenes/infografias/687_A09_BLAZE_SHELL_RESOURCE01.webp) |
+| `687:A09:VBA:EJECTION:EMPEROR01` | [Acelerador + Ejection: preparar Invocación de Emperor](imagenes/infografias/687_A09_VBA_EJECTION_EMPEROR01.webp) |
+| `687:A09:DROPLET:RELOAD:SCATTERSHOT01` | [Gotas/Reload: distinguir el barrido válido de Scattershot](imagenes/infografias/687_A09_DROPLET_RELOAD_SCATTERSHOT01.webp) |
+| `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01` | [Gotas/Reload/Ejection: conectar munición con Emperor](imagenes/infografias/687_A09_DROPLET_RELOAD_EJECTION_EMPEROR01.webp) |
+| `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01` | [Bonfire/Trooper: preparar Emission para turno posterior](imagenes/infografias/687_A09_BONFIRE_TROOPER_BOMB_EMISSION01.webp) |
+| `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01` | [Ir primero: preparar I:P con Trooper/Rocket](imagenes/infografias/687_A09_SITUACION_GO_FIRST_TROOPER_ROCKET_IP01.webp) |
+| `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02` | [Ir segundo: Phoenix para M/T y recursos Volcanic](imagenes/infografias/687_A09_SITUACION_GO_SECOND_TROOPER_ROCKET_PHOENIX02.webp) |
+| `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03` | [Ir primero: desarrollar Almiraj/Reload desde Trooper](imagenes/infografias/687_A09_SITUACION_GO_FIRST_TROOPER_RELOAD_ALMIRAJ03.webp) |
+| `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04` | [Ir primero: preparar interacción bajo Gozen Match](imagenes/infografias/687_A09_SITUACION_GO_FIRST_TROOPER_ROCKET_GOZEN04.webp) |
+| `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05` | [Ir primero: preparar Inferno y el motor Emperor](imagenes/infografias/687_A09_SITUACION_GO_FIRST_TROOPER_VBA_EJECTION_INFERNO05.webp) |
+| `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06` | [Turno rival: administrar Emission desde la preparación anterior](imagenes/infografias/687_A09_SITUACION_OPPONENT_TURN_TROOPER_VBA_EJECTION_EMISSION06.webp) |
+| `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07` | [Ir primero: unir apoyo Volcanic e I:P](imagenes/infografias/687_A09_SITUACION_GO_FIRST_TROOPER_VBA_ROCKET_EJECTION_IP07.webp) |
+| `687:A09:IP:EMPEROR:UNICORN14` | [CONTINUACIÓN   I:P + EMPERADOR → UNICORNIO](imagenes/infografias/687_A09_IP_EMPEROR_UNICORN14.webp) |
+| `687:A09:SHELL:LINKURIBOH:DEFENSA15` | [INTERACCIÓN BÁSICA   SHELL → ENLACEKURIBOH DEFENSIVO](imagenes/infografias/687_A09_SHELL_LINKURIBOH_DEFENSA15.webp) |
+| `687:A09:IP:EMPEROR:SP_DEFENSA16` | [CONTINUACIÓN   I:P + EMPERADOR → S:P](imagenes/infografias/687_A09_IP_EMPEROR_SP_DEFENSA16.webp) |
+| `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17` | [Trooper + Rocket + Shell previos: Princesa y Rocket](imagenes/infografias/687_A09_TROOPER_ROCKET_SHELL_PRINCESS17.webp) |
+| `687:A09:SHELL:TYPHON18` | [Volcanic Shell: TY-PHON contra campo del Extra](imagenes/infografias/687_A09_SHELL_TYPHON18.webp) |
+| `687:A09:IP:TROOPER:ROCKET:GODDESS19` | [I:P + Trooper + Rocket previos: Diosa protegida](imagenes/infografias/687_A09_IP_TROOPER_ROCKET_GODDESS19.webp) |
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Fire Ejection — Eyección de Fuego (CID 18919), Volcanic Blaze Accelerator — Acelerador de Llama Volcánico (CID 18918), Volcanic Emperor — Emperador Volcánico (CID 18915), Volcanic Emission — Emisión Volcánica (CID 18920), Gozen Match — Emparejamiento de Atributos (CID 7934). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Volcanic Emperor — Emperador Volcánico (CID 18915), Forbidden Droplet — Gotas Prohibidas (CID 15299), Volcanic Rimfire — Percusión Anular Volcánica (CID 18917), Gozen Match — Emparejamiento de Atributos (CID 7934), Blaze Accelerator Reload — Recarga del Acelerador de Llama (CID 11597). Trooper/Bonfire/Rocket/Fire Ejection: no presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Gozen Match — Emparejamiento de Atributos (CID 7934), Gozen Match — Emparejamiento de Atributos (CID 7934), Fire Ejection — Eyección de Fuego (CID 18919), Pot of Extravagance — Olla de la Extravagancia (CID 14144), Volcanic Rocket — Misil Volcánico (CID 7243). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** Maxx "C" — «C» Maxx (CID 9455), Volcanic Scattershot — Disparo Disperso Volcánico (CID 7083), Volcanic Blaze Accelerator — Acelerador de Llama Volcánico (CID 18918), Volcanic Trooper — Soldado Volcánico (CID 18916), Volcanic Shell — Cartucho Volcánico (CID 7082). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Volcanic Trooper — Soldado Volcánico (CID 18916), Fire Ejection — Eyección de Fuego (CID 18919), Bonfire — Hoguera (CID 19027), Volcanic Trooper — Soldado Volcánico (CID 18916), Gozen Match — Emparejamiento de Atributos (CID 7934). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Barrier Statue of the Inferno — Estatua-Barrera del Infierno (CID 6884), Volcanic Scattershot — Disparo Disperso Volcánico (CID 7083), Volcanic Rocket — Misil Volcánico (CID 7243), Forbidden Droplet — Gotas Prohibidas (CID 15299), Blaze Accelerator Reload — Recarga del Acelerador de Llama (CID 11597). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Volcanic Inferno — Infierno Volcánico (CID 18921), Maxx "C" — «C» Maxx (CID 9455), Volcanic Rocket — Misil Volcánico (CID 7243), Blaze Accelerator Reload — Recarga del Acelerador de Llama (CID 11597), Pot of Extravagance — Olla de la Extravagancia (CID 14144). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Fire Ejection — Eyección de Fuego (CID 18919), Fire Ejection — Eyección de Fuego (CID 18919), Volcanic Scattershot — Disparo Disperso Volcánico (CID 7083), Gozen Match — Emparejamiento de Atributos (CID 7934), Volcanic Trooper — Soldado Volcánico (CID 18916). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Fire Ejection — Eyección de Fuego (CID 18919), Volcanic Scattershot — Disparo Disperso Volcánico (CID 7083), Fire Ejection — Eyección de Fuego (CID 18919), Volcanic Scattershot — Disparo Disperso Volcánico (CID 7083), Blaze Accelerator — Acelerador de Llama (CID 7086). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Volcanic Trooper — Soldado Volcánico (CID 18916), Volcanic Rocket — Misil Volcánico (CID 7243), Volcanic Rocket — Misil Volcánico (CID 7243), Volcanic Rocket — Misil Volcánico (CID 7243), Fire Ejection — Eyección de Fuego (CID 18919). Trooper/Bonfire/Rocket/Fire Ejection: presente; VBA + Fire Ejection: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **687:PRACTICA:V14:1 ? Sin objetivo VBA:** Turno 1 campo rival vacío; activas VBA. ¿Puedes usar su destrucción para enviar Rimfire del Deck? **Respuesta documentada:** No: el efecto selecciona monstruo rival boca arriba. La alternativa legal es Fire Ejection a Rimfire. (DECISION_REAL_NO_PREDICCION).
+- **687:PRACTICA:V14:2 ? Rimfire coste:** Blaze original en GY; Rimfire fue enviado por Ejection. ¿Puedes colocarte Reload? **Respuesta documentada:** Sí, desterrando el Blaze original para elegir la segunda modalidad de Rimfire si Reload está disponible. (DECISION_REAL_NO_PREDICCION).
+- **687:PRACTICA:V14:3 ? Emperor contra Reload:** Ya desterraste Blaze original con Rimfire. ¿Puedes volver a desterrarlo para invocar Emperor? **Respuesta documentada:** No: ese mismo recurso ya salió del GY; necesitas otro Blaze Accelerator válido. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Backrow numerosa y poco dependiente de monstruos en campo:** Ir segundo contra M/T colocadas; Barrier Statue ofrece poca presión inmediata. Entradas propuestas: 1 x CID 4678 (Reserva). Salidas propuestas: 1 x CID 6884 (Main). Feather Duster puede romper M/T, pero la Reserva NO forma parte de Side operativo; cambio sujeto a aprobación. Feather Duster destruye M/T rivales, no niega efectos activados en respuesta. Trooper puede buscar Inferno, pero ésta recién seteada no interactúa de inmediato en tu turno de ir segundo. Mantener Ejection y Shell para el turno siguiente tras limpiar backrow. Si no se cambia: Barrier Statue permanece Main 1x; no declarar Feather Duster como disponible. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+- **Efectos que añaden o mandan desde Deck:** La amenaza inicial no Invoca muchas veces y Maxx C genera pocas cartas; Ash sí intercepta acceso al Deck. Entradas propuestas: 2 x CID 12950 (Reserva). Salidas propuestas: 2 x CID 9455 (Main). Cambio hipotético 2× Ash por 2× Maxx C, sin alterar Main antes de autorización. Ash en ventana de añadir/Invocar/enviar del Deck, no ante cualquier efecto. Shell GY búsqueda y Fire Ejection envío son también vulnerables a Ash rival, por lo que reservar segunda fuente de munición si disponible. Inferno niega monstruos activados EN CAMPO, complementando la protección frente a Deck. Si no se cambia: Main conserva Maxx C 2x y Ash está en Reserva; ajustar juego sin inventar Ash robada. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Blaze Accelerator + Rimfire: preparar Reload** ? `687:A09:BLAZE:RIMFIRE:RELOAD01:PRACTICA_V06`, `687:A09:BLAZE:RIMFIRE:RELOAD01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× Volcanic Blaze Accelerator. Deck: 1× Blaze Accelerator original, 1× Volcanic Rimfire Nivel 1 y 1× Blaze Accelerator Reload disponibles. Rival: controla un monstruo boca arriba destruible por efecto; sin respuestas adversarias en la línea principal. Estado: Main Phase propia, Campo propio vacío, sin impedimentos de activación.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar Volcanic Blaze Accelerator desde mano como Mágica Continua (CL1).; last action: Tras concluir la Cadena del paso 2, activar el disparo opcional de Rimfire en GY (nueva CL1), eligiendo su segunda opción.; expected final: Tablero resultante (solo esta secuencia): propio Volcanic Blaze Accelerator y Blaze Accelerator Reload boca arriba en M/T; sin monstruos propios; Rimfire en GY propio; Blaze Accelerator original desterrado boca arriba; 1 monstruo rival destruido y enviado a su GY si el estado y la resolución lo permitían; Normal sin gastar. Reload adopta el nombre «Tri-Blaze Accelerator» únicamente mientras está en la Zona M/T. No se activó su efecto de robo ni el de envío desde GY; ninguna carta robada es supuesta.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Blaze Accelerator + Shell: retirada y ventaja de recursos** ? `687:A09:BLAZE:SHELL:RESOURCE01:PRACTICA_V06`, `687:A09:BLAZE:SHELL:RESOURCE01`
+- Route type: INTERACCION
+- Purpose: Ofensivo condicional
+- Challenge: initial state: VBA. Deck: 1 Blaze Accelerator original y al menos dos Volcanic Shell. Rival: un monstruo boca arriba destruible por efecto. GY propio vacío, LP propios superiores a 500, Main Phase propia, sin respuesta rival. Normal libre.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Activar VBA desde la mano enviando Blaze Accelerator original del Deck al GY; VBA queda boca arriba.; last action: Con Shell en GY, activar su efecto en una cadena nueva, pagando 500 LP al activarlo, y añadir otra copia de Volcanic Shell del Deck a la mano al resolver.; expected final: Resultado demostrado: VBA boca arriba, Blaze Accelerator original en GY, una Shell en GY, otra Shell en mano, un monstruo rival destruido y 500 LP propios pagados. Normal libre, sin Reload instalado, sin Scattershot ni daño por efecto al rival. No gastar una Shell que ya no permanezca en GY al resolver. Fuentes oficiales: Shell y VBA.;.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Acelerador + Ejection: preparar Invocación de Emperor** ? `687:A09:VBA:EJECTION:EMPEROR01:PRACTICA_V06`, `687:A09:VBA:EJECTION:EMPEROR01`
+- Route type: RUTA
+- Purpose: Ofensivo
+- Challenge: initial state: 1× Volcanic Blaze Accelerator (VBA) + 1× Fire Ejection. Deck propio: Blaze Accelerator original (1 copia) y Volcanic Emperor Nivel 8 (al menos 1 de 2 copias) disponibles. Campo/GY propios: vacíos; Main Phase propia, sin respuestas/impedimentos; Extra irrelevante. No se requiere ni se consume la Invocación Normal.; question: ¿Cómo alcanzas «Ofensivo» sin saltar pasos?; first action: Activar VBA desde mano, enviando Blaze Accelerator original del Deck al GY para su activación.; last action: Aplicar el procedimiento de Invocación Especial propio de Emperor desde el GY: desterrar Blaze Accelerator original del GY.; expected final: Endboard demostrado: Emperor en Ataque 3100 ATK, VBA boca arriba en M/T, BA original desterrado, Fire Ejection GY, 800 LP de daño infligidos por Fire Ejection, Normal libre, sin cartas en mano provenientes de las dos iniciales. Su efecto de daño futuro de 500 por Invocación Especial rival es condicional, no daño ya causado.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Gotas/Reload: distinguir el barrido válido de Scattershot** ? `687:A09:DROPLET:RELOAD:SCATTERSHOT01:PRACTICA_V06`, `687:A09:DROPLET:RELOAD:SCATTERSHOT01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Droplet 1× Gotas Prohibidas + Reload 1× Recarga del Acelerador de Llama (tres copias de Reload en Main; esta se empieza en la mano). Deck: Scattershot 3× Disparo Disperso Volcánico disponibles, sin copias usadas previamente. Campo propio / GY / destierro: vacíos, Normal disponible. Rival: controla al menos un monstruo de Efecto boca arriba que puede verse afectado por Droplet y destruirse por efectos; sin respuestas ni protección contra destrucción, prevención de daño, reemplazos de envío o restricciones previas. No se presuponen objetivos adicionales ni cartas de Extra.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: En Main Phase propia, activar Gotas Prohibidas desde mano (Mágica Rápida).; last action: Las Scattershot #2 y #3 salen del Deck al GY como coste para activar Scattershot #1, NO por el efecto de una carta «Blaze Accelerator».; expected final: Endboard al cerrar la secuencia: Campo propio sin monstruos ni M/T activas; Gotas y las tres Scattershot en GY, Reload desterrada boca arriba; 0 cartas robadas; mano inicial consumida; Normal sin gastar. Rival pierde 1500 LP si no hay prevención ni interrupción y sus monstruos destruibles son destruidos por Scattershot #1; no se afirma que monstruos indestructibles desaparezcan, ni daño de batalla, OTK o que se reviva un monstruo del Extra.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Gotas/Reload/Ejection: conectar munición con Emperor** ? `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01:PRACTICA_V06`, `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01`
+- Route type: RUTA
+- Purpose: Ofensivo
+- Challenge: initial state: Droplet Gotas Prohibidas + Reload Blaze Accelerator Reload + Fire Ejection Fire Ejection. Deck inicial: tres Scattershot Volcanic Scattershot, al menos un Emperor Volcanic Emperor y Volcanic Emission (1x) sin gastar. GY propio vacío, Campo propio vacío, cero Piro desterrados, Invocación Normal libre. Oponente: al menos un monstruo de Efecto boca arriba afectable por Droplet, sin respuestas que detengan la secuencia, sin prevención de daño ni protección contra destrucción. Main Phase propia con 8000 LP rivales como ejemplo, sin fases saltadas.; question: ¿Cómo alcanzas «Ofensivo» sin saltar pasos?; first action: Activar Gotas desde la mano mandando Reload al GY como coste; elegir el monstruo de Efecto rival boca arriba.; last action: En una nueva cadena, activar el efecto opcional de Emperor tras ser Invocado así: hay tres Piro desterrados boca arriba, requisito oficial de activación.; expected final: Endboard al terminar la Main Phase: Emperor 3100 ATK en campo + Volcanic Emission colocada, ningún otro monstruo/M/T propios; Gotas y Fire Ejection en GY, Reload y las tres Scattershot desterradas, mano inicial consumida, Normal disponible. Con oponente a 8000 LP y sin otros cambios, 4200 LP restantes. El daño futuro de Emperor por Invocaciones Especiales del rival no se incluye en los 3800 LP y Emission aún no puede activarse. Los efectos de Scattershot y Emperor pueden ser negados/interrumpidos; esta es una línea condicionada sin respuesta rival, no una garantía de duelo real.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Bonfire/Trooper: preparar Emission para turno posterior** ? `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01:PRACTICA_V06`, `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Bonfire Bonfire + cualquier otra carta descartable de mano, aquí Fire Ejection Fire Ejection solo como ejemplo de coste, sin activar su efecto. Deck: Trooper Volcanic Trooper y Emission Volcanic Emission. Zonas libres; Normal disponible; rival con espacio para una Bomb Token en su Campo. Sin interrupción rival y asumiendo expresamente que la Ficha sigue disponible al siguiente turno.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: En tu Main Phase, activar Bonfire; al resolver añadir Volcanic Trooper (Piro Nivel 3) del Deck a la mano.; last action: En el siguiente turno rival, activar Volcanic Emission seleccionando su Bomb Token Piro boca arriba en Campo rival, únicamente si Emission fue Colocada en el turno previo y sigue disponible en una ventana legal.; expected final: Resultado comprobable: propia Normal gastada; Trooper 1000 ATK permanece si sobrevivió; 1000 LP de efecto por Emission solo si la Ficha persistió hasta la activación, Bomb Token todavía presente tras Emission, Bonfire/Fire Ejection/Emission en GY. Si posteriormente alguien destruye Bomb Token, su controlador recibe 500 LP más por el texto de la Ficha, pero no se cuentan esos 500 LP sin una acción de destrucción documentada. La misma arquitectura con otro descarte es una variante agrupada, no otro combo.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/19027.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir primero: preparar I:P con Trooper/Rocket** ? `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01:PRACTICA_V06`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Objetivo: montar campo y una negación para turno rival con mano Trooper + Rocket, Campo/GY propios vacíos, Normal disponible. Deck: VBA, Blaze Accelerator original, 1 Reload, 1 Rimfire, 1 Emperor, las 3 Scattershot, 1 Inferno. Extra: I:P. Oponente sin respuestas; no requiere monstruo rival porque se genera Ficha. Dificultad alta, ir primero.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Trooper; buscar VBA del Deck.; last action: Usar Trooper y Rocket, dos monstruos de efecto propios, para Invocar por Enlace I:P Masquerena; ambos van al GY.; expected final: 6. Usar Trooper y Rocket, dos monstruos de efecto propios, para Invocar por Enlace I:P Masquerena; ambos van al GY. Endboard propio: Emperor 3100 + I:P, VBA boca arriba, Inferno Colocada; GY incluye Trooper/Rocket (Piros para futura Inferno) y Blaze original; Rimfire/Reload y Scattershot desterrados. Daño previo sin respuesta: 3500 LP (500+1500+1500), no OTK. En turno rival Inferno puede desterrar un Volcanic del GY, infligir 500 y negar un efecto de monstruo activado en Campo. Emperor causa otros 500 por evento posterior de Invocación Especial rival, no de antemano.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir segundo: Phoenix para M/T y recursos Volcanic** ? `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02:PRACTICA_V06`, `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: la misma Trooper + Rocket, pero el adversario tiene al menos un monstruo boca arriba seleccionable y una M/T seleccionable. Deck: VBA, Blaze original, Rimfire, Emperor, Reload, 3 Scattershot, Inferno. Extra: Knightmare Phoenix. Objetivo: quitar frente y retaguardia y terminar con Phoenix + Emperor + Inferno; útil ir segundo, no requiere Ficha Bomba.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Trooper para buscar VBA; activar VBA enviando Blaze original al GY.; last action: Emperor ya en GY destierra las 3 Scattershot para Invocarse, hace 1500 LP, y Coloca Inferno.; expected final: 5. Emperor ya en GY destierra las 3 Scattershot para Invocarse, hace 1500 LP, y Coloca Inferno. Final: Phoenix Link-2 + Emperor 3100 + VBA boca arriba + Inferno Colocada. Trooper y Rocket GY alimentan Inferno en turno rival; Rimfire, Reload y Scattershot desterrados. 3000 LP de daño por efecto, M/T objetivo eliminada y monstruos destruidos; sin garantizar daño de batalla ni que el oponente carezca de protecciones.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/13600.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir primero: desarrollar Almiraj/Reload desde Trooper** ? `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03:PRACTICA_V06`, `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Mano: Trooper + Reload. Deck: VBA, Blaze original, Rimfire, Emperor, tres Scattershot, Inferno. Extra: Almiraj. Campo/GY vacíos; Normal libre; sin respuesta. Objetivo: una apertura alternativa cuando Rocket no está en mano.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Trooper, buscar VBA, activar VBA enviando Blaze original al GY.; last action: Convertir Trooper Invocado Normalmente, ATK 1000, en Salamangreat Almiraj Link-1.; expected final: 5. Convertir Trooper Invocado Normalmente, ATK 1000, en Salamangreat Almiraj Link-1. Trooper pasa al GY y permite pagar la futura Inferno. Final: Emperor + Almiraj, VBA boca arriba, Inferno Colocada; 3500 LP de daño sin respuesta, Normal gastada. Almiraj puede sacrificarse posteriormente para proteger un monstruo propio de destrucción por efecto rival según su texto; ese efecto no se ha gastado.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir primero: preparar interacción bajo Gozen Match** ? `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04:PRACTICA_V06`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: P1 | Gozen Match #7934 (única carta restante de la mano inicial de 3) | Trooper #18916, Rocket #7243, Emperor #18915 (3100 ATK) | VBA #18918, Inferno #18921 (Colocada) | Blaze original #7086 | Rimfire #18917, Reload #11597, 3× Scattershot #7083 | Ficha Bomba previa destruida; 3500 LP de daño sin respuesta | Ninguno | Normal gastada; no se hizo Enlace todavía; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Completar pasos 1–5 de TROOPER_ROCKET_IP01: ficha→Rimfire→Emperor GY→Reload/Scattershot→Invocar Emperor con tres Piros desterrados, 3500 de daño y Inferno Colocada.; last action: Final: Emperor FIRE + Hiita FIRE, VBA boca arriba, Inferno y Gozen Colocadas; Trooper/Rocket GY para Inferno.; expected final: 3. Final: Emperor FIRE + Hiita FIRE, VBA boca arriba, Inferno y Gozen Colocadas; Trooper/Rocket GY para Inferno. Durante turno rival se puede activar Gozen (Trampa Continua colocada el turno anterior); ambos monstruos propios son FIRE. Nunca afirmar un campo Emperor FIRE + I:P DARK bajo Gozen ya activa: esa combinación no cumple la restricción de Atributo.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/14133.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir primero: preparar Inferno y el motor Emperor** ? `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05:PRACTICA_V06`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Mano: Trooper + VBA + Fire Ejection. En Deck: Blaze original, 1 Emperor, Inferno. Extra: Almiraj. Campo propio vacío; Normal disponible; sin necesidad de Scattershot ni de monstruo rival.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Normal Trooper, buscar Inferno (no VBA, porque VBA ya estaba en mano), Colocarla boca abajo.; last action: Invocar por Enlace Almiraj usando Trooper Normal ATK 1000, que pasa al GY.; expected final: 4. Invocar por Enlace Almiraj usando Trooper Normal ATK 1000, que pasa al GY. Final: Emperor + Almiraj + VBA boca arriba + Inferno Colocada; 800 LP por Ejection, Normal gastada, Trooper Piro en GY permite futura negación de Inferno. Ejection no crea cuerpo adicional.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Turno rival: administrar Emission desde la preparación anterior** ? `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06:PRACTICA_V06`, `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Misma mano de tres cartas y estado que INFERNO05; objetivo distinto: priorizar daño por Invocaciones Especiales rivales con dos Emperors. Deck debe contener dos Emperor (ambos registrados) y Emission; Extra Almiraj. Sin Inferno en esta rama.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Trooper y buscar Emission, Colocarla.; last action: Campo temporal rival: dos Emperor + Almiraj + VBA, con Emission ahora en GY.; expected final: Fin del turno propio: Emperor #1 + Salamangreat Almiraj + Volcanic Blaze Accelerator boca arriba + Volcanic Emission Colocada; Emperor #2 permanece en Deck. Solo si Emission sobrevive hasta el turno rival y resuelve: Invocar Emperor #2 desde Deck temporalmente; durante ese turno hay dos Emperor y Almiraj, Emission pasa al GY y el segundo Emperor regresa a mano en End Phase. Cada Emperor presente podrá infligir 500 LP por un evento de Invocación Especial rival legal; no atribuir ese daño antes de que ocurra.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ir primero: unir apoyo Volcanic e I:P** ? `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07:PRACTICA_V06`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Mano: Trooper + VBA + Rocket + Fire Ejection. Deck: Blaze original, 1 Emperor, Inferno, Reload; Extra: I:P. Campo propio vacío, Normal libre, sin respuesta. Objetivo: conservar I:P + Emperor + Inferno y Reload Colocadas sin depender del envío de las tres Scattershot.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Trooper; buscar Inferno del Deck y Colocarla.; last action: Link Trooper + Rocket → I:P; ambos Piros al GY.; expected final: 4. Link Trooper + Rocket → I:P; ambos Piros al GY. Final: Emperor + I:P, VBA boca arriba, Inferno + Reload Colocadas; daño previo 800. En turno rival Inferno puede banish Trooper/Rocket del GY como coste para su negación y Reload tiene su uso propio. Si se niega la búsqueda de Rocket, se pierde Reload pero Inferno sigue.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**CONTINUACIÓN I:P + EMPERADOR → UNICORNIO** ? `687:A09:IP:EMPEROR:UNICORN14:PRACTICA_V06`, `687:A09:IP:EMPEROR:UNICORN14`
+- Route type: CONTINUACION
+- Purpose: defensa situacional / interrupción con retorno al Deck en la Main Phase rival; no es negación.
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «defensa situacional / interrupción con retorno al Deck en la Main Phase rival; no es negación.» sin saltar pasos?; first action: Comprobar materiales y coste antes de responder.; last action: Evaluar el tablero final y la alternativa de conservar Emperador.; expected final: mínimo: Unicornio protegido contra destrucción por efectos rivales, I:P/Emperador/Gotas en GY, y una carta rival barajada al Deck si el efecto resolvió. Decisión: conservar Emperador (3100 ATK) + I:P para presión de daño, o sustituirlos por la retirada puntual de Unicornio. Validación acotada: esta continuación fue contrastada; las aperturas históricas de las que podría partir conservan su revisión pendiente. Consulta técnica y fuentes oficiales: guias_a10/DECK_687_IP_EMPEROR_UNICORN_RESPUESTA_GUIA.md, ID 687:A09:IP:EMPEROR:UNICORN14.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/15299.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/13601.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**INTERACCIÓN BÁSICA SHELL → ENLACEKURIBOH DEFENSIVO** ? `687:A09:SHELL:LINKURIBOH:DEFENSA15:PRACTICA_V06`, `687:A09:SHELL:LINKURIBOH:DEFENSA15`
+- Route type: CONTINUACION
+- Purpose: obtener recurso de mano desde GY y preparar reducción de ATK si el rival declara un ataque; no es negación ni combo extenso.
+- Challenge: initial state: un Cartucho Volcánico (Shell, Main 3x) en mano, Normal libre, GY y campo propios vacíos; otra copia de Shell en Deck, Enlacekuriboh Link1 (Extra 1x) disponible; 500 LP pagables. Sin bloqueos OSCURIDAD/Ciberso.; question: ¿Cómo alcanzas «obtener recurso de mano desde GY y preparar reducción de ATK si el rival declara un ataque; no es negación ni combo extenso.» sin saltar pasos?; first action: Identificar Shell en mano y el destino Nivel 1 del Extra.; last action: Solo cuando el rival declare ataque, Sacrificar Enlacekuriboh.; expected final: inicial: Enlacekuriboh Link1 (300 ATK) en campo, Shell original en GY, otra Shell en mano si resolvió y 500 LP gastados; Normal utilizada. Reacción situacional posterior: al declararse un ataque rival, sacrificar Linkuriboh reduce ATK del atacante, pero no niega el ataque ni impide una repetición de ataque. Alternativa: reservar la Normal para Trooper/Rocket y aprovechar la ruta 687:A09:BLAZE:SHELL:RESOURCE01 para obtener Shell en GY. Consulta técnica: guias_a10/DECK_687_SHELL_LINKURIBOH_DEFENSA_GUIA.md.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/13346.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**CONTINUACIÓN I:P + EMPERADOR → S:P** ? `687:A09:IP:EMPEROR:SP_DEFENSA16:PRACTICA_V06`, `687:A09:IP:EMPEROR:SP_DEFENSA16`
+- Route type: CONTINUACION
+- Purpose: reacción en Main rival con posible destierro inmediato de una carta y posterior respuesta rápida si se da una nueva activación; ninguna niega.
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «reacción en Main rival con posible destierro inmediato de una carta y posterior respuesta rápida si se da una nueva activación; ninguna niega.» sin saltar pasos?; first action: Campo actual y decisión sobre el Emperador.; last action: Endboard y comparación de costes.; expected final: S:P Little Knight 1600 ATK en campo; I:P y Emperador en GY; una carta rival desterrada por efecto de Invocación solo si existía objetivo válido y resolvió. Efecto rápido posterior condicional; no negación automática.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/19188.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Trooper + Rocket + Shell previos: Princesa y Rocket** ? `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17:PRACTICA_V06`, `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`
+- Route type: CONTINUACION
+- Purpose: Aprovechar tres cuerpos FUEGO ya en campo para invocar Princesa y recuperar Rocket
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Aprovechar tres cuerpos FUEGO ya en campo para invocar Princesa y recuperar Rocket» sin saltar pasos?; first action: Campo previo obligatorio: Trooper + Rocket + Shell boca arriba propios, todos FUEGO/Piro/Efecto; no afirmar acceso desde mano sin secuencia previa.; last action: Final: Princess 2700 + Rocket 1900; Trooper/Shell GY. Princess prohíbe Invocaciones Especiales no-FUEGO mientras aplica. No convertir de inmediato estos cuerpos en S:P/I:P; no es negación ni OTK automático.; expected final: Princess 2700 + Rocket 1900; Trooper/Shell GY. Princess prohíbe Invocaciones Especiales no-FUEGO mientras aplica. No convertir de inmediato estos cuerpos en S:P/I:P; no es negación ni OTK automático.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/19507.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Volcanic Shell: TY-PHON contra campo del Extra** ? `687:A09:SHELL:TYPHON18:PRACTICA_V06`, `687:A09:SHELL:TYPHON18`
+- Route type: CONTINUACION
+- Purpose: Convertir una Shell disponible en TY-PHON frente a múltiples Invocaciones de Extra del rival
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Convertir una Shell disponible en TY-PHON frente a múltiples Invocaciones de Extra del rival» sin saltar pasos?; first action: Rival hizo 2+ Especiales desde Extra en ventana válida; Shell en mano, único cuerpo a controlar.; last action: Final: TY-PHON sin material, no más Invocaciones este turno. Alternativa excluyente de Shell→Linkuriboh.; expected final: TY-PHON sin material, no más Invocaciones este turno. Alternativa excluyente de Shell→Linkuriboh.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/19184.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**I:P + Trooper + Rocket previos: Diosa protegida** ? `687:A09:IP:TROOPER:ROCKET:GODDESS19:PRACTICA_V06`, `687:A09:IP:TROOPER:ROCKET:GODDESS19`
+- Route type: CONTINUACION
+- Purpose: Usar los materiales realmente presentes y un monstruo rival para Link-5 Diosa con protección heredada de I:P
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Usar los materiales realmente presentes y un monstruo rival para Link-5 Diosa con protección heredada de I:P» sin saltar pasos?; first action: Campo previo: I:P Link2 + Trooper + Rocket propios y un Efecto no-Link rival, sin Princess FIRE-only vigente.; last action: Final: Diosa con resistencia propia ante efectos activados no selectivos y protección heredada de I:P; no es una negación de todas las cartas ni puede hacerse bajo bloqueo FIRE que impida Diosa LUZ.; expected final: Diosa con resistencia propia ante efectos activados no selectivos y protección heredada de I:P; no es una negación de todas las cartas ni puede hacerse bajo bloqueo FIRE que impida Diosa LUZ.
+- Check before play: ¿La recarga conserva recursos Volcanic y Extra no fue consumido?; Rocket + Reload es interacción básica, no combo por sí solo; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Remoción de Blaze Accelerator o destierro de recursos GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; decks/DECK_687_VOLCANIC/imagenes/tcg/15741.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:687:PRIMERO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Trooper + ruta Inferno
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Preparar munición real de Pyro y buscar apoyo conforme al texto.
+- Riesgo y respuesta: No llamar Rocket+Reload combo sin secuencia y resultado.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:687:SEGUNDO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Turno rival con efecto monstruo activado en Campo
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Conservar Inferno para ese efecto; verificar coste y recursos.
+- Riesgo y respuesta: No negar automáticamente efectos de mano/GY.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:687:RESPUESTA_RIVAL`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Ash sobre Trooper
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Evaluar Ejection para enviar Shell si sigue libre y el Deck tiene carta.
+- Riesgo y respuesta: No contar Inferno buscada por Trooper negado.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:687:RECURSOS`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Ejection y Shell en Deck
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Enviar Shell y registrar búsqueda/coste separadamente; comprobar espacio de mano.
+- Riesgo y respuesta: No mandar Shell al GY si Ejection fue negada antes de resolver.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:687:MANO_IRREGULAR`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Blaze Accelerator y Rimfire disponibles
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Elegir extensión o reserva de munición según campo rival.
+- Riesgo y respuesta: No asociar destrucción adicional sin requisito cumplido.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:687:HABILIDAD_O_CONTINUIDAD`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Mano sin acelerador pero con Rocket
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Buscar carta de motor legal sin afirmar final de combo.
+- Riesgo y respuesta: Rocket+Reload es interacción básica.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:687:TURNO_TARDIO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Turno tardío y Emperor en mano
+- Cartas relevantes: cid: 18916; nombre: Volcanic Trooper; cid: 18919; nombre: Fire Ejection; cid: 7082; nombre: Volcanic Shell; cid: 18917; nombre: Volcanic Rimfire; cid: 11597; nombre: Blaze Accelerator Reload; cid: 18918; nombre: Volcanic Blaze Accelerator; cid: 18915; nombre: Volcanic Emperor
+- Linea preferida condicionada: Contabilizar recursos Pyro del GY y condiciones de Invocación.
+- Riesgo y respuesta: No invocar Emperor sin cumplir sus condiciones.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Blaze Accelerator + Rimfire: preparar Reload** ? `687:A09:BLAZE:RIMFIRE:RELOAD01`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: Tablero resultante (solo esta secuencia): propio Volcanic Blaze Accelerator y Blaze Accelerator Reload boca arriba en M/T; sin monstruos propios; Rimfire en GY propio; Blaze Accelerator original desterrado boca arriba; 1 monstruo rival destruido y enviado a su GY si el estado y la resolución lo permitían; Normal sin gastar. Reload adopta el nombre «Tri-Blaze Accelerator» únicamente mientras está en la Zona M/T. No se activó su efecto de robo ni el de envío desde GY; ninguna carta robada es supuesta.
+- Last action: Tras concluir la Cadena del paso 2, activar el disparo opcional de Rimfire en GY (nueva CL1), eligiendo su segunda opción.
+- Last detail: Volcanic Rimfire — Percusión Anular Volcánica ACTIVAR → Blaze Accelerator — Acelerador de Llama DESTERRAR → Blaze Accelerator Reload — Recarga del Acelerador de Llama DESTERRAR Tras concluir la Cadena del paso 2, activar el disparo opcional de Rimfire en GY (nueva CL1), eligiendo su segunda opción. *Recurso / restricción:* Al resolver, desterrar del GY el Blaze Accelerator original enviado en paso 1 y, al hacerlo, colocar boca arriba Blaze Accelerator Reload directamente desde Deck en Zona M/T libre. Rimfire permanece en GY; no se eligió su primera opción de desterrarse a sí mismo.
+- Image assets: name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Blaze Accelerator — Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Blaze Accelerator + Shell: retirada y ventaja de recursos** ? `687:A09:BLAZE:SHELL:RESOURCE01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Resultado demostrado: VBA boca arriba, Blaze Accelerator original en GY, una Shell en GY, otra Shell en mano, un monstruo rival destruido y 500 LP propios pagados. Normal libre, sin Reload instalado, sin Scattershot ni daño por efecto al rival. No gastar una Shell que ya no permanezca en GY al resolver. Fuentes oficiales: Shell y VBA.;.
+- Last action: Con Shell en GY, activar su efecto en una cadena nueva, pagando 500 LP al activarlo, y añadir otra copia de Volcanic Shell del Deck a la mano al resolver.
+- Last detail: Volcanic Shell — Cartucho Volcánico BUSCAR / AÑADIR Con Shell en GY, activar su efecto en una cadena nueva, pagando 500 LP al activarlo, y añadir otra copia de Volcanic Shell del Deck a la mano al resolver. La Shell que activó el efecto debe permanecer en GY hasta la resolución. *Recurso / restricción:* La Shell que activó el efecto debe permanecer en GY hasta la resolución.
+- Image assets: name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Blaze Accelerator — Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; name: Volcanic Shell — Cartucho Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Acelerador + Ejection: preparar Invocación de Emperor** ? `687:A09:VBA:EJECTION:EMPEROR01`
+- Purpose: Ofensivo
+- Format: tcg
+- Final state text: Endboard demostrado: Emperor en Ataque 3100 ATK, VBA boca arriba en M/T, BA original desterrado, Fire Ejection GY, 800 LP de daño infligidos por Fire Ejection, Normal libre, sin cartas en mano provenientes de las dos iniciales. Su efecto de daño futuro de 500 por Invocación Especial rival es condicional, no daño ya causado.
+- Last action: Aplicar el procedimiento de Invocación Especial propio de Emperor desde el GY: desterrar Blaze Accelerator original del GY.
+- Last detail: Volcanic Emperor — Emperador Volcánico ESPECIAL → Blaze Accelerator — Acelerador de Llama ESPECIAL Aplicar el procedimiento de Invocación Especial propio de Emperor desde el GY: desterrar Blaze Accelerator original del GY. *Recurso / restricción:* Invocar Volcanic Emperor desde GY en Ataque (ATK 3100). Solo se desterró una carta Mágica, 0 monstruos Piro. La Invocación por procedimiento no inicia Cadena.
+- Image assets: name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; name: Blaze Accelerator — Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Gotas/Reload: distinguir el barrido válido de Scattershot** ? `687:A09:DROPLET:RELOAD:SCATTERSHOT01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard al cerrar la secuencia: Campo propio sin monstruos ni M/T activas; Gotas y las tres Scattershot en GY, Reload desterrada boca arriba; 0 cartas robadas; mano inicial consumida; Normal sin gastar. Rival pierde 1500 LP si no hay prevención ni interrupción y sus monstruos destruibles son destruidos por Scattershot #1; no se afirma que monstruos indestructibles desaparezcan, ni daño de batalla, OTK o que se reviva un monstruo del Extra.
+- Last action: Las Scattershot #2 y #3 salen del Deck al GY como coste para activar Scattershot #1, NO por el efecto de una carta «Blaze Accelerator».
+- Last detail: Volcanic Scattershot — Disparo Disperso Volcánico MATERIAL / COSTE → Blaze Accelerator — Acelerador de Llama MATERIAL / COSTE Las Scattershot #2 y #3 salen del Deck al GY como coste para activar Scattershot #1, NO por el efecto de una carta «Blaze Accelerator». Por tanto, cada una aplica solamente su efecto obligatorio de infligir 500 LP en una nueva cadena después de que termine la cadena de los dos efectos de Scattershot #1, sin volver a enviar otras dos copias ni intentar un segundo barrido. Daño total sin respuesta: 500 + 500 + 500 = 1500 LP. La destrucción total de monstruos enemigos solo ocurre si sus cartas son destruibles al resolver la acción de Scattershot #1. *Recurso / restricción:* Por tanto, cada una aplica solamente su efecto obligator
+- Image assets: name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Blaze Accelerator — Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Gotas/Reload/Ejection: conectar munición con Emperor** ? `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01`
+- Purpose: Ofensivo
+- Format: tcg
+- Final state text: Endboard al terminar la Main Phase: Emperor 3100 ATK en campo + Volcanic Emission colocada, ningún otro monstruo/M/T propios; Gotas y Fire Ejection en GY, Reload y las tres Scattershot desterradas, mano inicial consumida, Normal disponible. Con oponente a 8000 LP y sin otros cambios, 4200 LP restantes. El daño futuro de Emperor por Invocaciones Especiales del rival no se incluye en los 3800 LP y Emission aún no puede activarse. Los efectos de Scattershot y Emperor pueden ser negados/interrumpidos; esta es una línea condicionada sin respuesta rival, no una garantía de duelo real.
+- Last action: En una nueva cadena, activar el efecto opcional de Emperor tras ser Invocado así: hay tres Piro desterrados boca arriba, requisito oficial de activación.
+- Last detail: Volcanic Emperor — Emperador Volcánico ACTIVAR → Volcanic Emission — Emisión Volcánica COLOCAR En una nueva cadena, activar el efecto opcional de Emperor tras ser Invocado así: hay tres Piro desterrados boca arriba, requisito oficial de activación; infligir 500 LP por cada uno (3 × 500 = 1500 LP); si el daño fue infligido con éxito, después colocar directamente del Deck Volcanic Emission en zona M/T propia disponible. *Recurso / restricción:* infligir 500 LP por cada uno (3 × 500 = 1500 LP); si el daño fue infligido con éxito, después colocar directamente del Deck Volcanic Emission en zona M/T propia disponible. Al resolver sin respuesta ni prevención de daño, daño acumulado 1500 + 800 + 1500 = 3800 LP; Trampa colocada boca abajo, todavía sin activar
+- Image assets: name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Blaze Accelerator — Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7086.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Volcanic Emission — Emisión Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Bonfire/Trooper: preparar Emission para turno posterior** ? `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: Resultado comprobable: propia Normal gastada; Trooper 1000 ATK permanece si sobrevivió; 1000 LP de efecto por Emission solo si la Ficha persistió hasta la activación, Bomb Token todavía presente tras Emission, Bonfire/Fire Ejection/Emission en GY. Si posteriormente alguien destruye Bomb Token, su controlador recibe 500 LP más por el texto de la Ficha, pero no se cuentan esos 500 LP sin una acción de destrucción documentada. La misma arquitectura con otro descarte es una variante agrupada, no otro combo.
+- Last action: En el siguiente turno rival, activar Volcanic Emission seleccionando su Bomb Token Piro boca arriba en Campo rival, únicamente si Emission fue Colocada en el turno previo y sigue disponible en una ventana legal.
+- Last detail: Volcanic Emission — Emisión Volcánica ACTIVAR En el siguiente turno rival, activar Volcanic Emission seleccionando su Bomb Token Piro boca arriba en Campo rival, únicamente si Emission fue Colocada en el turno previo y sigue disponible en una ventana legal. Al resolver, infligir daño igual al ATK original de la Ficha: 1000 LP. Emission va al GY; la Ficha no se destruye por esta modalidad. No reducir el daño a la mitad: el rival controla la Ficha. *Recurso / restricción:* Al resolver, infligir daño igual al ATK original de la Ficha: 1000 LP. Emission va al GY; la Ficha no se destruye por esta modalidad. No reducir el daño a la mitad: el rival controla la Ficha.
+- Image assets: name: Bonfire — Hoguera; image: decks/DECK_687_VOLCANIC/imagenes/tcg/19027.jpg; name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Emission — Emisión Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir primero: preparar I:P con Trooper/Rocket** ? `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: 6. Usar Trooper y Rocket, dos monstruos de efecto propios, para Invocar por Enlace I:P Masquerena; ambos van al GY. Endboard propio: Emperor 3100 + I:P, VBA boca arriba, Inferno Colocada; GY incluye Trooper/Rocket (Piros para futura Inferno) y Blaze original; Rimfire/Reload y Scattershot desterrados. Daño previo sin respuesta: 3500 LP (500+1500+1500), no OTK. En turno rival Inferno puede desterrar un Volcanic del GY, infligir 500 y negar un efecto de monstruo activado en Campo. Emperor causa otros 500 por evento posterior de Invocación Especial rival, no de antemano.
+- Last action: Usar Trooper y Rocket, dos monstruos de efecto propios, para Invocar por Enlace I:P Masquerena; ambos van al GY.
+- Last detail: Volcanic Trooper — Soldado Volcánico ESTADO / CONTEXTO → Volcanic Rocket — Misil Volcánico ESTADO / CONTEXTO → Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO Usar Trooper y Rocket, dos monstruos de efecto propios, para Invocar por Enlace I:P Masquerena; ambos van al GY. Endboard propio: Emperor 3100 + I:P, VBA boca arriba, Inferno Colocada; GY incluye Trooper/Rocket (Piros para futura Inferno) y Blaze original; Rimfire/Reload y Scattershot desterrados. Daño previo sin respuesta: 3500 LP (500+1500+1500), no OTK. En turno rival Inferno puede desterrar un Volcanic del GY, infligir 500 y negar un efecto de monstruo activado en Campo. Emperor causa otros 500 por evento posterior de Invocación Especial rival, no de antemano. *Recurso / restricció
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Volcanic Rocket — Misil Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir segundo: Phoenix para M/T y recursos Volcanic** ? `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: 5. Emperor ya en GY destierra las 3 Scattershot para Invocarse, hace 1500 LP, y Coloca Inferno. Final: Phoenix Link-2 + Emperor 3100 + VBA boca arriba + Inferno Colocada. Trooper y Rocket GY alimentan Inferno en turno rival; Rimfire, Reload y Scattershot desterrados. 3000 LP de daño por efecto, M/T objetivo eliminada y monstruos destruidos; sin garantizar daño de batalla ni que el oponente carezca de protecciones.
+- Last action: Emperor ya en GY destierra las 3 Scattershot para Invocarse, hace 1500 LP, y Coloca Inferno.
+- Last detail: Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO → Volcanic Scattershot — Disparo Disperso Volcánico ESTADO / CONTEXTO → Volcanic Inferno — Infierno Volcánico COLOCAR Emperor ya en GY destierra las 3 Scattershot para Invocarse, hace 1500 LP, y Coloca Inferno. Final: Phoenix Link-2 + Emperor 3100 + VBA boca arriba + Inferno Colocada. Trooper y Rocket GY alimentan Inferno en turno rival; Rimfire, Reload y Scattershot desterrados. 3000 LP de daño por efecto, M/T objetivo eliminada y monstruos destruidos; sin garantizar daño de batalla ni que el oponente carezca de protecciones. *Recurso / restricción:* Final: Phoenix Link-2 + Emperor 3100 + VBA boca arriba + Inferno Colocada. Trooper y Rocket GY alimentan Inferno en turno rival; Rimfire, Reload
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Volcanic Rocket — Misil Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Knightmare Phoenix — Caballero de Pesadilla Fénix; image: decks/DECK_687_VOLCANIC/imagenes/tcg/13600.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir primero: desarrollar Almiraj/Reload desde Trooper** ? `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: 5. Convertir Trooper Invocado Normalmente, ATK 1000, en Salamangreat Almiraj Link-1. Trooper pasa al GY y permite pagar la futura Inferno. Final: Emperor + Almiraj, VBA boca arriba, Inferno Colocada; 3500 LP de daño sin respuesta, Normal gastada. Almiraj puede sacrificarse posteriormente para proteger un monstruo propio de destrucción por efecto rival según su texto; ese efecto no se ha gastado.
+- Last action: Convertir Trooper Invocado Normalmente, ATK 1000, en Salamangreat Almiraj Link-1.
+- Last detail: Volcanic Trooper — Soldado Volcánico ESTADO / CONTEXTO → Salamangreat Almiraj — Salamangrande Almiraj ESTADO / CONTEXTO → Volcanic Inferno — Infierno Volcánico ESTADO / CONTEXTO Convertir Trooper Invocado Normalmente, ATK 1000, en Salamangreat Almiraj Link-1. Trooper pasa al GY y permite pagar la futura Inferno. Final: Emperor + Almiraj, VBA boca arriba, Inferno Colocada; 3500 LP de daño sin respuesta, Normal gastada. Almiraj puede sacrificarse posteriormente para proteger un monstruo propio de destrucción por efecto rival según su texto; ese efecto no se ha gastado. *Recurso / restricción:* Trooper pasa al GY y permite pagar la futura Inferno. Final: Emperor + Almiraj, VBA boca arriba, Inferno Colocada; 3500 LP de daño sin respuesta, Normal gastada.
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Volcanic Scattershot — Disparo Disperso Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7083.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; name: Salamangreat Almiraj — Salamangrande Almiraj; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir primero: preparar interacción bajo Gozen Match** ? `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: 3. Final: Emperor FIRE + Hiita FIRE, VBA boca arriba, Inferno y Gozen Colocadas; Trooper/Rocket GY para Inferno. Durante turno rival se puede activar Gozen (Trampa Continua colocada el turno anterior); ambos monstruos propios son FIRE. Nunca afirmar un campo Emperor FIRE + I:P DARK bajo Gozen ya activa: esa combinación no cumple la restricción de Atributo.
+- Last action: Final: Emperor FIRE + Hiita FIRE, VBA boca arriba, Inferno y Gozen Colocadas; Trooper/Rocket GY para Inferno.
+- Last detail: Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO → Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida ESTADO / CONTEXTO → Volcanic Blaze Accelerator — Acelerador de Llama Volcánico ESTADO / CONTEXTO Final: Emperor FIRE + Hiita FIRE, VBA boca arriba, Inferno y Gozen Colocadas; Trooper/Rocket GY para Inferno. Durante turno rival se puede activar Gozen (Trampa Continua colocada el turno anterior); ambos monstruos propios son FIRE. Nunca afirmar un campo Emperor FIRE + I:P DARK bajo Gozen ya activa: esa combinación no cumple la restricción de Atributo. *Recurso / restricción:* Durante turno rival se puede activar Gozen (Trampa Continua colocada el turno anterior); ambos monstruos propios son FIRE. Nunca afirmar un campo Em
+- Image assets: name: Volcanic Rimfire — Percusión Anular Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18917.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Rocket — Misil Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14133.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir primero: preparar Inferno y el motor Emperor** ? `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: 4. Invocar por Enlace Almiraj usando Trooper Normal ATK 1000, que pasa al GY. Final: Emperor + Almiraj + VBA boca arriba + Inferno Colocada; 800 LP por Ejection, Normal gastada, Trooper Piro en GY permite futura negación de Inferno. Ejection no crea cuerpo adicional.
+- Last action: Invocar por Enlace Almiraj usando Trooper Normal ATK 1000, que pasa al GY.
+- Last detail: Salamangreat Almiraj — Salamangrande Almiraj ENLACE → Volcanic Trooper — Soldado Volcánico ENLACE → Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO Invocar por Enlace Almiraj usando Trooper Normal ATK 1000, que pasa al GY. Final: Emperor + Almiraj + VBA boca arriba + Inferno Colocada; 800 LP por Ejection, Normal gastada, Trooper Piro en GY permite futura negación de Inferno. Ejection no crea cuerpo adicional. *Recurso / restricción:* Final: Emperor + Almiraj + VBA boca arriba + Inferno Colocada; 800 LP por Ejection, Normal gastada, Trooper Piro en GY permite futura negación de Inferno. Ejection no crea cuerpo adicional.
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Salamangreat Almiraj — Salamangrande Almiraj; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Turno rival: administrar Emission desde la preparación anterior** ? `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Fin del turno propio: Emperor #1 + Salamangreat Almiraj + Volcanic Blaze Accelerator boca arriba + Volcanic Emission Colocada; Emperor #2 permanece en Deck. Solo si Emission sobrevive hasta el turno rival y resuelve: Invocar Emperor #2 desde Deck temporalmente; durante ese turno hay dos Emperor y Almiraj, Emission pasa al GY y el segundo Emperor regresa a mano en End Phase. Cada Emperor presente podrá infligir 500 LP por un evento de Invocación Especial rival legal; no atribuir ese daño antes de que ocurra.
+- Last action: Campo temporal rival: dos Emperor + Almiraj + VBA, con Emission ahora en GY.
+- Last detail: Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO → Salamangreat Almiraj — Salamangrande Almiraj ESTADO / CONTEXTO → Volcanic Blaze Accelerator — Acelerador de Llama Volcánico ESTADO / CONTEXTO Campo temporal rival: dos Emperor + Almiraj + VBA, con Emission ahora en GY. Cada vez que el rival realmente Invoca Especialmente un grupo de monstruos, cada Emperor presente inflige 500 (potencial de 1000 LP por evento, sujeto a resolución); en End Phase el segundo Emperor vuelve a la mano. No atribuir ataques ni quemaduras antes de esos eventos. *Recurso / restricción:* Cada vez que el rival realmente Invoca Especialmente un grupo de monstruos, cada Emperor presente inflige 500 (potencial de 1000 LP por evento, sujeto a resolución); en End Phase el se
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Emission — Emisión Volcánica; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18920.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; name: Salamangreat Almiraj — Salamangrande Almiraj; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14338.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ir primero: unir apoyo Volcanic e I:P** ? `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: 4. Link Trooper + Rocket → I:P; ambos Piros al GY. Final: Emperor + I:P, VBA boca arriba, Inferno + Reload Colocadas; daño previo 800. En turno rival Inferno puede banish Trooper/Rocket del GY como coste para su negación y Reload tiene su uso propio. Si se niega la búsqueda de Rocket, se pierde Reload pero Inferno sigue.
+- Last action: Link Trooper + Rocket → I:P; ambos Piros al GY.
+- Last detail: Volcanic Trooper — Soldado Volcánico ESTADO / CONTEXTO → Volcanic Rocket — Misil Volcánico ESTADO / CONTEXTO → Volcanic Emperor — Emperador Volcánico ESTADO / CONTEXTO Link Trooper + Rocket → I:P; ambos Piros al GY. Final: Emperor + I:P, VBA boca arriba, Inferno + Reload Colocadas; daño previo 800. En turno rival Inferno puede banish Trooper/Rocket del GY como coste para su negación y Reload tiene su uso propio. Si se niega la búsqueda de Rocket, se pierde Reload pero Inferno sigue. *Recurso / restricción:* Final: Emperor + I:P, VBA boca arriba, Inferno + Reload Colocadas; daño previo 800. En turno rival Inferno puede banish Trooper/Rocket del GY como coste para su negación y Reload tiene su uso propio. Si se niega la búsqueda de Rocket, se pierde Re
+- Image assets: name: Volcanic Trooper — Soldado Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Volcanic Inferno — Infierno Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18921.jpg; name: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18918.jpg; name: Volcanic Rocket — Misil Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Blaze Accelerator Reload — Recarga del Acelerador de Llama; image: decks/DECK_687_VOLCANIC/imagenes/tcg/11597.jpg; name: Fire Ejection — Eyección de Fuego; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18919.jpg; name: Volcanic Emperor — Emperador Volcánico; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**CONTINUACIÓN I:P + EMPERADOR → UNICORNIO** ? `687:A09:IP:EMPEROR:UNICORN14`
+- Purpose: defensa situacional / interrupción con retorno al Deck en la Main Phase rival; no es negación.
+- Format: tcg
+- Final state text: mínimo: Unicornio protegido contra destrucción por efectos rivales, I:P/Emperador/Gotas en GY, y una carta rival barajada al Deck si el efecto resolvió. Decisión: conservar Emperador (3100 ATK) + I:P para presión de daño, o sustituirlos por la retirada puntual de Unicornio. Validación acotada: esta continuación fue contrastada; las aperturas históricas de las que podría partir conservan su revisión pendiente. Consulta técnica y fuentes oficiales: guias_a10/DECK_687_IP_EMPEROR_UNICORN_RESPUESTA_GUIA.md, ID 687:A09:IP:EMPEROR:UNICORN14.
+- Last action: Evaluar el tablero final y la alternativa de conservar Emperador.
+- Last detail: Knightmare Unicorn EN CAMPO, 2200 ATK → Volcanic Emperor EN GY Campo final mínimo: Unicornio protegido contra destrucción por efectos rivales, I:P/Emperador/Gotas en GY, y una carta rival barajada al Deck si el efecto resolvió. Decisión: conservar Emperador (3100 ATK) + I:P para presión de daño, o sustituirlos por la retirada puntual de Unicornio. Validación acotada: esta continuación fue contrastada; las aperturas históricas de las que podría partir conservan su revisión pendiente. Consulta técnica y fuentes oficiales: guias_a10/DECK_687_IP_EMPEROR_UNICORN_RESPUESTA_GUIA.md, ID 687:A09:IP:EMPEROR:UNICORN14.
+- Image assets: name: I:P Masquerena; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; name: Volcanic Emperor; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: Forbidden Droplet; image: decks/DECK_687_VOLCANIC/imagenes/tcg/15299.jpg; name: Knightmare Unicorn; image: decks/DECK_687_VOLCANIC/imagenes/tcg/13601.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**INTERACCIÓN BÁSICA SHELL → ENLACEKURIBOH DEFENSIVO** ? `687:A09:SHELL:LINKURIBOH:DEFENSA15`
+- Purpose: obtener recurso de mano desde GY y preparar reducción de ATK si el rival declara un ataque; no es negación ni combo extenso.
+- Format: tcg
+- Final state text: inicial: Enlacekuriboh Link1 (300 ATK) en campo, Shell original en GY, otra Shell en mano si resolvió y 500 LP gastados; Normal utilizada. Reacción situacional posterior: al declararse un ataque rival, sacrificar Linkuriboh reduce ATK del atacante, pero no niega el ataque ni impide una repetición de ataque. Alternativa: reservar la Normal para Trooper/Rocket y aprovechar la ruta 687:A09:BLAZE:SHELL:RESOURCE01 para obtener Shell en GY. Consulta técnica: guias_a10/DECK_687_SHELL_LINKURIBOH_DEFENSA_GUIA.md.
+- Last action: Solo cuando el rival declare ataque, Sacrificar Enlacekuriboh.
+- Last detail: Linkuriboh SACRIFICAR COMO EFECTO → ATK ATACANTE RIVAL 0 HASTA FIN DE TURNO Campo final inicial: Enlacekuriboh Link1 (300 ATK) en campo, Shell original en GY, otra Shell en mano si resolvió y 500 LP gastados; Normal utilizada. Reacción situacional posterior: al declararse un ataque rival, sacrificar Linkuriboh reduce ATK del atacante, pero no niega el ataque ni impide una repetición de ataque. Alternativa: reservar la Normal para Trooper/Rocket y aprovechar la ruta 687:A09:BLAZE:SHELL:RESOURCE01 para obtener Shell en GY. Consulta técnica: guias_a10/DECK_687_SHELL_LINKURIBOH_DEFENSA_GUIA.md.
+- Image assets: name: Volcanic Shell; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; name: Linkuriboh; image: decks/DECK_687_VOLCANIC/imagenes/tcg/13346.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**CONTINUACIÓN I:P + EMPERADOR → S:P** ? `687:A09:IP:EMPEROR:SP_DEFENSA16`
+- Purpose: reacción en Main rival con posible destierro inmediato de una carta y posterior respuesta rápida si se da una nueva activación; ninguna niega.
+- Format: tcg
+- Final state text: S:P Little Knight 1600 ATK en campo; I:P y Emperador en GY; una carta rival desterrada por efecto de Invocación solo si existía objetivo válido y resolvió. Efecto rápido posterior condicional; no negación automática.
+- Last action: Endboard y comparación de costes.
+- Last detail: S:P Little Knight 1600 ATK · CAMPO; I:P y Emperador en GY; una carta rival desterrada si había objetivo y resolvió. No se descarta carta de mano. La respuesta rápida de S:P exige después activación rival y dos monstruos boca arriba seleccionables; destierra temporalmente hasta End Phase, sin negar. Alternativas excluyentes: conservar Emperador (3100 y quemadura), gastar I:P + Emperador en Unicornio 687:A09:IP:EMPEROR:UNICORN14 (Link-3 y descarte real), o gastar ambos en S:P (Link-2 sin descarte). Guía completa: guias_a10/DECK_687_IP_EMPEROR_SP_RESPUESTA_GUIA.md. Las aperturas que forman I:P+Emperador siguen en revisión autónoma.
+- Image assets: name: I:P Masquerena; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; name: Volcanic Emperor; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18915.jpg; name: S:P Little Knight; image: decks/DECK_687_VOLCANIC/imagenes/tcg/19188.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Trooper + Rocket + Shell previos: Princesa y Rocket** ? `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`
+- Purpose: Aprovechar tres cuerpos FUEGO ya en campo para invocar Princesa y recuperar Rocket
+- Format: tcg
+- Final state text: Princess 2700 + Rocket 1900; Trooper/Shell GY. Princess prohíbe Invocaciones Especiales no-FUEGO mientras aplica. No convertir de inmediato estos cuerpos en S:P/I:P; no es negación ni OTK automático.
+- Last action: Final: Princess 2700 + Rocket 1900; Trooper/Shell GY. Princess prohíbe Invocaciones Especiales no-FUEGO mientras aplica. No convertir de inmediato estos cuerpos en S:P/I:P; no es negación ni OTK automático.
+- Last detail: Final: Princess 2700 + Rocket 1900; Trooper/Shell GY. Princess prohíbe Invocaciones Especiales no-FUEGO mientras aplica. No convertir de inmediato estos cuerpos en S:P/I:P; no es negación ni OTK automático.
+- Image assets: name: Trooper; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Rocket; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Shell; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; name: Princess; image: decks/DECK_687_VOLCANIC/imagenes/tcg/19507.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Volcanic Shell: TY-PHON contra campo del Extra** ? `687:A09:SHELL:TYPHON18`
+- Purpose: Convertir una Shell disponible en TY-PHON frente a múltiples Invocaciones de Extra del rival
+- Format: tcg
+- Final state text: TY-PHON sin material, no más Invocaciones este turno. Alternativa excluyente de Shell→Linkuriboh.
+- Last action: Final: TY-PHON sin material, no más Invocaciones este turno. Alternativa excluyente de Shell→Linkuriboh.
+- Last detail: Final: TY-PHON sin material, no más Invocaciones este turno. Alternativa excluyente de Shell→Linkuriboh.
+- Image assets: name: Shell; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7082.jpg; name: TY-PHON; image: decks/DECK_687_VOLCANIC/imagenes/tcg/19184.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**I:P + Trooper + Rocket previos: Diosa protegida** ? `687:A09:IP:TROOPER:ROCKET:GODDESS19`
+- Purpose: Usar los materiales realmente presentes y un monstruo rival para Link-5 Diosa con protección heredada de I:P
+- Format: tcg
+- Final state text: Diosa con resistencia propia ante efectos activados no selectivos y protección heredada de I:P; no es una negación de todas las cartas ni puede hacerse bajo bloqueo FIRE que impida Diosa LUZ.
+- Last action: Final: Diosa con resistencia propia ante efectos activados no selectivos y protección heredada de I:P; no es una negación de todas las cartas ni puede hacerse bajo bloqueo FIRE que impida Diosa LUZ.
+- Last detail: Final: Diosa con resistencia propia ante efectos activados no selectivos y protección heredada de I:P; no es una negación de todas las cartas ni puede hacerse bajo bloqueo FIRE que impida Diosa LUZ.
+- Image assets: name: I:P; image: decks/DECK_687_VOLCANIC/imagenes/tcg/14676.jpg; name: Trooper; image: decks/DECK_687_VOLCANIC/imagenes/tcg/18916.jpg; name: Rocket; image: decks/DECK_687_VOLCANIC/imagenes/tcg/7243.jpg; name: Diosa; image: decks/DECK_687_VOLCANIC/imagenes/tcg/15741.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.

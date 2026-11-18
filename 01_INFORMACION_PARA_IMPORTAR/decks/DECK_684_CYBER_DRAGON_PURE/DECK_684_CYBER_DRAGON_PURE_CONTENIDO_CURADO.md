@@ -1254,7 +1254,7 @@
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA TÁCTICA DE 5 PASOS**
 
-- `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`: Clockwork Night activa → Cyber Dragon Especial → Core Normal busca Emergency → Link2 Genius → negar Clockwork propia y monstruo rival hasta End Phase. Fotos, objetivos, inmunidad y endboard: `guias_a10/DECK_684_CLOCKWORK_CORE_GENIUS_NEGACION_GUIA.md`. **Alternativas excluyentes:** S:P defensiva y Fortress por contacto.
+- `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`: Clockwork Night activa → Cyber Dragon Especial → Core Normal busca Emergency → Link2 Genius → negar Clockwork propia y monstruo rival hasta End Phase. Fotos, objetivos, inmunidad y endboard: `guias/DECK_684_CLOCKWORK_CORE_GENIUS_NEGACION_GUIA.md`. **Alternativas excluyentes:** S:P defensiva y Fortress por contacto.
 
 #### 37. Chimeratech Megafleet Dragon
 
@@ -1435,7 +1435,7 @@
 
 **CÓMO LLEGAR DESDE TU DECK — RUTA DEFENSIVA CONDICIONAL**
 
-- `684:A09:CYBER:CORE:SP_DEFENSA11` — **mano de dos**: Cyber Dragon + Cyber Dragon Core; rival con monstruo y Campo propio vacío. Cyber Dragon entra Especial, Core Normal busca Cyber Emergency, ambos hacen Link-2 S:P. **Resultado:** S:P con efecto de destierro temporal disponible cuando el rival activa carta/efecto y hay dos monstruos boca arriba seleccionables. **El primer efecto de S:P al ser Invocada NO se habilita** porque los materiales eran monstruos Main, no Extra. Cinco pasos ilustrados: `guias_a10/DECK_684_CYBER_CORE_SP_DEFENSA_GUIA.md`. Comparar con el plan Máquina de Nova/Infinity y las Fusiones antes de consumir ambos cuerpos.
+- `684:A09:CYBER:CORE:SP_DEFENSA11` — **mano de dos**: Cyber Dragon + Cyber Dragon Core; rival con monstruo y Campo propio vacío. Cyber Dragon entra Especial, Core Normal busca Cyber Emergency, ambos hacen Link-2 S:P. **Resultado:** S:P con efecto de destierro temporal disponible cuando el rival activa carta/efecto y hay dos monstruos boca arriba seleccionables. **El primer efecto de S:P al ser Invocada NO se habilita** porque los materiales eran monstruos Main, no Extra. Cinco pasos ilustrados: `guias/DECK_684_CYBER_CORE_SP_DEFENSA_GUIA.md`. Comparar con el plan Máquina de Nova/Infinity y las Fusiones antes de consumir ambos cuerpos.
 - **Rama competidora:** `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12` consume Cyber Dragon + Core también, pero necesita una tercera carta **Clockwork Night**, acaba en Genius **Máquina** y niega los efectos de la propia Mágica junto a una carta rival; no conserva los cuerpos para S:P ni habilita su Efecto Rápido.
 
 #### 42. Cyber Eternity Dragon
@@ -1474,7 +1474,7 @@
 
 **CÓMO LLEGAR DESDE TU DECK — 5 PASOS CON FOTOS**
 
-- `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`: mano exacta Cyber Dragon + Herz + Nachster + Power Bond; Fusión de 3 materiales → Eternity ATK 5600 → Herz recupera original → Battle Phase si legal → End Phase con daño propio 2800. Guía importable: `guias_a10/DECK_684_ETERNITY_POWERBOND_PRESION_GUIA.md`.
+- `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`: mano exacta Cyber Dragon + Herz + Nachster + Power Bond; Fusión de 3 materiales → Eternity ATK 5600 → Herz recupera original → Battle Phase si legal → End Phase con daño propio 2800. Guía importable: `guias/DECK_684_ETERNITY_POWERBOND_PRESION_GUIA.md`.
 
 #### 43. El Calculador
 
@@ -2333,339 +2333,459 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **684:COBERTURA:MAIN:21164:E05:ESCENARIO ? Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:21164:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:21164"` |
-| `cid` | `21164` |
-| `card_name` | `"Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/21164.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Cyberdark Wurm"` |
-| `scenario` | `{"initial_condition":"Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial → opcionalmente recupera Mágica/Trampa “Cyber” de GY","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"**Una vez por Duelo**. En campo/GY su nombre pasa a Cyber Dragon; no inventar una segunda utilización ni otra carta distinta","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial », no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial → opcionalmente recupera Mágica/Trampa “Cyber” de GY","when":"Se intenta la acción de Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]","then":"**Una vez por Duelo**. En campo/GY su nombre pasa a Cyber Dragon; no inventar una segunda utilización ni otra carta distinta","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:21164:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:21164
+- **cid:** 21164
+- **card name:** Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/21164.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Cyberdark Wurm
+- **scenario:**
+  - **initial condition:** Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial → opcionalmente recupera Mágica/Trampa “Cyber” de GY
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** **Una vez por Duelo**. En campo/GY su nombre pasa a Cyber Dragon; no inventar una segunda utilización ni otra carta distinta
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial », no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Tienes otro Máquina “Cyber” en campo/GY; Wurm en mano/GY → envía un “Cyber Dragon” desde mano o Deck al GY → Invoca Wurm Especial → opcionalmente recupera Mágica/Trampa “Cyber” de GY
+  - **when:** Se intenta la acción de Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]
+  - **then:** **Una vez por Duelo**. En campo/GY su nombre pasa a Cyber Dragon; no inventar una segunda utilización ni otra carta distinta
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:6663:E05:ESCENARIO ? Ciber Fénix / Cyber Phoenix**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:6663:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:6663"` |
-| `cid` | `6663` |
-| `card_name` | `"Ciber Fénix / Cyber Phoenix"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/6663.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Cyber Phoenix"` |
-| `scenario` | `{"initial_condition":"Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como objetivo; al destruirse por batalla, robo según condición","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No es negación universal de Monstruos/Trampas. Verificar posición y objetivos elegibles antes de dibujar protección","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como ob», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como objetivo; al destruirse por batalla, robo según condición","when":"Se intenta la acción de Ciber Fénix / Cyber Phoenix","then":"No es negación universal de Monstruos/Trampas. Verificar posición y objetivos elegibles antes de dibujar protección","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:6663:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:6663
+- **cid:** 6663
+- **card name:** Ciber Fénix / Cyber Phoenix
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/6663.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Cyber Phoenix
+- **scenario:**
+  - **initial condition:** Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como objetivo; al destruirse por batalla, robo según condición
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No es negación universal de Monstruos/Trampas. Verificar posición y objetivos elegibles antes de dibujar protección
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como ob», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Invocar Normalmente o mantenerlo boca arriba en ATK para proteger determinadas Máquinas propias de efectos que seleccionan como objetivo; al destruirse por batalla, robo según condición
+  - **when:** Se intenta la acción de Ciber Fénix / Cyber Phoenix
+  - **then:** No es negación universal de Monstruos/Trampas. Verificar posición y objetivos elegibles antes de dibujar protección
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:17119:E05:ESCENARIO ? Therion «Rey» Regulus / Therion "King" Regulus**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:17119:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:17119"` |
-| `cid` | `17119` |
-| `card_name` | `"Therion «Rey» Regulus / Therion \"King\" Regulus"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/17119.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Therion “King” Regulus"` |
-| `scenario` | `{"initial_condition":"Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Therion elegible de mano/campo al GY","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Sin Máquina en GY la apertura no existe; cuerpo equipado no implica que se Invocó la Máquina equipada","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Ther», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Therion elegible de mano/campo al GY","when":"Se intenta la acción de Therion «Rey» Regulus / Therion \"King\" Regulus","then":"Sin Máquina en GY la apertura no existe; cuerpo equipado no implica que se Invocó la Máquina equipada","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:17119:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:17119
+- **cid:** 17119
+- **card name:** Therion «Rey» Regulus / Therion "King" Regulus
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/17119.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Therion “King” Regulus
+- **scenario:**
+  - **initial condition:** Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Therion elegible de mano/campo al GY
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Sin Máquina en GY la apertura no existe; cuerpo equipado no implica que se Invocó la Máquina equipada
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Ther», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Con Máquina elegible en GY, seleccionarla para Especial desde mano y equiparla; su efecto puede negar una activación enviando Therion elegible de mano/campo al GY
+  - **when:** Se intenta la acción de Therion «Rey» Regulus / Therion "King" Regulus
+  - **then:** Sin Máquina en GY la apertura no existe; cuerpo equipado no implica que se Invocó la Máquina equipada
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:12950:E05:ESCENARIO ? Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:12950:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:12950"` |
-| `cid` | `12950` |
-| `card_name` | `"Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/tcg/12950.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Ash Blossom"` |
-| `scenario` | `{"initial_condition":"Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No recupera el descarte ni destruye siempre carta rival","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve","when":"Se intenta la acción de Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring","then":"No recupera el descarte ni destruye siempre carta rival","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:12950:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:12950
+- **cid:** 12950
+- **card name:** Flor de Ceniza y Primavera Feliz / Ash Blossom &amp; Joyous Spring
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/tcg/12950.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Ash Blossom
+- **scenario:**
+  - **initial condition:** Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No recupera el descarte ni destruye siempre carta rival
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Rival activa un efecto que incluye buscar/Invocar/enviar desde Deck; descarta Ash y niega **el efecto** si resuelve
+  - **when:** Se intenta la acción de Flor de Ceniza y Primavera Feliz / Ash Blossom &amp; Joyous Spring
+  - **then:** No recupera el descarte ni destruye siempre carta rival
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:13587:E05:ESCENARIO ? Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:13587:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:13587"` |
-| `cid` | `13587` |
-| `card_name` | `"Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/tcg/13587.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Ghost Belle"` |
-| `scenario` | `{"initial_condition":"Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **la activación**","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No niega cualquier efecto activado en Cementerio","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **la activación**","when":"Se intenta la acción de Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion","then":"No niega cualquier efecto activado en Cementerio","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:13587:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:13587
+- **cid:** 13587
+- **card name:** Bella Fantasma y Mansión Embrujada / Ghost Belle &amp; Haunted Mansion
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/tcg/13587.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Ghost Belle
+- **scenario:**
+  - **initial condition:** Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **la activación**
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No niega cualquier efecto activado en Cementerio
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Rival activa efecto que incluye regresar cartas desde GY, Invocar desde GY o desterrar cartas del GY; descarta Belle para negar **la activación**
+  - **when:** Se intenta la acción de Bella Fantasma y Mansión Embrujada / Ghost Belle &amp; Haunted Mansion
+  - **then:** No niega cualquier efecto activado en Cementerio
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:20205:E05:ESCENARIO ? Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:20205:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:20205"` |
-| `cid` | `20205` |
-| `card_name` | `"Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/20205.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Disablaster the Negation Fortress"` |
-| `scenario` | `{"initial_condition":"Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina genérica","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Requiere estado preciso de sus Zonas y activaciones; no atribuir negación universal sin condiciones","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina », no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina genérica","when":"Se intenta la acción de Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]","then":"Requiere estado preciso de sus Zonas y activaciones; no atribuir negación universal sin condiciones","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:20205:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:20205
+- **cid:** 20205
+- **card name:** Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/20205.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Disablaster the Negation Fortress
+- **scenario:**
+  - **initial condition:** Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina genérica
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Requiere estado preciso de sus Zonas y activaciones; no atribuir negación universal sin condiciones
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina », no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Monstruo Máquina Péndulo con efectos propios; estudiar su presencia/condiciones como carta de respuesta sin tratarlo como máquina genérica
+  - **when:** Se intenta la acción de Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]
+  - **then:** Requiere estado preciso de sus Zonas y activaciones; no atribuir negación universal sin condiciones
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:16301:E05:ESCENARIO ? Horizonte Cibernético / Cybernetic Horizon**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:16301:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:16301"` |
-| `cid` | `16301` |
-| `card_name` | `"Horizonte Cibernético / Cybernetic Horizon"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/tcg/16301.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Cybernetic Horizon"` |
-| `scenario` | `{"initial_condition":"Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de Deck; después enviar Fusión Máquina Cyber del Extra al GY","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No es descarte; bloquea Invocaciones Especiales desde Extra que no sean Máquina durante el turno. Enviar Fusión del Extra no la Invoca","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de De», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de Deck; después enviar Fusión Máquina Cyber del Extra al GY","when":"Se intenta la acción de Horizonte Cibernético / Cybernetic Horizon","then":"No es descarte; bloquea Invocaciones Especiales desde Extra que no sean Máquina durante el turno. Enviar Fusión del Extra no la Invoca","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:16301:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:16301
+- **cid:** 16301
+- **card name:** Horizonte Cibernético / Cybernetic Horizon
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/tcg/16301.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Cybernetic Horizon
+- **scenario:**
+  - **initial condition:** Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de Deck; después enviar Fusión Máquina Cyber del Extra al GY
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No es descarte; bloquea Invocaciones Especiales desde Extra que no sean Máquina durante el turno. Enviar Fusión del Extra no la Invoca
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de De», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Enviar dos monstruos Dragon/Máquina “Cyber” de **Atributos distintos**, uno de mano y otro de Deck, al GY; buscar otro Cyber de Deck; después enviar Fusión Máquina Cyber del Extra al GY
+  - **when:** Se intenta la acción de Horizonte Cibernético / Cybernetic Horizon
+  - **then:** No es descarte; bloquea Invocaciones Especiales desde Extra que no sean Máquina durante el turno. Enviar Fusión del Extra no la Invoca
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:5129:E05:ESCENARIO ? Eliminar el Límite / Limiter Removal**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:5129:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:5129"` |
-| `cid` | `5129` |
-| `card_name` | `"Eliminar el Límite / Limiter Removal"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/5129.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Limiter Removal"` |
-| `scenario` | `{"initial_condition":"Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Al final del turno destruye monstruos a los que se aplicó; no elimina automáticamente el coste de otras cartas ni se conserva indefinidamente","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba","when":"Se intenta la acción de Eliminar el Límite / Limiter Removal","then":"Al final del turno destruye monstruos a los que se aplicó; no elimina automáticamente el coste de otras cartas ni se conserva indefinidamente","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:5129:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:5129
+- **cid:** 5129
+- **card name:** Eliminar el Límite / Limiter Removal
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/5129.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Limiter Removal
+- **scenario:**
+  - **initial condition:** Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Al final del turno destruye monstruos a los que se aplicó; no elimina automáticamente el coste de otras cartas ni se conserva indefinidamente
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Durante turno elegible, duplicar ATK actual de Máquinas propias boca arriba
+  - **when:** Se intenta la acción de Eliminar el Límite / Limiter Removal
+  - **then:** Al final del turno destruye monstruos a los que se aplicó; no elimina automáticamente el coste de otras cartas ni se conserva indefinidamente
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:16297:E05:ESCENARIO ? Ciber Eterno / Cyber Eternal**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:16297:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:16297"` |
-| `cid` | `16297` |
-| `card_name` | `"Ciber Eterno / Cyber Eternal"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/16297.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Cyber Eternal"` |
-| `scenario` | `{"initial_condition":"Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escritas","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"La regla general de Invocación correcta previa sigue importando para revivir monstruos del Extra; su efecto de GY puede sustituir destrucción de Fusión Máquina Cyber propia","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escr», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escritas","when":"Se intenta la acción de Ciber Eterno / Cyber Eternal","then":"La regla general de Invocación correcta previa sigue importando para revivir monstruos del Extra; su efecto de GY puede sustituir destrucción de Fusión Máquina Cyber propia","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:16297:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:16297
+- **cid:** 16297
+- **card name:** Ciber Eterno / Cyber Eternal
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/16297.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Cyber Eternal
+- **scenario:**
+  - **initial condition:** Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escritas
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** La regla general de Invocación correcta previa sigue importando para revivir monstruos del Extra; su efecto de GY puede sustituir destrucción de Fusión Máquina Cyber propia
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escr», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Seleccionar una Fusión Máquina Cyber en GY; devolverla al Extra o Invocarla Especialmente según efecto, ignorando condiciones escritas
+  - **when:** Se intenta la acción de Ciber Eterno / Cyber Eternal
+  - **then:** La regla general de Invocación correcta previa sigue importando para revivir monstruos del Extra; su efecto de GY puede sustituir destrucción de Fusión Máquina Cyber propia
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:4909:E05:ESCENARIO ? Tifón del Espacio Místico / Mystical Space Typhoon**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:4909:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:4909"` |
-| `cid` | `4909` |
-| `card_name` | `"Tifón del Espacio Místico / Mystical Space Typhoon"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/4909.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Mystical Space Typhoon"` |
-| `scenario` | `{"initial_condition":"Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"**Destruye, no niega** automáticamente el efecto ya activado; considerar cadenas y permanentes que necesitan estar boca arriba","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver","when":"Se intenta la acción de Tifón del Espacio Místico / Mystical Space Typhoon","then":"**Destruye, no niega** automáticamente el efecto ya activado; considerar cadenas y permanentes que necesitan estar boca arriba","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:4909:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:4909
+- **cid:** 4909
+- **card name:** Tifón del Espacio Místico / Mystical Space Typhoon
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/4909.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Mystical Space Typhoon
+- **scenario:**
+  - **initial condition:** Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** **Destruye, no niega** automáticamente el efecto ya activado; considerar cadenas y permanentes que necesitan estar boca arriba
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Mágica Rápida: seleccionar una Mágica/Trampa en campo y destruirla al resolver
+  - **when:** Se intenta la acción de Tifón del Espacio Místico / Mystical Space Typhoon
+  - **then:** **Destruye, no niega** automáticamente el efecto ya activado; considerar cadenas y permanentes que necesitan estar boca arriba
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:13631:E05:ESCENARIO ? Infinito Temporal / Infinite Impermanence**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:13631:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:13631"` |
-| `cid` | `13631` |
-| `card_name` | `"Infinito Temporal / Infinite Impermanence"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/tcg/13631.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Infinite Impermanence"` |
-| `scenario` | `{"initial_condition":"Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Si se activó Colocada, también afecta efectos de Magias/Trampas en la columna de esa carta durante el turno","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas","when":"Se intenta la acción de Infinito Temporal / Infinite Impermanence","then":"Si se activó Colocada, también afecta efectos de Magias/Trampas en la columna de esa carta durante el turno","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:13631:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:13631
+- **cid:** 13631
+- **card name:** Infinito Temporal / Infinite Impermanence
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/tcg/13631.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Infinite Impermanence
+- **scenario:**
+  - **initial condition:** Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Si se activó Colocada, también afecta efectos de Magias/Trampas en la columna de esa carta durante el turno
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Negar efectos de monstruo boca arriba rival hasta fin de turno; desde mano únicamente sin cartas propias controladas
+  - **when:** Se intenta la acción de Infinito Temporal / Infinite Impermanence
+  - **then:** Si se activó Colocada, también afecta efectos de Magias/Trampas en la columna de esa carta durante el turno
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **684:COBERTURA:MAIN:13787:E05:ESCENARIO ? Desborde Cibernético / Cybernetic Overflow**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"684:COBERTURA:MAIN:13787:E05:ESCENARIO"` |
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `case_id` | `"684:COBERTURA:MAIN:13787"` |
-| `cid` | `13787` |
-| `card_name` | `"Desborde Cibernético / Cybernetic Overflow"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/13787.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md"` |
-| `purpose` | `"Cybernetic Overflow"` |
-| `scenario` | `{"initial_condition":"Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No usar dos del mismo Nivel para dos destrucciones; cuenta monstruos «Cyber Dragon» y sus niveles según condición real","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible","when":"Se intenta la acción de Desborde Cibernético / Cybernetic Overflow","then":"No usar dos del mismo Nivel para dos destrucciones; cuenta monstruos «Cyber Dragon» y sus niveles según condición real","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 684:COBERTURA:MAIN:13787:E05:ESCENARIO
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **case id:** 684:COBERTURA:MAIN:13787
+- **cid:** 13787
+- **card name:** Desborde Cibernético / Cybernetic Overflow
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/13787.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_684_CYBER_DRAGON_PURE/guias/DECK_684_CYBER_DRAGON_DOCE_CASOS_20261113.md
+- **purpose:** Cybernetic Overflow
+- **scenario:**
+  - **initial condition:** Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No usar dos del mismo Nivel para dos destrucciones; cuenta monstruos «Cyber Dragon» y sus niveles según condición real
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Con Ciber Dragones en mano/campo/GY de Niveles distintos, desterrarlos para destruir cartas del rival hasta cantidad elegible
+  - **when:** Se intenta la acción de Desborde Cibernético / Cybernetic Overflow
+  - **then:** No usar dos del mismo Nivel para dos destrucciones; cuenta monstruos «Cyber Dragon» y sus niveles según condición real
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS A06_13_CANDIDATAS_CONDICIONALES_V27.json 684 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -2678,190 +2798,168 @@ Fuente hist?rica: `A06_13_CANDIDATAS_CONDICIONALES_V27.json`. Se preservan los c
 
 **Registro 2**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16296` |
-| `nombre` | `"Cyberdark Chimera"` |
-| `objetivo_cid` | `6398` |
-| `objetivo_nombre` | `"Power Bond"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"BUSCADOR_DE_FUSION_CON_COSTE"` |
-| `restricciones_y_costes` | `"Descarta una Mágica/Trampa para buscar Power Bond; el efecto restringe los materiales a Dragon/Machine Cyber y habilita una modalidad de material desde Cementerio."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 16296
+- **nombre:** Cyberdark Chimera
+- **objetivo cid:** 6398
+- **objetivo nombre:** Power Bond
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** BUSCADOR_DE_FUSION_CON_COSTE
+- **restricciones y costes:** Descarta una Mágica/Trampa para buscar Power Bond; el efecto restringe los materiales a Dragon/Machine Cyber y habilita una modalidad de material desde Cementerio.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&amp;ope=2&amp;request_locale=en
 
 **Registro 3**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `21164` |
-| `nombre` | `"Cyberdark Wurm"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"EXTENSOR_Y_RECUPERACION"` |
-| `restricciones_y_costes` | `"Cuenta como Cyber Dragon en Campo/GY. Requiere otro Machine Cyber en Campo/GY, manda un Cyber Dragon de mano/Deck al GY para Invocarse y puede recuperar Mágica/Trampa Cyber; límite por Duelo."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 21164
+- **nombre:** Cyberdark Wurm
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** EXTENSOR_Y_RECUPERACION
+- **restricciones y costes:** Cuenta como Cyber Dragon en Campo/GY. Requiere otro Machine Cyber en Campo/GY, manda un Cyber Dragon de mano/Deck al GY para Invocarse y puede recuperar Mágica/Trampa Cyber; límite por Duelo.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&amp;ope=2&amp;request_locale=en
 
 **Registro 4**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `21163` |
-| `nombre` | `"Cyber Jormungardr"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"EXTENSOR_RIVAL_PRESENTE"` |
-| `restricciones_y_costes` | `"Con monstruo rival, se Invoca de mano y trae o equipa Cyber Dragon del Deck; después restringe Invocaciones a Máquinas ese turno."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 21163
+- **nombre:** Cyber Jormungardr
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** EXTENSOR_RIVAL_PRESENTE
+- **restricciones y costes:** Con monstruo rival, se Invoca de mano y trae o equipa Cyber Dragon del Deck; después restringe Invocaciones a Máquinas ese turno.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&amp;ope=2&amp;request_locale=en
 
 **Registro 5**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13770` |
-| `nombre` | `"Cyber Revsystem"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"INVOCACION_Y_PROTECCION"` |
-| `restricciones_y_costes` | `"Invoca Cyber Dragon desde mano o Cementerio con protección contra destrucción por efectos; no invoca cualquier monstruo Cyber."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 13770
+- **nombre:** Cyber Revsystem
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** INVOCACION_Y_PROTECCION
+- **restricciones y costes:** Invoca Cyber Dragon desde mano o Cementerio con protección contra destrucción por efectos; no invoca cualquier monstruo Cyber.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&amp;ope=2&amp;request_locale=en
 
 **Registro 6**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13849` |
-| `nombre` | `"Cyberload Fusion"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"FUSION_DESDE_CAMPO_O_DESTERRADAS"` |
-| `restricciones_y_costes` | `"Fusiona monstruo que liste Cyber Dragon como material, devolviendo materiales de campo y/o desterrados boca arriba; no usa Cementerio directamente."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 13849
+- **nombre:** Cyberload Fusion
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** FUSION_DESDE_CAMPO_O_DESTERRADAS
+- **restricciones y costes:** Fusiona monstruo que liste Cyber Dragon como material, devolviendo materiales de campo y/o desterrados boca arriba; no usa Cementerio directamente.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&amp;ope=2&amp;request_locale=en
 
 **Registro 7**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13758` |
-| `nombre` | `"Cyber Dragon Sieger"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"ENLACE_Y_REFUERZO_DE_COMBATE"` |
-| `restricciones_y_costes` | `"Requiere dos Máquinas, incluida Cyber Dragon; gana ese nombre en Campo/GY y potencia una Máquina de ATK suficiente durante Battle Phase con restricción de daño."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 13758
+- **nombre:** Cyber Dragon Sieger
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** ENLACE_Y_REFUERZO_DE_COMBATE
+- **restricciones y costes:** Requiere dos Máquinas, incluida Cyber Dragon; gana ese nombre en Campo/GY y potencia una Máquina de ATK suficiente durante Battle Phase con restricción de daño.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&amp;ope=2&amp;request_locale=en
 
 **Registro 8**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `20787` |
-| `nombre` | `"Clockwork Knight"` |
-| `objetivo_cid` | `17625` |
-| `objetivo_nombre` | `"Clockwork Night"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"BUSQUEDA_CON_CONTINUA"` |
-| `restricciones_y_costes` | `"Como Link de Máquina no-Link con ATK original máximo 1000, puede mandar una Mágica Continua propia boca arriba al GY para buscar Clockwork Night; necesita material y continua reales."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 20787
+- **nombre:** Clockwork Knight
+- **objetivo cid:** 17625
+- **objetivo nombre:** Clockwork Night
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** BUSQUEDA_CON_CONTINUA
+- **restricciones y costes:** Como Link de Máquina no-Link con ATK original máximo 1000, puede mandar una Mágica Continua propia boca arriba al GY para buscar Clockwork Night; necesita material y continua reales.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&amp;ope=2&amp;request_locale=en
 
 **Registro 9**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13847` |
-| `nombre` | `"Cyber Eternity Dragon"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"FUSION_Y_PROTECCION_POSTERIOR"` |
-| `restricciones_y_costes` | `"Requiere un monstruo Cyber Dragon y dos Máquinas; además puede desterrarse desde Cementerio para proteger Fusiones. Materiales y vía de Fusión deben acreditarse."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 13847
+- **nombre:** Cyber Eternity Dragon
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** FUSION_Y_PROTECCION_POSTERIOR
+- **restricciones y costes:** Requiere un monstruo Cyber Dragon y dos Máquinas; además puede desterrarse desde Cementerio para proteger Fusiones. Materiales y vía de Fusión deben acreditarse.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&amp;ope=2&amp;request_locale=en
 
 **Registro 10**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13851` |
-| `nombre` | `"Cybernetic Revolution"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"TRIBUTO_PARA_INVOCAR_FUSION"` |
-| `restricciones_y_costes` | `"Sacrifica Cyber Dragon para Invocar una Fusión del Extra que lo liste; se destruye al final del siguiente turno y no ataca directamente."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 13851
+- **nombre:** Cybernetic Revolution
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** TRIBUTO_PARA_INVOCAR_FUSION
+- **restricciones y costes:** Sacrifica Cyber Dragon para Invocar una Fusión del Extra que lo liste; se destruye al final del siguiente turno y no ataca directamente.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&amp;ope=2&amp;request_locale=en
 
 **Registro 11**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6397` |
-| `nombre` | `"Cyber End Dragon"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"FUSION_TRES_CYBER_DRAGON"` |
-| `restricciones_y_costes` | `"Requiere exactamente tres materiales denominados Cyber Dragon para su Fusión; nombres sustitutos dependen de su estado y texto."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 6397
+- **nombre:** Cyber End Dragon
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** FUSION_TRES_CYBER_DRAGON
+- **restricciones y costes:** Requiere exactamente tres materiales denominados Cyber Dragon para su Fusión; nombres sustitutos dependen de su estado y texto.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&amp;ope=2&amp;request_locale=en
 
 **Registro 12**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6734` |
-| `nombre` | `"Chimeratech Overdragon"` |
-| `objetivo_cid` | `6390` |
-| `objetivo_nombre` | `"Cyber Dragon"` |
-| `tipo` | `"SINERGIA_CONDICIONAL_POR_TEXTO"` |
-| `proposito` | `"FUSION_MAQUINAS_Y_LIMPIEZA_PROPIA"` |
-| `restricciones_y_costes` | `"Requiere Cyber Dragon más una o más Máquinas; al Fusionarse manda las demás cartas propias al Cementerio, riesgo estratégico que debe planearse."` |
-| `compatibilidad_de_nombres_y_catalogo` | `"ACREDITADA"` |
-| `secuencia_completa_desde_mano_inicial` | `"NO_ACREDITADA"` |
-| `prueba_fisica` | `"PENDIENTE_USUARIO"` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en"` |
+- **deck id:** 684
+- **cid:** 6734
+- **nombre:** Chimeratech Overdragon
+- **objetivo cid:** 6390
+- **objetivo nombre:** Cyber Dragon
+- **tipo:** SINERGIA_CONDICIONAL_POR_TEXTO
+- **proposito:** FUSION_MAQUINAS_Y_LIMPIEZA_PROPIA
+- **restricciones y costes:** Requiere Cyber Dragon más una o más Máquinas; al Fusionarse manda las demás cartas propias al Cementerio, riesgo estratégico que debe planearse.
+- **compatibilidad de nombres y catalogo:** ACREDITADA
+- **secuencia completa desde mano inicial:** NO_ACREDITADA
+- **prueba fisica:** PENDIENTE_USUARIO
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&amp;ope=2&amp;request_locale=en
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 684 -->
@@ -2875,19 +2973,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 5**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `formato` | `"TCG"` |
-| `motor` | `"Core/Emergency localizan piezas; Clockwork Night transforma monstruos boca arriba rivales en Máquina para Fortress; Megafleet utiliza monstruo de Extra Monster Zone."` |
-| `ir_primero` | `["Core + Emergency es redundancia de acceso; decide si guardar Emergency para recuperar Core sin duplicar una búsqueda que ya resolvió.","Nova→Infinity requiere dos Nivel5 para Nova y después apilar Infinity; no se fabrica con dos Core Nivel2.","Si vas primero y Clockwork Night sin objetivo, guárdala salvo que ayude a protegerte; gastar contacto Fusion sin monstruos rivales es imposible."]` |
-| `ir_segundo` | `["Clockwork Night + Cyber Dragon permiten Fortress contra monstruos rivales convertidos en Máquina, si son utilizables para contacto; no es destrucción ni efecto activado de Fortress.","Megafleet usa un monstruo rival de la Extra Monster Zone y Cyber Dragon; un monstruo en zona principal no sirve por el simple hecho de proceder del Extra Deck.","Cuando rival responde a Core con Ash, la Normal quedó gastada; conservar Cyber Emergency en mano puede sostener extensión si queda destino."]` |
-| `respuestas_interrupcion` | `[{"evento":"Ash a Core","respuesta":"No incorporas Cyber Spell/Trap por Core; cuerpo Core permanece y Normal está gastada."},{"evento":"Remoción de Clockwork Night","respuesta":"Al salir Night antes de contacto, monstruos enemigos pueden dejar de ser Máquina; verifica tipos actuales."},{"evento":"Nibiru al combo de Link/Infinity","respuesta":"Antes de quinta Invocación valora detenerte con una amenaza ya activa."}]` |
-| `decisiones` | `[{"decision":"¿Fortress o Megafleet?","criterio":"Fortress ante Máquina/Clockwork en Monster Zone; Megafleet ante amenaza en Extra Monster Zone. Requisitos distintos, no intercambiables."},{"decision":"¿Power Bond o contacto?","criterio":"Power Bond gasta materiales y puede dar daño terminal; contacto consume presencia rival sin activar Fusion Spell. Elegir por tablero rival y respuesta prevista."}]` |
-| `practica` | `[{"id":"684:PRACTICA:V14:1"},{"id":"684:PRACTICA:V14:2"},{"id":"684:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["Side registrado como Reserva; separar claramente los candidatos de entrada de las cartas realmente inscritas.","Examinar si la reserva de Cyber Dragon 1x es insuficiente para rutas dependientes de él, como propuesta de ajuste; no aplicarlo."]` |
-| `side_y_reserva` | `"No se identifica Side competitivo validado; todas las recomendaciones de incorporación son propuestas no aplicadas. Analizar mano contra campos de Máquina y contra extra-zone antes de proponer remover motor."` |
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **formato:** TCG
+- **motor:** Core/Emergency localizan piezas; Clockwork Night transforma monstruos boca arriba rivales en Máquina para Fortress; Megafleet utiliza monstruo de Extra Monster Zone.
+- **ir primero:**
+  - Core + Emergency es redundancia de acceso; decide si guardar Emergency para recuperar Core sin duplicar una búsqueda que ya resolvió.
+  - Nova→Infinity requiere dos Nivel5 para Nova y después apilar Infinity; no se fabrica con dos Core Nivel2.
+  - Si vas primero y Clockwork Night sin objetivo, guárdala salvo que ayude a protegerte; gastar contacto Fusion sin monstruos rivales es imposible.
+- **ir segundo:**
+  - Clockwork Night + Cyber Dragon permiten Fortress contra monstruos rivales convertidos en Máquina, si son utilizables para contacto; no es destrucción ni efecto activado de Fortress.
+  - Megafleet usa un monstruo rival de la Extra Monster Zone y Cyber Dragon; un monstruo en zona principal no sirve por el simple hecho de proceder del Extra Deck.
+  - Cuando rival responde a Core con Ash, la Normal quedó gastada; conservar Cyber Emergency en mano puede sostener extensión si queda destino.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Ash a Core
+    - **respuesta:** No incorporas Cyber Spell/Trap por Core; cuerpo Core permanece y Normal está gastada.
+  - Detalle:
+    - **evento:** Remoción de Clockwork Night
+    - **respuesta:** Al salir Night antes de contacto, monstruos enemigos pueden dejar de ser Máquina; verifica tipos actuales.
+  - Detalle:
+    - **evento:** Nibiru al combo de Link/Infinity
+    - **respuesta:** Antes de quinta Invocación valora detenerte con una amenaza ya activa.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Fortress o Megafleet?
+    - **criterio:** Fortress ante Máquina/Clockwork en Monster Zone; Megafleet ante amenaza en Extra Monster Zone. Requisitos distintos, no intercambiables.
+  - Detalle:
+    - **decision:** ¿Power Bond o contacto?
+    - **criterio:** Power Bond gasta materiales y puede dar daño terminal; contacto consume presencia rival sin activar Fusion Spell. Elegir por tablero rival y respuesta prevista.
+- **practica:**
+  - Detalle:
+    - **id:** 684:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 684:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 684:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - Side registrado como Reserva; separar claramente los candidatos de entrada de las cartas realmente inscritas.
+  - Examinar si la reserva de Cyber Dragon 1x es insuficiente para rutas dependientes de él, como propuesta de ajuste; no aplicarlo.
+- **side y reserva:** No se identifica Side competitivo validado; todas las recomendaciones de incorporación son propuestas no aplicadas. Analizar mano contra campos de Máquina y contra extra-zone antes de proponer remover motor.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 684 -->
@@ -2901,35 +3026,38 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 10**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `42` |
-| `mano_inicial` | `5` |
-| `indicador` | `"Core o Emergency"` |
-| `grupos_cid` | `[[10866,8428]]` |
-| `probabilidad_exacta` | `0.5568282808334156` |
-| `porcentaje` | `55.683` |
-| `nota` | `"Emergency puede buscar Core; considerar la carta que será descartada si activación propia falla."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **formato:** TCG
+- **deck size:** 42
+- **mano inicial:** 5
+- **indicador:** Core o Emergency
+- **grupos cid:**
+  - Detalle:
+    - 10866
+    - 8428
+- **probabilidad exacta:** 0.5568282808334156
+- **porcentaje:** 55.683
+- **nota:** Emergency puede buscar Core; considerar la carta que será descartada si activación propia falla.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 11**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `deck` | `"Cyber Dragon Pure"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `42` |
-| `mano_inicial` | `5` |
-| `indicador` | `"Cyber Dragon + Clockwork Night"` |
-| `grupos_cid` | `[[6390],[17625]]` |
-| `probabilidad_exacta` | `0.022357723577235773` |
-| `porcentaje` | `2.236` |
-| `nota` | `"Fortress aún exige Máquinas apropiadas en campo rival."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 684
+- **deck:** Cyber Dragon Pure
+- **formato:** TCG
+- **deck size:** 42
+- **mano inicial:** 5
+- **indicador:** Cyber Dragon + Clockwork Night
+- **grupos cid:**
+  - Detalle:
+    - 6390
+  - Detalle:
+    - 17625
+- **probabilidad exacta:** 0.022357723577235773
+- **porcentaje:** 2.236
+- **nota:** Fortress aún exige Máquinas apropiadas en campo rival.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 684 -->
@@ -2943,744 +3071,1135 @@ Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan l
 
 **Registro 131**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16296` |
-| `nombre` | `"Cyberdark Chimera"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `469` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6398,"nombre":"Power Bond"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO · EFECTO_AL_ENVIARSE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 16296
+- **nombre:** Cyberdark Chimera
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 469
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6398
+    - **nombre:** Power Bond
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO · EFECTO_AL_ENVIARSE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 132**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6830` |
-| `nombre` | `"Cyberdark Horn"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `371` |
-| `acciones_identificadas` | `[{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 6830
+- **nombre:** Cyberdark Horn
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 371
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 133**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `21164` |
-| `nombre` | `"Cyberdark Wurm"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `401` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 21164
+- **nombre:** Cyberdark Wurm
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 401
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 134**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13181` |
-| `nombre` | `"Cyberdark Claw"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `426` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO · EFECTO_AL_ENVIARSE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13181
+- **nombre:** Cyberdark Claw
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 426
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO · EFECTO_AL_ENVIARSE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 135**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6663` |
-| `nombre` | `"Cyber Phoenix"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `211` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 6663
+- **nombre:** Cyber Phoenix
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 211
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 136**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `21163` |
-| `nombre` | `"Cyber Jormungardr"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `538` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 21163
+- **nombre:** Cyber Jormungardr
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 538
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 137**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `17119` |
-| `nombre` | `"Therion \"King\" Regulus"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `559` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 17119
+- **nombre:** Therion "King" Regulus
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 559
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 138**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `317` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 317
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 139**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13587` |
-| `nombre` | `"Ghost Belle & Haunted Mansion"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `358` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13587
+- **nombre:** Ghost Belle &amp; Haunted Mansion
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 358
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 140**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `20205` |
-| `nombre` | `"Disablaster the Negation Fortress"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `353` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 20205
+- **nombre:** Disablaster the Negation Fortress
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 353
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 141**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16298` |
-| `nombre` | `"Cyberdark Realm"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `552` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 16298
+- **nombre:** Cyberdark Realm
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 552
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 142**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13770` |
-| `nombre` | `"Cyber Revsystem"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `93` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"Revisar cláusula completa; no inventar uso ni declararla inútil."` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13770
+- **nombre:** Cyber Revsystem
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 93
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** Revisar cláusula completa; no inventar uso ni declararla inútil.
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 143**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16301` |
-| `nombre` | `"Cybernetic Horizon"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `489` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 16301
+- **nombre:** Cybernetic Horizon
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 489
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 144**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `5129` |
-| `nombre` | `"Limiter Removal"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `148` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 5129
+- **nombre:** Limiter Removal
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 148
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 145**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13849` |
-| `nombre` | `"Cyberload Fusion"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `389` |
-| `acciones_identificadas` | `[{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13849
+- **nombre:** Cyberload Fusion
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 389
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 146**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6783` |
-| `nombre` | `"Overload Fusion"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `134` |
-| `acciones_identificadas` | `[{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 6783
+- **nombre:** Overload Fusion
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 134
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 147**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16297` |
-| `nombre` | `"Cyber Eternal"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `342` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO_DESDE_CEMENTERIO","justificacion":"Destierro desde Cementerio sujeto a la cláusula exacta."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO_DESDE_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 16297
+- **nombre:** Cyber Eternal
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 342
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO_DESDE_CEMENTERIO
+    - **justificacion:** Destierro desde Cementerio sujeto a la cláusula exacta.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO_DESDE_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 148**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `4909` |
-| `nombre` | `"Mystical Space Typhoon"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `54` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION · SELECCION_OBJETIVO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 4909
+- **nombre:** Mystical Space Typhoon
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 54
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION · SELECCION_OBJETIVO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 149**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `12464` |
-| `nombre` | `"Cosmic Cyclone"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `62` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"PAGO_LP","justificacion":"Paga LP al activar si corresponde al coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO · SELECCION_OBJETIVO · PAGO_LP"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 12464
+- **nombre:** Cosmic Cyclone
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 62
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** PAGO_LP
+    - **justificacion:** Paga LP al activar si corresponde al coste.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO · SELECCION_OBJETIVO · PAGO_LP
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 150**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13631` |
-| `nombre` | `"Infinite Impermanence"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `327` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13631
+- **nombre:** Infinite Impermanence
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 327
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 151**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13758` |
-| `nombre` | `"Cyber Dragon Sieger"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `477` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13758
+- **nombre:** Cyber Dragon Sieger
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 477
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 152**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `20787` |
-| `nombre` | `"Clockwork Knight"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `455` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"TRIBUTO","justificacion":"Puede exigir o habilitar sacrificio; confirmar coste frente a efecto."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":17625,"nombre":"Clockwork Night"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 20787
+- **nombre:** Clockwork Knight
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 455
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** TRIBUTO
+    - **justificacion:** Puede exigir o habilitar sacrificio; confirmar coste frente a efecto.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 17625
+    - **nombre:** Clockwork Night
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 153**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `14710` |
-| `nombre` | `"Barricadeborg Blocker"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `331` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 14710
+- **nombre:** Barricadeborg Blocker
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 331
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 154**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `20511` |
-| `nombre` | `"Heosvarog the Mechanical Dawn"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `493` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 20511
+- **nombre:** Heosvarog the Mechanical Dawn
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 493
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 155**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13502` |
-| `nombre` | `"Qliphort Genius"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `452` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13502
+- **nombre:** Qliphort Genius
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 452
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 156**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `18448` |
-| `nombre` | `"Sky Striker Ace - Azalea"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `441` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"DESTIERRO_DESDE_CEMENTERIO","justificacion":"Destierro desde Cementerio sujeto a la cláusula exacta."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · DESTIERRO_DESDE_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 18448
+- **nombre:** Sky Striker Ace - Azalea
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 441
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** DESTIERRO_DESDE_CEMENTERIO
+    - **justificacion:** Destierro desde Cementerio sujeto a la cláusula exacta.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · DESTIERRO_DESDE_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 157**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `16233` |
-| `nombre` | `"Chronomaly Vimana"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `455` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 16233
+- **nombre:** Chronomaly Vimana
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 455
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 158**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `485` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 485
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 159**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13847` |
-| `nombre` | `"Cyber Eternity Dragon"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `555` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO_DESDE_CEMENTERIO","justificacion":"Destierro desde Cementerio sujeto a la cláusula exacta."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"DESTIERRO_DESDE_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13847
+- **nombre:** Cyber Eternity Dragon
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 555
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO_DESDE_CEMENTERIO
+    - **justificacion:** Destierro desde Cementerio sujeto a la cláusula exacta.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** DESTIERRO_DESDE_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 160**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `7436` |
-| `nombre` | `"The Calculator"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `86` |
-| `acciones_identificadas` | `[{"tipo":"ATK_CONTINUO","justificacion":"ATK = suma de Niveles de monstruos propios boca arriba × 300; no es efecto activado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_CONCRETA"` |
-| `proposito_resumido` | `"ATK_CONTINUO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO"` |
+- **deck id:** 684
+- **cid:** 7436
+- **nombre:** The Calculator
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 86
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ATK_CONTINUO
+    - **justificacion:** ATK = suma de Niveles de monstruos propios boca arriba × 300; no es efecto activado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_CONCRETA
+- **proposito resumido:** ATK_CONTINUO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** LECTURA_INDIVIDUAL_DE_EFECTO_CONTINUO
 
 **Registro 161**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `7400` |
-| `nombre` | `"Dimensional Prison"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `97` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO · SELECCION_OBJETIVO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 7400
+- **nombre:** Dimensional Prison
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 97
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO · SELECCION_OBJETIVO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 162**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `20500` |
-| `nombre` | `"Mulcharmy Fuwalos"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `561` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 20500
+- **nombre:** Mulcharmy Fuwalos
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 561
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 163**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `9279` |
-| `nombre` | `"Droll & Lock Bird"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `252` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 9279
+- **nombre:** Droll &amp; Lock Bird
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 252
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 164**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `14876` |
-| `nombre` | `"Lightning Storm"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `229` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 14876
+- **nombre:** Lightning Storm
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 229
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 165**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `12872` |
-| `nombre` | `"Fusion Recycling Plant"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `254` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 12872
+- **nombre:** Fusion Recycling Plant
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 254
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 166**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `15296` |
-| `nombre` | `"Triple Tactics Talent"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `337` |
-| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"CONTROL_RIVAL","justificacion":"Puede tomar control de monstruos bajo requisitos."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ROBO · RECICLAJE · CONTROL_RIVAL"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 15296
+- **nombre:** Triple Tactics Talent
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 337
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** CONTROL_RIVAL
+    - **justificacion:** Puede tomar control de monstruos bajo requisitos.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ROBO · RECICLAJE · CONTROL_RIVAL
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 167**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `13851` |
-| `nombre` | `"Cybernetic Revolution"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `272` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"TRIBUTO","justificacion":"Puede exigir o habilitar sacrificio; confirmar coste frente a efecto."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"Revisar cláusula completa; no inventar uso ni declararla inútil."` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 13851
+- **nombre:** Cybernetic Revolution
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 272
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** TRIBUTO
+    - **justificacion:** Puede exigir o habilitar sacrificio; confirmar coste frente a efecto.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** Revisar cláusula completa; no inventar uso ni declararla inútil.
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 168**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6397` |
-| `nombre` | `"Cyber End Dragon"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `208` |
-| `acciones_identificadas` | `[{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"MATERIALES_DECLARADOS · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 6397
+- **nombre:** Cyber End Dragon
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 208
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** MATERIALES_DECLARADOS · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 169**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `684` |
-| `cid` | `6734` |
-| `nombre` | `"Chimeratech Overdragon"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `406` |
-| `acciones_identificadas` | `[{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[{"cid":6390,"nombre":"Cyber Dragon"}]` |
-| `diagnostico` | `"REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK"` |
-| `proposito_resumido` | `"MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 684
+- **cid:** 6734
+- **nombre:** Chimeratech Overdragon
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 406
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+- **referencias a cartas del mismo deck:**
+  - Detalle:
+    - **cid:** 6390
+    - **nombre:** Cyber Dragon
+- **diagnostico:** REFERENCIA_TEXTUAL_A_CARTA_DEL_DECK
+- **proposito resumido:** MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** CANDIDATA_SINERGIA_CONDICIONAL_PENDIENTE_REQUISITOS
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 684 -->
@@ -3694,1043 +4213,1852 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 212**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:10866"` |
-| `deck_id` | `684` |
-| `cid` | `10866` |
-| `nombre` | `"Cyber Dragon Core"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"2f8254e8"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · CONTROL_DESTIERRO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
-| `conexiones_concretas` | `["A06:REL:025","A06:REL:026","A06:REL:148"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:10866
+- **deck id:** 684
+- **cid:** 10866
+- **nombre:** Cyber Dragon Core
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 2f8254e8
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · CONTROL_DESTIERRO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+- **conexiones concretas:**
+  - A06:REL:025
+  - A06:REL:026
+  - A06:REL:148
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 213**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6390"` |
-| `deck_id` | `684` |
-| `cid` | `6390` |
-| `nombre` | `"Cyber Dragon"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4537d8a7"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `["A06:REL:028","A06:REL:057"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6390
+- **deck id:** 684
+- **cid:** 6390
+- **nombre:** Cyber Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4537d8a7
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - A06:REL:028
+  - A06:REL:057
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 214**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:14047"` |
-| `deck_id` | `684` |
-| `cid` | `14047` |
-| `nombre` | `"Cyber Dragon Nachster"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1b7b0331"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `["A06:REL:057","A06:REL:058","A06:REL:145"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:14047
+- **deck id:** 684
+- **cid:** 14047
+- **nombre:** Cyber Dragon Nachster
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1b7b0331
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - A06:REL:057
+  - A06:REL:058
+  - A06:REL:145
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 215**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13723"` |
-| `deck_id` | `684` |
-| `cid` | `13723` |
-| `nombre` | `"Cyber Dragon Herz"` |
-| `zona` | `[{"zona":"Main","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"0afd76b8"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
-| `conexiones_concretas` | `["A06:REL:056","A06:REL:058","A06:REL:149"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13723
+- **deck id:** 684
+- **cid:** 13723
+- **nombre:** Cyber Dragon Herz
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 0afd76b8
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+- **conexiones concretas:**
+  - A06:REL:056
+  - A06:REL:058
+  - A06:REL:149
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 216**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:16296"` |
-| `deck_id` | `684` |
-| `cid` | `16296` |
-| `nombre` | `"Cyberdark Chimera"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"50840bf9"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CARGA_CEMENTERIO · CONTROL_DESTIERRO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:16296
+- **deck id:** 684
+- **cid:** 16296
+- **nombre:** Cyberdark Chimera
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 50840bf9
+- **funcion concreta en inventario:** CONSISTENCIA · CARGA_CEMENTERIO · CONTROL_DESTIERRO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 217**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6830"` |
-| `deck_id` | `684` |
-| `cid` | `6830` |
-| `nombre` | `"Cyberdark Horn"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1a2bf927"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_NORMAL · INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6830
+- **deck id:** 684
+- **cid:** 6830
+- **nombre:** Cyberdark Horn
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1a2bf927
+- **funcion concreta en inventario:** ACCESO_NORMAL · INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 218**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:21164"` |
-| `deck_id` | `684` |
-| `cid` | `21164` |
-| `nombre` | `"Cyberdark Wurm"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"24a8e057"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECICLAJE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"RECUPERA_RECURSO","rol":"RECICLAJE","alcance":"Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:21164
+- **deck id:** 684
+- **cid:** 21164
+- **nombre:** Cyberdark Wurm
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 24a8e057
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECICLAJE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** RECUPERA_RECURSO
+    - **rol:** RECICLAJE
+    - **alcance:** Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 219**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13181"` |
-| `deck_id` | `684` |
-| `cid` | `13181` |
-| `nombre` | `"Cyberdark Claw"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6b2687f1"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CARGA_CEMENTERIO · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13181
+- **deck id:** 684
+- **cid:** 13181
+- **nombre:** Cyberdark Claw
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6b2687f1
+- **funcion concreta en inventario:** CONSISTENCIA · CARGA_CEMENTERIO · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 220**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6663"` |
-| `deck_id` | `684` |
-| `cid` | `6663` |
-| `nombre` | `"Cyber Phoenix"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"90a931cb"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · RECUPERACION_MANO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6663
+- **deck id:** 684
+- **cid:** 6663
+- **nombre:** Cyber Phoenix
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 90a931cb
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · RECUPERACION_MANO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 221**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:21163"` |
-| `deck_id` | `684` |
-| `cid` | `21163` |
-| `nombre` | `"Cyber Jormungardr"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d776e317"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · EQUIPAMIENTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:21163
+- **deck id:** 684
+- **cid:** 21163
+- **nombre:** Cyber Jormungardr
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d776e317
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · EQUIPAMIENTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 222**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:17119"` |
-| `deck_id` | `684` |
-| `cid` | `17119` |
-| `nombre` | `"Therion \"King\" Regulus"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"8f4b808b"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · EQUIPAMIENTO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:17119
+- **deck id:** 684
+- **cid:** 17119
+- **nombre:** Therion "King" Regulus
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 8f4b808b
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · EQUIPAMIENTO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 223**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:12950"` |
-| `deck_id` | `684` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6ecfa187"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:12950
+- **deck id:** 684
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6ecfa187
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 224**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13587"` |
-| `deck_id` | `684` |
-| `cid` | `13587` |
-| `nombre` | `"Ghost Belle & Haunted Mansion"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"37a14ba0"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13587
+- **deck id:** 684
+- **cid:** 13587
+- **nombre:** Ghost Belle &amp; Haunted Mansion
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 37a14ba0
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · RESPUESTA_NEGACION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 225**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:20205"` |
-| `deck_id` | `684` |
-| `cid` | `20205` |
-| `nombre` | `"Disablaster the Negation Fortress"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4aa3e5f8"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RESPUESTA_NEGACION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:20205
+- **deck id:** 684
+- **cid:** 20205
+- **nombre:** Disablaster the Negation Fortress
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4aa3e5f8
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RESPUESTA_NEGACION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 226**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:8428"` |
-| `deck_id` | `684` |
-| `cid` | `8428` |
-| `nombre` | `"Cyber Emergency"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"fdd520ed"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_NORMAL · CONSISTENCIA · RESPUESTA_NEGACION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."}]` |
-| `conexiones_concretas` | `["A06:REL:025","A06:REL:026","A06:REL:145"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:8428
+- **deck id:** 684
+- **cid:** 8428
+- **nombre:** Cyber Emergency
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** fdd520ed
+- **funcion concreta en inventario:** ACCESO_NORMAL · CONSISTENCIA · RESPUESTA_NEGACION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+- **conexiones concretas:**
+  - A06:REL:025
+  - A06:REL:026
+  - A06:REL:145
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 227**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:16298"` |
-| `deck_id` | `684` |
-| `cid` | `16298` |
-| `nombre` | `"Cyberdark Realm"` |
-| `zona` | `[{"zona":"Main","copias":2},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3539826f"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · EQUIPAMIENTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:16298
+- **deck id:** 684
+- **cid:** 16298
+- **nombre:** Cyberdark Realm
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3539826f
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · EQUIPAMIENTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 228**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13770"` |
-| `deck_id` | `684` |
-| `cid` | `13770` |
-| `nombre` | `"Cyber Revsystem"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"495d7666"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13770
+- **deck id:** 684
+- **cid:** 13770
+- **nombre:** Cyber Revsystem
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 495d7666
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 229**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:16301"` |
-| `deck_id` | `684` |
-| `cid` | `16301` |
-| `nombre` | `"Cybernetic Horizon"` |
-| `zona` | `[{"zona":"Main","copias":2},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"347c3941"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:16301
+- **deck id:** 684
+- **cid:** 16301
+- **nombre:** Cybernetic Horizon
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 347c3941
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 230**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:17625"` |
-| `deck_id` | `684` |
-| `cid` | `17625` |
-| `nombre` | `"Clockwork Night"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"7297e666"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CONTROL_DESTIERRO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:027"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:17625
+- **deck id:** 684
+- **cid:** 17625
+- **nombre:** Clockwork Night
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 7297e666
+- **funcion concreta en inventario:** CONSISTENCIA · CONTROL_DESTIERRO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:027
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 231**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6398"` |
-| `deck_id` | `684` |
-| `cid` | `6398` |
-| `nombre` | `"Power Bond"` |
-| `zona` | `[{"zona":"Main","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"fd648d54"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_FUSION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:147"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6398
+- **deck id:** 684
+- **cid:** 6398
+- **nombre:** Power Bond
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** fd648d54
+- **funcion concreta en inventario:** ACCESO_FUSION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:147
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 232**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:5129"` |
-| `deck_id` | `684` |
-| `cid` | `5129` |
-| `nombre` | `"Limiter Removal"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"69a98763"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:5129
+- **deck id:** 684
+- **cid:** 5129
+- **nombre:** Limiter Removal
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 69a98763
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 233**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13849"` |
-| `deck_id` | `684` |
-| `cid` | `13849` |
-| `nombre` | `"Cyberload Fusion"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"27179275"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13849
+- **deck id:** 684
+- **cid:** 13849
+- **nombre:** Cyberload Fusion
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 27179275
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 234**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6783"` |
-| `deck_id` | `684` |
-| `cid` | `6783` |
-| `nombre` | `"Overload Fusion"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1a298b0f"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6783
+- **deck id:** 684
+- **cid:** 6783
+- **nombre:** Overload Fusion
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1a298b0f
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 235**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:16297"` |
-| `deck_id` | `684` |
-| `cid` | `16297` |
-| `nombre` | `"Cyber Eternal"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"42b307e9"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:16297
+- **deck id:** 684
+- **cid:** 16297
+- **nombre:** Cyber Eternal
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 42b307e9
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 236**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:4909"` |
-| `deck_id` | `684` |
-| `cid` | `4909` |
-| `nombre` | `"Mystical Space Typhoon"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"e5345fdc"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:4909
+- **deck id:** 684
+- **cid:** 4909
+- **nombre:** Mystical Space Typhoon
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** e5345fdc
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 237**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:12464"` |
-| `deck_id` | `684` |
-| `cid` | `12464` |
-| `nombre` | `"Cosmic Cyclone"` |
-| `zona` | `[{"zona":"Main","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6b003712"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:12464
+- **deck id:** 684
+- **cid:** 12464
+- **nombre:** Cosmic Cyclone
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6b003712
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 238**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13631"` |
-| `deck_id` | `684` |
-| `cid` | `13631` |
-| `nombre` | `"Infinite Impermanence"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"21b1b175"` |
-| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · SELECCION_OBJETIVO · PREPARACION_CAMPO"` |
-| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13631
+- **deck id:** 684
+- **cid:** 13631
+- **nombre:** Infinite Impermanence
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 21b1b175
+- **funcion concreta en inventario:** RESPUESTA_NEGACION · SELECCION_OBJETIVO · PREPARACION_CAMPO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 239**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13787"` |
-| `deck_id` | `684` |
-| `cid` | `13787` |
-| `nombre` | `"Cybernetic Overflow"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"b43a9d57"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
-| `conexiones_concretas` | `["A06:REL:148","A06:REL:149","A06:REL:150"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13787
+- **deck id:** 684
+- **cid:** 13787
+- **nombre:** Cybernetic Overflow
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** b43a9d57
+- **funcion concreta en inventario:** CONSISTENCIA · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+- **conexiones concretas:**
+  - A06:REL:148
+  - A06:REL:149
+  - A06:REL:150
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 240**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:11764"` |
-| `deck_id` | `684` |
-| `cid` | `11764` |
-| `nombre` | `"Chimeratech Rampage Dragon"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"c8b683a8"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:147"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:11764
+- **deck id:** 684
+- **cid:** 11764
+- **nombre:** Chimeratech Rampage Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** c8b683a8
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:147
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 241**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13758"` |
-| `deck_id` | `684` |
-| `cid` | `13758` |
-| `nombre` | `"Cyber Dragon Sieger"` |
-| `zona` | `[{"zona":"Extra","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"f964d60b"` |
-| `funcion_concreta_en_inventario` | `"SELECCION_OBJETIVO · PRESION_LP · COMBATE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13758
+- **deck id:** 684
+- **cid:** 13758
+- **nombre:** Cyber Dragon Sieger
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** f964d60b
+- **funcion concreta en inventario:** SELECCION_OBJETIVO · PRESION_LP · COMBATE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 242**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:7403"` |
-| `deck_id` | `684` |
-| `cid` | `7403` |
-| `nombre` | `"Chimeratech Fortress Dragon"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3a50a788"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `["A06:REL:027"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:7403
+- **deck id:** 684
+- **cid:** 7403
+- **nombre:** Chimeratech Fortress Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3a50a788
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - A06:REL:027
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 243**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:20787"` |
-| `deck_id` | `684` |
-| `cid` | `20787` |
-| `nombre` | `"Clockwork Knight"` |
-| `zona` | `[{"zona":"Extra","copias":1},{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"c68821ea"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · SELECCION_OBJETIVO · TRIBUTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:20787
+- **deck id:** 684
+- **cid:** 20787
+- **nombre:** Clockwork Knight
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** c68821ea
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · SELECCION_OBJETIVO · TRIBUTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 244**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:14710"` |
-| `deck_id` | `684` |
-| `cid` | `14710` |
-| `nombre` | `"Barricadeborg Blocker"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"9df88057"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RECICLAJE"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"RECUPERA_RECURSO","rol":"RECICLAJE","alcance":"Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:14710
+- **deck id:** 684
+- **cid:** 14710
+- **nombre:** Barricadeborg Blocker
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 9df88057
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · RECICLAJE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** RECUPERA_RECURSO
+    - **rol:** RECICLAJE
+    - **alcance:** Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 245**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:10870"` |
-| `deck_id` | `684` |
-| `cid` | `10870` |
-| `nombre` | `"Cyber Dragon Nova"` |
-| `zona` | `[{"zona":"Extra","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"00a6a185"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `["A06:REL:056","A06:REL:146"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:10870
+- **deck id:** 684
+- **cid:** 10870
+- **nombre:** Cyber Dragon Nova
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 00a6a185
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - A06:REL:056
+  - A06:REL:146
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 246**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:20511"` |
-| `deck_id` | `684` |
-| `cid` | `20511` |
-| `nombre` | `"Heosvarog the Mechanical Dawn"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1052626d"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RESPUESTA_NEGACION · ACCESO_FUSION · RECICLAJE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"RECUPERA_RECURSO","rol":"RECICLAJE","alcance":"Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:20511
+- **deck id:** 684
+- **cid:** 20511
+- **nombre:** Heosvarog the Mechanical Dawn
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1052626d
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · RESPUESTA_NEGACION · ACCESO_FUSION · RECICLAJE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** RECUPERA_RECURSO
+    - **rol:** RECICLAJE
+    - **alcance:** Recupera cartas desde la zona especificada, no automáticamente desde cualquier lugar.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 247**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13502"` |
-| `deck_id` | `684` |
-| `cid` | `13502` |
-| `nombre` | `"Qliphort Genius"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"83301417"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · RESPUESTA_NEGACION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13502
+- **deck id:** 684
+- **cid:** 13502
+- **nombre:** Qliphort Genius
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 83301417
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · RESPUESTA_NEGACION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 248**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13358"` |
-| `deck_id` | `684` |
-| `cid` | `13358` |
-| `nombre` | `"Chimeratech Megafleet Dragon"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6dcab148"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `["A06:REL:028"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13358
+- **deck id:** 684
+- **cid:** 13358
+- **nombre:** Chimeratech Megafleet Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6dcab148
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - A06:REL:028
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 249**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:18448"` |
-| `deck_id` | `684` |
-| `cid` | `18448` |
-| `nombre` | `"Sky Striker Ace - Azalea"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"10f08e2d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:18448
+- **deck id:** 684
+- **cid:** 18448
+- **nombre:** Sky Striker Ace - Azalea
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 10f08e2d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 250**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:16233"` |
-| `deck_id` | `684` |
-| `cid` | `16233` |
-| `nombre` | `"Chronomaly Vimana"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"19e42d9c"` |
-| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"XYZ","rol":"ACCESO_XYZ","alcance":"Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:16233
+- **deck id:** 684
+- **cid:** 16233
+- **nombre:** Chronomaly Vimana
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 19e42d9c
+- **funcion concreta en inventario:** RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** XYZ
+    - **rol:** ACCESO_XYZ
+    - **alcance:** Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 251**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:11765"` |
-| `deck_id` | `684` |
-| `cid` | `11765` |
-| `nombre` | `"Cyber Dragon Infinity"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"228a0623"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"XYZ","rol":"ACCESO_XYZ","alcance":"Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `["A06:REL:146","A06:REL:150"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:11765
+- **deck id:** 684
+- **cid:** 11765
+- **nombre:** Cyber Dragon Infinity
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 228a0623
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** XYZ
+    - **rol:** ACCESO_XYZ
+    - **alcance:** Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - A06:REL:146
+  - A06:REL:150
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 252**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:19188"` |
-| `deck_id` | `684` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3b99386c"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:19188
+- **deck id:** 684
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3b99386c
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 253**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13847"` |
-| `deck_id` | `684` |
-| `cid` | `13847` |
-| `nombre` | `"Cyber Eternity Dragon"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"a43ce1b0"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13847
+- **deck id:** 684
+- **cid:** 13847
+- **nombre:** Cyber Eternity Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** a43ce1b0
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 254**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:7436"` |
-| `deck_id` | `684` |
-| `cid` | `7436` |
-| `nombre` | `"The Calculator"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6dc57563"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:7436
+- **deck id:** 684
+- **cid:** 7436
+- **nombre:** The Calculator
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6dc57563
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 255**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:7400"` |
-| `deck_id` | `684` |
-| `cid` | `7400` |
-| `nombre` | `"Dimensional Prison"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4943b843"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:7400
+- **deck id:** 684
+- **cid:** 7400
+- **nombre:** Dimensional Prison
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4943b843
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 256**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:20500"` |
-| `deck_id` | `684` |
-| `cid` | `20500` |
-| `nombre` | `"Mulcharmy Fuwalos"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"8a8de9ad"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:20500
+- **deck id:** 684
+- **cid:** 20500
+- **nombre:** Mulcharmy Fuwalos
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 8a8de9ad
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 257**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:9279"` |
-| `deck_id` | `684` |
-| `cid` | `9279` |
-| `nombre` | `"Droll & Lock Bird"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"f2655959"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:9279
+- **deck id:** 684
+- **cid:** 9279
+- **nombre:** Droll &amp; Lock Bird
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** f2655959
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RECUPERACION_MANO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 258**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:14876"` |
-| `deck_id` | `684` |
-| `cid` | `14876` |
-| `nombre` | `"Lightning Storm"` |
-| `zona` | `[{"zona":"Reserva","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4abee27e"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:14876
+- **deck id:** 684
+- **cid:** 14876
+- **nombre:** Lightning Storm
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4abee27e
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 259**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:12872"` |
-| `deck_id` | `684` |
-| `cid` | `12872` |
-| `nombre` | `"Fusion Recycling Plant"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"5b13c1ed"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:12872
+- **deck id:** 684
+- **cid:** 12872
+- **nombre:** Fusion Recycling Plant
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 5b13c1ed
+- **funcion concreta en inventario:** CONSISTENCIA · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 260**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:15296"` |
-| `deck_id` | `684` |
-| `cid` | `15296` |
-| `nombre` | `"Triple Tactics Talent"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6f5a85ef"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:15296
+- **deck id:** 684
+- **cid:** 15296
+- **nombre:** Triple Tactics Talent
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6f5a85ef
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 261**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:13851"` |
-| `deck_id` | `684` |
-| `cid` | `13851` |
-| `nombre` | `"Cybernetic Revolution"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"99b07932"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · ACCESO_FUSION · TRIBUTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:13851
+- **deck id:** 684
+- **cid:** 13851
+- **nombre:** Cybernetic Revolution
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 99b07932
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · ACCESO_FUSION · TRIBUTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 262**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6397"` |
-| `deck_id` | `684` |
-| `cid` | `6397` |
-| `nombre` | `"Cyber End Dragon"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"ce6f7dec"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_FUSION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6397
+- **deck id:** 684
+- **cid:** 6397
+- **nombre:** Cyber End Dragon
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** ce6f7dec
+- **funcion concreta en inventario:** ACCESO_FUSION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 263**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"684:CARD:6734"` |
-| `deck_id` | `684` |
-| `cid` | `6734` |
-| `nombre` | `"Chimeratech Overdragon"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"34381617"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · ACCESO_FUSION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 684:CARD:6734
+- **deck id:** 684
+- **cid:** 6734
+- **nombre:** Chimeratech Overdragon
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 34381617
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · ACCESO_FUSION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_684 -->
 ### Fichas de cartas y sinergias documentadas
@@ -5475,3 +6803,528 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: Sin Skill externa en este dossier
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `684:A09:OVERLOAD:RAMPAGE01` | [Overload Fusion: construir Rampage y presión de combate](imagenes/infografias/684_A09_OVERLOAD_RAMPAGE01.webp) |
+| `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01` | [Claw/Reino/Power Bond: acceso alternativo a Rampage](imagenes/infografias/684_A09_CLAW_REALM_POWERBOND_RAMPAGE01.webp) |
+| `684:A09:CLOCKWORK:FORTRESS01` | [Clockwork Night: retirar Máquinas con Fortress](imagenes/infografias/684_A09_CLOCKWORK_FORTRESS01.webp) |
+| `684:A09:MEGAFLEET:CYBER01` | [Cyber Dragon: usar Megafleet contra material en zona elegible](imagenes/infografias/684_A09_MEGAFLEET_CYBER01.webp) |
+| `684:A09:MEGAFLEET:CORE01` | [Core: variante para preparar Megafleet](imagenes/infografias/684_A09_MEGAFLEET_CORE01.webp) |
+| `684:A09:REV:HERZ:NOVA:INFINITY01` | [Revolution/Herz: reunir Nivel 5 para Nova/Infinity](imagenes/infografias/684_A09_REV_HERZ_NOVA_INFINITY01.webp) |
+| `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01` | [Overload y Cyberload: secuencia de Fusiones por recursos](imagenes/infografias/684_A09_OVERLOAD_CYBERLOAD_DOUBLE_RAMPAGE01.webp) |
+| `684:A09:NACHSTER:SIEGER01` | [Nachster: preparar Sieger para ampliar ofensiva](imagenes/infografias/684_A09_NACHSTER_SIEGER01.webp) |
+| `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09` | [Power Bond + Nachster: Heosvarog ante Mágicas/Trampas](imagenes/infografias/684_A09_POWERBOND_CYBER_NACHSTER_HEOS09.webp) |
+| `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10` | [Power Bond: Cyber Eternity para presión de ataque](imagenes/infografias/684_A09_POWERBOND_CYBER_HERZ_NACHSTER_ETERNITY10.webp) |
+| `684:A09:CYBER:CORE:SP_DEFENSA11` | [Cyber Dragon + Core: S:P para respuesta defensiva](imagenes/infografias/684_A09_CYBER_CORE_SP_DEFENSA11.webp) |
+| `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12` | [Cyber Dragon + Core: Genius y protección de Clockwork](imagenes/infografias/684_A09_CYBER_CORE_CLOCKWORK_GENIUS12.webp) |
+| `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13` | [Core + Clockwork Night: buscar segunda Night](imagenes/infografias/684_A09_CORE_NIGHT_CLOCKWORK_KNIGHT13.webp) |
+| `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14` | [Cyber Dragon + Horn: proteger Clockwork Night ya activa](imagenes/infografias/684_A09_CYBER_HORN_NIGHT_BARRICADEBORG14.webp) |
+| `684:A09:CYBER:CORE:AZALEA15` | [Cyber Dragon + Core: Azalea para destruir una carta](imagenes/infografias/684_A09_CYBER_CORE_AZALEA15.webp) |
+| `684:A09:JORMUNGARDR:VIMANA16` | [Jormungardr: Vimana con dos materiales para negar](imagenes/infografias/684_A09_JORMUNGARDR_VIMANA16.webp) |
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Cyberdark Realm (CID 16298), Ghost Belle & Haunted Mansion (CID 13587), Infinite Impermanence (CID 13631), Ash Blossom & Joyous Spring (CID 12950), Cyber Dragon (CID 6390). Core o Emergency: no presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Ash Blossom & Joyous Spring (CID 12950), Cybernetic Horizon (CID 16301), Cyber Dragon (CID 6390), Cyber Dragon Core (CID 10866), Overload Fusion (CID 6783). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Cyber Dragon Nachster (CID 14047), Mystical Space Typhoon (CID 4909), Cosmic Cyclone (CID 12464), Ash Blossom & Joyous Spring (CID 12950), Cyber Emergency (CID 8428). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** Cybernetic Horizon (CID 16301), Cybernetic Overflow (CID 13787), Cyber Revsystem (CID 13770), Ash Blossom & Joyous Spring (CID 12950), Cyberdark Claw (CID 13181). Core o Emergency: no presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Cyber Dragon Core (CID 10866), Cyber Dragon Nachster (CID 14047), Ash Blossom & Joyous Spring (CID 12950), Ash Blossom & Joyous Spring (CID 12950), Cosmic Cyclone (CID 12464). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Infinite Impermanence (CID 13631), Ghost Belle & Haunted Mansion (CID 13587), Cyber Emergency (CID 8428), Cosmic Cyclone (CID 12464), Clockwork Night (CID 17625). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Cyber Eternal (CID 16297), Infinite Impermanence (CID 13631), Cyber Dragon Core (CID 10866), Cyber Dragon (CID 6390), Cyber Dragon Core (CID 10866). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Therion "King" Regulus (CID 17119), Cyber Emergency (CID 8428), Cyber Revsystem (CID 13770), Ash Blossom & Joyous Spring (CID 12950), Cybernetic Overflow (CID 13787). Core o Emergency: presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Cyber Dragon (CID 6390), Cosmic Cyclone (CID 12464), Cyberdark Claw (CID 13181), Ghost Belle & Haunted Mansion (CID 13587), Cyberdark Wurm [Konami 21164] (CID 21164). Core o Emergency: no presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Ash Blossom & Joyous Spring (CID 12950), Limiter Removal (CID 5129), Cyber Dragon Nachster (CID 14047), Cyber Dragon Herz (CID 13723), Power Bond (CID 6398). Core o Emergency: no presente; Cyber Dragon + Clockwork Night: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **684:PRACTICA:V14:1 ? Megafleet zona:** Rival tiene Fusión en Main Monster Zone y no tiene nada en Extra Monster Zone. ¿Puedo convertirla en Megafleet por ese motivo? **Respuesta documentada:** No: Megafleet requiere material de la Extra Monster Zone. (DECISION_REAL_NO_PREDICCION).
+- **684:PRACTICA:V14:2 ? Clockwork:** Night activa convierte monstruos boca arriba rivales en Máquina. ¿Puedo usar uno boca abajo como Máquina por Night? **Respuesta documentada:** No asumirlo: Night afecta monstruos boca arriba; comprueba el texto y la posición. (DECISION_REAL_NO_PREDICCION).
+- **684:PRACTICA:V14:3 ? Nova material:** Dos Core Nivel2, ¿hacen Nova Rango5? **Respuesta documentada:** No. Necesitas dos Nivel5 o un procedimiento alternativo explícito. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Backrow persistente con negaciones de campo:** Ir segundo con zona de campo propia vacía y varias M/T rivales que dificultan Power Bond. Entradas propuestas: 3 x CID 14876 (Reserva). Salidas propuestas: 2 x CID 13587 (Main), 1 x CID 6663 (Main). Candidato 3× Lightning Storm a cambio de dos Ghost Belle y Cyber Phoenix sólo si no compromete al motor restante; Reserva no se juega actualmente. Con campo propio sin cartas boca arriba, Lightning Storm permite elegir M/T o monstruos boca arriba en Ataque, no ambos. Luego explorar Clockwork Night + Chimeratech Fortress si el rival sigue controlando materiales Máquina legales. Contra primer turno, Infinity+Overflow puede ser mejor que cartas de retirada que no se activarán hasta siguiente turno. Si no se cambia: Mantener Cyber Phoenix y Ghost Belle en Main; usar sólo Cyclone original y otras retiradas disponibles. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+- **M/T continua cuyo envío al GY activa efecto:** Se necesita desterrar, no destruir, una S/T puntual antes de la línea de Fusión. Entradas propuestas: 1 x CID 12464 (Reserva). Salidas propuestas: 1 x CID 6663 (Main). Aumentar una copia de Cosmic frente a cartas que se benefician de ser destruidas; pendiente de cambio de lista. Pagar 1000 LP y seleccionar la S/T objetivo para desterrarla. No confundir Cosmic con Mystical Space Typhoon: el primero destierra y el segundo destruye. Mantener recurso Cyber Dragon original si se pretende activar Revsystem posteriormente. Si no se cambia: Main ya tiene un Cosmic Cyclone 1x y MST 1x; se usan tal como están. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Overload Fusion: construir Rampage y presión de combate** ? `684:A09:OVERLOAD:RAMPAGE01:PRACTICA_V06`, `684:A09:OVERLOAD:RAMPAGE01`
+- Route type: RUTA
+- Purpose: Ofensivo
+- Challenge: initial state: Main Phase propia, Overload Fusion en mano, Cyber Dragon Core y Cyber Dragon Herz en GY propios, ambos sin ser desterrados; Chimeratech Rampage Dragon en Extra; Cyber Dragon y Cyber Dragon Nachster todavía en Deck (dos Máquinas LUZ disponibles). Zona principal libre, sin bloqueos de Invocación Especial o de efectos previos, rival sin respuestas. No se exige control de otro monstruo ni Normal disponible.; question: ¿Cómo alcanzas «Ofensivo» sin saltar pasos?; first action: Activar Overload Fusion desde mano (CL1) para invocar una Fusión Máquina OSCURIDAD. Seleccionar Core y Herz en GY: allí sus nombres son «Cyber Dragon».; last action: En Main Phase, activar el otro efecto de Rampage (una vez por turno) para enviar Cyber Dragon y Cyber Dragon Nachster desde Deck al GY al resolver.; expected final: Campo final propio al acabar Main Phase: Rampage boca arriba, 2100 ATK/1600 DEF, habilitado para 3 ataques este turno; Overload en GY, Cyber Dragon y Nachster en GY, Core y Herz desterrados. Resto de mano no definido. No hay negaciones ni protecciones inherentes garantizadas.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6783.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Claw/Reino/Power Bond: acceso alternativo a Rampage** ? `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01:PRACTICA_V06`, `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01`
+- Route type: RUTA
+- Purpose: Ofensivo
+- Challenge: initial state: Claw 1× Cyberdark Claw, 1× Ciclón del Cosmos (Mágica que será descartada como coste, no activada), Core 1× Cyber Dragon Core, Cyber Dragon 1× Cyber Dragon original. Deck: Realm Cyberdark Realm, Chimera Cyberdark Chimera, Bond Power Bond, al menos 1 Cyber Emergency y Herz Cyber Dragon Herz disponibles. Extra: Rampage Chimeratech Rampage Dragon. Campo/GY/destierro propios: vacíos, LP propios suficientes para la posterior consecuencia de 2100 si se desea sobrevivir al final de turno; Normal del turno sin utilizar, sin bloqueo previo ni respuesta rival. Solo se utiliza el motor presente en Main/Extra.; question: ¿Cómo alcanzas «Ofensivo» sin saltar pasos?; first action: En Main Phase, activar el efecto de Claw desde mano descartando Claw como COSTE (mano→GY); al resolver buscar Cyberdark Realm del Deck a mano.; last action: End Phase de este mismo turno: por el efecto ya resuelto de Power Bond el jugador recibe 2100 LP de daño propio, cifra igual al ATK que recibió Rampage al Invocarse.; expected final: Endboard antes de End Phase: Rampage ATK 4200 / DEF 1600, habilitado para dos ataques solo en Battle Phase de este turno; Chimera ATK 800 como segundo monstruo; Cyberdark Realm continua boca arriba. Mano final de esta apertura: Cyber Emergency + Cyber Dragon original recuperado. GY: Claw, Ciclón del Cosmos, Core, Power Bond y Herz (más otros recursos únicamente si ya existían, que aquí no); destierro: vacío; Normal ordinaria gastada y Normal adicional de Realm gastada. Al finalizar el turno, 2100 LP propios perdidos y expiró la bonificación de ataque adicional de Rampage; no afirmar 8400 LP de daño al rival sin Battle Phase y ataques exitosos.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16298.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16296.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Clockwork Night: retirar Máquinas con Fortress** ? `684:A09:CLOCKWORK:FORTRESS01:PRACTICA_V06`, `684:A09:CLOCKWORK:FORTRESS01`
+- Route type: RUTA
+- Purpose: Romper campo
+- Challenge: initial state: 1× Cyber Dragon Core + 1× Clockwork Night. Deck propio: 1× Cyber Emergency disponible para la búsqueda. Extra Deck: 1× Chimeratech Fortress Dragon disponible. Campo inicial: propio vacío, rival controla 1 monstruo boca arriba (por ejemplo, de tipo Guerrero); no hay otras restricciones ni respuestas adversarias. Es Main Phase propia y la Normal Summon sigue disponible.; question: ¿Cómo alcanzas «Romper campo» sin saltar pasos?; first action: Activar Clockwork Night de la mano como Mágica Continua; dejar resolver (CL1).; last action: En Main Phase, aplicar el procedimiento de Chimeratech Fortress Dragon: enviar al GY Core propio (nombre Cyber Dragon en Campo) y el monstruo rival que Clockwork Night vuelve Máquina.; expected final: Tablero final: propio Fortress (ATK original 2000), Clockwork Night continua boca arriba, Cyber Emergency en mano; GY propio Core, GY rival su monstruo enviado. Clockwork Night no añade 500 ATK a Fortress de forma original: mientras siga boca arriba, concede 500 ATK continuo, por lo que el ATK actual de Fortress es 2500. Se exige indicar ambos valores por separado. No se garantiza OTK ni destruir/desterrar todo un Campo adversario.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/7403.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Cyber Dragon: usar Megafleet contra material en zona elegible** ? `684:A09:MEGAFLEET:CYBER01:PRACTICA_V06`, `684:A09:MEGAFLEET:CYBER01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Cyber Dragon 1× Cyber Dragon original; no presuponer búsquedas.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Con solo monstruos del oponente en Campo, aplicar el procedimiento propio de Cyber Dragon Cyber Dragon desde mano.; last action: En Main Phase, realizar la Invocación Especial por procedimiento de contacto de Megafleet Chimeratech Megafleet Dragon desde Extra, enviando al GY Cyber Dragon propio y el monstruo rival que estaba en Zona de Monstruos Extra como sus dos materiales.; expected final: Endboard sin respuesta: Megafleet Megafleet boca arriba, ATK original y actual 2400 = 1200 × 2 materiales (si no hay modificadores adicionales); Cyber Dragon en GY propio; monstruo rival de Zona Extra en GY rival; mano inicial consumida, Normal libre, sin destierros/daño causado ni negación inherente. En ausencia de cartas adicionales no se acredita ataque letal ni más Invocaciones. Principal vulnerabilidad: si desaparece el monstruo de Zona Extra antes del procedimiento, esta línea mínima ya no puede usarlo. No suponer inmunidades ni saltarse impedimentos que prohíban enviar cartas al GY. Valor táctico: retirar una pieza rival del Extra sin utilizar una carta de Fusión; conservar la Normal para el siguiente starter si existe.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13358.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Core: variante para preparar Megafleet** ? `684:A09:MEGAFLEET:CORE01:PRACTICA_V06`, `684:A09:MEGAFLEET:CORE01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Core 1× Cyber Dragon Core. Condición rival: al menos 1 monstruo no Péndulo/no Ficha boca arriba en Zona de Monstruos Extra, elegible para ser enviado al GY, no en una zona principal ordinaria. Main Phase propia, Campo propio vacío, GY/destierro vacíos, Normal disponible, una copia de Emergency Cyber Emergency en Deck y una de Megafleet Megafleet en Extra. Sin respuestas en la línea canónica.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Invocar Normalmente Cyber Dragon Core a Campo en Ataque. Su nombre es «Cyber Dragon» mientras está en Campo.; last action: En Main Phase, realizar el procedimiento propio de Megafleet: enviar Core propio desde Campo al GY y el monstruo rival en Zona Extra desde Campo a su GY, Invocando Megafleet desde Extra.; expected final: Endboard demostrado: Megafleet 2400 ATK, Cyber Emergency en mano, Core en GY, Normal gastada; 0 daño garantizado, 0 negaciones inherentes. El efecto de Core de buscar en su Invocación Normal sí fue utilizado; no atribuirle un segundo efecto activado el mismo turno. Si la búsqueda se niega, el desenlace con Emergency en mano deja de estar demostrado, aunque Core siga contando como Cyber Dragon en Campo y el procedimiento Megafleet pueda volver a evaluarse con los materiales; esa rama pertenece a A12–A13. La modalidad CYBER01 conserva Normal; esta modalidad CORE01 cambia recursos y exposición a respuestas, así que no fusionar sus fichas. Siguiente acción: producir sus dos vistas A10 por separado y verificar respuestas sobre cada momento. Fuentes Core (CID 10866) y Megafleet (CID 13358).;; NO PARA IMPORTAR.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13358.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Revolution/Herz: reunir Nivel 5 para Nova/Infinity** ? `684:A09:REV:HERZ:NOVA:INFINITY01:PRACTICA_V06`, `684:A09:REV:HERZ:NOVA:INFINITY01`
+- Route type: RUTA
+- Purpose: Negadores (si su efecto está disponible)
+- Challenge: initial state: Cyber Dragon Cyber Dragon original (1) + Cyber Revsystem Cyber Revsystem (1). Cementerio propio inicial: Cyber Dragon Herz Cyber Dragon Herz (1) ya enviado por una jugada previa, sin haber usado su efecto de cambio de Nivel este turno. Campo propio: sin monstruos al inicio; rival con al menos un monstruo en su Campo; Main Phase propia, Normal aún disponible. Extra: Nova Cyber Dragon Nova (1) y Infinity Cyber Dragon Infinity (1) disponibles. Sin bloqueos de Invocación Especial de Máquina, con zonas y materiales libres; no se necesitan cartas de Reserva ni Side.; question: ¿Cómo alcanzas «Negadores (si su efecto está disponible)» sin saltar pasos?; first action: Como solamente el rival controla monstruos, aplicar el procedimiento de Cyber Dragon original, mano→Campo mediante Invocación Especial en Ataque (Nivel 5, Máquina/LUZ).; last action: Aplicar el procedimiento alternativo de Xyz de Cyber Dragon Infinity usando Nova propia como material (una vez este turno).; expected final: Estado final al acabar la Main Phase: Infinity Cyber Dragon Infinity 2700 ATK actual, 3 materiales (Nova, Cyber Dragon, Herz); Cyber Revsystem en GY; mano inicial consumida; Normal disponible; sin destrucciones ni daño rival garantizados. Infinity tiene una negación de activación de carta/efecto por turno (Quick Effect) que exige desacoplar 1 material al activarse; al pagar ese coste quedarán 2 materiales y 2500 ATK actuales si no se aplican otros modificadores. Esta interrupción es potencial hasta que el rival active algo legalmente respondible, no una negación ya efectuada. Riesgo: un efecto que impida Invocar Máquina, mover Herz del GY antes de Revsystem, negar su cambio de Nivel o impedir la Xyz invalida la continuación. La resistencia a destrucción que Revsystem concedió a Herz no se transfiere automáticamente a Infinity tras usar He
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13770.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10870.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11765.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Overload y Cyberload: secuencia de Fusiones por recursos** ? `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01:PRACTICA_V06`, `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01`
+- Route type: RUTA
+- Purpose: Ofensivo
+- Challenge: initial state: Overload Fusion 1× Overload Fusion + Cyberload Fusion 1× Cyberload Fusion. GY propio inicial preparado desde turno previo: Core 1× Cyber Dragon Core + Herz 1× Cyber Dragon Herz, sin usar el efecto de recuperación de Herz en este turno. Deck: Cyber Dragon original 1× + Cyber Dragon Nachster 1×; resto de Core en Deck no se consume. Extra: Rampage 2× Chimeratech Rampage Dragon sin utilizar. Campo y destierro propios vacíos, Normal del turno disponible, sin bloqueos ni respuesta rival; no se asume una mano robada adicional.; question: ¿Cómo alcanzas «Ofensivo» sin saltar pasos?; first action: Activar Overload Fusion (Mágica Normal) en tu Main Phase para Fusion Summon de un monstruo Fusión Máquina OSCURIDAD.; last action: Tras concluir la cadena anterior, activar el efecto de Herz por haber sido enviada al GY, añadiendo Cyber Dragon original del GY a mano.; expected final: Endboard de Main Phase: dos Rampage A/B en Campo, 2100 ATK cada uno. Solo B puede atacar en lo restante del turno por Cyberload, con hasta 2 ataques de B si las reglas de batalla y sus objetivos lo permiten. Mano: 1× Cyber Dragon original recuperado. GY: Overload, Cyberload, Cyber Dragon Nachster y Herz; destierro: vacío, porque Core/Herz retornaron al Deck; Core queda barajado en Deck y no vuelve al GY; Normal libre. Daño garantizado al oponente: 0; no sumar ataques de A después de activar Cyberload, no afirmar OTK ni destrucción sin objetivos. Esta secuencia exige un GY ya preparado, y sus 2 cartas de mano no bastan por sí solas desde campo/recursos vacíos.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6783.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13849.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Nachster: preparar Sieger para ampliar ofensiva** ? `684:A09:NACHSTER:SIEGER01:PRACTICA_V06`, `684:A09:NACHSTER:SIEGER01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Cyber Dragon 1× Cyber Dragon original (Nivel 5, Máquina LUZ, ATK 2100) + Nachster 1× Cyber Dragon Nachster (Nivel 1, Máquina LUZ, ATK 200). Extra: Sieger 1× Cyber Dragon Sieger sin usar. Estado inicial: Main Phase propia; campo/GY/destierro propios vacíos, Normal disponible, zonas de monstruos libres; no hay efectos previos ni restricción externa a Enlace. No requiere cartas ni monstruos rivales para Invocar a Sieger. Sin respuesta adversaria en línea base.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: En Main Phase, activar el efecto de Nachster en mano; descartar Cyber Dragon original COMO COSTE al GY; resolver la Invocación Especial de Nachster en una Zona Principal.; last action: Sólo durante una Battle Phase y si Sieger no declaró un ataque, se puede activar su Efecto Rápido y seleccionar al propio Sieger (Máquina con 2100 ATK) para darle +2100 ATK/DEF hasta fin de turno.; expected final: Endboard al finalizar Main Phase: 1× Sieger ATK 2100; Cyber Dragon original y Nachster en GY, mano inicial vacía, destierro vacío, Normal sin gastar; 0 negaciones y 0 daño garantizados. Si durante la Battle Phase se activa el paso 4, el estado temporal de Sieger es ATK 4200, regresando a 2100 al acabar el turno; en una Battle Phase rival también podría usarse en ventana legal si Sieger permanece y cumple la condición. Restricción vigente de Nachster: únicamente futuras Invocaciones Especiales de Máquina hasta finalizar el turno en que se activó. Riesgos: si se niega o retira Nachster antes de la reanimación, o desaparece Cyber Dragon del GY, no se obtienen ambos materiales. No se da por disponible ninguna otra Máquina no registrada.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13758.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Power Bond + Nachster: Heosvarog ante Mágicas/Trampas** ? `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09:PRACTICA_V06`, `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`
+- Route type: CONTINUACION
+- Purpose: Invocar Heosvarog y preservar materiales en GY para negar una activación de M/T
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Invocar Heosvarog y preservar materiales en GY para negar una activación de M/T» sin saltar pasos?; first action: Materiales reales; last action: Endboard; expected final: Heosvarog boca arriba en Defensa (ATK 0/DEF 2800), Normal libre; Power Bond y dos materiales en GY hasta uso posterior. Power Bond produjo incremento ATK 0 y daño de End Phase 0 en este escenario.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/20511.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Power Bond: Cyber Eternity para presión de ataque** ? `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10:PRACTICA_V06`, `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`
+- Route type: CONTINUACION
+- Purpose: Invocar Cyber Eternity con 5600 ATK y anticipar daño propio de Power Bond en End Phase
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Invocar Cyber Eternity con 5600 ATK y anticipar daño propio de Power Bond en End Phase» sin saltar pasos?; first action: Cuatro cartas de mano, tres materiales; last action: Endboard y precaución de vida; expected final: Cyber Eternity Dragon ATK 5600/DEF 4000, Cyber Dragon original en mano; Herz, Nachster y Power Bond en GY. No asumir protección de Eternity sin Fusión Máquina en GY. Daño eventual Power Bond: 2800 en End Phase si no se previene.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13847.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Cyber Dragon + Core: S:P para respuesta defensiva** ? `684:A09:CYBER:CORE:SP_DEFENSA11:PRACTICA_V06`, `684:A09:CYBER:CORE:SP_DEFENSA11`
+- Route type: CONTINUACION
+- Purpose: Conservar destierro temporal de S:P durante respuesta rival; no adjudicar primer destierro al invocar
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Conservar destierro temporal de S:P durante respuesta rival; no adjudicar primer destierro al invocar» sin saltar pasos?; first action: Cyber Dragon de mano, Especial por campo rival.; last action: Endboard y ventana rival.; expected final: S:P Little Knight en campo y Cyber Emergency en mano, Cyber Dragon y Core en GY, Normal consumida. Respuesta rápida de S:P solo con activación rival y dos monstruos boca arriba elegibles; destierro temporal, no negación.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/19188.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Cyber Dragon + Core: Genius y protección de Clockwork** ? `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12:PRACTICA_V06`, `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`
+- Route type: CONTINUACION
+- Purpose: Acceder a enlace Máquina usando dos cuerpos y decidir si compensa conservar Clockwork Night
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Acceder a enlace Máquina usando dos cuerpos y decidir si compensa conservar Clockwork Night» sin saltar pasos?; first action: Activar Clockwork Night.; last action: Genius selecciona una carta boca arriba en cada campo.; expected final: Genius 1800, Clockwork Night boca arriba negada, Cyber Emergency en mano, Cyber Dragon/Core en GY. Sin objetivo propio, no hay negación; no es Efecto Rápido. Guía individual con respuesta a interrupciones, fuentes y comparación con Fortress/S:P: guias_a10/DECK_684_CLOCKWORK_CORE_GENIUS_NEGACION_GUIA.md.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13502.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Core + Clockwork Night: buscar segunda Night** ? `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13:PRACTICA_V06`, `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13`
+- Route type: CONTINUACION
+- Purpose: Enviar la Night activa como coste y recuperar una copia de Deck para preparar turno posterior
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Enviar la Night activa como coste y recuperar una copia de Deck para preparar turno posterior» sin saltar pasos?; first action: Core NORMAL (ATK original 400) → Cyber Emergency a mano, si permanece en Deck.; last action: Campo final: Knight 500 ATK, Cyber Emergency + segunda Night en mano, Core y primera Night GY, Normal gastada. No activar otra Clockwork Night ese turno (solo una activación por turno). Knight NO revive Core con este campo: necesita otra Máquina propia que Sac; expected final: Knight 500 ATK, Cyber Emergency + segunda Night en mano, Core y primera Night GY, Normal gastada. No activar otra Clockwork Night ese turno (solo una activación por turno). Knight NO revive Core con este campo: necesita otra Máquina propia que Sacrificar.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/20787.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Cyber Dragon + Horn: proteger Clockwork Night ya activa** ? `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14:PRACTICA_V06`, `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`
+- Route type: CONTINUACION
+- Purpose: Invocar Barricadeborg Blocker para proteger Night de destrucción por efecto, no de otras retiradas
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Invocar Barricadeborg Blocker para proteger Night de destrucción por efecto, no de otras retiradas» sin saltar pasos?; first action: Campo anterior: Clockwork Night propia ya boca arriba, propios sin monstruos, rival con monstruo; mano Cyber Dragon + Cyberdark Horn.; last action: Campo final: Blocker 1500 ATK bajo Night (+500), Night protegida frente a destrucción por efectos del adversario, dos materiales GY, Normal gastada. No negar ni proteger contra destierro/retorno; el descarte y la recuperación End Phase NO se activan automática; expected final: Blocker 1500 ATK bajo Night (+500), Night protegida frente a destrucción por efectos del adversario, dos materiales GY, Normal gastada. No negar ni proteger contra destierro/retorno; el descarte y la recuperación End Phase NO se activan automáticamente.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6830.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14710.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Cyber Dragon + Core: Azalea para destruir una carta** ? `684:A09:CYBER:CORE:AZALEA15:PRACTICA_V06`, `684:A09:CYBER:CORE:AZALEA15`
+- Route type: CONTINUACION
+- Purpose: Usar dos LUZ y destruir un objetivo rival; Azalea puede acabar en GY según Mágicas disponibles
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Usar dos LUZ y destruir un objetivo rival; Azalea puede acabar en GY según Mágicas disponibles» sin saltar pasos?; first action: Cyber Dragon ESPECIAL desde mano si solo el rival controla monstruos.; last action: Final base (0 Mágicas GY iniciales): carta rival destruida, Azalea+ambos materiales GY; Cyber Emergency mano; propio campo sin monstruos. Con 4+ Mágicas en GY la rama puede dejar Azalea en campo, pero no se suma a esta.; expected final: (0 Mágicas GY iniciales): carta rival destruida, Azalea+ambos materiales GY; Cyber Emergency mano; propio campo sin monstruos. Con 4+ Mágicas en GY la rama puede dejar Azalea en campo, pero no se suma a esta.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/18448.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Jormungardr: Vimana con dos materiales para negar** ? `684:A09:JORMUNGARDR:VIMANA16:PRACTICA_V06`, `684:A09:JORMUNGARDR:VIMANA16`
+- Route type: CONTINUACION
+- Purpose: Crear Vimana Máquina Rango 5 y negar una activación de monstruo desacoplando dos materiales
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Crear Vimana Máquina Rango 5 y negar una activación de monstruo desacoplando dos materiales» sin saltar pasos?; first action: Requisitos: rival controla monstruo; Jormungardr en mano, Cyber Dragon original disponible en Deck; Vimana en Extra.; last action: Final: Vimana con 2 materiales; ante activación de efecto de monstruo rival puede desacoplar los 2 y negar esa ACTIVACIÓN. No destruye monstruo automáticamente, no niega M/T, no activa su otro efecto sin Xyz/Chronomaly en GY. Nova/Infinity es alternativa, no t; expected final: Vimana con 2 materiales; ante activación de efecto de monstruo rival puede desacoplar los 2 y negar esa ACTIVACIÓN. No destruye monstruo automáticamente, no niega M/T, no activa su otro efecto sin Xyz/Chronomaly en GY. Nova/Infinity es alternativa, no tablero acumulable.
+- Check before play: ¿El rival controla monstruo si lo exige Cyber Dragon y sigue libre de bloqueos Máquina?; Power Bond altera el ATK y genera daño en End Phase según la ganancia; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Ash a Core y restricción de Máquina previa a una Link Guerrero; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/21163.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16233.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:684:PRIMERO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Core + búsqueda disponible
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Usar Core para obtener Emergency u otra Cyber según pieza faltante; conservar Normal.
+- Riesgo y respuesta: No activar ambos efectos de Core si el texto lo impide.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:684:SEGUNDO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Clockwork Night activa y rival controla Máquinas
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Comparar contacto Fortress con Nova/Infinity según amenaza.
+- Riesgo y respuesta: Contact Fusion no es destrucción.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:684:RESPUESTA_RIVAL`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Imperm sobre Core
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Conservar cuerpo Máquina e intentar Wurm solo si existe recurso real.
+- Riesgo y respuesta: No registrar mágica buscada si negaron Core.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:684:RECURSOS`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Wurm puede enviar Cyber Dragon al GY
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Planificar reanimación y segundo Nivel5 antes de Nova.
+- Riesgo y respuesta: Un único Nivel5 no permite Nova.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:684:MANO_IRREGULAR`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Nova disponible y ruta a Infinity
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Priorizar Infinity si se necesita negación; Overflow puede retirar carta de forma distinta.
+- Riesgo y respuesta: No consumir material sin calcular siguiente turno.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:684:HABILIDAD_O_CONTINUIDAD`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Overflow preparada y Cyber Dragon elegible
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Contar Niveles distintos de los Cyber desterrados, no copias totales.
+- Riesgo y respuesta: No declarar dos destrucciones por un único Nivel2.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:684:TURNO_TARDIO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Turno de recuperación tras perder Infinity
+- Cartas relevantes: cid: 10866; nombre: Cyber Dragon Core; cid: 8428; nombre: Cyber Emergency; cid: 21164; nombre: Cyberdark Wurm; cid: 6390; nombre: Cyber Dragon; cid: 7403; nombre: Chimeratech Fortress Dragon
+- Linea preferida condicionada: Usar Nachster/Revsystem si están disponibles y los límites lo permiten.
+- Riesgo y respuesta: No reanimar objetivos que nunca fueron invocados correctamente desde Extra.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Overload Fusion: construir Rampage y presión de combate** ? `684:A09:OVERLOAD:RAMPAGE01`
+- Purpose: Ofensivo
+- Format: tcg
+- Final state text: Campo final propio al acabar Main Phase: Rampage boca arriba, 2100 ATK/1600 DEF, habilitado para 3 ataques este turno; Overload en GY, Cyber Dragon y Nachster en GY, Core y Herz desterrados. Resto de mano no definido. No hay negaciones ni protecciones inherentes garantizadas.
+- Last action: En Main Phase, activar el otro efecto de Rampage (una vez por turno) para enviar Cyber Dragon y Cyber Dragon Nachster desde Deck al GY al resolver.
+- Last detail: Chimeratech Rampage Dragon (Konami ID 11764) ACTIVAR → Cyber Dragon ENVIAR → Cyber Dragon Nachster ENVIAR En Main Phase, activar el otro efecto de Rampage (una vez por turno) para enviar Cyber Dragon y Cyber Dragon Nachster desde Deck al GY al resolver. *Recurso / restricción:* Si ambos se envían, Rampage gana 2 ataques adicionales durante cada Battle Phase de este turno: hasta 3 ataques en total. No declarar ataques antes de la Battle Phase ni daño sin objetivos/campo adversario definido.
+- Image assets: name: Overload Fusion; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6783.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Chimeratech Rampage Dragon (Konami ID 11764); image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg; name: Cyber Dragon Nachster; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Claw/Reino/Power Bond: acceso alternativo a Rampage** ? `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01`
+- Purpose: Ofensivo
+- Format: tcg
+- Final state text: Endboard antes de End Phase: Rampage ATK 4200 / DEF 1600, habilitado para dos ataques solo en Battle Phase de este turno; Chimera ATK 800 como segundo monstruo; Cyberdark Realm continua boca arriba. Mano final de esta apertura: Cyber Emergency + Cyber Dragon original recuperado. GY: Claw, Ciclón del Cosmos, Core, Power Bond y Herz (más otros recursos únicamente si ya existían, que aquí no); destierro: vacío; Normal ordinaria gastada y Normal adicional de Realm gastada. Al finalizar el turno, 2100 LP propios perdidos y expiró la bonificación de ataque adicional de Rampage; no afirmar 8400 LP de daño al rival sin Battle Phase y ataques exitosos.
+- Last action: End Phase de este mismo turno: por el efecto ya resuelto de Power Bond el jugador recibe 2100 LP de daño propio, cifra igual al ATK que recibió Rampage al Invocarse.
+- Last detail: Power Bond ESTADO / CONTEXTO → Chimeratech Rampage Dragon (Konami ID 11764) ESTADO / CONTEXTO End Phase de este mismo turno: por el efecto ya resuelto de Power Bond el jugador recibe 2100 LP de daño propio, cifra igual al ATK que recibió Rampage al Invocarse. Este daño no es daño al rival y no depende de que se haya declarado algún ataque; si se termina el turno con LP insuficientes puede perderse el Duelo. No se declaró ataque ni se presupuso campo rival vacío para generar OTK. *Recurso / restricción:* Este daño no es daño al rival y no depende de que se haya declarado algún ataque; si se termina el turno con LP insuficientes puede perderse el Duelo. No se declaró ataque ni se presupuso campo rival vacío para generar OTK.
+- Image assets: name: Cyberdark Realm; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16298.jpg; name: Cyberdark Chimera; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16296.jpg; name: Power Bond; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; name: Cyber Dragon Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Cyber Emergency; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Chimeratech Rampage Dragon (Konami ID 11764); image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Clockwork Night: retirar Máquinas con Fortress** ? `684:A09:CLOCKWORK:FORTRESS01`
+- Purpose: Romper campo
+- Format: tcg
+- Final state text: Tablero final: propio Fortress (ATK original 2000), Clockwork Night continua boca arriba, Cyber Emergency en mano; GY propio Core, GY rival su monstruo enviado. Clockwork Night no añade 500 ATK a Fortress de forma original: mientras siga boca arriba, concede 500 ATK continuo, por lo que el ATK actual de Fortress es 2500. Se exige indicar ambos valores por separado. No se garantiza OTK ni destruir/desterrar todo un Campo adversario.
+- Last action: En Main Phase, aplicar el procedimiento de Chimeratech Fortress Dragon: enviar al GY Core propio (nombre Cyber Dragon en Campo) y el monstruo rival que Clockwork Night vuelve Máquina.
+- Last detail: Chimeratech Fortress Dragon ESTADO / CONTEXTO → Cyber Dragon ENVIAR → Clockwork Night ENVIAR En Main Phase, aplicar el procedimiento de Chimeratech Fortress Dragon: enviar al GY Core propio (nombre Cyber Dragon en Campo) y el monstruo rival que Clockwork Night vuelve Máquina. Invocar Fortress desde el Extra. *Recurso / restricción:* Invocar Fortress desde el Extra. Son exactamente 2 materiales; Fortress queda en nuestra Zona de Monstruos. No se usa efecto que seleccione objetivo ni una Fusión con carta mágica.
+- Image assets: name: Clockwork Night; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; name: Cyber Dragon Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Cyber Emergency; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; name: Chimeratech Fortress Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/7403.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Cyber Dragon: usar Megafleet contra material en zona elegible** ? `684:A09:MEGAFLEET:CYBER01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard sin respuesta: Megafleet Megafleet boca arriba, ATK original y actual 2400 = 1200 × 2 materiales (si no hay modificadores adicionales); Cyber Dragon en GY propio; monstruo rival de Zona Extra en GY rival; mano inicial consumida, Normal libre, sin destierros/daño causado ni negación inherente. En ausencia de cartas adicionales no se acredita ataque letal ni más Invocaciones. Principal vulnerabilidad: si desaparece el monstruo de Zona Extra antes del procedimiento, esta línea mínima ya no puede usarlo. No suponer inmunidades ni saltarse impedimentos que prohíban enviar cartas al GY. Valor táctico: retirar una pieza rival del Extra sin utilizar una carta de Fusión; conservar la Normal para el siguiente starter si existe.
+- Last action: En Main Phase, realizar la Invocación Especial por procedimiento de contacto de Megafleet Chimeratech Megafleet Dragon desde Extra, enviando al GY Cyber Dragon propio y el monstruo rival que estaba en Zona de Monstruos Extra como sus dos materiales.
+- Last detail: Chimeratech Megafleet Dragon ESPECIAL → Cyber Dragon ENVIAR En Main Phase, realizar la Invocación Especial por procedimiento de contacto de Megafleet Chimeratech Megafleet Dragon desde Extra, enviando al GY Cyber Dragon propio y el monstruo rival que estaba en Zona de Monstruos Extra como sus dos materiales. *Recurso / restricción:* Cyber Dragon sale del Campo al GY propio; el monstruo rival va a su GY. Megafleet entra a Zona propia legal desde Extra en Ataque. No activar Polymerization, no seleccionar objetivo por efecto, no tratar el envío como destrucción. Este procedimiento de Invocación no inicia Cadena.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Chimeratech Megafleet Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13358.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Core: variante para preparar Megafleet** ? `684:A09:MEGAFLEET:CORE01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard demostrado: Megafleet 2400 ATK, Cyber Emergency en mano, Core en GY, Normal gastada; 0 daño garantizado, 0 negaciones inherentes. El efecto de Core de buscar en su Invocación Normal sí fue utilizado; no atribuirle un segundo efecto activado el mismo turno. Si la búsqueda se niega, el desenlace con Emergency en mano deja de estar demostrado, aunque Core siga contando como Cyber Dragon en Campo y el procedimiento Megafleet pueda volver a evaluarse con los materiales; esa rama pertenece a A12–A13. La modalidad CYBER01 conserva Normal; esta modalidad CORE01 cambia recursos y exposición a respuestas, así que no fusionar sus fichas. Siguiente acción: producir sus dos vistas A10 por separado y verificar respuestas sobre cada momento. Fuentes Core (CID 10866) y Megafleet (CID 13358).;; NO PARA IMPORTAR.
+- Last action: En Main Phase, realizar el procedimiento propio de Megafleet: enviar Core propio desde Campo al GY y el monstruo rival en Zona Extra desde Campo a su GY, Invocando Megafleet desde Extra.
+- Last detail: Chimeratech Megafleet Dragon ENVIAR → Cyber Emergency YA EN CAMPO → Clockwork Night ACTIVAR En Main Phase, realizar el procedimiento propio de Megafleet: enviar Core propio desde Campo al GY y el monstruo rival en Zona Extra desde Campo a su GY, Invocando Megafleet desde Extra. *Recurso / restricción:* Megafleet en Campo en Ataque, 2400 ATK con 2 materiales; Core en GY propio, el material rival en su GY; Cyber Emergency permanece en mano. No se activa Fusión, no se destruye el monstruo, no se usa Clockwork Night.
+- Image assets: name: Cyber Dragon Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Cyber Emergency; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; name: Chimeratech Megafleet Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13358.jpg; name: Clockwork Night; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Revolution/Herz: reunir Nivel 5 para Nova/Infinity** ? `684:A09:REV:HERZ:NOVA:INFINITY01`
+- Purpose: Negadores (si su efecto está disponible)
+- Format: tcg
+- Final state text: Estado final al acabar la Main Phase: Infinity Cyber Dragon Infinity 2700 ATK actual, 3 materiales (Nova, Cyber Dragon, Herz); Cyber Revsystem en GY; mano inicial consumida; Normal disponible; sin destrucciones ni daño rival garantizados. Infinity tiene una negación de activación de carta/efecto por turno (Quick Effect) que exige desacoplar 1 material al activarse; al pagar ese coste quedarán 2 materiales y 2500 ATK actuales si no se aplican otros modificadores. Esta interrupción es potencial hasta que el rival active algo legalmente respondible, no una negación ya efectuada. Riesgo: un efecto que impida Invocar Máquina, mover Herz del GY antes de Revsystem, negar su cambio de Nivel o impedir la Xyz invalida la continuación. La resistencia a destrucción que Revsystem concedió a Herz no se transfiere automáticamente a Infinity tras usar He
+- Last action: Aplicar el procedimiento alternativo de Xyz de Cyber Dragon Infinity usando Nova propia como material (una vez este turno).
+- Last detail: Cyber Dragon ESTADO / CONTEXTO → Cyber Dragon Infinity (Konami ID 11765) YA EN CAMPO → Cyber Dragon Nova (Konami ID 10870) MATERIAL XYZ Aplicar el procedimiento alternativo de Xyz de Cyber Dragon Infinity usando Nova propia como material (una vez este turno). *Recurso / restricción:* Infinity Rango 6 en Campo. Conserva como materiales a Nova y los dos materiales que Nova tenía, 3 materiales en total. ATK: 2100 base + (3 × 200) = 2700 actual. No declarar que Nova siga en Zona de Monstruos.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Cyber Revsystem; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13770.jpg; name: Cyber Dragon Nova (Konami ID 10870); image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10870.jpg; name: Cyber Dragon Infinity (Konami ID 11765); image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11765.jpg; name: Cyber Dragon Herz; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Overload y Cyberload: secuencia de Fusiones por recursos** ? `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01`
+- Purpose: Ofensivo
+- Format: tcg
+- Final state text: Endboard de Main Phase: dos Rampage A/B en Campo, 2100 ATK cada uno. Solo B puede atacar en lo restante del turno por Cyberload, con hasta 2 ataques de B si las reglas de batalla y sus objetivos lo permiten. Mano: 1× Cyber Dragon original recuperado. GY: Overload, Cyberload, Cyber Dragon Nachster y Herz; destierro: vacío, porque Core/Herz retornaron al Deck; Core queda barajado en Deck y no vuelve al GY; Normal libre. Daño garantizado al oponente: 0; no sumar ataques de A después de activar Cyberload, no afirmar OTK ni destrucción sin objetivos. Esta secuencia exige un GY ya preparado, y sus 2 cartas de mano no bastan por sí solas desde campo/recursos vacíos.
+- Last action: Tras concluir la cadena anterior, activar el efecto de Herz por haber sido enviada al GY, añadiendo Cyber Dragon original del GY a mano.
+- Last detail: Cyber Dragon AÑADIR A MANO → Chimeratech Rampage Dragon (Konami ID 11764) ESTADO / CONTEXTO Tras concluir la cadena anterior, activar el efecto de Herz por haber sido enviada al GY, añadiendo Cyber Dragon original del GY a mano. *Recurso / restricción:* Cyber Dragon original es una carta diferente a Herz y está legalmente en GY desde paso 2. No mover a la mano el segundo Rampage ni suponer cartas adicionales.
+- Image assets: name: Overload Fusion; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6783.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Chimeratech Rampage Dragon (Konami ID 11764); image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/11764.jpg; name: Cyber Dragon Nachster; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; name: Cyberload Fusion; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13849.jpg; name: Cyber Dragon Herz; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Nachster: preparar Sieger para ampliar ofensiva** ? `684:A09:NACHSTER:SIEGER01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard al finalizar Main Phase: 1× Sieger ATK 2100; Cyber Dragon original y Nachster en GY, mano inicial vacía, destierro vacío, Normal sin gastar; 0 negaciones y 0 daño garantizados. Si durante la Battle Phase se activa el paso 4, el estado temporal de Sieger es ATK 4200, regresando a 2100 al acabar el turno; en una Battle Phase rival también podría usarse en ventana legal si Sieger permanece y cumple la condición. Restricción vigente de Nachster: únicamente futuras Invocaciones Especiales de Máquina hasta finalizar el turno en que se activó. Riesgos: si se niega o retira Nachster antes de la reanimación, o desaparece Cyber Dragon del GY, no se obtienen ambos materiales. No se da por disponible ninguna otra Máquina no registrada.
+- Last action: Sólo durante una Battle Phase y si Sieger no declaró un ataque, se puede activar su Efecto Rápido y seleccionar al propio Sieger (Máquina con 2100 ATK) para darle +2100 ATK/DEF hasta fin de turno.
+- Last detail: Cyber Dragon Sieger OBJETIVO Sólo durante una Battle Phase y si Sieger no declaró un ataque, se puede activar su Efecto Rápido y seleccionar al propio Sieger (Máquina con 2100 ATK) para darle +2100 ATK/DEF hasta fin de turno. *Recurso / restricción:* Sieger pasa temporalmente a 4200 ATK, útil para destruir por batalla un monstruo elegible con ATK menor. Ningún jugador recibe daño de batalla de ataques que involucren al monstruo fortalecido. En Main Phase el efecto no está disponible; no adjudicar daño de batalla.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Cyber Dragon Nachster; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; name: Cyber Dragon Sieger; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13758.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Power Bond + Nachster: Heosvarog ante Mágicas/Trampas** ? `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`
+- Purpose: Invocar Heosvarog y preservar materiales en GY para negar una activación de M/T
+- Format: tcg
+- Final state text: Heosvarog boca arriba en Defensa (ATK 0/DEF 2800), Normal libre; Power Bond y dos materiales en GY hasta uso posterior. Power Bond produjo incremento ATK 0 y daño de End Phase 0 en este escenario.
+- Last action: Endboard
+- Last detail: Heosvarog DEF 2800; ATK 0; Normal sin usar. En GY: Power Bond + los dos materiales hasta que se gasten. Ganancia de Power Bond = 0 ATK, daño de End Phase por esa ganancia = 0. Guía completa con respuestas, ventanas y fuente Konami: guias_a10/DECK_684_HEOSVAROG_POWERBOND_NEGADOR_GUIA.md.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Nachster; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; name: Power Bond; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; name: Heosvarog; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/20511.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Power Bond: Cyber Eternity para presión de ataque** ? `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`
+- Purpose: Invocar Cyber Eternity con 5600 ATK y anticipar daño propio de Power Bond en End Phase
+- Format: tcg
+- Final state text: Cyber Eternity Dragon ATK 5600/DEF 4000, Cyber Dragon original en mano; Herz, Nachster y Power Bond en GY. No asumir protección de Eternity sin Fusión Máquina en GY. Daño eventual Power Bond: 2800 en End Phase si no se previene.
+- Last action: Endboard y precaución de vida
+- Last detail: Cyber Eternity Dragon ATK 5600 / DEF 4000, Cyber Dragon original en mano; Herz, Nachster y Power Bond en GY. Sin protección propia de Eternity todavía (no hay Monstruo de Fusión Máquina en GY). Recibirás 2800 de daño en End Phase por Power Bond si nada lo evita, aunque Eternity deje el Campo. Guía completa con decisión entre Eternity, Rampage y Heosvarog: guias_a10/DECK_684_ETERNITY_POWERBOND_PRESION_GUIA.md.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Herz; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13723.jpg; name: Nachster; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14047.jpg; name: Power Bond; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6398.jpg; name: Cyber Eternity Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13847.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Cyber Dragon + Core: S:P para respuesta defensiva** ? `684:A09:CYBER:CORE:SP_DEFENSA11`
+- Purpose: Conservar destierro temporal de S:P durante respuesta rival; no adjudicar primer destierro al invocar
+- Format: tcg
+- Final state text: S:P Little Knight en campo y Cyber Emergency en mano, Cyber Dragon y Core en GY, Normal consumida. Respuesta rápida de S:P solo con activación rival y dos monstruos boca arriba elegibles; destierro temporal, no negación.
+- Last action: Endboard y ventana rival.
+- Last detail: S:P Little Knight CAMPO + Cyber Emergency MANO. Si el rival activa una carta o efecto y existen dos monstruos boca arriba seleccionables (uno propio), S:P puede desterrar temporalmente a sí misma y al monstruo rival hasta End Phase. No es negación. La Normal está gastada; Cyber Dragon y Core están en GY. Guía técnica comprobada: guias_a10/DECK_684_CYBER_CORE_SP_DEFENSA_GUIA.md. Alternativa: conservar los cuerpos para rutas Nova/Fusiones si el objetivo requiere materiales Máquina; S:P es Guerrero.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Cyber Dragon Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Cyber Emergency; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; name: S:P Little Knight; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/19188.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Cyber Dragon + Core: Genius y protección de Clockwork** ? `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`
+- Purpose: Acceder a enlace Máquina usando dos cuerpos y decidir si compensa conservar Clockwork Night
+- Format: tcg
+- Final state text: Genius 1800, Clockwork Night boca arriba negada, Cyber Emergency en mano, Cyber Dragon/Core en GY. Sin objetivo propio, no hay negación; no es Efecto Rápido. Guía individual con respuesta a interrupciones, fuentes y comparación con Fortress/S:P: guias_a10/DECK_684_CLOCKWORK_CORE_GENIUS_NEGACION_GUIA.md.
+- Last action: Genius selecciona una carta boca arriba en cada campo.
+- Last detail: Qliphort Genius → Clockwork Night PROPIA + MONSTRUO RIVAL: ambos efectos negados hasta fin de turno. Clockwork Night deja de convertir Tipos y modificar ATK ese turno. Endboard: Genius 1800, Clockwork Night boca arriba negada, Cyber Emergency en mano, Cyber Dragon/Core en GY. Sin objetivo propio, no hay negación; no es Efecto Rápido. Guía individual con respuesta a interrupciones, fuentes y comparación con Fortress/S:P: guias_a10/DECK_684_CLOCKWORK_CORE_GENIUS_NEGACION_GUIA.md.
+- Image assets: name: Clockwork Night; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Cyber Dragon Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Cyber Emergency; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/8428.jpg; name: Qliphort Genius; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/13502.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Core + Clockwork Night: buscar segunda Night** ? `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13`
+- Purpose: Enviar la Night activa como coste y recuperar una copia de Deck para preparar turno posterior
+- Format: tcg
+- Final state text: Knight 500 ATK, Cyber Emergency + segunda Night en mano, Core y primera Night GY, Normal gastada. No activar otra Clockwork Night ese turno (solo una activación por turno). Knight NO revive Core con este campo: necesita otra Máquina propia que Sacrificar.
+- Last action: Campo final: Knight 500 ATK, Cyber Emergency + segunda Night en mano, Core y primera Night GY, Normal gastada. No activar otra Clockwork Night ese turno (solo una activación por turno). Knight NO revive Core con este campo: necesita otra Máquina propia que Sac
+- Last detail: Campo final: Knight 500 ATK, Cyber Emergency + segunda Night en mano, Core y primera Night GY, Normal gastada. No activar otra Clockwork Night ese turno (solo una activación por turno). Knight NO revive Core con este campo: necesita otra Máquina propia que Sacrificar.
+- Image assets: name: Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Night; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; name: Clockwork Knight; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/20787.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Cyber Dragon + Horn: proteger Clockwork Night ya activa** ? `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`
+- Purpose: Invocar Barricadeborg Blocker para proteger Night de destrucción por efecto, no de otras retiradas
+- Format: tcg
+- Final state text: Blocker 1500 ATK bajo Night (+500), Night protegida frente a destrucción por efectos del adversario, dos materiales GY, Normal gastada. No negar ni proteger contra destierro/retorno; el descarte y la recuperación End Phase NO se activan automáticamente.
+- Last action: Campo final: Blocker 1500 ATK bajo Night (+500), Night protegida frente a destrucción por efectos del adversario, dos materiales GY, Normal gastada. No negar ni proteger contra destierro/retorno; el descarte y la recuperación End Phase NO se activan automática
+- Last detail: Campo final: Blocker 1500 ATK bajo Night (+500), Night protegida frente a destrucción por efectos del adversario, dos materiales GY, Normal gastada. No negar ni proteger contra destierro/retorno; el descarte y la recuperación End Phase NO se activan automáticamente.
+- Image assets: name: Clockwork Night; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/17625.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Horn; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6830.jpg; name: Barricadeborg Blocker; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/14710.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Cyber Dragon + Core: Azalea para destruir una carta** ? `684:A09:CYBER:CORE:AZALEA15`
+- Purpose: Usar dos LUZ y destruir un objetivo rival; Azalea puede acabar en GY según Mágicas disponibles
+- Format: tcg
+- Final state text: (0 Mágicas GY iniciales): carta rival destruida, Azalea+ambos materiales GY; Cyber Emergency mano; propio campo sin monstruos. Con 4+ Mágicas en GY la rama puede dejar Azalea en campo, pero no se suma a esta.
+- Last action: Final base (0 Mágicas GY iniciales): carta rival destruida, Azalea+ambos materiales GY; Cyber Emergency mano; propio campo sin monstruos. Con 4+ Mágicas en GY la rama puede dejar Azalea en campo, pero no se suma a esta.
+- Last detail: Final base (0 Mágicas GY iniciales): carta rival destruida, Azalea+ambos materiales GY; Cyber Emergency mano; propio campo sin monstruos. Con 4+ Mágicas en GY la rama puede dejar Azalea en campo, pero no se suma a esta.
+- Image assets: name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Core; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/10866.jpg; name: Azalea; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/18448.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Jormungardr: Vimana con dos materiales para negar** ? `684:A09:JORMUNGARDR:VIMANA16`
+- Purpose: Crear Vimana Máquina Rango 5 y negar una activación de monstruo desacoplando dos materiales
+- Format: tcg
+- Final state text: Vimana con 2 materiales; ante activación de efecto de monstruo rival puede desacoplar los 2 y negar esa ACTIVACIÓN. No destruye monstruo automáticamente, no niega M/T, no activa su otro efecto sin Xyz/Chronomaly en GY. Nova/Infinity es alternativa, no tablero acumulable.
+- Last action: Final: Vimana con 2 materiales; ante activación de efecto de monstruo rival puede desacoplar los 2 y negar esa ACTIVACIÓN. No destruye monstruo automáticamente, no niega M/T, no activa su otro efecto sin Xyz/Chronomaly en GY. Nova/Infinity es alternativa, no t
+- Last detail: Final: Vimana con 2 materiales; ante activación de efecto de monstruo rival puede desacoplar los 2 y negar esa ACTIVACIÓN. No destruye monstruo automáticamente, no niega M/T, no activa su otro efecto sin Xyz/Chronomaly en GY. Nova/Infinity es alternativa, no tablero acumulable.
+- Image assets: name: Jormungardr; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/21163.jpg; name: Cyber Dragon; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/6390.jpg; name: Vimana; image: decks/DECK_684_CYBER_DRAGON_PURE/imagenes/tcg/16233.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.

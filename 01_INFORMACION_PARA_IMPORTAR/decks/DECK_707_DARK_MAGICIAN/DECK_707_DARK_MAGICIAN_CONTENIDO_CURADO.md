@@ -895,283 +895,383 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **707:COBERTURA:EXTRA:19995:E05:ESCENARIO ? Gaia el Campeón Dragón Rápido**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:EXTRA:19995:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:EXTRA:19995"` |
-| `cid` | `19995` |
-| `card_name` | `"Gaia el Campeón Dragón Rápido"` |
-| `zone` | `"extra"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/19995.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.."` |
-| `scenario` | `{"initial_condition":"Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..","action":"Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente","expected_outcome":"Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","skill_gate":"La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..","blocked_as_access":true}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_SIN_ACCESO_ACREDITADO"` |
-| `acceptance` | `{"given":"Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..","when":"Se intenta Invocar Gaia el Campeón Dragón Rápido del Extra sin demostrar materiales","then":"Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:EXTRA:19995:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:EXTRA:19995
+- **cid:** 19995
+- **card name:** Gaia el Campeón Dragón Rápido
+- **zone:** extra
+- **quantity:** 3
+- **image:** imagenes/rush/19995.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre..
+- **scenario:**
+  - **initial condition:** Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..
+  - **action:** Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente
+  - **expected outcome:** Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **skill gate:** La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+  - **blocked as access:** Si
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_SIN_ACCESO_ACREDITADO
+- **acceptance:**
+  - **given:** Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio..
+  - **when:** Se intenta Invocar Gaia el Campeón Dragón Rápido del Extra sin demostrar materiales
+  - **then:** Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:EXTRA:18298:E05:ESCENARIO ? Gaia el Campeón Dragón**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:EXTRA:18298:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:EXTRA:18298"` |
-| `cid` | `18298` |
-| `card_name` | `"Gaia el Campeón Dragón"` |
-| `zone` | `"extra"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/18298.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.."` |
-| `scenario` | `{"initial_condition":"Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..","action":"Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente","expected_outcome":"Monstruo Fusión sin efecto activado..","risk_and_counterexample":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","skill_gate":"La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..","blocked_as_access":true}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_SIN_ACCESO_ACREDITADO"` |
-| `acceptance` | `{"given":"Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..","when":"Se intenta Invocar Gaia el Campeón Dragón del Extra sin demostrar materiales","then":"Monstruo Fusión sin efecto activado..","negative_test":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:EXTRA:18298:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:EXTRA:18298
+- **cid:** 18298
+- **card name:** Gaia el Campeón Dragón
+- **zone:** extra
+- **quantity:** 3
+- **image:** imagenes/rush/18298.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre..
+- **scenario:**
+  - **initial condition:** Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..
+  - **action:** Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente
+  - **expected outcome:** Monstruo Fusión sin efecto activado..
+  - **risk and counterexample:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **skill gate:** La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+  - **blocked as access:** Si
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_SIN_ACCESO_ACREDITADO
+- **acceptance:**
+  - **given:** Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón..
+  - **when:** Se intenta Invocar Gaia el Campeón Dragón del Extra sin demostrar materiales
+  - **then:** Monstruo Fusión sin efecto activado..
+  - **negative test:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:EXTRA:19323:E05:ESCENARIO ? Gaia, el Conquistador de Campeones**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:EXTRA:19323:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:EXTRA:19323"` |
-| `cid` | `19323` |
-| `card_name` | `"Gaia, el Conquistador de Campeones"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/19323.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.."` |
-| `scenario` | `{"initial_condition":"Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico..","action":"Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente","expected_outcome":"Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","skill_gate":"La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..","blocked_as_access":true}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo d», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_SIN_ACCESO_ACREDITADO"` |
-| `acceptance` | `{"given":"Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico..","when":"Se intenta Invocar Gaia, el Conquistador de Campeones del Extra sin demostrar materiales","then":"Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:EXTRA:19323:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:EXTRA:19323
+- **cid:** 19323
+- **card name:** Gaia, el Conquistador de Campeones
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/rush/19323.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre..
+- **scenario:**
+  - **initial condition:** Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico..
+  - **action:** Verificar material o procedimiento de Invocación; no activar una Fusión/Xyz/Sincro inexistente
+  - **expected outcome:** Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **skill gate:** La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+  - **blocked as access:** Si
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo d», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_SIN_ACCESO_ACREDITADO
+- **acceptance:**
+  - **given:** Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico..
+  - **when:** Se intenta Invocar Gaia, el Conquistador de Campeones del Extra sin demostrar materiales
+  - **then:** Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución. el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival. las tres Fusiones Gaia del Extra mencionan materiales que no aparecen completos en el Main fotografiado; NO asumir Invocación ejecutable..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:16772:E05:ESCENARIO ? Distribuidor Maravilloso**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:16772:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:16772"` |
-| `cid` | `16772` |
-| `card_name` | `"Distribuidor Maravilloso"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/16772.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Efecto — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Tener hasta tres monstruos en el Cementerio y pagar 300 LP..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Enviar tres cartas de la mano al Cementerio y robar tres cartas..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"**ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Tener hasta tres monstruos en el Cementerio y pagar 300 LP..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Tener hasta tres monstruos en el Cementerio y pagar 300 LP..","when":"Se intenta la acción de Distribuidor Maravilloso","then":"Enviar tres cartas de la mano al Cementerio y robar tres cartas..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:16772:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:16772
+- **cid:** 16772
+- **card name:** Distribuidor Maravilloso
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/16772.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Efecto — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Tener hasta tres monstruos en el Cementerio y pagar 300 LP..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Enviar tres cartas de la mano al Cementerio y robar tres cartas..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** **ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Tener hasta tres monstruos en el Cementerio y pagar 300 LP..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Tener hasta tres monstruos en el Cementerio y pagar 300 LP..
+  - **when:** Se intenta la acción de Distribuidor Maravilloso
+  - **then:** Enviar tres cartas de la mano al Cementerio y robar tres cartas..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución. disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:18685:E05:ESCENARIO ? Maga Legendaria**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:18685:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:18685"` |
-| `cid` | `18685` |
-| `card_name` | `"Maga Legendaria"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/rush/18685.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Efecto — monstruo de apoyo/material o recurso de Sacrificio.."` |
-| `scenario` | `{"initial_condition":"No tiene requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio..","risk_and_counterexample":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..","skill_gate":"**ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «No tiene requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"No tiene requisito de activación..","when":"Se intenta la acción de Maga Legendaria","then":"Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio..","negative_test":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:18685:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:18685
+- **cid:** 18685
+- **card name:** Maga Legendaria
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/rush/18685.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Efecto — monstruo de apoyo/material o recurso de Sacrificio..
+- **scenario:**
+  - **initial condition:** No tiene requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio..
+  - **risk and counterexample:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..
+  - **skill gate:** **ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «No tiene requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** No tiene requisito de activación..
+  - **when:** Se intenta la acción de Maga Legendaria
+  - **then:** Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio..
+  - **negative test:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:17209:E05:ESCENARIO ? Ráfaga de Resonancia Oscura**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:17209:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:17209"` |
-| `cid` | `17209` |
-| `card_name` | `"Ráfaga de Resonancia Oscura"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/17209.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — presión de combate / modificación de estadísticas.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"**ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Ráfaga de Resonancia Oscura","then":"Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:17209:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:17209
+- **cid:** 17209
+- **card name:** Ráfaga de Resonancia Oscura
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/17209.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — presión de combate / modificación de estadísticas..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** **ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Ráfaga de Resonancia Oscura
+  - **then:** Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:20151:E05:ESCENARIO ? Brillo Sombrío**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:20151:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:20151"` |
-| `cid` | `20151` |
-| `card_name` | `"Brillo Sombrío"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/rush/20151.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..","risk_and_counterexample":"pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"**ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..","when":"Se intenta la acción de Brillo Sombrío","then":"Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..","negative_test":"pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:20151:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:20151
+- **cid:** 20151
+- **card name:** Brillo Sombrío
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/rush/20151.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..
+  - **risk and counterexample:** pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **skill gate:** **ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio..
+  - **when:** Se intenta la acción de Brillo Sombrío
+  - **then:** Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP..
+  - **negative test:** pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:19341:E05:ESCENARIO ? ¡Equitación Lindasesina!**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:19341:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:19341"` |
-| `cid` | `19341` |
-| `card_name` | `"¡Equitación Lindasesina!"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/19341.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — extensor / habilitador de material.."` |
-| `scenario` | `{"initial_condition":"Cuando el rival Invoca boca arriba un monstruo de Efecto..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"**ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Cuando el rival Invoca boca arriba un monstruo de Efecto..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Cuando el rival Invoca boca arriba un monstruo de Efecto..","when":"Se intenta la acción de ¡Equitación Lindasesina!","then":"Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:19341:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:19341
+- **cid:** 19341
+- **card name:** ¡Equitación Lindasesina!
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/19341.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — extensor / habilitador de material..
+- **scenario:**
+  - **initial condition:** Cuando el rival Invoca boca arriba un monstruo de Efecto..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** **ILLUSION OF EXECUTION** permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Cuando el rival Invoca boca arriba un monstruo de Efecto..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Cuando el rival Invoca boca arriba un monstruo de Efecto..
+  - **when:** Se intenta la acción de ¡Equitación Lindasesina!
+  - **then:** Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:16372:E05:ESCENARIO ? Olla de la Codicia**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:16372:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:16372"` |
-| `cid` | `16372` |
-| `card_name` | `"Olla de la Codicia"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/16372.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba dos cartas..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Olla de la Codicia","then":"Roba dos cartas..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:16372:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:16372
+- **cid:** 16372
+- **card name:** Olla de la Codicia
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/16372.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Roba dos cartas..
+  - **risk and counterexample:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Olla de la Codicia
+  - **then:** Roba dos cartas..
+  - **negative test:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **707:COBERTURA:MAIN:21007:E05:ESCENARIO ? Maldición de la Luz Ascendente**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"707:COBERTURA:MAIN:21007:E05:ESCENARIO"` |
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `case_id` | `"707:COBERTURA:MAIN:21007"` |
-| `cid` | `21007` |
-| `card_name` | `"Maldición de la Luz Ascendente"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/21007.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_707_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"El rival debe tener una o ninguna carta en mano..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «El rival debe tener una o ninguna carta en mano..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"El rival debe tener una o ninguna carta en mano..","when":"Se intenta la acción de Maldición de la Luz Ascendente","then":"Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 707:COBERTURA:MAIN:21007:E05:ESCENARIO
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **case id:** 707:COBERTURA:MAIN:21007
+- **cid:** 21007
+- **card name:** Maldición de la Luz Ascendente
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/21007.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_707_DARK_MAGICIAN/guias/DECK_707_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** El rival debe tener una o ninguna carta en mano..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..
+  - **risk and counterexample:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «El rival debe tener una o ninguna carta en mano..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** El rival debe tener una o ninguna carta en mano..
+  - **when:** Se intenta la acción de Maldición de la Luz Ascendente
+  - **then:** Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos..
+  - **negative test:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS A06_14_CARTAS_RUSH_REVISADAS_V27.json 707 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -1184,122 +1284,108 @@ Fuente hist?rica: `A06_14_CARTAS_RUSH_REVISADAS_V27.json`. Se preservan los camp
 
 **Registro 7**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `19773` |
-| `nombre` | `"ブラック・エグゼキューター 黒魔導の遂行者"` |
-| `zona` | `"Main"` |
-| `proposito` | `"CARGA_CEMENTERIO_Y_NOMBRE"` |
-| `explicacion` | `"Envía la carta superior del Deck al Cementerio para cambiar temporalmente su nombre a Dark Magician; reciclar 10 Mágicas del GY permite destrucción adicional si están disponibles."` |
-| `clase` | `"SINERGIA_CONDICIONAL"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 19773
+- **nombre:** ブラック・エグゼキューター 黒魔導の遂行者
+- **zona:** Main
+- **proposito:** CARGA_CEMENTERIO_Y_NOMBRE
+- **explicacion:** Envía la carta superior del Deck al Cementerio para cambiar temporalmente su nombre a Dark Magician; reciclar 10 Mágicas del GY permite destrucción adicional si están disponibles.
+- **clase:** SINERGIA_CONDICIONAL
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 8**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `20151` |
-| `nombre` | `"シャイニーシェイディー シャイニーシェイディー"` |
-| `zona` | `"Main"` |
-| `proposito` | `"DESCARTE_Y_CONTROL_POSICION"` |
-| `explicacion` | `"En turno rival tras invocación, enviar una carta de mano al Cementerio como requisito; cambia hasta dos monstruos de efecto boca arriba a Defensa boca abajo."` |
-| `clase` | `"INTERRUPCION_CON_COSTE"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 20151
+- **nombre:** シャイニーシェイディー シャイニーシェイディー
+- **zona:** Main
+- **proposito:** DESCARTE_Y_CONTROL_POSICION
+- **explicacion:** En turno rival tras invocación, enviar una carta de mano al Cementerio como requisito; cambia hasta dos monstruos de efecto boca arriba a Defensa boca abajo.
+- **clase:** INTERRUPCION_CON_COSTE
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 9**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `"Main"` |
-| `proposito` | `"ROBO_DIRECTO"` |
-| `explicacion` | `"Mágica Rush que roba dos cartas sin condición adicional en el texto; útil para consistencia."` |
-| `clase` | `"UTILIDAD_AUTONOMA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:** Main
+- **proposito:** ROBO_DIRECTO
+- **explicacion:** Mágica Rush que roba dos cartas sin condición adicional en el texto; útil para consistencia.
+- **clase:** UTILIDAD_AUTONOMA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 10**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `21007` |
-| `nombre` | `"こうこうのじゅばく 昂光の呪縛"` |
-| `zona` | `"Main"` |
-| `proposito` | `"CONTROL_POSICION_Y_ROBO"` |
-| `explicacion` | `"Requiere oponente con una carta o menos en mano; cambia la posición de un monstruo rival y en supuestos especiales ambos jugadores roban dos."` |
-| `clase` | `"UTILIDAD_SITUACIONAL"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 21007
+- **nombre:** こうこうのじゅばく 昂光の呪縛
+- **zona:** Main
+- **proposito:** CONTROL_POSICION_Y_ROBO
+- **explicacion:** Requiere oponente con una carta o menos en mano; cambia la posición de un monstruo rival y en supuestos especiales ambos jugadores roban dos.
+- **clase:** UTILIDAD_SITUACIONAL
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 11**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `19995` |
-| `nombre` | `"しっぷうのりゅうきしガイア 疾風の竜騎士ガイア"` |
-| `zona` | `"Extra"` |
-| `proposito` | `"EXTRA_SIN_MATERIALES_EN_LISTA"` |
-| `explicacion` | `"Fusión con Warrior DEF 2100 y Curse of Dragon; no aparece Curse of Dragon en el inventario Dark Magician Rush. Efecto potencial de penetración/robo si llega legalmente al campo."` |
-| `clase` | `"CERO_ACCESO_ACREDITADO_EN_LISTA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 19995
+- **nombre:** しっぷうのりゅうきしガイア 疾風の竜騎士ガイア
+- **zona:** Extra
+- **proposito:** EXTRA_SIN_MATERIALES_EN_LISTA
+- **explicacion:** Fusión con Warrior DEF 2100 y Curse of Dragon; no aparece Curse of Dragon en el inventario Dark Magician Rush. Efecto potencial de penetración/robo si llega legalmente al campo.
+- **clase:** CERO_ACCESO_ACREDITADO_EN_LISTA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 12**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `18298` |
-| `nombre` | `"りゅうきしガイア 竜騎士ガイア"` |
-| `zona` | `"Extra"` |
-| `proposito` | `"EXTRA_SIN_MATERIALES_EN_LISTA"` |
-| `explicacion` | `"Gaia the Dragon Champion exige Gaia the Fierce Knight y Curse of Dragon; ambos ausentes del inventario actual. Monstruo de material de Fusión, sin efecto activable."` |
-| `clase` | `"CERO_ACCESO_ACREDITADO_EN_LISTA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 18298
+- **nombre:** りゅうきしガイア 竜騎士ガイア
+- **zona:** Extra
+- **proposito:** EXTRA_SIN_MATERIALES_EN_LISTA
+- **explicacion:** Gaia the Dragon Champion exige Gaia the Fierce Knight y Curse of Dragon; ambos ausentes del inventario actual. Monstruo de material de Fusión, sin efecto activable.
+- **clase:** CERO_ACCESO_ACREDITADO_EN_LISTA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 **Registro 13**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `cid` | `19323` |
-| `nombre` | `"ひゃくせんのはしゃガイア 百戦の覇者ガイア"` |
-| `zona` | `"Extra"` |
-| `proposito` | `"EXTRA_SIN_MATERIALES_EN_LISTA"` |
-| `explicacion` | `"Gaia requiere Gaia the Fierce Knight y Curse of Dragon, ausentes de esta lista. Tiene utilidad ofensiva si es Invocado legalmente, pero aquí no se acreditó acceso."` |
-| `clase` | `"CERO_ACCESO_ACREDITADO_EN_LISTA"` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2"` |
-| `sinergia_demostrada` | `"NO_ACREDITADA_COMO_COMBO"` |
-| `prueba_presencial` | `"NO_REALIZADA"` |
-| `validacion` | `"ANALISIS_DE_ESCRITORIO_ESPECIFICO"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **cid:** 19323
+- **nombre:** ひゃくせんのはしゃガイア 百戦の覇者ガイア
+- **zona:** Extra
+- **proposito:** EXTRA_SIN_MATERIALES_EN_LISTA
+- **explicacion:** Gaia requiere Gaia the Fierce Knight y Curse of Dragon, ausentes de esta lista. Tiene utilidad ofensiva si es Invocado legalmente, pero aquí no se acreditó acceso.
+- **clase:** CERO_ACCESO_ACREDITADO_EN_LISTA
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&amp;ope=2
+- **sinergia demostrada:** NO_ACREDITADA_COMO_COMBO
+- **prueba presencial:** NO_REALIZADA
+- **validacion:** ANALISIS_DE_ESCRITORIO_ESPECIFICO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 707 -->
@@ -1313,19 +1399,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 10**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `formato` | `"RUSH"` |
-| `motor` | `"Dark Magician Rush necesita acceso específico a un nombre Dark Magician (real o modificado por Black Executor/Skill), más Dark Magic Attack o Thousand Knives; Amazing Dealer corrige 3 cartas con coste LP."` |
-| `ir_primero` | `["Sin objetivo Dark Magician en campo, NO actives Dark Magic Attack aunque esté en mano; establece primero la Skill/Invocación.","Con Amazing Dealer y tres descartes reales, calcula si gastar 300 LP para reemplazar mano aumenta el acceso; no predigas los tres robos.","Si tu GY ya tiene cuatro monstruos, Amazing Dealer no puede activar su efecto, aun si la mano es mala."]` |
-| `ir_segundo` | `["Si el rival protege monstruos por destrucción, Thousand Knives puede fallar; prioriza backrow con Dark Magic Attack si hay un Dark Magician elegible.","Black Executor renombrado como Dark Magician según su texto puede encender Dark Magic Attack solo mientras el cambio de nombre esté vigente.","No trates una carta del Extra sin materiales listados como una ruta completa; el Extra Rush no ofrece Invocaciones gratuitas."]` |
-| `respuestas_interrupcion` | `[{"evento":"Niegan efecto que otorga nombre","respuesta":"Si Black Executor no llega a llamarse Dark Magician, Dark Magic Attack puede carecer de condición."},{"evento":"Dealer es negado","respuesta":"Los 300 LP pagados quedan pagados, pero no declares tres robos si el efecto no resuelve."},{"evento":"Dark Magician sale de mesa","respuesta":"Antes de activar Dark Magic Attack, verifica que sigues controlando nombre válido."}]` |
-| `decisiones` | `[{"decision":"¿Gastar 300 LP?","criterio":"Dealer cambia 3 cartas por 3 al resolver; si solo tienes dos cartas extras, no hay línea."},{"decision":"¿Ataque o Mil Cuchillos?","criterio":"Ataque destruye M/T rivales y requiere Dark Magician; Cuchillos afecta monstruo. Elegir por tipo de amenaza y condición real."}]` |
-| `practica` | `[{"id":"707:PRACTICA:V14:1"},{"id":"707:PRACTICA:V14:2"},{"id":"707:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["Registrar el estado de cambio de nombre del Black Executor y el turno en que dura.","Considerar motor de acceso al Dark Magician 1x como propuesta, no subir copias sin autorización."]` |
-| `side_y_reserva` | `"Rush sin Side. No introducir cartas TCG ni otras Skills en el Main original."` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **formato:** RUSH
+- **motor:** Dark Magician Rush necesita acceso específico a un nombre Dark Magician (real o modificado por Black Executor/Skill), más Dark Magic Attack o Thousand Knives; Amazing Dealer corrige 3 cartas con coste LP.
+- **ir primero:**
+  - Sin objetivo Dark Magician en campo, NO actives Dark Magic Attack aunque esté en mano; establece primero la Skill/Invocación.
+  - Con Amazing Dealer y tres descartes reales, calcula si gastar 300 LP para reemplazar mano aumenta el acceso; no predigas los tres robos.
+  - Si tu GY ya tiene cuatro monstruos, Amazing Dealer no puede activar su efecto, aun si la mano es mala.
+- **ir segundo:**
+  - Si el rival protege monstruos por destrucción, Thousand Knives puede fallar; prioriza backrow con Dark Magic Attack si hay un Dark Magician elegible.
+  - Black Executor renombrado como Dark Magician según su texto puede encender Dark Magic Attack solo mientras el cambio de nombre esté vigente.
+  - No trates una carta del Extra sin materiales listados como una ruta completa; el Extra Rush no ofrece Invocaciones gratuitas.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Niegan efecto que otorga nombre
+    - **respuesta:** Si Black Executor no llega a llamarse Dark Magician, Dark Magic Attack puede carecer de condición.
+  - Detalle:
+    - **evento:** Dealer es negado
+    - **respuesta:** Los 300 LP pagados quedan pagados, pero no declares tres robos si el efecto no resuelve.
+  - Detalle:
+    - **evento:** Dark Magician sale de mesa
+    - **respuesta:** Antes de activar Dark Magic Attack, verifica que sigues controlando nombre válido.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Gastar 300 LP?
+    - **criterio:** Dealer cambia 3 cartas por 3 al resolver; si solo tienes dos cartas extras, no hay línea.
+  - Detalle:
+    - **decision:** ¿Ataque o Mil Cuchillos?
+    - **criterio:** Ataque destruye M/T rivales y requiere Dark Magician; Cuchillos afecta monstruo. Elegir por tipo de amenaza y condición real.
+- **practica:**
+  - Detalle:
+    - **id:** 707:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 707:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 707:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - Registrar el estado de cambio de nombre del Black Executor y el turno en que dura.
+  - Considerar motor de acceso al Dark Magician 1x como propuesta, no subir copias sin autorización.
+- **side y reserva:** Rush sin Side. No introducir cartas TCG ni otras Skills en el Main original.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 707 -->
@@ -1339,35 +1452,37 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 20**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Dark Magician en mano"` |
-| `grupos_cid` | `[[15410]]` |
-| `probabilidad_exacta` | `0.13333333333333333` |
-| `porcentaje` | `13.333` |
-| `nota` | `"Normalmente no basta para ponerlo en mesa; Skill/tributos son necesarios."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Dark Magician en mano
+- **grupos cid:**
+  - Detalle:
+    - 15410
+- **probabilidad exacta:** 0.13333333333333333
+- **porcentaje:** 13.333
+- **nota:** Normalmente no basta para ponerlo en mesa; Skill/tributos son necesarios.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 21**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `707` |
-| `deck` | `"Dark Magician Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Dark Magician + Dark Magic Attack"` |
-| `grupos_cid` | `[[15410],[15451]]` |
-| `probabilidad_exacta` | `0.026600985221674877` |
-| `porcentaje` | `2.66` |
-| `nota` | `"Coaparición de mano; carta exige nombre Dark Magician en campo."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 707
+- **deck:** Dark Magician Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Dark Magician + Dark Magic Attack
+- **grupos cid:**
+  - Detalle:
+    - 15410
+  - Detalle:
+    - 15451
+- **probabilidad exacta:** 0.026600985221674877
+- **porcentaje:** 2.66
+- **nota:** Coaparición de mano; carta exige nombre Dark Magician en campo.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 707 -->
@@ -1381,403 +1496,618 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 350**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:15451"` |
-| `deck_id` | `707` |
-| `cid` | `15451` |
-| `nombre` | `"ブラック・マジック 黒・魔・導"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2"` |
-| `huella_texto_oficial` | `"21227ea5"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `["A06:REL:040"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:15451
+- **deck id:** 707
+- **cid:** 15451
+- **nombre:** ブラック・マジック 黒・魔・導
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&amp;ope=2
+- **huella texto oficial:** 21227ea5
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - A06:REL:040
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 351**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:16772"` |
-| `deck_id` | `707` |
-| `cid` | `16772` |
-| `nombre` | `"アメイジング・ディーラー アメイジング・ディーラー"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&ope=2"` |
-| `huella_texto_oficial` | `"909aebed"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `["A06:REL:042"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:16772
+- **deck id:** 707
+- **cid:** 16772
+- **nombre:** アメイジング・ディーラー アメイジング・ディーラー
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&amp;ope=2
+- **huella texto oficial:** 909aebed
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - A06:REL:042
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 352**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:18685"` |
-| `deck_id` | `707` |
-| `cid` | `18685` |
-| `nombre` | `"レジェンド・マジシャン レジェンド・マジシャン"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&ope=2"` |
-| `huella_texto_oficial` | `"deec3172"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CARGA_CEMENTERIO"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."}]` |
-| `conexiones_concretas` | `["A06:REL:105"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:18685
+- **deck id:** 707
+- **cid:** 18685
+- **nombre:** レジェンド・マジシャン レジェンド・マジシャン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&amp;ope=2
+- **huella texto oficial:** deec3172
+- **funcion concreta en inventario:** CONSISTENCIA · CARGA_CEMENTERIO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+- **conexiones concretas:**
+  - A06:REL:105
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 353**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19597"` |
-| `deck_id` | `707` |
-| `cid` | `19597` |
-| `nombre` | `"えんじゅくのくろまじゅつし 円熟の黒魔術師"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2"` |
-| `huella_texto_oficial` | `"1d309349"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `["A06:REL:103"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19597
+- **deck id:** 707
+- **cid:** 19597
+- **nombre:** えんじゅくのくろまじゅつし 円熟の黒魔術師
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&amp;ope=2
+- **huella texto oficial:** 1d309349
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - A06:REL:103
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 354**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19329"` |
-| `deck_id` | `707` |
-| `cid` | `19329` |
-| `nombre` | `"モンスターしょうしゅう モンスター招集"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&ope=2"` |
-| `huella_texto_oficial` | `"efd570f1"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:104","A06:REL:110"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19329
+- **deck id:** 707
+- **cid:** 19329
+- **nombre:** モンスターしょうしゅう モンスター招集
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&amp;ope=2
+- **huella texto oficial:** efd570f1
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:104
+  - A06:REL:110
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 355**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19773"` |
-| `deck_id` | `707` |
-| `cid` | `19773` |
-| `nombre` | `"ブラック・エグゼキューター 黒魔導の遂行者"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2"` |
-| `huella_texto_oficial` | `"6c9c14d4"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19773
+- **deck id:** 707
+- **cid:** 19773
+- **nombre:** ブラック・エグゼキューター 黒魔導の遂行者
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&amp;ope=2
+- **huella texto oficial:** 6c9c14d4
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 356**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:17209"` |
-| `deck_id` | `707` |
-| `cid` | `17209` |
-| `nombre` | `"ブラックレゾナンスバースト 黒・魔・導・響・弾"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&ope=2"` |
-| `huella_texto_oficial` | `"e384c2c7"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:106","A06:REL:107"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:17209
+- **deck id:** 707
+- **cid:** 17209
+- **nombre:** ブラックレゾナンスバースト 黒・魔・導・響・弾
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&amp;ope=2
+- **huella texto oficial:** e384c2c7
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:106
+  - A06:REL:107
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 357**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:20151"` |
-| `deck_id` | `707` |
-| `cid` | `20151` |
-| `nombre` | `"シャイニーシェイディー シャイニーシェイディー"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2"` |
-| `huella_texto_oficial` | `"d27ae064"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:20151
+- **deck id:** 707
+- **cid:** 20151
+- **nombre:** シャイニーシェイディー シャイニーシェイディー
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&amp;ope=2
+- **huella texto oficial:** d27ae064
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 358**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19598"` |
-| `deck_id` | `707` |
-| `cid` | `19598` |
-| `nombre` | `"くろまじゅつしのほうせき 黒魔術師の宝石"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2"` |
-| `huella_texto_oficial` | `"206627fd"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:070","A06:REL:071"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19598
+- **deck id:** 707
+- **cid:** 19598
+- **nombre:** くろまじゅつしのほうせき 黒魔術師の宝石
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&amp;ope=2
+- **huella texto oficial:** 206627fd
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:070
+  - A06:REL:071
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 359**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:15410"` |
-| `deck_id` | `707` |
-| `cid` | `15410` |
-| `nombre` | `"ブラック・マジシャン ブラック・マジシャン"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2"` |
-| `huella_texto_oficial` | `"b17ccd0a"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:040","A06:REL:041","A06:REL:042","A06:REL:070","A06:REL:102","A06:REL:103","A06:REL:104","A06:REL:105","A06:REL:106","A06:REL:108","A06:REL:109"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:15410
+- **deck id:** 707
+- **cid:** 15410
+- **nombre:** ブラック・マジシャン ブラック・マジシャン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&amp;ope=2
+- **huella texto oficial:** b17ccd0a
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:040
+  - A06:REL:041
+  - A06:REL:042
+  - A06:REL:070
+  - A06:REL:102
+  - A06:REL:103
+  - A06:REL:104
+  - A06:REL:105
+  - A06:REL:106
+  - A06:REL:108
+  - A06:REL:109
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 360**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:20305"` |
-| `deck_id` | `707` |
-| `cid` | `20305` |
-| `nombre` | `"リリースレイヤー リリースレイヤー"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2"` |
-| `huella_texto_oficial` | `"494f6cea"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_NORMAL · CARGA_CEMENTERIO · TRIBUTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
-| `conexiones_concretas` | `["A06:REL:108"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:20305
+- **deck id:** 707
+- **cid:** 20305
+- **nombre:** リリースレイヤー リリースレイヤー
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&amp;ope=2
+- **huella texto oficial:** 494f6cea
+- **funcion concreta en inventario:** ACCESO_NORMAL · CARGA_CEMENTERIO · TRIBUTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+- **conexiones concretas:**
+  - A06:REL:108
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 361**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:16371"` |
-| `deck_id` | `707` |
-| `cid` | `16371` |
-| `nombre` | `"ブラック・マジシャン・ガール ブラック・マジシャン・ガール"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2"` |
-| `huella_texto_oficial` | `"974b91a3"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:071","A06:REL:107","A06:REL:110"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:16371
+- **deck id:** 707
+- **cid:** 16371
+- **nombre:** ブラック・マジシャン・ガール ブラック・マジシャン・ガール
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&amp;ope=2
+- **huella texto oficial:** 974b91a3
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:071
+  - A06:REL:107
+  - A06:REL:110
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 362**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:15450"` |
-| `deck_id` | `707` |
-| `cid` | `15450` |
-| `nombre` | `"サウザンドナイフ 千本ナイフ"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2"` |
-| `huella_texto_oficial` | `"1baee52a"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `["A06:REL:041"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:15450
+- **deck id:** 707
+- **cid:** 15450
+- **nombre:** サウザンドナイフ 千本ナイフ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&amp;ope=2
+- **huella texto oficial:** 1baee52a
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - A06:REL:041
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 363**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19341"` |
-| `deck_id` | `707` |
-| `cid` | `19341` |
-| `nombre` | `"エクスキューティー・ライディング！ エクスキューティー・ライディング！"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&ope=2"` |
-| `huella_texto_oficial` | `"b4ce9660"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:109"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19341
+- **deck id:** 707
+- **cid:** 19341
+- **nombre:** エクスキューティー・ライディング！ エクスキューティー・ライディング！
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&amp;ope=2
+- **huella texto oficial:** b4ce9660
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:109
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 364**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:17212"` |
-| `deck_id` | `707` |
-| `cid` | `17212` |
-| `nombre` | `"シークレットオーダー 潜入開始"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2"` |
-| `huella_texto_oficial` | `"cc9cf057"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:102"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:17212
+- **deck id:** 707
+- **cid:** 17212
+- **nombre:** シークレットオーダー 潜入開始
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&amp;ope=2
+- **huella texto oficial:** cc9cf057
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:102
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 365**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:16372"` |
-| `deck_id` | `707` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `huella_texto_oficial` | `"06517b03"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:16372
+- **deck id:** 707
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **huella texto oficial:** 06517b03
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 366**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:21007"` |
-| `deck_id` | `707` |
-| `cid` | `21007` |
-| `nombre` | `"こうこうのじゅばく 昂光の呪縛"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2"` |
-| `huella_texto_oficial` | `"32af0535"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:21007
+- **deck id:** 707
+- **cid:** 21007
+- **nombre:** こうこうのじゅばく 昂光の呪縛
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&amp;ope=2
+- **huella texto oficial:** 32af0535
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 367**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19995"` |
-| `deck_id` | `707` |
-| `cid` | `19995` |
-| `nombre` | `"しっぷうのりゅうきしガイア 疾風の竜騎士ガイア"` |
-| `zona` | `[{"zona":"Extra","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2"` |
-| `huella_texto_oficial` | `"4349c7d8"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19995
+- **deck id:** 707
+- **cid:** 19995
+- **nombre:** しっぷうのりゅうきしガイア 疾風の竜騎士ガイア
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&amp;ope=2
+- **huella texto oficial:** 4349c7d8
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 368**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:18298"` |
-| `deck_id` | `707` |
-| `cid` | `18298` |
-| `nombre` | `"りゅうきしガイア 竜騎士ガイア"` |
-| `zona` | `[{"zona":"Extra","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2"` |
-| `huella_texto_oficial` | `"5b888095"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_DE_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"MATERIALES_FUSION","rol":"MATERIAL_DE_FUSION","alcance":"La ficha describe materiales necesarios, no un efecto que fusione por sí solo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:18298
+- **deck id:** 707
+- **cid:** 18298
+- **nombre:** りゅうきしガイア 竜騎士ガイア
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&amp;ope=2
+- **huella texto oficial:** 5b888095
+- **funcion concreta en inventario:** MATERIAL_DE_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MATERIALES_FUSION
+    - **rol:** MATERIAL_DE_FUSION
+    - **alcance:** La ficha describe materiales necesarios, no un efecto que fusione por sí solo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 369**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"707:CARD:19323"` |
-| `deck_id` | `707` |
-| `cid` | `19323` |
-| `nombre` | `"ひゃくせんのはしゃガイア 百戦の覇者ガイア"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2"` |
-| `huella_texto_oficial` | `"c0918b1d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 707:CARD:19323
+- **deck id:** 707
+- **cid:** 19323
+- **nombre:** ひゃくせんのはしゃガイア 百戦の覇者ガイア
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&amp;ope=2
+- **huella texto oficial:** c0918b1d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_707 -->
 ### Fichas de cartas y sinergias documentadas
@@ -2106,3 +2436,303 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: La Skill **ILLUSION OF EXECUTION** se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción..
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `707:A09:ILLUSION:SAGE01` | [Illusion of Execution y Sabio: preparar Mago Oscuro](imagenes/infografias/707_A09_ILLUSION_SAGE01.webp) |
+| `707:A09:SECRETORDER:DM01` | [Orden Secreta: poner Mago Oscuro disponible](imagenes/infografias/707_A09_SECRETORDER_DM01.webp) |
+| `707:A09:EXECUTOR:KNIVES01` | [Skill y Mil Cuchillos: eliminar monstruo con requisito de nombre](imagenes/infografias/707_A09_EXECUTOR_KNIVES01.webp) |
+| `707:A09:EXECUTOR:DARKMAGIC01` | [Skill y Ataque Mágico Oscuro: retirar M/T](imagenes/infografias/707_A09_EXECUTOR_DARKMAGIC01.webp) |
+| `707:A09:ILLUSION:SAGE:KNIVES02` | [Sabio y Skill: variante de Mil Cuchillos](imagenes/infografias/707_A09_ILLUSION_SAGE_KNIVES02.webp) |
+| `707:A09:SECRETORDER:DM:KNIVES02` | [Orden Secreta y Mago Oscuro: habilitar Mil Cuchillos](imagenes/infografias/707_A09_SECRETORDER_DM_KNIVES02.webp) |
+| `707:A09:JEWEL:PAIR:KNIVES03` | [Joya y pareja de recursos: otra vía a Mil Cuchillos](imagenes/infografias/707_A09_JEWEL_PAIR_KNIVES03.webp) |
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Piedra de los Magos Oscuros (CID 19598), Chica Maga Oscura (CID 16371), Brillo Sombrío (CID 20151), Piedra de los Magos Oscuros (CID 19598). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Grito de Monstruo (CID 19329), Maga Legendaria (CID 18685), Ráfaga de Resonancia Oscura (CID 17209), Piedra de los Magos Oscuros (CID 19598). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Ráfaga de Resonancia Oscura (CID 17209), Ataque Mágico Oscuro (CID 15451), Hechicero Eliminador Oscuro (CID 19773), Ataque Mágico Oscuro (CID 15451). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** ¡Equitación Lindasesina! (CID 19341), Distribuidor Maravilloso (CID 16772), Mago Oscuro Sabio (CID 19597), Grito de Monstruo (CID 19329). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Orden Secreta (CID 17212), Ráfaga de Resonancia Oscura (CID 17209), Piedra de los Magos Oscuros (CID 19598), Piedra de los Magos Oscuros (CID 19598). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Grito de Monstruo (CID 19329), Ráfaga de Resonancia Oscura (CID 17209), Piedra de los Magos Oscuros (CID 19598), Maga Legendaria (CID 18685). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Piedra de los Magos Oscuros (CID 19598), Mago Oscuro (CID 15410), Grito de Monstruo (CID 19329), Maga Legendaria (CID 18685). Dark Magician en mano: presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Hechicero Eliminador Oscuro (CID 19773), Ataque Mágico Oscuro (CID 15451), Maldición de la Luz Ascendente (CID 21007), Brillo Sombrío (CID 20151). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Mago Oscuro Sabio (CID 19597), Olla de la Codicia (CID 16372), Grito de Monstruo (CID 19329), Mil Cuchillos (CID 15450). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Maga Legendaria (CID 18685), Orden Secreta (CID 17212), Chica Maga Oscura (CID 16371), Mil Cuchillos (CID 15450). Dark Magician en mano: no presente; Dark Magician + Dark Magic Attack: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **707:PRACTICA:V14:1 ? Dealer coste:** GY con 4 monstruos y 300 LP disponibles. ¿Puedes activar Dealer? **Respuesta documentada:** No, excediste máximo de 3 monstruos en GY. (DECISION_REAL_NO_PREDICCION).
+- **707:PRACTICA:V14:2 ? Dealer resolución:** Pagas 300 LP y Dealer es negado. ¿Robas 3? **Respuesta documentada:** No; el pago se mantiene, no se resuelve el reemplazo. (DECISION_REAL_NO_PREDICCION).
+- **707:PRACTICA:V14:3 ? Dark Magic Attack:** Dark Magician está solo en GY y no controlas Black Executor renombrado. ¿Se activa Attack? **Respuesta documentada:** No: necesitas nombre Dark Magician en tu campo. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Varias Magias/Trampas colocadas:** Sage+Release Layer+Black Executor+Dark Magic Attack de Main. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. Sin Side; utilizar cambio temporal de nombre sin Skill ni Legend. Normal Sage y Release Layer como dos cuerpos de Tributo legales. Tributar ambos a Black Executor, mill1 y renombrar Dark Magician durante ese turno. Dark Magic Attack destruye M/T rivales si no tienen protección; no consumir Skill. Si no se cambia: Ruta 707:A09:V11:EXECUTOR:RENAME:DARK_MAGIC_ATTACK. Estado: SIN_SIDE_ACTUAL.
+- **Mesa rival sin backrow y monstruo de DEF alta:** La retirada de M/T no obtiene valor inmediato. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. No malgastar cuatro cartas en una magia sin objetivos. Conservar Dark Magic Attack para una ventana posterior con nombre Dark Magician activo. Si Dark Resonance Burst está disponible y controlas Dark Spellcaster Nivel6+, comprobar el +1000 y bono adicional condicionado al nombre correcto. No Invocar Gaia del Extra sin Gaia/Cursed Dragon: no hay materiales acreditados en Main. Si no se cambia: Usar daño de combate y preparar GY para Skill desde turno habilitado. Estado: SIN_SIDE_ACTUAL.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Illusion of Execution y Sabio: preparar Mago Oscuro** ? `707:A09:ILLUSION:SAGE01:PRACTICA_V06`, `707:A09:ILLUSION:SAGE01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: 1× Chica Maga Oscura (CID 16371), 1× Mago Oscuro Sabio (CID 19597), 1× Ataque Mágico Oscuro (CID 15451). Mago Oscuro (CID 15410, 1 copia LEGEND) está inicialmente en el Deck, no en mano ni GY; la Skill es externa a la mano. Campo propio vacío; rival con al menos una M/T; Deck con 3 o más cartas por excavar; turno 2 o posterior. Skill no usada previamente. Sin interferencia del rival en la ruta base.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Revelar Chica Maga Oscura de la mano para cumplir el requisito de ILLUSION OF EXECUTION, a partir del turno 2.; last action: Ya con Mago Oscuro boca arriba en tu campo, activar Ataque Mágico Oscuro desde la mano y destruir todas las M/T del rival.; expected final: Estado final exacto de la rama base: campo propio = Mago Oscuro (ATK 2500) + Mago Oscuro Sabio (ATK 900), ambos boca arriba; campo M/T del oponente = vacío tras la destrucción (si no hubo respuesta); Chica Maga Oscura en GY, Ataque Mágico Oscuro en GY, Skill ya utilizada. Mano propia = 1 carta robada en paso 5 + 0 o 1 Mágica seleccionada en paso 2, de identidad no determinada. El contenido de las otras cartas excavadas en GY es variable; no asignar probabilidades ni suponer que se excavó una carta útil. Clasificación:, publicación A09/A10 todavía no certificada.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/16371.png; ../imagenes/rush/15410.png; ../imagenes/rush/19329.png; ../imagenes/rush/19597.png; ../imagenes/rush/15451.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Orden Secreta: poner Mago Oscuro disponible** ? `707:A09:SECRETORDER:DM01:PRACTICA_V06`, `707:A09:SECRETORDER:DM01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: 1× Mago Oscuro (CID 15410, Nivel 7 Normal), 1× Orden Secreta (CID 17212), 1× Ataque Mágico Oscuro (CID 15451). Campo propio vacío; rival con una o más M/T. Turno propio cualquiera; sin Skill ni efectos previos. No hay restricción de estar en turno 2 para esta ruta.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Activar Orden Secreta desde la mano, eligiendo Mago Oscuro (Monstruo Normal Nivel 7) en la mano.; last action: Con Mago Oscuro boca arriba, activar Ataque Mágico Oscuro y destruir todas las cartas Mágicas/Trampa del rival.; expected final: Estado final sin interrupciones: Mago Oscuro boca arriba en Campo con 3200 ATK este turno; rival sin M/T; Orden Secreta y Ataque Mágico Oscuro en GY; Skill intacta, Invocación Normal del turno no gastada. Fuera del turno de Invocación, el ATK vuelve a 2500 y termina la protección específica de Orden Secreta. No inferir daño de batalla ni OTK., faltan tableros gráficos A10 y cobertura de adversario A12.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/17212.png; ../imagenes/rush/15410.png; ../imagenes/rush/19329.png; ../imagenes/rush/15451.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Skill y Mil Cuchillos: eliminar monstruo con requisito de nombre** ? `707:A09:EXECUTOR:KNIVES01:PRACTICA_V06`, `707:A09:EXECUTOR:KNIVES01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Cuatro cartas en mano: Mago Oscuro Sabio + Lily Aniquiladora + Hechicero Eliminador Oscuro (Black Executor) + Mil Cuchillos. Campo/GY vacíos; rival con un monstruo legalmente destruible; Main Phase propia. Skill no necesaria.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente Mago Oscuro Sabio y Lily Aniquiladora en Ataque usando las reglas de Invocaciones Normales de Rush Duel.; last action: Resultado de KNIVES01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Mil Cuchillos y la carta superior desconocida están en GY.; expected final: 5. Estado final de cualquiera de las dos: propio = Hechicero Eliminador en Ataque 2500 ATK, con nombre temporal «Mago Oscuro» este turno; GY = Mago Oscuro Sabio + Lily + Mágica usada + carta superior enviada de identidad desconocida; mano inicial vacía. El oponente pierde los blancos definidos de cada versión; en el siguiente turno el Hechicero recupera su nombre impreso y no habilita automáticamente estas Mágicas.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/19597.png; ../imagenes/rush/15410.png; ../imagenes/rush/20305.png; ../imagenes/rush/19773.png; ../imagenes/rush/15450.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Skill y Ataque Mágico Oscuro: retirar M/T** ? `707:A09:EXECUTOR:DARKMAGIC01:PRACTICA_V06`, `707:A09:EXECUTOR:DARKMAGIC01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Cuatro cartas en mano: Mago Oscuro Sabio + Lily Aniquiladora + Hechicero Eliminador Oscuro (Black Executor) + Ataque Mágico Oscuro. Campo/GY vacíos; rival con al menos una M/T; Main Phase propia. Skill no necesaria.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Invocar Normalmente Mago Oscuro Sabio y Lily Aniquiladora en Ataque usando las reglas de Invocaciones Normales de Rush Duel.; last action: Resultado de DARKMAGIC01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Ataque Mágico Oscuro y la carta superior desconocida están en GY.; expected final: 5. Estado final de cualquiera de las dos: propio = Hechicero Eliminador en Ataque 2500 ATK, con nombre temporal «Mago Oscuro» este turno; GY = Mago Oscuro Sabio + Lily + Mágica usada + carta superior enviada de identidad desconocida; mano inicial vacía. El oponente pierde los blancos definidos de cada versión; en el siguiente turno el Hechicero recupera su nombre impreso y no habilita automáticamente estas Mágicas.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/19597.png; ../imagenes/rush/15410.png; ../imagenes/rush/20305.png; ../imagenes/rush/19773.png; ../imagenes/rush/15451.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Sabio y Skill: variante de Mil Cuchillos** ? `707:A09:ILLUSION:SAGE:KNIVES02:PRACTICA_V06`, `707:A09:ILLUSION:SAGE:KNIVES02`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: exactamente Chica Maga Oscura + Mago Oscuro Sabio + Mil Cuchillos en mano; Mago Oscuro LEGEND en Deck, Skill ILLUSION OF EXECUTION sin usar, Main Phase del turno 2 o posterior, Deck al menos 3 cartas, rival con monstruo seleccionable; Campo/GY propios vacíos. Sin respuestas. Es un destino diferente de ILLUSION:SAGE01 que rompe M/T.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar la Skill, revelar Chica Maga Oscura, excavar tres cartas; añadir una Mágica excavada solo si existe y elegir hacerlo.; last action: Activar Mil Cuchillos desde la mano, ahora que se controla Mago Oscuro; elegir un monstruo rival legal, destruirlo por efecto.; expected final: Si el rival retira el objetivo de Mil Cuchillos después de su activación: la destrucción de ese monstruo concreto no se acredita; Mago Oscuro y Sabio pueden permanecer como cuerpos si nada los afectó. El resultado exacto de la Mágica depende de la resolución legal y la carta que intervino, por lo que no se dibuja el objetivo como destruido automáticamente.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/16371.png; ../imagenes/rush/15410.png; ../imagenes/rush/19597.png; ../imagenes/rush/15450.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Orden Secreta y Mago Oscuro: habilitar Mil Cuchillos** ? `707:A09:SECRETORDER:DM:KNIVES02:PRACTICA_V06`, `707:A09:SECRETORDER:DM:KNIVES02`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Si el rival niega Orden Secreta antes de que invoque Mago Oscuro: desde esa mano mínima no existe un Mago Oscuro boca arriba que habilite Mil Cuchillos. La Normal sigue sin usar, pero no hay un campo de 3200 ATK ni un monstruo rival destruido por esta línea; las zonas de Orden Secreta/Mago Oscuro se registran según el efecto exacto de negación.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar Orden Secreta, Invocar Especialmente Mago Oscuro Normal Nivel 7 de la mano sin Sacrificios.; last action: Activar Mil Cuchillos y destruir el monstruo rival elegido.; expected final: 2. Activar Mil Cuchillos y destruir el monstruo rival elegido. Endboard: Mago Oscuro ATK 3200 este turno / 2500 después, Normal libre, ambas Mágicas al GY, rival pierde 1 monstruo. No afirmar retirada de todas las M/T: eso corresponde a SECRETORDER:DM01 con otra Mágica en mano.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/17212.png; ../imagenes/rush/15410.png; ../imagenes/rush/15450.png; ../imagenes/rush/19329.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Joya y pareja de recursos: otra vía a Mil Cuchillos** ? `707:A09:JEWEL:PAIR:KNIVES03:PRACTICA_V06`, `707:A09:JEWEL:PAIR:KNIVES03`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Mano: Piedra de los Magos Oscuros + Mago Oscuro + Chica Maga Oscura + Mil Cuchillos; Campo/GY propios vacíos, dos zonas de monstruo libres, rival controla un monstruo seleccionable, Main Phase propia; sin respuestas.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar Piedra de los Magos Oscuros, Invocar Especialmente Mago Oscuro + Chica Maga Oscura desde mano en Ataque como dos monstruos independientes.; last action: Activar Mil Cuchillos mientras Mago Oscuro boca arriba permanece en Campo; destruir el monstruo rival legal seleccionado.; expected final: 2. Activar Mil Cuchillos mientras Mago Oscuro boca arriba permanece en Campo; destruir el monstruo rival legal seleccionado. Endboard: Mago Oscuro 2500 + Chica Maga Oscura 2000, Mágicas Piedra y Mil Cuchillos al GY, rival pierde 1 monstruo, Skill intacta, Normal libre. El ATK de Chica Maga no aumenta solo porque Mago Oscuro esté en Campo.
+- Check before play: ¿ILLUSION OF EXECUTION cumple condición y hay materiales Gaia reales?; No dibujar las tres Gaia del Extra como Invocadas por la Skill; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Falta Gaia/Cursed Dragon compatible en Main o Skill fuera de turno; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/19598.png; ../imagenes/rush/15410.png; ../imagenes/rush/16371.png; ../imagenes/rush/15450.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:707:PRIMERO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: No hay backrow rival
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Guardar Dark Magic Attack y priorizar recursos de campo.
+- Riesgo y respuesta: No descartar eliminación contra mesa vacía.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:707:SEGUNDO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Backrow rival múltiple y Executor en campo
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Activar renombrado legal de Executor antes de Dark Magic Attack.
+- Riesgo y respuesta: No creer que basta tener Dark Magician en GY.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:707:RESPUESTA_RIVAL`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Executor perdió su nombre modificado
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Buscar acceso real a Dark Magician antes de activar Magias que lo exigen.
+- Riesgo y respuesta: Renombrado negado no cumple condición.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:707:RECURSOS`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Amazing Dealer y GY con pocos monstruos
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Registrar exactamente tres cartas intercambiadas y las robadas.
+- Riesgo y respuesta: No activar si número de monstruos en GY excede requisito.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:707:MANO_IRREGULAR`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Se pretende Gaia de Fusión
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Mostrar materiales exactos del inventario y acceso desde la mano/campo.
+- Riesgo y respuesta: No declarar Fusión por disponer solo de Dark Magician.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:707:HABILIDAD_O_CONTINUIDAD`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Skill Illusion of Execution
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Comprobar activación una vez por duelo y turno apropiado; permanece externa al Main.
+- Riesgo y respuesta: No tratar Skill como carta mágica del Deck.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:707:TURNO_TARDIO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Fin de duelo con Dark Magic Attack ya gastada
+- Cartas relevantes: cid: 19773; nombre: ブラック・エグゼキューター 黒魔導の遂行者; cid: 15410; nombre: ブラック・マジシャン ブラック・マジシャン; cid: 15451; nombre: ブラック・マジック 黒・魔・導; cid: 15450; nombre: サウザンドナイフ 千本ナイフ; cid: 16772; nombre: アメイジング・ディーラー アメイジング・ディーラー
+- Linea preferida condicionada: Evaluar recursos recuperables antes de esperar segunda limpieza.
+- Riesgo y respuesta: No contar diez Mágicas para Executor si no están en GY.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Illusion of Execution y Sabio: preparar Mago Oscuro** ? `707:A09:ILLUSION:SAGE01`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: Estado final exacto de la rama base: campo propio = Mago Oscuro (ATK 2500) + Mago Oscuro Sabio (ATK 900), ambos boca arriba; campo M/T del oponente = vacío tras la destrucción (si no hubo respuesta); Chica Maga Oscura en GY, Ataque Mágico Oscuro en GY, Skill ya utilizada. Mano propia = 1 carta robada en paso 5 + 0 o 1 Mágica seleccionada en paso 2, de identidad no determinada. El contenido de las otras cartas excavadas en GY es variable; no asignar probabilidades ni suponer que se excavó una carta útil. Clasificación:, publicación A09/A10 todavía no certificada.
+- Last action: Ya con Mago Oscuro boca arriba en tu campo, activar Ataque Mágico Oscuro desde la mano y destruir todas las M/T del rival.
+- Last detail: Ataque Mágico Oscuro ACTIVAR → Mago Oscuro ACTIVAR Ya con Mago Oscuro boca arriba en tu campo, activar Ataque Mágico Oscuro desde la mano y destruir todas las M/T del rival. La carta Mágica usada va al GY tras resolver. *Recurso / restricción:* La carta Mágica usada va al GY tras resolver.
+- Image assets: name: Chica Maga Oscura; image: ../imagenes/rush/16371.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Grito de Monstruo; image: ../imagenes/rush/19329.png; name: Mago Oscuro Sabio; image: ../imagenes/rush/19597.png; name: Ataque Mágico Oscuro; image: ../imagenes/rush/15451.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Orden Secreta: poner Mago Oscuro disponible** ? `707:A09:SECRETORDER:DM01`
+- Purpose: Ofensivo condicional
+- Format: rush
+- Final state text: Estado final sin interrupciones: Mago Oscuro boca arriba en Campo con 3200 ATK este turno; rival sin M/T; Orden Secreta y Ataque Mágico Oscuro en GY; Skill intacta, Invocación Normal del turno no gastada. Fuera del turno de Invocación, el ATK vuelve a 2500 y termina la protección específica de Orden Secreta. No inferir daño de batalla ni OTK., faltan tableros gráficos A10 y cobertura de adversario A12.
+- Last action: Con Mago Oscuro boca arriba, activar Ataque Mágico Oscuro y destruir todas las cartas Mágicas/Trampa del rival.
+- Last detail: Ataque Mágico Oscuro ACTIVAR → Mago Oscuro ACTIVAR Con Mago Oscuro boca arriba, activar Ataque Mágico Oscuro y destruir todas las cartas Mágicas/Trampa del rival. Ambas Mágicas utilizadas quedan en GY al terminar sus resoluciones. *Recurso / restricción:* Ambas Mágicas utilizadas quedan en GY al terminar sus resoluciones.
+- Image assets: name: Orden Secreta; image: ../imagenes/rush/17212.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Grito de Monstruo; image: ../imagenes/rush/19329.png; name: Ataque Mágico Oscuro; image: ../imagenes/rush/15451.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Skill y Mil Cuchillos: eliminar monstruo con requisito de nombre** ? `707:A09:EXECUTOR:KNIVES01`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 5. Estado final de cualquiera de las dos: propio = Hechicero Eliminador en Ataque 2500 ATK, con nombre temporal «Mago Oscuro» este turno; GY = Mago Oscuro Sabio + Lily + Mágica usada + carta superior enviada de identidad desconocida; mano inicial vacía. El oponente pierde los blancos definidos de cada versión; en el siguiente turno el Hechicero recupera su nombre impreso y no habilita automáticamente estas Mágicas.
+- Last action: Resultado de KNIVES01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Mil Cuchillos y la carta superior desconocida están en GY.
+- Last detail: Hechicero Eliminador Oscuro RESULTADO → Mago Oscuro RESULTADO → Mago Oscuro Sabio ESTADO / CONTEXTO Resultado de KNIVES01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Mil Cuchillos y la carta superior desconocida están en GY. El monstruo rival seleccionado fue destruido, sin inventar M/T retiradas ni otro cuerpo. *Recurso / restricción:* El monstruo rival seleccionado fue destruido, sin inventar M/T retiradas ni otro cuerpo.
+- Image assets: name: Mago Oscuro Sabio; image: ../imagenes/rush/19597.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Lily Aniquiladora; image: ../imagenes/rush/20305.png; name: Hechicero Eliminador Oscuro; image: ../imagenes/rush/19773.png; name: Mil Cuchillos; image: ../imagenes/rush/15450.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Skill y Ataque Mágico Oscuro: retirar M/T** ? `707:A09:EXECUTOR:DARKMAGIC01`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 5. Estado final de cualquiera de las dos: propio = Hechicero Eliminador en Ataque 2500 ATK, con nombre temporal «Mago Oscuro» este turno; GY = Mago Oscuro Sabio + Lily + Mágica usada + carta superior enviada de identidad desconocida; mano inicial vacía. El oponente pierde los blancos definidos de cada versión; en el siguiente turno el Hechicero recupera su nombre impreso y no habilita automáticamente estas Mágicas.
+- Last action: Resultado de DARKMAGIC01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Ataque Mágico Oscuro y la carta superior desconocida están en GY.
+- Last detail: Hechicero Eliminador Oscuro RESULTADO → Mago Oscuro RESULTADO → Mago Oscuro Sabio ESTADO / CONTEXTO Resultado de DARKMAGIC01: Hechicero Eliminador Oscuro 2500 ATK con nombre temporal «Mago Oscuro»; Mago Oscuro Sabio, Lily, Ataque Mágico Oscuro y la carta superior desconocida están en GY. Las M/T rivales fueron destruidas, sin inventar monstruos retirados ni segundo jefe. *Recurso / restricción:* Las M/T rivales fueron destruidas, sin inventar monstruos retirados ni segundo jefe.
+- Image assets: name: Mago Oscuro Sabio; image: ../imagenes/rush/19597.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Lily Aniquiladora; image: ../imagenes/rush/20305.png; name: Hechicero Eliminador Oscuro; image: ../imagenes/rush/19773.png; name: Ataque Mágico Oscuro; image: ../imagenes/rush/15451.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Sabio y Skill: variante de Mil Cuchillos** ? `707:A09:ILLUSION:SAGE:KNIVES02`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: Si el rival retira el objetivo de Mil Cuchillos después de su activación: la destrucción de ese monstruo concreto no se acredita; Mago Oscuro y Sabio pueden permanecer como cuerpos si nada los afectó. El resultado exacto de la Mágica depende de la resolución legal y la carta que intervino, por lo que no se dibuja el objetivo como destruido automáticamente.
+- Last action: Activar Mil Cuchillos desde la mano, ahora que se controla Mago Oscuro; elegir un monstruo rival legal, destruirlo por efecto.
+- Last detail: Mil Cuchillos ACTIVAR → Mago Oscuro ACTIVAR → Mago Oscuro Sabio ESTADO / CONTEXTO Activar Mil Cuchillos desde la mano, ahora que se controla Mago Oscuro; elegir un monstruo rival legal, destruirlo por efecto. Final: Mago Oscuro 2500 + Mago Oscuro Sabio 900 boca arriba; objetivo rival destruido; Chica Maga y Mil Cuchillos al GY, 1 robo y posible Mágica excavada en mano. La Skill no garantiza qué fue robado ni una Mágica excavada. *Recurso / restricción:* Final: Mago Oscuro 2500 + Mago Oscuro Sabio 900 boca arriba; objetivo rival destruido; Chica Maga y Mil Cuchillos al GY, 1 robo y posible Mágica excavada en mano. La Skill no garantiza qué fue robado ni una Mágica excavada.
+- Image assets: name: Chica Maga Oscura; image: ../imagenes/rush/16371.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Mago Oscuro Sabio; image: ../imagenes/rush/19597.png; name: Mil Cuchillos; image: ../imagenes/rush/15450.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Orden Secreta y Mago Oscuro: habilitar Mil Cuchillos** ? `707:A09:SECRETORDER:DM:KNIVES02`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 2. Activar Mil Cuchillos y destruir el monstruo rival elegido. Endboard: Mago Oscuro ATK 3200 este turno / 2500 después, Normal libre, ambas Mágicas al GY, rival pierde 1 monstruo. No afirmar retirada de todas las M/T: eso corresponde a SECRETORDER:DM01 con otra Mágica en mano.
+- Last action: Activar Mil Cuchillos y destruir el monstruo rival elegido.
+- Last detail: Mil Cuchillos ACTIVAR → Grito de Monstruo ACTIVAR → Mago Oscuro ESTADO / CONTEXTO Activar Mil Cuchillos y destruir el monstruo rival elegido. Endboard: Mago Oscuro ATK 3200 este turno / 2500 después, Normal libre, ambas Mágicas al GY, rival pierde 1 monstruo. No afirmar retirada de todas las M/T: eso corresponde a SECRETORDER:DM01 con otra Mágica en mano. *Recurso / restricción:* Endboard: Mago Oscuro ATK 3200 este turno / 2500 después, Normal libre, ambas Mágicas al GY, rival pierde 1 monstruo. No afirmar retirada de todas las M/T: eso corresponde a SECRETORDER:DM01 con otra Mágica en mano.
+- Image assets: name: Orden Secreta; image: ../imagenes/rush/17212.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Mil Cuchillos; image: ../imagenes/rush/15450.png; name: Grito de Monstruo; image: ../imagenes/rush/19329.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Joya y pareja de recursos: otra vía a Mil Cuchillos** ? `707:A09:JEWEL:PAIR:KNIVES03`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: 2. Activar Mil Cuchillos mientras Mago Oscuro boca arriba permanece en Campo; destruir el monstruo rival legal seleccionado. Endboard: Mago Oscuro 2500 + Chica Maga Oscura 2000, Mágicas Piedra y Mil Cuchillos al GY, rival pierde 1 monstruo, Skill intacta, Normal libre. El ATK de Chica Maga no aumenta solo porque Mago Oscuro esté en Campo.
+- Last action: Activar Mil Cuchillos mientras Mago Oscuro boca arriba permanece en Campo; destruir el monstruo rival legal seleccionado.
+- Last detail: Mil Cuchillos ACTIVAR → Mago Oscuro ACTIVAR → Chica Maga Oscura ESTADO / CONTEXTO Activar Mil Cuchillos mientras Mago Oscuro boca arriba permanece en Campo; destruir el monstruo rival legal seleccionado. Endboard: Mago Oscuro 2500 + Chica Maga Oscura 2000, Mágicas Piedra y Mil Cuchillos al GY, rival pierde 1 monstruo, Skill intacta, Normal libre. El ATK de Chica Maga no aumenta solo porque Mago Oscuro esté en Campo. *Recurso / restricción:* Endboard: Mago Oscuro 2500 + Chica Maga Oscura 2000, Mágicas Piedra y Mil Cuchillos al GY, rival pierde 1 monstruo, Skill intacta, Normal libre. El ATK de Chica Maga no aumenta solo porque Mago Oscuro esté en Campo.
+- Image assets: name: Piedra de los Magos Oscuros; image: ../imagenes/rush/19598.png; name: Mago Oscuro; image: ../imagenes/rush/15410.png; name: Chica Maga Oscura; image: ../imagenes/rush/16371.png; name: Mil Cuchillos; image: ../imagenes/rush/15450.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.

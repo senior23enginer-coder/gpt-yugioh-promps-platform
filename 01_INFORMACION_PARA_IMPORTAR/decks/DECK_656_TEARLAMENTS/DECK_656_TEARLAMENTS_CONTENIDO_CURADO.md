@@ -2297,423 +2297,573 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **656:COBERTURA:EXTRA:20521:E05:ESCENARIO ? Agnumday del Demoniherrero**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:20521:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:20521"` |
-| `cid` | `20521` |
-| `card_name` | `"Agnumday del Demoniherrero"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/20521.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Fiendsmith Agnumday"` |
-| `scenario` | `{"initial_condition":"Enlace/Demoniherrero según requisitos oficiales de materiales","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No empezar con Agnumday ya Invocado; identificar exactamente dos o más cuerpos/tipos permitidos y bloqueos","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Enlace/Demoniherrero según requisitos oficiales de materiales», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Enlace/Demoniherrero según requisitos oficiales de materiales","when":"Se intenta la acción de Agnumday del Demoniherrero","then":"No empezar con Agnumday ya Invocado; identificar exactamente dos o más cuerpos/tipos permitidos y bloqueos","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:20521:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:20521
+- **cid:** 20521
+- **card name:** Agnumday del Demoniherrero
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/20521.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Fiendsmith Agnumday
+- **scenario:**
+  - **initial condition:** Enlace/Demoniherrero según requisitos oficiales de materiales
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No empezar con Agnumday ya Invocado; identificar exactamente dos o más cuerpos/tipos permitidos y bloqueos
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Enlace/Demoniherrero según requisitos oficiales de materiales», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Enlace/Demoniherrero según requisitos oficiales de materiales
+  - **when:** Se intenta la acción de Agnumday del Demoniherrero
+  - **then:** No empezar con Agnumday ya Invocado; identificar exactamente dos o más cuerpos/tipos permitidos y bloqueos
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:17803:E05:ESCENARIO ? Sprind Spright**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:17803:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:17803"` |
-| `cid` | `17803` |
-| `card_name` | `"Sprind Spright"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/17803.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Spright Sprind"` |
-| `scenario` | `{"initial_condition":"Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No usar dos Tearlaments arbitrarios; comprobar material de Nivel/Rango 2 real y zona de Link","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto","when":"Se intenta la acción de Sprind Spright","then":"No usar dos Tearlaments arbitrarios; comprobar material de Nivel/Rango 2 real y zona de Link","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:17803:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:17803
+- **cid:** 17803
+- **card name:** Sprind Spright
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/17803.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Spright Sprind
+- **scenario:**
+  - **initial condition:** Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No usar dos Tearlaments arbitrarios; comprobar material de Nivel/Rango 2 real y zona de Link
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Link-2 con materiales específicos, incluido monstruo de Nivel/Rango/Link 2 según texto
+  - **when:** Se intenta la acción de Sprind Spright
+  - **then:** No usar dos Tearlaments arbitrarios; comprobar material de Nivel/Rango 2 real y zona de Link
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:12870:E05:ESCENARIO ? Predaplanta Dragostapelia**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:12870:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:12870"` |
-| `cid` | `12870` |
-| `card_name` | `"Predaplanta Dragostapelia"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/12870.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Predaplant Dragostapelia"` |
-| `scenario` | `{"initial_condition":"Fusión que requiere un monstruo Fusión + uno OSCURIDAD","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Sin una Fusión obtenida y un material OSCURIDAD adicional, no existe acceso, aunque haya Super Polymerization","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Fusión que requiere un monstruo Fusión + uno OSCURIDAD», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Fusión que requiere un monstruo Fusión + uno OSCURIDAD","when":"Se intenta la acción de Predaplanta Dragostapelia","then":"Sin una Fusión obtenida y un material OSCURIDAD adicional, no existe acceso, aunque haya Super Polymerization","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:12870:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:12870
+- **cid:** 12870
+- **card name:** Predaplanta Dragostapelia
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/12870.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Predaplant Dragostapelia
+- **scenario:**
+  - **initial condition:** Fusión que requiere un monstruo Fusión + uno OSCURIDAD
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Sin una Fusión obtenida y un material OSCURIDAD adicional, no existe acceso, aunque haya Super Polymerization
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Fusión que requiere un monstruo Fusión + uno OSCURIDAD», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Fusión que requiere un monstruo Fusión + uno OSCURIDAD
+  - **when:** Se intenta la acción de Predaplanta Dragostapelia
+  - **then:** Sin una Fusión obtenida y un material OSCURIDAD adicional, no existe acceso, aunque haya Super Polymerization
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:13454:E05:ESCENARIO ? Fangodragón del Pantano**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:13454:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:13454"` |
-| `cid` | `13454` |
-| `card_name` | `"Fangodragón del Pantano"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/13454.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Mudragon of the Swamp"` |
-| `scenario` | `{"initial_condition":"Fusión de dos monstruos del mismo Atributo pero Tipos diferentes","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Una Fusión con Super Polymerization solo si materiales rival/propios cumplen ambos rasgos y se permite usarlos","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Fusión de dos monstruos del mismo Atributo pero Tipos diferentes», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Fusión de dos monstruos del mismo Atributo pero Tipos diferentes","when":"Se intenta la acción de Fangodragón del Pantano","then":"Una Fusión con Super Polymerization solo si materiales rival/propios cumplen ambos rasgos y se permite usarlos","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:13454:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:13454
+- **cid:** 13454
+- **card name:** Fangodragón del Pantano
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/13454.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Mudragon of the Swamp
+- **scenario:**
+  - **initial condition:** Fusión de dos monstruos del mismo Atributo pero Tipos diferentes
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Una Fusión con Super Polymerization solo si materiales rival/propios cumplen ambos rasgos y se permite usarlos
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Fusión de dos monstruos del mismo Atributo pero Tipos diferentes», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Fusión de dos monstruos del mismo Atributo pero Tipos diferentes
+  - **when:** Se intenta la acción de Fangodragón del Pantano
+  - **then:** Una Fusión con Super Polymerization solo si materiales rival/propios cumplen ambos rasgos y se permite usarlos
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:11005:E05:ESCENARIO ? Parca Peregrina**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:11005:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:11005"` |
-| `cid` | `11005` |
-| `card_name` | `"Parca Peregrina"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/11005.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Pilgrim Reaper"` |
-| `scenario` | `{"initial_condition":"Xyz Rango 6: dos monstruos Nivel 6","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No comenzar con dos cuerpos inexistentes; comprobar niveles reales y restricciones antes de invocar","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Xyz Rango 6: dos monstruos Nivel 6», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Xyz Rango 6: dos monstruos Nivel 6","when":"Se intenta la acción de Parca Peregrina","then":"No comenzar con dos cuerpos inexistentes; comprobar niveles reales y restricciones antes de invocar","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:11005:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:11005
+- **cid:** 11005
+- **card name:** Parca Peregrina
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/11005.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Pilgrim Reaper
+- **scenario:**
+  - **initial condition:** Xyz Rango 6: dos monstruos Nivel 6
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No comenzar con dos cuerpos inexistentes; comprobar niveles reales y restricciones antes de invocar
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Xyz Rango 6: dos monstruos Nivel 6», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Xyz Rango 6: dos monstruos Nivel 6
+  - **when:** Se intenta la acción de Parca Peregrina
+  - **then:** No comenzar con dos cuerpos inexistentes; comprobar niveles reales y restricciones antes de invocar
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:10942:E05:ESCENARIO ? Caballero Exciton Horda de Maldad**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:10942:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:10942"` |
-| `cid` | `10942` |
-| `card_name` | `"Caballero Exciton Horda de Maldad"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/10942.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Evilswarm Exciton Knight"` |
-| `scenario` | `{"initial_condition":"Xyz Rango 4: dos monstruos Nivel 4","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Su activación de limpieza exige condición de cantidad de cartas y coste de desacoplar según texto; no es destrucción universal desde Invocación","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Xyz Rango 4: dos monstruos Nivel 4», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Xyz Rango 4: dos monstruos Nivel 4","when":"Se intenta la acción de Caballero Exciton Horda de Maldad","then":"Su activación de limpieza exige condición de cantidad de cartas y coste de desacoplar según texto; no es destrucción universal desde Invocación","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:10942:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:10942
+- **cid:** 10942
+- **card name:** Caballero Exciton Horda de Maldad
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/10942.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Evilswarm Exciton Knight
+- **scenario:**
+  - **initial condition:** Xyz Rango 4: dos monstruos Nivel 4
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Su activación de limpieza exige condición de cantidad de cartas y coste de desacoplar según texto; no es destrucción universal desde Invocación
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Xyz Rango 4: dos monstruos Nivel 4», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Xyz Rango 4: dos monstruos Nivel 4
+  - **when:** Se intenta la acción de Caballero Exciton Horda de Maldad
+  - **then:** Su activación de limpieza exige condición de cantidad de cartas y coste de desacoplar según texto; no es destrucción universal desde Invocación
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:EXTRA:14356:E05:ESCENARIO ? Ladrón del Tiempo Repetidor**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:EXTRA:14356:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:EXTRA:14356"` |
-| `cid` | `14356` |
-| `card_name` | `"Ladrón del Tiempo Repetidor"` |
-| `zone` | `"extra"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/14356.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Time Thief Redoer"` |
-| `scenario` | `{"initial_condition":"Xyz Rango 4: dos monstruos Nivel 4","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Su efecto depende de tipos de material que desacople; no atribuir robo/rebote/destierro sin material correspondiente","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Xyz Rango 4: dos monstruos Nivel 4», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EXTRA_CONDICIONAL"` |
-| `acceptance` | `{"given":"Xyz Rango 4: dos monstruos Nivel 4","when":"Se intenta la acción de Ladrón del Tiempo Repetidor","then":"Su efecto depende de tipos de material que desacople; no atribuir robo/rebote/destierro sin material correspondiente","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:EXTRA:14356:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:EXTRA:14356
+- **cid:** 14356
+- **card name:** Ladrón del Tiempo Repetidor
+- **zone:** extra
+- **quantity:** 1
+- **image:** imagenes/tcg/14356.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Time Thief Redoer
+- **scenario:**
+  - **initial condition:** Xyz Rango 4: dos monstruos Nivel 4
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Su efecto depende de tipos de material que desacople; no atribuir robo/rebote/destierro sin material correspondiente
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Xyz Rango 4: dos monstruos Nivel 4», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EXTRA_CONDICIONAL
+- **acceptance:**
+  - **given:** Xyz Rango 4: dos monstruos Nivel 4
+  - **when:** Se intenta la acción de Ladrón del Tiempo Repetidor
+  - **then:** Su efecto depende de tipos de material que desacople; no atribuir robo/rebote/destierro sin material correspondiente
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:20490:E05:ESCENARIO ? Lácrima las Lágrimas Carmesíes**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:20490:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:20490"` |
-| `cid` | `20490` |
-| `card_name` | `"Lácrima las Lágrimas Carmesíes"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/20490.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Lacrima the Crimson Tears"` |
-| `scenario` | `{"initial_condition":"Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Identificar origen, coste y si el envío es por efecto; no afirmar una Fusión Tearlaments sin materiales","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto","when":"Se intenta la acción de Lácrima las Lágrimas Carmesíes","then":"Identificar origen, coste y si el envío es por efecto; no afirmar una Fusión Tearlaments sin materiales","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:20490:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:20490
+- **cid:** 20490
+- **card name:** Lácrima las Lágrimas Carmesíes
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/20490.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Lacrima the Crimson Tears
+- **scenario:**
+  - **initial condition:** Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Identificar origen, coste y si el envío es por efecto; no afirmar una Fusión Tearlaments sin materiales
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Recurso Demoniherrero vinculado a efectos/envíos y Fusiones según texto
+  - **when:** Se intenta la acción de Lácrima las Lágrimas Carmesíes
+  - **then:** Identificar origen, coste y si el envío es por efecto; no afirmar una Fusión Tearlaments sin materiales
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:17462:E05:ESCENARIO ? Planeta Primigenio Perlerreino**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:17462:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:17462"` |
-| `cid` | `17462` |
-| `card_name` | `"Planeta Primigenio Perlerreino"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/tcg/17462.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Primeval Planet Perlereino"` |
-| `scenario` | `{"initial_condition":"Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efecto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"No disparar destrucción simplemente al buscar o por cualquier movimiento a mano","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efe», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efecto","when":"Se intenta la acción de Planeta Primigenio Perlerreino","then":"No disparar destrucción simplemente al buscar o por cualquier movimiento a mano","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:17462:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:17462
+- **cid:** 17462
+- **card name:** Planeta Primigenio Perlerreino
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/tcg/17462.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Primeval Planet Perlereino
+- **scenario:**
+  - **initial condition:** Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efecto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** No disparar destrucción simplemente al buscar o por cualquier movimiento a mano
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efe», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Campo de búsqueda/soporte Tearlaments y mejora de ATK; puede destruir carta al regresar monstruo Tearlaments al Deck Extra por efecto
+  - **when:** Se intenta la acción de Planeta Primigenio Perlerreino
+  - **then:** No disparar destrucción simplemente al buscar o por cualquier movimiento a mano
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:12950:E05:ESCENARIO ? Flor de Ceniza & Primavera Feliz**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:12950:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:12950"` |
-| `cid` | `12950` |
-| `card_name` | `"Flor de Ceniza & Primavera Feliz"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/tcg/12950.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Ash Blossom"` |
-| `scenario` | `{"initial_condition":"Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Una respuesta autónoma; no niega por arquetipo y no recupera coste","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto","when":"Se intenta la acción de Flor de Ceniza & Primavera Feliz","then":"Una respuesta autónoma; no niega por arquetipo y no recupera coste","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:12950:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:12950
+- **cid:** 12950
+- **card name:** Flor de Ceniza &amp; Primavera Feliz
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/tcg/12950.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Ash Blossom
+- **scenario:**
+  - **initial condition:** Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Una respuesta autónoma; no niega por arquetipo y no recupera coste
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Rival busca/Invoca/envía del Deck por efecto; descartar Ash en cadena para negar efecto
+  - **when:** Se intenta la acción de Flor de Ceniza &amp; Primavera Feliz
+  - **then:** Una respuesta autónoma; no niega por arquetipo y no recupera coste
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:18219:E05:ESCENARIO ? Trivikarma**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:18219:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:18219"` |
-| `cid` | `18219` |
-| `card_name` | `"Trivikarma"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/18219.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Trivikarma"` |
-| `scenario` | `{"initial_condition":"Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Distinguir activación Colocada y efecto de GY; no asumir que toda carta de Campo es buscable sin cumplir texto","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto","when":"Se intenta la acción de Trivikarma","then":"Distinguir activación Colocada y efecto de GY; no asumir que toda carta de Campo es buscable sin cumplir texto","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:18219:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:18219
+- **cid:** 18219
+- **card name:** Trivikarma
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/18219.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Trivikarma
+- **scenario:**
+  - **initial condition:** Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Distinguir activación Colocada y efecto de GY; no asumir que toda carta de Campo es buscable sin cumplir texto
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Trampa asociada a monstruo “Visas Starfrost”; en GY su efecto puede buscar Mágica/Trampa que mencione Visas según texto
+  - **when:** Se intenta la acción de Trivikarma
+  - **then:** Distinguir activación Colocada y efecto de GY; no asumir que toda carta de Campo es buscable sin cumplir texto
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:17604:E05:ESCENARIO ? Mudora el Oráculo de la Espada**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:17604:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:17604"` |
-| `cid` | `17604` |
-| `card_name` | `"Mudora el Oráculo de la Espada"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/17604.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Mudora the Sword Oracle"` |
-| `scenario` | `{"initial_condition":"Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cuando hay Dimension Shifter, no presuponer que Mudora estará en GY; no mezclar envío con descarte","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY","when":"Se intenta la acción de Mudora el Oráculo de la Espada","then":"Cuando hay Dimension Shifter, no presuponer que Mudora estará en GY; no mezclar envío con descarte","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:17604:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:17604
+- **cid:** 17604
+- **card name:** Mudora el Oráculo de la Espada
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/17604.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Mudora the Sword Oracle
+- **scenario:**
+  - **initial condition:** Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Cuando hay Dimension Shifter, no presuponer que Mudora estará en GY; no mezclar envío con descarte
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Recurso Ishizu para devolver cartas de GY a Deck mediante destierro propio desde campo/GY
+  - **when:** Se intenta la acción de Mudora el Oráculo de la Espada
+  - **then:** Cuando hay Dimension Shifter, no presuponer que Mudora estará en GY; no mezclar envío con descarte
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:22169:E05:ESCENARIO ? Corona Prohibida**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:22169:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:22169"` |
-| `cid` | `22169` |
-| `card_name` | `"Corona Prohibida"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/tcg/22169.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Forbidden Crown"` |
-| `scenario` | `{"initial_condition":"Mágica Rápida con protección/interacción de monstruos según texto específico","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Establecer monstruo objetivo, ventana y reducción/alteración aplicable; no atribuir una negación de activación sin fuente","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Mágica Rápida con protección/interacción de monstruos según texto específico», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Mágica Rápida con protección/interacción de monstruos según texto específico","when":"Se intenta la acción de Corona Prohibida","then":"Establecer monstruo objetivo, ventana y reducción/alteración aplicable; no atribuir una negación de activación sin fuente","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:22169:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:22169
+- **cid:** 22169
+- **card name:** Corona Prohibida
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/tcg/22169.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Forbidden Crown
+- **scenario:**
+  - **initial condition:** Mágica Rápida con protección/interacción de monstruos según texto específico
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Establecer monstruo objetivo, ventana y reducción/alteración aplicable; no atribuir una negación de activación sin fuente
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Mágica Rápida con protección/interacción de monstruos según texto específico», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Mágica Rápida con protección/interacción de monstruos según texto específico
+  - **when:** Se intenta la acción de Corona Prohibida
+  - **then:** Establecer monstruo objetivo, ventana y reducción/alteración aplicable; no atribuir una negación de activación sin fuente
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:18204:E05:ESCENARIO ? Planeta Bajo Presión Wraitsoth**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:18204:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:18204"` |
-| `cid` | `18204` |
-| `card_name` | `"Planeta Bajo Presión Wraitsoth"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/18204.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Pressured Planet Wraitsoth"` |
-| `scenario` | `{"initial_condition":"Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Si también usas Perlereino, una Zona de Campo no sostiene dos cartas; elegir cuál permanece","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto","when":"Se intenta la acción de Planeta Bajo Presión Wraitsoth","then":"Si también usas Perlereino, una Zona de Campo no sostiene dos cartas; elegir cuál permanece","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:18204:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:18204
+- **cid:** 18204
+- **card name:** Planeta Bajo Presión Wraitsoth
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/18204.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Pressured Planet Wraitsoth
+- **scenario:**
+  - **initial condition:** Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Si también usas Perlereino, una Zona de Campo no sostiene dos cartas; elegir cuál permanece
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Mágica de Campo Kashtira que busca Kashtira al activar y presiona posiciones/efectos según texto
+  - **when:** Se intenta la acción de Planeta Bajo Presión Wraitsoth
+  - **then:** Si también usas Perlereino, una Zona de Campo no sostiene dos cartas; elegir cuál permanece
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **656:COBERTURA:MAIN:17603:E05:ESCENARIO ? Keldo la Protectora Sagrada**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"656:COBERTURA:MAIN:17603:E05:ESCENARIO"` |
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `case_id` | `"656:COBERTURA:MAIN:17603"` |
-| `cid` | `17603` |
-| `card_name` | `"Keldo la Protectora Sagrada"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/tcg/17603.jpg"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md"` |
-| `purpose` | `"Keldo the Sacred Protector"` |
-| `scenario` | `{"initial_condition":"Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Comprobar coste y carta de apoyo requerida para Invocación desde mano; no activar efecto de GY desde destierro","risk_and_counterexample":"Sin requisitos completos no ofrecer activación","skill_gate":"No corresponde una Skill externa","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios","when":"Se intenta la acción de Keldo la Protectora Sagrada","then":"Comprobar coste y carta de apoyo requerida para Invocación desde mano; no activar efecto de GY desde destierro","negative_test":"Falta condición para activar","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 656:COBERTURA:MAIN:17603:E05:ESCENARIO
+- **deck id:** 656
+- **deck:** Tearlaments
+- **case id:** 656:COBERTURA:MAIN:17603
+- **cid:** 17603
+- **card name:** Keldo la Protectora Sagrada
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/tcg/17603.jpg
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_656_TEARLAMENTS/guias/DECK_656_TEARLAMENTS_QUINCE_CASOS_20261113.md
+- **purpose:** Keldo the Sacred Protector
+- **scenario:**
+  - **initial condition:** Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Comprobar coste y carta de apoyo requerida para Invocación desde mano; no activar efecto de GY desde destierro
+  - **risk and counterexample:** Sin requisitos completos no ofrecer activación
+  - **skill gate:** No corresponde una Skill externa
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Recurso Ishizu y respuesta desde GY para regresar cartas de Cementerios
+  - **when:** Se intenta la acción de Keldo la Protectora Sagrada
+  - **then:** Comprobar coste y carta de apoyo requerida para Invocación desde mano; no activar efecto de GY desde destierro
+  - **negative test:** Falta condición para activar
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 656 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -2726,19 +2876,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 2**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `formato` | `"TCG"` |
-| `motor` | `"Tearlaments fusiona cuando un nombre válido cae al GY por efecto; Horus alimenta Rango8; Fiendsmith Engraver ofrece secuencia de Extra específica sin reemplazar azar de molinos."` |
-| `ir_primero` | `["Con Engraver y Tract/Lurrie todavía en Deck, ejecuta secuencia validada Fiendsmith y separa el bloqueo al Extra producido por cada pieza.","Con Sarcófago+dos cartas disponibles, Horus crea dos cuerpos Nivel8; elegir Zombie Vampire implica enviar 4 cartas de CADA Deck al GY, exponiendo al oponente a extender.","Con Reinoheart+Scheiren, Redoer es cuerpo Rango4 y no implica que una Fusion se active; anota resultado de mills solo cuando ocurrieron."]` |
-| `ir_segundo` | `["Super Polymerization exige Fusion objetivo y materiales reales en campo rival; identifica atributos y tipos antes de descartar el coste.","Si rival tiene cartas que destierran desde GY, prioriza Fusión al enviarse por efecto antes de dejar nombres expuestos.","Zombie Vampire puede dar recursos al rival; evita usar mill4 contra un rival que también activa efectos al ser enviado al GY salvo ventaja suficiente."]` |
-| `respuestas_interrupcion` | `[{"evento":"Droll tras búsqueda Fiendsmith","respuesta":"No continúes añadiendo del Deck a mano en el mismo turno bajo Droll. Distinguir envíos al GY o Invocaciones permitidas."},{"evento":"D.D. Crow sobre objetivo de Fusion","respuesta":"Si el material ya no está en GY cuando resuelva el efecto, esa Fusión puede fracasar."},{"evento":"Ash a Zombie Vampire","respuesta":"Desacoplar material fue coste; si el efecto es negado, no envíes ocho cartas a cementerios."}]` |
-| `decisiones` | `[{"decision":"¿Sarc o Reinoheart primero?","criterio":"Sarc necesita descartes; Reinoheart puede preparar un objetivo de Fusión. Ahorra cartas que activen solo “por efecto” si el envío de Sarc sería coste."},{"decision":"¿SuperPoly ahora?","criterio":"Descarta solo después de comprobar material exacto de Fusion en Extra y controlado por oponente; una pareja de monstruos OSCURIDAD no siempre basta."}]` |
-| `practica` | `[{"id":"656:PRACTICA:V14:1"},{"id":"656:PRACTICA:V14:2"},{"id":"656:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["Separar las rutas 100% deterministas de las que dependen de milling aleatorio.","Etiquetar los envíos “coste”, “resolución” y “material Xyz” por separado para impedir falsos disparos Tear."]` |
-| `side_y_reserva` | `"El inventario tiene Reserva (no Side validado): cualquier propuesta anti-GY o de SuperPoly es hipotética, sin aplicación ni cambio de cartas."` |
+- **deck id:** 656
+- **deck:** Tearlaments
+- **formato:** TCG
+- **motor:** Tearlaments fusiona cuando un nombre válido cae al GY por efecto; Horus alimenta Rango8; Fiendsmith Engraver ofrece secuencia de Extra específica sin reemplazar azar de molinos.
+- **ir primero:**
+  - Con Engraver y Tract/Lurrie todavía en Deck, ejecuta secuencia validada Fiendsmith y separa el bloqueo al Extra producido por cada pieza.
+  - Con Sarcófago+dos cartas disponibles, Horus crea dos cuerpos Nivel8; elegir Zombie Vampire implica enviar 4 cartas de CADA Deck al GY, exponiendo al oponente a extender.
+  - Con Reinoheart+Scheiren, Redoer es cuerpo Rango4 y no implica que una Fusion se active; anota resultado de mills solo cuando ocurrieron.
+- **ir segundo:**
+  - Super Polymerization exige Fusion objetivo y materiales reales en campo rival; identifica atributos y tipos antes de descartar el coste.
+  - Si rival tiene cartas que destierran desde GY, prioriza Fusión al enviarse por efecto antes de dejar nombres expuestos.
+  - Zombie Vampire puede dar recursos al rival; evita usar mill4 contra un rival que también activa efectos al ser enviado al GY salvo ventaja suficiente.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Droll tras búsqueda Fiendsmith
+    - **respuesta:** No continúes añadiendo del Deck a mano en el mismo turno bajo Droll. Distinguir envíos al GY o Invocaciones permitidas.
+  - Detalle:
+    - **evento:** D.D. Crow sobre objetivo de Fusion
+    - **respuesta:** Si el material ya no está en GY cuando resuelva el efecto, esa Fusión puede fracasar.
+  - Detalle:
+    - **evento:** Ash a Zombie Vampire
+    - **respuesta:** Desacoplar material fue coste; si el efecto es negado, no envíes ocho cartas a cementerios.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Sarc o Reinoheart primero?
+    - **criterio:** Sarc necesita descartes; Reinoheart puede preparar un objetivo de Fusión. Ahorra cartas que activen solo “por efecto” si el envío de Sarc sería coste.
+  - Detalle:
+    - **decision:** ¿SuperPoly ahora?
+    - **criterio:** Descarta solo después de comprobar material exacto de Fusion en Extra y controlado por oponente; una pareja de monstruos OSCURIDAD no siempre basta.
+- **practica:**
+  - Detalle:
+    - **id:** 656:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 656:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 656:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - Separar las rutas 100% deterministas de las que dependen de milling aleatorio.
+  - Etiquetar los envíos “coste”, “resolución” y “material Xyz” por separado para impedir falsos disparos Tear.
+- **side y reserva:** El inventario tiene Reserva (no Side validado): cualquier propuesta anti-GY o de SuperPoly es hipotética, sin aplicación ni cambio de cartas.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 656 -->
@@ -2752,35 +2929,35 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 4**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `44` |
-| `mano_inicial` | `5` |
-| `indicador` | `"Engraver sin Tract ni Lurrie en mano"` |
-| `grupos_cid` | `[[20196]]` |
-| `probabilidad_exacta` | `0.25313901923374416` |
-| `porcentaje` | `25.314` |
-| `nota` | `"Se calcula con ausencia de Tract y Lurrie en las 5 cartas; ambos deben seguir en Deck."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 656
+- **deck:** Tearlaments
+- **formato:** TCG
+- **deck size:** 44
+- **mano inicial:** 5
+- **indicador:** Engraver sin Tract ni Lurrie en mano
+- **grupos cid:**
+  - Detalle:
+    - 20196
+- **probabilidad exacta:** 0.25313901923374416
+- **porcentaje:** 25.314
+- **nota:** Se calcula con ausencia de Tract y Lurrie en las 5 cartas; ambos deben seguir en Deck.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 5**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `deck` | `"Tearlaments"` |
-| `formato` | `"TCG"` |
-| `deck_size` | `44` |
-| `mano_inicial` | `5` |
-| `indicador` | `"Sarcófago del Rey en mano"` |
-| `grupos_cid` | `[[19200]]` |
-| `probabilidad_exacta` | `0.2167019027484144` |
-| `porcentaje` | `21.67` |
-| `nota` | `"Para Xyz Horus hacen falta dos envíos y dos monstruos Horus en Deck/GY."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 656
+- **deck:** Tearlaments
+- **formato:** TCG
+- **deck size:** 44
+- **mano inicial:** 5
+- **indicador:** Sarcófago del Rey en mano
+- **grupos cid:**
+  - Detalle:
+    - 19200
+- **probabilidad exacta:** 0.2167019027484144
+- **porcentaje:** 21.67
+- **nota:** Para Xyz Horus hacen falta dos envíos y dos monstruos Horus en Deck/GY.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 656 -->
@@ -2794,554 +2971,855 @@ Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan l
 
 **Registro 44**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `7445` |
-| `nombre` | `"Super Polymerization"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `186` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 7445
+- **nombre:** Super Polymerization
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 186
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 45**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `20490` |
-| `nombre` | `"Lacrima the Crimson Tears"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `471` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 20490
+- **nombre:** Lacrima the Crimson Tears
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 471
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 46**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `17768` |
-| `nombre` | `"Kashtira Fenrir"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `438` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 17768
+- **nombre:** Kashtira Fenrir
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 438
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 47**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `317` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 317
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 48**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `17415` |
-| `nombre` | `"Tearlaments Scheiren"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `541` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · MATERIALES_DECLARADOS · EFECTO_AL_ENVIARSE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 17415
+- **nombre:** Tearlaments Scheiren
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 541
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · MATERIALES_DECLARADOS · EFECTO_AL_ENVIARSE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 49**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `12800` |
-| `nombre` | `"Foolish Burial Goods"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `100` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 12800
+- **nombre:** Foolish Burial Goods
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 100
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 50**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `18219` |
-| `nombre` | `"Trivikarma"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `470` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO_DESDE_CEMENTERIO","justificacion":"Destierro desde Cementerio sujeto a la cláusula exacta."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO_DESDE_CEMENTERIO · BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 18219
+- **nombre:** Trivikarma
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 470
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO_DESDE_CEMENTERIO
+    - **justificacion:** Destierro desde Cementerio sujeto a la cláusula exacta.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO_DESDE_CEMENTERIO · BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 51**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `17604` |
-| `nombre` | `"Mudora the Sword Oracle"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `453` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 17604
+- **nombre:** Mudora the Sword Oracle
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 453
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 52**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `8933` |
-| `nombre` | `"Effect Veiler"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `246` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 8933
+- **nombre:** Effect Veiler
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 246
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 53**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `22169` |
-| `nombre` | `"Forbidden Crown"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `450` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 22169
+- **nombre:** Forbidden Crown
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 450
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 54**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `18153` |
-| `nombre` | `"Tearlaments Kashtira"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `443` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA · EFECTO_AL_ENVIARSE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 18153
+- **nombre:** Tearlaments Kashtira
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 443
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · INTERRUPCION_AUTONOMA · EFECTO_AL_ENVIARSE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 55**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `18204` |
-| `nombre` | `"Pressured Planet Wraitsoth"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `451` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 18204
+- **nombre:** Pressured Planet Wraitsoth
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 451
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 56**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `17603` |
-| `nombre` | `"Keldo the Sacred Protector"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `456` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 17603
+- **nombre:** Keldo the Sacred Protector
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 456
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_MANO · BUSQUEDA_O_ACCESO · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 57**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `485` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"MATERIALES_DECLARADOS","justificacion":"Menciona materiales; su disponibilidad real requiere prueba."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 485
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** MATERIALES_DECLARADOS
+    - **justificacion:** Menciona materiales; su disponibilidad real requiere prueba.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA · MATERIALES_DECLARADOS
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 58**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `20225` |
-| `nombre` | `"Fiendsmith's Requiem"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `453` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"TRIBUTO","justificacion":"Puede exigir o habilitar sacrificio; confirmar coste frente a efecto."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 20225
+- **nombre:** Fiendsmith's Requiem
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 453
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** TRIBUTO
+    - **justificacion:** Puede exigir o habilitar sacrificio; confirmar coste frente a efecto.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 59**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `17746` |
-| `nombre` | `"Garura, Wings of Resonant Life"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `280` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · EFECTO_AL_ENVIARSE · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 17746
+- **nombre:** Garura, Wings of Resonant Life
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 280
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · EFECTO_AL_ENVIARSE · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 60**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `14676` |
-| `nombre` | `"I:P Masquerena"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `359` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 14676
+- **nombre:** I:P Masquerena
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 359
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 61**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `20226` |
-| `nombre` | `"Fiendsmith's Sequence"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `499` |
-| `acciones_identificadas` | `[{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"EQUIPO","justificacion":"Interacción con carta de equipo; confirmar lugar y controlador."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"SELECCION_OBJETIVO · EQUIPO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 20226
+- **nombre:** Fiendsmith's Sequence
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 499
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** EQUIPO
+    - **justificacion:** Interacción con carta de equipo; confirmar lugar y controlador.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** SELECCION_OBJETIVO · EQUIPO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 62**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `20214` |
-| `nombre` | `"Fiendsmith's Lacrima"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `462` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"EFECTO_AL_ENVIARSE","justificacion":"Recurso activado por evento de envío, destrucción o destierro."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · EFECTO_AL_ENVIARSE · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 20214
+- **nombre:** Fiendsmith's Lacrima
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 462
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** EFECTO_AL_ENVIARSE
+    - **justificacion:** Recurso activado por evento de envío, destrucción o destierro.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · EFECTO_AL_ENVIARSE · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 63**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `14356` |
-| `nombre` | `"Time Thief Redoer"` |
-| `zona` | `"Extra"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `483` |
-| `acciones_identificadas` | `[{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 14356
+- **nombre:** Time Thief Redoer
+- **zona:** Extra
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 483
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 64**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `20500` |
-| `nombre` | `"Mulcharmy Fuwalos"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `561` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 20500
+- **nombre:** Mulcharmy Fuwalos
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 561
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 65**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `14856` |
-| `nombre` | `"Cross-Sheep"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `516` |
-| `acciones_identificadas` | `[{"tipo":"INVOCACION_DESDE_CEMENTERIO","justificacion":"Recuperación o extensión desde Cementerio condicionada."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"INVOCACION_DESDE_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 14856
+- **nombre:** Cross-Sheep
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 516
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_CEMENTERIO
+    - **justificacion:** Recuperación o extensión desde Cementerio condicionada.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** INVOCACION_DESDE_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 66**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `18807` |
-| `nombre` | `"Unchained Soul of Shyama"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `378` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION · SELECCION_OBJETIVO · INVOCACION_ESPECIAL_REFERIDA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 18807
+- **nombre:** Unchained Soul of Shyama
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 378
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION · SELECCION_OBJETIVO · INVOCACION_ESPECIAL_REFERIDA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 67**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `13619` |
-| `nombre` | `"Called by the Grave"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `221` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO · SELECCION_OBJETIVO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 13619
+- **nombre:** Called by the Grave
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 221
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO · SELECCION_OBJETIVO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 68**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `12464` |
-| `nombre` | `"Cosmic Cyclone"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `62` |
-| `acciones_identificadas` | `[{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"PAGO_LP","justificacion":"Paga LP al activar si corresponde al coste."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTIERRO · SELECCION_OBJETIVO · PAGO_LP"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 12464
+- **nombre:** Cosmic Cyclone
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 62
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** PAGO_LP
+    - **justificacion:** Paga LP al activar si corresponde al coste.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTIERRO · SELECCION_OBJETIVO · PAGO_LP
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 69**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `4678` |
-| `nombre` | `"Harpie's Feather Duster"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `52` |
-| `acciones_identificadas` | `[{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESTRUCCION"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 4678
+- **nombre:** Harpie's Feather Duster
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 52
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESTRUCCION
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 70**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `5537` |
-| `nombre` | `"Terraforming"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `46` |
-| `acciones_identificadas` | `[{"tipo":"BUSQUEDA_O_ACCESO","justificacion":"Accede a recursos del Deck conforme a un disparador."},{"tipo":"BUSQUEDA_REFERIDA","justificacion":"Menciona acceso o adición de recursos; comprobar objeto y zona."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"BUSQUEDA_O_ACCESO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 5537
+- **nombre:** Terraforming
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 46
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** BUSQUEDA_O_ACCESO
+    - **justificacion:** Accede a recursos del Deck conforme a un disparador.
+  - Detalle:
+    - **tipo:** BUSQUEDA_REFERIDA
+    - **justificacion:** Menciona acceso o adición de recursos; comprobar objeto y zona.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** BUSQUEDA_O_ACCESO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 71**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `15296` |
-| `nombre` | `"Triple Tactics Talent"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `337` |
-| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"RECICLAJE","justificacion":"Devuelve o baraja recursos hacia Deck u otras zonas."},{"tipo":"CONTROL_RIVAL","justificacion":"Puede tomar control de monstruos bajo requisitos."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ROBO · RECICLAJE · CONTROL_RIVAL"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 15296
+- **nombre:** Triple Tactics Talent
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 337
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** RECICLAJE
+    - **justificacion:** Devuelve o baraja recursos hacia Deck u otras zonas.
+  - Detalle:
+    - **tipo:** CONTROL_RIVAL
+    - **justificacion:** Puede tomar control de monstruos bajo requisitos.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ROBO · RECICLAJE · CONTROL_RIVAL
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 72**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `656` |
-| `cid` | `13587` |
-| `nombre` | `"Ghost Belle & Haunted Mansion"` |
-| `zona` | `"Reserva"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `358` |
-| `acciones_identificadas` | `[{"tipo":"DESCARTE_COMO_COSTE","justificacion":"El texto contempla descartar; comprobar si es coste, condición o efecto."},{"tipo":"INTERRUPCION_AUTONOMA","justificacion":"Puede proporcionar interrupción o control sin combo propio."},{"tipo":"DESTIERRO","justificacion":"El texto menciona destierro; comprobar origen, objetivo y si es coste."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 656
+- **cid:** 13587
+- **nombre:** Ghost Belle &amp; Haunted Mansion
+- **zona:** Reserva
+- **fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&amp;ope=2&amp;request_locale=en
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 358
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** DESCARTE_COMO_COSTE
+    - **justificacion:** El texto contempla descartar; comprobar si es coste, condición o efecto.
+  - Detalle:
+    - **tipo:** INTERRUPCION_AUTONOMA
+    - **justificacion:** Puede proporcionar interrupción o control sin combo propio.
+  - Detalle:
+    - **tipo:** DESTIERRO
+    - **justificacion:** El texto menciona destierro; comprobar origen, objetivo y si es coste.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** DESCARTE_COMO_COSTE · INTERRUPCION_AUTONOMA
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 656 -->
@@ -3355,1003 +3833,1819 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 79**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:7445"` |
-| `deck_id` | `656` |
-| `cid` | `7445` |
-| `nombre` | `"Super Polymerization"` |
-| `zona` | `[{"zona":"Main","copias":2},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"402da88b"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:7445
+- **deck id:** 656
+- **cid:** 7445
+- **nombre:** Super Polymerization
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 402da88b
+- **funcion concreta en inventario:** ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 80**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20490"` |
-| `deck_id` | `656` |
-| `cid` | `20490` |
-| `nombre` | `"Lacrima the Crimson Tears"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1e6f18f7"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20490
+- **deck id:** 656
+- **cid:** 20490
+- **nombre:** Lacrima the Crimson Tears
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1e6f18f7
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 81**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17416"` |
-| `deck_id` | `656` |
-| `cid` | `17416` |
-| `nombre` | `"Tearlaments Havnis"` |
-| `zona` | `[{"zona":"Main","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"024f6310"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `["A06:REL:049","A06:REL:051"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17416
+- **deck id:** 656
+- **cid:** 17416
+- **nombre:** Tearlaments Havnis
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 024f6310
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - A06:REL:049
+  - A06:REL:051
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 82**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17462"` |
-| `deck_id` | `656` |
-| `cid` | `17462` |
-| `nombre` | `"Primeval Planet Perlereino"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1f9c9f09"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_FUSION · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:050"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17462
+- **deck id:** 656
+- **cid:** 17462
+- **nombre:** Primeval Planet Perlereino
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1f9c9f09
+- **funcion concreta en inventario:** CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_FUSION · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:050
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 83**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17768"` |
-| `deck_id` | `656` |
-| `cid` | `17768` |
-| `nombre` | `"Kashtira Fenrir"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"52415128"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17768
+- **deck id:** 656
+- **cid:** 17768
+- **nombre:** Kashtira Fenrir
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 52415128
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 84**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:12950"` |
-| `deck_id` | `656` |
-| `cid` | `12950` |
-| `nombre` | `"Ash Blossom & Joyous Spring"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6ecfa187"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:12950
+- **deck id:** 656
+- **cid:** 12950
+- **nombre:** Ash Blossom &amp; Joyous Spring
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6ecfa187
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RESPUESTA_NEGACION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 85**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17417"` |
-| `deck_id` | `656` |
-| `cid` | `17417` |
-| `nombre` | `"Tearlaments Reinoheart"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"ae8ea74d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."}]` |
-| `conexiones_concretas` | `["A06:REL:013","A06:REL:050","A06:REL:051"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17417
+- **deck id:** 656
+- **cid:** 17417
+- **nombre:** Tearlaments Reinoheart
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** ae8ea74d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+- **conexiones concretas:**
+  - A06:REL:013
+  - A06:REL:050
+  - A06:REL:051
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 86**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17415"` |
-| `deck_id` | `656` |
-| `cid` | `17415` |
-| `nombre` | `"Tearlaments Scheiren"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"bf184daf"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17415
+- **deck id:** 656
+- **cid:** 17415
+- **nombre:** Tearlaments Scheiren
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** bf184daf
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 87**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17414"` |
-| `deck_id` | `656` |
-| `cid` | `17414` |
-| `nombre` | `"Tearlaments Merrli"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d4e3ee89"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:126","A06:REL:127","A06:REL:128","A06:REL:129"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17414
+- **deck id:** 656
+- **cid:** 17414
+- **nombre:** Tearlaments Merrli
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d4e3ee89
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · ACCESO_FUSION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:126
+  - A06:REL:127
+  - A06:REL:128
+  - A06:REL:129
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 88**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:12800"` |
-| `deck_id` | `656` |
-| `cid` | `12800` |
-| `nombre` | `"Foolish Burial Goods"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"be8bda1e"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:12800
+- **deck id:** 656
+- **cid:** 12800
+- **nombre:** Foolish Burial Goods
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** be8bda1e
+- **funcion concreta en inventario:** CARGA_CEMENTERIO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 89**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:18219"` |
-| `deck_id` | `656` |
-| `cid` | `18219` |
-| `nombre` | `"Trivikarma"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"886ca239"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:18219
+- **deck id:** 656
+- **cid:** 18219
+- **nombre:** Trivikarma
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 886ca239
+- **funcion concreta en inventario:** CONSISTENCIA · CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 90**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17475"` |
-| `deck_id` | `656` |
-| `cid` | `17475` |
-| `nombre` | `"Tearlaments Cryme"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3e2e4cf7"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
-| `conexiones_concretas` | `["A06:REL:128","A06:REL:130"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17475
+- **deck id:** 656
+- **cid:** 17475
+- **nombre:** Tearlaments Cryme
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3e2e4cf7
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+- **conexiones concretas:**
+  - A06:REL:128
+  - A06:REL:130
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 91**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17813"` |
-| `deck_id` | `656` |
-| `cid` | `17813` |
-| `nombre` | `"Tearlaments Scream"` |
-| `zona` | `[{"zona":"Main","copias":1},{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3e2e4cf7"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
-| `conexiones_concretas` | `["A06:REL:126","A06:REL:130"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17813
+- **deck id:** 656
+- **cid:** 17813
+- **nombre:** Tearlaments Scream
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3e2e4cf7
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+- **conexiones concretas:**
+  - A06:REL:126
+  - A06:REL:130
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 92**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17604"` |
-| `deck_id` | `656` |
-| `cid` | `17604` |
-| `nombre` | `"Mudora the Sword Oracle"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"906a271d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17604
+- **deck id:** 656
+- **cid:** 17604
+- **nombre:** Mudora the Sword Oracle
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 906a271d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 93**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:19153"` |
-| `deck_id` | `656` |
-| `cid` | `19153` |
-| `nombre` | `"Imsety, Glory of Horus"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"5b00dbc4"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `["A06:REL:010","A06:REL:012"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:19153
+- **deck id:** 656
+- **cid:** 19153
+- **nombre:** Imsety, Glory of Horus
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 5b00dbc4
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - A06:REL:010
+  - A06:REL:012
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 94**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:8933"` |
-| `deck_id` | `656` |
-| `cid` | `8933` |
-| `nombre` | `"Effect Veiler"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"dbb52335"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:8933
+- **deck id:** 656
+- **cid:** 8933
+- **nombre:** Effect Veiler
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** dbb52335
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 95**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:22169"` |
-| `deck_id` | `656` |
-| `cid` | `22169` |
-| `nombre` | `"Forbidden Crown"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"8a5210d7"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · TRIBUTO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:22169
+- **deck id:** 656
+- **cid:** 22169
+- **nombre:** Forbidden Crown
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 8a5210d7
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · ACCESO_NORMAL · CONSISTENCIA · TRIBUTO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 96**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:18153"` |
-| `deck_id` | `656` |
-| `cid` | `18153` |
-| `nombre` | `"Tearlaments Kashtira"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"5381c06a"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:18153
+- **deck id:** 656
+- **cid:** 18153
+- **nombre:** Tearlaments Kashtira
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 5381c06a
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · CONTROL_DESTIERRO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 97**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:18204"` |
-| `deck_id` | `656` |
-| `cid` | `18204` |
-| `nombre` | `"Pressured Planet Wraitsoth"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"110a775f"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:18204
+- **deck id:** 656
+- **cid:** 18204
+- **nombre:** Pressured Planet Wraitsoth
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 110a775f
+- **funcion concreta en inventario:** CONSISTENCIA · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 98**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17473"` |
-| `deck_id` | `656` |
-| `cid` | `17473` |
-| `nombre` | `"Tearlaments Metanoise"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3e2e4cf7"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"COLOCACION","rol":"PREPARACION_CAMPO","alcance":"Prepara una carta en campo si el efecto lo permite; respetar ventana de activación."}]` |
-| `conexiones_concretas` | `["A06:REL:127","A06:REL:131"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17473
+- **deck id:** 656
+- **cid:** 17473
+- **nombre:** Tearlaments Metanoise
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3e2e4cf7
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · PREPARACION_CAMPO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** COLOCACION
+    - **rol:** PREPARACION_CAMPO
+    - **alcance:** Prepara una carta en campo si el efecto lo permite; respetar ventana de activación.
+- **conexiones concretas:**
+  - A06:REL:127
+  - A06:REL:131
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 99**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20196"` |
-| `deck_id` | `656` |
-| `cid` | `20196` |
-| `nombre` | `"Fiendsmith Engraver"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1f3bdf8d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · EQUIPAMIENTO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `["A06:REL:014"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20196
+- **deck id:** 656
+- **cid:** 20196
+- **nombre:** Fiendsmith Engraver
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1f3bdf8d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · CARGA_CEMENTERIO · EQUIPAMIENTO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - A06:REL:014
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 100**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:19200"` |
-| `deck_id` | `656` |
-| `cid` | `19200` |
-| `nombre` | `"King's Sarcophagus"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"afe938fe"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:010","A06:REL:011"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:19200
+- **deck id:** 656
+- **cid:** 19200
+- **nombre:** King's Sarcophagus
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** afe938fe
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:010
+  - A06:REL:011
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 101**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:19155"` |
-| `deck_id` | `656` |
-| `cid` | `19155` |
-| `nombre` | `"Hapi, Guidance of Horus"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"b01b0f3f"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:011"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:19155
+- **deck id:** 656
+- **cid:** 19155
+- **nombre:** Hapi, Guidance of Horus
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** b01b0f3f
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:011
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 102**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20240"` |
-| `deck_id` | `656` |
-| `cid` | `20240` |
-| `nombre` | `"Fiendsmith's Tract"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"22be773c"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA · CONTROL_DESTIERRO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:014","A06:REL:015"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20240
+- **deck id:** 656
+- **cid:** 20240
+- **nombre:** Fiendsmith's Tract
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 22be773c
+- **funcion concreta en inventario:** CONSISTENCIA · CONTROL_DESTIERRO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:014
+  - A06:REL:015
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 103**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:8092"` |
-| `deck_id` | `656` |
-| `cid` | `8092` |
-| `nombre` | `"Fabled Lurrie"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"32fcd230"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."}]` |
-| `conexiones_concretas` | `["A06:REL:015"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:8092
+- **deck id:** 656
+- **cid:** 8092
+- **nombre:** Fabled Lurrie
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 32fcd230
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+- **conexiones concretas:**
+  - A06:REL:015
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 104**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17603"` |
-| `deck_id` | `656` |
-| `cid` | `17603` |
-| `nombre` | `"Keldo the Sacred Protector"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"1ba12034"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17603
+- **deck id:** 656
+- **cid:** 17603
+- **nombre:** Keldo the Sacred Protector
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 1ba12034
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONSISTENCIA · CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 105**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20521"` |
-| `deck_id` | `656` |
-| `cid` | `20521` |
-| `nombre` | `"Fiendsmith's Agnumday"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"a5d796e5"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20521
+- **deck id:** 656
+- **cid:** 20521
+- **nombre:** Fiendsmith's Agnumday
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** a5d796e5
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · EQUIPAMIENTO · SELECCION_OBJETIVO · PRESION_LP · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 106**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17803"` |
-| `deck_id` | `656` |
-| `cid` | `17803` |
-| `nombre` | `"Spright Sprind"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"65e61653"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO · ACCESO_XYZ · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"XYZ","rol":"ACCESO_XYZ","alcance":"Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17803
+- **deck id:** 656
+- **cid:** 17803
+- **nombre:** Spright Sprind
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 65e61653
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO · ACCESO_XYZ · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** XYZ
+    - **rol:** ACCESO_XYZ
+    - **alcance:** Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 107**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:19188"` |
-| `deck_id` | `656` |
-| `cid` | `19188` |
-| `nombre` | `"S:P Little Knight"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3b99386c"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:19188
+- **deck id:** 656
+- **cid:** 19188
+- **nombre:** S:P Little Knight
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3b99386c
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 108**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20225"` |
-| `deck_id` | `656` |
-| `cid` | `20225` |
-| `nombre` | `"Fiendsmith's Requiem"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"90c35866"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · EQUIPAMIENTO · SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20225
+- **deck id:** 656
+- **cid:** 20225
+- **nombre:** Fiendsmith's Requiem
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 90c35866
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · EQUIPAMIENTO · SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 109**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17746"` |
-| `deck_id` | `656` |
-| `cid` | `17746` |
-| `nombre` | `"Garura, Wings of Resonant Life"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"449ad9a6"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO · TRIBUTO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17746
+- **deck id:** 656
+- **cid:** 17746
+- **nombre:** Garura, Wings of Resonant Life
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 449ad9a6
+- **funcion concreta en inventario:** RECUPERACION_MANO · TRIBUTO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 110**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:12870"` |
-| `deck_id` | `656` |
-| `cid` | `12870` |
-| `nombre` | `"Predaplant Dragostapelia"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"84fbf345"` |
-| `funcion_concreta_en_inventario` | `"RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_FUSION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:12870
+- **deck id:** 656
+- **cid:** 12870
+- **nombre:** Predaplant Dragostapelia
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 84fbf345
+- **funcion concreta en inventario:** RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_FUSION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 111**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:17445"` |
-| `deck_id` | `656` |
-| `cid` | `17445` |
-| `nombre` | `"Tearlaments Kaleido-Heart"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"488cb375"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `["A06:REL:013","A06:REL:049","A06:REL:129","A06:REL:131"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:17445
+- **deck id:** 656
+- **cid:** 17445
+- **nombre:** Tearlaments Kaleido-Heart
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 488cb375
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - A06:REL:013
+  - A06:REL:049
+  - A06:REL:129
+  - A06:REL:131
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 112**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:14676"` |
-| `deck_id` | `656` |
-| `cid` | `14676` |
-| `nombre` | `"I:P Masquerena"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"26e69366"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:14676
+- **deck id:** 656
+- **cid:** 14676
+- **nombre:** I:P Masquerena
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 26e69366
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 113**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20226"` |
-| `deck_id` | `656` |
-| `cid` | `20226` |
-| `nombre` | `"Fiendsmith's Sequence"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"19fd6940"` |
-| `funcion_concreta_en_inventario` | `"EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"EQUIPO","rol":"EQUIPAMIENTO","alcance":"Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20226
+- **deck id:** 656
+- **cid:** 20226
+- **nombre:** Fiendsmith's Sequence
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 19fd6940
+- **funcion concreta en inventario:** EQUIPAMIENTO · SELECCION_OBJETIVO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** EQUIPO
+    - **rol:** EQUIPAMIENTO
+    - **alcance:** Interacción con Equip; distinguir carta equipada de material Xyz y destino de equipo.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 114**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:13454"` |
-| `deck_id` | `656` |
-| `cid` | `13454` |
-| `nombre` | `"Mudragon of the Swamp"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"652f833d"` |
-| `funcion_concreta_en_inventario` | `"SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:13454
+- **deck id:** 656
+- **cid:** 13454
+- **nombre:** Mudragon of the Swamp
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 652f833d
+- **funcion concreta en inventario:** SELECCION_OBJETIVO · TRIBUTO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 115**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20214"` |
-| `deck_id` | `656` |
-| `cid` | `20214` |
-| `nombre` | `"Fiendsmith's Lacrima"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"45d6c9a9"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20214
+- **deck id:** 656
+- **cid:** 20214
+- **nombre:** Fiendsmith's Lacrima
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 45d6c9a9
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · SELECCION_OBJETIVO · ACCESO_FUSION · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 116**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:11005"` |
-| `deck_id` | `656` |
-| `cid` | `11005` |
-| `nombre` | `"Pilgrim Reaper"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"d81036bc"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:11005
+- **deck id:** 656
+- **cid:** 11005
+- **nombre:** Pilgrim Reaper
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** d81036bc
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 117**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:16850"` |
-| `deck_id` | `656` |
-| `cid` | `16850` |
-| `nombre` | `"The Zombie Vampire"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"551effd6"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO · ACCESO_XYZ"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."},{"clave":"XYZ","rol":"ACCESO_XYZ","alcance":"Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento."}]` |
-| `conexiones_concretas` | `["A06:REL:012"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:16850
+- **deck id:** 656
+- **cid:** 16850
+- **nombre:** The Zombie Vampire
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 551effd6
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · SELECCION_OBJETIVO · ACCESO_XYZ
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+  - Detalle:
+    - **clave:** XYZ
+    - **rol:** ACCESO_XYZ
+    - **alcance:** Si corresponde a Xyz, comprobar Niveles, Rangos, materiales y procedimiento.
+- **conexiones concretas:**
+  - A06:REL:012
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 118**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:10942"` |
-| `deck_id` | `656` |
-| `cid` | `10942` |
-| `nombre` | `"Evilswarm Exciton Knight"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"eafe0ac9"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · PRESION_LP · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:10942
+- **deck id:** 656
+- **cid:** 10942
+- **nombre:** Evilswarm Exciton Knight
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** eafe0ac9
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · PRESION_LP · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 119**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:14356"` |
-| `deck_id` | `656` |
-| `cid` | `14356` |
-| `nombre` | `"Time Thief Redoer"` |
-| `zona` | `[{"zona":"Extra","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"426c84cd"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RECUPERACION_MANO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:14356
+- **deck id:** 656
+- **cid:** 14356
+- **nombre:** Time Thief Redoer
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 426c84cd
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · RECUPERACION_MANO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 120**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:20500"` |
-| `deck_id` | `656` |
-| `cid` | `20500` |
-| `nombre` | `"Mulcharmy Fuwalos"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"8a8de9ad"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:20500
+- **deck id:** 656
+- **cid:** 20500
+- **nombre:** Mulcharmy Fuwalos
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 8a8de9ad
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · RECUPERACION_MANO · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 121**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:14856"` |
-| `deck_id` | `656` |
-| `cid` | `14856` |
-| `nombre` | `"Cross-Sheep"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"3bc0a85e"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · RECUPERACION_MANO · PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:14856
+- **deck id:** 656
+- **cid:** 14856
+- **nombre:** Cross-Sheep
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 3bc0a85e
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · RECUPERACION_MANO · PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 122**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:18807"` |
-| `deck_id` | `656` |
-| `cid` | `18807` |
-| `nombre` | `"Unchained Soul of Shyama"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"192309d6"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:18807
+- **deck id:** 656
+- **cid:** 18807
+- **nombre:** Unchained Soul of Shyama
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 192309d6
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 123**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:13619"` |
-| `deck_id` | `656` |
-| `cid` | `13619` |
-| `nombre` | `"Called by the Grave"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"01d8bd35"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:13619
+- **deck id:** 656
+- **cid:** 13619
+- **nombre:** Called by the Grave
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 01d8bd35
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · RESPUESTA_NEGACION · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 124**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:12464"` |
-| `deck_id` | `656` |
-| `cid` | `12464` |
-| `nombre` | `"Cosmic Cyclone"` |
-| `zona` | `[{"zona":"Reserva","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6b003712"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_DESTIERRO · SELECCION_OBJETIVO"` |
-| `justificacion_por_texto` | `[{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"OBJETIVO","rol":"SELECCION_OBJETIVO","alcance":"Comprobar objetivo legal al activar y persistencia al resolver."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:12464
+- **deck id:** 656
+- **cid:** 12464
+- **nombre:** Cosmic Cyclone
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6b003712
+- **funcion concreta en inventario:** CONTROL_DESTIERRO · SELECCION_OBJETIVO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** OBJETIVO
+    - **rol:** SELECCION_OBJETIVO
+    - **alcance:** Comprobar objetivo legal al activar y persistencia al resolver.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 125**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:4678"` |
-| `deck_id` | `656` |
-| `cid` | `4678` |
-| `nombre` | `"Harpie's Feather Duster"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"4a9f2e80"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:4678
+- **deck id:** 656
+- **cid:** 4678
+- **nombre:** Harpie's Feather Duster
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 4a9f2e80
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 126**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:5537"` |
-| `deck_id` | `656` |
-| `cid` | `5537` |
-| `nombre` | `"Terraforming"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"bec9a43a"` |
-| `funcion_concreta_en_inventario` | `"CONSISTENCIA"` |
-| `justificacion_por_texto` | `[{"clave":"BUSQUEDA_DECK","rol":"CONSISTENCIA","alcance":"Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:5537
+- **deck id:** 656
+- **cid:** 5537
+- **nombre:** Terraforming
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** bec9a43a
+- **funcion concreta en inventario:** CONSISTENCIA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** BUSQUEDA_DECK
+    - **rol:** CONSISTENCIA
+    - **alcance:** Accede a una carta desde el Deck en la forma autorizada, y se puede interrumpir.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 127**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:15296"` |
-| `deck_id` | `656` |
-| `cid` | `15296` |
-| `nombre` | `"Triple Tactics Talent"` |
-| `zona` | `[{"zona":"Reserva","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"6f5a85ef"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:15296
+- **deck id:** 656
+- **cid:** 15296
+- **nombre:** Triple Tactics Talent
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 6f5a85ef
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 128**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"656:CARD:13587"` |
-| `deck_id` | `656` |
-| `cid` | `13587` |
-| `nombre` | `"Ghost Belle & Haunted Mansion"` |
-| `zona` | `[{"zona":"Reserva","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en"` |
-| `huella_texto_oficial` | `"37a14ba0"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · RESPUESTA_NEGACION · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTIERRO","rol":"CONTROL_DESTIERRO","alcance":"El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto."},{"clave":"NEGACION","rol":"RESPUESTA_NEGACION","alcance":"La negación afecta solamente lo que se nombra y requiere la ventana legal."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
-| `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 656:CARD:13587
+- **deck id:** 656
+- **cid:** 13587
+- **nombre:** Ghost Belle &amp; Haunted Mansion
+- **zona:**
+  - Detalle:
+    - **zona:** Reserva
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&amp;ope=2&amp;request_locale=en
+- **huella texto oficial:** 37a14ba0
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CONTROL_DESTIERRO · RESPUESTA_NEGACION · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTIERRO
+    - **rol:** CONTROL_DESTIERRO
+    - **alcance:** El destierro exige zona, objetivo y tipo boca arriba/abajo definidos por el texto.
+  - Detalle:
+    - **clave:** NEGACION
+    - **rol:** RESPUESTA_NEGACION
+    - **alcance:** La negación afecta solamente lo que se nombra y requiere la ventana legal.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta en Reserva; no cuenta como carta jugable de la lista activa.
+- **calidad verificacion:** COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_656 -->
 ### Fichas de cartas y sinergias documentadas
@@ -5075,3 +6369,440 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: Sin Skill externa en este dossier
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `656:A09:ENGRAVER:LACRIMA01` | [Desarrollar el motor Demoniherrero hacia Lacrima](imagenes/infografias/656_A09_ENGRAVER_LACRIMA01.webp) |
+| `656:A09:REINO:SCHEIREN:KALEIDO01` | [Conseguir materiales para Kaleido-Heart con Reinoheart/Scheiren](imagenes/infografias/656_A09_REINO_SCHEIREN_KALEIDO01.webp) |
+| `656:A09:REINO:MERRLI:KALEIDO01` | [Ruta alternativa a Kaleido-Heart mediante Merrli](imagenes/infografias/656_A09_REINO_MERRLI_KALEIDO01.webp) |
+| `656:A09:REINO:SCHEIREN:HAVNIS_HAND01` | [Administrar Havnis desde mano y desarrollar el motor Tearlaments](imagenes/infografias/656_A09_REINO_SCHEIREN_HAVNIS_HAND01.webp) |
+| `656:A09:REINO:MERRLI:SCHEIREN_HAND01` | [Manejar Merrli/Scheiren disponibles en mano](imagenes/infografias/656_A09_REINO_MERRLI_SCHEIREN_HAND01.webp) |
+| `656:A09:SARC:IMSETY_HAPI:ZOMBIE01` | [Preparar cuerpos Horus para un Xyz propio del paquete](imagenes/infografias/656_A09_SARC_IMSETY_HAPI_ZOMBIE01.webp) |
+| `656:A09:IMSETY:SARC_HAPI:ZOMBIE01` | [Acceso alternativo al Xyz Horus desde Imsety](imagenes/infografias/656_A09_IMSETY_SARC_HAPI_ZOMBIE01.webp) |
+| `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01` | [Llevar Scream/Metanoise hacia la ruta de Fusión](imagenes/infografias/656_A09_GOODS_SCREAM_METANOISE_KALEIDO01.webp) |
+| `656:A09:GOODS:SCREAM:CRYME:KALEIDO02` | [Variante con Scream/Cryme para preparar la Fusión](imagenes/infografias/656_A09_GOODS_SCREAM_CRYME_KALEIDO02.webp) |
+| `656:A09:SUPERPOLY:GARURA10` | [Súper Polimerización: invocar Garura usando el campo rival](imagenes/infografias/656_A09_SUPERPOLY_GARURA10.webp) |
+| `656:A09:FENRIR:REINO:SP_DIRECTA11` | [Fenrir + Reinoheart: S:P como defensa temporal](imagenes/infografias/656_A09_FENRIR_REINO_SP_DIRECTA11.webp) |
+| `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12` | [Fenrir + Reinoheart: preparar I:P y continuar hacia S:P](imagenes/infografias/656_A09_FENRIR_REINO_SCHEIREN_IP_SP12.webp) |
+
+### Guias visuales documentales para el Extra
+
+Casos historicos sujetos a sus condiciones y pendientes; no acreditan validacion de motor ni de mesa.
+
+<section class="route"><header><div><img src="imagenes/tcg/20521.jpg" alt="Fiendsmith&#39;s Agnumday" loading="lazy"></div><div><small>DECK Tearlaments · CID 20521</small><h2>Fiendsmith&#39;s Agnumday</h2><span class="status">Acceso legal con precondiciones · cotejo documental</span><p><b>Mano y campo requeridos:</b> Engraver en mano; Tract, Lurrie y Lacrima Crimson en Deck; Requiem, Sequence, Fusion Lacrima y Agnumday en Extra.</p></div></header><h3>Pasos de la jugada</h3><ol><li>Activar Fiendsmith Engraver desde mano: DESCARTARLO como coste; añadir del Deck Fiendsmith&#39;s Tract (20240).</li><li>Activar Fiendsmith&#39;s Tract: añadir Fabled Lurrie (8092) del Deck y después DESCARTARLO por resolución (no coste).</li><li>Usar Lurrie (LIGHT Fiend Nivel 1) para Invocación por Enlace de Fiendsmith&#39;s Requiem (20225), Link 1.</li><li>Tributar Requiem como coste para Invocar Especial desde Deck a Lacrima the Crimson Tears (20490, Nivel4 LIGHT Fiend).</li><li>Opcional, Lacrima Crimson al llegar puede mandar otra carta Fiendsmith del Deck al GY; no se necesita para el camino base.</li><li>En GY, Engraver (descartado inicialmente) devuelve Requiem LIGHT Fiend del GY al Extra Deck como coste y se Invoca Especial.</li><li>Enlazar Engraver + Lacrima Crimson para Fiendsmith&#39;s Sequence Link2 (requiere incluir LIGHT Fiend).</li><li>Sequence activa su efecto de Fusión en Main; barajar desde GY Engraver + Lacrima Crimson (ambos LIGHT Fiend) para Invocar Fiendsmith&#39;s Lacrima (Fusion LV6).</li><li>Invocar Agnumday Link3 usando Sequence como valor Link2 + Fiendsmith&#39;s Lacrima como valor1; dos cuerpos, uno LIGHT Fiend.</li><li>Nueva cadena de la Fusion Lacrima enviada al GY: si aún tienes Lurrie LIGHT Fiend en GY, barajarlo para infligir 1200. Después, Agnumday puede seleccionar Fusion Lacrima en GY, Invocarla y equiparse a ella como Equip Spell.</li></ol><p class="result"><b>Campo y objetivo:</b> Descartar Engraver→Tract; Tract busca y descarta Lurrie que se Invoca; Lurrie→Requiem; tributar Requiem para traer Lacrima Crimson; Engraver desde GY devuelve Requiem al Extra e Invoca; Engraver+Lacrima→Sequence; Sequence Fusion invoca Lacrima usando esos dos del GY; Sequence Link2 + Fusion Lacrima forman Agnumday Link3.</p><p class="warning"><b>Límite / interrupción:</b> La Fusion Lacrima requiere dos Demonios LUZ (ambos disponibles). La invocación posterior/equipado por Agnumday requiere objetivo Demonio LUZ no Link en GY; no simular batalla.</p><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&amp;ope=2&amp;request_locale=en">Texto oficial del monstruo del Extra</a></section>
+
+<section class="route"><header><div><img src="imagenes/tcg/17803.jpg" alt="Spright Sprind" loading="lazy"></div><div><small>DECK Tearlaments · CID 17803</small><h2>Spright Sprind</h2><span class="status">Acceso legal con precondiciones · cotejo documental</span><p><b>Mano y campo requeridos:</b> Fenrir y Merrli en mano, campo propio vacío, Sprind en Extra.</p></div></header><h3>Pasos de la jugada</h3><ol><li>Con campo propio vacío, Invocar Especial a Kashtira Fenrir Lv7 desde mano por su condición.</li><li>Invocar Normalmente a Tearlaments Merrli Nivel2; su mill de 3 al Invocarse es opcional y puede resolverse si es oportuno.</li><li>Invocar por Enlace Spright Sprind Link2 con Fenrir y Merrli (se cumple el requisito de incluir un monstruo Nivel2).</li><li>No activar el efecto de Sprind que manda Nivel2 del Deck si no queda OTRO Nivel2 real. En inventario no figura segunda Merrli ni otra carta Nivel2 en Main.</li></ol><p class="result"><b>Campo y objetivo:</b> Invocar Especial Fenrir por su condición de campo vacío. Normal Merrli Nivel2. Enlazar Fenrir + Merrli para Spright Sprind Link2 (incluye monstruo Nivel2).</p><p class="warning"><b>Límite / interrupción:</b> No activar el envío de Nivel2 al cementerio si la lista no tiene otro objetivo Nivel2 en Deck. Sprind no puede utilizarse de material Link ese turno.</p><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&amp;ope=2&amp;request_locale=en">Texto oficial del monstruo del Extra</a></section>
+
+<section class="route"><header><div><img src="imagenes/tcg/11005.jpg" alt="Pilgrim Reaper" loading="lazy"></div><div><small>DECK Tearlaments · CID 11005</small><h2>Pilgrim Reaper</h2><span class="status">Acceso legal con precondiciones · cotejo documental</span><p><b>Mano y campo requeridos:</b> Engraver en mano, segunda copia Engraver en Deck, Tract y Lurrie en Deck; Requiem en Extra.</p></div></header><h3>Pasos de la jugada</h3><ol><li>Activar Fiendsmith Engraver desde mano: DESCARTARLO como coste; añadir del Deck Fiendsmith&#39;s Tract (20240).</li><li>Activar Fiendsmith&#39;s Tract: añadir Fabled Lurrie (8092) del Deck y después DESCARTARLO por resolución (no coste).</li><li>Usar Lurrie (LIGHT Fiend Nivel 1) para Invocación por Enlace de Fiendsmith&#39;s Requiem (20225), Link 1.</li><li>Tributar Fiendsmith&#39;s Requiem como COSTE para Invocar Especial del Deck una SEGUNDA copia de Fiendsmith Engraver (Nivel6 LIGHT Fiend).</li><li>Desde GY, activar el Engraver #1 descartado antes; devolver al Deck el Fabled Lurrie LIGHT Fiend que quedó en GY como material de Requiem.</li><li>Superponer los 2 Engraver Nivel6 para Pilgrim Reaper Rank6. Opcional: desacoplar 1 material para mandar las 5 cartas superiores de AMBOS Decks al GY.</li></ol><p class="result"><b>Campo y objetivo:</b> Descartar Engraver→Tract→Lurrie descartada y auto-Invocada; Link Requiem con Lurrie; tributar Requiem para traer Engraver #2 de Deck; Engraver #1 desde GY devuelve Lurrie de GY a Deck y se Invoca; dos Nivel6 forman Pilgrim Reaper.</p><p class="warning"><b>Límite / interrupción:</b> Su desacople envía cinco cartas de AMBOS Decks; calcular riesgo de recursos propios y de activar efectos rivales.</p><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&amp;ope=2&amp;request_locale=en">Texto oficial del monstruo del Extra</a></section>
+
+<section class="route"><header><div><img src="imagenes/tcg/10942.jpg" alt="Evilswarm Exciton Knight" loading="lazy"></div><div><small>DECK Tearlaments · CID 10942</small><h2>Evilswarm Exciton Knight</h2><span class="status">Acceso legal con precondiciones · cotejo documental</span><p><b>Mano y campo requeridos:</b> Reinoheart y Scheiren y otro monstruo descartable en mano; rival con más cartas entre mano+campo que tú en la ventana de activación.</p></div></header><h3>Pasos de la jugada</h3><ol><li>Normal Summon a Reinoheart Nivel4; su envío Tearlaments desde Deck al GY es opcional y no se presupone para esta línea.</li><li>Activar Scheiren en mano: Especial Scheiren Nivel4, y al resolver ENVIAR otro monstruo desde mano al GY, luego enviar 3 cartas superiores del Deck al GY.</li><li>Xyz Summon Evilswarm Exciton Knight Rank4 usando ambos monstruos.</li><li>Si el rival tiene MÁS cartas en mano+campo que tú, durante Main propia o Battle rival activar efecto de Exciton desacoplando un material: destruir todas las otras cartas en campo.</li></ol><p class="result"><b>Campo y objetivo:</b> Normal Reinoheart4. Especial Scheiren4, envía otro monstruo desde mano al GY y tres cartas desde Deck al GY. Superponer ambos Nivel4 para Evilswarm Exciton Knight.</p><p class="warning"><b>Límite / interrupción:</b> Su destrucción global NO es incondicional: requiere desventaja numérica y Main propia o Battle rival; tras resolver impide daño al adversario ese turno.</p><a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&amp;ope=2&amp;request_locale=en">Texto oficial del monstruo del Extra</a></section>
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Ocultador de Efectos (CID 8933), Keldo la Protectora Sagrada (CID 17603), Trivikarma (CID 18219), Tracto del Demoniherrero (CID 20240), Crimanto Tiagrimientos (CID 17475). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Corona Prohibida (CID 22169), Bienes del Entierro Insensato (CID 12800), Bienes del Entierro Insensato (CID 12800), Crimanto Tiagrimientos (CID 17475), Planeta Bajo Presión Wraitsoth (CID 18204). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Crimanto Tiagrimientos (CID 17475), Corona Prohibida (CID 22169), Tiagrimientos Kashtira (CID 18153), Kashtira Fenrir (CID 17768), Flor de Ceniza & Primavera Feliz (CID 12950). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** Tiagrimientos Reinoheart (CID 17417), Corona Prohibida (CID 22169), Tiagrimientos Kashtira (CID 18153), Trivikarma (CID 18219), Amset, Gloria de Horus (CID 19153). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Kashtira Fenrir (CID 17768), Demoniherrero Grabador (CID 20196), Ocultador de Efectos (CID 8933), Sarcófago del Rey (CID 19200), Grito Tiagrimientos (CID 17813). Engraver sin Tract ni Lurrie en mano: presente; Sarcófago del Rey en mano: presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Amset, Gloria de Horus (CID 19153), Tiagrimientos Kashtira (CID 18153), Kashtira Fenrir (CID 17768), Bienes del Entierro Insensato (CID 12800), Mudora el Oráculo de la Espada (CID 17604). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Mudora el Oráculo de la Espada (CID 17604), Planeta Primigenio Perlerreino (CID 17462), Ocultador de Efectos (CID 8933), Corona Prohibida (CID 22169), Amset, Gloria de Horus (CID 19153). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Fabuloso Lurrie (CID 8092), Tiagrimientos Kashtira (CID 18153), Mudora el Oráculo de la Espada (CID 17604), Demoniherrero Grabador (CID 20196), Tiagrimientos Kashtira (CID 18153). Engraver sin Tract ni Lurrie en mano: presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Grito Tiagrimientos (CID 17813), Súper Polimerización (CID 7445), Kashtira Fenrir (CID 17768), Flor de Ceniza & Primavera Feliz (CID 12950), Bienes del Entierro Insensato (CID 12800). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Bienes del Entierro Insensato (CID 12800), Tiagrimientos Kashtira (CID 18153), Keldo la Protectora Sagrada (CID 17603), Planeta Bajo Presión Wraitsoth (CID 18204), Metarruido Tiagrimientos (CID 17473). Engraver sin Tract ni Lurrie en mano: no presente; Sarcófago del Rey en mano: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **656:PRACTICA:V14:1 ? Horus y Tear:** Envío una Tearlaments Kashtira de mano al GY como coste de Sarc. ¿Se activa un efecto que dice enviada por efecto? **Respuesta documentada:** No: un coste no cumple enviada por efecto. (DECISION_REAL_NO_PREDICCION).
+- **656:PRACTICA:V14:2 ? Zombie Vampire:** Rival juega motor que activa mill del GY. ¿Debo usar Zombie Vampire siempre? **Respuesta documentada:** No: el mill4 de ambas barajas puede dar más ventaja al rival; evaluar antes de desacoplar. (DECISION_REAL_NO_PREDICCION).
+- **656:PRACTICA:V14:3 ? SuperPoly:** Rival solo controla un OSCURIDAD; tienes Garura en Extra. ¿Es Fusion garantizada? **Respuesta documentada:** No: comprobar materiales exactos, atributos y número; no puedes inventar segundo cuerpo. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Backrow continua o cartas que conviene desterrar:** Necesitas respuesta rápida a M/T sin exigir que Scream/Mill produzcan destrucción azarosa. Entradas propuestas: 2 x CID 12464 (Reserva). Salidas propuestas: 2 x CID 22169 (Main). Candidata sustituir dos Forbidden Crown solo si tu mesa requiere menos negociación de monstruos; no es un Side operativo actual. Cosmic Cyclone requiere pagar 1000 LP y seleccionar una M/T para DESTERRARLA, sin destruir. No contar este cambio ni recurso como jugable hasta convertirlo en una lista nueva aprobada. Goods→Trivikarma y Reinoheart siguen usando el Main original sin modificación. Si no se cambia: El plan legal actual incluye Super Polymerization y las M/T del Main; Cosmic sólo está en Reserva. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+- **Cementerio con reciclaje/reanimación clave:** El valor está en responder activaciones relativas al GY, no en forzar mil3 del rival. Entradas propuestas: 3 x CID 13587 (Reserva). Salidas propuestas: 3 x CID 12950 (Main). Intercambio hipotético de handtraps sólo contra objetivo de GY verificable; 3 Ash actuales siguen vigentes hasta autorización. Ghost Belle responde sólo a efectos que incluyen una de sus acciones cubiertas relativas al GY; NO niega cualquier efecto por estar en el cementerio. Evita mandar tres cartas del Deck rival al GY mediante Tearlaments Kashtira si alimenta su motor. Registrar activación concreta y recurso que se niega, no solo nombre de arquetipo. Si no se cambia: Ash Blossom del Main puede interactuar con búsqueda/mill desde Deck pero no reemplaza automáticamente Ghost Belle. Estado: CANDIDATO_RESERVA_NO_JUGABLE.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Desarrollar el motor Demoniherrero hacia Lacrima** ? `656:A09:ENGRAVER:LACRIMA01:PRACTICA_V06`, `656:A09:ENGRAVER:LACRIMA01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Demoniherrero Grabador (20196) solamente. Campo/GY vacíos, Main Phase propia, sin interferencia rival. En Deck quedan al menos Tracto del Demoniherrero (20240), Fabuloso Lurrie (8092) y una segunda copia de Grabador (el inventario contiene 3). Extra disponible: Réquiem (20225), Secuencia (20226), Lácrima del Demoniherrero (20214). No usar cartas de la Reserva ni suponer cartas robadas.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Descartar Grabador de mano al GY como coste para activar su efecto CL1: añadir Tracto desde Deck.; last action: Estado final: Lácrima del Demoniherrero ATK 3000 (2400 + 600), Secuencia y Réquiem equipados ocupan dos zonas M/T.; expected final: 9. Estado final: Lácrima del Demoniherrero ATK 3000 (2400 + 600), Secuencia y Réquiem equipados ocupan dos zonas M/T; adversarios con monstruos pierden 600 ATK por el efecto continuo de Lácrima. Tracto en GY; Lurrie y ambos Grabador barajados al Deck; Normal sin gastar, mano inicial vacía. No hay dos Enlaces adicionales en zonas de monstruos: ambos son Equipos. Ninguna carta Tiagrimientos ha sido enviada ni fusionada mediante esta línea.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/20196.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/8092.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/8933.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/20214.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Conseguir materiales para Kaleido-Heart con Reinoheart/Scheiren** ? `656:A09:REINO:SCHEIREN:KALEIDO01:PRACTICA_V06`, `656:A09:REINO:SCHEIREN:KALEIDO01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Reinoheart en mano, Havnis previamente en GY, Scheiren en Deck y Kaleido-Heart disponible en Extra; Main Phase propia, Normal libre y rival sin responder.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Invocar Normalmente Reinoheart en posición de Ataque, Nivel 4 Guerrero/AGUA.; last action: Si el rival controla una carta seleccionable y que puede barajarse, el efecto disparado de Kaleido-Heart al ser Invocado Especialmente puede seleccionar 1 carta del rival y barajarla al Deck en nueva cadena.; expected final: Endboard sin respuesta: Kaleido-Heart 3000 ATK / 3000 DEF en Zona de Monstruos propia, Normal gastada. Reinoheart, Scheiren y Havnis en la parte inferior del Deck; GY propio sin esos tres materiales; mano inicial consumida. Si el rival tenía objetivo legal y nada responde, una carta rival fue barajada al Deck, no destruida ni desterrada; daño causado 0 LP, sin negación inherente por esa secuencia. No hay otras Fusiones ni monstruos Tiagrimientos en Campo. Vulnerabilidades: negar el envío de Reinoheart, desplazar Havnis antes de la Fusión, negar el disparador de Scheiren o impedir la Invocación Fusión; tratar en A12–A13.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Ruta alternativa a Kaleido-Heart mediante Merrli** ? `656:A09:REINO:MERRLI:KALEIDO01:PRACTICA_V06`, `656:A09:REINO:MERRLI:KALEIDO01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Reinoheart en mano, Havnis previamente en GY, Merrli en Deck y Kaleido-Heart en Extra; mismo estado inicial, variante excluyente de Scheiren.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Summon Reinoheart y activar su efecto CL1 para enviar Merrli desde Deck al GY por efecto.; last action: Si existe objetivo rival legal, activar el efecto de Kaleido-Heart disparado por su Invocación Especial para barajar 1 carta rival al Deck; si no, dejar únicamente el monstruo Fusión.; expected final: Resultado: Kaleido-Heart ATK 3000 / DEF 3000, Normal usada, Reinoheart + Merrli + Havnis devueltos al fondo. La otra copia de Scheiren, si permanece en Deck, no fue utilizada. Retirada rival condicional y 0 daño automático. Distinción útil: consume la única Merrli de la lista en vez de la única Scheiren; por tanto recursos posteriores, efectos ya usados y respuestas difieren. Es una variante separada por materiales, no una duplicación del mismo procedimiento.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Administrar Havnis desde mano y desarrollar el motor Tearlaments** ? `656:A09:REINO:SCHEIREN:HAVNIS_HAND01:PRACTICA_V06`, `656:A09:REINO:SCHEIREN:HAVNIS_HAND01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Reinoheart + Havnis. Deck: Scheiren disponible; Extra: Kaleido-Heart. Campo y GY propios vacíos, Normal libre, Main Phase propia, sin bloqueos ni respuestas. Un objetivo rival seleccionable es opcional para la remoción.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Normal Summon Reinoheart (mano→Campo), Normal gastada; activar CL1 su envío desde Deck y resolver Scheiren Deck→GY por efecto.; last action: Si hay una carta rival legal, el disparo de Kaleido al ser Invocado Especialmente puede seleccionarla y barajarla al Deck en cadena nueva.; expected final: Endboard: Kaleido-Heart 3000 ATK / 3000 DEF; Reinoheart, Havnis y Scheiren al fondo del Deck, sin esos materiales en Campo/GY/mano; Normal gastada, 0 daño automático, sin otros efectos de Havnis disparados (fue devuelta del área de mano al Deck como material). Esta variante tiene un recurso inicial en mano y ninguna preparación previa de GY, por lo que no se fusiona con REINO:SCHEIREN:KALEIDO01.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Manejar Merrli/Scheiren disponibles en mano** ? `656:A09:REINO:MERRLI:SCHEIREN_HAND01:PRACTICA_V06`, `656:A09:REINO:MERRLI:SCHEIREN_HAND01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Reinoheart + Scheiren. Deck: Merrli disponible. Extra: Kaleido-Heart; GY/Campo propios vacíos; Normal sin gastar; Main Phase propia sin respuestas/bloqueos. No se supone Havnis en GY ni en mano.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Normal Summon Reinoheart y activar CL1: enviar Merrli Deck→GY por efecto, consumiendo la Normal del turno.; last action: De existir objetivo rival legal, Kaleido puede barajar 1 carta rival al Deck en una cadena posterior a su Invocación Especial; no atribuir otra destrucción, daño, extensión ni búsqueda.; expected final: Endboard: Kaleido-Heart 3000 ATK / 3000 DEF; Reinoheart, Merrli y Scheiren al fondo del Deck; Normal gastada, mano inicial consumida, GY sin esos materiales. La copia de Havnis sigue donde estuviera (en este estado mínimo, Deck). Es otra variante por material disparador y recursos iniciales, no una segunda Fusión simultánea.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Preparar cuerpos Horus para un Xyz propio del paquete** ? `656:A09:SARC:IMSETY_HAPI:ZOMBIE01:PRACTICA_V06`, `656:A09:SARC:IMSETY_HAPI:ZOMBIE01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: 1× Sarcófago del Rey + 2× Tiagrimientos Kashtira (hay 3 copias en Main; se emplean aquí exclusivamente como cartas que pueden enviarse al GY). Campo, GY y destierro propios iniciales: vacíos; Normal: disponible; rival: sin respuesta/interferencia; restricciones previas: ninguna. Deck: Amset e Hapi disponibles. Extra: El Vampiro Zombi 1 copia disponible. No incluir Reserva ni suponer robos.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Activar Sarcófago del Rey (Mágica Continua, mano→Zona M/T), CL1.; last action: Usar Amset Nivel 8 + Hapi Nivel 8 como materiales de la Invocación Xyz de El Vampiro Zombi (Extra→Zona legal de Monstruos).; expected final: Endboard reproducible sin respuesta: El Vampiro Zombi Rango 8 / 3000 ATK / 2800 DEF con exactamente 2 materiales (Amset + Hapi); Sarcófago del Rey boca arriba en M/T; 2 Tiagrimientos Kashtira en GY por coste; mano inicial vacía; destierro vacío; Normal libre; 0 daño automático, 0 negaciones atribuidas, 0 monstruos Horus sueltos. No atribuir al Xyz la protección que el Sarcófago da únicamente a monstruos "Horus". Si el rival neutraliza Sarcófago antes de los procedimientos desde GY, no está asegurado el Xyz.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19200.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19153.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19155.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/16850.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Acceso alternativo al Xyz Horus desde Imsety** ? `656:A09:IMSETY:SARC_HAPI:ZOMBIE01:PRACTICA_V06`, `656:A09:IMSETY:SARC_HAPI:ZOMBIE01`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Amset 1× Amset, Gloria de Horus + 2× Tiagrimientos Kashtira de las 3 de Main. Campo/GY/destierro propios vacíos, Normal disponible, Main Phase sin respuesta; Deck contiene Sarcófago (2 copias en lista) y Hapi; Extra contiene El Vampiro Zombi. No se presume la carta de robo opcional.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Activar en mano el efecto de Amset: enviar Amset y la primera Tiagrimientos Kashtira desde la mano al GY COMO COSTE; en la resolución añadir Sarcófago del Rey desde Deck a mano.; last action: Invocar Xyz El Vampiro Zombi desde Extra usando ambos Nivel 8; ahora Amset y Hapi están acoplados, no en Campo/GY.; expected final: Endboard: El Vampiro Zombi (Rango 8, 3000/2800) con Amset + Hapi debajo; Sarcófago boca arriba en M/T; dos Tiagrimientos Kashtira en GY por coste; mano vacía, Normal libre, sin destierros, sin daño/negaciones derivados. Vulnerabilidad adicional frente a la variante anterior: la búsqueda de Sarcófago por Amset puede ser negada y no se forma el Xyz.;.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19153.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19200.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19155.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/16850.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Llevar Scream/Metanoise hacia la ruta de Fusión** ? `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01:PRACTICA_V06`, `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Foolish Burial Goods Bienes del Entierro Insensato + Reinoheart Tearlaments Reinoheart. Deck: Scream Grito Tiagrimientos (1x), Metanoise Metarruido Tiagrimientos (1x), Havnis Tearlaments Havnis (1x) y Merrli Tearlaments Merrli (1x) disponibles. Extra: Kaleido-Heart (1x). Campo, GY y destierro propios inicialmente vacíos, Normal libre, Main Phase propia, sin respuestas. Condición de continuación rival: Reinoheart y Metarruido sobreviven al cambio de turno; durante el turno rival siguiente el oponente controla al menos un monstruo boca arriba que puede ponerse en Defensa boca abajo y que se puede seleccionar, sin impedir el envío desde Deck al GY ni la Invocación por Fusión.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar Foolish Burial Goods desde la mano; por efecto enviar Tearlaments Scream, Mágica Continua, desde Deck al GY.; last action: Por la Invocación Especial de Kaleido-Heart, activar su efecto en una cadena nueva, seleccionando la carta rival previamente volteada boca abajo (si sigue controlada por el oponente y es seleccionable).; expected final: Endboard condicional al terminar el paso 7: Kaleido-Heart 3000 ATK propio; Reinoheart ya no está en Campo, sino al fondo del Deck junto con Havnis y Merrli; Bienes, Scream y Metanoise en GY, sin cartas obtenidas extra, Normal consumida desde tu turno anterior. El monstruo rival seleccionado retorna al Deck/Extra si pudo resolverse legalmente. Sin la supervivencia de Reinoheart/Metanoise, el monstruo rival volteable o la ventana de Trampa en turno rival, NO se garantiza esta Fusión diferida. Variantes con Cryme no se agrupan porque exigen recursos de mano diferentes y otra respuesta.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/12800.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17813.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17473.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Variante con Scream/Cryme para preparar la Fusión** ? `656:A09:GOODS:SCREAM:CRYME:KALEIDO02:PRACTICA_V06`, `656:A09:GOODS:SCREAM:CRYME:KALEIDO02`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Bienes del Entierro Insensato Foolish Burial Goods, Reinoheart Tearlaments Reinoheart, Havnis Tearlaments Havnis. Deck: Grito Tearlaments Scream, Crimanto Tearlaments Cryme, Merrli Tearlaments Merrli. Extra: Kaleido-Heart. Estado: Main Phase propia, Campo/GY/destierro propios vacíos; Normal libre; rival no responde durante preparación. En el siguiente turno rival, Reinoheart debe continuar boca arriba y un monstruo del rival debe poder activar un efecto cuya activación se niegue y que pueda barajarse al Deck. No se presupone carta extra robada.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: Activar Bienes del Entierro Insensato para enviar Grito desde el Deck al GY por efecto.; last action: Activar el disparo de Havnis enviada al GY por efecto; al resolver, Fusión hacia Kaleido-Heart usando Reinoheart del Campo + Merrli y Havnis del GY, devolviendo al fondo del Deck los tres materiales como exige el efecto de Fusión de Havnis.; expected final: Estado final en el turno rival, sin respuesta adicional: un Kaleido-Heart Invocado por Fusión, 1 activación rival negada y su carta barajada, sin daños ni otras negaciones garantizadas. Si Reinoheart desaparece antes de activar Crimanto, no se puede cumplir el requisito de control propio; si no hay monstruo en mano para enviar al GY tras la negación, no puede obtenerse este desenlace. Distinción: no duplicar la variante Metarruido, que voltea un objetivo y envía Merrli por su propio efecto de Trampa, mientras esta vía envía Havnis después de negar con Crimanto.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/12800.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17813.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Súper Polimerización: invocar Garura usando el campo rival** ? `656:A09:SUPERPOLY:GARURA10:PRACTICA_V06`, `656:A09:SUPERPOLY:GARURA10`
+- Route type: CONTINUACION
+- Purpose: Retirar dos monstruos rivales de mismo Tipo/Atributo y distinto nombre; dejar a Garura en campo
+- Challenge: initial state: Súper Polimerización + 1 carta adicional para descartar como coste.; question: ¿Cómo alcanzas «Retirar dos monstruos rivales de mismo Tipo/Atributo y distinto nombre; dejar a Garura en campo» sin saltar pasos?; first action: Comprobar los materiales; last action: Resolver y construir el campo; expected final: Al resolver, los dos monstruos rivales utilizados dejan el campo como materiales de Fusión y Garura se Invoca por Fusión desde tu Extra Deck. Su capacidad de duplicar daño se aplica solo si efectivamente se produce daño de batalla con esta carta. No afirmar daño, destrucción adicional o carta robada automáticamente.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17746.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/7445.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Fenrir + Reinoheart: S:P como defensa temporal** ? `656:A09:FENRIR:REINO:SP_DIRECTA11:PRACTICA_V06`, `656:A09:FENRIR:REINO:SP_DIRECTA11`
+- Route type: CONTINUACION
+- Purpose: Preparar el Efecto Rápido de S:P ante una activación rival; no habilita destierro inicial
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Preparar el Efecto Rápido de S:P ante una activación rival; no habilita destierro inicial» sin saltar pasos?; first action: Fenrir Especial desde mano porque no controlas monstruos.; last action: S:P Al activar el rival carta/efecto, puede desterrar temporalmente dos monstruos boca arriba, incluido uno propio, hasta End Phase. No niega.; expected final: S:P sola; Fenrir y Reinoheart en Cementerio por materiales, Normal consumida. Alternativa: conservar la presión de Fenrir y el motor de Reinoheart en vez de convertirlos. Guía detallada: guias_a10/DECK_656_FENRIR_REINO_SP_DIRECTA_GUIA.md.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17768.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19188.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Fenrir + Reinoheart: preparar I:P y continuar hacia S:P** ? `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12:PRACTICA_V06`, `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12`
+- Route type: CONTINUACION
+- Purpose: Responder durante la Main rival desde un campo previo con I:P y materiales realmente disponibles
+- Challenge: initial state: Consultar requisitos exactos en la ruta técnica enlazada.; question: ¿Cómo alcanzas «Responder durante la Main rival desde un campo previo con I:P y materiales realmente disponibles» sin saltar pasos?; first action: Fenrir Especial; opcionalmente busca Tearlaments Kashtira a mano desde Deck (sin invocarla).; last action: S:P Ahora sí puede activar al Invocarse el destierro de una carta del Campo/GY, porque I:P fue material de Enlace. Recibe protección frente a destrucción por efectos rivales, no frente a toda retirada.; expected final: S:P Little Knight en campo Invocada mediante I:P: primer efecto de destierro posible si hay objetivo legal y resuelve; recibe protección contra destrucción por efectos rivales, no contra toda retirada. Conservar GY y demás recursos según pasos precedentes.
+- Check before play: ¿Los materiales Fusión llegaron al GY por efecto y aún son elegibles?; No confundir descarte como coste con envío por efecto; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Destierro o negación del disparo de GY; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17768.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/14676.jpg; decks/DECK_656_TEARLAMENTS/imagenes/tcg/19188.jpg
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:656:PRIMERO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Reinoheart y Scream como acceso
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Definir envío dirigido y mill azaroso como acciones separadas; registrar cada CID enviado.
+- Riesgo y respuesta: No activar efectos de cartas que no fueron enviadas por el mecanismo exigido.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:656:SEGUNDO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Rival presenta monstruos con materiales aptos para Super Polymerization
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Comparar Fusión exacta en Extra y materiales permitidos antes de activar.
+- Riesgo y respuesta: No prometer retirada de monstruos que no coinciden con material.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:656:RESPUESTA_RIVAL`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Ash o Imperm disponible contra Reinoheart
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Si es negado, mantener Scream como posible motor independiente, solo si se cumplen condiciones.
+- Riesgo y respuesta: No repetir envío dirigido de Reinoheart por el mero hecho de tener Scream.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:656:RECURSOS`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Sarcófago del Rey y Horus en GY
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Registrar qué carta fue enviada como coste y qué Horus tiene procedimiento activo.
+- Riesgo y respuesta: Enviar al GY no equivale a destruir.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:656:MANO_IRREGULAR`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Mano con Tearlaments Kashtira y Cementerio rival activo
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Evitar mill que alimente gratis al oponente salvo que exista beneficio concreto superior.
+- Riesgo y respuesta: Elegir jugador objetivo y cartas enviadas de manera explícita.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:656:HABILIDAD_O_CONTINUIDAD`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Dos Horus Nivel8 presentes
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Considerar Zombie Vampire solo si no compromete mejor plan de Fusión.
+- Riesgo y respuesta: Un solo Horus no forma Xyz Rango8.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:656:TURNO_TARDIO`
+- Formato: TCG
+- Estado inicial que debe confirmarse: Turno largo con GY y destierros
+- Cartas relevantes: cid: 17417; nombre: Tearlaments Reinoheart; cid: 17416; nombre: Tearlaments Havnis; cid: 19200; nombre: King's Sarcophagus; cid: 7445; nombre: Super Polymerization; cid: 17462; nombre: Primeval Planet Perlereino
+- Linea preferida condicionada: Buscar Fusión materialmente accesible, preservando otra interrupción.
+- Riesgo y respuesta: Kaleido no aparece sin material y procedimiento.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Desarrollar el motor Demoniherrero hacia Lacrima** ? `656:A09:ENGRAVER:LACRIMA01`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: 9. Estado final: Lácrima del Demoniherrero ATK 3000 (2400 + 600), Secuencia y Réquiem equipados ocupan dos zonas M/T; adversarios con monstruos pierden 600 ATK por el efecto continuo de Lácrima. Tracto en GY; Lurrie y ambos Grabador barajados al Deck; Normal sin gastar, mano inicial vacía. No hay dos Enlaces adicionales en zonas de monstruos: ambos son Equipos. Ninguna carta Tiagrimientos ha sido enviada ni fusionada mediante esta línea.
+- Last action: Estado final: Lácrima del Demoniherrero ATK 3000 (2400 + 600), Secuencia y Réquiem equipados ocupan dos zonas M/T.
+- Last detail: Lácrima del Demoniherrero RESULTADO → Fabuloso Lurrie ESTADO / CONTEXTO → Demoniherrero Grabador ESTADO / CONTEXTO Estado final: Lácrima del Demoniherrero ATK 3000 (2400 + 600), Secuencia y Réquiem equipados ocupan dos zonas M/T; adversarios con monstruos pierden 600 ATK por el efecto continuo de Lácrima. Tracto en GY; Lurrie y ambos Grabador barajados al Deck; Normal sin gastar, mano inicial vacía. No hay dos Enlaces adicionales en zonas de monstruos: ambos son Equipos. Ninguna carta Tiagrimientos ha sido enviada ni fusionada mediante esta línea. *Recurso / restricción:* adversarios con monstruos pierden 600 ATK por el efecto continuo de Lácrima. Tracto en GY; Lurrie y ambos Grabador barajados al Deck; Normal sin gastar, mano inicial vacía. No hay d
+- Image assets: name: Demoniherrero Grabador; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/20196.jpg; name: Fabuloso Lurrie; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/8092.jpg; name: Ocultador de Efectos; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/8933.jpg; name: Lácrima del Demoniherrero; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/20214.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Conseguir materiales para Kaleido-Heart con Reinoheart/Scheiren** ? `656:A09:REINO:SCHEIREN:KALEIDO01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard sin respuesta: Kaleido-Heart 3000 ATK / 3000 DEF en Zona de Monstruos propia, Normal gastada. Reinoheart, Scheiren y Havnis en la parte inferior del Deck; GY propio sin esos tres materiales; mano inicial consumida. Si el rival tenía objetivo legal y nada responde, una carta rival fue barajada al Deck, no destruida ni desterrada; daño causado 0 LP, sin negación inherente por esa secuencia. No hay otras Fusiones ni monstruos Tiagrimientos en Campo. Vulnerabilidades: negar el envío de Reinoheart, desplazar Havnis antes de la Fusión, negar el disparador de Scheiren o impedir la Invocación Fusión; tratar en A12–A13.;.
+- Last action: Si el rival controla una carta seleccionable y que puede barajarse, el efecto disparado de Kaleido-Heart al ser Invocado Especialmente puede seleccionar 1 carta del rival y barajarla al Deck en nueva cadena.
+- Last detail: Tiagrimientos Caleido-Heart OBJETIVO Si el rival controla una carta seleccionable y que puede barajarse, el efecto disparado de Kaleido-Heart al ser Invocado Especialmente puede seleccionar 1 carta del rival y barajarla al Deck en nueva cadena. *Recurso / restricción:* Solo si había objetivo legal y la activación resuelve. Si el rival no tiene carta válida, no atribuir remoción. No afirmar otras activaciones por el Aqua devuelto: devolver material al fondo del Deck no es enviarlo al GY.
+- Image assets: name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Scheiren; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Ruta alternativa a Kaleido-Heart mediante Merrli** ? `656:A09:REINO:MERRLI:KALEIDO01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Resultado: Kaleido-Heart ATK 3000 / DEF 3000, Normal usada, Reinoheart + Merrli + Havnis devueltos al fondo. La otra copia de Scheiren, si permanece en Deck, no fue utilizada. Retirada rival condicional y 0 daño automático. Distinción útil: consume la única Merrli de la lista en vez de la única Scheiren; por tanto recursos posteriores, efectos ya usados y respuestas difieren. Es una variante separada por materiales, no una duplicación del mismo procedimiento.;.
+- Last action: Si existe objetivo rival legal, activar el efecto de Kaleido-Heart disparado por su Invocación Especial para barajar 1 carta rival al Deck; si no, dejar únicamente el monstruo Fusión.
+- Last detail: Tiagrimientos Caleido-Heart OBJETIVO Si existe objetivo rival legal, activar el efecto de Kaleido-Heart disparado por su Invocación Especial para barajar 1 carta rival al Deck; si no, dejar únicamente el monstruo Fusión. No añadir cartas a mano ni contar sus materiales como si siguieran en GY. *Recurso / restricción:* No añadir cartas a mano ni contar sus materiales como si siguieran en GY.
+- Image assets: name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Merrli; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; name: Tiagrimientos Havnis; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Administrar Havnis desde mano y desarrollar el motor Tearlaments** ? `656:A09:REINO:SCHEIREN:HAVNIS_HAND01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard: Kaleido-Heart 3000 ATK / 3000 DEF; Reinoheart, Havnis y Scheiren al fondo del Deck, sin esos materiales en Campo/GY/mano; Normal gastada, 0 daño automático, sin otros efectos de Havnis disparados (fue devuelta del área de mano al Deck como material). Esta variante tiene un recurso inicial en mano y ninguna preparación previa de GY, por lo que no se fusiona con REINO:SCHEIREN:KALEIDO01.;.
+- Last action: Si hay una carta rival legal, el disparo de Kaleido al ser Invocado Especialmente puede seleccionarla y barajarla al Deck en cadena nueva.
+- Last detail: Tiagrimientos Caleido-Heart ESTADO / CONTEXTO Si hay una carta rival legal, el disparo de Kaleido al ser Invocado Especialmente puede seleccionarla y barajarla al Deck en cadena nueva; de otro modo, dejar el monstruo Fusión sin retirada. *Recurso / restricción:* de otro modo, dejar el monstruo Fusión sin retirada.
+- Image assets: name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Scheiren; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Manejar Merrli/Scheiren disponibles en mano** ? `656:A09:REINO:MERRLI:SCHEIREN_HAND01`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: Endboard: Kaleido-Heart 3000 ATK / 3000 DEF; Reinoheart, Merrli y Scheiren al fondo del Deck; Normal gastada, mano inicial consumida, GY sin esos materiales. La copia de Havnis sigue donde estuviera (en este estado mínimo, Deck). Es otra variante por material disparador y recursos iniciales, no una segunda Fusión simultánea.;.
+- Last action: De existir objetivo rival legal, Kaleido puede barajar 1 carta rival al Deck en una cadena posterior a su Invocación Especial; no atribuir otra destrucción, daño, extensión ni búsqueda.
+- Last detail: Tiagrimientos Caleido-Heart OBJETIVO De existir objetivo rival legal, Kaleido puede barajar 1 carta rival al Deck en una cadena posterior a su Invocación Especial; no atribuir otra destrucción, daño, extensión ni búsqueda.
+- Image assets: name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Merrli; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; name: Tiagrimientos Scheiren; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Preparar cuerpos Horus para un Xyz propio del paquete** ? `656:A09:SARC:IMSETY_HAPI:ZOMBIE01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard reproducible sin respuesta: El Vampiro Zombi Rango 8 / 3000 ATK / 2800 DEF con exactamente 2 materiales (Amset + Hapi); Sarcófago del Rey boca arriba en M/T; 2 Tiagrimientos Kashtira en GY por coste; mano inicial vacía; destierro vacío; Normal libre; 0 daño automático, 0 negaciones atribuidas, 0 monstruos Horus sueltos. No atribuir al Xyz la protección que el Sarcófago da únicamente a monstruos "Horus". Si el rival neutraliza Sarcófago antes de los procedimientos desde GY, no está asegurado el Xyz.;.
+- Last action: Usar Amset Nivel 8 + Hapi Nivel 8 como materiales de la Invocación Xyz de El Vampiro Zombi (Extra→Zona legal de Monstruos).
+- Last detail: Amset, Gloria de Horus ESTADO / CONTEXTO → Hapi, Guía de Horus ESTADO / CONTEXTO → El Vampiro Zombi MATERIAL XYZ Usar Amset Nivel 8 + Hapi Nivel 8 como materiales de la Invocación Xyz de El Vampiro Zombi (Extra→Zona legal de Monstruos). Amset y Hapi quedan debajo como dos materiales Xyz; no se consideran monstruos adicionales ni cartas en el GY. NO activar el efecto de desacoplar y enviar cuatro cartas superiores de ambos Decks: si se decidiera hacerlo, la identidad de las cartas enviadas y la Invocación Especial posterior serían no garantizadas, otra rama que exige nueva ficha. *Recurso / restricción:* Amset y Hapi quedan debajo como dos materiales Xyz; no se consideran monstruos adicionales ni cartas en el GY. NO activar el efecto de desacoplar y e
+- Image assets: name: Sarcófago del Rey; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19200.jpg; name: Tiagrimientos Kashtira; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; name: Amset, Gloria de Horus; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19153.jpg; name: Hapi, Guía de Horus; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19155.jpg; name: El Vampiro Zombi; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/16850.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Acceso alternativo al Xyz Horus desde Imsety** ? `656:A09:IMSETY:SARC_HAPI:ZOMBIE01`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Endboard: El Vampiro Zombi (Rango 8, 3000/2800) con Amset + Hapi debajo; Sarcófago boca arriba en M/T; dos Tiagrimientos Kashtira en GY por coste; mano vacía, Normal libre, sin destierros, sin daño/negaciones derivados. Vulnerabilidad adicional frente a la variante anterior: la búsqueda de Sarcófago por Amset puede ser negada y no se forma el Xyz.;.
+- Last action: Invocar Xyz El Vampiro Zombi desde Extra usando ambos Nivel 8; ahora Amset y Hapi están acoplados, no en Campo/GY.
+- Last detail: El Vampiro Zombi INVOCAR XYZ → Amset, Gloria de Horus YA EN CAMPO → Hapi, Guía de Horus YA EN CAMPO Invocar Xyz El Vampiro Zombi desde Extra usando ambos Nivel 8; ahora Amset y Hapi están acoplados, no en Campo/GY. No usar el envío aleatorio de cuatro cartas de cada Deck ni afirmar que se revivió un monstruo por este Xyz. *Recurso / restricción:* No usar el envío aleatorio de cuatro cartas de cada Deck ni afirmar que se revivió un monstruo por este Xyz.
+- Image assets: name: Amset, Gloria de Horus; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19153.jpg; name: Tiagrimientos Kashtira; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; name: Sarcófago del Rey; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19200.jpg; name: Hapi, Guía de Horus; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19155.jpg; name: El Vampiro Zombi; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/16850.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Llevar Scream/Metanoise hacia la ruta de Fusión** ? `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01`
+- Purpose: Preparación de recursos / despliegue
+- Format: tcg
+- Final state text: Endboard condicional al terminar el paso 7: Kaleido-Heart 3000 ATK propio; Reinoheart ya no está en Campo, sino al fondo del Deck junto con Havnis y Merrli; Bienes, Scream y Metanoise en GY, sin cartas obtenidas extra, Normal consumida desde tu turno anterior. El monstruo rival seleccionado retorna al Deck/Extra si pudo resolverse legalmente. Sin la supervivencia de Reinoheart/Metanoise, el monstruo rival volteable o la ventana de Trampa en turno rival, NO se garantiza esta Fusión diferida. Variantes con Cryme no se agrupan porque exigen recursos de mano diferentes y otra respuesta.
+- Last action: Por la Invocación Especial de Kaleido-Heart, activar su efecto en una cadena nueva, seleccionando la carta rival previamente volteada boca abajo (si sigue controlada por el oponente y es seleccionable).
+- Last detail: Tiagrimientos Caleido-Heart ESPECIAL Por la Invocación Especial de Kaleido-Heart, activar su efecto en una cadena nueva, seleccionando la carta rival previamente volteada boca abajo (si sigue controlada por el oponente y es seleccionable). Al resolver, barajarla al Deck correspondiente. *Recurso / restricción:* Al resolver, barajarla al Deck correspondiente. Kaleido-Heart 3000 ATK permanece propio; el monstruo rival deja su Campo por barajado, no por destrucción. Si el objetivo era una carta del Extra, vuelve a ese Extra Deck, no a la mano; el daño infligido en esta ruta es 0 LP.
+- Image assets: name: Bienes del Entierro Insensato; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/12800.jpg; name: Grito Tiagrimientos; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17813.jpg; name: Metarruido Tiagrimientos; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17473.jpg; name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Havnis; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg; name: Tiagrimientos Merrli; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Variante con Scream/Cryme para preparar la Fusión** ? `656:A09:GOODS:SCREAM:CRYME:KALEIDO02`
+- Purpose: Ofensivo condicional
+- Format: tcg
+- Final state text: Estado final en el turno rival, sin respuesta adicional: un Kaleido-Heart Invocado por Fusión, 1 activación rival negada y su carta barajada, sin daños ni otras negaciones garantizadas. Si Reinoheart desaparece antes de activar Crimanto, no se puede cumplir el requisito de control propio; si no hay monstruo en mano para enviar al GY tras la negación, no puede obtenerse este desenlace. Distinción: no duplicar la variante Metarruido, que voltea un objetivo y envía Merrli por su propio efecto de Trampa, mientras esta vía envía Havnis después de negar con Crimanto.
+- Last action: Activar el disparo de Havnis enviada al GY por efecto; al resolver, Fusión hacia Kaleido-Heart usando Reinoheart del Campo + Merrli y Havnis del GY, devolviendo al fondo del Deck los tres materiales como exige el efecto de Fusión de Havnis.
+- Last detail: Tiagrimientos Caleido-Heart YA EN CAMPO → Tiagrimientos Reinoheart YA EN CAMPO → Grito Tiagrimientos ESTADO / CONTEXTO Activar el disparo de Havnis enviada al GY por efecto; al resolver, Fusión hacia Kaleido-Heart usando Reinoheart del Campo + Merrli y Havnis del GY, devolviendo al fondo del Deck los tres materiales como exige el efecto de Fusión de Havnis. *Recurso / restricción:* Campo propio al resolver: Kaleido-Heart ATK 3000; Reinoheart ya no está en Campo, Havnis y Merrli ya no están en GY. Crimanto, Grito y Bienes quedan GY. No se garantiza el efecto opcional de retirar otra carta rival si no hay otra carta rival seleccionable.
+- Image assets: name: Bienes del Entierro Insensato; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/12800.jpg; name: Grito Tiagrimientos; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17813.jpg; name: Tiagrimientos Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Tiagrimientos Havnis; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17416.jpg; name: Tiagrimientos Merrli; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17414.jpg; name: Tiagrimientos Caleido-Heart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Súper Polimerización: invocar Garura usando el campo rival** ? `656:A09:SUPERPOLY:GARURA10`
+- Purpose: Retirar dos monstruos rivales de mismo Tipo/Atributo y distinto nombre; dejar a Garura en campo
+- Format: tcg
+- Final state text: Al resolver, los dos monstruos rivales utilizados dejan el campo como materiales de Fusión y Garura se Invoca por Fusión desde tu Extra Deck. Su capacidad de duplicar daño se aplica solo si efectivamente se produce daño de batalla con esta carta. No afirmar daño, destrucción adicional o carta robada automáticamente.
+- Last action: Resolver y construir el campo
+- Last detail: Al resolver, los dos monstruos rivales utilizados dejan el campo como materiales de Fusión y Garura se Invoca por Fusión desde tu Extra Deck. Su capacidad de duplicar daño se aplica solo si efectivamente se produce daño de batalla con esta carta. No afirmar daño, destrucción adicional o carta robada automáticamente.
+- Image assets: name: Garura; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17746.jpg; name: Súper Polimerización; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/7445.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Fenrir + Reinoheart: S:P como defensa temporal** ? `656:A09:FENRIR:REINO:SP_DIRECTA11`
+- Purpose: Preparar el Efecto Rápido de S:P ante una activación rival; no habilita destierro inicial
+- Format: tcg
+- Final state text: S:P sola; Fenrir y Reinoheart en Cementerio por materiales, Normal consumida. Alternativa: conservar la presión de Fenrir y el motor de Reinoheart en vez de convertirlos. Guía detallada: guias_a10/DECK_656_FENRIR_REINO_SP_DIRECTA_GUIA.md.
+- Last action: S:P Al activar el rival carta/efecto, puede desterrar temporalmente dos monstruos boca arriba, incluido uno propio, hasta End Phase. No niega.
+- Last detail: S:P Al activar el rival carta/efecto, puede desterrar temporalmente dos monstruos boca arriba, incluido uno propio, hasta End Phase. No niega.
+- Image assets: name: Fenrir; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17768.jpg; name: Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: S:P; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19188.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Fenrir + Reinoheart: preparar I:P y continuar hacia S:P** ? `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12`
+- Purpose: Responder durante la Main rival desde un campo previo con I:P y materiales realmente disponibles
+- Format: tcg
+- Final state text: S:P Little Knight en campo Invocada mediante I:P: primer efecto de destierro posible si hay objetivo legal y resuelve; recibe protección contra destrucción por efectos rivales, no contra toda retirada. Conservar GY y demás recursos según pasos precedentes.
+- Last action: S:P Ahora sí puede activar al Invocarse el destierro de una carta del Campo/GY, porque I:P fue material de Enlace. Recibe protección frente a destrucción por efectos rivales, no frente a toda retirada.
+- Last detail: S:P Ahora sí puede activar al Invocarse el destierro de una carta del Campo/GY, porque I:P fue material de Enlace. Recibe protección frente a destrucción por efectos rivales, no frente a toda retirada.
+- Image assets: name: Fenrir; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17768.jpg; name: Tearlaments Kashtira; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/18153.jpg; name: Reinoheart; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17417.jpg; name: Scheiren; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/17415.jpg; name: I:P; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/14676.jpg; name: S:P; image: decks/DECK_656_TEARLAMENTS/imagenes/tcg/19188.jpg
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.

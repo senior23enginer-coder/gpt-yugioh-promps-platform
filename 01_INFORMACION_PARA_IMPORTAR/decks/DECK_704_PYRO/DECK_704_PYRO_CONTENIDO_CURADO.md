@@ -720,199 +720,269 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 
 **704:COBERTURA:MAIN:17285:E05:ESCENARIO ? Germalewe**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:17285:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:17285"` |
-| `cid` | `17285` |
-| `card_name` | `"Germalewe"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/17285.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado.."` |
-| `scenario` | `{"initial_condition":"No tiene efecto..","action":"Invocar o utilizar como material únicamente por las reglas y cartas que lo permitan; no activar un efecto propio inexistente","expected_outcome":"Monstruo Normal; recurso para sacrificar o emplear como material..","risk_and_counterexample":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..","skill_gate":"**ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «No tiene efecto..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"RECURSO_O_MATERIAL_SIN_EFECTO"` |
-| `acceptance` | `{"given":"No tiene efecto..","when":"Se usa Germalewe como cuerpo/material, sin declarar efecto propio","then":"Monstruo Normal; recurso para sacrificar o emplear como material..","negative_test":"no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:17285:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:17285
+- **cid:** 17285
+- **card name:** Germalewe
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/17285.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado..
+- **scenario:**
+  - **initial condition:** No tiene efecto..
+  - **action:** Invocar o utilizar como material únicamente por las reglas y cartas que lo permitan; no activar un efecto propio inexistente
+  - **expected outcome:** Monstruo Normal; recurso para sacrificar o emplear como material..
+  - **risk and counterexample:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..
+  - **skill gate:** **ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «No tiene efecto..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** RECURSO_O_MATERIAL_SIN_EFECTO
+- **acceptance:**
+  - **given:** No tiene efecto..
+  - **when:** Se usa Germalewe como cuerpo/material, sin declarar efecto propio
+  - **then:** Monstruo Normal; recurso para sacrificar o emplear como material..
+  - **negative test:** no atribuirle un efecto activado inexistente; comprobar su función como material y las cartas de soporte. verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:16171:E05:ESCENARIO ? Fuego Ardiente**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:16171:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:16171"` |
-| `cid` | `16171` |
-| `card_name` | `"Fuego Ardiente"` |
-| `zone` | `"main"` |
-| `quantity` | `3` |
-| `image` | `"imagenes/rush/16171.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — apoyo situacional sujeto a condición escrita.."` |
-| `scenario` | `{"initial_condition":"Controlar dos o más monstruos Piro boca arriba..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..","risk_and_counterexample":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Controlar dos o más monstruos Piro boca arriba..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Controlar dos o más monstruos Piro boca arriba..","when":"Se intenta la acción de Fuego Ardiente","then":"Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..","negative_test":"el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:16171:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:16171
+- **cid:** 16171
+- **card name:** Fuego Ardiente
+- **zone:** main
+- **quantity:** 3
+- **image:** imagenes/rush/16171.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — apoyo situacional sujeto a condición escrita..
+- **scenario:**
+  - **initial condition:** Controlar dos o más monstruos Piro boca arriba..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..
+  - **risk and counterexample:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **skill gate:** La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Controlar dos o más monstruos Piro boca arriba..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Controlar dos o más monstruos Piro boca arriba..
+  - **when:** Se intenta la acción de Fuego Ardiente
+  - **then:** Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival..
+  - **negative test:** el resultado está sujeto a monstruos/cartas que puedan ser afectados y a respuestas del rival..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:18646:E05:ESCENARIO ? Gelatina Defensiva**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:18646:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:18646"` |
-| `cid` | `18646` |
-| `card_name` | `"Gelatina Defensiva"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/18646.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla.."` |
-| `scenario` | `{"initial_condition":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Cuando un monstruo rival de Nivel 8 o inferior declara ataque..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Cuando un monstruo rival de Nivel 8 o inferior declara ataque..","when":"Se intenta la acción de Gelatina Defensiva","then":"Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:18646:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:18646
+- **cid:** 18646
+- **card name:** Gelatina Defensiva
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/18646.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla..
+- **scenario:**
+  - **initial condition:** Cuando un monstruo rival de Nivel 8 o inferior declara ataque..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Cuando un monstruo rival de Nivel 8 o inferior declara ataque..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Cuando un monstruo rival de Nivel 8 o inferior declara ataque..
+  - **when:** Se intenta la acción de Gelatina Defensiva
+  - **then:** Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:19700:E05:ESCENARIO ? Amparo del Protector Estelar**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:19700:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:19700"` |
-| `cid` | `19700` |
-| `card_name` | `"Amparo del Protector Estelar"` |
-| `zone` | `"main"` |
-| `quantity` | `2` |
-| `image` | `"imagenes/rush/19700.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta de Trampa Normal — presión de combate / modificación de estadísticas.."` |
-| `scenario` | `{"initial_condition":"En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..","risk_and_counterexample":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","skill_gate":"**ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..","when":"Se intenta la acción de Amparo del Protector Estelar","then":"El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..","negative_test":"verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:19700:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:19700
+- **cid:** 19700
+- **card name:** Amparo del Protector Estelar
+- **zone:** main
+- **quantity:** 2
+- **image:** imagenes/rush/19700.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta de Trampa Normal — presión de combate / modificación de estadísticas..
+- **scenario:**
+  - **initial condition:** En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..
+  - **risk and counterexample:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **skill gate:** **ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio..
+  - **when:** Se intenta la acción de Amparo del Protector Estelar
+  - **then:** El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000..
+  - **negative test:** verificar en campo los materiales nombrados y el momento legal de la Fusión Rush; no usar materiales de mano sin permiso textual. pagar/cumplir el requisito escrito antes de prometer la resolución..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:16776:E05:ESCENARIO ? Parar la Defensa**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:16776:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:16776"` |
-| `cid` | `16776` |
-| `card_name` | `"Parar la Defensa"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/16776.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — presión de combate / modificación de estadísticas.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Parar la Defensa","then":"Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:16776:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:16776
+- **cid:** 16776
+- **card name:** Parar la Defensa
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/16776.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — presión de combate / modificación de estadísticas..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Parar la Defensa
+  - **then:** Cambia un monstruo rival que esté en Defensa a Ataque boca arriba..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:17926:E05:ESCENARIO ? Gobernante de las Llamas**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:17926:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:17926"` |
-| `cid` | `17926` |
-| `card_name` | `"Gobernante de las Llamas"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/17926.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Monstruo de Efecto — extensor / habilitador de material.."` |
-| `scenario` | `{"initial_condition":"No necesita activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..","risk_and_counterexample":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «No necesita activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"No necesita activación..","when":"Se intenta la acción de Gobernante de las Llamas","then":"Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..","negative_test":"comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:17926:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:17926
+- **cid:** 17926
+- **card name:** Gobernante de las Llamas
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/17926.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Monstruo de Efecto — extensor / habilitador de material..
+- **scenario:**
+  - **initial condition:** No necesita activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..
+  - **risk and counterexample:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **skill gate:** La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «No necesita activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** No necesita activación..
+  - **when:** Se intenta la acción de Gobernante de las Llamas
+  - **then:** Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO..
+  - **negative test:** comprobar zona, objetivos y ventana; el nombre de la carta no reemplaza su texto..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 **704:COBERTURA:MAIN:16372:E05:ESCENARIO ? Olla de la Codicia**
 
-| Campo | Valor conservado |
-|---|---|
-| `id` | `"704:COBERTURA:MAIN:16372:E05:ESCENARIO"` |
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `case_id` | `"704:COBERTURA:MAIN:16372"` |
-| `cid` | `16372` |
-| `card_name` | `"Olla de la Codicia"` |
-| `zone` | `"main"` |
-| `quantity` | `1` |
-| `image` | `"imagenes/rush/16372.png"` |
-| `reference_file` | `"01_INFORMACION_PARA_IMPORTAR/guias_a10/DECK_704_DOSSIER_CASOS_RUSH_20261113.md"` |
-| `purpose` | `"Carta Mágica Normal — consistencia / reciclaje.."` |
-| `scenario` | `{"initial_condition":"Sin requisito de activación..","action":"Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen","expected_outcome":"Roba dos cartas..","risk_and_counterexample":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","skill_gate":"La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..","blocked_as_access":false}` |
-| `a03` | `"Preservar zona y cantidad exactamente como inventario"` |
-| `a04` | `"Usar imagen real por CID y vincular fuente"` |
-| `a05` | `"Función de la carta; evaluar su uso primero/segundo según condición y resultado"` |
-| `a06` | `"Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado."` |
-| `a07` | `"Comprobar reglas de formato, zonas, costes y ventanas"` |
-| `a08` | `"Clasificar interacción básica, inicio, extensión, combo o continuación"` |
-| `a09` | `"Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos"` |
-| `a10` | `"Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex"` |
-| `scenario_kind` | `"EFECTO_O_USO_CONDICIONAL"` |
-| `acceptance` | `{"given":"Sin requisito de activación..","when":"Se intenta la acción de Olla de la Codicia","then":"Roba dos cartas..","negative_test":"disponer de cartas suficientes en Deck y distinguir robo de búsqueda..","requires_card_text_check":true,"requires_engine_replay":true}` |
-| `validation` | `"DOCUMENTAL_SIN_REPLAY"` |
+- **id:** 704:COBERTURA:MAIN:16372:E05:ESCENARIO
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **case id:** 704:COBERTURA:MAIN:16372
+- **cid:** 16372
+- **card name:** Olla de la Codicia
+- **zone:** main
+- **quantity:** 1
+- **image:** imagenes/rush/16372.png
+- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_704_PYRO/guias/DECK_704_DOSSIER_CASOS_RUSH_20261113.md
+- **purpose:** Carta Mágica Normal — consistencia / reciclaje..
+- **scenario:**
+  - **initial condition:** Sin requisito de activación..
+  - **action:** Aplicar solo el efecto/procedimiento registrado bajo su ventana legal, identificando coste, objetivo y origen
+  - **expected outcome:** Roba dos cartas..
+  - **risk and counterexample:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **skill gate:** La Skill **ALCHEMY BLAZE** necesita revelador válido y requisitos de construcción; no se activa libremente en turno 1..
+  - **blocked as access:** No
+- **a03:** Preservar zona y cantidad exactamente como inventario
+- **a04:** Usar imagen real por CID y vincular fuente
+- **a05:** Función de la carta; evaluar su uso primero/segundo según condición y resultado
+- **a06:** Sinergia y conflictos: si falla «Sin requisito de activación..», no ejecutar resultado.
+- **a07:** Comprobar reglas de formato, zonas, costes y ventanas
+- **a08:** Clasificar interacción básica, inicio, extensión, combo o continuación
+- **a09:** Completar secuencia desde entrada hasta resultado, probar con y sin requisito; registrar recursos
+- **a10:** Imagen real por paso, materiales, flechas y tablero final; pendiente replay Codex
+- **scenario kind:** EFECTO_O_USO_CONDICIONAL
+- **acceptance:**
+  - **given:** Sin requisito de activación..
+  - **when:** Se intenta la acción de Olla de la Codicia
+  - **then:** Roba dos cartas..
+  - **negative test:** disponer de cartas suficientes en Deck y distinguir robo de búsqueda..
+  - **requires card text check:** Si
+  - **requires engine replay:** Si
+- **validation:** DOCUMENTAL_SIN_REPLAY
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json 704 -->
 ### Evidencia documental por carta y decisiones del deck
@@ -925,19 +995,46 @@ Fuente hist?rica: `DECISIONES_MOTORES_INTERRUPCIONES_11_DECKS_V14.json`. Se pres
 
 **Registro 7**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `formato` | `"RUSH"` |
-| `motor` | `"Rush Pyro: Hyperassistant Ember puede enviarse del campo al GY para traer un Piro Nivel7+ desde mano SI el rival controla monstruo; Chemicized Salamandra es objetivo real."` |
-| `ir_primero` | `["Sin monstruo rival, Hyperassistant Ember no ofrece Special Summon propio: no presentes una Salamandra gratis.","Guarda un jefe de la mano para Tributo si puedes reunir cuerpos Rush; el plan de Ember de turno posterior depende de supervivencia.","Fusión de Pyro solo con materiales efectivamente reunidos; no forzar Archer o Salamandra por título de ruta sin comprobar cartas."]` |
-| `ir_segundo` | `["Con rival controlando un monstruo y Chemicized Salamandra en mano, Ember pasa de campo a GY y trae jefe; si Superassistant está en GY, gana 800 ATK según texto.","Selecciona correctamente si quieres perforar defensa o evitar atacar un monstruo de ATK superior, no supongas el daño antes de declarar batalla.","En Rush puedes normal-summonar repetidamente monstruos pequeños; cuenta Tributaciones para Nivel7+ y zonas ocupadas."]` |
-| `respuestas_interrupcion` | `[{"evento":"Campo rival se vacía","respuesta":"Si el rival ya no controla monstruos en la ventana de activación, Hyperassistant no cumple condición."},{"evento":"Jefe no en mano","respuesta":"No puedes Especial desde Deck o GY por ese efecto si solo permite desde mano."},{"evento":"Superassistant no está en GY","respuesta":"El bono +800 no se aplica por estar en mano ni por “ser el arquetipo”."}]` |
-| `decisiones` | `[{"decision":"¿Invoco Ember ahora?","criterio":"Si rival aún no tiene monstruo, puede ser mejor conservarlo y usar Normales pequeñas para resistir."},{"decision":"¿Salamandra o Fusión?","criterio":"Salamandra inmediata al estar en mano y cumplir rival; Fusión pide materiales y carta Fusion, una inversión distinta."}]` |
-| `practica` | `[{"id":"704:PRACTICA:V14:1"},{"id":"704:PRACTICA:V14:2"},{"id":"704:PRACTICA:V14:3"}]` |
-| `mejora_sin_aplicar` | `["La Skill Rush es propia del deck: anotar siempre condición de turno antes de usarla.","No convertir una tasa de ver Ember en probabilidad de lograr su Invocación Especial."]` |
-| `side_y_reserva` | `"Rush: no hay Side listado. Dar alternativas solo como cambios propuestos, no partidas de sideado."` |
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **formato:** RUSH
+- **motor:** Rush Pyro: Hyperassistant Ember puede enviarse del campo al GY para traer un Piro Nivel7+ desde mano SI el rival controla monstruo; Chemicized Salamandra es objetivo real.
+- **ir primero:**
+  - Sin monstruo rival, Hyperassistant Ember no ofrece Special Summon propio: no presentes una Salamandra gratis.
+  - Guarda un jefe de la mano para Tributo si puedes reunir cuerpos Rush; el plan de Ember de turno posterior depende de supervivencia.
+  - Fusión de Pyro solo con materiales efectivamente reunidos; no forzar Archer o Salamandra por título de ruta sin comprobar cartas.
+- **ir segundo:**
+  - Con rival controlando un monstruo y Chemicized Salamandra en mano, Ember pasa de campo a GY y trae jefe; si Superassistant está en GY, gana 800 ATK según texto.
+  - Selecciona correctamente si quieres perforar defensa o evitar atacar un monstruo de ATK superior, no supongas el daño antes de declarar batalla.
+  - En Rush puedes normal-summonar repetidamente monstruos pequeños; cuenta Tributaciones para Nivel7+ y zonas ocupadas.
+- **respuestas interrupcion:**
+  - Detalle:
+    - **evento:** Campo rival se vacía
+    - **respuesta:** Si el rival ya no controla monstruos en la ventana de activación, Hyperassistant no cumple condición.
+  - Detalle:
+    - **evento:** Jefe no en mano
+    - **respuesta:** No puedes Especial desde Deck o GY por ese efecto si solo permite desde mano.
+  - Detalle:
+    - **evento:** Superassistant no está en GY
+    - **respuesta:** El bono +800 no se aplica por estar en mano ni por “ser el arquetipo”.
+- **decisiones:**
+  - Detalle:
+    - **decision:** ¿Invoco Ember ahora?
+    - **criterio:** Si rival aún no tiene monstruo, puede ser mejor conservarlo y usar Normales pequeñas para resistir.
+  - Detalle:
+    - **decision:** ¿Salamandra o Fusión?
+    - **criterio:** Salamandra inmediata al estar en mano y cumplir rival; Fusión pide materiales y carta Fusion, una inversión distinta.
+- **practica:**
+  - Detalle:
+    - **id:** 704:PRACTICA:V14:1
+  - Detalle:
+    - **id:** 704:PRACTICA:V14:2
+  - Detalle:
+    - **id:** 704:PRACTICA:V14:3
+- **mejora sin aplicar:**
+  - La Skill Rush es propia del deck: anotar siempre condición de turno antes de usarla.
+  - No convertir una tasa de ver Ember en probabilidad de lograr su Invocación Especial.
+- **side y reserva:** Rush: no hay Side listado. Dar alternativas solo como cambios propuestos, no partidas de sideado.
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json 704 -->
@@ -951,35 +1048,37 @@ Fuente hist?rica: `PROBABILIDADES_EXACTAS_APERTURA_11_DECKS_V14.json`. Se preser
 
 **Registro 14**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Hyperassistant Ember"` |
-| `grupos_cid` | `[[19291]]` |
-| `probabilidad_exacta` | `0.35960591133004927` |
-| `porcentaje` | `35.961` |
-| `nota` | `"Su efecto depende de que el rival controle monstruo."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Hyperassistant Ember
+- **grupos cid:**
+  - Detalle:
+    - 19291
+- **probabilidad exacta:** 0.35960591133004927
+- **porcentaje:** 35.961
+- **nota:** Su efecto depende de que el rival controle monstruo.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 **Registro 15**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `deck` | `"Pyro Rush"` |
-| `formato` | `"RUSH"` |
-| `deck_size` | `30` |
-| `mano_inicial` | `4` |
-| `indicador` | `"Hyperassistant + Chemicized Salamandra"` |
-| `grupos_cid` | `[[19291],[17868]]` |
-| `probabilidad_exacta` | `0.07407407407407407` |
-| `porcentaje` | `7.407` |
-| `nota` | `"Coincidencia de mano, no certifica que se cumpla condición rival."` |
-| `metodo` | `"hipergeometrica exacta, sin reemplazo"` |
+- **deck id:** 704
+- **deck:** Pyro Rush
+- **formato:** RUSH
+- **deck size:** 30
+- **mano inicial:** 4
+- **indicador:** Hyperassistant + Chemicized Salamandra
+- **grupos cid:**
+  - Detalle:
+    - 19291
+  - Detalle:
+    - 17868
+- **probabilidad exacta:** 0.07407407407407407
+- **porcentaje:** 7.407
+- **nota:** Coincidencia de mano, no certifica que se cumpla condición rival.
+- **metodo:** hipergeometrica exacta, sin reemplazo
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json 704 -->
@@ -993,98 +1092,129 @@ Fuente hist?rica: `REVISION_DE_200_CARTAS_SIN_CONEXION_V26.json`. Se preservan l
 
 **Registro 195**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `cid` | `18646` |
-| `nombre` | `"バッファード・スライム バッファード・スライム"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `114` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 704
+- **cid:** 18646
+- **nombre:** バッファード・スライム バッファード・スライム
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&amp;ope=2&amp;request_locale=ja
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 114
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 196**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `cid` | `19700` |
-| `nombre` | `"きゅうせいぼうぎょ 救惺望御"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `192` |
-| `acciones_identificadas` | `[{"tipo":"ENVIO_AL_CEMENTERIO","justificacion":"Interviene en envío al Cementerio; distinguir coste, condición y resolución."},{"tipo":"INVOCACION_DESDE_MANO","justificacion":"Puede proporcionar un cuerpo si se cumplen las condiciones."},{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."},{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"INVOCACION_ESPECIAL_REFERIDA","justificacion":"El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 704
+- **cid:** 19700
+- **nombre:** きゅうせいぼうぎょ 救惺望御
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&amp;ope=2
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 192
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ENVIO_AL_CEMENTERIO
+    - **justificacion:** Interviene en envío al Cementerio; distinguir coste, condición y resolución.
+  - Detalle:
+    - **tipo:** INVOCACION_DESDE_MANO
+    - **justificacion:** Puede proporcionar un cuerpo si se cumplen las condiciones.
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** INVOCACION_ESPECIAL_REFERIDA
+    - **justificacion:** El texto menciona Invocación Especial, sin implicar automáticamente que la carta se invoque.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ENVIO_AL_CEMENTERIO · INVOCACION_DESDE_MANO · CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 197**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `cid` | `16776` |
-| `nombre` | `"『しゅび』ふうじ 『守備』封じ"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `44` |
-| `acciones_identificadas` | `[{"tipo":"SELECCION_OBJETIVO","justificacion":"Selecciona objetivo o carta conforme a la cláusula; verificar legalidad."},{"tipo":"CONTROL_POSICION","justificacion":"Cambia posición o depende de ella."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"SELECCION_OBJETIVO · CONTROL_POSICION"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 704
+- **cid:** 16776
+- **nombre:** 『しゅび』ふうじ 『守備』封じ
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&amp;ope=2
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 44
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** SELECCION_OBJETIVO
+    - **justificacion:** Selecciona objetivo o carta conforme a la cláusula; verificar legalidad.
+  - Detalle:
+    - **tipo:** CONTROL_POSICION
+    - **justificacion:** Cambia posición o depende de ella.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** SELECCION_OBJETIVO · CONTROL_POSICION
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 198**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `cid` | `15913` |
-| `nombre` | `"おとしあな 落とし穴"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `54` |
-| `acciones_identificadas` | `[{"tipo":"CONTROL_DE_COMBATE","justificacion":"Presión de batalla o ajuste estadístico condicionado."},{"tipo":"DESTRUCCION","justificacion":"El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"CONTROL_DE_COMBATE"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 704
+- **cid:** 15913
+- **nombre:** おとしあな 落とし穴
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&amp;ope=2
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 54
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** CONTROL_DE_COMBATE
+    - **justificacion:** Presión de batalla o ajuste estadístico condicionado.
+  - Detalle:
+    - **tipo:** DESTRUCCION
+    - **justificacion:** El texto menciona destrucción; identificar quién se destruye y si se paga o resuelve.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** CONTROL_DE_COMBATE
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 **Registro 199**
 
-| Campo | Valor conservado |
-|---|---|
-| `deck_id` | `704` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `"Main"` |
-| `fuente_oficial` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `texto_oficial_cotejado` | `true` |
-| `caracteres_texto` | `22` |
-| `acciones_identificadas` | `[{"tipo":"ROBO","justificacion":"El texto menciona robo condicionado."}]` |
-| `referencias_a_cartas_del_mismo_deck` | `[]` |
-| `diagnostico` | `"FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO"` |
-| `proposito_resumido` | `"ROBO"` |
-| `sinergia_documentada` | `"CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS"` |
-| `clasificacion_condicional` | `"UTILIDAD_AUTONOMA_O_CONDICIONAL"` |
-| `validacion` | `"COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO"` |
+- **deck id:** 704
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:** Main
+- **fuente oficial:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **texto oficial cotejado:** Si
+- **caracteres texto:** 22
+- **acciones identificadas:**
+  - Detalle:
+    - **tipo:** ROBO
+    - **justificacion:** El texto menciona robo condicionado.
+- **referencias a cartas del mismo deck:**
+  - Sin elementos
+- **diagnostico:** FUNCION_AUTONOMA_O_CONDICIONAL_SIN_ENLACE_VERIFICADO
+- **proposito resumido:** ROBO
+- **sinergia documentada:** CERO_CONEXIONES_PREVIAMENTE_ACREDITADAS
+- **clasificacion condicional:** UTILIDAD_AUTONOMA_O_CONDICIONAL
+- **validacion:** COTEJO_TEXTO_Y_PATRONES_NO_JUICIO_ARBITRAL_EXHAUSTIVO
 
 
 <!-- DATOS_EDITORIALES_CONSOLIDADOS SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json 704 -->
@@ -1098,343 +1228,529 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 
 **Registro 300**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:15204"` |
-| `deck_id` | `704` |
-| `cid` | `15204` |
-| `nombre` | `"かんつう！ 貫通！"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2"` |
-| `huella_texto_oficial` | `"3ff4e2e2"` |
-| `funcion_concreta_en_inventario` | `"PRESION_LP · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:080"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:15204
+- **deck id:** 704
+- **cid:** 15204
+- **nombre:** かんつう！ 貫通！
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&amp;ope=2
+- **huella texto oficial:** 3ff4e2e2
+- **funcion concreta en inventario:** PRESION_LP · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:080
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 301**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:17285"` |
-| `deck_id` | `704` |
-| `cid` | `17285` |
-| `nombre` | `"ジャーマレーベ ジャーマレーベ"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2"` |
-| `huella_texto_oficial` | `"d7b92735"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:064","A06:REL:079"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:17285
+- **deck id:** 704
+- **cid:** 17285
+- **nombre:** ジャーマレーベ ジャーマレーベ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&amp;ope=2
+- **huella texto oficial:** d7b92735
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:064
+  - A06:REL:079
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 302**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:17212"` |
-| `deck_id` | `704` |
-| `cid` | `17212` |
-| `nombre` | `"シークレットオーダー 潜入開始"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2"` |
-| `huella_texto_oficial` | `"cc9cf057"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:072"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:17212
+- **deck id:** 704
+- **cid:** 17212
+- **nombre:** シークレットオーダー 潜入開始
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&amp;ope=2
+- **huella texto oficial:** cc9cf057
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:072
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 303**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:19291"` |
-| `deck_id` | `704` |
-| `cid` | `19291` |
-| `nombre` | `"ハイパーアシスタント・アーチ HPアシスタント・アーチ"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2"` |
-| `huella_texto_oficial` | `"3ea53fc2"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:033","A06:REL:034","A06:REL:062"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:19291
+- **deck id:** 704
+- **cid:** 19291
+- **nombre:** ハイパーアシスタント・アーチ HPアシスタント・アーチ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&amp;ope=2
+- **huella texto oficial:** 3ea53fc2
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:033
+  - A06:REL:034
+  - A06:REL:062
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 304**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:18583"` |
-| `deck_id` | `704` |
-| `cid` | `18583` |
-| `nombre` | `"クロマトグラファガス クロマトグラファガス"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2"` |
-| `huella_texto_oficial` | `"4d746b17"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:062","A06:REL:072","A06:REL:073","A06:REL:074"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:18583
+- **deck id:** 704
+- **cid:** 18583
+- **nombre:** クロマトグラファガス クロマトグラファガス
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&amp;ope=2
+- **huella texto oficial:** 4d746b17
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:062
+  - A06:REL:072
+  - A06:REL:073
+  - A06:REL:074
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 305**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:17963"` |
-| `deck_id` | `704` |
-| `cid` | `17963` |
-| `nombre` | `"スーパーアシスタント・アーチ SPアシスタント・アーチ"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2"` |
-| `huella_texto_oficial` | `"bf23d43b"` |
-| `funcion_concreta_en_inventario` | `"MATERIAL_SIN_EFECTO"` |
-| `justificacion_por_texto` | `[{"clave":"MONSTRUO_NORMAL_SIN_EFECTO","rol":"MATERIAL_SIN_EFECTO","alcance":"Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite."}]` |
-| `conexiones_concretas` | `["A06:REL:034","A06:REL:075","A06:REL:077"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:17963
+- **deck id:** 704
+- **cid:** 17963
+- **nombre:** スーパーアシスタント・アーチ SPアシスタント・アーチ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&amp;ope=2
+- **huella texto oficial:** bf23d43b
+- **funcion concreta en inventario:** MATERIAL_SIN_EFECTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MONSTRUO_NORMAL_SIN_EFECTO
+    - **rol:** MATERIAL_SIN_EFECTO
+    - **alcance:** Monstruo Normal sin efecto activable; cumple función de material, tributo o atacante si el estado lo permite.
+- **conexiones concretas:**
+  - A06:REL:034
+  - A06:REL:075
+  - A06:REL:077
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 306**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:16934"` |
-| `deck_id` | `704` |
-| `cid` | `16934` |
-| `nombre` | `"フュージョン フュージョン"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2"` |
-| `huella_texto_oficial` | `"14af690f"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · ACCESO_FUSION"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."}]` |
-| `conexiones_concretas` | `["A06:REL:063","A06:REL:064","A06:REL:078"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:16934
+- **deck id:** 704
+- **cid:** 16934
+- **nombre:** フュージョン フュージョン
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&amp;ope=2
+- **huella texto oficial:** 14af690f
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · ACCESO_FUSION
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+- **conexiones concretas:**
+  - A06:REL:063
+  - A06:REL:064
+  - A06:REL:078
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 307**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:16171"` |
-| `deck_id` | `704` |
-| `cid` | `16171` |
-| `nombre` | `"かえん 火炎"` |
-| `zona` | `[{"zona":"Main","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2"` |
-| `huella_texto_oficial` | `"37864ba9"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `["A06:REL:079"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:16171
+- **deck id:** 704
+- **cid:** 16171
+- **nombre:** かえん 火炎
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&amp;ope=2
+- **huella texto oficial:** 37864ba9
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - A06:REL:079
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 308**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:17868"` |
-| `deck_id` | `704` |
-| `cid` | `17868` |
-| `nombre` | `"ケミカライズ・サラマンダー ケミカライズ・サラマンダー"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2"` |
-| `huella_texto_oficial` | `"c906d46b"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:033","A06:REL:076"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:17868
+- **deck id:** 704
+- **cid:** 17868
+- **nombre:** ケミカライズ・サラマンダー ケミカライズ・サラマンダー
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&amp;ope=2
+- **huella texto oficial:** c906d46b
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:033
+  - A06:REL:076
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 309**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:18646"` |
-| `deck_id` | `704` |
-| `cid` | `18646` |
-| `nombre` | `"バッファード・スライム バッファード・スライム"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja"` |
-| `huella_texto_oficial` | `"0de43117"` |
-| `funcion_concreta_en_inventario` | `"CARGA_CEMENTERIO · PRESION_LP"` |
-| `justificacion_por_texto` | `[{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"DAÑO","rol":"PRESION_LP","alcance":"Puede modificar LP; registrar fórmula y condiciones de cálculo."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:18646
+- **deck id:** 704
+- **cid:** 18646
+- **nombre:** バッファード・スライム バッファード・スライム
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&amp;ope=2&amp;request_locale=ja
+- **huella texto oficial:** 0de43117
+- **funcion concreta en inventario:** CARGA_CEMENTERIO · PRESION_LP
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** DAÑO
+    - **rol:** PRESION_LP
+    - **alcance:** Puede modificar LP; registrar fórmula y condiciones de cálculo.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 310**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:19700"` |
-| `deck_id` | `704` |
-| `cid` | `19700` |
-| `nombre` | `"きゅうせいぼうぎょ 救惺望御"` |
-| `zona` | `[{"zona":"Main","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2"` |
-| `huella_texto_oficial` | `"d0578e12"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · ACCESO_FUSION · COMBATE · INTERACCION_CADENA"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"ENVIO_CEMENTERIO","rol":"CARGA_CEMENTERIO","alcance":"Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio."},{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."},{"clave":"FUSION","rol":"ACCESO_FUSION","alcance":"Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."},{"clave":"EFECTO_RAPIDO","rol":"INTERACCION_CADENA","alcance":"Puede habilitar respuesta rápida solo en la cláusula que corresponda."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:19700
+- **deck id:** 704
+- **cid:** 19700
+- **nombre:** きゅうせいぼうぎょ 救惺望御
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&amp;ope=2
+- **huella texto oficial:** d0578e12
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · RECUPERACION_MANO · ACCESO_FUSION · COMBATE · INTERACCION_CADENA
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** ENVIO_CEMENTERIO
+    - **rol:** CARGA_CEMENTERIO
+    - **alcance:** Envía recursos al Cementerio; no es sinónimo de destrucción ni sacrificio.
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+  - Detalle:
+    - **clave:** FUSION
+    - **rol:** ACCESO_FUSION
+    - **alcance:** Si corresponde a Invocación Fusión, verificar materiales, ubicaciones y bloqueo del Extra.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+  - Detalle:
+    - **clave:** EFECTO_RAPIDO
+    - **rol:** INTERACCION_CADENA
+    - **alcance:** Puede habilitar respuesta rápida solo en la cláusula que corresponda.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 311**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:16776"` |
-| `deck_id` | `704` |
-| `cid` | `16776` |
-| `nombre` | `"『しゅび』ふうじ 『守備』封じ"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2"` |
-| `huella_texto_oficial` | `"bf3da108"` |
-| `funcion_concreta_en_inventario` | `"CONTROL_POSICIONES"` |
-| `justificacion_por_texto` | `[{"clave":"CAMBIO_POSICION","rol":"CONTROL_POSICIONES","alcance":"Cambia posición conforme a la condición sin asumir destrucción ni negación."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:16776
+- **deck id:** 704
+- **cid:** 16776
+- **nombre:** 『しゅび』ふうじ 『守備』封じ
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&amp;ope=2
+- **huella texto oficial:** bf3da108
+- **funcion concreta en inventario:** CONTROL_POSICIONES
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** CAMBIO_POSICION
+    - **rol:** CONTROL_POSICIONES
+    - **alcance:** Cambia posición conforme a la condición sin asumir destrucción ni negación.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 312**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:15913"` |
-| `deck_id` | `704` |
-| `cid` | `15913` |
-| `nombre` | `"おとしあな 落とし穴"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2"` |
-| `huella_texto_oficial` | `"28959c9e"` |
-| `funcion_concreta_en_inventario` | `"INTERACCION_DESTRUCCION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:15913
+- **deck id:** 704
+- **cid:** 15913
+- **nombre:** おとしあな 落とし穴
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&amp;ope=2
+- **huella texto oficial:** 28959c9e
+- **funcion concreta en inventario:** INTERACCION_DESTRUCCION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 313**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:17926"` |
-| `deck_id` | `704` |
-| `cid` | `17926` |
-| `nombre` | `"フレイム・ルーラー 炎を支配する者"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2"` |
-| `huella_texto_oficial` | `"1c55bb32"` |
-| `funcion_concreta_en_inventario` | `"ACCESO_NORMAL · TRIBUTO"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_NORMAL","rol":"ACCESO_NORMAL","alcance":"Interviene en una Invocación Normal; no atribuir Invocación Especial."},{"clave":"SACRIFICIO","rol":"TRIBUTO","alcance":"Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones."}]` |
-| `conexiones_concretas` | `["A06:REL:073"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:17926
+- **deck id:** 704
+- **cid:** 17926
+- **nombre:** フレイム・ルーラー 炎を支配する者
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&amp;ope=2
+- **huella texto oficial:** 1c55bb32
+- **funcion concreta en inventario:** ACCESO_NORMAL · TRIBUTO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_NORMAL
+    - **rol:** ACCESO_NORMAL
+    - **alcance:** Interviene en una Invocación Normal; no atribuir Invocación Especial.
+  - Detalle:
+    - **clave:** SACRIFICIO
+    - **rol:** TRIBUTO
+    - **alcance:** Validar qué monstruos sirven como tributo y cómo se clasifican las invocaciones.
+- **conexiones concretas:**
+  - A06:REL:073
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 314**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:16372"` |
-| `deck_id` | `704` |
-| `cid` | `16372` |
-| `nombre` | `"ごうよくなつぼ 強欲な壺"` |
-| `zona` | `[{"zona":"Main","copias":1}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2"` |
-| `huella_texto_oficial` | `"06517b03"` |
-| `funcion_concreta_en_inventario` | `"RECUPERACION_MANO"` |
-| `justificacion_por_texto` | `[{"clave":"ROBO","rol":"RECUPERACION_MANO","alcance":"Roba o menciona robo; diferenciar de añadir desde Deck."}]` |
-| `conexiones_concretas` | `[]` |
-| `tipo_conexion` | `"FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO"` |
-| `sinergia_no_inventada` | `true` |
-| `rol_segun_zona` | `"Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:16372
+- **deck id:** 704
+- **cid:** 16372
+- **nombre:** ごうよくなつぼ 強欲な壺
+- **zona:**
+  - Detalle:
+    - **zona:** Main
+    - **copias:** 1
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&amp;ope=2
+- **huella texto oficial:** 06517b03
+- **funcion concreta en inventario:** RECUPERACION_MANO
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** ROBO
+    - **rol:** RECUPERACION_MANO
+    - **alcance:** Roba o menciona robo; diferenciar de añadir desde Deck.
+- **conexiones concretas:**
+  - Sin elementos
+- **tipo conexion:** FUNCION_AUTONOMA_SIN_ENLACE_COMPROBADO
+- **sinergia no inventada:** Si
+- **rol segun zona:** Carta registrada en Main; evaluar mano real, zona de campo y recursos disponibles antes de usar.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 315**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:19990"` |
-| `deck_id` | `704` |
-| `cid` | `19990` |
-| `nombre` | `"スーパーグラファガス・アーチャー SPグラファガス・アーチャー"` |
-| `zona` | `[{"zona":"Extra","copias":2}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2"` |
-| `huella_texto_oficial` | `"ed3b21f9"` |
-| `funcion_concreta_en_inventario` | `"COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:063","A06:REL:074","A06:REL:075","A06:REL:080"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:19990
+- **deck id:** 704
+- **cid:** 19990
+- **nombre:** スーパーグラファガス・アーチャー SPグラファガス・アーチャー
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 2
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&amp;ope=2
+- **huella texto oficial:** ed3b21f9
+- **funcion concreta en inventario:** COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:063
+  - A06:REL:074
+  - A06:REL:075
+  - A06:REL:080
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 **Registro 316**
 
-| Campo | Valor conservado |
-|---|---|
-| `modal_id` | `"704:CARD:18614"` |
-| `deck_id` | `704` |
-| `cid` | `18614` |
-| `nombre` | `"アルケミカライズ・サラマンドラ アルケミカライズ・サラマンドラ"` |
-| `zona` | `[{"zona":"Extra","copias":3}]` |
-| `fuente` | `"https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2"` |
-| `huella_texto_oficial` | `"6c80f06d"` |
-| `funcion_concreta_en_inventario` | `"EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE"` |
-| `justificacion_por_texto` | `[{"clave":"INVOCACION_ESPECIAL","rol":"EXTENSOR_CONDICIONADO","alcance":"Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites."},{"clave":"DESTRUCCION_MENCIONADA","rol":"INTERACCION_DESTRUCCION","alcance":"El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta."},{"clave":"MODIFICA_ATK_DEF","rol":"COMBATE","alcance":"El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada."}]` |
-| `conexiones_concretas` | `["A06:REL:076","A06:REL:077","A06:REL:078"]` |
-| `tipo_conexion` | `"ENLACE_ESPECIFICO_DESCRITO"` |
-| `sinergia_no_inventada` | `false` |
-| `rol_segun_zona` | `"Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista."` |
-| `calidad_verificacion` | `"COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO"` |
-| `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+- **modal id:** 704:CARD:18614
+- **deck id:** 704
+- **cid:** 18614
+- **nombre:** アルケミカライズ・サラマンドラ アルケミカライズ・サラマンドラ
+- **zona:**
+  - Detalle:
+    - **zona:** Extra
+    - **copias:** 3
+- **fuente:** https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&amp;ope=2
+- **huella texto oficial:** 6c80f06d
+- **funcion concreta en inventario:** EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE
+- **justificacion por texto:**
+  - Detalle:
+    - **clave:** INVOCACION_ESPECIAL
+    - **rol:** EXTENSOR_CONDICIONADO
+    - **alcance:** Invoca de manera Especial cuando se cumplen origen, zona, recursos y límites.
+  - Detalle:
+    - **clave:** DESTRUCCION_MENCIONADA
+    - **rol:** INTERACCION_DESTRUCCION
+    - **alcance:** El texto menciona destrucción, ya sea como acción, disparador o protección; leer la cláusula exacta.
+  - Detalle:
+    - **clave:** MODIFICA_ATK_DEF
+    - **rol:** COMBATE
+    - **alcance:** El texto modifica o fija estadísticas; calcular únicamente la fórmula autorizada.
+- **conexiones concretas:**
+  - A06:REL:076
+  - A06:REL:077
+  - A06:REL:078
+- **tipo conexion:** ENLACE_ESPECIFICO_DESCRITO
+- **sinergia no inventada:** No
+- **rol segun zona:** Carta de Extra; acreditar materiales exactos y restricciones vigentes, no solo que figure en la lista.
+- **calidad verificacion:** COTEJO_EDITORIAL_PREVIO_Y_TEXTO_RECUPERADO
+- **no certificacion:** Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada.
 
 <!-- INTEGRADO_FICHAS_V19_704 -->
 ### Fichas de cartas y sinergias documentadas
@@ -1721,3 +2037,178 @@ Contenido editorial previo incorporado a esta ficha; conserva las condiciones y 
 > 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
 >
 > Skill: **ALCHEMY BLAZE**, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano..
+
+### Gu?as visuales hist?ricas por ruta
+
+Estas infograf?as son apoyo documental; sus posiciones y legalidad no est?n certificadas.
+
+| Ruta | Gu?a |
+|---|---|
+| `704:A09:ALCHEMY:ARCHER01` | [Alchemy Blaze: reunir materiales de Fusión Arquero](imagenes/infografias/704_A09_ALCHEMY_ARCHER01.webp) |
+| `704:A09:ALCHEMY:SALAMANDRA02` | [Alchemy Blaze: reunir materiales de Salamandra](imagenes/infografias/704_A09_ALCHEMY_SALAMANDRA02.webp) |
+
+### Manos reproducibles para entrenamiento
+
+Estas manos son ejemplos documentales; no certifican jugadas, objetivos ni resoluci?n.
+
+- **Mano 1:** Fusión (CID 16934), Hiperasistente Ember (CID 19291), Superasistente Ember (CID 17963), Fuego Ardiente (CID 16171). Hyperassistant Ember: presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 2:** Orden Secreta (CID 17212), Cromatográfagas (CID 18583), Fusión (CID 16934), Fuego Ardiente (CID 16171). Hyperassistant Ember: no presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 3:** Parar la Defensa (CID 16776), Fuego Ardiente (CID 16171), Hiperasistente Ember (CID 19291), Superasistente Ember (CID 17963). Hyperassistant Ember: presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 4:** Salamandra Quimicalizada (CID 17868), Superasistente Ember (CID 17963), Superasistente Ember (CID 17963), Hiperasistente Ember (CID 19291). Hyperassistant Ember: presente; Hyperassistant + Chemicized Salamandra: presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 5:** Agujero Trampa (CID 15913), Fuego Ardiente (CID 16171), Cromatográfagas (CID 18583), ¡Atraviesa! (CID 15204). Hyperassistant Ember: no presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 6:** Orden Secreta (CID 17212), Hiperasistente Ember (CID 19291), Fusión (CID 16934), Agujero Trampa (CID 15913). Hyperassistant Ember: presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 7:** Amparo del Protector Estelar (CID 19700), Gelatina Defensiva (CID 18646), Cromatográfagas (CID 18583), Fuego Ardiente (CID 16171). Hyperassistant Ember: no presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 8:** Superasistente Ember (CID 17963), Superasistente Ember (CID 17963), Olla de la Codicia (CID 16372), Germalewe (CID 17285). Hyperassistant Ember: no presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 9:** Salamandra Quimicalizada (CID 17868), Orden Secreta (CID 17212), Superasistente Ember (CID 17963), Gobernante de las Llamas (CID 17926). Hyperassistant Ember: no presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+- **Mano 10:** Parar la Defensa (CID 16776), Fusión (CID 16934), Hiperasistente Ember (CID 19291), Fuego Ardiente (CID 16171). Hyperassistant Ember: presente; Hyperassistant + Chemicized Salamandra: no presente. MANO DE PRUEBA: tener los iniciadores no certifica objetivos, Extra, restricciones ni resolución frente al rival.
+
+### Desafios de pr?ctica
+
+Son ejercicios documentales; sus condiciones y respuestas requieren comprobaci?n en juego.
+
+- **704:PRACTICA:V14:1 ? Ember primero:** Empiezas con Ember y Chemicized, rival sin monstruos. ¿Invocas especialmente al jefe? **Respuesta documentada:** No por Ember; falta monstruo del oponente. (DECISION_REAL_NO_PREDICCION).
+- **704:PRACTICA:V14:2 ? Bono ATK:** Superassistant está en mano, no GY. ¿Recibe +800 el jefe de Ember? **Respuesta documentada:** No; exige Superassistant en GY. (DECISION_REAL_NO_PREDICCION).
+- **704:PRACTICA:V14:3 ? Normal Rush:** Tienes dos monstruos Nivel4 en mano. ¿Solo puedes Normal uno? **Respuesta documentada:** No: Rush permite varias Normales por turno, sujetas a zonas y tributos. (DECISION_REAL_NO_PREDICCION).
+
+### Planes de Side por situaci?n
+
+Son propuestas no aplicadas; no cambian el inventario y requieren validaci?n.
+
+- **Defensor boca abajo o en Defensa con DEF baja:** Jugar segundo con Hyperassistant+Salamander+Pierce de Main. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. Sin Side actual; no hay cambios de cartas que aprobar para esta línea. Comprobar monstruo rival para activar Hyperassistant. Enviarlo de campo a GY e Invocar Salamander desde mano; no aplicar +800 sin SP Assistant Archer GY. Seleccionar Salamander con Pierce y calcular daño por ATK menos DEF del monstruo atacado. Si no se cambia: Usar ruta 704:A09:V11:HYPER:CHEMICALIZED:PIERCE. Estado: SIN_SIDE_ACTUAL.
+- **Campo rival vacío o primer turno:** No hay monstruo rival que habilite Hyperassistant. Entradas propuestas: sin propuesta. Salidas propuestas: sin propuesta. No inventar substitutos ni Side Rush. No activar Hyperassistant: su condición falla. Guardar Salamander para Tribute Summon legal o preparar Alchemy Blaze para las Fusiones cargadas. Registrar si quedan realmente materiales de la Fusion seleccionada y zonas necesarias. Si no se cambia: Plan de preparación Fusión, no el de perforación. Estado: SIN_SIDE_ACTUAL.
+
+### Ejercicios, decisiones y resultados documentales
+
+Material hist?rico para estudio: no acredita reglas, replays ni posiciones espaciales. Se conservan sus estados y condiciones.
+
+**Alchemy Blaze: reunir materiales de Fusión Arquero** ? `704:A09:ALCHEMY:ARCHER01:PRACTICA_V06`, `704:A09:ALCHEMY:ARCHER01`
+- Route type: RUTA
+- Purpose: Preparación de recursos / despliegue
+- Challenge: initial state: Cromatográfagas (18583, monstruo Normal Piro FUEGO Nivel 7) + Orden Secreta (17212). Campo y GY propios vacíos; turno de duelo 2 o posterior; Alchemy Blaze (RD/SK01-001) no usada y disponible conforme a las reglas personalizadas de la liga. SP Assistant Archer / Superasistente Ember (17963) y Fusión (16934) todavía en Deck; Fusión 19990 en Extra; rival sin interrupción en la ruta base.; question: ¿Cómo alcanzas «Preparación de recursos / despliegue» sin saltar pasos?; first action: Activar ALCHEMY BLAZE, revelando Cromatográfagas en mano y cumpliendo turno y construcción.; last action: Activar el efecto de Arquero Ígneo Supergráfagas, devolviendo al tope del Deck el Cromatográfagas Nivel 7/Piro Normal que volvió al GY como material.; expected final: Resultado final demostrable: solo Archer 19990 en Campo con 5500 ATK este turno; Superasistente en GY, Cromatográfagas arriba del Deck, Orden Secreta y Fusión usadas en GY. No hay cartas adicionales en mano. No asimilar el efecto de Skill a una carta robada ni interpretar la elección de 2 cartas como azar.
+- Check before play: ¿Skill ALCHEMY BLAZE es utilizable en turno y estado de construcción exigidos?; Rush: Skill externa; no simular CL1/CL2 TCG; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Skill bloqueada o materiales de Fusión ausentes; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/18583.png; ../imagenes/rush/17963.png; ../imagenes/rush/17212.png; ../imagenes/rush/15913.png; ../imagenes/rush/19990.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**Alchemy Blaze: reunir materiales de Salamandra** ? `704:A09:ALCHEMY:SALAMANDRA02:PRACTICA_V06`, `704:A09:ALCHEMY:SALAMANDRA02`
+- Route type: RUTA
+- Purpose: Ofensivo condicional
+- Challenge: initial state: Salamandra 1× Salamandra Quimicalizada / Chemicalized Salamander, Hiperasistente 1× Hiperasistente Ember / HP Assistant Archer, Atraviesa 1× ¡Atraviesa! como descarte de Skill. Deck: Superasistente 1× Superasistente Ember / SP Assistant Archer + Fusión 1× Fusión disponibles. Extra: Salamandra Fusion 1× Salamandra Alquimicalizada disponible. Skill: ALCHEMY BLAZE sin usar, turno 2 o posterior; todas las seis identidades de monstruo del Main satisfacen Piro/FUEGO y DEF ≥ 100 según inventario. Campo/GY/destierro propios: vacíos, Normal libre, ninguna restricción precedente. Rival: controla un monstruo boca arriba; además, para cuantificar el efecto, una Mágica boca arriba destruible y ninguna otra M/T. Rival no responde en esta línea de referencia.; question: ¿Cómo alcanzas «Ofensivo condicional» sin saltar pasos?; first action: En Main Phase propia, activar ALCHEMY BLAZE; revelar Salamandra Quimicalizada en mano para satisfacer el requisito de Skill.; last action: En la Main Phase en que fue Invocada especialmente la Fusión, activar su efecto (sin coste de descarte ni objetivo seleccionado).; expected final: Endboard tras Main Phase: Salamandra Alquimicalizada 3000 ATK boca arriba en Zona Principal; M/T de ambos Campos destruidas, incluyendo exactamente una Mágica del rival en el ejemplo; rival mantiene su monstruo con -1000 ATK temporal, salvo que otro efecto lo modifique. GY propio: Hiperasistente, Quimicalizada, Superasistente, Fusión, ¡Atraviesa!; destierro: vacío; mano: vacía; Skill: usada; daño de batalla directo o por efecto: 0 garantizado; negaciones propias: ninguna demostrada. La reducción desaparece al final del turno. Vulnerable a negar efecto de Hiperasistente/Skill o retirar cualquiera de los materiales antes de Fusión.
+- Check before play: ¿Skill ALCHEMY BLAZE es utilizable en turno y estado de construcción exigidos?; Rush: Skill externa; no simular CL1/CL2 TCG; ¿Se cumplieron costes, objetivos, fases y límites de uso una vez por turno?; ¿Hay cartas reales en cada zona indicada?
+- Branches: id: BASE; scenario: Sin respuesta rival; expected: Secuencia documentada a comprobar; jamás marcar replay como aprobado por el texto; id: NEGACION_INICIO; scenario: Skill bloqueada o materiales de Fusión ausentes; expected: Evaluar estado real en el punto de la respuesta; no saltar al campo final predefinido; id: FALTA_RECURSO; scenario: Se pierde el material, objetivo o carta clave antes de resolver; expected: Mostrar fallo de requisito y recurso consumido; proponer continuación únicamente si otra ruta acreditada lo permite
+- Teaching: a08: Distinguir la ruta completa de sus interacciones y extensiones individuales; a09: Exigir pasos, costes, ventanas, materiales, resultado y rama rival; a10: Mostrar imágenes auténticas y campo final, sin fingir zonas espaciales no verificadas
+- Images: ../imagenes/rush/17868.png; ../imagenes/rush/17963.png; ../imagenes/rush/19291.png; ../imagenes/rush/18614.png; ../imagenes/rush/15204.png; ../imagenes/rush/16934.png
+- Validation: card text checked all: No; engine replayed: No; spatial endboard ready: No
+- Codex integration: Agrupar práctica bajo ruta existente y preservar identificador; no duplicar A09 ni adjudicar una victoria por completar el ejercicio
+
+**PRIMERO** ? `A08:704:PRIMERO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Rival controla cero monstruos
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Preparar recursos para Fusión sin pretender que HP Assistant cumple condición rival.
+- Riesgo y respuesta: Skill Pyro se evalúa por sus requisitos propios.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**SEGUNDO** ? `A08:704:SEGUNDO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Rival controla defensor apto y tienes Pierce
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Elegir Salamandra/Pierce si el cálculo permite daño, antes de gastar piezas de Fusión.
+- Riesgo y respuesta: Contra DEF alta la perforación puede no producir daño.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RESPUESTA_RIVAL** ? `A08:704:RESPUESTA_RIVAL`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: HP Assistant y objetivo de mano
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Verificar objetivo autorizado, enviar HP Assistant según coste y aplicar la Invocación.
+- Riesgo y respuesta: No declarar búsqueda ni Fusión que no figuran.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**RECURSOS** ? `A08:704:RECURSOS`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Tres Pyro en GY para reducción de Salamandra
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Contar exactamente tres y aplicar solo la reducción habilitada.
+- Riesgo y respuesta: No activar con dos Pyro.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**MANO_IRREGULAR** ? `A08:704:MANO_IRREGULAR`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Fusion y materiales en Campo
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Confirmar que los materiales Rush son exactos y están disponibles.
+- Riesgo y respuesta: No inventar Extra Deck opcional.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**HABILIDAD_O_CONTINUIDAD** ? `A08:704:HABILIDAD_O_CONTINUIDAD`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Skill Alchemy Blaze
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Validar turno y condiciones de construcción; tratar Skill fuera del Main.
+- Riesgo y respuesta: No usar Skill como si fuera una carta robada.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**TURNO_TARDIO** ? `A08:704:TURNO_TARDIO`
+- Formato: RUSH
+- Estado inicial que debe confirmarse: Fin de partida con mano reducida
+- Cartas relevantes: cid: 19291; nombre: ハイパーアシスタント・アーチ HPアシスタント・アーチ; cid: 18583; nombre: クロマトグラファガス クロマトグラファガス; cid: 17963; nombre: スーパーアシスタント・アーチ SPアシスタント・アーチ; cid: 17868; nombre: ケミカライズ・サラマンダー ケミカライズ・サラマンダー; cid: 16934; nombre: フュージョン フュージョン
+- Linea preferida condicionada: Comparar daño por perforación con cuerpo de Fusión posible.
+- Riesgo y respuesta: No sacrificar recursos adicionales para un ataque que no supera defensa.
+- Alternativa: Si faltan costes, materiales, objetivos o condiciones, conservar recursos y elegir una línea disponible de la lista original; no ejecutar la línea imposible.
+- Informacion obligatoria: mano real; turno y fase; campo propio; campo rival; cementerios; recursos en Deck/Extra; acción y resultado
+- Indicador para prueba: Anotar interrupciones recibidas, recursos restantes, campo final y capacidad de recuperación; comparar contra alternativa con mismo estado inicial.
+- No asumir: Una recomendación estratégica documentada requiere cotejo contra cartas oficiales y partidas para considerarse probada.
+- Estado: DECISION_SITUACIONAL_DOCUMENTADA_SIN_PARTIDA
+
+**Alchemy Blaze: reunir materiales de Fusión Arquero** ? `704:A09:ALCHEMY:ARCHER01`
+- Purpose: Preparación de recursos / despliegue
+- Format: rush
+- Final state text: Resultado final demostrable: solo Archer 19990 en Campo con 5500 ATK este turno; Superasistente en GY, Cromatográfagas arriba del Deck, Orden Secreta y Fusión usadas en GY. No hay cartas adicionales en mano. No asimilar el efecto de Skill a una carta robada ni interpretar la elección de 2 cartas como azar.
+- Last action: Activar el efecto de Arquero Ígneo Supergráfagas, devolviendo al tope del Deck el Cromatográfagas Nivel 7/Piro Normal que volvió al GY como material.
+- Last detail: Arquero Ígneo Supergráfagas ACTIVAR → Cromatográfagas ACTIVAR Activar el efecto de Arquero Ígneo Supergráfagas, devolviendo al tope del Deck el Cromatográfagas Nivel 7/Piro Normal que volvió al GY como material. *Recurso / restricción:* Archer aumenta 2500 ATK, total 5500 ATK hasta fin de turno. Solo si el rival controla un monstruo boca arriba Nivel 9 o menor, puede además reducirle 1500 ATK hasta fin de turno.
+- Image assets: name: Cromatográfagas; image: ../imagenes/rush/18583.png; name: Superasistente Ember; image: ../imagenes/rush/17963.png; name: Orden Secreta; image: ../imagenes/rush/17212.png; name: Agujero Trampa; image: ../imagenes/rush/15913.png; name: Arquero Ígneo Supergráfagas; image: ../imagenes/rush/19990.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+**Alchemy Blaze: reunir materiales de Salamandra** ? `704:A09:ALCHEMY:SALAMANDRA02`
+- Purpose: Ofensivo condicional
+- Format: rush
+- Final state text: Endboard tras Main Phase: Salamandra Alquimicalizada 3000 ATK boca arriba en Zona Principal; M/T de ambos Campos destruidas, incluyendo exactamente una Mágica del rival en el ejemplo; rival mantiene su monstruo con -1000 ATK temporal, salvo que otro efecto lo modifique. GY propio: Hiperasistente, Quimicalizada, Superasistente, Fusión, ¡Atraviesa!; destierro: vacío; mano: vacía; Skill: usada; daño de batalla directo o por efecto: 0 garantizado; negaciones propias: ninguna demostrada. La reducción desaparece al final del turno. Vulnerable a negar efecto de Hiperasistente/Skill o retirar cualquiera de los materiales antes de Fusión.
+- Last action: En la Main Phase en que fue Invocada especialmente la Fusión, activar su efecto (sin coste de descarte ni objetivo seleccionado).
+- Last detail: Fusión ESTADO / CONTEXTO En la Main Phase en que fue Invocada especialmente la Fusión, activar su efecto (sin coste de descarte ni objetivo seleccionado). *Recurso / restricción:* Destruye las Mágicas y Trampas de ambos Campos. En el estado rival especificado, destruye una Mágica, de modo que los monstruos rivales boca arriba pueden perder 1000 ATK hasta fin de turno. Destruir Trampas no aumenta ese descuento. Sin cartas en M/T, la pérdida sería 0 y no se inventa daño.
+- Image assets: name: Salamandra Quimicalizada; image: ../imagenes/rush/17868.png; name: Superasistente Ember; image: ../imagenes/rush/17963.png; name: Hiperasistente Ember; image: ../imagenes/rush/19291.png; name: Salamandra Alquimicalizada; image: ../imagenes/rush/18614.png; name: ¡Atraviesa!; image: ../imagenes/rush/15204.png; name: Fusión; image: ../imagenes/rush/16934.png
+- Spatial layout: Sin dato documentado
+- Spatial layout status: REQUIRES_NATIVE_CODEX_FIELD_REPLAY
+- Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
+- Source status: DOCUMENTAL_NOT_CERTIFIED
+- Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
