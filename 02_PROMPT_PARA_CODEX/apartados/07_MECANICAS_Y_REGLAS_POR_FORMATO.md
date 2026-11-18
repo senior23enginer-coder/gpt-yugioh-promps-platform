@@ -69,3 +69,28 @@ Miguel. No publicar preguntas sin resolver ni reglas inferidas como hechos;
 un apartado editorialmente completo no verifica automáticamente cada caso.
 
 Antes de marcar A07 como completo: revisar todas las mecánicas que aparecen en el inventario real (incluidas Skill y Extra cuando corresponda); vincular reglas a IDs de carta, separar costes/condiciones/efectos, comprobar ventanas y materiales, documentar `NO_APLICA` con causa, distinguir casos comprobados de pendientes y dejar referencias a A06/A08–A13 sin duplicaciones.
+
+## Contrato de efectos para el motor local — 18-11-2026
+
+La salida A07 comprende reglas humanas y, cuando exista evidencia suficiente, una representación estructurada. El bloque se integra **en la ficha canónica existente**, no en un archivo nuevo:
+
+```json
+{"schema":"station-x-calculator/1","deck_id":0,"format":"tcg_advanced","rules":[]}
+```
+
+Este es un **esqueleto ilustrativo**: sustituir el ID por el confirmado. `rules: []` significa cero efectos aportados, nunca un deck terminado. Formatos admitidos: `tcg_advanced`, `goat`, `rush_duel`. No mezclar contratos entre formatos.
+
+Cada objeto de `rules` exige:
+
+- `version: 1`, `id` estable, `deckId` confirmado, `format`, `scope: "single-effect"`, `label` comprensible y `source` con URL oficial de la carta.
+- `actor`: selector con `side` (`self`/`opponent`), `zones`, CID exacto, `faceUp` y `notNegated` cuando correspondan. Identificar por CID y ranura nativa; nunca por parecido del nombre.
+- `guards`: condiciones completas. `kind: "state"` admite `active`, `phase`, `turn`, `normalAvailable` y una lista `values`; `kind: "count"` exige `selector`, `min` y `max`; `kind: "flag"` exige `flag` y `value` booleano.
+- `select`: lista de objetivos/materiales seleccionados antes de resolver, cada uno con `ref` único y `selector`. No seleccionar al resolver un objetivo que el efecto exige declarar al activar.
+- `costs` y `resolve`: listas separadas y ordenadas. Un coste ya pagado no se revierte al negar el efecto. Resolver de forma atómica solo los operadores implementados.
+- `oncePerTurn` y `activation` booleanos; `tags` de ventana (`addFromDeck`, `summonFromDeck`, `sendFromDeck`, `monsterEffect`) sustentadas por el texto; `assumptions` explícitos.
+
+Operadores actuales: `move` (`ref`, `to`, `position`), `take` (`side`, `cid`, `from` Deck/Extra, `to`, `position`), `payLP` (`amount`), `normal` (`available: false`) y `flag` (`flag`, `value`). Bloqueos disponibles: `specialBlocked`, `noExtra`, `xyzOnly`, `graveyardBlocked`, `effectsNegated`, `noDeckToHand`. Zonas: `hand`, `deck`, `extra`, `graveyard`, `banished`, `field`, `m1`–`m5`, `s1`–`s5`, `emz1`/`emz2` según formato; selectores agrupados `monsters`/`field-all`. Posiciones: `attack`, `defense`, `set`.
+
+**Estos operadores no bastan para todos los efectos.** No representar una Fusión, Sincronía, Skill, coste variable, selección oculta, condición continua, ficha, liberación de zona o cadena compleja como simples movimientos si faltan sus requisitos y resolución. Marcar `OPERADOR_PENDIENTE`, explicar la operación necesaria y pedir su implementación con pruebas. El caso de uso del motor debe rechazar condiciones u operaciones desconocidas, sin ejecutar JavaScript procedente de documentos.
+
+Para cada efecto: caso que resuelve, caso sin requisitos, coste insuficiente, uso repetido, negación, cambio de zona/objetivo y formato incompatible. Comparar zonas, copias, materiales, LP, usos, restricciones y recursos antes/después. Una validación de esquema acredita formato de datos, **no legalidad integral**. El resumen por deck separa efectos documentados, estructurados, implementados y probados.

@@ -52,3 +52,13 @@ Un número pequeño de rutas solo tiene valor si resuelve situaciones **distinta
 - **NO APLICA / BLOQUEADO**: no existe procedimiento legal con el inventario confirmado, falta un material o el objetivo depende de cartas no disponibles. Documentar esa conclusión, sin inventar una secuencia.
 - **Cierre A09 del catálogo**: se alcanzará al clasificar todos los candidatos A08 registrados y dejar secuencia y tablero para cada variante completa **demostrable con esos recursos**, incluyendo exclusiones razonadas. No equivale a probar que se descubrieron matemáticamente todas las manos posibles ni a certificar reglamentos locales de Skills pendientes. El estado **A10** (guías visuales) se mide **por separado** y NO anula un combo ya cerrado editorialmente en A09.
 - Guardar el recuento y detalle **solo dentro del `APARTADO_09` del archivo de cada deck**. El TXT global de checklist contiene **exclusivamente casillas de los 36 apartados y su estado**, nunca cartas, rutas ni resultados particulares.
+
+## Vinculación del combo con la calculadora — 18-11-2026
+
+Cada paso A09 debe referenciar el `id` estable de su efecto A07 o del procedimiento correspondiente. La explicación para el jugador conserva qué hace, para qué, por qué y qué recurso consume; no sustituirla por nombres de operadores.
+
+La representación ejecutable exige estado inicial completo, instancia de la carta, origen, posición, objetivos, coste pagado, ventana/cadena, resolución y estado posterior. Las fotos de entrada no se interpretan automáticamente como mano mínima: una imagen rotulada «Carta mencionada en el paso» no acredita que la carta empiece en mano. Si la fuente no define esa mano inequívocamente, conservar la condición textual y marcar el dato como pendiente.
+
+Separar la secuencia sin respuesta de las ramas ante respuestas conocidas y de las hipótesis por información oculta. Cada rama incluye el paso afectado, la cadena o ventana nueva, costes que permanecen, estado residual, efectos usados, restricciones y continuaciones concretas. Si no se demuestra recuperación con los recursos reales, decirlo. No reutilizar el campo final de la ruta sin interrupción después de una negación.
+
+Registrar faltantes de cada deck en el único registro privado existente, por carta/CID, efecto, paso, operador y fuente faltante. No declarar «cobertura completa» por conservar las 193 rutas actuales: ampliar al índice vigente y comprobar los efectos individualmente. A10 representa la misma secuencia y ramas de A09, conservando su incertidumbre.
