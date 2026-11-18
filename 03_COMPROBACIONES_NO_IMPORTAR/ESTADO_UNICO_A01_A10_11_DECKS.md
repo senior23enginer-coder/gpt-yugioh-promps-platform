@@ -1,5 +1,9 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Política de selección y secuencia A01–A10 — 18-11-2026
+
+**Cambio autorizado exclusivamente en prompts:** el maestro y los módulos 02 y 32 distinguen deck nuevo/existente y selección explícita de apartados o A01–A10 por defecto; ejecutan cada Axx en orden numérico ascendente, terminando su trabajo documental y lógico verificable antes del siguiente. A01, A03 y A05 no ejecuta A02/A04 por inferencia. Un bloqueo imprescindible detiene la secuencia y conserva la reanudación; PENDIENTE_MESA no bloquea por sí solo el cierre documental. No se alteraron inventarios, rutas ni publicaciones. Las tres huellas modificadas se reflejan en la tabla de integridad.
+
 ## Segunda pasada individual — Elfnote 650 (18-11-2026)
 
 **Alcance efectivo:** continuó la auditoría individual de las funciones A05 de **Elfnote**, sin modificar inventario, CIDs, imágenes, conteos Main/Extra/Side, prompts protegidos, IDs de rutas ni otros decks. Se cotejaron otras **diez** cartas con sus páginas oficiales de Konami y se corrigió su explicación operativa y fila correspondiente de **A06.2**, incluida su relación con los escenarios A08/A09. Se mantuvo la distinción entre efecto comprobado, relación causal y ejecución de partida.
@@ -195,7 +199,7 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | Archivo protegido (ruta relativa desde la raíz del ZIP) | SHA-256 de referencia |
 |---|---|
 | `02_PROMPT_PARA_CODEX/apartados/01_ROL_Y_OBJETIVO_PRINCIPAL.md` | `1e20b40c4f2f04740c28b4c307ac2e76627d64c9a54706ae896f0783ef3c66cd` |
-| `02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md` | `0373008230842a798ce0fcd1356a7042ceeb29b1b6d1b49ae27018070b7dc178` |
+| `02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md` | `5af94663d2ed3b1a7946ab38a551b0aee6da446ab7649c2a0ea74c2760af3412` |
 | `02_PROMPT_PARA_CODEX/apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md` | `c7da8bb41e966c7a31deea45f8988a0019a133400abea60d76ae570c12c299ca` |
 | `02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md` | `631a5814175c0ed724f552e80bb7104b32b916d00b192837486929c7a0fd793f` |
 | `02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md` | `c87d2071011b5913bb5168be26f790e50aec06c4ec282b012ee4d6817f9a607a` |
@@ -225,12 +229,12 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | `02_PROMPT_PARA_CODEX/apartados/29_ERRORES_FRECUENTES.md` | `18259b0818647bd1e499c3111fb28aa898151b8830a48b98d18e251784c28dd1` |
 | `02_PROMPT_PARA_CODEX/apartados/30_COMPROBACION_INTERNA_Y_BITACORA_UNICA.md` | `2f8c57ee6c1c300d8ae3ad70a1b3b86f58d7918cf3b7143ebca12cf76399a951` |
 | `02_PROMPT_PARA_CODEX/apartados/31_ESTADOS_UNICOS_Y_PORCENTAJES_HONESTOS.md` | `2d632b1d88e7e8e4608f9c1d7460200843fd493af41eff19353b074e67bd76ca` |
-| `02_PROMPT_PARA_CODEX/apartados/32_CONTROL_DE_VERSIONES_Y_REANUDACION.md` | `f1c108add4864b3eec8fa0d90a142ef748a1ad415ee3fa78133da35c26a75a96` |
+| `02_PROMPT_PARA_CODEX/apartados/32_CONTROL_DE_VERSIONES_Y_REANUDACION.md` | `22d4203aff5fad6956f656c8e57309c205b8d5f464ea90c2b027385abcf5a7c5` |
 | `02_PROMPT_PARA_CODEX/apartados/33_RESUMEN_FINAL_POR_DECK.md` | `520e5e8f3a9ddbb3ff75603797a67f952778cfad99ea449fc50a8ea38c7cd10f` |
 | `02_PROMPT_PARA_CODEX/apartados/34_CATALOGO_DE_DECKS.md` | `def83fafd8aa15389b526c67d45c84704f25e2e98e2b3d2337541ac536710992` |
 | `02_PROMPT_PARA_CODEX/apartados/35_ESTADISTICAS_DEL_CATALOGO.md` | `e245c1bb4242573d0661d857749d8d2fb7e9b28ad71232be6628901bded11f0d` |
 | `02_PROMPT_PARA_CODEX/apartados/36_CONFIRMACION_FINAL_Y_CONTINUIDAD.md` | `758e2d9a98df75ec2d9b7e7ec0c31d877dd48e1e36eb676c9f7de33d83c2de72` |
-| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `b2584bfe3acda0f01166b75b6abc338689772ae6d969117f0b2fcfc9faba7858` |
+| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `87519958e3a630de4f680fec20ac8ea85d7eef9de20e8b3925b3264f2eddea07` |
 | `02_PROMPT_PARA_CODEX/01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md` | `3b552fbfaf7cc9d0f9892c790afd055a4a43c8a77fb71d7de900f667ea0466e1` |
 | `02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` | `b1d314ab2ba2010f7abf83de288a56d5c32fbd1de1b2cc90cd72981e2d222d1a` |
 
