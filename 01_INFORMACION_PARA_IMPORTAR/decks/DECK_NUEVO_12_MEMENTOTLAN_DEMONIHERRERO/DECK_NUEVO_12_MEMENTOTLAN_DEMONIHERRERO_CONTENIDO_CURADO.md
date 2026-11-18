@@ -30,12 +30,12 @@
 | **A06** Sinergias y Extra | **COMPLETA — auditoría documental (18-11-2026)** | 39/39 identidades; 40 relaciones dirigidas; 2 motores y grupo de apoyos; mapa fotográfico A06.5; 13/13 Extra clasificados, César sin ruta reproducible | Sin pendiente propio de cobertura A06; legalidad de cadenas y rutas completas se conserva en A07/A09 |
 | **A07** Reglas y cadenas | **COMPLETA — AUDITORÍA DOCUMENTAL (18-11-2026)** | **34 controles R01–R34** (4 nuevos cotejados), **12 respuestas adversarias**, **6 desvíos B01–B06**, **6 controles MEM-A01–06** y **4 cadenas MC-X01–04**; formato y NO_APLICA descritos | Casos dependientes de rival/mano permanecen condicionales; ninguna ruta se declara validada por simulador ni se publica sin autorización |
 | **A08** Estrategia y Side | **COMPLETA — auditoría documental (18-11-2026)** | **34/34 prefichas** clasificadas, 5/5 planes Side de intercambios exactos, 3/3 matchups seleccionados, con enlaces A06/A09 y condiciones preservadas | Sin tasa empírica atribuida; rutas candidatas deben validarse individualmente en A09, sin equiparar preficha con combo certificado |
-| **A09** Jugadas y manos | **COMPLETA — auditoría documental (18-11-2026)** | **12/12 rutas C01–C12**: 9 familias y 3 variantes; 3 continuaciones, 4 accesos Extra y **24/24 manos H01–H24**; 0 replays | Sin pendiente documental propio. Pruebas en simulador/mesa no ejecutadas; conservar condiciones y no certificar jugadas empíricamente |
+| **A09** Jugadas y manos | **DOCUMENTADO — EN VALIDACIÓN DE INTEGRACIÓN (18-11-2026)** | **12/12 rutas C01–C12**: 9 familias y 3 variantes; 3 continuaciones, 4 accesos Extra y **24/24 manos H01–H24**; cotejo estructural V42 de **69/69 pasos**; 0 replays | **Pendiente A09-I01:** cotejar con export comprobable del editor V40 por `combo_id` y paso, incluyendo CID, mano, verbo, zona, coste y campo final. La guía HTML no demuestra por sí sola lo que está almacenado en la plataforma. No se exige calculadora para esta integración |
 | **A10** Guías visuales | **COMPLETA — guías documentales V42 (18-11-2026)** | **12/12 guías G01–G12**, **69/69 pasos con foto y movimiento**, **39/39 fotos originales**, **4/4 accesos Extra**, manos, campo final y ramas ancladas | Sin pendiente propio de cobertura visual/documental. No hay replays, prueba del importador, certificación A11–A13 ni nueva publicación autorizada; ver A10.3 |
 
 ### Reapertura de aceptación funcional — 18-11-2026 (corrección posterior al cierre documental)
 
-**Dictamen revisado:** A01–A10 permanecen **10/10 DOCUMENTADOS**, pero **NO 10/10 CERTIFICADOS FUNCIONALMENTE**. La palabra `COMPLETA` en la tabla anterior se limita estrictamente a la producción y cotejo de contenidos; no equivale a ejecución en calculadora, comparación de los datos importados con V42 ni prueba real de las pantallas. Queda prohibido reportar `100 % integral` mientras una de las puertas de prueba siguientes siga pendiente.
+**Dictamen revisado:** A01–A10 permanecen **10/10 DOCUMENTADOS**, pero **NO 10/10 COMPLETOS EN ACEPTACIÓN INTEGRAL**. A09 tiene el contenido editorial de las rutas terminado, pero su estado de trabajo es **EN VALIDACIÓN DE INTEGRACIÓN** por A09-I01; no sumar esa integración como aprobada. `COMPLETA` en otros renglones delimita sus entregables documentales y no equivale a ejecución en calculadora, comparación de datos importados ni prueba real de pantallas. Queda prohibido reportar `100 % integral` mientras alguna puerta de prueba siga pendiente.
 
 | Control de aceptación que faltó | Apartado responsable | Estado verificable hoy | Evidencia exigida para cerrarlo |
 |---|---|---|---|
@@ -1079,7 +1079,7 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 **Extra y continuaciones:** EX-M01 usa la segunda Fusión **colocada en el turno anterior**; EX-M02 exige **dos o más monstruos Invocados Especial desde Extra** por el rival en turno actual o anterior; EX-M03 es Xyz posible sin daño útil en ese estado; EX-M04 exige **Grabador y Duque Nivel 6 simultáneos**, sin reutilizar el Grabador que C10 barajó al Deck para fusionar por Secuencia. EX-M04 tiene prefijo condicional propio en A09.0, no es continuación automática de C10 ni replay. X01–X03 requieren campo sobreviviente y su ventana real. El Side no se usa como si hubiera entrado a Main sin intercambios documentados.
 
-**Dictamen:** `VALIDO_CONDICIONAL` significa una secuencia documental conciliada con los efectos oficiales **solo bajo sus premisas**, no `PROBADO_EN_SIMULADOR` ni garantía frente a negaciones. Si falla un objetivo, material, coste, zona, límite por nombre, ventana o efecto previo, esa instancia es `NO_ACREDITADO` hasta rehacerla. Para una certificación externa serían necesarios mano exacta de cinco, turno/fase, cadenas, zonas, capturas y replay por ID. **A09 COMPLETA en alcance documental**; la validación de mesa queda expresamente no realizada. **A10 solo se ejecutará por petición siguiente.**
+**Dictamen:** `VALIDO_CONDICIONAL` significa una secuencia documental conciliada con los efectos oficiales **solo bajo sus premisas**, no `PROBADO_EN_SIMULADOR` ni garantía frente a negaciones. Si falla un objetivo, material, coste, zona, límite por nombre, ventana o efecto previo, esa instancia es `NO_ACREDITADO` hasta rehacerla. Para una certificación externa serían necesarios mano exacta de cinco, turno/fase, cadenas, zonas, capturas y replay por ID. **A09 DOCUMENTADO en alcance editorial y EN VALIDACIÓN DE INTEGRACIÓN**; la validación de mesa queda expresamente no realizada. La integración pendiente no habilita modificaciones automáticas de A10.
 
 ### A09.8 — Cotejo estático A09 ↔ guía V42, sin calculadora (18-11-2026)
 
@@ -1102,6 +1102,20 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | **TOTAL** | **12 / 12** | **69 / 69** | **69** | **69** | **COBERTURA ESTRUCTURAL COMPLETA** |
 
 **Resultado limitado:** ningún panel ni paso ausente en este cotejo, y cada paso expone un movimiento y una interrupción. La presencia de texto **no equivale a igualdad semántica de cada coste/estado**, ni a representación correcta en el navegador. Quedan `PENDIENTE_DE_INTEGRACION` el cotejo **campo a campo** contra los datos del editor V40 y `PENDIENTE_DE_QA` la verificación de render e interacciones de A10. Ninguno de esos pendientes obliga a usar una calculadora; ambos requieren acceso a las superficies correspondientes y evidencia observable. **A09 sigue cerrada documentalmente**, sin elevar `VALIDO_CONDICIONAL` a jugada certificada.
+
+### A09.9 — Seguimiento de aceptación de integración, sin calculadora (18-11-2026)
+
+**Tarea única activa A09-I01:** comparar cada ruta canónica A09 con la representación **realmente guardada** en el editor «Estilo y estrategia» V40 y el Creador. El HTML V42 es evidencia de la **guía**, no prueba de paridad con el editor. No se encontró en la carpeta importable de este deck un export de rutas del editor V40 con campos comparables; **no declarar discrepancia ni coincidencia** sin esa segunda fuente.
+
+| Control de A09-I01 | Estado | Evidencia o criterio de cierre |
+|---|---|---|
+| Identidad estable C01–C12 en A09 | `DOCUMENTADO` | Doce fichas canónicas, con pasos 7+4+7+8+9+5+4+4+5+5+6+5 = 69 |
+| Paneles homónimos C01–C12 en V42 | `COMPROBADO_ESTRUCTURAL` | Doce paneles `data-route` y 69 bloques de paso, transferencia e interrupción; A09.8 |
+| **C01 — datos del editor V40** | **`PENDIENTE_FUENTE`** | Obtener export/lectura de C01 del editor; contrastar Angbruja+Fusión, 7 pasos, CID 19364/19362/19472/20199/19904/20216/19360, coste, origen→destino y final Rey+005 con Maza en GY |
+| C02–C12 — datos del editor V40 | `PENDIENTE_FUENTE` | Comparar secuencialmente **una ruta terminada antes de iniciar la siguiente**, por ID, cartas, movimientos, límites y endboard |
+| Dictamen de paridad A09↔V40 | `NO_ACREDITADO` | Registro de igualdad o diferencias corregidas para **12/12 rutas y 69/69 pasos**, con versión y evidencia de lectura del editor |
+
+**Regla de estado:** `DOCUMENTADO` permite enseñar las rutas y mantener sus condiciones; **A09 global queda `EN_VALIDACION_INTEGRACION` mientras A09-I01 no se haya acreditado**. La prueba opcional de mesa/simulador se registra por separado como `NO_EJECUTADA`, no se inventa ni se utiliza la calculadora. **Siguiente acción concreta:** disponer de la exportación o acceso de lectura a los datos guardados para C01 en V40; después completar C01 de principio a fin y avanzar a C02.
 
 ## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
