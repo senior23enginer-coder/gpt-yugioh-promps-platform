@@ -18,7 +18,7 @@
 
 ## CONTROL INDIVIDUAL DE AVANCE A01–A10 — Mementotlán / Demoniherrero
 
-**Alcance y corte:** inventario 16-11-2026 y actualización documental 17-11-2026, exclusivamente **A01–A10 para el deck 671**. **Main 41, Extra 15, Side 14, Reserva 0; 70 copias y 39 identidades documentadas.** Importación y guía publicadas según el registro central V40, sin que ello certifique las jugadas. La aprobación editorial expresa del inventario, si se requiere como acto separado de su carga confirmada, permanece sin constancia independiente. Los A11–A36 siguen siendo instrucciones, sin porcentaje por deck.
+**Alcance y corte:** inventario 16-11-2026 y actualización documental 17-11-2026, exclusivamente **A01–A10 para el deck 671**. **Main 41, Extra 15, Side 14, Reserva 0; 70 copias y 39 identidades documentadas.** Importación y guía publicadas según el registro central V40, sin que ello certifique las jugadas. La aprobación editorial expresa del inventario por Miguel quedó registrada en A03 el 18-11-2026. Los A11–A36 siguen siendo instrucciones, sin porcentaje por deck.
 
 | Apartado | Estado propio del deck | Progreso o evidencia comprobable | Pendiente para cerrar |
 |---|---|---|---|
@@ -30,7 +30,7 @@
 | **A06** Sinergias y Extra | **COMPLETA — auditoría documental (18-11-2026)** | 39/39 identidades; 40 relaciones dirigidas; 2 motores y grupo de apoyos; mapa fotográfico A06.5; 13/13 Extra clasificados, César sin ruta reproducible | Sin pendiente propio de cobertura A06; legalidad de cadenas y rutas completas se conserva en A07/A09 |
 | **A07** Reglas y cadenas | **COMPLETA — AUDITORÍA DOCUMENTAL (18-11-2026)** | **34 controles R01–R34** (4 nuevos cotejados), **12 respuestas adversarias**, **6 desvíos B01–B06**, **6 controles MEM-A01–06** y **4 cadenas MC-X01–04**; formato y NO_APLICA descritos | Casos dependientes de rival/mano permanecen condicionales; ninguna ruta se declara validada por simulador ni se publica sin autorización |
 | **A08** Estrategia y Side | **COMPLETA — auditoría documental (18-11-2026)** | **34/34 prefichas** clasificadas, 5/5 planes Side de intercambios exactos, 3/3 matchups seleccionados, con enlaces A06/A09 y condiciones preservadas | Sin tasa empírica atribuida; rutas candidatas deben validarse individualmente en A09, sin equiparar preficha con combo certificado |
-| **A09** Jugadas y manos | PARCIAL AVANZADA | **12 rutas C01–C12**: **9 familias + 3 variantes**; 3 continuaciones, 4 auditorías Extra; **24 escenarios H01–H24**; 0 replays | Resolver otros estados de manos/objetivos sin asumir cartas inexistentes; contrastación de mesa opcional del usuario |
+| **A09** Jugadas y manos | **COMPLETA — auditoría documental (18-11-2026)** | **12/12 rutas C01–C12**: 9 familias y 3 variantes; 3 continuaciones, 4 accesos Extra y **24/24 manos H01–H24**; 0 replays | Sin pendiente documental propio. Pruebas en simulador/mesa no ejecutadas; conservar condiciones y no certificar jugadas empíricamente |
 | **A10** Guías visuales | GUÍAS VISUALES DISPONIBLES V40 | Guía HTML local regenerable desde la ficha, rutas vinculadas y 39/39 fotos presentes | Comprobar enlaces al regenerar; el nuevo análisis no queda publicado automáticamente en Station X |
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
@@ -680,7 +680,7 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 ## APARTADO_09 — Doce rutas razonadas por familia y variante
 
-**Estado:** `PARCIAL_AVANZADO`; **doce secuencias C01–C12** con textos Konami y zonas especificadas: **nueve familias de propósito distinto** (C01,C02,C03,C06,C07,C08,C09,C10,C12) y **tres variantes del final de doble jefe** (C04,C05,C11). `VALIDADO_LOGICO` indica un encadenamiento documental con supuestos, **no** que haya sido ejecutado en simulador o torneo. Ninguna ruta C usa cartas del Side ni búsquedas Demoniherrero ausentes. Todas asumen que los efectos propios se resuelven sin negaciones salvo el escenario adversario expresamente dado. **EX-M01–EX-M04** son auditorías adicionales de acceso al Extra, no cuatro combos independientes. No atribuir este total a la totalidad combinatoria de las manos.
+**Estado:** `COMPLETA_DOCUMENTAL_18-11-2026`; **doce secuencias C01–C12** con textos Konami y zonas especificadas: **nueve familias de propósito distinto** (C01,C02,C03,C06,C07,C08,C09,C10,C12) y **tres variantes del final de doble jefe** (C04,C05,C11). `VALIDADO_LOGICO` indica un encadenamiento documental con supuestos, **no** que haya sido ejecutado en simulador o torneo. Ninguna ruta C usa cartas del Side ni búsquedas Demoniherrero ausentes. Todas asumen que los efectos propios se resuelven sin negaciones salvo el escenario adversario expresamente dado. **EX-M01–EX-M04** son auditorías adicionales de acceso al Extra, no cuatro combos independientes. No atribuir este total a la totalidad combinatoria de las manos.
 
 ### MEMD-C01 — «Dos jefes y Maza lista en GY»
 
@@ -905,7 +905,7 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | **Angbruja + Gran Fuga + Fusión**, necesitas movilizar el Goblin del Deck | **C11** | Rey+jefe mediante sacrificio de Witch; **variante más costosa** que C01 |
 | **Angbruja + Horn + Fiesta**, rival tiene 2 cartas boca arriba | **C12** | Horn destruye Angbruja propia y dos cartas rivales; Hoja queda en campo |
 | **C01 con otra Fusión Colocada y Goblin OSCURIDAD en mano** | **EX-M01**, turno del oponente | Dragostapelia con Rey+Goblin; consume a Rey y exige sobrevivir al siguiente turno |
-| **Rival hizo 2+ Invocaciones desde Extra y solo controlas S:P** | **EX-M02**, condicional | TY-PHON sobre S:P, última Invocación del turno; bloqueo de monstruos ≥3000 ATK |
+| **Rival Invocó Especial 2+ monstruos desde Extra en turno actual o anterior y solo controlas S:P** | **EX-M02**, condicional | TY-PHON sobre S:P, última Invocación del turno; bloqueo de monstruos ≥3000 ATK |
 | **Dos Angbruja Nivel 3 en campo** | **EX-M03**, acceso marginal | Aero Tiburón posible; sin monstruos propios desterrados no genera daño útil |
 | **Grabador + Duque (Demonios Nivel 6)** | **EX-M04, condicional** | César Xyz requiere los dos Demonios Nivel 6 simultáneamente disponibles |
 | **Solo Fusión/Fiesta, sin Memento en mano/campo/GY** | **NO_APERTURA** | No anunciar combo; buscar un iniciador y registrar brick |
@@ -963,6 +963,31 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | **H14** | Angbruja + Fiesta + Fusión + Goblin; César en Extra. | Comprobar la ruta EX-M04: Luna → Réquiem → Grabador y luego Duque usando la destrucción de Goblin. Si falla una rama, conservar Fusión y estudiar C10 sin inventar recursos. |
 
 **Censo de escenarios:** **14 manos H01–H14**, ninguna es muestreo aleatorio ni prueba de partidas. H09–H14 contrastan la utilidad de cartas menos centrales, turnos y costes; **no se suman a las 12 rutas C01–C12**. Cada mano solo usa las cartas conocidas y la condición del rival declarada.
+
+### A09.7 — Acta de cierre y control causal individual (18-11-2026)
+
+**Alcance:** revisión documental de **12/12 fichas C01–C12**, **24/24 manos H01–H24**, **3 continuaciones X01–X03** y **4 accesos EX-M01–EX-M04**, contrastados con inventario A03, efectos A05, sinergias A06, cadenas A07 y prefichas A08. Se conservan **41 Main / 15 Extra / 14 Side / 0 Reserva**. **0 replays, 0 duelos simulados, 0 pruebas de motor, 0 tasas de victoria**.
+
+| Ficha | Condición inicial clave | Materiales, zonas y efecto no duplicado | Dictamen |
+|---|---|---|---|
+| **C01** | Angbruja+Fusión; materiales en Deck | Rey usa 3, envía 3; cinco nombres regresan; Maza queda en GY | `VALIDO_CONDICIONAL` |
+| **C02** | Angbruja+Fiesta; no revivir Desvantasma | Cinco nombres regresan; jefe 005 queda solo | `VALIDO_CONDICIONAL` |
+| **C03** | Angbruja; Grabador accesible y monstruo rival seleccionable | Luna→Réquiem→Grabador; equipo y objetivo al GY | `VALIDO_CONDICIONAL` |
+| **C04** | Angbruja sola; Maza/Fusión disponibles en Deck | Destrucción propia habilita material de GY; Dormiveja residual | `VALIDO_CONDICIONAL` |
+| **C05** | Hoja sola; dos Fusiones permanecen en Deck | Primera Fusión desterrada; segunda desde mano; Akhíron/Dormiveja en GY | `VALIDO_CONDICIONAL` |
+| **C06** | Angbruja+Fusión; dos objetivos del Dragón Gemelo | Destruye Dormiveja en mano; cinco nombres regresan; Goblin aún en mano | `VALIDO_CONDICIONAL` |
+| **C07** | Angbruja+Fusión; dos cartas rivales destruibles | Quimera usa 1 material mano y 2 campo; robo de identidad desconocida | `VALIDO_CONDICIONAL` |
+| **C08** | Angbruja; respuesta rival con dos objetivos boca arriba | S:P no destierra al invocarse; respuesta temporal si rival activa | `VALIDO_CONDICIONAL` |
+| **C09** | Angbruja+Goblin; Grabador accesible | Grabador equipado + Goblin enviados; Princesa no roba por invocarse | `VALIDO_CONDICIONAL` |
+| **C10** | Angbruja+Fiesta+Goblin | Grabador/Goblin regresan al Deck; Duque permite otra Normal, sin buscar dos veces | `VALIDO_CONDICIONAL` |
+| **C11** | Angbruja+Gran Fuga+Fusión | Angbruja sacrificada, no destruida; cinco nombres regresan | `VALIDO_CONDICIONAL` |
+| **C12** | Angbruja+Horn+Fiesta; dos cartas rivales boca arriba | Horn destruido por Fiesta; tres objetivos (uno propio y dos rivales) | `VALIDO_CONDICIONAL` |
+
+**Casos borde H01–H24:** no se cuentan como combos independientes. H02/H15 prohíben combinar Oleada con las Invocaciones de efecto de las líneas; H08/H21 sustituyen el envío de piezas únicas ya robadas; H22 reconoce que dos Fusiones robadas dejan solo una en Deck; H24 conserva Desvantasma única en mano y cambia los tres envíos de Tatsun. Las manos no descritas permanecen `SIN_DATO`, y la carta robada por Quimera no adquiere identidad inventada.
+
+**Extra y continuaciones:** EX-M01 usa la segunda Fusión **colocada en el turno anterior**; EX-M02 exige **dos o más monstruos Invocados Especial desde Extra** por el rival en turno actual o anterior; EX-M03 es Xyz posible sin daño útil en ese estado; EX-M04 exige **Grabador y Duque Nivel 6 simultáneos**, sin reutilizar el Grabador que C10 barajó al Deck para fusionar por Secuencia. EX-M04 tiene prefijo condicional propio en A09.0, no es continuación automática de C10 ni replay. X01–X03 requieren campo sobreviviente y su ventana real. El Side no se usa como si hubiera entrado a Main sin intercambios documentados.
+
+**Dictamen:** `VALIDO_CONDICIONAL` significa una secuencia documental conciliada con los efectos oficiales **solo bajo sus premisas**, no `PROBADO_EN_SIMULADOR` ni garantía frente a negaciones. Si falla un objetivo, material, coste, zona, límite por nombre, ventana o efecto previo, esa instancia es `NO_ACREDITADO` hasta rehacerla. Para una certificación externa serían necesarios mano exacta de cinco, turno/fase, cadenas, zonas, capturas y replay por ID. **A09 COMPLETA en alcance documental**; la validación de mesa queda expresamente no realizada. **A10 solo se ejecutará por petición siguiente.**
 
 ## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
