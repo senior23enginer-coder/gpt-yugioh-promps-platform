@@ -91,6 +91,14 @@
 - Albion exige materiales y efecto de Fusión; el uso desde GY no sustituye la Invocación.
 - Crystal Wing necesita un **Sincro no Cantante**, que proporciona Strelitzia7, y el **Cantante1** Patron revivido desde GY. Su acceso documentado exige **omitir la bajada opcional de Nivel**; no se sustituye por dos monstruos normales.
 
+### Conciliación visual complementaria: Junora y las dos decisiones de Strelitzia (18-11-2026)
+
+![Strelitzia CID 22143](../imagenes/tcg/22143.jpg) ![Regina CID 22523](../imagenes/tcg/22523.jpg) ![Tinia CID 22117](../imagenes/tcg/22117.jpg) ![Junora CID 22142](../imagenes/tcg/22142.jpg)
+
+En la **otra** ruta existente `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03`, después de obtener Strelitzia central y usar Regina enviando Tinia al GY, el Efecto Rápido de Strelitzia revive Tinia y **sí elige** reducir 3 Niveles a todos los monstruos de Nivel 4 o mayor. Quedan **Strelitzia4 central + Regina3 lateral + Tinia3 lateral**; Tinia puede colocar Welcome Home desde Deck. Para la Sincronía de Junora se trata a **Strelitzia central como Cantante** por el texto propio de Junora y se usan Regina y Tinia como **dos no Cantantes** (4+3+3=10). El resultado no incluye los materiales que fueron al GY.
+
+Esta elección es **excluyente** de Crystal Wing: en la ruta de Crystal Wing se revive Patron1 **sin bajar** Strelitzia7 y se sincroniza 7+1=8. No mezclar ambas fotografías en un mismo campo final. Junora puede negar efectos de cartas rivales boca arriba **cuando es Invocada por Sincronía**, pero no crea una negación permanente, ni bloquea materiales rivales por columnas sin **otro monstruo propio de nombre Elfnota**. [Junora oficial CID 22142](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2) · [Strelitzia oficial CID 22143](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2). La traza completa y las alternativas de respuesta están en la [ficha A09](../DECK_650_ELFNOTE_CONTENIDO_CURADO.md).
+
 ## Fuentes oficiales
 
 Las diez fichas: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2 .

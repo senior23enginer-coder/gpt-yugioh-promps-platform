@@ -1,5 +1,7 @@
 # Elfnote
 
+> **Estado vigente de cotejo (18-11-2026, segunda pasada):** 16 de 42 funciones individuales A05 tienen contraste explícito con texto oficial Konami; **26 continúan pendientes**. Las diez incorporaciones recientes son Regina, Lucina, Tinia, Power Patron, Fortuna, Medius, Strelitzia, Welcome Home, Rhapsodia y Junora. Sus filas A06.2 se han conciliado con la función real. Los conteos históricos `2/42` y `6/42` de cortes anteriores que aparecen más abajo **no son el estado actual**. No se alteran las 70 copias físicas ni se declaran replays.
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 
@@ -39,31 +41,31 @@
 
 - **Copias y zona:** Main 3x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Regina. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · searcher · buscador · extensor.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
-- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) desde mano: Invocación Especial desde Cementerio · 2) al invocarla Normal/Especial: Invocación Especial desde Deck · 3) con condición explícita en la carta: incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** al producirse una Invocación; al llegar o estar en el Cementerio; desde la mano; Efecto Rápido.
-- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; exige materiales de Extra Deck o materiales adecuados. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** extensor desde la mano mediante **Efecto Rápido** · Invocación desde Deck al llegar al **centro** · recuperación propia si se envía al GY como material Sincro.
+- **Estado de sinergia y función:** **motor directo Elfnota** con Lucina, Tinia y Fortuna; no hay una búsqueda de carta genérica impresa en Regina.
+- **Papel como recurso, descarte o coste:** su Invocación Especial **envía 1 OTRA carta «Elfnote»** de la mano o del Campo propio boca arriba al GY como coste; la carta enviada puede ser monstruo o soporte que cumpla el nombre.
+- **Efecto operativo (paráfrasis analítica):** Regina en **mano** puede enviar la otra Elfnote como coste e Invocarse Especialmente; si fue Invocada Normal o Especialmente **a la Zona Principal central**, puede Invocar 1 monstruo «Elfnote» **distinto de Regina** desde Deck. Si fue enviada al GY como **Material de Sincronía**, puede **añadirse a sí misma desde GY a mano**.
+- **Mapa de activación y resultados:** Lucina centro → busca Regina → Regina **desde mano** envía Lucina boca arriba al GY como coste → Regina se Invoca al centro ya libre → Regina puede Invocar Tinia o Fortuna desde Deck. El último efecto de regreso a mano solo existe si Regina se usa **como material Sincro**.
+- **Ventanas de activación identificadas:** efecto de mano **Rápido**; disparo si es Invocada **Normal o Especialmente al centro**; disparo si llega al GY **como material de Sincronía**. Son tres efectos distintos, cada uno una vez por turno.
+- **Costes o recursos potenciales:** otra Elfnote real de mano/campo boca arriba; si se niega la Invocación/efecto tras el pago, la carta enviada **no regresa automáticamente**.
+- **Restricciones y requisitos:** se debe disponer de una carta distinta para enviar; **el centro debe estar libre al Invocarla** si se pretende su efecto desde Deck; el objetivo del Deck no puede ser otra Regina.
+- **Prioridad al ir primero:** convertir la búsqueda de Lucina en Regina central y un segundo cuerpo desde Deck, sin consumir la Normal de la línea base.
+- **Prioridad al ir segundo:** ofrecer extensión rápida, pero no atribuirle rebote ni negación propios; los efectos defensivos proceden de Lucina/Tinia/Fortuna según su posición.
+- **Medio/tardío y recuperación:** si Regina fue material de Sincro, puede regresar desde GY a la mano; **estar simplemente en GY no permite Invocarla** por su efecto de mano.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:LUCINA01` y `650:A09:ELFNOTE:TINIA01`; el retorno a mano aparece en la ruta Junora donde Regina es material legal.
+- **Riesgo / brick / interrupciones:** sin otra Elfnote para enviar no activa su Invocación desde mano; fuera del centro no activa el efecto de traer desde Deck; si el rival retira el cuerpo o niega el disparo, detener la extensión.
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
+- **Aplicación concreta dentro de este deck (A06):** Lucina busca Regina; Regina consume a Lucina u otra Elfnote y trae Tinia/Fortuna desde Deck **solo al centro**. Regina recupera su propia carta al ser material Sincro. Konami CID 22523, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Regina**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Motor directo: coste Elfnota → Regina central → Invocación desde Deck**; recuperación de sí misma si llega al GY como material Sincro.
+- **Qué hace:** desde mano, envía otra Elfnota como coste para Invocarse; desde el centro trae una Elfnota distinta desde Deck; vuelve a mano si se usó como material Sincro.
+- **Cómo aprovecharla en este deck:** buscarla con Lucina, enviar a Lucina del centro, Invocar Regina en el centro y traer Tinia/Fortuna desde Deck. No confundir el retorno a mano con una Invocación desde GY.
+- **Al jugar primero:** prolongar el campo con un segundo cuerpo y soporte continuo sin gastar la Normal de la ruta de Continuas.
+- **Al jugar segundo:** usar su cuerpo para ganar presencia; valorar qué carta propia se consume antes de responder a amenazas.
+- **Cuándo tener precaución:** pagar el envío antes de la resolución; si el centro queda ocupado o el disparo es negado, no reclamar monstruo desde Deck.
 
 
 #### 02. Elfnote Lucina
@@ -72,31 +74,31 @@
 
 - **Copias y zona:** Main 3x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Lucina. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · searcher · buscador · extensor · control de zonas.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
-- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde mano · 2) en Main Phase: incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** turno rival; Main Phase; Efecto Rápido.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **starter de una carta** · busca monstruo Elfnota · extiende desde mano a zona central · respuesta de ubicación y rebote condicional en turno rival.
+- **Estado de sinergia y función:** **motor directo** de Regina, Power Patron, Tinia y de las alternativas Sincro desde su propio Nivel 6.
+- **Papel como recurso, descarte o coste:** Lucina puede enviarse desde Campo al GY para pagar la Invocación de Regina, o emplearse como **no Cantante Nivel 6** para Sincronía con Power Patron Nivel 1; no se atribuye coste a la búsqueda propia.
+- **Efecto operativo (paráfrasis analítica):** puede Invocarse Especialmente **desde la mano a la Zona Principal central** (una vez por turno por ese procedimiento); durante tu Main Phase añade 1 monstruo «Elfnote» del Deck **excepto Lucina**. Durante el **turno del rival** (Efecto Rápido), intercambia su ubicación con la del monstruo en tu Zona Principal central y **después puede** devolver a mano 1 monstruo rival de **Nivel 6 o menor**.
+- **Mapa de activación y resultados:** Lucina de mano→centro→busca Regina (ruta de Continuas) **o** Power Patron (ruta Sincro); la búsqueda es **una sola** ese turno. Si Lucina está lateral junto a otro cuerpo central en turno rival, puede intercambiar sus zonas y rebotar objetivo rival elegible.
+- **Ventanas de activación identificadas:** Invocación propia a la central sin Normal; búsqueda durante **tu Main Phase**; Efecto Rápido de intercambio **solo en turno rival**; cada efecto activado una vez por turno.
+- **Costes o recursos potenciales:** no descarta ni tributa para buscar; ocupar la zona central puede competir con Tinia/Fortuna. El intercambio no equivale a mover cualquier monstruo de forma unilateral.
+- **Restricciones y requisitos:** el centro libre es indispensable para Invocarla desde mano por su procedimiento; la búsqueda solo obtiene **monstruos Elfnota** distintos de Lucina; el rebote exige monstruo del rival **con Nivel 6 o menor**, no Xyz/Enlace sin Nivel.
+- **Prioridad al ir primero:** elegir entre acceso a Regina/Continuas y acceso a Patron/Sincro; son planes alternativos desde la misma búsqueda de Lucina, no campos simultáneos.
+- **Prioridad al ir segundo:** conservar el Efecto Rápido de turno rival como respuesta posicional posterior; por sí sola no rebate cartas en tu propio turno.
+- **Medio/tardío y recuperación:** si Lucina está en GY puede ser objetivo de la Invocación de Strelitzia; Lucina por sí misma **no** tiene un efecto de revivirse desde GY.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:LUCINA01`, `650:A09:ELFNOTE:LUCINA:STRELITZIA02` y variante `650:A09:LUCINA:PATRON:CRYSTAL_WING10`; todas consumen su búsqueda en la línea elegida.
+- **Riesgo / brick / interrupciones:** negar la búsqueda deja Lucina en centro, sin Patron/Regina añadidos; si el centro está ocupado, no garantizar su Invocación propia; el rebote requiere el intercambio válido y objetivo con Nivel.
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas.
+- **Aplicación concreta dentro de este deck (A06):** Lucina→Regina (Continuas) **o** Lucina→Patron (Sincro); costo y materiales documentados por destino. Konami CID 22116, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Lucina**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Starter directo que elige entre dos submotores excluyentes**: Regina/Continuas o Patron/Sincro.
+- **Qué hace:** se Invoca desde mano al centro, busca **un** monstruo Elfnota no llamado Lucina y, en turno rival, puede intercambiar posición con el monstruo central y rebotar un monstruo rival de Nivel ≤6.
+- **Cómo aprovecharla en este deck:** buscar Regina para extensión lateral o Patron para Sincronías 6+1; no atribuir ambas búsquedas a la misma copia en el mismo turno.
+- **Al jugar primero:** decidir el destino real del recurso buscado y conservar Normal para Patron si se elige Sincro.
+- **Al jugar segundo:** proteger secuencia frente a negación de búsqueda; su rebote se reserva para el turno del rival.
+- **Cuándo tener precaución:** el centro debe quedar disponible al Invocarla; el intercambio no funciona si no hay otro monstruo central válido o falta objetivo rival legal.
 
 
 #### 03. Elfnote Tinia
@@ -105,31 +107,31 @@
 
 - **Copias y zona:** Main 3x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Tinia. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · extensor · control de zonas.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
-- **Efecto operativo (paráfrasis analítica):** acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** turno rival; Main Phase; Efecto Rápido.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **starter de soporte** · coloca Mágica Continua Elfnota desde Deck · interacción con la mano rival **temporal y aleatoria** en turno rival.
+- **Estado de sinergia y función:** **motor directo** con «Elfnotes: Welcome Home» (CID 22159) y extensión a Lucina/Regina de Atributo distinto.
+- **Papel como recurso, descarte o coste:** Tinia AGUA del Campo puede ser enviada al GY como **coste de Welcome Home**, que a su vez puede traer Lucina FUEGO desde Deck. Tinia no se descarta para activar su efecto de colocación.
+- **Efecto operativo (paráfrasis analítica):** puede Invocarse Especialmente desde la mano a la **Zona Principal central** una vez por turno por ese procedimiento. Durante **tu Main Phase** puede **colocar boca arriba una Mágica Continua «Elfnote» directamente desde Deck**. En turno rival, Efecto Rápido: intercambia su ubicación con el monstruo central; después puede **desterrar al azar y boca arriba 1 carta de la mano rival hasta la End Phase**.
+- **Mapa de activación y resultados:** Tinia de mano→centro→**Welcome Home boca arriba** desde Deck; Welcome envía Tinia como coste→Lucina de Deck con Atributo original distinto. En turno rival, con Tinia lateral + otro monstruo central, puede intercambiar y desterrar **temporalmente** una carta aleatoria de la mano rival.
+- **Ventanas de activación identificadas:** colocación de Continua durante propia Main Phase; intercambio **solo turno rival**; Invocación especial propia a centro. Cada efecto activado una vez por turno.
+- **Costes o recursos potenciales:** Tinia enviada del Campo al GY **por efecto de Welcome Home**, no por colocar la Mágica; el destierro de mano rival no es permanente al cumplirse la End Phase.
+- **Restricciones y requisitos:** requiere Mágica Continua Elfnota aún en Deck para la colocación; la Invocación propia necesita centro libre; el intercambio necesita dos monstruos propios con posiciones intercambiables y carta rival en mano para destierro.
+- **Prioridad al ir primero:** habilitar Welcome Home con una sola Tinia y pasar a Lucina/Regina/soporte en el orden escrito por A09:TINIA01.
+- **Prioridad al ir segundo:** no prometer remoción de Campo rival: su interrupción del turno rival es **sobre la mano** y por azar.
+- **Medio/tardío y recuperación:** Tinia puede ser revivida por Strelitzia si está en GY y cumple su Nivel; no tiene autorrevivir impreso.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:TINIA01` y `650:A09:ELFNOTE:TINIA:STRELITZIA04` documentan bifurcaciones excluyentes desde la misma Tinia.
+- **Riesgo / brick / interrupciones:** si Welcome Home no está disponible, Tinia no coloca una carta distinta de tipo Trampa por ese efecto; sin otra pieza central en turno rival no se intercambia, y sin mano rival no se destierra.
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; manipulación de posiciones o zonas.
+- **Aplicación concreta dentro de este deck (A06):** Tinia→Welcome Home→Lucina, con envío de Tinia como coste de la Continua; rotación de centro y destierro **temporal** de mano rival. Konami CID 22117, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Tinia**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Motor directo de Mágica Continua Elfnota**, no buscadora genérica de monstruos.
+- **Qué hace:** desde el centro o lateral, durante tu Main coloca **una Continua Mágica** Elfnota desde Deck; en turno rival puede cambiar su zona y desterrar temporalmente una carta de mano rival al azar.
+- **Cómo aprovecharla en este deck:** activar Welcome Home para enviar Tinia AGUA y sacar Lucina FUEGO; diferenciar esta rama de la línea de Sincro protegida.
+- **Al jugar primero:** coloca Welcome Home y prepara cambios de zona en turno rival.
+- **Al jugar segundo:** identificar si el rival conserva cartas en mano; la interrupción no afecta a cartas que ya están en Campo.
+- **Cuándo tener precaución:** no confundir Continua Mágica con Trampa; el destierro de mano termina en End Phase, y la salida a Lucina consume Tinia por coste de Welcome.
 
 
 #### 04. Elfnote Power Patron
@@ -138,31 +140,31 @@
 
 - **Copias y zona:** Main 2x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Modelo de Poder. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · searcher · buscador · habilitador de Extra.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
-- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) en Main Phase: habilita Sincronía · 2) con condición explícita en la carta: incorpora la pieza indicada a la mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** Main Phase; al llegar o estar en el Cementerio; Efecto Rápido.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck; exige materiales de Extra Deck o materiales adecuados. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **Cantante Nivel 1** · habilitador de Sincronía inmediata de destinos específicos · buscador de **carta Elfnota** cuando es material Sincro enviado al GY.
+- **Estado de sinergia y función:** **motor directo de Sincronía** con Lucina, Strelitzia, June Pride y Crystal Wing; su segundo disparo aporta continuidad al mismo motor.
+- **Papel como recurso, descarte o coste:** se envía desde Campo al GY como **Material de Sincronía**; eso habilita buscar una carta «Elfnote» de Deck, no equivale a buscar mientras está inmóvil en GY.
+- **Efecto operativo (paráfrasis analítica):** mientras esté aplicando su restricción, **solo se pueden Invocar Especialmente monstruos Sincro del Extra**. Durante Main Phase, Efecto Rápido: seleccionar un monstruo en **tu zona central**, aumentar **su Nivel +3** hasta final del turno e inmediatamente después de resolver **puedes** Invocar por Sincronía **1 Sincro «Elfnote» o «Junora the Power Patron of Tuning»**, con materiales legales. **Si Patron es enviado al GY como Material Sincro**, añade 1 carta «Elfnote» del Deck a mano.
+- **Mapa de activación y resultados:** Lucina6 centro + Patron1 lateral → **sin subir Niveles** Strelitzia7 (o Arcanite/Dawn según requisitos); **subiendo Lucina6→9** y usando la Sincronía inmediata autorizada, June Pride10. Patron enviado al GY por primera Sincronía busca Regina; si se revive para una segunda Sincronía con Crystal Wing, **no busca por segunda vez ese turno**.
+- **Ventanas de activación identificadas:** cambio de Nivel **Efecto Rápido durante Main Phase**; búsqueda **al ser enviado al GY como material de Sincronía**; cada uno de esos dos efectos una vez por turno.
+- **Costes o recursos potenciales:** ambos cuerpos y sus Niveles efectivos se consumen para Sincronía; el objetivo central del +3 debe existir al activar y resolverse; no confundir aumento de Nivel con pago de LP o descarte.
+- **Restricciones y requisitos:** el efecto inmediato de Sincronía por +3 solo permite **Sincro Elfnota o Junora**; Crystal Wing, Arcanite y Dawn requieren la Invocación Sincro ordinaria con material válido, **sin utilizar ese efecto inmediato**. La restricción al Extra mientras Patron se aplica excluye Link/Fusión.
+- **Prioridad al ir primero:** desde Lucina elegir sinergia de Strelitzia/Crystal Wing frente a June Pride y no gastar el +3 si se necesita suma 6+1.
+- **Prioridad al ir segundo:** usar búsqueda por material para sostener mano tras Sincronizar, pero no presentarla como negación propia del Cantante.
+- **Medio/tardío y recuperación:** Strelitzia puede revivirlo desde GY si está disponible; la búsqueda de Patron está limitada a una por turno, aun con múltiples envíos al GY ese turno.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:LUCINA:STRELITZIA02`, `650:A09:LUCINA:PATRON:JUNE_PRIDE07` y variante `650:A09:LUCINA:PATRON:CRYSTAL_WING10` tienen procedimientos distintos de nivel y material.
+- **Riesgo / brick / interrupciones:** aumentar Nivel antes de buscar Crystal Wing rompe la suma 7+1 posterior; una interrupción que retire Patron antes de Sincronizar deja la Normal consumida; el efecto inmediato no Invoca cualquier Sincro genérica.
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.
+- **Aplicación concreta dentro de este deck (A06):** `650:A06:STRELITZIA:PATRON:CRYSTAL_WING03` y las rutas alternativas Sincro. Patron1 es Cantante y buscador **al ir a GY como material**, no un buscador automático desde Campo. Konami CID 22119, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Power Patron**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Cantante Nivel 1 y buscador tras material Sincro**; controla compatibilidad de Extra, no es handtrap.
+- **Qué hace:** puede subir tres Niveles al monstruo central y ofrecer una **Sincronía inmediata limitada**; al ser material Sincro enviado al GY, busca una Elfnota del Deck.
+- **Cómo aprovecharla en este deck:** con Lucina6, omitir +3 para Strelitzia7 o aplicarlo para June Pride10; Crystal Wing requiere la segunda Sincronía a partir de Strelitzia y Patron revivido.
+- **Al jugar primero:** reservar el efecto de modificación solo si el destino es legal y desea la suma aumentada.
+- **Al jugar segundo:** no prometer una negación propia; conservar la búsqueda al usarlo como material para reponer mano.
+- **Cuándo tener precaución:** no Invocar Link mientras la restricción esté activa; no hacer búsqueda doble al reciclar Patron en el mismo turno.
 
 
 #### 05. Elfnote Fortuna
@@ -171,31 +173,31 @@
 
 - **Copias y zona:** Main 1x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Fortuna. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · extensor · control de zonas.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** No se demuestra que esta carta sea recurso de descarte o pago para otra.
-- **Efecto operativo (paráfrasis analítica):** acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) efecto propio o continuo: Invocación Especial desde mano. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** turno rival; Main Phase; Efecto Rápido.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **colocadora de Trampa Continua Elfnota** · respuesta posicional de rebote de **Mágica/Trampa boca arriba** en turno rival.
+- **Estado de sinergia y función:** **motor directo de soporte** con Rapsodia de Locura CID 22173 y el cuerpo central que posibilita su respuesta de cambio de ubicación.
+- **Papel como recurso, descarte o coste:** Fortuna no paga envío/descarte por colocar la Trampa; puede ser material si hay una ruta concreta. Si la Trampa ya salió del Deck, no crear otra copia adicional.
+- **Efecto operativo (paráfrasis analítica):** puede Invocarse Especialmente desde mano a **tu zona central** una vez por turno por ese procedimiento; en tu Main Phase **coloca una Trampa Continua «Elfnote» boca arriba desde mano o Deck**. Durante turno rival, Efecto Rápido, intercambia su ubicación con el monstruo central y **después puede** devolver **una Mágica/Trampa boca arriba del Campo** a mano.
+- **Mapa de activación y resultados:** Regina central trae Fortuna lateral del Deck; Fortuna lateral **coloca Rapsodia de Locura boca arriba**, no una Mágica Continua; durante turno rival, Fortuna lateral puede cambiarse con Regina central y rebotar **una M/T boca arriba** si existe.
+- **Ventanas de activación identificadas:** colocar Trampa en **tu Main Phase**; intercambio y rebote **solo en turno rival**; cada efecto activado una vez por turno.
+- **Costes o recursos potenciales:** no hay envío como coste para colocar Rapsodia; el intercambio exige dos monstruos propios con posiciones permutables y M/T boca arriba para el rebote opcional.
+- **Restricciones y requisitos:** la colocación de Trampa es distinta a colocación de Mágica por Tinia; un objetivo M/T **boca abajo no es elegible** para el rebote posterior; debe sobrevivir la carta hasta resolver.
+- **Prioridad al ir primero:** traer Fortuna por Regina, colocar Rapsodia, conservar Fortuna lateral para contestar en turno rival desde la posición adecuada.
+- **Prioridad al ir segundo:** no prometer rebote inmediato en propia Main Phase: el efecto de intercambio es de **turno rival**.
+- **Medio/tardío y recuperación:** Strelitzia puede traerla desde GY si cumple sus requisitos, pero Fortuna no se revive sola ni añade Rapsodia a mano como búsqueda genérica.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:TINIA01` y `650:A09:ELFNOTE:LUCINA01` dejan **Regina centro + Fortuna lateral + Rapsodia** si resuelven los pasos.
+- **Riesgo / brick / interrupciones:** sin Rapsodia disponible en mano o Deck no colocarla por ese efecto; no confundir intercambio con negación, ni el rebote de M/T boca arriba con destrucción.
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** acceso al campo desde la mano; manipulación de posiciones o zonas.
+- **Aplicación concreta dentro de este deck (A06):** Regina→Fortuna→Rapsodia Trampa Continua; turno rival Fortuna lateral↔Regina centro y rebote condicionado de M/T boca arriba. Konami CID 22118, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Fortuna**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** acceso al campo desde la mano; manipulación de posiciones o zonas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** acceso al campo desde la mano; manipulación de posiciones o zonas.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Soporte directo de Trampa Continua**, no buscadora genérica ni negación propia.
+- **Qué hace:** coloca una Trampa Continua Elfnota desde mano/Deck; en turno rival intercambia zonas y puede rebotar M/T boca arriba.
+- **Cómo aprovecharla en este deck:** traerla con Regina, colocar Rapsodia y conservar la opción de intercambio con el centro ocupado por Regina.
+- **Al jugar primero:** establecer Rapsodia para el turno rival sin gastar una segunda búsqueda de Lucina.
+- **Al jugar segundo:** identificar M/T rival boca arriba; no atribuir efecto de rebote en tu propio turno.
+- **Cuándo tener precaución:** Tinia coloca Mágica Continua; Fortuna coloca Trampa Continua. Una M/T boca abajo no sirve como objetivo de su rebote.
 
 
 #### 06. Fidraulis Harmony
@@ -237,31 +239,31 @@
 
 - **Copias y zona:** Main 2x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Medius el Puro. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** searcher · buscador · extensor · recuperación.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: reciclaje de recurso propio.
-- **Efecto operativo (paráfrasis analítica):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) al invocarla Normal/Especial: Invocación Especial desde mano, incorpora la pieza indicada a la mano · 2) mientras está en Cementerio: Invocación Especial desde mano, devuelve recursos a mano/Deck/Extra. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** al producirse una Invocación; al llegar o estar en el Cementerio.
-- **Costes o recursos potenciales:** reciclaje de recurso propio.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; depende de recursos en Cementerio. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. Verificar que el objetivo de recuperación continúe disponible.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Función principal y secundaria:** buscador o **Invocador desde Deck** de monstruo «Power Patron» al ser Invocado · reciclaje de monstruo para **autorrevivir desde GY**.
+- **Estado de sinergia y función:** **puente directo** con Power Patron CID 22119 y **material condicional** con Harmonia CID 22533 para Destorbim.
+- **Papel como recurso, descarte o coste:** desde su GY **baraja 1 monstruo de mano o Campo propio boca arriba al Deck** para Invocarse Especialmente a sí mismo. Ese Medius será **desterrado al abandonar el Campo**.
+- **Efecto operativo (paráfrasis analítica):** si Medius es Invocado Normal o Especialmente, puede **añadir a mano O Invocar Especialmente desde Deck** un monstruo «Power Patron» (elegir una de las dos opciones, no ambas). Si Medius está en GY, puede barajar al Deck un monstruo de mano/Campo propio boca arriba y, **si lo hace**, revivir Medius del GY; al salir del Campo será desterrado.
+- **Mapa de activación y resultados:** Normal Medius→buscar Patron a mano (permite retrasar la restricción Extra de Patron) **o** Invocarlo del Deck (establece cuerpo, pero activa su restricción Sincro). Con Medius GY y otro monstruo disponible para barajar, revivir Medius y marcar destierro al salir.
+- **Ventanas de activación identificadas:** disparo **al ser Invocado Normal o Especialmente**; efecto de Medius **en GY** para su propio regreso, que no es Efecto Rápido. Cada efecto una vez por turno.
+- **Costes o recursos potenciales:** 1 monstruo real de mano o Campo boca arriba para barajar al Deck; no confundir barajar con añadir el monstruo a mano ni recuperar Patron del GY.
+- **Restricciones y requisitos:** necesita un monstruo Power Patron disponible en Deck para la primera función; el regreso desde GY exige monstruo válido para devolver al Deck y zona libre; se destierra al salir tras revivirse de ese modo.
+- **Prioridad al ir primero:** elegir **añadir** Patron para mantener disponible una ruta Link antes de llevar al Cantante al Campo, o **Invocar** Patron si la meta inmediata es Sincronía.
+- **Prioridad al ir segundo:** Medius aporta acceso al motor, pero no niega efectos ni destruye cartas por sí solo.
+- **Medio/tardío y recuperación:** su efecto GY recicla **otro** monstruo y revive **al propio Medius**; la copia revivida no vuelve normalmente al GY cuando deja el Campo, pues se destierra.
+- **Sinergias y acceso a líneas:** puente `650:A06:HARMONIA:MEDIUS:DESTORBIM02`; también la línea Lucina+Medius→S:P documentada con Patron **solo en mano**.
+- **Riesgo / brick / interrupciones:** si Patron está agotado en Deck, el disparo inicial pierde ese objetivo; enviar Patron al Campo antes de Enlace activa el bloqueo Sincro; si no hay monstruo que barajar, no revive de GY.
 - **Utilidad editorial:** 5/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
+- **Aplicación concreta dentro de este deck (A06):** Medius→Patron (a mano **o** al Campo desde Deck); **Medius es no Cantante Nivel 4**, material con Harmonia Cantante7 para Destorbim11 si ambos coinciden. Konami CID 21419, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Medius the Pure**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
-- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Label funcional:** **Puente directo Power Patron y reciclaje propio condicionado**.
+- **Qué hace:** Invocado Normal/Especialmente, **elige** buscar o Invocar un Patron desde Deck; desde GY baraja otro monstruo de mano/Campo al Deck para revivirse, con destierro al abandonar Campo.
+- **Cómo aprovecharla en este deck:** añadir Patron a mano antes de Enlace con S:P o Invocarlo desde Deck para Sincronía. Medius4 con Harmonia7 permite Destorbim11 bajo el estado declarado.
+- **Al jugar primero:** elegir destino de Patron según si todavía se necesitan Link/Fusión o solo Sincros.
+- **Al jugar segundo:** no confundir acceso a material con remoción/negación propias.
+- **Cuándo tener precaución:** revivir Medius consume otro monstruo para barajar; el Medius revivido será desterrado cuando deje el Campo.
 
 
 #### 08. Vidolium the Unstable Power Patron of Unity
@@ -603,31 +605,31 @@
 
 - **Copias y zona:** Main 1x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnotas: Bienvenidos a Casa. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** extensor · cierre · protección.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
-- **Efecto operativo (paráfrasis analítica):** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
-- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Función principal y secundaria:** **Mágica Continua Elfnota** · protección del monstruo central contra destrucción por efectos · extensión desde Deck por **Atributo original distinto**.
+- **Estado de sinergia y función:** **motor directo con Tinia, Lucina y Regina**; Tinia la puede colocar boca arriba desde Deck.
+- **Papel como recurso, descarte o coste:** para su efecto activado **envía 1 monstruo de mano o Campo al GY**; el atributo original del monstruo enviado debe diferir del de la Elfnota que se quiere Invocar del Deck.
+- **Efecto operativo (paráfrasis analítica):** mientras la Continua permanezca aplicando, **el monstruo propio de la Zona Principal central no puede ser destruido por efectos de cartas**. Al activar su otro efecto, envía 1 monstruo desde mano/Campo al GY y **Invoca Especialmente en Defensa** desde Deck una Elfnota con **Atributo original distinto**; después el Extra queda limitado a **Invocaciones Especiales de Sincros el resto del turno**.
+- **Mapa de activación y resultados:** Tinia AGUA coloca Welcome→Welcome envía Tinia AGUA del Campo al GY→Invoca Lucina FUEGO desde Deck **en Defensa** y centro si libre→Lucina busca Regina/Patron en nueva cadena. La protección se aplica al cuerpo **que ocupe el centro en ese momento**, no a Tinia en GY.
+- **Ventanas de activación identificadas:** efecto continuo de protección al centro y efecto activado durante oportunidad legal de una Mágica Continua boca arriba; **una vez por turno** para el segundo efecto.
+- **Costes o recursos potenciales:** 1 monstruo enviado de mano/Campo; no enviar una M/T como coste. No añadir directamente la Elfnota a mano: llega desde Deck **en Defensa**.
+- **Restricciones y requisitos:** otro Atributo **original** y objetivo Elfnota válido aún en Deck; solo Sincros desde Extra tras resolver la extensión; el efecto continuo protege frente a **destrucción por efecto**, no a destierro, devolución o batalla.
+- **Prioridad al ir primero:** convertir Tinia en Lucina/Patron para la rama Strelitzia protegida por Welcome Home.
+- **Prioridad al ir segundo:** usar la protección central para conservar el jefe antes de gastar el efecto de extensión, sin confundirlo con inmunidad total.
+- **Medio/tardío y recuperación:** mantener la protección si el central cambia de identidad; si se agotan las Elfnota de Atributo distinto en Deck, no asumir extensión adicional.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:TINIA01` y `650:A09:ELFNOTE:TINIA:STRELITZIA04`; la segunda ruta termina con Strelitzia central y Welcome boca arriba.
+- **Riesgo / brick / interrupciones:** si el monstruo enviado como coste sale de Campo, no permanece protegido allí; negar el efecto tras envío deja consumido el recurso y no se Invoca el objetivo.
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas.
+- **Aplicación concreta dentro de este deck (A06):** `Tinia AGUA → Welcome (Continua Mágica) → enviar Tinia al GY → Lucina FUEGO en DEF desde Deck`; protección de destrucción por efecto para el monstruo **central**. Konami CID 22159, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnotes: Welcome Home**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «extensor».
-- **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Label funcional:** **Protección central + puente de Atributo distinto desde Deck**, no negación.
+- **Qué hace:** impide que el monstruo central sea destruido por efectos; enviando un monstruo de mano/Campo al GY, trae del Deck una Elfnota de otro Atributo original en Defensa.
+- **Cómo aprovecharla en este deck:** Tinia la coloca; enviar Tinia AGUA y traer Lucina FUEGO, reservando una Sincronía protegida en centro si se sigue esa rama.
+- **Al jugar primero:** protección y extensión sin añadir una Elfnota a mano por este efecto.
+- **Al jugar segundo:** conservar protección frente a destrucción por efecto, no frente a devolución/destierro.
+- **Cuándo tener precaución:** el envío consume realmente un monstruo y desde su resolución el Extra queda limitado a Sincros.
 
 
 #### 19. Elfnotes: Rhapsodia of Madness
@@ -636,31 +638,31 @@
 
 - **Copias y zona:** Main 1x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnotas: Rapsodia de Locura. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** recurso situacional.
-- **Estado de sinergia y función:** Sinergia indirecta (soporte o recursos). Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Coste o consumo descrito en A05: envío de recurso propio al Cementerio.
-- **Efecto operativo (paráfrasis analítica):** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** requieren la fase o condición específica indicada en el texto; sin ventana rápida general asumida.
-- **Costes o recursos potenciales:** envío de recurso propio al Cementerio.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede limitar ataques; requiere estado de campo específico; depende de recursos en Cementerio. 
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
-- **Riesgo / brick / interrupciones:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Función principal y secundaria:** **Trampa Continua Elfnota** · limita declaraciones de ataque a tu monstruo central · revive una Elfnota desde GY · negación opcional de carta rival boca arriba **si ya controlas Sincro**.
+- **Estado de sinergia y función:** **motor directo de soporte** con Fortuna (que la coloca), materiales Elfnota de Atributos originales distintos y posibles Sincros del Extra.
+- **Papel como recurso, descarte o coste:** su efecto activado **envía un monstruo desde mano o Campo al GY**, y **después selecciona** una Elfnota en GY de **Atributo original diferente** al enviado; no basta con tener un monstruo cualquiera en GY sin esa condición.
+- **Efecto operativo (paráfrasis analítica):** mientras controlas un monstruo en tu **Zona Principal central**, los monstruos rivales **no pueden atacar a otros**, salvo a dicho central. El efecto activado envía 1 monstruo de mano/Campo al GY y luego selecciona **1 Elfnota con Atributo original distinto en tu GY** para Invocarla Especialmente; **después**, si controlas **monstruo Sincro**, puedes negar hasta el final de turno los efectos de **1 carta rival boca arriba**. No es una negación general automática.
+- **Mapa de activación y resultados:** Fortuna lateral coloca Rapsodia; Regina central proporciona el cuerpo cuya zona controla ataques. Sin Sincro, Rapsodia puede mantener presión posicional/recuperación, pero **no** se reclama la negación adicional. Con Sincro y objetivo boca arriba, esa negación se puede aplicar **al resolver el efecto de recuperación**.
+- **Ventanas de activación identificadas:** efecto continuo de ataques condicionado a monstruo central; efecto activado de Trampa Continua ya boca arriba, una vez por turno, sujeto a la oportunidad legal de activar efectos de Trampa.
+- **Costes o recursos potenciales:** monstruo enviado desde mano/Campo al GY antes del punto y coma; el objetivo recuperado desde GY se elige por Atributo **original** distinto; al resolver, no prometer negación sin Sincro propio.
+- **Restricciones y requisitos:** si no hay monstruo central, no hay limitación posicional de ataques; sin Elfnota válida en GY y monstruo para enviar, no revivir; sin Sincro propio o carta rival boca arriba no hay negación extra.
+- **Prioridad al ir primero:** colocarla mediante Fortuna en la línea Regina central + Fortuna lateral; reservar la recuperación hasta existir objetivo adecuado en GY.
+- **Prioridad al ir segundo:** aprovechar la negación **solo** si la cadena de revivir y control de Sincro tienen estado válido; no tratarla como negación libre sin coste.
+- **Medio/tardío y recuperación:** recicla Elfnota concreta desde GY pagando otro monstruo; su efecto puede extender el campo, pero no recupera cartas de destierro ni de Deck.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:TINIA01` y `650:A09:ELFNOTE:LUCINA01` colocan Rapsodia con Fortuna; la negación necesita una continuación que **ya controle Sincro** y recurso de GY distinto.
+- **Riesgo / brick / interrupciones:** el envío como coste no se recupera automáticamente si se niega el efecto; no garantizar un objetivo de atributo distinto ni una negación que requiere Sincro previo.
 - **Utilidad editorial:** 3/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
+- **Aplicación concreta dentro de este deck (A06):** `Fortuna → Rapsodia` como Trampa Continua; `enviar monstruo de mano/Campo → revivir Elfnota de Atributo distinto desde GY`; negación de carta boca arriba solo con Sincro propio. Konami CID 22173, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnotes: Rhapsodia of Madness**
 
-- **Label funcional:** Sinergia indirecta. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** interacción propia de la carta que requiere consultar el texto íntegro enlazado. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** interacción propia de la carta que requiere consultar el texto íntegro enlazado.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «recurso situacional».
-- **Cuándo tener precaución:** Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor.
+- **Label funcional:** **Trampa de control de ataques y recuperación por Atributo distinto**, con negación condicional.
+- **Qué hace:** limita ataques rivales al monstruo central, revive una Elfnota distinta por Atributo original tras enviar un monstruo y puede negar carta rival boca arriba **solo si controlas Sincro**.
+- **Cómo aprovecharla en este deck:** Fortuna la coloca; desde el campo Regina central + Fortuna lateral se gana control de ataques, pero **no** hay negación sin Sincronía.
+- **Al jugar primero:** preparar recursos del GY para la recuperación, preservando defensa de centro.
+- **Al jugar segundo:** usar la negación cuando el Sincro y el objetivo rival ya existen, no asumirla por el simple acto de colocar Rapsodia.
+- **Cuándo tener precaución:** requiere recurso que enviar, objetivo Elfnota de Atributo distinto en GY, y Sincro para negar.
 
 
 #### 20. The Three Champions of Swordsoul [Synchro; Konami 22356]
@@ -813,31 +815,31 @@
 
 - **Copias y zona:** Extra 1x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Elfnota Serafín Strelitzia. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · resultado de Extra Deck · recuperación · extensor · cierre.
-- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
-- **Efecto operativo (paráfrasis analítica):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** efecto de estadística, condición o material; no asumir un disparador adicional. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** Main Phase; Efecto Rápido.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. Invocar sólo desde el Extra Deck usando su procedimiento propio.
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. Verificar que el objetivo de recuperación continúe disponible.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
-- **Riesgo / brick / interrupciones:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **Sincro Nivel 7 no Cantante** · original ATK 3000 mientras está en centro · extensión mediante Invocación desde **mano o GY** de una Elfnota de Nivel ≤6 · modificación **opcional** de Niveles.
+- **Estado de sinergia y función:** **destino Sincro demostrado** desde Lucina6+Patron1; a su vez es material Sincro no Cantante para Crystal Wing8 y puente a Junora10 con niveles ajustados.
+- **Papel como recurso, descarte o coste:** sale del Extra por Sincronía de un Cantante más uno o más no Cantantes; puede **enviarse como material Sincro no Cantante** junto a Patron revivido para Crystal Wing, o reutilizarse en Junora si el procedimiento y los Niveles coinciden.
+- **Efecto operativo (paráfrasis analítica):** si está en **Zona Principal central**, su ATK **original pasa a 3000**. Durante **cualquier Main Phase** (Efecto Rápido), puede Invocar Especialmente **1 monstruo «Elfnote» de Nivel 6 o menor desde mano o GY**; **después puede optar** por reducir 3 Niveles a todos los monstruos Nivel 4 o superior del Campo hasta final del turno. Tras ese efecto, por el resto del turno solo se Invocan Especialmente **Sincros del Extra**.
+- **Mapa de activación y resultados:** Lucina6+Patron1→Strelitzia7 centro; Patron enviado a GY busca Regina; Strelitzia revive **al mismo Patron** desde GY **sin reducir Niveles**; Strelitzia7+Patron1→Crystal Wing8. Alternativa Junora aplica descenso de Niveles para una suma distinta, **no** combinar esos dos estados.
+- **Ventanas de activación identificadas:** Invocación Sincro en Main propia, Efecto Rápido de extensión durante **Main Phase de cualquier jugador**, una vez por turno.
+- **Costes o recursos potenciales:** 1 Elfnota de Nivel ≤6 realmente disponible en mano o GY; no revive cualquier monstruo o carta desterrada. La opción de reducir Niveles altera **todos** los monstruos Nivel 4+ del Campo, incluidos rivales.
+- **Restricciones y requisitos:** su ATK original 3000 depende de permanecer en centro; fuera de centro no se conserva automáticamente. Si se elige descenso de Niveles, Strelitzia7 pasa a 4 y no sirve como material 7 para Crystal Wing con Patron1.
+- **Prioridad al ir primero:** elegir entre conservar a Strelitzia central (extensión en turno rival), convertirla en Crystal Wing8 (sin bajar Niveles) o ruta Junora10 (niveles reducidos), solo una salida por materiales.
+- **Prioridad al ir segundo:** utilizar su Efecto Rápido para proporcionar un cuerpo Elfnota legal, no confundir el efecto con negación propia.
+- **Medio/tardío y recuperación:** revive Elfnota de mano/GY **hasta Nivel 6**, no recicla desde destierro ni recupera cartas por sí sola a mano.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:LUCINA:STRELITZIA02`, `650:A09:LUCINA:PATRON:CRYSTAL_WING10`, `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03`.
+- **Riesgo / brick / interrupciones:** perder el cuerpo de destino del GY o ser negada antes de extender impide segunda Sincronía; activar la reducción opcional cuando la ruta necesita Nivel7 invalida la suma 7+1.
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
+- **Aplicación concreta dentro de este deck (A06):** Sincro7 mediante Lucina+Patron; Efecto Rápido revive Patron desde GY; mantener Niveles 7+1 para Crystal Wing8. Konami CID 22143, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Elfnote Seraphim Strelitzia [Synchro]**
 
-- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas. A06 identifica su destino, condicionado a material/procedimiento.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** La restricción de invocaciones puede cerrar rutas alternativas; revisar el orden de activación. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Sincro7 de motor + extensor rápido** y material Sincro no Cantante para Crystal Wing8.
+- **Qué hace:** obtiene original ATK3000 en centro y, en Main Phase, trae una Elfnota Nivel ≤6 desde mano/GY con reducción de Niveles **opcional**.
+- **Cómo aprovecharla en este deck:** revivir Patron1 para Crystal Wing8 **sin** bajar Niveles, o reservar una Elfnota para respuesta posicional en turno rival.
+- **Al jugar primero:** elegir jefe final; Strelitzia y Crystal Wing no quedan simultáneamente por la misma secuencia.
+- **Al jugar segundo:** extender cuerpo legal mientras haya Elfnota alcanzable; no atribuir negación propia de monstruos.
+- **Cuándo tener precaución:** el descenso de Nivel afecta a ambos Campos y puede invalidar el Sincro previsto; su ATK3000 requiere centro.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1175,31 +1177,31 @@
 
 - **Copias y zona:** Extra 1x. No altera las cantidades registradas.
 - **Nombre oficial de referencia:** Junora el Modelo de Poder de Afinación. CID cotejado con la ficha oficial; el nombre histórico del inventario se conserva aunque su grafía/traducción difiera.
-- **Función principal y secundaria:** interrupción · resultado de Extra Deck · habilitador de Extra.
-- **Estado de sinergia y función:** Destino Extra condicionado. Es una clasificación de juego; revisar la relación concreta en A06.
-- **Papel como recurso, descarte o coste:** Material o destino del Extra condicionado a los requisitos de invocación.
-- **Efecto operativo (paráfrasis analítica):** habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Mapa de activación y resultados:** 1) efecto propio o continuo: habilita Sincronía · 2) tras su invocación desde el Extra: realiza Fusión con materiales permitidos. Cada operación está sujeta a la secuencia y al «si lo haces» del texto oficial.
-- **Ventanas de activación identificadas:** al producirse una Invocación; Efecto Rápido; Invocación del Extra Deck.
-- **Costes o recursos potenciales:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
-- **Restricciones y requisitos:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
-- **Prioridad al ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Prioridad al ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Medio/tardío y recuperación:** reciclar Cantantes, monstruos de Atributos distintos y zonas disponibles. No asumir que por sí misma recicla recursos si el texto no lo permite.
-- **Sinergias y acceso a líneas:** Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
-- **Riesgo / brick / interrupciones:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Función principal y secundaria:** **Sincro Nivel 10** de tres materiales · negación puntual de cartas rivales boca arriba **al ser Invocada por Sincronía** · bloqueo temporal de uso como materiales de Extra en columnas de Elfnota propia.
+- **Estado de sinergia y función:** **destino de motor condicionado** con Lucina, Tinia, Regina, Patron y Strelitzia, en la ruta de niveles 4+3+3=10.
+- **Papel como recurso, descarte o coste:** requiere **1 Cantante + exactamente 2 no Cantantes** para la Sincronía; para **esta** Invocación puede **tratar un monstruo propio en la zona central como Cantante**. Esto no significa que Junora permita Invocar Fusiones.
+- **Efecto operativo (paráfrasis analítica):** con materiales Sincro de suma Nivel 10, puede tratar 1 monstruo propio central como Cantante. **Cuando Junora es Invocada por Sincronía**, puede **negar efectos de todas las cartas rivales boca arriba existentes**. En Efecto Rápido propio, los monstruos rivales en las **mismas columnas de los monstruos «Elfnote» que controlas** no pueden usarse como materiales de Fusión/Sincronía/Xyz/Enlace hasta terminar el turno; la carta no realiza ninguna Invocación por Fusión.
+- **Mapa de activación y resultados:** Lucina+Tinia→Strelitzia; su reducción de Nivel deja **Strelitzia Lv4 central, Regina Lv3 y Tinia Lv3 laterales**. Tratar Strelitzia central **como Cantante** para Junora y usar Regina/Tinia como sus **dos no Cantantes** 4+3+3=10. Al Sincronizar, si rival controla cartas boca arriba, Junora puede negar sus efectos en la resolución.
+- **Ventanas de activación identificadas:** efecto de negación **si es Invocada por Sincronía**; Efecto Rápido de columnas durante ventana legal, **una vez por turno** para ese último efecto.
+- **Costes o recursos potenciales:** consume exactamente tres cuerpos para su Invocación; no paga monstruos rivales ni descarta cartas por el Efecto Rápido de columna.
+- **Restricciones y requisitos:** **Junora no contiene «Elfnote» en su nombre**; si tras Sincronizar solo controlas Junora, **no existe monstruo propio «Elfnote»** para definir columnas en su Efecto Rápido. No atribuir bloqueo de columnas en ese endboard aislado.
+- **Prioridad al ir primero:** usar ruta Junora si están disponibles Lucina y Tinia **más** materiales y reducción válidos; no confundir el destino final con Crystal Wing de la otra bifurcación.
+- **Prioridad al ir segundo:** negación al entrar afecta **las cartas rivales boca arriba presentes en la resolución**; no es un aura que niega cartas nuevas indefinidamente.
+- **Medio/tardío y recuperación:** Junora no revive materiales ni recupera cartas desde GY; Regina puede volver a mano **por su propio efecto** al ser material Sincro.
+- **Sinergias y acceso a líneas:** `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03` documenta inicio de **dos cartas** y suma de materiales; no invoca a Crystal Wing con los mismos cuerpos simultáneamente.
+- **Riesgo / brick / interrupciones:** si se interrumpe el revival de Tinia, no hay tres materiales; si no se reduce Nivel, 7+6+6 no suma 10; sin Elfnota propia adicional no declarar columna bloqueada.
 - **Utilidad editorial:** 4/5 para este deck (estimación por rol y zona, no probabilidad calculada). No cambiar copias; cualquier sugerencia de alta/baja pasa por el apartado 22 y aprobación.
 - **Referencia oficial y trazabilidad:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=es. **Confianza:** texto y tipo de efecto cotejados en Konami; síntesis táctica editorial, no demostración de combo.
-- **Aplicación concreta dentro de este deck (A06):** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
+- **Aplicación concreta dentro de este deck (A06):** Strelitzia central4 (Cantante solo por el procedimiento de Junora) + Regina3 + Tinia3 → Junora Sincro10; negación puntual de cartas boca arriba y columna condicionada a **otro monstruo Elfnota controlado**. Konami CID 22142, **función oficial cotejada 18-11-2026**.
 
 **USO PRÁCTICO Y SINERGIA — Junora the Power Patron of Tuning [Synchro]**
 
-- **Label funcional:** Referencias de ruta localizadas; conexión reglamentaria sujeta al recorrido de la guía. Clasificación documental; una relación es válida solo si se satisfacen sus condiciones exactas.
-- **Qué hace:** habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente.
-- **Cómo aprovecharla en este deck:** habilitación o continuación de una invocación del Extra Deck. A06 identifica su destino, condicionado a material/procedimiento.
-- **Al jugar primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
-- **Al jugar segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
-- **Cuándo tener precaución:** No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+- **Label funcional:** **Sincro10 de tres materiales; negación al Invocarse y bloqueo de columnas condicionado**.
+- **Qué hace:** trata un monstruo central como Cantante para su Sincronía, niega efectos rivales boca arriba al ser Invocada por Sincronía y puede bloquear materiales de Extra en columnas de monstruos Elfnota propios.
+- **Cómo aprovecharla en este deck:** usar Strelitzia4 central + Regina3 + Tinia3 como materiales; no presentar su efecto de columna si Junora queda sola.
+- **Al jugar primero:** ruta de dos cartas y tres cuerpos para Sincro10, con el coste y la preparación especificados.
+- **Al jugar segundo:** activar negación de cartas rivales boca arriba al entrar si hay cartas afectadas, no asumir negación a futuras activaciones.
+- **Cuándo tener precaución:** no realiza Fusión; con Junora sola no hay monstruo Elfnota que fije columnas.
 
 **CÓMO LLEGAR DESDE TU DECK — RUTAS DOCUMENTADAS**
 
@@ -1536,13 +1538,13 @@ Las siguientes filas son **relaciones funcionales**, no secuencias certificadas 
 
 | Carta / CID y zona | Estado funcional de sinergia | Motivo de inclusión | Relación y condición concreta | Papel como coste, descarte o material | Límite o riesgo | Decisión táctica |
 |---|---|---|---|---|---|---|
-| **Elfnote Regina** (CID 22523) — Main 3x | **Sinergia indirecta (soporte o recursos)** | interrupción · searcher · buscador · extensor | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck | Coste o consumo descrito en A05: envío de recurso propio al Cementerio | hay límite por turno según el efecto concreto; exige materiales de Extra Deck o materiales adecuados | Conservar; verificar coste y orden |
-| **Elfnote Lucina** (CID 22116) — Main 3x | **Sinergia indirecta (soporte o recursos)** | interrupción · searcher · buscador · extensor · control de zonas | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
-| **Elfnote Tinia** (CID 22117) — Main 3x | **Sinergia indirecta (soporte o recursos)** | interrupción · extensor · control de zonas | acceso al campo desde la mano; manipulación de posiciones o zonas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles | Conservar; verificar coste y orden |
-| **Elfnote Power Patron** (CID 22119) — Main 2x | **Sinergia indirecta (soporte o recursos)** | interrupción · searcher · buscador · habilitador de Extra | búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck; exige materiales de Extra Deck o materiales… | Conservar; verificar coste y orden |
-| **Elfnote Fortuna** (CID 22118) — Main 1x | **Sinergia indirecta (soporte o recursos)** | interrupción · extensor · control de zonas | acceso al campo desde la mano; manipulación de posiciones o zonas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
+| **Elfnote Regina** (CID 22523) — Main 3x | **Engine directo Elfnota; A05 oficial cotejado** | extensión desde mano y Deck; autorrecuperación por material Sincro | Desde mano envía otra Elfnote de mano/Campo boca arriba para Invocarse; **solo al ser Invocada al centro**, trae del Deck una Elfnota distinta de Regina. Si fue material Sincro enviado al GY, vuelve a mano. | El envío de otra carta Elfnota es coste de Invocación desde mano; su retorno a mano requiere que sea material Sincro. | Tres efectos **distintos** una vez por turno; una Invocación fuera del centro no habilita Deck. | Mantener 3x; no confundir retorno a mano con Invocación desde GY. |
+| **Elfnote Lucina** (CID 22116) — Main 3x | **Starter directo Elfnota; A05 oficial cotejado** | Invocación al centro · búsqueda de monstruo · rebote condicional | Desde mano al centro → **una** búsqueda de monstruo Elfnota distinto de Lucina: Regina **o** Patron. En turno rival intercambia con el monstruo central y después puede devolver monstruo rival **Nivel ≤6**. | Puede ser carta enviada por coste de Regina o no Cantante Lv6 para Sincro con Patron1. | Búsqueda una vez por turno; rebote **solo turno rival** con posición y blanco legal; no afecta Xyz/Link sin Nivel. | Elegir salida Continuas o Sincro, no sumar dos búsquedas. |
+| **Elfnote Tinia** (CID 22117) — Main 3x | **Engine directo de Continua Mágica; A05 oficial cotejado** | coloca Welcome Home · destierro temporal de mano rival | Desde mano al centro; durante propia Main coloca **Mágica Continua Elfnota** boca arriba desde Deck. En turno rival, al intercambiar con el central, puede desterrar **carta aleatoria de mano rival hasta End Phase**. | Tinia AGUA es coste **de Welcome Home**, que trae Lucina FUEGO desde Deck; colocar Welcome no envía a Tinia. | No coloca Trampas; necesita carta rival en mano para destierro y dos posiciones permutables para intercambio. | Mantener 3x; contraste A09:TINIA01/A09:TINIA:STRELITZIA04. |
+| **Elfnote Power Patron** (CID 22119) — Main 2x | **Engine Sincro directo; A05 oficial cotejado** | Cantante1 · modifica Nivel+3 · búsqueda tras material | En Main Phase, puede subir 3 Niveles a un monstruo central y permitir **Sincro inmediata Elfnota o Junora**. Si se envía al GY **como material Sincro**, busca 1 **carta** Elfnota. | Patron1 Cantante + Lucina6 no Cantante→Strelitzia7 **sin** aumentar Nivel; con Lucina9 por +3→June Pride10; al revivir Patron no se busca dos veces. | Limita Invocaciones Especiales desde Extra a Sincros mientras su restricción aplica; cada efecto una vez por turno. | Mantener 2x; no usar Sincro inmediata limitada para Crystal Wing genérica. |
+| **Elfnote Fortuna** (CID 22118) — Main 1x | **Engine directo de Trampa Continua; A05 oficial cotejado** | coloca Rapsodia · rebote de M/T boca arriba | Durante Main coloca **Trampa Continua Elfnota desde mano o Deck**, aun estando lateral. En turno rival puede intercambiar con el central y devolver **1 M/T boca arriba** del Campo. | Regina la Invoca lateral desde Deck y permite que coloque Rapsodia; no hay descarte propio por colocarla. | No coloca Mágica Continua ni afecta M/T boca abajo con el rebote; intercambio solo turno rival. | Conservar 1x y preservar recursos para el efecto de Rapsodia. |
 | **Fidraulis Harmony** (CID 22533) — Main 3x | **Sinergia directa condicionada: envío de Extra** | respuesta desde mano · Cantante 7 · salida de Malong | Ante efecto de monstruo rival, revelar **Harmonia de mano + tres Sincros del Extra (incluido Malong)**: Invoca Harmonia y envía Malong al GY. No Invoca Malong. Relación `650:A06:HARMONIA:MALONG:ENVIO01`. | No descarta Harmonia; el Sincro se **envía** de Extra al GY por el efecto. Como Cantante 7 puede ser material para Destorbim con Medius 4 si ambos coexisten. | Una vez por turno; reacción solo al efecto del monstruo rival; restricción posterior de activaciones de monstruos de Extra distintos de Sincros. | Si falta objetivo rival boca arriba, el envío puede ocurrir pero Malong no rebotará nada. |
-| **Medius the Pure** (CID 21419) — Main 2x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · extensor · recuperación | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra | Coste o consumo descrito en A05: reciclaje de recurso propio | hay límite por turno según el efecto concreto; depende de recursos en Cementerio | Conservar; verificar coste y orden |
+| **Medius the Pure** (CID 21419) — Main 2x | **Puente directo Power Patron; A05 oficial cotejado** | busca **o** Invoca Patron del Deck; autorrevive desde GY | Al ser Invocado, elige **añadir a mano o Invocar Especialmente** un Patron desde Deck. Desde GY baraja un monstruo de propia mano/Campo boca arriba al Deck y, si lo hace, se revive. | Medius4 no Cantante con Harmonia7 Cantante permite Destorbim11 si coexisten; su reanimación devuelve otro monstruo al Deck. | Medius revivido desde GY se **destierra al dejar Campo**; si se Invoca Patron al Campo, aplicar su restricción del Extra. | Mantener 2x; para línea S:P buscar Patron a mano sin ponerlo en Campo. |
 | **Vidolium the Unstable Power Patron of Unity** (CID 22519) — Main 2x | **Recurso Péndulo condicionado** | searcher · buscador · recuperación · extensor · removal | Estar en Main permite colocar Vidolium como Mágica en Zona Péndulo. Puede autodestruirse para Invocar un Power Patron de mano/GY o dar +5000 ATK a uno de Nivel original 12; al llegar boca arriba al Extra puede buscar Power Patron. Su Invocación como monstruo… | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; interactúa con información oculta o resultados no siempre elegibles; tiene procedimiento especial… | Revisar zona/acceso; sustitución por validar |
 | **Bystial Magnamhut** (CID 17762) — Main 1x | **Sinergia indirecta (soporte o recursos)** | interrupción · searcher · buscador · extensor | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
 | **Dogmatika Ecclesia, the Virtuous** (CID 15239) — Main 1x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · extensor · protección | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; protección o resistencia contra respuestas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck | Conservar; verificar coste y orden |
@@ -1553,13 +1555,13 @@ Las siguientes filas son **relaciones funcionales**, no secuencias certificadas 
 | **Ghost Belle & Haunted Mansion** (CID 13587) — Main 2x, Side 1x | **Utilidad independiente** | handtrap · negación de Cementerio | Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo | Descarte mencionado: comprobar carta que lo exige, zona, coste frente a efecto y utilidad del recurso | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Conservar según rival y conflictos propios |
 | **Prohibited Power Patron Portal - Terminus** (CID 22565) — Main 3x | **Sinergia indirecta (soporte o recursos)** | searcher · buscador · removal | búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; puede limitar ataques; depende de recursos en Cementerio; interactúa con información oculta o… | Conservar; verificar coste y orden |
 | **The Fallen & The Virtuous** (CID 22089) — Main 2x | **Sinergia indirecta (soporte o recursos)** | recurso situacional | interacción propia de la carta que requiere consultar el texto íntegro enlazado | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto | Conservar; verificar coste y orden |
-| **Elfnotes: Welcome Home** (CID 22159) — Main 1x | **Sinergia indirecta (soporte o recursos)** | extensor · cierre · protección | extensión mediante monstruos procedentes del Deck; presión de combate o modificación de estadísticas; protección o resistencia contra respuestas | Coste o consumo descrito en A05: envío de recurso propio al Cementerio | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck | Conservar; verificar coste y orden |
-| **Elfnotes: Rhapsodia of Madness** (CID 22173) — Main 1x | **Sinergia indirecta (soporte o recursos)** | recurso situacional | interacción propia de la carta que requiere consultar el texto íntegro enlazado | Coste o consumo descrito en A05: envío de recurso propio al Cementerio | hay límite por turno según el efecto concreto; puede limitar ataques; requiere estado de campo específico; depende de recursos en Cementerio | Conservar; verificar coste y orden |
+| **Elfnotes: Welcome Home** (CID 22159) — Main 1x | **Continua Mágica de motor; A05 oficial cotejado** | protección frente a destrucción por efecto en centro · Invocación desde Deck | Envía 1 monstruo desde mano/Campo al GY para Invocar **Elfnota de Atributo original distinto desde Deck en Defensa**. El monstruo central no puede ser destruido por efecto mientras se aplique la Continua. | Tinia AGUA como coste→Lucina FUEGO desde Deck; no afecta destierro ni devolución del central. | Tras extender, solo se Invocan Especialmente Sincros desde Extra el resto del turno; extensión una vez por turno. | Conservar 1x; evitar confundir protección con inmunidad total. |
+| **Elfnotes: Rhapsodia of Madness** (CID 22173) — Main 1x | **Trampa Continua de motor; A05 oficial cotejado** | ataques al central · revivir Elfnota de distinto Atributo · negación condicionada | Con monstruo propio central, rival solo puede atacar al central. Al enviar 1 monstruo de mano/Campo al GY y seleccionar Elfnota de **otro Atributo original** en GY, la revive; **si ya controlas Sincro**, puede negar 1 carta rival boca arriba hasta End Phase. | El envío consume monstruo; el destino es Elfnota **desde GY**, no desde Deck/destierro. | Sin Sincro propio no hay negación; sin objetivo GY de Atributo distinto no hay extensión. | Conservar 1x; la ruta inicial de Continuas no acredita negación automáticamente. |
 | **The Three Champions of Swordsoul [Synchro; Konami 22356]** (CID 22356) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · buscador · negación · cierre | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento… | Cruzar A09/A07 antes de proponer reemplazo |
 | **Golden Cloud Beast - Malong [Synchro]** (CID 18666) — Extra 1x | **Uso desde Extra por envío acreditado; Invocación Sincro no acreditada** | remoción por rebote al ir al GY | Harmonia lo revela en Extra y lo **envía al GY** con cuatro cartas reveladas en total; al terminar esa cadena, Malong puede devolver a mano 1 carta **boca arriba** del rival. Relación `650:A06:HARMONIA:MALONG:ENVIO01`. | No se trata de material ni Invocación; es objeto del envío desde Extra. | Requiere activación de monstruo rival, tres Sincros revelables, que Malong llegue al GY y un objetivo rival boca arriba. | Mantener 1x y distinguir **uso acreditado** de ruta de Invocación Sincro aún pendiente. |
 | **Storm-Bane Dragon Destorbim [Synchro]** (CID 22335) — Extra 1x | **Acceso Sincro condicional por Harmonia7 + Medius4** | remoción mediante destierro; protección de selección rival | Con ambos monstruos simultáneamente en el Campo propio durante Main Phase, **Harmonia Cantante7 + Medius no Cantante4 = Destorbim Sincro11**. La respuesta de Harmonia desde mano exige un efecto de monstruo rival y no garantiza esta coincidencia. | Ambos cuerpos son materiales enviados al GY; su efecto de destierro exige **monstruos OSCURIDAD no Invocables Normalmente** en el propio GY, no simplemente cualquier material. | Invocación condicional hasta acreditar origen; no prometer destierro si el GY carece de costes legales; Efecto Rápido solo cuando rival controla más cartas. | Preservar el camino como **condicionado** y no atribuir efecto de colocación de M/T. |
 | **Ecclesia and the Dark Dragon [extra; efecto y material según carta]** (CID 22144) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · extensor · recuperación | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento… | Cruzar A09/A07 antes de proponer reemplazo |
-| **Elfnote Seraphim Strelitzia [Synchro]** (CID 22143) — Extra 1x | **Destino Extra condicionado** | interrupción · resultado de Extra Deck · recuperación · extensor · cierre | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; presión de combate o modificación de estadísticas | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. Invocar sólo desde el Extra Deck usando su… | Conservar si hay materiales legales |
+| **Elfnote Seraphim Strelitzia [Synchro]** (CID 22143) — Extra 1x | **Destino Sincro7 directo; A05 oficial cotejado** | original ATK3000 en centro · revive Elfnota Lv≤6 · reduce Niveles **opcionalmente** | Lucina6+Patron1→Strelitzia7. Durante Main Phase, Efecto Rápido Invoca Elfnota Lv≤6 de **mano o GY**; luego **puede** reducir 3 Niveles a todos los monstruos Lv4+ del Campo. Sin bajar Niveles, revive Patron1 y Sincro Crystal Wing8. | Patron1 y Lucina6 son sus materiales; Strelitzia7 Sincro no Cantante puede convertirse en material de Crystal Wing8 junto a Patron1. | Efecto una vez por turno; tras extender solo Sincros del Extra; original ATK3000 solo mientras está en centro. | Mantener 1x, bifurcar sin mezclar Crystal Wing y Junora. |
 | **Elfnote June Pride [Synchro]** (CID 22984) — Extra 1x | **Sinergia directa: destino Extra demostrado** | interrupción · resultado de Extra Deck · recuperación · extensor | Lucina Nivel6 + Patron Nivel1 con subida +3 (9+1) → June Pride Nivel10 centro. Bloqueo de ataques por centro; extensión opcional al regresar al Extra. Ruta 650:A09:LUCINA:PATRON:JUNE_PRIDE07; alternativa excluyente de la misma mano. | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Mantener 1x; evaluar función y frecuencia en pruebas |
 | **S:P Little Knight [Link]** (CID 19188) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · removal · respuesta | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto; puede limitar ataques. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
 | **Despian Luluwalilith [Synchro]** (CID 18505) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · extensor · cierre | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Cruzar A09/A07 antes de proponer reemplazo |
@@ -1569,7 +1571,7 @@ Las siguientes filas son **relaciones funcionales**, no secuencias certificadas 
 | **Ruddy Rose Dragon [Synchro]** (CID 15996) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: interrupción · resultado de Extra Deck · recuperación · negación · coste/recurso | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | aplicar restricciones de selección, activación y copias que consten en el texto original. Invocar sólo desde el Extra Deck usando su… | Cruzar A09/A07 antes de proponer reemplazo |
 | **Albion the Branded Dragon [Fusion]** (CID 15994) — Extra 1x | **Destino Extra condicionado** | resultado de Extra Deck · buscador · habilitador de Extra · preparación | búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck; colocación de Mágicas/Trampas o recursos | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Conservar si hay materiales legales |
 | **Chaos Angel [Synchro]** (CID 18507) — Extra 1x | **Sin acceso al Extra demostrado** | Función individual: resultado de Extra Deck · habilitador de Extra | No se documenta una operación concreta que conecte esta carta con el motor; no inferir inutilidad | Material o destino del Extra condicionado a los requisitos de invocación | aplicar restricciones de selección, activación y copias que consten en el texto original. Invocar sólo desde el Extra Deck usando su… | Cruzar A09/A07 antes de proponer reemplazo |
-| **Junora the Power Patron of Tuning [Synchro]** (CID 22142) — Extra 1x | **Destino Extra condicionado** | interrupción · resultado de Extra Deck · habilitador de Extra | habilitación o continuación de una invocación del Extra Deck | Material o destino del Extra condicionado a los requisitos de invocación | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio | Conservar si hay materiales legales |
+| **Junora the Power Patron of Tuning [Synchro]** (CID 22142) — Extra 1x | **Sincro10 de tres materiales; A05 oficial cotejado** | negación al Sincronizar · bloqueo de materiales por columnas Elfnota | Requiere 1 Cantante + **2 no Cantantes**; puede tratar al central propio como Cantante **para su Invocación Sincro**. Strelitzia4 central + Regina3 + Tinia3→Junora10. Al Sincronizar puede negar efectos de cartas rivales **boca arriba**. | Tres cuerpos se envían como materiales; el Efecto Rápido de columnas exige **monstruos propios Elfnota** cuyas columnas determinen rivales afectados. | Con **Junora sola**, su nombre no es Elfnota: no hay columnas Elfnota para bloquear; no realiza Fusión. | Mantener 1x; no atribuir negación permanente ni bloqueo de columnas sin Elfnota propia. |
 | **Bystial Druiswurm** (CID 17764) — Side 1x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo.. No inicia la mano del Main actual | No se demuestra que esta carta sea recurso de descarte o pago para otra | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
 | **Droll & Lock Bird** (CID 9279) — Side 2x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No inicia la mano del Main actual | Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano | solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
 | **Ghost Ogre & Snow Rabbit** (CID 11708) — Side 2x | **Side utilizable entre duelos** | Herramienta situacional de Side, disponible tras el intercambio permitido entre duelos | Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual | Envío mencionado en la interacción; no equivale por sí mismo a descarte desde la mano | hay límite por turno según el efecto concreto; solo entra al Main después de un intercambio entre duelos | Side: probar enfrentamiento antes de sustituir |
@@ -1588,6 +1590,22 @@ Las filas siguientes **no sustituyen** las 42 identidades de A06.2: identifican 
 | `650:A06:HARMONIA:MALONG:ENVIO01` | Harmonia CID 22533 **en mano** → al responder a monstruo rival, revelar Harmonia + Malong CID 18666 y **otros dos Sincros** de Extra (cuatro cartas en total) → Invocar Harmonia de mano, **enviar Malong al GY** → siguiente cadena: seleccionar carta **rival boca arriba** y devolverla a mano por Malong. | Requiere evento de activación del rival; ambos efectos disponibles; tres Sincros propios en Extra; objetivo rival boca arriba después de resolver la primera cadena. El rebote no forma parte del mismo eslabón que el envío. | **Uso por envío acreditado** en efecto textual; **no** Invocación de Malong. Konami CIDs [22533](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2), [18666](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2). |
 | `650:A06:STRELITZIA:PATRON:CRYSTAL_WING03` | Lucina CID 22116 Lv6 + Patron CID 22119 Cantante Lv1 → Strelitzia CID 22143 **Sincro Lv7** → Strelitzia Invoca desde GY al **mismo Patron** Lv1 → Strelitzia Sincro **no Cantante** 7 + Patron Cantante 1 → Crystal Wing CID 12321 **Sincro Lv8**. | Patron al GY como primer material; efecto de Strelitzia disponible en Main Phase; **no elegir** el descenso opcional de 3 Niveles; ninguna respuesta invalida los dos cuerpos. Patron solo puede buscar una vez por turno, aunque vuelva al GY como segundo material. | **Secuencia de materiales acreditable en estado inicial explícito**, desarrollada en A09:CW10; sin replay. Konami CIDs [22119](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2), [22143](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2), [12321](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2). |
 | `650:A06:HARMONIA:MEDIUS:DESTORBIM02` | Harmonia CID 22533 **Cantante Lv7** en campo + Medius CID 21419 **no Cantante Lv4** en campo → Destorbim CID 22335 **Sincro Lv11**. | Ambos presentes simultáneamente en Main Phase propia; Harmonia solo llega de mano por su efecto ante activación de monstruo rival (u otro medio documentado). Para desterrar cartas rivales, Destorbim exige OSCURIDAD **no Invocables Normalmente** en GY como coste. | **Conversión condicional documentada**, no apertura de una carta; la ruta completa exige evento rival y se analiza en A09/guía Extra. Konami CIDs [22533](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2), [21419](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2), [22335](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2). |
+
+#### A06.4 — Conciliación A05→A06→A08/A09 de diez funciones oficiales (segunda pasada)
+
+Esta conciliación **no cuenta diez relaciones A06 cerradas**: se precisan funciones de diez identidades y sus usos documentados. La tabla de rastreo automático del corte 16-11 al final de la ficha enumera **fotografías**, no todos los enlaces narrativos A09 posteriores; por ello `SIN_ENLACE_A09_FOTO` no significa «sin ruta textual». El resultado de cada ruta conserva el estado de evidencia detallado en A09.
+
+| CID(s) y vínculo | Decisión o ruta afectada | Condición cuya ausencia invalida el uso |
+|---|---|---|
+| Regina 22523 ↔ Lucina 22116 | A08:01; `650:A09:ELFNOTE:LUCINA01` | Lucina **busca un solo monstruo**; Regina se Invoca **desde mano pagando envío**, y su Invocación de Elfnota desde Deck requiere **Regina en el centro**. El regreso de Regina de GY es **a mano** y solo como material Sincro. |
+| Tinia 22117 ↔ Welcome Home 22159 | A08:02; `650:A09:ELFNOTE:TINIA:STRELITZIA04` | Tinia coloca **Mágica Continua**; Welcome envía monstruo de mano/campo para traer **Elfnota de distinto Atributo original** desde Deck en Defensa; luego solo Sincros del Extra. |
+| Fortuna 22118 ↔ Rhapsodia 22173 | A08:03; `650:A09:ELFNOTE:TINIA01` | Fortuna coloca **Trampa Continua**. Rhapsodia revive desde **GY**, después de enviar otro monstruo de **Atributo original diferente**; negar carta rival requiere además controlar Sincro propio. |
+| Patron 22119 ↔ Strelitzia 22143 | A08:04/A08:07; `650:A09:LUCINA:PATRON:CRYSTAL_WING10` | Subir Nivel +3 solo da Sincronía inmediata de **Elfnota o Junora**; para Strelitzia7 se usa Lucina6+Patron1 **sin incremento**. Su búsqueda exige llegar a GY como material Sincro y no se repite si vuelve a utilizarse en el mismo turno. |
+| Strelitzia 22143 ↔ Crystal Wing 12321 | A08:07; A06.3 `CRYSTAL_WING03` | Strelitzia revive Patron1 desde GY durante Main; para obtener Crystal Wing8 **no** elige la reducción opcional de niveles. No se conserva Strelitzia junto al nuevo Sincro. |
+| Medius 21419 ↔ Patron 22119 | A08:08; `650:A09:MEDIUS:HARMONIA:DESTORBIM11` | Medius **añade O Invoca** un Patron del Deck, no ambos; su resurrección desde GY baraja otro monstruo y lo destierra al salir. Para Destorbim requiere Harmonia7 realmente presente. |
+| Junora 22142 ↔ Strelitzia/Regina/Tinia | A08:04; `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03` | Sincro10 con **1 Cantante + 2 no Cantantes**; puede tratar al centro como Cantante. La negación de cartas boca arriba ocurre al sincronizar; las columnas para su efecto rápido exigen monstruos **Elfnota propios**, ya que Junora no es Elfnota. |
+
+**Pendiente transversal:** comprobar reglas finas de ventanas e interrupciones restantes y cruzar las relaciones previas por ID antes de descontarlas de los 201 casos del corte original. Sin replays ni cambios a cartas/Extra/Side.
 
 ## INTERACCIONES Y CLASIFICACIÓN
 
