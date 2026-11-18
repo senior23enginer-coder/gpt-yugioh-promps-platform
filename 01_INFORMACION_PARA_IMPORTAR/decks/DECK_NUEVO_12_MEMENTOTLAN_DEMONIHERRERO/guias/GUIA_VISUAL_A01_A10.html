@@ -358,14 +358,14 @@
 <tr class="odd">
 <td><strong>A07</strong> Reglas y cadenas</td>
 <td>PARCIAL AVANZADA</td>
-<td><strong>34 controles R01–R34</strong>, <strong>12 respuestas adversarias</strong> ancladas a pasos, <strong>6 desvíos B01–B06</strong> y <strong>6 controles adicionales MEM-A01–06</strong></td>
-<td>Rulings excepcionales no resueltos por texto y respuestas rivales no enumeradas; ninguna partida física es obligación del análisis IA</td>
+<td><strong>34 controles R01–R34</strong>, <strong>12 respuestas adversarias</strong>, <strong>6 desvíos B01–B06</strong>, <strong>6 controles MEM-A01–06</strong> y <strong>4 cadenas MC-X01–04</strong> contra rivales registrados</td>
+<td>Otros estados adversarios/rulings finos que no se deducen del texto; ninguna partida física es obligación del análisis IA</td>
 </tr>
 <tr class="even">
 <td><strong>A08</strong> Estrategia y Side</td>
 <td>PARCIAL AVANZADA</td>
-<td><strong>34 prefichas</strong> clasificadas; <strong>5 planes Side</strong> exactos, alternativos y cotejados por conflicto con el motor</td>
-<td>Rendimiento empírico por matchup no disponible; criterios de entrada/salida documentados</td>
+<td><strong>34 prefichas</strong>; <strong>5 planes Side</strong> exactos, y <strong>3/3 matchups elegidos</strong> con Crystron 677, Purrely 660 y Salamangreat 673</td>
+<td>Rendimiento empírico no disponible; la selección no cubre a todos los decks registrados</td>
 </tr>
 <tr class="odd">
 <td><strong>A09</strong> Jugadas y manos</td>
@@ -376,8 +376,8 @@
 <tr class="even">
 <td><strong>A10</strong> Guías visuales</td>
 <td>GUÍAS VISUALES DISPONIBLES V40</td>
-<td>Guía HTML local, rutas vinculadas y 39/39 fotos presentes</td>
-<td>Revisar consistencia de los paneles contra la versión textual después de cambios; no queda deuda fotográfica</td>
+<td>Guía HTML local regenerable desde la ficha, rutas vinculadas y 39/39 fotos presentes</td>
+<td>Comprobar enlaces al regenerar; el nuevo análisis no queda publicado automáticamente en Station X</td>
 </tr>
 </tbody>
 </table>
@@ -1527,6 +1527,40 @@
 </tbody>
 </table>
 <p>Estos <strong>seis controles MEM-A</strong> completan comprobaciones de <strong>condiciones y alternativas</strong>, no se suman a R01–R34 ni sustituyen B01–B06. Una ventana que requiera fallo de cadena se registra con el estado real, no con el tablero objetivo de la ruta intacta.</p>
+<h3 id="a075--cuatro-cadenas-cruzadas-contra-decks-registrados">A07.5 — Cuatro cadenas cruzadas contra decks registrados</h3>
+<p>Los siguientes son <strong>casos de escritorio de dos decks reales</strong>, no partidas ocurridas. <code>CL1</code> es la primera activación y <code>CL2</code> la respuesta; se resuelve <strong>CL2 antes de CL1</strong>. Las manos, campos y recursos rivales que no se declaran son desconocidos.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Caso / estado inicial propio y rival</th>
+<th>Activaciones y resolución exacta</th>
+<th>Residuo y decisión siguiente</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>MC-X01 · Crystron 677 con Ash en mano</strong>. Memento abre C04 con <strong>solo Angbruja</strong>; Crystron no tiene otras respuestas.</td>
+<td>Tras Normal Angbruja, <strong>CL1</strong> busca Tatsun, <strong>CL2</strong> Flor de Ceniza de Crystron niega ese efecto. Angbruja <strong>permanece en Campo</strong>, pero no llegó Tatsun a mano.</td>
+<td>C04 se detiene <strong>antes de cualquier envío a GY o Fusión</strong>; con esa mano mínima no atribuir S:P ni doble jefe. Si ya tenías Tatsun <em>adicional</em> en mano, es <strong>otro escenario</strong> que puede reabrir C08.</td>
+</tr>
+<tr class="even">
+<td><strong>MC-X02 · Crystron 677 controla Tristaros</strong> y tiene Sulfador en Deck; Memento llegó a C01 con Angbruja y Desvantasma en Campo y Dormiveja en mano.</td>
+<td>Memento activa <strong>CL1 Fusión Mementotlán</strong>; Crystron encadena <strong>CL2 Tristaros</strong>: al resolver CL2 Invoca Sulfador desde Deck y, inmediatamente después, sincroniza con Tristaros → Elesqueletus. <strong>CL1 Fusión sigue pendiente</strong> y puede resolver usando los Memento originales si permanecen y son válidos.</td>
+<td>Elesqueletus <strong>no niega</strong> la Fusión. Si C01 Fusiona a Rey, ambos nuevos efectos de Invocación se estudian <strong>tras finalizar esa cadena</strong> con ubicación y ventanas reales; no meterlos entre CL2 y CL1. <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&amp;ope=2&amp;request_locale=en">Tristaros oficial</a>.</td>
+</tr>
+<tr class="odd">
+<td><strong>MC-X03 · Purrely 660 controla Noir con ≥5 materiales Xyz</strong>; Memento va segundo con acceso C07 y hay dos monstruos propios para Fusionar más uno de mano.</td>
+<td>Quimera puede ser Invocada si sus materiales son legales y, si activa su efecto, tratar de robar y destruir cartas del rival según sus cantidades. <strong>Noir con ≥5 materiales es inmune a los efectos activados del rival</strong>, incluida esa destrucción.</td>
+<td>No contabilizar Noir como destruido; otros objetivos solo si existen y son apropiados. C07 <strong>no equivale</strong> a superar ese Noir automáticamente. <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&amp;ope=2&amp;request_locale=en">Noir oficial</a>.</td>
+</tr>
+<tr class="even">
+<td><strong>MC-X04 · Salamangreat 673 tiene Link propio y Rugido Colocado de turno anterior</strong>; Memento dispone de Angbruja y Fiesta para C02.</td>
+<td>Memento <strong>CL1 Fiesta de Huesos</strong> para destruir Angbruja e Invocar Tatsun; Salamangreat <strong>CL2 Rugido</strong>, que niega <strong>la activación</strong> y destruye Fiesta si resuelve. <strong>La destrucción de Angbruja y la Invocación de Tatsun eran parte del efecto negado</strong>, no un coste pagado.</td>
+<td>Angbruja permanece en Campo si nadie más la retiró; Fiesta va al GY, Tatsun <strong>no llega</strong> del Deck y C02 literal se detiene. Diferenciar esto de Ash que niega solo un efecto. <a href="https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14247&amp;ope=2&amp;request_locale=en">Rugido oficial</a>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cobertura cruzada A07:</strong> 4 estados adversarios delimitados; los 12 cortes rivales generales, 6 desvíos B y 6 controles MEM-A siguen siendo registros separados. Sin mano/cadena adicional conocida, nunca completar el turno del adversario ni asignar ganadores.</p>
 <h2 id="apartado_08--decisiones-planes-y-side-deck">APARTADO_08 — Decisiones, planes y Side Deck</h2>
 <p><strong>Estado:</strong> <code>PARCIAL_AVANZADO</code>; <strong>34 decisiones/prefichas I01–I34</strong> por objetivo/estado/rol (I01–I12 iniciales, I13–I24 segunda pasada, I25–I34 tercera pasada). <strong>Interacción básica, starter, extensión, combo completo y plan</strong> se distinguen; ninguna fila se suma al contador A09 por sí sola. No se calculan tasas de victoria/matchup sin muestra. <strong>Main 41 / Side 14</strong> se mantienen como listas fuente; los intercambios son configuraciones hipotéticas entre duelos, <strong>no edición del inventario original</strong>.</p>
 <table>
@@ -1841,7 +1875,7 @@
 </tbody>
 </table>
 <p><strong>Cinco configuraciones alternativas completas, NO simultáneas:</strong> S01–S05 son <strong>2/2 o 3/3</strong> entradas/salidas de cartas reales del Side/Main, con Main siempre en 41. Si se mezclan dos planes, <strong>recalcular todas las entradas/salidas</strong> y respetar la cantidad física de cada carta; el Side fuente permanece 14. S03 exige considerar costes de <strong>una carta de mano o seis del Extra boca abajo POR objetivo</strong>: no remover tus cartas clave solo por ejecutar Gordiano. En S01/S02/S04, Droll propio puede inutilizar robos posteriores de Multivadoras; en S05, Lancea también obstaculiza tus destierros. Ningún intercambio convierte a una carta del Side en material de los combos originales C01–C12.</p>
-<h3 id="a083--validación-táctica-de-s01s05-antes-de-intercambiar">A08.3 — Validación táctica de S01–S05 antes de intercambiar</h3>
+<h3 id="a081b--validación-táctica-de-s01s05-antes-de-intercambiar">A08.1b — Validación táctica de S01–S05 antes de intercambiar</h3>
 <table>
 <thead>
 <tr class="header">
@@ -3386,6 +3420,43 @@
 </table>
 <p><strong>Control documental:</strong> respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.</p>
 <p><strong>Protocolo de mejora opcional:</strong> identificar la carta concreta, describir el objetivo táctico, conservar el inventario hasta autorización del usuario y volver a calcular las manos y rutas afectadas.</p>
+<h3 id="a083--matchups-documentales-con-tres-rivales-tcg-registrados">A08.3 — Matchups documentales con tres rivales TCG registrados</h3>
+<p><strong>Selección reproducible (17-11-2026):</strong> Memento <code>671</code> frente a Crystron/Horus <code>677</code>, Purrely <code>660</code> y Salamangreat <code>673</code>; se utilizaron las <strong>fichas existentes de esos tres rivales</strong> (NUEVO_13/14/15), todos en el conjunto TCG Advanced de Station X. Cubren respectivamente cadenas reactivas/Sincronía, construcción de Xyz con materiales y enlaces recurrentes. <strong>Cobertura 3/3 seleccionados, no 3/15 ni toda la biblioteca</strong>. Fuentes adicionales: enlaces oficiales de Tristaros, Purrelyly, Noir, Gacela y Rugido indicados en el texto. No son duelos ni porcentajes de victoria.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Rival real y amenaza que sí consta en su lista</th>
+<th>Empiezas tú: línea con propósito</th>
+<th>Vas segundo: interacción y recuperación</th>
+<th>Side opcional entre duelos, <strong>no acumulativo</strong></th>
+<th>Condición de victoria / error que cambia el resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Crystron 677:</strong> Smiger, Citree, Tristaros, Sulfador y motor Horus hacia Xyz</td>
+<td>Con <strong>Angbruja/Fusión</strong> elegir C01; con solo Angbruja C04, pero Ash sobre la primera búsqueda corta ese final (MC-X01). Mantener el recurso que realmente sobrevivió.</td>
+<td>C03 puede enviar un monstruo rival seleccionable usando Grabador equipado; ante <strong>Tristaros</strong> no atribuirle negación de nuestra Fusión (MC-X02). Si Crystron llegó a <strong>Infinito con material</strong>, anticipar su negación sobre una activación clave sin declararla ya gastada.</td>
+<td><strong>S05:</strong> +3 Lancea/−3 Oleada si predomina desterrar del GY <strong>durante turno Crystron</strong>; <strong>alternativa S01:</strong> +2 Fuwalos/−2 Oleada si abusa de Invocaciones desde Deck/Extra.</td>
+<td>Amenaza Memento: supervivencia de Rey+005; falla si se dan por recuperados recursos interrumpidos. Lancea bloquea <strong>también</strong> destierros propios, no desactiva automáticamente la línea Horus.</td>
+</tr>
+<tr class="even">
+<td><strong>Purrely 660:</strong> Purrelyly busca carta no Rápida; Recuerdos desarrollan Xyz y Noir puede acumular <strong>≥5 materiales</strong></td>
+<td>Preparar C04/C01 o C08 según mano; conservar Ash para la búsqueda real de <strong>Purrelyly</strong> o efecto que Invoca desde Deck, no para un éxito supuesto de la excavación de Purrely.</td>
+<td>Si Noir tiene <strong>≥5 materiales</strong>, las destrucciones activadas de C07/026 <strong>no garantizan retirarlo</strong> (MC-X03). Priorizar respuestas antes de que alcance esa condición o interactuar con otros cuerpos/cartas válidos.</td>
+<td><strong>S01:</strong> +2 Fuwalos/−2 Oleada si el rival está invocando repetidamente desde Deck/Extra. No asumir que Meowls se dispara por cada material Xyz.</td>
+<td>Ganar mediante presión Memento y gestión de recursos reales; no certificar que Quimera destruya Noir inmune ni que una excavación Purrely obtuvo un Recuerdo concreto.</td>
+</tr>
+<tr class="odd">
+<td><strong>Salamangreat 673:</strong> Gacela, Círculo, Lincefogata, enlaces Lobo/Fénix y <strong>Rugido ×1</strong></td>
+<td>C01/C04 si el motor resuelve; si eliges Oleada desde inicio MP1, bloqueas también tu desarrollo. Ash puede frenar el <strong>envío desde Deck de Gacela</strong> según ventana.</td>
+<td>C07 solo si hay <strong>dos cartas realmente destruibles</strong>; C03 necesita monstruo seleccionable. Si Rugido ya está Colocado y controla Link, puede negar Fiesta/Fusión: <strong>MC-X04</strong> registra la pérdida real.</td>
+<td><strong>S01:</strong> +2 Fuwalos/−2 Oleada ante muchas Invocaciones Extra; <strong>alternativa S03:</strong> +3 Gordiano/−3 Oleada si se justifican objetivos boca arriba y el alto coste.</td>
+<td>Ganar exige abrir el tablero sin gastar seis o doce cartas Extra a ciegas. Rugido no se presume buscado en toda apertura rival; su carta física es una y necesita su condición.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regla de aplicación:</strong> las configuraciones S01/S03/S05 son distintas y conservarían Main <strong>41</strong> cada una; jamás se presentan como mano del duelo 1. Cada matchup enlaza las rutas A09 <strong>C01/C03/C04/C07/C08</strong>, las guías homónimas A10 y los cortes MC-X01–04. <strong>Falta solo rendimiento empírico o una posición de rival distinta</strong> para evaluar otro desenlace; no se inventa nota competitiva.</p>
 <h3 id="a09--seis-manos-nuevas-h15h20-mantener-12-combos-independientes-documentados">A09 · Seis manos nuevas H15–H20; mantener 12 combos independientes documentados</h3>
 <p>Estos son <strong>casos de decisión</strong>, no seis combos nuevos: cada uno remite a C01–C12 o explica por qué una línea deja de ser ejecutable. Las cartas citadas están en el inventario; <strong>las demás de la mano no se inventan</strong>.</p>
 <table>

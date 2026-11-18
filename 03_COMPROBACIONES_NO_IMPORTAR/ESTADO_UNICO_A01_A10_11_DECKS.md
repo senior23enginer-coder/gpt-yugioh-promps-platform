@@ -1,5 +1,16 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Cierre de pendientes documentales de matchup y cadena: Memento/Crystron — 17-11-2026
+
+**Módulos de apoyo aplicados:** 11–13 (efectos/ramas), 23 (Side exacto) y 24 (matchup con rivales de inventario comprobado), todos integrados en los ejes **A07/A08** existentes; no son nuevos controles A11–A36. Se trabajó exclusivamente sobre Memento `671` y Crystron/Horus `677`, consultando **sin editar** las listas de Purrely `660` y Salamangreat `673`. Todos pertenecen al conjunto TCG Advanced registrado. No se utilizaron listas externas de prohibiciones ni se sustituyó ninguna carta.
+
+| Deck | Evidencia documental añadida | Límite restante, explícito |
+|---|---|---|
+| **Memento 671** | **4 casos MC-X01–04** (Ash a Angbruja, Tristaros respondiendo a Fusión, Noir con cinco materiales y Rugido contra Fiesta); **3/3 matchups seleccionados** contra Crystron 677, Purrely 660, Salamangreat 673; entradas/salidas de S01/S03/S05 y rutas C01/C03/C04/C07/C08 ligadas a la situación. | No existe tasa de victoria medida, ni todos los campos rivales, ni replays. Los demás decks de la biblioteca **no** se consideran examinados por extrapolación. |
+| **Crystron 677** | **4 casos SC-X01–04** (Ash a Tatsun, Tristaros vs Fusión, Rugido niega activación de Inclusión, Súper Polimerización con materiales FIRE/Cyberse); **3/3 matchups elegidos** contra Memento 671, Purrely 660, Salamangreat 673; Side S01/S03/S04 y rutas C01/C02/C04/C06/ACC04 ligadas a circunstancias verificables. | Aún no hay duelos/replays ni datos empíricos del rendimiento Side; cinco Extra condicionales requieren Campo y ventanas reales, aunque su estado de acceso ya fue documentado. |
+
+**Criterio de finalización de esta fase:** los seis enfrentamientos escogidos y las ocho cadenas cruzadas están explicados con origen, zona, activación, interrupción, condición de salida y alternativa; **no generan ocho nuevos combos, porcentajes ni publicaciones**. Se han conservado 24 manos por deck, Memento 12 rutas C, Crystron 7 C + 7 V, 39 CIDs y 70 copias por deck. Se regenerarán las dos guías HTML para reflejar las fichas; la importación a Station X y una prueba física corresponden a procesos independientes no ejecutados en esta tarea.
+
 ## Continuación focalizada A01–A10: Memento 671 y Crystron 677 — 17-11-2026
 
 **Ámbito:** únicamente las dos fichas de deck, sus guías visuales HTML autogeneradas desde el contenido canónico y este registro. Los 36 prompts y tres documentos base, 39 CIDs por deck, zonas, cantidades, cartas, imágenes, IDs C/V y evidencias de partidas **permanecen intactos**. Se trabajó contra los efectos oficiales y el inventario, sin consultar ni utilizar listas de construcción.
