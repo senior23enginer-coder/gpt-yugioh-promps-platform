@@ -167,6 +167,54 @@ La matriz única A06.2 conserva **la ficha específica de cada identidad**. Este
 5. **Tres Rey Creación en Extra:** disponibilidad de tres copias **no elimina** el límite de cada efecto por nombre una vez por turno; tampoco permite tres envíos en una misma cadena.
 6. **Side de 14:** la copia de Fuwalos en Main es utilizable; las otras dos solo tras S01. Lancea, Meowls, Purulia y Gordiano no son recursos de tu primera mano de duelo 1.
 
+### A05.3 — Fichas de decisión individual, riesgo y trazabilidad (18-11-2026)
+
+**Método:** lectura editorial individual de las **39 identidades** de la matriz A06.2 (CID, zona/cantidad, resumen funcional y rutas citadas), orientada a la pregunta «¿cuándo me conviene utilizarla y qué debo comprobar?». Cada `MEMD-###` remite a **su fila canónica A06.2** para copia, CID, rol y enlace Konami. Estas observaciones no duplican la matriz ni afirman haber reproducido duelos. Los resúmenes preexistentes no sustituyen un cotejo literal exhaustivo de límites por turno y erratas de 39 textos completos.
+
+- **MEMD-001:** Iniciador y buscador M1. Abrir con Normal de Angbruja cuando Tatsun esté disponible; si Ash niega la búsqueda, no continuar C04 como si Tatsun hubiera entrado. Consumo principal: Normal y ventana de activación.
+- **MEMD-002:** Extensor M1. Invocación especial desde mano condicionada por monstruos boca arriba propios; antes del envío, registrar qué monstruo propio destruye y niveles/nombres enviados. Riesgo: piezas necesarias ya robadas.
+- **MEMD-003:** Iniciador alternativo M1 (C05). La autodestrucción sirve para abrir acceso a Angbruja; su retirada de M/T exige descarte y la ventana efectiva al Invocarse. No atribuir remoción gratis.
+- **MEMD-004:** Envío selectivo y defensa del jefe. Si se destina Goblin al GY deja de estar en mano para su descarte protector; C06 exige reservarlo. Elegir antes entre preparar GY o proteger.
+- **MEMD-005:** Jefe dependiente/finisher. Confirmar cinco nombres Memento diferentes *distintos de 005* en mano/GY antes de barajar. Su ataque múltiple exige estar solo; Invocación ante efecto rival no es negación.
+- **MEMD-006:** Finisher de daño directo y reciclaje condicional. Su valor depende de jefe Nivel 9+ y de destrucción por efecto; no contar daño directo si no se Invocó bajo la condición de ese turno.
+- **MEMD-007:** Fusión de mano/campo y extensor reactivo. Verificar que ya ocurrió destrucción propia por efecto para su Invocación desde mano; elegir materiales existentes y respetar ventana del efecto que fusiona.
+- **MEMD-008:** Buscador por autodestrucción o robo de monstruo adversario. La toma temporal requiere descartar Maza *desde mano* en Main del rival y jefe 005; Maza enviada antes al GY no paga ese coste.
+- **MEMD-009:** Recuperación/reanimación. Solo obtiene auto-Invocación desde GY si lo envía un efecto de *monstruo Memento*; envío como coste de Gotas no cumple. La recuperación exige otra carta Memento real en GY.
+- **MEMD-010:** Extensor y remoción condicionada. Requiere tres nombres distintos en GY para entrar desde mano; en C12 verificar tres objetivos boca arriba, incluida carta propia, y no atribuir dos destrucciones rivales sin objetivos.
+- **MEMD-011:** Puente Demoniherrero. Solo una copia: si ya está en mano, Réquiem debe elegir zona compatible. No existe M/T Demoniherrero en Main para su búsqueda, por lo que descartar para buscar no produce ese plan.
+- **MEMD-012:** Handtrap autónoma. Reservar frente a añadir/Invocar/enviar desde Deck; no negar una activación que no haga ninguna de esas acciones. Sin combo de motor acreditado; A06 I10.
+- **MEMD-013:** Handtrap de bloqueo de búsquedas. Puede perjudicar búsquedas propias posteriores durante el mismo turno; elegir ventana tras primera adición adversaria. Sin combo interno; A06 I10.
+- **MEMD-014:** Handtrap de robo situacional; 1 Main y 2 Side. Condición de campo propio vacío y tipo de Invocación rival. Las copias Side no forman parte del duelo 1; sin combo M1.
+- **MEMD-015:** Mágica rápida de Fusión y reciclaje desde GY. Antes de usar materiales del Cementerio documentar destrucción propia anterior; una segunda copia no permite reutilizar el mismo efecto limitado por nombre. Su búsqueda GY consume carta propia.
+- **MEMD-016:** Acceso del motor destruyendo pieza de mano/campo. Elegir añadir o Invocar en DEF según búsqueda bloqueada; si la activación es negada, ni destrucción ni objetivo obtenido. Riesgo de gastar pieza única.
+- **MEMD-017:** Plan de control excluyente. Debe declararse al inicio de Main Phase 1 y también bloquea Invocaciones de efectos propias mientras dure. No iniciar C01 y luego alegar Oleada retroactiva.
+- **MEMD-018:** Extensión Goblin por tributo y pérdida de cuerpo. C11 usa su primer efecto; el segundo desde GY necesita Xyz Goblin ausente de este Extra y queda sin uso acreditado.
+- **MEMD-019:** Board breaker autónomo. Enviar cartas de mano/campo es coste; no disparar efectos que exigen envío *por monstruo Memento*. Selección de número de rivales depende del coste real disponible.
+- **MEMD-020:** Campo de soporte/reciclaje. No asumirlo buscado si no hay vía de acceso; la recuperación es en End Phase y necesita M/T válida en GY. No contarla antes de esa fase.
+- **MEMD-021:** Interrupción del GY rival. Requiere monstruo objetivo en GY y niega efectos del mismo nombre según duración; no lo presentar como negador universal ni como buscador Memento.
+- **MEMD-022:** Respuesta al rival en Main propia. Primero debe haberse activado efecto de monstruo rival en tu Main; las tres opciones no son simultáneas. No declarar robo sin condición.
+- **MEMD-023:** Extra condicional C09. Su Invocación usa monstruo equipado y Demonio adicional de mano/campo; el envío como material no activa automáticamente el disparador de robo por otro tipo de evento.
+- **MEMD-024:** Extra reactivo EX-M01. Necesita Fusión + OSCURIDAD y Fusión 015 legalmente activable; al usar Rey como material se pierde ese jefe. Su contador no niega por sí solo todo efecto sin condición.
+- **MEMD-025:** Ruptura C07. Materiales de tres nombres diferentes con presencia en mano y campo; contar robo y destrucción según procedencia exacta. No atribuir protección de Polimerización ausente.
+- **MEMD-026:** Jefe Fusión de tres Memento. Envío de tres cartas a GY debe resolverse tras Fusion Invocar; su destrucción rápida exige monstruos propios y cartas adversarias pertinentes; no niega activaciones.
+- **MEMD-027:** Fusión alternativa C06. Dos Memento bastan como materiales; para buscar exige destrucción propia en la secuencia adecuada. Si Goblin es buscado a mano, reservarlo para protección posterior.
+- **MEMD-028:** Xyz Rango 6 condicional. Sin dos Demonios Nivel 6 realmente disponibles en campo, dejar `SIN_RUTA_ACREDITADA`; no inventar materiales desde niveles diferentes ni declarar negación accesible.
+- **MEMD-029:** TY-PHON EX-M02. Se necesita condición de Invocaciones Extra rivales, monstruo propio válido y orden correcto; después impide más Invocaciones propias y limita efectos de jefes propios ≥3000 ATK.
+- **MEMD-030:** Réquiem C03. Requiere Demonio LUZ para Link; su tributo permite acceder al único Grabador desde zona legal. Si Grabador está ya en mano, no fingir otra copia en Deck.
+- **MEMD-031:** S:P C08. Dos monstruos de efecto bastan para Link; el destierro de Invocación requiere material del Extra, ausente en C08 con solo Main. Su respuesta rápida exige activación rival y objetivos.
+- **MEMD-032:** Luna C03. Dos monstruos de efecto generan el Demonio LUZ de Réquiem; el uso de monstruo rival corresponde a ruta futura Link-5 ausente, no a esta conversión.
+- **MEMD-033:** Secuencia C10. Materiales de Link con Demonio LUZ y envío de cuerpos a GY deben existir; fusión posterior baraja materiales válidos del GY. No asumir Duque sin esos recursos.
+- **MEMD-034:** Duque C10. Dos Demonios/Zombis y vía de Fusión documentada; Normal adicional solo cuando corresponde. Mantener 500 LP de Standby o arriesgar destrucción; GY requiere objetivo válido.
+- **MEMD-035:** Aero Tiburón EX-M03. Dos monstruos Nivel 3 en campo para Xyz; daño de efecto depende del número de monstruos propios desterrados, no de la mera Invocación.
+- **MEMD-036:** Side autónomo de robo. Solo tras intercambio y si no controlas cartas; únicamente responde a Especial adversarias desde zonas indicadas. No es iniciador Memento.
+- **MEMD-037:** Side autónomo de robo. Solo tras intercambio y campo propio vacío; discriminar Normal/Especial desde mano frente a Extra/GY. No mezclar su disparador con Meowls.
+- **MEMD-038:** Side anti-destierro. En turno adversario y desde mano, bloquea también tus destierros durante ese turno; valorar conflicto con recursos propios. No niega efecto rival de forma genérica.
+- **MEMD-039:** Side para romper campo. Solo comienzo de Main Phase válida, objetivos boca arriba y coste por objetivo desde mano o Extra boca abajo; puede agotar Extra antes de líneas propias.
+
+**Cobertura editorial A05:** 39/39 identidades tienen (a) nombre/CID/copias en la matriz A06.2; (b) función y relación o ausencia funcional de combo; y (c) una decisión contextual con riesgo o condición en este listado. **Estado de validación completa de texto oficial: PARCIAL**, porque las filas condensadas no acreditan cotejo exhaustivo de todas las cláusulas, costes, restricciones y límites por efecto; tampoco se ha probado la mecánica de todos los accesos Extra. No convertir «39/39 descritas» en «39/39 efectos íntegramente validados».
+
+**Pendientes concretos para dictamen `COMPLETA`:** (1) contrastar cada cláusula y límite de uso de los 39 CID contra su ficha oficial completa; (2) resolver especialmente el acceso condicional de `MEMD-028` y las restricciones de `MEMD-023/024/025/029/033/034/035`; (3) distinguir texto confirmado de inferencia en efectos que cambian de zona (`MEMD-007/009/015/016/020/026/027`); (4) comprobar que ninguna ruta A09 invoca un efecto de una carta en zona equivocada. No exigir replays físicos del usuario para completar la revisión documental.
+
 ## APARTADO_06 — Sinergias, motores y matriz canónica
 
 ### A06.0 — En treinta segundos: cómo cooperan
