@@ -22,7 +22,7 @@
 
 | Apartado | Estado propio del deck | Progreso o evidencia comprobable | Pendiente para cerrar |
 |---|---|---|---|
-| **A01** Rol y propósito | PARCIAL AVANZADA | Motor/submotor, debilidades y nueve familias tácticas; 12 rutas documentadas; ID 671 confirmado | Contrastar prioridad motor/puente frente a interrupciones y rivales concretos |
+| **A01** Rol y propósito | **COMPLETA — alcance documental del rol (18-11-2026)** | Identidad Memento principal y puente Demoniherrero subordinado; nueve familias/12 rutas documentadas; tres matchups y cuatro cadenas cruzadas vinculadas por ID; jerarquía de decisiones A01.1 | **Sin pendiente propio de definición de rol.** Legalidad causal y resultados de rutas se acreditan individualmente en A05–A09; sin replays ni tasa de victoria |
 | **A02** Planes y estilos | PARCIAL AVANZADA | Planes primero/segundo/medio/tardío; **12 rutas documentales**, 4 auditorías Extra, probabilidades teóricas y **24 escenarios H01–H24** | Falta evidencia empírica de enfrentamientos; los casos de mano son ejercicios documentales |
 | **A03** Inventario | TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas**; ID 671 y formato registrados | Solo cotejar eventual autorización editorial adicional; conservar Side de 14 |
 | **A04** Identidad, CID y fotos | IMÁGENES CERRADAS V37; IMPORTACIÓN V40 REGISTRADA | 39/39 fotos auténticas por CID, 13 JPG + 26 PNG, sin cambios de inventario | No quedan fotos por obtener; verificar vínculos tras cualquier nueva regeneración |
@@ -42,6 +42,21 @@
 **Identidad de juego:** motor Mementotlán predominante, paquete Demoniherrero muy reducido (solo 1 Grabador en Main; Réquiem y Secuencia en Extra), y cartas defensivas independientes. **No se añade una mágica/trampa Demoniherrero inexistente:** el efecto de descarte-búsqueda de Grabador no tiene un objetivo de esa familia dentro de este Main. Principal debilidad: depender de autodestrucciones/recursos del Cementerio y comprometer el Extra con cartas que requieren condiciones poco frecuentes.
 
 **Condiciones de victoria razonables, no garantizadas:** desgaste por destrucciones múltiples del Rey Creación; ataques de Creación Combinada cuando está sola; ventaja incremental por búsquedas/reciclaje con Angbruja, Desvantasma y la Fusión; reducción de campo contrario con Gotas Prohibidas, S:P y Rebanador Gordiano tras Side. Sin tasas de victoria ni OTK asumidos.
+
+### A01.1 — Cierre individual de rol y propósito (18-11-2026)
+
+**Dictamen `COMPLETA` limitado al objetivo de A01:** enseñar la identidad, la jerarquía de motores, los planes incompatibles, el propósito competitivo de las nueve familias y sus condiciones de victoria. Este cierre **no certifica** que las doce rutas A09 se resuelvan legalmente en toda mano, ni altera estados pendientes A05–A10. Evidencia interna ya documentada: inventario A03/A06 de **41 Main, 15 Extra y 14 Side**, rutas **C01–C12**, decisiones A02/A08, conflictos **MC-X01–04** y matchups A08 contra **Crystron 677, Purrely 660 y Salamangreat 673**.
+
+| Prioridad de rol | Condición de elección y finalidad | Límite demostrado por las referencias existentes |
+|---|---|---|
+| **1. Motor Mementotlán** | Con Angbruja/Hoja y piezas realmente accesibles, usar autodestrucción y Cementerio para preparar Fusión, Rey y/o Creación Combinada. **Es el plan principal**, no una obligación de terminar siempre en dos jefes. | **MC-X01:** Ash a Angbruja corta C04 desde esa mano mínima; no heredar Tatsun, envío ni Fusión que no ocurrieron. **MC-X04:** Rugido niega Fiesta y C02 se detiene sin destrucción de Angbruja. |
+| **2. Recursos y defensa** | Si no es seguro desarrollar o el rival puede interrumpir, conservar cuerpos, búsquedas y recursos residuales; escoger protección por Goblin, interacción propia o recuperación posterior según la mano real. | Goblin protege contra selección solo desde la zona exigida; **MC-X02** distingue una cadena Tristaros/Syncro que no niega automáticamente Fusión. No afirmar el endboard antes de resolver la cadena. |
+| **3. Puente Demoniherrero subordinado** | Activar **C03/C09/C10** únicamente cuando haya acceso y materiales exactos para Réquiem/Grabador/Secuencia. Su función es aportar remoción o extensión, no reemplazar todo el motor Memento. | Solo hay **un Grabador en Main** y ninguna M/T Demoniherrero buscable allí: no inventar la búsqueda de Grabador ni construir una segunda línea autónoma inexistente. |
+| **4. Control alternativo o ruptura** | **Oleada de Calor** al inicio de Main Phase 1 es plan excluyente del desarrollo de monstruos de efecto; yendo segundo, elegir C07/C12/Gotas según objetivos y coste. | **MC-X03:** Quimera no destruye Noir con cinco o más materiales mediante efecto activado; C07 no es respuesta universal. Las opciones Side S01/S03/S05 requieren intercambios exactos **entre duelos**, nunca en duelo 1. |
+
+**Propósito por familia, sin duplicar el análisis A09:** C01/C04/C05/C11 = acceso a jefes y presión condicionada; C02 = jefe 5000; C03/C09/C10 = puente Demoniherrero y extensión específica; C06 = protección de campo por Goblin; C07/C12 = romper campo; C08 = interrupción con S:P. La distribución conserva las **nueve familias y tres variantes existentes** y no promueve ninguna ruta condicional a combo certificado.
+
+**Resultado de A01:** la prioridad del motor y del puente quedó contrastada con interrupciones reales descritas y tres rivales registrados. No queda una decisión de **identidad o propósito** pendiente de investigar en este apartado con el inventario actual. Si una auditoría posterior de A05–A09 invalida un efecto o ruta utilizada como evidencia, **reabrir únicamente la afirmación A01 dependiente por ID** conforme al módulo 32. Siguiente apartado **solo por nueva petición:** A02; esta ejecución no lo inicia.
 
 ## APARTADO_02 — Planes y estilo por situación
 
