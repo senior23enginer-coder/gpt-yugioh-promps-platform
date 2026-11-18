@@ -4164,3 +4164,661 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 | `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
 | `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
 | `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+<!-- INTEGRADO_FICHAS_V19_670 -->
+### Fichas de cartas y sinergias documentadas
+
+Contenido editorial previo incorporado a esta ficha; conserva las condiciones y pendientes indicados y no acredita pruebas f?sicas ni de motor.
+
+> # Infernoble — A05 y A06 V19
+>
+> A05 45/45 con campos completos: 12 cotejadas editorialmente, 33 estructurales desde texto oficial. A06 45/45 clasificadas, 12 relaciones específicas descritas.
+>
+> ## Fichas A05 — evidencia y uso
+>
+> ### Kashtira Fenrir — 17768 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla destierro de cartas. Contempla destierro boca abajo. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «starter Kashtira».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: El destierro no es destrucción ni se activa libremente en cualquier fase. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** starter Kashtira · presión de destierro. Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en
+>
+> ### Kashtira Riseheart — 18151 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destierro boca abajo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Desterrar recurso indicado al activar.
+> - **Restricciones:** Contiene bloqueo de Invocaciones Especiales con excepción: no ignorar tipo permitido.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «extensor Kashtira».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Su extensión restringe el Extra a Xyz durante el turno. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** extensor Kashtira · ajuste de Nivel. La Invocación propia de Riseheart bloquea Extra a Xyz: compite con Sincronía/Enlace Infernoble; reservar para plan compatible o evaluar sustitución. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en
+>
+> ### Diabellstar la Bruja Negra — 19148 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Disparo tras la Invocación indicada.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · recuperación · extensor · preparación. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; colocación de Mágicas/Trampas o recursos. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2&request_locale=en
+>
+> ### Immortal Phoenix Gearfried — 14801 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Al comienzo del Damage Step, sin extenderlo a otras ventanas.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · extensor · negación · cierre · motor Equipo. acceso al campo desde la mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Turpin — 18801 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Si controlas monstruo equipado puede Invocarse desde mano o GY (si vino del GY, sale desterrado al abandonar campo). En GY puede equiparse a Guerrero propio. Cuando Turpin está equipado, el Guerrero equipado se trata como Cantante para materiales de Sincronía.
+> - **Cuándo:** Invocación por procedimiento y equipo en GY; ajuste de Cantante solo al usar el equipado como material Sincro.
+> - **Costes y recursos:** Requiere monstruo con Equipo en campo; equipar desde GY exige Guerrero propio.
+> - **Restricciones:** Usos limitados una vez por turno; no transforma a todos los Guerreros en Cantantes.
+> - **Ir primero:** Convertir a Guerrero específico en Cantante y verificar suma exacta de Niveles.
+> - **Ir segundo:** Reponer cuerpo de GY bajo condición de equipamiento, sin olvidar destierro posterior.
+> - **Riesgos/interrupciones:** Si se retira el equipo antes de declarar Sincro, se pierde el cambio de Cantante.
+> - **Propósito:** Puente de equipamiento a Sincronía.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Maugis — 15249 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Disparo condicionado al envío al Cementerio. Modalidad desde el Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** removal · recuperación · ventaja de mano · respuesta · motor Equipo. destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo; interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Ogier — 15247 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Al Invocarse Normal o Especial envía del Deck un Noble Arms o un Guerrero FUEGO diferente de Ogier al GY. Equipado a Guerrero protege al equipado de destrucción por efecto; desde GY puede equiparse a un Guerrero propio.
+> - **Cuándo:** Disparo de invocación y efecto en GY de equipamiento.
+> - **Costes y recursos:** Enviar una carta elegible desde Deck; equiparse exige Guerrero propio válido.
+> - **Restricciones:** Cada efecto aplicable una vez por turno; enviar no es añadir a mano.
+> - **Ir primero:** Enviar Durendal cuando después exista vía real de recuperarlo con Renaud.
+> - **Ir segundo:** Protección ante destrucción por efecto no protege de devolver/desterrar.
+> - **Riesgos/interrupciones:** Remoción no destructiva supera protección; sin objetivo Guerrero no hay equipo.
+> - **Propósito:** Preparación del Cementerio y protección de equipamiento.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Ricciardetto — 18800 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Ricciardetto desde mano o GY puede desterrarse para Invocar de mano un Guerrero FUEGO Nivel≤4 como Cantante. Si Ricciardetto es Invocado Normal/Especial, revive otro Guerrero FUEGO Nivel≤4 de GY y limita Invocaciones posteriores a Guerreros.
+> - **Cuándo:** Procedimiento de destierro y disparador al Invocarse.
+> - **Costes y recursos:** Desterrar Ricciardetto para primera modalidad; objetivo GY válido para segunda.
+> - **Restricciones:** Solo una de ambas modalidades por turno y solo una vez; bloqueo Guerrero al revivir.
+> - **Ir primero:** Invocar Cantante desde mano para completar Sincro exacta si el material lo permite.
+> - **Ir segundo:** Recuperar cuerpo pequeño desde GY al ser Invocado, cuidando bloqueo.
+> - **Riesgos/interrupciones:** Si se gastó efecto de destierro, no usar recuperación el mismo turno.
+> - **Propósito:** Extensor de Guerrero FUEGO con selector de modo por turno.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Renaud — 15082 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Si controlas Guerrero FUEGO, se Invoca Especial de mano y SOLO así pasa a ser Cantante. Cuando se Invoca Especial puede añadir Guerrero FUEGO o Equip desde GY/destierro, salvo sí mismo.
+> - **Cuándo:** Invocación condicional propia; recuperación tras Invocación Especial.
+> - **Costes y recursos:** No hay descarte para recuperar, pero requiere objetivo válido en GY/desterrado.
+> - **Restricciones:** Procedimiento especial una vez por turno y efecto recuperación una vez por turno.
+> - **Ir primero:** Recuperar Durendal consumida y sincronizar niveles solo si Renaud es Cantante.
+> - **Ir segundo:** No convertir Normal Summon Renaud en Cantante para justificar una Sincro.
+> - **Riesgos/interrupciones:** Si se niega recuperación queda cuerpo, pero no se recupera equipamiento.
+> - **Propósito:** extensor · removal · motor Equipo. acceso al campo desde la mano; destierro de recursos o de amenazas; uso o producción de cartas equipadas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2&request_locale=en
+>
+> ### Infernoble Caballero Oliver — 15248 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Modalidad desde el Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recuperación».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** recuperación · extensor · respuesta · motor Equipo. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2&request_locale=en
+>
+> ### Neo Space Connector — 14085 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Al Invocarse Normal trae Neo-Spacian o Neos de mano/Deck en Defensa; puede Tributarse y revivir Neo-Spacian/Neos del GY en Defensa.
+> - **Cuándo:** Normal Summon para búsqueda/invocación; segundo efecto solo con objetivo elegible en GY.
+> - **Costes y recursos:** Tributar al propio Connector en segundo efecto.
+> - **Restricciones:** Cada efecto una vez por turno; el primer disparo requiere invocación NORMAL, no Especial.
+> - **Ir primero:** Resolver Aqua Dolphin para inspeccionar mano rival antes de comprometer equipamientos.
+> - **Ir segundo:** Priorizar la información de mano antes de intentar línea susceptible a interrupción.
+> - **Riesgos/interrupciones:** Un Veiler/Imperm sobre Connector puede cortar Dolphin desde Deck; no gastar descarte inexistente.
+> - **Propósito:** extensor · cierre · coste/recurso. acceso al campo desde la mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2&request_locale=en
+>
+> ### Neo-Spacian Aqua Dolphin — 6768 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Descarta 1 como coste para mirar mano rival y elegir monstruo; si controlas ATK al menos igual lo destruye en mano y causa 500 daño; si no, tú recibes 500.
+> - **Cuándo:** Una vez por turno como efecto de monstruo de Ignición.
+> - **Costes y recursos:** Descarta una carta de mano al activar.
+> - **Restricciones:** Elige un monstruo de mano rival; si no hay objetivo válido no promete eliminación ni ventaja.
+> - **Ir primero:** Consultar mano rival y retirar hand trap apropiada si ATK propio alcanza.
+> - **Ir segundo:** No lanzar sin evaluar propio ATK y posible daño recibido.
+> - **Riesgos/interrupciones:** Si negado, ya se descartó la carta como coste.
+> - **Propósito:** removal · cierre. destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2&request_locale=en
+>
+> ### Fire Flint Lady — 15392 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recuperación».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** recuperación · extensor. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2&request_locale=en
+>
+> ### Droll & Lock Bird — 9279 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · bloqueo de búsquedas. Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en
+>
+> ### Effect Veiler — 8933 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: La ventana es la Main Phase del adversario, no cualquier fase. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · negación. Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en
+>
+> ### Ash Blossom & Joyous Spring — 12950 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · negación. Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en
+>
+> ### Angelica's Angelic Ring — 19207 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** removal · motor Equipo. destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2&request_locale=en
+>
+> ### Infernoble Arms - Almace — 18843 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Almace es Equipo: mientras equipa puede equipar una Infernoble Arms diferente desde Deck/GY a otro monstruo apropiado propio y luego destruirse. Si llega al GY porque el equipado se fue al GY, puede recuperar un Guerrero FUEGO desterrado o de GY a mano.
+> - **Cuándo:** Primera modalidad mientras equipa; segundo disparo al ir a GY por envío del equipado.
+> - **Costes y recursos:** Objetivo de Equipo y fuente Deck/GY; destruir Almace en resolución.
+> - **Restricciones:** Solo uno de los dos efectos por turno; destruirse a sí misma no produce automáticamente segundo.
+> - **Ir primero:** Acceder a Durendal desde Deck/GY mediante equipo legal.
+> - **Ir segundo:** Recuperar Guerrero FUEGO tras perder equipado, si éste realmente fue al GY.
+> - **Riesgos/interrupciones:** Si no había equipo legal de destino, no se produce extensión.
+> - **Propósito:** Reubicación de Equipo y recuperación de recursos.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2&request_locale=en
+>
+> ### Infernoble Arms - Durendal — 15287 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Mágica de Equipo: mientras equipa, permite añadir Guerrero FUEGO de Nivel 5 o menor desde Deck y después destruye la propia Durendal. Si se envía al GY porque el monstruo equipado fue enviado al GY, puede Invocar Guerrero FUEGO Nivel 5 o menor de GY, limitando después el Extra a Guerreros.
+> - **Cuándo:** Búsqueda en estado equipada; disparo al enviar al GY el monstruo al que equipaba.
+> - **Costes y recursos:** Equipamiento legal a Guerrero; objetivo válido del Deck o GY según modalidad.
+> - **Restricciones:** Solo uno de sus dos efectos por turno; destruyéndose por su propio buscador no asegura el segundo efecto.
+> - **Ir primero:** Buscar Renaud u otra pieza FIRE Warrior para la línea exacta.
+> - **Ir segundo:** Usar recuperación del GY si el equipado realmente fue enviado, cuidando bloqueo Extra.
+> - **Riesgos/interrupciones:** Negar la búsqueda deja sin Guerrero y no equivale a disparar la recuperación.
+> - **Propósito:** Buscador equipable y recuperación situacional.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2&request_locale=en
+>
+> ### Noble Arms Museum — 18844 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Museo de Armas Nobles es Campo: +500 ATK a Guerreros FUEGO propios. Una vez por turno paga 1200 LP para buscar una Noble Arms distinta de Museo. Después, en el turno que aplicó búsqueda, puede seleccionar una carta-monstruo Noble Knight en zona M/T e Invocarla Especial; si lo hizo sin controlar Emperor Charles, solo Invocará Guerreros el resto del turno.
+> - **Cuándo:** Campo con modalidad de búsqueda y segunda Main del mismo turno.
+> - **Costes y recursos:** Pagar 1200 LP para buscar; seleccionar Noble Knight que sea carta en zona M/T para traerla.
+> - **Restricciones:** La segunda requiere haber aplicado la primera modalidad ese turno; bloqueo Guerrero según estado Charles.
+> - **Ir primero:** Buscar Durendal o Almace, preparar Guerrero FUEGO y equipo.
+> - **Ir segundo:** Recuperar monstruo equipado al campo para avanzar Sincro/Link si la condición se cumple.
+> - **Riesgos/interrupciones:** Sin 1200 LP no busca; convertir carta de Equipo en monstruo puede perder protección.
+> - **Propósito:** Campo de Equipo y recursión con impuesto de LP.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2&request_locale=en
+>
+> ### Divine Sword - Phoenix Blade — 6458 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica. Modalidad desde el Cementerio.
+> - **Costes y recursos:** Desterrar recurso indicado al activar.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador · cierre · motor Equipo. búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2&request_locale=en
+>
+> ### D.D.R. - Different Dimension Reincarnation — 7519 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. Incluye interacción con posición de batalla. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Escoger la amenaza o recurso que genere mayor ventaja de tempo; respetar selección y zona.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «removal».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** removal. destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2&request_locale=en
+>
+> ### WANTED: Seeker of Sinful Spoils — 19196 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. Contiene robo de cartas. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Desterrar recurso indicado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador · removal · ventaja de mano. búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas; generación de cartas por robo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2&request_locale=en
+>
+> ### Heritage of the Chalice — 14075 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador · motor Equipo. búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2&request_locale=en
+>
+> ### Reinforcement of the Army — 5328 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador. búsqueda o incorporación de cartas a mano. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2&request_locale=en
+>
+> ### Original Sinful Spoils - Snake-Eye — 19199 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Puede recuperar un monstruo desde Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador · extensor. búsqueda o incorporación de cartas a mano; acceso al campo desde la mano. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2&request_locale=en
+>
+> ### Infernoble Knight Captain Roland [Synchro] — 15275 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica. Modalidad desde el Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · buscador · cierre · respuesta. búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2&request_locale=en
+>
+> ### Baronne de Fleur [Synchro] — 16386 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla devolución de carta a zona indicada. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · removal · negación · recuperación. destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en
+>
+> ### Infernoble Knight Emperor Charles [Synchro] — 15276 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · cierre · motor Equipo. presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2&request_locale=en
+>
+> ### Battlin' Boxer King Dempsey [Xyz] — 18926 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Xyz Rango4 que exige dos Nivel4. Al ser Invocado especialmente puede añadir a mano o enviar al GY un Guerrero FUEGO Nivel4 o menor, o una M/T Battlin' Boxing, desde Deck. Además desacopla material de cualquier monstruo que controles para proteger de selección a tus Battlin' Boxer durante el turno.
+> - **Cuándo:** La protección de su efecto rápido nombra únicamente Battlin' Boxer; NO protege a todos los Guerreros o Infernoble. La búsqueda/envío al Invocarse tiene límite una vez por turno.
+> - **Costes y recursos:** sin coste independiente identificado en esta síntesis; comprobar las acciones previas al punto y coma de cada efecto.
+> - **Restricciones:** hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio.
+> - **Ir primero:** convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+> - **Propósito:** interrupción · resultado de Extra Deck · buscador · respuesta · habilitador Xyz. búsqueda o incorporación de cartas a mano; interacción sobre monstruos en campo; gestión de materiales Xyz. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2&request_locale=en
+>
+> ### Super Starslayer TY-PHON - Sky Crisis [Xyz] — 19184 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación Xyz. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Se agota al consumir materiales; no asumir material adicional al pasar de un Xyz a otro. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · recuperación · cierre · habilitador Xyz. `670:A09:RENAUD:TYPHON10`: Renaud único en campo por Normal → TY-PHON tras dos Especiales del Extra rival este/turno anterior; un desprendimiento devuelve un monstruo y consume la continuación de Invocaciones. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+>
+> ### Angelica, Princess of Noble Arms [Synchro] — 18827 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Angelica, Princesa de Noble Arms es Sincro 1 Cantante +1 o más no Cantantes. Al ser Invocada Especial busca Horn of Olifant o carta que mencione Emperor Charles. Si una carta/efecto la selecciona o es atacada, como Quick manda Guerrero FUEGO del Deck al GY, se destierra hasta End Phase y puede Invocar Roland desde Deck/Extra.
+> - **Cuándo:** Disparo por Invocación y Quick de respuesta a selección/ataque.
+> - **Costes y recursos:** Enviar Guerrero FUEGO del Deck al GY para resolver defensa.
+> - **Restricciones:** No se protege de efectos que no seleccionan si no hay ataque, salvo otra condición; cada efecto una vez.
+> - **Ir primero:** Buscar Museo/soporte que nombre Charles conforme al texto y preparar envío de Roland.
+> - **Ir segundo:** Esquivar selección y generar Roland al ser apuntada, si la ventana se abre.
+> - **Riesgos/interrupciones:** Sin Guerrero FUEGO en Deck no puede completar defensa; no crear Roland sin enviar.
+> - **Propósito:** Puente Sincro que busca y cambia presencia ante selección.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2&request_locale=en
+>
+> ### Isolde, Two Tales of the Noble Knights [Link] — 13500 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Contempla equipar o usar un Equipo. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · buscador · extensor · recuperación · preparación. búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; colocación de Mágicas/Trampas o recursos; uso o producción de cartas equipadas. A06 identifica su destino, condicionado a material/procedimiento. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2&request_locale=en
+>
+> ### Emperor Charles the Great [Link] — 18835 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Emperador Carlos el Grande es Link-1 que requiere un Emperor Charles Nivel9 equipado con al menos un Equipo. Al ser Invocado Link, toma efecto/nombre de Emperor Charles del GY y lo equipa a sí mismo como Equipo que da 500 ATK. Como Quick puede mandar un Equipo de mano/campo propio boca arriba al GY para negar activación de M/T y destruirla.
+> - **Cuándo:** Procedimiento Link con Charles Nivel9 equipado; Quick en cadena a activación de M/T.
+> - **Costes y recursos:** Enviar un Equipo verdadero desde mano o campo boca arriba al GY para negación.
+> - **Restricciones:** No niega efectos de monstruo; no puede ser Link sin Charles Nivel9 equipado.
+> - **Ir primero:** Preparar Sincro Charles antes de convertirlo en negador Link.
+> - **Ir segundo:** Guardar Equipo para contestar a Spell/Trap que amenace tablero.
+> - **Riesgos/interrupciones:** Sin Equipo, la negación no puede pagarse; enviar equipamiento puede quitar protección.
+> - **Propósito:** Jefe Link de control de M/T derivado de Sincro Charles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2&request_locale=en
+>
+> ### Apollousa, Bow of the Goddess [Link] — 14496 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite negar efectos o activaciones según el texto y la ventana. Tiene interacción explícita con Invocación por Enlace. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · habilitador de Extra · negación · cierre. habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2&request_locale=en
+>
+> ### Relinquished Anima [Link] — 13841 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · cierre · motor Equipo. `670:A09:OGIER:RENAUD:ANIMA:SP09`: Ogier Normal envía Durendal, Renaud Especial recupera Durendal; Renaud Nivel1 → Anima, que puede equipar el monstruo rival señalado. Anima Link1 + Ogier → S:P. La salida de Anima suelta el Equipo hacia GY; S:P puede activar destierro inicial por haber usado material Enlace. La posición rival y las ventanas son obligatorias. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=en
+>
+> ### Link Spider [Link] — 13034 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · extensor. acceso al campo desde la mano. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2&request_locale=en
+>
+> ### S:P Little Knight [Link] — 19188 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno. Incluye restricción sobre ataques.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · removal · respuesta. `670:A09:OGIER:RENAUD:SP_DEFENSA08` y `670:A09:OGIER:RENAUD:ANIMA:SP09`, ambas desde Ogier+Renaud y Durendal en Deck. La primera conserva Durendal en mano y prepara Efecto Rápido; la segunda equipa rival apuntado vía Anima y habilita destierro de Invocación por usar material Link. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+>
+> ### Nibiru, the Primal Being — 14741 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Cuenta invocaciones y entrega una Ficha cuyo ATK/DEF depende de lo sacrificado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · limpieza del campo. Fuera de lista. En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en
+>
+> ### D.D. Crow — 6980 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No afecta cartas fuera del Cementerio. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · interacción de Cementerio. Fuera de lista. Descarta para desterrar una carta elegida del Cementerio rival como efecto rápido.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2&request_locale=en
+>
+> ### Herald of the Abyss — 13950 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Incluye una prohibición de activación condicionada. La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «recurso situacional».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: destrucción del Equipo, interrupción del buscador y falta de materiales adecuados. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** recurso situacional. Fuera de lista. interacción propia de la carta que requiere consultar el texto íntegro enlazado.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2&request_locale=en
+>
+> ### Triple Tactics Talent — 15296 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** mágica de respuesta · ventaja. Fuera de lista. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+>
+> ### Triple Tactics Thrust — 18214 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Carta sin operación activada identificada por el extractor; verificar si es Normal, Equipo o condición continua. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: La carta Colocada tiene restricción de activación; no equiparar a una búsqueda instantánea. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** mágica de respuesta · acceso a Trampa/Mágica. Fuera de lista. Después de activarse un efecto de monstruo rival, fija o incorpora una Mágica/Trampa Normal del Deck según presencia de monstruos enemigos.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=en
+>
+> ### Evenly Matched — 13293 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Contempla destierro boca abajo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «trampa».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: La activación desde mano exige no controlar cartas; aplica al final de Battle Phase. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** trampa · ruptura de mesa. Fuera de lista. Al final de Battle Phase y con más cartas rivales, obliga al adversario a desterrar boca abajo hasta igualar las cantidades.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en
+>
+> ### Dimensional Barrier — 12668 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite negar efectos o activaciones según el texto y la ventana. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: convertir el primer Guerrero en recursos y un Sincro defendible. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: despejar obstáculos conservando equipo, invocaciones y capacidad de extensión. Identificar primero la respuesta rival que afecta su función «trampa».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Se declara un tipo; impacta a ambos jugadores. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** trampa · bloqueo del Extra. Fuera de lista. Declara un tipo de monstruo y bloquea sus Invocaciones Especiales y efectos ese turno.. No aporta recursos durante este duelo. Relación contextual con Guerreros FUEGO, cartas de Equipo, recuperaciones del Cementerio y escalada Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en
+>
+> ## A06 — clasificación por identidad
+>
+> - **Kashtira Fenrir (17768):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla destierro de cartas. Contempla destierro boca abajo. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Kashtira Riseheart (18151):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destierro boca abajo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Diabellstar la Bruja Negra (19148):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Immortal Phoenix Gearfried (14801):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infernoble Caballero Turpin (18801):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Infernoble Caballero Maugis (15249):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infernoble Caballero Ogier (15247):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Infernoble Caballero Ricciardetto (18800):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Infernoble Caballero Renaud (15082):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Infernoble Caballero Oliver (15248):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Neo Space Connector (14085):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Neo-Spacian Aqua Dolphin (6768):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Fire Flint Lady (15392):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Droll & Lock Bird (9279):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Effect Veiler (8933):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ash Blossom & Joyous Spring (12950):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Angelica's Angelic Ring (19207):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infernoble Arms - Almace (18843):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Infernoble Arms - Durendal (15287):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 5 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Noble Arms Museum (18844):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Divine Sword - Phoenix Blade (6458):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **D.D.R. - Different Dimension Reincarnation (7519):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. Incluye interacción con posición de batalla. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **WANTED: Seeker of Sinful Spoils (19196):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. Contiene robo de cartas. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Heritage of the Chalice (14075):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Reinforcement of the Army (5328):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Original Sinful Spoils - Snake-Eye (19199):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Puede recuperar un monstruo desde Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infernoble Knight Captain Roland [Synchro] (15275):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Baronne de Fleur [Synchro] (16386):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla devolución de carta a zona indicada. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infernoble Knight Emperor Charles [Synchro] (15276):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Battlin' Boxer King Dempsey [Xyz] (18926):** FUNCION_AUTONOMA_COTEJADA. Función propia identificada sin relación directa nueva demostrada.
+> - **Super Starslayer TY-PHON - Sky Crisis [Xyz] (19184):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación Xyz. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Angelica, Princess of Noble Arms [Synchro] (18827):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Isolde, Two Tales of the Noble Knights [Link] (13500):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla enviar una carta al Cementerio. Contempla equipar o usar un Equipo. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Emperor Charles the Great [Link] (18835):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Apollousa, Bow of the Goddess [Link] (14496):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite negar efectos o activaciones según el texto y la ventana. Tiene interacción explícita con Invocación por Enlace. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Relinquished Anima [Link] (13841):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla equipar o usar un Equipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Link Spider [Link] (13034):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **S:P Little Knight [Link] (19188):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Nibiru, the Primal Being (14741):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **D.D. Crow (6980):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Herald of the Abyss (13950):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Triple Tactics Talent (15296):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Triple Tactics Thrust (18214):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Material o efecto continuo según tipo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Evenly Matched (13293):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Contempla destierro boca abajo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Dimensional Barrier (12668):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite negar efectos o activaciones según el texto y la ventana. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+>
+> ## A06 — relaciones explícitas con condiciones
+>
+> - **DIRECTA:** Neo Space Connector → Neo-Spacian Aqua Dolphin: Connector Normal Invoca Aqua Dolphin del Deck en Defensa; el efecto de Dolphin exige luego descartar.
+> - **DIRECTA:** Infernoble Caballero Ogier → Infernoble Arms - Durendal: Ogier puede enviar Equip Noble Arms desde Deck al GY; Durendal es elegible si permanece en el Deck.
+> - **DIRECTA:** Infernoble Caballero Renaud → Infernoble Arms - Durendal: Renaud Invocado Especial puede recuperar Durendal del GY o destierro, si es objetivo elegible.
+> - **INDIRECTA:** Infernoble Caballero Ogier → Infernoble Caballero Renaud: Ogier Nivel4 y Renaud Nivel1 son materiales para Sincro5 si Renaud fue Invocado de mano como Cantante; no son Xyz de dos Nivel4.
+> - **DIRECTA:** Infernoble Arms - Durendal → Infernoble Caballero Renaud: Durendal equipada busca un Guerrero FUEGO Nivel5 o menor, como Renaud, y después se destruye.
+> - **CONDICIONADA:** Infernoble Caballero Turpin → Angelica, Princess of Noble Arms [Synchro]: Turpin equipado vuelve Cantante al Guerrero equipado para Sincro; Angelica exige combinación de Niveles y materiales correcta.
+> - **BUSQUEDA:** Noble Arms Museum → Infernoble Arms - Durendal: Museum pagando 1200 LP puede buscar Durendal Noble Arms; se respeta el límite de búsqueda del Campo.
+> - **BUSQUEDA:** Noble Arms Museum → Infernoble Arms - Almace: Museum puede buscar Almace como Noble Arms, mientras que Almace requiere monstruo compatible al equiparse.
+> - **EQUIPO_DESDE_DECK_O_GY:** Infernoble Arms - Almace → Infernoble Arms - Durendal: Almace equipada puede equipar Durendal a un monstruo válido desde Deck/GY y después destruirse.
+> - **MATERIAL_SINCRO_CONDICIONAL:** Infernoble Caballero Ricciardetto → Angelica, Princess of Noble Arms [Synchro]: Ricciardetto puede aportar Cantante/cuerpo Guerrero FUEGO para Angelica; sigue exigiéndose Nivel exacto y no Cantante.
+> - **MATERIAL_LINK_EXACTO:** Infernoble Knight Emperor Charles [Synchro] → Emperor Charles the Great [Link]: Charles el Grande requiere Emperor Charles Nivel9 previamente equipado; no se invoca directamente usando Angelica.
+> - **BUSQUEDA_CON_NOMBRE:** Angelica, Princess of Noble Arms [Synchro] → Noble Arms Museum: Angelica al Invocarse puede buscar soporte que menciona Emperor Charles, cuando el texto exacto del candidato satisfaga la búsqueda.
+>
+> _Las fichas estructuradas automáticamente requieren cotejo semántico para certificar rulings. No se alteran inventarios ni se consideran listas._
+
+
+<!-- INTEGRADO_ESCENARIOS_A03_A10_670 -->
+### Escenarios y bloqueos documentados
+
+Contenido editorial previo incorporado a esta ficha; conserva las condiciones y pendientes indicados y no acredita pruebas f?sicas ni de motor.
+
+> # Infernoble — escenarios individuales y decisiones A03–A10
+>
+> Casos procesados: **18 de 18**. No se ha ejecutado el motor; las siguientes pruebas son contratos documentales derivados de las fichas existentes.
+>
+> | CID | Carta | Requisito o escenario | Resultado documentado | Contraejemplo o riesgo |
+> |---:|---|---|---|---|
+> | 16386 | Baronne de Fleur [Synchro] | Sincro Nivel 10, Cantante + no Cantante | **Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No publicarla como ruta jugable; no borrar del inventario | Sin requisitos completos no ofrecer activación |
+> | 15276 | Infernoble Knight Emperor Charles [Synchro] | Sincro Nivel 9: Cantante + no Cantantes con requisitos aplicables | Requiere suma de Niveles y forma de obtener los cuerpos; un Equipo o monstruo ya en GY no prueba la Invocación | Sin requisitos completos no ofrecer activación |
+> | 18926 | Battlin' Boxer King Dempsey [Xyz] | Xyz Rango 4 con dos cuerpos Nivel 4 | Posible continuación desde dos Guerreros Nivel 4 reales en campo; evaluar restricción del motor y búsqueda protegida | Sin requisitos completos no ofrecer activación |
+> | 14496 | Apollousa, Bow of the Goddess [Link] | Link-4, dos o más monstruos de nombres distintos salvo Fichas | **Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No habilitar como objetivo activo; no omitir cálculo de materiales Link | Sin requisitos completos no ofrecer activación |
+> | 13034 | Link Spider [Link] | Link-1 que exige **un monstruo Normal**, no un monstruo de Efecto | Si la lista solo genera Guerreros de Efecto y no hay monstruo Normal/Ficha apropiada en campo, no hay acceso. No usar cualquier Infernoble como material | Sin requisitos completos no ofrecer activación |
+> | 17768 | Kashtira Fenrir | Si no controlas monstruos, Invocar Especial desde mano; en Main buscar Kashtira según texto | Útil para ir segundo y presionar; si controlas un Infernoble antes, no asumir esa Invocación desde mano | Sin requisitos completos no ofrecer activación |
+> | 18151 | Kashtira Riseheart | Extensor Kashtira y acceso a rangos con modificaciones de Nivel según efecto | Aplicar bloqueo a Extra y recursos exactos; no llamarlo guerrero Infernoble ni equiparlo automáticamente | Sin requisitos completos no ofrecer activación |
+> | 18801 | Infernoble Caballero Turpin | Recurso Guerrero FUEGO con efectos de Invocación y equipo en situaciones concretas | Indicar si la carta está en mano, GY o equipada: cada zona habilita efectos diferentes | Sin requisitos completos no ofrecer activación |
+> | 15249 | Infernoble Caballero Maugis | Recurso para enviar al GY y reciclar Guerreros FUEGO según sus condiciones | No confundir reciclaje del Deck con Invocación; si es material, registrar salida del campo | Sin requisitos completos no ofrecer activación |
+> | 18800 | Infernoble Caballero Ricciardetto | Cantante/extensor y acceso a Sincronías Infernoble condicionado a cartas en GY/campo | Verificar su restricción de Invocación Extra/Guerrero antes de representar Link no permitido | Sin requisitos completos no ofrecer activación |
+> | 15248 | Infernoble Caballero Oliver | Puede extender desde mano mediante carta de equipo/FUEGO según efecto y aportar Cantante | Registrar coste real enviado desde mano/campo, material y restricciones antes de ofrecer una Sincronía | Sin requisitos completos no ofrecer activación |
+> | 9279 | El Bufón y el Pájaro del Candado / Droll & Lock Bird | Tras primera búsqueda rival del Main fuera de Draw Phase, enviar Droll de mano a GY para bloquear nuevas adiciones | Bloquea también tus búsquedas si ocurre en tu turno; no niega la primera búsqueda | Sin requisitos completos no ofrecer activación |
+> | 8933 | Ocultador de Efectos / Effect Veiler | En Main Phase rival descartar Veiler para seleccionar monstruo Efecto rival y negar sus efectos hasta fin de turno | No se activa en cualquier fase y no niega activación; no destruye monstruo | Sin requisitos completos no ofrecer activación |
+> | 19207 | Anillo Angelical de Angélica / Angelica's Angelic Ring | Equipo que interactúa con Mágicas y protección/negación según ventana y monstruo equipado | No asumir un anillo en campo sin un monstruo equipable; comprobar si requiere carta “Infernoble” o Guerrero FUEGO | Sin requisitos completos no ofrecer activación |
+> | 6458 | Espada Divina – Hoja del Fénix / Divine Sword - Phoenix Blade | Equipamiento a Guerrero; puede recuperarse desde GY desterrando Guerreros elegibles según texto | La recuperación consume recursos GY; no se consigue un monstruo extra ni ATK gratis sin costes | Sin requisitos completos no ofrecer activación |
+> | 7519 | D.D.R. – Reencarnación de la Dimensión Diferente / D.D.R. - Different Dimension Reincarnation | Mágica de Equipo: descartar una carta y elegir monstruo propio desterrado para Invocarlo Especial y equiparle DDR | Si DDR deja campo, el monstruo puede destruirse; la carta descartada es coste, no resultado | Sin requisitos completos no ofrecer activación |
+> | 14075 | Herencia del Cáliz / Heritage of the Chalice | Busca Guerrero Noble/Infernoble o Armas Nobles elegibles del Deck/GY según texto | No puede buscar cualquier Equipo genérico ni duplicar la misma activación sin límite | Sin requisitos completos no ofrecer activación |
+> | 5328 | Refuerzo del Ejército / Reinforcement of the Army | Añadir Guerrero Nivel 4 o menor desde Deck a mano | No Invoca el monstruo; se requiere que el objetivo cumpla Tipo/Nivel y que la Normal esté disponible si se pretende usarlo | Sin requisitos completos no ofrecer activación |
+>
+> ## Instrucciones de decisión y práctica
+>
+> 1. **A03/A04:** mantener inventario por zonas, CID e imagen auténtica; no insertar cartas por inferencia.
+> 2. **A05/A06:** función de cada carta, costes, sinergias, conflictos, uso primero/segundo y decisión ante rival.
+> 3. **A07:** comprobar formato, materiales, zonas, ventanas y Skills; no transportar cadenas TCG a Rush.
+> 4. **A08:** distinguir interacción básica, starter, extensión, combo completo y continuación.
+> 5. **A09:** probar una versión con requisito cumplido y otra sin cumplirlo; exigir mano, pasos, recursos y campo final.
+> 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
+>
+> Skill: Sin Skill externa en este dossier

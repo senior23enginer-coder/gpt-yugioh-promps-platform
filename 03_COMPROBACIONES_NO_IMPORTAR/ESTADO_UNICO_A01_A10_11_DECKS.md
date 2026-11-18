@@ -480,3 +480,9356 @@ Para cada ID de abajo, **elegir primero un deck y después una tarea del apartad
 **Depuraci?n adicional 18-11-2026:** eliminado `escenarios_a03_a10/INDICE_99_ESCENARIOS_NUEVE_DECKS.json` tras comprobar que sus 99 objetos son exactamente los 99 objetos de los nueve JSON por deck; no se encontraron consumidores del ?ndice. Eliminados `infografias_a10_v09/INFOS_A10_INDEX.html` y `catalogo_v09.js`: el HTML era un ?ndice local sin consumidores encontrados y el objeto JavaScript era id?ntico al JSON `INDEX_108_INFOGRAFIAS.json`, que permanece junto a las im?genes. Las 16 carpetas de deck conservan im?genes referenciadas. Se mantienen fichas hist?ricas, datos V19, fuentes y gu?as cuyo contenido ?nico o dependencia no se ha conciliado; cinco copias de gu?as difieren de sus fuentes compartidas. No se realiz? importaci?n ni publicaci?n.
 
 **Consolidaci?n 18-11-2026:** se incorporaron ?ntegramente a las once fichas can?nicas de los decks 650, 653, 656, 665, 670, 684, 687, 704, 705, 706 y 707 los 99 escenarios de nueve JSON por deck y 630 registros de seis JSON globales sin consumidores literales encontrados. Se reconstruyeron y compararon los quince JSON originales, incluidos campos, metadatos, orden, identificadores y estados, antes de eliminarlos. Se comprob? que el contenido anterior y las secciones de rutas, cartas y perfiles usadas por los lectores permanecen iguales. Quedan 20 JSON v?lidos; su eventual consolidaci?n requiere resolver referencias del prompt, consumidores, datos compartidos y contratos de importaci?n. No se ejecut? importaci?n, publicaci?n ni prueba f?sica.
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_650_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 650
+
+> # Elfnote — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 650. Casos individualizados: 29. Rutas originales conservadas: 9.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: zonas centrales, Power Patron y transición Sincro. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: zonas centrales, Power Patron y transición Sincro.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 10 Main, 10 Extra y 9 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido.
+> - Segundo: Probar eliminación y reposicionamiento antes de invertir más cuerpos.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Ash sobre búsqueda de Medius:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **Impermanence sobre el efecto de pieza central:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **retiro de centro previo al efecto rápido:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **Power Patron en campo antes de Link:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Ash sobre búsqueda de Medius; Impermanence sobre el efecto de pieza central; retiro de centro previo al efecto rápido; Power Patron en campo antes de Link.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Conservar Invocación Normal y una segunda ruta si el centro se desplaza.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 22356 | Los Tres Campeones de Almaespada / The Three Champions of Swordsoul [Synchro; Konami 22356] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Los Tres Campeones de Almaespada / The Three Champions of Swordsoul [Synchro; Konami 22356], desde qué campo inicial y con qué restricción? |
+> | extra | 18666 | Bestia Nube Dorada – Malong / Golden Cloud Beast - Malong [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Bestia Nube Dorada – Malong / Golden Cloud Beast - Malong [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 22335 | Dragón Azote de Tormentas Destorbim / Storm-Bane Dragon Destorbim [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón Azote de Tormentas Destorbim / Storm-Bane Dragon Destorbim [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 22144 | Ecclesia y el Dragón Oscuro / Ecclesia and the Dark Dragon [extra; efecto y material según carta] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Ecclesia y el Dragón Oscuro / Ecclesia and the Dark Dragon [extra; efecto y material según carta], desde qué campo inicial y con qué restricción? |
+> | extra | 19188 | S:P Pequeña Caballera / S:P Little Knight [Link] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar S:P Pequeña Caballera / S:P Little Knight [Link], desde qué campo inicial y con qué restricción? |
+> | extra | 18505 | Luluwalilith Despiánica / Despian Luluwalilith [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Luluwalilith Despiánica / Despian Luluwalilith [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 12321 | Dragón Sincro Ala Cristalina / Crystal Wing Synchro Dragon [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón Sincro Ala Cristalina / Crystal Wing Synchro Dragon [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 15996 | Dragón de la Rosa Rojiza / Ruddy Rose Dragon [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón de la Rosa Rojiza / Ruddy Rose Dragon [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 15994 | Albion el Dragón Señalado / Albion the Branded Dragon [Fusion] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Albion el Dragón Señalado / Albion the Branded Dragon [Fusion], desde qué campo inicial y con qué restricción? |
+> | extra | 18507 | Ángel del Caos / Chaos Angel [Synchro] | ¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Ángel del Caos / Chaos Angel [Synchro], desde qué campo inicial y con qué restricción? |
+> | main | 22533 | Fidraulis Harmonía / Fidraulis Harmony | ¿En qué estado inicial Fidraulis Harmonía / Fidraulis Harmony produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 21419 | Medius el Puro / Medius the Pure | ¿En qué estado inicial Medius el Puro / Medius the Pure produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22519 | Vidolium, el Inestable Modelo de Poder de Unidad / Vidolium the Unstable Power Patron of Unity | ¿En qué estado inicial Vidolium, el Inestable Modelo de Poder de Unidad / Vidolium the Unstable Power Patron of Unity produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17762 | Magnamhut Abyssial / Bystial Magnamhut | ¿En qué estado inicial Magnamhut Abyssial / Bystial Magnamhut produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22520 | Nervedo, la Bestia Sombría Modelo de Poder / Nervedo the Shadebeast Power Patron | ¿En qué estado inicial Nervedo, la Bestia Sombría Modelo de Poder / Nervedo the Shadebeast Power Patron produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 12950 | Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring | ¿En qué estado inicial Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20500 | Fuwalos Multivadora / Mulcharmy Fuwalos | ¿En qué estado inicial Fuwalos Multivadora / Mulcharmy Fuwalos produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20206 | Purulia Multivadora / Mulcharmy Purulia | ¿En qué estado inicial Purulia Multivadora / Mulcharmy Purulia produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13587 | Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion | ¿En qué estado inicial Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22565 | Portal de Modelo de Poder Vetado – Término / Prohibited Power Patron Portal - Terminus | ¿En qué estado inicial Portal de Modelo de Poder Vetado – Término / Prohibited Power Patron Portal - Terminus produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | side | 17764 | Druiswurm Abyssial / Bystial Druiswurm | ¿Ante qué amenaza concreta debo incluir Druiswurm Abyssial / Bystial Druiswurm, qué carta SALE y qué cambio medible produce? |
+> | side | 13587 | Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion | ¿Ante qué amenaza concreta debo incluir Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion, qué carta SALE y qué cambio medible produce? |
+> | side | 9279 | El Bufón y el Pájaro del Candado / Droll & Lock Bird | ¿Ante qué amenaza concreta debo incluir El Bufón y el Pájaro del Candado / Droll & Lock Bird, qué carta SALE y qué cambio medible produce? |
+> | side | 11708 | Ogro Fantasma y Conejo de las Nieves / Ghost Ogre & Snow Rabbit | ¿Ante qué amenaza concreta debo incluir Ogro Fantasma y Conejo de las Nieves / Ghost Ogre & Snow Rabbit, qué carta SALE y qué cambio medible produce? |
+> | side | 13619 | Llamado por la Tumba / Called by the Grave | ¿Ante qué amenaza concreta debo incluir Llamado por la Tumba / Called by the Grave, qué carta SALE y qué cambio medible produce? |
+> | side | 15296 | Talento de Tácticas Triples / Triple Tactics Talent | ¿Ante qué amenaza concreta debo incluir Talento de Tácticas Triples / Triple Tactics Talent, qué carta SALE y qué cambio medible produce? |
+> | side | 13407 | «C» Contacto / Contact "C" | ¿Ante qué amenaza concreta debo incluir «C» Contacto / Contact "C", qué carta SALE y qué cambio medible produce? |
+> | side | 4861 | Juicio Solemne / Solemn Judgment | ¿Ante qué amenaza concreta debo incluir Juicio Solemne / Solemn Judgment, qué carta SALE y qué cambio medible produce? |
+> | side | 6511 | Olla de la Pereza / Pot of Avarice | ¿Ante qué amenaza concreta debo incluir Olla de la Pereza / Pot of Avarice, qué carta SALE y qué cambio medible produce? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_653_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 653
+
+> # DoomZ — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 653. Casos individualizados: 22. Rutas originales conservadas: 8.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Equipos, destrucción de recursos y salidas Xyz condicionales. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Equipos, destrucción de recursos y salidas Xyz condicionales.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 8 Main, 7 Extra y 7 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción.
+> - Segundo: Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **negación de la primera búsqueda:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **retirada del Equipo seleccionado:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **interrupción en el paso que convierte recursos en Xyz:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **material de rango/nivel incorrecto:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: negación de la primera búsqueda; retirada del Equipo seleccionado; interrupción en el paso que convierte recursos en Xyz; material de rango/nivel incorrecto.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 14958 | Número F0: Futuro Draco Utópico | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Draco Utópico, desde qué campo inicial y con qué restricción? |
+> | extra | 16002 | Springans Fiestero | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Springans Fiestero, desde qué campo inicial y con qué restricción? |
+> | extra | 18190 | Gigantesco «Campeón» Sargas | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Gigantesco «Campeón» Sargas, desde qué campo inicial y con qué restricción? |
+> | extra | 21453 | Número F0: Futuro Utópico Zexal | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Utópico Zexal, desde qué campo inicial y con qué restricción? |
+> | extra | 19886 | Varudras, el Último Portador del Fin de los Tiempos | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Varudras, el Último Portador del Fin de los Tiempos, desde qué campo inicial y con qué restricción? |
+> | extra | 11413 | Número F0: Futuro Utópico | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Utópico, desde qué campo inicial y con qué restricción? |
+> | extra | 14920 | Mago Gagagaga | ¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Mago Gagagaga, desde qué campo inicial y con qué restricción? |
+> | main | 9279 | El Bufón y el Pájaro del Candado | ¿En qué estado inicial El Bufón y el Pájaro del Candado produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 12950 | Flor de Ceniza & Primavera Feliz | ¿En qué estado inicial Flor de Ceniza & Primavera Feliz produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17119 | Therion «Rey» Regulus | ¿En qué estado inicial Therion «Rey» Regulus produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13631 | Infinito Temporal | ¿En qué estado inicial Infinito Temporal produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20500 | Fuwalos Multivadora | ¿En qué estado inicial Fuwalos Multivadora produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22565 | Portal del Modelo de Poder Desatado - Terminus | ¿En qué estado inicial Portal del Modelo de Poder Desatado - Terminus produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22519 | Vidrium, Modelo de Poder de la Exterminación del Caos | ¿En qué estado inicial Vidrium, Modelo de Poder de la Exterminación del Caos produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 21840 | Destrucción DoomZ | ¿En qué estado inicial Destrucción DoomZ produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | side | 11708 | Ogro Fantasma & Conejo de las Nieves | ¿Ante qué amenaza concreta debo incluir Ogro Fantasma & Conejo de las Nieves, qué carta SALE y qué cambio medible produce? |
+> | side | 15296 | Talento de Tácticas Triples | ¿Ante qué amenaza concreta debo incluir Talento de Tácticas Triples, qué carta SALE y qué cambio medible produce? |
+> | side | 14564 | Número 60: Dugares el Eterno | ¿Ante qué amenaza concreta debo incluir Número 60: Dugares el Eterno, qué carta SALE y qué cambio medible produce? |
+> | side | 13619 | Llamado por la Tumba | ¿Ante qué amenaza concreta debo incluir Llamado por la Tumba, qué carta SALE y qué cambio medible produce? |
+> | side | 14876 | Tormenta de Relámpagos | ¿Ante qué amenaza concreta debo incluir Tormenta de Relámpagos, qué carta SALE y qué cambio medible produce? |
+> | side | 14741 | Nibiru, el Ser Primitivo | ¿Ante qué amenaza concreta debo incluir Nibiru, el Ser Primitivo, qué carta SALE y qué cambio medible produce? |
+> | side | 19184 | Súper Asesino Estelar TY-PHON - Crisis Celeste | ¿Ante qué amenaza concreta debo incluir Súper Asesino Estelar TY-PHON - Crisis Celeste, qué carta SALE y qué cambio medible produce? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_656_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 656
+
+> # Tearlaments — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 656. Casos individualizados: 15. Rutas originales conservadas: 12.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Fusión y recursión desde Cementerio. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Fusión y recursión desde Cementerio.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 8 Main, 7 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión.
+> - Segundo: Resolver primero amenazas que destierran Cementerio o niegan disparos.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Bystial sobre objetivo en Cementerio:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **Ghost Belle ante recuperación aplicable:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **destierro que impide recuperar el recurso:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **negación del efecto activado en GY:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Bystial sobre objetivo en Cementerio; Ghost Belle ante recuperación aplicable; destierro que impide recuperar el recurso; negación del efecto activado en GY.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Usar planes que no consuman el único objetivo susceptible de recuperación.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 20521 | Agnumday del Demoniherrero | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Agnumday del Demoniherrero, desde qué campo inicial y con qué restricción? |
+> | extra | 17803 | Sprind Spright | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Sprind Spright, desde qué campo inicial y con qué restricción? |
+> | extra | 12870 | Predaplanta Dragostapelia | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Predaplanta Dragostapelia, desde qué campo inicial y con qué restricción? |
+> | extra | 13454 | Fangodragón del Pantano | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Fangodragón del Pantano, desde qué campo inicial y con qué restricción? |
+> | extra | 11005 | Parca Peregrina | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Parca Peregrina, desde qué campo inicial y con qué restricción? |
+> | extra | 10942 | Caballero Exciton Horda de Maldad | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Caballero Exciton Horda de Maldad, desde qué campo inicial y con qué restricción? |
+> | extra | 14356 | Ladrón del Tiempo Repetidor | ¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Ladrón del Tiempo Repetidor, desde qué campo inicial y con qué restricción? |
+> | main | 20490 | Lácrima las Lágrimas Carmesíes | ¿En qué estado inicial Lácrima las Lágrimas Carmesíes produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17462 | Planeta Primigenio Perlerreino | ¿En qué estado inicial Planeta Primigenio Perlerreino produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 12950 | Flor de Ceniza & Primavera Feliz | ¿En qué estado inicial Flor de Ceniza & Primavera Feliz produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18219 | Trivikarma | ¿En qué estado inicial Trivikarma produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17604 | Mudora el Oráculo de la Espada | ¿En qué estado inicial Mudora el Oráculo de la Espada produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 22169 | Corona Prohibida | ¿En qué estado inicial Corona Prohibida produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18204 | Planeta Bajo Presión Wraitsoth | ¿En qué estado inicial Planeta Bajo Presión Wraitsoth produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17603 | Keldo la Protectora Sagrada | ¿En qué estado inicial Keldo la Protectora Sagrada produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_665_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 665
+
+> # Kashtira Pure — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 665. Casos individualizados: 14. Rutas originales conservadas: 15.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: presión por destierro, cuerpos de Nivel 7 y Xyz. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: presión por destierro, cuerpos de Nivel 7 y Xyz.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 11 Main, 3 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Construir interacción y recursos para turno rival, conservando cuerpos necesarios.
+> - Segundo: Forzar respuestas y elegir entre presión de campo y continuación Xyz.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Impermanence sobre Unicorn/Fenrir:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **Ash sobre acceso al Deck:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **remoción antes de reunir materiales:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **restricción de zona del campo:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Impermanence sobre Unicorn/Fenrir; Ash sobre acceso al Deck; remoción antes de reunir materiales; restricción de zona del campo.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 17804 | Donner, Daga Mascota a Sueldo / Donner, Dagger Fur Hire [Link-2] | ¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Donner, Daga Mascota a Sueldo / Donner, Dagger Fur Hire [Link-2], desde qué campo inicial y con qué restricción? |
+> | extra | 15366 | Guerrero Fósil Caballero del Cráneo / Fossil Warrior Skull Knight [Fusión] | ¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Guerrero Fósil Caballero del Cráneo / Fossil Warrior Skull Knight [Fusión], desde qué campo inicial y con qué restricción? |
+> | extra | 15882 | Máquina Fósil Vagón del Cráneo / Fossil Machine Skull Wagon [Fusión] | ¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Máquina Fósil Vagón del Cráneo / Fossil Machine Skull Wagon [Fusión], desde qué campo inicial y con qué restricción? |
+> | main | 18152 | Terrogarras Kashtira / Scareclaw Kashtira | ¿En qué estado inicial Terrogarras Kashtira / Scareclaw Kashtira produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18153 | Tiagrimentos Kashtira / Tearlaments Kashtira | ¿En qué estado inicial Tiagrimentos Kashtira / Tearlaments Kashtira produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 14740 | Variador Dimensional / Dimension Shifter | ¿En qué estado inicial Variador Dimensional / Dimension Shifter produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 5537 | Terraformación / Terraforming | ¿En qué estado inicial Terraformación / Terraforming produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 5432 | Libro de la Luna / Book of Moon | ¿En qué estado inicial Libro de la Luna / Book of Moon produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 4342 | Agujero Oscuro / Dark Hole | ¿En qué estado inicial Agujero Oscuro / Dark Hole produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15756 | Olla de la Prosperidad / Pot of Prosperity | ¿En qué estado inicial Olla de la Prosperidad / Pot of Prosperity produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 12464 | Ciclón del Cosmos / Cosmic Cyclone | ¿En qué estado inicial Ciclón del Cosmos / Cosmic Cyclone produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 9352 | Lanza Prohibida / Forbidden Lance | ¿En qué estado inicial Lanza Prohibida / Forbidden Lance produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15296 | Talento de Tácticas Triples / Triple Tactics Talent | ¿En qué estado inicial Talento de Tácticas Triples / Triple Tactics Talent produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13631 | Infinito Temporal / Infinite Impermanence | ¿En qué estado inicial Infinito Temporal / Infinite Impermanence produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_670_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 670
+
+> # Infernoble — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 670. Casos individualizados: 18. Rutas originales conservadas: 10.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Sincronías y equipamiento para convertir cuerpos en interrupciones. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Sincronías y equipamiento para convertir cuerpos en interrupciones.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 13 Main, 5 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Establecer material Tuner/no-Tuner antes de declarar la salida Sincro.
+> - Segundo: Priorizar retirada de amenaza antes de invertir recursos en Equipos.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **negación del extensor:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **retiro de equipamiento crítico:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **bloqueo del tipo de Invocación:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **monstruo no permitido como material:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: negación del extensor; retiro de equipamiento crítico; bloqueo del tipo de Invocación; monstruo no permitido como material.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Mantener una extensión que no dependa del mismo efecto una vez por turno.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 16386 | Baronne de Fleur [Synchro] | ¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Baronne de Fleur [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 15276 | Infernoble Knight Emperor Charles [Synchro] | ¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Infernoble Knight Emperor Charles [Synchro], desde qué campo inicial y con qué restricción? |
+> | extra | 18926 | Battlin' Boxer King Dempsey [Xyz] | ¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Battlin' Boxer King Dempsey [Xyz], desde qué campo inicial y con qué restricción? |
+> | extra | 14496 | Apollousa, Bow of the Goddess [Link] | ¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Apollousa, Bow of the Goddess [Link], desde qué campo inicial y con qué restricción? |
+> | extra | 13034 | Link Spider [Link] | ¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Link Spider [Link], desde qué campo inicial y con qué restricción? |
+> | main | 17768 | Kashtira Fenrir | ¿En qué estado inicial Kashtira Fenrir produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18151 | Kashtira Riseheart | ¿En qué estado inicial Kashtira Riseheart produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18801 | Infernoble Caballero Turpin | ¿En qué estado inicial Infernoble Caballero Turpin produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15249 | Infernoble Caballero Maugis | ¿En qué estado inicial Infernoble Caballero Maugis produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18800 | Infernoble Caballero Ricciardetto | ¿En qué estado inicial Infernoble Caballero Ricciardetto produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15248 | Infernoble Caballero Oliver | ¿En qué estado inicial Infernoble Caballero Oliver produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 9279 | El Bufón y el Pájaro del Candado / Droll & Lock Bird | ¿En qué estado inicial El Bufón y el Pájaro del Candado / Droll & Lock Bird produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 8933 | Ocultador de Efectos / Effect Veiler | ¿En qué estado inicial Ocultador de Efectos / Effect Veiler produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 19207 | Anillo Angelical de Angélica / Angelica's Angelic Ring | ¿En qué estado inicial Anillo Angelical de Angélica / Angelica's Angelic Ring produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 6458 | Espada Divina – Hoja del Fénix / Divine Sword - Phoenix Blade | ¿En qué estado inicial Espada Divina – Hoja del Fénix / Divine Sword - Phoenix Blade produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 7519 | D.D.R. – Reencarnación de la Dimensión Diferente / D.D.R. - Different Dimension Reincarnation | ¿En qué estado inicial D.D.R. – Reencarnación de la Dimensión Diferente / D.D.R. - Different Dimension Reincarnation produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 14075 | Herencia del Cáliz / Heritage of the Chalice | ¿En qué estado inicial Herencia del Cáliz / Heritage of the Chalice produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 5328 | Refuerzo del Ejército / Reinforcement of the Army | ¿En qué estado inicial Refuerzo del Ejército / Reinforcement of the Army produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_684_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 684
+
+> # Cyber Dragon Pure — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 684. Casos individualizados: 12. Rutas originales conservadas: 16.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: máquinas, Fusión de contacto y presión de segundo turno. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: máquinas, Fusión de contacto y presión de segundo turno.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 12 Main, 0 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Evaluar interacción disponible sin presuponer un campo de negaciones genérico.
+> - Segundo: Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **negación de búsqueda de Core:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **falta de materiales para Fusión:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **restricción de máquina:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **efecto que retira el objetivo de contacto:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: negación de búsqueda de Core; falta de materiales para Fusión; restricción de máquina; efecto que retira el objetivo de contacto.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Elegir ruta que conserve recursos cuando la Fusión principal no es posible.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | main | 21164 | Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164] | ¿En qué estado inicial Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164] produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 6663 | Ciber Fénix / Cyber Phoenix | ¿En qué estado inicial Ciber Fénix / Cyber Phoenix produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17119 | Therion «Rey» Regulus / Therion "King" Regulus | ¿En qué estado inicial Therion «Rey» Regulus / Therion "King" Regulus produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 12950 | Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring | ¿En qué estado inicial Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13587 | Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion | ¿En qué estado inicial Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20205 | Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] | ¿En qué estado inicial Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16301 | Horizonte Cibernético / Cybernetic Horizon | ¿En qué estado inicial Horizonte Cibernético / Cybernetic Horizon produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 5129 | Eliminar el Límite / Limiter Removal | ¿En qué estado inicial Eliminar el Límite / Limiter Removal produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16297 | Ciber Eterno / Cyber Eternal | ¿En qué estado inicial Ciber Eterno / Cyber Eternal produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 4909 | Tifón del Espacio Místico / Mystical Space Typhoon | ¿En qué estado inicial Tifón del Espacio Místico / Mystical Space Typhoon produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13631 | Infinito Temporal / Infinite Impermanence | ¿En qué estado inicial Infinito Temporal / Infinite Impermanence produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 13787 | Desborde Cibernético / Cybernetic Overflow | ¿En qué estado inicial Desborde Cibernético / Cybernetic Overflow produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_687_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 687
+
+> # Volcanic — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 687. Casos individualizados: 3. Rutas originales conservadas: 19.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: reciclaje de munición, daño y control por cartas Volcanic. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: reciclaje de munición, daño y control por cartas Volcanic.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 3 Main, 0 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Preparar ciclos de recursos y respuestas sin gastar todas las piezas de recarga.
+> - Segundo: Calcular secuencia de limpieza y daño sin confundir interacción de dos cartas con combo.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **negación de Rocket/recarga:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **destierro de recursos de GY:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **eliminación de Blaze Accelerator:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **mano sin acceso al motor:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Registrar quién descartó, qué se envió, qué queda en GY y qué puede reciclarse.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: negación de Rocket/recarga; destierro de recursos de GY; eliminación de Blaze Accelerator; mano sin acceso al motor.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Separar salida de una carta de extensión de varias acciones y marcar brick sin forzar una jugada.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | main | 6884 | Estatua-Barrera del Infierno / Barrier Statue of the Inferno | ¿En qué estado inicial Estatua-Barrera del Infierno / Barrier Statue of the Inferno produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 9455 | "C" Maxx / Maxx "C" | ¿En qué estado inicial "C" Maxx / Maxx "C" produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 14144 | Olla de la Extravagancia / Pot of Extravagance | ¿En qué estado inicial Olla de la Extravagancia / Pot of Extravagance produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_704_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 704
+
+> # Pyro — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 704. Casos individualizados: 7. Rutas originales conservadas: 2.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Rush Duel — desarrollo condicionado por Skill. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Rush Duel — desarrollo condicionado por Skill.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 7 Main, 0 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Confirmar activación y límites exactos de Skill antes de secuencia.
+> - Segundo: Planificar daño y control dentro de las reglas Rush de su formato.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Skill no cumplida:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **material de Fusión ausente:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **monstruo de nivel o tipo incompatible:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **secuencia que usa reglas TCG por error:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Skill no cumplida; material de Fusión ausente; monstruo de nivel o tipo incompatible; secuencia que usa reglas TCG por error.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Registrar un plan legal sin Skill si existe; si no, declarar bloqueo.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | main | 17285 | Germalewe | ¿En qué estado inicial Germalewe produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16171 | Fuego Ardiente | ¿En qué estado inicial Fuego Ardiente produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18646 | Gelatina Defensiva | ¿En qué estado inicial Gelatina Defensiva produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 19700 | Amparo del Protector Estelar | ¿En qué estado inicial Amparo del Protector Estelar produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16776 | Parar la Defensa | ¿En qué estado inicial Parar la Defensa produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17926 | Gobernante de las Llamas | ¿En qué estado inicial Gobernante de las Llamas produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16372 | Olla de la Codicia | ¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_705_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 705
+
+> # Royal — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 705. Casos individualizados: 12. Rutas originales conservadas: 4.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Rush Duel — control de mesa y piezas Royal. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Rush Duel — control de mesa y piezas Royal.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 12 Main, 0 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Preparar cuerpos legales y comprobar Skill antes de buscar sinergia.
+> - Segundo: Elegir cambios de posición y presión según efectos Rush disponibles.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Skill no disponible:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **falta de tributos:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **materiales de Extra no reunidos:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **efecto Rush asumido como Quick Effect TCG:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Diferenciar límites propios de Skill de requisitos impresos de cada carta.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Skill no disponible; falta de tributos; materiales de Extra no reunidos; efecto Rush asumido como Quick Effect TCG.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Conservar tributos y documentar si una mano no produce avance.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | main | 16330 | Phaser del Rebelde Real | ¿En qué estado inicial Phaser del Rebelde Real produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 19760 | Impasse Ignoto | ¿En qué estado inicial Impasse Ignoto produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16135 | Descendiente de Titanes | ¿En qué estado inicial Descendiente de Titanes produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17721 | Canjear | ¿En qué estado inicial Canjear produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15673 | Aliento de Fuego del Genio | ¿En qué estado inicial Aliento de Fuego del Genio produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17543 | Restauración de Cartas | ¿En qué estado inicial Restauración de Cartas produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 21007 | Maldición de la Luz Ascendente | ¿En qué estado inicial Maldición de la Luz Ascendente produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18646 | Gelatina Defensiva | ¿En qué estado inicial Gelatina Defensiva produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 19799 | Avaricia del Rey | ¿En qué estado inicial Avaricia del Rey produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15913 | Agujero Trampa | ¿En qué estado inicial Agujero Trampa produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15674 | Esplendor del Rey | ¿En qué estado inicial Esplendor del Rey produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16305 | Monstruo Reencarnado | ¿En qué estado inicial Monstruo Reencarnado produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_706_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 706
+
+> # Hero — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 706. Casos individualizados: 8. Rutas originales conservadas: 6.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Rush Duel — presión de héroes y cartas de apoyo. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Rush Duel — presión de héroes y cartas de apoyo.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 8 Main, 0 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Comprobar condición de Skill y materiales antes de gastar mano.
+> - Segundo: Construir combate y protección según tablero rival.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Skill no activable:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **material incompatible:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **interrupción de protección:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **restricción de monstruos en Main:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Skill no activable; material incompatible; interrupción de protección; restricción de monstruos en Main.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Asegurar cuerpo útil y no simular una Fusión sin materiales.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | main | 20461 | Héroe Ascendente de Argen | ¿En qué estado inicial Héroe Ascendente de Argen produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16929 | Inicio Reinicio | ¿En qué estado inicial Inicio Reinicio produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20665 | Descenso de Héroe | ¿En qué estado inicial Descenso de Héroe produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20151 | Brillo Sombrío | ¿En qué estado inicial Brillo Sombrío produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20465 | Circulación Elemental | ¿En qué estado inicial Circulación Elemental produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16358 | Estrategia Mágica Aviar | ¿En qué estado inicial Estrategia Mágica Aviar produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 15913 | Agujero Trampa | ¿En qué estado inicial Agujero Trampa produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16372 | Olla de la Codicia | ¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+
+<!-- MATRIZ_EDITORIAL_INTEGRADA DECK_707_A01_A10_MATRIZ_20261113.md -->
+### Matriz editorial hist?rica de 707
+
+> # Dark Magician — contrato integral A01–A10 (iteración 05)
+>
+> Deck ID: 707. Casos individualizados: 10. Rutas originales conservadas: 7.
+>
+> > Este documento es una matriz operativa de revisión y decisiones. Los campos pendientes no son jugadas validadas; deben completarse con fichas y escenarios antes de importar como guías jugables.
+>
+> ## A01 — Rol y objetivo
+> - Investigación y pedagogía con evidencia: Rush Duel — Dark Magician con Skill Illusion of Executor. No certificar por mera existencia documental.
+>
+> ## A02 — Identidad y perfil Conoce tu deck
+> - Arquetipo, propósito y plan inicial: Rush Duel — Dark Magician con Skill Illusion of Executor.
+>
+> ## A03 — Inventario confirmado
+> - Casos concretos: 7 Main, 3 Extra y 0 Side. Conservar zonas y cantidades existentes, y Reserva separada.
+>
+> ## A04 — Fuentes, imágenes y zonas
+> - Relacionar cada CID con fotografía auténtica y origen/destino de cartas. No dibujar una Invocación inexistente.
+>
+> ## A05 — Carta por carta
+> - Primero: Comprobar Skill y secuencia de cuerpos permitidos.
+> - Segundo: Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales.
+>
+> ## A06 — Sinergias y decisiones
+> 1. **Skill no cumplida:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 2. **falta de material concreto para Gaia:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 3. **requisitos de Invocación no satisfechos:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+> 4. **presupuesto de recursos de mano insuficiente:** comprobar activación exacta, recurso amenazado y respuesta disponible; comparar ruta alternativa sin presuponer negación.
+>
+> ## A07 — Reglas del formato
+> - Tres Gaia de Extra no constituyen automáticamente tres rutas jugables.
+>
+> ## A08 — Clasificación de acciones
+> - Distinguir interacción, starter, extensión, combo completo y continuación. Riesgos: Skill no cumplida; falta de material concreto para Gaia; requisitos de Invocación no satisfechos; presupuesto de recursos de mano insuficiente.
+>
+> ## A09 — Ruta completa y práctica contextual
+> - Práctica de recuperación: Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main.
+> - Ejercicio: resolver la misma mano con interrupción al primer buscador, al primer extensor y al acceso del Extra; registrar coste de oportunidad y cartas restantes.
+>
+> ## A10 — Guía visual
+> - Carta real en cada paso, leyenda, materiales, zonas y tablero final; no inventar porcentajes competitivos.
+>
+> ## Matriz de trabajo por carta y decisión
+>
+> | Zona | CID | Carta registrada | Pregunta que debe resolverse |
+> |---|---:|---|---|
+> | extra | 19995 | Gaia el Campeón Dragón Rápido | ¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia el Campeón Dragón Rápido, desde qué campo inicial y con qué restricción? |
+> | extra | 18298 | Gaia el Campeón Dragón | ¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia el Campeón Dragón, desde qué campo inicial y con qué restricción? |
+> | extra | 19323 | Gaia, el Conquistador de Campeones | ¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia, el Conquistador de Campeones, desde qué campo inicial y con qué restricción? |
+> | main | 16772 | Distribuidor Maravilloso | ¿En qué estado inicial Distribuidor Maravilloso produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 18685 | Maga Legendaria | ¿En qué estado inicial Maga Legendaria produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 17209 | Ráfaga de Resonancia Oscura | ¿En qué estado inicial Ráfaga de Resonancia Oscura produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 20151 | Brillo Sombrío | ¿En qué estado inicial Brillo Sombrío produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 19341 | ¡Equitación Lindasesina! | ¿En qué estado inicial ¡Equitación Lindasesina! produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 16372 | Olla de la Codicia | ¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+> | main | 21007 | Maldición de la Luz Ascendente | ¿En qué estado inicial Maldición de la Luz Ascendente produce una acción válida, qué recurso consume y qué ruta desbloquea? |
+>
+> ## Reglas de aceptación para Codex
+> 1. Integrar por ID y versión; no sobrescribir revisiones del editor ni cambiar copias del inventario.
+> 2. Mantener A01–A10, Skills externas y Reserva separada.
+> 3. El estado `CONTRATO_DE_TRABAJO_NO_VALIDACION` no es un pase del motor.
+> 4. Registrar evidencia y resultados por cada CID, rama e interrupción; marcar inaccesible cuando corresponda.
+> 5. Pruebas de UI: título con propósito, fotos reales, materiales, pasos numerados, variantes y resultado.
+
+<!-- CONTRATOS_EDITORIALES_150_CASOS_INTEGRADOS -->
+### Contratos editoriales hist?ricos A01?A10
+
+Los siguientes 150 casos son controles documentales pendientes o condicionados seg?n su propio estado; no acreditan pruebas de motor ni de mesa.
+
+```json
+{
+  "schema": "station-x-case-contract/1",
+  "source_revision": "2026-11-13-donner-corrected",
+  "validated_routes_added": 0,
+  "work_cases": 150,
+  "decks": 11,
+  "disclaimer": "Contratos específicos y checklist; NO son combos nuevos, no hay replay ni publicación",
+  "cases": [
+    {
+      "case_id": "650:COBERTURA:EXTRA:22356",
+      "deck_id": 650,
+      "cid": 22356,
+      "card_id": 200,
+      "card": "Los Tres Campeones de Almaespada / The Three Champions of Swordsoul [Synchro; Konami 22356]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · buscador · negación · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Los Tres Campeones de Almaespada / The Three Champions of Swordsoul [Synchro; Konami 22356], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:18666",
+      "deck_id": 650,
+      "cid": 18666,
+      "card_id": 201,
+      "card": "Bestia Nube Dorada – Malong / Golden Cloud Beast - Malong [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · recuperación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Bestia Nube Dorada – Malong / Golden Cloud Beast - Malong [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:22335",
+      "deck_id": 650,
+      "cid": 22335,
+      "card_id": 202,
+      "card": "Dragón Azote de Tormentas Destorbim / Storm-Bane Dragon Destorbim [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · recuperación · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón Azote de Tormentas Destorbim / Storm-Bane Dragon Destorbim [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:22144",
+      "deck_id": 650,
+      "cid": 22144,
+      "card_id": 203,
+      "card": "Ecclesia y el Dragón Oscuro / Ecclesia and the Dark Dragon [extra; efecto y material según carta]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · extensor · recuperación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Ecclesia y el Dragón Oscuro / Ecclesia and the Dark Dragon [extra; efecto y material según carta], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:19188",
+      "deck_id": 650,
+      "cid": 19188,
+      "card_id": 206,
+      "card": "S:P Pequeña Caballera / S:P Little Knight [Link]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · respuesta.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar S:P Pequeña Caballera / S:P Little Knight [Link], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:18505",
+      "deck_id": 650,
+      "cid": 18505,
+      "card_id": 207,
+      "card": "Luluwalilith Despiánica / Despian Luluwalilith [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · extensor · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Luluwalilith Despiánica / Despian Luluwalilith [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:12321",
+      "deck_id": 650,
+      "cid": 12321,
+      "card_id": 209,
+      "card": "Dragón Sincro Ala Cristalina / Crystal Wing Synchro Dragon [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · negación · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón Sincro Ala Cristalina / Crystal Wing Synchro Dragon [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:15996",
+      "deck_id": 650,
+      "cid": 15996,
+      "card_id": 211,
+      "card": "Dragón de la Rosa Rojiza / Ruddy Rose Dragon [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · recuperación · negación · coste/recurso.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Dragón de la Rosa Rojiza / Ruddy Rose Dragon [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:15994",
+      "deck_id": 650,
+      "cid": 15994,
+      "card_id": 212,
+      "card": "Albion el Dragón Señalado / Albion the Branded Dragon [Fusion]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · buscador · habilitador de Extra · preparación.",
+      "existing_route_ids": [
+        "650:A09:ECCLESIA:FALLEN:ALBION01"
+      ],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Albion el Dragón Señalado / Albion the Branded Dragon [Fusion], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "Conexión documental existente; revisar validez y continuidad",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:EXTRA:18507",
+      "deck_id": 650,
+      "cid": 18507,
+      "card_id": 213,
+      "card": "Ángel del Caos / Chaos Angel [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · habilitador de Extra.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Elfnote puede entrar Ángel del Caos / Chaos Angel [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:22533",
+      "deck_id": 650,
+      "cid": 22533,
+      "card_id": 186,
+      "card": "Fidraulis Harmonía / Fidraulis Harmony",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · recuperación · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Fidraulis Harmonía / Fidraulis Harmony produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:21419",
+      "deck_id": 650,
+      "cid": 21419,
+      "card_id": 187,
+      "card": "Medius el Puro / Medius the Pure",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · extensor · recuperación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Medius el Puro / Medius the Pure produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:22519",
+      "deck_id": 650,
+      "cid": 22519,
+      "card_id": 188,
+      "card": "Vidolium, el Inestable Modelo de Poder de Unidad / Vidolium the Unstable Power Patron of Unity",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · recuperación · extensor · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Vidolium, el Inestable Modelo de Poder de Unidad / Vidolium the Unstable Power Patron of Unity produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:17762",
+      "deck_id": 650,
+      "cid": 17762,
+      "card_id": 189,
+      "card": "Magnamhut Abyssial / Bystial Magnamhut",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · searcher · buscador · extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Magnamhut Abyssial / Bystial Magnamhut produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:22520",
+      "deck_id": 650,
+      "cid": 22520,
+      "card_id": 191,
+      "card": "Nervedo, la Bestia Sombría Modelo de Poder / Nervedo the Shadebeast Power Patron",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor · habilitador de Extra · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Nervedo, la Bestia Sombría Modelo de Poder / Nervedo the Shadebeast Power Patron produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:12950",
+      "deck_id": 650,
+      "cid": 12950,
+      "card_id": 192,
+      "card": "Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:20500",
+      "deck_id": 650,
+      "cid": 20500,
+      "card_id": 193,
+      "card": "Fuwalos Multivadora / Mulcharmy Fuwalos",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · robo condicional.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Fuwalos Multivadora / Mulcharmy Fuwalos produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:20206",
+      "deck_id": 650,
+      "cid": 20206,
+      "card_id": 194,
+      "card": "Purulia Multivadora / Mulcharmy Purulia",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · robo condicional.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Purulia Multivadora / Mulcharmy Purulia produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:13587",
+      "deck_id": 650,
+      "cid": 13587,
+      "card_id": 195,
+      "card": "Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación de Cementerio.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:MAIN:22565",
+      "deck_id": 650,
+      "cid": 22565,
+      "card_id": 196,
+      "card": "Portal de Modelo de Poder Vetado – Término / Prohibited Power Patron Portal - Terminus",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Portal de Modelo de Poder Vetado – Término / Prohibited Power Patron Portal - Terminus produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:17764",
+      "deck_id": 650,
+      "cid": 17764,
+      "card_id": 215,
+      "card": "Druiswurm Abyssial / Bystial Druiswurm",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "interrupción · side técnico · recuperación · extensor · respuesta.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Druiswurm Abyssial / Bystial Druiswurm, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:13587",
+      "deck_id": 650,
+      "cid": 13587,
+      "card_id": 216,
+      "card": "Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "handtrap · negación de Cementerio.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:9279",
+      "deck_id": 650,
+      "cid": 9279,
+      "card_id": 217,
+      "card": "El Bufón y el Pájaro del Candado / Droll & Lock Bird",
+      "zone": "side",
+      "copies": 2,
+      "type": "SIDE_PLAN",
+      "observed_role": "handtrap · bloqueo de búsquedas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir El Bufón y el Pájaro del Candado / Droll & Lock Bird, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:11708",
+      "deck_id": 650,
+      "cid": 11708,
+      "card_id": 218,
+      "card": "Ogro Fantasma y Conejo de las Nieves / Ghost Ogre & Snow Rabbit",
+      "zone": "side",
+      "copies": 2,
+      "type": "SIDE_PLAN",
+      "observed_role": "handtrap · destrucción.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Ogro Fantasma y Conejo de las Nieves / Ghost Ogre & Snow Rabbit, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:13619",
+      "deck_id": 650,
+      "cid": 13619,
+      "card_id": 219,
+      "card": "Llamado por la Tumba / Called by the Grave",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "mágica rápida · negación de nombre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Llamado por la Tumba / Called by the Grave, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:15296",
+      "deck_id": 650,
+      "cid": 15296,
+      "card_id": 220,
+      "card": "Talento de Tácticas Triples / Triple Tactics Talent",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "mágica de respuesta · ventaja.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Talento de Tácticas Triples / Triple Tactics Talent, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:13407",
+      "deck_id": 650,
+      "cid": 13407,
+      "card_id": 221,
+      "card": "«C» Contacto / Contact \"C\"",
+      "zone": "side",
+      "copies": 3,
+      "type": "SIDE_PLAN",
+      "observed_role": "interrupción · side técnico · extensor · habilitador de Extra · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir «C» Contacto / Contact \"C\", qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:4861",
+      "deck_id": 650,
+      "cid": 4861,
+      "card_id": 222,
+      "card": "Juicio Solemne / Solemn Judgment",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "side técnico · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Juicio Solemne / Solemn Judgment, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "650:COBERTURA:SIDE:6511",
+      "deck_id": 650,
+      "cid": 6511,
+      "card_id": 223,
+      "card": "Olla de la Pereza / Pot of Avarice",
+      "zone": "side",
+      "copies": 3,
+      "type": "SIDE_PLAN",
+      "observed_role": "side técnico · recuperación · ventaja de mano.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Olla de la Pereza / Pot of Avarice, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Ash sobre búsqueda de Medius",
+          "Impermanence sobre el efecto de pieza central",
+          "retiro de centro previo al efecto rápido",
+          "Power Patron en campo antes de Link"
+        ],
+        "turn_one_goal": "Preparar un centro funcional y respuesta de turno rival sin bloquear el tipo de Invocación requerido",
+        "turn_two_goal": "Probar eliminación y reposicionamiento antes de invertir más cuerpos",
+        "resource_question": "Diferenciar Patron en mano de Patron controlado: el bloqueo solo Sincro cambia el Extra disponible",
+        "recovery_question": "Conservar Invocación Normal y una segunda ruta si el centro se desplaza"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:EXTRA:16386",
+      "deck_id": 670,
+      "cid": 16386,
+      "card_id": 163,
+      "card": "Baronne de Fleur [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · negación · recuperación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Baronne de Fleur [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:EXTRA:15276",
+      "deck_id": 670,
+      "cid": 15276,
+      "card_id": 164,
+      "card": "Infernoble Knight Emperor Charles [Synchro]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · cierre · motor Equipo.",
+      "existing_route_ids": [
+        "670:A09:OGIER:RENAUD:ANGELICA01",
+        "670:A09:CHARLES:EQUIPPED:LINK01"
+      ],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Infernoble Knight Emperor Charles [Synchro], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "Conexión documental existente; revisar validez y continuidad",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:EXTRA:18926",
+      "deck_id": 670,
+      "cid": 18926,
+      "card_id": 165,
+      "card": "Battlin' Boxer King Dempsey [Xyz]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · buscador · respuesta · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Battlin' Boxer King Dempsey [Xyz], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:EXTRA:14496",
+      "deck_id": 670,
+      "cid": 14496,
+      "card_id": 170,
+      "card": "Apollousa, Bow of the Goddess [Link]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · habilitador de Extra · negación · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Apollousa, Bow of the Goddess [Link], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:EXTRA:13034",
+      "deck_id": 670,
+      "cid": 13034,
+      "card_id": 172,
+      "card": "Link Spider [Link]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Infernoble puede entrar Link Spider [Link], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:17768",
+      "deck_id": 670,
+      "cid": 17768,
+      "card_id": 136,
+      "card": "Kashtira Fenrir",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "starter Kashtira · presión de destierro.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Kashtira Fenrir produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:18151",
+      "deck_id": 670,
+      "cid": 18151,
+      "card_id": 137,
+      "card": "Kashtira Riseheart",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor Kashtira · ajuste de Nivel.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Kashtira Riseheart produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:18801",
+      "deck_id": 670,
+      "cid": 18801,
+      "card_id": 140,
+      "card": "Infernoble Caballero Turpin",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "recuperación · extensor · respuesta · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infernoble Caballero Turpin produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:15249",
+      "deck_id": 670,
+      "cid": 15249,
+      "card_id": 141,
+      "card": "Infernoble Caballero Maugis",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal · recuperación · ventaja de mano · respuesta · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infernoble Caballero Maugis produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:18800",
+      "deck_id": 670,
+      "cid": 18800,
+      "card_id": 143,
+      "card": "Infernoble Caballero Ricciardetto",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infernoble Caballero Ricciardetto produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:15248",
+      "deck_id": 670,
+      "cid": 15248,
+      "card_id": 145,
+      "card": "Infernoble Caballero Oliver",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "recuperación · extensor · respuesta · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infernoble Caballero Oliver produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:9279",
+      "deck_id": 670,
+      "cid": 9279,
+      "card_id": 149,
+      "card": "El Bufón y el Pájaro del Candado / Droll & Lock Bird",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · bloqueo de búsquedas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial El Bufón y el Pájaro del Candado / Droll & Lock Bird produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:8933",
+      "deck_id": 670,
+      "cid": 8933,
+      "card_id": 150,
+      "card": "Ocultador de Efectos / Effect Veiler",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Ocultador de Efectos / Effect Veiler produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:19207",
+      "deck_id": 670,
+      "cid": 19207,
+      "card_id": 152,
+      "card": "Anillo Angelical de Angélica / Angelica's Angelic Ring",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Anillo Angelical de Angélica / Angelica's Angelic Ring produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:6458",
+      "deck_id": 670,
+      "cid": 6458,
+      "card_id": 156,
+      "card": "Espada Divina – Hoja del Fénix / Divine Sword - Phoenix Blade",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · cierre · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Espada Divina – Hoja del Fénix / Divine Sword - Phoenix Blade produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:7519",
+      "deck_id": 670,
+      "cid": 7519,
+      "card_id": 157,
+      "card": "D.D.R. – Reencarnación de la Dimensión Diferente / D.D.R. - Different Dimension Reincarnation",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial D.D.R. – Reencarnación de la Dimensión Diferente / D.D.R. - Different Dimension Reincarnation produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:14075",
+      "deck_id": 670,
+      "cid": 14075,
+      "card_id": 159,
+      "card": "Herencia del Cáliz / Heritage of the Chalice",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Herencia del Cáliz / Heritage of the Chalice produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "670:COBERTURA:MAIN:5328",
+      "deck_id": 670,
+      "cid": 5328,
+      "card_id": 160,
+      "card": "Refuerzo del Ejército / Reinforcement of the Army",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Refuerzo del Ejército / Reinforcement of the Army produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación del extensor",
+          "retiro de equipamiento crítico",
+          "bloqueo del tipo de Invocación",
+          "monstruo no permitido como material"
+        ],
+        "turn_one_goal": "Establecer material Tuner/no-Tuner antes de declarar la salida Sincro",
+        "turn_two_goal": "Priorizar retirada de amenaza antes de invertir recursos en Equipos",
+        "resource_question": "Distinguir cartas equipadas, cartas en GY y materiales Sincro efectivamente presentes",
+        "recovery_question": "Mantener una extensión que no dependa del mismo efecto una vez por turno"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:21164",
+      "deck_id": 684,
+      "cid": 21164,
+      "card_id": 230,
+      "card": "Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164]",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · recuperación · extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Sierpe Ciberoscura / Cyberdark Wurm [Konami 21164] produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:6663",
+      "deck_id": 684,
+      "cid": 6663,
+      "card_id": 232,
+      "card": "Ciber Fénix / Cyber Phoenix",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "ventaja de mano.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Ciber Fénix / Cyber Phoenix produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:17119",
+      "deck_id": 684,
+      "cid": 17119,
+      "card_id": 234,
+      "card": "Therion «Rey» Regulus / Therion \"King\" Regulus",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor Máquina · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Therion «Rey» Regulus / Therion \"King\" Regulus produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:12950",
+      "deck_id": 684,
+      "cid": 12950,
+      "card_id": 235,
+      "card": "Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Flor de Ceniza y Primavera Feliz / Ash Blossom & Joyous Spring produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:13587",
+      "deck_id": 684,
+      "cid": 13587,
+      "card_id": 236,
+      "card": "Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación de Cementerio.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Bella Fantasma y Mansión Embrujada / Ghost Belle & Haunted Mansion produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:20205",
+      "deck_id": 684,
+      "cid": 20205,
+      "card_id": 237,
+      "card": "Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado]",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:16301",
+      "deck_id": 684,
+      "cid": 16301,
+      "card_id": 241,
+      "card": "Horizonte Cibernético / Cybernetic Horizon",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Horizonte Cibernético / Cybernetic Horizon produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:5129",
+      "deck_id": 684,
+      "cid": 5129,
+      "card_id": 244,
+      "card": "Eliminar el Límite / Limiter Removal",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Eliminar el Límite / Limiter Removal produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:16297",
+      "deck_id": 684,
+      "cid": 16297,
+      "card_id": 247,
+      "card": "Ciber Eterno / Cyber Eternal",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "recurso situacional.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Ciber Eterno / Cyber Eternal produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:4909",
+      "deck_id": 684,
+      "cid": 4909,
+      "card_id": 248,
+      "card": "Tifón del Espacio Místico / Mystical Space Typhoon",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Tifón del Espacio Místico / Mystical Space Typhoon produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:13631",
+      "deck_id": 684,
+      "cid": 13631,
+      "card_id": 250,
+      "card": "Infinito Temporal / Infinite Impermanence",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "trampa · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infinito Temporal / Infinite Impermanence produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "684:COBERTURA:MAIN:13787",
+      "deck_id": 684,
+      "cid": 13787,
+      "card_id": 251,
+      "card": "Desborde Cibernético / Cybernetic Overflow",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Desborde Cibernético / Cybernetic Overflow produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de búsqueda de Core",
+          "falta de materiales para Fusión",
+          "restricción de máquina",
+          "efecto que retira el objetivo de contacto"
+        ],
+        "turn_one_goal": "Evaluar interacción disponible sin presuponer un campo de negaciones genérico",
+        "turn_two_goal": "Comprobar condición de Cyber Dragon y materiales para cada Fusión/Link",
+        "resource_question": "Separar objetivo de máquina adversaria, monstruo propio y materiales permitidos en Cementerio",
+        "recovery_question": "Elegir ruta que conserve recursos cuando la Fusión principal no es posible"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:20521",
+      "deck_id": 656,
+      "cid": 20521,
+      "card_id": 385,
+      "card": "Agnumday del Demoniherrero",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · cierre · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Agnumday del Demoniherrero, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:17803",
+      "deck_id": 656,
+      "cid": 17803,
+      "card_id": 386,
+      "card": "Sprind Spright",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Sprind Spright, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:12870",
+      "deck_id": 656,
+      "cid": 12870,
+      "card_id": 390,
+      "card": "Predaplanta Dragostapelia",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · negación · respuesta · recurso condicionado.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Predaplanta Dragostapelia, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:13454",
+      "deck_id": 656,
+      "cid": 13454,
+      "card_id": 394,
+      "card": "Fangodragón del Pantano",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Fangodragón del Pantano, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:11005",
+      "deck_id": 656,
+      "cid": 11005,
+      "card_id": 396,
+      "card": "Parca Peregrina",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · cierre · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Parca Peregrina, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:10942",
+      "deck_id": 656,
+      "cid": 10942,
+      "card_id": 398,
+      "card": "Caballero Exciton Horda de Maldad",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · cierre · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Caballero Exciton Horda de Maldad, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:EXTRA:14356",
+      "deck_id": 656,
+      "cid": 14356,
+      "card_id": 399,
+      "card": "Ladrón del Tiempo Repetidor",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · ventaja de mano · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Tearlaments puede entrar Ladrón del Tiempo Repetidor, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:20490",
+      "deck_id": 656,
+      "cid": 20490,
+      "card_id": 360,
+      "card": "Lácrima las Lágrimas Carmesíes",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · recuperación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Lácrima las Lágrimas Carmesíes produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:17462",
+      "deck_id": 656,
+      "cid": 17462,
+      "card_id": 362,
+      "card": "Planeta Primigenio Perlerreino",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · recuperación · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Planeta Primigenio Perlerreino produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:12950",
+      "deck_id": 656,
+      "cid": 12950,
+      "card_id": 364,
+      "card": "Flor de Ceniza & Primavera Feliz",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Flor de Ceniza & Primavera Feliz produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:18219",
+      "deck_id": 656,
+      "cid": 18219,
+      "card_id": 369,
+      "card": "Trivikarma",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · negación · cierre · respuesta.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Trivikarma produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:17604",
+      "deck_id": 656,
+      "cid": 17604,
+      "card_id": 372,
+      "card": "Mudora el Oráculo de la Espada",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Mudora el Oráculo de la Espada produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:22169",
+      "deck_id": 656,
+      "cid": 22169,
+      "card_id": 375,
+      "card": "Corona Prohibida",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "habilitador de Extra · negación · protección.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Corona Prohibida produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:18204",
+      "deck_id": 656,
+      "cid": 18204,
+      "card_id": 377,
+      "card": "Planeta Bajo Presión Wraitsoth",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Planeta Bajo Presión Wraitsoth produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "656:COBERTURA:MAIN:17603",
+      "deck_id": 656,
+      "cid": 17603,
+      "card_id": 384,
+      "card": "Keldo la Protectora Sagrada",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · searcher · buscador · extensor.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Keldo la Protectora Sagrada produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Bystial sobre objetivo en Cementerio",
+          "Ghost Belle ante recuperación aplicable",
+          "destierro que impide recuperar el recurso",
+          "negación del efecto activado en GY"
+        ],
+        "turn_one_goal": "Enviar recursos con posibilidad real de activación y comprobar materiales de Fusión",
+        "turn_two_goal": "Resolver primero amenazas que destierran Cementerio o niegan disparos",
+        "resource_question": "Distinguir enviar por efecto de descartar como coste y controlar disponibilidad real en Cementerio",
+        "recovery_question": "Usar planes que no consuman el único objetivo susceptible de recuperación"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:EXTRA:17804",
+      "deck_id": 665,
+      "cid": 17804,
+      "card_id": 119,
+      "card": "Donner, Daga Mascota a Sueldo / Donner, Dagger Fur Hire [Link-2]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · recuperación · extensor · respuesta · coste/recurso.",
+      "existing_route_ids": [
+        "665:A09:DONNER:FENRIR:UNICORN:GODDESS12"
+      ],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Donner, Daga Mascota a Sueldo / Donner, Dagger Fur Hire [Link-2], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "Conexión documental existente; revisar validez y continuidad",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:EXTRA:15366",
+      "deck_id": 665,
+      "cid": 15366,
+      "card_id": 121,
+      "card": "Guerrero Fósil Caballero del Cráneo / Fossil Warrior Skull Knight [Fusión]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · removal · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Guerrero Fósil Caballero del Cráneo / Fossil Warrior Skull Knight [Fusión], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:EXTRA:15882",
+      "deck_id": 665,
+      "cid": 15882,
+      "card_id": 122,
+      "card": "Máquina Fósil Vagón del Cráneo / Fossil Machine Skull Wagon [Fusión]",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Kashtira Pure puede entrar Máquina Fósil Vagón del Cráneo / Fossil Machine Skull Wagon [Fusión], desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:18152",
+      "deck_id": 665,
+      "cid": 18152,
+      "card_id": 96,
+      "card": "Terrogarras Kashtira / Scareclaw Kashtira",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · extensor · removal · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Terrogarras Kashtira / Scareclaw Kashtira produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:18153",
+      "deck_id": 665,
+      "cid": 18153,
+      "card_id": 97,
+      "card": "Tiagrimentos Kashtira / Tearlaments Kashtira",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "interrupción · extensor · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Tiagrimentos Kashtira / Tearlaments Kashtira produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:14740",
+      "deck_id": 665,
+      "cid": 14740,
+      "card_id": 99,
+      "card": "Variador Dimensional / Dimension Shifter",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · macro-destierro.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Variador Dimensional / Dimension Shifter produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:5537",
+      "deck_id": 665,
+      "cid": 5537,
+      "card_id": 103,
+      "card": "Terraformación / Terraforming",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "mágica · búsqueda de campo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Terraformación / Terraforming produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:5432",
+      "deck_id": 665,
+      "cid": 5432,
+      "card_id": 104,
+      "card": "Libro de la Luna / Book of Moon",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "control de zonas · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Libro de la Luna / Book of Moon produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:4342",
+      "deck_id": 665,
+      "cid": 4342,
+      "card_id": 105,
+      "card": "Agujero Oscuro / Dark Hole",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Agujero Oscuro / Dark Hole produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:15756",
+      "deck_id": 665,
+      "cid": 15756,
+      "card_id": 106,
+      "card": "Olla de la Prosperidad / Pot of Prosperity",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · removal · ventaja de mano · cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Olla de la Prosperidad / Pot of Prosperity produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:12464",
+      "deck_id": 665,
+      "cid": 12464,
+      "card_id": 107,
+      "card": "Ciclón del Cosmos / Cosmic Cyclone",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "mágica rápida · remoción.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Ciclón del Cosmos / Cosmic Cyclone produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:9352",
+      "deck_id": 665,
+      "cid": 9352,
+      "card_id": 108,
+      "card": "Lanza Prohibida / Forbidden Lance",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "cierre · protección.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Lanza Prohibida / Forbidden Lance produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:15296",
+      "deck_id": 665,
+      "cid": 15296,
+      "card_id": 109,
+      "card": "Talento de Tácticas Triples / Triple Tactics Talent",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "mágica de respuesta · ventaja.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Talento de Tácticas Triples / Triple Tactics Talent produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "665:COBERTURA:MAIN:13631",
+      "deck_id": 665,
+      "cid": 13631,
+      "card_id": 110,
+      "card": "Infinito Temporal / Infinite Impermanence",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "trampa · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infinito Temporal / Infinite Impermanence produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Impermanence sobre Unicorn/Fenrir",
+          "Ash sobre acceso al Deck",
+          "remoción antes de reunir materiales",
+          "restricción de zona del campo"
+        ],
+        "turn_one_goal": "Construir interacción y recursos para turno rival, conservando cuerpos necesarios",
+        "turn_two_goal": "Forzar respuestas y elegir entre presión de campo y continuación Xyz",
+        "resource_question": "No confundir cuerpo de Nivel 7 en campo con vía demostrada para cada Link o Fusión de Extra",
+        "recovery_question": "Conservar una salida con Fenrir o Unicorn sin asumir Normal gratuita"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:14958",
+      "deck_id": 653,
+      "cid": 14958,
+      "card_id": 340,
+      "card": "Número F0: Futuro Draco Utópico",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · negación · habilitador Xyz · protección.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Draco Utópico, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:16002",
+      "deck_id": 653,
+      "cid": 16002,
+      "card_id": 341,
+      "card": "Springans Fiestero",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · extensor · recuperación · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Springans Fiestero, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:18190",
+      "deck_id": 653,
+      "cid": 18190,
+      "card_id": 342,
+      "card": "Gigantesco «Campeón» Sargas",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · buscador · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Gigantesco «Campeón» Sargas, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:21453",
+      "deck_id": 653,
+      "cid": 21453,
+      "card_id": 347,
+      "card": "Número F0: Futuro Utópico Zexal",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · cierre · respuesta · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Utópico Zexal, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:19886",
+      "deck_id": 653,
+      "cid": 19886,
+      "card_id": 348,
+      "card": "Varudras, el Último Portador del Fin de los Tiempos",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "interrupción · resultado de Extra Deck · removal · negación · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Varudras, el Último Portador del Fin de los Tiempos, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:11413",
+      "deck_id": 653,
+      "cid": 11413,
+      "card_id": 350,
+      "card": "Número F0: Futuro Utópico",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · cierre · habilitador Xyz · protección.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Número F0: Futuro Utópico, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:EXTRA:14920",
+      "deck_id": 653,
+      "cid": 14920,
+      "card_id": 351,
+      "card": "Mago Gagagaga",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "resultado de Extra Deck · negación · cierre · respuesta · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario DoomZ puede entrar Mago Gagagaga, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:9279",
+      "deck_id": 653,
+      "cid": 9279,
+      "card_id": 325,
+      "card": "El Bufón y el Pájaro del Candado",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · bloqueo de búsquedas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial El Bufón y el Pájaro del Candado produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:12950",
+      "deck_id": 653,
+      "cid": 12950,
+      "card_id": 327,
+      "card": "Flor de Ceniza & Primavera Feliz",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Flor de Ceniza & Primavera Feliz produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:17119",
+      "deck_id": 653,
+      "cid": 17119,
+      "card_id": 328,
+      "card": "Therion «Rey» Regulus",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "extensor Máquina · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Therion «Rey» Regulus produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:13631",
+      "deck_id": 653,
+      "cid": 13631,
+      "card_id": 332,
+      "card": "Infinito Temporal",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "trampa · negación.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Infinito Temporal produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:20500",
+      "deck_id": 653,
+      "cid": 20500,
+      "card_id": 333,
+      "card": "Fuwalos Multivadora",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "handtrap · robo condicional.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Fuwalos Multivadora produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:22565",
+      "deck_id": 653,
+      "cid": 22565,
+      "card_id": 334,
+      "card": "Portal del Modelo de Poder Desatado - Terminus",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Portal del Modelo de Poder Desatado - Terminus produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:22519",
+      "deck_id": 653,
+      "cid": 22519,
+      "card_id": 336,
+      "card": "Vidrium, Modelo de Poder de la Exterminación del Caos",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · recuperación · extensor · removal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Vidrium, Modelo de Poder de la Exterminación del Caos produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:MAIN:21840",
+      "deck_id": 653,
+      "cid": 21840,
+      "card_id": 338,
+      "card": "Destrucción DoomZ",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "searcher · buscador · removal · respuesta · motor Equipo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Destrucción DoomZ produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:11708",
+      "deck_id": 653,
+      "cid": 11708,
+      "card_id": 352,
+      "card": "Ogro Fantasma & Conejo de las Nieves",
+      "zone": "side",
+      "copies": 2,
+      "type": "SIDE_PLAN",
+      "observed_role": "handtrap · destrucción.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Ogro Fantasma & Conejo de las Nieves, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:15296",
+      "deck_id": 653,
+      "cid": 15296,
+      "card_id": 353,
+      "card": "Talento de Tácticas Triples",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "mágica de respuesta · ventaja.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Talento de Tácticas Triples, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:14564",
+      "deck_id": 653,
+      "cid": 14564,
+      "card_id": 354,
+      "card": "Número 60: Dugares el Eterno",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "side técnico · recuperación · ventaja de mano · cierre · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Número 60: Dugares el Eterno, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:13619",
+      "deck_id": 653,
+      "cid": 13619,
+      "card_id": 355,
+      "card": "Llamado por la Tumba",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "mágica rápida · negación de nombre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Llamado por la Tumba, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:14876",
+      "deck_id": 653,
+      "cid": 14876,
+      "card_id": 356,
+      "card": "Tormenta de Relámpagos",
+      "zone": "side",
+      "copies": 2,
+      "type": "SIDE_PLAN",
+      "observed_role": "mágica · ruptura de mesa.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Tormenta de Relámpagos, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:14741",
+      "deck_id": 653,
+      "cid": 14741,
+      "card_id": 357,
+      "card": "Nibiru, el Ser Primitivo",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "handtrap · limpieza del campo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Nibiru, el Ser Primitivo, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "653:COBERTURA:SIDE:19184",
+      "deck_id": 653,
+      "cid": 19184,
+      "card_id": 358,
+      "card": "Súper Asesino Estelar TY-PHON - Crisis Celeste",
+      "zone": "side",
+      "copies": 1,
+      "type": "SIDE_PLAN",
+      "observed_role": "side técnico · recuperación · cierre · habilitador Xyz.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Ante qué amenaza concreta debo incluir Súper Asesino Estelar TY-PHON - Crisis Celeste, qué carta SALE y qué cambio medible produce?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de la primera búsqueda",
+          "retirada del Equipo seleccionado",
+          "interrupción en el paso que convierte recursos en Xyz",
+          "material de rango/nivel incorrecto"
+        ],
+        "turn_one_goal": "Habilitar materiales Xyz reales antes de consumir Equipos; reservar efectos de interacción",
+        "turn_two_goal": "Examinar si una destrucción propia genera valor y si queda un objetivo adversario legal",
+        "resource_question": "Registrar por separado equipo controlado, material Xyz adjunto y monstruo en Cementerio",
+        "recovery_question": "Pausar ante falta de Equipo y no ofrecer una Xyz que no cumpla materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "687:COBERTURA:MAIN:6884",
+      "deck_id": 687,
+      "cid": 6884,
+      "card_id": 290,
+      "card": "Estatua-Barrera del Infierno / Barrier Statue of the Inferno",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Main 1x; bloqueo de Invocaciones Especiales / presión al ir primero.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Estatua-Barrera del Infierno / Barrier Statue of the Inferno produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de Rocket/recarga",
+          "destierro de recursos de GY",
+          "eliminación de Blaze Accelerator",
+          "mano sin acceso al motor"
+        ],
+        "turn_one_goal": "Preparar ciclos de recursos y respuestas sin gastar todas las piezas de recarga",
+        "turn_two_goal": "Calcular secuencia de limpieza y daño sin confundir interacción de dos cartas con combo",
+        "resource_question": "Registrar quién descartó, qué se envió, qué queda en GY y qué puede reciclarse",
+        "recovery_question": "Separar salida de una carta de extensión de varias acciones y marcar brick sin forzar una jugada"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "687:COBERTURA:MAIN:9455",
+      "deck_id": 687,
+      "cid": 9455,
+      "card_id": 291,
+      "card": "\"C\" Maxx / Maxx \"C\"",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Main 2x, Reserva 1x adicional; handtrap de ventaja / disuasión ante extensión rival. La Reserva no participa en partidas actuales.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial \"C\" Maxx / Maxx \"C\" produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de Rocket/recarga",
+          "destierro de recursos de GY",
+          "eliminación de Blaze Accelerator",
+          "mano sin acceso al motor"
+        ],
+        "turn_one_goal": "Preparar ciclos de recursos y respuestas sin gastar todas las piezas de recarga",
+        "turn_two_goal": "Calcular secuencia de limpieza y daño sin confundir interacción de dos cartas con combo",
+        "resource_question": "Registrar quién descartó, qué se envió, qué queda en GY y qué puede reciclarse",
+        "recovery_question": "Separar salida de una carta de extensión de varias acciones y marcar brick sin forzar una jugada"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "687:COBERTURA:MAIN:14144",
+      "deck_id": 687,
+      "cid": 14144,
+      "card_id": 297,
+      "card": "Olla de la Extravagancia / Pot of Extravagance",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Main 2x; robo / impulso de consistencia con coste de Extra Deck.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Olla de la Extravagancia / Pot of Extravagance produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "negación de Rocket/recarga",
+          "destierro de recursos de GY",
+          "eliminación de Blaze Accelerator",
+          "mano sin acceso al motor"
+        ],
+        "turn_one_goal": "Preparar ciclos de recursos y respuestas sin gastar todas las piezas de recarga",
+        "turn_two_goal": "Calcular secuencia de limpieza y daño sin confundir interacción de dos cartas con combo",
+        "resource_question": "Registrar quién descartó, qué se envió, qué queda en GY y qué puede reciclarse",
+        "recovery_question": "Separar salida de una carta de extensión de varias acciones y marcar brick sin forzar una jugada"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:17285",
+      "deck_id": 704,
+      "cid": 17285,
+      "card_id": 430,
+      "card": "Germalewe",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Germalewe produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:16171",
+      "deck_id": 704,
+      "cid": 16171,
+      "card_id": 436,
+      "card": "Fuego Ardiente",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — apoyo situacional sujeto a condición escrita.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Fuego Ardiente produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:18646",
+      "deck_id": 704,
+      "cid": 18646,
+      "card_id": 438,
+      "card": "Gelatina Defensiva",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Gelatina Defensiva produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:19700",
+      "deck_id": 704,
+      "cid": 19700,
+      "card_id": 439,
+      "card": "Amparo del Protector Estelar",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — presión de combate / modificación de estadísticas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Amparo del Protector Estelar produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:16776",
+      "deck_id": 704,
+      "cid": 16776,
+      "card_id": 440,
+      "card": "Parar la Defensa",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — presión de combate / modificación de estadísticas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Parar la Defensa produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:17926",
+      "deck_id": 704,
+      "cid": 17926,
+      "card_id": 442,
+      "card": "Gobernante de las Llamas",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — extensor / habilitador de material.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Gobernante de las Llamas produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "704:COBERTURA:MAIN:16372",
+      "deck_id": 704,
+      "cid": 16372,
+      "card_id": 443,
+      "card": "Olla de la Codicia",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "material de Fusión ausente",
+          "monstruo de nivel o tipo incompatible",
+          "secuencia que usa reglas TCG por error"
+        ],
+        "turn_one_goal": "Confirmar activación y límites exactos de Skill antes de secuencia",
+        "turn_two_goal": "Planificar daño y control dentro de las reglas Rush de su formato",
+        "resource_question": "Skill externa obligatoria y Extra opcional; no usar restricciones TCG por analogía",
+        "recovery_question": "Registrar un plan legal sin Skill si existe; si no, declarar bloqueo"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:16330",
+      "deck_id": 705,
+      "cid": 16330,
+      "card_id": 467,
+      "card": "Phaser del Rebelde Real",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — extensor / habilitador de material.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Phaser del Rebelde Real produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:19760",
+      "deck_id": 705,
+      "cid": 19760,
+      "card_id": 468,
+      "card": "Impasse Ignoto",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — presión de combate / modificación de estadísticas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Impasse Ignoto produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:16135",
+      "deck_id": 705,
+      "cid": 16135,
+      "card_id": 472,
+      "card": "Descendiente de Titanes",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Descendiente de Titanes produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:17721",
+      "deck_id": 705,
+      "cid": 17721,
+      "card_id": 473,
+      "card": "Canjear",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Canjear produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:15673",
+      "deck_id": 705,
+      "cid": 15673,
+      "card_id": 474,
+      "card": "Aliento de Fuego del Genio",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — apoyo situacional sujeto a condición escrita.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Aliento de Fuego del Genio produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:17543",
+      "deck_id": 705,
+      "cid": 17543,
+      "card_id": 475,
+      "card": "Restauración de Cartas",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Restauración de Cartas produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:21007",
+      "deck_id": 705,
+      "cid": 21007,
+      "card_id": 476,
+      "card": "Maldición de la Luz Ascendente",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Maldición de la Luz Ascendente produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:18646",
+      "deck_id": 705,
+      "cid": 18646,
+      "card_id": 477,
+      "card": "Gelatina Defensiva",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — defensa ante ataque y prevención de daño de batalla.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Gelatina Defensiva produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:19799",
+      "deck_id": 705,
+      "cid": 19799,
+      "card_id": 478,
+      "card": "Avaricia del Rey",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Avaricia del Rey produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:15913",
+      "deck_id": 705,
+      "cid": 15913,
+      "card_id": 479,
+      "card": "Agujero Trampa",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — interrupción defensiva de Invocación Normal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Agujero Trampa produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:15674",
+      "deck_id": 705,
+      "cid": 15674,
+      "card_id": 480,
+      "card": "Esplendor del Rey",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — apoyo situacional sujeto a condición escrita.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Esplendor del Rey produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "705:COBERTURA:MAIN:16305",
+      "deck_id": 705,
+      "cid": 16305,
+      "card_id": 481,
+      "card": "Monstruo Reencarnado",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Monstruo Reencarnado produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no disponible",
+          "falta de tributos",
+          "materiales de Extra no reunidos",
+          "efecto Rush asumido como Quick Effect TCG"
+        ],
+        "turn_one_goal": "Preparar cuerpos legales y comprobar Skill antes de buscar sinergia",
+        "turn_two_goal": "Elegir cambios de posición y presión según efectos Rush disponibles",
+        "resource_question": "Diferenciar límites propios de Skill de requisitos impresos de cada carta",
+        "recovery_question": "Conservar tributos y documentar si una mano no produce avance"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:20461",
+      "deck_id": 706,
+      "cid": 20461,
+      "card_id": 415,
+      "card": "Héroe Ascendente de Argen",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Héroe Ascendente de Argen produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:16929",
+      "deck_id": 706,
+      "cid": 16929,
+      "card_id": 416,
+      "card": "Inicio Reinicio",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — recurso táctico cuya condición y resultado están descritos en su ficha.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Inicio Reinicio produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:20665",
+      "deck_id": 706,
+      "cid": 20665,
+      "card_id": 417,
+      "card": "Descenso de Héroe",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — extensor / habilitador de material.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Descenso de Héroe produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:20151",
+      "deck_id": 706,
+      "cid": 20151,
+      "card_id": 418,
+      "card": "Brillo Sombrío",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Brillo Sombrío produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:20465",
+      "deck_id": 706,
+      "cid": 20465,
+      "card_id": 419,
+      "card": "Circulación Elemental",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Circulación Elemental produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:16358",
+      "deck_id": 706,
+      "cid": 16358,
+      "card_id": 420,
+      "card": "Estrategia Mágica Aviar",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — removal / apertura de campo.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Estrategia Mágica Aviar produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:15913",
+      "deck_id": 706,
+      "cid": 15913,
+      "card_id": 422,
+      "card": "Agujero Trampa",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — interrupción defensiva de Invocación Normal.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Agujero Trampa produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "706:COBERTURA:MAIN:16372",
+      "deck_id": 706,
+      "cid": 16372,
+      "card_id": 423,
+      "card": "Olla de la Codicia",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no activable",
+          "material incompatible",
+          "interrupción de protección",
+          "restricción de monstruos en Main"
+        ],
+        "turn_one_goal": "Comprobar condición de Skill y materiales antes de gastar mano",
+        "turn_two_goal": "Construir combate y protección según tablero rival",
+        "resource_question": "Usar invocaciones y robo conforme a Rush, sin importar supuestos del TCG",
+        "recovery_question": "Asegurar cuerpo útil y no simular una Fusión sin materiales"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:EXTRA:19995",
+      "deck_id": 707,
+      "cid": 19995,
+      "card_id": 463,
+      "card": "Gaia el Campeón Dragón Rápido",
+      "zone": "extra",
+      "copies": 3,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia el Campeón Dragón Rápido, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:EXTRA:18298",
+      "deck_id": 707,
+      "cid": 18298,
+      "card_id": 464,
+      "card": "Gaia el Campeón Dragón",
+      "zone": "extra",
+      "copies": 3,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia el Campeón Dragón, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:EXTRA:19323",
+      "deck_id": 707,
+      "cid": 19323,
+      "card_id": 465,
+      "card": "Gaia, el Conquistador de Campeones",
+      "zone": "extra",
+      "copies": 1,
+      "type": "EXTRA_ACCESO",
+      "observed_role": "Monstruo de Fusión — objetivo de Fusión con materiales expresos y efecto de cierre.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿Con qué materiales EXACTOS del inventario Dark Magician puede entrar Gaia, el Conquistador de Campeones, desde qué campo inicial y con qué restricción?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:16772",
+      "deck_id": 707,
+      "cid": 16772,
+      "card_id": 447,
+      "card": "Distribuidor Maravilloso",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Distribuidor Maravilloso produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:18685",
+      "deck_id": 707,
+      "cid": 18685,
+      "card_id": 448,
+      "card": "Maga Legendaria",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Monstruo de Efecto — monstruo de apoyo/material o recurso de Sacrificio.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Maga Legendaria produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:17209",
+      "deck_id": 707,
+      "cid": 17209,
+      "card_id": 452,
+      "card": "Ráfaga de Resonancia Oscura",
+      "zone": "main",
+      "copies": 3,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — presión de combate / modificación de estadísticas.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Ráfaga de Resonancia Oscura produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:20151",
+      "deck_id": 707,
+      "cid": 20151,
+      "card_id": 453,
+      "card": "Brillo Sombrío",
+      "zone": "main",
+      "copies": 2,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Brillo Sombrío produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:19341",
+      "deck_id": 707,
+      "cid": 19341,
+      "card_id": 459,
+      "card": "¡Equitación Lindasesina!",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta de Trampa Normal — extensor / habilitador de material.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial ¡Equitación Lindasesina! produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:16372",
+      "deck_id": 707,
+      "cid": 16372,
+      "card_id": 461,
+      "card": "Olla de la Codicia",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Olla de la Codicia produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    },
+    {
+      "case_id": "707:COBERTURA:MAIN:21007",
+      "deck_id": 707,
+      "cid": 21007,
+      "card_id": 462,
+      "card": "Maldición de la Luz Ascendente",
+      "zone": "main",
+      "copies": 1,
+      "type": "MAIN_USO_SITUACIONAL",
+      "observed_role": "Carta Mágica Normal — consistencia / reciclaje.",
+      "existing_route_ids": [],
+      "sections": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "decision_question": "¿En qué estado inicial Maldición de la Luz Ascendente produce una acción válida, qué recurso consume y qué ruta desbloquea?",
+      "scenario_contract": {
+        "opening_hand": "POR_ESPECIFICAR_CON_CARTAS_REALES",
+        "own_field": "POR_ESPECIFICAR",
+        "opponent_field": "POR_ESPECIFICAR",
+        "graveyard": "POR_ESPECIFICAR",
+        "phase": "POR_CONFIRMAR_SEGUN_EFECTO",
+        "material_or_target": "POR_VALIDAR",
+        "cost": "POR_VALIDAR",
+        "chain_or_window": "POR_VALIDAR",
+        "steps": "POR_DESARROLLAR",
+        "endboard": "POR_VERIFICAR",
+        "interruptions": [
+          "Skill no cumplida",
+          "falta de material concreto para Gaia",
+          "requisitos de Invocación no satisfechos",
+          "presupuesto de recursos de mano insuficiente"
+        ],
+        "turn_one_goal": "Comprobar Skill y secuencia de cuerpos permitidos",
+        "turn_two_goal": "Presionar con piezas reales y evaluar acceso a Gaia solo si hay materiales",
+        "resource_question": "Tres Gaia de Extra no constituyen automáticamente tres rutas jugables",
+        "recovery_question": "Marcar las salidas Gaia sin acceso probado como bloqueadas y ofrecer estrategia con Main"
+      },
+      "evidence": "No hay ruta vinculada; no presentar como combo",
+      "status": "CONTRATO_DE_TRABAJO_NO_VALIDACION",
+      "acceptance": [
+        "ficha oficial y efecto aplicable",
+        "apertura exacta real (o bloqueo)",
+        "costes, materiales, niveles, zonas y ventanas",
+        "pasos o imposibilidad demostrada",
+        "resultado y recursos remanentes",
+        "al menos una interrupción aplicable",
+        "propuesta visual con CID real",
+        "replay Codex separado del cotejo documental"
+      ]
+    }
+  ]
+}
+```
+
+**Limpieza 18-11-2026:** integradas las once fichas A05/A06 hist?ricas y nueve documentos de escenarios en sus fichas can?nicas; integradas en este registro privado las once matrices y los 150 contratos editoriales. Retirada la copia vac?a de revisiones del editor en `01_INFORMACION_PARA_IMPORTAR`; se conserva la ubicaci?n activa `01_INFORMACION_A_IMPORTAR/revisiones_editor`. La prueba PHP de Importar/exportar Data pas? 16 paquetes estructurados y 16 entregas Markdown, aislamiento, l?mites y concurrencia. La limpieza general de fuentes, gu?as, im?genes y datos hist?ricos fuera de las carpetas de deck queda pendiente; no confundir esta depuraci?n parcial con el cierre de la tarea.

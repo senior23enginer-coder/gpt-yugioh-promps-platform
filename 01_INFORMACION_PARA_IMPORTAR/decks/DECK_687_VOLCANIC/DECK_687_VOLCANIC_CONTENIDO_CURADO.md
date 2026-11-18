@@ -2816,3 +2816,531 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 | `rol_segun_zona` | `"Carta en Reserva; no cuenta como carta jugable de la lista activa."` |
 | `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
 | `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+<!-- INTEGRADO_FICHAS_V19_687 -->
+### Fichas de cartas y sinergias documentadas
+
+Contenido editorial previo incorporado a esta ficha; conserva las condiciones y pendientes indicados y no acredita pruebas f?sicas ni de motor.
+
+> # Volcanic — A05 y A06 V19
+>
+> A05 36/36 con campos completos: 12 cotejadas editorialmente, 24 estructurales desde texto oficial. A06 36/36 clasificadas, 14 relaciones específicas descritas.
+>
+> ## Fichas A05 — evidencia y uso
+>
+> ### Volcanic Trooper — Soldado Volcánico — 18916 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Al Invocarse Normal o Especial añade una carta Volcanic del Deck distinta de Trooper. También puede descartar una carta de mano y colocar una Ficha Bomb en campo enemigo mediante su efecto.
+> - **Cuándo:** Búsqueda en Invocación; segundo efecto al activarse con descarte y zona rival disponible.
+> - **Costes y recursos:** Descartar 1 carta para crear ficha en campo rival.
+> - **Restricciones:** Cada efecto una vez por turno; no convierte a Rocket+Reload en combo completo.
+> - **Ir primero:** Buscar la M/T Volcanic exacta que falte para arrancar el motor.
+> - **Ir segundo:** La ficha rival puede habilitar un blanco para otras cartas, pero ocupa espacio enemigo.
+> - **Riesgos/interrupciones:** Negación de búsqueda no devuelve Normal; un campo rival sin zona libre impide ficha.
+> - **Propósito:** Buscador Volcanic y creador de objetivo situacional.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2&request_locale=en
+>
+> ### Volcanic Emperor — Emperador Volcánico — 18915 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Puede Invocarse Especial desde mano o GY desterrando tres monstruos Pyro o una carta Blaze Accelerator de tu campo boca arriba/GY. Al Invocarse inflige daño por Pyros desterrados con esa Invocación y coloca desde Deck una Trampa Volcanic; además quema 500 cada vez que rival Invoca Especial monstruos según su texto.
+> - **Cuándo:** Procedimiento de mano/GY y efectos al Invocarse/por Invocación rival.
+> - **Costes y recursos:** Desterrar 3 Pyro o 1 Blaze Accelerator permitido, sin suponer Cementerio infinito.
+> - **Restricciones:** Si invocas desterrando Blaze, el cálculo de Pyro desterrados por ese procedimiento puede ser 0; respetar disparadores.
+> - **Ir primero:** Preparar Blaze en GY y luego reservar la Trampa del Deck para colocación.
+> - **Ir segundo:** Amenaza de daño recurrente si permanece frente a Invocaciones Especiales rivales.
+> - **Riesgos/interrupciones:** Sin Blaze ni 3 Pyro disponibles no existe Invocación; remoción preventiva evita daño posterior.
+> - **Propósito:** Jefe de daño y acceso a trampa con coste tangible.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2&request_locale=en
+>
+> ### Volcanic Rocket — Misil Volcánico — 7243 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Misil Volcánico al ser Invocado de cualquier forma añade a mano una carta Blaze Accelerator desde Deck o GY. No genera por sí mismo destrucción de cartas ni daño.
+> - **Cuándo:** Disparador de Invocación Normal/Especial.
+> - **Costes y recursos:** No descarta.
+> - **Restricciones:** La carta añadida debe pertenecer a familia Blaze Accelerator; sin objetivo no busca.
+> - **Ir primero:** Buscar Volcanic Blaze Accelerator o Reload según línea disponible.
+> - **Ir segundo:** Restituir Acelerador removido del GY al realizar Invocación de Rocket.
+> - **Riesgos/interrupciones:** Negar la búsqueda no elimina el monstruo ya Invocado.
+> - **Propósito:** Buscador de habilitador de munición, no combo final por sí solo.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2&request_locale=en
+>
+> ### Volcanic Rimfire — Percusión Anular Volcánica — 18917 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Al ser enviado al GY puede activar uno de dos modos: desterrarse para enviar otro Volcanic del Deck o desterrar Blaze Accelerator de campo/GY para colocar Blaze Accelerator Continuo desde mano/Deck.
+> - **Cuándo:** Disparador al ser enviado al GY.
+> - **Costes y recursos:** Primer modo destierra Rimfire; segundo destierra una carta Blaze Accelerator elegible.
+> - **Restricciones:** Cada modo una vez por turno; solo un modo por esta activación, no ambos a la vez.
+> - **Ir primero:** Usar el modo que cubra la falta de Reload o Emperor, preservando recursos.
+> - **Ir segundo:** La línea depende de que Blaze Accelerator exista en campo/GY si se elige el segundo.
+> - **Riesgos/interrupciones:** Si no queda Accelerator para desterrar, no se anuncia colocación Reload.
+> - **Propósito:** Main **3x**; **enabler de GY / puente hacia Scattershot o aceleradores continuos**; **Pyro Nivel 1**. Fire Ejection puede enviarlo desde Deck; el envío de Rimfire por VBA es legal porque es Nivel 1; su opción (a) puede enviar Scattershot y causar 500 daños. **Fire Ejection** puede enviarlo desde Deck; el envío de Rimfire por **VBA** es legal porque es **Nivel 1**; su opción (a) puede enviar **Scattershot** y causar 500 daños, pero al ser efecto **de Rimfire**, por sí sola **no cumple** la condición del barrido de Scattershot ligado a Blaze Accelerator.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2&request_locale=en
+>
+> ### Volcanic Scattershot — Disparo Disperso Volcánico — 7083 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Si Scattershot se envía al GY causa 500 de daño. Si específicamente se envía por efecto de una carta Blaze Accelerator, puede enviar dos Scattershot adicionales de mano o Deck al GY y destruir todos los monstruos enemigos.
+> - **Cuándo:** Disparo de envío al GY; limpieza solo si el envío fue por efecto Blaze Accelerator.
+> - **Costes y recursos:** Para limpieza deben poder enviarse otras dos copias elegibles de Scattershot.
+> - **Restricciones:** Un envío normal, Tributo o coste que no sea efecto Blaze no permite barrer el campo.
+> - **Ir primero:** Conservar Scattershot y habilitador Blaze para la remoción sin gastar las piezas.
+> - **Ir segundo:** Limpieza de monstruos enemigos con requisito exacto; las dos copias adicionales también se envían a GY.
+> - **Riesgos/interrupciones:** Sin copias disponibles o sin Blaze como causa de envío, no declarar nuke.
+> - **Propósito:** Paquete defensivo Pyro que castiga campos poblados.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2&request_locale=en
+>
+> ### Volcanic Shell — Cartucho Volcánico — 7082 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Cartucho Volcánico solo desde GY puede pagar 500 LP para añadir otro Volcanic Shell del Deck. Debe permanecer en GY tanto al activar como al resolver.
+> - **Cuándo:** Ignición desde GY.
+> - **Costes y recursos:** Pagar 500 LP.
+> - **Restricciones:** Una vez por turno; si el GY se vacía o Shell sale antes de resolver no recupera.
+> - **Ir primero:** Obtener munición adicional para Acelerador o filtro Reload.
+> - **Ir segundo:** Mantener combustible de mano en enfrentamiento largo.
+> - **Riesgos/interrupciones:** Banishing Shell en respuesta hace fallar búsqueda; no recupera desde campo.
+> - **Propósito:** Munición renovable de la mano con coste de LP.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2&request_locale=en
+>
+> ### Barrier Statue of the Inferno — Estatua-Barrera del Infierno — 6884 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero dificulta la expansión de rivales no FUEGO; segundo no retira un tablero establecido y expone un cuerpo frágil; tardío depende de su supervivencia.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **1x**; **bloqueo de Invocaciones Especiales / presión al ir primero**. convive con buena parte del Main Pyro/FUEGO y con Hiita, Knightmare Phoenix, Salamangreat Almiraj y Promethean Princess. convive con buena parte del Main Pyro/FUEGO y con **Hiita, Knightmare Phoenix, Salamangreat Almiraj y Promethean Princess**; impide mientras se aplica Invocaciones de **I:P, S:P, Linkuriboh, Unicorn, Underworld Goddess o TY-PHON** por no ser FUEGO.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en
+>
+> ### Maxx "C" — «C» Maxx — 9455 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: sirve especialmente cuando el rival intenta prolongar su turno; primero se reserva para turno rival, segundo puede presionar su siguiente turno; tardío vale si aún hay Deck y jugadas rivales.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **2x**, **Reserva 1x adicional**; **handtrap de ventaja / disuasión ante extensión rival**. La Reserva **no participa** en partidas actuales. puede aportar nuevas cartas del motor, pero Pot of Extravagance impide robar por efectos después de resolver, y Pot of Prosperity impide robar por efectos durante todo el turno de activación. Aporta respuesta o consistencia sin exigir enlace directo. puede aportar nuevas cartas del motor, pero **Pot of Extravagance** impide robar por efectos **después de resolver**, y **Pot of Prosperity** impide robar por efectos durante **todo el turno** de activación; evaluar conflictos temporales.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en
+>
+> ### Volcanic Blaze Accelerator — Acelerador de Llama Volcánico — 18918 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Se activa enviando Blaze Accelerator original de mano, Deck o campo propio boca arriba al GY. Una vez por Main Invoca Volcanic de mano; otra vez por turno apunta monstruo rival boca arriba, manda Pyro Lv1 desde Deck y destruye.
+> - **Cuándo:** Activación Spell con envío inicial; dos efectos posteriores diferenciados.
+> - **Costes y recursos:** Para activar exige enviar Blaze Accelerator; para destruir selecciona monstruo rival cara arriba.
+> - **Restricciones:** Controlar solo una copia; cada efecto propio una vez por turno.
+> - **Ir primero:** Usar efecto de eliminación para mandar Rimfire desde Deck y construir Reload.
+> - **Ir segundo:** No destruir monstruos sin objetivo cara arriba ni asumir envío gratis si la Spell es negada.
+> - **Riesgos/interrupciones:** Si negado efecto que apunta, el envío desde Deck en esa cadena no se ejecuta.
+> - **Propósito:** Main **3x**; **núcleo continuo / extensor de Invocación / removal puntual con envío al GY**. enviar Rimfire Nivel 1 habilita su efecto de GY; enviar Shell Nivel 1 prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar. enviar **Rimfire Nivel 1** habilita su efecto de GY; enviar **Shell Nivel 1** prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2&request_locale=en
+>
+> ### Blaze Accelerator — Acelerador de Llama — 7086 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Acelerador de Llama es Mágica Continua: selecciona monstruo rival, manda desde mano al GY un Pyro de ATK500 o menor y después destruye al seleccionado. Tus monstruos no pueden atacar durante el turno en que activaste ese efecto.
+> - **Cuándo:** Ignición de Mágica Continua boca arriba con monstruo rival objetivo.
+> - **Costes y recursos:** Enviar Pyro ATK≤500 de mano al GY como parte de efecto.
+> - **Restricciones:** Restringe todos tus ataques de ese turno; para Scattershot debe ser ESTE envío por efecto del Acelerador.
+> - **Ir primero:** Preparar Scattershot real en mano y las otras dos copias para limpiar campo.
+> - **Ir segundo:** Retirar monstruo clave rival, renunciando a atacar ese turno.
+> - **Riesgos/interrupciones:** Sin Pyro de ATK≤500 de mano no funciona; retirar objetivo rival afecta resolución.
+> - **Propósito:** Habilitador concreto de limpieza de Scattershot y remoción.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2&request_locale=en
+>
+> ### Fire Ejection — Eyección de Fuego — 18919 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Envía monstruo Pyro del Deck al GY; si fue Volcanic puede elegir daño de 100×Nivel o Token Bomba para rival (la destrucción del Token causa daño a su controlador).
+> - **Cuándo:** Activar Spell propia una vez por turno.
+> - **Costes y recursos:** El envío del Pyro ocurre por efecto al resolver, no coste.
+> - **Restricciones:** Solo una Fire Ejection activable por turno; Token no es monstruo propio.
+> - **Ir primero:** Elegir Rimfire si necesitas preparar Blaze/Reload o Emperor si buscas jefe GY.
+> - **Ir segundo:** Analizar si poner Token rival lo beneficia como material; no elegirlo automáticamente.
+> - **Riesgos/interrupciones:** Ash puede parar el envío; no se asegura daño ni Token si no resolvió.
+> - **Propósito:** Main **3x**; **envío preciso Pyro desde Deck / habilitador de GY / generador de Ficha**. prepara un Rimfire de GY para colocar acelerador; envía Shell al GY para obtener otra copia; pone Ficha rival para efectos que seleccionan Pyro, como Volcanic Emission. prepara un Rimfire de GY para colocar acelerador; envía Shell al GY para obtener otra copia; pone Ficha rival para efectos que seleccionan Pyro, como **Volcanic Emission**.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2&request_locale=en
+>
+> ### Forbidden Droplet — Gotas Prohibidas — 15299 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Incluye una prohibición de activación condicionada. La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: segundo desactiva varios bloqueos para jugar; primero puede guardarse para defenderse en turno rival si estuvo Colocada de antes; tardío convierte cartas sobrantes en acceso al combate.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **3x**; **board breaker / negación de monstruos / apoyo ofensivo**. enviar Rimfire o Scattershot como recurso de la mano al GY puede preparar sus disparadores propios; no transforma el envío en «efecto Blaze Accelerator». Aporta respuesta o consistencia sin exigir enlace directo. enviar **Rimfire o Scattershot** como recurso de la mano al GY puede preparar sus disparadores propios; **no** transforma el envío en «efecto Blaze Accelerator». Reducir ATK favorece al Emperor y ataques subsiguientes.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en
+>
+> ### Bonfire — Hoguera — 19027 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero busca **Trooper** para abrir motor o **Rocket** para buscar un acelerador; segundo puede elegir **Rimfire / Scattershot / Shell** si falta munición concreta; tardío depende de objetivos remanentes.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **3x**; **starter genérico / tutor de Pyro pequeño**. ofrece acceso a todas las piezas Pyro Nivel 1–4 de esta lista; NO puede añadir Volcanic Emperor (Nivel 8) ni cartas Mágicas/Trampa. ofrece acceso a todas las piezas **Pyro Nivel 1–4** de esta lista; **NO** puede añadir **Volcanic Emperor (Nivel 8)** ni cartas Mágicas/Trampa.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en
+>
+> ### Pot of Extravagance — Olla de la Extravagancia — 14144 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Contempla destierro de cartas. Contempla destierro boca abajo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: primero mejora la mano antes de dedicar Invocación Normal, si se acepta el coste; segundo ayuda a reunir respuestas; tardío puede no activarse si ya no hay suficientes cartas de Extra.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **2x**; **robo / impulso de consistencia con coste de Extra Deck**. puede hallar Trooper/Bonfire/Droplet, pero compite con I:P / S:P / TY-PHON / Promethean Princess por el Extra y deshabilita el robo posterior de Blaze Accelerator Reload en el mismo turno. puede hallar Trooper/Bonfire/Droplet, pero compite con **I:P / S:P / TY-PHON / Promethean Princess** por el Extra y deshabilita el robo posterior de **Blaze Accelerator Reload** en el mismo turno.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en
+>
+> ### Blaze Accelerator Reload — Recarga del Acelerador de Llama — 11597 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Recarga del Acelerador de Llama es Trampa Continua que se llama Tri-Blaze Accelerator mientras está en zona M/T. En Main puede enviar Volcanic de mano al GY y después robar una. Desde GY puede desterrarse para mandar un Volcanic del Deck al GY durante Main.
+> - **Cuándo:** Primera modalidad con Continua boca arriba durante Main; segunda desde GY en Main propia o rival cuando legal.
+> - **Costes y recursos:** Enviar Volcanic de mano al GY por resolución; desterrar Reload desde GY para segunda.
+> - **Restricciones:** La primera modalidad una vez por turno; el GY no equivale a activar otra copia en campo.
+> - **Ir primero:** Usar Reload para colocar Scattershot en GY o filtrar Shell según mano, sin llamar automáticamente combo.
+> - **Ir segundo:** Enviar pieza Volcanic del Deck al GY en ventana adecuada del turno rival.
+> - **Riesgos/interrupciones:** Envío desde GY por Reload no es efecto de Blaze Accelerator, por sí solo Scattershot no barre campo.
+> - **Propósito:** Filtrado de mano y envío directo desde Deck al GY.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2&request_locale=en
+>
+> ### Volcanic Inferno — Infierno Volcánico — 18921 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Es Trampa Continua. Cuando rival activa un efecto de monstruo EN CAMPO, puedes desterrar un Piro de tu GY, infligir 500 y, si ese Piro era Volcanic, negar el efecto. En End Phase rival permite devolver hasta dos Volcanic desde GY/destierro al fondo del Deck.
+> - **Cuándo:** No responde al efecto de monstruo activado en mano, GY o destierro. Solo un uso por turno de cada efecto. Reciclar al final del turno rival no significa robar.
+> - **Costes y recursos:** Revisar coste exacto en el texto oficial.
+> - **Restricciones:** Revisar límites específicos en el texto oficial.
+> - **Ir primero:** primero es excelente objetivo para **Emperor**, que puede Colocarla si usó su procedimiento; segundo reacciona a un campo aún activo tras instalarla; tardío recicla piezas como Scattershot/Shell y evita agotamiento.
+> - **Ir segundo:** Evaluar respuesta rival y condiciones de activación.
+> - **Riesgos/interrupciones:** Evaluar negación, retirada de objetivo y bloqueo de recursos.
+> - **Propósito:** Main **1x**; **interrupción de efecto de monstruo / reciclaje para juego tardío**. el primer efecto consume el mismo GY de Pyro que Emperor y Rimfire; el segundo puede volver a habilitar copias de Scattershot en Deck para otro envío legal. el primer efecto consume el mismo GY de Pyro que **Emperor** y **Rimfire**; el segundo puede volver a habilitar copias de Scattershot en Deck para otro envío legal.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en
+>
+> ### Volcanic Emission — Emisión Volcánica — 18920 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Emisión Volcánica permite elegir una modalidad: tomar un Volcanic del Deck y añadirlo a mano O Invocarlo Especial ignorando condiciones (devolviéndolo a mano en End Phase); o seleccionar Pyro en campo y causar daño por su ATK original, reducido a la mitad si es propio.
+> - **Cuándo:** Trampa Normal durante ventana legal; elegir una modalidad al activar.
+> - **Costes y recursos:** La segunda requiere Pyro en campo como objetivo.
+> - **Restricciones:** Cada modalidad una vez por turno; el daño con Pyro propio se reduce a la mitad, no con rival.
+> - **Ir primero:** Acceder a Trooper/Rocket o Emperador desde Deck bajo efecto temporal.
+> - **Ir segundo:** Seleccionar Pyro rival de ATK alto para daño completo.
+> - **Riesgos/interrupciones:** La Invocación temporal no activa efectos que exigen su Invocación por procedimiento propio si no aplica; verificar.
+> - **Propósito:** Acceso desde Deck o daño al LP mediante objetivo Pyro.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2&request_locale=en
+>
+> ### Gozen Match — Emparejamiento de Atributos — 7934 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero puede fijar FUEGO y recortar rutas del rival; segundo exige evaluar si ya se puede resolver sin perder piezas propias; tardío sirve mientras el oponente necesite desplegar varios atributos.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Main **2x**, **Reserva 1x adicional**; **control de Atributos / limitación simétrica de campo**. Main Volcanic es predominantemente FUEGO; en Extra Hiita. Main Volcanic es predominantemente **FUEGO**; en Extra **Hiita, Knightmare Phoenix, Salamangreat Almiraj y Promethean Princess** también son FUEGO, mientras **I:P, S:P, Linkuriboh, Unicorn, Goddess y TY-PHON** usan otros atributos.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en
+>
+> ### I:P Masquerena — I:P Enmascarada — 14676 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Tiene interacción explícita con Invocación por Enlace. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero es objetivo de campo defensivo si hay dos cuerpos no Link; segundo puede convertir excedente de campo en utilidad del Extra; tardío depende de que queden materiales y Link posteriores.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **2x**; **interrupción Link durante Main Phase rival / protección al nuevo Link**. **OSCURIDAD, Ciberso, Link 2**. utiliza cualquier FUEGO que permitan las zonas y el GY enemigo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. con suficientes materiales del campo propio, durante Main rival puede conducir a **Knightmare Unicorn** (barajar una carta) o a **Underworld Goddess** (requisitos superiores), según legalidad en ese estado. Los cuerpos Volcanic proporcionan materiales si las Invocaciones fueron válidas.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en
+>
+> ### Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida — 14133 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero es situacional si aún no hay GY FUEGO rival; segundo gana material usando la destrucción previa de monstruos oponentes; tardío puede convertir un GY rival acumulado en presencia adicional.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **aprovechar GY rival / puente de Link FUEGO**. **FUEGO, Lanzador de Conjuros, Link 2**. utiliza cualquier FUEGO que permitan las zonas y el GY enemigo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. utiliza cualquier FUEGO que permitan las zonas y el GY enemigo; bajo **Gozen/Barrier Statue** es una opción FUEGO compatible, pero bajo **Rivalry** debe comprobarse su Tipo Lanzador de Conjuros frente a Pyro.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en
+>
+> ### Knightmare Unicorn — Caballero de Pesadilla Unicornio — 13601 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero se prepara a través de **I:P** para usar en Main rival si hay materiales; segundo retira amenaza que pueda devolverse al Deck; tardío resuelve cartas difíciles sin exigir destrucción.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **removal por barajar / interrupción con I:P**. **OSCURIDAD, Demonio, Link 3**. `687:A09:IP:TROOPER:ROCKET:GODDESS19`, Enlace normal con I:P Link2 + Trooper + Rocket + monstruo Efecto no-Link rival; el montaje de los tres propios es condición previa, no apertura asegurada. descartes de **Rimfire/Scattershot** pueden activar sus efectos generales de GY; **I:P** puede darle protección contra destrucción por efecto rival cuando es material. Barajar no es desterrar ni destruir.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en
+>
+> ### Underworld Goddess of the Closed World — Diosa del Inframundo del Mundo Cerrado — 15741 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Tiene interacción explícita con Invocación por Enlace. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: segundo ofrece forma de superar un monstruo rival al usarlo como material, si existen los otros materiales; primero normalmente requiere mucha inversión; tardío sirve de cierre si quedó material en campo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **respuesta a monstruos problemáticos / negación de campo**. **LUZ, Demonio, Link 5**. `687:A09:IP:TROOPER:ROCKET:GODDESS19`, Enlace normal con I:P Link2 + Trooper + Rocket + monstruo Efecto no-Link rival; el montaje de los tres propios es condición previa, no apertura asegurada. un campo propio de Volcanic extendido y Links intermedios puede contribuir; **I:P** tiene valor en rutas legales de Link si hay todos los materiales, pero no sustituye el requisito de **4+ monstruos de Efecto**.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en
+>
+> ### Knightmare Phoenix — Caballero de Pesadilla Fénix — 13600 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: segundo despeja backrow que estorbe al motor; primero es opción utilitaria antes de dejar restricciones; tardío convierte recursos sobrantes en acceso al campo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **removal de Mágicas/Trampas / Link FUEGO alternativo**. **FUEGO, Demonio, Link 2**. es FUEGO y puede ser compatible con Gozen/Barrier Statue; descartar Rimfire prepara un efecto de GY, pero no equivale a enviarlo por Blaze Accelerator. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. es **FUEGO** y puede ser compatible con **Gozen/Barrier Statue**; descartar **Rimfire** prepara un efecto de GY, pero no equivale a enviarlo por Blaze Accelerator. **I:P** puede Invocarlo en Main rival si se reúnen materiales legales.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en
+>
+> ### Linkuriboh — Enlacekuriboh — 13346 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Modalidad desde el Cementerio.
+> - **Costes y recursos:** Sacrificar recurso especificado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero transforma Shell o Rimfire en Link y defensa potencial; segundo puede consumir un Nivel 1 ya usado; tardío reaprovecha pequeños cuerpos si el bloqueo de Atributos/Tipos lo permite.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **conversión de Nivel 1 / protección de batalla / recurso desde GY**. **OSCURIDAD, Ciberso, Link 1**. `687:A09:SHELL:TYPHON18` convierte una Shell propia en TY-PHON con 1 material si la condición rival se cumplió; Shell desprendida puede buscar otra pagando 500 LP de manera independiente. **Volcanic Shell y Rimfire son Nivel 1**, pero la **Ficha Bomba creada por Trooper está en el campo rival**, por lo que no puede sacrificarse como monstruo propio para revivir Linkuriboh.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en
+>
+> ### Super Starslayer TY-PHON - Sky Crisis — Súper Asesino Estelar TY-PHON — 19184 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación Xyz. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: es más relevante **yendo segundo** tras expansión rival de Extra; en turno siguiente aún puede servir; primero no presupone que el rival haya cumplido la condición.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **3x**; **respuesta Xyz de emergencia / devolución de monstruos**. **OSCURIDAD, Demonio, Rango 12; 2900 ATK**. `687:A09:SHELL:TYPHON18` convierte una Shell propia en TY-PHON con 1 material si la condición rival se cumplió; Shell desprendida puede buscar otra pagando 500 LP de manera independiente. transforma un cuerpo propio superviviente en amenaza de devolución sin exigir dos Nivel 12; las **3 copias** ofrecen redundancia ante el destierro aleatorio de **Extravagance**, sin garantizar que sobreviva alguna.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+>
+> ### S:P Little Knight — S:P Pequeña Caballera — 19188 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno. Incluye restricción sobre ataques.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: primero es pieza de interrupción si se crea un Link legal; segundo puede retirar recursos clave, con coste estratégico de ataques directos; tardío vuelve a dar tiempo para reconstruirse.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **3x**; **interrupción temporal / removal de campo o GY**. **OSCURIDAD, Guerrero, Link 2**. I:P cuenta como valor de Enlace **1**, Emperador como valor1; al formar S:P Link2 en Main rival, I:P (material Link) **habilita destierro inicial**, sin descartar. Se pierde Emperador 3100 ATK y daño recurrente. No confundir con Unicornio Link3, que requiere descarte para barajar. puede utilizar un Link previo del Extra como material para habilitar su destierro inicial; su destierro temporal de un monstruo propio puede preservarlo frente a un enfrentamiento, sujeto a la ventana de activación.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+>
+> ### Salamangreat Almiraj — Salamangrande Almiraj — 14338 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Sacrificar recurso especificado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero permite convertir un pequeño Pyro Normal en Link y proteger un monstruo relevante; segundo da cuerpo FUEGO para rutas legales; tardío puede retornar bajo la condición concreta de destrucción en batalla.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **salida de monstruo pequeño / protección puntual**. **FUEGO, Ciberso, Link 1**. Rimfire, Shell y Scattershot con Invocación Normal y ATK adecuado pueden alimentar este Link; su Atributo FUEGO combina con Gozen/Barrier, pero su Tipo Ciberso puede chocar con Rivalry. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. **Rimfire, Shell y Scattershot** con Invocación Normal y ATK adecuado pueden alimentar este Link; su Atributo **FUEGO** combina con Gozen/Barrier, pero su Tipo **Ciberso** puede chocar con Rivalry.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en
+>
+> ### Promethean Princess, Bestower of Flames — Princesa Prometea — 19507 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Puede recuperar un monstruo desde Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno. Contiene bloqueo de Invocaciones Especiales con excepción: no ignorar tipo permitido.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: primero revive recursos FUEGO y permite presión; segundo puede destruir una amenaza en respuesta a una Invocación Especial al campo adversario; tardío aprovecha GY si aún se controla FUEGO para el intercambio.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** Extra **1x**; **extensor FUEGO / reaparición desde GY y destrucción reactiva**. **FUEGO, Demonio, Link 3**. `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`: **Trooper+Rocket+Shell ya en campo** como tres monstruos FUEGO/Piro/Efecto → Princesa Prometea Link3; esta Invoca Rocket FIRE de GY para una búsqueda Blaze condicional. Princess impide Especial de no-FUEGO mientras aplica; la recuperación desde su GY sigue siendo otra situación independiente. las Fichas Bomba que **Trooper/Fire Ejection** Invocan Especialmente al rival pueden cumplir el evento de disparo desde GY; la destrucción de Ficha rival puede generar su daño propio si se cumple también el requisito de destruir un FUEGO aliado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en
+>
+> ### Infinite Impermanence — Infinito Temporal — 13631 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck:
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 3x, NO en Main ni Side**; **opción de handtrap / negación puntual** para evaluar incorporación, no carta disponible actualmente. Fuera de lista. protege la activación de Trooper/Reload al negar una amenaza de monstruo, sin generar Pyro ni daño propio.. No aporta recursos durante este duelo. protege la activación de Trooper/Reload al negar una amenaza de monstruo, sin generar Pyro ni daño propio. La columna ofrece valor táctico si estaba colocada de antes.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en
+>
+> ### Ash Blossom & Joyous Spring — Flor de Ceniza y Primavera Feliz — 12950 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck:
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 2x**; **handtrap de acceso al Deck**, **no disponible** mientras siga en Reserva. Fuera de lista. protege indirectamente el plan Volcanic al impedir que el oponente encuentre piezas; es FUEGO pero Zombi, por lo que no se confunde con Pyro para costes de Emperor o activación de Shell.. No aporta recursos durante este duelo. protege indirectamente el plan Volcanic al impedir que el oponente encuentre piezas; es **FUEGO** pero **Zombi**, por lo que no se confunde con **Pyro** para costes de Emperor o activación de Shell.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en
+>
+> ### Forbidden Chalice — Corona Prohibida — 8213 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck:
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 2x**; **Mágica de Juego Rápido / negación temporal**, solo si luego se aprueba incorporación. Fuera de lista. reduce bloqueos que impedirían resolver Trooper/VBA; al dar también 400 ATK al objetivo rival, debe recalcularse combate y daño en vez de considerar el ataque sin cambios.. No aporta recursos durante este duelo. reduce bloqueos que impedirían resolver Trooper/VBA; al dar también 400 ATK al objetivo rival, debe recalcularse combate y daño en vez de considerar el ataque sin cambios.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en
+>
+> ### Clashing Souls — Almas en Choque — 13002 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Incluye interacción con posición de batalla. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck:
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 1x**; Mágica de Juego Rápido para situaciones de batalla; **no disponible para el duelo actual** mientras permanezca en Reserva. Fuera de lista. Reserva 1x; Mágica de Juego Rápido para situaciones de batalla; no disponible para…. No aporta recursos durante este duelo. abre espacio para el posterior desarrollo de Trooper/Emperor; es removal por **destierro boca abajo**, distinto de la destrucción de Scattershot.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en
+>
+> ### Evenly Matched — Pelea Pareja — 13293 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Contempla destierro boca abajo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck:
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 1x**; **board breaker al final de Battle Phase**, únicamente como opción futura. Fuera de lista. abre espacio para el posterior desarrollo de Trooper/Emperor; es removal por destierro boca abajo, distinto de la destrucción de Scattershot.. No aporta recursos durante este duelo. abre espacio para el posterior desarrollo de Trooper/Emperor; es removal por **destierro boca abajo**, distinto de la destrucción de Scattershot.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en
+>
+> ### Rivalry of Warlords — Rivalidad de los Señores de la Guerra — 5622 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck:
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 1x**; **bloqueo por Tipo**, no puede utilizarse hasta que se incorpore en una configuración permitida. Fuera de lista. Main Trooper, Emperor, Rocket, Rimfire, Scattershot y Shell son Pyro.. No aporta recursos durante este duelo. Main **Trooper, Emperor, Rocket, Rimfire, Scattershot y Shell** son **Pyro**; el Extra usa **Ciberso (I:P, Almiraj, Linkuriboh), Demonio (Phoenix, Unicorn, TY-PHON, Princess, Goddess), Lanzador de Conjuros (Hiita), Guerrero (S:P)**.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en
+>
+> ### Harpie's Feather Duster — Polvo de Pluma de Arpía — 4678 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck:
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 1x**; **limpieza masiva de Mágicas/Trampas**, no integra la mano ni el Deck actual. Fuera de lista. complementa Knightmare Phoenix, que destruye una Mágica/Trampa concreta con material Link y descarte; esta opción cubre múltiples cartas sin generar material.. No aporta recursos durante este duelo. complementa **Knightmare Phoenix**, que destruye una Mágica/Trampa concreta con material Link y descarte; esta opción cubre múltiples cartas sin generar material.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en
+>
+> ### Pot of Prosperity — Olla de la Prosperidad — 15756 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Contempla destierro boca abajo. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck:
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck:
+> - **Riesgos/interrupciones:** Riesgos de esta identidad:  Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** **Reserva 1x**; **búsqueda de consistencia con coste de Extra Deck**. No disponible en el Main actual. Fuera de lista. permite escoger cuáles piezas Extra perder, a diferencia de Extravagance (azar).. No aporta recursos durante este duelo. permite escoger cuáles piezas Extra perder, a diferencia de **Extravagance** (azar); sin embargo, impide el robo de **Blaze Accelerator Reload** ese turno y recorta la **presión de daño por efecto** de Emperor/Scattershot/Emission.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en
+>
+> ## A06 — clasificación por identidad
+>
+> - **Volcanic Trooper — Soldado Volcánico (18916):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Emperor — Emperador Volcánico (18915):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Rocket — Misil Volcánico (7243):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Rimfire — Percusión Anular Volcánica (18917):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Scattershot — Disparo Disperso Volcánico (7083):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Shell — Cartucho Volcánico (7082):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Barrier Statue of the Inferno — Estatua-Barrera del Infierno (6884):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Maxx "C" — «C» Maxx (9455):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Volcanic Blaze Accelerator — Acelerador de Llama Volcánico (18918):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Blaze Accelerator — Acelerador de Llama (7086):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Fire Ejection — Eyección de Fuego (18919):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Forbidden Droplet — Gotas Prohibidas (15299):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Bonfire — Hoguera (19027):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Pot of Extravagance — Olla de la Extravagancia (14144):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Contempla destierro de cartas. Contempla destierro boca abajo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Blaze Accelerator Reload — Recarga del Acelerador de Llama (11597):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 4 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Volcanic Inferno — Infierno Volcánico (18921):** FUNCION_AUTONOMA_COTEJADA. Función propia identificada sin relación directa nueva demostrada.
+> - **Volcanic Emission — Emisión Volcánica (18920):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Gozen Match — Emparejamiento de Atributos (7934):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **I:P Masquerena — I:P Enmascarada (14676):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Tiene interacción explícita con Invocación por Enlace. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida (14133):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Knightmare Unicorn — Caballero de Pesadilla Unicornio (13601):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Underworld Goddess of the Closed World — Diosa del Inframundo del Mundo Cerrado (15741):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Tiene interacción explícita con Invocación por Enlace. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Knightmare Phoenix — Caballero de Pesadilla Fénix (13600):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Linkuriboh — Enlacekuriboh (13346):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Super Starslayer TY-PHON - Sky Crisis — Súper Asesino Estelar TY-PHON (19184):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación Xyz. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **S:P Little Knight — S:P Pequeña Caballera (19188):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Salamangreat Almiraj — Salamangrande Almiraj (14338):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Promethean Princess, Bestower of Flames — Princesa Prometea (19507):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Puede recuperar un monstruo desde Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Infinite Impermanence — Infinito Temporal (13631):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ash Blossom & Joyous Spring — Flor de Ceniza y Primavera Feliz (12950):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Forbidden Chalice — Corona Prohibida (8213):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Clashing Souls — Almas en Choque (13002):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Incluye interacción con posición de batalla. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Evenly Matched — Pelea Pareja (13293):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Contempla destierro boca abajo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Rivalry of Warlords — Rivalidad de los Señores de la Guerra (5622):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Harpie's Feather Duster — Polvo de Pluma de Arpía (4678):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Pot of Prosperity — Olla de la Prosperidad (15756):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Contempla destierro boca abajo. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+>
+> ## A06 — relaciones explícitas con condiciones
+>
+> - **DIRECTA:** Volcanic Blaze Accelerator — Acelerador de Llama Volcánico → Blaze Accelerator — Acelerador de Llama: Volcanic Blaze Accelerator necesita enviar Blaze Accelerator original de mano, Deck o campo boca arriba al GY para activarse.
+> - **DIRECTA:** Fire Ejection — Eyección de Fuego → Volcanic Rimfire — Percusión Anular Volcánica: Fire Ejection envía Rimfire (Pyro Nivel1) desde Deck al GY y puede causar 100 LP o generar Token rival.
+> - **DIRECTA:** Volcanic Rimfire — Percusión Anular Volcánica → Blaze Accelerator Reload — Recarga del Acelerador de Llama: Rimfire enviado al GY puede desterrar Blaze Accelerator de campo/GY para colocar Reload boca arriba desde Deck/mano.
+> - **DIRECTA:** Fire Ejection — Eyección de Fuego → Volcanic Emperor — Emperador Volcánico: Fire Ejection envía Emperor (Pyro Nivel8) desde Deck al GY y puede infligir 800 LP; invocar Emperor exige Blaze disponible para desterrar.
+> - **DIRECTA:** Volcanic Trooper — Soldado Volcánico → Volcanic Blaze Accelerator — Acelerador de Llama Volcánico: Trooper Invocado busca Volcanic Blaze Accelerator desde Deck si está disponible.
+> - **CONDICIONADA:** Volcanic Scattershot — Disparo Disperso Volcánico → Blaze Accelerator — Acelerador de Llama: Scattershot solo destruye todos los monstruos rivales si llega al GY POR EFECTO de Blaze Accelerator y puede enviar dos Scattershot adicionales.
+> - **CONDICIONADA:** Volcanic Emperor — Emperador Volcánico → Volcanic Emission — Emisión Volcánica: Emperor al Invocarse coloca Trampa Volcanic desde Deck, como Emission, según disponibilidad; el Invocar exige Blaze o tres Pyro desterrables.
+> - **BUSQUEDA_INTERACCION_BASICA:** Volcanic Rocket — Misil Volcánico → Blaze Accelerator Reload — Recarga del Acelerador de Llama: Rocket busca Reload desde Deck/GY, pero esto es acceso a carta, NO combo completo por sí mismo.
+> - **BUSQUEDA:** Volcanic Rocket — Misil Volcánico → Volcanic Blaze Accelerator — Acelerador de Llama Volcánico: Rocket puede buscar Volcanic Blaze Accelerator desde Deck/GY.
+> - **ENVIO_POR_ACELERADOR:** Blaze Accelerator — Acelerador de Llama → Volcanic Scattershot — Disparo Disperso Volcánico: Original Blaze Accelerator envía Scattershot de mano al GY por su efecto; entonces Scattershot puede tener su condición para pagar otras dos copias y limpiar monstruos rivales.
+> - **ENVIO_NO_ACTIVA_LIMPIEZA:** Blaze Accelerator Reload — Recarga del Acelerador de Llama → Volcanic Scattershot — Disparo Disperso Volcánico: Reload desde GY manda Scattershot desde Deck al GY, pero su nombre Tri-Blaze solo funciona en S/T: NO se activa limpieza de Scattershot por esta vía.
+> - **FILTRADO:** Blaze Accelerator Reload — Recarga del Acelerador de Llama → Volcanic Shell — Cartucho Volcánico: Reload envía Shell de mano al GY y roba una carta; Shell en GY puede pagar 500 LP para buscar otra copia después.
+> - **INVOCACION_TEMPORAL:** Volcanic Emission — Emisión Volcánica → Volcanic Emperor — Emperador Volcánico: Emisión puede Invocar Emperador desde Deck ignorando condiciones y devolverlo a mano al final del turno; esto NO cumple por sí mismo su procedimiento propio de Invocación.
+> - **INVOCACION_DISPARADOR:** Volcanic Emission — Emisión Volcánica → Volcanic Rocket — Misil Volcánico: Emisión puede Invocar Rocket desde Deck temporalmente; por Invocación Rocket activa su búsqueda de Acelerador si la ventana permite.
+>
+> _Las fichas estructuradas automáticamente requieren cotejo semántico para certificar rulings. No se alteran inventarios ni se consideran listas._
+
+
+<!-- INTEGRADO_ESCENARIOS_A03_A10_687 -->
+### Escenarios y bloqueos documentados
+
+Contenido editorial previo incorporado a esta ficha; conserva las condiciones y pendientes indicados y no acredita pruebas f?sicas ni de motor.
+
+> # Volcanic — escenarios individuales y decisiones A03–A10
+>
+> Casos procesados: **3 de 3**. No se ha ejecutado el motor; las siguientes pruebas son contratos documentales derivados de las fichas existentes.
+>
+> | CID | Carta | Requisito o escenario | Resultado documentado | Contraejemplo o riesgo |
+> |---:|---|---|---|---|
+> | 6884 | Estatua-Barrera del Infierno / Barrier Statue of the Inferno | Barrier Statue en mano; Normal disponible; campo propio sin restricciones que impidan Invocarla Normalmente. | un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main. | destrucción en batalla, retirada de campo o negación de efecto continuo elimina su restricción cuando corresponda. No presume protección automática. |
+> | 9455 | "C" Maxx / Maxx "C" | la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada  | No se acredita resultado autónomo sin condición y ruta | Sin requisitos completos no ofrecer activación |
+> | 14144 | Olla de la Extravagancia / Pot of Extravagance | Pot of Extravagance en mano, inicio de Main Phase 1 propia y al menos 3 (o 6) cartas en Extra que puedan desterrarse boca abajo aleatoriamente; no se ha robado por otro efecto este | mano y Extra actualizados con pérdida aleatoria; se aplican restricciones de robo de la carta durante el turno. No se puede convertir las cartas desterradas boca abajo en materiale | Sin requisitos completos no ofrecer activación |
+>
+> ## Instrucciones de decisión y práctica
+>
+> 1. **A03/A04:** mantener inventario por zonas, CID e imagen auténtica; no insertar cartas por inferencia.
+> 2. **A05/A06:** función de cada carta, costes, sinergias, conflictos, uso primero/segundo y decisión ante rival.
+> 3. **A07:** comprobar formato, materiales, zonas, ventanas y Skills; no transportar cadenas TCG a Rush.
+> 4. **A08:** distinguir interacción básica, starter, extensión, combo completo y continuación.
+> 5. **A09:** probar una versión con requisito cumplido y otra sin cumplirlo; exigir mano, pasos, recursos y campo final.
+> 6. **A10:** fotografía por paso y tablero final; no poner marca de validación hasta cotejar texto y probar replay.
+>
+> Skill: Sin Skill externa en este dossier

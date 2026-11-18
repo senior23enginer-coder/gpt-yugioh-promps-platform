@@ -3300,3 +3300,583 @@ Fuente hist?rica: `SINERGIAS_A06_370_EVIDENCIA_OFICIAL_V22.json`. Se preservan l
 | `rol_segun_zona` | `"Carta registrada en Side; no entra en el juego principal sin un cambio expresamente autorizado."` |
 | `calidad_verificacion` | `"COTEJO_TEXTUAL_AUTOMATICO_PENDIENTE_EDITORIAL"` |
 | `no_certificacion` | `"Una carta sin sinergia directa comprobada no se marca como combo; una relación descrita no se marca como partida simulada."` |
+
+<!-- INTEGRADO_FICHAS_V19_650 -->
+### Fichas de cartas y sinergias documentadas
+
+Contenido editorial previo incorporado a esta ficha; conserva las condiciones y pendientes indicados y no acredita pruebas f?sicas ni de motor.
+
+> # Elfnote — A05 y A06 V19
+>
+> A05 42/42 con campos completos: 12 cotejadas editorialmente, 30 estructurales desde texto oficial. A06 42/42 clasificadas, 15 relaciones específicas descritas.
+>
+> ## Fichas A05 — evidencia y uso
+>
+> ### Elfnote Regina — 22523 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Desde mano, como Efecto Rápido, envía otra carta Elfnote de mano o campo propio boca arriba al GY para Invocarse. Al Invocarse en el centro, puede Invocar del Deck otro monstruo Elfnote. Si llega al GY como material de Sincronía puede recuperarse a la mano.
+> - **Cuándo:** La Invocación desde Deck exige que Regina haya sido Normal o Especial Invocada exactamente en la zona central; cada efecto una vez por turno.
+> - **Costes y recursos:** envío de recurso propio al Cementerio.
+> - **Restricciones:** hay límite por turno según el efecto concreto; exige materiales de Extra Deck o materiales adecuados.
+> - **Ir primero:** asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta.
+> - **Propósito:** interrupción · searcher · buscador · extensor. búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en
+>
+> ### Elfnote Lucina — 22116 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Desde mano puede aparecer en el centro; en Main añade otro monstruo Elfnote del Deck. En turno rival intercambia su posición con el monstruo del centro y puede devolver un monstruo enemigo de Nivel 6 o menor.
+> - **Cuándo:** Invocación propia al centro; efecto de búsqueda en Main Phase propia; intercambio como Quick en turno rival.
+> - **Costes y recursos:** No descarta para buscar; el cambio de zonas exige dos monstruos en posiciones válidas.
+> - **Restricciones:** Un uso de cada efecto por turno; la devolución solo admite Nivel 6 o menor.
+> - **Ir primero:** Buscar Regina/Fortuna o la pieza realmente ausente, preservando el centro.
+> - **Ir segundo:** No prometer que devuelve monstruos Xyz/Link sin Nivel ni jefes de Nivel 7+.
+> - **Riesgos/interrupciones:** Una negación de búsqueda deja el cuerpo y puede agotar la búsqueda de ese turno.
+> - **Propósito:** interrupción · searcher · buscador · extensor · control de zonas. búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; manipulación de posiciones o zonas. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=en
+>
+> ### Elfnote Tinia — 22117 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Se Invoca desde la mano al espacio central si está libre. En Main puede colocar en campo una Mágica Continua Elfnote del Deck. Durante el turno rival, como Quick, intercambia posición con el monstruo central y puede desterrar temporalmente boca arriba una carta aleatoria de la mano rival hasta End Phase.
+> - **Cuándo:** Main propia para la Continua; efecto rápido solo durante turno adversario.
+> - **Costes y recursos:** El intercambio requiere otro monstruo y zonas aptas; no paga descarte.
+> - **Restricciones:** Cada efecto activado una vez por turno; la carta aleatoria vuelve en End Phase.
+> - **Ir primero:** Preparar soporte continuo sin ocupar indebidamente el centro destinado a otro Elfnote.
+> - **Ir segundo:** Presionar una carta aleatoria de mano rival temporalmente, sin describirlo como negación.
+> - **Riesgos/interrupciones:** Retirar al ocupante central o negar el cambio puede anular la interacción.
+> - **Propósito:** Acceso a soporte continuo y perturbación temporal de la mano rival.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=en
+>
+> ### Elfnote Power Patron — 22119 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** En Main Phase, como Quick, elige propio del centro y suma 3 Niveles; inmediatamente puede hacer una Sincro Elfnote o Junora, pagando materiales exactos. Si se envía como material Sincro, añade una carta Elfnote.
+> - **Cuándo:** Main Phase; puede responder con efecto rápido.
+> - **Costes y recursos:** Seleccionar monstruo propio en centro es requisito de activación; los monstruos usados como material se envían conforme reglas.
+> - **Restricciones:** Mientras está boca arriba impide invocar del Extra que no sea Sincro; cada uno de los dos efectos una vez por turno.
+> - **Ir primero:** Antes de activar, anotar Nivel total, Cantante y destino Elfnote/Junora presente.
+> - **Ir segundo:** No presentar a Swordsoul o Chaos Angel como Sincro inmediata de este efecto.
+> - **Riesgos/interrupciones:** Interrumpir al monstruo del centro o moverlo puede dejar sin cambio de Nivel y sin Sincro; calcular tras resolver.
+> - **Propósito:** interrupción · searcher · buscador · habilitador de Extra. búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=en
+>
+> ### Elfnote Fortuna — 22118 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Puede Invocarse de mano al centro; en propia Main coloca Trampa Continua Elfnote desde mano/Deck boca arriba. En turno rival permuta posiciones con centro y puede devolver M/T boca arriba.
+> - **Cuándo:** Colocación en propia Main; intercambio Quick solo turno contrario.
+> - **Costes y recursos:** No exige descarte para colocar; permutar requiere posiciones reales.
+> - **Restricciones:** La Invocación propia al centro solo una vez por turno; los otros efectos una vez por turno cada uno.
+> - **Ir primero:** Elegir Rhapsodia según mano, tipos de recursos y recuperación.
+> - **Ir segundo:** Devuelve M/T boca arriba, no limpia cartas colocadas ni monstruos.
+> - **Riesgos/interrupciones:** Si la colocación es negada, evaluar si conviene conservar Fortuna como cuerpo para Sincro.
+> - **Propósito:** interrupción · extensor · control de zonas. acceso al campo desde la mano; manipulación de posiciones o zonas. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=en
+>
+> ### Fidraulis Harmony — 22533 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destrucción. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno. Incluye una prohibición de activación condicionada.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · recuperación · removal. recuperación e invocación desde Cementerio/destierro; destrucción de cartas o empleo de destrucción como detonante. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en
+>
+> ### Medius the Pure — 21419 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Al ser Invocado Normal o Especial permite añadir a la mano o Invocar desde el Deck 1 monstruo Power Patron. En GY puede barajar un monstruo de la mano o del campo propio boca arriba al Deck para Invocarse; si sale del campo tras ello, se destierra.
+> - **Cuándo:** Disparo por Invocación; segunda ventana desde el Cementerio.
+> - **Costes y recursos:** Barajar un monstruo propio al Deck para la salida desde Cementerio.
+> - **Restricciones:** Cada efecto una vez por turno; la salida desde GY lleva destierro posterior.
+> - **Ir primero:** Acceder a Power Patron antes de comprometer Synchro y reservar un monstruo para la recuperación.
+> - **Ir segundo:** Extender tras perder el primer cuerpo, comprobando el retorno real al Deck.
+> - **Riesgos/interrupciones:** Negación del disparo impide acceder al Patron, no devuelve la Invocación ya realizada.
+> - **Propósito:** Puente entre Elfnote y el motor Power Patron.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en
+>
+> ### Vidolium the Unstable Power Patron of Unity — 22519 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** En Escala Péndulo puede destruirse para Invocar un Power Patron desde mano o Cementerio, o potenciar un Power Patron propio de Nivel original 12. Como monstruo no puede ser Invocado Normal; su Invocación Especial propia exige devolver del campo boca arriba/Cementerio una Fusión, una Sincronía y una Xyz al Extra. Al Invocarse por ese procedimiento destierra boca abajo los Cementerios; posee protección frente a efectos de monstruos ajenos a Power Patron.
+> - **Cuándo:** Efectos Péndulo según su ventana; Invocación Especial solo cuando existan los tres tipos exigidos.
+> - **Costes y recursos:** Destruirse en Escala para primera modalidad; devolver 1 Fusión + 1 Sincro + 1 Xyz para Invocación propia.
+> - **Restricciones:** No constituye extensor gratuito en la apertura; comprobar tipos reales y protección exacta.
+> - **Ir primero:** Reservarlo hasta obtener recursos Fusión/Sincro/Xyz o usar su opción Péndulo útil.
+> - **Ir segundo:** Su destierro de GY interfiere fuertemente con cementerios; afecta también el propio.
+> - **Riesgos/interrupciones:** Sin tres tipos de materiales válidos no existe la Invocación propia; evitar plan ficticio.
+> - **Propósito:** Finalizador condicionado, no starter genérico.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en
+>
+> ### Bystial Magnamhut — 17762 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Disparo tras la Invocación indicada.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · searcher · buscador · extensor. búsqueda o incorporación de cartas a mano; acceso al campo desde la mano. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en
+>
+> ### Dogmatika Ecclesia, the Virtuous — 15239 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir la activación en acceso a la siguiente pieza del motor, sin duplicar buscadores inútilmente.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «searcher».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** searcher · buscador · extensor · protección. búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; protección o resistencia contra respuestas. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en
+>
+> ### Nervedo the Shadebeast Power Patron — 22520 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destierro boca abajo. Contempla destrucción. Tiene interacción explícita con Invocación por Fusión. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Convertir acceso al Deck en cuerpos o materiales antes de bloquearse con restricciones.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «extensor».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** extensor · habilitador de Extra · removal. extensión mediante monstruos procedentes del Deck; habilitación o continuación de una invocación del Extra Deck; destrucción de cartas o empleo de destrucción como detonante. A06 aún no identifica su conexión; no equivale a incompatibilidad ni borra rutas A09. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en
+>
+> ### Ash Blossom & Joyous Spring — 12950 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Reaccionar al efecto del Deck que habilite la jugada rival; no da búsquedas propias. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · negación. Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en
+>
+> ### Mulcharmy Fuwalos — 20500 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No roba por Invocaciones desde la mano; comparte restricción de efectos Mulcharmy. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · robo condicional. Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en
+>
+> ### Mulcharmy Purulia — 20206 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No confundir la condición de Purulia con la de Fuwalos. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · robo condicional. Con campo propio sin cartas, descarta y roba cuando el rival Invoca desde la mano; en End Phase devuelve exceso de mano al Deck. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en
+>
+> ### Ghost Belle & Haunted Mansion — 13587 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Permite negar efectos o activaciones según el texto y la ventana. Puede recuperar un monstruo desde Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Descartar según texto, al activar la modalidad indicada.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No niega todos los efectos: exige que el efecto incluya una de las acciones enumeradas. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · negación de Cementerio. Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en
+>
+> ### Prohibited Power Patron Portal - Terminus — 22565 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Portal del Modelo de Poder Terminus manda un Power Patron desde Deck/Extra al GY; después puede buscar un Hada OSCURIDAD del Deck. Limita ataques propios el resto del turno a Power Patron. En Damage Step, desde GY puede desterrarse para desterrar boca abajo al monstruo rival que batalla contra un Power Patron propio.
+> - **Cuándo:** Mágica Normal; segundo efecto desde GY al comienzo de Damage Step de batalla indicada.
+> - **Costes y recursos:** Enviar Power Patron desde Deck/Extra al GY es resolución de la Mágica; desterrar esta Mágica de GY para el segundo efecto.
+> - **Restricciones:** Solo ataque con Power Patrons tras usar la primera modalidad; cada efecto una vez por turno.
+> - **Ir primero:** Preparar Power Patron en GY y posible Hada OSCURIDAD, sin bloquear el atacante que se piensa usar.
+> - **Ir segundo:** Usar remoción boca abajo antes del cálculo de daño en batalla donde participe Power Patron.
+> - **Riesgos/interrupciones:** No puede usar la remoción si quien combate no es Power Patron propio; no es negación de efecto.
+> - **Propósito:** Acceso a Patron y respuesta de Damage Step.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en
+>
+> ### The Fallen & The Virtuous — 22089 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Activar cuando las condiciones permitan obtener valor real, preservando recursos de seguimiento.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «recurso situacional».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Riesgo operativo: centro ocupado, restricción a Sincro y dependencia de objetivos de Deck/Extra. Confirmar objetivos disponibles y costes antes de activar. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** recurso situacional. interacción propia de la carta que requiere consultar el texto íntegro enlazado. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en
+>
+> ### Elfnotes: Welcome Home — 22159 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Welcome Home es Mágica Continua que protege de destrucción por efecto al monstruo de tu zona central. Puede enviar un monstruo de mano o campo al GY para Invocar del Deck un Elfnote con Atributo original distinto, en Defensa. Tras usarlo solo se permite Invocar Sincros del Extra el resto del turno.
+> - **Cuándo:** Efecto de Mágica Continua boca arriba, una vez por turno.
+> - **Costes y recursos:** Enviar monstruo propio desde mano/campo al GY antes de Invocar por resolución.
+> - **Restricciones:** La diferencia de Atributo original es requisito; no se Invoca en Ataque ni habilita Links después del bloqueo.
+> - **Ir primero:** Colocar continua con Tinia y elegir un Elfnote de Atributo distinto al material enviado.
+> - **Ir segundo:** Defender la zona central y extender solo cuando el bloqueo Sincro no perjudique.
+> - **Riesgos/interrupciones:** Si se retira la Continua, la protección central desaparece; no salva frente a destierro/devolución.
+> - **Propósito:** Continuidad de zona central y extensión controlada desde Deck.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=en
+>
+> ### Elfnotes: Rhapsodia of Madness — 22173 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Rhapsodia de la Locura es Trampa Continua: con monstruo en zona central obliga a que los monstruos enemigos solo ataquen a ese monstruo. En efecto activado envía un monstruo propio de mano/campo al GY y selecciona Elfnote en GY de Atributo original distinto para Invocarlo; si controlas una Sincro, después puede negar efectos de una carta rival boca arriba hasta fin del turno.
+> - **Cuándo:** Continua boca arriba; efecto de recuperación una vez por turno.
+> - **Costes y recursos:** Enviar monstruo propio al GY y disponer de Elfnote de Atributo distinto en GY.
+> - **Restricciones:** El efecto de negar requiere una Sincro propia y carta rival boca arriba; no es negación de activación.
+> - **Ir primero:** Establecer centro y Sincro antes de depender de la modalidad de negación.
+> - **Ir segundo:** Revivir cuerpo y negar efecto de carta rival en campo si se cumplen etapas.
+> - **Riesgos/interrupciones:** Sin Sincro, sigue pudiendo Invocar pero no añade negación; el rival puede atacar al centro.
+> - **Propósito:** Control de ataques, recursión y negación condicionada.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=en
+>
+> ### The Three Champions of Swordsoul [Synchro; Konami 22356] — 22356 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Permite agregar una carta desde el Deck a la mano. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Conservar la interrupción para el efecto clave rival; no gastarla en un efecto irrelevante.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · buscador · negación · cierre. búsqueda o incorporación de cartas a mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en
+>
+> ### Golden Cloud Beast - Malong [Synchro] — 18666 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla devolución de carta a zona indicada. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Disparo tras la Invocación indicada. Disparo condicionado al envío al Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · recuperación. recuperación e invocación desde Cementerio/destierro. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en
+>
+> ### Storm-Bane Dragon Destorbim [Synchro] — 22335 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Disparo condicionado al envío al Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · recuperación · removal. recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en
+>
+> ### Ecclesia and the Dark Dragon [extra; efecto y material según carta] — 22144 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Permite Invocación Especial desde el Deck con sus restricciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica. Modalidad desde el Cementerio.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · extensor · recuperación. extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en
+>
+> ### Elfnote Seraphim Strelitzia [Synchro] — 22143 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Seraphim Strelitzia es Sincro de un Cantante y uno o más no Cantantes; su ATK original se vuelve 3000 si ocupa centro. En Main, como Quick, Invoca Elfnote Nivel6 o menor de mano/GY y luego puede reducir en 3 los Niveles de todos los monstruos Nivel4+ en campo ese turno. Después solo puede Invocar Sincros del Extra.
+> - **Cuándo:** Efecto rápido en Main Phase, propio o rival.
+> - **Costes y recursos:** Materiales de Sincro reales y Elfnote Nivel≤6 elegible en mano/GY.
+> - **Restricciones:** La reducción de Nivel puede afectar ambos campos; bloqueo Extra a Sincros tras el efecto.
+> - **Ir primero:** Dejar libre el centro para obtener ATK3000 y preparar interrupción/Extensión.
+> - **Ir segundo:** Usar la modificación de niveles antes de un intento de Xyz/Sincro enemigo solo si la ventana lo permite.
+> - **Riesgos/interrupciones:** Los Xyz no tienen Nivel; reducir Nivel4+ no les afecta, ni niega un efecto activado.
+> - **Propósito:** Sincro central de recuperación y manipulación de niveles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=en
+>
+> ### Elfnote June Pride [Synchro] — 22984 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla devolución de carta a zona indicada. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · recuperación · extensor. Lucina 6→9 por Power Patron Nivel1; Sincronía inmediata legal a June Pride Nivel10 central. El bloqueo de ataque exige permanecer en centro; puede regresar al Extra para desplegar hasta un Elfnote de mano, Deck y GY. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en
+>
+> ### S:P Little Knight [Link] — 19188 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno. Incluye restricción sobre ataques.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · removal · respuesta. destierro de recursos o de amenazas; interacción sobre monstruos en campo. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+>
+> ### Despian Luluwalilith [Synchro] — 18505 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Permite negar efectos o activaciones según el texto y la ventana. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · extensor · cierre. acceso al campo desde la mano; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en
+>
+> ### Arcanite Magician [Synchro] — 8038 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · removal · cierre · recurso condicionado. Lucina Hechicero Nivel6 + Patron Cantante Nivel1 sin subir Niveles → Arcanite Sincro7, 2 contadores y 2400 ATK. Cada contador gastado de Arcanite baja 1000 ATK y permite destruir un objetivo rival. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en
+>
+> ### Crystal Wing Synchro Dragon [Synchro] — 12321 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · negación · cierre. negación de efectos o activaciones; presión de combate o modificación de estadísticas. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en
+>
+> ### F.A. Dawn Dragster [Synchro] — 13710 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Incluye interacción con posición de batalla. Produce o recibe daño por efecto bajo condiciones. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · removal · negación · cierre. recuperación e invocación desde Cementerio/destierro; negación de efectos o activaciones; uso de Sacrificios como parte del efecto. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en
+>
+> ### Ruddy Rose Dragon [Synchro] — 15996 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.
+> - **Costes y recursos:** Sacrificar recurso especificado al activar.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Reservar la respuesta para la ventana rival exacta; no es una pieza buscadora de nuestro motor.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · resultado de Extra Deck · recuperación · negación · coste/recurso. recuperación e invocación desde Cementerio/destierro; negación de efectos o activaciones; uso de Sacrificios como parte del efecto. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en
+>
+> ### Albion the Branded Dragon [Fusion] — 15994 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Tiene interacción explícita con Invocación por Fusión. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · buscador · habilitador de Extra · preparación. búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck; colocación de Mágicas/Trampas o recursos. A06 identifica su destino, condicionado a material/procedimiento. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en
+>
+> ### Chaos Angel [Synchro] — 18507 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Tiene interacción explícita con Invocación por Sincronía. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Disparo tras la Invocación indicada.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Comprobar materiales exactos antes de buscar este objetivo en el Extra Deck.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «resultado de Extra Deck».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No contarla como extensión automática: confirmar materiales, procedimiento y restricciones vigentes. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** resultado de Extra Deck · habilitador de Extra. habilitación o continuación de una invocación del Extra Deck. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en
+>
+> ### Junora the Power Patron of Tuning [Synchro] — 22142 / REVISADA_EDITORIALMENTE
+>
+> - **Qué hace:** Junora es Sincro de un Cantante más exactamente dos no Cantantes; para Invocarla puede tratar a uno propio del centro como Cantante. Al ser Invocada por Sincro puede negar los efectos de todas las cartas enemigas boca arriba. Como Quick impide usar como material de Fusión/Sincro/Xyz/Link a los monstruos rivales que están en columnas de tus Elfnote hasta fin de turno.
+> - **Cuándo:** Disparo al Invocar por Sincro y Quick en una ventana legal.
+> - **Costes y recursos:** Necesita tres cuerpos con niveles exactos; tratamiento como Cantante sólo para su propia Sincro.
+> - **Restricciones:** No afecta columnas vacías de Elfnote ni niega activaciones anteriores por sí solo.
+> - **Ir primero:** Planificar posicionamiento de Elfnote y tres materiales antes de declarar la Sincro.
+> - **Ir segundo:** Negar cartas boca arriba al llegar y restringir material rival por columna.
+> - **Riesgos/interrupciones:** Si no se cumplen 1 Cantante+2 no Cantantes o nivel correcto, no existe la Invocación.
+> - **Propósito:** Sincro de control de campo y bloqueo de materiales por columnas.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=en
+>
+> ### Bystial Druiswurm — 17764 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · side técnico · recuperación · extensor · respuesta. Solo entre duelos; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en
+>
+> ### Droll & Lock Bird — 9279 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: No niega la primera búsqueda y también restringe las adiciones del propio jugador. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · bloqueo de búsquedas. Solo entre duelos; Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en
+>
+> ### Ghost Ogre & Snow Rabbit — 11708 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla enviar una carta al Cementerio. Contempla destrucción. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** Efecto rápido; necesita condición, velocidad y momento legales.
+> - **Costes y recursos:** Enviar recurso especificado al activar.
+> - **Restricciones:** Contiene límite de uso por turno.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «handtrap».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Destruir no equivale a negar la resolución del efecto activado. Puede emplearse en cadena sólo cuando se cumpla su condición concreta. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** handtrap · destrucción. Solo entre duelos; Se envía desde mano o campo al Cementerio cuando un monstruo en campo o M/T ya boca arriba activa su efecto, para destruir esa carta.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en
+>
+> ### Called by the Grave — 13619 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «mágica rápida».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Exige un objetivo en el Cementerio rival; no es negación universal. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** mágica rápida · negación de nombre. Solo entre duelos; Destierra un monstruo del Cementerio rival y niega sus efectos junto con los del mismo nombre original hasta el final del turno siguiente.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en
+>
+> ### Triple Tactics Talent — 15296 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** En Main Phase bajo condición específica.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** La modalidad o carta posee exclusión de usos alternativos.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «mágica de respuesta».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: La condición exige activación de monstruo rival en tu Main Phase; sólo un modo. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** mágica de respuesta · ventaja. Solo entre duelos; Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+>
+> ### Contact "C" — 13407 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación por Enlace. Incluye interacción con posición de batalla. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «interrupción».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** interrupción · side técnico · extensor · habilitador de Extra · cierre. Solo entre duelos; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en
+>
+> ### Solemn Judgment — 4861 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Reservar esta pieza si su efecto puede servir como interrupción en el turno rival; verificar ventana y objetivo. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar la remoción ante la amenaza rival antes de invertir otros extensores; no presuponer que la carta es efecto rápido. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «side técnico».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Puede ser carta muerta fuera del emparejamiento adecuado; usar solo tras sidear. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** side técnico · removal. Solo entre duelos; destrucción de cartas o empleo de destrucción como detonante.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en
+>
+> ### Pot of Avarice — 6511 / ESTRUCTURADA_POR_TEXTO_OFICIAL_SIN_COTEJO_EDITORIAL
+>
+> - **Qué hace:** Operaciones registradas en el texto de la carta: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. La redacción exacta de requisitos se consulta en la fuente del CID.
+> - **Cuándo:** No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.
+> - **Costes y recursos:** Ningún coste inequívoco detectado; diferenciar la operación de resolución del coste de activación.
+> - **Restricciones:** Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.
+> - **Ir primero:** Priorizar su función de acceso, material o continuidad si existen los recursos requeridos. En este deck: asegurar el centro y acceso a motores Sincro antes de gastar extensores. Para esta carta: Respuesta puntual al emparejamiento; justificar el intercambio antes del siguiente duelo.
+> - **Ir segundo:** Evaluar si puede extender desde Deck, Cementerio o mano según sus operaciones y condiciones. En este deck: habilitar rebote, negación o protección antes de comprometer el monstruo del centro. Identificar primero la respuesta rival que afecta su función «side técnico».
+> - **Riesgos/interrupciones:** Riesgos de esta identidad: Depende del Cementerio y es sensible a destierro o negación de ese recurso. No atribuirle velocidad rápida por el solo hecho de formar parte del motor. Una negación, destierro o retirada del objetivo no produce automáticamente todos los resultados de la carta.
+> - **Propósito:** side técnico · recuperación · ventaja de mano. Solo entre duelos; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo.. No inicia la mano del Main actual. Relación contextual con ocupación y rotación de la zona principal central, acceso a Cantantes y transición Sincro. No habilita una ruta inicial antes del intercambio.
+> - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en
+>
+> ## A06 — clasificación por identidad
+>
+> - **Elfnote Regina (22523):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnote Lucina (22116):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnote Tinia (22117):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 3 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnote Power Patron (22119):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnote Fortuna (22118):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 5 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Fidraulis Harmony (22533):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destrucción. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Medius the Pure (21419):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Vidolium the Unstable Power Patron of Unity (22519):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Bystial Magnamhut (17762):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite agregar una carta desde el Deck a la mano. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Dogmatika Ecclesia, the Virtuous (15239):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Nervedo the Shadebeast Power Patron (22520):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destierro boca abajo. Contempla destrucción. Tiene interacción explícita con Invocación por Fusión. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ash Blossom & Joyous Spring (12950):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Permite negar efectos o activaciones según el texto y la ventana. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Mulcharmy Fuwalos (20500):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Mulcharmy Purulia (20206):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ghost Belle & Haunted Mansion (13587):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Permite negar efectos o activaciones según el texto y la ventana. Puede recuperar un monstruo desde Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Prohibited Power Patron Portal - Terminus (22565):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **The Fallen & The Virtuous (22089):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Elfnotes: Welcome Home (22159):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 4 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnotes: Rhapsodia of Madness (22173):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 2 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **The Three Champions of Swordsoul [Synchro; Konami 22356] (22356):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Permite agregar una carta desde el Deck a la mano. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Golden Cloud Beast - Malong [Synchro] (18666):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Contempla devolución de carta a zona indicada. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Storm-Bane Dragon Destorbim [Synchro] (22335):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ecclesia and the Dark Dragon [extra; efecto y material según carta] (22144):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Permite Invocación Especial desde el Deck con sus restricciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Elfnote Seraphim Strelitzia [Synchro] (22143):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 4 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Elfnote June Pride [Synchro] (22984):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla devolución de carta a zona indicada. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **S:P Little Knight [Link] (19188):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Despian Luluwalilith [Synchro] (18505):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Permite negar efectos o activaciones según el texto y la ventana. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Arcanite Magician [Synchro] (8038):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Crystal Wing Synchro Dragon [Synchro] (12321):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **F.A. Dawn Dragster [Synchro] (13710):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. Incluye interacción con posición de batalla. Produce o recibe daño por efecto bajo condiciones. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ruddy Rose Dragon [Synchro] (15996):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla destierro de cartas. Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Albion the Branded Dragon [Fusion] (15994):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Tiene interacción explícita con Invocación por Fusión. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Chaos Angel [Synchro] (18507):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. Tiene interacción explícita con Invocación por Sincronía. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Junora the Power Patron of Tuning [Synchro] (22142):** RELACIONES_ESPECIFICAS_DOCUMENTADAS. 1 conexión(es) entre cartas; 0 Skill(s). Cada condición se evalúa por separado.
+> - **Bystial Druiswurm (17764):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Contempla enviar una carta al Cementerio. Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Droll & Lock Bird (9279):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Ghost Ogre & Snow Rabbit (11708):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla enviar una carta al Cementerio. Contempla destrucción. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Called by the Grave (13619):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destierro de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Triple Tactics Talent (15296):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Contact "C" (13407):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Puede Invocar Especial cuando se reúnen sus condiciones. Tiene interacción explícita con Invocación por Enlace. Incluye interacción con posición de batalla. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Solemn Judgment (4861):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contempla destrucción. Permite negar efectos o activaciones según el texto y la ventana. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+> - **Pot of Avarice (6511):** FUNCION_AUTONOMA_EXTRAIDA_DE_TEXTO. Rol documental: Contiene robo de cartas. Alguna modalidad selecciona objetivo; confirmar cuál es elegible. No existe relación específica comprobada con otra identidad de este deck; no atribuir combo inexistente.
+>
+> ## A06 — relaciones explícitas con condiciones
+>
+> - **DIRECTA:** Medius the Pure → Elfnote Power Patron: Medius al ser Invocado añade o Invoca del Deck un Power Patron; primero comprobar que Patron esté en Deck y la zona.
+> - **DIRECTA:** Elfnote Regina → Elfnote Fortuna: Regina Invocada al centro puede Invocar Fortuna desde Deck; exige que Regina haya entrado a esa zona.
+> - **DIRECTA:** Elfnote Fortuna → Elfnotes: Rhapsodia of Madness: Fortuna en Main Phase coloca desde Deck o mano una Trampa Continua Elfnote boca arriba; Rhapsodia es objetivo válido si está disponible.
+> - **INDIRECTA:** Elfnote Lucina → Elfnote Fortuna: Lucina comparte el recurso de la zona central con Fortuna; no pueden Invocarse simultáneamente allí mediante sus procedimientos propios.
+> - **CONDICIONADA:** Elfnote Power Patron → Elfnote Seraphim Strelitzia [Synchro]: Power Patron aumenta +3 el Nivel del monstruo del centro y habilita Sincro Elfnote; verifica suma exacta de Niveles y Cantante/no-Cantante para Strelitzia.
+> - **CONFLICTO_REQUISITOS:** Medius the Pure → Vidolium the Unstable Power Patron of Unity: Medius puede añadir Vidolium desde Deck si cumple la categoría Power Patron; no afirmar que lo Invoca desde Deck si su texto restringe dónde y cómo puede ser Invocado Especial.
+> - **DIRECTA:** Elfnote Tinia → Elfnotes: Welcome Home: Tinia coloca una Mágica Continua Elfnote desde Deck durante propia Main; Welcome Home solo si es carta Continua Elfnote y está en Deck.
+> - **CONFLICTO_ZONA:** Elfnote Tinia → Elfnote Lucina: Tinia y Lucina compiten por el centro; hay que ordenar la secuencia y usar intercambio en turno contrario solo con dos zonas ocupadas válidas.
+> - **DIRECTA_CON_ATRIBUTO_DISTINTO:** Elfnotes: Welcome Home → Elfnote Tinia: Welcome Home puede enviar un monstruo propio al GY para traer Tinia del Deck en Defensa únicamente si los Atributos originales difieren.
+> - **DIRECTA_CON_ATRIBUTO_DISTINTO:** Elfnotes: Welcome Home → Elfnote Fortuna: Welcome Home puede traer Fortuna desde Deck en Defensa si el monstruo enviado tiene otro Atributo original; después solo Synchro desde Extra.
+> - **CONDICIONADA:** Elfnotes: Rhapsodia of Madness → Elfnote Seraphim Strelitzia [Synchro]: Con Strelitzia Sincro propia, Rhapsodia que revive Elfnote puede además negar efectos de carta rival boca arriba hasta End Phase.
+> - **REVIVIR_O_INVOCAR:** Elfnote Seraphim Strelitzia [Synchro] → Elfnote Fortuna: Quick de Strelitzia permite traer Fortuna Elfnote Nivel≤6 desde mano/GY, siempre que sea Invocación legal, en Main Phase.
+> - **COLUMNA:** Junora the Power Patron of Tuning [Synchro] → Elfnote Lucina: Junora restringe usar como material a monstruos enemigos situados en la misma columna que Lucina Elfnote; no niega sus efectos.
+> - **DIRECTA_CON_RESTRICCION:** Prohibited Power Patron Portal - Terminus → Vidolium the Unstable Power Patron of Unity: Terminus envía Power Patron desde Deck/Extra al GY y puede buscar Hada OSCURIDAD; tras su primer efecto solo atacan Power Patron propios.
+> - **PLAN_DE_SINCRO:** Elfnotes: Welcome Home → Elfnote Seraphim Strelitzia [Synchro]: Welcome Home aporta material Elfnote y restringe Extra a Sincro; para Strelitzia aún hacen falta Cantante, no Cantante y suma de Niveles legal.
+>
+> _Las fichas estructuradas automáticamente requieren cotejo semántico para certificar rulings. No se alteran inventarios ni se consideran listas._
