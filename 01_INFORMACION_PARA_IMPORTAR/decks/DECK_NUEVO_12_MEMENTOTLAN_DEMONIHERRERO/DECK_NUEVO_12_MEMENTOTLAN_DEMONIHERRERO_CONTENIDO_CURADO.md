@@ -566,6 +566,8 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 
 **B01–B06 son respuestas al corte de una ruta padre, no aperturas nuevas ni seis «combos» adicionales.** Quedan listas para mostrar justo debajo del paso anclado en la guía visual; las fotografías ya están completas y las cadenas descritas siguen siendo verificaciones documentales, no partidas ejecutadas.
 
+**Cotejo secuencial B01–B06 (18-11-2026, posterior a A09.C):** se revisó cada residuo contra la ruta madre: B01/C04 conserva Angbruja+Tatsun tras negación del efecto de Tatsun; B02/C05 conserva Goblin+Desvantasma al negar su destrucción/envío; B03/C07 solo deriva hacia C03 si hay un objetivo rival y acceso real a Grabador; B04/C09 no Invoca Princesa después de perder el equipo; B05/C10 no concede Normal adicional si Secuencia fue negada; B06/C12 deja Horn desterrado y las cartas rivales sin destruir si resuelve Llamado. **6/6 desvíos cotejados sin cambios de pasos**, todos `CONDICIONAL_DOCUMENTADO`, **0 replays acreditados**. No se agregó una segunda lista ni se atribuyó una partida real.
+
 ### A07.4 — Seis verificaciones de cadena y posición tras robar piezas del motor
 
 | Control / ruta afectada | Orden, coste y zona real | Resultado y límite |
