@@ -29,7 +29,7 @@
 | **A05** Efectos y uso | **COMPLETA — 39/39 fichas y cotejo oficial (18-11-2026)** | 39/39 CID contrastados individualmente con Konami Neuron; A05.3 uso/riesgo y A05.4 requisitos/límites por carta, enlazados a matriz A06.2; 70/70 copias | Sin pendiente propio de ficha A05. Rutas y cadenas condicionales siguen bajo A07–A09 sin acreditación automática |
 | **A06** Sinergias y Extra | **COMPLETA — auditoría documental (18-11-2026)** | 39/39 identidades; 40 relaciones dirigidas; 2 motores y grupo de apoyos; mapa fotográfico A06.5; 13/13 Extra clasificados, César sin ruta reproducible | Sin pendiente propio de cobertura A06; legalidad de cadenas y rutas completas se conserva en A07/A09 |
 | **A07** Reglas y cadenas | **COMPLETA — AUDITORÍA DOCUMENTAL (18-11-2026)** | **34 controles R01–R34** (4 nuevos cotejados), **12 respuestas adversarias**, **6 desvíos B01–B06**, **6 controles MEM-A01–06** y **4 cadenas MC-X01–04**; formato y NO_APLICA descritos | Casos dependientes de rival/mano permanecen condicionales; ninguna ruta se declara validada por simulador ni se publica sin autorización |
-| **A08** Estrategia y Side | PARCIAL AVANZADA | **34 prefichas**; **5 planes Side** exactos, y **3/3 matchups elegidos** con Crystron 677, Purrely 660 y Salamangreat 673 | Rendimiento empírico no disponible; la selección no cubre a todos los decks registrados |
+| **A08** Estrategia y Side | **COMPLETA — auditoría documental (18-11-2026)** | **34/34 prefichas** clasificadas, 5/5 planes Side de intercambios exactos, 3/3 matchups seleccionados, con enlaces A06/A09 y condiciones preservadas | Sin tasa empírica atribuida; rutas candidatas deben validarse individualmente en A09, sin equiparar preficha con combo certificado |
 | **A09** Jugadas y manos | PARCIAL AVANZADA | **12 rutas C01–C12**: **9 familias + 3 variantes**; 3 continuaciones, 4 auditorías Extra; **24 escenarios H01–H24**; 0 replays | Resolver otros estados de manos/objetivos sin asumir cartas inexistentes; contrastación de mesa opcional del usuario |
 | **A10** Guías visuales | GUÍAS VISUALES DISPONIBLES V40 | Guía HTML local regenerable desde la ficha, rutas vinculadas y 39/39 fotos presentes | Comprobar enlaces al regenerar; el nuevo análisis no queda publicado automáticamente en Station X |
 
@@ -568,32 +568,32 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 ## APARTADO_08 — Decisiones, planes y Side Deck
 
-**Estado:** `PARCIAL_AVANZADO`; **34 decisiones/prefichas I01–I34** por objetivo/estado/rol (I01–I12 iniciales, I13–I24 segunda pasada, I25–I34 tercera pasada). **Interacción básica, starter, extensión, combo completo y plan** se distinguen; ninguna fila se suma al contador A09 por sí sola. No se calculan tasas de victoria/matchup sin muestra. **Main 41 / Side 14** se mantienen como listas fuente; los intercambios son configuraciones hipotéticas entre duelos, **no edición del inventario original**.
+**Estado:** `COMPLETA — clasificación y decisiones documentales (18-11-2026)`; **34 decisiones/prefichas I01–I34** por objetivo/estado/rol (I01–I12 iniciales, I13–I24 segunda pasada, I25–I34 tercera pasada). **Interacción básica, starter, extensión, combo completo y plan** se distinguen; ninguna fila se suma al contador A09 por sí sola. No se calculan tasas de victoria/matchup sin muestra. **Main 41 / Side 14** se mantienen como listas fuente; los intercambios son configuraciones hipotéticas entre duelos, **no edición del inventario original**.
 
 | Entrada | Cuándo elegirla | Ganancia y coste real | Referencias |
 |---|---|---|---|
-| **I01** Angbruja + Fusión | Primero, buscas turno rival con presión y GY | C01 arma 026+005; consume tres materiales y devuelve cinco nombres | 001,002,007,009,015,026,005 |
-| **I02** Angbruja + Fiesta | Primero o segundo, necesitas presión sin Fusión en mano | C02 llega a 005 aislado; **no** deja otros Mementos listos para su extensión rápida | 001,016,002,004,008,009,005 |
-| **I03** Hoja Oscura disponible | Mano sin inicio anterior | Considerar destrucción propia para Invocar Memento ≤3 desde Deck; confirmar qué destruyes y qué queda | 003,004,001 |
-| **I04** Gran Fuga Moto Goblin | Hay cuerpo tributable y Goblin en Deck | Consumes un monstruo y 018 para pasar a 004; el efecto GY de 018 no tiene Xyz Goblin | 018,004 |
-| **I05** Heat Wave de salida | Rival depende de Invocar monstruos de efecto y no necesitas desarrollar motor de inmediato | Puede negar el desarrollo de **ambos**; no es simultánea con combo Memento en esa MP1 | 017 |
-| **I06** Partida larga | Ya has destruido Memento y tienes Campo o Fusión en GY | Mementomictlán prepara M/T en End Phase; Fusión en GY puede buscar M/T tras destruir propio | 020,015 |
-| **I07** Extensión/reparación | Hay Mementos en GY o destrucción propia | Desvantasma recupera; Dormiveja fusiona desde mano; Dragón de Cuerno exige tres nombres; Akhíron exige ventana | 009,007,010,006 |
-| **I08** Cómo cerrar | Según número de aliados y cartas rivales | 005 solo ataca a **todos los monstruos rivales** si controla campo propio en soledad; 026 destruye también tus Memento | 005,026,008 |
-| **I09** Going second con objetivo | Rival controla monstruo seleccionable y Grabador sigue disponible | C03 manda monstruo rival y equipo al GY, gastando dos cuerpos y acceso Extra | 032,030,011 |
-| **I10** Interacción independiente | Ash/Droll/Fuwalos/Gotas/Llamado/Triple Tactics en mano y ventana válida | Proteger avance o interrumpir: cada efecto conserva su restricción propia; no llamarlo combo | 012,013,014,019,021,022 |
-| **I11** Qué Extra elegir | Solo después de contar Nivel, Tipo, material, zona y coste | S:P/Luna/Dragón Gemelo pueden servir; César, TY-PHON y Aero Tiburón son condicionales; no forzar salida | 023–035 |
-| **I12** Entre duelo 1 y 2 | Tras observar cómo Invoca/recicla el rival | Elegir paquetes Side con entradas/salidas exactas; evitar asumir que las 14 Side están en Main | 014,036–039 |
+| **I01 · STARTER + CONTINUACIÓN C01** Angbruja + Fusión | Primero, buscas turno rival con presión y GY | C01 arma 026+005; consume tres materiales y devuelve cinco nombres | 001,002,007,009,015,026,005 |
+| **I02 · STARTER + CONTINUACIÓN C02** Angbruja + Fiesta | Primero o segundo, necesitas presión sin Fusión en mano | C02 llega a 005 aislado; **no** deja otros Mementos listos para su extensión rápida | 001,016,002,004,008,009,005 |
+| **I03 · STARTER CONDICIONAL** Hoja Oscura disponible | Mano sin inicio anterior | Considerar destrucción propia para Invocar Memento ≤3 desde Deck; confirmar qué destruyes y qué queda | 003,004,001 |
+| **I04 · EXTENSIÓN** Gran Fuga Moto Goblin | Hay cuerpo tributable y Goblin en Deck | Consumes un monstruo y 018 para pasar a 004; el efecto GY de 018 no tiene Xyz Goblin | 018,004 |
+| **I05 · PLAN DE CONTROL EXCLUYENTE** Heat Wave de salida | Rival depende de Invocar monstruos de efecto y no necesitas desarrollar motor de inmediato | Puede negar el desarrollo de **ambos**; no es simultánea con combo Memento en esa MP1 | 017 |
+| **I06 · PLAN DE RECUPERACIÓN** Partida larga | Ya has destruido Memento y tienes Campo o Fusión en GY | Mementomictlán prepara M/T en End Phase; Fusión en GY puede buscar M/T tras destruir propio | 020,015 |
+| **I07 · EXTENSIÓN / RECUPERACIÓN** Extensión/reparación | Hay Mementos en GY o destrucción propia | Desvantasma recupera; Dormiveja fusiona desde mano; Dragón de Cuerno exige tres nombres; Akhíron exige ventana | 009,007,010,006 |
+| **I08 · PLAN DE CIERRE** Cómo cerrar | Según número de aliados y cartas rivales | 005 solo ataca a **todos los monstruos rivales** si controla campo propio en soledad; 026 destruye también tus Memento | 005,026,008 |
+| **I09 · PLAN DE RUPTURA** Going second con objetivo | Rival controla monstruo seleccionable y Grabador sigue disponible | C03 manda monstruo rival y equipo al GY, gastando dos cuerpos y acceso Extra | 032,030,011 |
+| **I10 · INTERACCIÓN BÁSICA AUTÓNOMA** Interacción independiente | Ash/Droll/Fuwalos/Gotas/Llamado/Triple Tactics en mano y ventana válida | Proteger avance o interrumpir: cada efecto conserva su restricción propia; no llamarlo combo | 012,013,014,019,021,022 |
+| **I11 · DECISIÓN EXTRA CONDICIONAL** Qué Extra elegir | Solo después de contar Nivel, Tipo, material, zona y coste | S:P/Luna/Dragón Gemelo pueden servir; César, TY-PHON y Aero Tiburón son condicionales; no forzar salida | 023–035 |
+| **I12 · PLAN SIDE ENTRE DUELOS** Entre duelo 1 y 2 | Tras observar cómo Invoca/recicla el rival | Elegir paquetes Side con entradas/salidas exactas; evitar asumir que las 14 Side están en Main | 014,036–039 |
 
 ### A08.0 — Segunda pasada: 12 prefichas con categoría y prueba de utilidad
 
 | ID | Categoría real | Mano/estado mínimo y resultado concreto | Resultado negativo o límite | A09 |
 |---|---|---|---|---|
-| **I13** | **COMBO COMPLETO — variante** | **1× Angbruja**; encadena búsqueda, autodestrucciones, Fusión con 1 material del GY, Rey y jefe 5000 | Requiere recuperar Goblin, buscar Fusión y disponer de piezas en Deck | **C04** |
-| **I14** | **COMBO COMPLETO — variante** | **1× Hoja Oscura**; trae Angbruja, envía Fusión+005, usa efecto de GY y otra copia de Fusión; dos jefes | Necesita **dos** copias de Fusión aún en Deck y resolver dos envíos desde Deck | **C05** |
-| **I15** | **COMBO COMPLETO — alternativa** | Angbruja+Fusión; fusiona Dragón Gemelo, destruye Dormiveja, busca jefe+Goblin, deja protección de Goblin en mano | Consume recurso que no queda en GY tras barajar; protección solo contra **selección** | **C06** |
-| **I16** | **COMBO COMPLETO — romper campo** | Angbruja+Fusión y **≥2 cartas adversarias destruibles**; Quimera roba 1 y destruye 2 | No es un plan de negación ni obtiene protección de Polimerización | **C07** |
-| **I17** | **COMBO COMPLETO — respuesta futura** | 1× Angbruja; S:P hecha con dos Memento del Main; destierro temporal cuando rival activa y hay dos objetivos boca arriba | **Sin destierro inmediato de Invocación**, porque no empleó material del Extra | **C08** |
+| **I13** | **CANDIDATA COMPLETA — variante documentada** | **1× Angbruja**; encadena búsqueda, autodestrucciones, Fusión con 1 material del GY, Rey y jefe 5000 | Requiere recuperar Goblin, buscar Fusión y disponer de piezas en Deck | **C04** |
+| **I14** | **CANDIDATA COMPLETA — variante documentada** | **1× Hoja Oscura**; trae Angbruja, envía Fusión+005, usa efecto de GY y otra copia de Fusión; dos jefes | Necesita **dos** copias de Fusión aún en Deck y resolver dos envíos desde Deck | **C05** |
+| **I15** | **CANDIDATA COMPLETA — alternativa documentada** | Angbruja+Fusión; fusiona Dragón Gemelo, destruye Dormiveja, busca jefe+Goblin, deja protección de Goblin en mano | Consume recurso que no queda en GY tras barajar; protección solo contra **selección** | **C06** |
+| **I16** | **CANDIDATA COMPLETA — ruptura condicionada** | Angbruja+Fusión y **≥2 cartas adversarias destruibles**; Quimera roba 1 y destruye 2 | No es un plan de negación ni obtiene protección de Polimerización | **C07** |
+| **I17** | **CANDIDATA COMPLETA — respuesta posterior condicionada** | 1× Angbruja; S:P hecha con dos Memento del Main; destierro temporal cuando rival activa y hay dos objetivos boca arriba | **Sin destierro inmediato de Invocación**, porque no empleó material del Extra | **C08** |
 | **I18** | **INTERACCIÓN BÁSICA** | Desvantasma enviada por efecto de **monstruo Memento**; se Invoca, recupera otra Memento desde GY | Sin otra Memento en GY no recupera; no se activa porque la mandaste con Gotas como coste | **C01/C04–C07**, no una nueva |
 | **I19** | **EXTENSIÓN** | Goblin en campo destruye Memento propio y envía **dos cartas Memento distintas** desde Deck, incluso Fusión+005 | Si solo hay 1 objetivo elegible, no declarar 2; Ash puede negar el efecto | **C05** |
 | **I20** | **INTERACCIÓN BÁSICA** | Maza en campo durante propia Main destruye un Memento propio y **busca carta Memento**, incluso Fusión | Maza de GY no puede usar por sí sola ese efecto de campo; su control de rival exige descarte **desde mano** | **C04** |
@@ -602,7 +602,7 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | **I23** | **RUTA INCOMPLETA / BRICK** | Fusión y/o Fiesta en mano **sin ningún Memento en mano/campo** ni condición de GY | **No hay starter gratuito** para convocar jefes; conservar diagnóstico, no inventar búsqueda | **SIN_COMBO** |
 | **I24** | **PLAN / CONTINUACIÓN** | Con 005 en campo y un Memento en GY, activar su Invocación a la **activación de carta/efecto rival**; elegir según el Memento real | **No** invoca desde Deck, ni supone que Maza descartará desde campo | **X03** (deriva de C01/C04/C05/C06) |
 
-**Censo A08 de este corte:** **24 prefichas**, de las que **5** (I13–I17) enlazan resultados completos nuevos respecto a la primera pasada, **5** son interacciones/extensiones condicionadas, **1** es una mano difícil sin combo y **1** una continuación. Los doce registros I01–I12 conservan sus categorías de decisiones tácticas y no se convierten en doce combos.
+**Censo A08 de este corte:** **24 prefichas**, de las que **5** (I13–I17) enlazan salidas documentadas en A09, sujetas a validación causal propia, respecto a la primera pasada, **5** son interacciones/extensiones condicionadas, **1** es una mano difícil sin combo y **1** una continuación. Los doce registros I01–I12 conservan sus categorías de decisiones tácticas y no se convierten en doce combos.
 
 ### A08.0b — Tercera pasada: otras diez decisiones para las cartas marginales
 
@@ -613,9 +613,9 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | **I27** | **Variante de combo con carta poco utilizada** | Angbruja + Gran Fuga + Fusión → Sacrifica Witch para traer Goblin, sigue con Tatsun y termina Rey+jefe | C01 llega al mismo resultado con **una carta menos**; utilidad situacional, no mejora automática | **C11** |
 | **I28** | **Going second, destrucción múltiple** | Angbruja + Horn + Fiesta → cuatro nombres GY → Horn especial → Fiesta destruye Horn, éste destruye Witch propia + dos cartas rivales | Requiere **dos objetivos rivales boca arriba** y un tercer Memento propio boca arriba | **C12** |
 | **I29** | **Reacción posterior, segundo turno** | C01 deja Rey; segunda Fusión Colocada + Goblin OSCURIDAD en mano convierten Rey en **Dragostapelia** en Main rival | Pierdes Rey y su destrucción; si no sobreviven Rey, Fusión Colocada y Goblin, no existe la salida | **EX-M01** |
-| **I30** | **Rival extendió desde Extra** | Si hizo **2+ Invocaciones Extra en turno válido**, convierte la S:P de C08 en **TY-PHON** y retira monstruo | Tras superponer, ya no puedes Invocar ese turno y bloqueas efectos propios ≥3000 ATK | **EX-M02** |
+| **I30** | **Rival extendió desde Extra** | Si hizo **2+ monstruos Invocados especialmente desde Extra** en turno válido, convierte la S:P de C08 en **TY-PHON** y retira monstruo | Tras superponer, ya no puedes Invocar ese turno y bloqueas efectos propios ≥3000 ATK | **EX-M02** |
 | **I31** | **Acceso marginal, no asumir eficiencia** | Dos Angbruja Nivel 3 dan **Aero Tiburón**, con Dormiveja disponible tras Fiesta | Sin monstruos propios desterrados no tiene daño útil; no priorizarlo sin objetivo táctico | **EX-M03** |
-| **I32** | **César Xyz condicional** | Grabador y Duque tienen Nivel 6 y son Demonios | EX-M04 exige ambos en campo y materiales disponibles |
+| **I32** | **RUTA INCOMPLETA / EXTRA CONDICIONAL** | Grabador y Duque son Demonios Nivel 6; los dos deben coincidir en campo | Materiales posibles no equivalen a apertura reproducible; C10 consume Grabador como material para Duque | **EX-M04 — SIN_RUTA_REPRODUCIBLE** |
 | **I33** | **Side y mano en turno rival** | Elegir Fuwalos contra Deck/Extra, Meowls contra GY/destierro, Purulia contra mano; escoger Droll si conviene bloquear búsquedas | **Droll también impide tus robos desde Deck**; Multivadora requiere no controlar cartas al activar | **S01/S02/S04** |
 | **I34** | **Side y conflicto de recursos** | Lancea impide destierros rival/propios durante turno rival; Gordiano devuelve boca arriba con pago por cada objetivo | Lancea impide tu Fusión GY/Llamado en esa ventana; Gordiano puede consumir **6 Extra por objetivo** | **S03/S05** |
 
@@ -651,6 +651,32 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 - **Riesgo de contradicción:** 3 Heat Wave y un motor de Invocaciones múltiples apuntan a dos planes incompatibles en el mismo turno. Evaluar en test hands qué porcentaje de manos obliga a pasar.
 - **Cartas marginales:** César requiere dos Demonios de Nivel 6 reales; TY-PHON silencia a tus jefes de 3000/5000; Aero Tiburón aporta daño muy condicionado. Antes de cambiarlas, probar su uso real en 20 manos y registrar salida/alternativa.
 - **Próxima mejora cuantificable:** documentar para cada apertura de 5 cartas si produce Memento funcional, control temporal, o ninguna ruta y *por qué*. No asignar una nota competitiva numérica sin evidencia.
+
+### A08.4 — Cierre de clasificación y decisiones (18-11-2026)
+
+**Alcance exacto:** 34/34 prefichas **I01–I34** documentadas; I01–I12 tienen ahora clase de entrada/decisión explícita, I13–I24 distinguen rutas candidatas, interacciones, extensiones y brick, e I25–I34 distinguen familias nuevas, variantes, Extra marginal y Side. Las categorías **CANDIDATA COMPLETA** hacen referencia a la secuencia A09 correspondiente: no equivalen a combo validado de forma independiente por A08. C01–C12 siguen siendo **12 fichas A09**, no 34 combos.
+
+**Selector por objetivo y evidencia con foto real** (vista breve; el detalle completo permanece en cada Ixx y en la matriz única A06.2):
+
+| Objetivo / foto inicial | Selección y recursos obligatorios | Referencia/estado |
+|---|---|---|
+| <img src="imagenes/19364.png" width="55" alt="Angbruja"> **Abrir con Angbruja** | Normal + búsqueda real; si Fusión en mano considerar C01, si no C04 solo con piezas únicas en Deck | I01/I13 → C01/C04, CONDICIONAL |
+| <img src="imagenes/19363.png" width="55" alt="Hoja Oscura"> **Abrir con Hoja** | Destruir propia carta y traer Angbruja Nivel 3 desde Deck | I03/I14 → C05, CONDICIONAL |
+| <img src="imagenes/19368.png" width="55" alt="Fiesta"> **Acceder sin Fusión en mano** | Fiesta destruye recurso en mano/campo y toma otro nombre; no ofrecer jefe si búsqueda negada | I02 → C02, CONDICIONAL |
+| <img src="imagenes/19904.png" width="55" alt="Fusión"> **Romper campo** | Materiales de mano/campo y rival con cartas válidas; Quimera no supera Noir inmune por su destrucción activada | I16 → C07, CONDICIONAL |
+| <img src="imagenes/19188.jpg" width="55" alt="S:P"> **Responder en turno rival** | Dos efectos para Link; respuesta posterior con dos monstruos boca arriba seleccionables | I17 → C08, CONDICIONAL |
+| <img src="imagenes/9139.png" width="55" alt="Oleada"> **Control temporal** | Inicio de MP1; renunciar a desarrollar monstruos de efecto mientras dure la restricción | I05, PLAN EXCLUYENTE |
+| <img src="imagenes/20225.jpg" width="55" alt="Réquiem"> **Puente Demoniherrero** | Dos cuerpos para Luna y luego Réquiem; Grabador único en mano/Deck y objetivos existentes | I09/I25/I26 → C03/C09/C10, CONDICIONAL |
+
+**Intercambios Side exactos auditados:** inventario fuente Side 14 = Fuwalos 2 + Meowls 3 + Purulia 3 + Lancea 3 + Gordiano 3; **5/5 planes** S01–S05 usan 2:2 o 3:3 y Main permanece 41. Son **cinco configuraciones alternativas**, no acumulativas. S01–S05 preservan funciones del rival por zona (Deck/Extra, GY/destierro, mano, cartas boca arriba, destierros) y registran riesgos propios (Droll, Lancea, coste del Extra). Ninguna copia Side se considera en duelo 1.
+
+**Matchups escogidos (3/3):** Crystron/Horus 677, Purrely 660 y Salamangreat 673 constan en la sección **A08.3** de este mismo documento, vinculados a MC-X01–04, rutas C01/C03/C04/C07/C08 y S01/S03/S05. Su resultado es una **decisión según amenaza y estado rival**, no una tasa de victoria; no se extrapola a los otros decks.
+
+**Cruce causal:** I01–I34 solo citan cartas realmente inventariadas y rutas C01–C12 o accesos EX-M01–04 existentes; I23 conserva **SIN_COMBO**, I32 conserva **SIN_RUTA_REPRODUCIBLE** para César, las handtraps I10/I33 siguen autónomas. No se crea ruta nueva por repetir cartas ni se atribuye prueba física del usuario. Las 39 identidades conservan papel en A05/A06 aunque no todas tengan ruta A09 propia.
+
+**Dictamen A08: COMPLETA en exploración y clasificación documental de las 34 entradas y los cinco intercambios Side disponibles, con 3 matchups delimitados y propuestas sin mutación.** No es búsqueda matemática exhaustiva de todas las manos ni certificación de combos: A09 conserva la comprobación de estados iniciales, materiales, pasos y finales de cada ruta. No publicar/importar sin autorización.
+
+**Siguiente apartado secuencial:** A09, solo por solicitud de Miguel.
 
 ## APARTADO_09 — Doce rutas razonadas por familia y variante
 
