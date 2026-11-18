@@ -19,3 +19,5 @@ Preservar el inventario confirmado y el contenido útil cuando haya una modifica
 **Al retomar trabajo:** leer el control del prompt, localizar el último paso
 realmente terminado y continuar desde allí. No duplicar entregables ni
 atribuir a la plataforma cambios que no se han comprobado.
+
+**Reanudación de una secuencia A01–A10:** recuperar del deck y del registro único la selección original de apartados, su orden ascendente, el último Axx realmente cerrado y el primero no cerrado. Reanudar **dentro del primer apartado incompleto**, en los IDs concretos pendientes, sin saltarlo, reiniciar trabajo acreditado ni ampliar la selección. Cerrar documental y lógicamente ese Axx antes de pasar al siguiente solicitado. Si persiste un bloqueo imprescindible, documentarlo y detener la secuencia; `PENDIENTE_MESA` no impide por sí solo avanzar cuando el trabajo documental verificable ya terminó. No solicitar confirmación entre apartados de una secuencia autorizada.
