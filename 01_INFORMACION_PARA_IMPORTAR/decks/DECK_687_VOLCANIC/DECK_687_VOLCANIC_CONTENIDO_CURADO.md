@@ -21,6 +21,16 @@
 - **Cartas representativas:** Volcanic Trooper, Volcanic Rocket, Blaze Accelerator Reload, Scattershot y Volcanic Emperor.
 - **Qué vigilar:** qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Priorizar búsqueda si faltan Aceleradores y reservar munición si el rival aún no presenta objetivo; diferenciar envío desde mano y desde Deck para decidir si Scattershot puede activar el efecto pertinente.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 14 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Volcanic Trooper — Soldado Volcánico

@@ -21,6 +21,16 @@
 - **Cartas representativas:** Avian, Sparkman, Burstinatrix, Flame Wingman y Hero Rush Rising.
 - **Qué vigilar:** no tratar un monstruo Normal sin efecto como inútil: puede ser material indispensable. La habilidad no sustituye automáticamente a Fusión.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Con Avian, Sparkman o Burstinatrix, escoger la Fusión solo si están sus materiales exactos y un procedimiento válido; si falta una pieza, priorizar acceso y protección de recursos. Verificar la ventana de Hero Rush Rising.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 30 Main · 8 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Héroe Elemental Avian

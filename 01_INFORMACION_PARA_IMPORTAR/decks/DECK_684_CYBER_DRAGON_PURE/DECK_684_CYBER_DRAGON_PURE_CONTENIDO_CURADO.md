@@ -21,6 +21,16 @@
 - **Cartas representativas:** Cyber Dragon, Cyber Dragon Core, las piezas Cyberdark y los destinos de Fusión/Xyz registrados.
 - **Qué vigilar:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Elegir entre presión de Fusión y salida Xyz según nombres y zonas de materiales existentes; una misma pareja de Máquinas no se asigna simultáneamente a ambas. Si el rival no ofrece materiales, no afirmar Fusión por contacto basada en su campo.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 24 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Cyber Dragon Core

@@ -44,10 +44,10 @@
 
 | CID | Carta | Material/procedimiento | Dictamen |
 |---:|---|---|---|
-| 16386 | Baronne de Fleur | Sincro Nivel 10, Cantante + no Cantante | **Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No publicarla como ruta jugable; no borrar del inventario |
+| 16386 | Baronne de Fleur | Sincro Nivel 10, Cantante + no Cantante | **Acceso no acreditado:** obtener Cantante y no Cantante de Nivel total 10 en el mismo campo con efectos y costes satisfechos; conservar en inventario hasta validar la ruta |
 | 15276 | Infernoble Knight Emperor Charles | Sincro Nivel 9: Cantante + no Cantantes con requisitos aplicables | Requiere suma de Niveles y forma de obtener los cuerpos; un Equipo o monstruo ya en GY no prueba la Invocación |
 | 18926 | Battlin' Boxer King Dempsey | Xyz Rango 4 con dos cuerpos Nivel 4 | Posible continuación desde dos Guerreros Nivel 4 reales en campo; evaluar restricción del motor y búsqueda protegida |
-| 14496 | Apollousa, Bow of the Goddess | Link-4, dos o más monstruos de nombres distintos salvo Fichas | **Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No habilitar como objetivo activo; no omitir cálculo de materiales Link |
+| 14496 | Apollousa, Bow of the Goddess | Link-4, dos o más monstruos de nombres distintos salvo Fichas | **Acceso no acreditado:** demostrar Link-4 con valor Link y nombres distintos entre materiales disponibles; no deducir la ruta del solo inventario |
 | 13034 | Link Spider | Link-1 que exige **un monstruo Normal**, no un monstruo de Efecto | Si la lista solo genera Guerreros de Efecto y no hay monstruo Normal/Ficha apropiada en campo, no hay acceso. No usar cualquier Infernoble como material |
 
 ### Continuación Dempsey, solo desde dos Nivel 4

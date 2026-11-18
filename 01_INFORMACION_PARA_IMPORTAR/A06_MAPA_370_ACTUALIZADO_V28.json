@@ -1034,7 +1034,7 @@
       "rutas_extra": [],
       "acceso_extra_no_acreditado": true,
       "materiales_y_riesgo": "Sincro Nivel 8: Cantante + **Sincro no Cantante**",
-      "motivo_no_acreditado": "**No habilitar como ruta jugable TCG Advanced:** ficha oficial señala «Forbidden». Además no basta con dos monstruos normales que sumen 8. Conservar referencia histórica sin borrar del inventario.",
+      "motivo_no_acreditado": "**Acceso Extra pendiente de demostrar:** Crystal Wing requiere un Cantante y un monstruo Sincro no Cantante; no basta con dos monstruos normales cuya suma de Niveles sea 8. Conservar la carta y acreditar materiales, Niveles y secuencia antes de publicar la ruta.",
       "contradiccion_de_evidencias": false,
       "dictamen": "PRECLASIFICACION_DOCUMENTAL_NO_EQUIVALE_A_JUGADA_PROBADA",
       "criterio_cero": "Cero significa ausencia de utilidad acreditada en los documentos disponibles; no imposibilidad universal."
@@ -2519,7 +2519,7 @@
       "rutas_extra": [],
       "acceso_extra_no_acreditado": true,
       "materiales_y_riesgo": "Xyz Rango 10, 2+ monstruos Nivel 10",
-      "motivo_no_acreditado": "**No ofrecer como ruta jugable TCG Advanced**: ficha oficial marcada Forbidden. Mantener referencia histórica sin eliminar carta",
+      "motivo_no_acreditado": "**Acceso Xyz pendiente de demostrar:** acreditar dos o más monstruos de Nivel 10 simultáneos, su disponibilidad real, costes y restricciones antes de publicar la ruta. Mantener el inventario original.",
       "contradiccion_de_evidencias": false,
       "dictamen": "PRECLASIFICACION_DOCUMENTAL_NO_EQUIVALE_A_JUGADA_PROBADA",
       "criterio_cero": "Cero significa ausencia de utilidad acreditada en los documentos disponibles; no imposibilidad universal."
@@ -6788,7 +6788,7 @@
       "rutas_extra": [],
       "acceso_extra_no_acreditado": true,
       "materiales_y_riesgo": "Sincro Nivel 10, Cantante + no Cantante",
-      "motivo_no_acreditado": "**Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No publicarla como ruta jugable; no borrar del inventario",
+      "motivo_no_acreditado": "**Acceso Sincro pendiente de demostrar:** acreditar Cantante y no Cantante cuya suma de Niveles sea 10, zonas, costes y restricciones del estado inicial; no publicar una ruta sin prueba de materiales. Conservar el inventario original.",
       "contradiccion_de_evidencias": false,
       "dictamen": "PRECLASIFICACION_DOCUMENTAL_NO_EQUIVALE_A_JUGADA_PROBADA",
       "criterio_cero": "Cero significa ausencia de utilidad acreditada en los documentos disponibles; no imposibilidad universal."
@@ -7027,7 +7027,7 @@
       "rutas_extra": [],
       "acceso_extra_no_acreditado": true,
       "materiales_y_riesgo": "Link-4, dos o más monstruos de nombres distintos salvo Fichas",
-      "motivo_no_acreditado": "**Referencia histórica TCG Advanced:** ficha oficial marca Forbidden. No habilitar como objetivo activo; no omitir cálculo de materiales Link",
+      "motivo_no_acreditado": "**Acceso Link pendiente de demostrar:** acreditar valor Link 4 con dos o más monstruos de nombres distintos, salvo Fichas, y respetar costes y recursos. No inferir invocación del solo nombre de los materiales.",
       "contradiccion_de_evidencias": false,
       "dictamen": "PRECLASIFICACION_DOCUMENTAL_NO_EQUIVALE_A_JUGADA_PROBADA",
       "criterio_cero": "Cero significa ausencia de utilidad acreditada en los documentos disponibles; no imposibilidad universal."

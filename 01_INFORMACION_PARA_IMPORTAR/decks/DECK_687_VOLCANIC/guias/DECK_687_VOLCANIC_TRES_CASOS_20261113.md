@@ -13,12 +13,12 @@
 - **Resultado:** un monstruo FUEGO y bloqueo simétrico condicionado a su permanencia. No es una combinación de dos cartas por el solo hecho de existir en Main.
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en
 
-## 2. Maxx “C” — referencia histórica, NO jugada TCG Advanced
+## 2. Maxx “C” — activación condicionada a Invocación Especial rival
 
 - **Caso:** `687:COBERTURA:MAIN:9455` · foto `imagenes/tcg/9455.jpg`.
-- **Dictamen:** la ficha TCG oficial identifica Maxx “C” como **Forbidden**. No ofrecer su efecto como respuesta activa en el formato TCG Advanced del deck, aunque la carta permanezca documentada en el inventario confirmado.
-- **Función histórica (solo explicación):** desde la mano se envía al GY al activar su Efecto Rápido y el jugador roba una carta por cada evento de Invocación Especial rival durante ese turno. No corresponde a un robo por cada monstruo del mismo evento.
-- **Acción recomendada fuera del inventario:** presentar una alternativa legal al construir la lista, sin sustituir automáticamente la carta ni cambiar cantidades. Fuwalos tiene condiciones diferentes, por lo que no se trata como reemplazo idéntico.
+- **Dictamen:** carta registrada en el inventario; su efecto debe estudiarse por la ventana de activación y el número de eventos de Invocación Especial rival. No se acredita un escenario de robo sin dichos eventos.
+- **Función mecánica:** desde la mano se envía al GY al activar su Efecto Rápido y el jugador roba una carta por cada evento de Invocación Especial rival durante ese turno. No corresponde a un robo por cada monstruo del mismo evento.
+- **Acción recomendada:** distinguir sus condiciones de las de Fuwalos y no tratarlas como respuestas idénticas; conservar cantidades y documentar cadenas de ejemplo.
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en
 
 ## 3. Pot of Extravagance — coste sobre Extra, no Invocación

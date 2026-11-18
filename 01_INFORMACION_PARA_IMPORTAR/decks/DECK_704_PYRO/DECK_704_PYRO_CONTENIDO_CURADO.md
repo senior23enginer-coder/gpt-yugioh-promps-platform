@@ -21,6 +21,16 @@
 - **Cartas representativas:** Germalewe, Ember, Chemicalized Salamander y la habilidad Alchemy Blaze.
 - **Qué vigilar:** materiales boca arriba, momento de Fusión y disponibilidad de la habilidad; la Skill no pertenece a la mano.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Con nombres de Fusión completos, evaluar procedimiento de Fusión antes del combate; si falta uno, desarrollar cuerpos sin prometer un jefe. Aplicar Alchemy Blaze solo en su ventana y con sus condiciones cumplidas.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 30 Main · 5 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. ¡Atraviesa!

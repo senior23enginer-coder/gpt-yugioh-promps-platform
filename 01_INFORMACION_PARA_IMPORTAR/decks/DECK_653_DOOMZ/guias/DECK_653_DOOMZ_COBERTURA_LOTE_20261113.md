@@ -33,7 +33,7 @@
 | 16002 | Springans Merrymaker | Xyz Rango 4 con requisitos de Nivel 4; sus efectos ligados a Springans no convierten por sí solos niveles | Acceso por dos cuerpos Nivel 4 pendiente de obtener; puede ser escalón a Sargas si el procedimiento de Sargas lo permite |
 | 18190 | Gigantic “Champion” Sargas | Procedimiento alternativo mediante Xyz Springans de Rango 4 cuando corresponda | **Continuación**: después de Invocar Merrymaker legalmente, comprobar si Sargas puede superponerse; no partir de Merrymaker ya en campo para acreditar apertura |
 | 21453 | Number F0: Utopic Future Zexal | Requisitos particulares del F0 correspondiente; revisar el nombre exacto y procedimiento oficial | No confundir con Utopic Draco Future; acceso pendiente de materiales concretos |
-| 19886 | Varudras | Xyz Rango 10, 2+ monstruos Nivel 10 | **No ofrecer como ruta jugable TCG Advanced**: ficha oficial marcada Forbidden. Mantener referencia histórica sin eliminar carta |
+| 19886 | Varudras | Xyz Rango 10, 2+ monstruos Nivel 10 | **Acceso no acreditado:** obtener simultáneamente dos o más cuerpos de Nivel 10 y justificar sus recursos y restricciones. Mantener la carta sin crear una ruta de apertura ficticia. |
 | 11413 | Number F0: Utopic Future | Dos Xyz del **mismo Rango**, salvo monstruos “Number” según texto | No basta con dos monstruos Nivel 4; primero Invocar dos Xyz elegibles con materiales propios y zonas |
 | 14920 | Gagagaga Magician | Xyz Rango 4 desde dos monstruos Nivel 4 | Acceso condicional desde dos Nivel 4 reproducibles; requiere confirmar efecto y uso como enlace al paquete F0 |
 
@@ -66,11 +66,11 @@ Cada fila es una **propuesta por separado**; mantener 40 Main y las 9 cartas de 
 
 **Nota Side Extra:** sin cotejar valor de los quince destinos actuales contra los dos candidatos, **no inventar cuál Extra sale**. Esas dos filas son propuestas estratégicas incompletas y no planes de cambio de lista terminados. Las otras cinco tienen entradas/salidas condicionales, no aplicadas.
 
-## Identidad, legalidad y fuente
+## Identidad, mecánica y fuente
 
 1. El CID **22519** se identificó en la ficha oficial como **Vidolium the Unstable Power Patron of Unity**. La etiqueta “Vidrium” del inventario DoomZ debe tratarse como una discrepancia a resolver, no como dos cartas distintas.
-2. Varudras (CID 19886) figura como **Forbidden** en la base oficial consultada. No alterar silenciosamente el inventario, pero tampoco convertirla en ruta TCG Advanced activa.
-3. No inferir legalidad TCG de una ficha solo porque exista en la biblioteca; la verificación de restricciones de cada formato se hace al integrar y probar la ruta.
+2. Varudras (CID 19886) requiere demostrar dos o más materiales de Nivel 10 presentes simultáneamente; su registro en el Extra no demuestra acceso.
+3. No inferir una ruta ejecutable de una ficha solo porque exista en la biblioteca; deben probarse los materiales, los recursos y las restricciones de efecto aplicables al estado descrito.
 
 Fuentes oficiales por CID: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2 ; https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2 . Los demás efectos se verifican contra su ficha CID antes de certificar rutas.
 

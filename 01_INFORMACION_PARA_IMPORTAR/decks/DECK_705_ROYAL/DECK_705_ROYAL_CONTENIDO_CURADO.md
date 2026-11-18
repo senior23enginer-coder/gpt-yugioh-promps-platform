@@ -21,6 +21,16 @@
 - **Cartas representativas:** Heavy Metal, Progrock, Phaser y Hard Rock Overture.
 - **Qué vigilar:** Nivel exigido por efectos de apoyo, materiales sacrificados y monstruos puestos en Defensa. Este inventario no posee Extra Deck.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Si hay cuerpos para Sacrificio y jefe adecuado, comparar el efecto de Heavy Metal con la presión de Progrock; si faltan Sacrificios, conservar el jefe y desarrollar mesa. No planear una ruta de Extra inexistente.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 30 Main · 0 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Kheiron el Caballero Estelar

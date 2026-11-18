@@ -21,6 +21,16 @@
 - **Cartas representativas:** Incursores DoomZ, Amalthe, Elara, Drastrius y Júpiter.
 - **Qué vigilar:** niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Con recursos de Equipo disponibles, elegir entre desarrollar el motor y reservar el Equipo para una respuesta; ante ausencia de dos Niveles requeridos, no anunciar Xyz. El resultado depende del estado de campo y del efecto exacto.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 40 Main · 15 Extra · 9 Side · 0 Reserva. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Medius el Puro
@@ -1722,7 +1732,7 @@ Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias 
 | `653:CARD:21812` DoomZ Break - Diactorus | Extra ×2 | EXTENSOR_CONDICIONADO · CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · EQUIPAMIEN… | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `653:CARD:21810` Jupiter the Power Patron of Destruction | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · EQUIPAMIENTO · ACCESO_XYZ | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07; 653:A09:MEDIUS:GRAFLAREIO:DRAS06; 653:A09:MEDIUS:JUPREDO:JUPITER04; 653:A09:RAIDERS:CHANGE:DRAS03 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `653:CARD:21453` Number F0: Utopic Future Zexal | Extra ×1 | INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · ACCESO_XYZ · COMBATE · INTERACCI… | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
-| `653:CARD:19886` Varudras, the Final Bringer of the End Ti… | Extra ×1 | INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · ACCESO_XYZ · PRESION_LP · INTERA… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `653:CARD:19886` Varudras, the Final Bringer of the End Ti… | Extra ×1 | INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · ACCESO_XYZ · PRESION_LP · INTERA… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: Xyz Rango 10, 2+ monstruos Nivel 10; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `653:CARD:15524` Divine Arsenal AA-ZEUS - Sky Thunder | Extra ×1 | CARGA_CEMENTERIO · INTERACCION_DESTRUCCION · ACCESO_XYZ · INTERACCION_CADENA | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `653:CARD:11413` Number F0: Utopic Future | Extra ×1 | INTERACCION_DESTRUCCION · ACCESO_XYZ · PRESION_LP | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `653:CARD:14920` Gagagaga Magician | Extra ×1 | EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · ACCESO_XYZ | ACCESO_EXTRA_CONDICIONAL_VALIDADO_EN_ESCRITORIO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |

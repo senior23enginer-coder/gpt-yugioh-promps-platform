@@ -21,6 +21,16 @@
 - **Cartas representativas:** Wraitsoth, Fenrir, Unicorn, Riseheart, Shangri-Ira y Arise-Heart.
 - **Qué vigilar:** restricciones del Extra a Xyz, materiales y momento real del destierro. No prometer bloqueo de zonas automático.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Con dos Niveles 7 reales, considerar Xyz y su coste; si solo existe un Nivel 7, priorizar acceso y conservar la acción alternativa. Las decisiones de destierro deben vincularse a un disparador real y no al mero control de la carta.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 19 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Kashtira Fenrir
@@ -1800,8 +1810,8 @@ Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias 
 | `665:CARD:16386` Baronne de Fleur | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · RESPUESTA_NEGACION · SELECCIO… | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 665:A09:UNICORN:ASH:BIRTH:BARONNE15 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `665:CARD:17804` Donner, Dagger Fur Hire | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 665:A09:DONNER:FENRIR:UNICORN:GODDESS12 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `665:CARD:15741` Underworld Goddess of the Closed World | Extra ×1 | EXTENSOR_CONDICIONADO · RESPUESTA_NEGACION · SELECCION_OBJETIVO · INTERACCION_C… | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | 665:A09:DONNER:FENRIR:UNICORN:GODDESS12 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
-| `665:CARD:15366` Fossil Warrior Skull Knight | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
-| `665:CARD:15882` Fossil Machine Skull Wagon | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `665:CARD:15366` Fossil Warrior Skull Knight | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: Su envío al GY y efecto de GY pueden dar utilidad sin Invocación; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `665:CARD:15882` Fossil Machine Skull Wagon | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · CONTROL_DESTIERRO · SELECCION… | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: La utilidad desde GY no es acceso al campo desde Extra; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `665:CARD:7153` Eradicator Epidemic Virus | Reserva ×2 | INTERACCION_DESTRUCCION · RECUPERACION_MANO · TRIBUTO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Reserva: HIPOTÉTICA | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `665:CARD:13896` Dinowrestler Pankratops | Reserva ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · SELECCION_OBJETIVO · TRIBUTO… | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Reserva: HIPOTÉTICA | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `665:CARD:12668` Dimensional Barrier | Reserva ×2 | TRAMPA_BLOQUEO_TIPO_DE_INVOCACION · NEGACION_DE_EFECTOS_POR_TIPO · FUNCION_AUTONOMA | CONDICIONAL_NO_VERIFICADA · FUNCIÓN_COTEJADA_CON_KONAMI | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Reserva: HIPOTÉTICA | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |

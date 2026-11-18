@@ -21,6 +21,16 @@
 - **Cartas representativas:** Dark Magician, Dark Eradicator Warlock, Thousand Knives, Dark Magic Attack e Illusion of Execution.
 - **Qué vigilar:** nombre temporal, turno habilitado de la Skill y acceso real a los materiales de Fusión.
 
+### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
+
+- Con Mago Oscuro disponible, considerar Mágicas condicionadas a su nombre; sin él, no anunciar su activación válida. Antes de una Fusión, verificar que los materiales reales o sustitutos permitidos estén disponibles y que la Skill cumpla su ventana.
+- **Estado de evidencia:** criterio orientativo basado en el perfil; los pasos, costes y campos finales se acreditan exclusivamente en A07–A09.
+
+### A03 — Integridad del inventario físico por zonas
+
+- **Conteo recibido:** 30 Main · 7 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
+- **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
+
 ## CARTAS: FUNCIÓN, RESTRICCIONES Y UTILIDAD
 
 #### 01. Ataque Mágico Oscuro
@@ -862,9 +872,9 @@ Una fila por identidad (`deck_id:CARD:CID`), con el desglose íntegro de copias 
 | `707:CARD:17212` シークレットオーダー 潜入開始 | Main ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION · COMBATE | SINERGIA_DE_ENGINE_DOCUMENTADA | SIN_ENLACE_A08_CID | 707:A09:SECRETORDER:DM01; 707:A09:SECRETORDER:DM:KNIVES02 | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad |
 | `707:CARD:16372` ごうよくなつぼ 強欲な壺 | Main ×1 | RECUPERACION_MANO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 | `707:CARD:21007` こうこうのじゅばく 昂光の呪縛 | Main ×1 | RECUPERACION_MANO | CONDICIONAL_NO_VERIFICADA | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | PRECLASIFICACIÓN; comprobar acción concreta, enlace y legalidad; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
-| `707:CARD:19995` しっぷうのりゅうきしガイア 疾風の竜騎士ガイア | Extra ×3 | CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
-| `707:CARD:18298` りゅうきしガイア 竜騎士ガイア | Extra ×3 | MATERIAL_DE_FUSION | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
-| `707:CARD:19323` ひゃくせんのはしゃガイア 百戦の覇者ガイア | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; verificar materiales o uso alternativo; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `707:CARD:19995` しっぷうのりゅうきしガイア 疾風の竜騎士ガイア | Extra ×3 | CARGA_CEMENTERIO · RECUPERACION_MANO · COMBATE | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio.; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `707:CARD:18298` りゅうきしガイア 竜騎士ガイア | Extra ×3 | MATERIAL_DE_FUSION | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón.; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
+| `707:CARD:19323` ひゃくせんのはしゃガイア 百戦の覇者ガイア | Extra ×1 | EXTENSOR_CONDICIONADO · INTERACCION_DESTRUCCION | ACCESO_EXTRA_NO_ACREDITADO | SIN_ENLACE_A08_CID | SIN_ENLACE_A09_FOTO | Lista actual | SIN_RUTA_EXTRA_ACREDITADA; requisito mecánico / utilidad por examinar: Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico.; cotejar materiales, acceso real y zonas; sin referencia A08/A09 por CID/foto (no implica inutilidad) |
 
 ### Balance de referencias y faltantes identificados
 
