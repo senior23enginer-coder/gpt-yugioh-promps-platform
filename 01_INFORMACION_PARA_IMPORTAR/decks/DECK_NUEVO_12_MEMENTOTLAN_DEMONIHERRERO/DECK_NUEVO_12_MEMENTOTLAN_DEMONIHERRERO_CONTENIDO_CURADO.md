@@ -31,7 +31,7 @@
 | **A07** Reglas y cadenas | **COMPLETA — AUDITORÍA DOCUMENTAL (18-11-2026)** | **34 controles R01–R34** (4 nuevos cotejados), **12 respuestas adversarias**, **6 desvíos B01–B06**, **6 controles MEM-A01–06** y **4 cadenas MC-X01–04**; formato y NO_APLICA descritos | Casos dependientes de rival/mano permanecen condicionales; ninguna ruta se declara validada por simulador ni se publica sin autorización |
 | **A08** Estrategia y Side | **COMPLETA — auditoría documental (18-11-2026)** | **34/34 prefichas** clasificadas, 5/5 planes Side de intercambios exactos, 3/3 matchups seleccionados, con enlaces A06/A09 y condiciones preservadas | Sin tasa empírica atribuida; rutas candidatas deben validarse individualmente en A09, sin equiparar preficha con combo certificado |
 | **A09** Jugadas y manos | **COMPLETA — auditoría documental (18-11-2026)** | **12/12 rutas C01–C12**: 9 familias y 3 variantes; 3 continuaciones, 4 accesos Extra y **24/24 manos H01–H24**; 0 replays | Sin pendiente documental propio. Pruebas en simulador/mesa no ejecutadas; conservar condiciones y no certificar jugadas empíricamente |
-| **A10** Guías visuales | GUÍAS VISUALES DISPONIBLES V40 | Guía HTML local regenerable desde la ficha, rutas vinculadas y 39/39 fotos presentes | Comprobar enlaces al regenerar; el nuevo análisis no queda publicado automáticamente en Station X |
+| **A10** Guías visuales | **COMPLETA — guías documentales V42 (18-11-2026)** | **12/12 guías G01–G12**, **69/69 pasos con foto y movimiento**, **39/39 fotos originales**, **4/4 accesos Extra**, manos, campo final y ramas ancladas | Sin pendiente propio de cobertura visual/documental. No hay replays, prueba del importador, certificación A11–A13 ni nueva publicación autorizada; ver A10.3 |
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
 
@@ -991,7 +991,7 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 ## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
-**Estado visual vigente:** las doce guías G01–G12 corresponden a C01–C12 y los cuatro accesos EX-M01–EX-M04 no son nuevos combos. Desde V37 existen las 39 imágenes auténticas por CID (JPG o PNG, según cada carta); la guía HTML local y la publicación V40 constan en el seguimiento. Los antiguos marcadores fotográficos de las viñetas siguientes son una fotografía **del estado editorial previo a V37**, no faltantes actuales. La revisión textual de cada ruta A07/A09 permanece separada del cierre visual y no es prueba de partidas.
+**Estado visual vigente (V42, 18-11-2026):** `COMPLETA_DOCUMENTAL`; las doce guías G01–G12 corresponden a C01–C12 y los cuatro accesos EX-M01–EX-M04 no son nuevos combos. Desde V37 existen las 39 imágenes auténticas por CID (JPG o PNG, según cada carta); la guía HTML local y la publicación V40 constan en el seguimiento. Los antiguos marcadores fotográficos de las viñetas siguientes son una fotografía **del estado editorial previo a V37**, no faltantes actuales. La revisión textual de cada ruta A07/A09 permanece separada del cierre visual y no es prueba de partidas.
 
 ### MEMD-G01 → C01: preparar doble jefe
 
@@ -1020,11 +1020,11 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 | Viñeta | Acción visible/zona después de actuar | Miniaturas auténticas necesarias |
 |---|---|---|
 | **1. Dos cuerpos** | Normal Angbruja → buscar y Especial Tatsun | `19364`, `19362`: **FOTO_VERIFICADA_V37** |
-| **2. Luz/Demonio** | Ambos cuerpos se usan para Invocar **Luna Link-2** | Luna `19932`: **FOTO PENDIENTE** |
+| **2. Luz/Demonio** | Ambos cuerpos se usan para Invocar **Luna Link-2** | Luna `19932`: **FOTO_VERIFICADA_V42** |
 | **3. Réquiem** | Luna se usa para Invocar **Réquiem Link-1**; se tributa para traer Grabador | Réquiem `20225`: **FOTO DISPONIBLE**; Grabador `20196`: **FOTO DISPONIBLE** |
 | **4. Retirar** | Réquiem se equipa desde GY a Grabador; ambos seleccionados con objetivo rival; el equipo y monstruo rival van al GY | `20225`,`20196`: **FOTOS DISPONIBLES** |
 
-**Orden de lectura:** Mano → Campo → Cementerio → Extra → resultado. En cada viñeta verificar qué carta está en cada zona y qué texto abre el efecto. **Faltan 26/39 artes** antes de producir capturas finales completas. La carpeta individual incluye solo los 13 JPG existentes de CID real y no suplanta la imagen por un símbolo o un monstruo parecido.
+**Orden de lectura:** Mano → Campo → Cementerio → Extra → resultado. En cada viñeta verificar qué carta está en cada zona y qué texto abre el efecto. **Actualización V42: 39/39 fotografías (13 JPG y 26 PNG) existen y están enlazadas por CID**; aquella nota de 26 faltantes era histórica. La carpeta individual ya no se limita a 13 JPG y no suplanta la imagen por un símbolo o un monstruo parecido.
 
 ### MEMD-G04 → C04: Angbruja como única carta inicial
 
@@ -1134,8 +1134,8 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 | Hito | Acción y zonas | Imagen |
 |---|---|---|
-| **1. PREPARAR GY** | Angbruja Normal→Tatsun Especial→Tatsun se destruye y envía Goblin+Maza+Desvantasma | 4 nombres Memento en GY; fotos **PENDIENTES** |
-| **2. HORN ESPECIAL** | Dragón de Cuerno en mano se Invoca por tener ≥3 nombres distintos en GY | 010 campo; foto **PENDIENTE** |
+| **1. PREPARAR GY** | Angbruja Normal→Tatsun Especial→Tatsun se destruye y envía Goblin+Maza+Desvantasma | 4 nombres Memento en GY; **FOTOS_VERIFICADAS_V42** |
+| **2. HORN ESPECIAL** | Dragón de Cuerno en mano se Invoca por tener ≥3 nombres distintos en GY | 010 campo; **FOTO_VERIFICADA_V42** |
 | **3. FIESTA DESTRUYE** | Fiesta destruye Horn en campo y Especial Hoja Oscura en Defensa desde Deck | Horn GY; Hoja+Angbruja campo |
 | **4. TRES OBJETIVOS** | Efecto Horn: Angbruja propia **+ dos cartas rivales boca arriba** | Hasta tres cartas destruidas **en total**, no tres rivales |
 | **5. RESULTADO** | Hoja propia continúa en campo; no prometer ataque letal ni segundo efecto sin descarte | 003 campo; 001,002,004,008,009,010,016 en GY |
@@ -1179,6 +1179,24 @@ Estas viñetas se colocan **dentro de la guía madre** al fallar el paso indicad
 **Regla editorial A10:** foto auténtica por CID, propósito, requisitos, pasos numerados, **zona tras cada paso**, resultado y rama de fallo. Las doce guías tienen recurso visual y se registró publicación V40; la revisión de reglas sigue su propio estado A07/A09 y no se transforma automáticamente en certificación por contar fotografías.
 
 ---
+
+### A10.3 — Acta de cierre visual y cinco puertas de salida (18-11-2026)
+
+**Guía única actualizada:** [abrir las guías interactivas](guias/GUIA_VISUAL_A01_A10.html#rutas). **12/12 rutas C01–C12** corresponden a G01–G12; **69/69 pasos** contienen imagen oficial CID, nombre, verbo, origen → destino y texto de A09, en disposición vertical. Antes de la ruta, el visor muestra motor A06 y decisión A08; después, mano inicial con solo las cartas conocidas, recursos y zonas finales en paneles de campo, mano, GY, destierro y M/T/materiales Xyz, dejando la posición específica **SIN DATO** cuando A09 no la fija. Se puede cambiar ruta con selector, anterior/siguiente, teclado o controles táctiles; las fotografías abren su archivo para ampliación. **No hay otra ficha canónica ni nuevos combos ficticios**.
+
+**Auditoría de fotos:** 39/39 imágenes físicas originales (13 JPG + 26 PNG) comprobadas por CID; las referencias `../imagenes/<CID>.<ext>` usadas en el visor corresponden a archivos existentes. Se corrigieron las fotografías discordantes con el sujeto de los pasos (p. ej., una viñeta de Tatsun con foto de Angbruja) y **seis pasos vacíos**. El resultado tiene fotos visibles en los **69 pasos**, más cuatro paneles para EX-M01–EX-M04, que explican condiciones y no se suman a combos.
+
+**Interrupciones situadas:** los seis desvíos documentales B01–B06 y las cadenas MC-X01–04/MEM-A se vinculan a puntos pertinentes: B01→C04-2; B02→C05-5; B03→C07; B04→C09-3; B05→C10-4; B06→C12-5. El botón **«El oponente me interrumpe en este paso»** existe en cada paso; al abrirse **suspende el campo base**. Muestra el caso documentado cuando hay uno, o `SIN_CONTINUACION_DEMOSTRADA`; nunca proyecta un final alternativo no reconstruido. El visor conserva como **condicionales** los cortes de Ash, Droll, Rugido, Infinito Temporal y Llamado por la Tumba. A07 detalla costes y cadenas: un paso de la guía **no es replay**.
+
+| Puerta de salida del módulo | Dictamen V42 | Prueba / pendiente que se conserva |
+|---|---|---|
+| **DOCUMENTADA / A09** | **12/12 `DOCUMENTADA_CONDICIONAL`** | A09.7, 24 manos; rutas bajo sus condiciones, no replays. |
+| **GUIA_COMPLETA / A10** | **12/12 `GUIA_COMPLETA_DOCUMENTAL`** | 69 fotos de paso, 39/39 CID, 4 accesos Extra, controles y zonas. QA estructural de imágenes y HTML; **sin captura comparativa de render real**. |
+| **REGLA_CERTIFICADA / A07, A11–A13** | **`NO_CERTIFICADA_EXTERNAMENTE`** | A07 cotejó 34 controles y seis ramas; A11–A13 y ejecución contextual/mesa no se certifican aquí. |
+| **IMPORTABLE / ZIP e importador** | **`IMPORTACION_SIN_COMPROBAR`** | No se generó ZIP nuevo ni se probó el contrato del importador; la importación histórica V40 no valida V42. |
+| **PUBLICABLE / permiso** | **`PUBLICACION_NO_AUTORIZADA`** | Se actualizan archivos del repositorio, **sin despliegue nuevo** ni permiso de presentar como combos certificados. |
+
+**Resultado:** A10 queda **`COMPLETA` en cobertura didáctica documental**. Esto **no equivale** a `REGLA_CERTIFICADA`, `IMPORTABLE` o `PUBLICABLE`. La fidelidad de render en navegador y cualquier simulación requieren ensayo/captura separados, sin atribuir resultados que no ocurrieron. Inventario inalterado: **Main 41 / Extra 15 / Side 14 / Reserva 0**. A01–A10 quedan cerrados en su propio alcance documental; el próximo trabajo será solo el que Miguel solicite.
 
 ## ITERACIÓN 2 · Profundización verificable de A01–A10 (17-11-2026)
 
