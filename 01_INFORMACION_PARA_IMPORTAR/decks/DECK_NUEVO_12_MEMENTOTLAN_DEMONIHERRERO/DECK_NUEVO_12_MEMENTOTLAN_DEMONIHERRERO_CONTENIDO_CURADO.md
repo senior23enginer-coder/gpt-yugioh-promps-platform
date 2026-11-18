@@ -27,7 +27,7 @@
 | **A03** Inventario | **COMPLETA — INVENTARIO APROBADO POR MIGUEL (18-11-2026)** | **70/70 copias, 39/39 identidades, 41/15/14/0 zonas**; ID 671, formato `tcg_advanced`; aprobación editorial expresa del propietario registrada | Sin pendientes propios de inventario; conservar Side de 14 y lista inmutable |
 | **A04** Identidad, CID y fotos | **COMPLETA — AUDITORÍA DOCUMENTAL Y ENLACES (18-11-2026)** | **39/39 CID únicos**, 39/39 imágenes físicas (13 JPG, 26 PNG), 39/39 referencias visuales de guía existentes; todas las zonas coherentes con A03 | Sin faltantes en A04; reevaluar enlaces si se regenera la guía. La importación previa V40 no certifica una nueva importación |
 | **A05** Efectos y uso | **COMPLETA — 39/39 fichas y cotejo oficial (18-11-2026)** | 39/39 CID contrastados individualmente con Konami Neuron; A05.3 uso/riesgo y A05.4 requisitos/límites por carta, enlazados a matriz A06.2; 70/70 copias | Sin pendiente propio de ficha A05. Rutas y cadenas condicionales siguen bajo A07–A09 sin acreditación automática |
-| **A06** Sinergias y Extra | PARCIAL AVANZADA | **39/39 filas**, **40 relaciones dirigidas**, 3 motores/puentes; **13/13 identidades Extra con materiales descritos**, varias condicionales | Contrastar en mesa los accesos menos útiles; resolver las interrupciones reales |
+| **A06** Sinergias y Extra | **COMPLETA — auditoría documental (18-11-2026)** | 39/39 identidades; 40 relaciones dirigidas; 2 motores y grupo de apoyos; mapa fotográfico A06.5; 13/13 Extra clasificados, César sin ruta reproducible | Sin pendiente propio de cobertura A06; legalidad de cadenas y rutas completas se conserva en A07/A09 |
 | **A07** Reglas y cadenas | PARCIAL AVANZADA | **34 controles R01–R34**, **12 respuestas adversarias**, **6 desvíos B01–B06**, **6 controles MEM-A01–06** y **4 cadenas MC-X01–04** contra rivales registrados | Otros estados adversarios/rulings finos que no se deducen del texto; ninguna partida física es obligación del análisis IA |
 | **A08** Estrategia y Side | PARCIAL AVANZADA | **34 prefichas**; **5 planes Side** exactos, y **3/3 matchups elegidos** con Crystron 677, Purrely 660 y Salamangreat 673 | Rendimiento empírico no disponible; la selección no cubre a todos los decks registrados |
 | **A09** Jugadas y manos | PARCIAL AVANZADA | **12 rutas C01–C12**: **9 familias + 3 variantes**; 3 continuaciones, 4 auditorías Extra; **24 escenarios H01–H24**; 0 replays | Resolver otros estados de manos/objetivos sin asumir cartas inexistentes; contrastación de mesa opcional del usuario |
@@ -400,6 +400,38 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 | EX-M02 · TY-PHON | Se cumplió la condición temporal de Invocaciones del Extra rivales y controlas monstruo propio apropiado | Respuesta Xyz a una amenaza, a costa de más invocaciones propias ese turno | Si la condición rival no consta o todavía necesitas continuar invocando |
 | EX-M03 · Aero Tiburón | Dos monstruos Nivel 3 simultáneamente en campo y libres como materiales | Retener una salida Xyz marginal cuyo daño depende de desterrados propios reales | Si uno de los cuerpos ya se consumió o no hay desterrados propios para el daño |
 | EX-M04 · César | Grabador y Duque, ambos Demonios Nivel 6, presentes simultáneamente y no consumidos | Xyz Rango 6 con interrupción condicionada a material y ventana de Invocación Especial | Si uno se usó antes, no quedan dos Nivel 6 o se agotaron los materiales; no presentar solo la fórmula como combo independiente |
+
+### A06.5 — Mapa fotográfico resumido de relaciones (18-11-2026)
+
+Nodos con fotografías reales por CID y flechas causales. Estas relaciones no son combos ejecutables por sí solas; sus requisitos completos están en REL-M01–M40 y en la matriz A06.2. No se crea otra matriz de inventario.
+
+| Carta origen | Acción dirigida | Carta destino | Evidencia |
+|---|---|---|---|
+| <img src="imagenes/19364.png" width="55" alt="Carta MEMD-001"> **001** | **BUSCA tras Invocación** → | <img src="imagenes/19362.png" width="55" alt="Carta MEMD-002"> **002** | REL-M01 / C01 |
+| <img src="imagenes/19362.png" width="55" alt="Carta MEMD-002"> **002** | **ENVÍA tras autodestrucción** → | <img src="imagenes/19472.png" width="55" alt="Carta MEMD-009"> **009** | REL-M02 / C01 |
+| <img src="imagenes/19472.png" width="55" alt="Carta MEMD-009"> **009** | **RECUPERA del GY al Invocarse** → | <img src="imagenes/20199.png" width="55" alt="Carta MEMD-007"> **007** | REL-M04 / C01 |
+| <img src="imagenes/19904.png" width="55" alt="Carta MEMD-015"> **015** | **FUSIONA tres Memento** → | <img src="imagenes/20216.png" width="55" alt="Carta MEMD-026"> **026** | REL-M10 / C01 |
+| <img src="imagenes/20216.png" width="55" alt="Carta MEMD-026"> **026** | **ENVÍA tres cartas Memento** → | <img src="imagenes/19360.png" width="55" alt="Carta MEMD-005"> **005** | REL-M11 / C01 |
+| <img src="imagenes/19932.png" width="55" alt="Carta MEMD-032"> **032** | **MATERIAL Link Demonio LUZ** → | <img src="imagenes/20225.jpg" width="55" alt="Carta MEMD-030"> **030** | REL-M21 / C03 |
+| <img src="imagenes/20225.jpg" width="55" alt="Carta MEMD-030"> **030** | **INVOCA Demoniherrero al tributar** → | <img src="imagenes/20196.jpg" width="55" alt="Carta MEMD-011"> **011** | REL-M22 / C03 |
+| <img src="imagenes/19878.png" width="55" alt="Carta MEMD-027"> **027** | **BUSCA tras destruir Memento** → | <img src="imagenes/19366.png" width="55" alt="Carta MEMD-004"> **004** | REL-M17 / C06 |
+| <img src="imagenes/9139.png" width="55" alt="Carta MEMD-017"> **017** | **RESTRINGE Invocación propia** → | <img src="imagenes/19364.png" width="55" alt="Carta MEMD-001"> **001** | REL-M24 / conflicto |
+
+### A06.6 — Cierre de trazabilidad y compatibilidad (18-11-2026)
+
+**Cobertura:** 39/39 identidades, 70/70 copias y matriz única A06.2 con clase funcional/relación/evidencia por fila: Main 22 identidades/41 copias, Extra 13/15, Side 5/14 y Reserva 0. Fuwalos ocupa una sola identidad compartida entre Main y Side. Los 39 CID enlazan a A05 y a fichas oficiales. Cada carta tiene función causal o utilidad autónoma, sin inventar combinaciones.
+
+**Motores:** MEMD-M1 es el motor principal de autodestrucción, envío, recuperación y Fusión Memento; MEMD-M2 es el submotor Demoniherrero subordinado (Luna, Réquiem, Grabador y salidas condicionales). MEMD-M3 es **apoyo**, no tercer motor autónomo; las handtraps no se convierten en engine por estar en Main.
+
+**Relaciones:** 40/40 aristas REL-M01–M40 numeradas, con participantes de la matriz (cero IDs de identidad inexistentes). Las 12 rutas C01–C12 referenciadas están documentadas. REL-M38–M40 son conflictos/costes, no sinergias positivas; 40 relaciones no significan 40 combos.
+
+**Extra 13/13:** nueve identidades tienen salidas documentales en C01–C10, tres dependen de EX-M01–M03 (Dragostapelia, TY-PHON y Aero Tiburón), y César 028 posee materiales de dos Demonios Nivel 6 **pero no una ruta reproducible completa desde mano fijada**. EX-M04 solo expresa una posibilidad condicional: si Grabador 011 y Desvantasma 009 están en campo, Goblin 004 en GY, Fusión 015 accesible y ocurrió destrucción propia por efecto ese turno, 015 puede Fusionar Duque 034 con 009 de campo + 004 de GY, conservando Grabador; **después** ambos Nivel 6 podrían emplearse en César. No presumir este estado desde C10: Secuencia baraja Grabador para Duque y así no lo deja como material de César. Estado de EX-M04: DOCUMENTADO_CONDICIONAL, SIN_RUTA_REPRODUCIBLE.
+
+**Conflictos:** Oleada de Calor frente a Invocaciones propias; Droll frente a adiciones desde Main; Lancea frente a destierros propios durante turno rival; Goblin en mano para protección frente a Goblin gastado; TY-PHON contra continuidad y efectos propios 3000+; Gordiano contra reserva de Extra por coste. El orden de decisión permite evitar varios de ellos.
+
+**Diagnóstico:** COHERENTE_CON_CONFLICTOS_GESTIONABLES. Sin cambios del inventario aprobado 41/15/14/0. Las opciones marginales quedan como VALIDAR_ACCESO o ALTERNATIVA_NO_DEMOSTRADA, sin proponer sustituciones arbitrarias.
+
+**Estado A06: COMPLETA en cobertura documental de sinergias, motores, incompatibilidades y accesos Extra condicionados.** Esto no convierte las rutas de A09 ni las cadenas A07 en partidas certificadas. Siguiente apartado: A07 solo por indicación de Miguel.
 
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
