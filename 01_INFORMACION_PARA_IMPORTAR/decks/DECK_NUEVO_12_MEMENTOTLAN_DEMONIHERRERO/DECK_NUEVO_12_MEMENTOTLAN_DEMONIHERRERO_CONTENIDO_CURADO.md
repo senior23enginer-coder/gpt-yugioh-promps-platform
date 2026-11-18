@@ -1328,6 +1328,14 @@ Estas viñetas se colocan **dentro de la guía madre** al fallar el paso indicad
 
 **Resultado:** A10 queda **`COMPLETA` en cobertura didáctica documental**. Esto **no equivale** a `REGLA_CERTIFICADA`, `IMPORTABLE` o `PUBLICABLE`. La fidelidad de render en navegador y cualquier simulación requieren ensayo/captura separados, sin atribuir resultados que no ocurrieron. Inventario inalterado: **Main 41 / Extra 15 / Side 14 / Reserva 0**. A01–A10 quedan cerrados en su propio alcance documental; el próximo trabajo será solo el que Miguel solicite.
 
+### A10.4 — Corrección de tabla y nueva revisión estática (18-11-2026)
+
+**Defecto corregido:** el cuadro HTML `a10-current-status` tenía **cuatro encabezados para cinco celdas por fila**; se incorporó la columna «Descripción». El resultado es **5 encabezados, 10 filas y 50 celdas**, con la misma información y sin alterar las rutas ni los estados del deck.
+
+**Verificaciones ejecutadas sobre la guía local:** `data-route` C01–C12 únicos (**12/12**), **69 pasos**, **668 referencias locales `src`/`href` de imágenes**, **0 archivos de imagen faltantes**. Se preservaron 39 imágenes únicas CID y el inventario aprobado **41/15/14**. La corrección del encabezado y este recuento son verificaciones de estructura, **no** una validación de resolución de efectos.
+
+**Límite de QA:** se intentó abrir la guía mediante Chromium headless local, pero el proceso quedó bloqueado por la restricción del entorno (`socket() failed: Operation not permitted`), sin render, capturas ni recorrido interactivo acreditados. Por ello **A10 conserva `COMPLETA_DOCUMENTAL`**, y los controles de **QA visual escritorio/móvil**, **comparación con las dos superficies reales del editor** e **importación estructural** siguen `PENDIENTE` como aceptación externa. La calculadora no es necesaria para esas pruebas. No se atribuye publicación nueva.
+
 ## ITERACIÓN 2 · Profundización verificable de A01–A10 (17-11-2026)
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
