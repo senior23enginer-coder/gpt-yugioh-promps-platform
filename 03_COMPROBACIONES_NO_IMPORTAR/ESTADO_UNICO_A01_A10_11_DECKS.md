@@ -1,5 +1,9 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Ejecución individual A01 — Memento 671 (18-11-2026)
+
+**A01 cerrado documentalmente, sin extender a A02:** se consolidó en la ficha canónica de Mementotlán/Demoniherrero la identidad del motor principal frente al puente Demoniherrero, cuatro prioridades tácticas, las nueve familias/12 rutas ya existentes y el contraste con MC-X01–04 y los matchups Crystron 677, Purrely 660 y Salamangreat 673. **Estado A01: COMPLETA en rol y propósito**, no certificación de jugadas A05–A09 ni replay/mesa. Inventario intacto: 41 Main, 15 Extra, 14 Side, 39 identidades. No se creó ninguna ruta ni se alteraron los estados de A02–A10. Si evidencia posterior invalida una premisa, reabrir solo la afirmación dependiente por ID. Próximo apartado A02 **solo si se solicita**.
+
 ## Política de selección y secuencia A01–A10 — 18-11-2026
 
 **Cambio autorizado exclusivamente en prompts:** el maestro y los módulos 02 y 32 distinguen deck nuevo/existente y selección explícita de apartados o A01–A10 por defecto; ejecutan cada Axx en orden numérico ascendente, terminando su trabajo documental y lógico verificable antes del siguiente. A01, A03 y A05 no ejecuta A02/A04 por inferencia. Un bloqueo imprescindible detiene la secuencia y conserva la reanudación; PENDIENTE_MESA no bloquea por sí solo el cierre documental. No se alteraron inventarios, rutas ni publicaciones. Las tres huellas modificadas se reflejan en la tabla de integridad.
