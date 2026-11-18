@@ -893,6 +893,27 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 ### A09.0 — Accesos adicionales del Extra: demostrar no significa recomendar
 
+#### A09.C — Cotejo documental individual de C01–C12 contra A07 (18-11-2026)
+
+**Tarea editorial independiente de la calculadora.** Se contrastaron las doce secuencias anteriores con los requisitos R02–R07, los recursos declarados y los destinos finales; el resultado no cambia ni renumera combos. El criterio `CONDICIONAL_DOCUMENTADO` significa que el recorrido descrito requiere exactamente sus cartas/zonas y efectos resueltos, **no** `CERTIFICADO_POR_REPLAY`.
+
+| Ruta | Requisitos que deben comprobarse antes de elegirla | Corte o límite que impide atribuir el final automáticamente | Resultado de cotejo |
+|---|---|---|---|
+| **C01** | Angbruja+Fusión en mano, Tatsun/Desvantasma/Dormiveja y tres envíos de Rey disponibles; 3 materiales de Fusión y 5 nombres para 005 | Sin recuperación de Dormiveja o envío de Rey no adjudicar los dos jefes; Maza queda en GY, no en mano | `CONDICIONAL_DOCUMENTADO` |
+| **C02** | Angbruja+Fiesta, 005 y Tatsun disponibles, tres envíos Memento distintos dentro de Nivel 5 | No autorreanimar Desvantasma y simultáneamente contarla entre los cinco nombres barajados sin rehacer zonas | `CONDICIONAL_DOCUMENTADO` |
+| **C03** | Angbruja, acceso a Luna/Réquiem/Grabador y monstruo rival seleccionable | Si se pierde el equipo Réquiem, Grabador no manda al rival al GY; no inventar búsqueda Fiendsmith ausente | `CONDICIONAL_DOCUMENTADO` |
+| **C04** | Angbruja sola, Maza/Goblin/Desvantasma/Fusión y envíos posteriores disponibles en Deck | Maza se obtiene/usa mediante efectos anteriores; con búsqueda o envío negado no aparece Fusión ni el doble jefe | `CONDICIONAL_DOCUMENTADO` |
+| **C05** | Hoja sola, dos copias de Fusión en Deck y las piezas del envío en sus zonas declaradas | Una Fusión se destierra como coste desde GY; la segunda usa su primer efecto, sin repetir por nombre el mismo efecto | `CONDICIONAL_DOCUMENTADO` |
+| **C06** | Angbruja+Fusión, dos materiales de Dragón Gemelo, Dormiveja destruible en mano y cinco nombres para 005 | Goblin termina en mano: la protección aún exige descartarlo en Main con 005 controlada; no está activa de forma automática | `CONDICIONAL_DOCUMENTADO` |
+| **C07** | Angbruja+Fusión, Quimera con tres nombres, al menos un material de mano y uno de campo; rival con cartas destruibles | El robo depende de que pueda hacerse; la destrucción posterior queda sujeta al texto y a las protecciones rivales | `CONDICIONAL_DOCUMENTADO` |
+| **C08** | Angbruja+Tatsun como dos efectos para Link S:P; posterior activación rival con dos monstruos boca arriba seleccionables | No atribuir destierro al Invocar S:P sin material Extra, ni destierro rápido antes de la activación rival | `CONDICIONAL_DOCUMENTADO` |
+| **C09** | Angbruja+Goblin, Réquiem equipado realmente a Grabador y segundo Demonio en mano | El envío como procedimiento de Princesa no implica su robo, y perder el equipo impide la Invocación descrita | `CONDICIONAL_DOCUMENTADO` |
+| **C10** | Angbruja+Fiesta+Goblin, Grabador y Desvantasma disponibles; materiales Demonio en GY para Secuencia | Duque debe existir y resolver para otorgar Normal adicional; Angbruja no vuelve a buscar ese turno | `CONDICIONAL_DOCUMENTADO` |
+| **C11** | Angbruja+Gran Fuga+Fusión; Goblin y tres envíos de Rey accesibles | Tributar Angbruja para Gran Fuga no es destruir; es la destrucción posterior de Tatsun la que habilita GY en Fusión | `CONDICIONAL_DOCUMENTADO` |
+| **C12** | Angbruja+Horn+Fiesta; 3 nombres Memento en GY antes de invocar Horn y 3 objetivos boca arriba al activarse su efecto | Se requiere un Memento propio y dos cartas rivales boca arriba legalmente seleccionables; no destruir cartas Colocadas | `CONDICIONAL_DOCUMENTADO` |
+
+**Resultado del cotejo:** `12/12` rutas inspeccionadas, `12/12` conservadas **como condicionales documentales**, `0/12` promovidas a replay o partida certificada y **sin cambios de inventario, pasos, ID o tablero final**. No se detectó en esta pasada una contradicción documental demostrada que autorice reescribir una ruta sin reproducir el estado específico. Quedan pendientes de prueba funcional las elecciones variables, respuestas encadenadas y recursos no observados; se mantienen bajo A07.F y A09, sin afirmar cierre técnico.
+
 **EX-M04 — César (028):** dos Demonios Nivel 6 disponibles (Grabador + Duque) pueden usarse como materiales Xyz; comprobar zona y recursos, sin atribuir una partida simulada.
 
 **EX-M01 — Predaplanta Dragostapelia (024), durante el siguiente turno del adversario.**
