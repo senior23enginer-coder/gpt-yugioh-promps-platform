@@ -2,6 +2,8 @@
 
 ## Corrección transversal de contratos de prompts — 17-11-2026
 
+**Verificación de cierre de cinco hallazgos críticos:** se precisó en el orquestador que A36 permanece literalmente intacto pero su salida histórica `APARTADO_36` y su dependencia `00_REGLAS_COMPARTIDAS.md` no se ejecutan ni reactivan; solo hay seguimiento A01–A10. Se corrigieron referencias operativas remanentes de 13 a 16 decks. El módulo 31 ahora distingue integridad de 36 prompts de progreso real por diez ejes y contiene matriz de transición por documentación, guía y reglas. El módulo 10 separa las cinco puertas de salida (documentación, guía, reglas, importador, autorización) para no confundir archivo importable con ruta certificada o contenido publicado. La fuente de inventario aprobada prevalece para cantidades; cualquier diferencia con Station X requiere registro y decisión expresa, sin cambio silencioso. Se actualizaron únicamente las huellas de los tres prompts editados en esta revisión. No hubo nuevos análisis de decks ni importación/publicación.
+
 Se revisaron los 39 prompts y se editaron puntualmente **35**: el orquestador, el anexo y los módulos 02, 04–35. Los módulos 01, 03 y 36 y el documento base de reglas permanecen byte por byte idénticos. Se mantienen 36/36 módulos y 3/3 documentos base; no se borró, renombró ni fusionó ninguno. Las huellas actualizadas están en la tabla única inferior.
 
 **Decisiones de consistencia:** alcance operativo de 16 decks e IDs reales confirmados; seguimiento únicamente A01–A10; módulos 11–36 como criterios auxiliares sin campos de progreso; fuentes físicas aprobadas prevalecen para cantidades ante diferencias con producción; estados documentales, reglamentarios, de guía, importación y publicación separados. Se completaron mínimos de evidencia A05/A06/A08/A09, contratos de interrupciones/ramas, Side, matchups, rúbricas, cálculos probabilísticos, manos reproducibles y revalidación dirigida por dependencia. Las cifras de 11 y 13 decks siguen como cortes históricos fechados. La corrección **no reejecuta ni certifica combos**, no cambia inventarios, no importa a Station X y no publica contenido de la aplicación.
@@ -112,7 +114,7 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | `02_PROMPT_PARA_CODEX/apartados/07_MECANICAS_Y_REGLAS_POR_FORMATO.md` | `46f57693df46e098f7552c2d05615b59493c4dd545cc268c492f8b8adc238f12` |
 | `02_PROMPT_PARA_CODEX/apartados/08_EXPLORACION_Y_CLASIFICACION_EXHAUSTIVA_DE_JUGADAS.md` | `85f94deb0d4a5037c85efbc92974d56bfe84d2401c12156bb73c9031c9a659ad` |
 | `02_PROMPT_PARA_CODEX/apartados/09_FICHA_UNICA_OBLIGATORIA_DE_CADA_COMBO_COMPLETO.md` | `2bd6400a2bf931605f53bf2872d90c781ba6a18d2d69123013df36f01a7fbf76` |
-| `02_PROMPT_PARA_CODEX/apartados/10_GENERACION_DE_GUIAS_VISUALES_DE_COMBOS_Y_ESTRATEGIAS_YU_GI_OH.md` | `7e21f0420007b44983ffaf20e147b67e92bb621e0132cada42e69be4bea4c33f` |
+| `02_PROMPT_PARA_CODEX/apartados/10_GENERACION_DE_GUIAS_VISUALES_DE_COMBOS_Y_ESTRATEGIAS_YU_GI_OH.md` | `0774c339ffbe14941a7b3069c3e472c66ec94b85797575bb7f2f79ee39830865` |
 | `02_PROMPT_PARA_CODEX/apartados/11_CADENAS_Y_RESOLUCION_DE_EFECTOS.md` | `5b95a0f07b7936de2720a989d7da0450b1aa0cae53fff3c9384cfe33c8d732b8` |
 | `02_PROMPT_PARA_CODEX/apartados/12_RESPUESTAS_DEL_ADVERSARIO.md` | `836dee08755b6b6700f7549af25d6fe424d3ee9c0d90fdfe910045aa200ef99f` |
 | `02_PROMPT_PARA_CODEX/apartados/13_RECUPERACION_VARIANTES_Y_RAMAS_SIN_SALIDA.md` | `b2d953c25accf1313c3bc0f6c7810feeb860a895b0052575743f20cec9bce07c` |
@@ -133,13 +135,13 @@ Las **78 identidades nuevas** se han enumerado una vez por deck en las dos nueva
 | `02_PROMPT_PARA_CODEX/apartados/28_DIEZ_ESCENARIOS_DE_MANO_PARA_ENTRENAMIENTO.md` | `575fda765d630dedec1a7e93efcaa2f437e91be7df48c4057a957bb465661dc1` |
 | `02_PROMPT_PARA_CODEX/apartados/29_ERRORES_FRECUENTES.md` | `582eb9e8a3a37158ce5d8e60035603bba6a7c970c04440b663bcb997b4704aaf` |
 | `02_PROMPT_PARA_CODEX/apartados/30_COMPROBACION_INTERNA_Y_BITACORA_UNICA.md` | `4e4697996b162a33b322347555726497c9f095badca1ded42d7f21958697e82d` |
-| `02_PROMPT_PARA_CODEX/apartados/31_ESTADOS_UNICOS_Y_PORCENTAJES_HONESTOS.md` | `a200220bd681348be98d53b8bd8d589e1171ec95c29af9024ea01175a7034065` |
+| `02_PROMPT_PARA_CODEX/apartados/31_ESTADOS_UNICOS_Y_PORCENTAJES_HONESTOS.md` | `eec9114a9ffeb8bfc229e516f8a2efc77dc5d840f00640bfa4a3c3d0d810e455` |
 | `02_PROMPT_PARA_CODEX/apartados/32_CONTROL_DE_VERSIONES_Y_REANUDACION.md` | `6236d9f73da23fb37031667a9e38a563e818b851b639146ae6341927d906a549` |
 | `02_PROMPT_PARA_CODEX/apartados/33_RESUMEN_FINAL_POR_DECK.md` | `f44f9b0b42bfa387400243018804ee030d41c30af23339cbbac378c8d3ccfe5c` |
 | `02_PROMPT_PARA_CODEX/apartados/34_CATALOGO_DE_DECKS.md` | `b622576b1f22c7ce99a5278d59c2d4ac13c90461ce910c537b79ac44a5ce7930` |
 | `02_PROMPT_PARA_CODEX/apartados/35_ESTADISTICAS_DEL_CATALOGO.md` | `9d8d969af51e332978f71a429407f7161b8fbd3286f502a2ca881a905dc00cbc` |
 | `02_PROMPT_PARA_CODEX/apartados/36_CONFIRMACION_FINAL_Y_CONTINUIDAD.md` | `758e2d9a98df75ec2d9b7e7ec0c31d877dd48e1e36eb676c9f7de33d83c2de72` |
-| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `ee1b4692cee0db1fc539c43648dde91655b494c537a1b8e7c43ddacacbd42fd8` |
+| `02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md` | `99d405a26db258a12ea0c6041de1f07c8a06508288b36464a96068c4657db599` |
 | `02_PROMPT_PARA_CODEX/01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md` | `3b552fbfaf7cc9d0f9892c790afd055a4a43c8a77fb71d7de900f667ea0466e1` |
 | `02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md` | `bd56599d7c82fe3f1f5ce89c592ddd94261b7512858bb4fffff968934f3fb14e` |
 
