@@ -1,5 +1,9 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## Ejecución individual A02 — Memento 671 (18-11-2026)
+
+**A02 cerrado como planificación documental, sin ejecutar A03:** la ficha Mementotlán/Demoniherrero 671 concilia planes de primero, segundo, control con Oleada, conservación, recuperación de medio/tardío y respuestas a interrupciones mediante C01–C12, B01–B06, MC-X01–04 y H01–H24. Se distinguen 20 ejercicios parciales H01–H20 y cuatro ejemplos explícitos de cinco cartas H21–H24; ninguno es replay ni muestra estadística. Probabilidades combinatorias sobre Main 41 recalculadas: 56,68 %, 73,13 %, 9,36 %, 33,02 % y 16,57 %; no miden victoria ni éxito de combos. **Estado A02: COMPLETA en planes y decisiones**; la ejecución causal y resultados empíricos permanecen en A05–A09. Inventario 41/15/14 intacto; A03–A10 sin modificación de estado.
+
 ## Ejecución individual A01 — Memento 671 (18-11-2026)
 
 **A01 cerrado documentalmente, sin extender a A02:** se consolidó en la ficha canónica de Mementotlán/Demoniherrero la identidad del motor principal frente al puente Demoniherrero, cuatro prioridades tácticas, las nueve familias/12 rutas ya existentes y el contraste con MC-X01–04 y los matchups Crystron 677, Purrely 660 y Salamangreat 673. **Estado A01: COMPLETA en rol y propósito**, no certificación de jugadas A05–A09 ni replay/mesa. Inventario intacto: 41 Main, 15 Extra, 14 Side, 39 identidades. No se creó ninguna ruta ni se alteraron los estados de A02–A10. Si evidencia posterior invalida una premisa, reabrir solo la afirmación dependiente por ID. Próximo apartado A02 **solo si se solicita**.
