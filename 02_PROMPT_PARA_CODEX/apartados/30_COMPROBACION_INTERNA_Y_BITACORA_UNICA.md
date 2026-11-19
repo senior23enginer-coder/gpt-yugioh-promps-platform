@@ -1,5 +1,7 @@
 # Apartado 30 — COMPROBACIÓN INTERNA Y BITÁCORA ÚNICA
 
+**Contrato de presentación Station X — prevención de entregas incompletas (19-11-2026)**: añadir un control bloqueante de **presentación completa** independiente de la validación de ZIP y reglamento. Reportar: cantidad de cartas/CID con imagen válida, total de pasos y cuántos tienen `photos`, rutas y cuántas tienen `endboard.variants` con zonas verificadas, estilo breve y resumen de ficha, textos técnicos completos, renderizado en móvil/escritorio, ausencia de textos globales de ranking en datos del deck, y preservación de ID/inventario. Una ruta sin fotos o tablero se conserva como documental parcial: no anunciar «GUÍA VISUAL COMPLETA», ni `station-x-visual-v1`. No rerun A01–A10 por una reparación de presentación; usar el contenido existente y registrar los campos que no puedan cotejarse.
+
 **Regla vigente confirmada por Miguel:** este apartado existe SOLO para
 trabajar con el Prompt Maestro. Station X NO almacena bitácoras ni estados
 editoriales. Está prohibido implementar o exigir vistas, registros, tablas,

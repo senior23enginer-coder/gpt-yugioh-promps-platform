@@ -1902,10 +1902,13 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Cristron / Horus — estudio individual A01–A10, profundización v3 (17-11-2026)",
-      "Tipo de estrategia": "Consultar el plan de juego y las condiciones de cada línea.",
+      "Arquetipo": "Cristron / Horus",
+      "Tipo de estrategia": "Control reactivo por Sincronía Máquina con un motor Horus de Nivel 8 y Xyz.",
       "Estilo de juego": "Dictamen: híbrido de control reactivo por Sincronía Máquina (Cristron) y presencia autónoma de Nivel 8 / Xyz (Horus); las distintas cartas de interacción/respuestas no convierten por sí solas todas las manos en un tablero. Objetivo 1: sobrevivir e interrumpir desde Tristaros/Citree, obtener ventaja con Elesqueletus y convertir recursos en presión; objetivo 2: desarrollar Amset + Hapi a Número 90 para negar efecto de monstruo o a Vampiro Zombi para moler y extender; objetivo 3: llegar a Nova → Infinito con dos Nivel 5 Máquina (C06) para negar la activación de cartas/efectos; objetivo 4: ganar tempo con Gotas Prohibidas / Súper Polimerización antes de aplicar bloqueos del Extra. Son objetivos tácticos, no victorias garantizadas.",
-      "Cómo se juega": "Dictamen: híbrido de control reactivo por Sincronía Máquina (Cristron) y presencia autónoma de Nivel 8 / Xyz (Horus); las distintas cartas de interacción/respuestas no convierten por sí solas todas las manos en un tablero. Objetivo 1: sobrevivir e interrumpir desde Tristaros/Citree, obtener ventaja con Elesqueletus y convertir recursos en presión; objetivo 2: desarrollar Amset + Hapi a Número 90 para negar efecto de monstruo o a Vampiro Zombi para moler y extender; objetivo 3: llegar a Nova → Infinito con dos Nivel 5 Máquina (C06) para negar la activación de cartas/efectos; objetivo 4: ganar tempo con Gotas Prohibidas / Súper Polimerización antes de aplicar bloqueos del Extra. Son objetivos tácticos, no victorias garantizadas.\n\nConflictos estructurales reales: (a) Smiger/Thystvern en campo restringen el resto del turno a Sincronías Máquina si usan su efecto de destruir; (b) Sulfador al invocarse por su efecto propio restringe a Máquinas del Extra por el resto del turno; (c) tras cualquiera de esas restricciones, S:P, Número 90, Vampiro Zombi, Garura y Fangodragón pueden quedar inaccesibles ese turno según el caso; (d) la segunda habilidad de Hagoita exige un Cantante «Velociroid» que esta lista no lleva. No declarar «puedo sacar cualquier Extra».\n\nFortalezas: dos motores que pueden trabajar en turnos distintos, recuperación de Cristron mediante Inclusión/Elesqueletus, descarte Horus que alimenta Cementerio, acceso alternativo a Infinito sin Normal (C06), sinergia Amset→Smiger de Cementerio (C07), salidas Máquina mediante las restricciones y cartas disruptivas genéricas. Debilidades: dependencia de Normal para algunos starters, escasez de Cantantes frente a 15 Extra, gastar Smiger en Campo impide usar su búsqueda de Cementerio ese mismo turno, C06 consume otra copia de Azufafnir del Deck y el Side puede bloquear nuestras propias búsquedas o destierros."
+      "Cómo se juega": "Dictamen: híbrido de control reactivo por Sincronía Máquina (Cristron) y presencia autónoma de Nivel 8 / Xyz (Horus); las distintas cartas de interacción/respuestas no convierten por sí solas todas las manos en un tablero. Objetivo 1: sobrevivir e interrumpir desde Tristaros/Citree, obtener ventaja con Elesqueletus y convertir recursos en presión; objetivo 2: desarrollar Amset + Hapi a Número 90 para negar efecto de monstruo o a Vampiro Zombi para moler y extender; objetivo 3: llegar a Nova → Infinito con dos Nivel 5 Máquina (C06) para negar la activación de cartas/efectos; objetivo 4: ganar tempo con Gotas Prohibidas / Súper Polimerización antes de aplicar bloqueos del Extra. Son objetivos tácticos, no victorias garantizadas.\n\nConflictos estructurales reales: (a) Smiger/Thystvern en campo restringen el resto del turno a Sincronías Máquina si usan su efecto de destruir; (b) Sulfador al invocarse por su efecto propio restringe a Máquinas del Extra por el resto del turno; (c) tras cualquiera de esas restricciones, S:P, Número 90, Vampiro Zombi, Garura y Fangodragón pueden quedar inaccesibles ese turno según el caso; (d) la segunda habilidad de Hagoita exige un Cantante «Velociroid» que esta lista no lleva. No declarar «puedo sacar cualquier Extra».\n\nFortalezas: dos motores que pueden trabajar en turnos distintos, recuperación de Cristron mediante Inclusión/Elesqueletus, descarte Horus que alimenta Cementerio, acceso alternativo a Infinito sin Normal (C06), sinergia Amset→Smiger de Cementerio (C07), salidas Máquina mediante las restricciones y cartas disruptivas genéricas. Debilidades: dependencia de Normal para algunos starters, escasez de Cantantes frente a 15 Extra, gastar Smiger en Campo impide usar su búsqueda de Cementerio ese mismo turno, C06 consume otra copia de Azufafnir del Deck y el Side puede bloquear nuestras propias búsquedas o destierros.",
+      "Estilo breve": "Control reactivo y combo híbrido: Sincronías Máquina Cristron, recuperación del Cementerio y presión Horus/Xyz cuando las restricciones lo permiten.",
+      "Resumen para ficha": "Defiende y desarrolla recursos con el motor Cristron; utiliza Horus como línea independiente para Xyz de Rango 8 o extensión. Comprueba los bloqueos de Máquina antes de invocar desde el Extra Deck.",
+      "Referencia documental del estudio": "Cristron / Horus — estudio individual A01–A10, profundización v3 (17-11-2026)"
     },
     "summary": "",
     "engine_maps": [],
@@ -1954,7 +1957,15 @@
             "number": 4,
             "action": "Durante Main Phase o Battle Phase del rival, activa Efecto Rápido de Citree, seleccionando Smiger no Cantante de tu GY. Si se resuelve, Invoca a Smiger con efectos negados y, inmediatamente, realiza Sincronía usando solo Citree (2) + Smiger (3) → Hagoita de Alta-Velociroid (Nivel 5, Máquina).\n- Campo final verificable bajo esos supuestos: Hagoita ×1; Citree y Smiger desterrados como materiales por el efecto de Citree; otros recursos de mano desconocidos y no contados. Hagoita no es una negación universal: su Efecto Rápido tributa a sí misma para aumentar Nivel en Campo; su autorresurrección requiere un Cantante «Velociroid» ausente de esta lista.\n- Puntos de fallo/ramas: si el rival niega Smiger antes de resolver, no aparece Citree; si destierra Smiger del GY antes de Citree, falta objetivo; si evita la Sincronía al resolver Citree, no afirmar tablero final. R01/R02/R06; RGL01/03/07.",
             "detail": "Durante Main Phase o Battle Phase del rival, activa Efecto Rápido de Citree, seleccionando Smiger no Cantante de tu GY. Si se resuelve, Invoca a Smiger con efectos negados y, inmediatamente, realiza Sincronía usando solo Citree (2) + Smiger (3) → Hagoita de Alta-Velociroid (Nivel 5, Máquina).\n- Campo final verificable bajo esos supuestos: Hagoita ×1; Citree y Smiger desterrados como materiales por el efecto de Citree; otros recursos de mano desconocidos y no contados. Hagoita no es una negación universal: su Efecto Rápido tributa a sí misma para aumentar Nivel en Campo; su autorresurrección requiere un Cantante «Velociroid» ausente de esta lista.\n- Puntos de fallo/ramas: si el rival niega Smiger antes de resolver, no aparece Citree; si destierra Smiger del GY antes de Citree, falta objetivo; si evita la Sincronía al resolver Citree, no afirmar tablero final. R01/R02/R06; RGL01/03/07.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 12157,
+                "name": "Hagoita de Alta-Velociroid",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -1983,7 +1994,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C02",
@@ -2010,7 +2022,15 @@
             "number": 1,
             "action": "Activa Inclusión Cristron (Mágica Continua). En su activación busca Smiger de Deck a mano. La carta permanece boca arriba en Campo.",
             "detail": "Activa Inclusión Cristron (Mágica Continua). En su activación busca Smiger de Deck a mano. La carta permanece boca arriba en Campo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20798,
+                "name": "Inclusión Cristron",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2028,7 +2048,15 @@
             "number": 3,
             "action": "Activa el efecto propio de Sulfador desde mano, seleccionando la Inclusión Cristron boca arriba que controlas. Destruye Inclusión → GY e Invoca Sulfador (5); su efecto de invocación manda desde Deck Tristaros (2) y Thystvern (3) al GY (nombres distintos). Sulfador establece bloqueo a Máquinas desde Extra: sigue prevaleciendo el de Smiger, más restrictivo.",
             "detail": "Activa el efecto propio de Sulfador desde mano, seleccionando la Inclusión Cristron boca arriba que controlas. Destruye Inclusión → GY e Invoca Sulfador (5); su efecto de invocación manda desde Deck Tristaros (2) y Thystvern (3) al GY (nombres distintos). Sulfador establece bloqueo a Máquinas desde Extra: sigue prevaleciendo el de Smiger, más restrictivo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20798,
+                "name": "Inclusión Cristron",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2084,7 +2112,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C03",
@@ -2157,7 +2186,8 @@
           "sources": [
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C04",
@@ -2219,7 +2249,15 @@
             "number": 4,
             "action": "Superpón los dos monstruos Nivel 8 → Número 90: Señor Fotónico de Ojos Galácticos (Rango 8), con Amset y Hapi como exactamente dos materiales Xyz.\n- Final: Número 90 en Campo con dos materiales Horus; Sarcófago boca arriba; ninguna de estas piezas sigue en GY hasta que se desacople una. En ventana legal, Número 90 puede desacoplar un material para negar efecto de monstruo; no destruye al monstruo negado si el desacoplado es Amset/Hapi, porque no es material «Galaxia/Galáctico». Tampoco adjudicar inmunidad por material «Fotónico» inexistente.\n- Fallo: Ash/Droll contra búsqueda, remoción de Sarcófago antes de las invocaciones o bloqueo previo Smiger/Sulfador. R13/R14/R15; RGL10/11.",
             "detail": "Superpón los dos monstruos Nivel 8 → Número 90: Señor Fotónico de Ojos Galácticos (Rango 8), con Amset y Hapi como exactamente dos materiales Xyz.\n- Final: Número 90 en Campo con dos materiales Horus; Sarcófago boca arriba; ninguna de estas piezas sigue en GY hasta que se desacople una. En ventana legal, Número 90 puede desacoplar un material para negar efecto de monstruo; no destruye al monstruo negado si el desacoplado es Amset/Hapi, porque no es material «Galaxia/Galáctico». Tampoco adjudicar inmunidad por material «Fotónico» inexistente.\n- Fallo: Ash/Droll contra búsqueda, remoción de Sarcófago antes de las invocaciones o bloqueo previo Smiger/Sulfador. R13/R14/R15; RGL10/11.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 13826,
+                "name": "Número 90: Señor Fotónico de Ojos Galácticos",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2248,7 +2286,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C05",
@@ -2337,7 +2376,8 @@
           "sources": [
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C06",
@@ -2364,7 +2404,15 @@
             "number": 1,
             "action": "Activa Inclusión Cristron; al activarse, busca Smiger del Deck y llévalo a tu mano. Ahora tienes Sulfador, Azufafnir y Smiger; Inclusión boca arriba.",
             "detail": "Activa Inclusión Cristron; al activarse, busca Smiger del Deck y llévalo a tu mano. Ahora tienes Sulfador, Azufafnir y Smiger; Inclusión boca arriba.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20798,
+                "name": "Inclusión Cristron",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2458,7 +2506,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:C07",
@@ -2503,7 +2552,15 @@
             "number": 3,
             "action": "Como Smiger llegó al GY por descarte y NO activó su efecto de Campo, puedes desterrarlo desde GY para buscar Inclusión Cristron del Deck. Esta activación no impone bloqueo de Sincronía Máquina: es el otro efecto de Smiger.",
             "detail": "Como Smiger llegó al GY por descarte y NO activó su efecto de Campo, puedes desterrarlo desde GY para buscar Inclusión Cristron del Deck. Esta activación no impone bloqueo de Sincronía Máquina: es el otro efecto de Smiger.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20798,
+                "name": "Inclusión Cristron",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2559,7 +2616,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V01",
@@ -2596,7 +2654,15 @@
             "number": 3,
             "action": "En el turno rival, ante una activación de carta/efecto del oponente, encadena el Efecto Rápido del segundo Tristaros; trae el segundo Sulfador Nivel 5 del Deck y de inmediato Sincroniza usando Tristaros 2 + Citree 2 (2 Cantantes) + Sulfador 5 (1 no Cantante) → Cristron Quariongandrax Nivel 9. El recién invocado Sulfador está incluido, requisito de Tristaros.",
             "detail": "En el turno rival, ante una activación de carta/efecto del oponente, encadena el Efecto Rápido del segundo Tristaros; trae el segundo Sulfador Nivel 5 del Deck y de inmediato Sincroniza usando Tristaros 2 + Citree 2 (2 Cantantes) + Sulfador 5 (1 no Cantante) → Cristron Quariongandrax Nivel 9. El recién invocado Sulfador está incluido, requisito de Tristaros.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 12781,
+                "name": "Cristron Quariongandrax",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12781.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12781.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2634,7 +2700,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V02",
@@ -2700,7 +2767,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V03",
@@ -2736,7 +2804,15 @@
             "number": 2,
             "action": "Destierra Smiger desde GY (no usó el efecto de Campo) y busca Agrupamiento Cristron del Deck. Coloca Agrupamiento en tu Zona M/T. Final del turno propio: Tristaros en Campo + Agrupamiento Colocado; Smiger desterrado, Azufafnir GY, Normal intacta. La Trampa NO se activa en el turno en que fue Colocada.",
             "detail": "Destierra Smiger desde GY (no usó el efecto de Campo) y busca Agrupamiento Cristron del Deck. Coloca Agrupamiento en tu Zona M/T. Final del turno propio: Tristaros en Campo + Agrupamiento Colocado; Smiger desterrado, Azufafnir GY, Normal intacta. La Trampa NO se activa en el turno en que fue Colocada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20817,
+                "name": "Agrupamiento Cristron",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20817.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20817.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2783,7 +2859,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V04",
@@ -2811,7 +2888,15 @@
             "number": 2,
             "action": "En el paso 5, en vez de Elesqueletus, sincroniza Citree 2 + Sulfador 5 → Destructor Samurái 7 (Máquina Sincronía). Es legal pese al bloqueo de Smiger, porque sigue siendo Sincronía Máquina.",
             "detail": "En el paso 5, en vez de Elesqueletus, sincroniza Citree 2 + Sulfador 5 → Destructor Samurái 7 (Máquina Sincronía). Es legal pese al bloqueo de Smiger, porque sigue siendo Sincronía Máquina.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 13360,
+                "name": "Destructor Samurái",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2820,7 +2905,15 @@
             "number": 3,
             "action": "Fin: Destructor Samurái 7 + Smiger 3 en Campo; Inclusión permanece desterrada (no hubo Elesqueletus que la recuperara); Citree y Sulfador van al GY; Tristaros y Thystvern ya enviados en C02 pueden seguir allí. Tu campo gana opción para atacar: al combatir contra un monstruo, el rival no activa cartas/efectos hasta fin de Damage Step, y los efectos del monstruo combatido se niegan durante esa Battle Phase, según el texto de la carta. No equivale a negación general fuera de batalla.\n- Decisión: elige esta salida si vas segundo y el objetivo es combatir un monstruo problemático; elige Elesqueletus si necesitas recuperar Inclusión y conservar recursos. Mismo starter y materiales, distinto cierre: variante, no nuevo combo.",
             "detail": "Fin: Destructor Samurái 7 + Smiger 3 en Campo; Inclusión permanece desterrada (no hubo Elesqueletus que la recuperara); Citree y Sulfador van al GY; Tristaros y Thystvern ya enviados en C02 pueden seguir allí. Tu campo gana opción para atacar: al combatir contra un monstruo, el rival no activa cartas/efectos hasta fin de Damage Step, y los efectos del monstruo combatido se niegan durante esa Battle Phase, según el texto de la carta. No equivale a negación general fuera de batalla.\n- Decisión: elige esta salida si vas segundo y el objetivo es combatir un monstruo problemático; elige Elesqueletus si necesitas recuperar Inclusión y conservar recursos. Mismo starter y materiales, distinto cierre: variante, no nuevo combo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 13360,
+                "name": "Destructor Samurái",
+                "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2849,7 +2942,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V05",
@@ -2924,7 +3018,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V06",
@@ -3023,7 +3118,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "677:A09:V07",
@@ -3106,7 +3202,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       }
     ],
     "decisions": [
