@@ -1,0 +1,29 @@
+name: Validate A01-A10 presentation contract
+on:
+  pull_request:
+    branches: [base]
+    paths:
+      - '02_PROMPT_PARA_CODEX/**'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - 'scripts/test-a01-a10-presentation.cjs'
+      - '.github/workflows/validate-a01-a10-presentation.yml'
+  push:
+    branches: [base]
+    paths:
+      - '02_PROMPT_PARA_CODEX/**'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - 'scripts/test-a01-a10-presentation.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify 39 protected prompts, A01-A10 deliverables and existing deck safety
+        run: node scripts/test-a01-a10-presentation.cjs
