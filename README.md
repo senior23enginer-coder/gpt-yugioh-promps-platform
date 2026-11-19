@@ -1,5 +1,11 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
 
+### ZIP directo de una carpeta histórica y alcance de compatibilidad
+
+Se puede comprimir una carpeta individual `DECK_*` del repositorio GPT y cargarla en la ficha correspondiente de Station X. Si la carpeta solo contiene el estudio `*_CONTENIDO_CURADO.md`, `imagenes/` y `guias/`, el importador intenta una **importación documental heredada** y preserva las rutas estructuradas previamente existentes. Acepta referencias de imágenes locales seguras, pero no habilita HTML ejecutable. Esto NO certifica paridad completa de las fichas interactivas A01–A10.
+
+La **actualización integral** requiere `datos/stationx-deck.json` con la huella y los identificadores reales de la exportación nativa de Station X. Generarlo desde ese ZIP exportado antes de empaquetar el directorio en GPT; nunca inventar `deck_id`, `inventory_sha256` ni datos de `baseline`. Los prompts deben preferir sintaxis Markdown para imágenes (`![Carta](imagenes/19364.png)`) en lugar de etiquetas HTML `<img>` en archivos Markdown. No se regeneran automáticamente Memento ni Crystron.
+
 Repositorio independiente del contenido de `torneos_yugioh/context/gpt/`. El código de la plataforma se mantiene en [platform-yugioh-md](https://github.com/senior23enginer-coder/platform-yugioh-md).
 
 - `01_INFORMACION_PARA_IMPORTAR/`: entregas de decks, documentos curados, imágenes y guías.
