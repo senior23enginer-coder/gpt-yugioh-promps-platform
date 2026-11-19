@@ -12,9 +12,9 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ### Entregable A03 — integridad que proteja todas las fotografías y combos posteriores
 
-Crear un inventario canónico **por fila nativa**, con \`card_id\` (ID de fila Station X), CID cuando se conozca, nombre oficial/documental, \`section\` y \`quantity\`. Cotejar los totales Main/Extra/Side/Reserva con la aprobación del usuario y verificar que cada ID de fila pertenezca a este único deck. Si un mismo nombre está en dos zonas, conservar **dos filas**: no perder cantidades por deduplicarlo por CID. Las Skills siguen como entidades separadas.
+Crear un inventario canónico **por fila nativa**, con `card_id` (ID de fila Station X), CID cuando se conozca, nombre oficial/documental, `section` y `quantity`. Cotejar los totales Main/Extra/Side/Reserva con la aprobación del usuario y verificar que cada ID de fila pertenezca a este único deck. Si un mismo nombre está en dos zonas, conservar **dos filas**: no perder cantidades por deduplicarlo por CID. Las Skills siguen como entidades separadas.
 
-Cruzar cada \`record.cards[*].slots[*]\` con el inventario actual: las filas deben coincidir en ID, sección y cantidad. **No modificar** Main/Extra/Side/Reserva desde A01–A10. Registrar ambigüedad de CID o carta no identificada como \`IDENTIDAD_PENDIENTE\`: ninguna IA puede escoger una fotografía «parecida». Todos los pasos A09 y todas las imágenes A10 tienen que resolver a un ID/CID de este inventario o quedar marcados como recurso externo/condicional debidamente justificado.
+Cruzar cada `record.cards[*].slots[*]` con el inventario actual: las filas deben coincidir en ID, sección y cantidad. **No modificar** Main/Extra/Side/Reserva desde A01–A10. Registrar ambigüedad de CID o carta no identificada como `IDENTIDAD_PENDIENTE`: ninguna IA puede escoger una fotografía «parecida». Todos los pasos A09 y todas las imágenes A10 tienen que resolver a un ID/CID de este inventario o quedar marcados como recurso externo/condicional debidamente justificado.
 
 **Prueba de aceptación A03:** cero filas inventadas, cero IDs duplicados, zonas y copias conservadas, conteo auditable y lista de CIDs sin identificar; el paquete debe ser rechazado cuando no coincidan las filas reales de Station X.
 
