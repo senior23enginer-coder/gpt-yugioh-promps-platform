@@ -10,9 +10,9 @@ Módulo de trabajo independiente del proyecto Station X. Revisión de alcance vi
 
 ### Entregable A06 — motores visuales y estilo verificable
 
-Producir \`record.engine_maps[*]\` con \`motor_id\`, objetivo, cartas/CIDs/fotografías, flechas con acción real (**BUSCA, INVOCA, ENVÍA, CONVIERTE, RECUPERA, PROTEGE, RESTRINGE**), condiciones, coste, recurso generado y **restricción**. Cada tarjeta de motor debe enseñar al jugador: «con qué inicio», «qué carta hace el puente», «qué obtengo» y «dónde puede fallar». No dibujar una flecha como prueba de combo completo. Vincular los motores a las rutas A08/A09 solo cuando exista la cadena causal, no por compartir cartas.
+Producir `record.engine_maps[*]` con `motor_id`, objetivo, cartas/CIDs/fotografías, flechas con acción real (**BUSCA, INVOCA, ENVÍA, CONVIERTE, RECUPERA, PROTEGE, RESTRINGE**), condiciones, coste, recurso generado y **restricción**. Cada tarjeta de motor debe enseñar al jugador: «con qué inicio», «qué carta hace el puente», «qué obtengo» y «dónde puede fallar». No dibujar una flecha como prueba de combo completo. Vincular los motores a las rutas A08/A09 solo cuando exista la cadena causal, no por compartir cartas.
 
-Extraer de A06 la identidad auténtica del plan competitivo para retroalimentar los campos breves definidos en A01: la portada no debe mostrar «Consultar plan» o una lista de cartas inconexa. Señalar incompatibilidades de motores, bloqueos por turnos y qué recursos se solapan, especialmente en híbridos. \`record.profile['Cómo se juega']\` mantiene el análisis detallado, mientras \`Estilo breve\` comunica en una oración el motor y objetivo.
+Extraer de A06 la identidad auténtica del plan competitivo para retroalimentar los campos breves definidos en A01: la portada no debe mostrar «Consultar plan» o una lista de cartas inconexa. Señalar incompatibilidades de motores, bloqueos por turnos y qué recursos se solapan, especialmente en híbridos. `record.profile['Cómo se juega']` mantiene el análisis detallado, mientras `Estilo breve` comunica en una oración el motor y objetivo.
 
 **Prueba de aceptación A06:** tarjetas fotográficas utilizables, 100 % de cartas clasificadas en la matriz única con rol o ausencia de sinergia explicada, IDs de aristas correctos y ninguna carta de Side/Reserva tratada como motor jugable sin autorización.
 
