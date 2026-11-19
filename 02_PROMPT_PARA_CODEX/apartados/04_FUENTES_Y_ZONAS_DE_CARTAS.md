@@ -10,6 +10,14 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+### Entregable A04 — biblioteca fotográfica real y mapa de zonas
+
+Para **cada identidad** del inventario, registrar foto oficial/local por CID o \`FOTO_PENDIENTE\`; comprobar que el archivo abre, pertenece a la carta y vive dentro de la carpeta individual. Los campos \`record.cards[*].image\` y \`full_image\` apuntan a recursos locales permitidos que el importador de Station X pueda resolver, no a enlaces temporales de repositorios externos. No copiar fotos de Kashtira u otro deck por parecido del nombre. Definir el mapa de disponibilidad: Main (mano/Deck), Extra (procedimiento y materiales), Side (solo tras sustitución), Reserva (no jugable todavía), Skill Rush (recurso no robable).
+
+Crear inventario de **zona de origen y destino** para futuras secuencias A09: mano, monstruos, magia/trampa, zona de campo, Cementerio, destierro, Extra y materiales Xyz cuando correspondan, con estado conocido/pendiente. Las imágenes no prueban por sí mismas que una carta empiece en mano ni que termine en campo. No presentar automáticamente todas las \`hand_photos\` como mano inicial.
+
+**Prueba de aceptación A04:** 100 % de referencias de imágenes existentes y decodificables para las cartas marcadas \`FOTO_OK\`, vínculo exacto CID↔foto y separación estricta de zonas y disponibilidad. Si faltan fotos, el A04 o la cobertura visual queda PARCIAL; no falsificar un archivo para completar el ZIP.
+
 - **Main Deck:** cartas activamente disponibles y cantidades reales.
 - **Extra Deck:** monstruos de invocación permitida; un Extra vacío es válido si así consta.
 - **Side Deck:** cartas que pueden incorporarse legalmente **entre duelos**, mediante un plan de sustitución concreto, no durante la partida principal por asumirlas disponibles.
