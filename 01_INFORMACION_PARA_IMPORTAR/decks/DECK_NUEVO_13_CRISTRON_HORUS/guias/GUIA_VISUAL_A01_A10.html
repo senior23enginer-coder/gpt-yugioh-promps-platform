@@ -28,11 +28,17 @@
 .combo-panel.blocked{border:2px solid #ff917f}.combo-top{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center}
 .combo-top h3{color:#8ae6f2;font-size:19px;margin:0;flex:1}.combo-top span{color:#132840;background:#9ce9f1;border-radius:25px;padding:3px 12px;font-size:12px;font-weight:700}
 .combo-panel.blocked .combo-top span{background:#ff8e89}.combo-warning{color:#ffd9a1;font-size:14px}
-.step-flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:11px}
+.step-flow{display:grid;grid-template-columns:minmax(0,1fr);gap:11px}
 .route-step{background:#edf5fc;color:#20344a;border-radius:9px;padding:10px;border:1px solid #6695b2}
+.route-step{display:grid;grid-template-columns:minmax(95px,145px) 1fr;column-gap:12px;align-items:start}
+.route-step .step-num{grid-column:1/-1}.route-step .route-pics{grid-column:1}.route-step>p{grid-column:2;margin-top:0}
 .step-num{color:#065b7c;font-weight:800;font-size:13px;margin-bottom:6px}
 .route-pics{display:flex;gap:3px;align-items:flex-start;min-height:64px}
 .route-pics img{height:100px;max-width:67px;object-fit:contain;border-radius:4px;box-shadow:0 1px 3px #777}
+.route-photo-label{font-size:10px;color:#51728b;margin:4px 0 0;grid-column:1}
+.route-result{border-left:4px solid #46c5a4;background:#14384a;padding:12px 14px;margin:12px 0;border-radius:7px}
+.route-result strong{color:#a6f3df}.route-result img{height:92px;max-width:65px;object-fit:contain;vertical-align:middle;margin:8px 5px 0 0}
+@media(max-width:550px){.route-step{grid-template-columns:minmax(0,1fr)}.route-step .route-pics,.route-step>p{grid-column:1}.route-pics img{height:86px}}
 .route-step p{font-size:12px;line-height:1.5;margin:8px 0 0}.smallprint{color:#a8cfe0;font-size:12px}
 .paper img{max-height:118px;max-width:84px;object-fit:contain;vertical-align:middle;margin:4px}
 </style><style>
@@ -287,7 +293,7 @@
 <div class="route-step"><div class="step-num">Paso 04</div><div class="route-pics"></div><p>Resultado fijo: Sarcófago + un Xyz Rango8 con dos materiales; no ambos Xyz simultáneamente. Con Vampiro, la molienda posterior sigue siendo de cartas desconocidas; con Número90, desacoplar Horus no añade destrucción por nombres Galaxia/Fotónicos.</p></div>
 </div><p class="smallprint">Situación hipotética descrita en A09; la cadena aún no fue ensayada en simulador.</p></article>
 </section>
-<section id="estudio"><h2>Estudio de la construcción: A01–A10</h2><div class="paper"><h1 id="cristron--horus--estudio-individual-a01a10-profundización-v3-17-11-2026">Cristron / Horus — estudio individual A01–A10, profundización v3 (17-11-2026)</h1>
+<section id="estudio"><h2>Estudio de la construcción: A01–A10</h2><p class="combo-warning"><strong>Nota de vigencia:</strong> el estudio integrado a continuación conserva el corte histórico V40. La ficha MD canónica del deck incluye los cierres documentales A01–A10 y sus condiciones posteriores; los paneles fotográficos de arriba se leen vinculados a esas fichas. Esta copia histórica no certifica replays, importación ni publicación de la revisión.</p><div class="paper"><h1 id="cristron--horus--estudio-individual-a01a10-profundización-v3-17-11-2026">Cristron / Horus — estudio individual A01–A10, profundización v3 (17-11-2026)</h1>
 <blockquote>
 <p><strong>CRITERIO DEL INVENTARIO FÍSICO (V41):</strong> Las cartas y sus cantidades se conservan exactamente como fueron documentadas. El análisis A01–A10 se basa en sus efectos, materiales, ventanas, zonas, cadenas y recursos; no evalúa listas externas de prohibidas o limitadas. No se atribuyen partidas ni simulaciones ejecutadas a estos análisis documentales.</p>
 </blockquote>
@@ -3386,4 +3392,90 @@
 <li>Las recomendaciones de mejora son opcionales: Miguel decide cualquier cambio físico; el Side solo está disponible mediante el intercambio documentado entre duelos.</li>
 </ul>
 </div></section>
-    <footer><p>Las rutas son análisis escritos y requieren prueba con las cartas exactas y el formato elegido; no se afirma un 100 % de validación en partidas.</p></footer></main></body></html>
+    <footer><p>Las rutas son análisis escritos y requieren prueba con las cartas exactas y el formato elegido; no se afirma un 100 % de validación en partidas.</p></footer></main>
+<script>
+/* Presentación A10: las imágenes muestran cartas mencionadas en cada paso;
+   nunca convierten una referencia visual en activación o recurso disponible. */
+(() => {
+  'use strict';
+  const cards = [
+    ['Smiger','12608.png'], ['Citree','12606.png'], ['Hagoita','12157.png'],
+    ['Inclusión','20798.png'], ['Sulfador','20759.png'], ['Tristaros','20758.png'],
+    ['Thystvern','12609.png'], ['Azufafnir','12756.png'], ['Elesqueletus','20778.png'],
+    ['Amset','19153.jpg'], ['Hapi','19155.jpg'], ['Sarcófago','19200.jpg'],
+    ['Número 90','13826.png'], ['Número90','13826.png'], ['Vampiro Zombi','16850.jpg'],
+    ['Nova','10870.jpg'], ['Infinito','11765.jpg'], ['Quariongandrax','12781.png'],
+    ['Agrupamiento','20817.png'], ['Destructor Samurái','13360.png'],
+    ['Entierro Insensato','5236.png'], ['F.A.','13710.jpg']
+  ];
+  const routes = {
+    C01:['Smiger','Citree','Hagoita'], C02:['Inclusión','Smiger','Sulfador','Citree','Elesqueletus'],
+    C03:['Tristaros','Sulfador','Elesqueletus'], C04:['Amset','Hapi','Sarcófago','Número 90'],
+    C05:['Sarcófago','Amset','Hapi','Vampiro Zombi'], C06:['Inclusión','Sulfador','Azufafnir','Smiger','Nova','Infinito'],
+    C07:['Amset','Smiger','Sarcófago','Inclusión','Tristaros','Elesqueletus'],
+    V01:['Elesqueletus','Tristaros','Citree','Sulfador','Quariongandrax'],
+    V02:['Inclusión','Smiger','Citree','Hagoita'], V03:['Azufafnir','Smiger','Tristaros','Agrupamiento','Elesqueletus'],
+    V04:['Inclusión','Citree','Sulfador','Destructor Samurái'],
+    V05:['Smiger','Tristaros','Sulfador','Elesqueletus'],
+    V06:['Entierro Insensato','Smiger','Inclusión','Tristaros','Elesqueletus'],
+    V07:['Sarcófago','Hapi','Amset','Número 90','Vampiro Zombi']
+  };
+  const outcomes = {
+    C01:['Hagoita','Hagoita solo en turno rival; Citree y Smiger desterrados.'],
+    C02:['Elesqueletus','Elesqueletus + Smiger en Campo; Inclusión recuperada a mano.'],
+    C03:['Elesqueletus','Elesqueletus tras activación rival; CL1 no negado.'],
+    C04:['Número 90','Número 90 con Amset y Hapi como materiales, Sarcófago boca arriba.'],
+    C05:['Vampiro Zombi','Vampiro con 2 materiales antes del molino aleatorio; Sarcófago activo.'],
+    C06:['Infinito','Infinito con Nova, Sulfador y Azufafnir como 3 materiales.'],
+    C07:['Tristaros','Turno propio: Amset + Tristaros; Elesqueletus solo tras activación rival.'],
+    V01:['Quariongandrax','Quariongandrax condicionado a C02 previo, dos Cantantes y turno rival.'],
+    V02:['Hagoita','Hagoita en turno rival; Inclusión permanece en Campo.'],
+    V03:['Agrupamiento','Turno propio: Tristaros + Agrupamiento Colocado; no activar aún la Trampa.'],
+    V04:['Destructor Samurái','Destructor Samurái + Smiger; Inclusión sigue desterrada.'],
+    V05:['Tristaros','Turno propio: Tristaros; Elesqueletus solo tras activación rival.'],
+    V06:['Tristaros','Turno propio: Tristaros + Inclusión; Sincro condicionada a respuesta rival.'],
+    V07:['Número 90','Elegir Número 90 o Vampiro, no ambos, con dos Horus como materiales.']
+  };
+  const byName = new Map(cards);
+  document.querySelectorAll('#rutas .combo-panel').forEach(panel => {
+    const title = panel.querySelector('h3')?.textContent || '';
+    const id = title.match(/^(C0[1-7]|V0[1-7])\b/)?.[1];
+    if (!id || !routes[id]) return;
+    panel.dataset.routeId = id;
+    if (id === 'C03') {
+      const warning = panel.querySelector('.combo-warning');
+      if (warning) warning.textContent = 'Tristaros debe permanecer en Campo hasta una activación rival; Sulfador tiene que seguir en Deck. La Sincronía a Elesqueletus no niega CL1.';
+    }
+    panel.querySelectorAll('.route-step').forEach(step => {
+      const area = step.querySelector('.route-pics');
+      if (!area) return;
+      area.replaceChildren();
+      const prose = step.querySelector('p')?.textContent || '';
+      const matched = routes[id].filter(name => new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),'i').test(prose));
+      const shown = (matched.length ? matched : routes[id].slice(0,1)).slice(0,3);
+      shown.forEach(name => {
+        const img = document.createElement('img');
+        img.loading = 'lazy'; img.src = '../imagenes/' + byName.get(name);
+        img.alt = 'Referencia visual: ' + name;
+        area.appendChild(img);
+      });
+      const label = document.createElement('small');
+      label.className = 'route-photo-label';
+      label.textContent = matched.length ? 'Cartas mencionadas en el paso' : 'Contexto de la ruta; consultar texto del paso';
+      area.insertAdjacentElement('afterend',label);
+    });
+    const outcome = outcomes[id];
+    const box = document.createElement('div');
+    box.className = 'route-result';
+    const heading = document.createElement('strong');
+    heading.textContent = 'Campo/resultado de referencia · ' + id;
+    const description = document.createElement('p');
+    description.textContent = outcome[1] + ' Resultado condicionado a los requisitos A09 y a que no haya interrupción.';
+    const photo = document.createElement('img');
+    photo.src = '../imagenes/' + byName.get(outcome[0]);
+    photo.alt = 'Carta de cierre o preparación: ' + outcome[0];
+    box.append(heading, description, photo);
+    panel.appendChild(box);
+  });
+})();
+</script></body></html>
