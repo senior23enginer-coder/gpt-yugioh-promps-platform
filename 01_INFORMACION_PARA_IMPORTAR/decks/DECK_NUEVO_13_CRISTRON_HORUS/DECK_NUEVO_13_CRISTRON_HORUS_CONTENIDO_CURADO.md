@@ -24,7 +24,7 @@
 | **A01** Rol y propósito | **COMPLETA — IDENTIDAD Y DECISIONES DOCUMENTALES (18-11-2026)** | Dos motores y tres ritmos diferenciados; siete rutas C01–C07, alternativas incompatibles, cortes y prioridades contra Memento/Purrely/Salamangreat vinculadas a A08.3 y A09 | **Sin pendiente propio de definición del rol.** Los desenlaces siguen sujetos a ventanas, inventario y respuestas descritas en A07–A09; sin tasa de victoria ni prueba de simulador |
 | **A02** Planes y estilos | **COMPLETA — PLANES DOCUMENTALES Y DESVÍOS (18-11-2026)** | Prioridades para primero/segundo/turno rival/medio-tardío, comparación C01–C07 y V01–V07, **24 manos H01–H24**, seis cortes ejemplificados y probabilidades de coincidencia separadas del desempeño | **Sin pendiente documental del plan.** La medición empírica de duelos queda fuera del cierre y no se infieren porcentajes de resolución o victorias |
 | **A03** Inventario | **COMPLETA — INVENTARIO APROBADO POR MIGUEL (18-11-2026)** | Auditoría independiente de 39 filas CRYH-001–039: **Main 40 / Extra 15 / Side 15 / Reserva 0 = 70 copias**; Purulia 2 Main+1 Side; ID 677. **Miguel aprobó expresamente las cuatro cantidades en este diálogo** | **Sin pendiente propio de inventario.** Conservar identidades, zonas y copias sin cambios; aprobación no certifica efectos ni autoriza sustituciones |
-| **A04** Identidad, CID y fotos | **IMÁGENES V37 COMPLETAS; IMPORTACIÓN V40 REGISTRADA** | 39/39 fotos auténticas por CID, 20 JPG + 19 PNG; enlaces relativos ya corregidos en la conciliación previa | Verificar los enlaces al regenerar la guía, sin atribuir fotos faltantes |
+| **A04** Identidad, CID y fotos | **COMPLETA — INTEGRIDAD DOCUMENTAL DE CID, FOTOS Y RUTAS (18-11-2026)** | **39/39 CID distintos**, 39/39 imágenes locales (20 JPG + 19 PNG); **96/96 referencias HTML** y **55/55 referencias relativas MD** con archivo de destino presente; V40 histórica registrada | **Sin pendiente propio de archivos A04.** Render visual en navegador, datos realmente importados y nueva publicación son controles externos A10/integración, no pruebas realizadas aquí |
 | **A05** Efectos y uso | **PARCIAL AVANZADO** | **39/39 roles funcionales resumidos** en la matriz; fuentes Konami por CID | Ampliar matices de todos los efectos y rulings raros |
 | **A06** Sinergias y Extra | **PARCIAL AVANZADO** | **39/39 filas**, 21 vínculos R01–R21; 13/13 Extra con materiales/función; 8 accesos en rutas y **5 estados condicionales ACC01–ACC05** | Comprobar cuándo el tablero rival habilita las cinco alternativas; ningún estado genérico las garantiza |
 | **A07** Reglas y cadenas | **PARCIAL AVANZADO** | **21 reglas RGL01–RGL21**, **14 interrupciones INT01–INT14**, **6 controles CR-A01–06** y **4 cadenas SC-X01–04** con rivales reales | Rulings finos con efectos que cambian de ubicación y otros cortes no enumerados |
@@ -136,6 +136,20 @@ La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado
 **A04:** las 39 filas siguientes contienen **CID y enlace a la ficha individual Konami oficial**. «Cristron» es el nombre español de **Crystron**; «Caballero Mecánico» es **Clockwork Knight Link-1**. Las **39 imágenes reales** ya están en esta carpeta: 20 JPG iniciales y 19 PNG agregadas en V37, con nombre de CID exacto; la indicación anterior de 19 fotografías faltantes era histórica. El CID documental identifica la carta; el ID del deck es **677**. El texto Konami es evidencia de identidad/efecto, no de una partida ejecutada.
 
 **Fotos locales útiles para esta iteración:** [Amset](imagenes/19153.jpg), [Hapi](imagenes/19155.jpg), [Sarcófago](imagenes/19200.jpg), [Flor de Ceniza](imagenes/12950.jpg), [Droll](imagenes/9279.jpg), [Fuwalos](imagenes/20500.jpg), [Purulia](imagenes/20206.jpg), [Gotas](imagenes/15299.jpg), [Súper Polimerización](imagenes/7445.jpg) y [Número 90](imagenes/13826.png). Las 39 identidades disponen de fotografía local, no solo estas diez.
+
+### A04.1 — Acta de integridad local (18-11-2026)
+
+**Prueba estática ejecutada:** cotejo de las 39 filas CRYH-001–039 de la matriz A06 con sus CID de ficha Konami y los nombres de archivo de `imagenes/`. Los **39 CID son diferentes**; la carpeta contiene **39 archivos** con esos nombres CID (20 `.jpg`, 19 `.png`), **0 CID sin foto** y **0 fotos ajenas al inventario**. Se comprobaron además los destinos físicos de **96 referencias `src`/`href` a `../imagenes/`** en `guias/GUIA_VISUAL_A01_A10.html` (**0 rotas**) y **55 referencias relativas** `imagenes/` o `guias/` dentro de este documento (**0 rotas**).
+
+| Criterio A04 | Resultado comprobado | Alcance conservado |
+|---|---|---|
+| Identidad de cartas | **39/39 CID únicos** | La fila A06 y el nombre de archivo identifican la misma CID; las copias físicas corresponden al inventario A03 aprobado |
+| Carpeta visual autocontenida | **39/39 archivos** | Solo 20 JPG + 19 PNG del deck 677, sin requerir fotos de otro deck |
+| Guía HTML | **96/96 rutas de imagen existentes** | Existencia de archivo; no equivale a que el navegador lo haya renderizado bien |
+| Documento MD | **55/55 destinos relativos existentes** | Enlaces de fotos y guía resuelven dentro de la carpeta del deck |
+| Importación y publicación | **NO PROBADAS EN ESTA PASADA** | V40 consta históricamente; este cotejo no prueba contenido de base de datos, aplicación ni nueva versión publicada |
+
+**Dictamen:** A04 `COMPLETA_DOCUMENTAL` por identidad, procedencia de CID y autocontención de recursos. Se conserva la separación Main/Extra/Side/Reserva de A03 y el inventario 40/15/15/0 aprobado. Si se regeneran archivos, habrá que repetir el chequeo de rutas; no es una deuda sobre la versión presente. **Siguiente apartado: A05** (efectos y condiciones), sin atribuir jugadas ejecutadas.
 
 ## APARTADO_05 y APARTADO_06 — Matriz ÚNICA por identidad, función y sinergia
 
