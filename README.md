@@ -17,6 +17,14 @@ Este es el repositorio independiente y canónico de prompts y entregas. La plata
 
 Mantener separados los inventarios Main/Extra/Side/Reserva y las Skills; conservar IDs, referencias y estados documentales. La estructura de Kashtira es la referencia de organización, sin trasladar sus cartas ni sus combos a otros decks. Las instrucciones actuales excluyen las listas de cartas prohibidas/limitadas y exigen archivos importables mínimos.
 
+### Paquetes estructurados portátiles de Memento y Crystron/Horus
+
+Los decks **671 (Memento)** y **677 (Crystron/Horus)** incorporan ahora en su carpeta original `datos/stationx-deck.json`. El archivo conserva `station-x-deck-package/1`, el estudio estructurado `station-x-curated-v62` de Station X V40, los IDs de cartas y los identificadores de las 12/14 rutas respectivamente. Su `inventory_binding=deck-slots-v1` indica que el importador cotejará **todas** las filas de inventario y el formato contra el deck real, sin inventar una huella `inventory_sha256` que solo puede calcular Station X.
+
+**Uso:** comprimir únicamente una carpeta `DECK_*` con su contenido original, seleccionar el mismo deck en Station X y abrir «Importar / exportar Data». Revisar la previsualización antes de confirmar; si el inventario cambió, no forzar la importación. Tras completar el paso, la propia exportación nativa de Station X vuelve a producir la huella real para las siguientes entregas.
+
+**Alcance de la adaptación:** no se volvieron a ejecutar los diez apartados y no se reescribieron los Markdown, guías ni fotografías. Los objetos interactivos se recuperan de las versiones estructuradas **V40 ya existentes**, mientras que el Markdown más reciente A01–A10 se incorpora como material documental. La paridad paso a paso con las revisiones editoriales posteriores y los efectos ejecutables de calculadora **no se declara certificada** hasta realizar pruebas específicas por ruta.
+
 ### Guias y recursos por deck
 
 Cada carpeta de deck conserva sus guias e infografias. El ZIP individual incluye los archivos del deck y el seguimiento permanece en el registro privado.
