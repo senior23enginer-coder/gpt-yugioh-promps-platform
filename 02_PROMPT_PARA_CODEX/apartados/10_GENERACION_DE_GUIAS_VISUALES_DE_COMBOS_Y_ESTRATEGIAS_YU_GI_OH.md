@@ -1,5 +1,7 @@
 # Apartado 10 — GENERACIÓN DE GUÍAS VISUALES DE COMBOS Y ESTRATEGIAS YU-GI-OH!
 
+**Regla de imágenes y entrega ZIP:** usar Markdown para imágenes locales de la carpeta (`![Carta](imagenes/CID.png)`) en el estudio A01–A10, no `<img>`/JS/URLs ejecutables. Conservar la guía HTML como archivo auxiliar de la carpeta, pero no incrustar ese HTML dentro de campos de `record`. El ZIP de una carpeta histórica sin `datos/stationx-deck.json` solo cubre importación documental parcial; para transferencia integral de combos visuales, decisiones y calculadora es imprescindible añadir el paquete estructurado basado en una exportación nativa auténtica.
+
 **Salida obligatoria para la plataforma (contrato único):** las guías HTML son auxiliares de `record.routes`, nunca sustituyen el JSON interactivo. Para cada `combo_id` conservar la misma sucesión A09, cantidad de pasos, fotografías incluidas, movimiento de zonas, costes, campo final, interrupciones y estados condicionales; no crear rutas o fotos ficticias. Empaquetar en una sola carpeta `DECK_*` con `datos/stationx-deck.json`, Markdown e imágenes, manteniendo exactamente la carpeta exportada por Station X. Antes de declarar `IMPORTABLE` verificar contrato ZIP, huella del inventario y nombres/IDs; separar `GUIA_COMPLETA` de `REGLA_CERTIFICADA`. Español en todo el texto didáctico; no traducir nombres oficiales ni claves de JSON.
 
 Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (2026-11-03).
