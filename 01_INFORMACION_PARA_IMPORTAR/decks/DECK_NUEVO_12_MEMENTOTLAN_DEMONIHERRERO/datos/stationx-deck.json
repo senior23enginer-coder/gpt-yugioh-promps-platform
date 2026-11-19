@@ -1903,9 +1903,11 @@
     "skills": [],
     "profile": {
       "Arquetipo": "Mementotlán / Demoniherrero — estudio individual A01–A10 · iteración 2 (17-11-2026)",
-      "Tipo de estrategia": "Consultar el plan de juego y las condiciones de cada línea.",
+      "Tipo de estrategia": "Combo de Cementerio y Fusión con destrucciones propias y recursos condicionados.",
       "Estilo de juego": "Dictamen editorial PARCIAL_AVANZADO: estrategia principal de destrucción propia controlada → envío/acceso al Cementerio → Invocación de Fusión y Creación Combinada. Angbruja sola (C04) y Hoja Oscura sola (C05) llegan documentalmente a Rey Creación (3000 ATK) + Creación Combinada (5000 ATK); C01 lo hace con Fusión y C11 demuestra una variante más costosa mediante Gran Fuga. Maza en GY no equivale a descartar Maza desde mano, pero puede ser cuerpo Invocado por el jefe para el efecto rápido de Rey. Las otras ocho familias de salida son: jefe 5000 solo (C02); Luna→Réquiem→Grabador (C03); Dragón Gemelo y Goblin protector (C06); Quimera para romper hasta dos cartas (C07); S:P como respuesta posterior (C08); Princesa Necroequipo (C09); Secuencia→Duque con Normal adicional (C10); Dragón de Cuerno para destruir hasta dos cartas rivales boca arriba (C12). Total: nueve familias, tres variantes, doce fichas. Ninguna implica negación universal ni victoria automática.",
-      "Cómo se juega": "Dictamen editorial PARCIAL_AVANZADO: estrategia principal de destrucción propia controlada → envío/acceso al Cementerio → Invocación de Fusión y Creación Combinada. Angbruja sola (C04) y Hoja Oscura sola (C05) llegan documentalmente a Rey Creación (3000 ATK) + Creación Combinada (5000 ATK); C01 lo hace con Fusión y C11 demuestra una variante más costosa mediante Gran Fuga. Maza en GY no equivale a descartar Maza desde mano, pero puede ser cuerpo Invocado por el jefe para el efecto rápido de Rey. Las otras ocho familias de salida son: jefe 5000 solo (C02); Luna→Réquiem→Grabador (C03); Dragón Gemelo y Goblin protector (C06); Quimera para romper hasta dos cartas (C07); S:P como respuesta posterior (C08); Princesa Necroequipo (C09); Secuencia→Duque con Normal adicional (C10); Dragón de Cuerno para destruir hasta dos cartas rivales boca arriba (C12). Total: nueve familias, tres variantes, doce fichas. Ninguna implica negación universal ni victoria automática.\n\nIdentidad de juego: motor Mementotlán predominante, paquete Demoniherrero muy reducido (solo 1 Grabador en Main; Réquiem y Secuencia en Extra), y cartas defensivas independientes. No se añade una mágica/trampa Demoniherrero inexistente: el efecto de descarte-búsqueda de Grabador no tiene un objetivo de esa familia dentro de este Main. Principal debilidad: depender de autodestrucciones/recursos del Cementerio y comprometer el Extra con cartas que requieren condiciones poco frecuentes.\n\nCondiciones de victoria razonables, no garantizadas: desgaste por destrucciones múltiples del Rey Creación; ataques de Creación Combinada cuando está sola; ventaja incremental por búsquedas/reciclaje con Angbruja, Desvantasma y la Fusión; reducción de campo contrario con Gotas Prohibidas, S:P y Rebanador Gordiano tras Side. Sin tasas de victoria ni OTK asumidos."
+      "Cómo se juega": "Dictamen editorial PARCIAL_AVANZADO: estrategia principal de destrucción propia controlada → envío/acceso al Cementerio → Invocación de Fusión y Creación Combinada. Angbruja sola (C04) y Hoja Oscura sola (C05) llegan documentalmente a Rey Creación (3000 ATK) + Creación Combinada (5000 ATK); C01 lo hace con Fusión y C11 demuestra una variante más costosa mediante Gran Fuga. Maza en GY no equivale a descartar Maza desde mano, pero puede ser cuerpo Invocado por el jefe para el efecto rápido de Rey. Las otras ocho familias de salida son: jefe 5000 solo (C02); Luna→Réquiem→Grabador (C03); Dragón Gemelo y Goblin protector (C06); Quimera para romper hasta dos cartas (C07); S:P como respuesta posterior (C08); Princesa Necroequipo (C09); Secuencia→Duque con Normal adicional (C10); Dragón de Cuerno para destruir hasta dos cartas rivales boca arriba (C12). Total: nueve familias, tres variantes, doce fichas. Ninguna implica negación universal ni victoria automática.\n\nIdentidad de juego: motor Mementotlán predominante, paquete Demoniherrero muy reducido (solo 1 Grabador en Main; Réquiem y Secuencia en Extra), y cartas defensivas independientes. No se añade una mágica/trampa Demoniherrero inexistente: el efecto de descarte-búsqueda de Grabador no tiene un objetivo de esa familia dentro de este Main. Principal debilidad: depender de autodestrucciones/recursos del Cementerio y comprometer el Extra con cartas que requieren condiciones poco frecuentes.\n\nCondiciones de victoria razonables, no garantizadas: desgaste por destrucciones múltiples del Rey Creación; ataques de Creación Combinada cuando está sola; ventaja incremental por búsquedas/reciclaje con Angbruja, Desvantasma y la Fusión; reducción de campo contrario con Gotas Prohibidas, S:P y Rebanador Gordiano tras Side. Sin tasas de victoria ni OTK asumidos.",
+      "Estilo breve": "Combo y control del Cementerio: destruye recursos propios para acceder a Creación Combinada y a las fusiones Mementotlán.",
+      "Resumen para ficha": "Abre con Angbruja, Tatsun o Hoja Oscura; usa autodestrucciones y recuperación para preparar tus fusiones y proteger la continuación. Las interrupciones y los ataques finales dependen del campo y de los recursos realmente disponibles."
     },
     "summary": "",
     "engine_maps": [],
@@ -1977,7 +1979,15 @@
             "number": 1,
             "action": "Invoca Normal Angbruja en campo; activa su efecto al Invocarse y añade Tatsun del Deck a mano. Zonas: Campo Angbruja; Mano Tatsun + Fusión.",
             "detail": "Invoca Normal Angbruja en campo; activa su efecto al Invocarse y añade Tatsun del Deck a mano. Zonas: Campo Angbruja; Mano Tatsun + Fusión.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -1986,7 +1996,15 @@
             "number": 2,
             "action": "Invoca Especial Tatsun desde mano: solo controlas un Memento boca arriba. Zonas: Campo Angbruja + Tatsun.",
             "detail": "Invoca Especial Tatsun desde mano: solo controlas un Memento boca arriba. Zonas: Campo Angbruja + Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -1995,7 +2013,15 @@
             "number": 3,
             "action": "Activa efecto de Tatsun: destruye a Tatsun que controlas; manda desde el Deck Desvantasma (Nivel 2) + Dormiveja (Nivel 3) al GY; suma 5 ≤ Nivel original 5 del Tatsun destruido. GY: Tatsun, Desvantasma, Dormiveja.",
             "detail": "Activa efecto de Tatsun: destruye a Tatsun que controlas; manda desde el Deck Desvantasma (Nivel 2) + Dormiveja (Nivel 3) al GY; suma 5 ≤ Nivel original 5 del Tatsun destruido. GY: Tatsun, Desvantasma, Dormiveja.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2004,7 +2030,22 @@
             "number": 4,
             "action": "Como Desvantasma fue enviada por efecto del monstruo Memento Tatsun, activa su efecto y se Invoca Especial desde GY. Su efecto al Invocarse recupera Dormiveja desde GY a mano. Zonas: Campo Angbruja + Desvantasma; Mano Fusión + Dormiveja; GY Tatsun.",
             "detail": "Como Desvantasma fue enviada por efecto del monstruo Memento Tatsun, activa su efecto y se Invoca Especial desde GY. Su efecto al Invocarse recupera Dormiveja desde GY a mano. Zonas: Campo Angbruja + Desvantasma; Mano Fusión + Dormiveja; GY Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2013,7 +2054,36 @@
             "number": 5,
             "action": "Durante Main, activa Fusión Mementotlán desde mano y usa exactamente Angbruja + Desvantasma del campo y Dormiveja de mano (3 Memento distintos). Invoca por Fusión Mementomictlán Tecuhtlica - Rey Creación desde Extra. Las tres cartas usadas quedan en GY.",
             "detail": "Durante Main, activa Fusión Mementotlán desde mano y usa exactamente Angbruja + Desvantasma del campo y Dormiveja de mano (3 Memento distintos). Invoca por Fusión Mementomictlán Tecuhtlica - Rey Creación desde Extra. Las tres cartas usadas quedan en GY.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19367,
+                "name": "Mementomictlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19367.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19367.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2022,7 +2092,36 @@
             "number": 6,
             "action": "Rey Creación fue Invocado por Fusión: activa su efecto de enviar tres cartas Memento del Deck al GY. Elige Creación Combinada + Maza + Goblin del Main. GY justo antes del siguiente paso: Tatsun, Angbruja, Desvantasma, Dormiveja, Creación Combinada, Maza, Goblin (además de la Fusión Mágica).",
             "detail": "Rey Creación fue Invocado por Fusión: activa su efecto de enviar tres cartas Memento del Deck al GY. Elige Creación Combinada + Maza + Goblin del Main. GY justo antes del siguiente paso: Tatsun, Angbruja, Desvantasma, Dormiveja, Creación Combinada, Maza, Goblin (además de la Fusión Mágica).",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2031,7 +2130,36 @@
             "number": 7,
             "action": "Activa Invocación propia de Creación Combinada desde GY, barajando exactamente cinco otros Memento con nombres diferentes: Tatsun, Angbruja, Desvantasma, Dormiveja y Goblin. Deja Maza en GY. Zonas finales: Campo Rey Creación (3000) + Creación Combinada (5000); GY Maza y Fusión Mementotlán. Ya gastaste la Normal.",
             "detail": "Activa Invocación propia de Creación Combinada desde GY, barajando exactamente cinco otros Memento con nombres diferentes: Tatsun, Angbruja, Desvantasma, Dormiveja y Goblin. Deja Maza en GY. Zonas finales: Campo Rey Creación (3000) + Creación Combinada (5000); GY Maza y Fusión Mementotlán. Ya gastaste la Normal.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2062,7 +2190,31 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 19364,
+            "name": "Angbruja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19365,
+            "name": "Maza",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 20216,
+            "name": "Rey Creación",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C02",
@@ -2110,7 +2262,15 @@
             "number": 1,
             "action": "Invoca Normal Angbruja, activa su búsqueda y añade Creación Combinada del Deck a mano. Campo Angbruja; Mano Creación Combinada + Fiesta.",
             "detail": "Invoca Normal Angbruja, activa su búsqueda y añade Creación Combinada del Deck a mano. Campo Angbruja; Mano Creación Combinada + Fiesta.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2119,7 +2279,22 @@
             "number": 2,
             "action": "Activa Fiesta de Huesos (Mágica de Juego Rápido); destruye Angbruja boca arriba y elige del Deck Tatsun de distinto nombre para Invocarlo Especial en Defensa. Campo Tatsun; GY Angbruja + Fiesta.",
             "detail": "Activa Fiesta de Huesos (Mágica de Juego Rápido); destruye Angbruja boca arriba y elige del Deck Tatsun de distinto nombre para Invocarlo Especial en Defensa. Campo Tatsun; GY Angbruja + Fiesta.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19368,
+                "name": "Fiesta de Huesos",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2128,7 +2303,29 @@
             "number": 3,
             "action": "Durante Main activa Tatsun: destruye al propio Tatsun y manda desde el Deck Goblin Nivel 1 + Maza Nivel 1 + Desvantasma Nivel 2 (total 4 ≤ su Nivel original 5) al GY. Quedan cinco nombres distintos de monstruo Memento en GY: Angbruja, Tatsun, Goblin, Maza, Desvantasma. El efecto de Desvantasma al ir al GY es opcional: no lo actives, pues aquí necesitamos conservar los cinco.",
             "detail": "Durante Main activa Tatsun: destruye al propio Tatsun y manda desde el Deck Goblin Nivel 1 + Maza Nivel 1 + Desvantasma Nivel 2 (total 4 ≤ su Nivel original 5) al GY. Quedan cinco nombres distintos de monstruo Memento en GY: Angbruja, Tatsun, Goblin, Maza, Desvantasma. El efecto de Desvantasma al ir al GY es opcional: no lo actives, pues aquí necesitamos conservar los cinco.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2137,7 +2334,15 @@
             "number": 4,
             "action": "Invoca Especial Creación Combinada desde mano barajando al Deck los cinco nombres anteriores. Campo final: Creación Combinada (5000 ATK) como único monstruo; GY Fiesta de Huesos; los cinco monstruos ya no permanecen en GY.",
             "detail": "Invoca Especial Creación Combinada desde mano barajando al Deck los cinco nombres anteriores. Campo final: Creación Combinada (5000 ATK) como único monstruo; GY Fiesta de Huesos; los cinco monstruos ya no permanecen en GY.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19368,
+                "name": "Fiesta de Huesos",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2166,7 +2371,17 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 19364,
+            "name": "Angbruja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C03",
@@ -2193,7 +2408,15 @@
             "number": 1,
             "action": "Invoca Normal Angbruja; mediante su efecto busca Tatsun. Campo Angbruja; Mano Tatsun.",
             "detail": "Invoca Normal Angbruja; mediante su efecto busca Tatsun. Campo Angbruja; Mano Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2202,7 +2425,15 @@
             "number": 2,
             "action": "Invoca Especial Tatsun desde la mano, porque solo controlas un monstruo Memento boca arriba. Campo Angbruja + Tatsun.",
             "detail": "Invoca Especial Tatsun desde la mano, porque solo controlas un monstruo Memento boca arriba. Campo Angbruja + Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2211,7 +2442,22 @@
             "number": 3,
             "action": "Invoca por Enlace Luna del Cielo Cerrado (Link-2) usando los dos monstruos de efecto. Campo Luna; GY Angbruja + Tatsun. No declaras ni usas el efecto de Luna que necesita un posterior Link-5.",
             "detail": "Invoca por Enlace Luna del Cielo Cerrado (Link-2) usando los dos monstruos de efecto. Campo Luna; GY Angbruja + Tatsun. No declaras ni usas el efecto de Luna que necesita un posterior Link-5.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19932,
+                "name": "Luna del Cielo Cerrado",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19932.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19932.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2284,7 +2530,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C04",
@@ -2353,7 +2600,15 @@
             "number": 1,
             "action": "Normal Angbruja (001) → activa su efecto de Invocación y busca Tatsun (002) del Deck a mano. Campo 001; mano 002.",
             "detail": "Normal Angbruja (001) → activa su efecto de Invocación y busca Tatsun (002) del Deck a mano. Campo 001; mano 002.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2362,7 +2617,22 @@
             "number": 2,
             "action": "Especial Tatsun desde mano (todos los monstruos propios boca arriba son Memento). Su efecto destruye al propio Tatsun y envía del Deck Goblin (004, Nivel 1) + Maza (008, Nivel 1) + Desvantasma (009, Nivel 2): niveles 1+1+2=4, menor que 5. GY: 002,004,008,009.",
             "detail": "Especial Tatsun desde mano (todos los monstruos propios boca arriba son Memento). Su efecto destruye al propio Tatsun y envía del Deck Goblin (004, Nivel 1) + Maza (008, Nivel 1) + Desvantasma (009, Nivel 2): niveles 1+1+2=4, menor que 5. GY: 002,004,008,009.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2371,7 +2641,29 @@
             "number": 3,
             "action": "Desvantasma, enviada al GY por efecto del monstruo Tatsun, se Invoca Especial desde allí. Al ser Invocada, activa su otro efecto: devuelve Goblin del GY a la mano. Campo: Angbruja+Desvantasma; mano: Goblin; GY Tatsun+Maza.",
             "detail": "Desvantasma, enviada al GY por efecto del monstruo Tatsun, se Invoca Especial desde allí. Al ser Invocada, activa su otro efecto: devuelve Goblin del GY a la mano. Campo: Angbruja+Desvantasma; mano: Goblin; GY Tatsun+Maza.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2380,7 +2672,22 @@
             "number": 4,
             "action": "Activa el otro efecto de Angbruja: selecciona Maza (Nivel 1) en GY, destruye a Angbruja y, si la destruye, Invoca Maza desde GY. Campo: Desvantasma+Maza. GY: Angbruja+Tatsun.",
             "detail": "Activa el otro efecto de Angbruja: selecciona Maza (Nivel 1) en GY, destruye a Angbruja y, si la destruye, Invoca Maza desde GY. Campo: Desvantasma+Maza. GY: Angbruja+Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2389,7 +2696,36 @@
             "number": 5,
             "action": "Durante Main, Maza destruye a sí misma para buscar Fusión Mementotlán (015) del Deck a mano. Campo: Desvantasma; mano: Goblin+Fusión. GY: Angbruja+Tatsun+Maza.",
             "detail": "Durante Main, Maza destruye a sí misma para buscar Fusión Mementotlán (015) del Deck a mano. Campo: Desvantasma; mano: Goblin+Fusión. GY: Angbruja+Tatsun+Maza.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2398,7 +2734,36 @@
             "number": 6,
             "action": "Activa Fusión Mementotlán desde mano. Ya hubo destrucción propia por efecto, así que puede utilizar Desvantasma del campo + Goblin de la mano + Tatsun del GY (este último se baraja al Deck como material). Invoca Rey Creación (026) desde Extra; Angbruja, Maza, Desvantasma, Goblin quedan en GY.",
             "detail": "Activa Fusión Mementotlán desde mano. Ya hubo destrucción propia por efecto, así que puede utilizar Desvantasma del campo + Goblin de la mano + Tatsun del GY (este último se baraja al Deck como material). Invoca Rey Creación (026) desde Extra; Angbruja, Maza, Desvantasma, Goblin quedan en GY.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2407,7 +2772,29 @@
             "number": 7,
             "action": "Al ser Invocado por Fusión, Rey Creación envía del Deck Creación Combinada (005) + Dormiveja (007) + Dragón de Cuerno (010) al GY. GY de monstruos: 001,008,009,004,005,007,010; Fusión también en GY.",
             "detail": "Al ser Invocado por Fusión, Rey Creación envía del Deck Creación Combinada (005) + Dormiveja (007) + Dragón de Cuerno (010) al GY. GY de monstruos: 001,008,009,004,005,007,010; Fusión también en GY.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20216,
+                "name": "Rey Creación",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2416,7 +2803,22 @@
             "number": 8,
             "action": "Creación Combinada se Invoca desde GY barajando cinco otros nombres: 001+008+009+004+010. Deja Dormiveja (007) en GY. Campo final: Rey Creación 3000 ATK + Creación Combinada 5000 ATK. GY: Dormiveja + Fusión; 5 nombres regresaron al Deck.",
             "detail": "Creación Combinada se Invoca desde GY barajando cinco otros nombres: 001+008+009+004+010. Deja Dormiveja (007) en GY. Campo final: Rey Creación 3000 ATK + Creación Combinada 5000 ATK. GY: Dormiveja + Fusión; 5 nombres regresaron al Deck.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20216,
+                "name": "Rey Creación",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2445,7 +2847,24 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 20199,
+            "name": "Dormiveja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 20216,
+            "name": "Rey Creación",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C05",
@@ -2528,7 +2947,22 @@
             "number": 1,
             "action": "Normal Hoja Oscura (003). Durante tu Main, activa su efecto: destruye a Hoja Oscura y Especial Angbruja (001, Nivel 3) desde el Deck. Campo Angbruja; GY Hoja.",
             "detail": "Normal Hoja Oscura (003). Durante tu Main, activa su efecto: destruye a Hoja Oscura y Especial Angbruja (001, Nivel 3) desde el Deck. Campo Angbruja; GY Hoja.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19363,
+                "name": "Hoja Oscura",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2537,7 +2971,15 @@
             "number": 2,
             "action": "Angbruja, al ser Especial, busca Tatsun (002). Invoca Especial Tatsun de mano; solo controlas Memento boca arriba. Campo Angbruja+Tatsun.",
             "detail": "Angbruja, al ser Especial, busca Tatsun (002). Invoca Especial Tatsun de mano; solo controlas Memento boca arriba. Campo Angbruja+Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2546,7 +2988,29 @@
             "number": 3,
             "action": "Tatsun destruye al propio Tatsun; manda desde el Deck Goblin (Nivel 1), Maza (Nivel 1), Desvantasma (Nivel 2). Desvantasma se Invoca Especial por haber sido enviada mediante efecto de Tatsun; en su Invocación recupera Maza del GY a mano. Campo Angbruja+Desvantasma; mano Maza; GY Hoja+Tatsun+Goblin.",
             "detail": "Tatsun destruye al propio Tatsun; manda desde el Deck Goblin (Nivel 1), Maza (Nivel 1), Desvantasma (Nivel 2). Desvantasma se Invoca Especial por haber sido enviada mediante efecto de Tatsun; en su Invocación recupera Maza del GY a mano. Campo Angbruja+Desvantasma; mano Maza; GY Hoja+Tatsun+Goblin.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2555,7 +3019,22 @@
             "number": 4,
             "action": "Angbruja activa su efecto distinto al de búsqueda: selecciona Goblin (Nivel 1) del GY, destruye Angbruja propia e Invoca Goblin desde GY. Campo Desvantasma+Goblin; GY Hoja+Tatsun+Angbruja.",
             "detail": "Angbruja activa su efecto distinto al de búsqueda: selecciona Goblin (Nivel 1) del GY, destruye Angbruja propia e Invoca Goblin desde GY. Campo Desvantasma+Goblin; GY Hoja+Tatsun+Angbruja.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2564,7 +3043,29 @@
             "number": 5,
             "action": "Goblin destruye al propio Goblin y envía dos cartas Memento de nombres diferentes del Deck al GY: Fusión Mementotlán (015) y Creación Combinada (005). Quedan en GY también Hoja, Tatsun, Angbruja y Goblin. Campo: Desvantasma.",
             "detail": "Goblin destruye al propio Goblin y envía dos cartas Memento de nombres diferentes del Deck al GY: Fusión Mementotlán (015) y Creación Combinada (005). Quedan en GY también Hoja, Tatsun, Angbruja y Goblin. Campo: Desvantasma.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2573,7 +3074,36 @@
             "number": 6,
             "action": "Durante tu Main, activa el efecto de Fusión Mementotlán desde GY: destierra esa copia, destruye Desvantasma en campo y busca otra copia de Fusión Mementotlán del Deck a mano. No se trata de reutilizar la misma copia desterrada. Mano: Maza+Fusión; GY monstruos: Hoja,Tatsun,Angbruja,Goblin,Desvantasma,Creación Combinada.",
             "detail": "Durante tu Main, activa el efecto de Fusión Mementotlán desde GY: destierra esa copia, destruye Desvantasma en campo y busca otra copia de Fusión Mementotlán del Deck a mano. No se trata de reutilizar la misma copia desterrada. Mano: Maza+Fusión; GY monstruos: Hoja,Tatsun,Angbruja,Goblin,Desvantasma,Creación Combinada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2582,7 +3112,36 @@
             "number": 7,
             "action": "Activa la segunda Fusión Mementotlán desde mano. Usa Maza de mano + Tatsun y Goblin del GY, barajando los dos del GY al Deck gracias a las destrucciones propias previas. Invoca Rey Creación del Extra. GY de monstruos tras Fusionar: Hoja, Angbruja, Desvantasma, Maza y jefe 005.",
             "detail": "Activa la segunda Fusión Mementotlán desde mano. Usa Maza de mano + Tatsun y Goblin del GY, barajando los dos del GY al Deck gracias a las destrucciones propias previas. Invoca Rey Creación del Extra. GY de monstruos tras Fusionar: Hoja, Angbruja, Desvantasma, Maza y jefe 005.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2591,7 +3150,36 @@
             "number": 8,
             "action": "Rey Creación envía del Deck tres cartas Memento: Akhíron (006) + Dormiveja (007) + Dragón de Cuerno (010). Ahora hay siete nombres distintos ajenos al jefe en GY: Hoja,Angbruja,Desvantasma,Maza,Akhíron,Dormiveja,Dragón de Cuerno.",
             "detail": "Rey Creación envía del Deck tres cartas Memento: Akhíron (006) + Dormiveja (007) + Dragón de Cuerno (010). Ahora hay siete nombres distintos ajenos al jefe en GY: Hoja,Angbruja,Desvantasma,Maza,Akhíron,Dormiveja,Dragón de Cuerno.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2600,7 +3188,36 @@
             "number": 9,
             "action": "Especial Creación Combinada desde GY, barajando cinco de esos nombres: Hoja,Angbruja,Desvantasma,Maza,Dragón de Cuerno. Conserva Akhíron y Dormiveja en GY. Campo: Rey Creación+Creación Combinada. Destierro: primera Fusión utilizada como búsqueda; GY: segunda Fusión, Akhíron, Dormiveja. Normal gastada.",
             "detail": "Especial Creación Combinada desde GY, barajando cinco de esos nombres: Hoja,Angbruja,Desvantasma,Maza,Dragón de Cuerno. Conserva Akhíron y Dormiveja en GY. Campo: Rey Creación+Creación Combinada. Destierro: primera Fusión utilizada como búsqueda; GY: segunda Fusión, Akhíron, Dormiveja. Normal gastada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2629,7 +3246,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C06",
@@ -2698,7 +3316,15 @@
             "number": 1,
             "action": "Normal Angbruja → busca Tatsun; Especial Tatsun.",
             "detail": "Normal Angbruja → busca Tatsun; Especial Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2707,7 +3333,15 @@
             "number": 2,
             "action": "Tatsun se destruye, envía del Deck Desvantasma Nivel 2 + Dormiveja Nivel 3 (2+3=5). Desvantasma se Invoca Especial por efecto de Tatsun y, al Invocarse, recupera Dormiveja del GY a mano.",
             "detail": "Tatsun se destruye, envía del Deck Desvantasma Nivel 2 + Dormiveja Nivel 3 (2+3=5). Desvantasma se Invoca Especial por efecto de Tatsun y, al Invocarse, recupera Dormiveja del GY a mano.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2716,7 +3350,36 @@
             "number": 3,
             "action": "Activa Fusión Mementotlán desde mano: fusiona Angbruja + Desvantasma en campo (dos Memento) para invocar Mementotlán Dragón Gemelo (027). Mano: Dormiveja. GY: Tatsun,Angbruja,Desvantasma,Fusión.",
             "detail": "Activa Fusión Mementotlán desde mano: fusiona Angbruja + Desvantasma en campo (dos Memento) para invocar Mementotlán Dragón Gemelo (027). Mano: Dormiveja. GY: Tatsun,Angbruja,Desvantasma,Fusión.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19878,
+                "name": "Dragón Gemelo",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2725,7 +3388,36 @@
             "number": 4,
             "action": "Dragón Gemelo, al ser Invocado por Fusión, activa su efecto y destruye Dormiveja en tu mano; luego añade Creación Combinada + Goblin, dos nombres Memento diferentes, desde el Deck a la mano. Dormiveja destruida activa su efecto distinto y envía Maza desde el Deck al GY.",
             "detail": "Dragón Gemelo, al ser Invocado por Fusión, activa su efecto y destruye Dormiveja en tu mano; luego añade Creación Combinada + Goblin, dos nombres Memento diferentes, desde el Deck a la mano. Dormiveja destruida activa su efecto distinto y envía Maza desde el Deck al GY.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19878,
+                "name": "Dragón Gemelo",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2734,7 +3426,36 @@
             "number": 5,
             "action": "Recuento antes del jefe: GY de monstruos Tatsun,Angbruja,Desvantasma,Dormiveja,Maza = cinco nombres diferentes. Mano: Creación Combinada + Goblin. Invoca Creación Combinada desde mano, barajando exactamente esos cinco al Deck.",
             "detail": "Recuento antes del jefe: GY de monstruos Tatsun,Angbruja,Desvantasma,Dormiveja,Maza = cinco nombres diferentes. Mano: Creación Combinada + Goblin. Invoca Creación Combinada desde mano, barajando exactamente esos cinco al Deck.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2763,7 +3484,24 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 19366,
+            "name": "Goblin",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19878,
+            "name": "Dragón Gemelo",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C07",
@@ -2811,7 +3549,22 @@
             "number": 1,
             "action": "Normal Angbruja → busca Tatsun; Especial Tatsun. Tatsun se destruye para enviar Desvantasma Nivel 2 + Dormiveja Nivel 3.",
             "detail": "Normal Angbruja → busca Tatsun; Especial Tatsun. Tatsun se destruye para enviar Desvantasma Nivel 2 + Dormiveja Nivel 3.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2820,7 +3573,22 @@
             "number": 2,
             "action": "Desvantasma Especial desde GY (enviada por efecto de Tatsun) y recupera Dormiveja a mano. Campo: Angbruja+Desvantasma; mano: Dormiveja + Fusión.",
             "detail": "Desvantasma Especial desde GY (enviada por efecto de Tatsun) y recupera Dormiveja a mano. Campo: Angbruja+Desvantasma; mano: Dormiveja + Fusión.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2829,7 +3597,36 @@
             "number": 3,
             "action": "Fusión Mementotlán desde mano fusiona Angbruja y Desvantasma del campo + Dormiveja de mano para Quimera Guardián, que exige tres monstruos de nombres diferentes y al menos uno de mano y otro de campo. La magia Fusión tiene un material Memento (en realidad, los tres).",
             "detail": "Fusión Mementotlán desde mano fusiona Angbruja y Desvantasma del campo + Dormiveja de mano para Quimera Guardián, que exige tres monstruos de nombres diferentes y al menos uno de mano y otro de campo. La magia Fusión tiene un material Memento (en realidad, los tres).",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 16845,
+                "name": "Quimera Guardián",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2838,7 +3635,15 @@
             "number": 4,
             "action": "Efecto de Quimera Guardián al ser Invocada por Fusión mediante magia: roba una carta por el material que salió de mano; si robas, destruye dos cartas que controle el adversario por los dos materiales de campo, asumiendo que permanecen y pueden destruirse.",
             "detail": "Efecto de Quimera Guardián al ser Invocada por Fusión mediante magia: roba una carta por el material que salió de mano; si robas, destruye dos cartas que controle el adversario por los dos materiales de campo, asumiendo que permanecen y pueden destruirse.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 16845,
+                "name": "Quimera Guardián",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2865,7 +3670,38 @@
           "sources": [
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 16845,
+            "name": "Quimera Guardián",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19364,
+            "name": "Angbruja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19904,
+            "name": "Fusión Mementotlán",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 20199,
+            "name": "Dormiveja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C08",
@@ -2892,7 +3728,15 @@
             "number": 1,
             "action": "Normal Angbruja; al ser Invocada busca Tatsun desde Deck. Campo Angbruja.",
             "detail": "Normal Angbruja; al ser Invocada busca Tatsun desde Deck. Campo Angbruja.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -2956,7 +3800,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C09",
@@ -2990,7 +3835,15 @@
             "number": 1,
             "action": "Invoca Normal Angbruja, activa su búsqueda y añade Tatsun. Invoca Tatsun Especial desde mano: solo controlas Memento boca arriba.",
             "detail": "Invoca Normal Angbruja, activa su búsqueda y añade Tatsun. Invoca Tatsun Especial desde mano: solo controlas Memento boca arriba.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3025,7 +3878,22 @@
             "number": 4,
             "action": "Invoca de modo Especial a Princesa Necroequipo mediante su procedimiento impreso: manda al GY Grabador equipado con la Carta de Monstruo Réquiem (desde campo) y Goblin de la mano (la segunda Carta de Monstruo, de Tipo Demonio). Réquiem va al GY al quedar sin el monstruo equipado.",
             "detail": "Invoca de modo Especial a Princesa Necroequipo mediante su procedimiento impreso: manda al GY Grabador equipado con la Carta de Monstruo Réquiem (desde campo) y Goblin de la mano (la segunda Carta de Monstruo, de Tipo Demonio). Réquiem va al GY al quedar sin el monstruo equipado.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20423,
+                "name": "Princesa Necroequipo",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20423.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20423.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3034,7 +3902,29 @@
             "number": 5,
             "action": "Campo: Princesa Necroequipo (2000 ATK). GY conocido: Angbruja, Tatsun, Luna, Grabador, Goblin, Réquiem. Normal usada. No convertir el envío de Goblin durante este procedimiento de Invocación en «enviado para activar una carta o efecto»: Princesa NO roba por ello.",
             "detail": "Campo: Princesa Necroequipo (2000 ATK). GY conocido: Angbruja, Tatsun, Luna, Grabador, Goblin, Réquiem. Normal usada. No convertir el envío de Goblin durante este procedimiento de Invocación en «enviado para activar una carta o efecto»: Princesa NO roba por ello.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20423,
+                "name": "Princesa Necroequipo",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20423.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20423.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3061,7 +3951,8 @@
           "sources": [
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C10",
@@ -3109,7 +4000,15 @@
             "number": 1,
             "action": "Normal Angbruja → busca Tatsun; Especial Tatsun. Enlaza ambos en Luna (032); usa Luna para Réquiem (030); Sacrifica Réquiem y Especial Grabador (011) desde el Deck. Campo Grabador; GY Angbruja,Tatsun,Luna,Réquiem.",
             "detail": "Normal Angbruja → busca Tatsun; Especial Tatsun. Enlaza ambos en Luna (032); usa Luna para Réquiem (030); Sacrifica Réquiem y Especial Grabador (011) desde el Deck. Campo Grabador; GY Angbruja,Tatsun,Luna,Réquiem.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3118,7 +4017,29 @@
             "number": 2,
             "action": "Activa Fiesta de Huesos desde mano y destruye Goblin de la mano; Invoca desde Deck a Desvantasma en Defensa, cuyo nombre es distinto al Goblin destruido. Desvantasma fue Invocada desde Deck, no enviada al GY: aplica su efecto al ser Invocada y recupera Angbruja del GY a la mano. No activar erróneamente su efecto de autorreanimación.",
             "detail": "Activa Fiesta de Huesos desde mano y destruye Goblin de la mano; Invoca desde Deck a Desvantasma en Defensa, cuyo nombre es distinto al Goblin destruido. Desvantasma fue Invocada desde Deck, no enviada al GY: aplica su efecto al ser Invocada y recupera Angbruja del GY a la mano. No activar erróneamente su efecto de autorreanimación.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19368,
+                "name": "Fiesta de Huesos",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3144,7 +4065,15 @@
             "number": 4,
             "action": "Durante Main, Secuencia fusiona Duque (034, Fusión Demonio) usando Grabador + Goblin de tu GY, ambos Demonios, barajando esos dos materiales al Deck. La Desvantasma queda en GY; Duque y Secuencia quedan en campo.",
             "detail": "Durante Main, Secuencia fusiona Duque (034, Fusión Demonio) usando Grabador + Goblin de tu GY, ambos Demonios, barajando esos dos materiales al Deck. La Desvantasma queda en GY; Duque y Secuencia quedan en campo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3153,7 +4082,15 @@
             "number": 5,
             "action": "Activa el efecto de Duque que permite una Invocación Normal inmediatamente después de resolver y utiliza la Angbruja recuperada. Campo final: Secuencia Link-2 + Duque Nivel 6 + Angbruja Nivel 3. No repitas la búsqueda de Angbruja: ese efecto por nombre ya se usó en el paso 1.",
             "detail": "Activa el efecto de Duque que permite una Invocación Normal inmediatamente después de resolver y utiliza la Angbruja recuperada. Campo final: Secuencia Link-2 + Duque Nivel 6 + Angbruja Nivel 3. No repitas la búsqueda de Angbruja: ese efecto por nombre ya se usó en el paso 1.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3182,7 +4119,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C11",
@@ -3258,7 +4196,15 @@
             "number": 1,
             "action": "Normal Angbruja → busca Tatsun; Especial Tatsun. Campo: Angbruja+Tatsun.",
             "detail": "Normal Angbruja → busca Tatsun; Especial Tatsun. Campo: Angbruja+Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3267,7 +4213,29 @@
             "number": 2,
             "action": "Gran Fuga Moto Goblin se activa Sacrificando Angbruja como coste; Invoca Goblin Mementotlán desde el Deck (no podrá atacar ese turno). Campo: Tatsun+Goblin; Angbruja GY. Sacrificar no es destruir.",
             "detail": "Gran Fuga Moto Goblin se activa Sacrificando Angbruja como coste; Invoca Goblin Mementotlán desde el Deck (no podrá atacar ese turno). Campo: Tatsun+Goblin; Angbruja GY. Sacrificar no es destruir.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20533,
+                "name": "Gran Fuga Moto Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20533.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20533.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3276,7 +4244,22 @@
             "number": 3,
             "action": "Tatsun se destruye por su propio efecto y envía Desvantasma Nivel 2 + Dormiveja Nivel 3 del Deck al GY. Desvantasma se Invoca Especial desde GY y recupera Dormiveja a mano. Campo: Goblin+Desvantasma; mano Dormiveja+Fusión.",
             "detail": "Tatsun se destruye por su propio efecto y envía Desvantasma Nivel 2 + Dormiveja Nivel 3 del Deck al GY. Desvantasma se Invoca Especial desde GY y recupera Dormiveja a mano. Campo: Goblin+Desvantasma; mano Dormiveja+Fusión.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3285,7 +4268,36 @@
             "number": 4,
             "action": "Activa Fusión Mementotlán y usa Goblin+Desvantasma del campo + Dormiveja de mano para invocar Rey Creación. GY de monstruos: Angbruja,Tatsun,Goblin,Desvantasma,Dormiveja.",
             "detail": "Activa Fusión Mementotlán y usa Goblin+Desvantasma del campo + Dormiveja de mano para invocar Rey Creación. GY de monstruos: Angbruja,Tatsun,Goblin,Desvantasma,Dormiveja.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19904,
+                "name": "Fusión Mementotlán",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 20199,
+                "name": "Dormiveja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3294,7 +4306,36 @@
             "number": 5,
             "action": "Rey envía Creación Combinada + Maza + Dragón de Cuerno del Deck al GY. Hay siete nombres distintos ajenos al jefe: Angbruja,Tatsun,Goblin,Desvantasma,Dormiveja,Maza,Dragón de Cuerno.",
             "detail": "Rey envía Creación Combinada + Maza + Dragón de Cuerno del Deck al GY. Hay siete nombres distintos ajenos al jefe: Angbruja,Tatsun,Goblin,Desvantasma,Dormiveja,Maza,Dragón de Cuerno.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3303,7 +4344,36 @@
             "number": 6,
             "action": "Invoca Creación Combinada del GY barajando cinco (por ejemplo, Angbruja,Tatsun,Goblin,Desvantasma,Dragón de Cuerno). Deja Dormiveja y Maza en GY. Campo: Rey 3000 + Creación Combinada 5000; GY también contiene Fusión y Gran Fuga.",
             "detail": "Invoca Creación Combinada del GY barajando cinco (por ejemplo, Angbruja,Tatsun,Goblin,Desvantasma,Dragón de Cuerno). Deja Dormiveja y Maza en GY. Campo: Rey 3000 + Creación Combinada 5000; GY también contiene Fusión y Gran Fuga.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3332,7 +4402,8 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en",
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en"
           ]
-        }
+        },
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       },
       {
         "id": "671:A09:C12",
@@ -3394,7 +4465,15 @@
             "number": 1,
             "action": "Normal Angbruja → añade Tatsun del Deck; Especial Tatsun. Campo Angbruja+Tatsun.",
             "detail": "Normal Angbruja → añade Tatsun del Deck; Especial Tatsun. Campo Angbruja+Tatsun.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3403,7 +4482,22 @@
             "number": 2,
             "action": "Tatsun se destruye y manda Goblin Nivel 1 + Maza Nivel 1 + Desvantasma Nivel 2 al GY (total 4≤5). No actives la autorreanimación opcional de Desvantasma: el GY queda con cuatro nombres diferentes (Tatsun,Goblin,Maza,Desvantasma).",
             "detail": "Tatsun se destruye y manda Goblin Nivel 1 + Maza Nivel 1 + Desvantasma Nivel 2 al GY (total 4≤5). No actives la autorreanimación opcional de Desvantasma: el GY queda con cuatro nombres diferentes (Tatsun,Goblin,Maza,Desvantasma).",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19365,
+                "name": "Maza",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19366,
+                "name": "Goblin",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3412,7 +4506,22 @@
             "number": 3,
             "action": "Desde mano, Invoca Especial Dragón de Cuerno (010) porque hay al menos tres nombres Memento en GY. Campo Angbruja + Dragón de Cuerno.",
             "detail": "Desde mano, Invoca Especial Dragón de Cuerno (010) porque hay al menos tres nombres Memento en GY. Campo Angbruja + Dragón de Cuerno.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3421,7 +4530,29 @@
             "number": 4,
             "action": "Activa Fiesta de Huesos y destruye Dragón de Cuerno en campo; por el efecto de Fiesta, Invoca Hoja Oscura desde Deck en Defensa. Después de resolver la Fiesta, el efecto de Dragón de Cuerno destruido se activa en su ventana.",
             "detail": "Activa Fiesta de Huesos y destruye Dragón de Cuerno en campo; por el efecto de Fiesta, Invoca Hoja Oscura desde Deck en Defensa. Después de resolver la Fiesta, el efecto de Dragón de Cuerno destruido se activa en su ventana.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19363,
+                "name": "Hoja Oscura",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19368,
+                "name": "Fiesta de Huesos",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3430,7 +4561,29 @@
             "number": 5,
             "action": "Dragón de Cuerno selecciona exactamente tres cartas boca arriba, incluyendo Angbruja propia + dos cartas rivales boca arriba, y las destruye si su efecto resuelve. Hoja Oscura permanece en campo; Angbruja y las dos cartas del adversario van al GY si pudieron ser destruidas.",
             "detail": "Dragón de Cuerno selecciona exactamente tres cartas boca arriba, incluyendo Angbruja propia + dos cartas rivales boca arriba, y las destruye si su efecto resuelve. Hoja Oscura permanece en campo; Angbruja y las dos cartas del adversario van al GY si pudieron ser destruidas.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19361,
+                "name": "Dragón de Cuerno",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19363,
+                "name": "Hoja Oscura",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              },
+              {
+                "cid": 19364,
+                "name": "Angbruja",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+                "label": "Carta mencionada en la secuencia documentada"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -3457,7 +4610,45 @@
           "sources": [
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en"
           ]
-        }
+        },
+        "result_photos": [
+          {
+            "cid": 19361,
+            "name": "Dragón de Cuerno",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19363,
+            "name": "Hoja Oscura",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19364,
+            "name": "Angbruja",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19365,
+            "name": "Maza",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          },
+          {
+            "cid": 19366,
+            "name": "Goblin",
+            "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+            "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+            "label": "Carta mencionada en la secuencia documentada"
+          }
+        ],
+        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
       }
     ],
     "decisions": [
