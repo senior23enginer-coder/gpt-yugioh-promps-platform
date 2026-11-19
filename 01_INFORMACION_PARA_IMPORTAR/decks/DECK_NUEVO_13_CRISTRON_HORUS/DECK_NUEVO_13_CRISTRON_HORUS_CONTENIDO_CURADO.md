@@ -30,7 +30,7 @@
 | **A07** Reglas y cadenas | **COMPLETA_DOCUMENTAL_CONTEXTUAL (no certificada por simulador)** | **21 controles RGL01–RGL21** (RGL16 sustituida por control mecánico), **14 interrupciones INT01–INT14**, **6 auditorías CR-A01–06** y **4 cadenas SC-X01–04**; ficha de formato, ventanas y riesgos en A07.4 | Legalidad técnica integral, casos con cambios de zona y respuesta bajo Lancea siguen `PENDIENTE_DE_RULING`/`SIN_REPLAY`, sin bloquear el cierre editorial de este apartado |
 | **A08** Estrategia y Side | **COMPLETA_DOCUMENTAL (rutas no certificadas)** | **26 decisiones D01–D26**, clasificación de las siete familias C01–C07, siete variantes V01–V07 e interacciones elementales en A08.4; **6 planes Side S01–S06** con intercambios exactos y **3/3 matchups seleccionados** | Sin pendiente de exploración/clasificación editorial en el alcance documentado; cadenas, accesos situacionales, resultados y rendimiento permanecen condicionados a A07/A09, no medidos |
 | **A09** Jugadas y manos | **COMPLETA_EDITORIAL_CONDICIONAL (sin certificación técnica)** | **7 rutas C01–C07**, **7 variantes V01–V07**, **24 manos H01–H24**, estados finales por zonas, controles de riesgo y seis situaciones estratégicas A09.3; **0 replays** | Sin pendiente de ficha/recorrido documental; las rutas reactivas, las interacciones ocultas y los casos A07 pendientes no son secuencias certificadas ni resultados de simulador |
-| **A10** Guías visuales | **GUIAS V40 DISPONIBLES** | HTML y 39/39 fotos, sin imágenes faltantes | Conciliar rutas locales y texto tras esta revisión; la validación de cadenas es un eje distinto |
+| **A10** Guías visuales | **COMPLETA_GUIA_DOCUMENTAL — QA NAVEGADOR PENDIENTE** | **14/14 paneles C01–C07/V01–V07**, pasos verticales con referencias fotográficas y cierres condicionados en HTML; 39/39 fotos del inventario, mapa nuevo de 22 entradas válidas; contrato de evidencia por ruta A10.1 | La ejecución del navegador gráfico quedó impedida en este entorno; importación vigente y publicación nueva NO comprobadas. Legalidad/cadenas A07–A09 no certificadas por simulador |
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
 
@@ -889,6 +889,25 @@ Las cinco cartas de cada fila son **ejercicios dirigidos, no extracciones aleato
 2. **Pendiente documental específico:** comprobar el estado de campo y las ventanas de Tristaros, el disparador posterior de Elesqueletus y la preparación V01; detener una línea cuando no estén los materiales/objetivos.
 3. **Pendiente estratégico, sin exigir simulador:** comparar las 20 manos y los puntos de interrupción por Ash, Droll, Nibiru y destierros; no atribuir porcentajes de éxito o victoria a los ejercicios escritos.
 4. **Contraste físico voluntario:** cualquier replay o prueba de mesa posterior del usuario puede agregarse como evidencia real; **no** se exige para dar por disponible una guía fotográfica documental.
+
+### A10.1 — Conciliación final de los 14 paneles de aprendizaje
+
+**Estado `COMPLETA_GUIA_DOCUMENTAL`, no `REGLA_CERTIFICADA`.** Se conserva el archivo original [guía A01–A10](guias/GUIA_VISUAL_A01_A10.html#rutas), sin crear una segunda guía ni renumerar rutas. El visor incluye **7 paneles C01–C07 y 7 V01–V07** con sus pasos; la mejora A10 presenta **verticalmente** los pasos, fotos locales por CID de las cartas mencionadas en el texto (y una referencia de contexto cuando la etapa no nombra una pieza), y un resultado por panel con la condición de validez visible. Las imágenes de referencia **no** son prueba de que la carta se invocó o estaba en mano. La matriz A06 y las fichas A09 anteriores siguen siendo la única fuente canónica de cantidades, zonas, efectos y secuencias.
+
+| Ruta A09 / panel A10 | Foto/salida mostrada | Advertencia que debe seguir visible | Guía / regla / importación / publicación |
+|---|---|---|---|
+| **C01 / V02** | Hagoita 026, Citree 005 y Smiger 002 | Sincronía **solo en turno rival**; ambos materiales desterrados. V02 conserva Inclusión. | `GUIA_DOCUMENTADA` / `DOC_CONDICIONAL` / `SIN_COMPROBAR` / `NO_AUTORIZADA` |
+| **C02 / V04** | Elesqueletus 020 **o** Destructor Samurái 029 | Elesqueletus devuelve Inclusión; Samurái **no** la devuelve; Smiger limita Extra a Sincronía Máquina. | Idem |
+| **C03 / V05 / V06** | Tristaros 003 → Sulfador 001 → Elesqueletus 020 | Debe haber **activación rival** y Tristaros en Campo; la Sincronía **no niega CL1**. | Idem |
+| **C04 / C05 / V07** | Amset 007 + Hapi 008 → **Número90 027 o Vampiro 028** | Los dos Horus son **materiales bajo un solo Xyz**; molino Vampiro no determinista y Amset/Hapi deben estar en zona accesible. | Idem |
+| **C06** | Sulfador 001 + Azufafnir 004 → Nova 025 → Infinito 024 | Exige **segunda Azufafnir disponible en Deck**, descartar Smiger sin efecto de Campo y conservar bloqueo **solo Máquina**. | Idem |
+| **C07** | Amset 007 + Tristaros 003; luego Elesqueletus 020 | Separar cierre propio de reacción del turno rival; búsquedas expuestas a Droll. | Idem |
+| **V01** | Quariongandrax 021 | Continuación de **C02**, dos Cantantes y un no Cantante Nivel total 9, más evento rival y supervivencia. | Idem |
+| **V03** | Tristaros 003 + Agrupamiento 018 Colocado; Elesqueletus posterior | La Trampa **no se activa el turno de su Colocación**; requiere recurso reciclable y objetivo boca arriba. | Idem |
+
+**Puertas de salida distintas:** (1) `DOCUMENTADA` **14/14** fichas en A09, con incertidumbres explícitas; (2) `GUIA_COMPLETA_DOCUMENTAL` **14/14** paneles con texto, fotos reales y resultados condicionados; (3) `REGLA_CERTIFICADA` **0/14 declaradas** porque no se ejecutó simulador y persiste INT13; (4) `IMPORTABLE` **NO COMPROBADO EN EL IMPORTADOR REAL** en este pase (la publicación/importación V40 histórica no equivale a prueba de esta revisión); (5) `PUBLICABLE` **NO AUTORIZADO**, ninguna acción de publicación ejecutada.
+
+**Comprobaciones efectivamente hechas:** 39 fotografías auténticas de inventario registradas y referenciadas; **22 nombres de foto** en el mapeo visual nuevo, **0 archivos ausentes**; 14 IDs de ruta escritos y 60 pasos en HTML; el nuevo JavaScript pasó **validación de sintaxis**. El navegador Chromium local no pudo abrirse por error de permiso de socket (`Operation not permitted`), de modo que **QA de render y navegación móvil permanece `PENDIENTE_NAVEGADOR`**; no afirmar 60 fotos renderizadas ni interacción probada. La sección de estudio HTML embebida conserva un **corte histórico** y no sustituye esta ficha canónica actualizada: para vigencia de estados A01–A10 consultar **este archivo MD**. No se utilizó calculadora, no se generó ZIP y no se publicaron cambios.
 
 ---
 
