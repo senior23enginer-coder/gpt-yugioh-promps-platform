@@ -14,6 +14,14 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+### Entregable A09 — contrato exacto de una secuencia paso a paso
+
+Para **cada ruta y variante** generar el mismo resultado didáctico que permite inspeccionar la apertura de Kashtira, adaptado al deck real: \`record.routes[*].id\` inmutable, \`title\`, \`purpose\`, \`category\`, \`opening\` (mano **confirmada**, campo, Deck/Extra, GY, destierro y condiciones), \`hand_photos\` SOLO de la mano comprobada, y \`steps\` ordenados sin saltos. Cada \`step\` necesita \`number\`, \`action\` completo con origen→destino y carta nombrada, \`detail\`, \`photos\` locales con CID exacto **de las cartas realmente participantes**, \`requirements\`, \`resources\`, coste/ventana/cadena y estados antes/después cuando proceda.
+
+**Resultado obligatorio:** \`result\` explica quién queda en campo, mano/GY, recursos y restricciones, no solo «fin del combo». \`endboard.variants\` debe describir casillas por zona, posición, material Xyz/equipos y recursos **si fueron verificados**; en caso contrario conservar \`board: []\`, \`result_photos\` de cartas explícitamente nombradas y \`presentation_status: DOCUMENTADA_SIN_CAMPO_ESPACIAL\`. No añadir cartas por inferencia ni fabricar un \`endboard\` para satisfacer una prueba. Distinguir variantes ante interrupción y cambios de recursos.
+
+**Prueba de aceptación A09:** abrir la ruta y poder leer **todas las acciones y detalles completos**, mirar fotografías alineadas con cada paso y entender el resultado sin consultar un Markdown externo. Registrar \`pasos con foto / pasos totales\`, \`rutas con endboard espacial / rutas totales\`; un campo final sin zonas confirmadas impide marcar \`GUIA_VISUAL_COMPLETA\`, aunque el análisis narrativo esté terminado.
+
 **Identidad estable de ruta:** `familia_id` identifica una apertura y propósito táctico; `combo_id` identifica una secuencia reproducible con mano/estado, pasos y resultado; `variante_id` se asigna si cambian de forma relevante starter, materiales/costes, exposición a interrupción, cadena o tablero, y siempre conserva su `combo_id` padre. Una respuesta en turno rival, transformación sin nueva apertura o repetición textual no suma otra familia. Mantener referencias históricas como alias sin renumerar rutas existentes. El cierre editorial requiere todos los pasos y destinos trazables; si falta texto, objetivo, material o ventana decisiva, marcar la ruta condicional/pendiente y no certificarla.
 
 **Método vigente:** registrar aquí las precondiciones, pasos, costes, comprobación de estados y resultado, con cotejo reglamentario de A07/A11. Este apartado **es dueño de la única ficha canónica**; las guías A10, planes y respuestas deben vincularla por ID, no duplicarla.
