@@ -12,6 +12,14 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+### Entregable A08 — catálogo visual de rutas que lleva a resultados reales
+
+Cada candidato conserva un \`jugada_id\`, tipo (starter, interacción básica, extensión, continuación, combo completo o decisión), **mano mínima o estado inicial probado** con IDs/CIDs, fotos de esas piezas (no de objetivos futuros), objetivo tangible, requisitos, coste relevante, resultado estimado y \`combo_id\` A09 cuando exista. Agrupar variantes por familia y exponer un selector de rutas por propósito, al modo de Kashtira, **sin elevar un buscador aislado a combo completo**. La lista de resultados debe incluir campo/meta observable cuando esté verificado o \`DOCUMENTADA_SIN_CAMPO_ESPACIAL\` si la exploración no logra identificar zonas.
+
+Antes de pasar a A09 producir una tabla de traspaso: \`jugada_id → ruta padre/variante → cartas y fotos confirmadas → estado inicial → pasos todavía necesarios → resultado/limitación → regla A07 pendiente\`. Cada familia tiene al menos un desenlace ilustrable o una explicación explícita de por qué no puede presentarse como secuencia validada.
+
+**Prueba de aceptación A08:** todos los candidatos clasificados individualmente, sin rutas duplicadas por cambios de nombre y sin fotografías de cartas no disponibles. El número de rutas completas jamás se determina con una cuota artificial ni se compara mecánicamente con las de Kashtira.
+
 **Registro mínimo A08:** `jugada_id`, categoría, cartas y copias participantes, zona/fase y estado inicial, condición habilitante, acción y utilidad concreta, resultado y evidencia, `combo_id` padre o referencia cuando exista, estado y próxima comprobación. La coincidencia de cartas con A09 no basta: vincular únicamente tras comprobar la cadena causal y los recursos exactos. Variantes del mismo plan conservan ID padre y un identificador de variante estable; registrar una familia independiente solo si existe apertura propia y desenlace táctico sustancialmente distinto, no por cambiar la redacción.
 
 **Método vigente:** este apartado descubre y clasifica las familias de rutas. Las secuencias causales verificables se desarrollan únicamente en el apartado 09 y sus fotografías y guías en el 10. No confundir exploración con ruta certificada.
