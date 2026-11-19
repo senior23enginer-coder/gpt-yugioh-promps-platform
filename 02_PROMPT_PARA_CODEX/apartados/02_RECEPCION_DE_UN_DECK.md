@@ -10,11 +10,11 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ### Entregable A02 — una carpeta y una identidad reutilizables por toda la cadena
 
-Antes de analizar cartas, resolver inequívocamente \`deck_id\` real, formato, carpeta histórica exacta y nombre visible del deck. Registrar procedencia del inventario, fecha, equipo si existe, edición y estado de aprobación **sin convertir ese control en contenido de la ficha pública**. Para deck nuevo: crear en Station X desde TXT y **exportar Data** para obtener el paquete nativo; para existente: usar su ZIP exportado o su paquete portátil previamente vinculado a IDs de fila auténticos. Jamás generar un hash \`inventory_sha256\` ficticio.
+Antes de analizar cartas, resolver inequívocamente `deck_id` real, formato, carpeta histórica exacta y nombre visible del deck. Registrar procedencia del inventario, fecha, equipo si existe, edición y estado de aprobación **sin convertir ese control en contenido de la ficha pública**. Para deck nuevo: crear en Station X desde TXT y **exportar Data** para obtener el paquete nativo; para existente: usar su ZIP exportado o su paquete portátil previamente vinculado a IDs de fila auténticos. Jamás generar un hash `inventory_sha256` ficticio.
 
-Producir el mismo árbol individual \`DECK_*/datos/stationx-deck.json\`, \`DECK_*_CONTENIDO_CURADO.md\`, \`imagenes/\` y \`guias/\` según uso real. En A02 decidir y fijar la carpeta que **no cambiará** durante A03–A10. El JSON estructurado \`station-x-deck-package/1\` conserva \`record.schema=station-x-curated-v62\`. Debe mantener \`content_mode=structured\` cuando la IA edite fichas, rutas o recursos visuales. El Markdown y HTML complementan: no reemplazan un \`record\` interactivo.
+Producir el mismo árbol individual `DECK_*/datos/stationx-deck.json`, `DECK_*_CONTENIDO_CURADO.md`, `imagenes/` y `guias/` según uso real. En A02 decidir y fijar la carpeta que **no cambiará** durante A03–A10. El JSON estructurado `station-x-deck-package/1` conserva `record.schema=station-x-curated-v62`. Debe mantener `content_mode=structured` cuando la IA edite fichas, rutas o recursos visuales. El Markdown y HTML complementan: no reemplazan un `record` interactivo.
 
-**Prueba de aceptación A02:** ZIP con una sola carpeta, sin prompts, un solo deck, esquema identificado, coincidencia de ID/formato y archivo de origen; todas las etapas siguientes utilizan esa misma carpeta y el mismo \`deck_id\`.
+**Prueba de aceptación A02:** ZIP con una sola carpeta, sin prompts, un solo deck, esquema identificado, coincidencia de ID/formato y archivo de origen; todas las etapas siguientes utilizan esa misma carpeta y el mismo `deck_id`.
 
 Identificar nombre, deck_id, equipo, formato, versión, fecha y cantidades de Main, Extra, Side, Reserva y Skill cuando aplique. Diferenciar **deck encontrado en el catálogo**, **inventario transcrito**, **inventario aprobado**, **estudio iniciado** y **estudio terminado**.
 
