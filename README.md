@@ -1,5 +1,15 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
 
+## Sincronización inicial desde Station X (decks creados por TXT)
+
+La acción independiente **«Enviar al repositorio GPT»** de Station X crea la carpeta `01_INFORMACION_PARA_IMPORTAR/decks/DECK_<id>_<nombre>/` solamente para decks nuevos que fueron creados mediante la plantilla TXT nativa. La operación aporta datos de identidad e inventario reales, **sin ejecutar A01–A10 ni importar contenidos a la aplicación**.
+
+Archivos iniciales: `datos/stationx-origen.json` (huella e inventario fuente), `datos/stationx-deck.json` (contrato estructurado exportado por Station X) y `*_CONTENIDO_CURADO.md` (borrador vacío generado por la plataforma). No son estudios completados; la IA los desarrolla **manualmente** cuando el propietario lo ordena.
+
+La sincronización se puede repetir sin duplicar archivos. Si existen estudios, guías, imágenes o `stationx-deck.json`, Station X **no los sobrescribe**. Cuando hay una discrepancia de inventario, se detiene y exige conciliación. Solo actualiza su propio archivo `stationx-origen.json` cuando el deck y la huella siguen siendo los mismos. No tocar directorios históricos de Memento (671) ni Crystron/Horus (677) en esta implementación.
+
+La conexión GitHub usa un token de permisos mínimos del lado del servidor Station X, configurado como `STATIONX_GITHUB_TOKEN` (Contents: Read and write **solo** sobre este repositorio). Nunca publicar el token en JS, archivos de prompts, el ZIP o Git. El botón «Sincronizar listado» continúa funcionando localmente y no modifica GitHub.
+
 Repositorio independiente del contenido de `torneos_yugioh/context/gpt/`. El código de la plataforma se mantiene en [platform-yugioh-md](https://github.com/senior23enginer-coder/platform-yugioh-md).
 
 - `01_INFORMACION_PARA_IMPORTAR/`: entregas de decks, documentos curados, imágenes y guías.
