@@ -22,7 +22,7 @@
 | Apartado | Estado propio del deck | Progreso o evidencia comprobable | Pendiente para cerrar |
 |---|---|---|---|
 | **A01** Rol y propósito | **COMPLETA — IDENTIDAD Y DECISIONES DOCUMENTALES (18-11-2026)** | Dos motores y tres ritmos diferenciados; siete rutas C01–C07, alternativas incompatibles, cortes y prioridades contra Memento/Purrely/Salamangreat vinculadas a A08.3 y A09 | **Sin pendiente propio de definición del rol.** Los desenlaces siguen sujetos a ventanas, inventario y respuestas descritas en A07–A09; sin tasa de victoria ni prueba de simulador |
-| **A02** Planes y estilos | **PARCIAL AVANZADO** | Plan primero/segundo, curva de riesgos, árbol de decisiones y **24 manos H01–H24** | Las manos son documentales: falta evidencia empírica comparativa, no una lista nueva |
+| **A02** Planes y estilos | **COMPLETA — PLANES DOCUMENTALES Y DESVÍOS (18-11-2026)** | Prioridades para primero/segundo/turno rival/medio-tardío, comparación C01–C07 y V01–V07, **24 manos H01–H24**, seis cortes ejemplificados y probabilidades de coincidencia separadas del desempeño | **Sin pendiente documental del plan.** La medición empírica de duelos queda fuera del cierre y no se infieren porcentajes de resolución o victorias |
 | **A03** Inventario | **TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO** | 70 copias, 39 identidades, zonas 40/15/15/0, ID 677 registrado | Cotejar únicamente si hay una autorización editorial independiente; no proponer reemplazos automáticos |
 | **A04** Identidad, CID y fotos | **IMÁGENES V37 COMPLETAS; IMPORTACIÓN V40 REGISTRADA** | 39/39 fotos auténticas por CID, 20 JPG + 19 PNG; enlaces relativos ya corregidos en la conciliación previa | Verificar los enlaces al regenerar la guía, sin atribuir fotos faltantes |
 | **A05** Efectos y uso | **PARCIAL AVANZADO** | **39/39 roles funcionales resumidos** en la matriz; fuentes Konami por CID | Ampliar matices de todos los efectos y rulings raros |
@@ -94,6 +94,24 @@
 **Lectura para jugar:** C06 produce la negación más general de estas aperturas, pero **su combinación exacta de tres nombres es poco frecuente en cinco cartas**; conviene practicar C01/C07/V03 también. **No sumar los porcentajes**: las manos se superponen. La probabilidad real de completar una ruta debe descontar objetivos fuera del Deck y estudiar interrupciones, sin extrapolar estas cifras a victoria/competitividad.
 
 **Identidad:** híbrido Cristron/Horus según cartas transcritas; `deck_id` real **677**, registrado como TCG Advanced. No se modifican cantidades, nombres ni zonas.
+
+### A02.3 — Cierre de planes comparados y respuesta tras fallos (18-11-2026)
+
+**Objeto de esta pasada:** resolver la comparación **documental** que faltaba en el control A02. Cada fila utiliza las condiciones realmente descritas por A09 y las decisiones A08; no transforma una apertura en partida disputada, ni calcula frecuencias de victoria.
+
+| Momento y necesidad | Plan principal si la mano lo permite | Alternativa tras corte / recurso ausente | Qué se conserva y qué NO se promete |
+|---|---|---|---|
+| **Primero; control reactivo con un solo iniciador** | Smiger→Citree (**C01**) o Tristaros (**C03/V05**) | Si Citree única fue robada (**H24**), escoger Tristaros desde Deck; si Smiger fue negado (**H19**), detener esa apertura | Sincronía solo en ventana del rival, con material presente; **no** existe Hagoita/Elesqueletus automáticamente al pasar turno |
+| **Primero; recuperar recursos** | Inclusión+Sulfador→Elesqueletus (**C02**) | Si Inclusión no busca o Sulfador no destruye, no contar Smiger ni carta recuperada; revisar recursos realmente conservados | Puede dejar Smiger y recuperar Inclusión, **no** negar de modo genérico; bloqueo solo Sincronía Máquina después del efecto de Campo de Smiger |
+| **Primero; negación inmediata** | Inclusión+Sulfador+Azufafnir→Nova→Infinito (**C06**) | Si falta otro Azufafnir en Deck (**H17**), elegir ruta de recursos C02 solo si permanecen materiales legales | Infinito requiere **dos Máquinas Nivel 5** antes de Xyz; C06 no usa Normal ni Smiger de Campo; no confundir disponibilidad de tres nombres con resolución asegurada |
+| **Primero; Xyz Horus** | Amset+Hapi→Número 90 (**C04**) | Sarcófago+Amset, Hapi aún en Deck→Vampiro (**C05**); con Hapi ya en GY (**H18**), recalcular movimiento real | Dos Horus son **materiales** y no pueden formar otro Xyz al mismo tiempo; Vampiro no garantiza extensor ni molino favorable |
+| **Segundo; romper campo antes de invocar** | Gotas con coste y objetivo válidos; o Súper Polimerización con materiales exactos (**H16**) | Sin objetivos compatibles no anunciar Fusión; evaluar Horus/Cristron accesibles sin atribuir retiro enemigo | El rompedor se resuelve **antes** del bloqueo de Extra Cristron; las negaciones/inmunidades reales del rival pueden cambiar el plan |
+| **Turno rival; responder sin fingir negación** | Citree en Main/Battle (**C01**) o Tristaros tras activación rival (**C03/C07**) | Si el rival no activa o retira el Cantante/objetivo, conservar el estado real y no atribuir Sincronía | Tristaros **no niega** la activación inicial; cada recurso enviado o desterrado se mueve a su zona correcta |
+| **Medio/tardío; reconstruir tras negación** | Sarcófago y Horus que estén efectivamente en GY; o Inclusión/Elesqueletus para recuperación Cristron | Tras Droll a C07 (**H20**), Sarcófago puede permanecer, pero Smiger no añade Inclusión; no repetir la búsqueda | Sin Xyz desde monstruos ya acoplados; sin segunda copia de una carta única del Deck; confirmar si hay Normal y qué efectos ya se gastaron |
+
+**Control de las 24 manos:** H01–H12 ilustran aperturas e interrupciones; H13–H20 verifican desvíos y ausencia de recursos; H21–H24 fijan **cinco cartas reales**, incluidas piezas únicas ya robadas y copias desplazadas fuera del Deck. Su función es comprobar la coherencia de las decisiones, **no** medir probabilidad de victoria ni certificar una secuencia en simulador. Los porcentajes A02.2 solo describen **coincidencias de cartas** bajo extracción aleatoria sin reemplazo; no se suman entre sí ni se aplican como porcentaje de combo exitoso.
+
+**Criterio de cierre A02:** están diferenciados los planes **primero**, **segundo**, **respuesta en turno rival** y **recuperación a medio/tardío**, con acceso, alternativa y límite explícitos. A02 queda **`COMPLETA` en alcance documental** sin requerir partidas o calculadora. La legalidad fina de acciones pertenece a A07/A09, el Side 1:1 a A08 y la experiencia visual a A10. **Siguiente apartado: A03**, cuya aprobación editorial no se presupone.
 
 ## APARTADO_03 y APARTADO_04 — Inventario y fuentes
 
