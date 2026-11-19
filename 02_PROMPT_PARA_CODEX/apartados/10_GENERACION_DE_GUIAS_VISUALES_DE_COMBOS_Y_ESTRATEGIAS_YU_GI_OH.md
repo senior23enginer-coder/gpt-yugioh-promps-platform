@@ -1,5 +1,7 @@
 # Apartado 10 — GENERACIÓN DE GUÍAS VISUALES DE COMBOS Y ESTRATEGIAS YU-GI-OH!
 
+**Salida obligatoria para la plataforma (contrato único):** las guías HTML son auxiliares de `record.routes`, nunca sustituyen el JSON interactivo. Para cada `combo_id` conservar la misma sucesión A09, cantidad de pasos, fotografías incluidas, movimiento de zonas, costes, campo final, interrupciones y estados condicionales; no crear rutas o fotos ficticias. Empaquetar en una sola carpeta `DECK_*` con `datos/stationx-deck.json`, Markdown e imágenes, manteniendo exactamente la carpeta exportada por Station X. Antes de declarar `IMPORTABLE` verificar contrato ZIP, huella del inventario y nombres/IDs; separar `GUIA_COMPLETA` de `REGLA_CERTIFICADA`. Español en todo el texto didáctico; no traducir nombres oficiales ni claves de JSON.
+
 Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (2026-11-03).
 
 **Entrada:** seguir el protocolo común de entrada del maestro (selección de un deck, fuentes pertinentes, formato y evidencias previas); aplicar la instrucción específica de este módulo sin ejecutar una tarea global.

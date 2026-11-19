@@ -1,5 +1,7 @@
 # Apartado 09 — FICHA ÚNICA OBLIGATORIA DE CADA COMBO COMPLETO
 
+**Salida obligatoria para la plataforma (contrato único):** además de documentar A09 en el Markdown canónico, mantener su representación completa en `datos/stationx-deck.json → record.routes` cuando exista el ZIP de exportación base. Usar los IDs de ruta existentes, pasos consecutivos con carta/CID, acción, origen→destino, requisitos, costes, cadena, recursos, tablero final y fotos incluidas. No afirmar que el editor drag-and-drop entiende una ruta solo porque se generó HTML. `record.calculator` exige reglas probadas del motor, nunca prosa convertida automáticamente. Si no se proporcionó ZIP base con inventario firmado por la plataforma, conservar el análisis como documentación y marcar `NO IMPORTABLE TODAVÍA`. Español en texto visible; claves técnicas de los esquemas sin traducir.
+
 **Contrato de experiencia A06–A10 (07-11-2026):** A09 es **la única fuente canónica** de una secuencia, nunca otra pestaña que el jugador deba leer antes de «Guías visuales». Producir además un **resumen de enseñanza** por ruta: objetivo tangible, clasificación A08, mano mínima/estado inicial, frase visible por paso, resultado final y condición que invalida la jugada. A10 muestra todos los pasos verticalmente y solo expande el resto de A09 (coste/cadena/ocho zonas) al solicitarlo. Conservar todos los detalles técnicos y su verificación; no sustituirlos por texto simplificado que omita una condición necesaria.
 
 Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (2026-11-03).
