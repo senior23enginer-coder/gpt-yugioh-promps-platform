@@ -23,7 +23,7 @@
 |---|---|---|---|
 | **A01** Rol y propósito | **COMPLETA — IDENTIDAD Y DECISIONES DOCUMENTALES (18-11-2026)** | Dos motores y tres ritmos diferenciados; siete rutas C01–C07, alternativas incompatibles, cortes y prioridades contra Memento/Purrely/Salamangreat vinculadas a A08.3 y A09 | **Sin pendiente propio de definición del rol.** Los desenlaces siguen sujetos a ventanas, inventario y respuestas descritas en A07–A09; sin tasa de victoria ni prueba de simulador |
 | **A02** Planes y estilos | **COMPLETA — PLANES DOCUMENTALES Y DESVÍOS (18-11-2026)** | Prioridades para primero/segundo/turno rival/medio-tardío, comparación C01–C07 y V01–V07, **24 manos H01–H24**, seis cortes ejemplificados y probabilidades de coincidencia separadas del desempeño | **Sin pendiente documental del plan.** La medición empírica de duelos queda fuera del cierre y no se infieren porcentajes de resolución o victorias |
-| **A03** Inventario | **TRANSCRITO Y CARGADO; APROBACIÓN EDITORIAL NO CONSIGNADA POR SEPARADO** | 70 copias, 39 identidades, zonas 40/15/15/0, ID 677 registrado | Cotejar únicamente si hay una autorización editorial independiente; no proponer reemplazos automáticos |
+| **A03** Inventario | **AUDITORÍA NUMÉRICA COMPLETA — PENDIENTE APROBACIÓN DEL PROPIETARIO (18-11-2026)** | Recuento independiente de las 39 filas CRYH-001–039: **Main 40 / Extra 15 / Side 15 / Reserva 0**, total 70; Purulia 2 Main+1 Side sin duplicar identidad; ID 677 | **Solo falta aprobación editorial expresa de Miguel** para declarar A03 `COMPLETA_APROBADA`. La mención «a03» autoriza auditar, pero no implica aceptar cantidades o cambiar cartas |
 | **A04** Identidad, CID y fotos | **IMÁGENES V37 COMPLETAS; IMPORTACIÓN V40 REGISTRADA** | 39/39 fotos auténticas por CID, 20 JPG + 19 PNG; enlaces relativos ya corregidos en la conciliación previa | Verificar los enlaces al regenerar la guía, sin atribuir fotos faltantes |
 | **A05** Efectos y uso | **PARCIAL AVANZADO** | **39/39 roles funcionales resumidos** en la matriz; fuentes Konami por CID | Ampliar matices de todos los efectos y rulings raros |
 | **A06** Sinergias y Extra | **PARCIAL AVANZADO** | **39/39 filas**, 21 vínculos R01–R21; 13/13 Extra con materiales/función; 8 accesos en rutas y **5 estados condicionales ACC01–ACC05** | Comprobar cuándo el tablero rival habilita las cinco alternativas; ningún estado genérico las garantiza |
@@ -118,6 +118,20 @@
 La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado, con una sola fila por identidad y dos columnas de zona si una misma carta aparece en Main y Side.
 
 **A03:** nombres y cantidades de Miguel inalterados: 40 Main (27 monstruos, 12 mágicas, 1 trampa), 15 Extra y 15 Side. Ninguna carta del Side se cuenta como inicial; el cotejo es numérico y de zonas.
+
+### A03.1 — Acta de cotejo de inventario y puerta de aprobación (18-11-2026)
+
+**Auditoría ejecutada:** suma independiente de las columnas `Main`, `Extra`, `Side` y `Reserva` de las 39 filas únicas `CRYH-001` a `CRYH-039` de la matriz A06 del mismo archivo. Resultado: **40 Main + 15 Extra + 15 Side + 0 Reserva = 70 copias**. No aparecen identidades adicionales en el recuento de esas filas; la carta `CRYH-012` Purulia se registra **2 Main + 1 Side** en una sola identidad, no como dos cartas distintas. La composición Main documentada sigue siendo **27 monstruos, 12 mágicas y 1 trampa**.
+
+| Puerta A03 | Resultado | Alcance |
+|---|---|---|
+| Identidad del deck | `COTEJADA` | Crystron/Cristron + Horus, ID real **677**, formato registrado `tcg_advanced` |
+| Copias y zonas | `COTEJADO_NUMERICAMENTE` | **39 identidades; 40/15/15/0 = 70**; sin cambiar inventario |
+| Separación Side/Main | `COTEJADA` | La tercera Purulia es del Side; ninguna carta Side se atribuye a duelo 1 |
+| Fotos y CID | `REFERENCIA_A04` | La verificación de 39/39 identidades/fotos pertenece a A04, no sustituye la aprobación del mazo |
+| **Aprobación editorial de Miguel** | **`PENDIENTE_CONFIRMACION_EXPRESA`** | Confirmar si estas **70 copias y sus zonas** representan su inventario físico definitivo; no inferir consentimiento de la petición «a03» |
+
+**Dictamen A03:** transcripción y auditoría numérica **terminadas**, pero **A03 aún no es `COMPLETA_APROBADA`**. No hay autorización para sustituir, quitar o añadir cartas. Para cerrar falta únicamente la confirmación del propietario de esta configuración exacta. La validación reglamentaria de rutas pertenece a A07/A09; no requiere calculadora para este cotejo.
 
 **A04:** las 39 filas siguientes contienen **CID y enlace a la ficha individual Konami oficial**. «Cristron» es el nombre español de **Crystron**; «Caballero Mecánico» es **Clockwork Knight Link-1**. Las **39 imágenes reales** ya están en esta carpeta: 20 JPG iniciales y 19 PNG agregadas en V37, con nombre de CID exacto; la indicación anterior de 19 fotografías faltantes era histórica. El CID documental identifica la carta; el ID del deck es **677**. El texto Konami es evidencia de identidad/efecto, no de una partida ejecutada.
 
