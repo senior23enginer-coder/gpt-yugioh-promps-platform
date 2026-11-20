@@ -2,9 +2,6 @@
 
 ### Puerta A10 — paridad visual sin fingir paridad de motor (20-11-2026)
 
-**No perder imágenes al integrar en la plataforma:** las fotos del paquete GPT usan rutas relativas de su carpeta; al proyectarlas a `assets/editorial` deben resolverse por el **CID de la misma carta** a su `image/full_image` local en la aplicación. Conservar los IDs, el orden y texto de los pasos A09, las cantidades, materiales y los `endboard.variants`; nunca publicar directamente rutas `DECK_*/imagenes/*` como si fueran assets accesibles desde la web. Para resultados no espaciales mostrar bandejas por zona con la advertencia `Posiciones exactas no verificadas`, no un campo aparentemente exacto. Ejecutar controles de navegador para cada piloto a 390 y 1280 px antes de declarar A10 completa.
-
-
 La interfaz de estudio y la calculadora comparten identidad y zonas de las cartas, pero sus alcances son independientes. La fotografía, flecha, texto de efecto y campo final A10 **no convierten** una ruta en un efecto implementado. Ante un estado físico del usuario, la calculadora presenta por separado **acciones ejecutables comprobadas desde ese estado**, **rutas documentales condicionadas** y **efectos sin modelar**, sin inventar cartas en campo/GY ni sugerir handtraps como avance táctico sin línea real.
 
 A10 exige verificación visual y de datos en desktop/móvil para una ruta que comienza desde mano, una que comienza en Cementerio, un bloqueo que impide continuar y una situación en que solo hay documentación sin regla. Debe mostrar la condición que falta, impedir resultados finales espaciales ficticios y conservar las imágenes y CIDs de las piezas reales. Los controles «Analizar» y «Continuar» responden al estado actual; no exigir al jugador un objetivo estratégico adicional para producir análisis.
