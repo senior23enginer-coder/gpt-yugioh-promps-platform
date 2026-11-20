@@ -95,6 +95,8 @@ for(const [folder,id,routes] of packs){
     const fieldSmiger=smiger.find(rule=>rule.id==='677:smiger:destroy-citree');
     assert(fieldSmiger.resolve.some(op=>op.op==='flag'&&op.flag==='machineSynchroOnly'&&op.duration==='turn'),
       'Smiger restricts the Extra to Machine Synchro for the turn');
+    assert(fieldSmiger.select.length===1&&fieldSmiger.select[0].allowActor===true,
+      'Smiger can explicitly select himself as a face-up own destruction target');
     assert(fieldSmiger.resolve.some(op=>op.op==='take'&&op.cid===12606&&op.summonMethod==='special'&&op.to==='free-monster'));
     const graveSmiger=smiger.find(rule=>rule.id==='677:smiger:graveyard-search');
     assert(graveSmiger.costs.some(op=>op.op==='move'&&op.ref==='actor'&&op.to==='banished'));
