@@ -96,8 +96,16 @@ for(const [folder,id,routes] of packs){
         'Controlling a face-up King\'s Sarcophagus is mandatory');
     }
   }
-  if(id===671)assert.equal(declaredRules,0,
-    'Memento portable rules are not to be invented or copied over verified platform rules');
+  if(id===671){
+    assert.equal(declaredRules,4,'Memento must keep its four verified portable single-variant effects');
+    const expected=['671:mictlan:activate','671:creation-king:destroy',
+      '671:twin-dragon:fusion-search','671:duke:recover-engraver'];
+    assert.deepEqual(calculator.rules.map(rule=>rule.id).sort(),expected.sort());
+    assert(calculator.rules.every(rule=>rule.version===1 && rule.deckId===671 &&
+      rule.format==='tcg_advanced' && Array.isArray(rule.guards) &&
+      Array.isArray(rule.resolve) && rule.resolve.length>0),
+      'Portable Memento rules must preserve version, guards and resolution');
+  }
   const steps=pack.record.routes.flatMap(route=>route.steps||[]);
   const photos=steps.filter(step=>Array.isArray(step.photos)&&step.photos.length>0).length;
   const boards=pack.record.routes.filter(route=>route.endboard?.variants?.length>0).length;
