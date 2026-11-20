@@ -25,6 +25,18 @@ Los decks **671 (Memento)** y **677 (Crystron/Horus)** incorporan ahora en su ca
 
 **Alcance de la adaptación:** no se volvieron a ejecutar los diez apartados y no se reescribieron los Markdown, guías ni fotografías. Los objetos interactivos se recuperan de las versiones estructuradas **V40 ya existentes**, mientras que el Markdown más reciente A01–A10 se incorpora como material documental. La paridad paso a paso con las revisiones editoriales posteriores y los efectos ejecutables de calculadora **no se declara certificada** hasta realizar pruebas específicas por ruta.
 
+### Memento: contrato portable ampliado (20-11-2026)
+
+La entrega canónica del deck **671** conserva las **12 rutas documentales** y
+su inventario original, e incluye **226 variantes ejecutables acotadas
+agrupadas en 38 IDs de efecto** dentro de `record.calculator`. Las distintas
+variantes de un efecto comparten su límite de uso por turno. La plataforma debe
+validar `station-x-calculator/1`, conservar definiciones de respaldo no
+importadas y rechazar duplicados exactos o políticas incompatibles. Las
+variantes se cotejaron con las reglas de respaldo verificadas en la rama
+`base` de Station X; **no certifican todos los efectos de las cartas ni
+las 12 rutas A09 completas**. Tampoco se alteraron imágenes ni campos finales.
+
 ### Guias y recursos por deck
 
 Cada carpeta de deck conserva sus guias e infografias. El ZIP individual incluye los archivos del deck y el seguimiento permanece en el registro privado.
