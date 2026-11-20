@@ -1,0 +1,25 @@
+name: Validate Station X prompt contracts
+
+on:
+  push:
+    branches: [base]
+    paths:
+      - '02_PROMPT_PARA_CODEX/**'
+      - 'scripts/test-a01-a10-presentation.cjs'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - '.github/workflows/validate-prompts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  protected-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify 36 protected prompts and A01-A10 import contracts
+        run: node scripts/test-a01-a10-presentation.cjs
