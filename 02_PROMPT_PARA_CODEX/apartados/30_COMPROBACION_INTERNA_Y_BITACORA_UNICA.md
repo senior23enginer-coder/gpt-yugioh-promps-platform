@@ -1,5 +1,12 @@
 # Apartado 30 — COMPROBACIÓN INTERNA Y BITÁCORA ÚNICA
 
+### Control privado A30 — cobertura ejecutable y no regresión (20-11-2026)
+
+Sin añadir módulos, pantallas, tablas, bitácoras públicas ni ficheros auxiliares: en la **bitácora privada única existente** anotar por deck y versión, siempre como dimensión separada de A01–A10: identidades documentadas; efectos A07 con especificación; reglas declarativas `station-x-calculator/1` suministradas/aceptadas/rechazadas; operaciones pendientes; rutas A09 documentadas; rutas con pasos ejecutables verificados; y pruebas positivas/negativas realizadas. «39 fichas + 14 combos» con `0` reglas importadas **no equivale** a «calculadora 100 %».
+
+**Verificación bloqueante de afirmaciones:** no marcar `CALCULADORA_REGLAS_PROBADAS` sin pruebas reproducibles por regla y confirmación de aceptación por motor actual. Testear al menos un caso desde mano, uno desde Cementerio, ausencia de requisito, handtrap que no se recomienda como relleno, coste/límite, rival conocido y estado inmutable; anotar nombres de pruebas y resultado o causa concreta de falta de ejecución. La documentación puede conservar estado COMPLETA aunque esta dimensión sea PARCIAL. Ninguna validación autoriza desplegar ni importar automáticamente.
+
+
 **Contrato de presentación Station X — prevención de entregas incompletas (19-11-2026)**: añadir un control bloqueante de **presentación completa** independiente de la validación de ZIP y reglamento. Reportar: cantidad de cartas/CID con imagen válida, total de pasos y cuántos tienen `photos`, rutas y cuántas tienen `endboard.variants` con zonas verificadas, estilo breve y resumen de ficha, textos técnicos completos, renderizado en móvil/escritorio, ausencia de textos globales de ranking en datos del deck, y preservación de ID/inventario. Una ruta sin fotos o tablero se conserva como documental parcial: no anunciar «GUÍA VISUAL COMPLETA», ni `station-x-visual-v1`. No rerun A01–A10 por una reparación de presentación; usar el contenido existente y registrar los campos que no puedan cotejarse.
 
 **Regla vigente confirmada por Miguel:** este apartado existe SOLO para
