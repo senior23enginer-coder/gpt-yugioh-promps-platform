@@ -2064,7 +2064,64 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 12157,
+                  "name": "Hagoita de Alta-Velociroid",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [
+                {
+                  "cid": 12606,
+                  "name": "Cristron Citree",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Resultado del efecto de Citree durante el turno rival; no se presupone negación universal."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C02",
@@ -2274,7 +2331,96 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 2,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1
+                }
+              ],
+              "graveyard": [
+                {
+                  "cid": 12606,
+                  "name": "Cristron Citree",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 12609,
+                  "name": "Cristron Thystvern",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12609.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12609.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "El resultado depende de las condiciones y ventanas documentadas en A09."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C03",
@@ -2412,7 +2558,64 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [],
+              "graveyard": [
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Recuperar una carta Cristron elegible a mano requiere un disparador posterior y objetivo válido; no se fija identidad sin comprobar."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C04",
@@ -2535,7 +2738,76 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 13826,
+                  "name": "Número 90: Señor Fotónico de Ojos Galácticos",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada",
+                  "materials": [
+                    {
+                      "cid": 19153,
+                      "name": "Amset, Gloria de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 19155,
+                      "name": "Hapi, Guía de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "quantity": 1
+                    }
+                  ],
+                  "material_count": 2
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 19200,
+                  "name": "Sarcófago del Rey",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Número 90 conserva dos Horus como materiales. Desacoplarlos no activa la destrucción condicionada a material Galaxia."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C05",
@@ -2685,7 +2957,76 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Antes de resolver el efecto de molienda",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 16850,
+                  "name": "El Vampiro Zombi",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16850.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16850.jpg",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada",
+                  "materials": [
+                    {
+                      "cid": 19153,
+                      "name": "Amset, Gloria de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 19155,
+                      "name": "Hapi, Guía de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "quantity": 1
+                    }
+                  ],
+                  "material_count": 2
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 19200,
+                  "name": "Sarcófago del Rey",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Después de desacoplar queda un material no identificado aquí; no se representa un monstruo adicional por molienda desconocida."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C06",
@@ -2891,7 +3232,95 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 11765,
+                  "name": "Ciber Dragón del Infinito",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11765.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11765.jpg",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada",
+                  "materials": [
+                    {
+                      "cid": 10870,
+                      "name": "Ciber Dragón Nova",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/10870.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/10870.jpg",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 20759,
+                      "name": "Cristron Sulfador",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 12756,
+                      "name": "Cristron Azufafnir",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                      "quantity": 1
+                    }
+                  ],
+                  "material_count": 3
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [],
+              "graveyard": [
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 12756,
+                  "name": "Cristron Azufafnir",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Infinito conserva tres materiales: Nova, Sulfador y la segunda copia de Azufafnir. La copia destruida de Azufafnir está en GY; Inclusión no permanece en Campo."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:C07",
@@ -2903,7 +3332,7 @@
         "board": [],
         "resources": [],
         "hand_photos": [],
-        "result": "",
+        "result": "Estado final condicional: Elesqueletus 7 + Amset 8 en Campo, Sarcófago + Inclusión boca arriba; Smiger recuperado a mano; Tristaros y Sulfador en GY como materiales. Ventaja: no se activó el efecto de Smiger de Campo, así que no bloqueamos el Extra el turno propio; desventaja: usa dos búsquedas encadenadas vulnerables a Droll/negación y depende de una activación rival para hacer la Sincronía.\n- Si niegan: si Amset no añade Sarcófago, no puedes asegurar su invocación GY; si se prohíben búsquedas después de Sarcófago, la ruta Smiger/Inclusión pierde esta extensión; si Tristaros es retirado antes de la activación rival, no hay Elesqueletus. R03/R01/R07/R10/R13; RGL03/05/08/10/15.",
         "opening": "- Objetivo propio: conseguir presencia Horus Nivel 8 + Tristaros para Sincronía reactiva, con dos motores activos y Smiger recuperable. Dificultad: media; mano mínima: Amset + Smiger. Estado inicial: Campo/GY vacíos; Sarcófago, Inclusión y Tristaros en Deck; Sulfador en Deck y Elesqueletus en Extra; ninguna restricción previa. Una Normal disponible.",
         "steps": [
           {
@@ -3121,7 +3550,102 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                },
+                {
+                  "cid": 19153,
+                  "name": "Amset, Gloria de Horus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 2,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 19200,
+                  "name": "Sarcófago del Rey",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                },
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1,
+                  "slot": 2,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "graveyard": [
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Final condicional a activación rival y resolución de Tristaros y Elesqueletus."
+            }
+          ]
+        },
+        "result_source": "ULTIMO_PASO_A09"
       },
       {
         "id": "677:A09:V01",
@@ -3295,7 +3819,69 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 12781,
+                  "name": "Cristron Quariongandrax",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12781.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12781.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 2,
+                  "position": "Posición de batalla no especificada"
+                },
+                {
+                  "cid": 12756,
+                  "name": "Cristron Azufafnir",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 3,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Hasta tres monstruos rivales válidos podrían quedar desterrados; no se asignan identidades desconocidas.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Final condicional a activación rival, materiales de Sincronía y efectos resueltos legalmente."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:V02",
@@ -3307,7 +3893,7 @@
         "board": [],
         "resources": [],
         "hand_photos": [],
-        "result": "",
+        "result": "En turno rival, Citree selecciona Smiger del GY y sincroniza Hagoita 5 como en C01, desterrando ambos materiales.\n- Diferencia real con C01: se consume una búsqueda; Inclusión permanece en Campo. Si la búsqueda fue negada o prohibida por Droll/Arresto, no asumir que se creó Smiger. No aumentar conteo de combos principales.",
         "opening": "",
         "steps": [
           {
@@ -3438,7 +4024,75 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 12157,
+                  "name": "Hagoita de Alta-Velociroid",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [
+                {
+                  "cid": 12606,
+                  "name": "Cristron Citree",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Como C01, con Inclusión en la zona de M/T; el turno rival y la resolución de Citree son requisitos."
+            }
+          ]
+        },
+        "result_source": "ULTIMO_PASO_A09"
       },
       {
         "id": "677:A09:V03",
@@ -3620,7 +4274,90 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 20817,
+                  "name": "Agrupamiento Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20817.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20817.png",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Colocada antes de activarse",
+                  "conditional": true
+                }
+              ],
+              "field": [],
+              "hand": [
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "graveyard": [
+                {
+                  "cid": 12756,
+                  "name": "Cristron Azufafnir",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Agrupamiento fue colocada en tu turno; al activarse en turno rival podría dejar esa zona. La retirada de hasta dos cartas rivales es condicional."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:V04",
@@ -3632,7 +4369,7 @@
         "board": [],
         "resources": [],
         "hand_photos": [],
-        "result": "",
+        "result": "Fin: Destructor Samurái 7 + Smiger 3 en Campo; Inclusión permanece desterrada (no hubo Elesqueletus que la recuperara); Citree y Sulfador van al GY; Tristaros y Thystvern ya enviados en C02 pueden seguir allí. Tu campo gana opción para atacar: al combatir contra un monstruo, el rival no activa cartas/efectos hasta fin de Damage Step, y los efectos del monstruo combatido se niegan durante esa Battle Phase, según el texto de la carta. No equivale a negación general fuera de batalla.\n- Decisión: elige esta salida si vas segundo y el objetivo es combatir un monstruo problemático; elige Elesqueletus si necesitas recuperar Inclusión y conservar recursos. Mismo starter y materiales, distinto cierre: variante, no nuevo combo.",
         "opening": "",
         "steps": [
           {
@@ -3733,7 +4470,83 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 13360,
+                  "name": "Destructor Samurái",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                },
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 2,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [],
+              "graveyard": [
+                {
+                  "cid": 12606,
+                  "name": "Cristron Citree",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1
+                }
+              ],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Salida alternativa de C02: Destructor Samurái, no Elesqueletus, tras Sincronía Máquina."
+            }
+          ]
+        },
+        "result_source": "ULTIMO_PASO_A09"
       },
       {
         "id": "677:A09:V05",
@@ -3915,7 +4728,72 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [],
+              "field": [],
+              "hand": [
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "graveyard": [
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "La activación original del rival no quedó negada por esta Sincronía."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:V06",
@@ -4061,7 +4939,89 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Resultado documentado en A09",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 20778,
+                  "name": "Cristron Elesqueletus",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada"
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 20798,
+                  "name": "Inclusión Cristron",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [
+                {
+                  "cid": 12608,
+                  "name": "Cristron Smiger",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+                  "quantity": 1
+                }
+              ],
+              "graveyard": [
+                {
+                  "cid": 5236,
+                  "name": "Entierro Insensato",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/5236.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/5236.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20758,
+                  "name": "Cristron Tristaros",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+                  "quantity": 1
+                },
+                {
+                  "cid": 20759,
+                  "name": "Cristron Sulfador",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+                  "quantity": 1
+                }
+              ],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Final condicionado a que el rival active una carta/efecto y Elesqueletus pueda recuperar Smiger."
+            }
+          ]
+        }
       },
       {
         "id": "677:A09:V07",
@@ -4230,7 +5190,139 @@
             "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en"
           ]
         },
-        "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL"
+        "presentation_status": "ZONAS_DOCUMENTADAS_CASILLAS_ILUSTRATIVAS",
+        "endboard": {
+          "source": "A09_SOURCE_DERIVED",
+          "spatial_verified": false,
+          "variants": [
+            {
+              "label": "Alternativa: negación con Número 90",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 13826,
+                  "name": "Número 90: Señor Fotónico de Ojos Galácticos",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada",
+                  "materials": [
+                    {
+                      "cid": 19153,
+                      "name": "Amset, Gloria de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 19155,
+                      "name": "Hapi, Guía de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "quantity": 1
+                    }
+                  ],
+                  "material_count": 2
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 19200,
+                  "name": "Sarcófago del Rey",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Se elige Número 90. Vampiro Zombi no se invoca también."
+            },
+            {
+              "label": "Alternativa: molienda con Vampiro Zombi",
+              "columns": 5,
+              "monster": [
+                {
+                  "cid": 16850,
+                  "name": "El Vampiro Zombi",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16850.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16850.jpg",
+                  "quantity": 1,
+                  "row": "monster",
+                  "slot": 1,
+                  "position": "Posición de batalla no especificada",
+                  "materials": [
+                    {
+                      "cid": 19153,
+                      "name": "Amset, Gloria de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+                      "quantity": 1
+                    },
+                    {
+                      "cid": 19155,
+                      "name": "Hapi, Guía de Horus",
+                      "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+                      "quantity": 1
+                    }
+                  ],
+                  "material_count": 2
+                }
+              ],
+              "spell": [
+                {
+                  "cid": 19200,
+                  "name": "Sarcófago del Rey",
+                  "image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "full_image": "DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+                  "quantity": 1,
+                  "slot": 1,
+                  "position": "Boca arriba"
+                }
+              ],
+              "field": [],
+              "hand": [],
+              "graveyard": [],
+              "banished": [],
+              "deck": [],
+              "extra": [],
+              "opponent": "Las demás cartas del rival no están identificadas; no se presupone campo vacío.",
+              "opponent_objects": [],
+              "skill": [],
+              "zone_notes": {
+                "monster": "Solo los monstruos expresamente indicados en el resultado; casilla ilustrativa.",
+                "spell": "Solo Mágicas/Trampas cuya presencia se documentó.",
+                "hand": "No presupone otras cartas desconocidas.",
+                "graveyard": "No implica ausencia de recursos no mencionados."
+              },
+              "notes": [],
+              "layout_note": "Distribución ilustrativa en columnas TCG: las cartas y sus ZONAS generales proceden del resultado de A09; ninguna columna ni casilla específica se considera verificada.",
+              "spatial_verified": false,
+              "note": "Se elige Vampiro Zombi; no se presupone carta molida ni invocación adicional."
+            }
+          ]
+        }
       }
     ],
     "decisions": [
