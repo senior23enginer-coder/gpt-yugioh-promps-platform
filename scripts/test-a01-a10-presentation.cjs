@@ -84,9 +84,24 @@ for(const [folder,id,routes] of packs){
   }
   const declaredRules=Array.isArray(calculator?.rules)?calculator.rules.length:0;
   if(id===677){
-    assert.equal(declaredRules,2,'Crystron canonical package must retain Amset and Hapi portable rules');
-    assert.deepEqual(calculator.rules.map(rule=>rule.actor.cid).sort((a,b)=>a-b),[19153,19155]);
-    for(const rule of calculator.rules){
+    assert.equal(declaredRules,4,'Crystron package must retain two Horus and two Smiger portable rules');
+    const horus=calculator.rules.filter(rule=>rule.id.startsWith('677:horus-gy:'));
+    const smiger=calculator.rules.filter(rule=>rule.id.startsWith('677:smiger:'));
+    assert.deepEqual(horus.map(rule=>rule.actor.cid).sort((a,b)=>a-b),[19153,19155]);
+    assert.deepEqual(smiger.map(rule=>rule.id).sort(),[
+      '677:smiger:destroy-citree','677:smiger:graveyard-search']);
+    assert(smiger.every(rule=>rule.actor.cid===12608&&rule.oncePerName===true&&rule.oncePerTurn===true),
+      'Both Smiger effects share once-per-name use');
+    const fieldSmiger=smiger.find(rule=>rule.id==='677:smiger:destroy-citree');
+    assert(fieldSmiger.resolve.some(op=>op.op==='flag'&&op.flag==='machineSynchroOnly'&&op.duration==='turn'),
+      'Smiger restricts the Extra to Machine Synchro for the turn');
+    assert(fieldSmiger.select.length===1&&fieldSmiger.select[0].allowActor===true,
+      'Smiger can explicitly select himself as a face-up own destruction target');
+    assert(fieldSmiger.resolve.some(op=>op.op==='take'&&op.cid===12606&&op.summonMethod==='special'&&op.to==='free-monster'));
+    const graveSmiger=smiger.find(rule=>rule.id==='677:smiger:graveyard-search');
+    assert(graveSmiger.costs.some(op=>op.op==='move'&&op.ref==='actor'&&op.to==='banished'));
+    assert(graveSmiger.resolve.some(op=>op.op==='take'&&op.cid===20798&&op.to==='hand'));
+    for(const rule of horus){
       assert.equal(rule.resolve.length,1,'One supported Horus GY procedure per card');
       assert.equal(rule.resolve[0].op,'move');
       assert.equal(rule.resolve[0].to,'free-monster');
