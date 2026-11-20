@@ -5,19 +5,39 @@ on:
     paths:
       - '02_PROMPT_PARA_CODEX/**'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
-      - 'scripts/test-a01-a10-presentation.cjs'
+      - '03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md'
+      - 'scripts/*a01-a10*.cjs'
+      - 'scripts/reconcile-protected-prompts.cjs'
       - '.github/workflows/a01-a10-presentation-checks.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: a01-a10-hashes-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
 jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Reconcile authorized SHA-256 entries in historical registry
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          node scripts/reconcile-protected-prompts.cjs
+          git add 03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore(prompts): reconcile eleven protected SHA-256 references"
+            git push origin "HEAD:refs/heads/${BRANCH}"
+          fi
       - name: Preserve 39 prompts and validate A01-A10 and deck deliveries
         run: node scripts/test-a01-a10-presentation.cjs
