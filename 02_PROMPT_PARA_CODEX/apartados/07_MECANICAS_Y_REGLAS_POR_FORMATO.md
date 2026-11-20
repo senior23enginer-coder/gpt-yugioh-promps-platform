@@ -1,5 +1,14 @@
 # Apartado 07 — MECÁNICAS Y REGLAS POR FORMATO
 
+### Puerta A07 — regla ejecutable cerrada a fallos (20-11-2026)
+
+Por cada `regla_id` A07 crear una **especificación de transición verificable**: estado inicial del turno/ventana/actor, identidad CID y copia real, zona de origen, condición, coste pagado, objetivo y selección, cadena (o procedimiento sin cadena), resolución o negación, recursos y estado posterior, más restricciones y usos previos. Distinguir con rigor «controlar una carta X» de «activar el efecto de X»: para una Invocación desde Cementerio de Horus con Sarcófago del Rey, registrar el procedimiento del propio monstruo, requerir la presencia de Sarcófago y marcar uso por nombre/turno cuando la fuente lo confirme; no inventar que Sarcófago revive directamente.
+
+**Compilación limitada al contrato real:** generar `record.calculator.rules` de esquema `station-x-calculator/1` únicamente mediante guards, selectores y operadores implementados en la versión actual del motor; un `regla_id` textual no se compila automáticamente. Si falta una transición (por ejemplo cadena, timing, reemplazo, material, Skill, efecto continuo), clasificar `OPERADOR_PENDIENTE` e indicar exactamente qué condición/operación y prueba necesita la plataforma. No usar JavaScript embebido ni operadores ficticios. Reglas declarativas aceptadas, reglas rechazadas y reglas documentales quedan separadas.
+
+**Pruebas de aceptación ejecutable por efecto:** escenario positivo con cambios exactos de zonas/LP/recursos; ausencia de requisito; zona o fase errónea; restricciones de Invocación/GY; coste insuficiente; uso repetido del mismo efecto o nombre; negación/interruptor que sí conste en el modelo; formato incompatible; y no mutación del estado original. Una acción parcialmente simulada no asciende a `REGLA_EJECUTABLE_PROBADA` ni a legalidad integral.
+
+
 Módulo de trabajo independiente del proyecto Station X. Revisión de alcance visual y editorial (2026-11-05).
 
 **Entrada:** seguir el protocolo común de entrada del maestro (selección de un deck, fuentes pertinentes, formato y evidencias previas); aplicar la instrucción específica de este módulo sin ejecutar una tarea global.
