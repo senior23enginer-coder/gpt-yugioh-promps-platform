@@ -85,6 +85,12 @@ for(const [folder,id,routes] of packs){
   const declaredRules=Array.isArray(calculator?.rules)?calculator.rules.length:0;
   if(id===677){
     assert(declaredRules>=9,'Crystron package must retain Horus, Smiger and Thystvern search variants');
+    const fieldThystvern=calculator.rules.filter(rule=>rule.id==='677:thystvern:destroy-tuner');
+    assert.deepEqual(fieldThystvern.map(rule=>rule.resolve[2]?.cid).sort((a,b)=>a-b),[12606,20758],
+      'Thystvern may summon only verified Citree and Tristaros Tuners');
+    assert(fieldThystvern.every(rule=>rule.actor.cid===12609&&rule.oncePerName&&
+      rule.resolve[0]?.flag==='machineSynchroOnly'&&rule.resolve[1]?.op==='destroy'),
+      'Thystvern field must share its GY usage and impose Machine Synchro restriction');
     const thystvern=calculator.rules.filter(rule=>rule.id==='677:thystvern:graveyard-search');
     assert.deepEqual(thystvern.map(rule=>rule.resolve[0]?.cid).sort((a,b)=>a-b),[12606,12608,12756,20758,20759],
       'Thystvern must search only verified Crystron names in the real deck, never itself');
