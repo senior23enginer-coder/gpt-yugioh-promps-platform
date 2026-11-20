@@ -17572,7 +17572,7 @@
             "monsterEffect"
           ],
           "assumptions": [
-            "El material está físicamente acoplado a este TY-PHON. Solo se representa un objetivo distinto del actor y sin materiales Xyz propios; la elección no selecciona como objetivo de carta. No se simulan cadenas de respuesta para esta variante ni la transferencia de materiales al devolver un Xyz."
+            "El material está físicamente acoplado a este TY-PHON. Se admite devolver el propio TY-PHON o un Xyz con materiales, enviando los materiales restantes al Cementerio. La elección del monstruo no selecciona como objetivo de carta. No se simulan respuestas a cadenas para esta variante."
           ],
           "activation": true,
           "oncePerTurn": true,
@@ -17630,7 +17630,8 @@
                   "monsters"
                 ],
                 "section": "extra"
-              }
+              },
+              "allowActor": true
             }
           ],
           "costs": [
@@ -17653,7 +17654,7 @@
             "monsterEffect"
           ],
           "assumptions": [
-            "El material está físicamente acoplado a este TY-PHON. Solo se representa un objetivo distinto del actor y sin materiales Xyz propios; la elección no selecciona como objetivo de carta. No se simulan cadenas de respuesta para esta variante ni la transferencia de materiales al devolver un Xyz."
+            "El material está físicamente acoplado a este TY-PHON. Se admite devolver el propio TY-PHON o un Xyz con materiales, enviando los materiales restantes al Cementerio. La elección del monstruo no selecciona como objetivo de carta. No se simulan respuestas a cadenas para esta variante."
           ],
           "activation": true,
           "oncePerTurn": true,
@@ -17734,7 +17735,7 @@
             "monsterEffect"
           ],
           "assumptions": [
-            "El material está físicamente acoplado a este TY-PHON. Solo se representa un objetivo distinto del actor y sin materiales Xyz propios; la elección no selecciona como objetivo de carta. No se simulan cadenas de respuesta para esta variante ni la transferencia de materiales al devolver un Xyz."
+            "El material está físicamente acoplado a este TY-PHON. Se admite devolver el propio TY-PHON o un Xyz con materiales, enviando los materiales restantes al Cementerio. La elección del monstruo no selecciona como objetivo de carta. No se simulan respuestas a cadenas para esta variante."
           ],
           "activation": true,
           "oncePerTurn": true,
@@ -17815,7 +17816,7 @@
             "monsterEffect"
           ],
           "assumptions": [
-            "El material está físicamente acoplado a este TY-PHON. Solo se representa un objetivo distinto del actor y sin materiales Xyz propios; la elección no selecciona como objetivo de carta. No se simulan cadenas de respuesta para esta variante ni la transferencia de materiales al devolver un Xyz."
+            "El material está físicamente acoplado a este TY-PHON. Se admite devolver el propio TY-PHON o un Xyz con materiales, enviando los materiales restantes al Cementerio. La elección del monstruo no selecciona como objetivo de carta. No se simulan respuestas a cadenas para esta variante."
           ],
           "activation": true,
           "oncePerTurn": true,
