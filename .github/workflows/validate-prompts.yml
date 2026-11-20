@@ -1,6 +1,13 @@
 name: Validate Station X prompt contracts
 
 on:
+  pull_request:
+    branches: [base]
+    paths:
+      - '02_PROMPT_PARA_CODEX/**'
+      - 'scripts/test-a01-a10-presentation.cjs'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - '.github/workflows/validate-prompts.yml'
   push:
     branches: [base]
     paths:
