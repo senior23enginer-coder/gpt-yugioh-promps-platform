@@ -8,6 +8,14 @@ Módulo de trabajo independiente del proyecto Station X. Revisión de alcance vi
 
 ## Instrucción editorial específica
 
+### Entregable A06 — motores visuales y estilo verificable
+
+Producir `record.engine_maps[*]` con `motor_id`, objetivo, cartas/CIDs/fotografías, flechas con acción real (**BUSCA, INVOCA, ENVÍA, CONVIERTE, RECUPERA, PROTEGE, RESTRINGE**), condiciones, coste, recurso generado y **restricción**. Cada tarjeta de motor debe enseñar al jugador: «con qué inicio», «qué carta hace el puente», «qué obtengo» y «dónde puede fallar». No dibujar una flecha como prueba de combo completo. Vincular los motores a las rutas A08/A09 solo cuando exista la cadena causal, no por compartir cartas.
+
+Extraer de A06 la identidad auténtica del plan competitivo para retroalimentar los campos breves definidos en A01: la portada no debe mostrar «Consultar plan» o una lista de cartas inconexa. Señalar incompatibilidades de motores, bloqueos por turnos y qué recursos se solapan, especialmente en híbridos. `record.profile['Cómo se juega']` mantiene el análisis detallado, mientras `Estilo breve` comunica en una oración el motor y objetivo.
+
+**Prueba de aceptación A06:** tarjetas fotográficas utilizables, 100 % de cartas clasificadas en la matriz única con rol o ausencia de sinergia explicada, IDs de aristas correctos y ninguna carta de Side/Reserva tratada como motor jugable sin autorización.
+
 **Desambiguación de clases A06:** `ENGINE` exige participación en un motor con entrada, transformación y salida reconocibles; `DIRECTA` exige un efecto que opere causalmente sobre otra carta/recurso específico; `INDIRECTA` exige utilidad demostrable como material, coste, objetivo o soporte sin enlace directo; `CONDICIONAL` añade una precondición verificable y puede coexistir con otra clase; `CONFLICTO` exige incompatibilidad concreta de efectos/restricciones. `SIN_EVIDENCIA_SUFICIENTE` no es sinergia cero. Registrar clase primaria y etiquetas secundarias, relación ID, cartas implicadas y justificación; una carta autónoma útil no requiere vínculo inventado.
 
 **Filtro V58 de relevancia humana (prevalece sobre «VISIBLE» histórico):**

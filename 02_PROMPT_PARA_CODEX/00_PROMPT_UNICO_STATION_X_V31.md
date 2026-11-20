@@ -4,6 +4,37 @@
 
 **Compatibilidad de carpeta GPT comprimida directamente (19-11-2026):** las carpetas históricas como Memento/Crystron pueden incluir Markdown, `imagenes/` y `guias/` sin `datos/stationx-deck.json`. Station X las admite solo en **modo documental heredado**, con un estudio previo y una identidad de origen coincidentes. Ese modo conserva los documentos e imágenes y las rutas estructuradas ya existentes, pero NO garantiza trasladar todas las novedades de A01–A10 al editor/visor. Para declarar el paquete **IMPORTABLE_INTEGRAL**, crear o actualizar siempre `datos/stationx-deck.json` a partir del ZIP nativo exportado por Station X, usando IDs/huella reales y `content_mode=structured`. No inventar huellas ni anunciar que la presencia de la guía HTML es equivalente a `record.routes`. En Markdown usar referencias de imágenes locales relativas `![Carta](imagenes/19364.png)` o enlaces Markdown; **evitar HTML inline `<img>` y nunca usar HTML ejecutable**, aunque el importador legacy ahora normalice imágenes locales sencillas. Mantener el original cuando se haga una corrección y no reescribir Memento/Crystron sin instrucción expresa.
 
+## Puerta de aceptación transversal A01–A10 — experiencia equivalente a Kashtira
+
+**Meta de esta ejecución:** los diez módulos deben construir un único deck utilizable con el mismo **nivel de navegación, fotografías, explicaciones y representación de campo final** que la guía Kashtira Pure de Station X. Kashtira es referencia de **calidad de presentación y prueba**, jamás fuente para trasplantar cartas, CIDs, rutas, reglas, materiales o ubicaciones a otros arquetipos.
+
+| Apartado | Resultado específico que debe entregar al siguiente |
+|---|---|
+| A01 | Arquetipo limpio, Tipo de estrategia, Estilo breve (máx. 190 caracteres), Resumen para ficha (máx. 250), plan técnico completo y riesgos |
+| A02 | Un deck ID y formato reales, carpeta única estable y paquete ZIP base con identidad de Station X |
+| A03 | Inventario Main/Extra/Side/Reserva/Skill cotejado por fila y CID, sin cambiar cantidades ni mezclar decks |
+| A04 | Imágenes correctas y accesibles por CID, fuente y mapa de zonas/disponibilidad |
+| A05 | Fichas visibles de TODAS las cartas: imagen, efecto real, costes, propósito y vínculos |
+| A06 | Motores fotografiados, conexiones causales, recursos, bloqueos y síntesis del estilo |
+| A07 | Reglas aplicadas a cada acción: requisitos, materiales, zona, coste, cadena, restricciones y estados de verificación |
+| A08 | Rutas clasificadas con mano mínima conocida, fotos, propósito, estado y referencia A09; sin inflar el catálogo |
+| A09 | Secuencias completas en record.routes con acción/detalle/imagen por paso, estados intermedios, resultado y campo final verificable |
+| A10 | Una experiencia visual importable: selección de ruta → apertura real → fotos y texto por paso → campo final, recursos y variantes; QA móvil/escritorio |
+
+### Una sola fuente estructurada, sin pérdida entre apartados
+
+Cada unidad validada **se registra una vez** y se refleja en la sección adecuada del paquete `station-x-deck-package/1` → `record.schema=station-x-curated-v62`: perfil en `record.profile`, cartas en `record.cards` y `slots`, sinergias en `record.engine_maps`, rutas en `record.routes`, decisiones en `record.decisions`, ejercicios en `record.practice`. Un A09 narrado en Markdown que no actualiza `record.routes[*].steps` **no cumple** la entrega visual; HTML aislado tampoco. Los IDs, inventario, CIDs y revisiones manuales originales se respetan y el paquete solo se declara `IMPORTABLE` si la plataforma puede cotejar su identidad.
+
+La **ruta completa** requiere evidencia para `opening`, `hand_photos` de piezas realmente iniciales, `steps[*].number/action/detail/photos/requirements/resources`, `result` y, si se conoce, `endboard.variants` con posiciones, zonas, cartas, materiales, recursos y condiciones. Nunca mostrar todo lo citado en el análisis como si fuese mano inicial o campo final. Si falta una ubicación, usar `presentation_status=DOCUMENTADA_SIN_CAMPO_ESPACIAL` y fotografías de cartas realmente identificadas en el resultado, **sin falsificar una cuadrícula**.
+
+La **experiencia del jugador** primero muestra estilo/plan concisos, fotografías auténticas y acciones completas; después permite expandir auditoría y reglas. Separar siempre `DOCUMENTADA`, `IMPORTABLE`, `GUIA_VISUAL_COMPLETA`, `REGLA_CERTIFICADA`, `PUBLICABLE`. Únicamente aplicar `record.presentation_contract='station-x-visual-v1'` si el paquete contiene perfil breve real, **todos los pasos con imagen y explicación** y **todos los endboards espaciales respaldados**. En cualquier otra situación, conservar el estado parcial y su evidencia faltante, sin bloquear por ello la documentación segura.
+
+### Validación final obligatoria, no solo redacción
+
+Tras ejecutar A01–A10 para un deck y antes de anunciar «misma experiencia que Kashtira»: contrastar el ZIP con el importador de la rama actual de `platform-yugioh-md`; contar `identidades con foto / identidades`, `pasos ilustrados / pasos`, `rutas con campo final estructurado / rutas`; comprobar que no hay CIDs, rutas, imágenes o archivos ausentes; verificar los campos visibles `Arquetipo`, `Estilo` y `Plan de juego` sin dictámenes internos, marcadores de relleno ni texto genérico «Catálogo completo». Probar una ruta completa en móvil ~390 px y escritorio ~1280 px en las vistas Guía de juego, Mis combos, Editor visual y Matriz; comparar con Kashtira solo la experiencia, no los números de rutas.
+
+**Cierre honesto:** si todas las unidades A01–A10 están documentadas pero uno o más campos finales no se pueden demostrar, informar «A01–A10 documentados; paridad visual A10 parcial» y enumerar esas rutas. No preguntar al usuario que repita diez prompts por un problema de formato: reutilizar el estudio ya realizado y corregir el dato/componente preciso. No importar ni desplegar automáticamente ni tocar otros decks.
+
 ## CONTRATO OPERATIVO ÚNICO DE GENERACIÓN E IMPORTACIÓN — 19-11-2026
 
 **Objetivo:** ejecutar los prompts con cualquier IA y obtener UNA carpeta de un deck (nuevo o existente) que Station X pueda importar desde «Importar / exportar Data», sin Codex, scripts de conversión ni copias FTP. Todo el contenido dirigido al jugador, nombres de secciones, diagnósticos y documentación se redacta en **español**. Mantener literalmente los nombres oficiales de cartas y los identificadores técnicos exigidos por el software (schemas, claves JSON, rutas, CID, ID y formatos); no traducir esas claves.

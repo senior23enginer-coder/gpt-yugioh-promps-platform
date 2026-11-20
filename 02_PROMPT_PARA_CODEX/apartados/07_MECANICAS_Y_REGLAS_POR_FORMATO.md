@@ -8,6 +8,14 @@ Módulo de trabajo independiente del proyecto Station X. Revisión de alcance vi
 
 ## Instrucción editorial específica
 
+### Entregable A07 — reglas ligadas a las acciones visibles
+
+Cada regla debe resultar consultable **desde la carta o paso**, no solo desde una tabla de auditoría. Registrar `regla_id` y vínculo a `card_id`, formato, condición de inicio, zona, activación, coste, objetivo/material, cadena/ventana, resolución, límite por turno y bloqueo aplicable. Al escribir A09, poner la advertencia crítica **junto al paso**; no ocultar una restricción que invalida la jugada en un anexo de cien párrafos.
+
+Producir dos resultados separados: texto para el jugador («qué hago y cuándo no puedo hacerlo») y estado técnico (CHEQUEADA / CONDICIONAL / OPERADOR_PENDIENTE). `record.calculator` es opcional y exige `station-x-calculator/1` más pruebas; la presencia de un `regla_id` documental no ejecuta el efecto. Registrar qué carta se movería y de dónde a dónde únicamente cuando esté sustentado. Incluir resolución normal y al menos una negación/interrupción pertinente por familia cuando exista evidencia.
+
+**Prueba de aceptación A07:** cada paso certificado A09 resuelve al menos una regla/fuente A07 o declara por qué no aplica; coste/ventana/material/limitación comprobados en el formato correcto. No copiar las reglas de Kashtira a otro deck ni importar Skill Rush como carta del Main.
+
 **Contrato de validación A07:** cada `regla_id` se comprueba en contexto de formato, versión, carta, zona, fase y límite aplicable; el módulo auxiliar 11 documenta la cadena específica de una ruta A09 y devuelve su evidencia al mismo ID, sin segundo expediente. Si falta texto oficial o la Skill local exacta, el caso queda PARCIAL/CONDICIONAL con fuente o duda concreta, y las rutas dependientes no pasan a CERTIFICADA. Una comprobación de regla no equivale a simulación física.
 
 **Contrato UI único A06–A10:** A07 no exige una pestaña de reglas. Cada `regla_id` se muestra junto a la **acción o carta concreta** a la que afecta (`Ver por qué se puede hacer`, `Coste y restricciones`, `Qué ocurre en cadena`); el reglamento exhaustivo queda desplegable por contexto. La regla crítica que invalida una jugada se muestra siempre de forma breve **antes de ejecutarla**. No eliminar comprobaciones ni copiar la misma explicación en cinco tarjetas.

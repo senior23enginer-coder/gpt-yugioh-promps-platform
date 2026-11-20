@@ -1,0 +1,27 @@
+name: Validate A01-A10 presentation contract
+on:
+  pull_request:
+    branches: [base]
+    paths:
+      - '02_PROMPT_PARA_CODEX/**'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - '03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md'
+      - 'scripts/test-a01-a10-presentation.cjs'
+      - 'scripts/reconcile-protected-prompts.cjs'
+      - '.github/workflows/a01-a10-presentation-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify authorized protected SHA-256 references
+        run: node scripts/reconcile-protected-prompts.cjs --check
+      - name: Preserve 39 prompts and validate A01-A10 and deck deliveries
+        run: node scripts/test-a01-a10-presentation.cjs

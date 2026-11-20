@@ -8,6 +8,14 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 ## Instrucción editorial específica
 
+### Entregable A05 — fichas con fotografía, efecto y propósito que alimenten la guía
+
+Para **todas las identidades**, añadir al `record.cards` (cuando el paquete estructurado esté disponible) una fotografía A04, nombre, ID/CID, `slots`, **qué hace**, coste y condición de activación, resolución, `once per turn` cuando esté acreditado, función concreta de esa carta **en esta lista**, qué buscar/invocar/enviar/equipar, qué recurso obtiene o gasta, qué impide su uso y a qué motor A06 o paso A09 contribuye. La carta que no tiene ruta debe explicar su papel autónomo, nunca recibir un combo inventado.
+
+Proporcionar dos niveles simultáneos: **tarjeta del jugador** (foto, zona/copias, acción real y utilidad en menos de un minuto) y **detalle desplegable** (texto de efecto, fuente, limitaciones, ambigüedades y estado). No usar un dictamen editorial extenso como primera frase ni reutilizar el mismo texto en 39 cartas. Conservar `source_aliases` únicamente como nombres verdaderamente equivalentes y no como coincidencias vagas que vinculen fotos incorrectas.
+
+**Prueba de aceptación A05:** `identidades con ficha + foto correcta / identidades totales` y trazabilidad completa `card_id→CID→imagen→efecto→motor`; comprobar al menos un ejemplo que se vea en pantalla y otro que permanezca explícitamente pendiente.
+
 **Mínimo de cierre por identidad A05:** registrar ID/CID o identidad documental sin confirmar, nombre y copias por zona, texto/efecto contrastado o fuente pendiente, requisito/coste/ventana/límite, función concreta en esta lista, recurso obtenido/consumido, riesgo y vínculo A06. Si no tiene jugada o combo acreditado, justificar `SIN_JUGADA_IDENTIFICADA`/`SIN_COMBO_IDENTIFICADO` y no crear un ID ficticio. Una ficha con campos sin evidencia queda PARCIAL aunque tenga fotografía y texto extenso; declarar cobertura como identidades completas/identidades confirmadas por zona.
 
 **Contrato de ficha útil V58:** en la plataforma el usuario debe comprender
