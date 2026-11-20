@@ -39,10 +39,11 @@ las 12 rutas A09 completas**. Tampoco se alteraron imágenes ni campos finales.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
 
-El deck **677** mantiene **14 rutas A09 documentadas** y registra **11
+El deck **677** mantiene **14 rutas A09 documentadas** y registra **13
 variantes ejecutables**: los dos procedimientos desde Cementerio de
 Amset/Hapi, dos efectos de Smiger, cinco objetivos de búsqueda desde el
-Cementerio de Thystvern y dos objetivos de envío a Cementerio de
+Cementerio de Thystvern, dos variantes de destrucción en Campo de
+Thystvern que Invocan Citree o Tristaros y dos objetivos de envío a Cementerio de
 **Sarcófago del Rey**. Estas últimas variantes comparten un contador de
 **hasta cuatro usos por turno por nombre**, independiente de la Invocación
 Especial propia de cada monstruo Horus. Fuentes oficiales: [Thystvern](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2)
