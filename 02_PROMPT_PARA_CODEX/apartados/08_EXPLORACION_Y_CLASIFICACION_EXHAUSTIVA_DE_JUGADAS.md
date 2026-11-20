@@ -1,5 +1,14 @@
 # Apartado 08 — EXPLORACIÓN Y CLASIFICACIÓN EXHAUSTIVA DE JUGADAS
 
+### Puerta A08 — no confundir posibilidad, utilidad y ejecución (20-11-2026)
+
+Además de `INTERACCIÓN BÁSICA`, `STARTER`, `EXTENSIÓN`, `COMBO COMPLETO` y `CONTINUACIÓN`, cada candidato registra tres **atributos independientes**: `LEGALIDAD_DOCUMENTAL` (contrastada/condicional/pendiente), `UTILIDAD_CONTEXTO` (motor/recuperación/ruptura/respuesta/solo procedimiento sin objetivo) y `SOPORTE_CALCULADORA` (regla probada/operador pendiente/no aplicable). No convertir «puede Invocarse Normalmente» en una recomendación: para recomendar debe existir efecto, dependencia o resultado táctico verificable en ese estado.
+
+Para cada preficha declarar cartas/zonas/recursos actuales que habilitan y **que bloquean** la ruta, si consume Normal, si deja vulnerabilidad, y qué cambiaría si el rival tiene la respuesta conocida. Si la línea requiere una condición en GY/campo o una carta de nombre concreto, no sustituirla por similitud textual. Las rutas documentadas sin reglas ejecutables permanecen visibles como **referencia condicional**, nunca como alternativas calculadas desde el tablero.
+
+**Aceptación adicional:** comparar, en al menos un estado por motor, qué línea se habilita al cumplir el requisito y cuál desaparece al retirarlo; verificar que una handtrap situacional no figure como «desarrollo de campo» por simple presencia en mano.
+
+
 **Contrato de experiencia A06–A10 (07-11-2026):** A08 alimenta el **mismo selector de rutas por objetivo** en «Aprende el deck», no una pestaña ajena a la guía. Etiquetar claramente `INTERACCIÓN BÁSICA`, `STARTER`, `EXTENSIÓN`, `COMBO COMPLETO` y `CONTINUACIÓN`; no inflar el número de combos con búsquedas, «Rocket + Reload» ni ramas que dependen de una apertura padre. Cada opción debe decir «con qué inicio», «para qué sirve» y «a qué resultado verificable conduce», y enlazar a una sola ficha A09/A10 si existe.
 
 **Refuerzo v57 de cobertura A08:** exponer en el **recorrido unificado** todas las prefichas elementales A08 del deck, con fotos de las piezas iniciales, propósito, requisitos, categoría real y estado de comprobación. Añadir explorador secundario de **roles de cada carta Main/Extra** extraído de A05/A08 para que buscadores, handtraps, extensores y apoyos no desaparezcan del aprendizaje al carecer de una ruta A09 propia. No confundir «rol de una carta» con «interacción ejecutable»: si su secuencia o ventana no ha sido demostrada, indicar qué falta y no inventar foto de un endboard. Los enlaces A08→A09 por coincidencia de cartas son **solo sugerencias de estudio**, requieren confirmar los recursos exactos y jamás equivalen a una relación certificada. Conservar clasificación y pendientes originales sin elevarlos por la presentación.
