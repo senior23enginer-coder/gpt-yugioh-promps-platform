@@ -37,6 +37,24 @@ variantes se cotejaron con las reglas de respaldo verificadas en la rama
 `base` de Station X; **no certifican todos los efectos de las cartas ni
 las 12 rutas A09 completas**. Tampoco se alteraron imágenes ni campos finales.
 
+### Crystron/Horus: reglas portables acotadas (20-11-2026)
+
+El deck **677** mantiene **14 rutas A09 documentadas** y registra **11
+variantes ejecutables**: los dos procedimientos desde Cementerio de
+Amset/Hapi, dos efectos de Smiger, cinco objetivos de búsqueda desde el
+Cementerio de Thystvern y dos objetivos de envío a Cementerio de
+**Sarcófago del Rey**. Estas últimas variantes comparten un contador de
+**hasta cuatro usos por turno por nombre**, independiente de la Invocación
+Especial propia de cada monstruo Horus. Fuentes oficiales: [Thystvern](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2)
+y [Sarcófago del Rey](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2).
+
+La prueba automática de efectos verifica costes, destino de cartas, uso
+compartido, ausencia de material o recurso y transiciones del estado real.
+**No representa cobertura completa de las 39 identidades de cartas ni
+certifica las 14 rutas A09**. La sincronización de fotografías y diagramas
+ilustrativos entre el paquete y la plataforma se verifica estructuralmente;
+las posiciones exactas sin prueba espacial continúan sin certificar.
+
 ### Guias y recursos por deck
 
 Cada carpeta de deck conserva sus guias e infografias. El ZIP individual incluye los archivos del deck y el seguimiento permanece en el registro privado.
