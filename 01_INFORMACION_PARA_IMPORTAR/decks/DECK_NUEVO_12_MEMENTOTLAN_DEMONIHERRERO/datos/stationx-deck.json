@@ -818,7 +818,8 @@
           "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es"
         ],
         "source_aliases": [
-          "S:P Pequeña Caballera"
+          "S:P Pequeña Caballera",
+          "S:P"
         ]
       },
       {
@@ -935,7 +936,8 @@
           "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=es"
         ],
         "source_aliases": [
-          "Tatsunootoshigo"
+          "Tatsunootoshigo",
+          "Tatsun"
         ]
       },
       {
@@ -1383,7 +1385,8 @@
           "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=es"
         ],
         "source_aliases": [
-          "Demoniherrero Grabador"
+          "Demoniherrero Grabador",
+          "Grabador"
         ]
       },
       {
@@ -1555,7 +1558,8 @@
           "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=es"
         ],
         "source_aliases": [
-          "Réquiem del Demoniherrero"
+          "Réquiem del Demoniherrero",
+          "Réquiem"
         ]
       },
       {
@@ -2484,28 +2488,76 @@
             "number": 5,
             "action": "Durante Main activa el efecto rápido de Réquiem y Sacrifica Réquiem para Invocar Especial Grabador desde el Deck o mano. Campo Grabador; GY Réquiem.",
             "detail": "Durante Main activa el efecto rápido de Réquiem y Sacrifica Réquiem para Invocar Especial Grabador desde el Deck o mano. Campo Grabador; GY Réquiem.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20196,
+                "name": "Demoniherrero Grabador",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              },
+              {
+                "cid": 20225,
+                "name": "Réquiem del Demoniherrero",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           },
           {
             "number": 6,
             "action": "Activa el efecto de Réquiem en GY y equípalo a Grabador (un Demonio LUZ no Link) como Mágica de Equipo Demoniherrero. Campo Grabador + Réquiem equipado.",
             "detail": "Activa el efecto de Réquiem en GY y equípalo a Grabador (un Demonio LUZ no Link) como Mágica de Equipo Demoniherrero. Campo Grabador + Réquiem equipado.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20196,
+                "name": "Demoniherrero Grabador",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              },
+              {
+                "cid": 20225,
+                "name": "Réquiem del Demoniherrero",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           },
           {
             "number": 7,
             "action": "Activa el efecto de Grabador: selecciona el Réquiem equipado que controlas y un monstruo del campo rival; mándalos al GY. Campo Grabador; GY equipo Réquiem y monstruo rival retirado a su GY, según propiedad original.",
             "detail": "Activa el efecto de Grabador: selecciona el Réquiem equipado que controlas y un monstruo del campo rival; mándalos al GY. Campo Grabador; GY equipo Réquiem y monstruo rival retirado a su GY, según propiedad original.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20196,
+                "name": "Demoniherrero Grabador",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              },
+              {
+                "cid": 20225,
+                "name": "Réquiem del Demoniherrero",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           }
         ],
         "documentary_source": "\n> **Ruta condicional:** esta secuencia exige los materiales descritos en A09, el acceso real a Luna/Réquiem/Grabador y la ventana válida. No se acreditó mediante simulación.\n\n\n**Propósito:** ir segundo contra un monstruo enemigo **seleccionable** usando solo una copia de Grabador. **Inicio:** mano **Angbruja**, campo/GY propios vacíos; rival tiene **al menos un monstruo en campo** que puede seleccionarse; quedan Tatsun en Deck, Grabador en **mano o Deck**; Luna, Réquiem en Extra. Sin negaciones, restricciones externas ni Heat Wave.\n\n1. **Invoca Normal Angbruja**; mediante su efecto busca **Tatsun**. Campo Angbruja; Mano Tatsun.\n2. **Invoca Especial Tatsun** desde la mano, porque solo controlas un monstruo Memento boca arriba. Campo Angbruja + Tatsun.\n3. **Invoca por Enlace Luna del Cielo Cerrado** (Link-2) usando los **dos monstruos de efecto**. Campo Luna; GY Angbruja + Tatsun. **No** declaras ni usas el efecto de Luna que necesita un posterior Link-5.\n4. **Invoca por Enlace Réquiem del Demoniherrero** (Link-1) usando **Luna**, monstruo **Demonio LUZ**; se cuenta como un material de enlace. Campo Réquiem; GY Luna y los Memento.\n5. Durante Main activa el efecto rápido de Réquiem y **Sacrifica Réquiem** para **Invocar Especial Grabador** desde el Deck o mano. Campo Grabador; GY Réquiem.\n6. Activa el efecto de Réquiem en GY y **equípalo a Grabador** (un Demonio LUZ no Link) como Mágica de Equipo Demoniherrero. Campo Grabador + Réquiem equipado.\n7. Activa el efecto de Grabador: **selecciona el Réquiem equipado que controlas y un monstruo del campo rival**; mándalos al GY. Campo Grabador; GY equipo Réquiem y monstruo rival retirado a su GY, según propiedad original.\n\n**Campo final y lectura:** Grabador queda en campo, dos Memento propios en GY, un monstruo rival enviado al GY. Es **retirada que selecciona y manda**, no negación, destierro ni destrucción; fracasa si no hay monstruo legal objetivo, si Grabador no está disponible o si rival corta una activación crítica. La búsqueda de M/T Demoniherrero por descarte de Grabador sigue sin destino en este Main.\n\n",
@@ -3746,10 +3798,19 @@
             "number": 2,
             "action": "Especial Tatsun desde mano, ya que solo controlas Memento boca arriba.",
             "detail": "Especial Tatsun desde mano, ya que solo controlas Memento boca arriba.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19362,
+                "name": "Tatsunootoshigo",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19362.png",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19362.png",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           },
           {
             "number": 3,
@@ -3772,10 +3833,19 @@
             "number": 4,
             "action": "En turno del adversario, solo si éste activa una carta o efecto y controla un monstruo boca arriba que pueda seleccionarse: activa el efecto rápido de S:P seleccionando a la propia S:P y al monstruo rival; ambos son desterrados temporalmente hasta la End Phase. No atribuir al paso 3 el primer destierro de S:P al ser Enlace Invocada, porque no usaste un monstruo del Extra como material.",
             "detail": "En turno del adversario, solo si éste activa una carta o efecto y controla un monstruo boca arriba que pueda seleccionarse: activa el efecto rápido de S:P seleccionando a la propia S:P y al monstruo rival; ambos son desterrados temporalmente hasta la End Phase. No atribuir al paso 3 el primer destierro de S:P al ser Enlace Invocada, porque no usaste un monstruo del Extra como material.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 19188,
+                "name": "S:P Pequeña Caballera",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19188.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19188.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           }
         ],
         "documentary_source": "\n**Familia independiente:** primer turno conservador, interrupción por destierro temporal **condicional**. **Mano mínima:** **Angbruja**; campo/GY propios vacíos, Normal disponible, Tatsun en Deck, S:P (031) en Extra. El rival debe activar **una carta o efecto** cuando ya controle un monstruo boca arriba seleccionable para la respuesta descrita.\n\n1. **Normal Angbruja**; al ser Invocada busca **Tatsun** desde Deck. Campo Angbruja.\n2. **Especial Tatsun** desde mano, ya que solo controlas Memento boca arriba.\n3. Invoca por Enlace **S:P Pequeña Caballera (Link-2)** usando **Angbruja + Tatsun**, ambos **monstruos de efecto**. Campo S:P; GY Angbruja+Tatsun. No hubo material del Extra.\n4. **En turno del adversario**, solo **si éste activa una carta o efecto** y controla un monstruo boca arriba que pueda seleccionarse: activa el efecto rápido de S:P seleccionando **a la propia S:P y al monstruo rival**; ambos son **desterrados temporalmente hasta la End Phase**. No atribuir al paso 3 el **primer destierro de S:P al ser Enlace Invocada**, porque no usaste un monstruo del Extra como material.\n\n**Campo al acabar tu turno:** S:P (1600 ATK); GY 001+002; Normal gastada; **sin negaciones**. **Estado temporal durante la respuesta:** S:P y objetivo rival desterrados; si el efecto resuelve y no hay impedimentos, regresan en End Phase. La reacción **no se garantiza** si el rival no activa carta/efecto en ventana válida o carece de objetivo; si la S:P abandona el campo antes, no fingir la respuesta.\n\n",
@@ -3870,10 +3940,26 @@
             "number": 3,
             "action": "Activa el efecto de Réquiem en Main y Sacrifícalo para Invocar Grabador desde mano/Deck. Activa el efecto diferente de Réquiem en GY para equiparlo a Grabador como Carta de Monstruo en la zona de M/T.",
             "detail": "Activa el efecto de Réquiem en Main y Sacrifícalo para Invocar Grabador desde mano/Deck. Activa el efecto diferente de Réquiem en GY para equiparlo a Grabador como Carta de Monstruo en la zona de M/T.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 20196,
+                "name": "Demoniherrero Grabador",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              },
+              {
+                "cid": 20225,
+                "name": "Réquiem del Demoniherrero",
+                "image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "full_image": "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+                "label": "Carta citada explícitamente en esta acción; consulta el texto para su zona y condición."
+              }
+            ],
             "requirements": [],
             "resources": [],
-            "board": []
+            "board": [],
+            "photo_evidence": "NOMBRE_IDENTIFICADO_EN_ACTION"
           },
           {
             "number": 4,
