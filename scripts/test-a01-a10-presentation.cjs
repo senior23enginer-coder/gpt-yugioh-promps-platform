@@ -35,6 +35,26 @@ assert(master.includes('Puerta de aceptación transversal A01–A10'),'Master mu
 for(let i=1;i<=10;i++)assert(master.includes('| A'+String(i).padStart(2,'0')+' |'),'Master crosswalk missing A'+i);
 assert(master.includes('Kashtira es referencia'),'Reference comparison must not copy Kashtira cards');
 assert(master.includes('DOCUMENTADA_SIN_CAMPO_ESPACIAL'),'Unknown endboards must not be invented');
+// Verify calculator interoperability remains mandatory across the eight
+// existing prompts, without creating or renumbering modules.
+const calculatorContract = [
+  ['00_PROMPT_UNICO_STATION_X_V31.md','Puerta transversal A01–A10 → calculadora'],
+  ['apartados/02_RECEPCION_DE_UN_DECK.md','Puerta A02 — identidad'],
+  ['apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md','Puerta A05 — inventario'],
+  ['apartados/07_MECANICAS_Y_REGLAS_POR_FORMATO.md','Puerta A07 — regla ejecutable'],
+  ['apartados/08_EXPLORACION_Y_CLASIFICACION_EXHAUSTIVA_DE_JUGADAS.md','Puerta A08 — no confundir'],
+  ['apartados/09_FICHA_UNICA_OBLIGATORIA_DE_CADA_COMBO_COMPLETO.md','Puerta A09 — contrato reproducible'],
+  ['apartados/10_GENERACION_DE_GUIAS_VISUALES_DE_COMBOS_Y_ESTRATEGIAS_YU_GI_OH.md','Puerta A10 — paridad visual'],
+  ['apartados/30_COMPROBACION_INTERNA_Y_BITACORA_UNICA.md','Control privado A30 — cobertura ejecutable']
+];
+for (const [file, clause] of calculatorContract) {
+  const source=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX',file),'utf8');
+  assert(source.includes(clause),'Calculator acceptance missing: '+file);
+}
+for (const required of ['station-x-calculator/1','OPERADOR_PENDIENTE','CALCULADORA_REGLAS_PROBADAS']) {
+  const combined=calculatorContract.map(([file])=>fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX',file),'utf8')).join('\n');
+  assert(combined.includes(required),'Missing calculator contract term: '+required);
+}
 const packs=[
   ['DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO',671,12],
   ['DECK_NUEVO_13_CRISTRON_HORUS',677,14]
