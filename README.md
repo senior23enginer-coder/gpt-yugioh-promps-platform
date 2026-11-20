@@ -42,3 +42,20 @@ las 12 rutas A09 completas**. Tampoco se alteraron imágenes ni campos finales.
 Cada carpeta de deck conserva sus guias e infografias. El ZIP individual incluye los archivos del deck y el seguimiento permanece en el registro privado.
 
 No incluir código de la tienda, credenciales, configuraciones privadas ni datos operativos de producción. No eliminar prompts protegidos ni crear informes paralelos por versión. Los cambios se controlan mediante commits de Git.
+
+### Estándar de aceptación A01–A10 para todos los decks
+
+El paquete portable y la plataforma conservan **una sola identidad** (deck_id, formato, CIDs, card_id, secciones, cantidades, Skills y versiones del editor). Kashtira es un ejemplo de experiencia visual, no una fuente de cartas, efectos ni resultados para otro deck. El cierre de cada apartado se decide por pruebas **independientes**, no por la presencia del documento:
+
+| Apartado | Puerta verificable |
+| --- | --- |
+| A01 | Perfil de jugador comprensible, propósito y estilo táctico específicos del deck, sin auditorías crudas en la ficha. |
+| A02–A03 | Paquete nativo, inventario completo, IDs/zonas/cantidades y Skills separadas sin alteraciones. |
+| A04–A05 | Fotografías locales por CID, identidades, texto oficial, función y límites de cada carta. |
+| A06 | Motores, relaciones, recursos, juego de primer/segundo turno y restricciones con evidencia por carta. |
+| A07 | Cada efecto oficial: actor, estado, costes, ventanas, selectores, cadena, resolución, límite de usos, pruebas positivas y negativas. Las variantes no equivalen a cartas completas. |
+| A08 | Decisiones situacionales, continuidad, interrupciones, bricks y cambios de recursos con estado y dependencia. |
+| A09 | Identidad y orden de rutas; replay legal de cada paso con estados antes/después y bloqueo ante requisitos ausentes. |
+| A10 | Fotos reales por paso y campo final por zona con los mismos CIDs de A09; revisión visual a 390/1280 px. Si las posiciones exactas no están verificadas, mostrar bandejas de zonas y advertirlo, nunca fingir casillas exactas. |
+
+**Validación compartida:** `node scripts/verify-pilot-decks.cjs --prompts-root=../gpt-yugioh-promps-platform`, ejecutado en el repositorio hermano `platform-yugioh-md`, comprueba estructura, reglas y concordancia de rutas/fotografías en los pilotos 671 (Memento) y 677 (Crystron/Horus). `--require-finished` debe rechazar el cierre mientras falten replays A09 o pruebas suficientes. El importador, los tests de reglas, la interfaz, las pruebas PHP y la CI deben verificarse sobre el mismo commit. **Importable, visualmente documentado y ejecutable legalmente son estados independientes**. Un commit/push no significa despliegue.
