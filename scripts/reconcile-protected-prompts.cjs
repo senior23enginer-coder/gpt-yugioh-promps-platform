@@ -29,5 +29,6 @@ for(const filename of edited){
   if(matches!==1)throw Error('El registro debe tener una fila única de integridad para '+filename+': '+matches);
 }
 const updated=lines.join('\n');
-if(updated!==original)fs.writeFileSync(file,updated,'utf8');
+if(process.argv.includes('--check')&&updated!==original)throw Error('Las huellas de los prompts editados no coinciden con el registro protegido.');
+if(!process.argv.includes('--check')&&updated!==original)fs.writeFileSync(file,updated,'utf8');
 console.log(JSON.stringify({ok:true,protected:39,changed:changes.length,hashesReconciled:edited.length}));
