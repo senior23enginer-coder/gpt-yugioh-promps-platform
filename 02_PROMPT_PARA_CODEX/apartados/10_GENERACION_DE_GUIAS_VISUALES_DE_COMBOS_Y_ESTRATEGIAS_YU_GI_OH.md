@@ -12,6 +12,12 @@ Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (202
 
 **Salida:** guardar el resultado de este apartado en el mismo archivo del deck, sección `APARTADO_10`, con estado real (SIN_INICIAR, EN_PROCESO, PARCIAL, COMPLETA o NO_APLICA justificado), referencias cruzadas por ID, evidencias cuando existan y siguiente tarea concreta. No crear un nuevo archivo de resultados.
 
+### Control anti-regresión de contraste y resultados parciales — 19-11-2026
+
+En la vista de jugador no incluir párrafos crudos de auditoría dentro del tablero (por ejemplo «Ubicaciones ilustrativas», «ninguna columna ni casilla específica»). Si la ruta tiene `presentation_status=DOCUMENTADA_SIN_CAMPO_ESPACIAL` o `endboard.spatial_verified=false`, se presenta una **bandeja de resultado documentado** con fotografías de las cartas finales identificadas y zonas confirmadas, junto con un aviso breve y legible «Posiciones exactas no verificadas». **No construir una cuadrícula de 5 zonas aparentemente completa** con casillas ficticias. Las notas extensas de incertidumbre van a un bloque expandible de detalles técnicos, no delante del resultado.
+
+El tema oscuro de Station X no debe heredar texto blanco sobre los fondos claros del campo rival, notas y zonas de recursos. Comprobar contraste de títulos, avisos, captions, recursos y textos del rival sobre cada superficie y garantizar lectura a 390 px y a 1280 px. En cada ruta, comparar contra la experiencia de Kashtira: mano inicial con cartas auténticas, pasos con fotos reales, texto de acción íntegro, resultado con fotos y tablero espacial solo si fue acreditado. La aprobación de un A10 no se infiere de que el JSON importe o de que se muestre un contenedor de tablero: requiere prueba visual del navegador.
+
 ## Instrucción editorial específica
 
 ### Entregable A10 — prueba final de paridad de experiencia con Kashtira
