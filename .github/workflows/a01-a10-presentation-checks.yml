@@ -7,6 +7,7 @@ on:
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md'
       - 'scripts/test-a01-a10-presentation.cjs'
+      - 'scripts/test-deck-route-evidence.cjs'
       - 'scripts/reconcile-protected-prompts.cjs'
       - '.github/workflows/a01-a10-presentation-checks.yml'
   workflow_dispatch:
@@ -25,3 +26,5 @@ jobs:
         run: node scripts/reconcile-protected-prompts.cjs --check
       - name: Preserve 39 prompts and validate A01-A10 and deck deliveries
         run: node scripts/test-a01-a10-presentation.cjs
+      - name: Validate Memento and Crystron photos, source steps and illustrative results
+        run: node scripts/test-deck-route-evidence.cjs
