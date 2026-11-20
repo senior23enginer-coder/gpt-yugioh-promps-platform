@@ -2,21 +2,6 @@
 
 ## Puerta transversal A01–A10 → calculadora de estado real (20-11-2026)
 
-### Protocolo reproducible de auditoría por deck — aplicación + repositorio de prompts
-
-Para **todos** los decks, ejecutar A01→A10 sobre la **misma identidad CID/inventario/versión**, cerrar cada apartado con evidencia revisable antes de ascender su estado y comprobar tres resultados que NO son intercambiables: análisis documental, representación visual e interpretación de efectos por la calculadora.
-
-- A01/A02/A03: ficha tácticamente legible, vínculo al paquete `station-x-deck-package/1`, mismo `deck_id`, mismo formato y cada fila `card_id/section/quantity`; `Skills` nunca se suman al Main.
-- A04/A05/A06: foto local verificable por CID, texto oficial y sinergias con cartas reales del inventario, motor/recursos/condiciones; no inventar `engine_maps` vacíos como si estuvieran terminados.
-- A07: **por cada efecto** CID, fuente oficial, actor/zona, coste, ventana, selección, cadena, resolución, límites y pruebas positiva/negativa. `N` variantes importadas NO significan `N` cartas completamente modeladas ni `N` combos certificados.
-- A08/A09: variantes e interrupciones con estado previo/posterior, recursos realmente disponibles, efectos por nombre usados y replay completo; una foto y una descripción no constituyen un replay.
-- A10: las fotos y la secuencia deben coincidir **paso por paso** con A09 y con la fuente del mismo deck. Si `spatial_verified=false`, mostrar tarjetas por **zonas documentadas**, no casillas precisas inventadas. Comprobar la interfaz a 390 y 1280 px.
-
-**Puerta automatizada común:** en `platform-yugioh-md`, ejecutar `node scripts/verify-pilot-decks.cjs --prompts-root=../gpt-yugioh-promps-platform` para verificar inventarios, CIDs, fuentes, reglas y paridad de rutas/fotos de Memento 671 y Crystron/Horus 677; su resultado `structure_ok` NO equivale a certificación del deck. La opción `--require-finished` debe permanecer bloqueada mientras existan efectos incompletos, replays sin certificar o campos espaciales no verificados. Ampliar el mismo contrato para cualquier nuevo deck, sin copiar cartas de Kashtira ni introducir un segundo formato de entrega.
-
-**Cierre irreversible solo con evidencias:** pruebas por regla y ruta (incluyendo negativas), `npm test`, integración ZIP real, controles visuales y CI aprobada sobre el mismo SHA; sincronización comprobada en ambos repositorios y, cuando proceda, commit/push/PR/merge. Ante un fallo externo a la tarea, documentar el bloqueo exacto y **no** declarar `COMPLETA` ni manipular huellas históricas para lograr verde. Una transferencia Git no publica automáticamente el sitio.
-
-
 **No equiparar documentación con motor ejecutable.** Cada entrega de deck deberá declarar por separado `A01–A10_DOCUMENTADO`, `IMPORTABLE_ESTRUCTURADO`, `CALCULADORA_COBERTURA_PARCIAL` y `CALCULADORA_REGLAS_PROBADAS`. El porcentaje de análisis documental no afirma cobertura ejecutable. Ante un deck con 14 rutas A09 y 0 reglas declarativas en `record.calculator.rules`, informar exactamente `14 rutas documentadas; 0 reglas declarativas suministradas`; no deducir que esas rutas se pueden analizar de modo dinámico.
 
 El botón **Analizar** de Station X parte del **estado físico capturado**, no de un objetivo elegido: turno, fase, prioridad/ventana, jugador activo, mano, monstruos, Magias/Trampas, Cementerio, destierro, Extra, materiales, zonas, uso previo de efectos, restricciones, cartas rivales conocidas/desconocidas y recursos. Solo recomendar acciones cuyo procedimiento o efecto esté implementado y cuyas precondiciones hayan sido evaluadas. Una Invocación Normal genérica de una handtrap que no conecta con un plan demostrado no constituye una estrategia. No suponer que el rival carece de interrupciones; señalar incertidumbre.
