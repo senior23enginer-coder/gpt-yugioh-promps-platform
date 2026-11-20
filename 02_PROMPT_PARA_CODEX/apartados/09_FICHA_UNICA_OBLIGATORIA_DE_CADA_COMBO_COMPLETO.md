@@ -2,6 +2,9 @@
 
 ### Puerta A09 — contrato reproducible para calcular sobre el tablero (20-11-2026)
 
+**Paridad de fuentes obligatoria:** antes de editar, cotejar `route.id`, cantidad de `steps` y cada `step.action` con las revisiones nativas vigentes. Integrar fotografías y campos finales solo cuando estos pares sean idénticos; cualquier divergencia detiene la sincronización, preserva la revisión del editor y exige reconciliación manual. Usar la misma regla tanto para Memento (12 rutas) como Crystron (14); `endboard.variants` de origen ilustrativo no equivale a replay ni autoriza `spatial_verified=true`.
+
+
 Cada `record.routes[*]` debe enlazar los `regla_id` A07 de sus acciones **sin afirmar que la ruta completa es ejecutable**. Para cada paso conservar: estado antes (turno/fase/actor, ubicaciones y copias), costes, objetivos, materiales, cadena o procedimiento sin cadena, resolución, estado después, recursos gastados/restantes, restricciones y efectos consumidos por nombre. Cuando el actor está en GY/destierro, registrar ese origen real; jamás reemplazarlo por mano o Deck para que una secuencia «encaje» en el editor.
 
 El calculador puede proponer **solo** pasos respaldados por operadores y guardas probados del motor y disponibles en el estado capturado. Las rutas que aún necesitan procedimientos, condiciones continuas, encadenamientos o respuesta rival no implementados se etiquetan `DOCUMENTADA_NO_EJECUTABLE_AUN`, indicando exactamente qué falta. No transformar automáticamente la prosa de A09 ni un HTML A10 en `record.calculator.rules`.
