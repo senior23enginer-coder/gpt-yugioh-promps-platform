@@ -71,6 +71,18 @@ for(const [folder,id,routes] of packs){
   assert.equal(pack.record.routes.length,routes,'Do not delete documented routes');
   const cardIds=new Set(pack.record.cards.flatMap(c=>(c.slots||[]).map(s=>Number(s.card_id))));
   assert.equal(cardIds.size,pack.inventory.length,'Preserve native inventory row IDs');
+  const calculator=pack.record.calculator;
+  if(calculator!==undefined){
+    assert.equal(calculator.schema,'station-x-calculator/1','Unsupported calculator schema');
+    assert.equal(calculator.deck_id,id,'Calculator rules belong to a different deck');
+    assert.equal(calculator.format,pack.record.format,'Calculator rules belong to another format');
+    assert(Array.isArray(calculator.rules),'Calculator rules must be an array');
+    for(const rule of calculator.rules){
+      assert.equal(rule.deckId,id,'Foreign executable rule deck identity');
+      assert.equal(rule.format,pack.record.format,'Foreign executable rule format');
+    }
+  }
+  const declaredRules=Array.isArray(calculator?.rules)?calculator.rules.length:0;
   const steps=pack.record.routes.flatMap(route=>route.steps||[]);
   const photos=steps.filter(step=>Array.isArray(step.photos)&&step.photos.length>0).length;
   const boards=pack.record.routes.filter(route=>route.endboard?.variants?.length>0).length;
@@ -81,6 +93,7 @@ for(const [folder,id,routes] of packs){
     const name=path.basename(card.image||'');
     if(name)assert(imageNames.has(name),'Missing referenced local image '+name);
   }
-  reports.push({deck_id:id,cards:pack.record.cards.length,steps:steps.length,illustrated_steps:photos,spatial_endboards:boards,routes,visual_complete:complete});
+  reports.push({deck_id:id,cards:pack.record.cards.length,steps:steps.length,illustrated_steps:photos,spatial_endboards:boards,routes,visual_complete:complete,
+    declared_calculator_rules:declaredRules,calculator_rule_execution:'NOT_VERIFIED_BY_THIS_TEST'});
 }
 console.log(JSON.stringify({ok:true,protected_prompts:39,modules_with_acceptance:10,existing_decks:reports}));
