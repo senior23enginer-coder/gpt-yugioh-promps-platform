@@ -83,6 +83,21 @@ for(const [folder,id,routes] of packs){
     }
   }
   const declaredRules=Array.isArray(calculator?.rules)?calculator.rules.length:0;
+  if(id===677){
+    assert.equal(declaredRules,2,'Crystron canonical package must retain Amset and Hapi portable rules');
+    assert.deepEqual(calculator.rules.map(rule=>rule.actor.cid).sort((a,b)=>a-b),[19153,19155]);
+    for(const rule of calculator.rules){
+      assert.equal(rule.resolve.length,1,'One supported Horus GY procedure per card');
+      assert.equal(rule.resolve[0].op,'move');
+      assert.equal(rule.resolve[0].to,'free-monster');
+      assert.equal(rule.resolve[0].summonMethod,'special');
+      assert.equal(rule.activation,false,'Horus GY procedure is not an activated Sarcophagus effect');
+      assert(rule.guards.some(g=>g.kind==='count'&&g.selector?.cid===19200&&g.selector.faceUp===true),
+        'Controlling a face-up King\'s Sarcophagus is mandatory');
+    }
+  }
+  if(id===671)assert.equal(declaredRules,0,
+    'Memento portable rules are not to be invented or copied over verified platform rules');
   const steps=pack.record.routes.flatMap(route=>route.steps||[]);
   const photos=steps.filter(step=>Array.isArray(step.photos)&&step.photos.length>0).length;
   const boards=pack.record.routes.filter(route=>route.endboard?.variants?.length>0).length;
