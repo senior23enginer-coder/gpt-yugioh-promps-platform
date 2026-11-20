@@ -112,10 +112,14 @@ for(const [folder,id,routes] of packs){
     }
   }
   if(id===671){
-    assert.equal(declaredRules,4,'Memento must keep its four verified portable single-variant effects');
-    const expected=['671:mictlan:activate','671:creation-king:destroy',
-      '671:twin-dragon:fusion-search','671:duke:recover-engraver'];
-    assert.deepEqual(calculator.rules.map(rule=>rule.id).sort(),expected.sort());
+    assert.equal(declaredRules,226,'Memento must retain all verified portable variants');
+    const ids=new Set(calculator.rules.map(rule=>rule.id));
+    assert.equal(ids.size,38,'Multiple variants must share their stable effect ID');
+    for(const id of ['671:mictlan:activate','671:creation-king:destroy',
+      '671:twin-dragon:fusion-search','671:duke:recover-engraver'])
+      assert(ids.has(id),'Lost existing verified portable effect: '+id);
+    assert.equal(calculator.rules.filter(rule=>rule.id==='671:bone-party:main').length,42,
+      'Bone Party must preserve all 42 exact variants');
     assert(calculator.rules.every(rule=>rule.version===1 && rule.deckId===671 &&
       rule.format==='tcg_advanced' && Array.isArray(rule.guards) &&
       Array.isArray(rule.resolve) && rule.resolve.length>0),
