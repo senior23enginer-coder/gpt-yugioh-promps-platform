@@ -1,5 +1,14 @@
 # Apartado 10 — GENERACIÓN DE GUÍAS VISUALES DE COMBOS Y ESTRATEGIAS YU-GI-OH!
 
+### Puerta A10 — paridad visual sin fingir paridad de motor (20-11-2026)
+
+La interfaz de estudio y la calculadora comparten identidad y zonas de las cartas, pero sus alcances son independientes. La fotografía, flecha, texto de efecto y campo final A10 **no convierten** una ruta en un efecto implementado. Ante un estado físico del usuario, la calculadora presenta por separado **acciones ejecutables comprobadas desde ese estado**, **rutas documentales condicionadas** y **efectos sin modelar**, sin inventar cartas en campo/GY ni sugerir handtraps como avance táctico sin línea real.
+
+A10 exige verificación visual y de datos en desktop/móvil para una ruta que comienza desde mano, una que comienza en Cementerio, un bloqueo que impide continuar y una situación en que solo hay documentación sin regla. Debe mostrar la condición que falta, impedir resultados finales espaciales ficticios y conservar las imágenes y CIDs de las piezas reales. Los controles «Analizar» y «Continuar» responden al estado actual; no exigir al jugador un objetivo estratégico adicional para producir análisis.
+
+**Salida y aceptación:** ZIP/guía/visualización completos se registran independientemente del número de reglas `record.calculator` que el importador haya aceptado. Una entrega puede estar `GUIA_VISUAL_COMPLETA` y mantener `CALCULADORA_COBERTURA_PARCIAL`; documentar la diferencia sin bloquear la lectura de la guía.
+
+
 **Contrato de presentación Station X — prevención de entregas incompletas (19-11-2026)**: la guía A10 y el JSON deben mostrar la misma secuencia, fotografías reales por paso, mano inicial verificada y campo final **con tarjetas por zona** cuando exista fuente suficiente. Ejemplo de nivel de experiencia: Kashtira Wraitsoth → Unicorn → Shangri-Ira, solo para estructura, jamás trasladar esas cartas ni efectos a otro deck. Al faltar posiciones, presentar «Resultado documentado; casillas no verificadas» con fotografías de cartas nombradas en la fuente, no un tablero inventado. Mantener en pantalla el `action` completo y `result` con recursos; no esconder todo en desplegables. Verificar en móvil y escritorio que la ficha principal muestre el resumen real del deck y no frases de auditoría o ranking global.
 
 **Regla de imágenes y entrega ZIP:** usar Markdown para imágenes locales de la carpeta (`![Carta](imagenes/CID.png)`) en el estudio A01–A10, no `<img>`/JS/URLs ejecutables. Conservar la guía HTML como archivo auxiliar de la carpeta, pero no incrustar ese HTML dentro de campos de `record`. El ZIP de una carpeta histórica sin `datos/stationx-deck.json` solo cubre importación documental parcial; para transferencia integral de combos visuales, decisiones y calculadora es imprescindible añadir el paquete estructurado basado en una exportación nativa auténtica.
