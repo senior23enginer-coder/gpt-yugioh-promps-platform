@@ -1,5 +1,14 @@
 # Apartado 05 — ANÁLISIS INDIVIDUAL DE TODAS LAS CARTAS
 
+### Puerta A05 — inventario de efectos para análisis del estado (20-11-2026)
+
+Para cada carta y cada efecto diferenciado, registrar bajo su identidad existente `card_id` + CID confirmado y fuente: **dónde se activa** (mano/campo/GY/destierro/Extra), condición o procedimiento de Invocación, si inicia cadena, coste, objetivo, ventana/fase, resolución, uso una vez por carta/nombre/turno, estado de la carta después, restricciones y rol real (incluida handtrap/respuesta situacional). Separar el **procedimiento** de Invocación Especial de un monstruo de un supuesto efecto activado de otra carta; por ejemplo, una condición «controlar una carta de nombre X» no se convierte automáticamente en «activar X para revivir».
+
+Anotar por efecto `VERIFICADO_DOCUMENTAL`, `OPERADOR_PENDIENTE`, `REGLA_EJECUTABLE_PROBADA` o `IDENTIDAD_PENDIENTE`. Una ficha con imagen y explicación pero sin operador soportado **no cuenta como efecto calculable**. No generar una Invocación Normal genérica de handtraps como propuesta estratégica: su utilidad se analiza en la ventana y recursos donde actúa, salvo línea concreta respaldada por A08/A09 y reglas ejecutables.
+
+**Aceptación A05→A07:** comprobar por cada carta la correspondencia entre nombre oficial/alias permitido, CID, slot real, copias y efecto; mantener denominadores separados «fichas documentadas» / «efectos con especificación» / «efectos ejecutables probados». Las imágenes no son evidencia de un efecto y el motor no extrae reglas de texto libre.
+
+
 Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (2026-11-03).
 
 **Entrada:** seguir el protocolo común de entrada del maestro (selección de un deck, fuentes pertinentes, formato y evidencias previas); aplicar la instrucción específica de este módulo sin ejecutar una tarea global.
