@@ -1,5 +1,14 @@
 # Apartado 02 — RECEPCIÓN DE UN DECK
 
+### Puerta A02 — identidad y contrato importable para calculadora (20-11-2026)
+
+Registrar el formato real del inventario y de la plataforma como valor técnico sin traducir; nunca intercambiar TCG, OCG, GOAT o Rush ni heredar reglas de un formato distinto. Conservar `deck_id`, IDs nativos de filas, `slots` Main/Extra/Side/Reserva/Skill, cantidades, `inventory_sha256` auténtico cuando exista y carpeta histórica. Los estudios existentes con paquete portátil deben conservar la vinculación `deck-slots-v1` real, sin inventar IDs.
+
+Antes de A05, declarar el tipo de transferencia: `DOCUMENTAL_LEGACY`, `ESTRUCTURADA_IMPORTABLE` o `ESTRUCTURADA_PENDIENTE_DE_BASE`. La presencia de `datos/stationx-deck.json` solo prueba estructura potencial, no reglas de calculadora. Preparar en la misma carpeta una ruta de entrega para `record.cards`, `record.routes` y, **si está probada**, `record.calculator`; nunca un archivo auxiliar de reglas desconectado del ZIP nativo.
+
+**Aceptación adicional:** importador y exportador deben reconocer un único deck, IDs, formato e inventario sin pérdidas. Si la huella o el formato no coinciden, bloquear la actualización estructurada y conservar el análisis documental; no intentar corregirlo forzando IDs ni contenido.
+
+
 Módulo de trabajo independiente del proyecto Station X. Versión modular 4 (2026-11-03).
 
 **Entrada:** seguir el protocolo común de entrada del maestro (selección de un deck, fuentes pertinentes, formato y evidencias previas); aplicar la instrucción específica de este módulo sin ejecutar una tarea global.
