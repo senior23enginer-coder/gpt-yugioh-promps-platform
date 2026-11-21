@@ -34,7 +34,7 @@ variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
 importadas y rechazar duplicados exactos o políticas incompatibles. Las
 variantes se cotejaron con las reglas de respaldo verificadas en la rama
-`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C09 tienen replays acotados: C09 certifica el procedimiento físico de Princesa Necroequipo sin robo gratuito; C08 requiere activación rival observada, sin resolver su efecto original; quedan 3 rutas sin replay certificado. La fotografía de los 69 pasos y los
+`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C10 tienen replays acotados: C10 certifica Secuencia + Duque + Angbruja y Normal inmediata sin repetir la búsqueda; C09 certifica el procedimiento físico de Princesa Necroequipo sin robo gratuito; C08 requiere activación rival observada, sin resolver su efecto original; quedan 2 rutas sin replay certificado. La fotografía de los 69 pasos y los
 12 tableros finales ilustrativos se mantiene enlazada por CID con el paquete,
 sin afirmar ubicaciones físicas exactas (`spatial_verified=false`).
 
@@ -45,7 +45,7 @@ Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
 verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
 Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
 **30/39 identidades** tienen al menos una regla de actor; faltan 9 y siguen
-3 replays A09 restantes por certificar; C09 y C01–C07 cuentan con pruebas sin respuesta rival, C08 condicional a activación rival observada.
+2 replays A09 restantes por certificar; C09 y C01–C07 cuentan con pruebas sin respuesta rival, C08 condicional a activación rival observada.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
 
