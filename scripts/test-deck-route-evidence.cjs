@@ -71,6 +71,8 @@ for(const pilot of pilots){
     assert(c08.replay_certification?.verified_final.includes('sin Invocación Especial'),
       'C08 End Phase return cannot be called a Special Summon');
     const c09=record.routes.find(route=>route.id==='671:A09:C09');
+    assert(!c09.opening.includes('No se acreditó mediante simulación.'),
+      'Certified route cannot keep an obsolete unverified-simulation note');
     assert.equal(c09.replay_certification?.documented_steps,5);
     assert.equal(c09.replay_certification?.executed_transitions,8);
     assert(c09.replay_certification?.verified_final.includes('cero robos'),
