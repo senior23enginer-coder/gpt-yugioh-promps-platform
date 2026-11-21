@@ -59,7 +59,7 @@ for(const pilot of pilots){
     assert.equal(c07.replay_certification?.executed_transitions,8);
     assert(c07.replay_certification?.verified_final.includes('identidad desconocida'),
       'C07 must not invent the card drawn by Guardian Chimera');
-    assert(c07.replay_certification?.limits.includes('no otorga protección'),
+    assert(c07.replay_certification?.limits.includes('ni otorga protección de Polimerización'),
       'Mementotlan Fusion cannot be misrepresented as Polymerization');
   }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
