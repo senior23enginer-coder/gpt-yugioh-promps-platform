@@ -1935,6 +1935,8 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Denominador verificado:** 39 identidades y 94 `effect_id` documentales existentes en A05.6. Las secciones A05.7 y A05.8 contienen ahora **94/94 explicaciones causales con campos explícitos** y **94/94 pares de casos de papel, 188 casos propuestos**. Este es un avance de redacción y trazabilidad, **no 94 efectos semánticamente certificados**, ni 188 fixtures tipados/verificados, ni reglas ejecutables de la calculadora.
 
+**Control ejecutado en GitHub Actions:** [#44959108619](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44959108619) (**success**, commit `3fcaf6d7`) valida en memoria el modelo `station-x-paper-cases/1` sobre el inventario cargado: **94 effect_id**, **188 case_id**, **183 casos condicionales**, **5 casos `NO_APLICA` por inventario**, **0 casos `VERIFICADO`** y **0 estados físicos completamente tipados**. Las pruebas de fuente, fotos, cobertura y presentación también aprobaron. El control **no** ejecuta `record.calculator` y no prueba la legalidad de los escenarios. No marcar A05-T3/T4 ni iniciar A06 hasta validar las transiciones y los recursos físicos de cada caso.
+
 **Estados que no se deben confundir:**
 - `DOCUMENTADO_CON_FUENTE`: los 94 effect_id tienen fuente Konami por CID y representación documental causal; su coherencia completa por ventana, cadena, coste, destino y negación aún requiere revisión independiente por efecto.
 - `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`: los 188 casos de papel son borradores lógicos con supuestos declarados, **0/188** verificados en una matriz tipada de estado con todos los campos del esquema `station-x-paper-cases/1`.
