@@ -115,7 +115,9 @@ function build(args) {
    const legal=nullCase?null:prefix==='P';
    assert(line.includes('expected_legal='+(legal===null?'null':String(legal))),
       'CASE_LEGALITY_DISCREPANCY_'+caseId);
-   const beforeTag=line.includes('\u0060state_before\u0060/causa:')?\n     '\u0060state_before\u0060/causa:':'\u0060state_before\u0060:';\n   const b=getTextBetween(line,beforeTag,'\u0060action\u0060:',caseId);
+   const beforeTag=line.includes('\u0060state_before\u0060/causa:')?
+     '\u0060state_before\u0060/causa:':'\u0060state_before\u0060:';
+   const b=getTextBetween(line,beforeTag,'\u0060action\u0060:',caseId);
    const action=getTextBetween(line,'\u0060action\u0060:','\u0060expected_costs\u0060:',caseId);
    const cost=getTextBetween(line,'\u0060expected_costs\u0060:','\u0060expected_events/state_after\u0060:',caseId);
    const result=getTextBetween(line,'\u0060expected_events/state_after\u0060:','\u0060reason\u0060:',caseId);
