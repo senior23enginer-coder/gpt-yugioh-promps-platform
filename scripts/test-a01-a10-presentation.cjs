@@ -30,7 +30,33 @@ for(let i=1;i<=10;i++){
   for(const term of clauses[i])assert(source.includes(term),'A'+i+' missing canonical acceptance field '+term);
   assert(!source.includes('\\'+String.fromCharCode(96)),'Markdown code marker incorrectly escaped in '+file);
 }
+// New division and per-deck checklist are part of the mandatory prompt contract.
+const mandatoryChecks={1:3,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
+for(let stage=1;stage<=10;stage++){
+  const moduleName=files.find(x=>x.startsWith(String(stage).padStart(2,'0')+'_'));
+  const moduleText=fs.readFileSync(path.join(dir,moduleName),'utf8');
+  const number=String(stage).padStart(2,'0');
+  assert(moduleText.includes('## Checklist obligatorio por deck A'+number),
+    'Missing mandatory per-deck checkboxes: A'+number);
+  const found=[...moduleText.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+number+'(?:[AB])?-T\\d+','gm'))];
+  assert.equal(found.length,mandatoryChecks[stage],
+    'Checklist missing a required task or has duplicate task IDs: A'+number);
+  assert(moduleText.includes('CONTROL_DE_TAREAS_A01_A10'),
+    'Checklist must be persisted inside the existing deck file: A'+number);
+  assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
+    'Calculator must remain opt-in: A'+number);
+}
+const a07=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('07_'))),'utf8');
+const a10=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('10_'))),'utf8');
+assert(a07.includes('### Precedencia normativa A07'),
+  'A07 may describe effects but must not compile or run the calculator');
+assert(a10.includes('## Contrato definitivo A10A / A10B'),
+  'A10 must explicitly split mandatory guides from opt-in calculator');
+assert(a10.includes('fixtures JSON parametrizadas') && a10.includes('No modificar la plataforma')===false,
+  'A10B must prescribe scalable reusable fixtures rather than per-effect code files');
+
 const master=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md'),'utf8');
+assert(master.includes('Norma vigente A01–A10A / A10B'),'Missing current A10A/A10B master rule');
 assert(master.includes('Puerta de aceptación transversal A01–A10'),'Master must enforce end-to-end contract');
 for(let i=1;i<=10;i++)assert(master.includes('| A'+String(i).padStart(2,'0')+' |'),'Master crosswalk missing A'+i);
 assert(master.includes('Kashtira es referencia'),'Reference comparison must not copy Kashtira cards');
