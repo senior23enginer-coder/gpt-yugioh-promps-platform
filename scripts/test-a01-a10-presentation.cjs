@@ -38,7 +38,8 @@ for(let stage=1;stage<=10;stage++){
   const number=String(stage).padStart(2,'0');
   assert(moduleText.includes('## Checklist obligatorio por deck A'+number),
     'Missing mandatory per-deck checkboxes: A'+number);
-  const found=[...moduleText.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+number+'(?:[AB])?-T\\d+','gm'))];
+  const checklistOnly=moduleText.slice(moduleText.lastIndexOf('## Checklist obligatorio por deck A'+number));
+  const found=[...checklistOnly.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+number+'(?:[AB])?-T\\d+','gm'))];
   assert.equal(found.length,mandatoryChecks[stage],
     'Checklist missing a required task or has duplicate task IDs: A'+number);
   assert(moduleText.includes('CONTROL_DE_TAREAS_A01_A10'),
