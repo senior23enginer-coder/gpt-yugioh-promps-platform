@@ -3957,14 +3957,51 @@
         {
           "before_step": 5,
           "previous_after": "c28c670e70f18b63d279d7ffed5bd0028ccc55a5aad9b866a40b4c10507a8f33",
-          "next_before": "27002bed9114f8376d849a0afe29d67ae0e69cc5d3413b79716fdefa866c48b7"
+          "next_before": "27002bed9114f8376d849a0afe29d67ae0e69cc5d3413b79716fdefa866c48b7",
+          "operations": [
+            {
+              "op": "advance_phase",
+              "expected": "battle"
+            },
+            {
+              "op": "advance_phase",
+              "expected": "main2"
+            },
+            {
+              "op": "advance_phase",
+              "expected": "end"
+            },
+            {
+              "op": "advance_turn",
+              "expected": "opponent"
+            },
+            {
+              "op": "advance_phase",
+              "expected": "standby"
+            },
+            {
+              "op": "advance_phase",
+              "expected": "main1"
+            },
+            {
+              "op": "place_known_opponent",
+              "cid": 19364,
+              "zone": "m3"
+            },
+            {
+              "op": "observe_opponent_activation",
+              "cid": 19364,
+              "zone": "m3",
+              "description": "Angbruja rival activó un efecto observado"
+            }
+          ]
         }
       ],
       "observed_actions": 5,
       "source_documented_steps": 4,
       "source_declared_transitions": 5,
       "known_metadata_discrepancy": false,
-      "migration_status": "NEEDS_DECLARATIVE_NON_ACTION_EVENT"
+      "migration_status": "GOLDEN_STATE_TRACE_WITH_EXPLICIT_EVENT"
     },
     {
       "route_id": "671:A09:C09",
@@ -5860,5 +5897,5 @@
   "known_mismatches": [
     "671:A09:C02"
   ],
-  "direct_golden_routes": 11
+  "direct_golden_routes": 12
 }
