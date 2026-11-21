@@ -47,6 +47,30 @@ for(let stage=1;stage<=10;stage++){
   assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
     'Calculator must remain opt-in: A'+number);
 }
+// Prevent duplicate per-deck checklists and schema drift in all ten modules.
+for (let stage=1;stage<=10;stage++) {
+  const no=String(stage).padStart(2,'0');
+  const filename=files.find(name=>name.startsWith(no+'_'));
+  const body=fs.readFileSync(path.join(dir,filename),'utf8');
+  const expected=mandatoryChecks[stage];
+  const taskRows=[...body.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+no+'(?:[AB])?-T\\d+','gm'))].map(m=>m[0]);
+  assert.equal(taskRows.length,expected,
+    'Duplicated or missing per-deck checklist entries in A'+no);
+  assert.equal(new Set(taskRows).size,taskRows.length,
+    'Duplicate checklist ID in A'+no);
+  assert(body.includes('Entrega estandarizada A'+no),
+    'No universal causal deliverable for A'+no);
+}
+const formatBase=fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md'),'utf8');
+const tacticsBase=fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md'),'utf8');
+for (const term of ['effect_id','case_id','expected_legal','expected_state_after','A10B']) {
+  assert(formatBase.includes(term), 'Missing canonical logical-case field: '+term);
+}
+assert(tacticsBase.includes('effect_id') && tacticsBase.includes('A10A') &&
+  tacticsBase.includes('A10B'),'Tactical base is not using the universal IDs');
+
 const a07=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('07_'))),'utf8');
 const a10=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('10_'))),'utf8');
 assert(a07.includes('### Precedencia normativa A07'),
@@ -58,6 +82,16 @@ assert(a10.includes('fixtures JSON parametrizadas') && a10.includes('No modifica
 
 const master=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md'),'utf8');
 assert(master.includes('Norma vigente A01–A10A / A10B'),'Missing current A10A/A10B master rule');
+for(const field of ['## CONTRATO TRANSVERSAL OBLIGATORIO','effect_id','state_before',
+  'expected_costs','expected_events','expected_state_after','case_id',
+  'OPERADOR_NO_SOPORTADO','CONTROL_DE_TAREAS_A01_A10']){
+  assert(master.includes(field),'Missing universal deck language contract: '+field);
+}
+assert(a07.includes('expected_legal') && a07.includes('expected_state_after'),
+  'A07 must prepare typed positive/negative paper cases before A10B');
+assert(a10.includes('A10B opt-in') && a10.includes('runner común'),
+  'A10B must consume causal cases with one reusable runner');
+
 assert(master.includes('Puerta de aceptación transversal A01–A10'),'Master must enforce end-to-end contract');
 for(let i=1;i<=10;i++)assert(master.includes('| A'+String(i).padStart(2,'0')+' |'),'Master crosswalk missing A'+i);
 assert(master.includes('Kashtira es referencia'),'Reference comparison must not copy Kashtira cards');
