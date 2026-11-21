@@ -97,11 +97,11 @@
             "tokens": [
               {
                 "cid": 19472,
-                "zone": "monster"
+                "zone": "m2"
               },
               {
                 "cid": 19364,
-                "zone": "monster"
+                "zone": "m1"
               }
             ]
           }
@@ -116,11 +116,11 @@
               },
               {
                 "cid": 19472,
-                "zone": "monster"
+                "zone": "m2"
               },
               {
                 "cid": 19364,
-                "zone": "monster"
+                "zone": "m1"
               }
             ]
           }
