@@ -1,12 +1,23 @@
 # Apartado 09 — FICHA ÚNICA OBLIGATORIA DE CADA COMBO COMPLETO
 
+### Precondición A09 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
+## Entrega estandarizada A09 — trazabilidad canónica y cobertura medible
+
+A09 entrega secuencias con transiciones semánticas completas y casos de papel por ruta; A10A visualiza exactamente los mismos step_id y CIDs. A10B opcional reproduce solo las acciones soportadas por el intérprete sin reescribir historias ni traer cartas ocultas a zonas inventadas.
+
+El checklist del propio deck conserva `[x]` sólo con evidencia completa por CID/effect_id/case_id/route_id. Cada ejecución entrega todas las tareas A01–A10A; A10B se muestra aparte y nunca se activa implícitamente.
+
 ### Puerta A09 — contrato reproducible para calcular sobre el tablero (20-11-2026)
 
 Cada `record.routes[*]` debe enlazar los `regla_id` A07 de sus acciones **sin afirmar que la ruta completa es ejecutable**. Para cada paso conservar: estado antes (turno/fase/actor, ubicaciones y copias), costes, objetivos, materiales, cadena o procedimiento sin cadena, resolución, estado después, recursos gastados/restantes, restricciones y efectos consumidos por nombre. Cuando el actor está en GY/destierro, registrar ese origen real; jamás reemplazarlo por mano o Deck para que una secuencia «encaje» en el editor.
 
 El calculador puede proponer **solo** pasos respaldados por operadores y guardas probados del motor y disponibles en el estado capturado. Las rutas que aún necesitan procedimientos, condiciones continuas, encadenamientos o respuesta rival no implementados se etiquetan `DOCUMENTADA_NO_EJECUTABLE_AUN`, indicando exactamente qué falta. No transformar automáticamente la prosa de A09 ni un HTML A10 en `record.calculator.rules`.
 
-**Regresión mínima por ruta:** misma identidad de deck y CIDs, apertura positiva, requisito ausente, bloqueo aplicable, coste/uso previo y estado final sin duplicar materiales; enlazar variantes e interrupciones cuando estén probadas. Reportar `rutas documentadas`, `rutas con pasos convertidos` y `rutas ejecutables verificadas` en contadores distintos, conservando los IDs existentes.
+**Matriz de casos lógicos de papel por ruta (sin ejecución del motor en A09):** misma identidad de deck y CIDs, apertura positiva, requisito ausente, bloqueo aplicable, coste/uso previo y estado final esperado sin duplicar materiales; enlazar variantes e interrupciones cuando estén probadas. Reportar `rutas documentadas`, `rutas con pasos convertidos` y `rutas ejecutables verificadas` en contadores distintos, conservando los IDs existentes.
 
 
 **Contrato de presentación Station X — prevención de entregas incompletas (19-11-2026)**: por CADA `record.routes[*].steps[*]` registrar `number`, `action` completo, `detail` con requisitos/costes/resolución/ventana, `photos` (CID, nombre, imagen local y vínculo real con carta y paso), `requirements` y `resources`. No sustituirlo por «Paso 1» sin imágenes ni completar automáticamente con fotografías de cartas que no participan. Definir `result` completo, `board` o `endboard.variants` por resultado con zona exacta o indicar `presentation_status=DOCUMENTADA_SIN_CAMPO_ESPACIAL` cuando la fuente no permita fijar posiciones. El motor no puede deducir materiales ni efectos de la prosa. Las 12 rutas de Memento y 14 de Crystron conservan sus IDs históricos.
@@ -83,3 +94,14 @@ La representación ejecutable exige estado inicial completo, instancia de la car
 Separar la secuencia sin respuesta de las ramas ante respuestas conocidas y de las hipótesis por información oculta. Cada rama incluye el paso afectado, la cadena o ventana nueva, costes que permanecen, estado residual, efectos usados, restricciones y continuaciones concretas. Si no se demuestra recuperación con los recursos reales, decirlo. No reutilizar el campo final de la ruta sin interrupción después de una negación.
 
 Registrar faltantes de cada deck en el único registro privado existente, por carta/CID, efecto, paso, operador y fuente faltante. No declarar «cobertura completa» por conservar las 193 rutas actuales: ampliar al índice vigente y comprobar los efectos individualmente. A10 representa la misma secuencia y ramas de A09, conservando su incertidumbre.
+
+
+## Checklist obligatorio por deck A09 — control de entrega
+
+Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
+- [ ] **A09-T1** Identificar cada ruta con route_id y starter/estado físico inicial: mano, GY, campo, recursos, fase, prioridades y cartas desconocidas; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T2** Por cada step_id enlazar effect_id/procedimiento, requisito, coste real, materiales, ventana, resolución y estado antes/después; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T3** Incluir casos lógicos positivos y de interrupción para pasos críticos, con causa, coste pagado y SIN_CONTINUACION_DEMOSTRADA si aplica; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T4** Verificar campo final, recursos, materiales y restricciones sin casillas inventadas, conservando los mismos IDs que usarán A10A y A10B; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+
+Las casillas anteriores son plantilla, no un certificado de los decks existentes. `[x]` sólo tras entrega **completa y verificada**; `[ ] BLOQUEADA` exige causa y acción pendiente. Nunca denominar `COMPLETA` una tarea parcial; no falsificar estados. Cada respuesta/revisión muestra **todas** las tareas A01–A10A del deck y evidencias, acabadas/pendientes y totales. A10B está excluido de la exigencia normal, se reporta por separado si es solicitado. Los análisis completos de cartas de A05–A09 siempre se preservan y alimentan presentación y posterior calculadora.

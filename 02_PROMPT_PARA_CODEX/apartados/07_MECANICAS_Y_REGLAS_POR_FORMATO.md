@@ -1,12 +1,23 @@
 # Apartado 07 — MECÁNICAS Y REGLAS POR FORMATO
 
+### Precondición A07 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
+## Entrega estandarizada A07 — semántica causal y pruebas lógicas de papel
+
+A07 es el contrato lógico exhaustivo, no código. Las pruebas de papel se almacenan como datos semánticos vinculados a effect_id; no crear pruebas JavaScript/PHP por carta. Las pruebas incluyen fuente y expected_legal, expected_costs, expected_events, expected_state_after; si falta evidencia se marca CONDICIONAL/SIN_EVIDENCIA y no se cierra su tarea. Una operación sin soporte técnico no elimina la obligación de documentar el efecto.
+
+Seguir el contrato transversal del maestro, conservar el mismo `deck_id/card_id/cid/effect_id/route_id` entre etapas y almacenar la evidencia en el deck existente. Toda tarea se cierra sólo con evidencia; al finalizar informar el checklist completo A01–A10A y A10B únicamente si fue solicitado.
+
 ### Puerta A07 — regla ejecutable cerrada a fallos (20-11-2026)
 
 Por cada `regla_id` A07 crear una **especificación de transición verificable**: estado inicial del turno/ventana/actor, identidad CID y copia real, zona de origen, condición, coste pagado, objetivo y selección, cadena (o procedimiento sin cadena), resolución o negación, recursos y estado posterior, más restricciones y usos previos. Distinguir con rigor «controlar una carta X» de «activar el efecto de X»: para una Invocación desde Cementerio de Horus con Sarcófago del Rey, registrar el procedimiento del propio monstruo, requerir la presencia de Sarcófago y marcar uso por nombre/turno cuando la fuente lo confirme; no inventar que Sarcófago revive directamente.
 
-**Compilación limitada al contrato real:** generar `record.calculator.rules` de esquema `station-x-calculator/1` únicamente mediante guards, selectores y operadores implementados en la versión actual del motor; un `regla_id` textual no se compila automáticamente. Si falta una transición (por ejemplo cadena, timing, reemplazo, material, Skill, efecto continuo), clasificar `OPERADOR_PENDIENTE` e indicar exactamente qué condición/operación y prueba necesita la plataforma. No usar JavaScript embebido ni operadores ficticios. Reglas declarativas aceptadas, reglas rechazadas y reglas documentales quedan separadas.
+**Preparación sin compilación en A07:** especificar la causalidad y los casos de papel completos en el lenguaje ubicuo, con `effect_id`, `case_id`, precondiciones, costes, eventos y resultados esperados. **Sólo A10B** generará `record.calculator.rules` de esquema `station-x-calculator/1` con guards, selectores y operadores admitidos por el motor. Un `regla_id` textual no se convierte automáticamente en acción. Si falta una transición (por ejemplo cadena, timing, reemplazo, material, Skill, efecto continuo), clasificar `OPERADOR_PENDIENTE` e indicar exactamente qué condición/operación y prueba necesita la plataforma. No usar JavaScript embebido ni operadores ficticios. Reglas declarativas aceptadas, reglas rechazadas y reglas documentales quedan separadas.
 
-**Pruebas de aceptación ejecutable por efecto:** escenario positivo con cambios exactos de zonas/LP/recursos; ausencia de requisito; zona o fase errónea; restricciones de Invocación/GY; coste insuficiente; uso repetido del mismo efecto o nombre; negación/interruptor que sí conste en el modelo; formato incompatible; y no mutación del estado original. Una acción parcialmente simulada no asciende a `REGLA_EJECUTABLE_PROBADA` ni a legalidad integral.
+**Casos lógicos de papel obligatorios por efecto en GPT, no tests de motor:** escenario positivo con cambios esperados exactos de zonas/LP/recursos; ausencia de requisito; zona o fase errónea; restricciones de Invocación/GY; coste insuficiente; uso repetido del mismo efecto o nombre; negación/interruptor que sí conste en el modelo; formato incompatible; y no mutación del estado original. Una acción parcialmente simulada no asciende a `REGLA_EJECUTABLE_PROBADA` ni a legalidad integral.
 
 
 Módulo de trabajo independiente del proyecto Station X. Revisión de alcance visual y editorial (2026-11-05).
@@ -111,3 +122,18 @@ Operadores actuales: `move` (`ref`, `to`, `position`), `take` (`side`, `cid`, `f
 **Estos operadores no bastan para todos los efectos.** No representar una Fusión, Sincronía, Skill, coste variable, selección oculta, condición continua, ficha, liberación de zona o cadena compleja como simples movimientos si faltan sus requisitos y resolución. Marcar `OPERADOR_PENDIENTE`, explicar la operación necesaria y pedir su implementación con pruebas. El caso de uso del motor debe rechazar condiciones u operaciones desconocidas, sin ejecutar JavaScript procedente de documentos.
 
 Para cada efecto: caso que resuelve, caso sin requisitos, coste insuficiente, uso repetido, negación, cambio de zona/objetivo y formato incompatible. Comparar zonas, copias, materiales, LP, usos, restricciones y recursos antes/después. Una validación de esquema acredita formato de datos, **no legalidad integral**. El resumen por deck separa efectos documentados, estructurados, implementados y probados.
+
+
+## Checklist obligatorio por deck A07 — control de entrega
+
+Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:
+- [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T2** Separar coste previo, trigger, ventana, objetivos/no-objetivos, cadena, resolución/negación, HOPT/OPT, restricciones y estados antes/después; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T3** Construir matriz de casos de papel con caso positivo, ausencia de requisito, timing, recursos/zonas, repetición, negación y fallo cerrado para cada efecto; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T4** Auditar cobertura effect_id→case_id→source, NO_APLICA con causa y necesidades de operador; no compilar ni probar en motor hasta A10B; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+
+Cada `[x]` exige resultado terminado y comprobado. No marcar `COMPLETA` con tarea parcial, omitida o sin evidencia. Si no se puede completar, registrar `[ ] BLOQUEADA` con causa y siguiente acción, sin falsear la conclusión. Cada ejecución y reanálisis devuelve **listado completo A01–A10A de ese deck**, tareas acabadas, pendientes, evidencias y totales; A10B se informa aparte únicamente si se solicitó. Mantener trazabilidad de datos exhaustivos de cada carta para guía, vista visual y posterior análisis físico. Ni A05 ni A07 ejecutan o compilan el motor: **implementación, importación de reglas, pruebas de efectos y calculadora son exclusivamente A10B opcional**.
+
+### Precedencia normativa A07 frente a referencias históricas
+
+Si una sección previa solicita generar `record.calculator.rules`, probar operadores, escribir tests del motor o denominar un efecto `REGLA_EJECUTABLE_PROBADA`, esa instrucción se **traslada únicamente a A10B**. Aquí se prepara la especificación semántica íntegra e independiente del motor, con fuentes y observaciones para cada efecto. No omitir efectos porque el motor aún no admita el operador. El cierre A07 depende exclusivamente de la **completitud documental verificable del deck**; la cobertura ejecutable se decide en A10B. Los requisitos de campo, coste, cadena y uso no se reducen ni se sustituyen por texto genérico.

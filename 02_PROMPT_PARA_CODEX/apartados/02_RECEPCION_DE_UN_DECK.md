@@ -1,5 +1,16 @@
 # Apartado 02 — RECEPCIÓN DE UN DECK
 
+### Precondición A02 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
+## Entrega estandarizada A02 — semántica compartida y criterios de aceptación
+
+Establece el contexto tipado que consumirán todas las etapas: deck_id, formato, versión, firma real si existe, card_id, CID, slots y Skill independiente. Prohibido fabricar identidad, huella o evidencia. A10B no se ejecuta en A02.
+
+Se usa la única especificación causal del prompt maestro: IDs estables, fuentes verificables y ausencia de supuestos ocultos. Al cerrar este apartado se actualiza el checklist real del deck y se devuelve el estado completo A01–A10A, más A10B solo si se solicitó; `[x]` no admite parciales.
+
 ### Puerta A02 — identidad y contrato importable para calculadora (20-11-2026)
 
 Registrar el formato real del inventario y de la plataforma como valor técnico sin traducir; nunca intercambiar TCG, OCG, GOAT o Rush ni heredar reglas de un formato distinto. Conservar `deck_id`, IDs nativos de filas, `slots` Main/Extra/Side/Reserva/Skill, cantidades, `inventory_sha256` auténtico cuando exista y carpeta histórica. Los estudios existentes con paquete portátil deben conservar la vinculación `deck-slots-v1` real, sin inventar IDs.
@@ -32,3 +43,15 @@ Identificar nombre, deck_id, equipo, formato, versión, fecha y cantidades de Ma
 Si el deck es nuevo, buscar su ID real antes de asociarlo. Si hay nombres similares, híbridos, formatos distintos o más de una coincidencia, pedir decisión al propietario **solo sobre esa identidad**. Los **16 decks actuales** están documentados en `01_INFORMACION_PARA_IMPORTAR/decks/`; las cinco carpetas `NUEVO_12` a `NUEVO_16` mantienen nombres documentales históricos, pero sus IDs reales **671, 677, 660, 673 y 699**, respectivamente, ya constan confirmados en el registro único. Contrastar con el registro vivo antes de una escritura autorizada.
 
 **Alta incremental obligatoria:** para un deck que se agregue en adelante, crear su **única carpeta** `01_INFORMACION_PARA_IMPORTAR/decks/DECK_<ID_REAL_O_REFERENCIA>_<NOMBRE_CORTO>/`. Dentro irá `DECK_<...>_CONTENIDO_CURADO.md`, con la **configuración completa** (ID, formato, Main/Extra/Side/Reserva/Skill, cantidades), su control propio **A01–A10** y la matriz A06; incluir subcarpetas `imagenes/`, `guias/` y `datos/` solamente cuando existan archivos realmente utilizados. No producir un segundo archivo de configuración ni mezclar cartas de otro deck. Al solicitar entrega, empaquetar **solo esa carpeta** con su ruta relativa, sin el maestro ni otros decks. Seguir el contrato del apartado 13 del orquestador; no importar nada automáticamente.
+
+
+## Checklist obligatorio por deck A02 — control de entrega
+
+Para cada `deck_id` y formato, ejecutar y marcar en la sección `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente. No generar archivos de seguimiento separados. El siguiente es un **modelo de tareas** (no declara ya terminados los decks existentes):
+- [ ] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción.
+- [ ] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción.
+- [ ] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción.
+
+Una tarea sólo se marca `[x]` si se ha completado y verificado íntegramente. No se permite `COMPLETA` con obligaciones parciales, faltantes o sin evidencia. Un impedimento se registra `[ ] BLOQUEADA` con motivo y siguiente acción; nunca se rellena una casilla sin pruebas. Tras ejecutar este prompt, devolver siempre **todas las tareas A01–A10A del deck**, con identificadores, estado, evidencia, recuento de terminadas y pendientes; A10B se informa por separado y sólo si fue solicitado. Las revisiones reabren exclusivamente tareas cuya evidencia haya cambiado.
+
+La documentación causal completa de cada carta debe servir al visor, a las guías y al futuro motor: CID, texto, zonas, ventanas, condiciones, costes, objetivos, cadenas, resolución, restricciones y usos por nombre/turno. Prepararla **no activa** ejecución, compilación ni pruebas de calculadora; todo eso pertenece sólo a **A10B opcional**. A01–A10A son obligatorios, incluida la guía visual.

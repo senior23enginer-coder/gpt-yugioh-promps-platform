@@ -6,6 +6,7 @@ on:
     paths:
       - '02_PROMPT_PARA_CODEX/**'
       - 'scripts/test-a01-a10-presentation.cjs'
+      - 'scripts/analysis-eligibility*.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -13,6 +14,7 @@ on:
     paths:
       - '02_PROMPT_PARA_CODEX/**'
       - 'scripts/test-a01-a10-presentation.cjs'
+      - 'scripts/analysis-eligibility*.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -28,5 +30,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verify user-assigned deck analysis eligibility and loaded zones
+        run: node scripts/analysis-eligibility-test.cjs
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs

@@ -30,7 +30,100 @@ for(let i=1;i<=10;i++){
   for(const term of clauses[i])assert(source.includes(term),'A'+i+' missing canonical acceptance field '+term);
   assert(!source.includes('\\'+String.fromCharCode(96)),'Markdown code marker incorrectly escaped in '+file);
 }
+// New division and per-deck checklist are part of the mandatory prompt contract.
+const mandatoryChecks={1:3,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
+for(let stage=1;stage<=10;stage++){
+  const moduleName=files.find(x=>x.startsWith(String(stage).padStart(2,'0')+'_'));
+  const moduleText=fs.readFileSync(path.join(dir,moduleName),'utf8');
+  const number=String(stage).padStart(2,'0');
+  assert(moduleText.includes('## Checklist obligatorio por deck A'+number),
+    'Missing mandatory per-deck checkboxes: A'+number);
+  const checklistOnly=moduleText.slice(moduleText.lastIndexOf('## Checklist obligatorio por deck A'+number));
+  const found=[...checklistOnly.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+number+'(?:[AB])?-T\\d+','gm'))];
+  assert.equal(found.length,mandatoryChecks[stage],
+    'Checklist missing a required task or has duplicate task IDs: A'+number);
+  assert(moduleText.includes('### Precondición A'+number+' — selección expresa y deck realmente cargado'),
+    'Any single stage must block unassigned decks: A'+number);
+  assert(moduleText.includes('Main, Extra y Side') &&
+    moduleText.includes('Reserva es opcional'),
+    'Stage must require loaded Main/Extra/Side and optional Reserve: A'+number);
+  assert(moduleText.includes('CONTROL_DE_TAREAS_A01_A10'),
+    'Checklist must be persisted inside the existing deck file: A'+number);
+  assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
+    'Calculator must remain opt-in: A'+number);
+}
+// The machine-readable manifest and prose checklists must never drift.
+const manifest=JSON.parse(fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'));
+assert.equal(manifest.schema,'station-x-a01-a10-task-manifest/1');
+assert.deepEqual(manifest.required_sections,['main','extra','side']);
+assert.deepEqual(manifest.optional_sections,['reserve']);
+assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
+assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
+assert.equal(manifest.stages.length,11);
+const taskIds=manifest.stages.flatMap(stage=>stage.tasks.map(task=>task.task_id));
+assert.equal(taskIds.length,38,'35 mandatory plus 3 optional task IDs');
+assert.equal(new Set(taskIds).size,38,'Never duplicate stage task IDs');
+for(let i=1;i<=10;i++){
+  const number=String(i).padStart(2,'0');
+  const body=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith(number+'_'))),'utf8');
+  const fromMarkdown=[...body.matchAll(/^- \[ \] \*\*(A\d{2}[AB]?-T\d+)\*\*/gm)].map(m=>m[1]).sort();
+  const fromManifest=manifest.stages.filter(x=>x.stage_id==='A'+number||
+    (i===10&&['A10A','A10B'].includes(x.stage_id))).
+    flatMap(x=>x.tasks.map(t=>t.task_id)).sort();
+  assert.deepEqual(fromMarkdown,fromManifest,'Manifest mismatch with A'+number);
+}
+assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===35);
+assert(manifest.stages.find(s=>s.stage_id==='A10B').mandatory===false);
+
+// Prevent duplicate per-deck checklists and schema drift in all ten modules.
+for (let stage=1;stage<=10;stage++) {
+  const no=String(stage).padStart(2,'0');
+  const filename=files.find(name=>name.startsWith(no+'_'));
+  const body=fs.readFileSync(path.join(dir,filename),'utf8');
+  const expected=mandatoryChecks[stage];
+  const taskRows=[...body.matchAll(new RegExp('^- \\[ \\] \\*\\*A'+no+'(?:[AB])?-T\\d+','gm'))].map(m=>m[0]);
+  assert.equal(taskRows.length,expected,
+    'Duplicated or missing per-deck checklist entries in A'+no);
+  assert.equal(new Set(taskRows).size,taskRows.length,
+    'Duplicate checklist ID in A'+no);
+  assert(body.includes('Entrega estandarizada A'+no),
+    'No universal causal deliverable for A'+no);
+}
+const formatBase=fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md'),'utf8');
+const tacticsBase=fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md'),'utf8');
+for (const term of ['effect_id','case_id','expected_legal','expected_state_after','A10B']) {
+  assert(formatBase.includes(term), 'Missing canonical logical-case field: '+term);
+}
+assert(tacticsBase.includes('effect_id') && tacticsBase.includes('A10A') &&
+  tacticsBase.includes('A10B'),'Tactical base is not using the universal IDs');
+
+const a07=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('07_'))),'utf8');
+const a10=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('10_'))),'utf8');
+assert(a07.includes('### Precedencia normativa A07'),
+  'A07 may describe effects but must not compile or run the calculator');
+assert(a10.includes('## Contrato definitivo A10A / A10B'),
+  'A10 must explicitly split mandatory guides from opt-in calculator');
+assert(a10.includes('fixtures JSON parametrizadas') && a10.includes('No modificar la plataforma')===false,
+  'A10B must prescribe scalable reusable fixtures rather than per-effect code files');
+
 const master=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md'),'utf8');
+assert(master.includes('Norma vigente A01–A10A / A10B'),'Missing current A10A/A10B master rule');
+assert(master.includes('## PUERTA CERO — autorización de un único deck') &&
+  master.includes('BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION'),
+  'Master cannot start any deck analysis without explicit assignment and loaded zones');
+for(const field of ['## CONTRATO TRANSVERSAL OBLIGATORIO','effect_id','state_before',
+  'expected_costs','expected_events','expected_state_after','case_id',
+  'OPERADOR_NO_SOPORTADO','CONTROL_DE_TAREAS_A01_A10']){
+  assert(master.includes(field),'Missing universal deck language contract: '+field);
+}
+assert(a07.includes('expected_legal') && a07.includes('expected_state_after'),
+  'A07 must prepare typed positive/negative paper cases before A10B');
+assert(a10.includes('A10B opt-in') && a10.includes('runner común'),
+  'A10B must consume causal cases with one reusable runner');
+
 assert(master.includes('Puerta de aceptación transversal A01–A10'),'Master must enforce end-to-end contract');
 for(let i=1;i<=10;i++)assert(master.includes('| A'+String(i).padStart(2,'0')+' |'),'Master crosswalk missing A'+i);
 assert(master.includes('Kashtira es referencia'),'Reference comparison must not copy Kashtira cards');

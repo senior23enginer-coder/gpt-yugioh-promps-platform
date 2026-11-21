@@ -1,5 +1,14 @@
 # Anexo obligatorio — propósito táctico, sinergias y editor
 
+## Aplicación vigente: ficha táctica desde el mismo lenguaje causal (21-11-2026)
+
+Este anexo se aplica a A01–A10A; A10B es opcional y se activa exclusivamente con solicitud del usuario. **No escribir explicaciones tácticas que contradigan la especificación física causal A05/A07 ni crear otra semántica para el editor.** Toda recomendación «qué hacer / por qué / cuándo / con qué coste / qué puede fallar» enlaza `deck_id`, `card_id`/`cid`, `effect_id`, `route_id`/`step_id`, fuente y estado `DOCUMENTADO_CON_FUENTE` o `CASO_LOGICO_VERIFICADO`. Ningún control visual ejecuta reglas por mostrar una fotografía.
+
+**Chequeos por deck, integrados en A01/A06/A08/A09/A10A:** [ ] no hay propósitos genéricos en ficha; [ ] cada consejo declara precondición física, coste, recursos, riesgo y límites; [ ] los enlaces del editor conducen al paso/effect_id correcto; [ ] respuestas a interrupciones sólo contienen consecuencias documentadas; [ ] las guías reproducen fielmente la matriz de casos lógicos preparada por GPT. Estos controles son criterios internos de las tareas canónicas de cada apartado: no abrir otro archivo de checklist, no marcar su éxito sin evidencia.
+
+**A10B:** traduce y ejecuta las reglas admitidas por Platform desde la misma especificación; la mejora del motor jamás reemplaza ni altera silenciosamente el propósito documentado. Un operador faltante se registra aparte; no obliga a fabricar otra investigación de la carta.
+
+
 Fuente: texto facilitado por el usuario el 15 de noviembre de 2026. Este contenido es un **contrato editorial y de interfaz**, no una certificación de combos ni una modificación de las listas físicas. Se aplica a los **16 decks documentados** y futuros cuando corresponda; los 11 originales constituyen un corte histórico. Su incorporación al prompt no realiza cambios en Station X ni en los datos de jugadas.
 
 STATION X — PROPÓSITO TÁCTICO ESPECÍFICO DE CADA JUGADA
