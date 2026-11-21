@@ -102,8 +102,11 @@ function audit({deckId,explicitlyAssigned,packageFile,sourceFile,expectedClauses
      assert(found.length===1,'POSITIVE_OR_NEGATIVE_CASE_MISSING_'+id+'_'+prefix);
      const caseID=found[0];assert(!cases.has(caseID),'DUPLICATE_CASE_ID_'+caseID);
      cases.add(caseID);
-     assert(block.includes('expected_legal='+legal),'MISSING_LEGALITY_DECLARATION_'+caseID);
-     if(prefix==='P')positives++;else negatives++;
+     const caseLine=block.split('\n').find(line=>line.includes('case_id='+caseID));
+     const noAplica=prefix==='P'&&caseLine?.includes('status=NO_APLICA')&&caseLine?.includes('NO_APLICA_INVENTARIO_');
+     assert(caseLine?.includes('expected_legal='+(noAplica?'null':legal)),
+       'MISSING_LEGALITY_OR_NO_APLICA_DECLARATION_'+caseID);
+     if(prefix==='P'&&!noAplica)positives++;else if(prefix==='N')negatives++;
    }
    assert(block.includes('CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA'),
      'PAPER_CASE_PREMATURELY_CERTIFIED_'+id);
