@@ -34,7 +34,7 @@ variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
 importadas y rechazar duplicados exactos o políticas incompatibles. Las
 variantes se cotejaron con las reglas de respaldo verificadas en la rama
-`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C11 tienen replays acotados: C11 comprueba el Sacrificio de Angbruja por Gran Fuga como coste y un tablero final doble; C10 certifica Secuencia + Duque + Angbruja y Normal inmediata sin repetir la búsqueda; C09 certifica el procedimiento físico de Princesa Necroequipo sin robo gratuito; C08 requiere activación rival observada, sin resolver su efecto original; queda 1 ruta sin replay certificado. La fotografía de los 69 pasos y los
+`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C12 tienen replays acotados: C12 verifica el Dragón de Cuerno destruido en campo y la retirada de dos cartas rivales boca arriba conocidas; C11 comprueba el Sacrificio de Angbruja por Gran Fuga como coste y un tablero final doble; C10 certifica Secuencia + Duque + Angbruja y Normal inmediata sin repetir la búsqueda; C09 certifica el procedimiento físico de Princesa Necroequipo sin robo gratuito; C08 requiere activación rival observada, sin resolver su efecto original; las 12 rutas tienen replay acotado certificado; la legalidad universal y las cadenas complejas aún no están certificadas. La fotografía de los 69 pasos y los
 12 tableros finales ilustrativos se mantiene enlazada por CID con el paquete,
 sin afirmar ubicaciones físicas exactas (`spatial_verified=false`).
 
@@ -45,7 +45,7 @@ Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
 verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
 Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
 **30/39 identidades** tienen al menos una regla de actor; faltan 9 y siguen
-1 replay A09 restante por certificar; C01–C07, C09 y C10 cuentan con pruebas sin respuesta rival, C08 es condicional a activación rival observada.
+0 replays A09 pendientes para las aperturas exactas documentadas; C01–C07, C09 y C10 cuentan con pruebas sin respuesta rival, C08 es condicional a activación rival observada.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
 
