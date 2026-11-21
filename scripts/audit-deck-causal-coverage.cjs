@@ -123,9 +123,13 @@ function audit({deckId, packagePath, documentPath, expectedClauses, requireCompl
       assert.equal(matches.length, 1, 'MISSING_OR_DUPLICATE_PAPER_CASE_' + id + '_' + prefix);
       assert(!caseIds.has(matches[0][1]), 'DUPLICATED_CASE_ID_' + matches[0][1]);
       caseIds.add(matches[0][1]);
-      assert(block.includes('expected_legal=' + legal),
+      const caseLine = block.split('\n').find(line => line.includes('case_id=' + matches[0][1]));
+      const noAplica = prefix === 'P' && caseLine?.includes('status=NO_APLICA') &&
+        caseLine?.includes('NO_APLICA_INVENTARIO_');
+      assert(caseLine?.includes('expected_legal=' + (noAplica ? 'null' : legal)),
         'PAPER_CASE_UNSPECIFIED_LEGALITY_' + id);
-      if (prefix === 'P') ++positive; else ++negative;
+      if (prefix === 'P' && !noAplica) ++positive;
+      if (prefix === 'N') ++negative;
     }
     for (const field of ['state_before', 'action', 'expected_costs', 'expected_events/state_after', 'reason'])
       assert(block.includes(field), 'PAPER_CASE_MISSING_STATE_FIELD_' + id + '_' + field);
