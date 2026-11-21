@@ -2047,15 +2047,15 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 - [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
-### A06 — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+### A06 — DOCUMENTACIÓN Y TRAZABILIDAD COTEJADAS; CASOS LÓGICOS PENDIENTES
+- [x] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
+  - **Evidencia cerrada del entregable documental:** A06.2 conserva las 39/39 identidades y zonas reales; A06.3 define REL-M01–M40 con dirección, recurso y falla; A06.7 enlaza 40/40 relaciones a **58 referencias de cláusulas A05** con CID y texto oficial, separando M1 principal, M2 submotor y M3 apoyo. Auditoría genérica `scripts/audit-deck-a06-synergies.cjs`: [Actions #44961756098](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44961756098) success. No interpreta 40 aristas como 40 combos ni afirma legalidad automática.
+- [x] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes
+  - **Evidencia cerrada del registro:** A06.7 cubre por relación effect_id, CID, transición y condición temporal; A06.4 declara los 13 accesos al Extra con rutas y excepciones; A06.8d registra las incompatibilidades y elecciones de recursos (Heat Wave, Droll, Lancea, TY-PHON, Goblin en mano, Luna/Réquiem, Gordiano, Side). Correcciones de fuente oficial: **no hay conflicto simultáneo Lancea/Fusión-GY**, y Gordiano destierra en resolución. Auditoría CI #44961756098 comprobó 40/40 referencias y preservó 41/15/14/0.
+- [x] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales
+  - **Evidencia cerrada del análisis estratégico textual:** A06.8a (primero), A06.8b (segundo), A06.8c (recuperación y medio/tardío) y A06.8d (respuestas tras interrupciones, costes y bloqueos) detallan recursos y estados observados; 16 escenarios de A06.9 ejercitan esos puntos. CI #44961756098 garantiza presencia y vinculación documental de esas cuatro secciones; **no** es un test de motor ni prueba de victoria garantizada.
 - [ ] **A06-T4** Derivar casos de papel de sinergias y enlaces A05→A07→A08/A09; clasificar SIN_COMBO_IDENTIFICADO sin fabricar acciones
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+  - **Pendiente de verificación semántica individual:** A06.9 contiene 40 pares (80 candidatos) con effect_id y vínculo A05→A07→A08/A09, 16 escenarios físicos razonados y clasificación SIN_COMBO_IDENTIFICADO. CI #44961756098 verifica cobertura estructural, pero **0/80 casos están acreditados con estado físico tipado completo `before/after` y revisión causal independiente**. Las 40 parejas siguen `CONDICIONAL_SIN_ESTADO_TIPADO`; documentar negación frente a activación ilegal y verificar costes, zonas, OPT/HOPT y restricciones antes de marcar [x]. A05-T3/T4 continúa abierta.
 
 ### A07 — PENDIENTE de verificación bajo el contrato vigente
 - [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos
@@ -2531,7 +2531,7 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 
 **Diagnóstico:** COHERENTE_CON_CONFLICTOS_GESTIONABLES. Sin cambios del inventario aprobado 41/15/14/0. Las opciones marginales quedan como VALIDAR_ACCESO o ALTERNATIVA_NO_DEMOSTRADA, sin proponer sustituciones arbitrarias.
 
-**Estado A06 histórico: cobertura documental registrada de sinergias, motores, incompatibilidades y accesos Extra condicionados. La nueva auditoría por tareas A06-T1–T4 NO está certificada todavía:** A05-T3/T4 continúan abiertas, las relaciones se clasifican como documentales/condicionales y faltan casos lógicos físicos verificables. No convertir una tabla histórica en cuatro tareas terminadas ni declarar rutas A09 ejecutables.
+**Estado A06 vigente:** A06-T1/T2/T3 terminadas en su **alcance documental y de trazabilidad**, con evidencia de 39 identidades, 40 relaciones y fuentes CID, más decisiones por turno; A06-T4 **abierta** por 80 casos lógicos condicionados y sin estados tipados certificados. A05-T3/T4 siguen abiertas. Ninguna ruta A09 queda certificada como ejecutable por este cambio.
 
 ### A06.7 — trazabilidad por `effect_id`, zona y recurso de las 40 relaciones (revisión 21-11-2026)
 
@@ -2839,6 +2839,14 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 **Clasificación sin atajos:** para Flor de Ceniza, Droll, Fuwalos, Gotas, Talento, Llamado y las cartas exclusivas de Side sin continuación A09 acreditada utilizar `SIN_COMBO_IDENTIFICADO` cuando corresponda, **no** `CERO_SINERGIA_DEMOSTRADA`. Para César sin materiales simultáneos, Link-5 ausente, M/T Demoniherrero ausente, Xyz Goblin ausente y protección de Polimerización ausente usar `SIN_RUTA_REPRODUCIBLE`, `NO_APLICA` o `INCOMPATIBLE_ACTUAL` con la condición concreta. No convertir las relaciones M38–M40 en combos.
 
 **Puerta T4 todavía abierta:** verificar de manera independiente estados físicos completos `before/after`, targeting exacto, resolución tras negación, tiempo de uso, copias, restricciones y zonas para **todas** las 40 parejas antes de marcar `CASO_LOGICO_VERIFICADO`. Los 16 controles redactados explicitan casos de alto riesgo, pero no certifican el resto automáticamente. En A07 podrán reforzarse guardas, no se regenerará el inventario ni se crearán combos a partir de conexiones.
+
+### A06.10 — acta técnica de corte A06, sin certificar jugadas
+
+**Preflight:** el usuario asignó expresamente solo Memento 671, `tcg_advanced`, inventario cargado y preservado 41 Main / 15 Extra / 14 Side / 0 Reserva (39 CID). No se ha analizado ningún otro deck ni ejecutado A10B.
+
+**Evidencia de auditoría de A06:** [GitHub Actions #44961756098](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44961756098), exitosa: `physicalIdentities=39`, `relations=40`, `attributedEffectLinks=58`, `paperPositiveCandidates=40`, `paperNegativeCandidates=40`, `conditionalPhysicalScenarios=16`; 0 transiciones físicas certificadas. El auditor `scripts/audit-deck-a06-synergies.cjs` exige Main/Extra/Side reales, iguala las filas A06.2 al inventario, enlaza cada REL-M01–M40 con A05.6 y su CID oficial y evita estados falsamente verificados. Las relaciones condicionales se documentan sin creación de cartas ni rutas.
+
+**Checklist A06:** T1 [x], T2 [x], T3 [x] por el entregable documental y verificación estructural; T4 [ ] por revisión individual de casos de papel aún pendiente. **Porcentaje A06: 3/4 (75 %), no completo.** La marca [x] NO indica que un operador de calculadora o un combo hayan sido probados ni que A05-T3/T4 hayan cerrado. No saltar automáticamente a A07 ni mergear/desplegar el borrador del PR.
 
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
