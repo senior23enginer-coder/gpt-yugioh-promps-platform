@@ -1,5 +1,11 @@
 # Apartado 07 — MECÁNICAS Y REGLAS POR FORMATO
 
+## Entrega estandarizada A07 — semántica causal y pruebas lógicas de papel
+
+A07 es el contrato lógico exhaustivo, no código. Las pruebas de papel se almacenan como datos semánticos vinculados a effect_id; no crear pruebas JavaScript/PHP por carta. Las pruebas incluyen fuente y expected_legal, expected_costs, expected_events, expected_state_after; si falta evidencia se marca CONDICIONAL/SIN_EVIDENCIA y no se cierra su tarea. Una operación sin soporte técnico no elimina la obligación de documentar el efecto.
+
+Seguir el contrato transversal del maestro, conservar el mismo `deck_id/card_id/cid/effect_id/route_id` entre etapas y almacenar la evidencia en el deck existente. Toda tarea se cierra sólo con evidencia; al finalizar informar el checklist completo A01–A10A y A10B únicamente si fue solicitado.
+
 ### Puerta A07 — regla ejecutable cerrada a fallos (20-11-2026)
 
 Por cada `regla_id` A07 crear una **especificación de transición verificable**: estado inicial del turno/ventana/actor, identidad CID y copia real, zona de origen, condición, coste pagado, objetivo y selección, cadena (o procedimiento sin cadena), resolución o negación, recursos y estado posterior, más restricciones y usos previos. Distinguir con rigor «controlar una carta X» de «activar el efecto de X»: para una Invocación desde Cementerio de Horus con Sarcófago del Rey, registrar el procedimiento del propio monstruo, requerir la presencia de Sarcófago y marcar uso por nombre/turno cuando la fuente lo confirme; no inventar que Sarcófago revive directamente.
@@ -113,31 +119,13 @@ Operadores actuales: `move` (`ref`, `to`, `position`), `take` (`side`, `cid`, `f
 Para cada efecto: caso que resuelve, caso sin requisitos, coste insuficiente, uso repetido, negación, cambio de zona/objetivo y formato incompatible. Comparar zonas, copias, materiales, LP, usos, restricciones y recursos antes/después. Una validación de esquema acredita formato de datos, **no legalidad integral**. El resumen por deck separa efectos documentados, estructurados, implementados y probados.
 
 
-## Puerta obligatoria de checklist por deck — A07 (revisión 21-11-2026)
-
-Este módulo se aplica **únicamente al deck identificado por `deck_id` + formato + inventario aprobado**, sin trasladar evidencia ni estado de otros decks. Se mantiene **una sola lista canónica por deck** dentro del archivo `DECK_*_CONTENIDO_CURADO.md` ya existente, bajo `CONTROL_DE_TAREAS_A01_A10` (o sección equivalente existente); no crear documentos/JSON de seguimiento por fase ni archivos de prueba por carta. Cada ejecución o reanálisis actualiza esa lista y devuelve el estado **de todas las tareas A01–A10A** para ese deck, incluyendo tareas terminadas con evidencia y pendientes concretas. A10B se muestra aparte como opcional; nunca se ejecuta implícitamente.
-
-**Checklist A07 — obligatorio, chequeable y con evidencia:**
-- [ ] **A07-T01** — Especificar completamente cada efecto: actor, disparador, condiciones, selección, coste, cadena, resolución, negación y HOPT. Evidencia: `PENDIENTE`.
-- [ ] **A07-T02** — Clasificar casos por formato, acciones físicas y estados antes/después; justificar NO_APLICA. Evidencia: `PENDIENTE`.
-- [ ] **A07-T03** — Entregar matriz de efectos consumible por A10B; no implementar ni ejecutar motor en A07. Evidencia: `PENDIENTE`.
-
-**Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
-
-**Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
-
-### Cambio explícito de responsabilidad A07 → A10B
-
-Cuando se mencionen arriba `record.calculator.rules`, compilación de operaciones, escenarios de motor o pruebas Node/PHP, léase **especificación preparada para A10B**, sin ejecutar, programar, crear tests ni declarar `REGLA_EJECUTABLE_PROBADA` durante A07. A07 sólo cierra cuando **todas** las mecánicas y efectos del deck están documentados de forma íntegra, precisa y trazable. La prueba técnica de dichas especificaciones se efectúa *exclusivamente* si se activa A10B. No usar la ausencia de operador del motor como excusa para omitir la descripción del efecto.
-
-
 ## Checklist obligatorio por deck A07 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:
-- [ ] **A07-T1** Ficha causal exhaustiva de cada efecto del inventario y formato; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A07-T2** Condición, costes, timing, objetivo, cadena, negación, límite y resultado antes/después; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A07-T3** Matriz de evidencia y operaciones requeridas lista para A10B; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A07-T4** Declarar NO_APLICA justificado y no compilar, sincronizar ni probar calculadora; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T2** Separar coste previo, trigger, ventana, objetivos/no-objetivos, cadena, resolución/negación, HOPT/OPT, restricciones y estados antes/después; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T3** Construir matriz de casos de papel con caso positivo, ausencia de requisito, timing, recursos/zonas, repetición, negación y fallo cerrado para cada efecto; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A07-T4** Auditar cobertura effect_id→case_id→source, NO_APLICA con causa y necesidades de operador; no compilar ni probar en motor hasta A10B; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
 
 Cada `[x]` exige resultado terminado y comprobado. No marcar `COMPLETA` con tarea parcial, omitida o sin evidencia. Si no se puede completar, registrar `[ ] BLOQUEADA` con causa y siguiente acción, sin falsear la conclusión. Cada ejecución y reanálisis devuelve **listado completo A01–A10A de ese deck**, tareas acabadas, pendientes, evidencias y totales; A10B se informa aparte únicamente si se solicitó. Mantener trazabilidad de datos exhaustivos de cada carta para guía, vista visual y posterior análisis físico. Ni A05 ni A07 ejecutan o compilan el motor: **implementación, importación de reglas, pruebas de efectos y calculadora son exclusivamente A10B opcional**.
 
