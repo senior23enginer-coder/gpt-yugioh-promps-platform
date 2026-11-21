@@ -24,6 +24,7 @@ on:
       - 'scripts/compare-deck-cardtext-sources.cjs'
       - 'scripts/audit-deck-documental-effects.cjs'
       - 'scripts/audit-deck-causal-coverage.cjs'
+      - 'scripts/audit-deck-paper-model.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -49,6 +50,7 @@ on:
       - 'scripts/compare-deck-cardtext-sources.cjs'
       - 'scripts/audit-deck-documental-effects.cjs'
       - 'scripts/audit-deck-causal-coverage.cjs'
+      - 'scripts/audit-deck-paper-model.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -102,5 +104,8 @@ jobs:
       - name: Audit assigned Memento A05 semantic/paper coverage without false certification
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-causal-coverage.cjs --deck-id=671 --user-assigned --expected-clauses=94 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Build conditional typed paper suite for assigned Memento (A05 no calculator)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-paper-model.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
