@@ -36,7 +36,7 @@ for(const pilot of pilots){
   assert.equal(totals.side,pilot.side);
   if(pilot.deck_id===671){
     const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
-    assert.equal(certified.length,10,'C01–C09 must each have scoped evidence');
+    assert.equal(certified.length,10,'C01–C10 must each have scoped evidence');
     for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08','C09','C10']){
       const route=record.routes.find(r=>r.id==='671:A09:'+id);
       assert.equal(route.replay_certification?.scope,id==='C08' ?
@@ -71,6 +71,8 @@ for(const pilot of pilots){
     assert(c08.replay_certification?.verified_final.includes('sin Invocación Especial'),
       'C08 End Phase return cannot be called a Special Summon');
     const c10=record.routes.find(route=>route.id==='671:A09:C10');
+    assert(!c10.opening.includes('No se acreditó mediante simulación.'),
+      'C10 cannot retain a no-simulation warning after scoped certification');
     assert.equal(c10.replay_certification?.documented_steps,5);
     assert.equal(c10.replay_certification?.executed_transitions,11);
     assert(c10.result.includes('Secuencia')&&c10.result.includes('Duque')&&

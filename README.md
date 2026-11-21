@@ -45,7 +45,7 @@ Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
 verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
 Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
 **30/39 identidades** tienen al menos una regla de actor; faltan 9 y siguen
-2 replays A09 restantes por certificar; C09 y C01–C07 cuentan con pruebas sin respuesta rival, C08 condicional a activación rival observada.
+2 replays A09 restantes por certificar; C01–C07, C09 y C10 cuentan con pruebas sin respuesta rival, C08 es condicional a activación rival observada.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
 
