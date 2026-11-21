@@ -36,5 +36,34 @@ async function read(url){return new Promise((resolve,reject)=>{
   summary.htmlHead=r.text.slice(0,200);
  }
  console.log(JSON.stringify(summary));
+  if(url.includes('yugioh-card.com')){
+   const match=r.text.match(/<meta property=['"]og:image['"] content=["']([^"']+)/i);
+   if(match){
+    const original=match[1].replace(/&amp;/g,'&');
+    const urls=[original,
+      original.replace(/type=1/,'type=2'),
+      original.replace(/type=1/,'type=3'),
+      'https://images.ygoprodeck.com/images/cards/54550967.jpg'];
+    for(const imageUrl of urls){
+     try{
+      const d=await new Promise((resolve,reject)=>{
+       https.get(imageUrl,{headers:{'User-Agent':'StationX-PhotoQualityAudit/1.0'}},res=>{
+        const b=[];res.on('data',part=>b.push(part));
+        res.on('end',()=>resolve({status:res.statusCode,type:res.headers['content-type'],data:Buffer.concat(b)}));
+       }).on('error',reject);
+      });
+      const dimensions=d.data.subarray(0,8).toString('hex')==='89504e470d0a1a0a'?
+       require('./audit-deck-images.cjs').pngDimensions(d.data):
+       require('./audit-deck-images.cjs').jpegDimensions(d.data);
+      console.log(JSON.stringify({imageProvider:new URL(imageUrl).hostname,
+       requestedType:imageUrl.match(/type=([0-9]+)/)?.[1]||'ygopro-full',
+       status:d.status,mime:d.type,bytes:d.data.length,dimensions,
+       actualSignature:d.data.subarray(0,12).toString('hex')}));
+     }catch(e){console.log(JSON.stringify({imageProvider:new URL(imageUrl).hostname,
+      requestedType:imageUrl.match(/type=([0-9]+)/)?.[1]||'ygopro-full',
+      error:e.message}));}
+    }
+   }
+  }
  }catch(e){console.log(JSON.stringify({host:new URL(url).hostname,error:e.message}));}}
 })().catch(e=>{console.error(e.message);process.exitCode=1});
