@@ -36,10 +36,12 @@ for(const pilot of pilots){
   assert.equal(totals.side,pilot.side);
   if(pilot.deck_id===671){
     const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
-    assert.equal(certified.length,7,'C01–C07 must each have scoped evidence');
-    for(const id of ['C01','C02','C03','C04','C05','C06','C07']){
+    assert.equal(certified.length,8,'C01–C08 must each have scoped evidence');
+    for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08']){
       const route=record.routes.find(r=>r.id==='671:A09:'+id);
-      assert.equal(route.replay_certification?.scope,'exact-opening-no-opponent-response');
+      assert.equal(route.replay_certification?.scope,id==='C08' ?
+        'exact-opening-observed-opponent-activation-no-further-response' :
+        'exact-opening-no-opponent-response');
       assert(route.replay_certification.test.endsWith('_route_replay_test.cjs'));
     }
     const c05=record.routes.find(route=>route.id==='671:A09:C05');
@@ -61,6 +63,13 @@ for(const pilot of pilots){
       'C07 must not invent the card drawn by Guardian Chimera');
     assert(c07.replay_certification?.limits.includes('ni otorga protección de Polimerización'),
       'Mementotlan Fusion cannot be misrepresented as Polymerization');
+    const c08=record.routes.find(route=>route.id==='671:A09:C08');
+    assert.equal(c08.replay_certification?.documented_steps,4);
+    assert.equal(c08.replay_certification?.executed_transitions,5);
+    assert(c08.replay_certification?.limits.includes('no se simula ni certifica el efecto original rival'),
+      'C08 must not claim resolution of the opponent original activation');
+    assert(c08.replay_certification?.verified_final.includes('sin Invocación Especial'),
+      'C08 End Phase return cannot be called a Special Summon');
   }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
   const lines=sources.split('\n');
