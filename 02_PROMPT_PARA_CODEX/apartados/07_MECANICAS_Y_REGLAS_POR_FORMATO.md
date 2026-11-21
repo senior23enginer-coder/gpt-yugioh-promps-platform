@@ -129,3 +129,18 @@ Este módulo se aplica **únicamente al deck identificado por `deck_id` + format
 ### Cambio explícito de responsabilidad A07 → A10B
 
 Cuando se mencionen arriba `record.calculator.rules`, compilación de operaciones, escenarios de motor o pruebas Node/PHP, léase **especificación preparada para A10B**, sin ejecutar, programar, crear tests ni declarar `REGLA_EJECUTABLE_PROBADA` durante A07. A07 sólo cierra cuando **todas** las mecánicas y efectos del deck están documentados de forma íntegra, precisa y trazable. La prueba técnica de dichas especificaciones se efectúa *exclusivamente* si se activa A10B. No usar la ausencia de operador del motor como excusa para omitir la descripción del efecto.
+
+
+## Checklist obligatorio por deck A07 — control de entrega
+
+Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:
+- [ ] **A07-T1** Ficha causal exhaustiva de cada efecto del inventario y formato; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A07-T2** Condición, costes, timing, objetivo, cadena, negación, límite y resultado antes/después; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A07-T3** Matriz de evidencia y operaciones requeridas lista para A10B; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A07-T4** Declarar NO_APLICA justificado y no compilar, sincronizar ni probar calculadora; evidencia por ID/fuente: pendiente hasta verificar.
+
+Cada `[x]` exige resultado terminado y comprobado. No marcar `COMPLETA` con tarea parcial, omitida o sin evidencia. Si no se puede completar, registrar `[ ] BLOQUEADA` con causa y siguiente acción, sin falsear la conclusión. Cada ejecución y reanálisis devuelve **listado completo A01–A10A de ese deck**, tareas acabadas, pendientes, evidencias y totales; A10B se informa aparte únicamente si se solicitó. Mantener trazabilidad de datos exhaustivos de cada carta para guía, vista visual y posterior análisis físico. Ni A05 ni A07 ejecutan o compilan el motor: **implementación, importación de reglas, pruebas de efectos y calculadora son exclusivamente A10B opcional**.
+
+### Precedencia normativa A07 frente a referencias históricas
+
+Si una sección previa solicita generar `record.calculator.rules`, probar operadores, escribir tests del motor o denominar un efecto `REGLA_EJECUTABLE_PROBADA`, esa instrucción se **traslada únicamente a A10B**. Aquí se prepara la especificación semántica íntegra e independiente del motor, con fuentes y observaciones para cada efecto. No omitir efectos porque el motor aún no admita el operador. El cierre A07 depende exclusivamente de la **completitud documental verificable del deck**; la cobertura ejecutable se decide en A10B. Los requisitos de campo, coste, cadena y uso no se reducen ni se sustituyen por texto genérico.
