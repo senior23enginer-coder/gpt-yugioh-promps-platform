@@ -1,5 +1,18 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
 
+## Flujo obligatorio A01–A10A y extensión opcional A10B (21-11-2026)
+
+- **A01–A09:** investigación integral verificable de cartas, efectos, recursos, sinergias, decisiones y rutas. Los datos deben ser lo bastante específicos para que A10B no tenga que investigar nuevamente los efectos.
+- **A10A obligatorio:** guías visuales, fotografías, pasos y campos finales, con el paquete del deck importable. No ejecuta, compila ni prueba la calculadora.
+- **A10B exclusivamente opt-in:** construcción/validación de reglas, estados y acciones del motor físico; importación de `record.calculator` y pruebas end-to-end. Su ausencia no impide aprobar A10A.
+
+Cada prompt mantiene su checklist por deck en la sección única `CONTROL_DE_TAREAS_A01_A10` del documento curado **existente**. La ejecución devuelve todas las tareas A01–A10A con `[x]` para evidencia completa, `[ ]` con causa y acciones para lo que falte y un bloque A10B opcional separado. No se acepta marcar COMPLETA una etapa con tareas pendientes. Los pendientes reales no se ocultan ni se reetiquetan artificialmente. No crear diez archivos de checklists ni múltiples informes por versión.
+
+**Paquete mínimo para el importador:** un JSON estructurado canónico, documentación del análisis cuando corresponda, guía visual y una imagen por CID único. Ni la cantidad de variantes de reglas ni las pruebas de CI implican multiplicar los archivos del ZIP. Markdown y HTML no reemplazan el JSON.
+
+**Escalado de pruebas:** no crear un archivo de test por cada efecto/deck. A10B trabaja sobre el ejecutor común y escenarios/fichas de datos parametrizados por IDs; las capacidades generales se prueban una vez por operador y sólo se añaden regresiones específicas cuando descubren un fallo nuevo. Los tests heredados de Memento/Crystron se mantienen hasta comparar cobertura de la sustitución; no borrar evidencia automáticamente. Los recuentos históricos que aparecen más abajo son instantáneas, no el estado actual de cobertura.
+
+
 ### ZIP directo de una carpeta histórica y alcance de compatibilidad
 
 Se puede comprimir una carpeta individual `DECK_*` del repositorio GPT y cargarla en la ficha correspondiente de Station X. Si la carpeta solo contiene el estudio `*_CONTENIDO_CURADO.md`, `imagenes/` y `guias/`, el importador intenta una **importación documental heredada** y preserva las rutas estructuradas previamente existentes. Acepta referencias de imágenes locales seguras, pero no habilita HTML ejecutable. Esto NO certifica paridad completa de las fichas interactivas A01–A10.
