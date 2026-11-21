@@ -36,8 +36,8 @@ for(const pilot of pilots){
   assert.equal(totals.side,pilot.side);
   if(pilot.deck_id===671){
     const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
-    assert.equal(certified.length,6,'C01–C06 must each have scoped evidence');
-    for(const id of ['C01','C02','C03','C04','C05','C06']){
+    assert.equal(certified.length,7,'C01–C07 must each have scoped evidence');
+    for(const id of ['C01','C02','C03','C04','C05','C06','C07']){
       const route=record.routes.find(r=>r.id==='671:A09:'+id);
       assert.equal(route.replay_certification?.scope,'exact-opening-no-opponent-response');
       assert(route.replay_certification.test.endsWith('_route_replay_test.cjs'));
@@ -54,6 +54,13 @@ for(const pilot of pilots){
       'C06 holds Goblin in hand; do not claim protection was activated');
     assert(c06.replay_certification?.limits.includes('NO se activa'),
       'No-response Twin Dragon replay cannot certify Goblin Quick Effect');
+    const c07=record.routes.find(route=>route.id==='671:A09:C07');
+    assert.equal(c07.replay_certification?.documented_steps,4);
+    assert.equal(c07.replay_certification?.executed_transitions,8);
+    assert(c07.replay_certification?.verified_final.includes('identidad desconocida'),
+      'C07 must not invent the card drawn by Guardian Chimera');
+    assert(c07.replay_certification?.limits.includes('no otorga protección'),
+      'Mementotlan Fusion cannot be misrepresented as Polymerization');
   }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
   const lines=sources.split('\n');
