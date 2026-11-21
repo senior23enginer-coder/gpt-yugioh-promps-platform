@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:station-x:paper-cases:1",
+  "title": "Station X — GPT canonical domain paper cases",
+  "description": "Logical design assertions, not executable calculator rules; A10B may compile compatible actions separately.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "deck_id",
+    "format",
+    "effects",
+    "cases"
+  ],
+  "properties": {
+    "schema": {
+      "const": "station-x-paper-cases/1"
+    },
+    "deck_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "format": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "effect_id",
+          "cid",
+          "kind",
+          "actor",
+          "activation_window",
+          "trigger",
+          "guards",
+          "selections",
+          "costs",
+          "resolution",
+          "usage_limit",
+          "restrictions",
+          "source",
+          "support_status"
+        ],
+        "properties": {
+          "effect_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cid": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "kind": {
+            "enum": [
+              "activated",
+              "trigger",
+              "continuous",
+              "procedure",
+              "replacement",
+              "skill",
+              "no-effect"
+            ]
+          },
+          "actor": {
+            "type": "object"
+          },
+          "activation_window": {
+            "type": "object"
+          },
+          "trigger": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "guards": {
+            "type": "array"
+          },
+          "selections": {
+            "type": "array"
+          },
+          "costs": {
+            "type": "array"
+          },
+          "resolution": {
+            "type": "array"
+          },
+          "on_negation": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "usage_limit": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "restrictions": {
+            "type": "array"
+          },
+          "resource_delta": {
+            "type": "object"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assumptions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "support_status": {
+            "enum": [
+              "DOCUMENTADO_CON_FUENTE",
+              "CASO_LOGICO_VERIFICADO",
+              "SIN_EVIDENCIA",
+              "OPERADOR_NO_SOPORTADO",
+              "EJECUTABLE_PROBADO_A10B"
+            ]
+          }
+        }
+      }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "case_id",
+          "effect_id",
+          "source",
+          "state_before",
+          "action",
+          "expected_legal",
+          "expected_costs",
+          "expected_events",
+          "expected_state_after",
+          "expected_restrictions",
+          "reason",
+          "known_vs_unknown",
+          "status"
+        ],
+        "properties": {
+          "case_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effect_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "state_before": {
+            "type": "object"
+          },
+          "action": {
+            "type": "object"
+          },
+          "expected_legal": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "expected_costs": {
+            "type": "array"
+          },
+          "expected_events": {
+            "type": "array"
+          },
+          "expected_state_after": {
+            "type": "object"
+          },
+          "expected_restrictions": {
+            "type": "array"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "known_vs_unknown": {
+            "enum": [
+              "known",
+              "observed",
+              "unknown",
+              "conditional"
+            ]
+          },
+          "status": {
+            "enum": [
+              "VERIFICADO",
+              "CONDICIONAL",
+              "NO_APLICA",
+              "PENDIENTE"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
