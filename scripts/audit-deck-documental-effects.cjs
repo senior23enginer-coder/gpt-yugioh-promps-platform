@@ -72,9 +72,48 @@ function audit({deckId,explicitlyAssigned,packageFile,sourceFile,expectedClauses
  assert.equal(seenCids.size,cards.size);
  if(expectedClauses!==undefined)assert.equal(seenIds.size,expectedClauses,'MISSING_CLAUSE');
  assert.equal(seenIds.size,[...effectsByCid.values()].reduce((n,x)=>n+x.length,0));
- const types={};for(const clauses of effectsByCid.values())for(const x of clauses)types[x.type]=(types[x.type]||0)+1;
+ const causalFirst=source.indexOf('### A05.7 — matriz causal crítica');
+ const causalNext=causalFirst<0?-1:source.indexOf('\n### ',causalFirst+8);
+ const causal=causalFirst>=0&&causalNext>causalFirst?
+   source.slice(causalFirst,causalNext):'';
+ const linked=[...causal.matchAll(/^#### \d+\. \x60(\d+:a05:(\d+):[a-z0-9-]+)\x60/gm)];
+ assert(linked.length>0,'NO_CAUSAL_EFFECT_SAMPLES');
+ for(const x of linked){
+   assert(seenIds.has(x[1]),'CAUSAL_SAMPLE_REFERENCES_UNKNOWN_EFFECT_'+x[1]);
+   assert(cards.has(Number(x[2])),'CAUSAL_SAMPLE_CARD_ABSENT');
+ }
+ assert.equal(new Set(linked.map(x=>x[1])).size,linked.length,'DUPLICATE_CAUSAL_SAMPLE');
+ const caseFirst=source.indexOf('### A05.8 — ejemplos declarativos de estado');
+ const caseNext=caseFirst<0?-1:source.indexOf('\n### ',caseFirst+8);
+ const paper=caseFirst>=0&&caseNext>caseFirst?source.slice(caseFirst,caseNext):'';
+ const sampleHeads=[...paper.matchAll(/^#### \d+\. \x60(\d+:a05:(\d+):[a-z0-9-]+)\x60 — dos casos de papel/gm)];
+ assert(sampleHeads.length>0,'NO_PAPER_CASE_SAMPLES');
+ const cases=new Set();let positives=0,negatives=0;
+ for(let i=0;i<sampleHeads.length;i++){
+   const h=sampleHeads[i],id=h[1],cid=Number(h[2]);
+   assert(seenIds.has(id)&&cards.has(cid),'PAPER_SAMPLE_UNKNOWN_CARD_EFFECT_'+id);
+   const start=h.index,end=i+1<sampleHeads.length?sampleHeads[i+1].index:paper.length;
+   const block=paper.slice(start,end);
+   const sources='https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid='+cid;
+   assert(block.includes(sources),'PAPER_CASE_MISSING_OFFICIAL_SOURCE_'+id);
+   for(const [prefix,legal] of [['P','true'],['N','false']]){
+     const expressions=[...block.matchAll(/case_id=(\d+:A05:[PN]\d+)/g)].map(x=>x[1]);
+     const found=expressions.filter(x=>x.startsWith(deckId+':A05:'+prefix));
+     assert(found.length===1,'POSITIVE_OR_NEGATIVE_CASE_MISSING_'+id+'_'+prefix);
+     const caseID=found[0];assert(!cases.has(caseID),'DUPLICATE_CASE_ID_'+caseID);
+     cases.add(caseID);
+     assert(block.includes('expected_legal='+legal),'MISSING_LEGALITY_DECLARATION_'+caseID);
+     if(prefix==='P')positives++;else negatives++;
+   }
+   assert(block.includes('CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA'),
+     'PAPER_CASE_PREMATURELY_CERTIFIED_'+id);
+ }
+ assert.equal(sampleHeads.length*2,cases.size,'CASE_ID_UNIQUENESS_VIOLATED');
+  const types={};for(const clauses of effectsByCid.values())for(const x of clauses)types[x.type]=(types[x.type]||0)+1;
  return {ok:true,deck_id:deckId,format:pkg.record.format,identities:cards.size,clauses:seenIds.size,
-  kinds:types,counts:sum,taskT2StructuralCoverage:true,fullCausalSemanticsChecked:false,
+  kinds:types,counts:sum,causalSampleIds:linked.length,positivePaperSamples:positives,
+  negativePaperSamples:negatives,caseSamples:cases.size,
+  taskT2StructuralCoverage:true,fullCausalSemanticsChecked:false,
   officialEffectTextIndependentlyMatched:false,caseMatrixComplete:false,calculatorExecuted:false};
 }
 if(require.main===module){
