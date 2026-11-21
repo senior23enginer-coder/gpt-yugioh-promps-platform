@@ -1,0 +1,53 @@
+name: Refresh authentic HD images for assigned Memento 671
+on:
+  push:
+    branches:
+      - analysis/memento-671-a01-a10a-20261121
+    paths:
+      - scripts/refresh-memento-671-hd-images.py
+      - .github/workflows/refresh-memento-671-hd-images.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hd-memento-671-authenticated
+  cancel-in-progress: false
+
+jobs:
+  replace-verified-photos:
+    if: github.repository == 'senior23enginer-coder/gpt-yugioh-promps-platform'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image decoder
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Acquire full authentic TCG card photos by Konami CID
+        run: python scripts/refresh-memento-671-hd-images.py --deck-id=671 --user-assigned --apply
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify all 39 local card pictures have correct dimensions and card IDs
+        run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Ensure no deck inventory, prompts or other files were changed
+        run: |
+          set -euo pipefail
+          test "$(git diff --name-only | grep -v -E '^01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/[0-9]+\.(png|jpg)$' | wc -l)" -eq 0
+          test -f 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/A04_HD_IMAGE_PROVENANCE.json
+          test "$(git diff --name-only | wc -l)" -eq 39
+      - name: Commit only photo bytes and verified image provenance
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/
+          git add -- 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/A04_HD_IMAGE_PROVENANCE.json
+          git diff --cached --quiet && { echo 'No pictures changed'; exit 0; }
+          git commit -m 'fix(Memento A04): replace 39 low-res card photos with CID-matched authentic HD assets'
+          git push origin HEAD:analysis/memento-671-a01-a10a-20261121
