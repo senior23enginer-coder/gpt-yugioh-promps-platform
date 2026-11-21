@@ -1,5 +1,11 @@
 # Apartado 05 — ANÁLISIS INDIVIDUAL DE TODAS LAS CARTAS
 
+## Entrega estandarizada A05 — semántica causal y pruebas lógicas de papel
+
+A05 crea la matriz íntegra de carta/efecto de la que dependerán todos los consumidores. Una carta con tres efectos exige tres fichas semánticas separadas; ninguna regla de la calculadora se crea aquí. Los casos lógicos indican estado de entrada, causa y resultado esperado, incluyendo negaciones y situaciones sin requisito. Mantener denominadores separados: fichas, efectos, casos y ejecutables A10B.
+
+Seguir el contrato transversal del maestro, conservar el mismo `deck_id/card_id/cid/effect_id/route_id` entre etapas y almacenar la evidencia en el deck existente. Toda tarea se cierra sólo con evidencia; al finalizar informar el checklist completo A01–A10A y A10B únicamente si fue solicitado.
+
 ### Puerta A05 — inventario de efectos para análisis del estado (20-11-2026)
 
 Para cada carta y cada efecto diferenciado, registrar bajo su identidad existente `card_id` + CID confirmado y fuente: **dónde se activa** (mano/campo/GY/destierro/Extra), condición o procedimiento de Invocación, si inicia cadena, coste, objetivo, ventana/fase, resolución, uso una vez por carta/nombre/turno, estado de la carta después, restricciones y rol real (incluida handtrap/respuesta situacional). Separar el **procedimiento** de Invocación Especial de un monstruo de un supuesto efecto activado de otra carta; por ejemplo, una condición «controlar una carta de nombre X» no se convierte automáticamente en «activar X para revivir».
@@ -44,26 +50,12 @@ Para cada carta realmente disponible estudiar: nombre y copias; efecto y requisi
 Etiquetar roles combinables: starter, searcher, extender, enabler, engine, handtrap, negación, protección, removal, board breaker, finisher, recuperación, carta dependiente y recurso de largo plazo. Si una carta no entra en rutas útiles, explicar por qué; no forzarla.
 
 
-## Puerta obligatoria de checklist por deck — A05 (revisión 21-11-2026)
-
-Este módulo se aplica **únicamente al deck identificado por `deck_id` + formato + inventario aprobado**, sin trasladar evidencia ni estado de otros decks. Se mantiene **una sola lista canónica por deck** dentro del archivo `DECK_*_CONTENIDO_CURADO.md` ya existente, bajo `CONTROL_DE_TAREAS_A01_A10` (o sección equivalente existente); no crear documentos/JSON de seguimiento por fase ni archivos de prueba por carta. Cada ejecución o reanálisis actualiza esa lista y devuelve el estado **de todas las tareas A01–A10A** para ese deck, incluyendo tareas terminadas con evidencia y pendientes concretas. A10B se muestra aparte como opcional; nunca se ejecuta implícitamente.
-
-**Checklist A05 — obligatorio, chequeable y con evidencia:**
-- [ ] **A05-T01** — Fichar todas las identidades y todos los efectos separados, incluidos continuos y procedimientos. Evidencia: `PENDIENTE`.
-- [ ] **A05-T02** — Registrar origen, ventana, condición, coste, objetivo, resultado, restricciones, frecuencia y rol táctico. Evidencia: `PENDIENTE`.
-- [ ] **A05-T03** — Vincular cada efecto a CID, fuente, zonas, recursos y evidencias A07 sin código de calculadora. Evidencia: `PENDIENTE`.
-
-**Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
-
-**Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
-
-
 ## Checklist obligatorio por deck A05 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:
-- [ ] **A05-T1** Todas las cartas con foto/CID y ficha propia; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A05-T2** Todos los efectos, incluso continuos y procedimientos, separados; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A05-T3** Por efecto: activación, zona, disparador, coste, objetivos, ventana, resolución, HOPT, respuesta y recursos; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A05-T4** Función de cada carta en este deck y enlaces A06/A09; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A05-T2** Inventariar TODOS los efectos por efecto_id estable: activado/disparo/continuo/reemplazo/procedimiento/Skill o NO_EFFECT justificado; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
 
 Cada `[x]` exige resultado terminado y comprobado. No marcar `COMPLETA` con tarea parcial, omitida o sin evidencia. Si no se puede completar, registrar `[ ] BLOQUEADA` con causa y siguiente acción, sin falsear la conclusión. Cada ejecución y reanálisis devuelve **listado completo A01–A10A de ese deck**, tareas acabadas, pendientes, evidencias y totales; A10B se informa aparte únicamente si se solicitó. Mantener trazabilidad de datos exhaustivos de cada carta para guía, vista visual y posterior análisis físico. Ni A05 ni A07 ejecutan o compilan el motor: **implementación, importación de reglas, pruebas de efectos y calculadora son exclusivamente A10B opcional**.
