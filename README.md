@@ -1,5 +1,57 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
 
+## Estándar operativo vigente — análisis controlado por deck
+
+Esta especificación rige sobre las instantáneas históricas descritas más abajo. **Estar registrado entre más de 60 decks no significa que un mazo esté asignado, cargado, aprobado o autorizado para análisis.** El sistema jamás selecciona un deck por su cuenta, ni ejecuta todos los mazos, ni infiere autorización de una petición de estado, planificación, documentación o mantenimiento. Solo se analizan **decks expresamente asignados por el usuario**, uno por solicitud e identificados por `deck_id` real y formato. Memento y Crystron no se reanalizan como consecuencia de modificar este estándar.
+
+### Puerta de entrada A00 — selección y disponibilidad real
+
+Antes de ejecutar **cualquiera** de A01–A10A/A10B se requieren simultáneamente:
+
+1. `deck_id` concreto **asignado expresamente por el usuario**, sin sustituirlo por otro de nombre parecido.
+2. Un inventario real y coherente con el paquete y las filas/IDs de Station X, con **Main, Extra y Side cargados**, cada sección con al menos una fila física de cantidad positiva. No se presupone que el tamaño obligatorio sea 40/15/15: se respeta la lista aprobada.
+3. Identidad, formato y `card_id`/slots concordantes entre inventario y `record.cards`. **Reserva es opcional**, puede estar vacía o ausente; no se rellena artificialmente.
+
+Si falla cualquier condición, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, detallar el campo faltante y **no iniciar ni un análisis provisional**. Una carga incompleta puede seguir existiendo en el catálogo, pero todavía no es un deck elegible para los prompts.
+
+Validador compartido en este repositorio (comprueba datos; **no invoca IA ni ejecuta análisis**):
+
+```bash
+node scripts/analysis-eligibility-test.cjs
+node scripts/analysis-eligibility.cjs --deck-id=ID_ASIGNADO --user-assigned ruta/al/stationx-deck.json
+```
+
+La segunda línea solo se utiliza cuando existe una asignación expresa del usuario; no usar la opción `--user-assigned` para simular autorización. Un resultado `eligible:false` es una prohibición de comenzar.
+
+### Pipeline editorial y contrato común
+
+| Bloque | Obligación | Salida |
+| --- | --- | --- |
+| A01–A04 | Selección autorizada, identidad, inventario y fotos | IDs/zonas/CIDs/recursos de un solo deck |
+| A05–A07 | Efectos completos y relaciones causales | `effect_id`, condición, coste, target, ventana, restricción, pruebas lógicas de papel |
+| A08–A09 | Estrategias, rutas y estados físicos | `route_id`, `step_id`, `state_before`, `expected_state_after`, fuentes |
+| **A10A obligatorio** | Guías visuales, tableros y contenido importable | `record.cards`, `record.routes`, fotos y presentación |
+| **A10B opcional** | Traducir especificaciones ya documentadas para la calculadora | `record.calculator` validado contra operadores disponibles, replays y tests |
+
+La semántica de cartas, efectos, coste, chain, propietario/controlador, OPT/HOPT, materiales, recursos, información conocida/desconocida y campos finales **se define una sola vez**. GPT investiga y documenta pruebas lógicas de papel como datos; Platform prueba el intérprete técnico. No insertar operaciones no soportadas ni inventar resultados. Un ZIP A10A no necesita reglas de A10B.
+
+### Tareas verificables y medición de tiempos
+
+`02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json` es el **manifiesto único y versionado de tareas**, no un archivo por deck: **35 tareas obligatorias** repartidas entre A01–A10A y **3 tareas opcionales** A10B. Cada ejecución autorizada conserva la evidencia y el estado real de esas tareas en la sección `CONTROL_DE_TAREAS_A01_A10` del `DECK_*_CONTENIDO_CURADO.md` existente. `[x]` requiere prueba y resultado completos; una tarea bloqueada permanece abierta con causa y siguiente acción. El reporte muestra todas las terminadas y faltantes, aunque solo se haya trabajado un apartado.
+
+**Medición:** no se atribuyen tiempos a la IA sin ejecutar la tarea. Los `started_at`, `finished_at`, `elapsed_seconds` y reintentos corresponden a sesiones realmente observadas; un ETA solo es defendible tras obtener muestras comparables de trabajo real. La lógica reutilizable del ledger y la estimación está en Platform; **no está conectada todavía a un ejecutor autónomo de prompts ni a un grid de producción**. No hay procesamiento masivo ni en segundo plano habilitado por este contrato.
+
+### Pruebas y compatibilidad entre repositorios
+
+```bash
+node scripts/test-a01-a10-presentation.cjs
+node scripts/analysis-eligibility-test.cjs
+node scripts/reconcile-protected-prompts.cjs --check
+```
+
+Las pruebas son de **contratos y elegibilidad**, no vuelven a analizar Memento, Crystron ni ningún mazo. El workflow `.github/workflows/validate-prompts.yml` impide regresiones de selección e inventario. Platform tiene pruebas de operador e importación separadas y comprueba la compatibilidad del manifiesto al verificar la integración ZIP. Los tests históricos permanecen hasta acreditar una sustitución sin pérdida de cobertura; no deben copiarse en los ZIP.
+
+
 ## Flujo obligatorio A01–A10A y extensión opcional A10B (21-11-2026)
 
 - **A01–A09:** investigación integral verificable de cartas, efectos, recursos, sinergias, decisiones y rutas. Los datos deben ser lo bastante específicos para que A10B no tenga que investigar nuevamente los efectos.
