@@ -130,7 +130,7 @@ for(const [folder,id,routes] of packs){
     }
   }
   if(id===671){
-    assert.equal(declaredRules,250,'Memento must retain all verified portable variants');
+    assert.equal(declaredRules,257,'Memento must retain all verified portable variants');
     const ids=new Set(calculator.rules.map(rule=>rule.id));
     assert.equal(ids.size,48,'Multiple variants must share their stable effect ID');
     for(const id of ['671:mictlan:activate','671:creation-king:destroy',
