@@ -1,5 +1,23 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
+## Norma vigente A01–A10A / A10B (21-11-2026; precedencia absoluta)
+
+**Diez apartados obligatorios A01–A10A para cada deck; A10B únicamente a petición expresa.** Mantener los diez prompts numerados existentes y los módulos protegidos A11–A36, sin crear un prompt 37. Los apartados 01–09 se dedican a investigación, validación documental y datos reutilizables; el apartado 10 tiene dos rutas independientes:
+
+- **A10A obligatoria:** entregar guía visual, imágenes reales por CID, rutas, estado/resultado y ZIP importable documental/visual. No requiere ejecución de la calculadora ni llamadas a su motor.
+- **A10B opcional:** integrar, compilar y probar compatibilidad con la calculadora de duelos físicos, reglas portables, operador, coste, ventanas, negaciones, replays, fixtures y pruebas de integración. Sólo se ejecuta tras solicitud explícita; no bloquea un A10A terminado.
+
+**Ficha técnica exhaustiva desde A05/A06/A07/A08/A09:** cada identidad, cada efecto (activado, continuo, opcional, procedimiento), zona/condición/trigger/ventana, costes, targets, materiales, resolución, restricciones, HOPT/OPT, negaciones, causalidad y recursos se documentan **antes de A10B** con fuente y estado antes/después cuando sea comprobable. Los datos son aptos para guía, pantalla de la carta y posterior calculadora; sólo A10B decide su ejecución en motor. Prohibido inventar operaciones o eliminar matices por incompatibilidad. La compilación inmediata y pruebas del motor mencionadas en versiones antiguas de A07/A10 se consideran trasladadas a A10B.
+
+**Checklist de tareas por deck — obligatorio al ejecutar cualquier prompt:** usar el mismo `DECK_*_CONTENIDO_CURADO.md` existente y una única sección `CONTROL_DE_TAREAS_A01_A10`, con identificadores A01-T*, ... A09-T*, A10A-T* y A10B-T* (estos últimos opcionales). Cada tarea incluye `deck_id`, fuente o evidencia/ID y casilla `[x]` únicamente cuando está **integralmente terminada**, o `[ ]` con causa y acción concreta. Ningún apartado se declara terminado con tareas parciales; si faltan requisitos, queda **ABIERTO/BLOQUEADO** en el reporte, sin inventar un éxito. El usuario recibe **en cada ejecución** el listado completo de tareas terminadas y pendientes de A01–A10A para ese deck, aunque se haya trabajado sólo un apartado; A10B aparece exclusivamente como `NO_SOLICITADA` o como su checklist aparte al haber autorización. No generar registros nuevos por iteración ni archivos de prueba por efecto.
+
+**Una fuente estructurada:** `datos/stationx-deck.json` conserva la información necesaria para el importador, sin duplicar verdades en Markdown o HTML; las imágenes por CID son recursos. A10A puede ser válido aunque `record.calculator.rules` esté ausente o vacío. En A10B se incorpora `record.calculator` sólo después de verificar el motor real y se conserva fidelidad del inventario/formatos/rutas.
+
+**Pruebas escalables A10B:** usar un runner compartido reutilizable y fixtures de datos parametrizadas por deck, efecto y ruta. No crear archivos JavaScript/PHP por cada carta/efecto/mazo; los tests específicos de un operador nuevo viven en el núcleo compartido. Mantener los tests históricos hasta migración con paridad comprobada, sin borrados prematuros. La carpeta ZIP de cada deck sólo contendrá contenido y recursos necesarios para importación, no miles de tests.
+
+**Regla de precedencia:** si cualquier cláusula anterior o inferior del maestro, de A02/A05/A07/A09/A10 o del README exige pruebas de calculadora para cerrar A01–A10A, esta norma la sustituye. La integridad del inventario, las fichas, la calidad de la guía y las pruebas visuales/de importación del contenido **siguen obligatorias**.
+
+
 ## Puerta transversal A01–A10 → calculadora de estado real (20-11-2026)
 
 **No equiparar documentación con motor ejecutable.** Cada entrega de deck deberá declarar por separado `A01–A10_DOCUMENTADO`, `IMPORTABLE_ESTRUCTURADO`, `CALCULADORA_COBERTURA_PARCIAL` y `CALCULADORA_REGLAS_PROBADAS`. El porcentaje de análisis documental no afirma cobertura ejecutable. Ante un deck con 14 rutas A09 y 0 reglas declarativas en `record.calculator.rules`, informar exactamente `14 rutas documentadas; 0 reglas declarativas suministradas`; no deducir que esas rutas se pueden analizar de modo dinámico.
