@@ -70,14 +70,14 @@ async function run({deckId,explicitlyAssigned,packageFile}){
    const checksum=crypto.createHash('sha256').update(desc).digest('hex');
    const kind=/Spell Card/i.test(type)?'SPELL':/Trap Card/i.test(type)?'TRAP':
      /Normal Monster/i.test(type)?'NORMAL_MONSTER':
-     /Fusion|Synchro|XYZ|Link|Pendulum|Effect/i.test(type)?'MONSTER_EFFECT_OR_PROCEDURE':'OTHER';
+     /Fusion|Synchro|XYZ|Link|Pendulum|Effect|Tuner|Ritual/i.test(type)?'MONSTER_EFFECT_OR_PROCEDURE':'TEXT_CLASSIFICATION_PENDING';
    rows.push({cid,name:card.name,english_name:external.name,type,kind,
      sections:[...new Set(card.slots.map(s=>s.section))].sort(),card_id:card.slots.map(s=>s.card_id),
      effect_rule_ids:actorRules,existing_rule_count:actorRules.length,official_source:card.sources[0],
      secondary_metadata_source:'https://db.ygoprodeck.com/api/v7/cardinfo.php?konami_id='+cid+'&misc=yes',
      card_text_sha256:checksum,card_text_characters:desc.length,
      semantic_census_status:kind==='NORMAL_MONSTER'?'CHECK_NO_EFFECT_PROCEDURE':
-       'OFFICIAL_EFFECT_CLAUSES_NOT_INDIVIDUALLY_RECONCILED',
+       'EFFECT_CLAUSES_NOT_INDIVIDUALLY_RECONCILED',
      operator_coverage:actorRules.length?'PORTABLE_RULES_PARTIAL_NOT_EXHAUSTIVE':'NO_ACTOR_RULE_IN_PORTABLE_PACKAGE'});
    await sleep(200);
  }
