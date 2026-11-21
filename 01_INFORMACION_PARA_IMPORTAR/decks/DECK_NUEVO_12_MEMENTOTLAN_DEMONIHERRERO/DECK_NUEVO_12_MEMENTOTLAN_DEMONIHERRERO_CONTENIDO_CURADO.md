@@ -101,6 +101,23 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Estado:** se cubrió documentalmente una brecha visible de **8 CID sin regla portable por actor**, pero **A05-T2/T3/T4 permanecen abiertas**: falta verificar exhaustividad para los otros 31 CID, separar cada procedimiento/continuo/activado y formalizar casos completos positivos, negativos, costes y cadenas. No atribuir cobertura ejecutable ni victoria automática.
 
+### A05.4 — auditoría de atribución de fuentes y procedimientos portátiles
+
+**Control cruzado de 59 `rule.id` preexistentes (solo lectura, sin A10B):** 59/59 incluyen URL de Konami Neuron y 59/59 contienen al menos un operador de resolución y una guarda. **Ocho IDs** tienen `source.cid` distinto del `actor.cid`; no se da por hecho que sean errores, porque varias rutas de Invocación usan como actor un material y citan como fuente el **monstruo de destino**. Una regla sin actor CID representa una restricción global de TY-PHON y no debe forzarse a un falso efecto activado.
+
+| `rule.id` | Actor CID registrado | CID de fuente | Dictamen y acción documental |
+|---|---:|---:|---|
+| `671:engraver:link-sequence` | 20196 Grabador | 20226 Secuencia | Procedimiento de Enlace; enlazar actor-material y carta de destino por separado. |
+| `671:princess:contact-summon` | 20196 Grabador | 20423 Princesa | Procedimiento especial; no atribuir a Grabador el texto de Princesa. |
+| `671:19363:normal` | 19363 Hoja Oscura | **19364 Angbruja** | **Fuente por CID potencialmente equivocada** para Hoja Oscura; corregir referencia en una intervención de implementación autorizada, no cambiando ahora efectos del motor. |
+| `671:moon:link-from-angwitch-tatsun` | 19364 Angbruja | 19932 Luna | El actor representa material; la fuente corresponde al Link de destino. |
+| `671:sp:link-with-moon` | 19932 Luna | 19188 S:P | Procedimiento de Enlace con materiales, no un efecto activado de Luna. |
+| `671:sp:link-procedure` | 19364 Angbruja | 19188 S:P | Igual: carta de destino S:P; documentar por `effect_id`/procedimiento propio. |
+| `671:moon:link-requiem` | 19932 Luna | 20225 Réquiem | Procedimiento de Réquiem; no registrar como efecto de Luna. |
+| `671:typhon:highest-atk` | Sin CID de actor | Fuente propia pendiente de asociar | **Regla global/pasiva**: no simular activación, coste o ventana inexistentes. |
+
+**Conclusión técnica A05:** que una carta aparezca como `actor.cid` en una regla de **procedimiento de otra carta** no significa que sus efectos oficiales estén cubiertos. Lo contrario también se aplica: una carta sin regla portátil por actor puede tener efectos relevantes, como los ocho CID documentados en A05.3. Los campos de coste vacíos pueden ser correctos cuando no hay coste; un OPT/HOPT ausente no prueba por sí mismo incumplimiento. Se exige el inventario de cada efecto desde la fuente oficial, sin deducirlo solo de la estructura del motor. A05-T2 y A05-T3 siguen abiertas.
+
 ### A02–A03 — recepción e inventario acreditados
 
 El formato y la identidad de los paquetes versionados son coherentes; la prueba histórica de importación ZIP se usa solo como evidencia de compatibilidad estructural. El inventario físico se conserva **41/15/14/0**. Ningún ensayo en CI modifica la base productiva. La diferencia documental original del conteo C02 sigue siendo deuda de A09, no del inventario.
