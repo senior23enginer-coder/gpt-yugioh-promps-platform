@@ -1,0 +1,5864 @@
+{
+  "schema": "station-x-p06-golden-route-states/1",
+  "provenance": "historical trusted tests; regression-only, not independent oracle",
+  "deck_id": 671,
+  "format": "tcg_advanced",
+  "routes": [
+    {
+      "route_id": "671:A09:C01",
+      "source_test": "torneos_yugioh/tests/memento_c01_route_replay_test.cjs",
+      "source_blob_sha": "24c9d746ef1b964e7714848a6bf6d09789979f83",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:497",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 3,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 2
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "992a9c6de014b6ea5a75bcd84e412a36bcdd0319e569c5924d07a81e2155d4f6"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "c6aaa5fe167b9a439894876bc3f157d2e62c2b03a7887dbc4ab62e3e33c12744"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "87f94694c230fbf0b553917a153f6f9dbb250d8c88f2b2d4d333d6de78348ca7"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "a885c414bb5e08a41916c9e82e173c283bb82ce8beea4e0c3575e0ecaff58712"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "f3d432864eefe6dca7bbd3f8a757867253ef76bb45444bc574bb7e6a6ca7e12e"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "05958d6044dd8f8cb1b12a035f843d71a1d88223226f1bb621d948ee6004ff63"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "24b4b5e944740d68c3ab0375a6d27530dd938ab5372f9b929b3e53f784e6739e"
+        },
+        {
+          "effect_id": "671:creation-king:fusion-send",
+          "after_state_sha256": "1bf84e485b402c57d1f9c53b6ab9be8a1ede5b5b1aad1a5ed03849ca1cb7bc99"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "a3a623f453ce26f93e98a17bb0fd09589be5f78512638447d9035ec8f3d33f55"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 9,
+      "source_documented_steps": 7,
+      "source_declared_transitions": 9,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C02",
+      "source_test": "torneos_yugioh/tests/memento_c02_route_replay_test.cjs",
+      "source_blob_sha": "5224028059a85929daaef94afeb28c4ea1493265",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:498",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 3,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 2
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "b84915d12dcb0c0780321876cca2dc866964851a1d061708147ab684fd8b282d"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "25f78644de31febed052e1a61d63a4130bcea1e8273dae34c54d4f1115047686"
+        },
+        {
+          "effect_id": "671:bone-party:main",
+          "after_state_sha256": "0940a20caf2df5420452f7f108d85e35b377bd366ba681c015d2ea90c319acc9"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "eaddaa4b2866ced231a9c71eeae6cff3402419eb3e03ef7e507987a73e8161e7"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "f567481d28f233beab8c21c8dc46ec4fac39e2c245bd4f99d1aa3edf6d9b08ad"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 5,
+      "source_documented_steps": 4,
+      "source_declared_transitions": 6,
+      "known_metadata_discrepancy": true,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C03",
+      "source_test": "torneos_yugioh/tests/memento_c03_route_replay_test.cjs",
+      "source_blob_sha": "a2d472733def1633d5b869fea3da00ecbbc7228a",
+      "initial_state": {
+        "version": 1,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "format": "tcg_advanced",
+        "turn": 2,
+        "goesFirst": false,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:482",
+            "owner": "opponent",
+            "controller": "opponent",
+            "zone": "m3",
+            "position": "attack"
+          }
+        ],
+        "nextId": 3,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 3
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "6bcbcbf48a7e1a5bbbe2765574080f664a092ea3961e36c947dfb5aa764edc98"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "999c97fadc708207191995399832f5ba202183a74fa45af5ac70587446b512a4"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "10a36bdefb31bb7f68026abdcd3eb55001a25a3db17cbc11fc542967b850e0a4"
+        },
+        {
+          "effect_id": "671:moon:link-from-angwitch-tatsun",
+          "after_state_sha256": "24e6a00d79d08e039c36fa7be28c732f1e7741a3382d2caa7f1cf5c7f0cfae0b"
+        },
+        {
+          "effect_id": "671:moon:link-requiem",
+          "after_state_sha256": "3a429873b5a3ee5468ea3e7b3c3a82d2ba82bae7629038cf92fe841658485596"
+        },
+        {
+          "effect_id": "671:requiem:tribute",
+          "after_state_sha256": "c22b02baa65ef24141e7f343d9a05897bdfa646061ed44c33c453ce038729db9"
+        },
+        {
+          "effect_id": "671:requiem:equip",
+          "after_state_sha256": "389acf967368421781e5fb03b512ea97439787d470e044d654b70f60674308e2"
+        },
+        {
+          "effect_id": "671:engraver:remove",
+          "after_state_sha256": "aaef492fbaf12383e54155949cf2750a517cca815a3580f975c4dad80e0ce1fd"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 8,
+      "source_documented_steps": 7,
+      "source_declared_transitions": 8,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C04",
+      "source_test": "torneos_yugioh/tests/memento_c04_route_replay_test.cjs",
+      "source_blob_sha": "bffed7c2c8a98accd4c68e93b859e2f20c0b915a",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 2,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 1
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "2799ebcf5c754547d85c776fbb74452cee259357327ce4dce955d99587d2ec0b"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "bc647084cc210b2b81fbd230e6658fa64c8167e4a70afa14d69317709f35de69"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "544facbcee60ebdea5d91163044d89c91353262a62b92d1ab207ba2426254a02"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "536c44c8de1db50d62455246cf025498d706d6356422c813bc8ee6863e25e5d0"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "6d767759075c3f6bb15ec18a8215998483c8823b4ffa949462055eda8aeb1ba7"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "e2354f1f18d2e9c196b2188ffbdb45d1b3558d976038387475c80776680e7f59"
+        },
+        {
+          "effect_id": "671:angwitch:destroy-revive-mace",
+          "after_state_sha256": "93bb0febaf98481d7256f58d6c8084d59759629ec46f74739d232de483dbf70a"
+        },
+        {
+          "effect_id": "671:mace:search",
+          "after_state_sha256": "ee7a422b76ab90c80b2adb048a168e3410e5b64888dfa1ff953dca78ae91e2fc"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "9d41cec2c7aa0905ed9eaeed3a556cf5c6edc2fa44a4877a2518d2b9ee246c57"
+        },
+        {
+          "effect_id": "671:creation-king:fusion-send",
+          "after_state_sha256": "2d7eb60d29b8de8a59695c69d3379db37a3ef718a4feca403ffa035dba930cf1"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "0d292242f95d7ea9c54206e458766ec38528a2caa69f0affd9d43ce090b19602"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 11,
+      "source_documented_steps": 8,
+      "source_declared_transitions": 11,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C05",
+      "source_test": "torneos_yugioh/tests/memento_c05_route_replay_test.cjs",
+      "source_blob_sha": "30b30e6942d2723b117bdfcfd9135994adfd1b8b",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:484",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 2,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 1
+      },
+      "steps": [
+        {
+          "effect_id": "671:19363:normal",
+          "after_state_sha256": "299ecf1ae40162c2f3a2cbdb3fff47ab5f6c0f6c72511fed7c9882dd99d4a8f9"
+        },
+        {
+          "effect_id": "671:dark-blade:goblin",
+          "after_state_sha256": "22c0c9a8f4dcaa1856032e07b882af9ceabf7ac12af5fb99a2ea4ae949ba5029"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "0b7d12af0a443f6256d42f45762bb3c2dee0ddb80d711124144fc11549c68081"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "dd802d5d2c440d82f4f2b2b2775f6dfd582abee4f05081caea4593da6c1df069"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "487f677fc09665dcf277aaca7a563c64136f5dbbabd8a5c6a3f6c68003a11e21"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "ffd0262a0640c60c06c0f1c41f0fb3e7cff78675b84b12c9be18c89a87072e9a"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "7e092d1c6a995e896de419492a5fc1b9cc166ef25f3ad53565d5457a77c52090"
+        },
+        {
+          "effect_id": "671:angwitch:destroy-revive-mace",
+          "after_state_sha256": "23d8b3ec47a1ab36b7c120550dfa91188c66869e8ffb97ea9b5ba37fd5495bc7"
+        },
+        {
+          "effect_id": "671:goblin:send-two",
+          "after_state_sha256": "70a2eab6660ba1ac91721495b467e97e23f551eebcf0802115e36fc38540c2e2"
+        },
+        {
+          "effect_id": "671:memento-fusion:graveyard-search",
+          "after_state_sha256": "2943551133028e5d35fced33f4e4777c0f17c469163816f2dbe70d82a1f701d2"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "56910c57ad86b00fd919adc3ec289868c5ac4f4797ac1594af7d100652fb7e60"
+        },
+        {
+          "effect_id": "671:creation-king:fusion-send",
+          "after_state_sha256": "8bc8587df5a735572effa6dce214139d0e8f5b4d9898386afd1e5c6d853e41ad"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "fffa5b3eeae0d1c098d9a3eb8e6f5be5c349e65ef2c1dcc5c79a9fff2fae7201"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 13,
+      "source_documented_steps": 9,
+      "source_declared_transitions": 13,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C06",
+      "source_test": "torneos_yugioh/tests/memento_c06_route_replay_test.cjs",
+      "source_blob_sha": "35ac95d04f91707eccce92767e900d0757d698ae",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:497",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 3,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 2
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "992a9c6de014b6ea5a75bcd84e412a36bcdd0319e569c5924d07a81e2155d4f6"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "c6aaa5fe167b9a439894876bc3f157d2e62c2b03a7887dbc4ab62e3e33c12744"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "87f94694c230fbf0b553917a153f6f9dbb250d8c88f2b2d4d333d6de78348ca7"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "a885c414bb5e08a41916c9e82e173c283bb82ce8beea4e0c3575e0ecaff58712"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "f3d432864eefe6dca7bbd3f8a757867253ef76bb45444bc574bb7e6a6ca7e12e"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "05958d6044dd8f8cb1b12a035f843d71a1d88223226f1bb621d948ee6004ff63"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "4c1750bf56cf004fc43b1b2cec798195d16e2c8177705a692001d533fe4c92c1"
+        },
+        {
+          "effect_id": "671:twin-dragon:fusion-search",
+          "after_state_sha256": "0b6f72c27f74771fb0bec6f783cc18f1ee2c438a958fa7a1ae6da72c7307b1b5"
+        },
+        {
+          "effect_id": "671:shleepy:send",
+          "after_state_sha256": "1df9fafce0fe1b76d90c0f64e3404649ca185cc631ef3c286dcb557c8bf08764"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "42fc2d375cbab57bd6e5f042f285111cd157cf99fc1eea441e2b445293138a6c"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 10,
+      "source_documented_steps": 5,
+      "source_declared_transitions": 10,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C07",
+      "source_test": "torneos_yugioh/tests/memento_c07_route_replay_test.cjs",
+      "source_blob_sha": "69387730a5c02b2adb0e4ffc1b58c2fcaf2f649a",
+      "initial_state": {
+        "version": 1,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "format": "tcg_advanced",
+        "turn": 2,
+        "goesFirst": false,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:497",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 3,
+            "key": "671:489",
+            "owner": "opponent",
+            "controller": "opponent",
+            "zone": "m3",
+            "position": "attack"
+          },
+          {
+            "uid": 4,
+            "key": "671:485",
+            "owner": "opponent",
+            "controller": "opponent",
+            "zone": "m4",
+            "position": "attack"
+          }
+        ],
+        "nextId": 5,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 5
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "4a744d02bae81544b03bcdca1d96717194585cc1f18711aa706d74bdce7507e6"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "f3feacc856ef0baaf64cc7ac42b2580abaa95d3b76dcc35e61a61af3729bf077"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "0a841f1fc24510583510e7f8dd1cf483af1cecff35cef2841c91dda709a89947"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "449b97eca1f448bdb742bbafa20372e49f7baa7d978e2c5da8a88cc182a9460a"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "8f4a93fda9bc01bbeef18295132bdf3ce7d08eb6409d127638c977ba111d5e9f"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "528568c2951db43b59d20a9ffb865ca309ccd1145fce701f32f21ac987a24dff"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "d908ae25258ef883e8fee78955824ffbec7e0bf2918b138c16591526a6505d97"
+        },
+        {
+          "effect_id": "671:guardian-chimera:draw-destroy",
+          "after_state_sha256": "2d289e5a7e1d002b6423b67bb4e52972885de13b205c5ae596a4e06f3daf8c8d"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 8,
+      "source_documented_steps": 4,
+      "source_declared_transitions": 8,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C08",
+      "source_test": "torneos_yugioh/tests/memento_c08_route_replay_test.cjs",
+      "source_blob_sha": "7797681790d926d2df2e336de373f43757a0a26c",
+      "initial_state": {
+        "version": 1,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 2,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 1
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "e1a541fa907c7d6bd2eddc78931e1ac825bdd9c30069c962c4c58b2f441e9aa6"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "8b64e02c7bb3b9942f1dcf905ae9aaef9383829aefc6d1e2a7f81c9ccba3c26f"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "0ecaeb717faf8c3274083d799ee9b30e990b2c932a899213b39fab9137eac94b"
+        },
+        {
+          "effect_id": "671:sp:link-procedure",
+          "after_state_sha256": "c28c670e70f18b63d279d7ffed5bd0028ccc55a5aad9b866a40b4c10507a8f33"
+        },
+        {
+          "effect_id": "671:sp:temporary-banish",
+          "after_state_sha256": "37f8993859b50fc391cbd75cef2bdb3a795b83c7427693518f57ed95bc3e87b4"
+        }
+      ],
+      "interruptions": [
+        {
+          "before_step": 5,
+          "previous_after": "c28c670e70f18b63d279d7ffed5bd0028ccc55a5aad9b866a40b4c10507a8f33",
+          "next_before": "27002bed9114f8376d849a0afe29d67ae0e69cc5d3413b79716fdefa866c48b7"
+        }
+      ],
+      "observed_actions": 5,
+      "source_documented_steps": 4,
+      "source_declared_transitions": 5,
+      "known_metadata_discrepancy": false,
+      "migration_status": "NEEDS_DECLARATIVE_NON_ACTION_EVENT"
+    },
+    {
+      "route_id": "671:A09:C09",
+      "source_test": "torneos_yugioh/tests/memento_c09_route_replay_test.cjs",
+      "source_blob_sha": "a8a91a4bcffe825ba884a074e500735044fb5c5b",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:485",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 3,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 2
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "6cc6942c1cecf2d4a7e3462fe4a66d4df838957feef123fa474c2afefbb5717c"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "8f20cf3592e94b1a98fb47f9a661f6f0ea390cbb7094529283b55a5cef1388c6"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "84e8ba75b829652f7aa0dd79a9d0004a5fd2259ee924e0fa5f9fbeb79860c74c"
+        },
+        {
+          "effect_id": "671:moon:link-from-angwitch-tatsun",
+          "after_state_sha256": "82de79b5b0ef7fb1037cc3694557550041eaf663508b1ce60fa2424c6b90e142"
+        },
+        {
+          "effect_id": "671:moon:link-requiem",
+          "after_state_sha256": "9dc7d755b5d5a786c0ea8a2c26b91e4d708654e28ef5a59bd421956218a488aa"
+        },
+        {
+          "effect_id": "671:requiem:tribute",
+          "after_state_sha256": "ab615906aa2ad12f28542b305239cb510fb01ceb40b26f96f7068b9da7ee5ade"
+        },
+        {
+          "effect_id": "671:requiem:equip",
+          "after_state_sha256": "cd625e3d2cb9884d41603b90b2ccbba4e7a2bd4dfd4b90a3203ab1a7ab9f0d61"
+        },
+        {
+          "effect_id": "671:princess:contact-summon",
+          "after_state_sha256": "4b083efdbacd511f68687af8154589330c837f03ee375b7a17801cad5aad9555"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 8,
+      "source_documented_steps": 5,
+      "source_declared_transitions": 8,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C10",
+      "source_test": "torneos_yugioh/tests/memento_c10_route_replay_test.cjs",
+      "source_blob_sha": "1861b69ae1fbc4aff7c98f913a2a9ea8030ed7df",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:498",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 3,
+            "key": "671:485",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 4,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 3
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "7d4db89b494057acdb334080b4d6058aaff78311aad05526d1cd45dd44d5f71b"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "dc3ed64326bb6ebe41547c6aa0d5849383322156846173f01a5089cac60ac480"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "9a54c2d024abe1f0cfffdd7d4d3e202db23efadc350a993dd00c4cbfa8e4a3cd"
+        },
+        {
+          "effect_id": "671:moon:link-from-angwitch-tatsun",
+          "after_state_sha256": "e4e892bff5160a9acfbb0eab6d08d5e073e94c34b85e6ed13d4226ca77c13f0d"
+        },
+        {
+          "effect_id": "671:moon:link-requiem",
+          "after_state_sha256": "8fb135033a1df9fb9b5e17bb0be44d815a72b20799f05ee1f4d596ac5d4627f6"
+        },
+        {
+          "effect_id": "671:requiem:tribute",
+          "after_state_sha256": "ff0c2e93b30d474c717ddb6f656f5d8d3e830cb54f03a9274ae4d8091df5f80f"
+        },
+        {
+          "effect_id": "671:bone-party:main",
+          "after_state_sha256": "85cdb392cb38ac15ae4ecc1e2961a0ef58e037ae6bb0a6cae719c1c9955bd0b4"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "6faeaf198e229f4a3071a2954303f675c8230ad324e735c5912ed0943cd11cc1"
+        },
+        {
+          "effect_id": "671:engraver:link-sequence",
+          "after_state_sha256": "11f6f8575a65a0cb4970e490e819eed5e5e8e1b4ace333dedfb9d5b40165ad17"
+        },
+        {
+          "effect_id": "671:sequence:duke-fusion",
+          "after_state_sha256": "44d6c43e4a623dcbce0d0eacd9fc5bbd1d5fd09eeba64565d771c145219b92aa"
+        },
+        {
+          "effect_id": "671:duke:immediate-normal",
+          "after_state_sha256": "7f7ad06b15b3ee195e5dfcfad0112a441e4aec776a403ceaa814e930b9af93ed"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 11,
+      "source_documented_steps": 5,
+      "source_declared_transitions": 11,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C11",
+      "source_test": "torneos_yugioh/tests/memento_c11_route_replay_test.cjs",
+      "source_blob_sha": "b3f9ba9828f3fc3ee843ee104c1c4d45c8141fde",
+      "initial_state": {
+        "version": 1,
+        "practice": true,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 0,
+          "name": "Práctica libre",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [],
+          "signature": "741638a5"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:500",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 3,
+            "key": "671:497",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          }
+        ],
+        "nextId": 4,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 3
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "f24a2f1c7b097080420ea76b6f0e18857dd5a846cf1b525d93cc155d7445a6d4"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "37c1a49a206c6fbe1c56283be8ff8d4a35265272b2b04d3c148b3995a291d5d4"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "835c7cde4faa2c283471a282a57f7dd619a2ef7f9586950243e8eff631f71368"
+        },
+        {
+          "effect_id": "671:goblin-biker-grand-breakout:deck-summon",
+          "after_state_sha256": "3f51bee19388d8a2462faac3bba9284133335f1458c389f94d96049fdcfbb10f"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "54ce0c2f0b3cc43575e935727f927f7a7696dd222a95231cd384322a61d73903"
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "after_state_sha256": "0f50e0274478eef6f7e14e399111c7a74d10d5f7c519b7fd7b5de323bf9da8ca"
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "after_state_sha256": "cc21d0a4db8a56b4a53c0ce2999e15021c1317e614ee94a864e4b8a605f14d9e"
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "after_state_sha256": "50c95e36c31cb2ba1c0e8b214f12fadf456a55cf361e7dcfc520aa054f571868"
+        },
+        {
+          "effect_id": "671:creation-king:fusion-send",
+          "after_state_sha256": "44342ff3c5e2cc7b8700449f5ac8663285e3c49bff940752a268e4b0b7b8b91d"
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "after_state_sha256": "7f5e7703498f9b317f86879469db0601949513b649339b39bb9432c9be1f3dff"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 10,
+      "source_documented_steps": 6,
+      "source_declared_transitions": 10,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    },
+    {
+      "route_id": "671:A09:C12",
+      "source_test": "torneos_yugioh/tests/memento_c12_route_replay_test.cjs",
+      "source_blob_sha": "c66eb6d4adfce235a633a1da93a2d3f1eb7bf241",
+      "initial_state": {
+        "version": 1,
+        "self": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "opponent": {
+          "id": 671,
+          "name": "Memento",
+          "formats": [
+            "tcg_advanced"
+          ],
+          "cards": [
+            {
+              "key": "671:499",
+              "name": "Oleada de Calor",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:494",
+              "name": "El Bufón y el Pájaro del Candado",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:517",
+              "name": "Portaaviones Sumergible Aero Tiburón",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:506",
+              "name": "Predaplanta Dragostapelia",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:493",
+              "name": "Flor de Ceniza",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:510",
+              "name": "D/D/D César, Alto Rey de las Olas",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:503",
+              "name": "Llamado por la Tumba",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:504",
+              "name": "Talento de Tácticas Triples",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:501",
+              "name": "Gotas Prohibidas",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:507",
+              "name": "Quimera Guardián",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:511",
+              "name": "TY-PHON - Crisis Celeste",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:513",
+              "name": "S:P Pequeña Caballera",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:486",
+              "name": "Tecuhtlica - Creación Combinada",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:491",
+              "name": "Dragón de Cuerno",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:483",
+              "name": "Tatsunootoshigo",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:484",
+              "name": "Hoja Oscura",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:482",
+              "name": "Angbruja",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:489",
+              "name": "Maza",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:485",
+              "name": "Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:502",
+              "name": "Mementomictlán",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:498",
+              "name": "Fiesta de Huesos",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:490",
+              "name": "Desvantasmas",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:509",
+              "name": "Dragón Gemelo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:497",
+              "name": "Fusión Mementotlán",
+              "quantity": 3,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:514",
+              "name": "Luna del Cielo Cerrado",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:492",
+              "name": "Demoniherrero Grabador",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:488",
+              "name": "Dormiveja",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:508",
+              "name": "Rey Creación",
+              "quantity": 3,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:512",
+              "name": "Réquiem del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:515",
+              "name": "Secuencia del Demoniherrero",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:516",
+              "name": "Duque de la Defunción",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:505",
+              "name": "Princesa Necroequipo",
+              "quantity": 1,
+              "section": "extra",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:487",
+              "name": "Akhíron",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:495",
+              "name": "Fuwalos",
+              "quantity": 1,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            },
+            {
+              "key": "671:500",
+              "name": "Gran Fuga Moto Goblin",
+              "quantity": 2,
+              "section": "main",
+              "imageId": 0,
+              "role": ""
+            }
+          ],
+          "signature": "ffe002b9"
+        },
+        "format": "tcg_advanced",
+        "turn": 1,
+        "goesFirst": true,
+        "active": "self",
+        "phase": "main1",
+        "normalAvailable": true,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        },
+        "unknown": {
+          "hand": 0,
+          "banished": 0
+        },
+        "selfUnknownHand": 0,
+        "opponentHandComplete": false,
+        "notes": "",
+        "tokens": [
+          {
+            "uid": 1,
+            "key": "671:482",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 2,
+            "key": "671:491",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 3,
+            "key": "671:498",
+            "owner": "self",
+            "controller": "self",
+            "zone": "hand",
+            "position": "attack"
+          },
+          {
+            "uid": 4,
+            "key": "671:489",
+            "owner": "opponent",
+            "controller": "opponent",
+            "zone": "m3",
+            "position": "attack"
+          },
+          {
+            "uid": 5,
+            "key": "671:485",
+            "owner": "opponent",
+            "controller": "opponent",
+            "zone": "m4",
+            "position": "attack"
+          }
+        ],
+        "nextId": 6,
+        "confirmed": [],
+        "usedEffects": "",
+        "chain": [],
+        "_captureRevision": 5
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "after_state_sha256": "2e5ec4c20238ac782773134acb8bc55691f26b93fa4be99f0a79740d62594a13"
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "after_state_sha256": "10345ac5e04a64561aff4373c6bdd64bb9023cdefb02d9ebf2f891f291521e14"
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "after_state_sha256": "69e9bf01c3f2a6f3fb50573cf55d010347910b7eb08ca4300d07e2b9b43fb758"
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "after_state_sha256": "4232331e045f1f9c123ef88f2769b8b0670c5e5ee50582c4b42002deb407ff8d"
+        },
+        {
+          "effect_id": "671:horned:special",
+          "after_state_sha256": "389f11edddaf9064d16eecbc51d2e131462c3f92dccc1c043bac39b7cd59054e"
+        },
+        {
+          "effect_id": "671:bone-party:main",
+          "after_state_sha256": "e94f18309e1f9f5a754fc3a2195c36673c1c9619ec640fc293d8ad380482e1e9"
+        },
+        {
+          "effect_id": "671:horned:destruction",
+          "after_state_sha256": "29902f1e58201adb26532444019a22af7240dfc7a088e7882ba5624b99ce9d42"
+        }
+      ],
+      "interruptions": [],
+      "observed_actions": 7,
+      "source_documented_steps": 5,
+      "source_declared_transitions": 7,
+      "known_metadata_discrepancy": false,
+      "migration_status": "GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY"
+    }
+  ],
+  "legacy_tests_preserved": true,
+  "requires_independent_semantic_parity": true,
+  "known_mismatches": [
+    "671:A09:C02"
+  ],
+  "direct_golden_routes": 11
+}
