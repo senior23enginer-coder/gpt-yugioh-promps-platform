@@ -2,7 +2,7 @@
   "schema": "station-x-legacy-paper-regression-suite/1",
   "purpose": "Migration of a strict subset of existing historical assertions to reusable data, without reanalysis or inventory modification",
   "explicitly_not_a_new_deck_analysis": true,
-  "coverage_policy": "partial_by_legacy_file; do not delete original tests until all assertions match",
+  "coverage_policy": "3 traced legacy assertions plus 5 new negative boundaries; partial by legacy file; retain all original tests",
   "documents": [
     {
       "schema": "station-x-paper-cases/1",
@@ -42,7 +42,9 @@
                 "zone": "field"
               }
             ]
-          }
+          },
+          "origin": "legacy_assertion",
+          "source_assertion": "Activation must place the Field Spell in field zone"
         },
         {
           "case_id": "P06-671-MICTLAN-GRAVE-DENIED",
@@ -62,7 +64,9 @@
               }
             ]
           },
-          "expected_legal": false
+          "expected_legal": false,
+          "origin": "additional_negative_boundary",
+          "source_assertion": null
         },
         {
           "case_id": "P06-671-MICTLAN-BATTLE-DENIED",
@@ -82,7 +86,9 @@
               }
             ]
           },
-          "expected_legal": false
+          "expected_legal": false,
+          "origin": "additional_negative_boundary",
+          "source_assertion": null
         }
       ]
     },
@@ -136,7 +142,9 @@
             "rule_flags": {
               "machineSynchroOnly": true
             }
-          }
+          },
+          "origin": "legacy_assertion",
+          "source_assertion": "Smiger can select itself, destroy itself and bring Citree:"
         },
         {
           "case_id": "P06-677-SMIGER-HAND-DENIED",
@@ -156,7 +164,9 @@
               }
             ]
           },
-          "expected_legal": false
+          "expected_legal": false,
+          "origin": "additional_negative_boundary",
+          "source_assertion": null
         },
         {
           "case_id": "P06-677-SMIGER-BATTLE-DENIED",
@@ -176,7 +186,9 @@
               }
             ]
           },
-          "expected_legal": false
+          "expected_legal": false,
+          "origin": "additional_negative_boundary",
+          "source_assertion": null
         },
         {
           "case_id": "P06-677-SMIGER-GY-SEARCH",
@@ -208,7 +220,9 @@
                 "zone": "hand"
               }
             ]
-          }
+          },
+          "origin": "legacy_assertion",
+          "source_assertion": "Smiger GY should banish itself and add Inclusion"
         },
         {
           "case_id": "P06-677-SMIGER-GY-HAND-DENIED",
@@ -228,7 +242,9 @@
               }
             ]
           },
-          "expected_legal": false
+          "expected_legal": false,
+          "origin": "additional_negative_boundary",
+          "source_assertion": null
         }
       ]
     }
