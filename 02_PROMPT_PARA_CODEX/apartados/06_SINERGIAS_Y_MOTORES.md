@@ -1,5 +1,11 @@
 # Apartado 06 — SINERGIAS Y MOTORES
 
+## Entrega estandarizada A06 — semántica causal y pruebas lógicas de papel
+
+A06 describe conexiones causales como grafo por IDs del lenguaje único. Cada relación señala condición, carta y efecto que provoca el cambio, recurso consumido y resultado verificable. No afirmar que una sinergia es una transición legal del motor; esa certificación queda en A10B.
+
+Seguir el contrato transversal del maestro, conservar el mismo `deck_id/card_id/cid/effect_id/route_id` entre etapas y almacenar la evidencia en el deck existente. Toda tarea se cierra sólo con evidencia; al finalizar informar el checklist completo A01–A10A y A10B únicamente si fue solicitado.
+
 Módulo de trabajo independiente del proyecto Station X. Revisión de alcance visual y editorial (2026-11-05).
 
 **Entrada:** seguir el protocolo común de entrada del maestro (selección de un deck, fuentes pertinentes, formato y evidencias previas); aplicar la instrucción específica de este módulo sin ejecutar una tarea global.
@@ -146,26 +152,12 @@ de inventar estructura. Los estados internos nunca son títulos de la vista.
 - La representación fotográfica y las cuatro vistas quedan especificadas, con enlaces válidos o `FOTO_PENDIENTE` sin afirmar finalización visual.
 
 
-## Puerta obligatoria de checklist por deck — A06 (revisión 21-11-2026)
-
-Este módulo se aplica **únicamente al deck identificado por `deck_id` + formato + inventario aprobado**, sin trasladar evidencia ni estado de otros decks. Se mantiene **una sola lista canónica por deck** dentro del archivo `DECK_*_CONTENIDO_CURADO.md` ya existente, bajo `CONTROL_DE_TAREAS_A01_A10` (o sección equivalente existente); no crear documentos/JSON de seguimiento por fase ni archivos de prueba por carta. Cada ejecución o reanálisis actualiza esa lista y devuelve el estado **de todas las tareas A01–A10A** para ese deck, incluyendo tareas terminadas con evidencia y pendientes concretas. A10B se muestra aparte como opcional; nunca se ejecuta implícitamente.
-
-**Checklist A06 — obligatorio, chequeable y con evidencia:**
-- [ ] **A06-T01** — Describir cada motor y su dependencia entre cartas/recursos. Evidencia: `PENDIENTE`.
-- [ ] **A06-T02** — Verificar enlaces y bloqueos entre motores propios y Extra. Evidencia: `PENDIENTE`.
-- [ ] **A06-T03** — Registrar plan primero/segundo, recuperación y alternativas desde el inventario real. Evidencia: `PENDIENTE`.
-
-**Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
-
-**Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
-
-
 ## Checklist obligatorio por deck A06 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:
-- [ ] **A06-T1** Motores y relaciones dirigidas por CID; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A06-T2** Sinergias, requisitos y restricciones verificables; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A06-T3** Planes primero/segundo, medio/tardío y recuperación; evidencia por ID/fuente: pendiente hasta verificar.
-- [ ] **A06-T4** Referencias entre cartas, campo y rutas sin inventar combos; evidencia por ID/fuente: pendiente hasta verificar.
+- [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
+- [ ] **A06-T4** Derivar casos de papel de sinergias y enlaces A05→A07→A08/A09; clasificar SIN_COMBO_IDENTIFICADO sin fabricar acciones; evidencia por CID/effect_id/case_id/source o causa exacta del bloqueo.
 
 Cada `[x]` exige resultado terminado y comprobado. No marcar `COMPLETA` con tarea parcial, omitida o sin evidencia. Si no se puede completar, registrar `[ ] BLOQUEADA` con causa y siguiente acción, sin falsear la conclusión. Cada ejecución y reanálisis devuelve **listado completo A01–A10A de ese deck**, tareas acabadas, pendientes, evidencias y totales; A10B se informa aparte únicamente si se solicitó. Mantener trazabilidad de datos exhaustivos de cada carta para guía, vista visual y posterior análisis físico. Ni A05 ni A07 ejecutan o compilan el motor: **implementación, importación de reglas, pruebas de efectos y calculadora son exclusivamente A10B opcional**.
