@@ -270,7 +270,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
   - `671:a05:20216:same-chain-effect-restriction` · **RESTRICCION** · No activar en la misma Cadena los efectos de envío tras Fusión y destrucción rápida; cada uno una vez por turno.
 
 - **CID 20225 — Réquiem del Demoniherrero** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en))
-  - `671:a05:20225:link-one-light-fiend` · **PROCEDIMIENTO** · Link-1 usando un Demonio LUZ.
+  - `671:a05:20225:link-one-light-fiend` · **PROCEDIMIENTO** · Invocación por Enlace de Réquiem desde el Extra Deck utilizando exactamente un monstruo Demonio de Atributo LUZ físicamente disponible como material.
   - `671:a05:20225:special-summon-name-once` · **RESTRICCION** · Solo Invocar de Modo Especial Réquiem una vez por turno por nombre.
   - `671:a05:20225:quick-main-tribute-fiendsmith-summon` · **RAPIDO** · Durante Main Sacrificarse para Invocar Fiendsmith de mano/Deck.
   - `671:a05:20225:field-gy-equip-light-fiend` · **ACTIVACION** · Seleccionar Demonio LUZ no Link propio, equipar Réquiem desde Campo/GY y dar +600 ATK; el equipamiento se usa una vez por turno.
