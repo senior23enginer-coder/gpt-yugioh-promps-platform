@@ -20,9 +20,17 @@
 
 **Asignación expresa recibida:** “Analizamos memento”. Identidad inequívoca: `deck_id=671`, formato `tcg_advanced`, carpeta histórica `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO`. Preflight realizado sobre los DOS paquetes versionados, `datos/stationx-deck.json` de GPT y `torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json` de Platform: misma lista de `card_id, sección, cantidad, CID` en 40 filas, **41 Main / 15 Extra / 14 Side / 0 Reserva**, 70 copias y 39 identidades. La Reserva opcional no se fabricó. **Importante:** GitHub permite acreditar la igualdad de las dos copias versionadas, no consultar el estado vivo de la base de datos de producción.
 
-**Estado de ejecución actual:** A01 **3/3 tareas verificadas**; A02–A10A **0/32 tareas verificadas contra el nuevo contrato en esta ejecución**. Los cierres editoriales de noviembre son evidencia reutilizable, pero NO cierran automáticamente las nuevas tareas que requieren casos lógicos de papel, paridad visual y validaciones específicas. **A10B no solicitado**: no se ha compilado, reimportado ni ejecutado la calculadora por esta asignación.
+**Estado de ejecución actual:** A01 **3/3**, A02 **3/3** y A03 **3/3 tareas verificadas**; A04 **1/3** (A04-T2 y T3 pendientes); A05–A10A aún no verificados bajo el nuevo contrato. **10/35** tareas obligatorias verificadas, 25 pendientes. Los cierres históricos no se trasladan automáticamente al nuevo checklist. Los cierres editoriales de noviembre son evidencia reutilizable, pero NO cierran automáticamente las nuevas tareas que requieren casos lógicos de papel, paridad visual y validaciones específicas. **A10B no solicitado**: no se ha compilado, reimportado ni ejecutado la calculadora por esta asignación.
 
 **Actualización sobre los replays de la documentación histórica:** las tablas V40/V42 anteriores citan “0 replays”. A fecha de este control, Platform tiene pruebas históricas **C01–C12 con 105 transiciones reproducidas en CI** mediante fixtures de regresión, con alcance de apertura exacta y restricciones declaradas; **C02 conserva un conflicto de conteo (6 documentadas frente a 5 acciones del test)**. Eso no certifica casos arbitrarios de cadenas, cartas ocultas, legalidad general ni cumplimiento completo de A05–A10A. No se han ejecutado nuevas partidas ni análisis A10B.
+
+### A02–A03 — recepción e inventario acreditados
+
+El formato y la identidad de los paquetes versionados son coherentes; la prueba histórica de importación ZIP se usa solo como evidencia de compatibilidad estructural. El inventario físico se conserva **41/15/14/0**. Ningún ensayo en CI modifica la base productiva. La diferencia documental original del conteo C02 sigue siendo deuda de A09, no del inventario.
+
+### A04 — fotografías y trazabilidad visual
+
+A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T2 sigue abierta** porque contar archivos y verificar CID en los nombres no equivale a inspeccionar las imágenes individualmente ni a asegurar su resolución/legibilidad. A04-T3 requiere un cotejo posterior de zonas y fotos en las vistas visuales.
 
 ### A01 — identidad y estrategia comprobadas
 
@@ -41,24 +49,24 @@
   - **Evidencia verificada:** Cruce CID/efecto/ruta: 19364→671:angwitch:search→C01/C04; 19363→671:dark-blade:goblin→C05; 19904→671:memento-fusion:fuse→C01/C06; 20216→671:creation-king:fusion-send→C01/C04; 19360→671:tecuhtlica:five-names→C02; 19188→671:sp:temporary-banish→C08.
 
 ### A02 — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Paquete station-x-deck-package/1 y record.schema station-x-curated-v62; deck_id=671 en ambos; format=tcg_advanced, carpeta NUEVO_12 es alias histórico, fuente de inventario original aprobada el 18-11-2026.
+- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Compatibilidad documental comprobada: content_mode=structured, inventory_binding=deck-slots-v1, source_document existe, 40 filas de inventory concordantes con record.cards[*].slots, 12 rutas/69 pasos con fotos. La prueba aislada de ZIP de Platform CI #44938444076 aprobó la estructura base; no se declara aquí una nueva importación viva posterior a la actualización del perfil A01.
+- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** 40 card_id nativos estables, 39 CID y mismo formato/suma de cantidades en ambas copias del repositorio. Skills=0 y Reserva ausente por ser opcional. No se modificaron cartas, reglas, rutas ni otros decks.
 
 ### A03 — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [x] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Cotejo de todas las filas entre paquete GPT y snapshot Platform: 41 Main (22 filas), 15 Extra (13 filas), 14 Side (5 filas), 0 Reserva; 70 copias, 40 slots únicos, sin diferencia y sin rellenar Side.
+- [x] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** 39/39 CID únicos con URLs oficiales Konami Neuron que incluyen el mismo CID; 40/40 card_id únicos, correspondencia name/CID/section/quantity en record y lista aprobada, sin identidades duplicadas. La revisión oficial completa es documental previa A04; no se deduce legalidad de formato.
+- [x] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Inventario original aprobado el 18-11-2026, conservado literalmente en ambas copias; corte de trabajo: paquete GPT blob 71468de962131c56c68365892afd61a18b82135b (actualizado solo el perfil), 39 identidades, 70 copias, 12 route_id, 353 variantes de reglas preexistentes (NO son 353 efectos distintos).
 
 ### A04 — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [x] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** 39/39 filas de identidad con CID, imagen bajo imagenes/<CID> y URL oficial Konami Neuron concordante. Archivos reales en GitHub: 26 PNG y 13 JPG; todos mayores de 0 bytes, sin CID huérfano. Este control verifica presencia/procedencia documentada; la inspección visual de calidad se trata en A04-T2.
 - [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 - [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
@@ -123,7 +131,7 @@
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
 **A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
-**Siguiente tarea en orden:** A02-T1; antes de marcar A02 completa verificar identidad/huella y compatibilidad de importación. No reinterpretar el Side de 14 como 15.
+**Siguiente tarea en orden:** A04-T2, inspección de calidad/identidad visual de las imágenes originales; después A04-T3. **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
 
 ---
 
