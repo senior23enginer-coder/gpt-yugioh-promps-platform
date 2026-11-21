@@ -987,6 +987,380 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Estado posterior esperado:** Si resuelve: Si este turno usas Luna para Invocar Link-5, permitir usar ese monstruo enemigo seleccionado como material; no invocarlo automáticamente; mantener las zonas de recursos y restricciones pertinentes.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en
 
+#### 61. `671:a05:20196:hand-discard-search-fiendsmith-spelltrap` · CID 20196 (ACTIVACION_MANO)
+
+- **Actor / estado inicial:** Grabador CID20196 en mano propia; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana de efecto de mano legal, propio turno salvo restricciones.
+- **Coste o requisito previo:** Descartar Grabador mano→GY como coste de activación; guarda: M/T Fiendsmith realmente presente en Main Deck, condición que no se cumple actualmente en la lista 671.
+- **Selección / targeting:** Elegir una M/T Fiendsmith del Deck, sin target sobre campo.
+- **Resolución:** Añadir a mano esa M/T Fiendsmith desde Deck si existiese; con este inventario no proponer búsqueda.
+- **Uso, negación y restricciones:** Cada efecto de Grabador una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Añadir a mano esa M/T Fiendsmith desde Deck si existiese; con este inventario no proponer búsqueda; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en
+
+#### 62. `671:a05:20196:target-own-equip-and-field-monster-to-gy` · CID 20196 (ACTIVACION)
+
+- **Actor / estado inicial:** Grabador CID20196 boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana legal de efecto de monstruo propio.
+- **Coste o requisito previo:** Sin descarte ni sacrificio; las cartas son enviadas como resolución; guarda: Una Carta de Equipo Fiendsmith que controlas y un monstruo real sobre el Campo.
+- **Selección / targeting:** Dos targets: tu Equipo Fiendsmith y un monstruo en el Campo.
+- **Resolución:** Enviar ambos objetivos válidos al GY durante la resolución, no destruir ni negar.
+- **Uso, negación y restricciones:** Cada efecto de Grabador una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Enviar ambos objetivos válidos al GY durante la resolución, no destruir ni negar; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en
+
+#### 63. `671:a05:20196:gy-shuffle-light-fiend-self-revive` · CID 20196 (ACTIVACION_GY)
+
+- **Actor / estado inicial:** Grabador CID20196 en GY propio; conservar identidad de copia real.
+- **Ventana / disparador:** Main Phase propia con ventana de activar efecto desde GY.
+- **Coste o requisito previo:** Devolver otro Demonio LUZ de tu GY al Deck/Extra como coste, antes de resolver; guarda: Otro monstruo Demonio LUZ en propio GY barajable y espacio de MZ válido.
+- **Selección / targeting:** Seleccionar recurso a devolver, excluyendo esta misma copia.
+- **Resolución:** Invocar Grabador desde GY a Campo solo si resuelve; otro Demonio LUZ ya no está en GY.
+- **Uso, negación y restricciones:** Cada efecto de Grabador una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Grabador desde GY a Campo solo si resuelve; otro Demonio LUZ ya no está en GY; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en
+
+#### 64. `671:a05:20199:hand-special-after-own-destruction` · CID 20199 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Dormiveja CID20199 en propia mano; conservar identidad de copia real.
+- **Ventana / disparador:** Efecto Rápido durante turno en que una carta monstruo tuya fue destruida por efecto.
+- **Coste o requisito previo:** Sin coste de descarte ni destrucción; guarda: Evento previo verificable de destrucción por efecto de monstruo que estaba en tu posesión y zona MZ propia libre.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Invocar Dormiveja desde mano a una MZ propia.
+- **Uso, negación y restricciones:** Cada efecto de Dormiveja una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Dormiveja desde mano a una MZ propia; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en
+
+#### 65. `671:a05:20199:on-summon-fusion-memento` · CID 20199 (DISPARO)
+
+- **Actor / estado inicial:** Dormiveja fue invocada Normal/Especial a MZ propia; conservar identidad de copia real.
+- **Ventana / disparador:** Disparo tras evento real de Invocación.
+- **Coste o requisito previo:** La Fusión manda materiales durante la resolución, no coste al declarar Dormiveja; guarda: Materiales legales de Memento en mano/campo y Fusión Memento real en Extra Deck.
+- **Selección / targeting:** Seleccionar materiales físicos de mano/campo requeridos por esa Fusión.
+- **Resolución:** Invocar por Fusión desde Extra un monstruo Memento válido, moviendo materiales a destinos propios.
+- **Uso, negación y restricciones:** Cada efecto de Dormiveja una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar por Fusión desde Extra un monstruo Memento válido, moviendo materiales a destinos propios; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en
+
+#### 66. `671:a05:20199:on-destroy-send-memento-from-deck` · CID 20199 (DISPARO)
+
+- **Actor / estado inicial:** Dormiveja CID20199 fue destruida por batalla o efecto; conservar identidad de copia real.
+- **Ventana / disparador:** Después de destrucción válida, ventana de disparo.
+- **Coste o requisito previo:** Sin coste adicional; la destrucción es condición previa; guarda: Carta Memento distinta de Dormiveja existe en Main Deck para mandar a GY.
+- **Selección / targeting:** Escoger carta de Deck distinta de Dormiveja sin targeting de campo.
+- **Resolución:** Enviar una carta Memento del Deck al propio GY.
+- **Uso, negación y restricciones:** Cada efecto de Dormiveja una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Enviar una carta Memento del Deck al propio GY; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en
+
+#### 67. `671:a05:20206:hand-discard-draw-opponent-hand-summons` · CID 20206 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Mulcharmy Purulia CID20206 en mano propia después de intercambio real de Side; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana de Efecto Rápido, antes de Invocaciones rivales a observar.
+- **Coste o requisito previo:** Descartar Purulia mano→GY como coste; no se roba inmediatamente; guarda: No controlas ninguna carta en tu Campo, el uso compartido de Mulcharmy se respeta y existe copia en mano.
+- **Selección / targeting:** Sin target ni predicción de cartas rivales.
+- **Resolución:** Robar una carta desconocida por cada Invocación Normal o Especial rival desde mano posterior a resolver, y durante End aplicar ajuste de exceso de mano.
+- **Uso, negación y restricciones:** Solo activar otro efecto Mulcharmy ese turno según restricción de grupo; End ajuste obligatorio; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Robar una carta desconocida por cada Invocación Normal o Especial rival desde mano posterior a resolver, y durante End aplicar ajuste de exceso de mano; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en
+
+#### 68. `671:a05:20216:fusion-three-memento` · CID 20216 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Rey Creación CID20216 en Extra Deck; conservar identidad de copia real.
+- **Ventana / disparador:** Fusión legal desde Extra con la carta/efecto habilitador.
+- **Coste o requisito previo:** Materiales se consumen durante la Fusión, no como efecto independiente del Rey; guarda: Tres monstruos Memento reales disponibles en las zonas de materiales permitidas.
+- **Selección / targeting:** Elegir tres monstruos Memento físicamente elegibles.
+- **Resolución:** Invocar Rey Creación por Fusión con sus tres materiales y espacio de zona correcto.
+- **Uso, negación y restricciones:** Cláusula de Fusión no tiene OPT autónomo; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Rey Creación por Fusión con sus tres materiales y espacio de zona correcto; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en
+
+#### 69. `671:a05:20216:gy-banish-search-field-spell` · CID 20216 (ACTIVACION_GY)
+
+- **Actor / estado inicial:** Rey Creación CID20216 está en propio GY; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana legal para activar efecto desde Cementerio.
+- **Coste o requisito previo:** Desterrar el Rey Creación del GY como coste antes de resolver; guarda: Mementomictlán CID19367 está disponible en tu Deck.
+- **Selección / targeting:** Buscar Mementomictlán del Deck, sin target de campo.
+- **Resolución:** Añadir Mementomictlán del Deck a mano tras resolución.
+- **Uso, negación y restricciones:** Un uso de este efecto por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Añadir Mementomictlán del Deck a mano tras resolución; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en
+
+#### 70. `671:a05:20216:same-chain-effect-restriction` · CID 20216 (RESTRICCION)
+
+- **Actor / estado inicial:** Rey Creación controla dos efectos activables distintos; conservar identidad de copia real.
+- **Ventana / disparador:** A lo largo de una Cadena en que el Rey activó envío de tres o destrucción rápida.
+- **Coste o requisito previo:** Sin coste propio; condición prohibitiva; guarda: Conservar historial de effect_id usados en Cadena actual.
+- **Selección / targeting:** No hay targeting autónomo.
+- **Resolución:** Impedir activar en una misma Cadena el efecto de envío tras Fusión y el efecto rápido de destruir del Rey; cada uno conserva su OPT.
+- **Uso, negación y restricciones:** Restricción por cadena y cada uno de los efectos una vez por turno; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Impedir activar en una misma Cadena el efecto de envío tras Fusión y el efecto rápido de destruir del Rey; cada uno conserva su OPT; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en
+
+#### 71. `671:a05:20225:link-one-light-fiend` · CID 20225 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Réquiem del Demoniherrero en Extra Deck; conservar identidad de copia real.
+- **Ventana / disparador:** Invocación Link-1 legal.
+- **Coste o requisito previo:** Enviar el Demonio LUZ como material de Enlace durante procedimiento; guarda: Un Demonio LUZ real en Campo propio y zona de Enlace válida.
+- **Selección / targeting:** Elegir exactamente un Demonio LUZ elegible en MZ propia.
+- **Resolución:** Invocar Réquiem Link-1 desde Extra con ese material.
+- **Uso, negación y restricciones:** Procedimiento no inicia cadena; además Réquiem solo se Invoca Especial una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Réquiem Link-1 desde Extra con ese material; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en
+
+#### 72. `671:a05:20225:special-summon-name-once` · CID 20225 (RESTRICCION)
+
+- **Actor / estado inicial:** Réquiem en Extra/GY según procedimiento permitible; conservar identidad de copia real.
+- **Ventana / disparador:** Control del historial de invocaciones de Réquiem durante el turno.
+- **Coste o requisito previo:** Sin coste por restricción, no activa cadena; guarda: No haber realizado ya Invocación Especial de Réquiem por nombre ese turno.
+- **Selección / targeting:** No hay target.
+- **Resolución:** Prohibir posteriores Invocaciones Especiales de cualquier Réquiem por nombre en el mismo turno.
+- **Uso, negación y restricciones:** Restricción de Invocación única por nombre, no efecto activado; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Prohibir posteriores Invocaciones Especiales de cualquier Réquiem por nombre en el mismo turno; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en
+
+#### 73. `671:a05:20225:quick-main-tribute-fiendsmith-summon` · CID 20225 (RAPIDO)
+
+- **Actor / estado inicial:** Réquiem boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Main Phase de cualquiera de los turnos; efecto rápido válido.
+- **Coste o requisito previo:** Sacrificar Réquiem desde campo propio como coste previo a resolver; guarda: Monstruo Fiendsmith legalmente invocable desde mano o Main Deck.
+- **Selección / targeting:** Elegir Fiendsmith de mano/Deck, no target del campo.
+- **Resolución:** Invocar Fiendsmith desde mano o Deck en zona propia válida si resolución exitosa.
+- **Uso, negación y restricciones:** No inventar HOPT del efecto de tributo cuando el texto solo limita especial por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Fiendsmith desde mano o Deck en zona propia válida si resolución exitosa; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en
+
+#### 74. `671:a05:20225:field-gy-equip-light-fiend` · CID 20225 (ACTIVACION)
+
+- **Actor / estado inicial:** Réquiem bajo control propio en Campo o en GY propio; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana legal de efecto de equipo activado, por turno.
+- **Coste o requisito previo:** Sin coste de descarte; equipar ocurre al resolver; guarda: Controlar Demonio LUZ no Link propio targeteable y zona M/T apta.
+- **Selección / targeting:** Target de un Demonio LUZ no Link propio.
+- **Resolución:** Equipar esta copia de Réquiem desde Campo/GY como Mágica de Equipo, dando +600 ATK al destinatario.
+- **Uso, negación y restricciones:** Solo una activación por turno por nombre para este efecto; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Equipar esta copia de Réquiem desde Campo/GY como Mágica de Equipo, dando +600 ATK al destinatario; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en
+
+#### 75. `671:a05:20226:link-two-with-light-fiend` · CID 20226 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Secuencia del Demoniherrero en Extra Deck; conservar identidad de copia real.
+- **Ventana / disparador:** Invocación Link-2 durante turno propio.
+- **Coste o requisito previo:** Enviar los dos materiales durante el procedimiento de Enlace; guarda: Dos monstruos propios legalmente materiales, al menos uno Demonio LUZ.
+- **Selección / targeting:** Elegir dos monstruos reales, incluido un Demonio LUZ.
+- **Resolución:** Invocar Secuencia Link-2 desde Extra en zona Link válida.
+- **Uso, negación y restricciones:** Materiales son requisito, no efecto activado; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Secuencia Link-2 desde Extra en zona Link válida; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en
+
+#### 76. `671:a05:20226:main-gy-fusion` · CID 20226 (ACTIVACION)
+
+- **Actor / estado inicial:** Secuencia boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Main Phase propia, efecto de monstruo activable una vez por turno.
+- **Coste o requisito previo:** Barajar materiales reales desde GY a Deck/Extra durante resolución de Fusión; no coste anterior; guarda: Materiales requeridos para Fusión Demonio real están en GY propio y Fusion disponible en Extra.
+- **Selección / targeting:** Seleccionar materiales del GY que satisfagan ficha de Fusión del Extra.
+- **Resolución:** Invocar por Fusión un Demonio del Extra usando materiales del GY devueltos a Deck/Extra.
+- **Uso, negación y restricciones:** Cada efecto de Secuencia una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar por Fusión un Demonio del Extra usando materiales del GY devueltos a Deck/Extra; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en
+
+#### 77. `671:a05:20226:field-gy-equip-light-fiend` · CID 20226 (ACTIVACION)
+
+- **Actor / estado inicial:** Secuencia en Campo o GY propio; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana legal para equipar desde Campo o GY.
+- **Coste o requisito previo:** Sin coste previo, transición como resolución; guarda: Controlar un Demonio LUZ no Link targeteable y zona M/T libre.
+- **Selección / targeting:** Target de un Demonio LUZ no Link propio.
+- **Resolución:** Equipar esta copia de Secuencia como Mágica de Equipo al objetivo real.
+- **Uso, negación y restricciones:** Cada efecto de Secuencia una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Equipar esta copia de Secuencia como Mágica de Equipo al objetivo real; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en
+
+#### 78. `671:a05:20226:equipped-target-protection` · CID 20226 (CONTINUO)
+
+- **Actor / estado inicial:** Secuencia está equipada legalmente como Mágica al Demonio LUZ propio; conservar identidad de copia real.
+- **Ventana / disparador:** Condición continua mientras equipada a ese monstruo, sin nueva cadena.
+- **Coste o requisito previo:** Sin coste; guarda: Equipo Secuencia sigue físicamente unido al monstruo objetivo.
+- **Selección / targeting:** No genera target.
+- **Resolución:** Impedir que el rival seleccione con efectos al monstruo equipado, mientras persista el equipo.
+- **Uso, negación y restricciones:** Sin HOPT independiente para el efecto continuo de equipo; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Impedir que el rival seleccione con efectos al monstruo equipado, mientras persista el equipo; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en
+
+#### 79. `671:a05:20389:fusion-two-fiends-or-zombies` · CID 20389 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Duque de la Defunción CID20389 en Extra Deck; conservar identidad de copia real.
+- **Ventana / disparador:** Invocación Fusión habilitada legalmente.
+- **Coste o requisito previo:** Enviar/barajar materiales según la carta que fusiona, sin coste propio del Duque; guarda: Dos monstruos tipo Demonio y/o Zombi elegibles como materiales en zonas permitidas.
+- **Selección / targeting:** Seleccionar exactamente dos materiales Demonio/Zombi.
+- **Resolución:** Invocar Duque por Fusión y registrar materiales/destinos.
+- **Uso, negación y restricciones:** Materiales son condición, no HOPT; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Duque por Fusión y registrar materiales/destinos; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en
+
+#### 80. `671:a05:20389:standby-pay500-or-destroy` · CID 20389 (MANTENIMIENTO)
+
+- **Actor / estado inicial:** Duque de la Defunción boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Cada Standby Phase propia.
+- **Coste o requisito previo:** Pagar 500 LP cuando se elija mantenerlo; no confundir con coste de activación de otro efecto; guarda: Debes pagar 500 LP o aplicar destrucción de Duque conforme al texto.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Si se pagan 500 LP permanece; si no se pagan se destruye, salvo prevención legal de destrucción.
+- **Uso, negación y restricciones:** Una vez por turno en la Standby propia, mantenimiento; no genera búsqueda; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Si se pagan 500 LP permanece; si no se pagan se destruye, salvo prevención legal de destrucción; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en
+
+#### 81. `671:a05:20389:battle-indestructible` · CID 20389 (CONTINUO)
+
+- **Actor / estado inicial:** Duque boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Mientras ocurra una batalla que fuera a destruirlo.
+- **Coste o requisito previo:** Sin coste; guarda: La destrucción intentada proviene de batalla y la protección está activa.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Duque no se destruye por batalla; aún puede recibir daño y no adquiere protección contra efectos.
+- **Uso, negación y restricciones:** Efecto continuo de batalla sin OPT; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Duque no se destruye por batalla; aún puede recibir daño y no adquiere protección contra efectos; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en
+
+#### 82. `671:a05:20389:main-immediate-normal` · CID 20389 (ACTIVACION)
+
+- **Actor / estado inicial:** Duque boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Main Phase propia, efecto activado que crea inmediatamente opción de Normal al resolver.
+- **Coste o requisito previo:** Sin pagar costes adicionales por activar este efecto; tributos normales pueden requerirse al Invocar; guarda: Hay monstruo legalmente Invocable Normal y zona disponible; restricciones vigentes deben cumplirse.
+- **Selección / targeting:** Elegir monstruo válido para Normal Summon en resolución.
+- **Resolución:** Inmediatamente después de resolver el efecto, puedes realizar una Invocación Normal legal; no crear un cuerpo adicional ficticio.
+- **Uso, negación y restricciones:** Cada efecto de Duque una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Inmediatamente después de resolver el efecto, puedes realizar una Invocación Normal legal; no crear un cuerpo adicional ficticio; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en
+
+#### 83. `671:a05:20389:gy-banish-recover-level4-fiend-zombie` · CID 20389 (ACTIVACION_GY)
+
+- **Actor / estado inicial:** Duque de la Defunción en GY propio; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana legal de activación desde GY.
+- **Coste o requisito previo:** Desterrar esta copia de Duque del GY como coste; guarda: Existe Demonio/Zombi Nivel 4 o superior en tu GY que pueda añadirse a mano.
+- **Selección / targeting:** Target de Demonio o Zombi Nivel ≥4 en GY propio.
+- **Resolución:** Añadir ese monstruo de GY a mano si sigue target válido.
+- **Uso, negación y restricciones:** Cada efecto de Duque una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Añadir ese monstruo de GY a mano si sigue target válido; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en
+
+#### 84. `671:a05:20423:send-equipped-monster-fiend-procedure` · CID 20423 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Princesa Necroequipo en Extra Deck; conservar identidad de copia real.
+- **Ventana / disparador:** Procedimiento especial propio de la carta, sin activación en cadena.
+- **Coste o requisito previo:** Enviar ambos materiales reales al GY durante el procedimiento de Invocación; guarda: Un monstruo equipado con una Carta de Monstruo y una Carta de Monstruo Demonio están disponibles desde mano/campo según texto.
+- **Selección / targeting:** Elegir monstruo equipado con carta monstruo y otro Demonio de mano/campo.
+- **Resolución:** Invocar Princesa desde Extra sin declarar Fusión convencional, registrando recursos enviados.
+- **Uso, negación y restricciones:** Solo puedes controlar una Princesa; procedimiento no inicia cadena; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar Princesa desde Extra sin declarar Fusión convencional, registrando recursos enviados; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en
+
+#### 85. `671:a05:20423:unique-control-restriction` · CID 20423 (RESTRICCION)
+
+- **Actor / estado inicial:** Princesa Necroequipo existe en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Restricción permanente de número de copias controladas.
+- **Coste o requisito previo:** Sin coste; guarda: No puedes controlar simultáneamente más de una Princesa.
+- **Selección / targeting:** No target.
+- **Resolución:** Rechazar invocación o control que produzca más de una Princesa propia.
+- **Uso, negación y restricciones:** Restricción continua de unicidad, no OPT; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Rechazar invocación o control que produzca más de una Princesa propia; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en
+
+#### 86. `671:a05:20423:hand-sent-activation-trigger-choice` · CID 20423 (DISPARO)
+
+- **Actor / estado inicial:** Princesa boca arriba en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Disparo después de que monstruo(s) desde mano hayan sido enviados a GY para activar una carta/efecto.
+- **Coste o requisito previo:** Sin coste nuevo; envío de mano previo es trigger, no se vuelve a pagar; guarda: El envío fue pago de activación real y existe opción de equipar uno de esos monstruos o robar.
+- **Selección / targeting:** Elegir solo una modalidad, equipar uno de los monstruos enviados o robar 1.
+- **Resolución:** Equipar uno de esos monstruos a Princesa (+500 ATK) o robar una carta desconocida, no ambos.
+- **Uso, negación y restricciones:** Un uso del efecto por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Equipar uno de esos monstruos a Princesa (+500 ATK) o robar una carta desconocida, no ambos; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en
+
+#### 87. `671:a05:20491:on-summon-level9-direct-attack` · CID 20491 (DISPARO)
+
+- **Actor / estado inicial:** Akhíron CID20491 acaba de Invocarse Normal/Especial en Campo propio; conservar identidad de copia real.
+- **Ventana / disparador:** Disparo después de su Invocación.
+- **Coste o requisito previo:** Sin coste; guarda: Existe posibilidad de ataque de Memento Nivel 9 o superior ese turno; no necesita estar en campo al activar si el efecto aplica.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Durante ese turno habilitar ataque directo de monstruos Memento Nivel ≥9, sujeto a reglas de batalla.
+- **Uso, negación y restricciones:** Cada efecto de Akhíron una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Durante ese turno habilitar ataque directo de monstruos Memento Nivel ≥9, sujeto a reglas de batalla; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en
+
+#### 88. `671:a05:20491:destroyed-card-effect-recover-other-memento` · CID 20491 (DISPARO)
+
+- **Actor / estado inicial:** Akhíron CID20491 fue destruido por efecto; conservar identidad de copia real.
+- **Ventana / disparador:** Disparo después de destrucción por efecto.
+- **Coste o requisito previo:** Sin coste; destrucción es trigger; guarda: Otra carta Memento propia está en GY o destierro y es recuperable.
+- **Selección / targeting:** Target de una carta Memento distinta de Akhíron desterrada o en propio GY.
+- **Resolución:** Añadir esa carta Memento a mano desde GY/destierro.
+- **Uso, negación y restricciones:** Cada efecto de Akhíron una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Añadir esa carta Memento a mano desde GY/destierro; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en
+
+#### 89. `671:a05:20491:gy-on-own-memento-destruction-revive` · CID 20491 (DISPARO_GY)
+
+- **Actor / estado inicial:** Akhíron CID20491 en propio GY; conservar identidad de copia real.
+- **Ventana / disparador:** Disparo tras destrucción por batalla/efecto de Memento propio desde mano o campo boca arriba.
+- **Coste o requisito previo:** Sin coste, destrucción observada es trigger; guarda: Monstruo Memento en mano o boca arriba en Campo propio fue destruido y hay MZ propia libre.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Invocar la misma copia de Akhíron desde GY a Campo.
+- **Uso, negación y restricciones:** Cada efecto de Akhíron una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar la misma copia de Akhíron desde GY a Campo; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en
+
+#### 90. `671:a05:20533:quick-tribute-summon-goblin-from-deck` · CID 20533 (MAGICA_RAPIDA)
+
+- **Actor / estado inicial:** Gran Fuga Moto Goblin CID20533 en mano o colocada legalmente en M/T propia; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana válida de Mágica Rápida, respetando colocación.
+- **Coste o requisito previo:** Sacrificar un monstruo propio como coste antes de resolver; guarda: Un monstruo propio tributable y monstruo con Goblin en nombre disponible en Deck, con espacio libre.
+- **Selección / targeting:** Elegir Goblin del Main Deck legalmente invocable.
+- **Resolución:** Invocar el Goblin de Deck y prohibirle atacar durante el turno.
+- **Uso, negación y restricciones:** Cada efecto de la Mágica una vez por turno por nombre; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Invocar el Goblin de Deck y prohibirle atacar durante el turno; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en
+
+#### 91. `671:a05:20533:gy-banish-detach-atk-reduction` · CID 20533 (DISPARO_GY)
+
+- **Actor / estado inicial:** Gran Fuga Moto Goblin en GY propio; conservar identidad de copia real.
+- **Ventana / disparador:** Cuando un monstruo declara ataque y se abre ventana correspondiente.
+- **Coste o requisito previo:** Desterrar esta Mágica de GY y desacoplar N materiales Xyz Goblin como coste; guarda: Controlas monstruo Xyz Goblin con materiales desacoplables; en paquete 671 no existe Xyz Goblin en Extra.
+- **Selección / targeting:** Sin targeting sobre monstruos rivales.
+- **Resolución:** Todos los monstruos rivales actualmente controlados pierden 1000 ATK por cada material desacoplado hasta fin de turno.
+- **Uso, negación y restricciones:** Un uso por turno por nombre; no confundir Aero Shark con Goblin Xyz; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Todos los monstruos rivales actualmente controlados pierden 1000 ATK por cada material desacoplado hasta fin de turno; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en
+
+#### 92. `671:a05:20764:hand-discard-draw-opponent-gy-banish-summons` · CID 20764 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Mulcharmy Meowls CID20764 en mano tras intercambio de Side realmente efectuado; conservar identidad de copia real.
+- **Ventana / disparador:** Ventana de Efecto Rápido, antes de los eventos rivales de Invocación.
+- **Coste o requisito previo:** Descartar Meowls mano→GY antes de resolver; guarda: No controlas cartas y el uso conjunto Mulcharmy se respeta; esta copia está realmente en mano.
+- **Selección / targeting:** Sin target ni elección de carta rival oculta.
+- **Resolución:** Robar cartas desconocidas por invocaciones especiales rivales posteriores desde GY o destierro; durante End ajustar exceso a cartas rivales controladas +6.
+- **Uso, negación y restricciones:** Restricción compartida Mulcharmy y ajuste End Phase obligatorio; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Robar cartas desconocidas por invocaciones especiales rivales posteriores desde GY o destierro; durante End ajustar exceso a cartas rivales controladas +6; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=en
+
+#### 93. `671:a05:21203:initial-main-banish-cost-bounce` · CID 21203 (MAGICA_NORMAL)
+
+- **Actor / estado inicial:** Rebanador Gordiano CID21203 en mano propia como Mágica Normal; conservar identidad de copia real.
+- **Ventana / disparador:** Al principio de tu Main Phase 1 o Main Phase 2 antes de otras acciones.
+- **Coste o requisito previo:** Después de seleccionar objetivos al activar, desterrar una carta de mano o seis del Extra boca abajo por cada objetivo durante resolución; no atribuir descarte ficticio; guarda: Hay cartas boca arriba en Campo para seleccionar y suficientes recursos mano/Extra para desterrar por cada objetivo.
+- **Selección / targeting:** Target a N cartas boca arriba físicas en Campo, N≥1.
+- **Resolución:** Desterrar recursos por cada objetivo y devolver cartas seleccionadas a mano, o Extra Deck si son de Extra, conforme texto/reglas.
+- **Uso, negación y restricciones:** El texto protege activación y efecto contra negación; no elimina otras restricciones de legalidad; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: Desterrar recursos por cada objetivo y devolver cartas seleccionadas a mano, o Extra Deck si son de Extra, conforme texto/reglas; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en
+
+#### 94. `671:a05:21203:cannot-negate-activation-or-effect` · CID 21203 (RESTRICCION)
+
+- **Actor / estado inicial:** Rebanador Gordiano ha sido activado legalmente y se resolverá; conservar identidad de copia real.
+- **Ventana / disparador:** Restricción de interacción con su activación y efecto durante la cadena.
+- **Coste o requisito previo:** Sin coste autónomo; guarda: Debe tratarse de la activación o efecto propio de esta carta.
+- **Selección / targeting:** Sin objetivo nuevo.
+- **Resolución:** No se puede negar la activación ni el efecto de esta carta; aún hay que satisfacer todas las guardas y pagar recursos.
+- **Uso, negación y restricciones:** Restricción intrínseca, no efecto de negación activado; efectos negados no producen su resultado; los costes pagados no se devuelven.
+- **Estado posterior esperado:** Tras éxito: No se puede negar la activación ni el efecto de esta carta; aún hay que satisfacer todas las guardas y pagar recursos; costes y desplazamientos previos consumidos, sin inventar recursos.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en
+
 ### A05.8 — ejemplos declarativos de estado y fallo cerrado (control de papel inicial)
 
 **Alcance:** casos documentales positivos y negativos para **8 efectos críticos / 16 escenarios**, derivados de las condiciones de Konami por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. El censo completo exige matriz para los 94 IDs A05.6, incluyendo pasivos/procedimientos o `NO_APLICA` justificado.
@@ -1304,6 +1678,210 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **`case_id=671:A05:P52` (positivo esperado, `expected_legal=true`):** `state_before`: Luna del Cielo Cerrado bajo tu control en zona Link; Efecto activable con objetivo rival al que Luna apunta y posterior Link-5 este turno; condición física: Luna apunta físicamente a monstruo rival boca arriba y hay ruta material legal para Link-5. `action`: interacción `671:a05:19932:pointed-opponent-material-link5`; Target de un monstruo rival boca arriba en zona señalada por flecha real de Luna. `expected_costs`: Sin coste; aún no se usa ese monstruo como material al activar. `expected_events/state_after`: Si este turno usas Luna para Invocar Link-5, permitir usar ese monstruo enemigo seleccionado como material; no invocarlo automáticamente. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
 - **`case_id=671:A05:N52` (negativo esperado, `expected_legal=false`):** `state_before`: No hay flecha apuntando al objetivo o se pretende invocar un Link-4 en vez de Link-5. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 53. `671:a05:20196:hand-discard-search-fiendsmith-spelltrap` — dos casos de papel
+
+- **`case_id=671:A05:P53` (positivo esperado, `expected_legal=true`):** `state_before`: Grabador CID20196 en mano propia; Ventana de efecto de mano legal, propio turno salvo restricciones; condición: M/T Fiendsmith realmente presente en Main Deck, condición que no se cumple actualmente en la lista 671. `action`: aplicar cláusula `671:a05:20196:hand-discard-search-fiendsmith-spelltrap` con selección: Elegir una M/T Fiendsmith del Deck, sin target sobre campo. `expected_costs`: Descartar Grabador mano→GY como coste de activación. `expected_events/state_after`: Añadir a mano esa M/T Fiendsmith desde Deck si existiese; con este inventario no proponer búsqueda. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N53` (negativo esperado, `expected_legal=false`):** `state_before`: Deck 671 no incluye ninguna M/T Fiendsmith de búsqueda y no puede inventarse una. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 54. `671:a05:20196:target-own-equip-and-field-monster-to-gy` — dos casos de papel
+
+- **`case_id=671:A05:P54` (positivo esperado, `expected_legal=true`):** `state_before`: Grabador CID20196 boca arriba en Campo propio; Ventana legal de efecto de monstruo propio; condición: Una Carta de Equipo Fiendsmith que controlas y un monstruo real sobre el Campo. `action`: aplicar cláusula `671:a05:20196:target-own-equip-and-field-monster-to-gy` con selección: Dos targets: tu Equipo Fiendsmith y un monstruo en el Campo. `expected_costs`: Sin descarte ni sacrificio; las cartas son enviadas como resolución. `expected_events/state_after`: Enviar ambos objetivos válidos al GY durante la resolución, no destruir ni negar. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N54` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas carta Equipo Fiendsmith o el Campo no tiene otro monstruo elegible. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 55. `671:a05:20196:gy-shuffle-light-fiend-self-revive` — dos casos de papel
+
+- **`case_id=671:A05:P55` (positivo esperado, `expected_legal=true`):** `state_before`: Grabador CID20196 en GY propio; Main Phase propia con ventana de activar efecto desde GY; condición: Otro monstruo Demonio LUZ en propio GY barajable y espacio de MZ válido. `action`: aplicar cláusula `671:a05:20196:gy-shuffle-light-fiend-self-revive` con selección: Seleccionar recurso a devolver, excluyendo esta misma copia. `expected_costs`: Devolver otro Demonio LUZ de tu GY al Deck/Extra como coste, antes de resolver. `expected_events/state_after`: Invocar Grabador desde GY a Campo solo si resuelve; otro Demonio LUZ ya no está en GY. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N55` (negativo esperado, `expected_legal=false`):** `state_before`: Grabador no está en GY o el único Demonio LUZ del GY es el propio Grabador. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 56. `671:a05:20199:hand-special-after-own-destruction` — dos casos de papel
+
+- **`case_id=671:A05:P56` (positivo esperado, `expected_legal=true`):** `state_before`: Dormiveja CID20199 en propia mano; Efecto Rápido durante turno en que una carta monstruo tuya fue destruida por efecto; condición: Evento previo verificable de destrucción por efecto de monstruo que estaba en tu posesión y zona MZ propia libre. `action`: aplicar cláusula `671:a05:20199:hand-special-after-own-destruction` con selección: Sin target. `expected_costs`: Sin coste de descarte ni destrucción. `expected_events/state_after`: Invocar Dormiveja desde mano a una MZ propia. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N56` (negativo esperado, `expected_legal=false`):** `state_before`: La destrucción fue solo por batalla o no ocurrió destrucción de tu monstruo por efecto. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 57. `671:a05:20199:on-summon-fusion-memento` — dos casos de papel
+
+- **`case_id=671:A05:P57` (positivo esperado, `expected_legal=true`):** `state_before`: Dormiveja fue invocada Normal/Especial a MZ propia; Disparo tras evento real de Invocación; condición: Materiales legales de Memento en mano/campo y Fusión Memento real en Extra Deck. `action`: aplicar cláusula `671:a05:20199:on-summon-fusion-memento` con selección: Seleccionar materiales físicos de mano/campo requeridos por esa Fusión. `expected_costs`: La Fusión manda materiales durante la resolución, no coste al declarar Dormiveja. `expected_events/state_after`: Invocar por Fusión desde Extra un monstruo Memento válido, moviendo materiales a destinos propios. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N57` (negativo esperado, `expected_legal=false`):** `state_before`: Dormiveja no fue invocada ahora o no hay materiales legales para Fusión desde mano/campo. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 58. `671:a05:20199:on-destroy-send-memento-from-deck` — dos casos de papel
+
+- **`case_id=671:A05:P58` (positivo esperado, `expected_legal=true`):** `state_before`: Dormiveja CID20199 fue destruida por batalla o efecto; Después de destrucción válida, ventana de disparo; condición: Carta Memento distinta de Dormiveja existe en Main Deck para mandar a GY. `action`: aplicar cláusula `671:a05:20199:on-destroy-send-memento-from-deck` con selección: Escoger carta de Deck distinta de Dormiveja sin targeting de campo. `expected_costs`: Sin coste adicional; la destrucción es condición previa. `expected_events/state_after`: Enviar una carta Memento del Deck al propio GY. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N58` (negativo esperado, `expected_legal=false`):** `state_before`: Dormiveja fue enviada como coste sin destruirse, o no quedan otras cartas Memento en Deck. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 59. `671:a05:20206:hand-discard-draw-opponent-hand-summons` — dos casos de papel
+
+- **`case_id=671:A05:P59` (positivo esperado, `expected_legal=true`):** `state_before`: Mulcharmy Purulia CID20206 en mano propia después de intercambio real de Side; Ventana de Efecto Rápido, antes de Invocaciones rivales a observar; condición: No controlas ninguna carta en tu Campo, el uso compartido de Mulcharmy se respeta y existe copia en mano. `action`: aplicar cláusula `671:a05:20206:hand-discard-draw-opponent-hand-summons` con selección: Sin target ni predicción de cartas rivales. `expected_costs`: Descartar Purulia mano→GY como coste; no se roba inmediatamente. `expected_events/state_after`: Robar una carta desconocida por cada Invocación Normal o Especial rival desde mano posterior a resolver, y durante End aplicar ajuste de exceso de mano. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N59` (negativo esperado, `expected_legal=false`):** `state_before`: Controlas una carta al activar o Purulia permanece en Side sin haberse incluido en Main en este duelo. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 60. `671:a05:20216:fusion-three-memento` — dos casos de papel
+
+- **`case_id=671:A05:P60` (positivo esperado, `expected_legal=true`):** `state_before`: Rey Creación CID20216 en Extra Deck; Fusión legal desde Extra con la carta/efecto habilitador; condición: Tres monstruos Memento reales disponibles en las zonas de materiales permitidas. `action`: aplicar cláusula `671:a05:20216:fusion-three-memento` con selección: Elegir tres monstruos Memento físicamente elegibles. `expected_costs`: Materiales se consumen durante la Fusión, no como efecto independiente del Rey. `expected_events/state_after`: Invocar Rey Creación por Fusión con sus tres materiales y espacio de zona correcto. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N60` (negativo esperado, `expected_legal=false`):** `state_before`: Solo existen dos materiales Memento o falta carta/efecto que permita Fusionar. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 61. `671:a05:20216:gy-banish-search-field-spell` — dos casos de papel
+
+- **`case_id=671:A05:P61` (positivo esperado, `expected_legal=true`):** `state_before`: Rey Creación CID20216 está en propio GY; Ventana legal para activar efecto desde Cementerio; condición: Mementomictlán CID19367 está disponible en tu Deck. `action`: aplicar cláusula `671:a05:20216:gy-banish-search-field-spell` con selección: Buscar Mementomictlán del Deck, sin target de campo. `expected_costs`: Desterrar el Rey Creación del GY como coste antes de resolver. `expected_events/state_after`: Añadir Mementomictlán del Deck a mano tras resolución. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N61` (negativo esperado, `expected_legal=false`):** `state_before`: Rey está en Extra o Mementomictlán ya no existe en Deck. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 62. `671:a05:20216:same-chain-effect-restriction` — dos casos de papel
+
+- **`case_id=671:A05:P62` (positivo esperado, `expected_legal=true`):** `state_before`: Rey Creación controla dos efectos activables distintos; A lo largo de una Cadena en que el Rey activó envío de tres o destrucción rápida; condición: Conservar historial de effect_id usados en Cadena actual. `action`: aplicar cláusula `671:a05:20216:same-chain-effect-restriction` con selección: No hay targeting autónomo. `expected_costs`: Sin coste propio; condición prohibitiva. `expected_events/state_after`: Impedir activar en una misma Cadena el efecto de envío tras Fusión y el efecto rápido de destruir del Rey; cada uno conserva su OPT. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N62` (negativo esperado, `expected_legal=false`):** `state_before`: Se pretende añadir el segundo efecto a la misma cadena donde ya está el primero. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 63. `671:a05:20225:link-one-light-fiend` — dos casos de papel
+
+- **`case_id=671:A05:P63` (positivo esperado, `expected_legal=true`):** `state_before`: Réquiem del Demoniherrero en Extra Deck; Invocación Link-1 legal; condición: Un Demonio LUZ real en Campo propio y zona de Enlace válida. `action`: aplicar cláusula `671:a05:20225:link-one-light-fiend` con selección: Elegir exactamente un Demonio LUZ elegible en MZ propia. `expected_costs`: Enviar el Demonio LUZ como material de Enlace durante procedimiento. `expected_events/state_after`: Invocar Réquiem Link-1 desde Extra con ese material. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N63` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas Demonio LUZ o la carta seleccionada es Demonio de otro Atributo. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 64. `671:a05:20225:special-summon-name-once` — dos casos de papel
+
+- **`case_id=671:A05:P64` (positivo esperado, `expected_legal=true`):** `state_before`: Réquiem en Extra/GY según procedimiento permitible; Control del historial de invocaciones de Réquiem durante el turno; condición: No haber realizado ya Invocación Especial de Réquiem por nombre ese turno. `action`: aplicar cláusula `671:a05:20225:special-summon-name-once` con selección: No hay target. `expected_costs`: Sin coste por restricción, no activa cadena. `expected_events/state_after`: Prohibir posteriores Invocaciones Especiales de cualquier Réquiem por nombre en el mismo turno. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N64` (negativo esperado, `expected_legal=false`):** `state_before`: Ya se Invocó Especialmente una copia de Réquiem en ese turno. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 65. `671:a05:20225:quick-main-tribute-fiendsmith-summon` — dos casos de papel
+
+- **`case_id=671:A05:P65` (positivo esperado, `expected_legal=true`):** `state_before`: Réquiem boca arriba en Campo propio; Main Phase de cualquiera de los turnos; efecto rápido válido; condición: Monstruo Fiendsmith legalmente invocable desde mano o Main Deck. `action`: aplicar cláusula `671:a05:20225:quick-main-tribute-fiendsmith-summon` con selección: Elegir Fiendsmith de mano/Deck, no target del campo. `expected_costs`: Sacrificar Réquiem desde campo propio como coste previo a resolver. `expected_events/state_after`: Invocar Fiendsmith desde mano o Deck en zona propia válida si resolución exitosa. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N65` (negativo esperado, `expected_legal=false`):** `state_before`: Réquiem ya no está en campo o no existe Fiendsmith legalmente invocable. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 66. `671:a05:20225:field-gy-equip-light-fiend` — dos casos de papel
+
+- **`case_id=671:A05:P66` (positivo esperado, `expected_legal=true`):** `state_before`: Réquiem bajo control propio en Campo o en GY propio; Ventana legal de efecto de equipo activado, por turno; condición: Controlar Demonio LUZ no Link propio targeteable y zona M/T apta. `action`: aplicar cláusula `671:a05:20225:field-gy-equip-light-fiend` con selección: Target de un Demonio LUZ no Link propio. `expected_costs`: Sin coste de descarte; equipar ocurre al resolver. `expected_events/state_after`: Equipar esta copia de Réquiem desde Campo/GY como Mágica de Equipo, dando +600 ATK al destinatario. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N66` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas Demonio LUZ no Link o faltan S/T libres para equipo. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 67. `671:a05:20226:link-two-with-light-fiend` — dos casos de papel
+
+- **`case_id=671:A05:P67` (positivo esperado, `expected_legal=true`):** `state_before`: Secuencia del Demoniherrero en Extra Deck; Invocación Link-2 durante turno propio; condición: Dos monstruos propios legalmente materiales, al menos uno Demonio LUZ. `action`: aplicar cláusula `671:a05:20226:link-two-with-light-fiend` con selección: Elegir dos monstruos reales, incluido un Demonio LUZ. `expected_costs`: Enviar los dos materiales durante el procedimiento de Enlace. `expected_events/state_after`: Invocar Secuencia Link-2 desde Extra en zona Link válida. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N67` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas dos monstruos elegibles o ninguno es Demonio LUZ. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 68. `671:a05:20226:main-gy-fusion` — dos casos de papel
+
+- **`case_id=671:A05:P68` (positivo esperado, `expected_legal=true`):** `state_before`: Secuencia boca arriba en Campo propio; Main Phase propia, efecto de monstruo activable una vez por turno; condición: Materiales requeridos para Fusión Demonio real están en GY propio y Fusion disponible en Extra. `action`: aplicar cláusula `671:a05:20226:main-gy-fusion` con selección: Seleccionar materiales del GY que satisfagan ficha de Fusión del Extra. `expected_costs`: Barajar materiales reales desde GY a Deck/Extra durante resolución de Fusión; no coste anterior. `expected_events/state_after`: Invocar por Fusión un Demonio del Extra usando materiales del GY devueltos a Deck/Extra. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N68` (negativo esperado, `expected_legal=false`):** `state_before`: No están materiales correctos en GY o no existe Fusión Demonio legal en Extra. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 69. `671:a05:20226:field-gy-equip-light-fiend` — dos casos de papel
+
+- **`case_id=671:A05:P69` (positivo esperado, `expected_legal=true`):** `state_before`: Secuencia en Campo o GY propio; Ventana legal para equipar desde Campo o GY; condición: Controlar un Demonio LUZ no Link targeteable y zona M/T libre. `action`: aplicar cláusula `671:a05:20226:field-gy-equip-light-fiend` con selección: Target de un Demonio LUZ no Link propio. `expected_costs`: Sin coste previo, transición como resolución. `expected_events/state_after`: Equipar esta copia de Secuencia como Mágica de Equipo al objetivo real. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N69` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas Demonio LUZ no Link o Secuencia no está en Campo/GY. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 70. `671:a05:20226:equipped-target-protection` — dos casos de papel
+
+- **`case_id=671:A05:P70` (positivo esperado, `expected_legal=true`):** `state_before`: Secuencia está equipada legalmente como Mágica al Demonio LUZ propio; Condición continua mientras equipada a ese monstruo, sin nueva cadena; condición: Equipo Secuencia sigue físicamente unido al monstruo objetivo. `action`: aplicar cláusula `671:a05:20226:equipped-target-protection` con selección: No genera target. `expected_costs`: Sin coste. `expected_events/state_after`: Impedir que el rival seleccione con efectos al monstruo equipado, mientras persista el equipo. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N70` (negativo esperado, `expected_legal=false`):** `state_before`: Secuencia ya no está equipada o se pretende proteger a un monstruo diferente. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 71. `671:a05:20389:fusion-two-fiends-or-zombies` — dos casos de papel
+
+- **`case_id=671:A05:P71` (positivo esperado, `expected_legal=true`):** `state_before`: Duque de la Defunción CID20389 en Extra Deck; Invocación Fusión habilitada legalmente; condición: Dos monstruos tipo Demonio y/o Zombi elegibles como materiales en zonas permitidas. `action`: aplicar cláusula `671:a05:20389:fusion-two-fiends-or-zombies` con selección: Seleccionar exactamente dos materiales Demonio/Zombi. `expected_costs`: Enviar/barajar materiales según la carta que fusiona, sin coste propio del Duque. `expected_events/state_after`: Invocar Duque por Fusión y registrar materiales/destinos. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N71` (negativo esperado, `expected_legal=false`):** `state_before`: No existen dos materiales Demonio/Zombi disponibles o falta fuente Fusión. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 72. `671:a05:20389:standby-pay500-or-destroy` — dos casos de papel
+
+- **`case_id=671:A05:P72` (positivo esperado, `expected_legal=true`):** `state_before`: Duque de la Defunción boca arriba en Campo propio; Cada Standby Phase propia; condición: Debes pagar 500 LP o aplicar destrucción de Duque conforme al texto. `action`: aplicar cláusula `671:a05:20389:standby-pay500-or-destroy` con selección: Sin target. `expected_costs`: Pagar 500 LP cuando se elija mantenerlo; no confundir con coste de activación de otro efecto. `expected_events/state_after`: Si se pagan 500 LP permanece; si no se pagan se destruye, salvo prevención legal de destrucción. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N72` (negativo esperado, `expected_legal=false`):** `state_before`: Se intenta conservar a Duque en Standby propia sin pagar 500 LP y sin resolver la destrucción. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 73. `671:a05:20389:battle-indestructible` — dos casos de papel
+
+- **`case_id=671:A05:P73` (positivo esperado, `expected_legal=true`):** `state_before`: Duque boca arriba en Campo propio; Mientras ocurra una batalla que fuera a destruirlo; condición: La destrucción intentada proviene de batalla y la protección está activa. `action`: aplicar cláusula `671:a05:20389:battle-indestructible` con selección: Sin target. `expected_costs`: Sin coste. `expected_events/state_after`: Duque no se destruye por batalla; aún puede recibir daño y no adquiere protección contra efectos. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N73` (negativo esperado, `expected_legal=false`):** `state_before`: El rival lo destruye por efecto de carta, que esta protección no cubre. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 74. `671:a05:20389:main-immediate-normal` — dos casos de papel
+
+- **`case_id=671:A05:P74` (positivo esperado, `expected_legal=true`):** `state_before`: Duque boca arriba en Campo propio; Main Phase propia, efecto activado que crea inmediatamente opción de Normal al resolver; condición: Hay monstruo legalmente Invocable Normal y zona disponible; restricciones vigentes deben cumplirse. `action`: aplicar cláusula `671:a05:20389:main-immediate-normal` con selección: Elegir monstruo válido para Normal Summon en resolución. `expected_costs`: Sin pagar costes adicionales por activar este efecto; tributos normales pueden requerirse al Invocar. `expected_events/state_after`: Inmediatamente después de resolver el efecto, puedes realizar una Invocación Normal legal; no crear un cuerpo adicional ficticio. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N74` (negativo esperado, `expected_legal=false`):** `state_before`: No queda zona/monstruo Invocable o el efecto de Duque ya se usó ese turno. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 75. `671:a05:20389:gy-banish-recover-level4-fiend-zombie` — dos casos de papel
+
+- **`case_id=671:A05:P75` (positivo esperado, `expected_legal=true`):** `state_before`: Duque de la Defunción en GY propio; Ventana legal de activación desde GY; condición: Existe Demonio/Zombi Nivel 4 o superior en tu GY que pueda añadirse a mano. `action`: aplicar cláusula `671:a05:20389:gy-banish-recover-level4-fiend-zombie` con selección: Target de Demonio o Zombi Nivel ≥4 en GY propio. `expected_costs`: Desterrar esta copia de Duque del GY como coste. `expected_events/state_after`: Añadir ese monstruo de GY a mano si sigue target válido. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N75` (negativo esperado, `expected_legal=false`):** `state_before`: Duque ya no está en GY o solo hay monstruos de nivel ≤3 no elegibles. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 76. `671:a05:20423:send-equipped-monster-fiend-procedure` — dos casos de papel
+
+- **`case_id=671:A05:P76` (positivo esperado, `expected_legal=true`):** `state_before`: Princesa Necroequipo en Extra Deck; Procedimiento especial propio de la carta, sin activación en cadena; condición: Un monstruo equipado con una Carta de Monstruo y una Carta de Monstruo Demonio están disponibles desde mano/campo según texto. `action`: aplicar cláusula `671:a05:20423:send-equipped-monster-fiend-procedure` con selección: Elegir monstruo equipado con carta monstruo y otro Demonio de mano/campo. `expected_costs`: Enviar ambos materiales reales al GY durante el procedimiento de Invocación. `expected_events/state_after`: Invocar Princesa desde Extra sin declarar Fusión convencional, registrando recursos enviados. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N76` (negativo esperado, `expected_legal=false`):** `state_before`: No hay monstruo realmente equipado con Carta de Monstruo o falta carta Demonio elegible. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 77. `671:a05:20423:unique-control-restriction` — dos casos de papel
+
+- **`case_id=671:A05:P77` (positivo esperado, `expected_legal=true`):** `state_before`: Princesa Necroequipo existe en Campo propio; Restricción permanente de número de copias controladas; condición: No puedes controlar simultáneamente más de una Princesa. `action`: aplicar cláusula `671:a05:20423:unique-control-restriction` con selección: No target. `expected_costs`: Sin coste. `expected_events/state_after`: Rechazar invocación o control que produzca más de una Princesa propia. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N77` (negativo esperado, `expected_legal=false`):** `state_before`: Ya controlas una Princesa y se propone controlar otra. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 78. `671:a05:20423:hand-sent-activation-trigger-choice` — dos casos de papel
+
+- **`case_id=671:A05:P78` (positivo esperado, `expected_legal=true`):** `state_before`: Princesa boca arriba en Campo propio; Disparo después de que monstruo(s) desde mano hayan sido enviados a GY para activar una carta/efecto; condición: El envío fue pago de activación real y existe opción de equipar uno de esos monstruos o robar. `action`: aplicar cláusula `671:a05:20423:hand-sent-activation-trigger-choice` con selección: Elegir solo una modalidad, equipar uno de los monstruos enviados o robar 1. `expected_costs`: Sin coste nuevo; envío de mano previo es trigger, no se vuelve a pagar. `expected_events/state_after`: Equipar uno de esos monstruos a Princesa (+500 ATK) o robar una carta desconocida, no ambos. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N78` (negativo esperado, `expected_legal=false`):** `state_before`: El monstruo fue enviado de mano al resolver una Fusión, no como pago para activar, o Princesa no está en Campo. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 79. `671:a05:20491:on-summon-level9-direct-attack` — dos casos de papel
+
+- **`case_id=671:A05:P79` (positivo esperado, `expected_legal=true`):** `state_before`: Akhíron CID20491 acaba de Invocarse Normal/Especial en Campo propio; Disparo después de su Invocación; condición: Existe posibilidad de ataque de Memento Nivel 9 o superior ese turno; no necesita estar en campo al activar si el efecto aplica. `action`: aplicar cláusula `671:a05:20491:on-summon-level9-direct-attack` con selección: Sin target. `expected_costs`: Sin coste. `expected_events/state_after`: Durante ese turno habilitar ataque directo de monstruos Memento Nivel ≥9, sujeto a reglas de batalla. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N79` (negativo esperado, `expected_legal=false`):** `state_before`: No hubo Invocación reciente de Akhíron o los atacantes no son Memento Nivel ≥9. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 80. `671:a05:20491:destroyed-card-effect-recover-other-memento` — dos casos de papel
+
+- **`case_id=671:A05:P80` (positivo esperado, `expected_legal=true`):** `state_before`: Akhíron CID20491 fue destruido por efecto; Disparo después de destrucción por efecto; condición: Otra carta Memento propia está en GY o destierro y es recuperable. `action`: aplicar cláusula `671:a05:20491:destroyed-card-effect-recover-other-memento` con selección: Target de una carta Memento distinta de Akhíron desterrada o en propio GY. `expected_costs`: Sin coste; destrucción es trigger. `expected_events/state_after`: Añadir esa carta Memento a mano desde GY/destierro. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N80` (negativo esperado, `expected_legal=false`):** `state_before`: Akhíron fue destruido por batalla o no existe otra carta Memento recuperable. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 81. `671:a05:20491:gy-on-own-memento-destruction-revive` — dos casos de papel
+
+- **`case_id=671:A05:P81` (positivo esperado, `expected_legal=true`):** `state_before`: Akhíron CID20491 en propio GY; Disparo tras destrucción por batalla/efecto de Memento propio desde mano o campo boca arriba; condición: Monstruo Memento en mano o boca arriba en Campo propio fue destruido y hay MZ propia libre. `action`: aplicar cláusula `671:a05:20491:gy-on-own-memento-destruction-revive` con selección: Sin target. `expected_costs`: Sin coste, destrucción observada es trigger. `expected_events/state_after`: Invocar la misma copia de Akhíron desde GY a Campo. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N81` (negativo esperado, `expected_legal=false`):** `state_before`: Akhíron no está en GY o la carta destruida no era Memento de mano/campo boca arriba propio. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 82. `671:a05:20533:quick-tribute-summon-goblin-from-deck` — dos casos de papel
+
+- **`case_id=671:A05:P82` (positivo esperado, `expected_legal=true`):** `state_before`: Gran Fuga Moto Goblin CID20533 en mano o colocada legalmente en M/T propia; Ventana válida de Mágica Rápida, respetando colocación; condición: Un monstruo propio tributable y monstruo con Goblin en nombre disponible en Deck, con espacio libre. `action`: aplicar cláusula `671:a05:20533:quick-tribute-summon-goblin-from-deck` con selección: Elegir Goblin del Main Deck legalmente invocable. `expected_costs`: Sacrificar un monstruo propio como coste antes de resolver. `expected_events/state_after`: Invocar el Goblin de Deck y prohibirle atacar durante el turno. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N82` (negativo esperado, `expected_legal=false`):** `state_before`: No controlas monstruo tributable o no existe Goblin real en Deck. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 83. `671:a05:20533:gy-banish-detach-atk-reduction` — dos casos de papel
+
+- **`case_id=671:A05:P83` (positivo esperado, `expected_legal=true`):** `state_before`: Gran Fuga Moto Goblin en GY propio; Cuando un monstruo declara ataque y se abre ventana correspondiente; condición: Controlas monstruo Xyz Goblin con materiales desacoplables; en paquete 671 no existe Xyz Goblin en Extra. `action`: aplicar cláusula `671:a05:20533:gy-banish-detach-atk-reduction` con selección: Sin targeting sobre monstruos rivales. `expected_costs`: Desterrar esta Mágica de GY y desacoplar N materiales Xyz Goblin como coste. `expected_events/state_after`: Todos los monstruos rivales actualmente controlados pierden 1000 ATK por cada material desacoplado hasta fin de turno. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N83` (negativo esperado, `expected_legal=false`):** `state_before`: No hay Xyz Goblin propio con material, así que el efecto no puede proponerse desde lista 671. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 84. `671:a05:20764:hand-discard-draw-opponent-gy-banish-summons` — dos casos de papel
+
+- **`case_id=671:A05:P84` (positivo esperado, `expected_legal=true`):** `state_before`: Mulcharmy Meowls CID20764 en mano tras intercambio de Side realmente efectuado; Ventana de Efecto Rápido, antes de los eventos rivales de Invocación; condición: No controlas cartas y el uso conjunto Mulcharmy se respeta; esta copia está realmente en mano. `action`: aplicar cláusula `671:a05:20764:hand-discard-draw-opponent-gy-banish-summons` con selección: Sin target ni elección de carta rival oculta. `expected_costs`: Descartar Meowls mano→GY antes de resolver. `expected_events/state_after`: Robar cartas desconocidas por invocaciones especiales rivales posteriores desde GY o destierro; durante End ajustar exceso a cartas rivales controladas +6. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N84` (negativo esperado, `expected_legal=false`):** `state_before`: Controlas cualquier carta propia al activar, o invocación rival fue desde mano/Extra y no desde GY/destierro. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 85. `671:a05:21203:initial-main-banish-cost-bounce` — dos casos de papel
+
+- **`case_id=671:A05:P85` (positivo esperado, `expected_legal=true`):** `state_before`: Rebanador Gordiano CID21203 en mano propia como Mágica Normal; Al principio de tu Main Phase 1 o Main Phase 2 antes de otras acciones; condición: Hay cartas boca arriba en Campo para seleccionar y suficientes recursos mano/Extra para desterrar por cada objetivo. `action`: aplicar cláusula `671:a05:21203:initial-main-banish-cost-bounce` con selección: Target a N cartas boca arriba físicas en Campo, N≥1. `expected_costs`: Después de seleccionar objetivos al activar, desterrar una carta de mano o seis del Extra boca abajo por cada objetivo durante resolución; no atribuir descarte ficticio. `expected_events/state_after`: Desterrar recursos por cada objetivo y devolver cartas seleccionadas a mano, o Extra Deck si son de Extra, conforme texto/reglas. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N85` (negativo esperado, `expected_legal=false`):** `state_before`: Se inició ya otra acción en Main o no hay recursos para el número de objetivos declarados. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 86. `671:a05:21203:cannot-negate-activation-or-effect` — dos casos de papel
+
+- **`case_id=671:A05:P86` (positivo esperado, `expected_legal=true`):** `state_before`: Rebanador Gordiano ha sido activado legalmente y se resolverá; Restricción de interacción con su activación y efecto durante la cadena; condición: Debe tratarse de la activación o efecto propio de esta carta. `action`: aplicar cláusula `671:a05:21203:cannot-negate-activation-or-effect` con selección: Sin objetivo nuevo. `expected_costs`: Sin coste autónomo. `expected_events/state_after`: No se puede negar la activación ni el efecto de esta carta; aún hay que satisfacer todas las guardas y pagar recursos. `reason`: caso hipotético condicionado a recursos físicamente disponibles, no prueba de jugada habilitada por inventario.
+- **`case_id=671:A05:N86` (negativo esperado, `expected_legal=false`):** `state_before`: Se trata de otra Mágica distinta de Rebanador o de una activación que ya era ilegal. `action`: no proponer interacción sin guarda ni ventana. `expected_costs`: cero costes para activación ilegal. `expected_events/state_after`: estado previo no alterado por este efecto. `reason`: falla el requisito; no usar sustituto oculto.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
 
 ### A05.9 — backlog causal verificable, sin falsas certificaciones
 
