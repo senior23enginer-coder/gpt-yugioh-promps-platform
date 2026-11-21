@@ -29,16 +29,19 @@ function checkPaper(document){
      'expected_state_after','expected_restrictions','reason','known_vs_unknown','status'])
      assert(Object.hasOwn(c,key),'Paper case lacks '+key);
    assert(typeof c.expected_legal==='boolean'||c.expected_legal===null);
-   if(c.expected_legal===null)assert(c.status==='CONDICIONAL'||c.status==='PENDIENTE');
-   const entry=types.get(c.effect_id)||{positive:0,negative:0};
+   if(c.expected_legal===null)assert(['CONDICIONAL','PENDIENTE','NO_APLICA'].includes(c.status));
+   if(c.status==='NO_APLICA')assert(c.expected_legal===null&&c.reason?.length>=20,
+     'NO_APLICA requires a concrete physical reason');
+   const entry=types.get(c.effect_id)||{positive:0,negative:0,noAplica:0};
    if(c.expected_legal===true)entry.positive++;
    if(c.expected_legal===false)entry.negative++;
+   if(c.status==='NO_APLICA')entry.noAplica++;
    types.set(c.effect_id,entry);
  }
  for(const e of document.effects){
-   const coverage=types.get(e.effect_id)||{positive:0,negative:0};
+   const coverage=types.get(e.effect_id)||{positive:0,negative:0,noAplica:0};
    if(e.kind!=='no-effect')
-     assert(coverage.positive>0&&coverage.negative>0,
+     assert((coverage.positive>0||coverage.noAplica>0)&&coverage.negative>0,
        'Every supported paper effect needs a positive and negative scenario: '+e.effect_id);
  }
  return {effects:ids.size,cases:caseIds.size};
