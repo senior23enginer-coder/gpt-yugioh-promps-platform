@@ -8,7 +8,7 @@ const names=fs.readdirSync(folder).filter(name=>/^\d{2}_.*\.md$/.test(name)).sor
 if(names.length!==36||names.some((name,i)=>!name.startsWith(String(i+1).padStart(2,'0')+'_')))throw Error('Falta uno de los 36 prompts modulares protegidos.');
 const bases=['00_PROMPT_UNICO_STATION_X_V31.md','01_ANEXO_PROPOSITO_TACTICO_EDITOR_V31.md','REFERENCIA_REGLAS_TCG_RUSH_Y_SKILLS.md'];
 for(const name of bases)if(!fs.existsSync(path.join(root,'02_PROMPT_PARA_CODEX',name)))throw Error('Falta documento base '+name);
-const edited=[...names.slice(0,10).map(name=>'02_PROMPT_PARA_CODEX/apartados/'+name),'02_PROMPT_PARA_CODEX/'+bases[0]];
+const edited=[...names.slice(0,10).map(name=>'02_PROMPT_PARA_CODEX/apartados/'+name),...bases.map(name=>'02_PROMPT_PARA_CODEX/'+name)];
 const file=path.join(root,'03_COMPROBACIONES_NO_IMPORTAR/ESTADO_UNICO_A01_A10_11_DECKS.md');
 // Approved A01–A10A/A10B revision keeps a compact, reviewed checksum
 // overlay: the historical 7MB log is retained byte-for-byte instead of
