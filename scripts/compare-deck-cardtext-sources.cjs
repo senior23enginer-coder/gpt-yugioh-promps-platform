@@ -19,6 +19,9 @@ function decode(s){
 }
 function normalize(s){
  return decode(s).normalize('NFKC')
+  // Konami's card text embeds the literal string <br> in some HTML entities.
+  // It is layout, not card-effect semantics.
+  .replace(/<br\s*\/?>/gi,' ')
   .replace(/[\r\n\t]+/g,' ')
   .replace(/[“”]/g,'"').replace(/[‘’]/g,"'")
   .replace(/\s+/g,' ').trim();
