@@ -28,7 +28,7 @@ Los decks **671 (Memento)** y **677 (Crystron/Horus)** incorporan ahora en su ca
 ### Memento: contrato portable ampliado (20-11-2026)
 
 La entrega canónica del deck **671** conserva las **12 rutas documentales** y
-su inventario original, e incluye **346 variantes ejecutables acotadas
+su inventario original, e incluye **351 variantes ejecutables acotadas
 agrupadas en 55 IDs de efecto** dentro de `record.calculator`. Las distintas
 variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
