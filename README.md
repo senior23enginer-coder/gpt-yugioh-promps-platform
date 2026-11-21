@@ -28,8 +28,8 @@ Los decks **671 (Memento)** y **677 (Crystron/Horus)** incorporan ahora en su ca
 ### Memento: contrato portable ampliado (20-11-2026)
 
 La entrega canónica del deck **671** conserva las **12 rutas documentales** y
-su inventario original, e incluye **244 variantes ejecutables acotadas
-agrupadas en 46 IDs de efecto** dentro de `record.calculator`. Las distintas
+su inventario original, e incluye **250 variantes ejecutables acotadas
+agrupadas en 48 IDs de efecto** dentro de `record.calculator`. Las distintas
 variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
 importadas y rechazar duplicados exactos o políticas incompatibles. Las
@@ -45,7 +45,7 @@ copia colocada en un turno anterior. Tributa un monstruo propio como coste,
 Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
 verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
 Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
-**28/39 identidades** tienen al menos una regla de actor; faltan 11 y siguen
+**29/39 identidades** tienen al menos una regla de actor; faltan 10 y siguen
 sin certificarse los replays A09.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
