@@ -30,6 +30,56 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **A05-T2 sigue pendiente** de un censo oficial por cada efecto y procedimiento con fuente, clase, condiciones y `effect_id`; **A05-T3** de las semánticas completas coste/ventana/cadena/OPT-HOPT/recursos/estado; **A05-T4** de casos lógicos positivos y negativos relacionados a esos efectos. Los replays históricos de apertura exacta y las ocho pruebas de papel piloto son referencias reutilizables, **no** sustituyen ese censo ni autorizan A10B.
 
+### A05.2 — censo cruzado de identidades y reglas (corte 21-11-2026)
+
+**Alcance y origen:** auditor genérico `scripts/audit-deck-effect-sources.cjs`, aprobado en [CI #44951218254](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44951218254), recibió exclusivamente la asignación `deck_id=671`. Para las **39 cartas distintas** cotejó `misc_info.konami_id` con el CID aprobado y el metadato descriptivo de YGOPRODeck; cada tarjeta conserva su enlace individual a **Konami Neuron**, que sigue siendo la fuente oficial normativa del texto TCG. Se conservaron únicamente huellas SHA-256 del texto externo, no se copió texto íntegro protegido. Censo **secundario de identidades**, no acreditación automática de cada cláusula reglamentaria.
+
+**Controles cuantificados:** **353 variantes** del paquete portátil corresponden a **59 `rule.id` distintos**, con reglas por `actor.cid` para **31/39 cartas** y al menos un ID de regla sin actor CID; **8 cartas no tienen regla portable por actor**. Un `rule.id` puede tener variantes alternativas, y un efecto impreso puede incluir varias modalidades, límites y restricciones. **59 identificadores ≠ 59 efectos reglamentarios acreditados, ni 353 efectos**. Ninguno de estos cómputos activa A10B ni certifica cobertura del motor.
+
+| CID | Carta registrada en esta lista | Zona cargada | Tipo de trabajo | IDs portátiles identificados por actor (NO exhaustivos) |
+|---|---|---|---|---|
+| 9139 | Oleada de Calor | main | SPELL | 1 IDs · `671:heat-wave:lock` |
+| 9279 | El Bufón y el Pájaro del Candado | main | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:droll:main-deck-lock` |
+| 9657 | Portaaviones Sumergible Aero Tiburón | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:aero-shark:damage-per-banished` |
+| 11243 | Artefacto Lancea | side | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:lancea:banish-lock` |
+| 12870 | Predaplanta Dragostapelia | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:dragostapelia:counter` |
+| 12950 | Flor de Ceniza | main | OTHER | **Sin regla portátil por actor** |
+| 13081 | D/D/D César, Alto Rey de las Olas | extra | MONSTER_EFFECT_OR_PROCEDURE | **Sin regla portátil por actor** |
+| 13619 | Llamado por la Tumba | main | SPELL | **Sin regla portátil por actor** |
+| 15296 | Talento de Tácticas Triples | main | SPELL | **Sin regla portátil por actor** |
+| 15299 | Gotas Prohibidas | main | SPELL | **Sin regla portátil por actor** |
+| 16845 | Quimera Guardián | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:guardian-chimera:draw-destroy` |
+| 19184 | TY-PHON - Crisis Celeste | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:typhon:detach-bounce` |
+| 19188 | S:P Pequeña Caballera | extra | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:sp:banish-link-extra`, `671:sp:temporary-banish` |
+| 19360 | Tecuhtlica - Creación Combinada | main | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:tecuhtlica:five-names` |
+| 19361 | Dragón de Cuerno | main | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:horned:destruction`, `671:horned:special` |
+| 19362 | Tatsunootoshigo | main | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:tatsun:mill`, `671:tatsun:special` |
+| 19363 | Hoja Oscura | main | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:19363:normal`, `671:dark-blade:goblin` |
+| 19364 | Angbruja | main | MONSTER_EFFECT_OR_PROCEDURE | 5 IDs · `671:19364:normal`, `671:angwitch:destroy-revive-mace`, `671:angwitch:search`, `671:moon:link-from-angwitch-tatsun`, `671:sp:link-procedure` |
+| 19365 | Maza | main | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:19365:normal`, `671:mace:search` |
+| 19366 | Goblin | main | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:goblin:send-two` |
+| 19367 | Mementomictlán | main | SPELL | 2 IDs · `671:mictlan:activate`, `671:mictlan:end-set` |
+| 19368 | Fiesta de Huesos | main | SPELL | 1 IDs · `671:bone-party:main` |
+| 19472 | Desvantasmas | main | MONSTER_EFFECT_OR_PROCEDURE | 3 IDs · `671:19472:normal`, `671:ghattic:recover`, `671:ghattic:revive` |
+| 19878 | Dragón Gemelo | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:twin-dragon:fusion-search` |
+| 19904 | Fusión Mementotlán | main | SPELL | 2 IDs · `671:memento-fusion:fuse`, `671:memento-fusion:graveyard-search` |
+| 19932 | Luna del Cielo Cerrado | extra | MONSTER_EFFECT_OR_PROCEDURE | 3 IDs · `671:moon:link-requiem`, `671:moon:link-sequence`, `671:sp:link-with-moon` |
+| 20196 | Demoniherrero Grabador | main | MONSTER_EFFECT_OR_PROCEDURE | 4 IDs · `671:engraver:link-sequence`, `671:engraver:remove`, `671:engraver:revive`, `671:princess:contact-summon` |
+| 20199 | Dormiveja | main | MONSTER_EFFECT_OR_PROCEDURE | 4 IDs · `671:20199:normal`, `671:shleepy:fusion`, `671:shleepy:send`, `671:shleepy:special` |
+| 20206 | Purulia | side | MONSTER_EFFECT_OR_PROCEDURE | **Sin regla portátil por actor** |
+| 20216 | Rey Creación | extra | MONSTER_EFFECT_OR_PROCEDURE | 3 IDs · `671:creation-king:destroy`, `671:creation-king:fusion-send`, `671:creation-king:graveyard-search` |
+| 20225 | Réquiem del Demoniherrero | extra | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:requiem:equip`, `671:requiem:tribute` |
+| 20226 | Secuencia del Demoniherrero | extra | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:sequence:duke-fusion` |
+| 20389 | Duque de la Defunción | extra | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:duke:immediate-normal`, `671:duke:recover-engraver` |
+| 20423 | Princesa Necroequipo | extra | MONSTER_EFFECT_OR_PROCEDURE | 2 IDs · `671:princess:trigger-draw`, `671:princess:trigger-equip` |
+| 20491 | Akhíron | main | MONSTER_EFFECT_OR_PROCEDURE | 1 IDs · `671:akihiron:recover` |
+| 20500 | Fuwalos | main+side | MONSTER_EFFECT_OR_PROCEDURE | **Sin regla portátil por actor** |
+| 20533 | Gran Fuga Moto Goblin | main | SPELL | 1 IDs · `671:goblin-biker-grand-breakout:deck-summon` |
+| 20764 | Meowls | side | MONSTER_EFFECT_OR_PROCEDURE | **Sin regla portátil por actor** |
+| 21203 | Rebanador Gordiano | side | SPELL | 2 IDs · `671:gordian:one-monster-one-hand`, `671:gordian:one-monster-six-extra` |
+
+**Brechas de A05-T2 que se deben resolver desde el texto oficial:** (a) asignar un `effect_id` estable por activación, efecto continuo, procedimiento y efecto condicionado de **cada una** de las 39 cartas; (b) cubrir por separado los CID 12950, 13081, 13619, 15296, 15299, 20206, 20500 y 20764; (c) discriminar efectos pasivos o restricciones que no producen una acción directa; (d) contrastar modalidades, costos y condiciones contra Konami Neuron antes de declarar una fila `VERIFICADA`. Las 353 variantes preexistentes son referencia de implementación, **no** sustituyen el análisis documental de A05 ni se ejecutan por esta solicitud. Se conserva A05-T2 **sin marcar**.
+
 ### A02–A03 — recepción e inventario acreditados
 
 El formato y la identidad de los paquetes versionados son coherentes; la prueba histórica de importación ZIP se usa solo como evidencia de compatibilidad estructural. El inventario físico se conserva **41/15/14/0**. Ningún ensayo en CI modifica la base productiva. La diferencia documental original del conteo C02 sigue siendo deuda de A09, no del inventario.
