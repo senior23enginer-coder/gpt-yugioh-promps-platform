@@ -134,6 +134,187 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Estado A05:** en estas cinco cartas se identificaron **16 IDs documentales de efectos, procedimientos y restricciones** agrupados en 5 CID. No se extrapolan al total de efectos del deck. A05-T2/T3/T4 siguen **abiertas** hasta completar el inventario causal de las 39 identidades y las matrices de casos asociadas.
 
+### A05.6 — registro individual de cláusulas por CID y `effect_id` documental
+
+**Revisión ordenada del texto TCG oficial:** censo de **39 identidades** acreditadas por CID en Konami Neuron y perfiles A05.3/A05.4. Cada línea representa una **activación, procedimiento, condición continua, restricción o cláusula de mantenimiento distinguible**, y se le asigna un `effect_id` documental del deck 671; las submodalidades de un efecto único (p. ej., Talento, Princesa, Mulcharmy) permanecen agrupadas, **no** se contabilizan como activaciones separadas. Los tipos `RAPIDO` y `DISPARO` son categorías documentales para uso posterior en A07, sin compilar ni ejecutar reglas A10B. Respetar siempre el texto oficial ante una paráfrasis abreviada.
+
+**Denominador de trabajo:** 94 IDs documentales para 39 CID; no equivalen a las **59 IDs de reglas portátiles** ni a sus **353 variantes**. Las reglas de Link que usan materiales no se confunden con efectos activados de esos materiales. No se crean cartas, Skills o reglas ejecutables.
+
+- **CID 9139 — Oleada de Calor** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=en))
+  - `671:a05:9139:opening-main1-summon-lock` · **ACTIVACION** · Activar solo al inicio de Main Phase 1; impide Invocar monstruos de efecto a ambos hasta la siguiente Draw Phase propia.
+
+- **CID 9279 — El Bufón y el Pájaro del Candado** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en))
+  - `671:a05:9279:after-opponent-main-deck-add` · **RAPIDO_MANO** · Tras una adición rival del Main Deck fuera de Draw, enviar desde mano al GY; bloquear nuevas adiciones a mano desde Main Deck para ambos este turno.
+
+- **CID 9657 — Portaaviones Sumergible Aero Tiburón** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=en))
+  - `671:a05:9657:xyz-two-level3` · **PROCEDIMIENTO** · Invocación Xyz usando dos monstruos de Nivel 3 válidos.
+  - `671:a05:9657:detach-banish-damage` · **ACTIVACION** · Una vez por turno desacoplar material y aplicar 100 de daño por cada monstruo propio desterrado.
+
+- **CID 11243 — Artefacto Lancea** (side; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en))
+  - `671:a05:11243:set-as-spell` · **PROCEDIMIENTO** · Colocarse desde mano como Mágica en zona M/T.
+  - `671:a05:11243:set-destroyed-opponent-turn-summon` · **DISPARO** · Si la copia colocada es destruida y llega al GY en turno rival, puede Invocarse.
+  - `671:a05:11243:quick-tribute-banish-lock` · **RAPIDO** · En turno rival Sacrificar desde mano o campo boca arriba; nadie puede desterrar hasta el final de ese turno.
+
+- **CID 12870 — Predaplanta Dragostapelia** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en))
+  - `671:a05:12870:fusion-dark-material` · **PROCEDIMIENTO** · Fusión de una carta Fusión y un monstruo OSCURIDAD.
+  - `671:a05:12870:quick-predator-counter` · **RAPIDO** · Una vez por turno seleccionar monstruo rival boca arriba y colocar Contador Depredador; Nivel 2 o más pasa a 1 mientras conserve contador.
+  - `671:a05:12870:continuous-negate-counters` · **CONTINUO** · Niega los efectos activados de monstruos rivales que tengan Contador Depredador.
+
+- **CID 12950 — Flor de Ceniza** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en))
+  - `671:a05:12950:hand-deck-effect-negate` · **RAPIDO_MANO** · Descartar desde mano en respuesta a efecto que incluya buscar, Invocar desde Deck o enviar Deck→GY; niega ese efecto una vez por turno.
+
+- **CID 13081 — D/D/D César, Alto Rey de las Olas** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en))
+  - `671:a05:13081:xyz-2-level6-fiends` · **PROCEDIMIENTO** · Invocación Xyz con dos Demonios Nivel 6.
+  - `671:a05:13081:quick-negate-special-summon-activation` · **RAPIDO** · Desacoplar 1 material cuando una activación incluya Invocación Especial, negar activación y destruir; bonificación de ATK opcional condicionada.
+  - `671:a05:13081:sent-field-to-gy-dark-contract` · **DISPARO** · Si esta carta pasa del campo al GY puede añadir Dark Contract del Deck; no hay objetivo en esta lista.
+
+- **CID 13619 — Llamado por la Tumba** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en))
+  - `671:a05:13619:opponent-gy-banish-name-negate` · **MAGICA_RAPIDA** · Seleccionar monstruo en GY rival; desterrarlo, si se logra, negar efectos propios y homónimos según texto hasta el fin del siguiente turno.
+
+- **CID 15296 — Talento de Tácticas Triples** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en))
+  - `671:a05:15296:opponent-main-phase-activated-monster-effect-choice` · **MAGICA_NORMAL** · Tras efecto de monstruo rival en tu Main de este turno, elegir una sola opción: robar dos, controlar rival temporalmente o elegir carta de mano rival para barajar; 1 activación por turno.
+
+- **CID 15299 — Gotas Prohibidas** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en))
+  - `671:a05:15299:send-other-cards-negate-monsters` · **MAGICA_RAPIDA** · Enviar otras cartas de mano/campo al GY como coste; elegir igual número de monstruos de efecto rivales para mitad ATK y negación, con bloqueo de respuesta por tipo original; 1 activación por turno.
+
+- **CID 16845 — Quimera Guardián** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en))
+  - `671:a05:16845:fusion-hand-field-procedure` · **PROCEDIMIENTO** · Fusión de tres monstruos con nombres distintos, usando al menos uno de mano y otro de campo.
+  - `671:a05:16845:fusion-summon-draw-destroy` · **DISPARO** · Si se Invoca por Fusión mediante Mágica/efecto de Mágica, robar según materiales de mano y destruir rivales según materiales de campo; 1 uso por turno.
+  - `671:a05:16845:polymerization-gy-target-protection` · **CONTINUO** · Protección contra ser seleccionada por rival solo mientras Polimerización permanezca en GY propio; no está en la lista.
+
+- **CID 19184 — TY-PHON - Crisis Celeste** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en))
+  - `671:a05:19184:xyz-2-level12` · **PROCEDIMIENTO** · Invocación Xyz ordinaria con dos monstruos Nivel 12.
+  - `671:a05:19184:alternative-xyz-highest-atk` · **PROCEDIMIENTO** · Tras dos o más Invocaciones rivales desde Extra en este turno o anterior, usar propio de mayor ATK; transferir materiales y bloquear nuevas Invocaciones propias este turno.
+  - `671:a05:19184:continuous-3000-activation-lock` · **CONTINUO** · Mientras esté Xyz Invocado en campo impide a ambos activar efectos de monstruos de 3000 ATK o más.
+  - `671:a05:19184:detach-bounce` · **ACTIVACION** · Una vez por turno desacoplar 1 material para devolver un monstruo del campo a la mano, sin inferir target.
+
+- **CID 19188 — S:P Pequeña Caballera** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en))
+  - `671:a05:19188:link-two-effect-monsters` · **PROCEDIMIENTO** · Invocar Link-2 usando dos monstruos de efecto.
+  - `671:a05:19188:on-link-with-extra-banish` · **DISPARO** · Si al Link Summon se usó monstruo de Extra, seleccionar una carta del campo o GY y desterrarla, impidiendo ataque directo propio ese turno.
+  - `671:a05:19188:quick-observed-activation-temporary-banish` · **RAPIDO** · En respuesta a activación rival, seleccionar dos monstruos boca arriba incluido propio, desterrarlos temporalmente hasta End Phase; cada efecto una vez por turno.
+
+- **CID 19360 — Tecuhtlica - Creación Combinada** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en))
+  - `671:a05:19360:special-five-distinct-names` · **PROCEDIMIENTO** · Barajar cinco monstruos Memento distintos desde mano/GY, distintos de esta carta, para Invocar desde mano/GY.
+  - `671:a05:19360:continuous-attack-each-monster-alone` · **CONTINUO** · Si controlas ningún otro monstruo, puede atacar una vez a cada monstruo rival.
+  - `671:a05:19360:opponent-activation-revive-memento` · **DISPARO** · Una vez por turno tras activación rival fuera de Damage Step, Invocar Memento desde mano/GY.
+
+- **CID 19361 — Dragón de Cuerno** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en))
+  - `671:a05:19361:hand-special-three-names` · **PROCEDIMIENTO** · Invocar desde mano si hay tres o más Memento de nombres distintos en GY; una vez por turno mediante este modo.
+  - `671:a05:19361:destroyed-field-target-three-faceup` · **DISPARO** · Si se destruye por efecto estando en campo, seleccionar tres cartas boca arriba incluyendo un Memento propio y destruirlas; una vez por turno.
+
+- **CID 19362 — Tatsunootoshigo** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en))
+  - `671:a05:19362:hand-special-only-mementos-faceup` · **ACTIVACION** · Invocarse desde mano si no controlas monstruos propios boca arriba ajenos a Memento; una vez por turno.
+  - `671:a05:19362:main-destroy-memento-send-level-total` · **ACTIVACION** · En Main Phase destruir Memento propio y enviar del Deck Memento distintos con suma de Niveles hasta Nivel original destruido; una vez por turno.
+
+- **CID 19363 — Hoja Oscura** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=en))
+  - `671:a05:19363:on-summon-discard-destroy-spelltrap` · **DISPARO** · Al Invocarse puede descartar carta Memento y seleccionar M/T rival para destruirla; una vez por turno.
+  - `671:a05:19363:main-destroy-special-level3` · **ACTIVACION** · Durante Main destruir un Memento propio y, si ocurrió, Invocar Memento Nivel 3 o menor del Deck; una vez por turno.
+
+- **CID 19364 — Angbruja** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en))
+  - `671:a05:19364:on-summon-search-memento` · **DISPARO** · Al Invocarse puede añadir otro monstruo Memento del Deck a mano; una vez por turno.
+  - `671:a05:19364:gy-target-destroy-revive-level2` · **ACTIVACION** · Seleccionar Memento Nivel 2 o menor en GY, destruir Memento propio y luego Invocar ese objetivo si se destruyó; una vez por turno.
+
+- **CID 19365 — Maza** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=en))
+  - `671:a05:19365:opponent-main-discard-control-monster` · **RAPIDO_MANO** · Durante Main rival con Creación Combinada propia, descartar desde mano y seleccionar monstruo rival boca arriba para controlarlo hasta End Phase; una vez por turno.
+  - `671:a05:19365:main-destroy-search-memento-card` · **ACTIVACION** · En tu Main destruir Memento propio y añadir del Deck carta Memento distinta de Maza; una vez por turno.
+
+- **CID 19366 — Goblin** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en))
+  - `671:a05:19366:quick-discard-target-protection` · **RAPIDO_MANO** · Durante Main con Creación Combinada propia, descartar y prohibir selección rival de Memento propios el resto del turno; una vez por turno.
+  - `671:a05:19366:main-destroy-send-up-to-two` · **ACTIVACION** · En Main destruir un Memento propio y enviar hasta dos cartas Memento de distinto nombre del Deck excluyendo Goblin; una vez por turno.
+
+- **CID 19367 — Mementomictlán** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en))
+  - `671:a05:19367:battle-spelltrap-restriction` · **CONTINUO** · Si Memento propio batalla, rival no activa M/T hasta terminar Damage Step.
+  - `671:a05:19367:destroyed-own-monster-target-lower-revive` · **DISPARO** · Si monstruo propio se destruye, seleccionar uno de los destruidos e Invocar Memento de Nivel inferior desde mano/GY; una vez por turno.
+  - `671:a05:19367:end-set-memento-spelltrap` · **ACTIVACION** · Una vez por turno en End Phase seleccionar M/T Memento de GY y Colocarla.
+
+- **CID 19368 — Fiesta de Huesos** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en))
+  - `671:a05:19368:quick-destroy-search-or-special` · **MAGICA_RAPIDA** · Destruir Memento en mano/campo propio boca arriba; tomar Memento de nombre distinto del Deck y añadirlo o Invocarlo en Defensa, una vez por turno.
+  - `671:a05:19368:gy-banish-piercing` · **ACTIVACION_GY** · Durante Main desterrar esta Mágica de GY, seleccionar Memento propio para darle perforación ese turno; una vez por turno.
+
+- **CID 19472 — Desvantasmas** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en))
+  - `671:a05:19472:on-summon-gy-recover` · **DISPARO** · Al Invocarse seleccionar carta Memento distinta de Desvantasma en GY y añadirla a mano; una vez por turno.
+  - `671:a05:19472:sent-by-memento-monster-gy-special` · **DISPARO_GY** · Si enviada a GY por efecto de monstruo Memento, Invocarse desde allí; una vez por turno.
+
+- **CID 19878 — Dragón Gemelo** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en))
+  - `671:a05:19878:fusion-two-memento` · **PROCEDIMIENTO** · Fusión de dos monstruos Memento.
+  - `671:a05:19878:battle-destroyed-monsters-banished` · **CONTINUO** · Destierra monstruos destruidos por batalla con un Memento propio.
+  - `671:a05:19878:on-fusion-destroy-search-two` · **DISPARO** · Tras su Invocación por Fusión puede destruir Memento de mano/campo propio y buscar hasta dos monstruos Memento con nombres distintos del Deck; 1/turno.
+  - `671:a05:19878:fusion-destroyed-gy-revive-level6` · **DISPARO** · Si esta copia Invocada por Fusión es destruida, puede Invocar Memento Nivel 6 o menor desde GY; 1/turno.
+
+- **CID 19904 — Fusión Mementotlán** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en))
+  - `671:a05:19904:quick-play-fusion` · **MAGICA_RAPIDA** · Durante Main Phase Fusionar con mano/campo incluyendo Memento; si hubo destrucción propia por efecto este turno, también puede barajar Memento de GY al Deck como materiales.
+  - `671:a05:19904:gy-banish-destroy-search-spelltrap` · **ACTIVACION_GY** · En Main desterrar esta carta de GY, destruir monstruo propio y, si se destruyó, añadir M/T Memento del Deck; cada efecto una vez por turno.
+
+- **CID 19932 — Luna del Cielo Cerrado** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en))
+  - `671:a05:19932:link-two-effect-monsters` · **PROCEDIMIENTO** · Link-2 con dos monstruos de efecto.
+  - `671:a05:19932:pointed-opponent-material-link5` · **ACTIVACION** · Seleccionar monstruo rival boca arriba señalado; si luego se Invoca Link-5 utilizando Luna propia, puede usarse como material en ese turno; una vez por turno.
+
+- **CID 20196 — Demoniherrero Grabador** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en))
+  - `671:a05:20196:hand-discard-search-fiendsmith-spelltrap` · **ACTIVACION_MANO** · Descartar desde mano para buscar M/T Fiendsmith del Deck; no existe objetivo en este Main.
+  - `671:a05:20196:target-own-equip-and-field-monster-to-gy` · **ACTIVACION** · Seleccionar equipo Fiendsmith propio y monstruo en campo para enviarlos al GY.
+  - `671:a05:20196:gy-shuffle-light-fiend-self-revive` · **ACTIVACION_GY** · En GY barajar otro Demonio LUZ de GY a Deck/Extra para Invocarse; cada efecto una vez por turno.
+
+- **CID 20199 — Dormiveja** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=en))
+  - `671:a05:20199:hand-special-after-own-destruction` · **RAPIDO_MANO** · Durante turno con monstruo propio destruido por efecto, Invocarse desde mano como Rápido; una vez por turno.
+  - `671:a05:20199:on-summon-fusion-memento` · **DISPARO** · Al Invocarse puede Fusionar Memento del Extra usando mano/campo; una vez por turno.
+  - `671:a05:20199:on-destroy-send-memento-from-deck` · **DISPARO** · Si destruido por batalla/efecto, enviar carta Memento del Deck distinta de Dormiveja al GY; una vez por turno.
+
+- **CID 20206 — Purulia** (side; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en))
+  - `671:a05:20206:hand-discard-draw-opponent-hand-summons` · **RAPIDO_MANO** · Sin controlar cartas, descartar desde mano para aplicar robo por Invocaciones rival Normal/Especial desde mano, más ajuste de exceso de mano en End; límite compartido Mulcharmy.
+
+- **CID 20216 — Rey Creación** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en))
+  - `671:a05:20216:fusion-three-memento` · **PROCEDIMIENTO** · Fusión con tres monstruos Memento.
+  - `671:a05:20216:gy-banish-search-field-spell` · **ACTIVACION_GY** · Desterrar esta carta de GY para añadir Mementomictlán del Deck.
+  - `671:a05:20216:on-fusion-send-three-memento` · **DISPARO** · Al ser Invocado por Fusión, enviar tres cartas Memento desde Deck/Extra al GY.
+  - `671:a05:20216:quick-equal-destroy` · **RAPIDO** · Seleccionar igual número de Memento propios y cartas rivales para destruir ambos grupos.
+  - `671:a05:20216:same-chain-effect-restriction` · **RESTRICCION** · No activar en la misma Cadena los efectos de envío tras Fusión y destrucción rápida; cada uno una vez por turno.
+
+- **CID 20225 — Réquiem del Demoniherrero** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en))
+  - `671:a05:20225:link-one-light-fiend` · **PROCEDIMIENTO** · Link-1 usando un Demonio LUZ.
+  - `671:a05:20225:special-summon-name-once` · **RESTRICCION** · Solo Invocar de Modo Especial Réquiem una vez por turno por nombre.
+  - `671:a05:20225:quick-main-tribute-fiendsmith-summon` · **RAPIDO** · Durante Main Sacrificarse para Invocar Fiendsmith de mano/Deck.
+  - `671:a05:20225:field-gy-equip-light-fiend` · **ACTIVACION** · Seleccionar Demonio LUZ no Link propio, equipar Réquiem desde Campo/GY y dar +600 ATK; el equipamiento se usa una vez por turno.
+
+- **CID 20226 — Secuencia del Demoniherrero** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en))
+  - `671:a05:20226:link-two-with-light-fiend` · **PROCEDIMIENTO** · Link-2 con dos monstruos incluyendo Demonio LUZ.
+  - `671:a05:20226:main-gy-fusion` · **ACTIVACION** · En Main Phase Invocar Fusión Demonio barajando sus materiales del GY al Deck, una vez por turno.
+  - `671:a05:20226:field-gy-equip-light-fiend` · **ACTIVACION** · Equipar desde Campo/GY a Demonio LUZ no Link propio; una vez por turno.
+  - `671:a05:20226:equipped-target-protection` · **CONTINUO** · Mientras está equipado de ese modo, rival no puede seleccionar al monstruo equipado con efectos.
+
+- **CID 20389 — Duque de la Defunción** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=en))
+  - `671:a05:20389:fusion-two-fiends-or-zombies` · **PROCEDIMIENTO** · Fusión con dos monstruos Demonio y/o Zombi.
+  - `671:a05:20389:standby-pay500-or-destroy` · **MANTENIMIENTO** · Una vez por Standby propio pagar 500 LP o destruir esta carta.
+  - `671:a05:20389:battle-indestructible` · **CONTINUO** · Esta carta no puede ser destruida por batalla.
+  - `671:a05:20389:main-immediate-normal` · **ACTIVACION** · Durante Main, tras resolver, permite inmediatamente una Invocación Normal; una vez por turno.
+  - `671:a05:20389:gy-banish-recover-level4-fiend-zombie` · **ACTIVACION_GY** · Desterrarse desde GY, seleccionar Demonio/Zombi Nivel 4+ en GY y añadir a mano; una vez por turno.
+
+- **CID 20423 — Princesa Necroequipo** (extra; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=en))
+  - `671:a05:20423:send-equipped-monster-fiend-procedure` · **PROCEDIMIENTO** · Invocación Especial de Extra enviando monstruo equipado con carta Monstruo y carta Demonio desde mano/campo al GY.
+  - `671:a05:20423:unique-control-restriction` · **RESTRICCION** · Solo controlar una Princesa Necroequipo.
+  - `671:a05:20423:hand-sent-activation-trigger-choice` · **DISPARO** · Si monstruos de mano fueron enviados al GY para activar carta/efecto, elegir equipar uno (+500 ATK) o robar 1; un solo uso por turno.
+
+- **CID 20491 — Akhíron** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=en))
+  - `671:a05:20491:on-summon-level9-direct-attack` · **DISPARO** · Al Invocarse habilita ataques directos de Memento Nivel 9+ en el turno; una vez por turno.
+  - `671:a05:20491:destroyed-card-effect-recover-other-memento` · **DISPARO** · Al destruirse por efecto, seleccionar otra carta Memento desterrada/en GY y añadirla a mano; una vez por turno.
+  - `671:a05:20491:gy-on-own-memento-destruction-revive` · **DISPARO_GY** · Si Memento en mano/campo propio boca arriba se destruye por batalla/efecto mientras Akhíron está en GY, Invocarse; una vez por turno.
+
+- **CID 20500 — Fuwalos** (main+side; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en))
+  - `671:a05:20500:hand-discard-draw-opponent-deck-extra-summons` · **RAPIDO_MANO** · Sin cartas propias, descartar para aplicar robo por Invocaciones Especiales rivales desde Deck/Extra, con ajuste de mano en End y límite Mulcharmy compartido.
+
+- **CID 20533 — Gran Fuga Moto Goblin** (main; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=en))
+  - `671:a05:20533:quick-tribute-summon-goblin-from-deck` · **MAGICA_RAPIDA** · Sacrificar monstruo propio para Invocar Goblin del Deck sin poder atacar este turno; una vez por turno.
+  - `671:a05:20533:gy-banish-detach-atk-reduction` · **DISPARO_GY** · Tras declaración de ataque desterrar Mágica del GY y desacoplar materiales Goblin Xyz propios para reducir ATK de rivales; una vez por turno.
+
+- **CID 20764 — Meowls** (side; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=en))
+  - `671:a05:20764:hand-discard-draw-opponent-gy-banish-summons` · **RAPIDO_MANO** · Sin cartas propias, descartar para robo por Invocaciones Especiales rivales desde GY/destierro, con ajuste de mano en End y límite Mulcharmy compartido.
+
+- **CID 21203 — Rebanador Gordiano** (side; [texto TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en))
+  - `671:a05:21203:initial-main-banish-cost-bounce` · **MAGICA_NORMAL** · Al inicio de Main Phase 1 o 2 seleccionar cartas boca arriba; por cada objetivo desterrar una carta de mano o seis del Extra boca abajo, devolver objetivos a la mano.
+  - `671:a05:21203:cannot-negate-activation-or-effect` · **RESTRICCION** · La activación y el efecto de Rebanador Gordiano no pueden ser negados según su texto.
+
+
+**Aceptación A05-T2 (censo):** 39/39 identidades cubiertas; 94 entradas diferenciadas con fuente oficial, clasificación y descripción de comportamiento/condición en este mismo archivo. Los casos de `NO_APLICA` o sin objetivo disponible (p. ej., búsqueda de Dark Contract, búsqueda Fiendsmith, ciertas rutas de Side/Extra) **conservan la existencia oficial del efecto** y solo limitan su aplicabilidad a la lista. La prueba de legalidad por estados, coste/objetivo/cadenas completa y los casos positivos/negativos por cada ID corresponden a A05-T3/T4 y A07, todavía pendientes. No se presume que el motor entienda todos estos `effect_id`.
+
 ### A02–A03 — recepción e inventario acreditados
 
 El formato y la identidad de los paquetes versionados son coherentes; la prueba histórica de importación ZIP se usa solo como evidencia de compatibilidad estructural. El inventario físico se conserva **41/15/14/0**. Ningún ensayo en CI modifica la base productiva. La diferencia documental original del conteo C02 sigue siendo deuda de A09, no del inventario.
