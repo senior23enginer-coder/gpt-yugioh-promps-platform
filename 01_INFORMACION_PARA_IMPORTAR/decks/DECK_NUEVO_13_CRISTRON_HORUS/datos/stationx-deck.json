@@ -554,6 +554,678 @@
             "Selección acreditada para esta lista: Inclusión Cristron está en el Main y debe seguir disponible en el Deck; otras Mágicas/Trampas Crystron no están modeladas en esta variante.",
             "Comparte el límite de usar sólo un efecto de Smiger por turno, incluso entre copias."
           ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:graveyard-search",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Cementerio: desterrarse para añadir Cristron Citree del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "graveyard"
+            ],
+            "cid": 12609
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            },
+            {
+              "kind": "flag",
+              "flag": "graveyardBlocked",
+              "value": false
+            }
+          ],
+          "select": [],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "actor",
+              "to": "banished",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 12606,
+              "from": "deck",
+              "to": "hand",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "addFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Efecto de Cementerio del texto oficial: destierra Thystvern como coste; busca un monstruo Cristron distinto de Thystvern aún existente en el Main Deck.",
+            "Variante acotada al CID de Cristron Citree verificado en este inventario; las cinco variantes comparten un solo uso por nombre y turno.",
+            "No modela el efecto alternativo en Campo ni certifica una ruta A09 o interrupciones rivales completas."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:graveyard-search",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Cementerio: desterrarse para añadir Cristron Smiger del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "graveyard"
+            ],
+            "cid": 12609
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            },
+            {
+              "kind": "flag",
+              "flag": "graveyardBlocked",
+              "value": false
+            }
+          ],
+          "select": [],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "actor",
+              "to": "banished",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 12608,
+              "from": "deck",
+              "to": "hand",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "addFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Efecto de Cementerio del texto oficial: destierra Thystvern como coste; busca un monstruo Cristron distinto de Thystvern aún existente en el Main Deck.",
+            "Variante acotada al CID de Cristron Smiger verificado en este inventario; las cinco variantes comparten un solo uso por nombre y turno.",
+            "No modela el efecto alternativo en Campo ni certifica una ruta A09 o interrupciones rivales completas."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:graveyard-search",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Cementerio: desterrarse para añadir Cristron Azufafnir del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "graveyard"
+            ],
+            "cid": 12609
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            },
+            {
+              "kind": "flag",
+              "flag": "graveyardBlocked",
+              "value": false
+            }
+          ],
+          "select": [],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "actor",
+              "to": "banished",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 12756,
+              "from": "deck",
+              "to": "hand",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "addFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Efecto de Cementerio del texto oficial: destierra Thystvern como coste; busca un monstruo Cristron distinto de Thystvern aún existente en el Main Deck.",
+            "Variante acotada al CID de Cristron Azufafnir verificado en este inventario; las cinco variantes comparten un solo uso por nombre y turno.",
+            "No modela el efecto alternativo en Campo ni certifica una ruta A09 o interrupciones rivales completas."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:graveyard-search",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Cementerio: desterrarse para añadir Cristron Tristaros del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "graveyard"
+            ],
+            "cid": 12609
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            },
+            {
+              "kind": "flag",
+              "flag": "graveyardBlocked",
+              "value": false
+            }
+          ],
+          "select": [],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "actor",
+              "to": "banished",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 20758,
+              "from": "deck",
+              "to": "hand",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "addFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Efecto de Cementerio del texto oficial: destierra Thystvern como coste; busca un monstruo Cristron distinto de Thystvern aún existente en el Main Deck.",
+            "Variante acotada al CID de Cristron Tristaros verificado en este inventario; las cinco variantes comparten un solo uso por nombre y turno.",
+            "No modela el efecto alternativo en Campo ni certifica una ruta A09 o interrupciones rivales completas."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:graveyard-search",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Cementerio: desterrarse para añadir Cristron Sulfador del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "graveyard"
+            ],
+            "cid": 12609
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            },
+            {
+              "kind": "flag",
+              "flag": "graveyardBlocked",
+              "value": false
+            }
+          ],
+          "select": [],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "actor",
+              "to": "banished",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 20759,
+              "from": "deck",
+              "to": "hand",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "addFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Efecto de Cementerio del texto oficial: destierra Thystvern como coste; busca un monstruo Cristron distinto de Thystvern aún existente en el Main Deck.",
+            "Variante acotada al CID de Cristron Sulfador verificado en este inventario; las cinco variantes comparten un solo uso por nombre y turno.",
+            "No modela el efecto alternativo en Campo ni certifica una ruta A09 o interrupciones rivales completas."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:sarcophagus:send-horus",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Sarcófago del Rey: enviar una carta de la mano al Cementerio para enviar Amset desde el Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ],
+            "cid": 19200,
+            "faceUp": true,
+            "notNegated": true
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            }
+          ],
+          "select": [
+            {
+              "ref": "sent",
+              "selector": {
+                "side": "self",
+                "zones": [
+                  "hand"
+                ]
+              }
+            }
+          ],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "sent",
+              "to": "graveyard",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 19153,
+              "from": "deck",
+              "to": "graveyard",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "sendFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "maxUsesPerTurn": 4,
+          "chainSpeed": 1,
+          "assumptions": [
+            "Solo con Sarcófago del Rey propio boca arriba en zona M/T, en Main Phase propia. Envía una carta disponible de la mano al Cementerio como coste; después envía un Horus del Deck al Cementerio al resolver sin negación.",
+            "Las dos variantes de Amset/Hapi comparten un único contador de hasta cuatro usos por turno, incluso si se controla más de una copia de Sarcófago.",
+            "La Invocación Especial desde Cementerio NO es efecto de Sarcófago: es procedimiento separado del monstruo Horus. No se modelan aquí protección continua ni efecto de Damage Step.",
+            "Las respuestas del rival que nieguen el efecto pueden conservar el coste enviado de la mano; no se afirman respuestas a cadenas arbitrarias."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:sarcophagus:send-horus",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Sarcófago del Rey: enviar una carta de la mano al Cementerio para enviar Hapi desde el Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ],
+            "cid": 19200,
+            "faceUp": true,
+            "notNegated": true
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            }
+          ],
+          "select": [
+            {
+              "ref": "sent",
+              "selector": {
+                "side": "self",
+                "zones": [
+                  "hand"
+                ]
+              }
+            }
+          ],
+          "costs": [
+            {
+              "op": "move",
+              "ref": "sent",
+              "to": "graveyard",
+              "position": "attack"
+            }
+          ],
+          "resolve": [
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 19155,
+              "from": "deck",
+              "to": "graveyard",
+              "position": "attack"
+            }
+          ],
+          "tags": [
+            "sendFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "maxUsesPerTurn": 4,
+          "chainSpeed": 1,
+          "assumptions": [
+            "Solo con Sarcófago del Rey propio boca arriba en zona M/T, en Main Phase propia. Envía una carta disponible de la mano al Cementerio como coste; después envía un Horus del Deck al Cementerio al resolver sin negación.",
+            "Las dos variantes de Amset/Hapi comparten un único contador de hasta cuatro usos por turno, incluso si se controla más de una copia de Sarcófago.",
+            "La Invocación Especial desde Cementerio NO es efecto de Sarcófago: es procedimiento separado del monstruo Horus. No se modelan aquí protección continua ni efecto de Damage Step.",
+            "Las respuestas del rival que nieguen el efecto pueden conservar el coste enviado de la mano; no se afirman respuestas a cadenas arbitrarias."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:destroy-tuner",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Campo: destruir una carta propia boca arriba e Invocar Citree del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "monsters"
+            ],
+            "cid": 12609,
+            "faceUp": true,
+            "notNegated": true
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            }
+          ],
+          "select": [
+            {
+              "ref": "target",
+              "selector": {
+                "side": "self",
+                "zones": [
+                  "field-all"
+                ],
+                "faceUp": true
+              },
+              "allowActor": true
+            }
+          ],
+          "costs": [],
+          "resolve": [
+            {
+              "op": "flag",
+              "flag": "machineSynchroOnly",
+              "value": true,
+              "duration": "turn"
+            },
+            {
+              "op": "destroy",
+              "ref": "target",
+              "reason": "effect"
+            },
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 12606,
+              "from": "deck",
+              "to": "free-monster",
+              "position": "attack",
+              "summonMethod": "special"
+            }
+          ],
+          "tags": [
+            "monsterEffect",
+            "summonFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Solo un objetivo propio boca arriba, incluida la propia copia Thystvern; su destrucción es parte de la resolución, nunca coste. El Cantante elegido debe permanecer realmente en el Main Deck.",
+            "La restricción de Invocar desde Extra solo Monstruos de Sincronía Máquina rige durante el resto del turno.",
+            "Los dos objetivos de Invocación y todas las variantes de búsqueda de GY comparten el límite oficial de usar únicamente un efecto de Thystvern en el turno y una sola vez.",
+            "Esta regla acotada no realiza Sincronía automáticamente ni acredita las cadenas del rival."
+          ]
+        },
+        {
+          "version": 1,
+          "id": "677:thystvern:destroy-tuner",
+          "deckId": 677,
+          "format": "tcg_advanced",
+          "scope": "single-effect",
+          "label": "Cristron Thystvern en Campo: destruir una carta propia boca arriba e Invocar Tristaros del Deck",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en",
+          "actor": {
+            "side": "self",
+            "zones": [
+              "monsters"
+            ],
+            "cid": 12609,
+            "faceUp": true,
+            "notNegated": true
+          },
+          "guards": [
+            {
+              "kind": "state",
+              "field": "active",
+              "values": [
+                "self"
+              ]
+            },
+            {
+              "kind": "state",
+              "field": "phase",
+              "values": [
+                "main1",
+                "main2"
+              ]
+            }
+          ],
+          "select": [
+            {
+              "ref": "target",
+              "selector": {
+                "side": "self",
+                "zones": [
+                  "field-all"
+                ],
+                "faceUp": true
+              },
+              "allowActor": true
+            }
+          ],
+          "costs": [],
+          "resolve": [
+            {
+              "op": "flag",
+              "flag": "machineSynchroOnly",
+              "value": true,
+              "duration": "turn"
+            },
+            {
+              "op": "destroy",
+              "ref": "target",
+              "reason": "effect"
+            },
+            {
+              "op": "take",
+              "side": "self",
+              "cid": 20758,
+              "from": "deck",
+              "to": "free-monster",
+              "position": "attack",
+              "summonMethod": "special"
+            }
+          ],
+          "tags": [
+            "monsterEffect",
+            "summonFromDeck"
+          ],
+          "activation": true,
+          "oncePerTurn": true,
+          "oncePerName": true,
+          "assumptions": [
+            "Solo un objetivo propio boca arriba, incluida la propia copia Thystvern; su destrucción es parte de la resolución, nunca coste. El Cantante elegido debe permanecer realmente en el Main Deck.",
+            "La restricción de Invocar desde Extra solo Monstruos de Sincronía Máquina rige durante el resto del turno.",
+            "Los dos objetivos de Invocación y todas las variantes de búsqueda de GY comparten el límite oficial de usar únicamente un efecto de Thystvern en el turno y una sola vez.",
+            "Esta regla acotada no realiza Sincronía automáticamente ni acredita las cadenas del rival."
+          ]
         }
       ]
     },
