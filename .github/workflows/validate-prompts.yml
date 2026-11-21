@@ -19,7 +19,6 @@ on:
       - 'scripts/audit-deck-images.cjs'
       - 'scripts/audit-deck-visual-zone-links.cjs'
       - 'scripts/audit-deck-card-profiles.cjs'
-      - 'scripts/probe-memento-671-photo-sources.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -40,7 +39,6 @@ on:
       - 'scripts/audit-deck-images.cjs'
       - 'scripts/audit-deck-visual-zone-links.cjs'
       - 'scripts/audit-deck-card-profiles.cjs'
-      - 'scripts/probe-memento-671-photo-sources.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -70,9 +68,6 @@ jobs:
         run: node scripts/test-p06-golden-route-contract.cjs
       - name: Audit 40 protected legacy assertions and recorded source provenance
         run: node scripts/test-p06-legacy-assertion-inventory.cjs
-      - name: Probe real HD image sources for Memento 671 without writing
-        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
-        run: node scripts/probe-memento-671-photo-sources.cjs
       - name: Audit real image dimensions for explicitly assigned Memento 671
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
