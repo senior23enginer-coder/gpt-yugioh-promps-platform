@@ -745,6 +745,248 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Estado posterior esperado:** Tras resolución válida: Destruir monstruo propio y, si se destruyó, añadir M/T Memento desde Deck a mano. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en
 
+#### 39. `671:a05:9139:opening-main1-summon-lock` · CID 9139 (ACTIVACION)
+
+- **Actor / estado inicial:** Oleada de Calor desde mano propia; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Exactamente al comienzo de Main Phase 1 propia antes de otras acciones de Main.
+- **Coste o requisito previo:** Sin coste adicional al jugar la Mágica Normal; precondición: No se ha iniciado aún otra acción de Main Phase 1.
+- **Selección / targeting:** No selecciona objetivo.
+- **Resolución:** Aplica prohibición temporal de Invocación Normal/Especial de monstruos de efecto a ambos jugadores hasta la próxima Draw Phase propia.
+- **Uso, negación y restricciones:** La restricción persiste hasta la próxima Draw Phase propia, no desaparece en End Phase; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Aplica prohibición temporal de Invocación Normal/Especial de monstruos de efecto a ambos jugadores hasta la próxima Draw Phase propia; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=en
+
+#### 40. `671:a05:9657:xyz-two-level3` · CID 9657 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Aero Tiburón CID9657 en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación Xyz válida desde Extra durante turno propio.
+- **Coste o requisito previo:** Superponer dos monstruos como materiales durante procedimiento, no pagar coste de activación; precondición: Existen exactamente dos monstruos propios Nivel 3 físicamente disponibles como material y zona Xyz válida.
+- **Selección / targeting:** Elegir dos monstruos de Nivel 3 válidos.
+- **Resolución:** Invocar Aero Shark Xyz desde Extra con dos materiales reales debajo de la carta.
+- **Uso, negación y restricciones:** Es requisito de Invocación, no efecto OPT en cadena; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Aero Shark Xyz desde Extra con dos materiales reales debajo de la carta; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=en
+
+#### 41. `671:a05:9657:detach-banish-damage` · CID 9657 (ACTIVACION)
+
+- **Actor / estado inicial:** Aero Shark Xyz en campo propio con material y contador de usados libre; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Ventana legal de activación de monstruo en Main Phase propia.
+- **Coste o requisito previo:** Desacoplar un material de Aero Shark como coste antes de resolver; precondición: Al menos un material Xyz desacoplable y cuenta observable de monstruos propios desterrados.
+- **Selección / targeting:** Sin objetivo ni selección de carta rival.
+- **Resolución:** Causar 100 LP de daño rival por cada monstruo propio actualmente desterrado que cumpla el texto.
+- **Uso, negación y restricciones:** Una vez por turno para este efecto; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Causar 100 LP de daño rival por cada monstruo propio actualmente desterrado que cumpla el texto; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=en
+
+#### 42. `671:a05:11243:set-as-spell` · CID 11243 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Lancea CID11243 en mano propia; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Acción de Colocar una carta como Mágica en una S/T libre.
+- **Coste o requisito previo:** Sin coste de activación: colocar físicamente la carta; precondición: Carta Lancea en mano y espacio de M/T válido.
+- **Selección / targeting:** Elegir S/T libre propia, mantener copia boca abajo.
+- **Resolución:** Trasladar Lancea mano→S/T colocada como Mágica y conservar identidad monstruo física.
+- **Uso, negación y restricciones:** Procedimiento no es efecto activado ni produce cadena; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Trasladar Lancea mano→S/T colocada como Mágica y conservar identidad monstruo física; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en
+
+#### 43. `671:a05:11243:set-destroyed-opponent-turn-summon` · CID 11243 (DISPARO)
+
+- **Actor / estado inicial:** Lancea que estaba colocada en S/T propia, ahora en GY; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Después de ser destruida como carta colocada durante turno adversario y enviada a GY.
+- **Coste o requisito previo:** Sin coste nuevo, ya fue enviada por efecto previo; precondición: La destrucción ocurrió en turno rival, la copia colocada terminó en propio GY y hay zona MZ libre.
+- **Selección / targeting:** Sin targeting; invocación de la misma copia.
+- **Resolución:** Invocar Lancea desde GY propio en MZ libre como disparo.
+- **Uso, negación y restricciones:** Sin HOPT expresado para este disparo; no inventar uno; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Lancea desde GY propio en MZ libre como disparo; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en
+
+#### 44. `671:a05:11243:quick-tribute-banish-lock` · CID 11243 (RAPIDO)
+
+- **Actor / estado inicial:** Lancea CID11243 en mano o boca arriba en MZ propia; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Únicamente turno del adversario, ventana legal de efecto rápido.
+- **Coste o requisito previo:** Sacrificar esta Lancea de la mano/campo como coste previo; precondición: Lancea presente en mano o campo boca arriba y tributable.
+- **Selección / targeting:** Sin target sobre una carta oponente.
+- **Resolución:** Ningún jugador podrá desterrar cartas durante el resto del turno rival tras resolución.
+- **Uso, negación y restricciones:** No crea efecto de negación ni protección retroactiva; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Ningún jugador podrá desterrar cartas durante el resto del turno rival tras resolución; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en
+
+#### 45. `671:a05:12870:fusion-dark-material` · CID 12870 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Dragostapelia CID12870 en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación por Fusión mediante efecto legal.
+- **Coste o requisito previo:** Enviar materiales durante resolución de Fusión, no coste de activación propio de Dragostapelia; precondición: Un monstruo de Fusión y un monstruo OSCURIDAD elegibles como dos materiales, ubicados en zonas permitidas.
+- **Selección / targeting:** Elegir exactamente los dos materiales con tipo/atributo requerido.
+- **Resolución:** Invocar Dragostapelia por Fusión desde Extra en una zona libre legal.
+- **Uso, negación y restricciones:** Cláusula material no es efecto activado ni HOPT independiente; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Dragostapelia por Fusión desde Extra en una zona libre legal; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en
+
+#### 46. `671:a05:12870:quick-predator-counter` · CID 12870 (RAPIDO)
+
+- **Actor / estado inicial:** Dragostapelia boca arriba en Campo propio; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Ventana de Efecto Rápido válida, OPT sin gastar.
+- **Coste o requisito previo:** No tiene coste adicional por colocar el contador; precondición: Monstruo rival boca arriba al que pueda seleccionarse como objetivo.
+- **Selección / targeting:** Target a un monstruo rival boca arriba.
+- **Resolución:** Colocar un Contador Depredador; si tiene Nivel 2 o mayor pasa a Nivel 1 mientras conserve contador.
+- **Uso, negación y restricciones:** Un uso del efecto rápido por turno; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Colocar un Contador Depredador; si tiene Nivel 2 o mayor pasa a Nivel 1 mientras conserve contador; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en
+
+#### 47. `671:a05:12870:continuous-negate-counters` · CID 12870 (CONTINUO)
+
+- **Actor / estado inicial:** Dragostapelia boca arriba en Campo propio; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Condición continua mientras permanezca aplicable, sin iniciar cadena.
+- **Coste o requisito previo:** Sin coste; precondición: El efecto activado procede de monstruo que controla rival y que tenga Contador Depredador.
+- **Selección / targeting:** Sin targeting nuevo al activarse por el otro monstruo.
+- **Resolución:** Negar ese efecto activado de monstruo rival con contador; colocar el contador en otro momento no es negación inmediata.
+- **Uso, negación y restricciones:** Efecto continuo, sin HOPT independiente; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Negar ese efecto activado de monstruo rival con contador; colocar el contador en otro momento no es negación inmediata; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en
+
+#### 48. `671:a05:13081:xyz-2-level6-fiends` · CID 13081 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** D/D/D César en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Procedimiento de Invocación Xyz durante turno propio.
+- **Coste o requisito previo:** Superponer dos materiales reales, sin coste separado; precondición: Dos Demonios de Nivel 6 elegibles en MZ propias y zona Xyz válida.
+- **Selección / targeting:** Elegir exactamente dos monstruos Demonio Nivel 6.
+- **Resolución:** Invocar César Xyz con dos materiales físicos; no asumir materiales generados.
+- **Uso, negación y restricciones:** Requisito de Invocación no inicia cadena; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar César Xyz con dos materiales físicos; no asumir materiales generados; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en
+
+#### 49. `671:a05:13081:sent-field-to-gy-dark-contract` · CID 13081 (DISPARO)
+
+- **Actor / estado inicial:** César que estuvo en campo y acaba de llegar a GY; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Tras ser enviado del campo al GY, disparo de monstruo.
+- **Coste o requisito previo:** Sin coste de descarte o desacople, evento de envío es trigger; precondición: Hay una carta Dark Contract auténtica en el Deck desde la cual buscar.
+- **Selección / targeting:** Búsqueda de Dark Contract del Deck, sin target de campo.
+- **Resolución:** Añadir una Dark Contract de Deck a mano; si no existe no inventar carta.
+- **Uso, negación y restricciones:** No confundir esta búsqueda con efecto negador; la lista no contiene Dark Contract; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Añadir una Dark Contract de Deck a mano; si no existe no inventar carta; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en
+
+#### 50. `671:a05:16845:fusion-hand-field-procedure` · CID 16845 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Quimera Guardián en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación por Fusión a través de carta/efecto de Fusión legal.
+- **Coste o requisito previo:** Materiales reales usados durante la Fusión, no un coste adicional de Quimera; precondición: Tres monstruos de nombres distintos, al menos uno en mano y uno en campo propios, y fuente de Fusión.
+- **Selección / targeting:** Elegir tres nombres distintos con presencia en ambas zonas, mano y campo.
+- **Resolución:** Invocar Quimera Guardián por Fusión, enviando materiales a GY según reglas.
+- **Uso, negación y restricciones:** Restricción de Invocación inicial; no HOPT de materiales; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Quimera Guardián por Fusión, enviando materiales a GY según reglas; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en
+
+#### 51. `671:a05:16845:fusion-summon-draw-destroy` · CID 16845 (DISPARO)
+
+- **Actor / estado inicial:** Quimera Guardián recién Invocada por Fusión usando carta Mágica o efecto Mágico; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Disparo tras Invocación por Fusión válida.
+- **Coste o requisito previo:** No se paga el robo como coste; precondición: Se conoce cuántos materiales de mano y campo se usaron, y son tres distintos.
+- **Selección / targeting:** Sin target para destruir cartas rivales si texto no declara target; elegir en resolución según cantidad.
+- **Resolución:** Robar igual número de cartas que materiales de mano y, si se pudo, destruir igual número de cartas rivales que materiales del campo.
+- **Uso, negación y restricciones:** Un uso de este efecto por turno por nombre; sin prometer protección sin Polimerización; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Robar igual número de cartas que materiales de mano y, si se pudo, destruir igual número de cartas rivales que materiales del campo; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en
+
+#### 52. `671:a05:16845:polymerization-gy-target-protection` · CID 16845 (CONTINUO)
+
+- **Actor / estado inicial:** Quimera Guardián boca arriba en Campo propio; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Condición continua mientras Polimerización esté en propio GY.
+- **Coste o requisito previo:** Sin coste ni cadena; precondición: Debe existir carta Polimerización físicamente en GY propio, no solo una carta Fusión con nombre diferente.
+- **Selección / targeting:** No crea target.
+- **Resolución:** Rival no puede seleccionar a Quimera con efectos de carta mientras cumpla condición.
+- **Uso, negación y restricciones:** Sin límite de uso independiente; condición continua; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Rival no puede seleccionar a Quimera con efectos de carta mientras cumpla condición; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en
+
+#### 53. `671:a05:19184:xyz-2-level12` · CID 19184 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** TY-PHON CID19184 en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación Xyz ordinaria durante turno propio.
+- **Coste o requisito previo:** Superponer los dos monstruos reales como materiales de TY-PHON; precondición: Dos monstruos propios Nivel 12 elegibles y zona válida.
+- **Selección / targeting:** Elegir dos monstruos Nivel 12 del campo propio.
+- **Resolución:** Invocar TY-PHON desde Extra con los materiales originales.
+- **Uso, negación y restricciones:** No confundir con la vía alternativa por mayor ATK; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar TY-PHON desde Extra con los materiales originales; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+
+#### 54. `671:a05:19184:continuous-3000-activation-lock` · CID 19184 (CONTINUO)
+
+- **Actor / estado inicial:** TY-PHON Xyz Invocado actualmente boca arriba en Campo propio; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Mientras esa copia Xyz Invocada permanezca en Campo, restricción continua sin cadena.
+- **Coste o requisito previo:** Sin coste; precondición: El monstruo cuyo efecto se pretende activar tiene ATK actual 3000 o mayor.
+- **Selección / targeting:** No target.
+- **Resolución:** Ambos jugadores tienen prohibido activar efectos de esos monstruos; no negar efectos ya resueltos.
+- **Uso, negación y restricciones:** Restricción continua, no HOPT; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Ambos jugadores tienen prohibido activar efectos de esos monstruos; no negar efectos ya resueltos; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+
+#### 55. `671:a05:19184:detach-bounce` · CID 19184 (ACTIVACION)
+
+- **Actor / estado inicial:** TY-PHON Xyz boca arriba en Campo propio con material; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Ventana de efecto activado en turno propio y OPT libre.
+- **Coste o requisito previo:** Desacoplar un material Xyz antes de resolver; precondición: Hay al menos un material desacoplable y un monstruo en campo real para devolver.
+- **Selección / targeting:** Elegir un monstruo del campo a devolver, sin afirmar targeting que el texto no declara.
+- **Resolución:** Devolver un monstruo del campo a la mano; los de Extra regresan a Extra Deck conforme reglas.
+- **Uso, negación y restricciones:** Una vez por turno; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Devolver un monstruo del campo a la mano; los de Extra regresan a Extra Deck conforme reglas; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+
+#### 56. `671:a05:19188:link-two-effect-monsters` · CID 19188 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** S:P Little Knight CID19188 en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación Link-2 válida durante propio turno.
+- **Coste o requisito previo:** Enviar dos materiales reales al GY durante procedimiento de Enlace; precondición: Dos monstruos de efecto legalmente usables y zona de Link válida.
+- **Selección / targeting:** Elegir dos monstruos de efecto como materiales.
+- **Resolución:** Invocar S:P desde Extra; registrar si se usó material Fusión/Sincro/Xyz/Link para su disparo.
+- **Uso, negación y restricciones:** Procedimiento no es un efecto activado; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar S:P desde Extra; registrar si se usó material Fusión/Sincro/Xyz/Link para su disparo; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+
+#### 57. `671:a05:19188:on-link-with-extra-banish` · CID 19188 (DISPARO)
+
+- **Actor / estado inicial:** S:P recién Invocada por Link en propia MZ/EMZ; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Disparo después de Link Summon, cadena de efecto.
+- **Coste o requisito previo:** Sin coste previo de destierro; la restricción de ataque nace al resolver; precondición: La Invocación Link utilizó un monstruo Fusión/Sincro/Xyz/Link entre materiales y existe carta legal en campo/GY.
+- **Selección / targeting:** Target de exactamente una carta en Campo o uno de los dos GY.
+- **Resolución:** Desterrar la carta seleccionada; monstruos propios no pueden atacar directamente ese turno.
+- **Uso, negación y restricciones:** Un uso por turno por nombre; no afecta ataques ya ocurridos; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Desterrar la carta seleccionada; monstruos propios no pueden atacar directamente ese turno; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+
+#### 58. `671:a05:19360:opponent-activation-revive-memento` · CID 19360 (DISPARO)
+
+- **Actor / estado inicial:** Creación Combinada boca arriba en Campo propio; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Después de activación de carta/efecto por rival excepto Damage Step; disparo válido.
+- **Coste o requisito previo:** Sin coste por declarar; Invocación al resolver; precondición: Monstruo Memento en mano o GY propio que pueda Invocarse con espacio físico.
+- **Selección / targeting:** Sin target de campo; elegir Memento de mano/GY realmente presente.
+- **Resolución:** Invocar Especialmente un Memento de mano/GY propio, conservando copias reales.
+- **Uso, negación y restricciones:** Una vez por turno de este efecto; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Especialmente un Memento de mano/GY propio, conservando copias reales; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en
+
+#### 59. `671:a05:19932:link-two-effect-monsters` · CID 19932 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Luna del Cielo Cerrado en Extra Deck; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Invocación Link-2 durante turno propio.
+- **Coste o requisito previo:** Enviar materiales seleccionados al GY durante procedimiento; precondición: Dos monstruos de efecto elegibles y zona de Enlace válida.
+- **Selección / targeting:** Elegir dos monstruos de efecto reales.
+- **Resolución:** Invocar Luna Link-2, registrar su zona y flechas concretas.
+- **Uso, negación y restricciones:** Requisito de Invocación no inicia cadena; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Invocar Luna Link-2, registrar su zona y flechas concretas; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en
+
+#### 60. `671:a05:19932:pointed-opponent-material-link5` · CID 19932 (ACTIVACION)
+
+- **Actor / estado inicial:** Luna del Cielo Cerrado bajo tu control en zona Link; seguir copia, propietario y controlador reales.
+- **Ventana / disparador:** Efecto activable con objetivo rival al que Luna apunta y posterior Link-5 este turno.
+- **Coste o requisito previo:** Sin coste; aún no se usa ese monstruo como material al activar; precondición: Luna apunta físicamente a monstruo rival boca arriba y hay ruta material legal para Link-5.
+- **Selección / targeting:** Target de un monstruo rival boca arriba en zona señalada por flecha real de Luna.
+- **Resolución:** Si este turno usas Luna para Invocar Link-5, permitir usar ese monstruo enemigo seleccionado como material; no invocarlo automáticamente.
+- **Uso, negación y restricciones:** Un uso por turno de este efecto por nombre; no contabilizar éxito si la activación se niega; los costes anteriores no vuelven.
+- **Estado posterior esperado:** Si resuelve: Si este turno usas Luna para Invocar Link-5, permitir usar ese monstruo enemigo seleccionado como material; no invocarlo automáticamente; mantener las zonas de recursos y restricciones pertinentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en
+
 ### A05.8 — ejemplos declarativos de estado y fallo cerrado (control de papel inicial)
 
 **Alcance:** casos documentales positivos y negativos para **8 efectos críticos / 16 escenarios**, derivados de las condiciones de Konami por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. El censo completo exige matriz para los 94 IDs A05.6, incluyendo pasivos/procedimientos o `NO_APLICA` justificado.
@@ -930,6 +1172,138 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **`case_id=671:A05:P30` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Fusión Mementotlán CID19904 en GY propio; ventana: Main Phase propia, ventana legal de efecto de Mágica en GY; guardas conocidas: Monstruo propio destruible y M/T Memento en Main Deck disponible; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19904:gy-banish-destroy-search-spelltrap` respetando la selección: Elegir monstruo propio a destruir durante resolución, sin target declarado; buscar M/T en Deck. `expected_costs`: Desterrar esta copia GY→destierro al activar, aunque después se niegue. `expected_events/state_after`: Destruir monstruo propio y, si se destruyó, añadir M/T Memento desde Deck a mano. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
 - **`case_id=671:A05:N30` (negativo esperado, `expected_legal=false`):** `state_before`: Fusión no está en GY o no hay monstruo propio elegible para destruir; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 31. `671:a05:9139:opening-main1-summon-lock` — dos casos de papel
+
+- **`case_id=671:A05:P31` (positivo esperado, `expected_legal=true`):** `state_before`: Oleada de Calor desde mano propia; Exactamente al comienzo de Main Phase 1 propia antes de otras acciones de Main; condición física: No se ha iniciado aún otra acción de Main Phase 1. `action`: interacción `671:a05:9139:opening-main1-summon-lock`; No selecciona objetivo. `expected_costs`: Sin coste adicional al jugar la Mágica Normal. `expected_events/state_after`: Aplica prohibición temporal de Invocación Normal/Especial de monstruos de efecto a ambos jugadores hasta la próxima Draw Phase propia. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N31` (negativo esperado, `expected_legal=false`):** `state_before`: La Main Phase 1 ya avanzó o se pretende activar en Main Phase 2. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 32. `671:a05:9657:xyz-two-level3` — dos casos de papel
+
+- **`case_id=671:A05:P32` (positivo esperado, `expected_legal=true`):** `state_before`: Aero Tiburón CID9657 en Extra Deck; Invocación Xyz válida desde Extra durante turno propio; condición física: Existen exactamente dos monstruos propios Nivel 3 físicamente disponibles como material y zona Xyz válida. `action`: interacción `671:a05:9657:xyz-two-level3`; Elegir dos monstruos de Nivel 3 válidos. `expected_costs`: Superponer dos monstruos como materiales durante procedimiento, no pagar coste de activación. `expected_events/state_after`: Invocar Aero Shark Xyz desde Extra con dos materiales reales debajo de la carta. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N32` (negativo esperado, `expected_legal=false`):** `state_before`: Solo hay un Nivel 3 o un material no tiene Nivel 3. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 33. `671:a05:9657:detach-banish-damage` — dos casos de papel
+
+- **`case_id=671:A05:P33` (positivo esperado, `expected_legal=true`):** `state_before`: Aero Shark Xyz en campo propio con material y contador de usados libre; Ventana legal de activación de monstruo en Main Phase propia; condición física: Al menos un material Xyz desacoplable y cuenta observable de monstruos propios desterrados. `action`: interacción `671:a05:9657:detach-banish-damage`; Sin objetivo ni selección de carta rival. `expected_costs`: Desacoplar un material de Aero Shark como coste antes de resolver. `expected_events/state_after`: Causar 100 LP de daño rival por cada monstruo propio actualmente desterrado que cumpla el texto. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N33` (negativo esperado, `expected_legal=false`):** `state_before`: Aero Shark está sin materiales o ese efecto ya se usó esta vez. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 34. `671:a05:11243:set-as-spell` — dos casos de papel
+
+- **`case_id=671:A05:P34` (positivo esperado, `expected_legal=true`):** `state_before`: Lancea CID11243 en mano propia; Acción de Colocar una carta como Mágica en una S/T libre; condición física: Carta Lancea en mano y espacio de M/T válido. `action`: interacción `671:a05:11243:set-as-spell`; Elegir S/T libre propia, mantener copia boca abajo. `expected_costs`: Sin coste de activación: colocar físicamente la carta. `expected_events/state_after`: Trasladar Lancea mano→S/T colocada como Mágica y conservar identidad monstruo física. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N34` (negativo esperado, `expected_legal=false`):** `state_before`: Lancea no está en mano o no existe zona para colocarla. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 35. `671:a05:11243:set-destroyed-opponent-turn-summon` — dos casos de papel
+
+- **`case_id=671:A05:P35` (positivo esperado, `expected_legal=true`):** `state_before`: Lancea que estaba colocada en S/T propia, ahora en GY; Después de ser destruida como carta colocada durante turno adversario y enviada a GY; condición física: La destrucción ocurrió en turno rival, la copia colocada terminó en propio GY y hay zona MZ libre. `action`: interacción `671:a05:11243:set-destroyed-opponent-turn-summon`; Sin targeting; invocación de la misma copia. `expected_costs`: Sin coste nuevo, ya fue enviada por efecto previo. `expected_events/state_after`: Invocar Lancea desde GY propio en MZ libre como disparo. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N35` (negativo esperado, `expected_legal=false`):** `state_before`: Se destruyó en tu turno, no estaba colocada, fue desterrada o no llegó al GY. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 36. `671:a05:11243:quick-tribute-banish-lock` — dos casos de papel
+
+- **`case_id=671:A05:P36` (positivo esperado, `expected_legal=true`):** `state_before`: Lancea CID11243 en mano o boca arriba en MZ propia; Únicamente turno del adversario, ventana legal de efecto rápido; condición física: Lancea presente en mano o campo boca arriba y tributable. `action`: interacción `671:a05:11243:quick-tribute-banish-lock`; Sin target sobre una carta oponente. `expected_costs`: Sacrificar esta Lancea de la mano/campo como coste previo. `expected_events/state_after`: Ningún jugador podrá desterrar cartas durante el resto del turno rival tras resolución. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N36` (negativo esperado, `expected_legal=false`):** `state_before`: Es tu turno o Lancea está colocada boca abajo en S/T. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 37. `671:a05:12870:fusion-dark-material` — dos casos de papel
+
+- **`case_id=671:A05:P37` (positivo esperado, `expected_legal=true`):** `state_before`: Dragostapelia CID12870 en Extra Deck; Invocación por Fusión mediante efecto legal; condición física: Un monstruo de Fusión y un monstruo OSCURIDAD elegibles como dos materiales, ubicados en zonas permitidas. `action`: interacción `671:a05:12870:fusion-dark-material`; Elegir exactamente los dos materiales con tipo/atributo requerido. `expected_costs`: Enviar materiales durante resolución de Fusión, no coste de activación propio de Dragostapelia. `expected_events/state_after`: Invocar Dragostapelia por Fusión desde Extra en una zona libre legal. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N37` (negativo esperado, `expected_legal=false`):** `state_before`: No existe monstruo de Fusión o no hay monstruo OSCURIDAD legal. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 38. `671:a05:12870:quick-predator-counter` — dos casos de papel
+
+- **`case_id=671:A05:P38` (positivo esperado, `expected_legal=true`):** `state_before`: Dragostapelia boca arriba en Campo propio; Ventana de Efecto Rápido válida, OPT sin gastar; condición física: Monstruo rival boca arriba al que pueda seleccionarse como objetivo. `action`: interacción `671:a05:12870:quick-predator-counter`; Target a un monstruo rival boca arriba. `expected_costs`: No tiene coste adicional por colocar el contador. `expected_events/state_after`: Colocar un Contador Depredador; si tiene Nivel 2 o mayor pasa a Nivel 1 mientras conserve contador. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N38` (negativo esperado, `expected_legal=false`):** `state_before`: El rival solo controla monstruos boca abajo o sin objetivo legal. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 39. `671:a05:12870:continuous-negate-counters` — dos casos de papel
+
+- **`case_id=671:A05:P39` (positivo esperado, `expected_legal=true`):** `state_before`: Dragostapelia boca arriba en Campo propio; Condición continua mientras permanezca aplicable, sin iniciar cadena; condición física: El efecto activado procede de monstruo que controla rival y que tenga Contador Depredador. `action`: interacción `671:a05:12870:continuous-negate-counters`; Sin targeting nuevo al activarse por el otro monstruo. `expected_costs`: Sin coste. `expected_events/state_after`: Negar ese efecto activado de monstruo rival con contador; colocar el contador en otro momento no es negación inmediata. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N39` (negativo esperado, `expected_legal=false`):** `state_before`: El monstruo rival que activó su efecto carece de Contador Depredador. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 40. `671:a05:13081:xyz-2-level6-fiends` — dos casos de papel
+
+- **`case_id=671:A05:P40` (positivo esperado, `expected_legal=true`):** `state_before`: D/D/D César en Extra Deck; Procedimiento de Invocación Xyz durante turno propio; condición física: Dos Demonios de Nivel 6 elegibles en MZ propias y zona Xyz válida. `action`: interacción `671:a05:13081:xyz-2-level6-fiends`; Elegir exactamente dos monstruos Demonio Nivel 6. `expected_costs`: Superponer dos materiales reales, sin coste separado. `expected_events/state_after`: Invocar César Xyz con dos materiales físicos; no asumir materiales generados. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N40` (negativo esperado, `expected_legal=false`):** `state_before`: Falta uno de los Demonios Nivel 6 en el campo. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 41. `671:a05:13081:sent-field-to-gy-dark-contract` — dos casos de papel
+
+- **`case_id=671:A05:P41` (positivo esperado, `expected_legal=true`):** `state_before`: César que estuvo en campo y acaba de llegar a GY; Tras ser enviado del campo al GY, disparo de monstruo; condición física: Hay una carta Dark Contract auténtica en el Deck desde la cual buscar. `action`: interacción `671:a05:13081:sent-field-to-gy-dark-contract`; Búsqueda de Dark Contract del Deck, sin target de campo. `expected_costs`: Sin coste de descarte o desacople, evento de envío es trigger. `expected_events/state_after`: Añadir una Dark Contract de Deck a mano; si no existe no inventar carta. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N41` (negativo esperado, `expected_legal=false`):** `state_before`: César fue devuelto a Extra o desterrado en vez de enviado a GY, o no hay Dark Contract en Deck. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 42. `671:a05:16845:fusion-hand-field-procedure` — dos casos de papel
+
+- **`case_id=671:A05:P42` (positivo esperado, `expected_legal=true`):** `state_before`: Quimera Guardián en Extra Deck; Invocación por Fusión a través de carta/efecto de Fusión legal; condición física: Tres monstruos de nombres distintos, al menos uno en mano y uno en campo propios, y fuente de Fusión. `action`: interacción `671:a05:16845:fusion-hand-field-procedure`; Elegir tres nombres distintos con presencia en ambas zonas, mano y campo. `expected_costs`: Materiales reales usados durante la Fusión, no un coste adicional de Quimera. `expected_events/state_after`: Invocar Quimera Guardián por Fusión, enviando materiales a GY según reglas. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N42` (negativo esperado, `expected_legal=false`):** `state_before`: Solo hay materiales en mano, solo en campo, o hay dos con el mismo nombre. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 43. `671:a05:16845:fusion-summon-draw-destroy` — dos casos de papel
+
+- **`case_id=671:A05:P43` (positivo esperado, `expected_legal=true`):** `state_before`: Quimera Guardián recién Invocada por Fusión usando carta Mágica o efecto Mágico; Disparo tras Invocación por Fusión válida; condición física: Se conoce cuántos materiales de mano y campo se usaron, y son tres distintos. `action`: interacción `671:a05:16845:fusion-summon-draw-destroy`; Sin target para destruir cartas rivales si texto no declara target; elegir en resolución según cantidad. `expected_costs`: No se paga el robo como coste. `expected_events/state_after`: Robar igual número de cartas que materiales de mano y, si se pudo, destruir igual número de cartas rivales que materiales del campo. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N43` (negativo esperado, `expected_legal=false`):** `state_before`: Fusión fue mediante efecto monstruo, no de Mágica, o no puede robar como exige condición. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 44. `671:a05:16845:polymerization-gy-target-protection` — dos casos de papel
+
+- **`case_id=671:A05:P44` (positivo esperado, `expected_legal=true`):** `state_before`: Quimera Guardián boca arriba en Campo propio; Condición continua mientras Polimerización esté en propio GY; condición física: Debe existir carta Polimerización físicamente en GY propio, no solo una carta Fusión con nombre diferente. `action`: interacción `671:a05:16845:polymerization-gy-target-protection`; No crea target. `expected_costs`: Sin coste ni cadena. `expected_events/state_after`: Rival no puede seleccionar a Quimera con efectos de carta mientras cumpla condición. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N44` (negativo esperado, `expected_legal=false`):** `state_before`: Polimerización no está en el GY; no está en este inventario y no puede presumirse. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 45. `671:a05:19184:xyz-2-level12` — dos casos de papel
+
+- **`case_id=671:A05:P45` (positivo esperado, `expected_legal=true`):** `state_before`: TY-PHON CID19184 en Extra Deck; Invocación Xyz ordinaria durante turno propio; condición física: Dos monstruos propios Nivel 12 elegibles y zona válida. `action`: interacción `671:a05:19184:xyz-2-level12`; Elegir dos monstruos Nivel 12 del campo propio. `expected_costs`: Superponer los dos monstruos reales como materiales de TY-PHON. `expected_events/state_after`: Invocar TY-PHON desde Extra con los materiales originales. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N45` (negativo esperado, `expected_legal=false`):** `state_before`: No existen dos Nivel 12, aunque haya dos monstruos de 3000 ATK. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 46. `671:a05:19184:continuous-3000-activation-lock` — dos casos de papel
+
+- **`case_id=671:A05:P46` (positivo esperado, `expected_legal=true`):** `state_before`: TY-PHON Xyz Invocado actualmente boca arriba en Campo propio; Mientras esa copia Xyz Invocada permanezca en Campo, restricción continua sin cadena; condición física: El monstruo cuyo efecto se pretende activar tiene ATK actual 3000 o mayor. `action`: interacción `671:a05:19184:continuous-3000-activation-lock`; No target. `expected_costs`: Sin coste. `expected_events/state_after`: Ambos jugadores tienen prohibido activar efectos de esos monstruos; no negar efectos ya resueltos. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N46` (negativo esperado, `expected_legal=false`):** `state_before`: TY-PHON dejó el campo o la copia no fue Invocada por Xyz, o el monstruo tiene ATK inferior. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 47. `671:a05:19184:detach-bounce` — dos casos de papel
+
+- **`case_id=671:A05:P47` (positivo esperado, `expected_legal=true`):** `state_before`: TY-PHON Xyz boca arriba en Campo propio con material; Ventana de efecto activado en turno propio y OPT libre; condición física: Hay al menos un material desacoplable y un monstruo en campo real para devolver. `action`: interacción `671:a05:19184:detach-bounce`; Elegir un monstruo del campo a devolver, sin afirmar targeting que el texto no declara. `expected_costs`: Desacoplar un material Xyz antes de resolver. `expected_events/state_after`: Devolver un monstruo del campo a la mano; los de Extra regresan a Extra Deck conforme reglas. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N47` (negativo esperado, `expected_legal=false`):** `state_before`: TY-PHON no tiene material o el campo no tiene monstruo legal. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 48. `671:a05:19188:link-two-effect-monsters` — dos casos de papel
+
+- **`case_id=671:A05:P48` (positivo esperado, `expected_legal=true`):** `state_before`: S:P Little Knight CID19188 en Extra Deck; Invocación Link-2 válida durante propio turno; condición física: Dos monstruos de efecto legalmente usables y zona de Link válida. `action`: interacción `671:a05:19188:link-two-effect-monsters`; Elegir dos monstruos de efecto como materiales. `expected_costs`: Enviar dos materiales reales al GY durante procedimiento de Enlace. `expected_events/state_after`: Invocar S:P desde Extra; registrar si se usó material Fusión/Sincro/Xyz/Link para su disparo. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N48` (negativo esperado, `expected_legal=false`):** `state_before`: Solo hay un monstruo de efecto, o otro material es Monstruo Normal. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 49. `671:a05:19188:on-link-with-extra-banish` — dos casos de papel
+
+- **`case_id=671:A05:P49` (positivo esperado, `expected_legal=true`):** `state_before`: S:P recién Invocada por Link en propia MZ/EMZ; Disparo después de Link Summon, cadena de efecto; condición física: La Invocación Link utilizó un monstruo Fusión/Sincro/Xyz/Link entre materiales y existe carta legal en campo/GY. `action`: interacción `671:a05:19188:on-link-with-extra-banish`; Target de exactamente una carta en Campo o uno de los dos GY. `expected_costs`: Sin coste previo de destierro; la restricción de ataque nace al resolver. `expected_events/state_after`: Desterrar la carta seleccionada; monstruos propios no pueden atacar directamente ese turno. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N49` (negativo esperado, `expected_legal=false`):** `state_before`: S:P se hizo con dos monstruos del Main Deck sin tipos Extra, o no hay carta targeteable. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 50. `671:a05:19360:opponent-activation-revive-memento` — dos casos de papel
+
+- **`case_id=671:A05:P50` (positivo esperado, `expected_legal=true`):** `state_before`: Creación Combinada boca arriba en Campo propio; Después de activación de carta/efecto por rival excepto Damage Step; disparo válido; condición física: Monstruo Memento en mano o GY propio que pueda Invocarse con espacio físico. `action`: interacción `671:a05:19360:opponent-activation-revive-memento`; Sin target de campo; elegir Memento de mano/GY realmente presente. `expected_costs`: Sin coste por declarar; Invocación al resolver. `expected_events/state_after`: Invocar Especialmente un Memento de mano/GY propio, conservando copias reales. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N50` (negativo esperado, `expected_legal=false`):** `state_before`: No hubo activación del adversario fuera de Damage Step o no hay Memento legal en mano/GY. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 51. `671:a05:19932:link-two-effect-monsters` — dos casos de papel
+
+- **`case_id=671:A05:P51` (positivo esperado, `expected_legal=true`):** `state_before`: Luna del Cielo Cerrado en Extra Deck; Invocación Link-2 durante turno propio; condición física: Dos monstruos de efecto elegibles y zona de Enlace válida. `action`: interacción `671:a05:19932:link-two-effect-monsters`; Elegir dos monstruos de efecto reales. `expected_costs`: Enviar materiales seleccionados al GY durante procedimiento. `expected_events/state_after`: Invocar Luna Link-2, registrar su zona y flechas concretas. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N51` (negativo esperado, `expected_legal=false`):** `state_before`: No hay dos monstruos de efecto disponibles. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 52. `671:a05:19932:pointed-opponent-material-link5` — dos casos de papel
+
+- **`case_id=671:A05:P52` (positivo esperado, `expected_legal=true`):** `state_before`: Luna del Cielo Cerrado bajo tu control en zona Link; Efecto activable con objetivo rival al que Luna apunta y posterior Link-5 este turno; condición física: Luna apunta físicamente a monstruo rival boca arriba y hay ruta material legal para Link-5. `action`: interacción `671:a05:19932:pointed-opponent-material-link5`; Target de un monstruo rival boca arriba en zona señalada por flecha real de Luna. `expected_costs`: Sin coste; aún no se usa ese monstruo como material al activar. `expected_events/state_after`: Si este turno usas Luna para Invocar Link-5, permitir usar ese monstruo enemigo seleccionado como material; no invocarlo automáticamente. `reason`: presencia física, ventana correcta y copia utilizable, sin suponer identidad oculta.
+- **`case_id=671:A05:N52` (negativo esperado, `expected_legal=false`):** `state_before`: No hay flecha apuntando al objetivo o se pretende invocar un Link-4 en vez de Link-5. `action`: no activar ni simular la interacción fallida. `expected_costs`: ninguno, porque la acción no era legal. `expected_events/state_after`: sin cambios por este effect_id. `reason`: guarda/ventana/procedimiento ausente, fallo cerrado.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
 
 ### A05.9 — backlog causal verificable, sin falsas certificaciones
 
