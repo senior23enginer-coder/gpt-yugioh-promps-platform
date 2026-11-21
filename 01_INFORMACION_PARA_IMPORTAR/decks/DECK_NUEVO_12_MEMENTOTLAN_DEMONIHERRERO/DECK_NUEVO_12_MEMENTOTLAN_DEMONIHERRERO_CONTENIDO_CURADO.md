@@ -503,6 +503,248 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Pruebas de papel requeridas antes de cerrar A05-T4:** para cada `effect_id` anterior, un caso positivo de aplicación con estado físico completo y un caso negativo (sin coste, sin guarda, ventana incorrecta, sin destino, uso agotado, negación u operador no soportado según proceda) con `case_id` y evidencia. La explicación de estos efectos **no** sustituye esa matriz ni valida que el motor proponga siempre jugadas correctas.
 
+#### 17. `671:a05:19361:hand-special-three-names` · CID 19361 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Dragón de Cuerno en mano propia y espacio válido en MZ; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tu turno, ventana de Invocación Especial permitida; procedimiento sin cadena.
+- **Coste o requisito previo:** Sin coste de activación; la existencia de tres nombres es requisito; guarda adicional: Tres monstruos Memento de nombres diferentes en GY propio.
+- **Selección / targeting:** No selecciona objetivo ni materiales a mover.
+- **Resolución:** Mover esta copia mano→MZ por su propio procedimiento; conservar los tres Memento en GY.
+- **Uso, negación y restricciones:** Solo una Invocación de este modo por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Mover esta copia mano→MZ por su propio procedimiento; conservar los tres Memento en GY. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en
+
+#### 18. `671:a05:19361:destroyed-field-target-three-faceup` · CID 19361 (DISPARO)
+
+- **Actor / estado inicial:** Dragón de Cuerno en MZ propia antes de destrucción por efecto; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tras su destrucción efectiva por efecto de carta, nueva cadena de disparo.
+- **Coste o requisito previo:** La destrucción inicial es trigger, no coste; no descartar; guarda adicional: Tres cartas boca arriba válidas en campo, incluida una carta Memento propia, siguen disponibles para elegir.
+- **Selección / targeting:** Hace target a exactamente tres cartas boca arriba, incluida Memento propia.
+- **Resolución:** Destruir los tres objetivos legales durante resolución; no equiparar esta destrucción con el trigger inicial.
+- **Uso, negación y restricciones:** Un uso de este efecto por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir los tres objetivos legales durante resolución; no equiparar esta destrucción con el trigger inicial. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en
+
+#### 19. `671:a05:19362:hand-special-only-mementos-faceup` · CID 19362 (ACTIVACION)
+
+- **Actor / estado inicial:** Tatsunootoshigo CID19362 en mano; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Turno propio con ventana legal para activar efecto de mano y espacio MZ.
+- **Coste o requisito previo:** No hay descarte ni destrucción como coste; guarda adicional: No controlar monstruo propio boca arriba ajeno a Memento.
+- **Selección / targeting:** Sin objetivo.
+- **Resolución:** Invocar Tatsun desde mano a zona propia disponible; se registra una Invocación por efecto.
+- **Uso, negación y restricciones:** Cada efecto de Tatsun una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Invocar Tatsun desde mano a zona propia disponible; se registra una Invocación por efecto. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en
+
+#### 20. `671:a05:19362:main-destroy-memento-send-level-total` · CID 19362 (ACTIVACION)
+
+- **Actor / estado inicial:** Tatsunootoshigo boca arriba en MZ propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia en ventana de efecto de monstruo.
+- **Coste o requisito previo:** Destruir en resolución, no pagar como coste al activar; guarda adicional: Memento propio destruible y cartas Memento con nombres distintos en Main Deck cuyos niveles sumen como máximo el nivel original del destruido.
+- **Selección / targeting:** Elegir Memento propio a destruir sin targeting declarado; seleccionar cartas enviadas del Deck con suma de niveles legal.
+- **Resolución:** Si se destruyó Memento, enviar al GY cartas Memento distintas del Deck con suma de niveles no superior a nivel original del destruido.
+- **Uso, negación y restricciones:** Cada efecto de Tatsun una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Si se destruyó Memento, enviar al GY cartas Memento distintas del Deck con suma de niveles no superior a nivel original del destruido. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en
+
+#### 21. `671:a05:19363:on-summon-discard-destroy-spelltrap` · CID 19363 (DISPARO)
+
+- **Actor / estado inicial:** Hoja Oscura CID19363 Invocada al campo propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Cadena de disparo tras su Normal o Especial Invocación.
+- **Coste o requisito previo:** Descartar una carta Memento de mano a GY al activar antes de resolver; guarda adicional: Tener Memento descartable en mano y M/T rival válida en campo.
+- **Selección / targeting:** Target de exactamente una M/T controlada por rival.
+- **Resolución:** Destruir la carta rival seleccionada solo si su situación sigue permitiéndolo; no devolver el descarte.
+- **Uso, negación y restricciones:** Cada efecto de Hoja Oscura una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir la carta rival seleccionada solo si su situación sigue permitiéndolo; no devolver el descarte. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=en
+
+#### 22. `671:a05:19363:main-destroy-special-level3` · CID 19363 (ACTIVACION)
+
+- **Actor / estado inicial:** Hoja Oscura boca arriba en zona propia de monstruos; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia, efecto activado en cadena.
+- **Coste o requisito previo:** La destrucción del Memento ocurre durante resolución, no como coste de activación; guarda adicional: Memento propio destruible y un monstruo Memento Nivel 3 o menor disponible en Main Deck.
+- **Selección / targeting:** Elegir Memento propio a destruir y luego el Memento Nivel ≤3 real del Deck; no fabricar objetivo.
+- **Resolución:** Destruir un Memento propio y, si se destruye, Invocar Especialmente un Memento Nivel ≤3 desde Deck a MZ válida.
+- **Uso, negación y restricciones:** Cada efecto de Hoja Oscura una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir un Memento propio y, si se destruye, Invocar Especialmente un Memento Nivel ≤3 desde Deck a MZ válida. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=en
+
+#### 23. `671:a05:19365:opponent-main-discard-control-monster` · CID 19365 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Maza CID19365 en mano propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase del adversario, como Efecto Rápido con cadena abierta.
+- **Coste o requisito previo:** Descartar Maza desde mano a GY como coste antes de resolver; guarda adicional: Controlar realmente Creación Combinada CID19360 y existir un monstruo enemigo boca arriba seleccionable.
+- **Selección / targeting:** Target de un monstruo boca arriba controlado por rival.
+- **Resolución:** Ganar control temporal del objetivo hasta End Phase si continúa legal, sin destruirlo ni negarlo.
+- **Uso, negación y restricciones:** Cada efecto de Maza una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Ganar control temporal del objetivo hasta End Phase si continúa legal, sin destruirlo ni negarlo. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=en
+
+#### 24. `671:a05:19365:main-destroy-search-memento-card` · CID 19365 (ACTIVACION)
+
+- **Actor / estado inicial:** Maza en MZ propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia en ventana de monstruo.
+- **Coste o requisito previo:** La destrucción sucede durante resolución, no al activar; guarda adicional: Monstruo Memento propio destruible y carta Memento distinta de Maza disponible en Main Deck.
+- **Selección / targeting:** Elegir Memento propio a destruir; no targetea carta del Deck.
+- **Resolución:** Destruir Memento propio y después añadir carta Memento de nombre diferente de Maza desde Deck a mano si se destruyó.
+- **Uso, negación y restricciones:** Cada efecto de Maza una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir Memento propio y después añadir carta Memento de nombre diferente de Maza desde Deck a mano si se destruyó. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=en
+
+#### 25. `671:a05:19366:quick-discard-target-protection` · CID 19366 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Goblin CID19366 en mano propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase de cualquiera de los turnos, efecto rápido.
+- **Coste o requisito previo:** Descartar Goblin mano→GY como coste antes de resolver; guarda adicional: Controlas físicamente Creación Combinada CID19360.
+- **Selección / targeting:** Sin target; protección global de tus Memento en campo.
+- **Resolución:** Hasta fin de este turno el rival no puede seleccionar con efectos a tus monstruos Memento, si resolución tuvo éxito.
+- **Uso, negación y restricciones:** Cada efecto de Goblin una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Hasta fin de este turno el rival no puede seleccionar con efectos a tus monstruos Memento, si resolución tuvo éxito. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en
+
+#### 26. `671:a05:19366:main-destroy-send-up-to-two` · CID 19366 (ACTIVACION)
+
+- **Actor / estado inicial:** Goblin en MZ propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia en ventana de activación.
+- **Coste o requisito previo:** La destrucción sucede durante resolución; no se descartan cartas como coste; guarda adicional: Monstruo Memento propio destruible y hasta dos cartas Memento diferentes entre sí y distintas de Goblin disponibles en Deck.
+- **Selección / targeting:** Elegir Memento propio a destruir; las cartas a enviar son del Deck, no targets del campo.
+- **Resolución:** Tras destruir Memento propio, mandar al GY hasta dos cartas Memento de nombres distintos del Deck, excluyendo Goblin.
+- **Uso, negación y restricciones:** Cada efecto de Goblin una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Tras destruir Memento propio, mandar al GY hasta dos cartas Memento de nombres distintos del Deck, excluyendo Goblin. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en
+
+#### 27. `671:a05:19367:battle-spelltrap-restriction` · CID 19367 (CONTINUO)
+
+- **Actor / estado inicial:** Mementomictlán CID19367 boca arriba en zona de Campo propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Desde el inicio de la batalla en que participa tu Memento hasta terminar Damage Step; efecto continuo sin cadena.
+- **Coste o requisito previo:** Sin coste; no activar el campo como un nuevo efecto; guarda adicional: Un monstruo Memento propio está efectivamente batallando.
+- **Selección / targeting:** Sin objetivo ni selección.
+- **Resolución:** El rival no puede activar cartas Mágicas/Trampas durante la ventana especificada de esa batalla.
+- **Uso, negación y restricciones:** No hay uso OPT separado de esta restricción continua; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: El rival no puede activar cartas Mágicas/Trampas durante la ventana especificada de esa batalla. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en
+
+#### 28. `671:a05:19367:destroyed-own-monster-target-lower-revive` · CID 19367 (DISPARO)
+
+- **Actor / estado inicial:** Mementomictlán boca arriba en zona de Campo propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tras destrucción por batalla o efecto de al menos un monstruo propio.
+- **Coste o requisito previo:** La destrucción es trigger del efecto, no coste; guarda adicional: Uno de los monstruos destruidos es target válido y existe Memento de nivel inferior en mano/GY para Invocar.
+- **Selección / targeting:** Target a uno de los monstruos propios destruidos; nivel de Invocado debe ser estrictamente inferior.
+- **Resolución:** Invocar un Memento desde mano/GY con nivel inferior al del monstruo elegido; no revive automáticamente al destruido.
+- **Uso, negación y restricciones:** Un uso del efecto por turno por nombre de Mementomictlán; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Invocar un Memento desde mano/GY con nivel inferior al del monstruo elegido; no revive automáticamente al destruido. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en
+
+#### 29. `671:a05:19367:end-set-memento-spelltrap` · CID 19367 (ACTIVACION)
+
+- **Actor / estado inicial:** Mementomictlán boca arriba en Campo propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tu End Phase con ventana de activación.
+- **Coste o requisito previo:** Sin coste adicional; mover la M/T al resolver; guarda adicional: M/T Memento real en tu GY y zona M/T disponible para Colocar.
+- **Selección / targeting:** Target de exactamente una M/T Memento en GY propio.
+- **Resolución:** Colocar boca abajo esa carta de GY en S/T propia si objetivo sigue legal; no activarla instantáneamente.
+- **Uso, negación y restricciones:** Un uso por turno de este efecto; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Colocar boca abajo esa carta de GY en S/T propia si objetivo sigue legal; no activarla instantáneamente. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en
+
+#### 30. `671:a05:19368:quick-destroy-search-or-special` · CID 19368 (MAGICA_RAPIDA)
+
+- **Actor / estado inicial:** Fiesta de Huesos CID19368 en mano o M/T colocada legalmente; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Ventana válida de Mágica Rápida, respetando turno y colocación.
+- **Coste o requisito previo:** La destrucción de Memento ocurre al resolver el texto de la Mágica, no se inventa descarte como coste; guarda adicional: Memento en mano o MZ propia boca arriba destruible y otro Memento de nombre distinto en Main Deck.
+- **Selección / targeting:** Seleccionar Memento propio a destruir y carta Memento real del Deck de nombre diferente.
+- **Resolución:** Destruir al Memento propio y añadir el de Deck a mano o Invocarlo en Defensa a zona válida, sin efectuar ambas.
+- **Uso, negación y restricciones:** Cada efecto de Fiesta de Huesos una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir al Memento propio y añadir el de Deck a mano o Invocarlo en Defensa a zona válida, sin efectuar ambas. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en
+
+#### 31. `671:a05:19368:gy-banish-piercing` · CID 19368 (ACTIVACION_GY)
+
+- **Actor / estado inicial:** Fiesta de Huesos en GY propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia, activación del efecto en GY.
+- **Coste o requisito previo:** Desterrar Fiesta de Huesos del GY como coste de activación; guarda adicional: Monstruo Memento propio en campo válido como target.
+- **Selección / targeting:** Target de un monstruo Memento que controlas.
+- **Resolución:** Dar perforación al monstruo elegido por este turno, no infligir daño inmediato.
+- **Uso, negación y restricciones:** Cada efecto de Fiesta de Huesos una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Dar perforación al monstruo elegido por este turno, no infligir daño inmediato. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en
+
+#### 32. `671:a05:19472:on-summon-gy-recover` · CID 19472 (DISPARO)
+
+- **Actor / estado inicial:** Desvantasmas CID19472 Invocado Normal o Especial en MZ propia; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tras evento de Invocación, efecto de disparo en cadena.
+- **Coste o requisito previo:** Sin coste ni descarte; guarda adicional: Hay carta Memento en propio GY distinta de Desvantasmas.
+- **Selección / targeting:** Target de una carta Memento distinta de esta carta en propio GY.
+- **Resolución:** Mover carta del GY a mano si continúa siendo válida.
+- **Uso, negación y restricciones:** Cada efecto de Desvantasmas una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Mover carta del GY a mano si continúa siendo válida. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en
+
+#### 33. `671:a05:19472:sent-by-memento-monster-gy-special` · CID 19472 (DISPARO_GY)
+
+- **Actor / estado inicial:** Desvantasmas enviada físicamente al GY propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Tras ser enviada al GY por efecto de un monstruo Memento.
+- **Coste o requisito previo:** Sin coste previo; envío ya ocurrió como disparador; guarda adicional: La causa del envío fue efecto de monstruo Memento y existe zona propia válida.
+- **Selección / targeting:** Sin target.
+- **Resolución:** Invocar esta misma copia desde GY a MZ propia.
+- **Uso, negación y restricciones:** Cada efecto de Desvantasmas una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Invocar esta misma copia desde GY a MZ propia. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en
+
+#### 34. `671:a05:19878:fusion-two-memento` · CID 19878 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Dragón Gemelo CID19878 en Extra Deck; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Ventana legal del efecto de Fusión habilitador; el requisito material no inicia cadena independiente.
+- **Coste o requisito previo:** Materiales se trasladan durante resolución de Fusión; no coste de activación propio de Dragón Gemelo; guarda adicional: Dos monstruos Memento físicamente disponibles y efecto de Fusión que permita usarlos.
+- **Selección / targeting:** Seleccionar exactamente dos Memento legales como materiales de la Fusión.
+- **Resolución:** Invocar Dragón Gemelo desde Extra por Fusión y colocar materiales en sus destinos legales.
+- **Uso, negación y restricciones:** La cláusula de material no tiene HOPT autónomo; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Invocar Dragón Gemelo desde Extra por Fusión y colocar materiales en sus destinos legales. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en
+
+#### 35. `671:a05:19878:battle-destroyed-monsters-banished` · CID 19878 (CONTINUO)
+
+- **Actor / estado inicial:** Dragón Gemelo boca arriba en Campo propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Cuando cualquier Memento propio destruye monstruo por batalla; condición persistente sin cadena.
+- **Coste o requisito previo:** Sin coste; guarda adicional: El monstruo destruido fue derrotado en batalla por Memento propio.
+- **Selección / targeting:** No hay targeting de activación; se aplica al destino del destruido.
+- **Resolución:** Mandar el monstruo destruido por batalla al destierro en vez del GY cuando corresponde.
+- **Uso, negación y restricciones:** Sin uso OPT independiente de este efecto continuo; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Mandar el monstruo destruido por batalla al destierro en vez del GY cuando corresponde. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en
+
+#### 36. `671:a05:19878:on-fusion-destroy-search-two` · CID 19878 (DISPARO)
+
+- **Actor / estado inicial:** Dragón Gemelo acaba de ser Invocado por Fusión; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Ventana de disparo inmediatamente posterior a Fusión.
+- **Coste o requisito previo:** Destrucción ocurre durante resolución, no coste de activación; guarda adicional: Un Memento de mano o boca arriba propio destruible y hasta dos monstruos Memento de nombres distintos disponibles en Deck.
+- **Selección / targeting:** Elegir el Memento de mano/campo a destruir y hasta dos nombres distintos para añadir, sin target al Deck.
+- **Resolución:** Destruir el Memento y, si se destruye, añadir hasta dos monstruos Memento de nombres diferentes del Deck a mano.
+- **Uso, negación y restricciones:** Un uso por turno por nombre del Dragón Gemelo; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir el Memento y, si se destruye, añadir hasta dos monstruos Memento de nombres diferentes del Deck a mano. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en
+
+#### 37. `671:a05:19878:fusion-destroyed-gy-revive-level6` · CID 19878 (DISPARO)
+
+- **Actor / estado inicial:** Copia de Dragón Gemelo previamente Invocada por Fusión fue destruida; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Cadena de disparo después de destrucción real.
+- **Coste o requisito previo:** Sin coste; destrucción es trigger; guarda adicional: Memento Nivel 6 o menor en GY propio y zona MZ disponible.
+- **Selección / targeting:** No target explícito según texto; escoger Memento de GY legal.
+- **Resolución:** Invocar Especialmente un Memento Nivel ≤6 desde tu GY.
+- **Uso, negación y restricciones:** Un uso por turno por nombre del Dragón Gemelo; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Invocar Especialmente un Memento Nivel ≤6 desde tu GY. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en
+
+#### 38. `671:a05:19904:gy-banish-destroy-search-spelltrap` · CID 19904 (ACTIVACION_GY)
+
+- **Actor / estado inicial:** Fusión Mementotlán CID19904 en GY propio; actor y controlador deben identificarse por copia física, no por nombre solamente.
+- **Ventana / disparador:** Main Phase propia, ventana legal de efecto de Mágica en GY.
+- **Coste o requisito previo:** Desterrar esta copia GY→destierro al activar, aunque después se niegue; guarda adicional: Monstruo propio destruible y M/T Memento en Main Deck disponible.
+- **Selección / targeting:** Elegir monstruo propio a destruir durante resolución, sin target declarado; buscar M/T en Deck.
+- **Resolución:** Destruir monstruo propio y, si se destruyó, añadir M/T Memento desde Deck a mano.
+- **Uso, negación y restricciones:** Cada efecto de Fusión Mementotlán una vez por turno por nombre; no inventar resultado después de una negación, comprobar ventana y bloqueos vigentes.
+- **Estado posterior esperado:** Tras resolución válida: Destruir monstruo propio y, si se destruyó, añadir M/T Memento desde Deck a mano. Si falla por negación, no aplicar evento exitoso; mantener costes ya pagados y eventos previos reales.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en
+
 ### A05.8 — ejemplos declarativos de estado y fallo cerrado (control de papel inicial)
 
 **Alcance:** casos documentales positivos y negativos para **8 efectos críticos / 16 escenarios**, derivados de las condiciones de Konami por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. El censo completo exige matriz para los 94 IDs A05.6, incluyendo pasivos/procedimientos o `NO_APLICA` justificado.
@@ -556,6 +798,138 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
 
 **Requisito siguiente:** trasladar `case_id` y `effect_id` a la especificación causal tipada, completar `state_before` con zona, propietarios, fase, efectos ya usados, recursos desconocidos, estado de cadena y `expected_state_after`, además de negar/consumir recursos de forma acreditable. No marcar ni ejecutar A10B por la existencia de estas descripciones.
+
+#### 9. `671:a05:19361:hand-special-three-names` — dos casos de papel
+
+- **`case_id=671:A05:P09` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Dragón de Cuerno en mano propia y espacio válido en MZ; ventana: Tu turno, ventana de Invocación Especial permitida; procedimiento sin cadena; guardas conocidas: Tres monstruos Memento de nombres diferentes en GY propio; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19361:hand-special-three-names` respetando la selección: No selecciona objetivo ni materiales a mover. `expected_costs`: Sin coste de activación; la existencia de tres nombres es requisito. `expected_events/state_after`: Mover esta copia mano→MZ por su propio procedimiento; conservar los tres Memento en GY. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N09` (negativo esperado, `expected_legal=false`):** `state_before`: Solo dos nombres distintos en GY o Dragón de Cuerno no está en mano; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 10. `671:a05:19361:destroyed-field-target-three-faceup` — dos casos de papel
+
+- **`case_id=671:A05:P10` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Dragón de Cuerno en MZ propia antes de destrucción por efecto; ventana: Tras su destrucción efectiva por efecto de carta, nueva cadena de disparo; guardas conocidas: Tres cartas boca arriba válidas en campo, incluida una carta Memento propia, siguen disponibles para elegir; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19361:destroyed-field-target-three-faceup` respetando la selección: Hace target a exactamente tres cartas boca arriba, incluida Memento propia. `expected_costs`: La destrucción inicial es trigger, no coste; no descartar. `expected_events/state_after`: Destruir los tres objetivos legales durante resolución; no equiparar esta destrucción con el trigger inicial. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N10` (negativo esperado, `expected_legal=false`):** `state_before`: Fue destruido por batalla, o existen menos de tres cartas boca arriba válidas; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 11. `671:a05:19362:hand-special-only-mementos-faceup` — dos casos de papel
+
+- **`case_id=671:A05:P11` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Tatsunootoshigo CID19362 en mano; ventana: Turno propio con ventana legal para activar efecto de mano y espacio MZ; guardas conocidas: No controlar monstruo propio boca arriba ajeno a Memento; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19362:hand-special-only-mementos-faceup` respetando la selección: Sin objetivo. `expected_costs`: No hay descarte ni destrucción como coste. `expected_events/state_after`: Invocar Tatsun desde mano a zona propia disponible; se registra una Invocación por efecto. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N11` (negativo esperado, `expected_legal=false`):** `state_before`: Controlas Réquiem u otro monstruo propio boca arriba que no es Memento; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 12. `671:a05:19362:main-destroy-memento-send-level-total` — dos casos de papel
+
+- **`case_id=671:A05:P12` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Tatsunootoshigo boca arriba en MZ propia; ventana: Main Phase propia en ventana de efecto de monstruo; guardas conocidas: Memento propio destruible y cartas Memento con nombres distintos en Main Deck cuyos niveles sumen como máximo el nivel original del destruido; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19362:main-destroy-memento-send-level-total` respetando la selección: Elegir Memento propio a destruir sin targeting declarado; seleccionar cartas enviadas del Deck con suma de niveles legal. `expected_costs`: Destruir en resolución, no pagar como coste al activar. `expected_events/state_after`: Si se destruyó Memento, enviar al GY cartas Memento distintas del Deck con suma de niveles no superior a nivel original del destruido. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N12` (negativo esperado, `expected_legal=false`):** `state_before`: No hay monstruo Memento propio destruible o las cartas disponibles no admiten envío legal; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 13. `671:a05:19363:on-summon-discard-destroy-spelltrap` — dos casos de papel
+
+- **`case_id=671:A05:P13` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Hoja Oscura CID19363 Invocada al campo propio; ventana: Cadena de disparo tras su Normal o Especial Invocación; guardas conocidas: Tener Memento descartable en mano y M/T rival válida en campo; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19363:on-summon-discard-destroy-spelltrap` respetando la selección: Target de exactamente una M/T controlada por rival. `expected_costs`: Descartar una carta Memento de mano a GY al activar antes de resolver. `expected_events/state_after`: Destruir la carta rival seleccionada solo si su situación sigue permitiéndolo; no devolver el descarte. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N13` (negativo esperado, `expected_legal=false`):** `state_before`: Hoja Oscura no fue Invocada ahora, o no hay descarte Memento, o ninguna M/T rival legal; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 14. `671:a05:19363:main-destroy-special-level3` — dos casos de papel
+
+- **`case_id=671:A05:P14` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Hoja Oscura boca arriba en zona propia de monstruos; ventana: Main Phase propia, efecto activado en cadena; guardas conocidas: Memento propio destruible y un monstruo Memento Nivel 3 o menor disponible en Main Deck; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19363:main-destroy-special-level3` respetando la selección: Elegir Memento propio a destruir y luego el Memento Nivel ≤3 real del Deck; no fabricar objetivo. `expected_costs`: La destrucción del Memento ocurre durante resolución, no como coste de activación. `expected_events/state_after`: Destruir un Memento propio y, si se destruye, Invocar Especialmente un Memento Nivel ≤3 desde Deck a MZ válida. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N14` (negativo esperado, `expected_legal=false`):** `state_before`: No existe Memento propio destruible o no existe invocación legal de Nivel ≤3 del Deck; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 15. `671:a05:19365:opponent-main-discard-control-monster` — dos casos de papel
+
+- **`case_id=671:A05:P15` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Maza CID19365 en mano propia; ventana: Main Phase del adversario, como Efecto Rápido con cadena abierta; guardas conocidas: Controlar realmente Creación Combinada CID19360 y existir un monstruo enemigo boca arriba seleccionable; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19365:opponent-main-discard-control-monster` respetando la selección: Target de un monstruo boca arriba controlado por rival. `expected_costs`: Descartar Maza desde mano a GY como coste antes de resolver. `expected_events/state_after`: Ganar control temporal del objetivo hasta End Phase si continúa legal, sin destruirlo ni negarlo. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N15` (negativo esperado, `expected_legal=false`):** `state_before`: Creación Combinada no está bajo tu control, o rival no tiene monstruos boca arriba targeteables; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 16. `671:a05:19365:main-destroy-search-memento-card` — dos casos de papel
+
+- **`case_id=671:A05:P16` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Maza en MZ propia; ventana: Main Phase propia en ventana de monstruo; guardas conocidas: Monstruo Memento propio destruible y carta Memento distinta de Maza disponible en Main Deck; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19365:main-destroy-search-memento-card` respetando la selección: Elegir Memento propio a destruir; no targetea carta del Deck. `expected_costs`: La destrucción sucede durante resolución, no al activar. `expected_events/state_after`: Destruir Memento propio y después añadir carta Memento de nombre diferente de Maza desde Deck a mano si se destruyó. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N16` (negativo esperado, `expected_legal=false`):** `state_before`: No hay Memento propio destruible o el Deck no tiene búsqueda Memento distinta de Maza; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 17. `671:a05:19366:quick-discard-target-protection` — dos casos de papel
+
+- **`case_id=671:A05:P17` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Goblin CID19366 en mano propia; ventana: Main Phase de cualquiera de los turnos, efecto rápido; guardas conocidas: Controlas físicamente Creación Combinada CID19360; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19366:quick-discard-target-protection` respetando la selección: Sin target; protección global de tus Memento en campo. `expected_costs`: Descartar Goblin mano→GY como coste antes de resolver. `expected_events/state_after`: Hasta fin de este turno el rival no puede seleccionar con efectos a tus monstruos Memento, si resolución tuvo éxito. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N17` (negativo esperado, `expected_legal=false`):** `state_before`: Creación Combinada no está controlada al activar o Goblin no está en mano; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 18. `671:a05:19366:main-destroy-send-up-to-two` — dos casos de papel
+
+- **`case_id=671:A05:P18` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Goblin en MZ propia; ventana: Main Phase propia en ventana de activación; guardas conocidas: Monstruo Memento propio destruible y hasta dos cartas Memento diferentes entre sí y distintas de Goblin disponibles en Deck; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19366:main-destroy-send-up-to-two` respetando la selección: Elegir Memento propio a destruir; las cartas a enviar son del Deck, no targets del campo. `expected_costs`: La destrucción sucede durante resolución; no se descartan cartas como coste. `expected_events/state_after`: Tras destruir Memento propio, mandar al GY hasta dos cartas Memento de nombres distintos del Deck, excluyendo Goblin. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N18` (negativo esperado, `expected_legal=false`):** `state_before`: No puede destruirse un Memento propio o los destinos pretendidos no existen físicamente; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 19. `671:a05:19367:battle-spelltrap-restriction` — dos casos de papel
+
+- **`case_id=671:A05:P19` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Mementomictlán CID19367 boca arriba en zona de Campo propia; ventana: Desde el inicio de la batalla en que participa tu Memento hasta terminar Damage Step; efecto continuo sin cadena; guardas conocidas: Un monstruo Memento propio está efectivamente batallando; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19367:battle-spelltrap-restriction` respetando la selección: Sin objetivo ni selección. `expected_costs`: Sin coste; no activar el campo como un nuevo efecto. `expected_events/state_after`: El rival no puede activar cartas Mágicas/Trampas durante la ventana especificada de esa batalla. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N19` (negativo esperado, `expected_legal=false`):** `state_before`: No hay monstruo Memento propio batallando o Mementomictlán no aplica en campo; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 20. `671:a05:19367:destroyed-own-monster-target-lower-revive` — dos casos de papel
+
+- **`case_id=671:A05:P20` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Mementomictlán boca arriba en zona de Campo propia; ventana: Tras destrucción por batalla o efecto de al menos un monstruo propio; guardas conocidas: Uno de los monstruos destruidos es target válido y existe Memento de nivel inferior en mano/GY para Invocar; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19367:destroyed-own-monster-target-lower-revive` respetando la selección: Target a uno de los monstruos propios destruidos; nivel de Invocado debe ser estrictamente inferior. `expected_costs`: La destrucción es trigger del efecto, no coste. `expected_events/state_after`: Invocar un Memento desde mano/GY con nivel inferior al del monstruo elegido; no revive automáticamente al destruido. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N20` (negativo esperado, `expected_legal=false`):** `state_before`: El monstruo destruido es el único de menor nivel y no hay otro Memento elegible de nivel inferior; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 21. `671:a05:19367:end-set-memento-spelltrap` — dos casos de papel
+
+- **`case_id=671:A05:P21` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Mementomictlán boca arriba en Campo propio; ventana: Tu End Phase con ventana de activación; guardas conocidas: M/T Memento real en tu GY y zona M/T disponible para Colocar; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19367:end-set-memento-spelltrap` respetando la selección: Target de exactamente una M/T Memento en GY propio. `expected_costs`: Sin coste adicional; mover la M/T al resolver. `expected_events/state_after`: Colocar boca abajo esa carta de GY en S/T propia si objetivo sigue legal; no activarla instantáneamente. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N21` (negativo esperado, `expected_legal=false`):** `state_before`: GY no tiene M/T Memento o no hay zona M/T disponible; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 22. `671:a05:19368:quick-destroy-search-or-special` — dos casos de papel
+
+- **`case_id=671:A05:P22` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Fiesta de Huesos CID19368 en mano o M/T colocada legalmente; ventana: Ventana válida de Mágica Rápida, respetando turno y colocación; guardas conocidas: Memento en mano o MZ propia boca arriba destruible y otro Memento de nombre distinto en Main Deck; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19368:quick-destroy-search-or-special` respetando la selección: Seleccionar Memento propio a destruir y carta Memento real del Deck de nombre diferente. `expected_costs`: La destrucción de Memento ocurre al resolver el texto de la Mágica, no se inventa descarte como coste. `expected_events/state_after`: Destruir al Memento propio y añadir el de Deck a mano o Invocarlo en Defensa a zona válida, sin efectuar ambas. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N22` (negativo esperado, `expected_legal=false`):** `state_before`: No hay Memento destruible o no existe nombre diferente y zona/alternativa legal de entrega; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 23. `671:a05:19368:gy-banish-piercing` — dos casos de papel
+
+- **`case_id=671:A05:P23` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Fiesta de Huesos en GY propio; ventana: Main Phase propia, activación del efecto en GY; guardas conocidas: Monstruo Memento propio en campo válido como target; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19368:gy-banish-piercing` respetando la selección: Target de un monstruo Memento que controlas. `expected_costs`: Desterrar Fiesta de Huesos del GY como coste de activación. `expected_events/state_after`: Dar perforación al monstruo elegido por este turno, no infligir daño inmediato. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N23` (negativo esperado, `expected_legal=false`):** `state_before`: Fiesta ya no está en GY o no controlas monstruo Memento seleccionable; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 24. `671:a05:19472:on-summon-gy-recover` — dos casos de papel
+
+- **`case_id=671:A05:P24` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Desvantasmas CID19472 Invocado Normal o Especial en MZ propia; ventana: Tras evento de Invocación, efecto de disparo en cadena; guardas conocidas: Hay carta Memento en propio GY distinta de Desvantasmas; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19472:on-summon-gy-recover` respetando la selección: Target de una carta Memento distinta de esta carta en propio GY. `expected_costs`: Sin coste ni descarte. `expected_events/state_after`: Mover carta del GY a mano si continúa siendo válida. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N24` (negativo esperado, `expected_legal=false`):** `state_before`: No hubo Invocación reciente o no hay otro Memento en GY targeteable; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 25. `671:a05:19472:sent-by-memento-monster-gy-special` — dos casos de papel
+
+- **`case_id=671:A05:P25` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Desvantasmas enviada físicamente al GY propio; ventana: Tras ser enviada al GY por efecto de un monstruo Memento; guardas conocidas: La causa del envío fue efecto de monstruo Memento y existe zona propia válida; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19472:sent-by-memento-monster-gy-special` respetando la selección: Sin target. `expected_costs`: Sin coste previo; envío ya ocurrió como disparador. `expected_events/state_after`: Invocar esta misma copia desde GY a MZ propia. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N25` (negativo esperado, `expected_legal=false`):** `state_before`: Fue enviada por coste de Gotas, batalla, o efecto que no sea de monstruo Memento; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 26. `671:a05:19878:fusion-two-memento` — dos casos de papel
+
+- **`case_id=671:A05:P26` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Dragón Gemelo CID19878 en Extra Deck; ventana: Ventana legal del efecto de Fusión habilitador; el requisito material no inicia cadena independiente; guardas conocidas: Dos monstruos Memento físicamente disponibles y efecto de Fusión que permita usarlos; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19878:fusion-two-memento` respetando la selección: Seleccionar exactamente dos Memento legales como materiales de la Fusión. `expected_costs`: Materiales se trasladan durante resolución de Fusión; no coste de activación propio de Dragón Gemelo. `expected_events/state_after`: Invocar Dragón Gemelo desde Extra por Fusión y colocar materiales en sus destinos legales. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N26` (negativo esperado, `expected_legal=false`):** `state_before`: No hay dos monstruos Memento disponibles en las zonas permitidas por la carta que fusiona; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 27. `671:a05:19878:battle-destroyed-monsters-banished` — dos casos de papel
+
+- **`case_id=671:A05:P27` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Dragón Gemelo boca arriba en Campo propio; ventana: Cuando cualquier Memento propio destruye monstruo por batalla; condición persistente sin cadena; guardas conocidas: El monstruo destruido fue derrotado en batalla por Memento propio; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19878:battle-destroyed-monsters-banished` respetando la selección: No hay targeting de activación; se aplica al destino del destruido. `expected_costs`: Sin coste. `expected_events/state_after`: Mandar el monstruo destruido por batalla al destierro en vez del GY cuando corresponde. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N27` (negativo esperado, `expected_legal=false`):** `state_before`: La destrucción no fue por batalla con monstruo Memento propio; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 28. `671:a05:19878:on-fusion-destroy-search-two` — dos casos de papel
+
+- **`case_id=671:A05:P28` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Dragón Gemelo acaba de ser Invocado por Fusión; ventana: Ventana de disparo inmediatamente posterior a Fusión; guardas conocidas: Un Memento de mano o boca arriba propio destruible y hasta dos monstruos Memento de nombres distintos disponibles en Deck; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19878:on-fusion-destroy-search-two` respetando la selección: Elegir el Memento de mano/campo a destruir y hasta dos nombres distintos para añadir, sin target al Deck. `expected_costs`: Destrucción ocurre durante resolución, no coste de activación. `expected_events/state_after`: Destruir el Memento y, si se destruye, añadir hasta dos monstruos Memento de nombres diferentes del Deck a mano. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N28` (negativo esperado, `expected_legal=false`):** `state_before`: Fue Invocado sin Fusión o no hay Memento destruible para la resolución; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 29. `671:a05:19878:fusion-destroyed-gy-revive-level6` — dos casos de papel
+
+- **`case_id=671:A05:P29` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Copia de Dragón Gemelo previamente Invocada por Fusión fue destruida; ventana: Cadena de disparo después de destrucción real; guardas conocidas: Memento Nivel 6 o menor en GY propio y zona MZ disponible; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19878:fusion-destroyed-gy-revive-level6` respetando la selección: No target explícito según texto; escoger Memento de GY legal. `expected_costs`: Sin coste; destrucción es trigger. `expected_events/state_after`: Invocar Especialmente un Memento Nivel ≤6 desde tu GY. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N29` (negativo esperado, `expected_legal=false`):** `state_before`: Esta copia no había sido Invocada por Fusión o el GY carece de Memento Nivel ≤6; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
+
+#### 30. `671:a05:19904:gy-banish-destroy-search-spelltrap` — dos casos de papel
+
+- **`case_id=671:A05:P30` (positivo esperado, `expected_legal=true`):** `state_before`: actor: Fusión Mementotlán CID19904 en GY propio; ventana: Main Phase propia, ventana legal de efecto de Mágica en GY; guardas conocidas: Monstruo propio destruible y M/T Memento en Main Deck disponible; se supone copia disponible, efectos no usados, zona válida, sin respuesta rival adicional conocida. `action`: aplicar la cláusula `671:a05:19904:gy-banish-destroy-search-spelltrap` respetando la selección: Elegir monstruo propio a destruir durante resolución, sin target declarado; buscar M/T en Deck. `expected_costs`: Desterrar esta copia GY→destierro al activar, aunque después se niegue. `expected_events/state_after`: Destruir monstruo propio y, si se destruyó, añadir M/T Memento desde Deck a mano. `reason`: caso condicionado a la presencia física de todos los recursos declarados y no a búsqueda de cartas ocultas.
+- **`case_id=671:A05:N30` (negativo esperado, `expected_legal=false`):** `state_before`: Fusión no está en GY o no hay monstruo propio elegible para destruir; no hay ventana/guarda suficiente para proponer esta interacción. `action`: no ejecutar la activación, procedimiento o restricción no aplicable. `expected_costs`: no pagar recursos cuando el efecto no puede declararse. `expected_events/state_after`: mantener estado previo salvo eventos observados ajenos al efecto. `reason`: falla la condición física y debe rechazarse sin simular resultados.
+- **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
 
 ### A05.9 — backlog causal verificable, sin falsas certificaciones
 
