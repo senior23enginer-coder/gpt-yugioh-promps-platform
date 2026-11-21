@@ -7,6 +7,8 @@ on:
       - '02_PROMPT_PARA_CODEX/**'
       - 'scripts/test-a01-a10-presentation.cjs'
       - 'scripts/test-paper-case-contract.cjs'
+      - 'scripts/test-p06-legacy-paper-cases.cjs'
+      - '03_COMPROBACIONES_NO_IMPORTAR/fixtures/**'
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
       - 'scripts/analysis-eligibility*.cjs'
@@ -18,6 +20,8 @@ on:
       - '02_PROMPT_PARA_CODEX/**'
       - 'scripts/test-a01-a10-presentation.cjs'
       - 'scripts/test-paper-case-contract.cjs'
+      - 'scripts/test-p06-legacy-paper-cases.cjs'
+      - '03_COMPROBACIONES_NO_IMPORTAR/fixtures/**'
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
       - 'scripts/analysis-eligibility*.cjs'
@@ -40,5 +44,7 @@ jobs:
         run: node scripts/analysis-eligibility-test.cjs
       - name: Validate universal paper-case contract and synthetic fixtures
         run: node scripts/test-paper-case-contract.cjs
+      - name: Validate GPT-owned paper regression scenarios for legacy migration
+        run: node scripts/test-p06-legacy-paper-cases.cjs
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
