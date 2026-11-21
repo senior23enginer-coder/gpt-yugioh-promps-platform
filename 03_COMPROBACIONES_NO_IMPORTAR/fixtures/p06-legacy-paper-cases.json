@@ -1,0 +1,236 @@
+{
+  "schema": "station-x-legacy-paper-regression-suite/1",
+  "purpose": "Migration of a strict subset of existing historical assertions to reusable data, without reanalysis or inventory modification",
+  "explicitly_not_a_new_deck_analysis": true,
+  "coverage_policy": "partial_by_legacy_file; do not delete original tests until all assertions match",
+  "documents": [
+    {
+      "schema": "station-x-paper-cases/1",
+      "deck_id": 671,
+      "format": "tcg_advanced",
+      "effects": [
+        {
+          "effect_id": "671:mictlan:activate",
+          "cid": 19367,
+          "source": "legacy-calculator-portable-memento"
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "P06-671-MICTLAN-HAND",
+          "effect_id": "671:mictlan:activate",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_portable_memento_test.cjs",
+          "reason": "Activation from hand must place the physical Field Spell in the Field Zone",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 502,
+                "zone": "hand"
+              }
+            ]
+          },
+          "expected_legal": true,
+          "expected_state_after": {
+            "tokens": [
+              {
+                "cid": 19367,
+                "zone": "field"
+              }
+            ]
+          }
+        },
+        {
+          "case_id": "P06-671-MICTLAN-GRAVE-DENIED",
+          "effect_id": "671:mictlan:activate",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_portable_memento_test.cjs",
+          "reason": "The hand-activation rule cannot be offered from Graveyard",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 502,
+                "zone": "graveyard"
+              }
+            ]
+          },
+          "expected_legal": false
+        },
+        {
+          "case_id": "P06-671-MICTLAN-BATTLE-DENIED",
+          "effect_id": "671:mictlan:activate",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_portable_memento_test.cjs",
+          "reason": "The Rule guards require Main Phase, not Battle Phase",
+          "state_before": {
+            "turn": 1,
+            "phase": "battle",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 502,
+                "zone": "hand"
+              }
+            ]
+          },
+          "expected_legal": false
+        }
+      ]
+    },
+    {
+      "schema": "station-x-paper-cases/1",
+      "deck_id": 677,
+      "format": "tcg_advanced",
+      "effects": [
+        {
+          "effect_id": "677:smiger:destroy-citree",
+          "cid": 12608,
+          "source": "calculator_crystron_smiger_test.cjs"
+        },
+        {
+          "effect_id": "677:smiger:graveyard-search",
+          "cid": 12608,
+          "source": "calculator_crystron_smiger_test.cjs"
+        }
+      ],
+      "cases": [
+        {
+          "case_id": "P06-677-SMIGER-FIELD",
+          "effect_id": "677:smiger:destroy-citree",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_crystron_smiger_test.cjs",
+          "reason": "Smiger in field destroys a face-up own card and special summons Citree from available Deck, applying a machine-Synchro-only turn lock",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 523,
+                "zone": "m1"
+              }
+            ]
+          },
+          "expected_legal": true,
+          "expected_state_after": {
+            "tokens": [
+              {
+                "cid": 12608,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 12606,
+                "zone": "monster"
+              }
+            ],
+            "rule_flags": {
+              "machineSynchroOnly": true
+            }
+          }
+        },
+        {
+          "case_id": "P06-677-SMIGER-HAND-DENIED",
+          "effect_id": "677:smiger:destroy-citree",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_crystron_smiger_test.cjs",
+          "reason": "Smiger field effect requires own face-up monster in a monster zone",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 523,
+                "zone": "hand"
+              }
+            ]
+          },
+          "expected_legal": false
+        },
+        {
+          "case_id": "P06-677-SMIGER-BATTLE-DENIED",
+          "effect_id": "677:smiger:destroy-citree",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_crystron_smiger_test.cjs",
+          "reason": "Smiger field effect only activates in own Main Phase",
+          "state_before": {
+            "turn": 1,
+            "phase": "battle",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 523,
+                "zone": "m1"
+              }
+            ]
+          },
+          "expected_legal": false
+        },
+        {
+          "case_id": "P06-677-SMIGER-GY-SEARCH",
+          "effect_id": "677:smiger:graveyard-search",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_crystron_smiger_test.cjs",
+          "reason": "Smiger GY effect must banish the physical copy as cost and add Crystron Inclusion to hand",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 523,
+                "zone": "graveyard"
+              }
+            ]
+          },
+          "expected_legal": true,
+          "expected_state_after": {
+            "tokens": [
+              {
+                "cid": 12608,
+                "zone": "banished"
+              },
+              {
+                "cid": 20798,
+                "zone": "hand"
+              }
+            ]
+          }
+        },
+        {
+          "case_id": "P06-677-SMIGER-GY-HAND-DENIED",
+          "effect_id": "677:smiger:graveyard-search",
+          "status": "VERIFICADO",
+          "known_vs_unknown": "known",
+          "source_legacy_test": "calculator_crystron_smiger_test.cjs",
+          "reason": "Cannot activate a graveyard effect using a card only held in hand",
+          "state_before": {
+            "turn": 1,
+            "phase": "main1",
+            "active": "self",
+            "placements": [
+              {
+                "card_id": 523,
+                "zone": "hand"
+              }
+            ]
+          },
+          "expected_legal": false
+        }
+      ]
+    }
+  ]
+}
