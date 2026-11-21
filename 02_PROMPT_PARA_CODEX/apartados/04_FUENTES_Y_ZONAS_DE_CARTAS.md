@@ -25,3 +25,17 @@ Crear inventario de **zona de origen y destino** para futuras secuencias A09: ma
 - **Skill/Habilidad Rush:** una entidad aparte, no robable, que no cuenta en Main/Extra/Side/Reserva, materiales ni probabilidades de mano. Para el flujo personalizado de los decks Rush de Miguel se requiere Skill recibida para declarar completo ese aspecto; Extra=0 no bloquea.
 
 El inventario **vivo** de Station X es prioritario para cotejar ID real, formato y versión, pero **no sustituye automáticamente** las cartas y cantidades de la lista física aprobada por Miguel. Si difieren, registrar ambas fuentes y las diferencias por zona/cantidad, bloquear cambios de inventario y consultar al propietario; el catálogo histórico no es lectura de producción.
+
+
+## Puerta obligatoria de checklist por deck — A04 (revisión 21-11-2026)
+
+Este módulo se aplica **únicamente al deck identificado por `deck_id` + formato + inventario aprobado**, sin trasladar evidencia ni estado de otros decks. Se mantiene **una sola lista canónica por deck** dentro del archivo `DECK_*_CONTENIDO_CURADO.md` ya existente, bajo `CONTROL_DE_TAREAS_A01_A10` (o sección equivalente existente); no crear documentos/JSON de seguimiento por fase ni archivos de prueba por carta. Cada ejecución o reanálisis actualiza esa lista y devuelve el estado **de todas las tareas A01–A10A** para ese deck, incluyendo tareas terminadas con evidencia y pendientes concretas. A10B se muestra aparte como opcional; nunca se ejecuta implícitamente.
+
+**Checklist A04 — obligatorio, chequeable y con evidencia:**
+- [ ] **A04-T01** — Confirmar identidad y fuente de cada imagen mediante CID. Evidencia: `PENDIENTE`.
+- [ ] **A04-T02** — Comprobar que las referencias de imágenes existen. Evidencia: `PENDIENTE`.
+- [ ] **A04-T03** — Marcar únicamente fotos ausentes como pendiente, sin sustituciones. Evidencia: `PENDIENTE`.
+
+**Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
+
+**Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
