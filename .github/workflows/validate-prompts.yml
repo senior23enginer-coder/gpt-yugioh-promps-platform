@@ -22,6 +22,7 @@ on:
       - 'scripts/audit-deck-effect-sources.cjs'
       - 'scripts/audit-deck-official-source-text.cjs'
       - 'scripts/compare-deck-cardtext-sources.cjs'
+      - 'scripts/audit-deck-documental-effects.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -45,6 +46,7 @@ on:
       - 'scripts/audit-deck-effect-sources.cjs'
       - 'scripts/audit-deck-official-source-text.cjs'
       - 'scripts/compare-deck-cardtext-sources.cjs'
+      - 'scripts/audit-deck-documental-effects.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -92,5 +94,8 @@ jobs:
       - name: Cross-check Konami and Konami-ID-matched secondary text for 39 Memento cards
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/compare-deck-cardtext-sources.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Verify the 94 attributed A05 effect/procedure clauses for selected Memento
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-documental-effects.cjs --deck-id=671 --user-assigned --expected-clauses=94 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
