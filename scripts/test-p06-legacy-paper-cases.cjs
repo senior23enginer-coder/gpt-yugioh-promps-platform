@@ -8,10 +8,12 @@ const file=path.resolve(__dirname,'../03_COMPROBACIONES_NO_IMPORTAR/fixtures/p06
 const suite=JSON.parse(fs.readFileSync(file,'utf8'));
 assert.equal(suite.schema,'station-x-legacy-paper-regression-suite/1');
 assert.equal(suite.explicitly_not_a_new_deck_analysis,true);
-assert.equal(suite.coverage_policy,'partial_by_legacy_file; do not delete original tests until all assertions match');
+assert.equal(suite.coverage_policy,
+  '3 traced legacy assertions plus 5 new negative boundaries; partial by legacy file; retain all original tests');
 assert.equal(suite.documents.length,2);
 assert.deepEqual(suite.documents.map(doc=>doc.deck_id),[671,677]);
 const ids=new Set();
+let direct=0,extra=0;
 for(const paper of suite.documents){
  assert.equal(paper.schema,'station-x-paper-cases/1');
  assert.equal(paper.format,'tcg_advanced');
@@ -22,6 +24,14 @@ for(const paper of suite.documents){
    assert(!ids.has(item.case_id),'Duplicate case ID '+item.case_id);
    ids.add(item.case_id);
    assert(effectIds.has(item.effect_id),'Unknown effect '+item.effect_id);
+   if(item.origin==='legacy_assertion'){
+     assert(typeof item.source_assertion==='string'&&item.source_assertion.length>10);
+     direct++;
+   }else{
+     assert.equal(item.origin,'additional_negative_boundary');
+     assert.equal(item.source_assertion,null);
+     extra++;
+   }
    assert.equal(item.status,'VERIFICADO');
    assert.equal(item.known_vs_unknown,'known');
    assert.equal(typeof item.expected_legal,'boolean');
@@ -35,5 +45,8 @@ for(const paper of suite.documents){
  }
 }
 assert.equal(ids.size,8);
+assert.equal(direct,3);
+assert.equal(extra,5);
 console.log(JSON.stringify({ok:true,documents:2,paperCases:ids.size,
+  directHistoricalAssertions:direct,newNegativeBoundaries:extra,
   additionalPerCardCodeFiles:0,deckAnalysesExecuted:0,legacyCoverage:'partial'}));
