@@ -1,5 +1,16 @@
 # A07 — Reglas específicas contextuales de los 11 decks
 
+## Vocabulario universal de reglas y escenarios lógicos — norma de consumo (21-11-2026)
+
+Estas reglas por formato alimentan la especificación semántica descrita en el prompt maestro; **no** son un segundo motor ni un segundo inventario. Para cada carta y efecto documentar `deck_id`, `format`, `card_id`, `cid`, `effect_id`, tipo (activated/trigger/continuous/procedure/replacement/skill/no-effect), actor/zona, turno/fase/ventana, disparador, condición, costes separados de resolución, objetivos y no-objetivos, recursos, límites de uso, cadena/negación y estado final. Diferenciar `known`, `unknown`, `observed`, `assumed` y `conditional`; sólo `observed` puede justificar eventos que exigen una acción física del rival.
+
+**Casos lógicos obligatorios (papel, GPT):** para cada efecto pertinente comprobar éxito; falta de condición; fase/ventana; coste y recurso insuficiente; uso previo; bloqueo/negación; interacción y estado final, con `case_id/effect_id/state_before/action/expected_legal/expected_state_after/reason/source`. Los `NO_APLICA` se justifican. TCG, GOAT y Rush Duel/Skill requieren pruebas distintas cuando difieren sus reglas; una Skill no ocupa una carta de mano ni zona por defecto.
+
+Estos casos se registran en la entrega canónica del deck y se cruzan con A05/A06/A07/A08/A09. **A10A obligatorio** utiliza la misma matriz para la guía visual sin ejecutar reglas. **A10B opcional** la transforma en `station-x-calculator/1` solo cuando el motor soporte todos los elementos de esa regla; si no, `OPERADOR_NO_SOPORTADO`. La plataforma usa tests comunes para validar su intérprete; GPT aporta los casos de lógica, evitando tests JavaScript por carta.
+
+**Comprobación de cobertura para el checklist de cada deck:** identidades del inventario, efectos separados, casos verificados y referencias cruzadas deben coincidir con las fuentes sin omisiones ni alias inseguros. Cada módulo A01–A10A/A10B conserva tareas chequeables, evidencia, impedimentos y reporte acumulado; ningún apartado se cierra parcialmente.
+
+
 > **Alcance de este documento:** referencias A07 del corte original de **11 decks**, conservadas como evidencia contextual. No es el catálogo vigente ni una instrucción para limitar el estudio a once. Para los **16 decks actuales**, utilizar la ficha A07 de cada uno, el orquestador vigente y el formato/Skill correspondientes; no extender automáticamente estos cotejos a las cinco incorporaciones.
 
 > Soporte para asociar advertencias a fichas A05 y pasos A09/A10. No crear once pestañas ni publicar un reglamento genérico; verificar efectos y Skills antes de presentar pasos al jugador.
