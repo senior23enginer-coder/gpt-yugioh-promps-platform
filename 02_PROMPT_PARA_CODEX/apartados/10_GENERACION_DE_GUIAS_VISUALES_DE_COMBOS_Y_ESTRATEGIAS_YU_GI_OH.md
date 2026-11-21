@@ -1,5 +1,11 @@
 # Apartado 10 — A10A Guías visuales obligatorias / A10B Calculadora opcional
 
+## Entrega estandarizada A10 — trazabilidad canónica y cobertura medible
+
+A10A es obligatorio y sólo se ocupa de guías y presentación. A10B es opcional y es la ÚNICA etapa que compila, importa y ejecuta reglas de calculadora. Los casos de papel A05–A09 ya existen y A10B debe reaprovecharlos, no investigarlos de nuevo. El calculador es apoyo a duelos físicos: no pronostica mano oculta ni inventa prioridades, replays o respuestas. Las pruebas lógicas viven como datos en GPT, los tests técnicos del ejecutor como código genérico en Platform; no generar un .cjs/.php por cada carta, efecto o deck.
+
+El checklist del propio deck conserva `[x]` sólo con evidencia completa por CID/effect_id/case_id/route_id. Cada ejecución entrega todas las tareas A01–A10A; A10B se muestra aparte y nunca se activa implícitamente.
+
 ### Puerta A10 — paridad visual sin fingir paridad de motor (20-11-2026)
 
 La interfaz de estudio y la calculadora comparten identidad y zonas de las cartas, pero sus alcances son independientes. La fotografía, flecha, texto de efecto y campo final A10 **no convierten** una ruta en un efecto implementado. Ante un estado físico del usuario, la calculadora presenta por separado **acciones ejecutables comprobadas desde ese estado**, **rutas documentales condicionadas** y **efectos sin modelar**, sin inventar cartas en campo/GY ni sugerir handtraps como avance táctico sin línea real.
@@ -102,12 +108,12 @@ Para interacciones, starters y extensiones, enseñar fotos y flechas con su **re
 ## Checklist obligatorio por deck A10 — control de entrega
 
 Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
-- [ ] **A10A-T1** A10A: guías visuales, imágenes y secuencias de todas las rutas A09; evidencia: pendiente hasta comprobación.
-- [ ] **A10A-T2** A10A: imágenes correctas, mano inicial, textos completos y campo final respaldado; evidencia: pendiente hasta comprobación.
-- [ ] **A10A-T3** A10A: QA de importación documental y presentación móvil/escritorio; evidencia: pendiente hasta comprobación.
-- [ ] **A10B-T4** A10B opcional: adaptar especificaciones A05–A09 a operadores del motor; evidencia: pendiente hasta comprobación.
-- [ ] **A10B-T5** A10B opcional: validar importación de reglas, escenarios, negaciones y regresiones reutilizables; evidencia: pendiente hasta comprobación.
-- [ ] **A10B-T6** A10B opcional: certificar o bloquear efectos reales sin alterar A10A; evidencia: pendiente hasta comprobación.
+- [ ] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A10B-T4** A10B opt-in: consumir la matriz causal y casos lógicos de papel de GPT, mapear únicamente operaciones/guardas realmente soportados por station-x-calculator/1; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A10B-T5** A10B opt-in: ejecutar fixtures por efecto y ruta con runner común en Platform; estados positivos/negativos, HOPT, costes, ventanas, negación e importación/exportación; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A10B-T6** A10B opt-in: comparar cobertura semántica GPT frente a acciones realmente ejecutables; dejar OPERADOR_NO_SOPORTADO sin inventar reglas; reporte independiente de A10A; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
 
 Las casillas anteriores son plantilla, no un certificado de los decks existentes. `[x]` sólo tras entrega **completa y verificada**; `[ ] BLOQUEADA` exige causa y acción pendiente. Nunca denominar `COMPLETA` una tarea parcial; no falsificar estados. Cada respuesta/revisión muestra **todas** las tareas A01–A10A del deck y evidencias, acabadas/pendientes y totales. A10B está excluido de la exigencia normal, se reporta por separado si es solicitado. Los análisis completos de cartas de A05–A09 siempre se preservan y alimentan presentación y posterior calculadora.
 
