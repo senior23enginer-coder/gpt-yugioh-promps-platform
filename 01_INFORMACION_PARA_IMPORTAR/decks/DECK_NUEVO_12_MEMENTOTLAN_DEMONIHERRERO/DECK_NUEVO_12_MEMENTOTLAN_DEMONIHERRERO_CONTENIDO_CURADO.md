@@ -323,7 +323,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 ### A05.7 — matriz causal crítica previa a A05-T3/T4 (no ejecutable)
 
-**Alcance:** especificaciones documentales de 16 interacciones de mayor riesgo, vinculadas a los `effect_id` estables A05.6 y a sus fuentes oficiales por CID. Estas filas aclaran **actor, ventana, guarda, coste, selección, resolución, límite y transición física**, sin afirmar soporte de `record.calculator`, sin probar A10B ni simular un duelo. La matriz de todas las 94 cláusulas sigue pendiente; por tanto **A05-T3 y A05-T4 siguen abiertas**.
+**Alcance:** las 16 primeras fichas críticas se conservaron y se ampliaron hasta 94 fichas documentales, vinculadas a los `effect_id` estables A05.6 y a sus fuentes oficiales por CID. Estas filas aclaran **actor, ventana, guarda, coste, selección, resolución, límite y transición física**, sin afirmar soporte de `record.calculator`, sin probar A10B ni simular un duelo. La **cobertura de redacción** es 94/94; la revisión semántica independiente y la validación tipada siguen pendientes. **A05-T3 y A05-T4 siguen abiertas**.
 
 #### 1. `671:a05:12950:hand-deck-effect-negate` · CID 12950 (RAPIDO_MANO)
 
@@ -1363,7 +1363,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 ### A05.8 — ejemplos declarativos de estado y fallo cerrado (control de papel inicial)
 
-**Alcance:** casos documentales positivos y negativos para **8 efectos críticos / 16 escenarios**, derivados de las condiciones de Konami por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. El censo completo exige matriz para los 94 IDs A05.6, incluyendo pasivos/procedimientos o `NO_APLICA` justificado.
+**Alcance:** se conservan 8 pares críticos iniciales y se amplía la lista documental hasta **94 pares / 188 escenarios propuestos**, derivados de condiciones por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. La cobertura escrita ahora alcanza los 94 IDs A05.6, pero requiere verificación independiente de legalidad y `NO_APLICA` justificados antes de cerrar A05-T4.
 
 #### 1. `671:a05:12950:hand-deck-effect-negate` — dos casos de papel
 
@@ -1931,57 +1931,59 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **`case_id=671:A05:N94` (negativo esperado, `expected_legal=false`):** `state_before`: El adversario solo Invocó uno desde Extra durante ambos turnos pertinentes o la propia copia usada no tiene máximo ATK. `action`: rechazo de la activación o aplicación no elegible. `expected_costs`: no consumir recursos en una acción que ni puede declararse. `expected_events/state_after`: no causar eventos nuevos por ese efecto. `reason`: falta una condición de zona, ventana, recurso o estado real.
 - **Fuente:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en. **Estado:** `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`.
 
-### A05.9 — backlog causal verificable, sin falsas certificaciones
+### A05.9 — control de cobertura causal real tras ampliación documental (21-11-2026)
 
-**Matriz de control del avance real (contrato actual):** de **94 `effect_id` documentales** A05.6, **16** tienen desarrollo causal explícito de guardas, costes y estados en A05.7, y **8** poseen pares de escenarios positivos/negativos *aún condicionales* en A05.8 (16 `case_id`). Restan **78** registros sin matriz causal desarrollada. De los 94, **86** no tienen todavía ni pareja de casos propuesta y **ninguna** pareja está acreditada como fixture tipado/ejecutado. Los 8 con casos son semillas verificables por texto, **no** resultados del motor ni cierre de A05-T4.
+**Denominador verificado:** 39 identidades y 94 `effect_id` documentales existentes en A05.6. Las secciones A05.7 y A05.8 contienen ahora **94/94 explicaciones causales con campos explícitos** y **94/94 pares de casos de papel, 188 casos propuestos**. Este es un avance de redacción y trazabilidad, **no 94 efectos semánticamente certificados**, ni 188 fixtures tipados/verificados, ni reglas ejecutables de la calculadora.
 
-**Auditoría automatizada trazable (21-11-2026):** `scripts/audit-deck-causal-coverage.cjs` se ejecutó en GitHub Actions [#44957687770](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44957687770) con resultado **success**: 39 CID físicos, 94 effect_id únicos, 16 matrices A05.7 con ocho campos no vacíos y fuente coincidente, 8 pares A05.8 (8 positivos, 8 negativos) con fuente, ID y condición explícita; faltan 78 matrices causales y 86 pares de casos. **La auditoría es estructural y de trazabilidad, no valida de forma independiente la semántica ni la legalidad reglamentaria**, por lo que A05-T3 y T4 siguen sin marcar. El modo `--require-complete` rechaza por diseño una certificación prematura; no se ha ejecutado A10B.
+**Estados que no se deben confundir:**
+- `DOCUMENTADO_CON_FUENTE`: los 94 effect_id tienen fuente Konami por CID y representación documental causal; su coherencia completa por ventana, cadena, coste, destino y negación aún requiere revisión independiente por efecto.
+- `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`: los 188 casos de papel son borradores lógicos con supuestos declarados, **0/188** verificados en una matriz tipada de estado con todos los campos del esquema `station-x-paper-cases/1`.
+- `NO_APLICA` o bloqueo físico: cualquier caso que pretenda buscar una M/T Fiendsmith inexistente en el paquete, buscar Dark Contract inexistente, usar Polimerización de un GY no abastecido por el deck, enlazar a Link-5 ausente de Extra, o utilizar un Xyz Goblin que no está en Extra requiere evaluación específica y jamás se acepta como un éxito real de esta lista. No inventar cartas adicionales.
+- **A05-T3 y A05-T4 siguen abiertas**: la auditoría estructural comprueba existencia/unicidad/fuente y no convierte hipótesis en pruebas de legalidad. El motor A10B sigue NO_SOLICITADO.
 
-La siguiente columna enumera **solo los IDs sin matriz causal completa**. Es una cola de trabajo dentro del único documento del deck, no un archivo ni configuración adicional. Para cada uno: definir actor/zonas, trigger, fase/ventana, guarda, coste previo, selección/targeting, resolución, restricciones, límite por nombre, estados físicos pre/post, fuente oficial, casos positivo/negativo y razones de `NO_APLICA` cuando proceda. No asignar `COMPLETA` sin esa evidencia.
+| CID | Identidad | IDs A05.6 | Matrices A05.7 | Pares A05.8 | Estado de certificación |
+|---:|---|---:|---:|---:|---|
+| 9139 | Oleada de Calor | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 9279 | El Bufón y el Pájaro del Candado | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 9657 | Portaaviones Sumergible Aero Tiburón | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 11243 | Artefacto Lancea | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 12870 | Predaplanta Dragostapelia | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 12950 | Flor de Ceniza | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 13081 | D/D/D César, Alto Rey de las Olas | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 13619 | Llamado por la Tumba | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 15296 | Talento de Tácticas Triples | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 15299 | Gotas Prohibidas | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 16845 | Quimera Guardián | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 19184 | TY-PHON - Crisis Celeste | 4 | 4 | 4 | Condicional, sin validación lógica final |
+| 19188 | S:P Pequeña Caballera | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 19360 | Tecuhtlica - Creación Combinada | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 19361 | Dragón de Cuerno | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19362 | Tatsunootoshigo | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19363 | Hoja Oscura | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19364 | Angbruja | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19365 | Maza | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19366 | Goblin | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19367 | Mementomictlán | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 19368 | Fiesta de Huesos | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19472 | Desvantasmas | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19878 | Dragón Gemelo | 4 | 4 | 4 | Condicional, sin validación lógica final |
+| 19904 | Fusión Mementotlán | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 19932 | Luna del Cielo Cerrado | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 20196 | Demoniherrero Grabador | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 20199 | Dormiveja | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 20206 | Purulia | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 20216 | Rey Creación | 5 | 5 | 5 | Condicional, sin validación lógica final |
+| 20225 | Réquiem del Demoniherrero | 4 | 4 | 4 | Condicional, sin validación lógica final |
+| 20226 | Secuencia del Demoniherrero | 4 | 4 | 4 | Condicional, sin validación lógica final |
+| 20389 | Duque de la Defunción | 5 | 5 | 5 | Condicional, sin validación lógica final |
+| 20423 | Princesa Necroequipo | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 20491 | Akhíron | 3 | 3 | 3 | Condicional, sin validación lógica final |
+| 20500 | Fuwalos | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 20533 | Gran Fuga Moto Goblin | 2 | 2 | 2 | Condicional, sin validación lógica final |
+| 20764 | Meowls | 1 | 1 | 1 | Condicional, sin validación lógica final |
+| 21203 | Rebanador Gordiano | 2 | 2 | 2 | Condicional, sin validación lógica final |
 
-| CID | IDs documentados | Con causal A05.7 | Con ejemplos de papel A05.8 | Pendientes de desarrollo causal específico |
-|---:|---:|---:|---:|---|
-| 9139 | 1 | 0 | 0 | `671:a05:9139:opening-main1-summon-lock` |
-| 9279 | 1 | 1 | 1 | — |
-| 9657 | 2 | 0 | 0 | `671:a05:9657:xyz-two-level3`, `671:a05:9657:detach-banish-damage` |
-| 11243 | 3 | 0 | 0 | `671:a05:11243:set-as-spell`, `671:a05:11243:set-destroyed-opponent-turn-summon`, `671:a05:11243:quick-tribute-banish-lock` |
-| 12870 | 3 | 0 | 0 | `671:a05:12870:fusion-dark-material`, `671:a05:12870:quick-predator-counter`, `671:a05:12870:continuous-negate-counters` |
-| 12950 | 1 | 1 | 1 | — |
-| 13081 | 3 | 1 | 0 | `671:a05:13081:xyz-2-level6-fiends`, `671:a05:13081:sent-field-to-gy-dark-contract` |
-| 13619 | 1 | 1 | 1 | — |
-| 15296 | 1 | 1 | 0 | — |
-| 15299 | 1 | 1 | 1 | — |
-| 16845 | 3 | 0 | 0 | `671:a05:16845:fusion-hand-field-procedure`, `671:a05:16845:fusion-summon-draw-destroy`, `671:a05:16845:polymerization-gy-target-protection` |
-| 19184 | 4 | 1 | 0 | `671:a05:19184:xyz-2-level12`, `671:a05:19184:continuous-3000-activation-lock`, `671:a05:19184:detach-bounce` |
-| 19188 | 3 | 1 | 1 | `671:a05:19188:link-two-effect-monsters`, `671:a05:19188:on-link-with-extra-banish` |
-| 19360 | 3 | 2 | 1 | `671:a05:19360:opponent-activation-revive-memento` |
-| 19361 | 2 | 0 | 0 | `671:a05:19361:hand-special-three-names`, `671:a05:19361:destroyed-field-target-three-faceup` |
-| 19362 | 2 | 0 | 0 | `671:a05:19362:hand-special-only-mementos-faceup`, `671:a05:19362:main-destroy-memento-send-level-total` |
-| 19363 | 2 | 0 | 0 | `671:a05:19363:on-summon-discard-destroy-spelltrap`, `671:a05:19363:main-destroy-special-level3` |
-| 19364 | 2 | 2 | 0 | — |
-| 19365 | 2 | 0 | 0 | `671:a05:19365:opponent-main-discard-control-monster`, `671:a05:19365:main-destroy-search-memento-card` |
-| 19366 | 2 | 0 | 0 | `671:a05:19366:quick-discard-target-protection`, `671:a05:19366:main-destroy-send-up-to-two` |
-| 19367 | 3 | 0 | 0 | `671:a05:19367:battle-spelltrap-restriction`, `671:a05:19367:destroyed-own-monster-target-lower-revive`, `671:a05:19367:end-set-memento-spelltrap` |
-| 19368 | 2 | 0 | 0 | `671:a05:19368:quick-destroy-search-or-special`, `671:a05:19368:gy-banish-piercing` |
-| 19472 | 2 | 0 | 0 | `671:a05:19472:on-summon-gy-recover`, `671:a05:19472:sent-by-memento-monster-gy-special` |
-| 19878 | 4 | 0 | 0 | `671:a05:19878:fusion-two-memento`, `671:a05:19878:battle-destroyed-monsters-banished`, `671:a05:19878:on-fusion-destroy-search-two`, `671:a05:19878:fusion-destroyed-gy-revive-level6` |
-| 19904 | 2 | 1 | 0 | `671:a05:19904:gy-banish-destroy-search-spelltrap` |
-| 19932 | 2 | 0 | 0 | `671:a05:19932:link-two-effect-monsters`, `671:a05:19932:pointed-opponent-material-link5` |
-| 20196 | 3 | 0 | 0 | `671:a05:20196:hand-discard-search-fiendsmith-spelltrap`, `671:a05:20196:target-own-equip-and-field-monster-to-gy`, `671:a05:20196:gy-shuffle-light-fiend-self-revive` |
-| 20199 | 3 | 0 | 0 | `671:a05:20199:hand-special-after-own-destruction`, `671:a05:20199:on-summon-fusion-memento`, `671:a05:20199:on-destroy-send-memento-from-deck` |
-| 20206 | 1 | 0 | 0 | `671:a05:20206:hand-discard-draw-opponent-hand-summons` |
-| 20216 | 5 | 2 | 1 | `671:a05:20216:fusion-three-memento`, `671:a05:20216:gy-banish-search-field-spell`, `671:a05:20216:same-chain-effect-restriction` |
-| 20225 | 4 | 0 | 0 | `671:a05:20225:link-one-light-fiend`, `671:a05:20225:special-summon-name-once`, `671:a05:20225:quick-main-tribute-fiendsmith-summon`, `671:a05:20225:field-gy-equip-light-fiend` |
-| 20226 | 4 | 0 | 0 | `671:a05:20226:link-two-with-light-fiend`, `671:a05:20226:main-gy-fusion`, `671:a05:20226:field-gy-equip-light-fiend`, `671:a05:20226:equipped-target-protection` |
-| 20389 | 5 | 0 | 0 | `671:a05:20389:fusion-two-fiends-or-zombies`, `671:a05:20389:standby-pay500-or-destroy`, `671:a05:20389:battle-indestructible`, `671:a05:20389:main-immediate-normal`, `671:a05:20389:gy-banish-recover-level4-fiend-zombie` |
-| 20423 | 3 | 0 | 0 | `671:a05:20423:send-equipped-monster-fiend-procedure`, `671:a05:20423:unique-control-restriction`, `671:a05:20423:hand-sent-activation-trigger-choice` |
-| 20491 | 3 | 0 | 0 | `671:a05:20491:on-summon-level9-direct-attack`, `671:a05:20491:destroyed-card-effect-recover-other-memento`, `671:a05:20491:gy-on-own-memento-destruction-revive` |
-| 20500 | 1 | 1 | 1 | — |
-| 20533 | 2 | 0 | 0 | `671:a05:20533:quick-tribute-summon-goblin-from-deck`, `671:a05:20533:gy-banish-detach-atk-reduction` |
-| 20764 | 1 | 0 | 0 | `671:a05:20764:hand-discard-draw-opponent-gy-banish-summons` |
-| 21203 | 2 | 0 | 0 | `671:a05:21203:initial-main-banish-cost-bounce`, `671:a05:21203:cannot-negate-activation-or-effect` |
-
-**Puerta de salida A05-T3:** 94/94 matrices causales comprobadas con fuente, no 16/94. **Puerta de salida A05-T4:** 94/94 `effect_id` enlazados a casos verificables o `NO_APLICA` justificado, no 8/94 con ejemplos condicionales. A06 no se inicia hasta finalizar ambas y sus pruebas de aceptación. A10B no solicitada: no compilar ni ejecutar aquí las reglas de calculadora.
+**Puerta obligatoria antes de A06:** realizar validación semántica independiente de los 94 casos contra su texto oficial completo, verificar legalidad contextual del inventario y materializar/verificar estados tipados `state_before`/`expected_state_after`, cadena, zonas, costes, uso/negación y restricciones por cada pareja (o `NO_APLICA` justificado). Sólo después cambiar las casillas A05-T3/T4 a [x]. No fusionar ni desplegar el PR mientras siga esta puerta abierta.
 
 ### A02–A03 — recepción e inventario acreditados
 
