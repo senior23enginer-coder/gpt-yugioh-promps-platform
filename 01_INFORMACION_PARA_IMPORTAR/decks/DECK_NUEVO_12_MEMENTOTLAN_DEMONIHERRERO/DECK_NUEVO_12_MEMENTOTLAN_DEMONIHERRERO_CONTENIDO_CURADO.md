@@ -20,7 +20,7 @@
 
 **Asignación expresa recibida:** “Analizamos memento”. Identidad inequívoca: `deck_id=671`, formato `tcg_advanced`, carpeta histórica `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO`. Preflight realizado sobre los DOS paquetes versionados, `datos/stationx-deck.json` de GPT y `torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json` de Platform: misma lista de `card_id, sección, cantidad, CID` en 40 filas, **41 Main / 15 Extra / 14 Side / 0 Reserva**, 70 copias y 39 identidades. La Reserva opcional no se fabricó. **Importante:** GitHub permite acreditar la igualdad de las dos copias versionadas, no consultar el estado vivo de la base de datos de producción.
 
-**Estado de ejecución actual:** A01 **3/3**, A02 **3/3** y A03 **3/3 tareas verificadas**; A04 **1/3** (A04-T2 y T3 pendientes); A05–A10A aún no verificados bajo el nuevo contrato. **10/35** tareas obligatorias verificadas, 25 pendientes. Los cierres históricos no se trasladan automáticamente al nuevo checklist. Los cierres editoriales de noviembre son evidencia reutilizable, pero NO cierran automáticamente las nuevas tareas que requieren casos lógicos de papel, paridad visual y validaciones específicas. **A10B no solicitado**: no se ha compilado, reimportado ni ejecutado la calculadora por esta asignación.
+**Estado de ejecución actual:** A01 **3/3**, A02 **3/3**, A03 **3/3** y A04 **3/3 tareas verificadas**, con fotografías HD de origen comprobado y correspondencia visual/zonas sin atribuir posiciones exactas. **12/35** tareas obligatorias verificadas; **23 pendientes A05–A10A**. Los cierres históricos no se trasladan automáticamente al nuevo checklist. Los cierres históricos no se trasladan automáticamente al nuevo checklist. Los cierres editoriales de noviembre son evidencia reutilizable, pero NO cierran automáticamente las nuevas tareas que requieren casos lógicos de papel, paridad visual y validaciones específicas. **A10B no solicitado**: no se ha compilado, reimportado ni ejecutado la calculadora por esta asignación.
 
 **Actualización sobre los replays de la documentación histórica:** las tablas V40/V42 anteriores citan “0 replays”. A fecha de este control, Platform tiene pruebas históricas **C01–C12 con 105 transiciones reproducidas en CI** mediante fixtures de regresión, con alcance de apertura exacta y restricciones declaradas; **C02 conserva un conflicto de conteo (6 documentadas frente a 5 acciones del test)**. Eso no certifica casos arbitrarios de cadenas, cartas ocultas, legalidad general ni cumplimiento completo de A05–A10A. No se han ejecutado nuevas partidas ni análisis A10B.
 
@@ -30,7 +30,7 @@ El formato y la identidad de los paquetes versionados son coherentes; la prueba 
 
 ### A04 — fotografías y trazabilidad visual
 
-A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T2 está BLOQUEADA**: el auditor de bytes y cabeceras de GitHub Actions confirmó **26 PNG de 199–200 × 290 px y 13 JPG de 268 × 391 px**. Los 39 archivos no alcanzan el umbral conservador de **300 × 420 px**. Son imágenes físicas reales con nombres y fuentes por CID, pero no deben certificarse como legibles en guía ampliada. Reponer únicamente con fotografías auténticas de mayor resolución, conservando cada CID/ranura y verificando contenido visual, y repetir el auditor. A04-T3 requiere un cotejo posterior de zonas y fotos en las vistas visuales.
+A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T2 está COMPLETA** tras sustituir las imágenes auténticas por versiones de 813 × 1185 px (39/39, CID Konami cotejado), y A04-T3 **COMPLETA** tras comprobar la correspondencia entre 39 cartas, 359 referencias de galería, 155 fotos de pasos y 54 entradas de mapa de zonas. La inspección de **posiciones espaciales exactas y campos finales** pertenece a A09/A10A, donde permanece sin certificar; no se infiere de estos vínculos. Imágenes impresas en inglés, documentación española intacta. A04-T3 requiere un cotejo posterior de zonas y fotos en las vistas visuales.
 
 ### A01 — identidad y estrategia comprobadas
 
@@ -64,13 +64,13 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 - [x] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
   - **Evidencia verificada:** Inventario original aprobado el 18-11-2026, conservado literalmente en ambas copias; corte de trabajo: paquete GPT blob 71468de962131c56c68365892afd61a18b82135b (actualizado solo el perfil), 39 identidades, 70 copias, 12 route_id, 353 variantes de reglas preexistentes (NO son 353 efectos distintos).
 
-### A04 — PENDIENTE de verificación bajo el contrato vigente
+### A04 — COMPLETA con evidencias de imágenes y mapa de zonas
 - [x] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
   - **Evidencia verificada:** 39/39 filas de identidad con CID, imagen bajo imagenes/<CID> y URL oficial Konami Neuron concordante. Archivos reales en GitHub: 26 PNG y 13 JPG; todos mayores de 0 bytes, sin CID huérfano. Este control verifica presencia/procedencia documentada; la inspección visual de calidad se trata en A04-T2.
-- [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **BLOQUEADA — calidad comprobada:** 39/39 fotos inferiores a 300 × 420 px: 25 PNG de 200 × 290, 1 PNG de 199 × 290 y 13 JPG de 268 × 391. Resultado reproducible con `node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json`. No marcar hasta disponer de imagen real de mejor calidad, cotejo visual y resultado técnico aprobado.
-- [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [x] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas.
+  - **Evidencia verificada:** 39/39 imágenes auténticas vinculadas por `misc_info.konami_id` a cada CID, 813 × 1185 px y con identidad de origen `YGOPRODeck` documentada en `datos/A04_HD_IMAGE_PROVENANCE.json`. Fuente visual en **inglés TCG**, texto de efectos y fuentes oficiales en español conservados. Enlaces, 40 slots, secciones y cantidades intactos. GitHub Actions [#44950105660](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44950105660) verificó dimensiones y publicación de las 39 fotos; las imágenes antiguas siguen en Git. No se han fabricado cartas ni textos.
+- [x] **A04-T3** Registrar mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba.
+  - **Evidencia verificada:** auditor universal `scripts/audit-deck-visual-zone-links.cjs` pasó en [CI #44950442226](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44950442226): 39 CID, 40 slots, 359 referencias `img` en la guía (39 CID distintos), 12 rutas, 69 pasos, 155 vínculos de foto, 13 variantes ilustrativas con 54 ubicaciones declaradas por zona. `spatial_verified=false` en las 12 rutas; **cero posiciones exactas certificadas**: se preserva esa restricción para A09/A10A, sin inventarlas.
 
 ### A05 — PENDIENTE de verificación bajo el contrato vigente
 - [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck
@@ -131,7 +131,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
 **A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
-**Siguiente tarea en orden:** resolver el bloqueo A04-T2 mediante imágenes reales de resolución suficiente y autenticidad cotejada; después A04-T3. **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
+**Siguiente tarea en orden:** A05-T1; fichar las 39 identidades con función específica en este inventario antes de comprobar en A05-T2 los efectos (sin deducir cobertura total a partir de las variantes portables). **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
 
 ---
 
