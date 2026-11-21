@@ -20,7 +20,7 @@ function getText(url){
    req.on('error',reject);
  });
 }
-async function sourceCard(cid,{probe=false}={}){
+async function sourceCard(cid,{probe=false,includeText=false}={}){
  const url='https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid='+cid+'&ope=2&request_locale=en';
  let html;for(let n=0;n<3;n++){try{html=await getText(url);break;}catch(e){if(n===2)throw e;await sleep(500*(n+1));}}
  const patterns=['item_box_text','text_linebreak','Card Text'];
@@ -46,7 +46,8 @@ async function sourceCard(cid,{probe=false}={}){
  return {cid,officialUrl:url,officialTextSHA256:crypto.createHash('sha256').update(plain).digest('hex'),
    textLength:plain.length,lines:plain.split(/\n/).filter(Boolean).length,
    hasEffectCue:/(You can|If |When |During |cannot|must|Once per turn|negate|Special Summon)/i.test(plain),
-   containsCardTitle:html.includes('Card Text'),officiallyRetrieved:true};
+   containsCardTitle:html.includes('Card Text'),officiallyRetrieved:true,
+   ...(includeText?{_officialTextForComparisonOnly:plain}:{})};
 }
 async function main(){
  const args=process.argv.slice(2),idArg=args.find(x=>x.startsWith('--deck-id=')),
