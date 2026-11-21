@@ -131,7 +131,7 @@
             "tokens": [
               {
                 "cid": 20216,
-                "zone": "monster"
+                "zone": "m1"
               },
               {
                 "cid": 19364,
@@ -170,7 +170,7 @@
               },
               {
                 "cid": 20216,
-                "zone": "monster"
+                "zone": "m1"
               }
             ]
           }
@@ -181,11 +181,11 @@
             "tokens": [
               {
                 "cid": 20216,
-                "zone": "monster"
+                "zone": "m1"
               },
               {
                 "cid": 19360,
-                "zone": "monster"
+                "zone": "m2"
               },
               {
                 "cid": 19365,
@@ -225,11 +225,11 @@
         "tokens": [
           {
             "cid": 20216,
-            "zone": "monster"
+            "zone": "m1"
           },
           {
             "cid": 19360,
-            "zone": "monster"
+            "zone": "m2"
           },
           {
             "cid": 19365,
