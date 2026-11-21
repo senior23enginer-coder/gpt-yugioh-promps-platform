@@ -1,4 +1,4 @@
-# Apartado 10 — GENERACIÓN DE GUÍAS VISUALES DE COMBOS Y ESTRATEGIAS YU-GI-OH!
+# Apartado 10 — A10A Guías visuales obligatorias / A10B Calculadora opcional
 
 ### Puerta A10 — paridad visual sin fingir paridad de motor (20-11-2026)
 
@@ -97,3 +97,26 @@ Para interacciones, starters y extensiones, enseñar fotos y flechas con su **re
 **PDF de salida opcional:** únicamente si Miguel solicita una guía descargable. Reutilizar las mismas fichas: página visual con mano, fotos, flechas, pasos y endboard; página explicativa con costes, resolución, variantes, respuestas, recursos y propósito. Mantener formato vertical claro, márgenes, tipografía y espacio suficientes. El ZIP modular lo construye únicamente el orquestador cuando Miguel solicite la exportación. Este apartado solo define la guía visual. No producir PDF nuevo salvo solicitud expresa ni generar capturas o informes de seguimiento.
 
 **Antecedente Volcanic (orientativo y no obligatorio):** una guía previa describió 26 secuencias con Main 42 / Extra 15 / Side 0 / Reserva 14. Esa cifra no certifica 26 combos válidos ni exige recuperar un PDF antiguo; las rutas vigentes se revisan con su inventario y fichas A09/A10 actuales.
+
+
+## Checklist obligatorio por deck A10 — control de entrega
+
+Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
+- [ ] **A10A-T1** A10A: guías visuales, imágenes y secuencias de todas las rutas A09; evidencia: pendiente hasta comprobación.
+- [ ] **A10A-T2** A10A: imágenes correctas, mano inicial, textos completos y campo final respaldado; evidencia: pendiente hasta comprobación.
+- [ ] **A10A-T3** A10A: QA de importación documental y presentación móvil/escritorio; evidencia: pendiente hasta comprobación.
+- [ ] **A10B-T4** A10B opcional: adaptar especificaciones A05–A09 a operadores del motor; evidencia: pendiente hasta comprobación.
+- [ ] **A10B-T5** A10B opcional: validar importación de reglas, escenarios, negaciones y regresiones reutilizables; evidencia: pendiente hasta comprobación.
+- [ ] **A10B-T6** A10B opcional: certificar o bloquear efectos reales sin alterar A10A; evidencia: pendiente hasta comprobación.
+
+Las casillas anteriores son plantilla, no un certificado de los decks existentes. `[x]` sólo tras entrega **completa y verificada**; `[ ] BLOQUEADA` exige causa y acción pendiente. Nunca denominar `COMPLETA` una tarea parcial; no falsificar estados. Cada respuesta/revisión muestra **todas** las tareas A01–A10A del deck y evidencias, acabadas/pendientes y totales. A10B está excluido de la exigencia normal, se reporta por separado si es solicitado. Los análisis completos de cartas de A05–A09 siempre se preservan y alimentan presentación y posterior calculadora.
+
+## Contrato definitivo A10A / A10B — prevalece sobre instrucciones históricas
+
+**A10A OBLIGATORIO.** Generar y verificar guías visuales, pasos, cartas, fotos, endboards y presentación por rutas A09, con importación **documental/visual** e integridad del paquete sin ninguna dependencia de calculadora. Completar A10A no requiere `record.calculator.rules`, replays en motor, modificar plataforma ni ejecutar pruebas del botón Analizar. Cualquier frase anterior de A10 que mezcle guías y calculadora debe interpretarse según esta distinción.
+
+**A10B OPCIONAL, SOLO CON SOLICITUD EXPRESA DEL USUARIO.** Implementar y validar toda compatibilidad con el motor de análisis de duelo físico: adaptar la especificación exhaustiva proveniente de A05/A06/A07/A08/A09 a `station-x-calculator/1`, comprobar guardas, usos, zonas, cadenas, recursos, costes, ventanas, negaciones y transiciones; ejecutar fixtures de escenarios reales y test de importación/exportación en la plataforma. A10B nunca genera información reglamentaria desde cero si A05–A09 ya la proporcionan; sólo resuelve compatibilidad y vacíos explícitos. Si faltan capacidades del motor, informar `NO_SOPORTADO` con evidencia en vez de inventar jugadas legales.
+
+**Prohibición de proliferación de pruebas:** un framework genérico de motor para todos los decks (fixtures JSON parametrizadas por `deck_id`, `effect_id`, `route_id`, apertura y resultado esperado) y un ejecutor común. Las pruebas especiales de un operador van una sola vez en el módulo compartido; las pruebas por carta/mazo se expresan como **datos**, no nuevos ficheros .cjs/.php por cada efecto. Conservar regresiones heredadas hasta demostrar paridad y cobertura al migrarlas; no borrarlas masivamente. No copiar tests ni meter tests de calculadora en ZIP A10A.
+
+**Separación de estados:** `A10A_COMPLETA` certifica guía e importación visual; `A10B_NO_SOLICITADA`, `A10B_BLOQUEADA` o `A10B_VERIFICADA` identifican motor. No existe estatus `A10_COMPLETA` que suponga calculadora por defecto. A01–A10A se procesan siempre y se pueden entregar sin activar A10B.
