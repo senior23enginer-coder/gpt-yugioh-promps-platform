@@ -36,7 +36,7 @@ for(const pilot of pilots){
   assert.equal(totals.side,pilot.side);
   if(pilot.deck_id===671){
     const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
-    assert.equal(certified.length,11,'C01–C10 must each have scoped evidence');
+    assert.equal(certified.length,11,'C01–C11 must each have scoped evidence');
     for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08','C09','C10','C11']){
       const route=record.routes.find(r=>r.id==='671:A09:'+id);
       assert.equal(route.replay_certification?.scope,id==='C08' ?
