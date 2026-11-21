@@ -1,5 +1,10 @@
 # Apartado 08 — EXPLORACIÓN Y CLASIFICACIÓN EXHAUSTIVA DE JUGADAS
 
+### Precondición A08 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
 ## Entrega estandarizada A08 — semántica causal y pruebas lógicas de papel
 
 A08 reutiliza las mismas transiciones semánticas de A05/A07 para recomendar acciones físicas, sin programar estrategias artificiales ni suponer un rival pasivo. La exploración del motor de A10B deberá recibir esas restricciones y puntuar estados reales, no leer etiquetas libres del análisis.
