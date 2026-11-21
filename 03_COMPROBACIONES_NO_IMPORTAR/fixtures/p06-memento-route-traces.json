@@ -1,0 +1,290 @@
+{
+  "schema": "station-x-legacy-route-traces/1",
+  "deck_id": 671,
+  "format": "tcg_advanced",
+  "purpose": "Provenance and transition-order audit for 12 legacy Memento replay tests; NOT independent end-to-end equivalence",
+  "authorization": "regression_only_no_new_deck_analysis",
+  "historical_tests_retained": true,
+  "routes": [
+    {
+      "route_id": "671:A09:C01",
+      "source_test": "torneos_yugioh/tests/memento_c01_route_replay_test.cjs",
+      "source_blob_sha": "24c9d746ef1b964e7714848a6bf6d09789979f83",
+      "route_documented_steps": 7,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 9,
+      "observed_action_calls": 9,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:memento-fusion:fuse",
+        "671:creation-king:fusion-send",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Rey Creación y Creación Combinada en campo; Maza y Fusión Mementotlán en GY; cinco monstruos distintos devueltos al Deck",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C02",
+      "source_test": "torneos_yugioh/tests/memento_c02_route_replay_test.cjs",
+      "source_blob_sha": "5224028059a85929daaef94afeb28c4ea1493265",
+      "route_documented_steps": 4,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 6,
+      "observed_action_calls": 5,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:bone-party:main",
+        "671:tatsun:mill",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Combined Creation solo en el campo; Fiesta de Huesos en GY; cinco Memento barajados",
+      "parity_status": "KNOWN_METADATA_DISCREPANCY",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C03",
+      "source_test": "torneos_yugioh/tests/memento_c03_route_replay_test.cjs",
+      "source_blob_sha": "a2d472733def1633d5b869fea3da00ecbbc7228a",
+      "route_documented_steps": 7,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 8,
+      "observed_action_calls": 8,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:requiem:tribute",
+        "671:requiem:equip",
+        "671:engraver:remove"
+      ],
+      "verified_final_description": "Grabador en campo; Réquiem equipado y Angbruja rival conocida enviados a sus respectivos Cementerios; Angbruja y Tatsun propios en GY",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C04",
+      "source_test": "torneos_yugioh/tests/memento_c04_route_replay_test.cjs",
+      "source_blob_sha": "bffed7c2c8a98accd4c68e93b859e2f20c0b915a",
+      "route_documented_steps": 8,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 11,
+      "observed_action_calls": 11,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:angwitch:destroy-revive-mace",
+        "671:mace:search",
+        "671:memento-fusion:fuse",
+        "671:creation-king:fusion-send",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Rey Creación + Creación Combinada en Campo; Dormiveja + Fusión Mementotlán en GY; Dragón de Cuerno CID19361 retornó al Deck",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C05",
+      "source_test": "torneos_yugioh/tests/memento_c05_route_replay_test.cjs",
+      "source_blob_sha": "30b30e6942d2723b117bdfcfd9135994adfd1b8b",
+      "route_documented_steps": 9,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 13,
+      "observed_action_calls": 13,
+      "ordered_effect_ids": [
+        "671:19363:normal",
+        "671:dark-blade:goblin",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:angwitch:destroy-revive-mace",
+        "671:goblin:send-two",
+        "671:memento-fusion:graveyard-search",
+        "671:memento-fusion:fuse",
+        "671:creation-king:fusion-send",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Rey Creación y Creación Combinada en campo; Akhíron, Dormiveja y segunda Fusión Mementotlán en Cementerio; primera Fusión desterrada; Normal gastada.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C06",
+      "source_test": "torneos_yugioh/tests/memento_c06_route_replay_test.cjs",
+      "source_blob_sha": "35ac95d04f91707eccce92767e900d0757d698ae",
+      "route_documented_steps": 5,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 10,
+      "observed_action_calls": 10,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:memento-fusion:fuse",
+        "671:twin-dragon:fusion-search",
+        "671:shleepy:send",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Dragón Gemelo + Creación Combinada en campo; Goblin en mano, Fusión Mementotlán en Cementerio y cinco nombres Memento devueltos al Deck.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C07",
+      "source_test": "torneos_yugioh/tests/memento_c07_route_replay_test.cjs",
+      "source_blob_sha": "69387730a5c02b2adb0e4ffc1b58c2fcaf2f649a",
+      "route_documented_steps": 4,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 8,
+      "observed_action_calls": 8,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:memento-fusion:fuse",
+        "671:guardian-chimera:draw-destroy"
+      ],
+      "verified_final_description": "Quimera Guardián (CID 16845) en Campo propio; 1 robo propio de identidad desconocida; 2 cartas rivales conocidas (Maza y Goblin del espejo) destruidas; Fusión Mementotlán en Cementerio.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C08",
+      "source_test": "torneos_yugioh/tests/memento_c08_route_replay_test.cjs",
+      "source_blob_sha": "7797681790d926d2df2e336de373f43757a0a26c",
+      "route_documented_steps": 4,
+      "source_scope": "exact-opening-observed-opponent-activation-no-further-response",
+      "declared_executed_transitions": 5,
+      "observed_action_calls": 5,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:sp:link-procedure",
+        "671:sp:temporary-banish"
+      ],
+      "verified_final_description": "S:P Pequeña Caballera Link-2 desde Angbruja+Tatsun del Main; tras observar activación de Angbruja rival, ambas copias conocidas desterradas temporalmente y devueltas a zonas principales en End Phase sin Invocación Especial.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C09",
+      "source_test": "torneos_yugioh/tests/memento_c09_route_replay_test.cjs",
+      "source_blob_sha": "a8a91a4bcffe825ba884a074e500735044fb5c5b",
+      "route_documented_steps": 5,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 8,
+      "observed_action_calls": 8,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:requiem:tribute",
+        "671:requiem:equip",
+        "671:princess:contact-summon"
+      ],
+      "verified_final_description": "Princesa Necroequipo CID20423 en Campo, Angbruja, Tatsun, Luna, Grabador, Réquiem y Goblin en Cementerio; Normal consumida; cero robos del efecto de Princesa.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C10",
+      "source_test": "torneos_yugioh/tests/memento_c10_route_replay_test.cjs",
+      "source_blob_sha": "1861b69ae1fbc4aff7c98f913a2a9ea8030ed7df",
+      "route_documented_steps": 5,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 11,
+      "observed_action_calls": 11,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:requiem:tribute",
+        "671:bone-party:main",
+        "671:ghattic:recover",
+        "671:engraver:link-sequence",
+        "671:sequence:duke-fusion",
+        "671:duke:immediate-normal"
+      ],
+      "verified_final_description": "Secuencia del Demoniherrero Link-2 + Duque de la Defunción Nivel 6 + Angbruja Nivel 3 en campo; Normal ordinaria consumida y Normal inmediata adicional ejecutada sin repetir búsqueda.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C11",
+      "source_test": "torneos_yugioh/tests/memento_c11_route_replay_test.cjs",
+      "source_blob_sha": "b3f9ba9828f3fc3ee843ee104c1c4d45c8141fde",
+      "route_documented_steps": 6,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 10,
+      "observed_action_calls": 10,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:goblin-biker-grand-breakout:deck-summon",
+        "671:tatsun:mill",
+        "671:ghattic:revive",
+        "671:ghattic:recover",
+        "671:memento-fusion:fuse",
+        "671:creation-king:fusion-send",
+        "671:tecuhtlica:five-names"
+      ],
+      "verified_final_description": "Rey Creación + Creación Combinada en campo; Dormiveja, Maza, Fusión Mementotlán y Gran Fuga Moto Goblin en Cementerio; Angbruja fue Sacrificada como coste, nunca destruida, y cinco nombres regresaron al Deck.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    },
+    {
+      "route_id": "671:A09:C12",
+      "source_test": "torneos_yugioh/tests/memento_c12_route_replay_test.cjs",
+      "source_blob_sha": "c66eb6d4adfce235a633a1da93a2d3f1eb7bf241",
+      "route_documented_steps": 5,
+      "source_scope": "exact-opening-no-opponent-response",
+      "declared_executed_transitions": 7,
+      "observed_action_calls": 7,
+      "ordered_effect_ids": [
+        "671:19364:normal",
+        "671:angwitch:search",
+        "671:tatsun:special",
+        "671:tatsun:mill",
+        "671:horned:special",
+        "671:bone-party:main",
+        "671:horned:destruction"
+      ],
+      "verified_final_description": "Hoja Oscura en Defensa (Campo propio); Angbruja, Tatsun, Goblin, Maza, Desvantasma, Dragón de Cuerno y Fiesta de Huesos en Cementerio propio. Angbruja propia y dos monstruos rivales boca arriba conocidos fueron destruidos por Dragón de Cuerno.",
+      "parity_status": "TRACE_ALIGNED_NOT_FULLY_MIGRATED",
+      "migration_status": "TRACE_ONLY_LEGACY_TEST_RETAINED"
+    }
+  ],
+  "stats": {
+    "routes": 12,
+    "observed_effect_calls": 105,
+    "metadata_discrepancies": [
+      "671:A09:C02"
+    ]
+  }
+}
