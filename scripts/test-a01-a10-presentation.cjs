@@ -84,7 +84,25 @@ for(const [folder,id,routes] of packs){
   }
   const declaredRules=Array.isArray(calculator?.rules)?calculator.rules.length:0;
   if(id===677){
-    assert.equal(declaredRules,4,'Crystron package must retain two Horus and two Smiger portable rules');
+    assert(declaredRules>=9,'Crystron package must retain Horus, Smiger and Thystvern search variants');
+    const fieldThystvern=calculator.rules.filter(rule=>rule.id==='677:thystvern:destroy-tuner');
+    assert.deepEqual(fieldThystvern.map(rule=>rule.resolve[2]?.cid).sort((a,b)=>a-b),[12606,20758],
+      'Thystvern may summon only verified Citree and Tristaros Tuners');
+    assert(fieldThystvern.every(rule=>rule.actor.cid===12609&&rule.oncePerName&&
+      rule.resolve[0]?.flag==='machineSynchroOnly'&&rule.resolve[1]?.op==='destroy'),
+      'Thystvern field must share its GY usage and impose Machine Synchro restriction');
+    const thystvern=calculator.rules.filter(rule=>rule.id==='677:thystvern:graveyard-search');
+    assert.deepEqual(thystvern.map(rule=>rule.resolve[0]?.cid).sort((a,b)=>a-b),[12606,12608,12756,20758,20759],
+      'Thystvern must search only verified Crystron names in the real deck, never itself');
+    assert(thystvern.every(rule=>rule.actor?.cid===12609&&rule.oncePerName&&rule.oncePerTurn&&
+      rule.costs.some(op=>op.op==='move'&&op.ref==='actor'&&op.to==='banished')),
+      'Thystvern variants must share one name limit and banish the GY actor as cost');
+    const sarcophagus=calculator.rules.filter(rule=>rule.id==='677:sarcophagus:send-horus');
+    assert.deepEqual(sarcophagus.map(rule=>rule.resolve[0].cid).sort((a,b)=>a-b),[19153,19155],
+      'Only verified Horus targets are sent to GY by Sarcophagus');
+    assert(sarcophagus.every(rule=>rule.actor.cid===19200&&rule.maxUsesPerTurn===4&&
+      rule.oncePerName&&rule.costs[0]?.ref==='sent'&&rule.costs[0]?.to==='graveyard'),
+      'Sarcophagus has four name-shared uses and a real hand-to-GY cost');
     const horus=calculator.rules.filter(rule=>rule.id.startsWith('677:horus-gy:'));
     const smiger=calculator.rules.filter(rule=>rule.id.startsWith('677:smiger:'));
     assert.deepEqual(horus.map(rule=>rule.actor.cid).sort((a,b)=>a-b),[19153,19155]);
@@ -112,14 +130,14 @@ for(const [folder,id,routes] of packs){
     }
   }
   if(id===671){
-    assert.equal(declaredRules,227,'Memento must retain all verified portable variants');
+    assert.equal(declaredRules,353,'Memento must retain all verified portable variants');
     const ids=new Set(calculator.rules.map(rule=>rule.id));
-    assert.equal(ids.size,39,'Multiple variants must share their stable effect ID');
+    assert.equal(ids.size,59,'Multiple variants must share their stable effect ID');
     for(const id of ['671:mictlan:activate','671:creation-king:destroy',
       '671:twin-dragon:fusion-search','671:duke:recover-engraver'])
       assert(ids.has(id),'Lost existing verified portable effect: '+id);
-    assert.equal(calculator.rules.filter(rule=>rule.id==='671:bone-party:main').length,42,
-      'Bone Party must preserve all 42 exact variants');
+    assert.equal(calculator.rules.filter(rule=>rule.id==='671:bone-party:main').length,53,
+      'Bone Party must preserve all 43 exact variants');
     assert(calculator.rules.every(rule=>rule.version===1 && rule.deckId===671 &&
       rule.format==='tcg_advanced' && Array.isArray(rule.guards) &&
       Array.isArray(rule.resolve) && rule.resolve.length>0),

@@ -34,6 +34,59 @@ for(const pilot of pilots){
   assert.equal(totals.main,pilot.main);
   assert.equal(totals.extra,pilot.extra);
   assert.equal(totals.side,pilot.side);
+  if(pilot.deck_id===671){
+    const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
+    assert.equal(certified.length,12,'C01–C12 must each have scoped evidence');
+    for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08','C09','C10','C11','C12']){
+      const route=record.routes.find(r=>r.id==='671:A09:'+id);
+      assert.equal(route.replay_certification?.scope,id==='C08' ?
+        'exact-opening-observed-opponent-activation-no-further-response' :
+        'exact-opening-no-opponent-response');
+      assert(route.replay_certification.test.endsWith('_route_replay_test.cjs'));
+    }
+    const c05=record.routes.find(route=>route.id==='671:A09:C05');
+    assert.equal(c05.replay_certification?.documented_steps,9);
+    assert.equal(c05.replay_certification?.executed_transitions,13);
+    assert(c05.replay_certification?.verified_final.includes('segunda Fusión'),
+      'The second physical Fusion Spell must remain in the graveyard');
+    const c06=record.routes.find(route=>route.id==='671:A09:C06');
+    assert.equal(c06.replay_certification?.documented_steps,5);
+    assert.equal(c06.replay_certification?.executed_transitions,10);
+    assert(c06.replay_certification?.verified_final.includes('Goblin en mano'),
+      'C06 holds Goblin in hand; do not claim protection was activated');
+    assert(c06.replay_certification?.limits.includes('NO se activa'),
+      'No-response Twin Dragon replay cannot certify Goblin Quick Effect');
+    const c07=record.routes.find(route=>route.id==='671:A09:C07');
+    assert.equal(c07.replay_certification?.documented_steps,4);
+    assert.equal(c07.replay_certification?.executed_transitions,8);
+    assert(c07.replay_certification?.verified_final.includes('identidad desconocida'),
+      'C07 must not invent the card drawn by Guardian Chimera');
+    assert(c07.replay_certification?.limits.includes('ni otorga protección de Polimerización'),
+      'Mementotlan Fusion cannot be misrepresented as Polymerization');
+    const c08=record.routes.find(route=>route.id==='671:A09:C08');
+    assert.equal(c08.replay_certification?.documented_steps,4);
+    assert.equal(c08.replay_certification?.executed_transitions,5);
+    assert(c08.replay_certification?.limits.includes('no se simula ni certifica el efecto original rival'),
+      'C08 must not claim resolution of the opponent original activation');
+    assert(c08.replay_certification?.verified_final.includes('sin Invocación Especial'),
+      'C08 End Phase return cannot be called a Special Summon');
+    const c10=record.routes.find(route=>route.id==='671:A09:C10');
+    assert(!c10.opening.includes('No se acreditó mediante simulación.'),
+      'C10 cannot retain a no-simulation warning after scoped certification');
+    assert.equal(c10.replay_certification?.documented_steps,5);
+    assert.equal(c10.replay_certification?.executed_transitions,11);
+    assert(c10.result.includes('Secuencia')&&c10.result.includes('Duque')&&
+      c10.result.includes('Angbruja'), 'C10 must expose its evidenced final board');
+    const c09=record.routes.find(route=>route.id==='671:A09:C09');
+    assert(!c09.opening.includes('No se acreditó mediante simulación.'),
+      'Certified route cannot keep an obsolete unverified-simulation note');
+    assert.equal(c09.replay_certification?.documented_steps,5);
+    assert.equal(c09.replay_certification?.executed_transitions,8);
+    assert(c09.replay_certification?.verified_final.includes('cero robos'),
+      'C09 Princess contact Summon cannot trigger a draw from material Goblin');
+    assert(c09.replay_certification?.limits.includes('no es Fusión ordinaria'),
+      'C09 is an Extra Deck contact Special Summon, not normal Fusion');
+  }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
   const lines=sources.split('\n');
   const identity=new Map(record.cards.map(c=>[Number(c.cid),c]));

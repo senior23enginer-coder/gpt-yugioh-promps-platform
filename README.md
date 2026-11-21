@@ -28,17 +28,63 @@ Los decks **671 (Memento)** y **677 (Crystron/Horus)** incorporan ahora en su ca
 ### Memento: contrato portable ampliado (20-11-2026)
 
 La entrega canónica del deck **671** conserva las **12 rutas documentales** y
-su inventario original, e incluye **227 variantes ejecutables acotadas
-agrupadas en 39 IDs de efecto** dentro de `record.calculator`. Las distintas
+su inventario original, e incluye **351 variantes ejecutables acotadas
+agrupadas en 55 IDs de efecto** dentro de `record.calculator`. Las distintas
 variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
 importadas y rechazar duplicados exactos o políticas incompatibles. Las
 variantes se cotejaron con las reglas de respaldo verificadas en la rama
-`base` de Station X; **no certifican todos los efectos de las cartas ni
-las 12 rutas A09 completas**. Tampoco se alteraron imágenes ni campos finales.
+`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C12 tienen replays acotados: C12 verifica el Dragón de Cuerno destruido en campo y la retirada de dos cartas rivales boca arriba conocidas; C11 comprueba el Sacrificio de Angbruja por Gran Fuga como coste y un tablero final doble; C10 certifica Secuencia + Duque + Angbruja y Normal inmediata sin repetir la búsqueda; C09 certifica el procedimiento físico de Princesa Necroequipo sin robo gratuito; C08 requiere activación rival observada, sin resolver su efecto original; las 12 rutas tienen replay acotado certificado; la legalidad universal y las cadenas complejas aún no están certificadas. La fotografía de los 69 pasos y los
+12 tableros finales ilustrativos se mantiene enlazada por CID con el paquete,
+sin afirmar ubicaciones físicas exactas (`spatial_verified=false`).
+
+La variante adicional **Gran Fuga Moto Goblin** (CID 20533) implementa dos
+ventanas de activación de su primer efecto: desde la mano propia o desde una
+copia colocada en un turno anterior. Tributa un monstruo propio como coste,
+Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
+verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
+Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
+**30/39 identidades** tienen al menos una regla de actor; faltan 9 y siguen
+0 replays A09 pendientes para las aperturas exactas documentadas; C01–C07, C09 y C10 cuentan con pruebas sin respuesta rival, C08 es condicional a activación rival observada.
+
+### Crystron/Horus: reglas portables acotadas (20-11-2026)
+
+El deck **677** mantiene **14 rutas A09 documentadas** y registra **13
+variantes ejecutables**: los dos procedimientos desde Cementerio de
+Amset/Hapi, dos efectos de Smiger, cinco objetivos de búsqueda desde el
+Cementerio de Thystvern, dos variantes de destrucción en Campo de
+Thystvern que Invocan Citree o Tristaros y dos objetivos de envío a Cementerio de
+**Sarcófago del Rey**. Estas últimas variantes comparten un contador de
+**hasta cuatro usos por turno por nombre**, independiente de la Invocación
+Especial propia de cada monstruo Horus. Fuentes oficiales: [Thystvern](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2)
+y [Sarcófago del Rey](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2).
+
+La prueba automática de efectos verifica costes, destino de cartas, uso
+compartido, ausencia de material o recurso y transiciones del estado real.
+**No representa cobertura completa de las 39 identidades de cartas ni
+certifica las 14 rutas A09**. La sincronización de fotografías y diagramas
+ilustrativos entre el paquete y la plataforma se verifica estructuralmente;
+las posiciones exactas sin prueba espacial continúan sin certificar.
 
 ### Guias y recursos por deck
 
 Cada carpeta de deck conserva sus guias e infografias. El ZIP individual incluye los archivos del deck y el seguimiento permanece en el registro privado.
 
 No incluir código de la tienda, credenciales, configuraciones privadas ni datos operativos de producción. No eliminar prompts protegidos ni crear informes paralelos por versión. Los cambios se controlan mediante commits de Git.
+
+### Estándar de aceptación A01–A10 para todos los decks
+
+El paquete portable y la plataforma conservan **una sola identidad** (deck_id, formato, CIDs, card_id, secciones, cantidades, Skills y versiones del editor). Kashtira es un ejemplo de experiencia visual, no una fuente de cartas, efectos ni resultados para otro deck. El cierre de cada apartado se decide por pruebas **independientes**, no por la presencia del documento:
+
+| Apartado | Puerta verificable |
+| --- | --- |
+| A01 | Perfil de jugador comprensible, propósito y estilo táctico específicos del deck, sin auditorías crudas en la ficha. |
+| A02–A03 | Paquete nativo, inventario completo, IDs/zonas/cantidades y Skills separadas sin alteraciones. |
+| A04–A05 | Fotografías locales por CID, identidades, texto oficial, función y límites de cada carta. |
+| A06 | Motores, relaciones, recursos, juego de primer/segundo turno y restricciones con evidencia por carta. |
+| A07 | Cada efecto oficial: actor, estado, costes, ventanas, selectores, cadena, resolución, límite de usos, pruebas positivas y negativas. Las variantes no equivalen a cartas completas. |
+| A08 | Decisiones situacionales, continuidad, interrupciones, bricks y cambios de recursos con estado y dependencia. |
+| A09 | Identidad y orden de rutas; replay legal de cada paso con estados antes/después y bloqueo ante requisitos ausentes. |
+| A10 | Fotos reales por paso y campo final por zona con los mismos CIDs de A09; revisión visual a 390/1280 px. Si las posiciones exactas no están verificadas, mostrar bandejas de zonas y advertirlo, nunca fingir casillas exactas. |
+
+**Validación compartida:** `node scripts/verify-pilot-decks.cjs --prompts-root=../gpt-yugioh-promps-platform`, ejecutado en el repositorio hermano `platform-yugioh-md`, comprueba estructura, reglas y concordancia de rutas/fotografías en los pilotos 671 (Memento) y 677 (Crystron/Horus). `--require-finished` debe rechazar el cierre mientras falten replays A09 o pruebas suficientes. El importador, los tests de reglas, la interfaz, las pruebas PHP y la CI deben verificarse sobre el mismo commit. **Importable, visualmente documentado y ejecutable legalmente son estados independientes**. Un commit/push no significa despliegue.
