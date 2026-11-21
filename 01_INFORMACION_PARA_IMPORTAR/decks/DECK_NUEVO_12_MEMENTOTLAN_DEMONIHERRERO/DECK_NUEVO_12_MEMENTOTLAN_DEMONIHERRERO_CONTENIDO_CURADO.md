@@ -16,6 +16,117 @@
 - **Main: 41** (25 monstruos, 16 mágicas, 0 trampas); **Extra: 15**; **Side: 14**; **Reserva: 0**; **total: 70 copias**.
 - El Side de 14 cartas se conserva **tal cual**, sin rellenar automáticamente el espacio restante.
 
+## CONTROL_DE_TAREAS_A01_A10 — Memento 671 · contrato vigente (21-11-2026)
+
+**Asignación expresa recibida:** “Analizamos memento”. Identidad inequívoca: `deck_id=671`, formato `tcg_advanced`, carpeta histórica `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO`. Preflight realizado sobre los DOS paquetes versionados, `datos/stationx-deck.json` de GPT y `torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json` de Platform: misma lista de `card_id, sección, cantidad, CID` en 40 filas, **41 Main / 15 Extra / 14 Side / 0 Reserva**, 70 copias y 39 identidades. La Reserva opcional no se fabricó. **Importante:** GitHub permite acreditar la igualdad de las dos copias versionadas, no consultar el estado vivo de la base de datos de producción.
+
+**Estado de ejecución actual:** A01 **3/3 tareas verificadas**; A02–A10A **0/32 tareas verificadas contra el nuevo contrato en esta ejecución**. Los cierres editoriales de noviembre son evidencia reutilizable, pero NO cierran automáticamente las nuevas tareas que requieren casos lógicos de papel, paridad visual y validaciones específicas. **A10B no solicitado**: no se ha compilado, reimportado ni ejecutado la calculadora por esta asignación.
+
+**Actualización sobre los replays de la documentación histórica:** las tablas V40/V42 anteriores citan “0 replays”. A fecha de este control, Platform tiene pruebas históricas **C01–C12 con 105 transiciones reproducidas en CI** mediante fixtures de regresión, con alcance de apertura exacta y restricciones declaradas; **C02 conserva un conflicto de conteo (6 documentadas frente a 5 acciones del test)**. Eso no certifica casos arbitrarios de cadenas, cartas ocultas, legalidad general ni cumplimiento completo de A05–A10A. No se han ejecutado nuevas partidas ni análisis A10B.
+
+### A01 — identidad y estrategia comprobadas
+
+- **Motor predominante:** Mementotlán, con Angbruja (CID 19364), Hoja Oscura (19363), Tatsun (19362), Fiesta de Huesos (19368), Fusión (19904), Creación Combinada (19360) y Rey Creación (20216). El paquete Demoniherrero (Grabador 20196, Réquiem 20225, Secuencia 20226) es subordinado y no convierte el deck en un arquetipo independiente de búsqueda.
+- **Condiciones de victoria, no resultados garantizados:** acumulación de recursos en Cementerio, Invocación de Fusión y presión mediante efectos y cuerpos grandes. **Creación Combinada solo puede atacar a cada monstruo rival cuando no controlas otros monstruos**. Rey Creación, si es Invocado por Fusión, envía tres cartas Memento desde Deck/Extra al Cementerio; la destrucción rápida requiere cantidades iguales de monstruos propios Memento y cartas rivales.
+- **Primer turno:** preparar acceso al Cementerio/Fusión sin confundir una negación rival con resolución exitosa. **Segundo turno:** escoger remoción según objetivos físicos, materiales y ventanas; C07 necesita cartas rivales realmente destruibles. **Medio/tardío:** contar cinco nombres Memento diferentes, costes, usos por turno, copias en zonas y recursos en Extra.
+- **Riesgos:** Ash/Droll o interrupciones contra búsquedas; falta de nombres diferentes, manos bloqueadas, negaciones de efectos al resolver, bloqueo de Cementerio; Fusión y Side no sustituyen material faltante; Oleada de Calor también limita el desarrollo propio. Sin promesa de OTK o negación universal.
+- **Fuentes oficiales TCG:** [Angbruja CID 19364](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en), [Creación Combinada CID 19360](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en), [Rey Creación CID 20216](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en). Los campos públicos mejorados están en `record.profile` del único JSON importable.
+
+### A01 — COMPLETA con evidencias
+- [x] **A01-T1** Identificar arquetipo, estrategia, condición de victoria y riesgos propios, con CIDs de piezas y evidencia oficial; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Inventario 671 y fuentes oficiales CID 19364 (Angbruja), 19360 (Creación Combinada), 20216 (Rey Creación); APARTADO_01 y C01–C12, nueve familias/12 rutas como taxonomía, no victoria garantizada.
+- [x] **A01-T2** Escribir Estilo breve y Resumen para ficha sin jerga de auditoría, con precondiciones reales de las acciones citadas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** record.profile contiene Arquetipo, Tipo de estrategia, Estilo breve (159/190 caracteres), Resumen para ficha (202/250) y Cómo se juega sin etiquetas de auditoría.
+- [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Evidencia verificada:** Cruce CID/efecto/ruta: 19364→671:angwitch:search→C01/C04; 19363→671:dark-blade:goblin→C05; 19904→671:memento-fusion:fuse→C01/C06; 20216→671:creation-king:fusion-send→C01/C04; 19360→671:tecuhtlica:five-names→C02; 19188→671:sp:temporary-banish→C08.
+
+### A02 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A03 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A04 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A05 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A05-T2** Inventariar TODOS los efectos por efecto_id estable: activado/disparo/continuo/reemplazo/procedimiento/Skill o NO_EFFECT justificado
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A06 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A06-T4** Derivar casos de papel de sinergias y enlaces A05→A07→A08/A09; clasificar SIN_COMBO_IDENTIFICADO sin fabricar acciones
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A07 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A07-T2** Separar coste previo, trigger, ventana, objetivos/no-objetivos, cadena, resolución/negación, HOPT/OPT, restricciones y estados antes/después
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A07-T3** Construir matriz de casos de papel con caso positivo, ausencia de requisito, timing, recursos/zonas, repetición, negación y fallo cerrado para cada efecto
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A07-T4** Auditar cobertura effect_id→case_id→source, NO_APLICA con causa y necesidades de operador; no compilar ni probar en motor hasta A10B
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A08 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A08-T1** Enumerar starters, líneas y decisiones reales por estado, formato, recursos y effect_id sin imponer metas a la calculadora
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A08-T2** Verificar alternativas, bricks, interrupciones, controles y matchups mediante casos de papel y supuestos explícitos
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A08-T3** Vincular cada línea a cartas físicas, uso previo, costes, restricciones, probabilidad sólo cuando esté sustentada
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A08-T4** Enlazar candidatos a route_id A09 o clasificar SIN_JUGADA_ACREDITADA/NO_APLICA con evidencia y motivo
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A09 — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A09-T1** Identificar cada ruta con route_id y starter/estado físico inicial: mano, GY, campo, recursos, fase, prioridades y cartas desconocidas
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A09-T2** Por cada step_id enlazar effect_id/procedimiento, requisito, coste real, materiales, ventana, resolución y estado antes/después
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A09-T3** Incluir casos lógicos positivos y de interrupción para pasos críticos, con causa, coste pagado y SIN_CONTINUACION_DEMOSTRADA si aplica
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A09-T4** Verificar campo final, recursos, materiales y restricciones sin casillas inventadas, conservando los mismos IDs que usarán A10A y A10B
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+### A10A — PENDIENTE de verificación bajo el contrato vigente
+- [ ] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
+  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+
+**A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
+**Siguiente tarea en orden:** A02-T1; antes de marcar A02 completa verificar identidad/huella y compatibilidad de importación. No reinterpretar el Side de 14 como 15.
+
+---
+
 ## CONTROL INDIVIDUAL DE AVANCE A01–A10 — Mementotlán / Demoniherrero
 
 **Alcance y corte:** inventario 16-11-2026 y actualización documental 17-11-2026, exclusivamente **A01–A10 para el deck 671**. **Main 41, Extra 15, Side 14, Reserva 0; 70 copias y 39 identidades documentadas.** Importación y guía publicadas según el registro central V40, sin que ello certifique las jugadas. La aprobación editorial expresa del inventario por Miguel quedó registrada en A03 el 18-11-2026. Los A11–A36 siguen siendo instrucciones, sin porcentaje por deck.
