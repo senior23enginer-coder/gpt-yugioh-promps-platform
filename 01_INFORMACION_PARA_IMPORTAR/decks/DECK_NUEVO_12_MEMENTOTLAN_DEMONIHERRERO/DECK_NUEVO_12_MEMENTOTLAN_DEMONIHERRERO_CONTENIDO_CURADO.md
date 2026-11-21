@@ -321,6 +321,188 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Separación de calidad:** A05-T2 verifica la existencia, clasificación e identidad documental de las **94 cláusulas**, incluyendo pasivas, procedimientos y restricciones que no producen una acción. **A05-T3 aún debe demostrar actor, ventana, coste, disparo, selección, resolución, cadena, negación y límites de cada una**. **A05-T4 aún debe enlazar casos positivos/negativos por ID**. No inferir cobertura ejecutable a partir de la cantidad de IDs.
 
+### A05.7 — matriz causal crítica previa a A05-T3/T4 (no ejecutable)
+
+**Alcance:** especificaciones documentales de 16 interacciones de mayor riesgo, vinculadas a los `effect_id` estables A05.6 y a sus fuentes oficiales por CID. Estas filas aclaran **actor, ventana, guarda, coste, selección, resolución, límite y transición física**, sin afirmar soporte de `record.calculator`, sin probar A10B ni simular un duelo. La matriz de todas las 94 cláusulas sigue pendiente; por tanto **A05-T3 y A05-T4 siguen abiertas**.
+
+#### 1. `671:a05:12950:hand-deck-effect-negate` · CID 12950 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Carta física en mano; activación de efecto rival que incluya añadir, Invocar o enviar desde Deck al Cementerio
+- **Ventana / disparador:** Respuesta en cadena inmediata (no se propone Invocación Normal de Flor)
+- **Coste o requisito previo:** Descartar esta copia desde mano al GY al activar; requisito físico previo
+- **Selección / targeting:** No selecciona objetivo para negar el efecto; identificar eslabón rival observado
+- **Resolución:** Negar el efecto que incluía esas acciones, no asumir negación de activación
+- **Uso, negación y restricciones:** Una vez por turno por nombre; si se niega el efecto de Flor, el descarte ya se pagó
+- **Estado posterior esperado:** Estado posterior: Flor en GY, efecto rival negado solo si resolución exitosa
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en
+
+#### 2. `671:a05:9279:after-opponent-main-deck-add` · CID 9279 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Carta en mano; adición rival del Main Deck a mano fuera de Draw Phase, ya observada
+- **Ventana / disparador:** Ventana de Efecto Rápido tras la adición, dentro del turno vigente
+- **Coste o requisito previo:** Enviar esta copia desde mano al Cementerio para activar
+- **Selección / targeting:** Sin objetivo; identificar evento oponente no inferido
+- **Resolución:** Ningún jugador puede añadir desde Main Deck a la mano por efectos mientras dure la restricción
+- **Uso, negación y restricciones:** No usar el mismo disparador en turno posterior; si se niega, recurso pagado igualmente
+- **Estado posterior esperado:** Estado: Droll en GY; bloqueo de búsquedas de Main para ambos en este turno si resuelto
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en
+
+#### 3. `671:a05:19364:on-summon-search-memento` · CID 19364 (DISPARO)
+
+- **Actor / estado inicial:** Angbruja fue Invocada realmente Normal o Especial; existe otro monstruo Memento en Deck
+- **Ventana / disparador:** Tras evento físico de Invocación; cadena de efecto disparado
+- **Coste o requisito previo:** No exige destruir Angbruja ni descartar una carta para esta búsqueda
+- **Selección / targeting:** La carta obtenida se elige por condición de nombre, sin targeting a carta del Campo
+- **Resolución:** Añadir un monstruo Memento distinto de Angbruja desde Deck a mano
+- **Uso, negación y restricciones:** Una vez por turno por nombre para este efecto, independiente del segundo de Angbruja
+- **Estado posterior esperado:** Si es negado no añadir Tatsun; Angbruja permanece en zona según resultado real
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en
+
+#### 4. `671:a05:19364:gy-target-destroy-revive-level2` · CID 19364 (ACTIVACION)
+
+- **Actor / estado inicial:** Angbruja en zona de monstruos propia, Memento Nivel ≤2 real en GY propio, Memento propio destruible
+- **Ventana / disparador:** Durante Main Phase cuando el efecto es legal; activación de monstruo
+- **Coste o requisito previo:** No atribuir coste de destrucción: destruir Memento propio sucede en resolución
+- **Selección / targeting:** Seleccionar como objetivo un Memento del GY propio de Nivel 2 o inferior
+- **Resolución:** Destruir un Memento propio; solo si realmente se destruyó, Invocar de modo Especial el objetivo
+- **Uso, negación y restricciones:** Una vez por turno por nombre, con checks de blanco legal y negación
+- **Estado posterior esperado:** Si no se puede destruir, no recuperar el objetivo y no inventar nuevo monstruo
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en
+
+#### 5. `671:a05:19360:special-five-distinct-names` · CID 19360 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** Creación Combinada en mano/GY; existen otros cinco monstruos Memento de nombres distintos en mano/GY
+- **Ventana / disparador:** Procedimiento de Invocación Especial propia; no es activación de efecto en cadena
+- **Coste o requisito previo:** Devolver cinco cartas físicas elegibles al Deck/Extra según procedencia como condición de Invocación
+- **Selección / targeting:** Selección de cinco materiales distintos, excluyendo esta misma carta
+- **Resolución:** Invocar la copia desde mano o GY bajo requisito; aplicar restricciones de la lista y zonas
+- **Uso, negación y restricciones:** No reutilizar los mismos cinco materiales; no marcar como efecto activado/HOPT ficticio
+- **Estado posterior esperado:** Estado: cinco nombres trasladados y una Creación Combinada en zona libre de monstruos
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en
+
+#### 6. `671:a05:19360:continuous-attack-each-monster-alone` · CID 19360 (CONTINUO)
+
+- **Actor / estado inicial:** Creación Combinada en campo; no controlas ningún otro monstruo
+- **Ventana / disparador:** Se comprueba al declarar ataques, no como una activación de efecto en cadena
+- **Coste o requisito previo:** Sin coste
+- **Selección / targeting:** Sin selección previa de blanco para habilitar la condición continua
+- **Resolución:** Puede atacar a cada monstruo rival una vez en batalla si permanece sola
+- **Uso, negación y restricciones:** Dejar de aplicar si controlas Rey Creación u otro monstruo; no implica ataque directo adicional
+- **Estado posterior esperado:** Estado: capacidad de atacar múltiple condicionada al Campo real y batalla
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=en
+
+#### 7. `671:a05:19904:quick-play-fusion` · CID 19904 (MAGICA_RAPIDA)
+
+- **Actor / estado inicial:** Fusión en mano/colocada legalmente; monstruos materiales reales en mano/Campo; para usar GY debe haberse destruido monstruo propio por efecto este turno
+- **Ventana / disparador:** Main Phase, conforme a ventana de Mágica Rápida y estado de colocación
+- **Coste o requisito previo:** Activar la Mágica; no describir la devolución de materiales desde GY como coste de activación
+- **Selección / targeting:** Seleccionar materiales legales que satisfagan Fusión exacta; no inventar copia del Deck
+- **Resolución:** Al resolver, fusionar desde recursos reales; el GY solo se usa bajo condición previa, devolviendo los materiales
+- **Uso, negación y restricciones:** Efecto primero una vez por turno según texto; una segunda copia no evita límite por nombre
+- **Estado posterior esperado:** Estado: monstruo Fusión correcto en Extra Monster/Main legal; materiales a destinos exactos
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en
+
+#### 8. `671:a05:20216:on-fusion-send-three-memento` · CID 20216 (DISPARO)
+
+- **Actor / estado inicial:** Rey Creación fue Invocado por Fusión (evento real) y existen cartas Memento disponibles en Deck/Extra
+- **Ventana / disparador:** Ventana de disparo tras la Invocación por Fusión
+- **Coste o requisito previo:** Sin coste de envío al activar; es resolución
+- **Selección / targeting:** Elige tres cartas Memento del Deck/Extra compatibles, sin targeting sobre campo
+- **Resolución:** Enviar exactamente tres cartas Memento a Cementerio, no Invocarlas ni añadirlas a mano
+- **Uso, negación y restricciones:** Una vez por turno por nombre; no usar en misma cadena que su destrucción rápida
+- **Estado posterior esperado:** El envío al GY sucede solo tras resolución, no se infiere tras negación
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en
+
+#### 9. `671:a05:20216:quick-equal-destroy` · CID 20216 (RAPIDO)
+
+- **Actor / estado inicial:** Rey Creación boca arriba y no negado, al menos un monstruo Memento propio y la misma cantidad de cartas rivales destruibles
+- **Ventana / disparador:** Efecto Rápido en ventana legal; cadena separada del disparo de envío de Rey
+- **Coste o requisito previo:** Sin coste de destrucción previo, los destruidos se mueven al resolver
+- **Selección / targeting:** Seleccionar igual cantidad de Memento propios y cartas adversarias pertinentes
+- **Resolución:** Destruir los dos conjuntos si la resolución es legal; no significa negar efectos rivales
+- **Uso, negación y restricciones:** Una vez por turno por nombre; no activar en la misma Cadena que el envío de tres
+- **Estado posterior esperado:** Estado: las cartas seleccionadas efectivamente destruidas pasan a sus destinos, sin blancos ficticios
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en
+
+#### 10. `671:a05:15299:send-other-cards-negate-monsters` · CID 15299 (MAGICA_RAPIDA)
+
+- **Actor / estado inicial:** Gotas en mano o colocada legalmente; otras cartas propias en mano/Campo disponibles para enviar al GY; monstruos de efecto rivales compatibles
+- **Ventana / disparador:** Ventana de Mágica Rápida; no afirmar blancos rivales no observados
+- **Coste o requisito previo:** Enviar N cartas propias distintas de Gotas desde mano/Campo al GY como coste real y previo
+- **Selección / targeting:** Elegir N monstruos de efecto rivales en la resolución (no es targeting de activación)
+- **Resolución:** Reducir su ATK a la mitad y negar sus efectos hasta fin de turno; respuesta rival limitada por tipos originales enviados
+- **Uso, negación y restricciones:** Activar una Gotas por turno; si se niega el efecto, el coste sigue pagado
+- **Estado posterior esperado:** Estado: N costes en GY y únicamente los N monstruos elegidos afectados si se resuelve
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en
+
+#### 11. `671:a05:13619:opponent-gy-banish-name-negate` · CID 13619 (MAGICA_RAPIDA)
+
+- **Actor / estado inicial:** Llamado por la Tumba legalmente activable y al menos un monstruo rival en GY que pueda ser seleccionado y desterrado
+- **Ventana / disparador:** Ventana de Mágica Rápida, según si la carta está en mano o colocada
+- **Coste o requisito previo:** Sin descartar Llamado como coste adicional
+- **Selección / targeting:** Seleccionar 1 monstruo en Cementerio rival como objetivo
+- **Resolución:** Desterrar el objetivo; si se logra, aplicar negación de efectos de ese nombre original según texto hasta fin del siguiente turno
+- **Uso, negación y restricciones:** No prometer negación si el objetivo deja GY o no puede desterrarse
+- **Estado posterior esperado:** Estado: monstruo rival en destierro solo si resolución lo permite, ventana de negación con duración
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en
+
+#### 12. `671:a05:15296:opponent-main-phase-activated-monster-effect-choice` · CID 15296 (MAGICA_NORMAL)
+
+- **Actor / estado inicial:** Talento en mano; el adversario activó un efecto de monstruo en tu Main Phase vigente
+- **Ventana / disparador:** Solo tu Main Phase y tras evento real; no se activa como respuesta inmediata inventada
+- **Coste o requisito previo:** Sin coste adicional al activar, aparte de jugar la Mágica
+- **Selección / targeting:** Elegir una sola de tres modalidades legales y cartas pertinentes cuando corresponda
+- **Resolución:** Robar dos, tomar control temporal o revisar mano rival y barajar una carta según modalidad legal
+- **Uso, negación y restricciones:** Solo una activación por turno por nombre; opciones no se acumulan
+- **Estado posterior esperado:** Estado posterior depende exclusivamente de la modalidad elegida, y de información rival legítima
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+
+#### 13. `671:a05:20500:hand-discard-draw-opponent-deck-extra-summons` · CID 20500 (RAPIDO_MANO)
+
+- **Actor / estado inicial:** Fuwalos en mano del Main o legalmente introducida desde Side; no controlas cartas
+- **Ventana / disparador:** Efecto Rápido desde mano antes de las Invocaciones rivales a vigilar
+- **Coste o requisito previo:** Descartar esta copia al Cementerio para activar
+- **Selección / targeting:** No selecciona blanco; eventos rivales de Invocación Especial desde Deck/Extra deben observarse
+- **Resolución:** Robo propio por cada Invocación oponente de zona habilitada durante efecto, seguido de ajuste End Phase según texto
+- **Uso, negación y restricciones:** Restricción compartida Mulcharmy: no asumir uso simultáneo de otra; no robar al activarse ni por Invocar de mano/GY
+- **Estado posterior esperado:** Estado: Fuwalos en GY tras coste; mano crece solo por eventos futuros observados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en
+
+#### 14. `671:a05:13081:quick-negate-special-summon-activation` · CID 13081 (RAPIDO)
+
+- **Actor / estado inicial:** César Xyz está correctamente Invocado con material; hay activación rival u otra carta cuya resolución incluya Invocar Especial
+- **Ventana / disparador:** Ventana de Efecto Rápido en cadena a esa activación
+- **Coste o requisito previo:** Desacoplar exactamente 1 material Xyz como coste antes de resolver
+- **Selección / targeting:** Seleccionar eslabón de activación susceptible, sin asumir target en campo
+- **Resolución:** Negar esa activación y destruir la carta si se resuelve; después bonificación ATK opcional bajo condición del texto
+- **Uso, negación y restricciones:** Sin material no se activa; conservar regla de usos por nombre y duración de ATK
+- **Estado posterior esperado:** Estado: material desacoplado en GY aun si César resulta negado; adversario solo destruido con resolución exitosa
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en
+
+#### 15. `671:a05:19184:alternative-xyz-highest-atk` · CID 19184 (PROCEDIMIENTO)
+
+- **Actor / estado inicial:** TY-PHON en Extra, monstruo propio de mayor ATK sobre campo, adversario Invocó ≥2 monstruos desde Extra este turno o el anterior
+- **Ventana / disparador:** Invocación Xyz alternativa durante tu turno cuando la acción es legal
+- **Coste o requisito previo:** Usar el monstruo como material bajo la condición, transfiriendo materiales existentes según texto Konami
+- **Selección / targeting:** Identificar monstruo propio de mayor ATK válido; si empate, verificar selección según texto
+- **Resolución:** Invocar TY-PHON desde Extra y aplicar restricción de no invocar más monstruos Normal o Especial ese turno
+- **Uso, negación y restricciones:** No confundir el procedimiento con un efecto activado ni la restricción 3000 con negación universal
+- **Estado posterior esperado:** Estado: TY-PHON Xyz Invocado con materiales auténticos; bloqueo de posteriores Invocaciones propias
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en
+
+#### 16. `671:a05:19188:quick-observed-activation-temporary-banish` · CID 19188 (RAPIDO)
+
+- **Actor / estado inicial:** S:P en campo, activación rival observada y dos monstruos boca arriba elegibles, incluido uno propio
+- **Ventana / disparador:** En cadena tras activación rival; no fabricar evento de oponente
+- **Coste o requisito previo:** No requiere desterrar cartas como coste de activación; ocurre al resolver
+- **Selección / targeting:** Seleccionar dos monstruos boca arriba, incluido el requerido propio
+- **Resolución:** Desterrar temporalmente ambos hasta la End Phase, con retorno de las mismas copias físicas
+- **Uso, negación y restricciones:** Cada efecto por nombre una vez por turno; no habilitar primer destierro de entrada si faltó material Extra
+- **Estado posterior esperado:** Estado posterior: dos copias desterradas con marca de retorno, sin confundir retorno con nueva Invocación
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en
+
+**Pruebas de papel requeridas antes de cerrar A05-T4:** para cada `effect_id` anterior, un caso positivo de aplicación con estado físico completo y un caso negativo (sin coste, sin guarda, ventana incorrecta, sin destino, uso agotado, negación u operador no soportado según proceda) con `case_id` y evidencia. La explicación de estos efectos **no** sustituye esa matriz ni valida que el motor proponga siempre jugadas correctas.
+
 ### A02–A03 — recepción e inventario acreditados
 
 El formato y la identidad de los paquetes versionados son coherentes; la prueba histórica de importación ZIP se usa solo como evidencia de compatibilidad estructural. El inventario físico se conserva **41/15/14/0**. Ningún ensayo en CI modifica la base productiva. La diferencia documental original del conteo C02 sigue siendo deuda de A09, no del inventario.
