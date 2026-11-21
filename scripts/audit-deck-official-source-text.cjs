@@ -23,15 +23,18 @@ function getText(url){
 async function sourceCard(cid,{probe=false}={}){
  const url='https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid='+cid+'&ope=2&request_locale=en';
  let html;for(let n=0;n<3;n++){try{html=await getText(url);break;}catch(e){if(n===2)throw e;await sleep(500*(n+1));}}
- const patterns=['item_box_text','item_box','Card Text','text_title','card_text','card_txt','cardtext'];
+ const patterns=['item_box_text','text_linebreak','Card Text'];
  if(probe)return {cid,patterns:patterns.map(term=>{const i=html.toLowerCase().indexOf(term.toLowerCase());
   return {term,index:i,context:i>=0?html.slice(Math.max(0,i-250),i+750):null};}),
   size:html.length};
- const markers=[
-  /<div\s+id=["']item_box_text["'][^>]*>([\s\S]*?)<\/div>/i,
-  /<div\s+class=["'][^"']*item_box_text[^"']*["'][^>]*>([\s\S]*?)<\/div>/i
- ];
- let raw=null;for(const marker of markers){const m=html.match(marker);if(m){raw=m[1];break;}}
+ // First, match the text_linebreak inside the *main card's* CardText area.
+ // Related-card listings include additional card_text blocks and must never
+ // be confused with the card whose CID was explicitly requested.
+ const main=html.indexOf('<div class="item_box_text">');
+ assert(main>=0,'MAIN_KONAMI_CARD_TEXT_PANEL_MISSING_'+cid);
+ const segment=html.slice(main,main+12000);
+ const textMatch=segment.match(/<div\s+class=["']text_linebreak["']\s*>([\s\S]*?)<\/div>/i);
+ const raw=textMatch?.[1]||null;
  assert(raw!==null,'NO_OFFICIAL_CARD_TEXT_NODE_'+cid);
  // Normalize HTML only enough to fingerprint its content. Do not paraphrase
  // automatically: the review must distinguish text clauses and conditions.
