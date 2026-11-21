@@ -1,5 +1,10 @@
 # Apartado 02 — RECEPCIÓN DE UN DECK
 
+### Precondición A02 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
 ## Entrega estandarizada A02 — semántica compartida y criterios de aceptación
 
 Establece el contexto tipado que consumirán todas las etapas: deck_id, formato, versión, firma real si existe, card_id, CID, slots y Skill independiente. Prohibido fabricar identidad, huella o evidencia. A10B no se ejecuta en A02.
