@@ -2587,6 +2587,59 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 **Exclusiones operativas por inventario:** ninguna arista permite buscar una M/T Demoniherrero ausente, obtener protección de Polimerización que no está cargada, realizar Link-5 sin carta en Extra, aplicar reducción de Gran Fuga desde GY sin Xyz Goblin ni buscar Contrato Oscuro ausente. Un papel teórico requiere guardas y zonas reales; `SIN_COMBO_IDENTIFICADO` no significa sinergia cero.
 
 
+### A06.8 — decisiones por turno, recuperación y bloqueo físico (A06-T2/T3)
+
+**Diagnóstico de estructura (no predicción de éxito):** `COHERENTE_CON_CONFLICTOS_GESTIONABLES`. Una interacción A06 es una posibilidad con recursos y ventanas, no un resultado garantizado de A09. Si el adversario controla una negación sin identificar o faltan datos de la mano, la respuesta correcta es `INFORMACION_INSUFICIENTE`, no inventar carta o tablero. Este análisis utiliza el inventario **41 Main / 15 Extra / 14 Side / 0 Reserva**, sin agregar ni mover copias. La ficha individual de cada identidad sigue siendo A06.2 (39/39 CID).
+
+#### A06.8a — ir primero (tus recursos concretos y cuándo detenerte)
+
+| Estado conocido / decisión | Línea legítima de motor | Recurso y límite verificable | Si falla, no prometer |
+|---|---|---|---|
+| Mano con Angbruja CID19364, Tatsun CID19362 aún en Deck, Normal disponible | Normal Angbruja → activar búsqueda `671:a05:19364:on-summon-search-memento` para Tatsun | Gastas la Normal de apertura; el buscador debe resolver, y Tatsun solo se Invoca si su condición de monstruos boca arriba Memento se cumple | Con `Ash` negando búsqueda no aparece Tatsun mágicamente en mano; continuar únicamente con otros recursos físicos |
+| Mano con Hoja Oscura CID19363, Angbruja en Deck | Normal Hoja, y en Main usar `671:a05:19363:main-destroy-special-level3`, destruyéndola si es legal | Hoja propia campo→GY por resolución; Angbruja Deck→MZ; su búsqueda inicia otro eslabón posterior y puede ser respondida | Sin Angbruja en Deck o con efecto usado, no asignar starter inexistente |
+| Mano con Fiesta CID19368, otro Memento en mano/campo, Tatsun de nombre distinto disponible en Deck | `671:a05:19368:quick-destroy-search-or-special` convierte destrucción propia en acceso a Tatsun | Se destruye una copia existente; Tatsun sale de Deck a Defensa. El nombre buscado debe ser distinto | Sin Memento destruible o ya usado Fiesta, no suponer búsqueda |
+| Mano con Fusión CID19904, suficientes materiales permitidos y al menos uno Memento | Fusión de Rey o Gemelo mediante `671:a05:19904:quick-play-fusion` | Materiales mano/campo físicos; GY **solo** si ocurrió destrucción propia por efecto en este turno. Respetar zona de Extra y OPT de Fusión | No declarar Rey si solo hay dos materiales, ni usar GY sin condición previa |
+| Mano con Oleada de Calor CID9139 al inicio exacto de Main1 | Elegir plan de control temprano **en lugar** del despliegue de monstruos de efecto | `671:a05:9139:opening-main1-summon-lock` bloquea ambos jugadores hasta la propia siguiente Draw Phase | No colocar Heat Wave al final de un combo ya iniciado ni prometer simultáneamente línea Memento en ese turno |
+
+#### A06.8b — ir segundo (interrupciones reales y coste de oportunidad)
+
+| Estado rival observado | Decisión | Coste/ventana y resultado no garantizado |
+|---|---|---|
+| Monstruos de efecto boca arriba rivales y Gotas CID15299 en mano/S/T legal | Enviar otras cartas propias como coste al activar Gotas; elegir igual cantidad de monstruos rivales al resolver | No enviar a Desvantasma por Gotas y atribuir el disparo que exige envío por **efecto de monstruo Memento**; `671:a05:15299:send-other-cards-negate-monsters` |
+| Tres Memento de nombres distintos entre mano/campo (≥1 cada zona), Fusión de Memento legal, Quimera CID16845 en Extra, rival controla cartas destruibles | Fusión a Quimera y comprobar el disparo `671:a05:16845:fusion-summon-draw-destroy` | Los tres materiales son reales, el número de cartas robadas depende de materiales de mano, la destrucción del número usado de campo depende de resolución; no atribuir protección de Polimerización ausente |
+| Rival invocó ≥2 monstruos desde Extra en el turno correspondiente, tu campo conserva el monstruo propio de mayor ATK elegible, TY-PHON CID19184 en Extra | Considerar invocación Xyz alternativa al **final** del desarrollo propio | `671:a05:19184:alternative-xyz-highest-atk` impide tus Invocaciones posteriores del turno; bloqueo continuo de efectos de monstruos de ≥3000 ATK también afecta a tus jefes |
+| Rival añadió realmente una carta del Main Deck a su mano fuera de Draw, Droll CID9279 está en tu mano | Tras la adición, responder con Droll desde mano→GY | Si resuelve, **ambos** dejan de añadir desde Main Deck ese turno; también perjudica tus búsquedas/robos si el turno o continuación lo requiere |
+| Activación rival que incluye añadir, enviar desde Deck o invocar desde Deck; Ash CID12950 en mano | Responder en cadena descartando Ash como coste | No Invocar Flor de Ceniza al campo como supuesto starter del motor; el descarte ya ocurrió aunque la respuesta quede negada |
+
+#### A06.8c — recuperación y juego medio/tardío, sin recursos duplicados
+
+| Recurso remanente y origen | Conversión permitida | Dependencia y fallo |
+|---|---|---|
+| Desvantasma CID19472 en GY por envío desde efecto de monstruo Memento | Disparo propio GY→campo; al Invocarse puede recuperar otra carta Memento de GY→mano | No se dispara al ser enviada por coste de Gotas, como material de Link o por efecto de otro arquetipo |
+| Fusión Mementotlán CID19904 en GY, monstruo propio destruible, M/T Memento realmente disponible en Deck, durante **tu Main** | Desterrar esta copia como coste, destruir monstruo propio al resolver y buscar M/T Memento | No activar en turno rival ni contar la propia carta desterrada como material de Fusión |
+| Mementomictlán CID19367 boca arriba en Campo, End Phase propia, M/T Memento disponible en GY y zona S/T vacía | Colocar la M/T seleccionada desde GY; no activarla de inmediato sin regla legal | No inventar una carta que ya salió del GY ni asumir que M/T recién colocada es activable ese turno |
+| Memento Creación Combinada CID19360 en mano/GY y cinco monstruos **otros**, de nombres distintos, en mano/GY | Barajar cinco cartas físicas, después invocar al jefe desde mano/GY | Sacrificar nombres para esta invocación disminuye recursos de continuidad; una vez presentes otros cuerpos, el jefe pierde condición de ataque múltiple |
+| Grabador CID20196 en GY y otro Demonio LUZ en GY, lugar legal para Invocarlo | Barajar el otro Demonio LUZ desde GY a Deck/Extra para Invocar Grabador | No barajar una pieza que necesitas simultáneamente como material de otro acceso; se verifica disponibilidad después de pagar |
+| Rey Creación CID20216 fue Invocado por Fusión, hay tres cartas Memento en Deck/Extra | Al resolver su disparo, Deck/Extra→GY de tres cartas reales | No usar su destrucción rápida en la **misma Cadena** ni contar cartas ya gastadas como si siguieran en Deck |
+
+#### A06.8d — dependencias, conflictos, orden y respuesta al fallo
+
+| Conflicto / cuello de botella | Decisión segura antes de activar | Efectos enlazados |
+|---|---|---|
+| **Normal comprometida:** Angbruja y Hoja Oscura compiten por la Normal inicial | Elegir una Normal; Duque da opción adicional **solo** si ya se tiene en Campo, su efecto se activa y resuelve | `19364:on-summon-search-memento`, `19363:main-destroy-special-level3`, `20389:main-immediate-normal` |
+| **Goblin en mano vs Cementerio:** descartar protección requiere que Goblin continúe en mano mientras controlas al jefe | No enviar la última copia necesaria al GY para sumar nombres si la prioridad es proteger el campo | `19366:quick-discard-target-protection`, `19366:main-destroy-send-up-to-two` |
+| **Luna→Réquiem consume el cuerpo Link:** después de usar Luna como único material de Réquiem, Luna ya no está en campo | No proponer simultáneamente ambos Links como cuerpos finales del mismo recurso | `19932:link-two-effect-monsters`, `20225:link-one-light-fiend` |
+| **Equipo Réquiem vs Princesa vs Grabador:** Réquiem equipado no puede contarse a la vez como material de Princesa y como equipo que envía Grabador | Elegir una sola rama con destino físico y estado posterior específico | `20225:field-gy-equip-light-fiend`, `20423:send-equipped-monster-fiend-procedure`, `20196:target-own-equip-and-field-monster-to-gy` |
+| **Droll tras adición rival:** prohíbe buscar/robar desde Main Deck a ambos | Si ya resolvió, no ofrecer una búsqueda propia posteriormente en ese turno | `9279:after-opponent-main-deck-add` |
+| **Lancea vs turnos:** Lancea desde Side solo tras intercambio y solo se activa durante turno rival | No simular bloqueo simultáneo sobre la segunda habilidad de Fusión en GY, que exige tu propia Main | `11243:quick-tribute-banish-lock`, `19904:gy-banish-destroy-search-spelltrap` |
+| **TY-PHON vs monstruos de 3000+ y continuación:** su restricción es bilateral; invocación alternativa cierra tus invocaciones del turno | Resolver líneas que todavía necesitan invocar **antes** de considerar TY-PHON; no prometer uso de efecto rápido de Rey bajo el bloqueo | `19184:alternative-xyz-highest-atk`, `19184:continuous-3000-activation-lock` |
+| **Side y Extra:** cartas en Side no están en mano del primer duelo; cartas en Extra no son robables | Registrar intercambio efectivo entre duelos antes de proponer Purulia, Meowls, Lancea o Gordiano desde la mano | `20206:hand-discard-draw-opponent-hand-summons`, `20764:hand-discard-draw-opponent-gy-banish-summons`, `11243:quick-tribute-banish-lock`, `21203:initial-main-banish-cost-bounce` |
+
+**Recuperación tras interrupción real:** si Ash niega la búsqueda de Angbruja, no existen las cartas que nunca entraron en mano. Una Fiesta todavía en mano podría ofrecer otra acción **solo** con Memento destruible y otro nombre disponible del Deck; si no los hay, clasificar `SIN_CONTINUACION_DEMOSTRADA`. Si la Fusión fue negada, no hay jefe Invocado por esa Fusión y no se activa su disparo; sí deben respetarse los pagos y acciones previas verdaderamente ocurridos. Si Grabador no puede equiparse con Réquiem por falta de zona o objetivo, no enviar monstruo rival al GY por su efecto. Estas son reglas de fallo cerrado y no partidas simuladas.
+
+**A06-T3:** las decisiones de primero/segundo, continuidad, juego medio/tardío y recuperación quedan explicadas con condiciones, sin pretender probar todavía cada transición en estado tipado. La aceptación final depende de reconciliación A05/A07 y de los casos físicos A06.9.
+
+
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
 **Estado:** `COMPLETA` para la auditoría documental A07, con **34 controles R01–R34**, sus fuentes oficiales y los casos condicionales marcados por separado. Una secuencia explicada a partir de textos individuales **no es una prueba de simulador/partida física** ni sustituye el fallo de un juez para un caso controvertido. `C01–C12` se describen bajo estado inicial declarado y sin interrupción, salvo donde se marque una respuesta.
