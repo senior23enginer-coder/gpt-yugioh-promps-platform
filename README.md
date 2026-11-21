@@ -34,7 +34,7 @@ variantes de un efecto comparten su límite de uso por turno. La plataforma debe
 validar `station-x-calculator/1`, conservar definiciones de respaldo no
 importadas y rechazar duplicados exactos o políticas incompatibles. Las
 variantes se cotejaron con las reglas de respaldo verificadas en la rama
-`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01, C02, C03 y C04 tienen replays acotados certificados sin respuesta rival; C04 fue repetido con Dragón de Cuerno CID19361 confirmado; quedan 8 rutas sin replay certificado. La fotografía de los 69 pasos y los
+`base` de Station X; **no certifican todos los efectos ni la legalidad general de las cartas**. C01–C05 tienen replays acotados certificados sin respuesta rival; C04 usa Dragón de Cuerno CID19361 y C05 exige dos copias físicas distintas de Fusión Mementotlán; quedan 7 rutas sin replay certificado. La fotografía de los 69 pasos y los
 12 tableros finales ilustrativos se mantiene enlazada por CID con el paquete,
 sin afirmar ubicaciones físicas exactas (`spatial_verified=false`).
 
@@ -45,7 +45,7 @@ Invoca un Goblin real del Deck y le impide atacar ese turno. Las pruebas
 verifican el coste, el bloqueo de ataque, la negación y las ventanas temporales.
 Su segundo efecto requiere un Xyz «Goblin» que no está en el Extra de este deck.
 **29/39 identidades** tienen al menos una regla de actor; faltan 10 y siguen
-8 replays A09 restantes por certificar; C01, C02, C03 y C04 tienen pruebas reproducibles sin respuesta rival.
+7 replays A09 restantes por certificar; C01–C05 tienen pruebas reproducibles sin respuesta rival.
 
 ### Crystron/Horus: reglas portables acotadas (20-11-2026)
 

@@ -34,6 +34,20 @@ for(const pilot of pilots){
   assert.equal(totals.main,pilot.main);
   assert.equal(totals.extra,pilot.extra);
   assert.equal(totals.side,pilot.side);
+  if(pilot.deck_id===671){
+    const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
+    assert.equal(certified.length,5,'C01–C05 must each have scoped evidence');
+    for(const id of ['C01','C02','C03','C04','C05']){
+      const route=record.routes.find(r=>r.id==='671:A09:'+id);
+      assert.equal(route.replay_certification?.scope,'exact-opening-no-opponent-response');
+      assert(route.replay_certification.test.endsWith('_route_replay_test.cjs'));
+    }
+    const c05=record.routes.find(route=>route.id==='671:A09:C05');
+    assert.equal(c05.replay_certification?.documented_steps,9);
+    assert.equal(c05.replay_certification?.executed_transitions,13);
+    assert(c05.replay_certification?.verified_final.includes('segunda Fusión'),
+      'The second physical Fusion Spell must remain in the graveyard');
+  }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
   const lines=sources.split('\n');
   const identity=new Map(record.cards.map(c=>[Number(c.cid),c]));
