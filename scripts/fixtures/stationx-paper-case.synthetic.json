@@ -1,0 +1,105 @@
+{
+  "schema": "station-x-paper-cases/1",
+  "deck_id": 999999,
+  "format": "tcg_advanced",
+  "effects": [
+    {
+      "effect_id": "999999:synthetic:conditional",
+      "cid": 999999,
+      "kind": "activated",
+      "actor": {
+        "side": "self",
+        "zones": [
+          "hand"
+        ],
+        "cid": 999999
+      },
+      "activation_window": {
+        "phase": "main1"
+      },
+      "trigger": null,
+      "guards": [
+        {
+          "kind": "state",
+          "field": "phase",
+          "values": [
+            "main1"
+          ]
+        }
+      ],
+      "selections": [],
+      "costs": [],
+      "resolution": [
+        {
+          "op": "logical_example_only"
+        }
+      ],
+      "on_negation": null,
+      "usage_limit": {
+        "per_name": 1,
+        "per_turn": 1
+      },
+      "restrictions": [],
+      "resource_delta": {},
+      "source": "synthetic-fixture://not-an-official-card",
+      "assumptions": [
+        "Example only, not a real Yu-Gi-Oh card"
+      ],
+      "support_status": "DOCUMENTADO_CON_FUENTE"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "SYN-POS",
+      "effect_id": "999999:synthetic:conditional",
+      "source": "synthetic-fixture://not-an-official-card",
+      "state_before": {
+        "phase": "main1",
+        "hand": [
+          "synthetic-token"
+        ]
+      },
+      "action": {
+        "kind": "activate"
+      },
+      "expected_legal": true,
+      "expected_costs": [],
+      "expected_events": [],
+      "expected_state_after": {
+        "field": [
+          "synthetic-token"
+        ]
+      },
+      "expected_restrictions": [],
+      "reason": "Synthetic success when in the designated phase",
+      "known_vs_unknown": "known",
+      "status": "VERIFICADO"
+    },
+    {
+      "case_id": "SYN-NEG",
+      "effect_id": "999999:synthetic:conditional",
+      "source": "synthetic-fixture://not-an-official-card",
+      "state_before": {
+        "phase": "battle",
+        "hand": [
+          "synthetic-token"
+        ]
+      },
+      "action": {
+        "kind": "activate"
+      },
+      "expected_legal": false,
+      "expected_costs": [],
+      "expected_events": [],
+      "expected_state_after": {
+        "hand": [
+          "synthetic-token"
+        ]
+      },
+      "expected_restrictions": [],
+      "reason": "Synthetic rejection outside designated phase",
+      "known_vs_unknown": "known",
+      "status": "VERIFICADO"
+    }
+  ]
+}
