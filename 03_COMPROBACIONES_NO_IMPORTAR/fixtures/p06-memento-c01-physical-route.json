@@ -1,0 +1,268 @@
+{
+  "schema": "station-x-declarative-route-fixtures/1",
+  "deck_id": 671,
+  "format": "tcg_advanced",
+  "scope": "historical_regression_only_not_a_new_deck_analysis",
+  "source": "torneos_yugioh/tests/memento_c01_route_replay_test.cjs",
+  "migration_status": "PARITY_CANDIDATE_REQUIRES_PLATFORM_CI",
+  "routes": [
+    {
+      "route_id": "671:A09:C01",
+      "documented_steps": 7,
+      "expected_transitions": 9,
+      "state_before": {
+        "turn": 1,
+        "phase": "main1",
+        "active": "self",
+        "placements": [
+          {
+            "card_id": 482,
+            "zone": "hand"
+          },
+          {
+            "card_id": 497,
+            "zone": "hand"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "effect_id": "671:19364:normal",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19364,
+                "zone": "m1"
+              }
+            ],
+            "normal_available": false
+          }
+        },
+        {
+          "effect_id": "671:angwitch:search",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19362,
+                "zone": "hand"
+              },
+              {
+                "cid": 19364,
+                "zone": "m1"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:tatsun:special",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19362,
+                "zone": "m2"
+              },
+              {
+                "cid": 19364,
+                "zone": "m1"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:tatsun:mill",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19362,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19472,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 20199,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19364,
+                "zone": "m1"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:ghattic:revive",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19472,
+                "zone": "monster"
+              },
+              {
+                "cid": 19364,
+                "zone": "monster"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:ghattic:recover",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 20199,
+                "zone": "hand"
+              },
+              {
+                "cid": 19472,
+                "zone": "monster"
+              },
+              {
+                "cid": 19364,
+                "zone": "monster"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:memento-fusion:fuse",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 20216,
+                "zone": "monster"
+              },
+              {
+                "cid": 19364,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19472,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 20199,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19904,
+                "zone": "graveyard"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:creation-king:fusion-send",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 19360,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19365,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19366,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 20216,
+                "zone": "monster"
+              }
+            ]
+          }
+        },
+        {
+          "effect_id": "671:tecuhtlica:five-names",
+          "expected_after": {
+            "tokens": [
+              {
+                "cid": 20216,
+                "zone": "monster"
+              },
+              {
+                "cid": 19360,
+                "zone": "monster"
+              },
+              {
+                "cid": 19365,
+                "zone": "graveyard"
+              },
+              {
+                "cid": 19904,
+                "zone": "graveyard"
+              }
+            ],
+            "absent": [
+              {
+                "cid": 19362
+              },
+              {
+                "cid": 19364
+              },
+              {
+                "cid": 19472
+              },
+              {
+                "cid": 20199
+              },
+              {
+                "cid": 19366
+              }
+            ],
+            "normal_available": false,
+            "lp": {
+              "self": 8000,
+              "opponent": 8000
+            }
+          }
+        }
+      ],
+      "expected_final": {
+        "tokens": [
+          {
+            "cid": 20216,
+            "zone": "monster"
+          },
+          {
+            "cid": 19360,
+            "zone": "monster"
+          },
+          {
+            "cid": 19365,
+            "zone": "graveyard"
+          },
+          {
+            "cid": 19904,
+            "zone": "graveyard"
+          }
+        ],
+        "absent": [
+          {
+            "cid": 19362
+          },
+          {
+            "cid": 19364
+          },
+          {
+            "cid": 19472
+          },
+          {
+            "cid": 20199
+          },
+          {
+            "cid": 19366
+          }
+        ],
+        "normal_available": false,
+        "lp": {
+          "self": 8000,
+          "opponent": 8000
+        }
+      }
+    }
+  ]
+}
