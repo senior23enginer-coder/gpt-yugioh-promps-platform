@@ -13,7 +13,7 @@ assert.equal(d.provenance,
 assert.equal(d.legacy_tests_preserved,true);
 assert.equal(d.requires_independent_semantic_parity,true);
 assert.equal(d.routes.length,12);
-assert.equal(d.direct_golden_routes,11);
+assert.equal(d.direct_golden_routes,12);
 assert.deepEqual(d.known_mismatches,['671:A09:C02']);
 let effects=0;
 for(let i=0;i<12;i++){
@@ -28,10 +28,19 @@ for(let i=0;i<12;i++){
  assert(route.steps.every(s=>/^671:[a-z0-9:-]+$/.test(s.effect_id)&&
    /^[0-9a-f]{64}$/.test(s.after_state_sha256)));
  assert.equal(route.migration_status,
-   i===7?'NEEDS_DECLARATIVE_NON_ACTION_EVENT':
+   i===7?'GOLDEN_STATE_TRACE_WITH_EXPLICIT_EVENT':
      'GOLDEN_STATE_TRACE_NOT_SEMANTIC_PARITY');
  assert.equal(route.known_metadata_discrepancy,i===1);
  assert.equal(route.interruptions.length,i===7?1:0);
+ if(i===7){
+   assert.equal(route.interruptions[0].before_step,5);
+   assert.deepEqual(route.interruptions[0].operations.map(x=>x.op),[
+     'advance_phase','advance_phase','advance_phase','advance_turn',
+     'advance_phase','advance_phase','place_known_opponent',
+     'observe_opponent_activation'
+   ]);
+   assert.equal(route.interruptions[0].operations[7].cid,19364);
+ }
  effects+=route.steps.length;
 }
 assert.equal(effects,105);
