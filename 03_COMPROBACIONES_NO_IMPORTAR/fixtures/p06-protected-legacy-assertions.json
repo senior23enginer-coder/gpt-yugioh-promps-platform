@@ -1,0 +1,528 @@
+{
+  "schema": "station-x-p06-legacy-assertion-inventory/1",
+  "scope": "regression_only_no_new_deck_analysis",
+  "historical_tests_preserved": true,
+  "semantic_parity_complete": false,
+  "tests": [
+    {
+      "test_file": "torneos_yugioh/tests/calculator_crystron_smiger_test.cjs",
+      "source_blob_sha": "d338f05cca5f6bed80e569463492fee67dbb4bd8",
+      "assertion_call_sites": 42,
+      "referenced_effect_ids": [
+        "677:smiger:destroy-citree",
+        "677:smiger:graveyard-search"
+      ],
+      "domain_migration_status": "PARTIAL_PAPER_CASES_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_crystron_thystvern_field_test.cjs",
+      "source_blob_sha": "b14e5357c062e932c0c469a2eee497d23386ebd7",
+      "assertion_call_sites": 25,
+      "referenced_effect_ids": [
+        "677:thystvern:destroy-tuner",
+        "677:thystvern:graveyard-search"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_crystron_thystvern_test.cjs",
+      "source_blob_sha": "9f044835fe45bbd6e3b9dffe46728d6741efa3b9",
+      "assertion_call_sites": 18,
+      "referenced_effect_ids": [
+        "677:thystvern:graveyard-search"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_horus_sarcophagus_four_uses_test.cjs",
+      "source_blob_sha": "757b868977298ad1fe46124039574517f672b6de",
+      "assertion_call_sites": 28,
+      "referenced_effect_ids": [
+        "677:horus-gy:",
+        "677:sarcophagus:send-horus"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_horus_state_test.cjs",
+      "source_blob_sha": "d6ee663181a3d6a927be76e276f42b9de587a673",
+      "assertion_call_sites": 12,
+      "referenced_effect_ids": [
+        "677:528",
+        "677:529",
+        "677:536",
+        "677:999"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_portable_horus_test.cjs",
+      "source_blob_sha": "6356e7eaa804e51cf4bae16f5f8550e168b6ce06",
+      "assertion_call_sites": 20,
+      "referenced_effect_ids": [
+        "677:horus-gy:"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_portable_memento_import_test.php",
+      "source_blob_sha": "1f193071f13fc4bf82f196f70813a1e9356166b7",
+      "assertion_call_sites": 0,
+      "referenced_effect_ids": [
+        "671:bone-party:main"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_portable_memento_planner_test.cjs",
+      "source_blob_sha": "e87f2ebfd6e431a90031e0196fac9278595a0fb9",
+      "assertion_call_sites": 12,
+      "referenced_effect_ids": [],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/calculator_portable_memento_test.cjs",
+      "source_blob_sha": "64cdf5c75dc7c787a2d3b6dd9c23d73bc7470a5f",
+      "assertion_call_sites": 27,
+      "referenced_effect_ids": [
+        "671:bone-party:main",
+        "671:creation-king:destroy",
+        "671:duke:recover-engraver",
+        "671:lancea:banish-lock",
+        "671:mictlan:activate",
+        "671:twin-dragon:fusion-search"
+      ],
+      "domain_migration_status": "PARTIAL_PAPER_CASES_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_a07_coverage_test.cjs",
+      "source_blob_sha": "11f631235c7d91571b34bd5ee5c8ca0d8338bd57",
+      "assertion_call_sites": 41,
+      "referenced_effect_ids": [
+        "671:R06:test"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_a07_r12_r24_test.cjs",
+      "source_blob_sha": "3cbbe0360c8993c70eab2868638eea7eaaec4617",
+      "assertion_call_sites": 29,
+      "referenced_effect_ids": [
+        "671:A07:R12:actual-fiendsmith-st",
+        "671:A07:R12:no-goblin-xyz",
+        "671:A07:R12:wrong-deck-target",
+        "671:A07:R24:both-sides-atk-lock",
+        "671:A07:R24:highest-attack-boss",
+        "671:A07:R24:no-normal-after-xyz",
+        "671:A07:R24:no-special-after-xyz",
+        "671:A07:R24:overlay-exact",
+        "671:A07:R24:xyz-material-transfer",
+        "671:typhon:highest-atk"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_a07_remaining_rules_test.cjs",
+      "source_blob_sha": "4a66e066cd00c46ac567346be1e41641e1004f4e",
+      "assertion_call_sites": 47,
+      "referenced_effect_ids": [
+        "671:A07:R",
+        "671:A07:R01:already-main-action",
+        "671:A07:R07:king-send-after-fusion"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_a07_resolution_test.cjs",
+      "source_blob_sha": "a5e6545f73121d7977b6fcdd40af707fcecad592",
+      "assertion_call_sites": 104,
+      "referenced_effect_ids": [
+        "671:A07:C01:five-name-boss",
+        "671:A07:C01:fusion",
+        "671:A07:C01:ghost-recover",
+        "671:A07:C01:ghost-special",
+        "671:A07:C01:king-send",
+        "671:A07:C01:tatsun-send",
+        "671:A07:C01:tatsun-special",
+        "671:A07:C02:bone-party",
+        "671:A07:C02:five-name-boss",
+        "671:A07:C02:search-boss",
+        "671:A07:C02:tatsun-send",
+        "671:A07:R02:witch-normal-window-test",
+        "671:A07:R02:witch-triggered-search-test",
+        "671:A07:R04:restricted-test",
+        "671:A07:R05:causal-trigger-test",
+        "671:A07:R06:exact-materials-test",
+        "671:A07:R08:five-names-test",
+        "671:A07:R17:main-material-link-test",
+        "671:A07:R21:additional-normal-test",
+        "671:A07:R26:requiem-tribute-cost-test",
+        "671:A07:R27:two-level-six-test",
+        "671:A07:R31:quick-spell-set-turn-test",
+        "671:A07:R32:activation-negated-test",
+        "671:A07:R32:cost-test"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_aero_shark_damage_test.cjs",
+      "source_blob_sha": "d2be4472c1f652528808cd23b153208fdcde3f17",
+      "assertion_call_sites": 18,
+      "referenced_effect_ids": [
+        "671:aero-shark:damage-per-banished"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c01_route_replay_test.cjs",
+      "source_blob_sha": "24c9d746ef1b964e7714848a6bf6d09789979f83",
+      "assertion_call_sites": 22,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C01",
+        "671:angwitch:search",
+        "671:creation-king:fusion-send",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:memento-fusion:fuse",
+        "671:tatsun:mill",
+        "671:tatsun:special",
+        "671:tecuhtlica:five-names"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c02_route_replay_test.cjs",
+      "source_blob_sha": "5224028059a85929daaef94afeb28c4ea1493265",
+      "assertion_call_sites": 22,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C02",
+        "671:angwitch:search",
+        "671:bone-party:main",
+        "671:tatsun:mill",
+        "671:tecuhtlica:five-names"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c03_route_replay_test.cjs",
+      "source_blob_sha": "a2d472733def1633d5b869fea3da00ecbbc7228a",
+      "assertion_call_sites": 20,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C03",
+        "671:angwitch:search",
+        "671:engraver:remove",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:requiem:equip",
+        "671:requiem:tribute",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c04_route_replay_test.cjs",
+      "source_blob_sha": "bffed7c2c8a98accd4c68e93b859e2f20c0b915a",
+      "assertion_call_sites": 21,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C04",
+        "671:angwitch:destroy-revive-mace",
+        "671:angwitch:search",
+        "671:creation-king:fusion-send",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:mace:search",
+        "671:memento-fusion:fuse",
+        "671:tatsun:mill",
+        "671:tatsun:special",
+        "671:tecuhtlica:five-names"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c05_route_replay_test.cjs",
+      "source_blob_sha": "30b30e6942d2723b117bdfcfd9135994adfd1b8b",
+      "assertion_call_sites": 25,
+      "referenced_effect_ids": [
+        "671:19363:normal",
+        "671:A09:C05",
+        "671:angwitch:destroy-revive-mace",
+        "671:angwitch:search",
+        "671:creation-king:fusion-send",
+        "671:dark-blade:goblin",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:goblin:send-two",
+        "671:memento-fusion:fuse",
+        "671:memento-fusion:graveyard-search",
+        "671:tatsun:mill",
+        "671:tatsun:special",
+        "671:tecuhtlica:five-names"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c06_route_replay_test.cjs",
+      "source_blob_sha": "35ac95d04f91707eccce92767e900d0757d698ae",
+      "assertion_call_sites": 25,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C06",
+        "671:angwitch:search",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:memento-fusion:fuse",
+        "671:shleepy:send",
+        "671:tatsun:mill",
+        "671:tatsun:special",
+        "671:tecuhtlica:five-names",
+        "671:twin-dragon:fusion-search"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c07_route_replay_test.cjs",
+      "source_blob_sha": "69387730a5c02b2adb0e4ffc1b58c2fcaf2f649a",
+      "assertion_call_sites": 33,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C07",
+        "671:angwitch:search",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:guardian-chimera:draw-destroy",
+        "671:memento-fusion:fuse",
+        "671:tatsun:mill",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c08_route_replay_test.cjs",
+      "source_blob_sha": "7797681790d926d2df2e336de373f43757a0a26c",
+      "assertion_call_sites": 34,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C08",
+        "671:angwitch:search",
+        "671:sp:banish-link-extra",
+        "671:sp:link-procedure",
+        "671:sp:temporary-banish",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c09_route_replay_test.cjs",
+      "source_blob_sha": "a8a91a4bcffe825ba884a074e500735044fb5c5b",
+      "assertion_call_sites": 27,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C09",
+        "671:angwitch:search",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:princess:contact-summon",
+        "671:requiem:equip",
+        "671:requiem:tribute",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c10_route_replay_test.cjs",
+      "source_blob_sha": "1861b69ae1fbc4aff7c98f913a2a9ea8030ed7df",
+      "assertion_call_sites": 26,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C10",
+        "671:angwitch:search",
+        "671:bone-party:main",
+        "671:duke:immediate-normal",
+        "671:engraver:link-sequence",
+        "671:ghattic:recover",
+        "671:moon:link-from-angwitch-tatsun",
+        "671:moon:link-requiem",
+        "671:requiem:tribute",
+        "671:sequence:duke-fusion",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c11_route_replay_test.cjs",
+      "source_blob_sha": "b3f9ba9828f3fc3ee843ee104c1c4d45c8141fde",
+      "assertion_call_sites": 27,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C11",
+        "671:angwitch:search",
+        "671:creation-king:fusion-send",
+        "671:ghattic:recover",
+        "671:ghattic:revive",
+        "671:goblin-biker-grand-breakout:deck-summon",
+        "671:memento-fusion:fuse",
+        "671:tatsun:mill",
+        "671:tatsun:special",
+        "671:tecuhtlica:five-names"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_c12_route_replay_test.cjs",
+      "source_blob_sha": "c66eb6d4adfce235a633a1da93a2d3f1eb7bf241",
+      "assertion_call_sites": 25,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:A09:C12",
+        "671:angwitch:search",
+        "671:bone-party:main",
+        "671:horned:destruction",
+        "671:horned:special",
+        "671:tatsun:mill",
+        "671:tatsun:special"
+      ],
+      "domain_migration_status": "GOLDEN_ROUTE_TRACE_REPLAYED_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_droll_observed_add_test.cjs",
+      "source_blob_sha": "32d56874c0c05640af62939b6183adfe87169f24",
+      "assertion_call_sites": 18,
+      "referenced_effect_ids": [
+        "671:droll:main-deck-lock",
+        "671:mace:search"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_goblin_alternate_target_test.cjs",
+      "source_blob_sha": "a46ebfb167185a736e4da1c435eee52aea107ca9",
+      "assertion_call_sites": 10,
+      "referenced_effect_ids": [
+        "671:goblin:send-two"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_goblin_biker_breakout_test.cjs",
+      "source_blob_sha": "9976034f086a38a13042478253086cd61160fc6f",
+      "assertion_call_sites": 33,
+      "referenced_effect_ids": [
+        "671:goblin-biker-grand-breakout:deck-summon"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_goblin_ghattic_chain_test.cjs",
+      "source_blob_sha": "711712ad173050f8a284e6db0219149af949a854",
+      "assertion_call_sites": 11,
+      "referenced_effect_ids": [
+        "671:ghattic:revive",
+        "671:goblin:send-two"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_gordian_slicer_test.cjs",
+      "source_blob_sha": "43b7771d0f19797a902ad59a6cc05e2e0c289289",
+      "assertion_call_sites": 43,
+      "referenced_effect_ids": [
+        "671:gordian:one-monster-one-hand",
+        "671:gordian:one-monster-six-extra"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_heat_wave_test.cjs",
+      "source_blob_sha": "1dbadc59ab6dbe4b7e15d66858d73b935d10c1a1",
+      "assertion_call_sites": 26,
+      "referenced_effect_ids": [
+        "671:19364:normal",
+        "671:heat-wave:lock"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_lancea_turn_lock_test.cjs",
+      "source_blob_sha": "d1d0d76491d0675ea670f83c97285d4053611e51",
+      "assertion_call_sites": 13,
+      "referenced_effect_ids": [
+        "671:lancea:banish-lock"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_m01_acceptance_audit_test.cjs",
+      "source_blob_sha": "4e99ce875da8a1ab70c9cc30aa77050aecff9914",
+      "assertion_call_sites": 22,
+      "referenced_effect_ids": [
+        "671:A09:"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_planner_goblin_ghattic_test.cjs",
+      "source_blob_sha": "2e2a01e7f2b633267c226d419825b7dd8142a426",
+      "assertion_call_sites": 6,
+      "referenced_effect_ids": [],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_princess_trigger_draw_test.cjs",
+      "source_blob_sha": "4f80cd9a717a79eebe50fee70cf55e4a5bd2010f",
+      "assertion_call_sites": 34,
+      "referenced_effect_ids": [
+        "671:bone-party:main",
+        "671:droll:main-deck-lock",
+        "671:princess:trigger-draw",
+        "671:princess:trigger-equip"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_sp_link_extra_test.cjs",
+      "source_blob_sha": "5918158d48980cb889ca054f5f61ae557adc5eb5",
+      "assertion_call_sites": 24,
+      "referenced_effect_ids": [
+        "671:sp:banish-link-extra",
+        "671:sp:link-procedure",
+        "671:sp:link-with-moon"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_typhon_detach_test.cjs",
+      "source_blob_sha": "9aa2927f63adba1b2184f6b79efcba3687a1fbc0",
+      "assertion_call_sites": 20,
+      "referenced_effect_ids": [
+        "671:typhon:detach-bounce"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/memento_verified_rule_integrity_test.cjs",
+      "source_blob_sha": "d4a7bb2f1a10688f966d48bdeb11f1848f7071b6",
+      "assertion_call_sites": 7,
+      "referenced_effect_ids": [
+        "671:goblin:send-two"
+      ],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    },
+    {
+      "test_file": "torneos_yugioh/tests/study_crystron_visual_ui_test.cjs",
+      "source_blob_sha": "922bc2b3e0bf700e1bfdc93358ca4aa4e9dc8561",
+      "assertion_call_sites": 8,
+      "referenced_effect_ids": [],
+      "domain_migration_status": "LEGACY_SOURCE_ASSERTIONS_RETAINED"
+    }
+  ],
+  "stats": {
+    "tests": 40,
+    "textual_assertion_sites": 1005,
+    "golden_route_files": 12,
+    "partial_paper_case_sources": 2
+  }
+}
