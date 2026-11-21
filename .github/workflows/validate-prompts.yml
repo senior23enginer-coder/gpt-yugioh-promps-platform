@@ -81,9 +81,9 @@ jobs:
       - name: Verify Memento A05-T1 official card sources, complete profiles and HD pictures
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-card-profiles.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
-      - name: Probe official card-effect DOM nodes for Memento CID 19364
+      - name: Verify 39 official Konami card-text source blocks for assigned Memento
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
-        run: node scripts/audit-deck-official-source-text.cjs --deck-id=671 --user-assigned --probe --probe-cid=19364 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+        run: node scripts/audit-deck-official-source-text.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
       - name: Audit effect source metadata for explicitly assigned Memento 671 (no A10B)
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-effect-sources.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
