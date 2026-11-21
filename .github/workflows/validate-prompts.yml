@@ -11,6 +11,7 @@ on:
       - 'scripts/test-p06-route-trace-contract.cjs'
       - 'scripts/test-p06-physical-route-contract.cjs'
       - 'scripts/test-p06-golden-route-contract.cjs'
+      - 'scripts/test-p06-legacy-assertion-inventory.cjs'
       - '03_COMPROBACIONES_NO_IMPORTAR/fixtures/**'
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
@@ -27,6 +28,7 @@ on:
       - 'scripts/test-p06-route-trace-contract.cjs'
       - 'scripts/test-p06-physical-route-contract.cjs'
       - 'scripts/test-p06-golden-route-contract.cjs'
+      - 'scripts/test-p06-legacy-assertion-inventory.cjs'
       - '03_COMPROBACIONES_NO_IMPORTAR/fixtures/**'
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
@@ -58,5 +60,7 @@ jobs:
         run: node scripts/test-p06-physical-route-contract.cjs
       - name: Validate P06 trusted 12-route golden regression manifest
         run: node scripts/test-p06-golden-route-contract.cjs
+      - name: Audit 40 protected legacy assertions and recorded source provenance
+        run: node scripts/test-p06-legacy-assertion-inventory.cjs
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
