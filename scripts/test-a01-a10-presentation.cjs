@@ -130,9 +130,9 @@ for(const [folder,id,routes] of packs){
     }
   }
   if(id===671){
-    assert.equal(declaredRules,309,'Memento must retain all verified portable variants');
+    assert.equal(declaredRules,315,'Memento must retain all verified portable variants');
     const ids=new Set(calculator.rules.map(rule=>rule.id));
-    assert.equal(ids.size,52,'Multiple variants must share their stable effect ID');
+    assert.equal(ids.size,53,'Multiple variants must share their stable effect ID');
     for(const id of ['671:mictlan:activate','671:creation-king:destroy',
       '671:twin-dragon:fusion-search','671:duke:recover-engraver'])
       assert(ids.has(id),'Lost existing verified portable effect: '+id);
