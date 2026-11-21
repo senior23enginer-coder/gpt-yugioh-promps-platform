@@ -52,6 +52,30 @@ for(let stage=1;stage<=10;stage++){
   assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
     'Calculator must remain opt-in: A'+number);
 }
+// The machine-readable manifest and prose checklists must never drift.
+const manifest=JSON.parse(fs.readFileSync(path.join(root,
+  '02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'));
+assert.equal(manifest.schema,'station-x-a01-a10-task-manifest/1');
+assert.deepEqual(manifest.required_sections,['main','extra','side']);
+assert.deepEqual(manifest.optional_sections,['reserve']);
+assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
+assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
+assert.equal(manifest.stages.length,11);
+const taskIds=manifest.stages.flatMap(stage=>stage.tasks.map(task=>task.task_id));
+assert.equal(taskIds.length,38,'35 mandatory plus 3 optional task IDs');
+assert.equal(new Set(taskIds).size,38,'Never duplicate stage task IDs');
+for(let i=1;i<=10;i++){
+  const number=String(i).padStart(2,'0');
+  const body=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith(number+'_'))),'utf8');
+  const fromMarkdown=[...body.matchAll(/^- \[ \] \*\*(A\d{2}[AB]?-T\d+)\*\*/gm)].map(m=>m[1]).sort();
+  const fromManifest=manifest.stages.filter(x=>x.stage_id==='A'+number||
+    (i===10&&['A10A','A10B'].includes(x.stage_id))).
+    flatMap(x=>x.tasks.map(t=>t.task_id)).sort();
+  assert.deepEqual(fromMarkdown,fromManifest,'Manifest mismatch with A'+number);
+}
+assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===35);
+assert(manifest.stages.find(s=>s.stage_id==='A10B').mandatory===false);
+
 // Prevent duplicate per-deck checklists and schema drift in all ten modules.
 for (let stage=1;stage<=10;stage++) {
   const no=String(stage).padStart(2,'0');
