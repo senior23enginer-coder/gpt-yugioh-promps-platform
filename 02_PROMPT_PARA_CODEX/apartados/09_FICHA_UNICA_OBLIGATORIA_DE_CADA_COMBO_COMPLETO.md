@@ -97,3 +97,14 @@ Este módulo se aplica **únicamente al deck identificado por `deck_id` + format
 **Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
 
 **Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
+
+
+## Checklist obligatorio por deck A09 — control de entrega
+
+Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
+- [ ] **A09-T1** Cada ruta con mano y estado inicial físico; evidencia: pendiente hasta comprobación.
+- [ ] **A09-T2** Secuencia íntegra: pasos, costes, movimientos, ventanas y recursos; evidencia: pendiente hasta comprobación.
+- [ ] **A09-T3** Variantes/negaciones limitadas a evidencia disponible; evidencia: pendiente hasta comprobación.
+- [ ] **A09-T4** Campo final y límites espaciales claros, sin invenciones; evidencia: pendiente hasta comprobación.
+
+Las casillas anteriores son plantilla, no un certificado de los decks existentes. `[x]` sólo tras entrega **completa y verificada**; `[ ] BLOQUEADA` exige causa y acción pendiente. Nunca denominar `COMPLETA` una tarea parcial; no falsificar estados. Cada respuesta/revisión muestra **todas** las tareas A01–A10A del deck y evidencias, acabadas/pendientes y totales. A10B está excluido de la exigencia normal, se reporta por separado si es solicitado. Los análisis completos de cartas de A05–A09 siempre se preservan y alimentan presentación y posterior calculadora.
