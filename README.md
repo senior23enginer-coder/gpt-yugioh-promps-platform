@@ -1,5 +1,19 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
 
+## Contrato de casos lógicos por efecto (infraestructura, sin analizar decks)
+
+El esquema **`02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json`** define un lenguaje compartido para las pruebas lógicas de papel que genera GPT después de seleccionar un único deck con Main/Extra/Side completos. Cada `effect_id` mantiene actor, CID, tipo, costes, ventana, condiciones, resolución y restricciones; cada `case_id` documenta un estado inicial, acción y resultado esperado, incluyendo casos positivos y negativos. **A10A no necesita compilar reglas de calculadora.**
+
+A10B, solo con autorización expresa, puede transformar esas especificaciones en el contrato ejecutable `station-x-calculator/1` y en fixtures `station-x-logic-case-fixtures/1` que el runner genérico de Platform compara con transiciones físicas. Una prueba de papel no certifica que la calculadora soporte la operación: un operador ausente queda bloqueado, no sustituido por un movimiento ficticio. Mantener los casos de dominio en GPT y las pruebas del intérprete en Platform; no crear archivos de tests por carta o deck. Los archivos de prueba `scripts/fixtures/stationx-paper-case.synthetic.json` son **ficticios**, no pertenecen a ningún mazo real y nunca autorizan una ejecución de A01–A10.
+
+Validar únicamente los contratos (sin analizar decks):
+
+```bash
+node scripts/test-paper-case-contract.cjs
+node scripts/analysis-eligibility-test.cjs
+```
+
+
 ## Estándar operativo vigente — análisis controlado por deck
 
 Esta especificación rige sobre las instantáneas históricas descritas más abajo. **Estar registrado entre más de 60 decks no significa que un mazo esté asignado, cargado, aprobado o autorizado para análisis.** El sistema jamás selecciona un deck por su cuenta, ni ejecuta todos los mazos, ni infiere autorización de una petición de estado, planificación, documentación o mantenimiento. Solo se analizan **decks expresamente asignados por el usuario**, uno por solicitud e identificados por `deck_id` real y formato. Memento y Crystron no se reanalizan como consecuencia de modificar este estándar.
