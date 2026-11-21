@@ -132,7 +132,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 
 **Aplicabilidad inmediata:** Lancea no está en Main de duelo 1; Quimera C07 no recibe protección gratuita de Polimerización; TY-PHON no se trata como invocación incondicional; Princesa no obtiene robo sin envío de mano como coste de activación; Dragostapelia no se convierte en una negación universal sin contador. Estos controles documentales orientan A07 y A09, pero siguen siendo **casos de papel pendientes de modelar por estado**, no pruebas de calculadora.
 
-**Estado A05:** en estas cinco cartas se identificaron **17 cláusulas/procedimientos documentales individuales** agrupados en 5 CID. No se extrapolan al total de efectos del deck. A05-T2/T3/T4 siguen **abiertas** hasta completar el inventario causal de las 39 identidades y las matrices de casos asociadas.
+**Estado A05:** en estas cinco cartas se identificaron **16 IDs documentales de efectos, procedimientos y restricciones** agrupados en 5 CID. No se extrapolan al total de efectos del deck. A05-T2/T3/T4 siguen **abiertas** hasta completar el inventario causal de las 39 identidades y las matrices de casos asociadas.
 
 ### A02–A03 — recepción e inventario acreditados
 
