@@ -90,8 +90,13 @@ function build(args) {
    actor:{description:o.actor,physical_zone:'must_be_read_from_state'},
    activation_window:{description:o.activation_window,chain_status:base.kind==='procedure'?'no_chain':base.kind==='continuous'?'continuous':'requires_legal_window'},
    trigger:base.kind==='trigger'?{description:o.activation_window}:null,
-   guards:[o.costs], selections:[o.selections], costs:[o.costs], resolution:[o.resolution],
-   on_negation:{description:'Negation cannot refund already paid costs; verify each physical chain.'},
+   guards:[{description:o.costs,classification:'REQUIREMENT_OR_POSSIBLE_COST_UNVERIFIED'}],
+   selections:[{description:o.selections,targeting_verified:false}],
+   costs:base.kind==='procedure'||base.kind==='continuous'?[]:
+     [{description:o.costs,classification:'COST_NOT_YET_SEPARATED_FROM_GUARD'}],
+   resolution:[{description:o.resolution,transition_verified:false}],
+   on_negation:base.kind==='procedure'||base.kind==='continuous'?null:
+     {description:'If a legal activation is negated, account only for authentic prepaid costs and events; independent review pending.'},
    usage_limit:{description:o.usage_limit}, restrictions:[o.usage_limit],
    resource_delta:{description:o.after},source:o.source.trim(),
    assumptions:['Descriptive clauses; full independent paper legality remains conditional.'],
