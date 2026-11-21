@@ -20,6 +20,7 @@ on:
       - 'scripts/audit-deck-visual-zone-links.cjs'
       - 'scripts/audit-deck-card-profiles.cjs'
       - 'scripts/audit-deck-effect-sources.cjs'
+      - 'scripts/audit-deck-official-source-text.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -41,6 +42,7 @@ on:
       - 'scripts/audit-deck-visual-zone-links.cjs'
       - 'scripts/audit-deck-card-profiles.cjs'
       - 'scripts/audit-deck-effect-sources.cjs'
+      - 'scripts/audit-deck-official-source-text.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -79,6 +81,9 @@ jobs:
       - name: Verify Memento A05-T1 official card sources, complete profiles and HD pictures
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-card-profiles.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Probe official card-effect DOM nodes for Memento CID 19364
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-official-source-text.cjs --deck-id=671 --user-assigned --probe --probe-cid=19364 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
       - name: Audit effect source metadata for explicitly assigned Memento 671 (no A10B)
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-effect-sources.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
