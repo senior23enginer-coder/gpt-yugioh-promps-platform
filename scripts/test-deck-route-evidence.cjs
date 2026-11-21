@@ -36,8 +36,8 @@ for(const pilot of pilots){
   assert.equal(totals.side,pilot.side);
   if(pilot.deck_id===671){
     const certified=record.routes.filter(route=>route.replay_certification?.status==='REPLAY_CERTIFIED');
-    assert.equal(certified.length,8,'C01–C08 must each have scoped evidence');
-    for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08']){
+    assert.equal(certified.length,9,'C01–C09 must each have scoped evidence');
+    for(const id of ['C01','C02','C03','C04','C05','C06','C07','C08','C09']){
       const route=record.routes.find(r=>r.id==='671:A09:'+id);
       assert.equal(route.replay_certification?.scope,id==='C08' ?
         'exact-opening-observed-opponent-activation-no-further-response' :
@@ -70,6 +70,13 @@ for(const pilot of pilots){
       'C08 must not claim resolution of the opponent original activation');
     assert(c08.replay_certification?.verified_final.includes('sin Invocación Especial'),
       'C08 End Phase return cannot be called a Special Summon');
+    const c09=record.routes.find(route=>route.id==='671:A09:C09');
+    assert.equal(c09.replay_certification?.documented_steps,5);
+    assert.equal(c09.replay_certification?.executed_transitions,8);
+    assert(c09.replay_certification?.verified_final.includes('cero robos'),
+      'C09 Princess contact Summon cannot trigger a draw from material Goblin');
+    assert(c09.replay_certification?.limits.includes('no es Fusión ordinaria'),
+      'C09 is an Extra Deck contact Special Summon, not normal Fusion');
   }
   const sources=fs.readFileSync(path.join(base,pilot.folder+'_CONTENIDO_CURADO.md'),'utf8');
   const lines=sources.split('\n');
