@@ -1,5 +1,36 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
+## CONTRATO TRANSVERSAL OBLIGATORIO — lenguaje ubicuo del deck, checklist y pruebas de papel (21-11-2026)
+
+**Precedencia:** este contrato rige el orquestador, los tres documentos base y los diez módulos A01–A10. Reemplaza las instrucciones anteriores que repartían la interpretación de un efecto entre distintas vistas. A01–A10A siempre se realizan; A10B únicamente se ejecuta si el usuario lo solicita. Que A10B sea opcional NO reduce en absoluto la información necesaria para prepararlo en A01–A09.
+
+### Una fuente semántica, múltiples consumidores
+
+Cada deck aporta **una especificación causal canónica**, estructurada y validada por carta/efecto/ruta en la misma entrega del deck. La guía visual, fichas de cartas, decisiones tácticas, combo creator y futura calculadora **leen la misma semántica**; ningún consumidor vuelve a reinterpretar texto libre, inventa efectos o crea su propia definición contradictoria. En la carpeta importable, `datos/stationx-deck.json` es el registro estructurado de Station X y conserva sus campos y formato admitidos (`record.cards`, `record.engine_maps`, `record.decisions`, `record.routes`, `record.calculator` solo para A10B). La investigación exhaustiva, los casos de papel y el checklist se guardan en secciones identificadas del `DECK_*_CONTENIDO_CURADO.md` existente hasta que un contrato de importación permita transportarlos sin pérdida. **No inventar campos admitidos por el importador.** No generar archivos de salida paralelos por efecto, combo, prompt o test.
+
+**Vocabulario común, sin ambigüedad:**
+- Identidad: `deck_id`, `format`, `card_id` físico de inventario, `cid` oficial, `section` (main/extra/side/reserve), `quantity`, `skill_id` separado si corresponde. `effect_id` estable e independiente de la traducción, vinculado al CID y al efecto concreto; un monstruo con dos efectos aporta DOS definiciones, no una variante ambigua.
+- Estado: `turn`, `active` (self/opponent), `phase`, `priority/window`, `chain`, `known/unknown`, `owner/controller`, `zone` (`hand`, `deck`, `graveyard`, `banished`, `extra`, `m1..m5`, `s1..s5`, `field`, `emz1/emz2`, `material:uid` cuando aplique), `position` (attack/defense/set), materiales, `lp`, copias disponibles, efectos ya usados, bloqueos y eventos observados. No extrapolar identidades ocultas.
+- Semántica de cada efecto: `kind` (activated/trigger/continuous/procedure/replacement/skill/no-effect), `actor` por CID/copia/zona, `activation_window`, `trigger`, `guards`, `selections` (objetivo/no-objetivo), `costs` pagados ANTES de resolver, `resolution` ordenada, `on_negation`, `usage_limit` por carta/nombre/turno, `restrictions` temporales, `resource_delta`, `source`, `assumptions` y `support_status`. Separar activación, efecto, condición continua y procedimiento que no inicia cadena.
+- Semántica de una ruta: `route_id`, `step_id`, `effect_id`/procedimiento, `before`, acción, material y coste físico, `after`, recursos y restricciones persistentes, final documentado y límites de información. A08/A09/A10A reutilizan esos mismos IDs, CIDs y estados.
+- Estados de evidencia independientes: `DOCUMENTADO_CON_FUENTE`, `CASO_LOGICO_VERIFICADO`, `SIN_EVIDENCIA`, `OPERADOR_NO_SOPORTADO`, `EJECUTABLE_PROBADO_A10B`. Tener foto/guía o un ejemplo de papel jamás certifica ejecutabilidad.
+
+### Prueba lógica de papel (en GPT, sin ejecutar código)
+
+A05–A09 deben producir por **cada efecto, procedimiento y restricción pertinente** una matriz declarativa de casos, sin un archivo de test por caso: `case_id`, `effect_id`, `source`, `state_before`, `action`, `expected_legal`, `expected_costs`, `expected_events`, `expected_state_after`, `expected_restrictions`, `reason`, `known_vs_unknown`, `status`. Por cada efecto: un caso positivo cuando sea posible, ausencia de condición, fase/ventana incompatible, coste o zona/material insuficiente, uso ya agotado, negación/bloqueo aplicable y resultado después de pagar costes. Si una categoría no aplica, justificar `NO_APLICA`; si una interacción necesita rival o información inaccesible, `CONDICIONAL` y NO certificarla. Las Skills se prueban por su formato, sin fingir que están en mano. Los casos se validan **lógicamente** contra texto oficial y reglas del formato; no se transforman en JavaScript ni en legalidad simulada.
+
+**Puerta A10B:** sólo a solicitud expresa se traducen definiciones acreditadas al contrato real `station-x-calculator/1`; sus operadores/guardas deben existir en la versión de Platform. Un caso sin operador se marca `OPERADOR_NO_SOPORTADO` y falla cerrado. El runner común de Platform ejecuta fixtures de datos desde las especificaciones de papel, compara estados/costes/ventanas positivos y negativos y certifica la compatibilidad; pruebas técnicas del intérprete permanecen en Platform, pruebas de dominio y casos lógicos en GPT. No crear `*_test.cjs` por carta o deck; reutilizar un runner común. No borrar tests heredados hasta comprobar paridad con fixtures.
+
+### Checklists reales y reporte de cada apartado
+
+Cada uno de A01–A09, A10A y A10B mantiene tareas estables `Axx-Tn`, `A10A-Tn`, `A10B-Tn` **por deck**, con `[x]` solo tras verificar totalidad del entregable y su evidencia (CID/ID, fuente, resultado del control); `[ ]` con causa, alcance, bloqueo y siguiente acción cuando falte algo; `NO_APLICA` solo justificado. Toda tarea abierta impide afirmar `COMPLETA` en su apartado; nunca sustituir un requisito incompleto por una tarea etiquetada como terminada. Antes y después de ejecutar cualquiera de los prompts, recontar cobertura sobre el inventario real: identidades totales/fichadas, efectos identificados/especificados, casos lógicos exigidos/comprobados, rutas/pasos y fotos, y operaciones pendientes. Reportar **SIEMPRE la lista íntegra de tareas A01–A10A**, aunque sólo haya cambiado un módulo, y A10B separado como `NO_SOLICITADA` o con sus tareas cuando se haya solicitado. Actualizar la lista única `CONTROL_DE_TAREAS_A01_A10` dentro del documento curado existente, no abrir un fichero por ejecución.
+
+**Condiciones de cierre:**
+- A01–A10A sólo pueden cerrar con inventario, fichas, efectos, casos de papel, rutas, fotos y guías completos y validados conforme a su ámbito; no requieren compilación de calculadora.
+- A10B sólo puede cerrar con paridad fuente/contrato, importación del paquete, fixtures positivas/negativas, protección de estado e informe exacto de operadores/no-soportados, sin falsos replays.
+- No afirmar que la calculadora ya entiende un operador por haberlo descrito; y no repetir investigación de A05–A09 al ejecutar A10B salvo para resolver discrepancias concretas con fuente.
+
+
 ## Norma vigente A01–A10A / A10B (21-11-2026; precedencia absoluta)
 
 **Diez apartados obligatorios A01–A10A para cada deck; A10B únicamente a petición expresa.** Mantener los diez prompts numerados existentes y los módulos protegidos A11–A36, sin crear un prompt 37. Los apartados 01–09 se dedican a investigación, validación documental y datos reutilizables; el apartado 10 tiene dos rutas independientes:
