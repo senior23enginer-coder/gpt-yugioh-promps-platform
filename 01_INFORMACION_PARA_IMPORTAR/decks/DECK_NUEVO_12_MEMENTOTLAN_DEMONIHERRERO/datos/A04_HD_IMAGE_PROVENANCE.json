@@ -1,0 +1,713 @@
+{
+  "schema": "station-x-card-photo-provenance/1",
+  "deck_id": 671,
+  "format": "tcg_advanced",
+  "photo_count": 39,
+  "policy": "authentic YGOPRODeck English-language high-resolution images; no generated text, no inventory changes",
+  "original_spanish_assets": "recoverable from Git history before this commit",
+  "official_rules_text": "Konami Neuron sources in record.cards; card art language is English",
+  "images": [
+    {
+      "cid": 9139,
+      "display_name_es": "Oleada de Calor",
+      "source_name_en": "Heat Wave",
+      "konami_id": 9139,
+      "ygoprodeck_card_id": 45141013,
+      "url": "https://images.ygoprodeck.com/images/cards/45141013.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "4a2ce6bc62c22201981d66b81f9e0245b260cc688e6e32536edc2db5816179f4",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/9139.png",
+      "previous_sha256": "1ea28bd29c9fe0666e7cbf92dff3e4a821be00fdba71156f922ac15f3e644252",
+      "saved_sha256": "23d37b6096cdef0b3c3ee9ceef6e87a140fe5a898e1dac64543960a85118c660",
+      "saved_bytes": 1085219
+    },
+    {
+      "cid": 9279,
+      "display_name_es": "El Bufón y el Pájaro del Candado",
+      "source_name_en": "Droll & Lock Bird",
+      "konami_id": 9279,
+      "ygoprodeck_card_id": 94145021,
+      "url": "https://images.ygoprodeck.com/images/cards/94145021.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "4c27e58f21d55d985be079bdd0730d6e082150e21f941d7456921f882a045576",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/9279.jpg",
+      "previous_sha256": "3483d25d7bef25210502a4a69132d2c4dfd791313054bde7a626b6e1126ecf14",
+      "saved_sha256": "4c27e58f21d55d985be079bdd0730d6e082150e21f941d7456921f882a045576",
+      "saved_bytes": 164415
+    },
+    {
+      "cid": 9657,
+      "display_name_es": "Portaaviones Sumergible Aero Tiburón",
+      "source_name_en": "Submersible Carrier Aero Shark",
+      "konami_id": 9657,
+      "ygoprodeck_card_id": 5014629,
+      "url": "https://images.ygoprodeck.com/images/cards/5014629.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ecefa0162dcc4480ad54f299a3a618e04a7cf8e21cf18d6a3345057293a80cf5",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/9657.png",
+      "previous_sha256": "1c664182ec15a5c69c33e85bb23a8bd113dbc9b216fc2fd9d0c5d4d4cf8ac2e9",
+      "saved_sha256": "f1ef9e9a656b9989ca166860ef4d7e17bac54dd44cc410c67a23cea49b189c26",
+      "saved_bytes": 1230363
+    },
+    {
+      "cid": 11243,
+      "display_name_es": "Artefacto Lancea",
+      "source_name_en": "Artifact Lancea",
+      "konami_id": 11243,
+      "ygoprodeck_card_id": 34267821,
+      "url": "https://images.ygoprodeck.com/images/cards/34267821.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ef72b880cbbd3eef6c91c4395dcc2cfd621a5df59220a5a4a3b0108091205fd7",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/11243.png",
+      "previous_sha256": "6b1b136f71f4ae116108aacd7df82eb4aa38bb894d51732a0dbac4e406fcb93d",
+      "saved_sha256": "9174587578e53ccfb9cf6feaa4864d73f1da7a5be7f0b02d93a40f95a3c3aea7",
+      "saved_bytes": 1322522
+    },
+    {
+      "cid": 12870,
+      "display_name_es": "Predaplanta Dragostapelia",
+      "source_name_en": "Predaplant Dragostapelia",
+      "konami_id": 12870,
+      "ygoprodeck_card_id": 69946549,
+      "url": "https://images.ygoprodeck.com/images/cards/69946549.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "48052ed48de78e4d1cadc94e39f3f42a9bb30d24ab803e96a060173edaff20f5",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/12870.jpg",
+      "previous_sha256": "e9e68fa13fe93b79d6a42ab91c697c5230f8e95c802a47d354c5fbe71b32482b",
+      "saved_sha256": "48052ed48de78e4d1cadc94e39f3f42a9bb30d24ab803e96a060173edaff20f5",
+      "saved_bytes": 174730
+    },
+    {
+      "cid": 12950,
+      "display_name_es": "Flor de Ceniza",
+      "source_name_en": "Ash Blossom & Joyous Spring",
+      "konami_id": 12950,
+      "ygoprodeck_card_id": 14558127,
+      "url": "https://images.ygoprodeck.com/images/cards/14558127.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "6aec2aa4b7a504f35671fe283d8ccebff26d74d0d455eb7e828267bd7ed14e7c",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/12950.jpg",
+      "previous_sha256": "b5a5fcd690df4111e871c86e36b2a84c521f4e9110ecf7e0fcd7107d12e730c1",
+      "saved_sha256": "6aec2aa4b7a504f35671fe283d8ccebff26d74d0d455eb7e828267bd7ed14e7c",
+      "saved_bytes": 160057
+    },
+    {
+      "cid": 13081,
+      "display_name_es": "D/D/D César, Alto Rey de las Olas",
+      "source_name_en": "D/D/D Wave High King Caesar",
+      "konami_id": 13081,
+      "ygoprodeck_card_id": 79559912,
+      "url": "https://images.ygoprodeck.com/images/cards/79559912.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "b3dde85955ee80c43b75303fb05ee539e3ffa4e25a2700d87d091d0eef1bd0fc",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/13081.png",
+      "previous_sha256": "f6cdb0cf7a520b3484f4e6bc77c6ec0ccff9932fe06e2d04829c8e9e3a4072e9",
+      "saved_sha256": "e0bb0cc3a7b6f1020ac852510402e192a67a8cc7e6560c20bb152b1ad61d8440",
+      "saved_bytes": 1331387
+    },
+    {
+      "cid": 13619,
+      "display_name_es": "Llamado por la Tumba",
+      "source_name_en": "Called by the Grave",
+      "konami_id": 13619,
+      "ygoprodeck_card_id": 24224830,
+      "url": "https://images.ygoprodeck.com/images/cards/24224830.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d355b61d3c437a96167109fc163fcd3aa75c646c616353b04e22f67fede1f398",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/13619.jpg",
+      "previous_sha256": "72071857ac307eb49042bc6533f0d9f66e8552e87aa0b1f8e18fe3190b828fc5",
+      "saved_sha256": "d355b61d3c437a96167109fc163fcd3aa75c646c616353b04e22f67fede1f398",
+      "saved_bytes": 139707
+    },
+    {
+      "cid": 15296,
+      "display_name_es": "Talento de Tácticas Triples",
+      "source_name_en": "Triple Tactics Talent",
+      "konami_id": 15296,
+      "ygoprodeck_card_id": 25311006,
+      "url": "https://images.ygoprodeck.com/images/cards/25311006.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d64e5396e51d6686348c599416543b2dda692a729915573751bea2658bcd0995",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/15296.jpg",
+      "previous_sha256": "fcdd9d11ad7ce45ef41a781c80931be78da05adfde11e64a4b663e21e9495be0",
+      "saved_sha256": "d64e5396e51d6686348c599416543b2dda692a729915573751bea2658bcd0995",
+      "saved_bytes": 153622
+    },
+    {
+      "cid": 15299,
+      "display_name_es": "Gotas Prohibidas",
+      "source_name_en": "Forbidden Droplet",
+      "konami_id": 15299,
+      "ygoprodeck_card_id": 24299458,
+      "url": "https://images.ygoprodeck.com/images/cards/24299458.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ba512804ad3f05865d0d98e8062397d865bac2d3385cb1f9f5eadc4fdbfb6009",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/15299.jpg",
+      "previous_sha256": "7b222de43d59c891d4a5b5648f27b0a07c02ad295a2d9bfae6f1d5431a417596",
+      "saved_sha256": "ba512804ad3f05865d0d98e8062397d865bac2d3385cb1f9f5eadc4fdbfb6009",
+      "saved_bytes": 169076
+    },
+    {
+      "cid": 16845,
+      "display_name_es": "Quimera Guardián",
+      "source_name_en": "Guardian Chimera",
+      "konami_id": 16845,
+      "ygoprodeck_card_id": 11321089,
+      "url": "https://images.ygoprodeck.com/images/cards/11321089.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "0e57ea153566f3c182e788b1353e983238cf7dce18c01cbe0e6c97691c342606",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/16845.png",
+      "previous_sha256": "0c7f33c7235d068c1d9b0478b6b3dcd028c4cda239d4ba51edd6d53ee75b96e9",
+      "saved_sha256": "c95cc9626030bd038134fd4ef4b668a238fd8cfbd20a0aa7a8911c79d78f4869",
+      "saved_bytes": 1442545
+    },
+    {
+      "cid": 19184,
+      "display_name_es": "TY-PHON - Crisis Celeste",
+      "source_name_en": "Super Starslayer TY-PHON - Sky Crisis",
+      "konami_id": 19184,
+      "ygoprodeck_card_id": 93039339,
+      "url": "https://images.ygoprodeck.com/images/cards/93039339.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "2abe233befddf902ce6e1f98bbece0637d49a23027d78e6061cb665348d8c23a",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19184.jpg",
+      "previous_sha256": "be795759a8df416ed50c832494721fd1b4d018f76485014c541a9f3804e40e82",
+      "saved_sha256": "2abe233befddf902ce6e1f98bbece0637d49a23027d78e6061cb665348d8c23a",
+      "saved_bytes": 196779
+    },
+    {
+      "cid": 19188,
+      "display_name_es": "S:P Pequeña Caballera",
+      "source_name_en": "S:P Little Knight",
+      "konami_id": 19188,
+      "ygoprodeck_card_id": 29301450,
+      "url": "https://images.ygoprodeck.com/images/cards/29301450.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "fac4ace8f67ec54c3ef34654a54e13b7fd379503b1c935523b98772916abeb1d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19188.jpg",
+      "previous_sha256": "76e18e0456a871784829d90d210c373480b5467145f6812163b68c146a0c6ef3",
+      "saved_sha256": "fac4ace8f67ec54c3ef34654a54e13b7fd379503b1c935523b98772916abeb1d",
+      "saved_bytes": 198773
+    },
+    {
+      "cid": 19360,
+      "display_name_es": "Tecuhtlica - Creación Combinada",
+      "source_name_en": "Mementoal Tecuhtlica - Combined Creation",
+      "konami_id": 19360,
+      "ygoprodeck_card_id": 23288411,
+      "url": "https://images.ygoprodeck.com/images/cards/23288411.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d0beda82820acc87383f6fd75076360ac62dc9bcf3ceaba52860163b092e3651",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19360.png",
+      "previous_sha256": "4ce17ecb5658361e3248d9cc42b25453ba76f34a540a5fc66137eaeabd53954b",
+      "saved_sha256": "f0a4c36c3703808575249b22c9676c0ead719e4061b167c9443918d68585d454",
+      "saved_bytes": 1467289
+    },
+    {
+      "cid": 19361,
+      "display_name_es": "Dragón de Cuerno",
+      "source_name_en": "Mementotlan-Horned Dragon",
+      "konami_id": 19361,
+      "ygoprodeck_card_id": 55272555,
+      "url": "https://images.ygoprodeck.com/images/cards/55272555.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7f65b73f42b5b16a7dc524a730bbc38ee211001f34823021d1ed91eb968a38e0",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19361.png",
+      "previous_sha256": "8b8559e1dd007cf5f618624591aed6431f9ba7aafa3aa5ee1322a36311cb583e",
+      "saved_sha256": "246af5a8d6bc7e1e68ada8481038b65afdeaa3b0b3ddbfc86494dbea34a01e41",
+      "saved_bytes": 1452328
+    },
+    {
+      "cid": 19362,
+      "display_name_es": "Tatsunootoshigo",
+      "source_name_en": "Mementotlan Tatsunootoshigo",
+      "konami_id": 19362,
+      "ygoprodeck_card_id": 81677154,
+      "url": "https://images.ygoprodeck.com/images/cards/81677154.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ec3bf5ef811fc15b21714b37ecacb51b8e8ebdf4f753210b059f9366a54fb3bd",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19362.png",
+      "previous_sha256": "b4e691e7d1eae32f2924ac55987abcd3486f14ecf9cbfc2dc9965ce8be544f9e",
+      "saved_sha256": "3f4a20464754a5018cd0dc6af93e528f053601f39d24703730450697d8770d1b",
+      "saved_bytes": 1403380
+    },
+    {
+      "cid": 19363,
+      "display_name_es": "Hoja Oscura",
+      "source_name_en": "Mementotlan Dark Blade",
+      "konami_id": 19363,
+      "ygoprodeck_card_id": 18165869,
+      "url": "https://images.ygoprodeck.com/images/cards/18165869.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "66f396ba9d0f39a4f8dde1dee35f459fdb3f67cde36fb48c3e90733d9b3418e3",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19363.png",
+      "previous_sha256": "260961e2dbd41c3887cf6d52b270dab9292231f4309a5ef86e2d94256294dccc",
+      "saved_sha256": "1c2b4d9838a99448a5cc3d539a5cdc53280389ca17643cfd63c62fb7f264fbcc",
+      "saved_bytes": 1441693
+    },
+    {
+      "cid": 19364,
+      "display_name_es": "Angbruja",
+      "source_name_en": "Mementotlan Angwitch",
+      "konami_id": 19364,
+      "ygoprodeck_card_id": 54550967,
+      "url": "https://images.ygoprodeck.com/images/cards/54550967.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "b5736bb4effc15b058f619e7c1b0f183ea63cda1d560c9b2b2373765cd7e1d38",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19364.png",
+      "previous_sha256": "b00dca365fb2fc3485b6a08ad0a1d1fd39b49bd66dc884217d87a79aaa14549e",
+      "saved_sha256": "df8d625fd953bf0181305c6d9d3001f40ae41227e05affee76a4fe1fa4bb63d8",
+      "saved_bytes": 1403373
+    },
+    {
+      "cid": 19365,
+      "display_name_es": "Maza",
+      "source_name_en": "Mementotlan Mace",
+      "konami_id": 19365,
+      "ygoprodeck_card_id": 81945676,
+      "url": "https://images.ygoprodeck.com/images/cards/81945676.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "982d2e7ad5a962e96eae12679d6953855d365d46032d89b7868ab92e5e616b2e",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19365.png",
+      "previous_sha256": "03d74107c4e80f2da0e155db966f2defc9d077df2a0363a0a726fc120c6545d0",
+      "saved_sha256": "0aae201c45f9323edce15e023ee611edce74242e4eab3364243685ce5d7dadf8",
+      "saved_bytes": 1345824
+    },
+    {
+      "cid": 19366,
+      "display_name_es": "Goblin",
+      "source_name_en": "Mementotlan Goblin",
+      "konami_id": 19366,
+      "ygoprodeck_card_id": 17943271,
+      "url": "https://images.ygoprodeck.com/images/cards/17943271.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "76c388ccbaa9fb944fa4d3d5a3e300e6d3aee9e25216123fd4daeb1286c89ff3",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19366.png",
+      "previous_sha256": "966932736fb3db348d4c33d541e1a0422b5a6f0be28e9dde3908f5196c09bab0",
+      "saved_sha256": "5b1d28546cadf7fa334189963ac66c02386e16c585deca04a126a05de028868b",
+      "saved_bytes": 1406053
+    },
+    {
+      "cid": 19367,
+      "display_name_es": "Mementomictlán",
+      "source_name_en": "Mementomictlan",
+      "konami_id": 19367,
+      "ygoprodeck_card_id": 43338320,
+      "url": "https://images.ygoprodeck.com/images/cards/43338320.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "6cea7693c267d185af726b5a8f1c6e76e3d5319ea86029ba0decfd879f69e9dd",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19367.png",
+      "previous_sha256": "eafedd9ee900ad5b4d8e99f01acce65f4b2aaade00e2b741ff937d15368ebd04",
+      "saved_sha256": "a854079349d0b4ba7a8dbf7b96561146033e8cca586834e8a0d39e3c46cfd486",
+      "saved_bytes": 1353006
+    },
+    {
+      "cid": 19368,
+      "display_name_es": "Fiesta de Huesos",
+      "source_name_en": "Mementotlan Bone Party",
+      "konami_id": 19368,
+      "ygoprodeck_card_id": 80722024,
+      "url": "https://images.ygoprodeck.com/images/cards/80722024.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7b866843743f01194535ea190c7ea931df6dc0474a16237ca0beef360c762b72",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19368.png",
+      "previous_sha256": "2d61dcb44dd8c42d765c779d4c6baa99e00f50e4e01d8cf9b71b2ff76d36946f",
+      "saved_sha256": "24dc2c5bb338429a4e6087454cd0d4577527643b757e6ed3237940ad7fc7bb2c",
+      "saved_bytes": 1424016
+    },
+    {
+      "cid": 19472,
+      "display_name_es": "Desvantasmas",
+      "source_name_en": "Mementotlan Ghattic",
+      "konami_id": 19472,
+      "ygoprodeck_card_id": 52918032,
+      "url": "https://images.ygoprodeck.com/images/cards/52918032.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d4a45c226e9a594c7b5ece6f6f9dae8c3a61e6dbb8a42159f46a0b8e4ee57f22",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19472.png",
+      "previous_sha256": "6b38f031809617e8f46e8d4dec9a4a69f9c7dda1f3b41038ec6f69d0d2f0588f",
+      "saved_sha256": "87de89c2a9b21e787357fe94a7da36fc9a22eef45a4acd671ac5854cd0939146",
+      "saved_bytes": 1277624
+    },
+    {
+      "cid": 19878,
+      "display_name_es": "Dragón Gemelo",
+      "source_name_en": "Mementotlan Twin Dragon",
+      "konami_id": 19878,
+      "ygoprodeck_card_id": 19181420,
+      "url": "https://images.ygoprodeck.com/images/cards/19181420.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d28c988860a667d63f1454061355a2b9db3f2245b59948edbc6a078e18634d47",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19878.png",
+      "previous_sha256": "5f845403db48bb5b29839ad23abd74809430495f74a8c48ffc297fd33c66d761",
+      "saved_sha256": "507b8cef1acf878aa99e5317100062bb0038295752731330eed2517b9c3636bc",
+      "saved_bytes": 1455156
+    },
+    {
+      "cid": 19904,
+      "display_name_es": "Fusión Mementotlán",
+      "source_name_en": "Mementotlan Fusion",
+      "konami_id": 19904,
+      "ygoprodeck_card_id": 66518509,
+      "url": "https://images.ygoprodeck.com/images/cards/66518509.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "770ce4b042289ce5c7d6a79165e5d4f488f637c0f78f88a867f86ad8d0c1f16c",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19904.png",
+      "previous_sha256": "73c47af1ed2bb2f38df3596602ec4292b67fef0fe36238bb1a3ff32452c7dfa3",
+      "saved_sha256": "98d5a61eccea3751359d79bed6d4badf74e03612906ed3381824e33bf5b10e6c",
+      "saved_bytes": 1424892
+    },
+    {
+      "cid": 19932,
+      "display_name_es": "Luna del Cielo Cerrado",
+      "source_name_en": "Moon of the Closed Heaven",
+      "konami_id": 19932,
+      "ygoprodeck_card_id": 71818935,
+      "url": "https://images.ygoprodeck.com/images/cards/71818935.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "62cbafe1eff95577084349ba2493be599ae0dadc60cfdc17c9be480883b58b5c",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/19932.png",
+      "previous_sha256": "2d641562f1228c8138cfd1ee81c93e6f285efa57f0eb60168f99d79561c4d88f",
+      "saved_sha256": "812baa5c31a09596852d7b24610f1b5c9c35379781f88c2093fa6d1d20ae7bc3",
+      "saved_bytes": 1267187
+    },
+    {
+      "cid": 20196,
+      "display_name_es": "Demoniherrero Grabador",
+      "source_name_en": "Fiendsmith Engraver",
+      "konami_id": 20196,
+      "ygoprodeck_card_id": 60764609,
+      "url": "https://images.ygoprodeck.com/images/cards/60764609.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "9b10f4df0dae7c38152c6e379425ee338e5a344bbe623089dc5e34c58a1914a6",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20196.jpg",
+      "previous_sha256": "1a3894ae78bb3229b99ba7e056d2cde34e2f508e826a274a0d6e83affd9842af",
+      "saved_sha256": "9b10f4df0dae7c38152c6e379425ee338e5a344bbe623089dc5e34c58a1914a6",
+      "saved_bytes": 185586
+    },
+    {
+      "cid": 20199,
+      "display_name_es": "Dormiveja",
+      "source_name_en": "Mementotlan Shleepy",
+      "konami_id": 20199,
+      "ygoprodeck_card_id": 50042011,
+      "url": "https://images.ygoprodeck.com/images/cards/50042011.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "0a22231874ce437e737ecf647e696aae4df76f13169a5b771eefb152495e2dde",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20199.png",
+      "previous_sha256": "c6383f84db0c21d538af469cb23647158c21b6051026fc2b4f2ddeedf4ea2f8e",
+      "saved_sha256": "427dc62d841d18be3a4b793c4a90b71f0401fd6027199eddce64d52365996a9b",
+      "saved_bytes": 1397914
+    },
+    {
+      "cid": 20206,
+      "display_name_es": "Purulia",
+      "source_name_en": "Mulcharmy Purulia",
+      "konami_id": 20206,
+      "ygoprodeck_card_id": 84192580,
+      "url": "https://images.ygoprodeck.com/images/cards/84192580.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "34f5a4659153a273688b8946ee48a67f4e9d63a05b30e32b3d6174aaedb45cc4",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20206.jpg",
+      "previous_sha256": "8a354b768d8a1ebe3898d892fcf8da5f9720edb4b04dd42e99094585a49f3c92",
+      "saved_sha256": "34f5a4659153a273688b8946ee48a67f4e9d63a05b30e32b3d6174aaedb45cc4",
+      "saved_bytes": 180259
+    },
+    {
+      "cid": 20216,
+      "display_name_es": "Rey Creación",
+      "source_name_en": "Mementomictlan Tecuhtlica - Creation King",
+      "konami_id": 20216,
+      "ygoprodeck_card_id": 14529511,
+      "url": "https://images.ygoprodeck.com/images/cards/14529511.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "fe438511379fb7c001cecf6e117d90c14c10895074de5150140f537f22334e2f",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20216.png",
+      "previous_sha256": "a35360c021a394735252e30589990d36f0a0136b3dfd4361f1a670a29200e6a3",
+      "saved_sha256": "1357885a493ef0e9cce8040fa902094fed440c26bc670df20d8c0f9e90158e2f",
+      "saved_bytes": 1556037
+    },
+    {
+      "cid": 20225,
+      "display_name_es": "Réquiem del Demoniherrero",
+      "source_name_en": "Fiendsmith's Requiem",
+      "konami_id": 20225,
+      "ygoprodeck_card_id": 2463794,
+      "url": "https://images.ygoprodeck.com/images/cards/2463794.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "942343244b8421286aff01162a55c092d7c4d3591be172466efded43a5628cc8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20225.jpg",
+      "previous_sha256": "8dc8236efc463035b6251c500fde50ce27892aeae08f15f04d299e5752604fa1",
+      "saved_sha256": "942343244b8421286aff01162a55c092d7c4d3591be172466efded43a5628cc8",
+      "saved_bytes": 170444
+    },
+    {
+      "cid": 20226,
+      "display_name_es": "Secuencia del Demoniherrero",
+      "source_name_en": "Fiendsmith's Sequence",
+      "konami_id": 20226,
+      "ygoprodeck_card_id": 49867899,
+      "url": "https://images.ygoprodeck.com/images/cards/49867899.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "3a366d1b9e258b0269bc3801a382ff209ed7388de0eb74b9ae10bcfe133aa0ec",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20226.jpg",
+      "previous_sha256": "2f7ec7782ec66c3ba210f2f210c2c3557c95e7cbc05341ba4ee57a244cbdab5d",
+      "saved_sha256": "3a366d1b9e258b0269bc3801a382ff209ed7388de0eb74b9ae10bcfe133aa0ec",
+      "saved_bytes": 201361
+    },
+    {
+      "cid": 20389,
+      "display_name_es": "Duque de la Defunción",
+      "source_name_en": "The Duke of Demise",
+      "konami_id": 20389,
+      "ygoprodeck_card_id": 45445571,
+      "url": "https://images.ygoprodeck.com/images/cards/45445571.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "61bfe9a8da67b2823719ac54b48d27dcb1e56f8c64f88c706a0c53694f0870da",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20389.png",
+      "previous_sha256": "f128d86ce56b621dda5e8b80736d2796d2cdacb7afe55eeecfa7dd476e2f10e7",
+      "saved_sha256": "d2efa4b2a9387583f648f34469b199240ba877dc55115c598038aa2fdc7e1862",
+      "saved_bytes": 1289998
+    },
+    {
+      "cid": 20423,
+      "display_name_es": "Princesa Necroequipo",
+      "source_name_en": "Necroquip Princess",
+      "konami_id": 20423,
+      "ygoprodeck_card_id": 93860227,
+      "url": "https://images.ygoprodeck.com/images/cards/93860227.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d1f9226a20dcd6a1cca97918a4c5848870652e0cc4f3eb9b591b19dc650c6013",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20423.png",
+      "previous_sha256": "17d67ed693bc7b0d4b2b80f4466a6adb989cf856e39a99865d49a9464c163951",
+      "saved_sha256": "0dd1f43e67810dbbc0f2ea93e5578319ff78763a8d4fd06f7f1ec1c1f5c69c53",
+      "saved_bytes": 1346594
+    },
+    {
+      "cid": 20491,
+      "display_name_es": "Akhíron",
+      "source_name_en": "Mementotlan Akihiron",
+      "konami_id": 20491,
+      "ygoprodeck_card_id": 54207171,
+      "url": "https://images.ygoprodeck.com/images/cards/54207171.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "54a4bbe65da2305426f67a020b5e20557523fdc5efd11227ed4e74ececa1abb8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20491.png",
+      "previous_sha256": "c67709322d7ac56fc6824dd091cd596855c5d6c0d171fa30653005e97642ad7a",
+      "saved_sha256": "15f96905b154881cb5230d0e439c60ced2ec9af17a54da5539db0d334731e4be",
+      "saved_bytes": 1492990
+    },
+    {
+      "cid": 20500,
+      "display_name_es": "Fuwalos",
+      "source_name_en": "Mulcharmy Fuwalos",
+      "konami_id": 20500,
+      "ygoprodeck_card_id": 42141493,
+      "url": "https://images.ygoprodeck.com/images/cards/42141493.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "41eb9a5a3113cc8f338661d2d37e80e47c65a202b0687bc778eac8632e401ac8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20500.jpg",
+      "previous_sha256": "49fe11e964cb15bf5d5350e71768a6685f55d6d6af7fade7c46da1ef62301b93",
+      "saved_sha256": "41eb9a5a3113cc8f338661d2d37e80e47c65a202b0687bc778eac8632e401ac8",
+      "saved_bytes": 182214
+    },
+    {
+      "cid": 20533,
+      "display_name_es": "Gran Fuga Moto Goblin",
+      "source_name_en": "Goblin Biker Grand Breakout",
+      "konami_id": 20533,
+      "ygoprodeck_card_id": 29111045,
+      "url": "https://images.ygoprodeck.com/images/cards/29111045.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "eb73fd170feb27edbe5adba655fa321f2242cd29551c2aa0a18e2bb3b88a400d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20533.png",
+      "previous_sha256": "4769f675deb87041c54ddcd388567b3d2e3808da5ef4dde85518cd1c23f33205",
+      "saved_sha256": "0ab9430bd4046db138f85f01f74523e64950e0b16b7304faeb765d67f499f9b6",
+      "saved_bytes": 1466977
+    },
+    {
+      "cid": 20764,
+      "display_name_es": "Meowls",
+      "source_name_en": "Mulcharmy Meowls",
+      "konami_id": 20764,
+      "ygoprodeck_card_id": 87126721,
+      "url": "https://images.ygoprodeck.com/images/cards/87126721.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "6aa3c4e591803abbaec3dc46c990a9019ea6e64deefde217a2356cf506346e67",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/20764.png",
+      "previous_sha256": "79e49d27e6aa5229b4c193b2b057c8699d5809d18556694ef8ba2cc18e376930",
+      "saved_sha256": "2d21333166106a98a5542157a3f2e82d0ef3dbb2deffa3fdaa1c90b047499e45",
+      "saved_bytes": 1387528
+    },
+    {
+      "cid": 21203,
+      "display_name_es": "Rebanador Gordiano",
+      "source_name_en": "Gordian Slicer",
+      "konami_id": 21203,
+      "ygoprodeck_card_id": 66236707,
+      "url": "https://images.ygoprodeck.com/images/cards/66236707.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "2fab670a5d270d921e60cd70a9cadc28cc55866d99b24059f19312880c0b3259",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/imagenes/21203.png",
+      "previous_sha256": "f0b5a80d04c497832ea718e82e0f78d736b433543e577c9b13b652a867273cb7",
+      "saved_sha256": "111015735e924de423298439b06607d3dc299e420eb86f611c89f597e6e056de",
+      "saved_bytes": 1306423
+    }
+  ]
+}
