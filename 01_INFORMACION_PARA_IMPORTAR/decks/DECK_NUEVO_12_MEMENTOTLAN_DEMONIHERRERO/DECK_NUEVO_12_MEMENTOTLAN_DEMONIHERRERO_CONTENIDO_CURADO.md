@@ -30,7 +30,7 @@ El formato y la identidad de los paquetes versionados son coherentes; la prueba 
 
 ### A04 — fotografías y trazabilidad visual
 
-A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T2 sigue abierta** porque contar archivos y verificar CID en los nombres no equivale a inspeccionar las imágenes individualmente ni a asegurar su resolución/legibilidad. A04-T3 requiere un cotejo posterior de zonas y fotos en las vistas visuales.
+A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T2 está BLOQUEADA**: el auditor de bytes y cabeceras de GitHub Actions confirmó **26 PNG de 199–200 × 290 px y 13 JPG de 268 × 391 px**. Los 39 archivos no alcanzan el umbral conservador de **300 × 420 px**. Son imágenes físicas reales con nombres y fuentes por CID, pero no deben certificarse como legibles en guía ampliada. Reponer únicamente con fotografías auténticas de mayor resolución, conservando cada CID/ranura y verificando contenido visual, y repetir el auditor. A04-T3 requiere un cotejo posterior de zonas y fotos en las vistas visuales.
 
 ### A01 — identidad y estrategia comprobadas
 
@@ -68,7 +68,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 - [x] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
   - **Evidencia verificada:** 39/39 filas de identidad con CID, imagen bajo imagenes/<CID> y URL oficial Konami Neuron concordante. Archivos reales en GitHub: 26 PNG y 13 JPG; todos mayores de 0 bytes, sin CID huérfano. Este control verifica presencia/procedencia documentada; la inspección visual de calidad se trata en A04-T2.
 - [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+  - **BLOQUEADA — calidad comprobada:** 39/39 fotos inferiores a 300 × 420 px: 25 PNG de 200 × 290, 1 PNG de 199 × 290 y 13 JPG de 268 × 391. Resultado reproducible con `node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json`. No marcar hasta disponer de imagen real de mejor calidad, cotejo visual y resultado técnico aprobado.
 - [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
@@ -131,7 +131,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
 **A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
-**Siguiente tarea en orden:** A04-T2, inspección de calidad/identidad visual de las imágenes originales; después A04-T3. **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
+**Siguiente tarea en orden:** resolver el bloqueo A04-T2 mediante imágenes reales de resolución suficiente y autenticidad cotejada; después A04-T3. **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
 
 ---
 
