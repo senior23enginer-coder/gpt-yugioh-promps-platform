@@ -1,5 +1,10 @@
 # Apartado 03 — VALIDACIÓN DEL INVENTARIO, IDENTIDAD Y COMPATIBILIDAD MECÁNICA
 
+### Precondición A03 — selección expresa y deck realmente cargado
+
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
 ## Entrega estandarizada A03 — semántica compartida y criterios de aceptación
 
 El inventario es la fuente de cardinalidad de todo el checklist: ninguna carta (incluido Side/Reserva) se omite del estudio, aunque Side/Reserva no entren automáticamente en el duelo. No evaluar banlist si no se pidió; no inventar recursos.
@@ -28,7 +33,7 @@ Transcribir exactamente cartas, nombres y copias; detectar imágenes ambiguas, e
 
 Validar **compatibilidad mecánica del formato, identidad y requisitos reales de invocación**. Aplicar la exclusión transversal de la sección 1 del orquestador también a recomendaciones de altas, bajas y cantidades, sin excepciones. Evaluar las cartas recibidas por sus efectos, costes, materiales, zonas y condiciones reales; conservar sus cantidades y no agregar advertencias procedentes de listas de construcción.
 
-Se puede comenzar un **estudio provisional** con inventario recibido. No presentar como definitivo un inventario pendiente de aprobación. La falta de certeza reglamentaria tampoco impide conservar trabajo documental etiquetado como pendiente.
+No se inicia ningún estudio, siquiera provisional, si no constan Main, Extra y Side del deck expresamente asignado; Reserva es opcional. No presentar como definitivo un inventario pendiente de aprobación. La falta de certeza reglamentaria tampoco impide conservar trabajo documental etiquetado como pendiente.
 
 
 ## Checklist obligatorio por deck A03 — control de entrega
