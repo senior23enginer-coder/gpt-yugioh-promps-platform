@@ -1,5 +1,16 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
+## PUERTA CERO — autorización de un único deck y presencia de sus tres zonas obligatorias
+
+**Este repositorio NO procesa automáticamente los más de 60 decks, ni uno solo por iniciativa propia.** Cada ejecución A01–A10A o A10B exige que el usuario haya **asignado explícitamente un deck concreto**, identificado por `deck_id` del registro real, formato y carpeta de su paquete. Seleccionar por proximidad de nombre, recorrer todos los decks, aprovechar un catálogo, continuar con un deck anterior o iniciar un lote sin asignación explícita individual está **PROHIBIDO**. La existencia de un deck en la plataforma no autoriza analizarlo.
+
+**Preflight obligatorio y anterior incluso a A01:** verificar que en ese MISMO deck estén físicamente cargadas las secciones `main`, `extra` y `side`, cada una con al menos una fila real de cantidad positiva, identidad y slot nativo; cotejar IDs/cantidades contra inventario del paquete. **`reserve` es opcional**; puede estar ausente o sin cartas, nunca se rellena artificialmente. Si falta Main, Extra o Side, si no hay `deck_id` asignado por el usuario, si los datos pertenecen a otro deck, si no se puede acreditar el formato, o si el inventario difiere: estado `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, informar la(s) zona(s)/campo(s) faltante(s) y **no iniciar ningún apartado**, ni A01, ni análisis provisional.
+
+**Una consulta para listar tareas, auditar prompts, corregir código o estimar duración NO es una asignación de deck.** No reejecutar estudios de Memento, Crystron u otros sin nueva instrucción expresa sobre esos decks. Los tests sintéticos de esquema y CI son verificaciones de infraestructura, no ejecución de los prompts sobre decks reales.
+
+**Validación reutilizable (sin investigar cartas):** `node scripts/analysis-eligibility.cjs --deck-id=<ID> --user-assigned ruta/a/datos/stationx-deck.json`. Ese indicador solo se proporciona cuando consta una asignación del usuario; la validación no invoca la IA. Un `eligible=false` impide cualquier análisis. Este requisito prevalece sobre cualquier cláusula histórica que permita estudios provisionales con listas incompletas.
+
+
 ## CONTRATO TRANSVERSAL OBLIGATORIO — lenguaje ubicuo del deck, checklist y pruebas de papel (21-11-2026)
 
 **Precedencia:** este contrato rige el orquestador, los tres documentos base y los diez módulos A01–A10. Reemplaza las instrucciones anteriores que repartían la interpretación de un efecto entre distintas vistas. A01–A10A siempre se realizan; A10B únicamente se ejecuta si el usuario lo solicita. Que A10B sea opcional NO reduce en absoluto la información necesaria para prepararlo en A01–A09.
