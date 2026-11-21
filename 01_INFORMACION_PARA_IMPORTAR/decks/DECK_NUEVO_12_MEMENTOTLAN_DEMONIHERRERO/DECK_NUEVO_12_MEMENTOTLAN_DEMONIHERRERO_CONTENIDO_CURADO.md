@@ -343,7 +343,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Coste o requisito previo:** Enviar esta copia desde mano al Cementerio para activar
 - **Selección / targeting:** Sin objetivo; identificar evento oponente no inferido
 - **Resolución:** Ningún jugador puede añadir desde Main Deck a la mano por efectos mientras dure la restricción
-- **Uso, negación y restricciones:** No usar el mismo disparador en turno posterior; si se niega, recurso pagado igualmente
+- **Uso, negación y restricciones:** Droll no declara OPT por nombre en su texto oficial; solo puede responder a una adición rival real en la ventana correspondiente. Si su efecto se niega, el envío al GY ya ocurrió
 - **Estado posterior esperado:** Estado: Droll en GY; bloqueo de búsquedas de Main para ambos en este turno si resuelto
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en
 
@@ -475,7 +475,7 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Coste o requisito previo:** Desacoplar exactamente 1 material Xyz como coste antes de resolver
 - **Selección / targeting:** Seleccionar eslabón de activación susceptible, sin asumir target en campo
 - **Resolución:** Negar esa activación y destruir la carta si se resuelve; después bonificación ATK opcional bajo condición del texto
-- **Uso, negación y restricciones:** Sin material no se activa; conservar regla de usos por nombre y duración de ATK
+- **Uso, negación y restricciones:** Sin material no se activa; el texto oficial de César no expresa OPT de este efecto, por lo que puede volver a utilizarlo cuando haya materiales y nueva activación elegible. Si existe otro monstruo D/D propio, el aumento de ATK es opcional y dura solo este turno
 - **Estado posterior esperado:** Estado: material desacoplado en GY aun si César resulta negado; adversario solo destruido con resolución exitosa
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en
 
