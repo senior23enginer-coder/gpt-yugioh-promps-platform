@@ -1,5 +1,11 @@
 # Apartado 09 — FICHA ÚNICA OBLIGATORIA DE CADA COMBO COMPLETO
 
+## Entrega estandarizada A09 — trazabilidad canónica y cobertura medible
+
+A09 entrega secuencias con transiciones semánticas completas y casos de papel por ruta; A10A visualiza exactamente los mismos step_id y CIDs. A10B opcional reproduce solo las acciones soportadas por el intérprete sin reescribir historias ni traer cartas ocultas a zonas inventadas.
+
+El checklist del propio deck conserva `[x]` sólo con evidencia completa por CID/effect_id/case_id/route_id. Cada ejecución entrega todas las tareas A01–A10A; A10B se muestra aparte y nunca se activa implícitamente.
+
 ### Puerta A09 — contrato reproducible para calcular sobre el tablero (20-11-2026)
 
 Cada `record.routes[*]` debe enlazar los `regla_id` A07 de sus acciones **sin afirmar que la ruta completa es ejecutable**. Para cada paso conservar: estado antes (turno/fase/actor, ubicaciones y copias), costes, objetivos, materiales, cadena o procedimiento sin cadena, resolución, estado después, recursos gastados/restantes, restricciones y efectos consumidos por nombre. Cuando el actor está en GY/destierro, registrar ese origen real; jamás reemplazarlo por mano o Deck para que una secuencia «encaje» en el editor.
@@ -85,26 +91,12 @@ Separar la secuencia sin respuesta de las ramas ante respuestas conocidas y de l
 Registrar faltantes de cada deck en el único registro privado existente, por carta/CID, efecto, paso, operador y fuente faltante. No declarar «cobertura completa» por conservar las 193 rutas actuales: ampliar al índice vigente y comprobar los efectos individualmente. A10 representa la misma secuencia y ramas de A09, conservando su incertidumbre.
 
 
-## Puerta obligatoria de checklist por deck — A09 (revisión 21-11-2026)
-
-Este módulo se aplica **únicamente al deck identificado por `deck_id` + formato + inventario aprobado**, sin trasladar evidencia ni estado de otros decks. Se mantiene **una sola lista canónica por deck** dentro del archivo `DECK_*_CONTENIDO_CURADO.md` ya existente, bajo `CONTROL_DE_TAREAS_A01_A10` (o sección equivalente existente); no crear documentos/JSON de seguimiento por fase ni archivos de prueba por carta. Cada ejecución o reanálisis actualiza esa lista y devuelve el estado **de todas las tareas A01–A10A** para ese deck, incluyendo tareas terminadas con evidencia y pendientes concretas. A10B se muestra aparte como opcional; nunca se ejecuta implícitamente.
-
-**Checklist A09 — obligatorio, chequeable y con evidencia:**
-- [ ] **A09-T01** — Crear ficha completa de cada ruta: mano/estado inicial, pasos, costes, zonas y campo final. Evidencia: `PENDIENTE`.
-- [ ] **A09-T02** — Revisar materiales, orden, variantes y límites sin simular estado oculto. Evidencia: `PENDIENTE`.
-- [ ] **A09-T03** — Vincular combos y estados a las fichas A05/A07/A08 y evidencia de origen. Evidencia: `PENDIENTE`.
-
-**Regla de cierre:** `[x]` únicamente si el entregable está realmente completo, con CID/IDs, fuente y prueba documental/estructural correspondientes; `[ ]` significa pendiente y debe enumerar el motivo, elemento afectado y acción necesaria. `NO_APLICA` solo con justificación verificable. No declarar una tarea o apartado `COMPLETA` si alguna de sus obligaciones está parcial o sin verificar. Si no hay medios para completar un ítem, mantener el apartado **ABIERTO/BLOQUEADO**, sin presentar un falso cierre. A01–A10A son **obligatorios** para la entrega normal; A10B **no bloquea** A10A ni la importación de guía. La evidencia de una guía no certifica calculadora. Al finalizar cualquier módulo, presentar siempre recuento de tareas cerradas, checklist del apartado y lista íntegra pendiente A01–A10A; si A10B fue solicitado, reportarlo por separado.
-
-**Datos transversales de carta reutilizables:** A05–A09 documentan exhaustivamente todas las cartas y sus efectos (identidad, CID, zonas, procedimiento versus activación, condiciones, disparador, timing, coste, target, elección, resolución, restricciones, respuesta, once-per-name/turn, cadenas, estado antes/después, recursos, sinergias y evidencia oficial), útiles para guía, análisis físico y eventual calculadora. **Preparar estos datos no significa ejecutar, compilar, sincronizar ni probar la calculadora**: eso queda exclusivamente en A10B. El único paquete estructurado del deck sigue siendo `datos/stationx-deck.json` cuando corresponda; Markdown/HTML son representaciones, imágenes recursos.
-
-
 ## Checklist obligatorio por deck A09 — control de entrega
 
 Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
-- [ ] **A09-T1** Cada ruta con mano y estado inicial físico; evidencia: pendiente hasta comprobación.
-- [ ] **A09-T2** Secuencia íntegra: pasos, costes, movimientos, ventanas y recursos; evidencia: pendiente hasta comprobación.
-- [ ] **A09-T3** Variantes/negaciones limitadas a evidencia disponible; evidencia: pendiente hasta comprobación.
-- [ ] **A09-T4** Campo final y límites espaciales claros, sin invenciones; evidencia: pendiente hasta comprobación.
+- [ ] **A09-T1** Identificar cada ruta con route_id y starter/estado físico inicial: mano, GY, campo, recursos, fase, prioridades y cartas desconocidas; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T2** Por cada step_id enlazar effect_id/procedimiento, requisito, coste real, materiales, ventana, resolución y estado antes/después; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T3** Incluir casos lógicos positivos y de interrupción para pasos críticos, con causa, coste pagado y SIN_CONTINUACION_DEMOSTRADA si aplica; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
+- [ ] **A09-T4** Verificar campo final, recursos, materiales y restricciones sin casillas inventadas, conservando los mismos IDs que usarán A10A y A10B; evidencia por CID/effect_id/case_id/route_id o bloqueo con causa.
 
 Las casillas anteriores son plantilla, no un certificado de los decks existentes. `[x]` sólo tras entrega **completa y verificada**; `[ ] BLOQUEADA` exige causa y acción pendiente. Nunca denominar `COMPLETA` una tarea parcial; no falsificar estados. Cada respuesta/revisión muestra **todas** las tareas A01–A10A del deck y evidencias, acabadas/pendientes y totales. A10B está excluido de la exigencia normal, se reporta por separado si es solicitado. Los análisis completos de cartas de A05–A09 siempre se preservan y alimentan presentación y posterior calculadora.
