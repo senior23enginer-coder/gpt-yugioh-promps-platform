@@ -694,15 +694,15 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Casos de papel:** `677:A05:P019` positivo condicional: antes mano, Fuwalos en mano, no controlas cartas; futuro rival Invoca Especial desde Deck/Extra; acción hand-discard-activate-draw; después Por cada Invocación Especial válida desde Deck/Extra realizada después de resolver, robar carta desconocida; coste Descartar Fuwalos al activar. `677:A05:N019` negativo: Controlas carta propia al activar o Invocación rival desde GY no genera robo; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
-#### 20. `677:a05:20500:end-phase-hand-rollback` — CID 20500 (CONT)
+#### 20. `677:a05:20500:end-phase-hand-rollback` — CID 20500 (RES)
 - **Actor / zona:** resolución/End Phase; copia física CID 20500 del inventario real 677.
 - **Ventana:** End Phase del mismo turno donde Fuwalos resolvió.
 - **Guarda física:** Fuwalos resolvió, mano supera cartas rivales controladas más seis.
 - **Coste:** Sin pago nuevo.
 - **Objetivo y selección:** Seleccionar cartas al azar de mano, sin inventar identidades.
 - **Resolución y estado posterior:** Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió.
-- **Límite / cadena:** Se aplica una vez en End Phase de turno pertinente; naturaleza sin activación de cadena.
-- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
+- **Límite / cadena:** Es la consecuencia retardada del mismo efecto rápido Mulcharmy ya resuelto; en la End Phase no se activa un efecto nuevo ni se crea un nuevo eslabón. Se aplica una vez en ese turno.
+- **Negación y conservación de recursos:** Si el efecto rápido original no resolvió, no existe esta consecuencia retardada; no descartar nuevamente, no pagar coste adicional ni reabrir una cadena. El descarte original permanece en GY si fue pagado al activar.
 - **Contraejemplo:** No se activó Fuwalos o la mano no supera el umbral.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P020` positivo condicional: antes resolución/End Phase, Fuwalos resolvió, mano supera cartas rivales controladas más seis; acción end-phase-hand-rollback; después Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió; coste Sin pago nuevo. `677:A05:N020` negativo: No se activó Fuwalos o la mano no supera el umbral; no atribuir coste ni resolución de una activación prohibida.
@@ -722,15 +722,15 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Casos de papel:** `677:A05:P021` positivo condicional: antes mano, Purulia en mano (Main o Side tras intercambio), campo propio sin cartas; acción hand-discard-activate-draw; después Robar una por Invocación Normal/Especial rival desde mano después de resolver; coste Descartar Purulia mano→GY al activar. `677:A05:N021` negativo: Campo propio no vacío, o invocación no procede de mano; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
-#### 22. `677:a05:20206:end-phase-hand-rollback` — CID 20206 (CONT)
+#### 22. `677:a05:20206:end-phase-hand-rollback` — CID 20206 (RES)
 - **Actor / zona:** resolución/End Phase; copia física CID 20206 del inventario real 677.
 - **Ventana:** End Phase del turno de activación.
 - **Guarda física:** Purulia resolvió y mano propia excede umbral cartas rivales controladas más seis.
 - **Coste:** Sin coste nuevo.
 - **Objetivo y selección:** Barajar aleatoriamente excedentes.
 - **Resolución y estado posterior:** Aplicar reajuste solo si corresponde; no es una segunda activación.
-- **Límite / cadena:** Una vez en la End Phase del turno pertinente; naturaleza sin activación de cadena.
-- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
+- **Límite / cadena:** Es la consecuencia retardada del mismo efecto rápido Mulcharmy ya resuelto; en la End Phase no se activa un efecto nuevo ni se crea un nuevo eslabón. Se aplica una vez en ese turno.
+- **Negación y conservación de recursos:** Si el efecto rápido original no resolvió, no existe esta consecuencia retardada; no descartar nuevamente, no pagar coste adicional ni reabrir una cadena. El descarte original permanece en GY si fue pagado al activar.
 - **Contraejemplo:** No hubo activación legal o mano no supera umbral.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P022` positivo condicional: antes resolución/End Phase, Purulia resolvió y mano propia excede umbral cartas rivales controladas más seis; acción end-phase-hand-rollback; después Aplicar reajuste solo si corresponde; no es una segunda activación; coste Sin coste nuevo. `677:A05:N022` negativo: No hubo activación legal o mano no supera umbral; no atribuir coste ni resolución de una activación prohibida.
