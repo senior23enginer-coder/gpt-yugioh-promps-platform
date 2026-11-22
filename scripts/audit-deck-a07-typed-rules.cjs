@@ -60,6 +60,8 @@ function audit({deckId,assigned,packagePath,curatedPath,expectEffects=94}) {
    'A07_OFFICIAL_SOURCE_CID_MISMATCH_'+id);sourceLinks++;
   const card=cards.get(cid),sections=new Set(card.slots.map(x=>x.section));
   if(actor==='extra')assert(sections.has('extra'),'A07_EXTRA_CARD_NOT_LOADED_'+id);
+  if(sections.size===1&&sections.has('side'))
+   assert(actor.includes('post-side'),'A07_SIDE_ONLY_CARD_USED_BEFORE_SIDE_CHANGE_'+id);
   if(actor.includes('post-side')){
    assert(sections.has('side'),'A07_POST_SIDE_WITHOUT_SIDE_COPY_'+id);sideExclusive++;
   }
