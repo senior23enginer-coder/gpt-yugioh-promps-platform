@@ -2094,13 +2094,13 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Criterio de aceptación A09:** **4/4 entregables editoriales y de pruebas de papel cerrados** tras control CI [#45053251791](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45053251791) **success** sobre auditoría física y causal. Este cierre **no** equivale a 69 efectos independientes completos, 12 replays, 12 endboards espaciales certificados, legalidad de la lista para torneo TCG Advanced ni paridad del editor V40 (esa última sigue `PENDIENTE_FUENTE`). Todos los desenlaces que dependan de recursos rivales no observados permanecen condicionales. A10B sigue `NO_SOLICITADA`, sin importación ni despliegue.
 
-### A10A — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+### A10A — T1/T2 CERRADAS POR PARIDAD DOCUMENTAL Y ESTÁTICA (2/3); T3 ABIERTA
+- [x] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales
+  - **Evidencia:** las 12 guías HTML A10 existentes ahora exponen los 69 IDs canónicos de paso, fotografías auténticas y detalladas, apertura de 23 cartas conocidas (sin convertir otras en mano), 198 vínculos CID de imágenes en pasos, 69 bloques desplegables de actor/ventana/coste/objetivo/límite/estado antes/después y los 12 campos finales lógicos con fotos. Datos trazados a A09.10–A09.14 sin inventar coordenadas. Paquete importable sincronizado. Auditoría de paridad en CI #45054589222 exitosa.
+- [x] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
+  - **Evidencia:** el control reproducible scripts/audit-deck-a10a-visual-parity.cjs coteja los 12 route_id, los 69 step_id, actores effect_id, 23 fotos de apertura, 198 fotos en pasos y resultados M físicos de A09.14; confirma 39 CID originales y Main 41 / Extra 15 / Side 14 / Reserva 0. Se conservaron 12 endboards sin certificación espacial, sin replays, y los casos de C08 separan el cierre propio de la respuesta temporal. El paquete GPT se corrigió para igualar el HTML; la fuente Platform V40 histórica muestra 69/69 acciones textuales iguales, pero 61 pasos con referencias fotográficas diferentes, nueve aperturas visuales desfasadas y dos textos de resultado diferentes: **paridad de reimportación V40 aún no acreditada**, explícitamente fuera del cierre estático T2.
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+  - **Pendiente:** probar la navegación real en navegador móvil y escritorio y la importación/persistencia con el editor de Platform, comparando paquete actual con V40. La revisión de HTML responsive y el contrato estático NO son prueba de navegador, ni se ha hecho una reimportación. No alterar Platform ni desplegar sin esa validación.
 
 **A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
 **Siguiente tarea en orden:** A05-T2, censar **todos** los efectos de las 39 cartas con `effect_id` estable, incluidos continuos, pasivos, procedimientos, condiciones y NO_EFFECT justificado. No confundir las 353 variantes de reglas de calculadora existentes con todos los efectos documentados; después A05-T3 y T4. **No empezar A05** antes de certificar A04 sin supuestos. No reinterpretar el Side de 14 como 15.
@@ -4894,6 +4894,19 @@ Estas viñetas se colocan **dentro de la guía madre** al fallar el paso indicad
 
 **Límite de QA:** se intentó abrir la guía mediante Chromium headless local, pero el proceso quedó bloqueado por la restricción del entorno (`socket() failed: Operation not permitted`), sin render, capturas ni recorrido interactivo acreditados. Por ello **A10 conserva `COMPLETA_DOCUMENTAL`**, y los controles de **QA visual escritorio/móvil**, **comparación con las dos superficies reales del editor** e **importación estructural** siguen `PENDIENTE` como aceptación externa. La calculadora no es necesaria para esas pruebas. No se atribuye publicación nueva.
 
+### A10.5 — sincronización visual y garantía de paridad estática (22-11-2026)
+
+**Ámbito exclusivo Memento 671:** fotos y aperturas corregidas en datos/stationx-deck.json; los 12 paneles de GUIA_VISUAL_A01_A10.html exponen 69 step_id A09, 69 detalles de A07.7/A09.13, 198 fotografías en pasos y 23 fotografías de manos iniciales. Los 12 cierres visuales contienen las identidades de los campos lógicos A09.14 y no certifican coordenadas espaciales. No se añadieron rutas, monstruos, resultados de partidas ni copias a la lista.
+
+**Regla editorial de causalidad:** cada bloque de paso muestra effect_id/procedimiento, ventana, coste real (si lo hay), objetivo/material, restricciones de uso, resultado previsto, state_before y state_after conocidos. Las acciones secuenciales no se presentan como una sola Cadena. Una interrupción suspende el final exitoso de la ruta. C08 distingue S:P presente al terminar turno propio de su posible destierro temporal en turno rival.
+
+**Diferencia controlada con Platform V40:** están alineados 12/12 IDs de ruta, 69/69 acciones originales y 40/40 filas físicas de inventario entre la fuente de Platform y este paquete. El paquete corregido contiene 198 referencias fotográficas en pasos frente a 155 de la versión V40; divergen 61 pasos, 9 manos visuales iniciales y 2 textos de resultado. No se ha sincronizado Platform, ni existe certificación del editor en navegador. Esto bloquea A10A-T3, no invalida el estudio documental del deck.
+
+**Auditorías:** CI de GitHub #45054589222: SUCCESS en commit 2f37021b (incluidos scripts/audit-deck-a09-route-states.cjs y scripts/audit-deck-a10a-visual-parity.cjs). El auditor A10A requiere explícitamente deck_id=671, verifica CID/copia/imagen/ID/estados conocidos, 12 paneles con 69 pasos, 23 cartas iniciales y 198 imágenes por paso, y declara browserMobileDesktopExecuted=false, editorV40ParityCertified=false, spatialEndboardsCertified=0, replaysExecuted=0. Resultado estático, no motor.
+
+**Censo por las 35 casillas reales:** 32/35 [x] y 3 abiertas: A05-T3, A05-T4 y A10A-T3. PR #23 permanece DRAFT/OPEN, sin merge, sin despliegue, sin actualización de Platform y sin A10B.
+
+---
 ## ITERACIÓN 2 · Profundización verificable de A01–A10 (17-11-2026)
 
 **Control documental:** respetar los materiales, costes, zonas, ventanas, límites por turno y recursos del inventario físico; no se atribuyen simulaciones ejecutadas.
