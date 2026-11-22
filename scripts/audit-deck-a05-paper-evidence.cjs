@@ -91,7 +91,7 @@ function verify({deckId,packageFile,curatedFile}){
  for(const e of registry.keys())assert(reviewed.has(e),'A07_NO_CROSS_REFERENCE_'+e);
  const a06=section(md,'### A06.7 —');
  const a09=section(md,'### A09.11 —');
- assert(a06.includes('REL-M40')&&a09.includes('MEMD-C12'),
+ assert(a06.includes('REL-M40')&&a09.includes('671:A09:C12:'),
    'MISSING_A06_A09_TRACEABILITY');
  const outcome={
    deckId,counts:report.counts,physicalIdentities:physical.size,
