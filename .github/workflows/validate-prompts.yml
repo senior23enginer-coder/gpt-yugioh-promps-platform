@@ -35,6 +35,7 @@ on:
       - 'scripts/audit-deck-a09-route-states.cjs'
       - 'scripts/audit-deck-a10a-visual-parity.cjs'
       - 'scripts/test-deck-a10a-browser.cjs'
+      - 'scripts/test-deck-a10a-import-contract.php'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -71,6 +72,7 @@ on:
       - 'scripts/audit-deck-a09-route-states.cjs'
       - 'scripts/audit-deck-a10a-visual-parity.cjs'
       - 'scripts/test-deck-a10a-browser.cjs'
+      - 'scripts/test-deck-a10a-import-contract.php'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -172,3 +174,18 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Verify 12 Memento A10A routes, navigation and interruptions in both viewports
         run: node scripts/test-deck-a10a-browser.cjs 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO
+
+  memento-a10a-php-import-preflight:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read Platform importer PHP from its existing base branch (no modifications)
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Verify read-only native PHP inventory preflight for Memento import package
+        run: php scripts/test-deck-a10a-import-contract.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
