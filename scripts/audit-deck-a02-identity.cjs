@@ -98,7 +98,8 @@ function inspect(args){
  const completed=entries.filter(x=>x[1]==='x').map(x=>x[2]);
  for(const id of ['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3'])
    assert(completed.includes(id),'A02_NOT_CLOSED_'+id);
- assert(ledger.includes('6/35')&&ledger.includes('29/35'),'A02_PROGRESS_NOT_RECONCILED');
+ assert(completed.length>=6&&ledger.includes(completed.length+'/35')&&
+   ledger.includes((35-completed.length)+'/35'),'TASK_PROGRESS_NOT_RECONCILED');
  assert(md.includes('### A02.4 — identidad técnica, procedencia'),
    'MISSING_A02_TECHNICAL_ACT');
  for(const token of ['CONTROL_DE_TAREAS_A01_A10','## IDENTIDAD BÁSICA',
