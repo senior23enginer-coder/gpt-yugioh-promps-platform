@@ -857,6 +857,604 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Casos de papel:** `677:A05:P033` positivo condicional: antes campo M/T, Agrupamiento boca arriba, 1 Cristron en propio GY/destierro distinto de Agrupamiento, 1 o 2 objetivos boca arriba; acción target-then-shuffle-destroy; después Barajar Cristron GY/destierro al Deck y si lo haces destruir objetivos legales; coste Barajar carta Cristron real al Deck durante resolución, NO coste de activación. `677:A05:N033` negativo: Sin recurso para barajar o seleccionas 2 sin Sincronía Cristron propia; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
+#### 34. `677:a05:13710:synchro-level7-materials` — CID 13710 (PRO)
+- **Actor / zona:** Extra; copia física CID 13710 del inventario real 677.
+- **Ventana:** Invocación Sincronía en turno propio permitido.
+- **Guarda física:** 1 Cantante y uno o más no Cantantes propios que suman Nivel 7, zona Extra compatible.
+- **Coste:** Materiales enviados según procedimiento, no activación.
+- **Objetivo y selección:** Materiales elegidos antes de Invocar.
+- **Resolución y estado posterior:** Invocar F.A. Dragster como Sincronía; no confundir con efecto de negación.
+- **Límite / cadena:** Procedimiento sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Sin Cantante real o niveles no suman 7, o bloqueo Extra incompatible.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P034` positivo condicional: antes Extra, 1 Cantante y uno o más no Cantantes propios que suman Nivel 7, zona Extra compatible; acción synchro-level7-materials; después Invocar F.A. Dragster como Sincronía; no confundir con efecto de negación; coste Materiales enviados según procedimiento, no activación. `677:A05:N034` negativo: Sin Cantante real o niveles no suman 7, o bloqueo Extra incompatible; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 35. `677:a05:13710:continuous-atk-level-times300` — CID 13710 (CONT)
+- **Actor / zona:** campo; copia física CID 13710 del inventario real 677.
+- **Ventana:** Mientras Dragster boca arriba.
+- **Guarda física:** Esta copia en Campo con nivel actual conocido.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** ATK propio igual a Nivel actual por 300, recalcular al cambiar Nivel.
+- **Límite / cadena:** Continuo, sin activación; naturaleza sin activación de cadena.
+- **Contraejemplo:** No está boca arriba o el nivel no es el supuesto.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P035` positivo condicional: antes campo, Esta copia en Campo con nivel actual conocido; acción continuous-atk-level-times300; después ATK propio igual a Nivel actual por 300, recalcular al cambiar Nivel; coste Sin coste. `677:A05:N035` negativo: No está boca arriba o el nivel no es el supuesto; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 36. `677:a05:13710:continuous-piercing` — CID 13710 (CONT)
+- **Actor / zona:** campo; copia física CID 13710 del inventario real 677.
+- **Ventana:** Cálculo de daño al atacar defensa.
+- **Guarda física:** Dragster ataca monstruo en Defensa cuyo DEF no absorbe todo ATK.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin objetivo de activación.
+- **Resolución y estado posterior:** Infligir daño perforante igual diferencia real, no daño al azar.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** No combate en defensa o ATK insuficiente.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P036` positivo condicional: antes campo, Dragster ataca monstruo en Defensa cuyo DEF no absorbe todo ATK; acción continuous-piercing; después Infligir daño perforante igual diferencia real, no daño al azar; coste Sin coste. `677:A05:N036` negativo: No combate en defensa o ATK insuficiente; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 37. `677:a05:13710:on-fa-spelltrap-gain-level` — CID 13710 (TRG)
+- **Actor / zona:** campo; copia física CID 13710 del inventario real 677.
+- **Ventana:** Tras activar M/T F.A. o efecto de una de ellas.
+- **Guarda física:** Una carta/efecto F.A. se activó realmente y Dragster está boca arriba.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Aumentar nivel de Dragster en uno.
+- **Límite / cadena:** Sin OPT impreso específico; naturaleza con activación de cadena.
+- **Contraejemplo:** No se activó ninguna M/T F.A.; propia lista no contiene ninguna.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P037` positivo condicional: antes campo, Una carta/efecto F.A. se activó realmente y Dragster está boca arriba; acción on-fa-spelltrap-gain-level; después Aumentar nivel de Dragster en uno; coste Sin coste. `677:A05:N037` negativo: No se activó ninguna M/T F.A.; propia lista no contiene ninguna; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 38. `677:a05:13710:quick-reduce-level-negate-spelltrap` — CID 13710 (QCK)
+- **Actor / zona:** campo; copia física CID 13710 del inventario real 677.
+- **Ventana:** Respuesta a activación Mágica/Trampa rival.
+- **Guarda física:** Dragster boca arriba con Nivel actual suficiente para reducirlo en dos y eslabón rival M/T real.
+- **Coste:** Reducir Nivel en dos durante resolución si procede, no pago prematuro de coste.
+- **Objetivo y selección:** Responder a eslabón M/T, sin target.
+- **Resolución y estado posterior:** Negar activación y destruir esa carta si reducción y negación son válidas.
+- **Límite / cadena:** Una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Nivel menor que dos o eslabón adversario no es carta/efecto M/T.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P038` positivo condicional: antes campo, Dragster boca arriba con Nivel actual suficiente para reducirlo en dos y eslabón rival M/T real; acción quick-reduce-level-negate-spelltrap; después Negar activación y destruir esa carta si reducción y negación son válidas; coste Reducir Nivel en dos durante resolución si procede, no pago prematuro de coste. `677:A05:N038` negativo: Nivel menor que dos o eslabón adversario no es carta/efecto M/T; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 39. `677:a05:20778:synchro-level7-materials` — CID 20778 (PRO)
+- **Actor / zona:** Extra; copia física CID 20778 del inventario real 677.
+- **Ventana:** Invocación Sincronía legal.
+- **Guarda física:** Un Cantante y uno o más no Cantantes propios suman 7, zona Extra válida.
+- **Coste:** Materiales por procedimiento.
+- **Objetivo y selección:** Elegir materiales físicos con Niveles reales.
+- **Resolución y estado posterior:** Invocar Elesqueletus Sincronía; no activar recuperación antes de la invocación.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Materiales no suman Nivel 7 o bloqueo de Extra lo prohíbe.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P039` positivo condicional: antes Extra, Un Cantante y uno o más no Cantantes propios suman 7, zona Extra válida; acción synchro-level7-materials; después Invocar Elesqueletus Sincronía; no activar recuperación antes de la invocación; coste Materiales por procedimiento. `677:A05:N039` negativo: Materiales no suman Nivel 7 o bloqueo de Extra lo prohíbe; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 40. `677:a05:20778:continuous-opponent-atk-def-minus500` — CID 20778 (CONT)
+- **Actor / zona:** campo; copia física CID 20778 del inventario real 677.
+- **Ventana:** Continuo mientras Elesqueletus boca arriba.
+- **Guarda física:** El rival controla monstruos con ATK/DEF aplicables.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** No selecciona objetivo.
+- **Resolución y estado posterior:** Todos monstruos del rival pierden 500 ATK/DEF, sin suponer negación de efectos.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Elesqueletus no está boca arriba, no crear disminución permanente.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P040` positivo condicional: antes campo, El rival controla monstruos con ATK/DEF aplicables; acción continuous-opponent-atk-def-minus500; después Todos monstruos del rival pierden 500 ATK/DEF, sin suponer negación de efectos; coste Sin coste. `677:A05:N040` negativo: Elesqueletus no está boca arriba, no crear disminución permanente; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 41. `677:a05:20778:on-synchro-recover-card` — CID 20778 (TRG)
+- **Actor / zona:** campo; copia física CID 20778 del inventario real 677.
+- **Ventana:** Disparo tras invocación por Sincronía.
+- **Guarda física:** Elesqueletus fue Invocado por Sincronía y una carta Cristron propia está en GY/destierro.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir Cristron del GY/destierro elegible, no inventar carta.
+- **Resolución y estado posterior:** Añadir a mano una carta Cristron de recurso indicado.
+- **Límite / cadena:** Cada efecto siguiente una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Fue Invocado Especial por otra vía o no hay objetivo Cristron.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P041` positivo condicional: antes campo, Elesqueletus fue Invocado por Sincronía y una carta Cristron propia está en GY/destierro; acción on-synchro-recover-card; después Añadir a mano una carta Cristron de recurso indicado; coste Sin coste. `677:A05:N041` negativo: Fue Invocado Especial por otra vía o no hay objetivo Cristron; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 42. `677:a05:20778:synchro-destroyed-revive-crystron` — CID 20778 (TRG)
+- **Actor / zona:** campo→GY; copia física CID 20778 del inventario real 677.
+- **Ventana:** Tras destruirse por batalla o efecto, habiendo sido Sincronizado.
+- **Guarda física:** Esta copia fue Invocada por Sincronía y destruida, Cristron propio elegible en GY/destierro y zona.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir Cristron real en GY/destierro.
+- **Resolución y estado posterior:** Invocar Cristron; no declarar que recupera Inclusión por ese efecto.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Salió del Campo sin destrucción o faltan monstruos Cristron elegibles.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P042` positivo condicional: antes campo→GY, Esta copia fue Invocada por Sincronía y destruida, Cristron propio elegible en GY/destierro y zona; acción synchro-destroyed-revive-crystron; después Invocar Cristron; no declarar que recupera Inclusión por ese efecto; coste Sin coste. `677:A05:N042` negativo: Salió del Campo sin destrucción o faltan monstruos Cristron elegibles; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 43. `677:a05:12781:synchro-three-materials` — CID 12781 (PRO)
+- **Actor / zona:** Extra; copia física CID 12781 del inventario real 677.
+- **Ventana:** Invocación Sincronía legal.
+- **Guarda física:** Dos o más Cantantes más exactamente un no Cantante para suma Nivel 9, zona disponible.
+- **Coste:** Mover materiales según invocación.
+- **Objetivo y selección:** Elegir materiales con Niveles, posición y control reales.
+- **Resolución y estado posterior:** Invocar Quariongandrax; no sustituir varios Cantantes por uno.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Solo un Cantante o suma de Niveles distinta de nueve.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P043` positivo condicional: antes Extra, Dos o más Cantantes más exactamente un no Cantante para suma Nivel 9, zona disponible; acción synchro-three-materials; después Invocar Quariongandrax; no sustituir varios Cantantes por uno; coste Mover materiales según invocación. `677:A05:N043` negativo: Solo un Cantante o suma de Niveles distinta de nueve; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 44. `677:a05:12781:on-synchro-banish-up-to-material-count` — CID 12781 (TRG)
+- **Actor / zona:** campo; copia física CID 12781 del inventario real 677.
+- **Ventana:** Disparo tras Invocación por Sincronía.
+- **Guarda física:** Quariongandrax fue sincronizado con N materiales y hay hasta N monstruos rivales en Campo o GY.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Seleccionar hasta N monstruos entre campo y GY rivales al activar.
+- **Resolución y estado posterior:** Desterrar únicamente los monstruos seleccionados legalmente que permanezcan.
+- **Límite / cadena:** No OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** No fue Sincronía o no hay monstruo rival elegible.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P044` positivo condicional: antes campo, Quariongandrax fue sincronizado con N materiales y hay hasta N monstruos rivales en Campo o GY; acción on-synchro-banish-up-to-material-count; después Desterrar únicamente los monstruos seleccionados legalmente que permanezcan; coste Sin coste. `677:A05:N044` negativo: No fue Sincronía o no hay monstruo rival elegible; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 45. `677:a05:12781:synchro-destroyed-revive-banished-monster` — CID 12781 (TRG)
+- **Actor / zona:** campo→GY; copia física CID 12781 del inventario real 677.
+- **Ventana:** Tras destrucción por batalla o efecto de copia sincronizada.
+- **Guarda física:** Quariongandrax sincronizado destruido; hay monstruo desterrado distinto de sí mismo.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Target a un monstruo desterrado que no sea Quariongandrax.
+- **Resolución y estado posterior:** Invocar a tu Campo copia físicamente desterrada si la zona y restricciones lo permiten.
+- **Límite / cadena:** No OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Se devolvió al Extra en lugar de destruir, o no existe monstruo desterrado válido.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P045` positivo condicional: antes campo→GY, Quariongandrax sincronizado destruido; hay monstruo desterrado distinto de sí mismo; acción synchro-destroyed-revive-banished-monster; después Invocar a tu Campo copia físicamente desterrada si la zona y restricciones lo permiten; coste Sin coste. `677:A05:N045` negativo: Se devolvió al Extra en lugar de destruir, o no existe monstruo desterrado válido; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 46. `677:a05:19188:link2-two-effect-monsters` — CID 19188 (PRO)
+- **Actor / zona:** Extra; copia física CID 19188 del inventario real 677.
+- **Ventana:** Invocación Link legal.
+- **Guarda física:** Dos monstruos de efecto propios usados legalmente, suma de rating Link 2, zona Extra válida.
+- **Coste:** Enviar materiales como procedimiento.
+- **Objetivo y selección:** Elegir dos monstruos de efecto.
+- **Resolución y estado posterior:** Invocar S:P Link-2; verificar que algún material proviene del Extra para efecto de entrada.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Uno de materiales no es monstruo de efecto o zona Link ilegal.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P046` positivo condicional: antes Extra, Dos monstruos de efecto propios usados legalmente, suma de rating Link 2, zona Extra válida; acción link2-two-effect-monsters; después Invocar S:P Link-2; verificar que algún material proviene del Extra para efecto de entrada; coste Enviar materiales como procedimiento. `677:A05:N046` negativo: Uno de materiales no es monstruo de efecto o zona Link ilegal; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 47. `677:a05:19188:on-link-extra-material-banish` — CID 19188 (TRG)
+- **Actor / zona:** campo; copia física CID 19188 del inventario real 677.
+- **Ventana:** Tras Link Summon usando monstruo Fusión/Sincro/Xyz/Link como material.
+- **Guarda física:** S:P recién Link Invocada con material Extra apropiado; carta en Campo o cualquiera GY.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Target una carta del Campo o GY al activar.
+- **Resolución y estado posterior:** Desterrar objetivo si sigue válido; monstruos propios no pueden atacar directamente este turno.
+- **Límite / cadena:** Cada efecto por nombre una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin material del Extra usado o no hay carta objetivo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P047` positivo condicional: antes campo, S:P recién Link Invocada con material Extra apropiado; carta en Campo o cualquiera GY; acción on-link-extra-material-banish; después Desterrar objetivo si sigue válido; monstruos propios no pueden atacar directamente este turno; coste Sin coste. `677:A05:N047` negativo: Sin material del Extra usado o no hay carta objetivo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 48. `677:a05:19188:quick-opponent-activation-temporary-banish` — CID 19188 (QCK)
+- **Actor / zona:** campo; copia física CID 19188 del inventario real 677.
+- **Ventana:** Respuesta a activación rival observada.
+- **Guarda física:** S:P propia boca arriba y dos monstruos boca arriba elegibles, incluido uno propio.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Target dos monstruos boca arriba, uno propio mínimo.
+- **Resolución y estado posterior:** Desterrar temporalmente ambas copias hasta End Phase, sin negar activación rival.
+- **Límite / cadena:** Cada efecto por nombre una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** No se activó nada rival, solo un monstruo o uno de los targets no es boca arriba.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P048` positivo condicional: antes campo, S:P propia boca arriba y dos monstruos boca arriba elegibles, incluido uno propio; acción quick-opponent-activation-temporary-banish; después Desterrar temporalmente ambas copias hasta End Phase, sin negar activación rival; coste Sin coste. `677:A05:N048` negativo: No se activó nada rival, solo un monstruo o uno de los targets no es boca arriba; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 49. `677:a05:20787:link1-low-atk-machine` — CID 20787 (PRO)
+- **Actor / zona:** Extra; copia física CID 20787 del inventario real 677.
+- **Ventana:** Invocación Link legal.
+- **Guarda física:** Una Máquina NO Link con ATK original máximo 1000 bajo propio control y zona legal.
+- **Coste:** Enviar material según procedimiento.
+- **Objetivo y selección:** Seleccionar una Máquina no Link con ATK original <=1000.
+- **Resolución y estado posterior:** Invocar Clockwork Knight como Link-1.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Material es Link, no Máquina o ATK original excede 1000.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P049` positivo condicional: antes Extra, Una Máquina NO Link con ATK original máximo 1000 bajo propio control y zona legal; acción link1-low-atk-machine; después Invocar Clockwork Knight como Link-1; coste Enviar material según procedimiento. `677:A05:N049` negativo: Material es Link, no Máquina o ATK original excede 1000; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 50. `677:a05:20787:on-link-send-continuous-search-clockworknight` — CID 20787 (TRG)
+- **Actor / zona:** campo; copia física CID 20787 del inventario real 677.
+- **Ventana:** Tras Link Summon.
+- **Guarda física:** Clockwork Knight recién Link Invocado y Mágica Continua propia, Clockwork Night en Main Deck.
+- **Coste:** Enviar Mágica Continua propia al GY al activar.
+- **Objetivo y selección:** Sin objetivo; buscar Clockwork Night en Deck.
+- **Resolución y estado posterior:** Añadir Clockwork Night si existe; no confundir con Inclusión, nombre distinto.
+- **Límite / cadena:** Cada efecto una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA en lista 677: no existe Clockwork Night en Main.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P050` positivo condicional: antes campo, Clockwork Knight recién Link Invocado y Mágica Continua propia, Clockwork Night en Main Deck; acción on-link-send-continuous-search-clockworknight; después Añadir Clockwork Night si existe; no confundir con Inclusión, nombre distinto; coste Enviar Mágica Continua propia al GY al activar. `677:A05:N050` negativo: NO_APLICA en lista 677: no existe Clockwork Night en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 51. `677:a05:20787:target-gy-low-atk-machine-tribute-revive` — CID 20787 (ACT)
+- **Actor / zona:** campo; copia física CID 20787 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Clockwork Knight propia, Máquina con ATK <=1000 en propio GY, otra Máquina propia sacrificable.
+- **Coste:** Sacrificar otra Máquina propia al resolver, no la copia Knight.
+- **Objetivo y selección:** Target Máquina GY ATK <=1000 al activar.
+- **Resolución y estado posterior:** Invocar objetivo en Defensa si sigue válido y se sacrificó.
+- **Límite / cadena:** Cada efecto una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin otra Máquina para tributar o sin objetivo GY elegible.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P051` positivo condicional: antes campo, Clockwork Knight propia, Máquina con ATK <=1000 en propio GY, otra Máquina propia sacrificable; acción target-gy-low-atk-machine-tribute-revive; después Invocar objetivo en Defensa si sigue válido y se sacrificó; coste Sacrificar otra Máquina propia al resolver, no la copia Knight. `677:A05:N051` negativo: Sin otra Máquina para tributar o sin objetivo GY elegible; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 52. `677:a05:11765:xyz-three-light-level6-machines` — CID 11765 (PRO)
+- **Actor / zona:** Extra; copia física CID 11765 del inventario real 677.
+- **Ventana:** Invocación Xyz propia legal.
+- **Guarda física:** Tres Máquinas LUZ Nivel 6 disponibles simultáneamente, zona libre.
+- **Coste:** Apilar materiales Xyz por procedimiento.
+- **Objetivo y selección:** Elegir exactamente tres Level6 LIGHT Machines.
+- **Resolución y estado posterior:** Invocar Infinity mediante Xyz regular, con tres materiales y sin activar cadena.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** No hay tres Máquinas LUZ Nivel6; lista propia no demuestra esta línea.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P052` positivo condicional: antes Extra, Tres Máquinas LUZ Nivel 6 disponibles simultáneamente, zona libre; acción xyz-three-light-level6-machines; después Invocar Infinity mediante Xyz regular, con tres materiales y sin activar cadena; coste Apilar materiales Xyz por procedimiento. `677:A05:N052` negativo: No hay tres Máquinas LUZ Nivel6; lista propia no demuestra esta línea; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 53. `677:a05:11765:alternative-xyz-on-nova` — CID 11765 (PRO)
+- **Actor / zona:** Extra; copia física CID 11765 del inventario real 677.
+- **Ventana:** Invocación Xyz propia legal.
+- **Guarda física:** Controlas Cyber Dragon Nova real; Infinity en Extra, zona legal.
+- **Coste:** Superponer Nova como material y transferir sus materiales.
+- **Objetivo y selección:** Elegir Nova propia físicamente en Campo.
+- **Resolución y estado posterior:** Invocar Infinity usando Nova, conservar sus materiales como corresponde.
+- **Límite / cadena:** Una vez por turno para modo alternativo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Nova no está en Campo, solo en GY/Extra, o Infinity no puede Invocarse.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P053` positivo condicional: antes Extra, Controlas Cyber Dragon Nova real; Infinity en Extra, zona legal; acción alternative-xyz-on-nova; después Invocar Infinity usando Nova, conservar sus materiales como corresponde; coste Superponer Nova como material y transferir sus materiales. `677:A05:N053` negativo: Nova no está en Campo, solo en GY/Extra, o Infinity no puede Invocarse; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 54. `677:a05:11765:continuous-atk-per-material` — CID 11765 (CONT)
+- **Actor / zona:** campo; copia física CID 11765 del inventario real 677.
+- **Ventana:** Mientras Infinity Xyz boca arriba.
+- **Guarda física:** Número real de materiales acoplados a Infinity conocido.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Gana 200 ATK por cada material actual; recalcular tras desacople.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Materiales ya se desacoplaron y no aportan ATK.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P054` positivo condicional: antes campo, Número real de materiales acoplados a Infinity conocido; acción continuous-atk-per-material; después Gana 200 ATK por cada material actual; recalcular tras desacople; coste Sin coste. `677:A05:N054` negativo: Materiales ya se desacoplaron y no aportan ATK; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 55. `677:a05:11765:main-target-faceup-attack-attach` — CID 11765 (ACT)
+- **Actor / zona:** campo; copia física CID 11765 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Infinity boca arriba, monstruo cara arriba en Posición de Ataque en Campo.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Target a un monstruo boca arriba Ataque.
+- **Resolución y estado posterior:** Adjuntar ese monstruo como material Xyz al resolver si es legal.
+- **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Contraejemplo:** Solo Defensa/boca abajo o target abandonó campo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P055` positivo condicional: antes campo, Infinity boca arriba, monstruo cara arriba en Posición de Ataque en Campo; acción main-target-faceup-attack-attach; después Adjuntar ese monstruo como material Xyz al resolver si es legal; coste Sin coste. `677:A05:N055` negativo: Solo Defensa/boca abajo o target abandonó campo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 56. `677:a05:11765:quick-detach-negate-activation` — CID 11765 (QCK)
+- **Actor / zona:** campo; copia física CID 11765 del inventario real 677.
+- **Ventana:** Respuesta a activación real de carta o efecto.
+- **Guarda física:** Infinity boca arriba con material desacoplable, ventana de cadena legal.
+- **Coste:** Desacoplar un material Xyz al activar.
+- **Objetivo y selección:** Responder eslabón rival observado, sin target.
+- **Resolución y estado posterior:** Negar ACTIVACIÓN y destruir carta activada si corresponde; material ya permanece en GY.
+- **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Contraejemplo:** Infinity sin material o efecto que no puede responderse.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P056` positivo condicional: antes campo, Infinity boca arriba con material desacoplable, ventana de cadena legal; acción quick-detach-negate-activation; después Negar ACTIVACIÓN y destruir carta activada si corresponde; material ya permanece en GY; coste Desacoplar un material Xyz al activar. `677:A05:N056` negativo: Infinity sin material o efecto que no puede responderse; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 57. `677:a05:10870:xyz-two-level5-machine` — CID 10870 (PRO)
+- **Actor / zona:** Extra; copia física CID 10870 del inventario real 677.
+- **Ventana:** Invocación Xyz propia legal.
+- **Guarda física:** Dos Máquinas Nivel5 simultáneas en MZ propia, Nova disponible en Extra.
+- **Coste:** Apilar dos cuerpos como materiales.
+- **Objetivo y selección:** Elegir dos Máquinas Nivel5 reales.
+- **Resolución y estado posterior:** Invocar Cyber Dragon Nova Rango5 con dos materiales.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Solo un Nivel5 Máquina o bloqueo a Sincronías Máquina.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P057` positivo condicional: antes Extra, Dos Máquinas Nivel5 simultáneas en MZ propia, Nova disponible en Extra; acción xyz-two-level5-machine; después Invocar Cyber Dragon Nova Rango5 con dos materiales; coste Apilar dos cuerpos como materiales. `677:A05:N057` negativo: Solo un Nivel5 Máquina o bloqueo a Sincronías Máquina; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 58. `677:a05:10870:detach-target-cyberdragon-revive` — CID 10870 (ACT)
+- **Actor / zona:** campo; copia física CID 10870 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Nova Xyz con material y Cyber Dragon en GY propio.
+- **Coste:** Desacoplar material Xyz al activar.
+- **Objetivo y selección:** Target Cyber Dragon GY al activar.
+- **Resolución y estado posterior:** Invocar el Cyber Dragon GY señalado si permanece legal.
+- **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA: lista 677 no contiene Cyber Dragon en Main.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P058` positivo condicional: antes campo, Nova Xyz con material y Cyber Dragon en GY propio; acción detach-target-cyberdragon-revive; después Invocar el Cyber Dragon GY señalado si permanece legal; coste Desacoplar material Xyz al activar. `677:A05:N058` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 59. `677:a05:10870:quick-banish-cyberdragon-boost2100` — CID 10870 (QCK)
+- **Actor / zona:** campo; copia física CID 10870 del inventario real 677.
+- **Ventana:** Ventana rápida legal.
+- **Guarda física:** Nova boca arriba y Cyber Dragon en mano o propio campo boca arriba.
+- **Coste:** Desterrar Cyber Dragon mano/campo al activar.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Nova gana 2100 ATK hasta fin de turno.
+- **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA: lista 677 no contiene Cyber Dragon como recurso propio.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P059` positivo condicional: antes campo, Nova boca arriba y Cyber Dragon en mano o propio campo boca arriba; acción quick-banish-cyberdragon-boost2100; después Nova gana 2100 ATK hasta fin de turno; coste Desterrar Cyber Dragon mano/campo al activar. `677:A05:N059` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon como recurso propio; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 60. `677:a05:10870:sent-gy-by-opponent-fusion-machine` — CID 10870 (TRG)
+- **Actor / zona:** campo→GY; copia física CID 10870 del inventario real 677.
+- **Ventana:** Tras llegar Nova propia al GY por efecto de oponente.
+- **Guarda física:** Nova en tu posesión enviada a tu GY por efecto rival, Máquina Fusión en Extra.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir Fusión Máquina de Extra al resolver.
+- **Resolución y estado posterior:** Invocar Especial la Fusión Máquina si es legal.
+- **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA: 677 no tiene una Fusión Máquina en Extra.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P060` positivo condicional: antes campo→GY, Nova en tu posesión enviada a tu GY por efecto rival, Máquina Fusión en Extra; acción sent-gy-by-opponent-fusion-machine; después Invocar Especial la Fusión Máquina si es legal; coste Sin coste. `677:A05:N060` negativo: NO_APLICA: 677 no tiene una Fusión Máquina en Extra; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 61. `677:a05:12157:synchro-level5-materials` — CID 12157 (PRO)
+- **Actor / zona:** Extra; copia física CID 12157 del inventario real 677.
+- **Ventana:** Invocación Sincronía legal.
+- **Guarda física:** Cantante y uno o más no Cantantes propios con suma Nivel5, zona válida.
+- **Coste:** Enviar materiales según procedimiento.
+- **Objetivo y selección:** Elegir los materiales reales.
+- **Resolución y estado posterior:** Invocar Hagoita por Sincronía, sin disponer todavía de negación.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Niveles no suman cinco o falta Cantante.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P061` positivo condicional: antes Extra, Cantante y uno o más no Cantantes propios con suma Nivel5, zona válida; acción synchro-level5-materials; después Invocar Hagoita por Sincronía, sin disponer todavía de negación; coste Enviar materiales según procedimiento. `677:A05:N061` negativo: Niveles no suman cinco o falta Cantante; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 62. `677:a05:12157:quick-tribute-increase-all-levels` — CID 12157 (QCK)
+- **Actor / zona:** campo; copia física CID 12157 del inventario real 677.
+- **Ventana:** Ventana rápida en cualquier turno.
+- **Guarda física:** Hagoita boca arriba y monstruos en Campo cuyos niveles puedan alterarse.
+- **Coste:** Tributar Hagoita al activar.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Aumentar en uno Nivel de monstruos actualmente en Campo hasta final de turno.
+- **Límite / cadena:** Sin OPT expreso para este efecto; naturaleza con activación de cadena.
+- **Contraejemplo:** Hagoita no está en Campo o no puede ser tributada.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P062` positivo condicional: antes campo, Hagoita boca arriba y monstruos en Campo cuyos niveles puedan alterarse; acción quick-tribute-increase-all-levels; después Aumentar en uno Nivel de monstruos actualmente en Campo hasta final de turno; coste Tributar Hagoita al activar. `677:A05:N062` negativo: Hagoita no está en Campo o no puede ser tributada; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 63. `677:a05:12157:gy-speedroid-tuner-special` — CID 12157 (ACT)
+- **Actor / zona:** GY; copia física CID 12157 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Hagoita en GY y controlas Cantante Velociroid; zona libre.
+- **Coste:** Sin coste previo.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Invocar Hagoita del GY y bloquear otras Invocaciones que no sean VIENTO este turno.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA: lista 677 no incluye Cantante Velociroid.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P063` positivo condicional: antes GY, Hagoita en GY y controlas Cantante Velociroid; zona libre; acción gy-speedroid-tuner-special; después Invocar Hagoita del GY y bloquear otras Invocaciones que no sean VIENTO este turno; coste Sin coste previo. `677:A05:N063` negativo: NO_APLICA: lista 677 no incluye Cantante Velociroid; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 64. `677:a05:13826:xyz-two-level8` — CID 13826 (PRO)
+- **Actor / zona:** Extra; copia física CID 13826 del inventario real 677.
+- **Ventana:** Invocación Xyz propia.
+- **Guarda física:** Dos monstruos Nivel8 físicos simultáneos, zona válida.
+- **Coste:** Adjuntar los dos materiales.
+- **Objetivo y selección:** Elegir los dos Nivel8 (habitualmente Amset/Hapi).
+- **Resolución y estado posterior:** Invocar Número 90 Rango8 con dos materiales, no ambos Xyz a la vez.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Solo un Horus real o nivel/campo incorrecto.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P064` positivo condicional: antes Extra, Dos monstruos Nivel8 físicos simultáneos, zona válida; acción xyz-two-level8; después Invocar Número 90 Rango8 con dos materiales, no ambos Xyz a la vez; coste Adjuntar los dos materiales. `677:A05:N064` negativo: Solo un Horus real o nivel/campo incorrecto; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 65. `677:a05:13826:continuous-photon-material-protection` — CID 13826 (CONT)
+- **Actor / zona:** campo; copia física CID 13826 del inventario real 677.
+- **Ventana:** Mientras Número90 tiene carta Fotón como material.
+- **Guarda física:** Xyz Número90 posee al menos una carta Fotón como material.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** No puede ser destruido por efectos de cartas mientras condición verdadera.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** NO_APLICA con dos materiales Horus: ninguno es Fotón, falta esa protección.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P065` positivo condicional: antes campo, Xyz Número90 posee al menos una carta Fotón como material; acción continuous-photon-material-protection; después No puede ser destruido por efectos de cartas mientras condición verdadera; coste Sin coste. `677:A05:N065` negativo: NO_APLICA con dos materiales Horus: ninguno es Fotón, falta esa protección; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 66. `677:a05:13826:quick-detach-negate-opponent-monster` — CID 13826 (QCK)
+- **Actor / zona:** campo; copia física CID 13826 del inventario real 677.
+- **Ventana:** Respuesta a activación de efecto de monstruo rival.
+- **Guarda física:** Número90 con material y eslabón de monstruo rival real.
+- **Coste:** Desacoplar un material Xyz al activar.
+- **Objetivo y selección:** Responder al efecto activado de monstruo rival.
+- **Resolución y estado posterior:** Negar EFECTO del monstruo y destruir solo si material desacoplado era Galaxy.
+- **Límite / cadena:** Cada uno de los efectos siguientes una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Material Horus no es Galaxy, así que negar no implica destruir; sin material no activar.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P066` positivo condicional: antes campo, Número90 con material y eslabón de monstruo rival real; acción quick-detach-negate-opponent-monster; después Negar EFECTO del monstruo y destruir solo si material desacoplado era Galaxy; coste Desacoplar un material Xyz al activar. `677:A05:N066` negativo: Material Horus no es Galaxy, así que negar no implica destruir; sin material no activar; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 67. `677:a05:13826:opponent-turn-get-photon-galaxy` — CID 13826 (QCK)
+- **Actor / zona:** campo; copia física CID 13826 del inventario real 677.
+- **Ventana:** Durante turno rival en ventana rápida.
+- **Guarda física:** Número90 en Campo, carta Fotón o Galaxia en Main Deck.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir Fotón/Galaxia en Deck al resolver.
+- **Resolución y estado posterior:** Añadir a mano O acoplar como material, sin ambas modalidades.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** NO_APLICA: lista 677 no contiene cartas Fotón/Galaxia en Main.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P067` positivo condicional: antes campo, Número90 en Campo, carta Fotón o Galaxia en Main Deck; acción opponent-turn-get-photon-galaxy; después Añadir a mano O acoplar como material, sin ambas modalidades; coste Sin coste. `677:A05:N067` negativo: NO_APLICA: lista 677 no contiene cartas Fotón/Galaxia en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 68. `677:a05:16850:xyz-level8-opponent-owned-conversion` — CID 16850 (PRO)
+- **Actor / zona:** Extra; copia física CID 16850 del inventario real 677.
+- **Ventana:** Invocación Xyz legal.
+- **Guarda física:** Dos o más monstruos Nivel8 propios, o monstruo de Nivel cuyo dueño original es rival tratado como Nivel8.
+- **Coste:** Adjuntar materiales según procedimiento.
+- **Objetivo y selección:** Seleccionar monstruos físicos adecuados.
+- **Resolución y estado posterior:** Invocar Vampiro Zombi sin cambiar de dueños ni crear copias.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Materiales no cumplen nivel y ninguna carta rival controlada sirve.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P068` positivo condicional: antes Extra, Dos o más monstruos Nivel8 propios, o monstruo de Nivel cuyo dueño original es rival tratado como Nivel8; acción xyz-level8-opponent-owned-conversion; después Invocar Vampiro Zombi sin cambiar de dueños ni crear copias; coste Adjuntar materiales según procedimiento. `677:A05:N068` negativo: Materiales no cumplen nivel y ninguna carta rival controlada sirve; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 69. `677:a05:16850:continuous-nontarget-special-summon-protect` — CID 16850 (CONT)
+- **Actor / zona:** campo; copia física CID 16850 del inventario real 677.
+- **Ventana:** Mientras Vampiro Zombi boca arriba.
+- **Guarda física:** Efecto que trata de seleccionarlo proviene de monstruo Invocado Especial que NO vino del GY.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target propio.
+- **Resolución y estado posterior:** No puede ser elegido objetivo de esos efectos; no equivale a inmunidad general.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Efecto procede de monstruo Invocado desde GY, excepción permite target.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P069` positivo condicional: antes campo, Efecto que trata de seleccionarlo proviene de monstruo Invocado Especial que NO vino del GY; acción continuous-nontarget-special-summon-protect; después No puede ser elegido objetivo de esos efectos; no equivale a inmunidad general; coste Sin coste. `677:A05:N069` negativo: Efecto procede de monstruo Invocado desde GY, excepción permite target; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 70. `677:a05:16850:detach-mill-four-each-special` — CID 16850 (ACT)
+- **Actor / zona:** campo; copia física CID 16850 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Vampiro Zombi con material, ambos Deck tienen cartas para envío y posible monstruo resultante.
+- **Coste:** Desacoplar uno de sus materiales al activar.
+- **Objetivo y selección:** Sin target al activar; elegir monstruo enviado por este efecto al resolver.
+- **Resolución y estado posterior:** Cada jugador manda cuatro cartas superiores al GY; si mandó monstruo, opcionalmente Invocar uno de esos monstruos a tu Campo.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Vampiro sin material o ninguno de los ocho enviados fue monstruo; no inventar extensor.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P070` positivo condicional: antes campo, Vampiro Zombi con material, ambos Deck tienen cartas para envío y posible monstruo resultante; acción detach-mill-four-each-special; después Cada jugador manda cuatro cartas superiores al GY; si mandó monstruo, opcionalmente Invocar uno de esos monstruos a tu Campo; coste Desacoplar uno de sus materiales al activar. `677:A05:N070` negativo: Vampiro sin material o ninguno de los ocho enviados fue monstruo; no inventar extensor; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 71. `677:a05:13360:synchro-level7-materials` — CID 13360 (PRO)
+- **Actor / zona:** Extra; copia física CID 13360 del inventario real 677.
+- **Ventana:** Invocación Sincronía propia.
+- **Guarda física:** Un Cantante y uno o más no Cantantes con Niveles sumando 7.
+- **Coste:** Materiales usados se envían según invocación.
+- **Objetivo y selección:** Elegir materiales reales.
+- **Resolución y estado posterior:** Invocar Destructor Samurái como Sincronía.
+- **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Faltan Cantante/no Cantante o niveles no suman siete.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P071` positivo condicional: antes Extra, Un Cantante y uno o más no Cantantes con Niveles sumando 7; acción synchro-level7-materials; después Invocar Destructor Samurái como Sincronía; coste Materiales usados se envían según invocación. `677:A05:N071` negativo: Faltan Cantante/no Cantante o niveles no suman siete; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 72. `677:a05:13360:continuous-battle-lock-opponent` — CID 13360 (CONT)
+- **Actor / zona:** campo; copia física CID 13360 del inventario real 677.
+- **Ventana:** Durante batalla de Destructor Samurái contra monstruo rival.
+- **Guarda física:** Samurái propio combate con monstruo rival; ventana hasta final Damage Step.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Rival no activa cartas/efectos hasta final Damage Step y el monstruo combatido tiene efectos negados durante Battle Phase.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** No es batalla de Samurai contra monstruo enemigo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P072` positivo condicional: antes campo, Samurái propio combate con monstruo rival; ventana hasta final Damage Step; acción continuous-battle-lock-opponent; después Rival no activa cartas/efectos hasta final Damage Step y el monstruo combatido tiene efectos negados durante Battle Phase; coste Sin coste. `677:A05:N072` negativo: No es batalla de Samurai contra monstruo enemigo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 73. `677:a05:13360:left-field-by-opponent-effect-revive-machine` — CID 13360 (TRG)
+- **Actor / zona:** campo→otra zona; copia física CID 13360 del inventario real 677.
+- **Ventana:** Al salir Samurai boca arriba y controlado por su dueño debido a efecto rival.
+- **Guarda física:** Samurai propio fue retirado por efecto rival, Máquina propia válida en GY.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Target Máquina del GY propio al activar.
+- **Resolución y estado posterior:** Invocar objetivo si es legal, sin requerir destrucción de Samurai.
+- **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Contraejemplo:** No salió por efecto rival o Máquina elegible ausente en GY.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P073` positivo condicional: antes campo→otra zona, Samurai propio fue retirado por efecto rival, Máquina propia válida en GY; acción left-field-by-opponent-effect-revive-machine; después Invocar objetivo si es legal, sin requerir destrucción de Samurai; coste Sin coste. `677:A05:N073` negativo: No salió por efecto rival o Máquina elegible ausente en GY; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 74. `677:a05:17746:fusion-two-same-type-attr-diffnames` — CID 17746 (PRO)
+- **Actor / zona:** Extra; copia física CID 17746 del inventario real 677.
+- **Ventana:** Invocación por Fusión con carta/effecto habilitador.
+- **Guarda física:** Dos monstruos del mismo Tipo y Atributo, con nombres diferentes, materiales de zona legal.
+- **Coste:** Mover materiales en resolución de Fusión habilitadora.
+- **Objetivo y selección:** Seleccionar dos monstruos con tipo/atributo iguales y nombres diferentes.
+- **Resolución y estado posterior:** Invocar Garura, no con cualquier par genérico.
+- **Límite / cadena:** Procedimiento dependiente de activación ajena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Dos materiales comparten nombre o no comparten Tipo/Atributo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P074` positivo condicional: antes Extra, Dos monstruos del mismo Tipo y Atributo, con nombres diferentes, materiales de zona legal; acción fusion-two-same-type-attr-diffnames; después Invocar Garura, no con cualquier par genérico; coste Mover materiales en resolución de Fusión habilitadora. `677:A05:N074` negativo: Dos materiales comparten nombre o no comparten Tipo/Atributo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 75. `677:a05:17746:continuous-double-battle-damage` — CID 17746 (CONT)
+- **Actor / zona:** campo; copia física CID 17746 del inventario real 677.
+- **Ventana:** En batalla que involucra Garura.
+- **Guarda física:** Garura propia participa en batalla y rival recibe daño real.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Duplicar daño de batalla que recibe rival en esa batalla.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Sin daño de batalla al rival, no duplicar cero en daño inventado.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P075` positivo condicional: antes campo, Garura propia participa en batalla y rival recibe daño real; acción continuous-double-battle-damage; después Duplicar daño de batalla que recibe rival en esa batalla; coste Sin coste. `677:A05:N075` negativo: Sin daño de batalla al rival, no duplicar cero en daño inventado; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 76. `677:a05:17746:sent-to-gy-draw-one` — CID 17746 (TRG)
+- **Actor / zona:** cualquier zona→GY; copia física CID 17746 del inventario real 677.
+- **Ventana:** Tras ser enviada Garura al GY desde zona válida.
+- **Guarda física:** Garura fue enviada físicamente al GY y disparo disponible.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Robar una carta superior desconocida de Deck al resolver.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Garura no llegó al GY o efecto ya gastado.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P076` positivo condicional: antes cualquier zona→GY, Garura fue enviada físicamente al GY y disparo disponible; acción sent-to-gy-draw-one; después Robar una carta superior desconocida de Deck al resolver; coste Sin coste. `677:A05:N076` negativo: Garura no llegó al GY o efecto ya gastado; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 77. `677:a05:13454:fusion-two-same-attr-diff-types` — CID 13454 (PRO)
+- **Actor / zona:** Extra; copia física CID 13454 del inventario real 677.
+- **Ventana:** Fusión legal.
+- **Guarda física:** Dos monstruos mismo Atributo y diferente Tipo con carta/efecto Fusión que permita usar materiales.
+- **Coste:** Consumir materiales al resolver Fusión.
+- **Objetivo y selección:** Elegir dos materiales concretos de igual Atributo y distinto Tipo.
+- **Resolución y estado posterior:** Invocar Mudragon; no exigir mismo Tipo como Garura.
+- **Límite / cadena:** Sin cadena propia de material; naturaleza sin activación de cadena.
+- **Contraejemplo:** Ambos materiales comparten Tipo o atributos diferentes.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P077` positivo condicional: antes Extra, Dos monstruos mismo Atributo y diferente Tipo con carta/efecto Fusión que permita usar materiales; acción fusion-two-same-attr-diff-types; después Invocar Mudragon; no exigir mismo Tipo como Garura; coste Consumir materiales al resolver Fusión. `677:A05:N077` negativo: Ambos materiales comparten Tipo o atributos diferentes; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 78. `677:a05:13454:continuous-attribute-target-protection` — CID 13454 (CONT)
+- **Actor / zona:** campo; copia física CID 13454 del inventario real 677.
+- **Ventana:** Mientras Mudragon en Campo.
+- **Guarda física:** Mudragon boca arriba y monstruos con mismo Atributo actual en Campo.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Rival no puede seleccionar Mudragon ni monstruos con mismo Atributo mediante efectos de cartas.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Mudragon ausente o efecto no selecciona objetivo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P078` positivo condicional: antes campo, Mudragon boca arriba y monstruos con mismo Atributo actual en Campo; acción continuous-attribute-target-protection; después Rival no puede seleccionar Mudragon ni monstruos con mismo Atributo mediante efectos de cartas; coste Sin coste. `677:A05:N078` negativo: Mudragon ausente o efecto no selecciona objetivo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 79. `677:a05:13454:quick-declare-change-attribute` — CID 13454 (QCK)
+- **Actor / zona:** campo; copia física CID 13454 del inventario real 677.
+- **Ventana:** Ventana rápida legal.
+- **Guarda física:** Mudragon boca arriba y atributo legal declarado.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Declarar un Atributo, no target.
+- **Resolución y estado posterior:** Cambiar el Atributo de Mudragon hasta fin del turno; protección se recalcula.
+- **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Contraejemplo:** Mudragon no está en Campo o efecto ya se usó.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P079` positivo condicional: antes campo, Mudragon boca arriba y atributo legal declarado; acción quick-declare-change-attribute; después Cambiar el Atributo de Mudragon hasta fin del turno; protección se recalcula; coste Sin coste. `677:A05:N079` negativo: Mudragon no está en Campo o efecto ya se usó; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
 <!-- A05_EFFECTS_END -->
 
 ### A06.0 — Cómo cooperan las cartas en 30 segundos
