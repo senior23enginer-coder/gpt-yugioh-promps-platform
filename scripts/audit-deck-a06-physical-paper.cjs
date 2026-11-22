@@ -134,7 +134,10 @@ function audit({deckId,userAssigned,packageFile,markdownFile}){
     state_before:{turn:active==='self'?1:2,active,phase:bad.phase,
      window:bad.event,chain:[],used_effects:[],known_cards:bad.cards,
      unknown_cards:'not_inferred',spatial_verified:false},
-    expected_legal:false,expected_costs:[],expected_events:[],
+    expected_legal:bad.category==='absent_resource'?null:false,
+    expected_relation_available:false,
+    legal_interpretation:bad.category==='absent_resource'?'RELACION_ESPECIFICA_NO_DISPONIBLE; OTRO EFECTO PODRIA SER LEGAL':'ACTIVACION_O_DISPARO_NO_DISPONIBLE',
+    expected_costs:[],expected_events:[],
     expected_state_after:{known_cards:bad.cards,spatial_verified:false},
     reason:bad.category,status:'CONDICIONAL'}
   });
@@ -145,6 +148,8 @@ function audit({deckId,userAssigned,packageFile,markdownFile}){
   identities:inventory.size,relations:records.length,typedCases:ids.length,
   physicalZoneTransitionsChecked:movements,costTransitionsChecked:costs,
   sideOnlyCardsInLegalPostSideContext:side,
+  negativeCasesWithoutPrematureIllegality:records.filter(x=>x.negative.expected_legal===null).length,
+  negativeCasesWithInvalidTimingOrTrigger:records.filter(x=>x.negative.expected_legal===false).length,
   exactSpatialSlotsCertified:false,independentEffectSemanticsVerified:false,
   calculatorExecuted:false};
 }
