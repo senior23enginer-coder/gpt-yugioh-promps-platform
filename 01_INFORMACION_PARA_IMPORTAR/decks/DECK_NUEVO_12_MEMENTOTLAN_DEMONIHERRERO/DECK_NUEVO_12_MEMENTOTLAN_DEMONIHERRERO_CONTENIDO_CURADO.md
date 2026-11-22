@@ -1361,6 +1361,36 @@ A05-T1 se cerró por evidencias efectivas de las 39 fichas de rol/función, foto
 - **Estado posterior esperado:** Tras éxito: No se puede negar la activación ni el efecto de esta carta; aún hay que satisfacer todas las guardas y pagar recursos; costes y desplazamientos previos consumidos, sin inventar recursos.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en
 
+### A05.7b — acta de certificación semántica A05-T3 y contrapruebas de interpretación (22-11-2026)
+
+**Cierre formal del entregable A05-T3, alcance documental:** exclusivamente Memento 671, 39 CIDs auténticos, Main 41 / Extra 15 / Side 14 / Reserva 0. Se reconciliaron 94 effect_id A05.6, los 94 bloques A05.7 (752 campos actor/zona, ventana, coste, selección, resolución, límite/negación, estado posterior y fuente), y las 94 filas A07.7. Se cotejó el texto TCG de las 39 identidades en Konami Neuron mediante sus enlaces `cid` oficiales. Cada cláusula queda clasificada con un tipo de cadena y con las fases de pago y selección; no se agregaron variantes al motor.
+
+| Dimensión reglamentaria | Resultado verificado | Control |
+|---|---:|---|
+| A05.6 / A05.7 / A07.7 enlazadas por efecto y CID | 94/94 | Se rechaza actor ajeno, fuente CID cruzada o efecto ausente |
+| Campos causales no vacíos con fuente oficial | 752/752 | 8 por cláusula; no son 752 pruebas de duelo |
+| Activaciones de efecto/carta | 43 | Cadena activada, posible pago y respuesta |
+| Efectos disparados | 21 | Cadena tras evento observable, no procedimiento sin cadena |
+| Cláusulas sin activación | 30 | 17 procedimientos, 12 efectos continuos/restricciones y 1 mantenimiento |
+| Pagos efectuados al activar | 22 | Banderas independientes; no contar destrucción/fusión en resolución como coste |
+| Objetivos elegidos al activar | 20 | No convertir `choose` en targeting |
+| Efectos con soft OPT por copia comprobado | 5 | No imponer HOPT por nombre si no está escrito |
+| Reglas con invariantes específicos de fuente | 48 | Guardas independientes de ventana, costes, resolución, OPT y destino |
+
+**Correcciones surgidas del cotejo oficial:**
+
+- **Creación Combinada (CID 19360):** el efecto disparado por activación rival empieza `Once per turn`; se verifica como soft OPT por copia boca arriba, **no** como `You can only use this effect ... once per turn`. El procedimiento de cinco otros nombres diferentes permanece separado de ese disparo.
+- **TY-PHON (CID 19184):** el procedimiento Xyz alternativo funciona durante el turno en que el rival Invocó al menos dos monstruos desde Extra **o durante el turno siguiente**; transfiere materiales, bloquea Invocaciones restantes y no abre un eslabón.
+- **Fusión Mementotlán (CID 19904):** la Fusión incluye al menos un Memento, pero no obliga a que **todos** los materiales de mano/campo sean Memento. Solo permite monstruos Memento del GY como materiales adicionales si un monstruo **en tu posesión** fue destruido por efecto este turno; barajar esos materiales ocurre en la resolución de la Fusión, no al activar como coste.
+- **Quimera Guardián (CID 16845):** requisito de tres nombres distintos, al menos uno en mano y uno en campo, con uso exclusivo de mano/campo. Si fue Invocada por carta/efecto de Mágica, roba exactamente el número de materiales de mano y, si lo consigue, destruye exactamente el número de cartas rivales derivado de los materiales del campo. No selecciona objetivos al activar; los robos tienen identidad desconocida.
+- **Gordiano (CID 21203):** los objetivos boca arriba se fijan al activar; los recursos de mano/Extra boca abajo se destierran **durante resolución**, no como pago previo, y el texto impide negar tanto activación como efecto; no se infiere inmunidad a toda interacción ni disponibilidad de recursos inexistentes.
+- **S:P, Réquiem, Mementomictlán, Lancea y Princesa:** se conservan el retorno en End Phase tras destierro temporal, ausencia de OPT propio del Sacrificio rápido de Réquiem, OPT de Colocar por copia de la Mágica de Campo, turno rival exclusivo de Lancea y requisito de envío de monstruo desde **mano** al GY para activar una carta/efecto de Princesa.
+
+**Prueba reproducible:** `node scripts/audit-deck-a05-semantic-psct.cjs --deck-id=671 --user-assigned datos/stationx-deck.json DECK_..._CONTENIDO_CURADO.md` (rutas completas desde raíz). GitHub Actions [#45057737836](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45057737836) **SUCCESS** con auditor de 94 cláusulas y pruebas preexistentes. El censo validado fue `activated=43, triggered=21, notActivated=30, activationCost=22, activationTargets=20, softOpt=5, highRisk=48, semanticFields=752`. Los anteriores recuentos históricos de 44 activaciones/12 no activadas se corrigen aquí por desglose reproducible 43/21/30 sin cambiar la identidad de ninguna cláusula.
+
+**Límites estrictos:** este cierre documental independiente cubre **la descripción semántica de los efectos**. No certifica todavía los **188 casos A05.8**, de los cuales el último corte sigue sin `VERIFICADO`, ni todas las decisiones de legalidad de una partida, ni replays de motor. Esas obligaciones se reservan intactas a **A05-T4**. No se crea ni ejecuta A10B, no se cambia el mazo, no se autorizan merge ni deploy.
+
+---
 ### A05.8 — ejemplos declarativos de estado y fallo cerrado (control de papel inicial)
 
 **Alcance:** se conservan 8 pares críticos iniciales y se amplía la lista documental hasta **94 pares / 188 escenarios propuestos**, derivados de condiciones por CID. Estos ejemplos **no** simulan una partida y no suponen acciones ocultas del rival. Los negativos deben quedar **ilegales o sin efecto** por razones explícitas; los positivos dependen de ausencia de interrupciones no observadas. **Estado de cada caso: `CONDICIONAL_PENDIENTE_DE_ESQUEMA_Y_PRUEBA`**, no equivale a fixture ejecutado ni cierra A05-T4. La cobertura escrita ahora alcanza los 94 IDs A05.6, pero requiere verificación independiente de legalidad y `NO_APLICA` justificados antes de cerrar A05-T4.
@@ -2037,13 +2067,13 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 - [x] **A04-T3** Registrar mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba.
   - **Evidencia verificada:** auditor universal `scripts/audit-deck-visual-zone-links.cjs` pasó en [CI #44950442226](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44950442226): 39 CID, 40 slots, 359 referencias `img` en la guía (39 CID distintos), 12 rutas, 69 pasos, 155 vínculos de foto, 13 variantes ilustrativas con 54 ubicaciones declaradas por zona. `spatial_verified=false` en las 12 rutas; **cero posiciones exactas certificadas**: se preserva esa restricción para A09/A10A, sin inventarlas.
 
-### A05 — PENDIENTE de verificación bajo el contrato vigente
+### A05 — T1/T2/T3 CERRADAS EN SU ÁMBITO; T4 ABIERTA (3/4)
 - [x] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck.
   - **Evidencia verificada:** `scripts/audit-deck-card-profiles.cjs` pasó en [CI #44950612264](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44950612264): 39/39 identidades con `role`, `functional.purpose` y `functional.explanation` específicos y no vacíos; 39 URLs Konami concordantes por CID; 39 imágenes originales auténticas renovadas a 813 × 1185; 40 IDs de slot únicos; inventario físico 41/15/14/0, Reserva y Skill ausentes. Esta prueba no acredita por sí sola todos los efectos, ventanas ni casos lógicos.
 - [x] **A05-T2** Inventariar TODOS los efectos por effect_id estable: activado/disparo/continuo/reemplazo/procedimiento/Skill o NO_EFFECT justificado
   - **Evidencia verificada:** Censo A05.6 de **94 IDs documentales atribuidos sin duplicados a 39/39 CID**, tipos de activación, disparo, rápido, continuo, procedimiento, restricción y mantenimiento; URLs por CID a Konami Neuron; comprobación genérica `scripts/audit-deck-documental-effects.cjs` en CI [#44952626070](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/44952626070), más 39 textos originales recuperados por CID. Esta aceptación es **inventario documental**, no semántica completa por efecto (A05-T3), ni test de papel (A05-T4), ni operadores A10B.
-- [ ] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+- [x] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente
+  - **Evidencia:** 94/94 fichas A05.7 × 8 campos semánticos = **752 campos**, conciliadas por `effect_id` con el censo A05.6 y la matriz tipada A07.7. Un **oráculo de clasificación reglamentaria revisado de forma separada**, `scripts/audit-deck-a05-semantic-psct.cjs`, contrasta 94 modos de cadena, 22 pagos en activación, 20 targets de activación, 17 procedimientos, 1 mantenimiento y 5 limitaciones soft OPT, además de **48 efectos de alto riesgo** con exigencias concretas de fuente y semántica, detectando diferencias frente a textos Konami. Correctos: Creación Combinada soft OPT por copia, ventana TY-PHON turno actual/siguiente, Fusión con al menos un Memento y condición de destrucción de monstruo en posesión, y Quimera con cantidades exactas. **CI #45057737836: SUCCESS, 4/4 trabajos**. Se certifica **especificación documental semántica**, no ejecución del motor ni legalidad de 188 casos de A05-T4.
 - [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables
   - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
 
@@ -2103,7 +2133,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
   - **Evidencia reproducible CI:** validación del importador PHP real de Station X sobre ZIP de **43 archivos / 38.429.882 bytes**, con lectura del registro histórico Platform V40, previsualización mediante ygo_data_prepare, publicación nativa ygo_data_publish, relectura mediante ygo_data_current, comprobación de **12 rutas / 69 pasos / 23 imágenes de mano inicial / 198 fotos de paso / 442 referencias de imágenes resueltas**; versión previa inmutable, rechazo de publicación con token de revisión obsoleto y fuente ZIP archivada. Test `scripts/test-deck-a10a-import-roundtrip.php` ejecutado en directorio TEMPORAL; **no** en servidor público ni BD de producción. La prevalidación de 12 escenarios inválidos sigue incluida. Prueba Chromium con el **JavaScript y CSS reales del importador de Platform**: en escritorio 1366×900 y móvil 390×844 se abren el diálogo, estado, vista previa de 39 fichas/12 rutas, advertencia por campos ilustrativos, confirmación y regreso a la misma ficha; el frontend usa respuestas HTTP aisladas y el test PHP por separado verifica el backend real. El navegador también valida los 12 paneles A10 y 69 bloques reglamentarios; sin ejecución de calculadora. CI `#45056377420`: 4/4 trabajos SUCCESS. **Cierre de verificación en entorno aislado, no despliegue ni importación en cuenta real**.
 
 **A10B:** `NO_SOLICITADA` (A10B-T4/T5/T6 no ejecutadas ni contabilizadas en el denominador de 35).
-**Siguiente tarea pendiente:** A05-T3, certificar independientemente costes, ventanas, cadenas, targets, límites y transiciones causales de las 94 cláusulas documentadas; después A05-T4, validar casos positivos/negativos con estados físicos verificables. El censo A05-T2 ya está cerrado. Mantener inventario Main 41 / Extra 15 / Side 14 / Reserva 0, A10B no solicitada y PR sin merge/despliegue hasta el cierre transversal.
+**Siguiente tarea pendiente:** **A05-T4**, acreditar casos positivos y negativos con estados físicos completos y resoluciones independientes. A05-T3 está cerrada como especificación semántica documentada, sin convertir los 188 borradores A05.8 en ejecuciones. Mantener Main 41 / Extra 15 / Side 14 / Reserva 0, A10B no solicitada y PR sin merge/despliegue hasta el cierre transversal.
 
 ---
 
@@ -4924,7 +4954,7 @@ En la prueba Playwright sobre **`assets/modules/deck-data/ui.js` original de Pla
 
 **Dictamen:** A10A-T1/T2/T3 **3/3 cerradas en sus entregables de verificación documental e integración aislada**. Producción sin cambios: no hay prueba de credenciales, FTP, datos de cuenta o importación en el alojamiento público; todo despliegue/merge sigue fuera de este cierre y requiere las condiciones del proyecto. **A10B no solicitada, calculadora no ejecutada, 0 campos espaciales certificados.** La fuente V40 permanece histórica; el nuevo paquete corrigió las divergencias visuales y se volvió a leer después de su publicación temporal.
 
-**Censo canónico actualizado de las 35 casillas:** **33/35 [x]**; únicas pendientes **A05-T3 y A05-T4**. A10A **3/3**. PR #23 DRAFT/OPEN, sin merge, sin despliegue y sin modificación de Platform ni de otros decks.
+**Censo canónico actualizado de las 35 casillas:** **34/35 [x]**; única pendiente **A05-T4**. A05 **3/4**, A10A **3/3**. PR #23 DRAFT/OPEN, sin merge, sin despliegue y sin modificación de Platform ni de otros decks.
 
 ---
 ## ITERACIÓN 2 · Profundización verificable de A01–A10 (17-11-2026)
