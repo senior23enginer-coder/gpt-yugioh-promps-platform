@@ -30,6 +30,7 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
       - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a01-profile.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -71,6 +72,7 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
       - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a01-profile.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -110,6 +112,9 @@ jobs:
         run: node scripts/test-p06-golden-route-contract.cjs
       - name: Audit 40 protected legacy assertions and recorded source provenance
         run: node scripts/test-p06-legacy-assertion-inventory.cjs
+      - name: Certify assigned Crystron A01 identity, native profile and actual CID/route links
+        if: ${{ github.head_ref == 'analysis/crystron-677-a01-20261122' }}
+        run: node scripts/audit-deck-a01-profile.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Audit real image dimensions for explicitly assigned Memento 671
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
