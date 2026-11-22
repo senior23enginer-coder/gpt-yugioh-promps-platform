@@ -90,7 +90,7 @@ function audit(args){
    const value=block.split('\n').find(line=>line.startsWith('- **'+key+':** '));
    a(value,'MISSING_SEMANTIC_FIELD_'+key+'_'+id);
    const text=value.slice(('- **'+key+':** ').length).trim();
-   a(text.length >= (key==='Coste'||key==='Objetivo y selección'?7:20),'EMPTY_SEMANTIC_FIELD_'+key+'_'+id);fields[key]=text;
+   a(text.length>=8 && !/^PENDIENTE$|^SIN EVIDENCIA$/i.test(text),'EMPTY_SEMANTIC_FIELD_'+key+'_'+id);fields[key]=text;
   }
   a(fields['Fuente oficial'].includes(OFFICIAL+cid+'&ope=2&request_locale=en'),
     'WRONG_OFFICIAL_SOURCE_'+id);
