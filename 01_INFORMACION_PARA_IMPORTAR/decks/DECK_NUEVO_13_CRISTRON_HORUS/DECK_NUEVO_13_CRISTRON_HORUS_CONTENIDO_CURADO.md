@@ -1718,6 +1718,58 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 
 <!-- A05_EFFECTS_END -->
 
+### A05.3 — trazabilidad a A06 / A07 / A09 y brechas de certificación (22-11-2026)
+
+**Censo a nivel de texto oficial:** 39 identidades físicamente aprobadas, **92 cláusulas documentales A05.2** con actor, zona, ventana, guarda, coste, selección, resolución, límite, negación/recurso y fuente Konami CID exacta. Este inventario incluye procedimientos de invocación y efectos continuos sin cadena; no equivale a 92 efectos activables de calculadora. Los casos P/N inicialmente propuestos son **184**, con **7 exclusiones positivas `NO_APLICA_INVENTARIO_677`** que no deben convertirse en una recomendación legal.
+
+**Matriz de referencias reutilizables.** Cada identificador `A05.2` se enlaza por el CID de su actor a la única fila A06 `CRYH` existente. Se enumeran relaciones `Rxx`, controles `RGLxx` existentes de A07 cuando su fundamento es explícito, y rutas A09 cuando se encuentran atribuidas a esa identidad. `SIN_RUTA_IDENTIFICADA` no significa que la carta no tenga efectos: handtraps y respuestas del Side son recursos situacionales, no combos inventados. **El RGL vacío requiere estudio A07**, nunca se asigna una regla ajena.
+
+| Identidad CID / fila A06 | Cláusulas A05 | Relaciones A06 | Controles A07 explícitos | Rutas A09 vinculadas | Casos de papel |
+|---|---:|---|---|---|---:|
+| `20759` · CRYH-001 | 2 | `R04`, `R07`, `R19` | `RGL04` | `677:A09:C02`, `677:A09:C06`, `677:A09:C07`, `677:A09:V01` | 4 P/N condicionales |
+| `12608` · CRYH-002 | 2 | `R02`, `R03` | `RGL01`, `RGL03` | `677:A09:C01`, `677:A09:C02`, `677:A09:C06`, `677:A09:C07`, `677:A09:V03` | 4 P/N condicionales |
+| `20758` · CRYH-003 | 2 | `R07`, `R08` | `RGL05`, `RGL06`, `RGL15` | `677:A09:C03`, `677:A09:V01` | 4 P/N condicionales |
+| `12756` · CRYH-004 | 2 | `R12`, `R19` | `RGL11` | `677:A09:C06`, `677:A09:V01`, `677:A09:V03` | 4 P/N condicionales |
+| `12606` · CRYH-005 | 1 | `R06` | `RGL07` | `677:A09:C01`, `677:A09:C02`, `677:A09:V01` | 2 P/N condicionales |
+| `12609` · CRYH-006 | 2 | `R11` | `RGL02`, `RGL03` | `677:A09:C02` | 4 P/N condicionales |
+| `19153` · CRYH-007 | 3 | `R13`, `R14`, `R15` | `RGL10` | `677:A09:C04`, `677:A09:C05`, `677:A09:C07` | 6 P/N condicionales |
+| `19155` · CRYH-008 | 2 | `R14`, `R15` | `RGL10` | `677:A09:C04`, `677:A09:C05` | 4 P/N condicionales |
+| `12950` · CRYH-009 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `9279` · CRYH-010 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `20500` · CRYH-011 | 2 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 4 P/N condicionales |
+| `20206` · CRYH-012 | 2 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 4 P/N condicionales |
+| `20798` · CRYH-013 | 3 | `R01`, `R04`, `R05` | `RGL14` | `677:A09:C02`, `677:A09:C06`, `677:A09:C07`, `677:A09:V04` | 6 P/N condicionales |
+| `19200` · CRYH-014 | 3 | `R14` | `RGL10` | `677:A09:C04`, `677:A09:C05` | 6 P/N condicionales |
+| `7445` · CRYH-015 | 1 | `R17`, `R18` | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `15299` · CRYH-016 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `5236` · CRYH-017 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `20817` · CRYH-018 | 2 | `R21` | `RGL14` | SIN_RUTA_IDENTIFICADA | 4 P/N condicionales |
+| `13710` · CRYH-019 | 5 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 10 P/N condicionales |
+| `20778` · CRYH-020 | 4 | `R09`, `R10` | `RGL08` | `677:A09:C02`, `677:A09:C03` | 8 P/N condicionales |
+| `12781` · CRYH-021 | 3 | `R07` | `RGL09`, `RGL15` | `677:A09:V01` | 6 P/N condicionales |
+| `19188` · CRYH-022 | 3 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `20787` · CRYH-023 | 3 | `R20` | `RGL12` | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `11765` · CRYH-024 | 5 | `R19` | `RGL11` | `677:A09:C06` | 10 P/N condicionales |
+| `10870` · CRYH-025 | 4 | `R19` | `RGL11` | `677:A09:C06` | 8 P/N condicionales |
+| `12157` · CRYH-026 | 3 | `R06` | Sin RGL específico acreditado | `677:A09:C01` | 6 P/N condicionales |
+| `13826` · CRYH-027 | 4 | `R15` | `RGL11` | `677:A09:C04` | 8 P/N condicionales |
+| `16850` · CRYH-028 | 3 | `R16` | `RGL11` | `677:A09:C05` | 6 P/N condicionales |
+| `13360` · CRYH-029 | 3 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `17746` · CRYH-030 | 3 | `R17` | `RGL13` | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `13454` · CRYH-031 | 3 | `R18` | `RGL13` | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `9454` · CRYH-032 | 2 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 4 P/N condicionales |
+| `11243` · CRYH-033 | 3 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `11411` · CRYH-034 | 1 | Sin relación Rxx acreditada en ficha | `RGL14` | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `13619` · CRYH-035 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `15296` · CRYH-036 | 3 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 6 P/N condicionales |
+| `16868` · CRYH-037 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `11849` · CRYH-038 | 1 | Sin relación Rxx acreditada en ficha | Sin RGL específico acreditado | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+| `4861` · CRYH-039 | 1 | Sin relación Rxx acreditada en ficha | `RGL14` | SIN_RUTA_IDENTIFICADA | 2 P/N condicionales |
+
+**Puerta pendiente de A05-T4:** los casos P/N incluyen acción, coste, condición ausente y resultado condicional, pero **ninguno tiene todavía verificación independiente con estado físico íntegro antes/después, ventana/cadena y conservación de copias acreditadas caso a caso**. Estado: `0/184 CASO_LOGICO_VERIFICADO`. No atribuir replays ni certificar el motor por existir esta tabla. Para A05-T4, la siguiente acción es completar estados tipados y contrapruebas de negación/sin recurso para cada efecto, corrigiendo posibles rulings con fuente; no pasar automáticamente A05-T4 a `[x]`. 
+
+
+
 ### A06.0 — Cómo cooperan las cartas en 30 segundos
 
 1. **Dictamen:** Cristron prepara materiales y Sincronías en turno rival; Horus convierte Cementerio en Nivel 8 para Xyz. Además, la destrucción de Azufafnir permite usar Máquinas Nivel 5 para Nova/Infinito. Son salidas alternativas, no una cadena automática única.
