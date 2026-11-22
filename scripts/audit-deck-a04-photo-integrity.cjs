@@ -107,7 +107,7 @@ function run({deckId,packagePath,documentPath}){
  }
  assert.equal(routeIds.size,14);
  assert(doc.includes('### A04.2 — biblioteca HD')&&
-   doc.includes('### A04.3 — mapa de zonas'),
+   doc.includes('### A04.3 — mapa de disponibilidad y zonas'),
    'DOCUMENTARY_A04_EVIDENCE_MISSING');
  const ledgerStart=doc.indexOf('## CONTROL_DE_TAREAS_A01_A10 —');
  const ledgerEnd=doc.indexOf('\n---\n',ledgerStart);
