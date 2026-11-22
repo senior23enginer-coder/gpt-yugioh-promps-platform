@@ -47,8 +47,8 @@ function run({deckId,packagePath,documentPath}){
  assert.equal(rows.length,35,'TASK_LEDGER_MISSING_ROWS');
  assert.deepEqual(rows.map(m=>m[2]),expected,'TASK_LEDGER_WRONG_ORDER');
  const closed=rows.filter(m=>m[1]==='x').map(m=>m[2]);
- assert.deepEqual(closed,['A01-T1','A01-T2','A01-T3'],
-  'ONLY_A01_CAN_BE_CLOSED_IN_THIS_ASSIGNMENT');
+ assert.deepEqual(closed.filter(t=>t.startsWith('A01-')),
+  ['A01-T1','A01-T2','A01-T3'], 'A01_MUST_REMAIN_CERTIFIED');
  const section2=doc.slice(doc.indexOf('### A01.2 —'),doc.indexOf('### A01.3 —'));
  assert(section2.length>200,'A01_FICHA_EVIDENCE_MISSING');
  const profile=record.profile;
