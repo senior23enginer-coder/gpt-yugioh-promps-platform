@@ -424,6 +424,441 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 
 **Cotejo de cantidades:** Main 40 / Extra 15 / Side 15 / Reserva 0 = **70 copias en 39 identidades de este deck**. La identidad CRYH-012 tiene 2 Main + 1 Side; no sumar esa copia Side a la mano inicial ni inventar una cuarta.
 
+### A05.2 — censo causal preliminar por `effect_id` (fuentes Konami, deck 677)
+
+**Criterio:** separación explícita de efecto, procedimiento y restricción por `CID` en el inventario 39/39. Los casos P/N documentan hipótesis de papel, no ejecutables ni legalidad certificada. Se conservan las 13 variantes actuales del motor sin modificarlas. Los estados condicionales **no cierran A05-T3/T4 por sí solos**.
+
+#### 1. `677:a05:20759:hand-gy-destroy-summon` — CID 20759 (ACT)
+- **Actor / zona:** mano/GY; copia física CID 20759 del inventario real 677.
+- **Ventana:** Main propia, ventana abierta.
+- **Guarda física:** Sulfador mano/GY y Cristron propio seleccionable; zona M libre.
+- **Coste:** Sin coste previo; destrucción al resolver.
+- **Objetivo y selección:** una carta Cristron propia en campo.
+- **Resolución y estado posterior:** Destruir objetivo, invocar esa copia y restringir Extra a Máquina por resto de turno.
+- **Límite / cadena:** Una vez por turno por este efecto; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin carta Cristron propia o con bloqueo que impida invocación.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P001` positivo condicional: antes mano/GY, Sulfador mano/GY y Cristron propio seleccionable; zona M libre; acción hand-gy-destroy-summon; después Destruir objetivo, invocar esa copia y restringir Extra a Máquina por resto de turno; coste Sin coste previo; destrucción al resolver. `677:A05:N001` negativo: Sin carta Cristron propia o con bloqueo que impida invocación; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 2. `677:a05:20759:on-summon-send-two` — CID 20759 (TRG)
+- **Actor / zona:** campo; copia física CID 20759 del inventario real 677.
+- **Ventana:** Tras Invocación Normal/Especial real.
+- **Guarda física:** Sulfador acaba de invocarse; quedan Cristron distintos de Sulfador en Main Deck.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir hasta dos nombres Crystron diferentes del Deck al resolver.
+- **Resolución y estado posterior:** Enviar al GY hasta dos cartas de nombres diferentes, sin inventar segunda.
+- **Límite / cadena:** Una vez por turno por este efecto; naturaleza con activación de cadena.
+- **Contraejemplo:** No ocurrió Invocación o el Deck carece de cartas enviables.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P002` positivo condicional: antes campo, Sulfador acaba de invocarse; quedan Cristron distintos de Sulfador en Main Deck; acción on-summon-send-two; después Enviar al GY hasta dos cartas de nombres diferentes, sin inventar segunda; coste Sin coste. `677:A05:N002` negativo: No ocurrió Invocación o el Deck carece de cartas enviables; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 3. `677:a05:12608:field-destroy-summon-tuner` — CID 12608 (ACT)
+- **Actor / zona:** campo; copia física CID 12608 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Smiger boca arriba y carta propia boca arriba, Cantante Cristron en Deck y zona M libre.
+- **Coste:** Destruir al resolver, NO coste; bloqueo Extra Sincronía Máquina desde la activación.
+- **Objetivo y selección:** Seleccionar carta boca arriba propia al activar.
+- **Resolución y estado posterior:** Destruir objetivo y, si se destruyó, Invocar Cantante Cristron desde Deck.
+- **Límite / cadena:** Solo un efecto Smiger por turno y una vez; naturaleza con activación de cadena.
+- **Contraejemplo:** Objetivo ausente o Cantante no disponible, o ya se usó otro efecto Smiger.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P003` positivo condicional: antes campo, Smiger boca arriba y carta propia boca arriba, Cantante Cristron en Deck y zona M libre; acción field-destroy-summon-tuner; después Destruir objetivo y, si se destruyó, Invocar Cantante Cristron desde Deck; coste Destruir al resolver, NO coste; bloqueo Extra Sincronía Máquina desde la activación. `677:A05:N003` negativo: Objetivo ausente o Cantante no disponible, o ya se usó otro efecto Smiger; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 4. `677:a05:12608:gy-banish-search-spelltrap` — CID 12608 (ACT)
+- **Actor / zona:** GY; copia física CID 12608 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Smiger en GY, M/T Cristron buscable en Deck; no gastó efecto Smiger.
+- **Coste:** Desterrar este Smiger del GY al activar.
+- **Objetivo y selección:** Sin objetivo; carta elegida desde Deck al resolver.
+- **Resolución y estado posterior:** Añadir Inclusión/Agrupamiento disponibles a mano, no una carta inexistente.
+- **Límite / cadena:** Solo un efecto Smiger por turno y una vez; naturaleza con activación de cadena.
+- **Contraejemplo:** Smiger no está en GY, búsqueda bloqueada o ya gastó efecto de campo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P004` positivo condicional: antes GY, Smiger en GY, M/T Cristron buscable en Deck; no gastó efecto Smiger; acción gy-banish-search-spelltrap; después Añadir Inclusión/Agrupamiento disponibles a mano, no una carta inexistente; coste Desterrar este Smiger del GY al activar. `677:A05:N004` negativo: Smiger no está en GY, búsqueda bloqueada o ya gastó efecto de campo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 5. `677:a05:20758:response-summon-synchro` — CID 20758 (QCK)
+- **Actor / zona:** campo; copia física CID 20758 del inventario real 677.
+- **Ventana:** Respuesta a activación observable de carta o efecto rival.
+- **Guarda física:** Tristaros propio boca arriba, Cristron distinto en Deck, materiales y zona para Sincronía Máquina.
+- **Coste:** Sin coste previo; no se niega activación rival.
+- **Objetivo y selección:** Elección de Cristron distinto al resolver.
+- **Resolución y estado posterior:** Invocar del Deck y luego Sincronía Máquina usando monstruos propios incluido el recién invocado; sin negar eslabón rival.
+- **Límite / cadena:** Cada efecto Tristaros una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** No hubo activación rival, faltan materiales o zona Extra legal.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P005` positivo condicional: antes campo, Tristaros propio boca arriba, Cristron distinto en Deck, materiales y zona para Sincronía Máquina; acción response-summon-synchro; después Invocar del Deck y luego Sincronía Máquina usando monstruos propios incluido el recién invocado; sin negar eslabón rival; coste Sin coste previo; no se niega activación rival. `677:A05:N005` negativo: No hubo activación rival, faltan materiales o zona Extra legal; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 6. `677:a05:20758:gy-banish-destroy-synchro-summon-two` — CID 20758 (ACT)
+- **Actor / zona:** GY; copia física CID 20758 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Tristaros en GY, Sincronía propia destruible y dos Cristron elegibles en Deck.
+- **Coste:** Desterrar Tristaros del GY al activar; destruir al resolver.
+- **Objetivo y selección:** Sincronía propia seleccionada como recurso al resolver; dos Cristron reales en Deck.
+- **Resolución y estado posterior:** Destruir una Sincronía propia y si se destruye Invocar dos Cristron del Deck; resto turno Extra solo Máquina.
+- **Límite / cadena:** Cada efecto Tristaros una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Sincronía propia ausente o dos Cristron disponibles no constatados.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P006` positivo condicional: antes GY, Tristaros en GY, Sincronía propia destruible y dos Cristron elegibles en Deck; acción gy-banish-destroy-synchro-summon-two; después Destruir una Sincronía propia y si se destruye Invocar dos Cristron del Deck; resto turno Extra solo Máquina; coste Desterrar Tristaros del GY al activar; destruir al resolver. `677:A05:N006` negativo: Sincronía propia ausente o dos Cristron disponibles no constatados; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 7. `677:a05:12756:hand-gy-discard-revive` — CID 12756 (ACT)
+- **Actor / zona:** mano/GY; copia física CID 12756 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Azufafnir en mano/GY, otra carta Cristron en mano descartable y zona libre.
+- **Coste:** Descartar otro Cristron al activar.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Invocar Azufafnir en Defensa y después destruir una carta propia existente.
+- **Límite / cadena:** Cada efecto de Azufafnir una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay otra carta Cristron para descartar o no hay carta propia destruible tras invocación.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P007` positivo condicional: antes mano/GY, Azufafnir en mano/GY, otra carta Cristron en mano descartable y zona libre; acción hand-gy-discard-revive; después Invocar Azufafnir en Defensa y después destruir una carta propia existente; coste Descartar otro Cristron al activar. `677:A05:N007` negativo: No hay otra carta Cristron para descartar o no hay carta propia destruible tras invocación; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 8. `677:a05:12756:field-destroyed-summon-from-deck` — CID 12756 (TRG)
+- **Actor / zona:** campo→GY; copia física CID 12756 del inventario real 677.
+- **Ventana:** Tras destrucción por batalla o efecto estando en campo.
+- **Guarda física:** Azufafnir fue destruido físicamente desde campo, hay Cristron en Deck y zona libre.
+- **Coste:** Sin coste previo.
+- **Objetivo y selección:** Elegir Cristron físico de Deck.
+- **Resolución y estado posterior:** Invocar Cristron en Defensa, sin crear copia adicional.
+- **Límite / cadena:** Cada efecto de Azufafnir una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Azufafnir enviado sin destruir desde campo o Deck sin objetivo legal.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P008` positivo condicional: antes campo→GY, Azufafnir fue destruido físicamente desde campo, hay Cristron en Deck y zona libre; acción field-destroyed-summon-from-deck; después Invocar Cristron en Defensa, sin crear copia adicional; coste Sin coste previo. `677:A05:N008` negativo: Azufafnir enviado sin destruir desde campo o Deck sin objetivo legal; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 9. `677:a05:12606:opponent-main-battle-target-revive-synchro` — CID 12606 (QCK)
+- **Actor / zona:** campo; copia física CID 12606 del inventario real 677.
+- **Ventana:** Main o Battle rival.
+- **Guarda física:** Citree boca arriba, no Cantante propio real en GY, suma de niveles y Sincronía Máquina disponible.
+- **Coste:** Sin coste previo.
+- **Objetivo y selección:** Seleccionar un no Cantante en propio GY al activar.
+- **Resolución y estado posterior:** Invocar objetivo con efectos negados; luego Sincronía Máquina SOLO con Citree y ese objetivo; desterrar ambos materiales.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** No es Main/Battle rival, no hay objetivo o no existe suma de materiales legal.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P009` positivo condicional: antes campo, Citree boca arriba, no Cantante propio real en GY, suma de niveles y Sincronía Máquina disponible; acción opponent-main-battle-target-revive-synchro; después Invocar objetivo con efectos negados; luego Sincronía Máquina SOLO con Citree y ese objetivo; desterrar ambos materiales; coste Sin coste previo. `677:A05:N009` negativo: No es Main/Battle rival, no hay objetivo o no existe suma de materiales legal; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 10. `677:a05:12609:field-destroy-summon-tuner` — CID 12609 (ACT)
+- **Actor / zona:** campo; copia física CID 12609 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Thystvern boca arriba, carta propia boca arriba seleccionable, Cantante Cristron en Deck.
+- **Coste:** Destrucción al resolver; bloqueo Extra Sincronía Máquina desde activación.
+- **Objetivo y selección:** Target a carta propia boca arriba.
+- **Resolución y estado posterior:** Destruirla e Invocar Cantante del Deck si fue destruida.
+- **Límite / cadena:** Solo un efecto Thystvern por turno y una vez; naturaleza con activación de cadena.
+- **Contraejemplo:** Objetivo ausente, Cantante no disponible o efecto de GY ya utilizado.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P010` positivo condicional: antes campo, Thystvern boca arriba, carta propia boca arriba seleccionable, Cantante Cristron en Deck; acción field-destroy-summon-tuner; después Destruirla e Invocar Cantante del Deck si fue destruida; coste Destrucción al resolver; bloqueo Extra Sincronía Máquina desde activación. `677:A05:N010` negativo: Objetivo ausente, Cantante no disponible o efecto de GY ya utilizado; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 11. `677:a05:12609:gy-banish-search-monster` — CID 12609 (ACT)
+- **Actor / zona:** GY; copia física CID 12609 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Thystvern en GY y otro Cristron distinto en Deck, búsqueda permitida.
+- **Coste:** Desterrar Thystvern como coste de activación.
+- **Objetivo y selección:** Sin target; selección en Deck al resolver.
+- **Resolución y estado posterior:** Añadir otro monstruo Cristron existente a mano.
+- **Límite / cadena:** Solo un efecto Thystvern por turno y una vez; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay otro Cristron en Deck o su efecto de campo ya fue utilizado.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P011` positivo condicional: antes GY, Thystvern en GY y otro Cristron distinto en Deck, búsqueda permitida; acción gy-banish-search-monster; después Añadir otro monstruo Cristron existente a mano; coste Desterrar Thystvern como coste de activación. `677:A05:N011` negativo: No hay otro Cristron en Deck o su efecto de campo ya fue utilizado; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 12. `677:a05:19153:gy-sarcophagus-special` — CID 19153 (PRO)
+- **Actor / zona:** GY; copia física CID 19153 del inventario real 677.
+- **Ventana:** Turno propio, ventana de Invocación.
+- **Guarda física:** Controlas Sarcófago del Rey boca arriba y Amset está en GY; zona M legal.
+- **Coste:** Sin coste activado ni cadena.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Invocar esta copia desde GY si no está bloqueada la Invocación.
+- **Límite / cadena:** Solo una Invocación por este procedimiento por nombre y turno; naturaleza sin activación de cadena.
+- **Contraejemplo:** Sarcófago no controlado o Amset es material Xyz y no está en GY.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P012` positivo condicional: antes GY, Controlas Sarcófago del Rey boca arriba y Amset está en GY; zona M legal; acción gy-sarcophagus-special; después Invocar esta copia desde GY si no está bloqueada la Invocación; coste Sin coste activado ni cadena. `677:A05:N012` negativo: Sarcófago no controlado o Amset es material Xyz y no está en GY; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 13. `677:a05:19153:hand-send-two-search-sarcophagus` — CID 19153 (ACT)
+- **Actor / zona:** mano; copia física CID 19153 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Amset y otra carta propia en mano, Sarcófago disponible en Deck, búsqueda permitida.
+- **Coste:** Enviar dos cartas de mano al GY incluyendo Amset al activar.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Añadir Sarcófago del Deck; robo adicional opcional de identidad desconocida.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay segunda carta de mano enviable, Sarcófago agotado o búsqueda bloqueada.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P013` positivo condicional: antes mano, Amset y otra carta propia en mano, Sarcófago disponible en Deck, búsqueda permitida; acción hand-send-two-search-sarcophagus; después Añadir Sarcófago del Deck; robo adicional opcional de identidad desconocida; coste Enviar dos cartas de mano al GY incluyendo Amset al activar. `677:A05:N013` negativo: No hay segunda carta de mano enviable, Sarcófago agotado o búsqueda bloqueada; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 14. `677:a05:19153:on-opponent-remove-send-field` — CID 19153 (TRG)
+- **Actor / zona:** campo; copia física CID 19153 del inventario real 677.
+- **Ventana:** Tras salida de otra carta propia por efecto rival fuera de Damage Step.
+- **Guarda física:** Amset en propia zona M; otra carta propia realmente salió del campo por efecto rival.
+- **Coste:** Sin coste previo.
+- **Objetivo y selección:** Carta física cualquiera del campo seleccionada al resolver, no target.
+- **Resolución y estado posterior:** Enviar una carta del campo al GY si es legal, sin destruirla.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Salida fue por coste propio, batalla, o durante Damage Step.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P014` positivo condicional: antes campo, Amset en propia zona M; otra carta propia realmente salió del campo por efecto rival; acción on-opponent-remove-send-field; después Enviar una carta del campo al GY si es legal, sin destruirla; coste Sin coste previo. `677:A05:N014` negativo: Salida fue por coste propio, batalla, o durante Damage Step; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 15. `677:a05:19155:gy-sarcophagus-special` — CID 19155 (PRO)
+- **Actor / zona:** GY; copia física CID 19155 del inventario real 677.
+- **Ventana:** Turno propio, ventana de Invocación.
+- **Guarda física:** Controlas Sarcófago y Hapi realmente en GY, zona M libre.
+- **Coste:** Sin coste ni cadena.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Invocar Hapi desde GY, sin recuperar materiales Xyz.
+- **Límite / cadena:** Solo una Invocación por este modo por nombre y turno; naturaleza sin activación de cadena.
+- **Contraejemplo:** Hapi está en mano o debajo de Xyz, o no hay Sarcófago.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P015` positivo condicional: antes GY, Controlas Sarcófago y Hapi realmente en GY, zona M libre; acción gy-sarcophagus-special; después Invocar Hapi desde GY, sin recuperar materiales Xyz; coste Sin coste ni cadena. `677:A05:N015` negativo: Hapi está en mano o debajo de Xyz, o no hay Sarcófago; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 16. `677:a05:19155:on-opponent-remove-recover-two` — CID 19155 (TRG)
+- **Actor / zona:** campo; copia física CID 19155 del inventario real 677.
+- **Ventana:** Tras salir otra carta propia por efecto rival, fuera de Damage Step.
+- **Guarda física:** Hapi en MZ propio; se produjo salida ajena por efecto del oponente; dos cartas en GYs/destierro.
+- **Coste:** Sin coste previo.
+- **Objetivo y selección:** Seleccionar dos cartas de GYs o destierro al activar.
+- **Resolución y estado posterior:** O añadir ambas a mano O barajar ambas a Deck; no elegir una de cada modalidad.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Solo una carta elegible o salida no fue por efecto del rival.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P016` positivo condicional: antes campo, Hapi en MZ propio; se produjo salida ajena por efecto del oponente; dos cartas en GYs/destierro; acción on-opponent-remove-recover-two; después O añadir ambas a mano O barajar ambas a Deck; no elegir una de cada modalidad; coste Sin coste previo. `677:A05:N016` negativo: Solo una carta elegible o salida no fue por efecto del rival; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 17. `677:a05:12950:hand-deck-effect-negate` — CID 12950 (QCK)
+- **Actor / zona:** mano; copia física CID 12950 del inventario real 677.
+- **Ventana:** Respuesta a efecto que incluye buscar, enviar o Invocar desde Deck.
+- **Guarda física:** Flor de Ceniza en mano y eslabón rival incluye modalidad de Deck pertinente.
+- **Coste:** Descartar esta carta al activar.
+- **Objetivo y selección:** No hace target; respuesta a eslabón observado.
+- **Resolución y estado posterior:** Negar EFECTO del eslabón, no activación; carta no se invoca al campo.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin eslabón de Deck o Ash ya en GY; no recomendar invocación de Flor.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P017` positivo condicional: antes mano, Flor de Ceniza en mano y eslabón rival incluye modalidad de Deck pertinente; acción hand-deck-effect-negate; después Negar EFECTO del eslabón, no activación; carta no se invoca al campo; coste Descartar esta carta al activar. `677:A05:N017` negativo: Sin eslabón de Deck o Ash ya en GY; no recomendar invocación de Flor; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 18. `677:a05:9279:after-opponent-main-deck-add` — CID 9279 (QCK)
+- **Actor / zona:** mano; copia física CID 9279 del inventario real 677.
+- **Ventana:** Tras adición real rival del Main Deck a mano fuera de Draw Phase.
+- **Guarda física:** Droll en mano, rival añadió efectivamente del Main, ventana de respuesta legal.
+- **Coste:** Enviar Droll mano→GY al activar.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Impedir posteriores adiciones de Main Deck a mano a ambos jugadores este turno.
+- **Límite / cadena:** Sin OPT expreso impreso; respetar ventana; naturaleza con activación de cadena.
+- **Contraejemplo:** Se negó la adición, ocurrió en Draw Phase o Droll no está en mano.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P018` positivo condicional: antes mano, Droll en mano, rival añadió efectivamente del Main, ventana de respuesta legal; acción after-opponent-main-deck-add; después Impedir posteriores adiciones de Main Deck a mano a ambos jugadores este turno; coste Enviar Droll mano→GY al activar. `677:A05:N018` negativo: Se negó la adición, ocurrió en Draw Phase o Droll no está en mano; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 19. `677:a05:20500:hand-discard-activate-draw` — CID 20500 (QCK)
+- **Actor / zona:** mano; copia física CID 20500 del inventario real 677.
+- **Ventana:** Respuesta libre válida durante turno rival, antes de Invocaciones observadas.
+- **Guarda física:** Fuwalos en mano, no controlas cartas; futuro rival Invoca Especial desde Deck/Extra.
+- **Coste:** Descartar Fuwalos al activar.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Por cada Invocación Especial válida desde Deck/Extra realizada después de resolver, robar carta desconocida.
+- **Límite / cadena:** Solo puede activar otro efecto Mulcharmy ese turno; contador compartido; naturaleza con activación de cadena.
+- **Contraejemplo:** Controlas carta propia al activar o Invocación rival desde GY no genera robo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P019` positivo condicional: antes mano, Fuwalos en mano, no controlas cartas; futuro rival Invoca Especial desde Deck/Extra; acción hand-discard-activate-draw; después Por cada Invocación Especial válida desde Deck/Extra realizada después de resolver, robar carta desconocida; coste Descartar Fuwalos al activar. `677:A05:N019` negativo: Controlas carta propia al activar o Invocación rival desde GY no genera robo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 20. `677:a05:20500:end-phase-hand-rollback` — CID 20500 (CONT)
+- **Actor / zona:** resolución/End Phase; copia física CID 20500 del inventario real 677.
+- **Ventana:** End Phase del mismo turno donde Fuwalos resolvió.
+- **Guarda física:** Fuwalos resolvió, mano supera cartas rivales controladas más seis.
+- **Coste:** Sin pago nuevo.
+- **Objetivo y selección:** Seleccionar cartas al azar de mano, sin inventar identidades.
+- **Resolución y estado posterior:** Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió.
+- **Límite / cadena:** Se aplica una vez en End Phase de turno pertinente; naturaleza sin activación de cadena.
+- **Contraejemplo:** No se activó Fuwalos o la mano no supera el umbral.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P020` positivo condicional: antes resolución/End Phase, Fuwalos resolvió, mano supera cartas rivales controladas más seis; acción end-phase-hand-rollback; después Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió; coste Sin pago nuevo. `677:A05:N020` negativo: No se activó Fuwalos o la mano no supera el umbral; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 21. `677:a05:20206:hand-discard-activate-draw` — CID 20206 (QCK)
+- **Actor / zona:** mano; copia física CID 20206 del inventario real 677.
+- **Ventana:** Turno rival y ventana válida, antes de Invocaciones a observar.
+- **Guarda física:** Purulia en mano (Main o Side tras intercambio), campo propio sin cartas.
+- **Coste:** Descartar Purulia mano→GY al activar.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Robar una por Invocación Normal/Especial rival desde mano después de resolver.
+- **Límite / cadena:** Límite de otro efecto Mulcharmy en mismo turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Campo propio no vacío, o invocación no procede de mano.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P021` positivo condicional: antes mano, Purulia en mano (Main o Side tras intercambio), campo propio sin cartas; acción hand-discard-activate-draw; después Robar una por Invocación Normal/Especial rival desde mano después de resolver; coste Descartar Purulia mano→GY al activar. `677:A05:N021` negativo: Campo propio no vacío, o invocación no procede de mano; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 22. `677:a05:20206:end-phase-hand-rollback` — CID 20206 (CONT)
+- **Actor / zona:** resolución/End Phase; copia física CID 20206 del inventario real 677.
+- **Ventana:** End Phase del turno de activación.
+- **Guarda física:** Purulia resolvió y mano propia excede umbral cartas rivales controladas más seis.
+- **Coste:** Sin coste nuevo.
+- **Objetivo y selección:** Barajar aleatoriamente excedentes.
+- **Resolución y estado posterior:** Aplicar reajuste solo si corresponde; no es una segunda activación.
+- **Límite / cadena:** Una vez en la End Phase del turno pertinente; naturaleza sin activación de cadena.
+- **Contraejemplo:** No hubo activación legal o mano no supera umbral.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P022` positivo condicional: antes resolución/End Phase, Purulia resolvió y mano propia excede umbral cartas rivales controladas más seis; acción end-phase-hand-rollback; después Aplicar reajuste solo si corresponde; no es una segunda activación; coste Sin coste nuevo. `677:A05:N022` negativo: No hubo activación legal o mano no supera umbral; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 23. `677:a05:20798:activation-search-crystron` — CID 20798 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 20798 del inventario real 677.
+- **Ventana:** Activación de Mágica Continua legal.
+- **Guarda física:** Inclusión propia en mano o colocada legalmente, Crystron distinto de Inclusión en Deck.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir Crystron en Deck al resolver; no targeting.
+- **Resolución y estado posterior:** Al activar, opcionalmente añadir una carta Crystron distinta de Inclusión.
+- **Límite / cadena:** Solo una activación de Inclusión por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Búsqueda negada, objeto no está en Deck o Inclusión ya se activó.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P023` positivo condicional: antes mano/colocada, Inclusión propia en mano o colocada legalmente, Crystron distinto de Inclusión en Deck; acción activation-search-crystron; después Al activar, opcionalmente añadir una carta Crystron distinta de Inclusión; coste Sin coste. `677:A05:N023` negativo: Búsqueda negada, objeto no está en Deck o Inclusión ya se activó; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 24. `677:a05:20798:battle-first-destruction-protect` — CID 20798 (CONT)
+- **Actor / zona:** campo M/T; copia física CID 20798 del inventario real 677.
+- **Ventana:** En primera destrucción por batalla por nombre y turno.
+- **Guarda física:** Inclusión boca arriba y Cristron propio enfrenta primera destrucción por batalla.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** No target; protección aplicable a cada monstruo.
+- **Resolución y estado posterior:** Cada Cristron propio evita su primera destrucción por batalla en turno.
+- **Límite / cadena:** Continuo por carta; una primera vez por monstruo y turno; naturaleza sin activación de cadena.
+- **Contraejemplo:** Inclusión ausente o destrucción se produce por efecto y no batalla.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P024` positivo condicional: antes campo M/T, Inclusión boca arriba y Cristron propio enfrenta primera destrucción por batalla; acción battle-first-destruction-protect; después Cada Cristron propio evita su primera destrucción por batalla en turno; coste Sin coste. `677:A05:N024` negativo: Inclusión ausente o destrucción se produce por efecto y no batalla; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 25. `677:a05:20798:gy-banish-target-revive` — CID 20798 (ACT)
+- **Actor / zona:** GY; copia física CID 20798 del inventario real 677.
+- **Ventana:** Main propia, ventana de activación.
+- **Guarda física:** Inclusión en GY y un Crystron propio en GY, zona M válida.
+- **Coste:** Desterrar Inclusión del GY como coste.
+- **Objetivo y selección:** Target al Crystron propio en GY al activar.
+- **Resolución y estado posterior:** Invocar objetivo desde GY si permanece y hay zona legal.
+- **Límite / cadena:** Una vez por turno por nombre para ese efecto; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay Crystron en GY, o inclusión ya desterrada.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P025` positivo condicional: antes GY, Inclusión en GY y un Crystron propio en GY, zona M válida; acción gy-banish-target-revive; después Invocar objetivo desde GY si permanece y hay zona legal; coste Desterrar Inclusión del GY como coste. `677:A05:N025` negativo: No hay Crystron en GY, o inclusión ya desterrada; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 26. `677:a05:19200:continuous-horus-protect` — CID 19200 (CONT)
+- **Actor / zona:** campo M/T; copia física CID 19200 del inventario real 677.
+- **Ventana:** Siempre mientras Sarcófago boca arriba.
+- **Guarda física:** Sarcófago en Campo; Horus propio atacado por destrucción no seleccionadora.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Los Horus propios no son destruidos por efectos de cartas que no los seleccionan.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Sarcófago ausente o efecto selecciona objetivo; no confundir con inmunidad general.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P026` positivo condicional: antes campo M/T, Sarcófago en Campo; Horus propio atacado por destrucción no seleccionadora; acción continuous-horus-protect; después Los Horus propios no son destruidos por efectos de cartas que no los seleccionan; coste Sin coste. `677:A05:N026` negativo: Sarcófago ausente o efecto selecciona objetivo; no confundir con inmunidad general; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 27. `677:a05:19200:hand-send-horus-deck-gy` — CID 19200 (ACT)
+- **Actor / zona:** campo M/T; copia física CID 19200 del inventario real 677.
+- **Ventana:** Main propia, ventana activa.
+- **Guarda física:** Sarcófago boca arriba; carta propia en mano enviable y monstruo Horus real en Deck.
+- **Coste:** Enviar una carta mano→GY al activar.
+- **Objetivo y selección:** Elegir Horus de Deck al resolver, no target.
+- **Resolución y estado posterior:** Enviar un Horus del Deck al GY; hasta cuatro usos por turno por nombre.
+- **Límite / cadena:** Hasta cuatro usos por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin carta propia en mano o sin Horus en Deck; no inventar cuarto objetivo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P027` positivo condicional: antes campo M/T, Sarcófago boca arriba; carta propia en mano enviable y monstruo Horus real en Deck; acción hand-send-horus-deck-gy; después Enviar un Horus del Deck al GY; hasta cuatro usos por turno por nombre; coste Enviar una carta mano→GY al activar. `677:A05:N027` negativo: Sin carta propia en mano o sin Horus en Deck; no inventar cuarto objetivo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 28. `677:a05:19200:battle-send-opponent-monster` — CID 19200 (TRG)
+- **Actor / zona:** campo M/T; copia física CID 19200 del inventario real 677.
+- **Ventana:** Inicio de Damage Step cuando Horus propio batalla contra monstruo enemigo.
+- **Guarda física:** Sarcófago activo, Horus propio luchando contra monstruo rival.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Monstruo rival que participa en la batalla (no target).
+- **Resolución y estado posterior:** Enviar el monstruo rival al GY sin destrucción por batalla.
+- **Límite / cadena:** Una vez por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay batalla Horus contra monstruo rival.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P028` positivo condicional: antes campo M/T, Sarcófago activo, Horus propio luchando contra monstruo rival; acción battle-send-opponent-monster; después Enviar el monstruo rival al GY sin destrucción por batalla; coste Sin coste. `677:A05:N028` negativo: No hay batalla Horus contra monstruo rival; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 29. `677:a05:7445:quick-discard-fusion-from-field` — CID 7445 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 7445 del inventario real 677.
+- **Ventana:** Ventana legal Mágica Rápida.
+- **Guarda física:** Súper Polimerización y material de Fusión válido en cualquier Campo, monstruo Fusion en Extra.
+- **Coste:** Descartar una carta de mano al activar.
+- **Objetivo y selección:** Elegir materiales de ambos campos al resolver, sin target.
+- **Resolución y estado posterior:** Invocar por Fusión con materiales válidos; nadie puede encadenar a esa activación.
+- **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Contraejemplo:** No existe combinación física de materiales para las Fusiones cargadas o no hay descarte.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P029` positivo condicional: antes mano/colocada, Súper Polimerización y material de Fusión válido en cualquier Campo, monstruo Fusion en Extra; acción quick-discard-fusion-from-field; después Invocar por Fusión con materiales válidos; nadie puede encadenar a esa activación; coste Descartar una carta de mano al activar. `677:A05:N029` negativo: No existe combinación física de materiales para las Fusiones cargadas o no hay descarte; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 30. `677:a05:15299:quick-send-n-negate-opponent-monsters` — CID 15299 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 15299 del inventario real 677.
+- **Ventana:** Ventana legal Mágica Rápida.
+- **Guarda física:** Gotas y N otras cartas propias enviables, N monstruos de efecto rivales elegibles.
+- **Coste:** Enviar N otras cartas de mano/campo al GY como coste.
+- **Objetivo y selección:** Elegir N monstruos de efecto rivales al resolver, NO target.
+- **Resolución y estado posterior:** Reducir a mitad ATK y negar efectos hasta End Phase; rival sin respuesta de tipos enviados.
+- **Límite / cadena:** Solo una activación de Gotas por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay otro coste propio o no hay monstruos de efecto rivales elegibles.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P030` positivo condicional: antes mano/colocada, Gotas y N otras cartas propias enviables, N monstruos de efecto rivales elegibles; acción quick-send-n-negate-opponent-monsters; después Reducir a mitad ATK y negar efectos hasta End Phase; rival sin respuesta de tipos enviados; coste Enviar N otras cartas de mano/campo al GY como coste. `677:A05:N030` negativo: No hay otro coste propio o no hay monstruos de efecto rivales elegibles; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 31. `677:a05:5236:normal-send-monster-from-deck` — CID 5236 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 5236 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Entierro Insensato activable y monstruo real en Main Deck.
+- **Coste:** Sin coste distinto de activar Mágica.
+- **Objetivo y selección:** Elegir monstruo del Deck al resolver, sin target.
+- **Resolución y estado posterior:** Enviar monstruo del Deck al GY; no invocarlo desde el cementerio automáticamente.
+- **Límite / cadena:** Mágica Normal sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Deck sin monstruos elegibles o activación impedida.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5236&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P031` positivo condicional: antes mano/colocada, Entierro Insensato activable y monstruo real en Main Deck; acción normal-send-monster-from-deck; después Enviar monstruo del Deck al GY; no invocarlo desde el cementerio automáticamente; coste Sin coste distinto de activar Mágica. `677:A05:N031` negativo: Deck sin monstruos elegibles o activación impedida; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 32. `677:a05:20817:continuous-crystron-banish-protect` — CID 20817 (CONT)
+- **Actor / zona:** campo M/T; copia física CID 20817 del inventario real 677.
+- **Ventana:** Permanente mientras Agrupamiento boca arriba.
+- **Guarda física:** Agrupamiento propio activo y cartas Cristron controladas.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Rival no puede desterrar tus cartas Cristron mediante sus efectos.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Agrupamiento no está activo; el dueño todavía puede desterrar sus propios Cristron.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P032` positivo condicional: antes campo M/T, Agrupamiento propio activo y cartas Cristron controladas; acción continuous-crystron-banish-protect; después Rival no puede desterrar tus cartas Cristron mediante sus efectos; coste Sin coste. `677:A05:N032` negativo: Agrupamiento no está activo; el dueño todavía puede desterrar sus propios Cristron; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 33. `677:a05:20817:target-then-shuffle-destroy` — CID 20817 (ACT)
+- **Actor / zona:** campo M/T; copia física CID 20817 del inventario real 677.
+- **Ventana:** Ventana válida de Trampa Continua.
+- **Guarda física:** Agrupamiento boca arriba, 1 Cristron en propio GY/destierro distinto de Agrupamiento, 1 o 2 objetivos boca arriba.
+- **Coste:** Barajar carta Cristron real al Deck durante resolución, NO coste de activación.
+- **Objetivo y selección:** Target 1 carta boca arriba, o 2 si controlas Sincronía Cristron.
+- **Resolución y estado posterior:** Barajar Cristron GY/destierro al Deck y si lo haces destruir objetivos legales.
+- **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Contraejemplo:** Sin recurso para barajar o seleccionas 2 sin Sincronía Cristron propia.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P033` positivo condicional: antes campo M/T, Agrupamiento boca arriba, 1 Cristron en propio GY/destierro distinto de Agrupamiento, 1 o 2 objetivos boca arriba; acción target-then-shuffle-destroy; después Barajar Cristron GY/destierro al Deck y si lo haces destruir objetivos legales; coste Barajar carta Cristron real al Deck durante resolución, NO coste de activación. `677:A05:N033` negativo: Sin recurso para barajar o seleccionas 2 sin Sincronía Cristron propia; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+<!-- A05_EFFECTS_END -->
+
 ### A06.0 — Cómo cooperan las cartas en 30 segundos
 
 1. **Dictamen:** Cristron prepara materiales y Sincronías en turno rival; Horus convierte Cementerio en Nivel 8 para Xyz. Además, la destrucción de Azufafnir permite usar Máquinas Nivel 5 para Nova/Infinito. Son salidas alternativas, no una cadena automática única.
