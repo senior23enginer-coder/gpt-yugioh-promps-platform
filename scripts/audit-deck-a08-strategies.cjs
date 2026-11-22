@@ -26,8 +26,8 @@ function audit({id,assigned,pkgPath,docPath}){
  a.equal([...a06.matchAll(/^\| MEMD-\d{3} · \[\d+\]/gm)].length,39,'A06_CARD_PROFILE_COUNT');
  const matrix=cut(a08,'### A08.5 —','### A08.6 —');
  const paper=cut(a08,'### A08.6 —','### A08.7 —');
- const sidebar=a08.slice(a08.indexOf('### A08.7 —'));
- a(sidebar.startsWith('### A08.7 —'),'A08_SEVEN_SECTION_MISSING');
+ const sidebar=cut(a08,'### A08.7 —','### A08.8 —');
+ const tactical=cut(a08,'### A08.8 —','## APARTADO_09 —');
  const lines=[...matrix.matchAll(/^\| (I\d{2}) · \x60([A-Z_]+)\x60 \|([^\n]+)$/gm)];
  a.equal(lines.length,34,'A08_NOT_THIRTY_FOUR');
  const routes=new Set([...a09.matchAll(/^### MEMD-(C\d{2}) —/gm)].map(m=>m[1]));
@@ -84,10 +84,23 @@ function audit({id,assigned,pkgPath,docPath}){
   a.equal(count.main+n-m,41);
  }
  a(sidebar.includes('no convierten la lista 671 en legal para torneo'),'A08_FALSE_TOURNAMENT_CLAIM');
+ const tRows=[...tactical.matchAll(/^\| (I\d{2}) \|([^\n]+)$/gm)];
+ a.equal(tRows.length,34,'A08_NOT_THIRTY_FOUR_CAUSAL_COST_ROWS');
+ for(let i=0;i<34;i++){
+  const line=tRows[i][0],id='I'+String(i+1).padStart(2,'0');
+  a.equal(tRows[i][1],id,'A08_CAUSAL_ROW_NOT_SAME_DECISION_'+id);
+  const cols=line.split('|').slice(1,-1).map(x=>x.trim());
+  a.equal(cols.length,6,'A08_CAUSAL_COST_COLUMNS_'+id);
+  for(let k=1;k<5;k++)a(cols[k].length>=4,'A08_EMPTY_COST_OR_WINDOW_'+id);
+  const fx=[...cols[5].matchAll(/\x60(671:a05:\d+:[a-z0-9-]+)\x60/g)].map(m=>m[1]);
+  a(fx.length>0&&fx.every(x=>effects.has(x)),'A08_MISSING_RULE_REF_'+id);
+ }
+
  return {ok:true,deck_id:id,format:pkg.record.format,counts:count,physicalIdentities:cards.size,
   decisions:34,photos:photoCount,initialPlacements:physicalCount,effectLinks:fxLinks,
   knownA09Links:34-notLinked,unlinkedStrategicDecisions:notLinked,extraLinks:extraPaths,
   documentedPositiveNegativeCases:tests.length,exactSidePlans:plans.length,
+  costWindowSelectionLimitRows:tRows.length,
   tournamentLegal:false,replaysVerified:0,calculatorExecuted:false};
 }
 if(require.main===module){
