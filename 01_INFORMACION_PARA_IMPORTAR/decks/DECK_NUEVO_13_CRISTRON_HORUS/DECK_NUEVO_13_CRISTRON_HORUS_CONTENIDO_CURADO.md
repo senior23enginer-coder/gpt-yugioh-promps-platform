@@ -17,9 +17,9 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03** y **A04**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04** y **A05**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **12/35 tareas acreditadas en A01+A02+A03+A04; 23/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **15/35 tareas acreditadas en A01–A04 y A05-T1/T2/T3; 20/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -43,11 +43,11 @@
 - [x] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el `card_id`/slot — evidencia A04.2, auditor genérico de imágenes y `scripts/audit-deck-a04-photo-integrity.cjs`: 20 JPG + 19 PNG, 39/39 firmas SHA-256/bytes/dimensiones exactas, 39 CID en ficha y guía, 96 referencias HTML y enlaces Markdown válidos, 40 slots nativos del inventario; rutas y extensiones originales intactas.
 - [x] **A04-T3** Registrar mapa de disponibilidad y zonas compartidas por A05/A07/A09/A10A — evidencia A04.3 y `record.routes[].endboard.variants`: 14 rutas, 60 pasos, 151 fotos enlazadas a pasos, 15 mapas finales ilustrativos, 60 entradas de zonas; 0 cartas FOTO_PENDIENTE; no se inventan posiciones M1–M5/EMZ (`spatial_verified=false` en todas).
 
-### A05 — pendiente de auditoría del contrato vigente
-- [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck
-- [ ] **A05-T2** Inventariar TODOS los efectos por efecto_id estable: activado/disparo/continuo/reemplazo/procedimiento/Skill o NO_EFFECT justificado
-- [ ] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente
-- [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables
+### A05 — 92 cláusulas documentadas; T1–T3 acreditadas y T4 pendiente
+- [x] **A05-T1** Fichar 100 % de identidades: 39/39 CID, 40 card_id originales, 39 fotos HD, fuentes Konami y funciones concretas A05.1/A06, por auditor `scripts/audit-deck-a05-profiles.cjs`.
+- [x] **A05-T2** Inventariar 92 cláusulas oficiales A05.2 para las 39 identidades, ID documental estable `677:a05:CID:slug`, tipo ACT/QCK/TRG/SPL/PRO/CONT y fuente Konami por CID. 13 variantes portátiles existentes no equivalen a 92 acciones ejecutables; auditor `scripts/audit-deck-a05-registry.cjs`.
+- [x] **A05-T3** Matriz semántica de 92 efectos/procedimientos: actor, zona, ventana, guarda, coste, target/no-target, resolución, uso OPT/HOPT, negación/conservación, estado posterior y fuente oficial. 34 invariantes de alto riesgo contrastados por oráculo separado; **especificación documental, no ejecución de A10B**.
+- [ ] **A05-T4** Casos de papel positivos/negativos: 184 descripciones, 7 casos positivos `NO_APLICA_INVENTARIO_677` y vínculos A06/A07/A09 por CID en A05.3. **Pendiente verificar individualmente estado físico antes/después, cadena, recursos y negaciones; 0/184 `CASO_LOGICO_VERIFICADO`.** No marcar COMPLETA por solo existir borradores.
 
 ### A06 — pendiente de auditoría del contrato vigente
 - [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea:** A05-T1 cuando el usuario la asigne. No anticipar A05 ni promocionar los otros 23 checks.
+**Siguiente tarea pendiente:** A05-T4. A06-T1 se abordará separadamente tras completar A05 o una asignación expresa. No promocionar las otras 20 casillas.
 
 ---
 
@@ -316,7 +316,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 
 <a id="APARTADO_05"></a>
 
-**APARTADO_05 — Fichas de uso. Estado: `COMPLETA_DOCUMENTAL`.** La matriz canónica A06 inmediatamente posterior conserva nombre, zona, copias, CID, función y vínculo causal, sin volver a contar una identidad que esté en Main y Side. A05.1 añade por cada ID la condición operativa y su consecuencia para **este** deck. `Cxx`, `Vxx`, `Dxx`, `Sxx` y `Rxx` se refieren a los apartados A06/A08/A09 existentes: son vínculos documentales, **no replays**. Las cartas autónomas sin combo propio se clasifican `SIN_COMBO_IDENTIFICADO` porque su objetivo es interrumpir, romper campo o entrar por Side; eso no significa sinergia nula.
+**APARTADO_05 — Fichas documentadas; T1–T3 acreditadas y T4 ABIERTA.** La matriz canónica A06 inmediatamente posterior conserva nombre, zona, copias, CID, función y vínculo causal, sin volver a contar una identidad que esté en Main y Side. A05.1 añade por cada ID la condición operativa y su consecuencia para **este** deck. `Cxx`, `Vxx`, `Dxx`, `Sxx` y `Rxx` se refieren a los apartados A06/A08/A09 existentes: son vínculos documentales, **no replays**. Las cartas autónomas sin combo propio se clasifican `SIN_COMBO_IDENTIFICADO` porque su objetivo es interrumpir, romper campo o entrar por Side; eso no significa sinergia nula.
 
 ### A05.1 — Requisito, ventana, recurso y riesgo de cada identidad
 
@@ -424,7 +424,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 
 **Cotejo de cantidades:** Main 40 / Extra 15 / Side 15 / Reserva 0 = **70 copias en 39 identidades de este deck**. La identidad CRYH-012 tiene 2 Main + 1 Side; no sumar esa copia Side a la mano inicial ni inventar una cuarta.
 
-### A05.2 — censo causal preliminar por `effect_id` (fuentes Konami, deck 677)
+### A05.2 — censo causal documentado por `effect_id` (fuentes Konami, deck 677)
 
 **Criterio:** separación explícita de efecto, procedimiento y restricción por `CID` en el inventario 39/39. Los casos P/N documentan hipótesis de papel, no ejecutables ni legalidad certificada. Se conservan las 13 variantes actuales del motor sin modificarlas. Los estados condicionales **no cierran A05-T3/T4 por sí solos**.
 
