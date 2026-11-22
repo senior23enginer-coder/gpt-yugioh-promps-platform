@@ -32,6 +32,7 @@ on:
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
       - 'scripts/audit-deck-a08-strategies.cjs'
+      - 'scripts/audit-deck-a09-route-states.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -65,6 +66,7 @@ on:
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
       - 'scripts/audit-deck-a08-strategies.cjs'
+      - 'scripts/audit-deck-a09-route-states.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -142,5 +144,8 @@ jobs:
       - name: Audit 34 Memento A08 decisions, physical cards, 16 decision cases and five side swaps
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-a08-strategies.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit twelve assigned Memento A09 routes, sixty-nine steps and exact endboard resources
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a09-route-states.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
