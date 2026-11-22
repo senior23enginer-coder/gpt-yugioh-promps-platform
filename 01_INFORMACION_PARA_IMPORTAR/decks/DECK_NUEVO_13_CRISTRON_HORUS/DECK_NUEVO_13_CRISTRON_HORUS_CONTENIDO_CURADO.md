@@ -17,9 +17,9 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario asignó **A01** y luego **A02**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó en orden **A01**, **A02** y **A03**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **6/35 tareas acreditadas en A01+A02; 29/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **9/35 tareas acreditadas en A01+A02+A03; 26/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -33,10 +33,10 @@
 - [x] **A02-T2** Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas.
 - [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks.
 
-### A03 — pendiente de auditoría del contrato vigente
-- [ ] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+### A03 — inventario aprobado y congelado contra V40
+- [x] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real — matriz A06 CRYH-001–039 contra 40 `record.cards[].slots` e inventario V40, 40/15/15/0 = 70 copias; Purulia 2 Main + 1 Side; Skill 0; auditor `scripts/audit-deck-a03-inventory.cjs`.
+- [x] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros — 40 `card_id` distintos asociados a 39 CID oficiales por Konami, con nombre de la ficha coincidente con matriz curada y snapshot V40; Purulia posee dos IDs nativos para zonas distintas sin duplicar identidad. Nombres de presentación se preservan, fuente normativa identificada por CID; auditor A03.
+- [x] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores — aprobación expresa del 18-11-2026 respaldada en A03.1, 39 CID, 40 filas físicas, 70 copias, 14 rutas/60 pasos y 13 variantes portátiles (NO 13 efectos oficiales). **Conteo exhaustivo de `effect_id` queda pendiente A05-T2**; congelación por paridad con V40 y rechazo de drift.
 
 ### A04 — pendiente de auditoría del contrato vigente
 - [ ] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea:** A03-T1 cuando el usuario la asigne. No anticipar A03 ni promocionar los otros 29 checks.
+**Siguiente tarea:** A04-T1 cuando el usuario la asigne. No anticipar A04 ni promocionar los otros 26 checks.
 
 ---
 
@@ -244,6 +244,21 @@ La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado
 | **Aprobación editorial de Miguel** | **`APROBADO_EXPRESAMENTE_18-11-2026`** | Miguel declaró: «Sí, apruebo el inventario de Cristron/Horus: 40 Main, 15 Extra, 15 Side y 0 Reserva. Cierra A03.» La aprobación corresponde a las cantidades y zonas de esta lista existente, no a cambios de cartas |
 
 **Dictamen A03:** `COMPLETA_APROBADA`. Transcripción y auditoría numérica terminadas, con **aprobación expresa del propietario** para Main 40 / Extra 15 / Side 15 / Reserva 0. **No se añadió, retiró ni modificó ninguna carta.** La validación reglamentaria de rutas pertenece a A07/A09 y la comprobación visual a A04/A10; la aprobación del inventario no implica simulación ni prueba funcional. **Siguiente apartado: A04.**
+
+### A03.2 — auditoría del contrato físico, copias y congelación verificable (22-11-2026)
+
+Esta comprobación A03 reaprovecha la aprobación explícita del inventario del **18-11-2026**, sin inventar una nueva lista ni pedir otra aprobación. La fuente física declarada sigue siendo el deck real `677` en formato `tcg_advanced`, con comparación triple **matriz original CRYH-001–039**, **`datos/stationx-deck.json`** (inventario + `record.cards[].slots`) e instantánea histórica de Platform **V40**. No se consulta la base de datos de producción ni se declara un `inventory_sha256` de Station X que no exista en el paquete.
+
+| Control | Denominador y evidencia | Garantía concreta |
+|---|---|---|
+| A03-T1 — Inventario y zonas | **40 Main, 15 Extra, 15 Side, 0 Reserva**, 70 copias; 39 CID; 40 filas `card_id`; 0 Skills | Cada CID físico conserva exactamente sus cantidades, sección, `card_id` y nombre de la lista aprobada; todas las secciones obligatorias están presentes |
+| A03-T2 — Identidad por copia | **39/39 CID Konami** enlazados en matriz original, con **40 IDs nativos sin duplicados** | Una misma identidad puede ocupar dos zonas con dos `card_id`, pero jamás se confunden los IDs: `CRYH-012` Purulia CID `20206` = 2 Main (`card_id=533`) + 1 Side (`card_id=534`) |
+| A03-T3 — Congelación del inventario | **39 identidades**, **40 filas nativas**, **70 copias**, **14 rutas** (C01–C07/V01–V07), **60 pasos**; **13 variantes portátiles** | Se rechazan alteraciones de ID, CID, nombre, cantidad, sección y rutas frente al V40; las 13 variantes **NO son** el total de efectos reglamentarios del deck |
+| Límite de certificación | El recuento exhaustivo de `effect_id` oficiales no ha sido realizado para Crystron en el contrato nuevo | Se declara **`effectCount=NO_CENSADO_A05`**, sin inventar un denominador ni marcar A05 completado |
+
+**Auditor reproducible:** `scripts/audit-deck-a03-inventory.cjs`, incluido en CI del PR #25. Su entrada está restringida al paquete del único deck asignado y al `677.json` de Platform V40 en modo de lectura; exige 39/39 entradas `CRYH-xxx`, URLs Konami por CID, 40 IDs distintos, nombres/slots/cantidades coincidentes, aprobación histórica textual, 14 rutas originales y 60 pasos. El reporte señala explícitamente ausencia de cálculo de efectos totales, de partidas ejecutadas y de importación de producción.
+
+**Cierre A03:** se conserva el inventario sin añadir/quitar cartas, sin convertir una carta de Side en mano inicial, sin modificar Skills, motor o imágenes. La revisión de autenticidad/calidad visual corresponde a A04 y la semántica completa de efectos a A05. El cierre no certifica juego ejecutable, tablas espaciales ni legalidad de torneo.
 
 **A04:** las 39 filas siguientes contienen **CID y enlace a la ficha individual Konami oficial**. «Cristron» es el nombre español de **Crystron**; «Caballero Mecánico» es **Clockwork Knight Link-1**. Las **39 imágenes reales** ya están en esta carpeta: 20 JPG iniciales y 19 PNG agregadas en V37, con nombre de CID exacto; la indicación anterior de 19 fotografías faltantes era histórica. El CID documental identifica la carta; el ID del deck es **677**. El texto Konami es evidencia de identidad/efecto, no de una partida ejecutada.
 
