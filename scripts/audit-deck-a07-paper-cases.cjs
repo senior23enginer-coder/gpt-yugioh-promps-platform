@@ -51,11 +51,15 @@ function audit({deckId,userAssigned,packageFile,curatedFile}){
    assert(!all.has(prefix),'A07_DUPLICATE_CASE_ID_'+prefix);all.add(prefix);
    const status=cells[k+2].slice(prefix.length+3);
    assert(status.length>20,'A07_CASE_HAS_NO_JUSTIFICATION_'+prefix);
-   if(status.startsWith('NO_APLICA:'))na++;
+   if(status.startsWith('NO_APLICA:')||status.startsWith('NO_APLICA_TORNEO_ACTUAL:')||status.startsWith('NO_APLICA_TORNEO_DECK_671:'))na++;
    else if(status.startsWith('CONDICIONAL:'))cond++;
    else if(status.startsWith('SIN_EVIDENCIA:'))uncertain++;
    else assert.fail('A07_PREMATURE_OR_UNKNOWN_CASE_STATUS_'+prefix);
   }
+  const formatCase=cells[8];
+  assert(formatCase.includes('NO_APLICA_TORNEO_ACTUAL:')||
+    formatCase.includes('NO_APLICA_TORNEO_DECK_671:'),
+    'A07_FORMAT_CASE_CANNOT_CLAIM_TOURNAMENT_LEGAL_'+id);
   const cid=id.split(':')[2];
   if(!cells[9].includes('cid='+cid))missingSource++;
   else sourceIds++;
