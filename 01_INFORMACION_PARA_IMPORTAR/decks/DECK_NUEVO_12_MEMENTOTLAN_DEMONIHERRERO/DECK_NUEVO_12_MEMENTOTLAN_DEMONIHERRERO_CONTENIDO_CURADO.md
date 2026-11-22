@@ -2934,6 +2934,30 @@ En A06.12 se comprueban las transiciones de las copias conocidas. Los siguientes
 
 **Dictamen actual:** los casos están tipados por zonas y UID con auditoría automatizada, pero estas condiciones de cadena, fase y efectos continuos **requieren contraste reglamentario caso por caso**. La ausencia de un motor A10B no es impedimento para la prueba lógica de papel, pero tampoco equivale a que esta ya haya ocurrido.
 
+### A06.14 — efectos no expresados únicamente como movimientos físicos
+
+Los 80 casos A06.12 ya conservan copias por UID, pero el estado de juego exige además algunos **eventos persistentes, disparos en nueva cadena y resultados con identidad oculta**. Estas anotaciones se agregan al `expected_state_after` del modelo tipado por relación, sin inventar cartas robadas ni convertir una acción hipotética en legalidad certificada. Una nueva cadena y la separación de coste/resolución se consideran datos obligatorios para A07.
+
+~~~text
+M04|sequential_chains=2
+M11|creation_king_no_same_chain_quick_effect=true
+M16|trigger_after_destruction=true
+M19|unknown_draw_count=1;opponent_destroy_count=2;trigger_after_fusion=true
+M20|temporary_banish_until_end=2
+M22|independent_effect_windows=3
+M24|effect_monster_summon_lock_until_next_self_draw=true
+M29|immediate_normal_after_resolution=true
+M32|horn_trigger_after_bone_party=true
+M33|quick_play_set_before_opponent_turn=true
+M34|own_summon_lock_remainder_turn=true;both_players_monster_3000_effect_activation_lock=true
+M35|no_dormiveja_requirement=true
+M38|both_players_main_deck_to_hand_lock_until_turn_end=true;fuwalos_draw_prevented=true
+M39|both_players_banish_lock_until_opponent_turn_end=true;sideboarded=true
+M40|banish_happens_during_resolution=true;sideboarded=true
+~~~
+
+**Límites de validación:** las cartas robadas por Quimera no reciben CID arbitrario; los monstruos temporalmente desterrados por S:P mantienen su identidad y retorno pendiente en End Phase; los materiales Xyz conservan su UID, pero la posición de cada zona exacta queda para A09. Los códigos de evento son etiquetas de estado, no operadores implementados en A10B.
+
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
 **Estado:** `COMPLETA` para la auditoría documental A07, con **34 controles R01–R34**, sus fuentes oficiales y los casos condicionales marcados por separado. Una secuencia explicada a partir de textos individuales **no es una prueba de simulador/partida física** ni sustituye el fallo de un juez para un caso controvertido. `C01–C12` se describen bajo estado inicial declarado y sin interrupción, salvo donde se marque una respuesta.
