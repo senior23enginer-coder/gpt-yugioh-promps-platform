@@ -99,12 +99,23 @@ function audit({deckId,assigned,packagePath,documentPath}){
  const rows=[...typed.matchAll(/^\| \x60(671:a05:(\d+):[a-z0-9-]+)\x60 \|([^\n]+)$/gm)];
  a.equal(ids.length,94,'94_CLAUSES_REQUIRED');a.equal(blocks.length,94,'94_CAUSAL_SEMANTICS_REQUIRED');
  a.equal(rows.length,94,'94_TYPED_EFFECTS_REQUIRED');
+ // A05.7 is ordered by tactical importance, not by CID. Reconcile by effect_id,
+ // while proving its own 94 ordinals are stable and contain no duplicate entries.
+ const causalById=new Map();
+ for(let i=0;i<blocks.length;i++){
+  const block=blocks[i],id=block[2],next=blocks[i+1]?.index??causal.length;
+  a.equal(Number(block[1]),i+1,'UNSTABLE_CAUSAL_ORDINAL_'+i);
+  a(!causalById.has(id),'DUPLICATE_CAUSAL_EFFECT_'+id);
+  causalById.set(id,{block,body:causal.slice(block.index,next)});
+ }
  const ccount={activated:0,triggered:0,notActivated:0,procedure:0,maintenance:0,activationCost:0,activationTargets:0,softOpt:0};
  let reviewedFields=0,checkedSpecialRules=0;
  for(let i=0;i<94;i++){
-  const n=i+1,reg=ids[i],block=blocks[i],row=rows[i],cid=Number(reg[2]),id=reg[1];
-  a.equal(block[2],id,'CAUSAL_REORDERED_'+n);a.equal(row[1],id,'TYPED_REORDERED_'+n);
-  a.equal(Number(block[1]),n,'UNSTABLE_CAUSAL_ORDINAL_'+n);
+  const n=i+1,reg=ids[i],row=rows[i],cid=Number(reg[2]),id=reg[1];
+  const causalEntry=causalById.get(id);
+  a(causalEntry,'CAUSAL_EFFECT_NOT_FOUND_'+id);
+  const {block,body:causalText}=causalEntry;
+  a.equal(row[1],id,'TYPED_REORDERED_'+n);
   a.equal(Number(block[3]),cid);a.equal(Number(block[4]),cid);a(cards.has(cid),'FOREIGN_ACTOR_'+cid);
   const v=cells(row[0]);a.equal(v.length,9,'A07_NOT_NINE_COLS_'+n);
   const [effect,type,zone,window,cost,target,usage,result,source]=v;
@@ -128,7 +139,6 @@ function audit({deckId,assigned,packagePath,documentPath}){
   else ccount.notActivated++;
   if(expectedCost)ccount.activationCost++;
   if(actualTarget)ccount.activationTargets++;
-  const next=blocks[i+1]?.index??causal.length,causalText=causal.slice(block.index,next);
   for(const label of ['Actor / estado inicial','Ventana / disparador','Coste o requisito previo',
    'Selección / targeting','Resolución','Uso, negación y restricciones','Estado posterior esperado','Fuente oficial']){
    const pattern='- **'+label+':** ';
