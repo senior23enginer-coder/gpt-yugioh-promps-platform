@@ -2907,7 +2907,7 @@ M36|self|main1|H:19904,M:19472,G:19366,E:20389|-|H:19904>G:19904;M:19472>G:19472
 M37|self|main1|M:20196,M:20389,E:13081|-|M:20196>X:20196;M:20389>X:20389;E:13081>M:13081|drop:M:20196|two_level6_fiends
 M38|opponent|main1|H:9279,G:20500|H:9279>G:9279|-|event:none|opponent_added_from_main
 M39|opponent|main1|H:11243,S:13619,OG:o1|H:11243>G:11243|-|drop:H:11243|sideboarded_lancea_opponent_turn
-M40|self|start_main1|H:21203,H:19364,OM:o1|-|H:21203>G:21203;H:19364>B:19364;OM:o1>OH:o1|phase:battle|sideboarded_gordian_targets
+M40|self|start_main1|H:21203,H:19364,OS:o1|-|H:21203>G:21203;H:19364>B:19364;OS:o1>OH:o1|phase:battle|sideboarded_gordian_target_faceup_spelltrap
 ~~~
 
 ### A06.13 — revisión de límites no capturados por un mero movimiento de zona
@@ -2942,19 +2942,21 @@ Los 80 casos A06.12 ya conservan copias por UID, pero el estado de juego exige a
 M04|sequential_chains=2
 M11|creation_king_no_same_chain_quick_effect=true
 M16|trigger_after_destruction=true
-M19|unknown_draw_count=1;opponent_destroy_count=2;trigger_after_fusion=true
+M19|unknown_draw_count=1;opponent_destroy_count=2;trigger_after_fusion=true;opponent_destroyed_cards_assumed_non_pendulum=true
 M20|temporary_banish_until_end=2
-M22|independent_effect_windows=3
+M22|independent_effect_windows=3;opponent_target_assumed_non_pendulum_main_monster=true
 M24|effect_monster_summon_lock_until_next_self_draw=true
 M29|immediate_normal_after_resolution=true
-M32|horn_trigger_after_bone_party=true
+M32|horn_trigger_after_bone_party=true;opponent_destroyed_monster_assumed_non_pendulum=true
 M33|quick_play_set_before_opponent_turn=true
 M34|own_summon_lock_remainder_turn=true;both_players_monster_3000_effect_activation_lock=true
 M35|no_dormiveja_requirement=true
 M38|both_players_main_deck_to_hand_lock_until_turn_end=true;fuwalos_draw_prevented=true
 M39|both_players_banish_lock_until_opponent_turn_end=true;sideboarded=true
-M40|banish_happens_during_resolution=true;sideboarded=true
+M40|banish_happens_during_resolution=true;sideboarded=true;opponent_target_observed_faceup_spelltrap=true
 ~~~
+
+**Información rival y destino (precisión):** en M19/M22/M32 los ejemplos presuponen explícitamente monstruos rivales no Péndulo, de manera que no se invente un retorno al Extra al destruir/enviar. En M40 se selecciona de manera expresa una Mágica/Trampa rival boca arriba para sustentar el retorno a la mano; si el objetivo fuese un monstruo del Extra, el destino tendría que registrarse según su carta real y no suponerse como mano.
 
 **Límites de validación:** las cartas robadas por Quimera no reciben CID arbitrario; los monstruos temporalmente desterrados por S:P mantienen su identidad y retorno pendiente en End Phase; los materiales Xyz conservan su UID, pero la posición de cada zona exacta queda para A09. Los códigos de evento son etiquetas de estado, no operadores implementados en A10B.
 
