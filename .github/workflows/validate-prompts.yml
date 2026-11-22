@@ -37,6 +37,7 @@ on:
       - 'scripts/test-deck-a10a-browser.cjs'
       - 'scripts/test-deck-a10a-import-contract.php'
       - 'scripts/test-deck-a10a-import-roundtrip.php'
+      - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -75,6 +76,7 @@ on:
       - 'scripts/test-deck-a10a-browser.cjs'
       - 'scripts/test-deck-a10a-import-contract.php'
       - 'scripts/test-deck-a10a-import-roundtrip.php'
+      - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -170,12 +172,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Checkout actual Station X frontend source for isolated import UI browser test
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
       - name: Install isolated Chromium browser test dependency
         run: npm install --no-save --no-package-lock playwright@1.46.1
       - name: Install Chromium for local-only desktop/mobile smoke
         run: npx playwright install --with-deps chromium
       - name: Verify 12 Memento A10A routes, navigation and interruptions in both viewports
         run: node scripts/test-deck-a10a-browser.cjs 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO
+      - name: Verify Station X import dialog preview, commit and reload on desktop/mobile
+        run: node scripts/test-deck-a10a-import-ui.cjs
 
   memento-a10a-php-import-preflight:
     if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
