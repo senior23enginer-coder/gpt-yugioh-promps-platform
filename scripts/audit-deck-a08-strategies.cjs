@@ -26,7 +26,8 @@ function audit({id,assigned,pkgPath,docPath}){
  a.equal([...a06.matchAll(/^\| MEMD-\d{3} · \[\d+\]/gm)].length,39,'A06_CARD_PROFILE_COUNT');
  const matrix=cut(a08,'### A08.5 —','### A08.6 —');
  const paper=cut(a08,'### A08.6 —','### A08.7 —');
- const sidebar=cut(a08,'### A08.7 —','## APARTADO_09 —');
+ const sidebar=a08.slice(a08.indexOf('### A08.7 —'));
+ a(sidebar.startsWith('### A08.7 —'),'A08_SEVEN_SECTION_MISSING');
  const lines=[...matrix.matchAll(/^\| (I\d{2}) · \x60([A-Z_]+)\x60 \|([^\n]+)$/gm)];
  a.equal(lines.length,34,'A08_NOT_THIRTY_FOUR');
  const routes=new Set([...a09.matchAll(/^### MEMD-(C\d{2}) —/gm)].map(m=>m[1]));
