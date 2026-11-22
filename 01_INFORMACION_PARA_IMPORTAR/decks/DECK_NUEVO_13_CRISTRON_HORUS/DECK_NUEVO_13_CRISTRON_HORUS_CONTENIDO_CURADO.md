@@ -17,9 +17,9 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario asignó en orden **A01**, **A02** y **A03**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03** y **A04**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **9/35 tareas acreditadas en A01+A02+A03; 26/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **12/35 tareas acreditadas en A01+A02+A03+A04; 23/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -38,10 +38,10 @@
 - [x] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros — 40 `card_id` distintos asociados a 39 CID oficiales por Konami, con nombre de la ficha coincidente con matriz curada y snapshot V40; Purulia posee dos IDs nativos para zonas distintas sin duplicar identidad. Nombres de presentación se preservan, fuente normativa identificada por CID; auditor A03.
 - [x] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores — aprobación expresa del 18-11-2026 respaldada en A03.1, 39 CID, 40 filas físicas, 70 copias, 14 rutas/60 pasos y 13 variantes portátiles (NO 13 efectos oficiales). **Conteo exhaustivo de `effect_id` queda pendiente A05-T2**; congelación por paridad con V40 y rechazo de drift.
 
-### A04 — pendiente de auditoría del contrato vigente
-- [ ] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+### A04 — biblioteca HD CID y mapas de zonas auditados
+- [x] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades — evidencia A04.2 y `datos/A04_HD_IMAGE_PROVENANCE.json`: 39/39 CID Konami unidos sin ambigüedad a imágenes reales English TCG de YGOPRODeck 813×1185; fuente normativa Konami conservada por CID y hash de origen/archivo.
+- [x] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el `card_id`/slot — evidencia A04.2, auditor genérico de imágenes y `scripts/audit-deck-a04-photo-integrity.cjs`: 20 JPG + 19 PNG, 39/39 firmas SHA-256/bytes/dimensiones exactas, 39 CID en ficha y guía, 96 referencias HTML y enlaces Markdown válidos, 40 slots nativos del inventario; rutas y extensiones originales intactas.
+- [x] **A04-T3** Registrar mapa de disponibilidad y zonas compartidas por A05/A07/A09/A10A — evidencia A04.3 y `record.routes[].endboard.variants`: 14 rutas, 60 pasos, 151 fotos enlazadas a pasos, 15 mapas finales ilustrativos, 60 entradas de zonas; 0 cartas FOTO_PENDIENTE; no se inventan posiciones M1–M5/EMZ (`spatial_verified=false` en todas).
 
 ### A05 — pendiente de auditoría del contrato vigente
 - [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea:** A04-T1 cuando el usuario la asigne. No anticipar A04 ni promocionar los otros 26 checks.
+**Siguiente tarea:** A05-T1 cuando el usuario la asigne. No anticipar A05 ni promocionar los otros 23 checks.
 
 ---
 
@@ -277,6 +277,40 @@ Esta comprobación A03 reaprovecha la aprobación explícita del inventario del 
 | Importación y publicación | **NO PROBADAS EN ESTA PASADA** | V40 consta históricamente; este cotejo no prueba contenido de base de datos, aplicación ni nueva versión publicada |
 
 **Dictamen:** A04 `COMPLETA_DOCUMENTAL` por identidad, procedencia de CID y autocontención de recursos. Se conserva la separación Main/Extra/Side/Reserva de A03 y el inventario 40/15/15/0 aprobado. Si se regeneran archivos, habrá que repetir el chequeo de rutas; no es una deuda sobre la versión presente. **Siguiente apartado: A05** (efectos y condiciones), sin atribuir jugadas ejecutadas.
+
+### A04.2 — biblioteca HD y trazabilidad real por CID (22-11-2026)
+
+**Alcance real de A04-T1/T2:** las **39/39** fotos del mazo Crystron/Horus `677` se reemplazaron por representaciones completas auténticas **English TCG de 813 × 1185 píxeles** descargadas de YGOPRODeck y emparejadas mediante `misc_info.konami_id` con el **CID oficial** de cada una de las 39 identidades. Las 20 imágenes `.jpg` y 19 `.png` conservan **exactamente** el nombre y extensión `imagenes/<CID>.jpg/png`, evitando modificaciones de URLs de la ficha, los 14 combos y la guía existente. Los antiguos ejemplares de menor resolución permanecen recuperables en el historial Git; el idioma de las explicaciones y nombres de la ficha no se modificó.
+
+**Fuentes y protección:** `datos/A04_HD_IMAGE_PROVENANCE.json` contiene por CID nombre del inventario, nombre del origen en inglés, `konami_id`, ID de imagen de YGOPRODeck, URL de la imagen completa, `dimensions`, `previous_sha256`, `source_sha256`, `saved_sha256` y longitud de bytes. El auditor de calidad comprueba el **archivo local decodificable** y su SHA-256 frente al manifiesto, no solo una cadena de procedencia declarada. Las fichas `record.cards[].sources` y las filas CRYH-001–039 siguen apuntando al texto normativo de **Konami Neuron**, que es distinto de la fuente visual externa. Ninguna imagen generada por IA, foto de mazo distinto o tarjeta sin CID fue aceptada.
+
+| Comprobación | Resultado | Límite de la prueba |
+|---|---|---|
+| Correspondencia de identidad | **39/39** CID distintos en Konami + `record.cards` + procedencia HD | Foto auténtica no equivale a validación de efecto o ruling |
+| Resolución técnica real | **39/39** archivos de al menos 600 × 850; nueva colección **813 × 1185** | Mide claridad/resolución y SHA, no legalidad ni visibilidad en producción |
+| Inventario y rutas | **40** filas `card_id` / **40 Main + 15 Extra + 15 Side + 0 Reserva**; **14** rutas, **60** pasos | No se alteran cartas, fotos por CID en cada ruta ni cantidades |
+| Guía HTML | **96/96** referencias `src/href` a fotos con CID y extensión válidos; **39** CID presentes | A10A comprobará visualmente la aplicación real en navegador |
+| Documento curado | Todos los enlaces locales `imagenes/` y `guias/` con destino comprobable | El Markdown complementa, no sustituye el JSON nativo |
+| Guía por pasos y zonas | **151** fotografías de paso y **60** referencias por zona ligadas a los CID cargados | No certificar jugadas o coordenadas a partir de imágenes |
+
+**Validación reproducible:** `scripts/audit-deck-images.cjs`, `scripts/audit-deck-visual-zone-links.cjs` y el auditor específico `scripts/audit-deck-a04-photo-integrity.cjs` en el CI del PR. El manifiesto guarda hashes SHA-256 antes/después para detectar intercambios o imágenes obsoletas. Todos los recursos son **locales dentro de la misma carpeta** y pueden viajar en el ZIP individual sin depender de enlaces efímeros.
+
+### A04.3 — mapa de disponibilidad y zonas compartido con A05/A07/A09/A10A
+
+El siguiente es el **contrato de disponibilidad por zona**, no un resultado de un duelo ni una localización espacial de un monstruo en M1–M5/EMZ. Se conserva el mismo `CID` y la misma `card_id` nativa al trasladar una copia; **Xyz materiales no cuentan simultáneamente como monstruos independientes**.
+
+| Origen o reserva | Condición de disponibilidad física | Destino o checkpoint posible | Regla para A05/A07/A09/A10A |
+|---|---|---|---|
+| **Main 40** | Carta realmente robada en **mano** o realmente localizada en **Deck**; sus copias son finitas | Mano → zona de monstruos, magia/trampa o de campo según tipo; mano/Deck → Cementerio o destierro solo mediante efecto/acción válida | No confundir foto del deck con carta en mano ni crear una copia adicional |
+| **Extra 15** | Monstruo en Extra, procedimiento Invocación disponible y materiales reales; comprobar restricciones Máquina/Sincronía | Extra → zona de monstruos permitida; materiales → Cementerio, destierro o adjuntos Xyz según efecto/procedimiento | No afirmar S:P / Rango 8 / Fusión después de bloqueo incompatible ni ubicar cuerpos Xyz en dos zonas |
+| **Side 15** | **No participa en el duelo 1** salvo intercambio explícito antes del duelo según plan Side con la misma cantidad de entradas/salidas | Side ↔ Main/Extra solo entre duelos | No dibujar Ash, Lancea u otras piezas como disponibles si están exclusivamente en Side |
+| **Reserva 0 / Skills 0** | No hay copias adicionales ni Skill habilitada | Ningún traslado permitido sin aprobación de nuevo inventario | No inventar recursos ni sumar habilidades a la mano |
+| **Cementerio / destierro** | Solo cartas físicamente movidas allí en pasos previos | Recuperación, banish como coste, reanimación o devolución si texto y ventana lo permiten | Mantener identidad de la copia, usos y costes; no tratar Xyz acoplados como si estuvieran en GY |
+| **Campo, equipos, M/T y materiales Xyz** | Monstruos y permanentes presentes en la zona correcta; materiales adjuntos a un Xyz conocido | Resolución de efecto: movimientos reales hacia GY, mano, destierro o Extra | No utilizar zonas ilustrativas como coordenadas certificadas ni asumir objetivos rivales ocultos |
+
+**Campos A09/A10A:** `record.routes[].endboard.variants` incluye **15** mapas ilustrativos para **14** rutas (V07 tiene dos salidas alternativas) y **60** objetos de zona; cada guía enlaza sus **60** pasos a **151** referencias fotográficas. Todos los `endboard.spatial_verified` permanecen `false`: no se han certificado posiciones M1–M5/EMZ ni cadenas y materiales de cada posible respuesta rival. Esa certificación se evaluará en A09/A10A, **no** se rellena artificialmente en A04.
+
+**Estado de fotografías:** `FOTO_PENDIENTE=0` para las 39 identidades físicas; los huecos de estado del campo que dependen de una activación, coste, material o carta rival permanecen **CONDICIONALES**, no son fotos faltantes. A04-T3 queda cerrado como **mapa de disponibilidad/zonas** sin promoverlo a replay ejecutado ni fingir el estado exacto de la mesa.
 
 ## APARTADO_05 y APARTADO_06 — Matriz ÚNICA por identidad, función y sinergia
 
