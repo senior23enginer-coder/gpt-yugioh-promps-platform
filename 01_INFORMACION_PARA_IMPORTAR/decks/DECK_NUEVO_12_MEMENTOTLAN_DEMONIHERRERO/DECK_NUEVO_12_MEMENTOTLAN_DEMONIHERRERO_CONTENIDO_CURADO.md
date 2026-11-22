@@ -2069,15 +2069,18 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Criterio exacto de cierre:** A07 está completo como **documentación reglamentaria y banco de casos de papel auditable**, que fue el alcance acordado **sin calculadora**. Esto **NO** equivale a que las 658 situaciones se hayan resuelto en partidas reales, a que los 61 casos condicionados ya tengan una certificación PSCT independiente, a que el paquete sea legal para torneo TCG Advanced, ni a que A10B esté solicitado. La revisión de legalidad de estados completos y los campos finales espaciales sigue como verificación transversal pendiente de A05/A08–A10A. No permitir que un caso `CONDICIONAL` sea utilizado como regla `EJECUTABLE_PROBADO`.
 
-### A08 — PENDIENTE de verificación bajo el contrato vigente
-- [ ] **A08-T1** Enumerar starters, líneas y decisiones reales por estado, formato, recursos y effect_id sin imponer metas a la calculadora
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A08-T2** Verificar alternativas, bricks, interrupciones, controles y matchups mediante casos de papel y supuestos explícitos
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A08-T3** Vincular cada línea a cartas físicas, uso previo, costes, restricciones, probabilidad sólo cuando esté sustentada
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
-- [ ] **A08-T4** Enlazar candidatos a route_id A09 o clasificar SIN_JUGADA_ACREDITADA/NO_APLICA con evidencia y motivo
-  - **Pendiente:** validar íntegramente conforme al apartado correspondiente; no se hereda automáticamente la marca COMPLETA histórica.
+### A08 — COMPLETA EN SU ALCANCE DE ESTRATEGIA DOCUMENTAL Y CASOS DE PAPEL (4/4)
+- [x] **A08-T1** Enumerar starters, líneas y decisiones reales por estado, formato, recursos y effect_id sin imponer metas a la calculadora.
+  - **Evidencia:** A08.0–A08.4 conserva 34 decisiones I01–I34; A08.5 las reconcilia individualmente con 68 referencias a fotografías reales, copias iniciales físicas, 64 enlaces a effect_id de A05/A07 y estados condicionales. A08.6 declara 16 situaciones de papel con premisa positiva/negativa. Nadie fuerza a la calculadora a recomendar Flor como cuerpo de Campo ni presume rival pasivo.
+- [x] **A08-T2** Verificar alternativas, bricks, interrupciones, controles y matchups mediante casos de papel y supuestos explícitos.
+  - **Evidencia:** A08.6 aporta 16 contrapruebas (Heat Wave vs desarrollar, Ash vs búsqueda, Goblin, Quimera, S:P, TY-PHON, cadena de Secuencia, etc.). A08.1/1b y A08.7 documentan cinco intercambios Main/Side 2↔2 o 3↔3 conservando 41 Main; A08.3 preserva tres enfrentamientos previamente documentados como escenarios condicionados, **no nuevos decks asignados**, ni resultados de partidas o win rates. I23 sigue siendo brick SIN_JUGADA_ACREDITADA.
+- [x] **A08-T3** Vincular cada línea a cartas físicas, uso previo, costes, restricciones, probabilidad sólo cuando esté sustentada.
+  - **Evidencia:** A08.5 muestra foto y CID de todas las piezas iniciales; A08.8 cruza 34/34 decisiones con ventana, coste previo/procedimiento, targeting/selección y uso OPT/HOPT de los efectos canónicos A07.7. El control reusable `scripts/audit-deck-a08-strategies.cjs` exige cargar Main/Extra/Side, prohíbe multiplicar copias y valida rutas/fotos/efectos/Side. **No se calculan probabilidades, bricks porcentuales ni rendimiento sin muestra**, y no se supone carta robada desconocida.
+- [x] **A08-T4** Enlazar candidatos a route_id A09 o clasificar SIN_JUGADA_ACREDITADA/NO_APLICA con evidencia y motivo.
+  - **Evidencia:** A08.5 contiene **25 decisiones enlazadas a rutas A09 C01–C12 o accesos EX-M01–EX-M04 ya existentes**, y **9 decisiones sin ruta completa acreditada**. La hipótesis de César EX-M04 permanece SIN_RUTA_REPRODUCIBLE. Ninguna coincidencia de cartas crea un combo nuevo ni se declara endboard espacial certificado antes de A09/A10A.
+
+**Criterio de cierre A08:** la clasificación estratégica, fotos, estados iniciales, casos de papel, elecciones Side y traspaso A09 están completos y sujetos a validadores CI. **No equivale a certificar las 12 rutas A09, calcular tasas reales, probar partidas, modificar el inventario ni legalizar la lista TCG Advanced actual**: A07.12 indica tres cartas Forbidden y dos copias excedentes de Droll bajo la lista vigente desde 19-10-2026. A05-T3/T4 siguen abiertas como certificación transversal. A10B es `NO_SOLICITADA`.
+
 
 ### A09 — PENDIENTE de verificación bajo el contrato vigente
 - [ ] **A09-T1** Identificar cada ruta con route_id y starter/estado físico inicial: mano, GY, campo, recursos, fase, prioridades y cartas desconocidas
@@ -3918,7 +3921,7 @@ Complemento sistemático de A07.14: las **33 familias de caso cotejadas manualme
 
 **Cruce causal:** I01–I34 solo citan cartas realmente inventariadas y rutas C01–C12 o accesos EX-M01–04 existentes; I23 conserva **SIN_COMBO**, I32 conserva **SIN_RUTA_REPRODUCIBLE** para César, las handtraps I10/I33 siguen autónomas. No se crea ruta nueva por repetir cartas ni se atribuye prueba física del usuario. Las 39 identidades conservan papel en A05/A06 aunque no todas tengan ruta A09 propia.
 
-**Dictamen A08: COMPLETA en exploración y clasificación documental de las 34 entradas y los cinco intercambios Side disponibles, con 3 matchups delimitados y propuestas sin mutación.** No es búsqueda matemática exhaustiva de todas las manos ni certificación de combos: A09 conserva la comprobación de estados iniciales, materiales, pasos y finales de cada ruta. No publicar/importar sin autorización.
+**Dictamen A08 vigente: COMPLETA en los cuatro entregables de exploración estratégica y casos de papel (A08-T1–T4), con 34 decisiones, 16 contrapruebas, cinco intercambios Side, 3 matchups históricos delimitados y ninguna mutación de inventario.** No es búsqueda matemática exhaustiva de todas las manos ni certificación de combos: A09 conserva la comprobación de estados iniciales, materiales, pasos y finales de cada ruta. No publicar/importar sin autorización.
 
 **Siguiente apartado secuencial:** A09, solo por solicitud de Miguel.
 
@@ -4046,6 +4049,16 @@ La matriz física A08.5 se complementa con los campos reglamentarios **canónico
 | I34 | hand-post-side-or-faceup-own-field @ opponent-turn-quick-window; hand-post-side @ start-self-main1-or-main2 | tribute-this-copy; none-resource-banish-on-resolution | none; target-one-or-more-faceup-field-cards | until-end-opponent-turn; not-negatable | `671:a05:11243:quick-tribute-banish-lock`, `671:a05:21203:initial-main-banish-cost-bounce` |
 
 **Política de ejecución de estudio:** cuando hay `no-opt-in-official-text`, no inventar HOPT; cuando aparece `none-resource-banish-on-resolution`, los recursos se consumen durante resolución y no al activar; `none-material-procedure` exige comprobar materiales pero no pagar un coste de activación de esa carta. Si la carta está en `SIDE` o está Forbidden/limitada en exceso, primero aplicar las guardas de inventario/formato de A07.12. Las cartas desconocidas de robo nunca reciben identidad fabricada.
+
+### A08.9 — acta de traspaso a A09 y límites de aceptación de A08
+
+**Inventario inmutable:** deck 671, formato declarado `tcg_advanced`, 39 CID, **41 Main / 15 Extra / 14 Side / 0 Reserva**. Una de las reglas de A08 es **no afirmar que una lista incompatible con Forbidden & Limited sea jugable en torneo**: el paquete se conserva como objeto de estudio, sin reemplazar sus cartas.
+
+**Resultado consolidado:** 34 prefichas I01–I34 clasificadas, 68 apariciones de fotografías genuinas de piezas iniciales, 64 atribuciones a `effect_id`, 34 cruzes de costes/ventanas/uso A07.7, 16 situaciones positivas/negativas, 25 decisiones que apuntan a las 12 rutas C01–C12 o los cuatro accesos EX-M01–EX-M04, y nueve decisiones **sin ruta completa acreditada**. Los cinco planes de Side usan intercambios unitarios exactos y conservan 41 Main. Los tres matchups son hipótesis previamente registradas, no otros decks analizados en esta ejecución.
+
+**Regla de traspaso a A09:** cada `jugada_id=Ixx` enlazado a una `route_id` debe volver a contrastar mano inicial exacta, efectos usados, UID de copias, pagos reales, ventana, restricciones, carta que queda en GY y campo final de cada paso. No marcar `COMBO_COMPLETO_CERTIFICADO` por el solo estado `CANDIDATO_A09_CONDICIONAL`; los candidatos sin estado inicial suficiente quedan como `SIN_JUGADA_ACREDITADA`. Las posiciones espaciales y fotos de finales son responsabilidad de A09/A10A, no se inventan aquí.
+
+**Cierre A08:** T1 [x], T2 [x], T3 [x], T4 [x], alcance documental y de prueba de papel **4/4**. La calculadora A10B, reimportación y despliegue no se han ejecutado. Este cierre tampoco subsana la deuda A05-T3/T4.
 
 ## APARTADO_09 — Doce rutas razonadas por familia y variante
 
