@@ -22,7 +22,7 @@ function audit({deckId,userAssigned,packageFile,curatedFile}){
  const a05=chunk(src,'### A05.8 —','### A05.9 —');
  const rules=chunk(src,'### A07.7 —','### A07.8 —');
  const cases=chunk(src,'### A07.8 —','### A07.9 —');
- const operators=chunk(src,'### A07.9 —','## APARTADO_08 —');
+ const operators=chunk(src,'### A07.9 —','### A07.10 —');
  const registered=[...rules.matchAll(/^\| \x60(\d+:a05:(\d+):[a-z0-9-]+)\x60 \| \x60([A-Z_]+)\x60 \/ \x60([a-z_]+)\x60 \|([^\n]+)$/gm)];
  const registeredIds=registered.map(x=>x[1]);assert.equal(registered.length,94,'A07_RULE_COUNT');
  assert.equal(new Set(registeredIds).size,registeredIds.length,'A07_RULE_DUPLICATE');
