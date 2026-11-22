@@ -4058,6 +4058,8 @@ La matriz física A08.5 se complementa con los campos reglamentarios **canónico
 
 **Regla de traspaso a A09:** cada `jugada_id=Ixx` enlazado a una `route_id` debe volver a contrastar mano inicial exacta, efectos usados, UID de copias, pagos reales, ventana, restricciones, carta que queda en GY y campo final de cada paso. No marcar `COMBO_COMPLETO_CERTIFICADO` por el solo estado `CANDIDATO_A09_CONDICIONAL`; los candidatos sin estado inicial suficiente quedan como `SIN_JUGADA_ACREDITADA`. Las posiciones espaciales y fotos de finales son responsabilidad de A09/A10A, no se inventan aquí.
 
+**Censo total tomado de las 35 casillas del control maestro:** **26/35 completadas en su alcance de entrega** y **9 pendientes**: `A05-T3`, `A05-T4`, `A09-T1`, `A09-T2`, `A09-T3`, `A09-T4`, `A10A-T1`, `A10A-T2`, `A10A-T3`. Este total se obtiene contando directamente las casillas del único documento del deck, no sumando porcentajes narrativos previos.
+
 **Cierre A08:** T1 [x], T2 [x], T3 [x], T4 [x], alcance documental y de prueba de papel **4/4**. La calculadora A10B, reimportación y despliegue no se han ejecutado. Este cierre tampoco subsana la deuda A05-T3/T4.
 
 ## APARTADO_09 — Doce rutas razonadas por familia y variante
