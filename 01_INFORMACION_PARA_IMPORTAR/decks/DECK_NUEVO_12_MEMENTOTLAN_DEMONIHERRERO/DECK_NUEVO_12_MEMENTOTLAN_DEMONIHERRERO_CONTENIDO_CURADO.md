@@ -4904,6 +4904,12 @@ Estas viñetas se colocan **dentro de la guía madre** al fallar el paso indicad
 
 **Auditorías:** CI de GitHub #45054589222: SUCCESS en commit 2f37021b (incluidos scripts/audit-deck-a09-route-states.cjs y scripts/audit-deck-a10a-visual-parity.cjs). El auditor A10A requiere explícitamente deck_id=671, verifica CID/copia/imagen/ID/estados conocidos, 12 paneles con 69 pasos, 23 cartas iniciales y 198 imágenes por paso, y declara browserMobileDesktopExecuted=false, editorV40ParityCertified=false, spatialEndboardsCertified=0, replaysExecuted=0. Resultado estático, no motor.
 
+### A10.6 — prueba real de navegadores, sin certificar el importador (22-11-2026)
+
+El smoke reproducible `scripts/test-deck-a10a-browser.cjs` sirve **localmente** la guía y las imágenes del **único deck autorizado 671**, y abre Chromium en escritorio (1366×900) y móvil (390×844, táctil). Comprueba 12 selectores/rutas, 69 paneles de reglamento, imágenes reales de carta, selección C01→C12, navegación circular anterior/siguiente, despliegue de detalles, interrupción que oculta el campo final base y reanudación de éste al cerrar, y ausencia de errores JS. **GitHub Actions #45055000540: SUCCESS** en commit `6c477ded` para los trabajos `memento-a10a-browser` y `protected-contracts`; los dos controles de presentación #45055000491 y #45055000495 también concluyeron SUCCESS.
+
+**T3 continúa ABIERTA** por la parte de importar, guardar y volver a leer desde la interfaz real de Platform: no hubo sesión autenticada, escritura a BD, reimportación del ZIP ni prueba de persistencia en Station X. La revisión estática de la implementación de Platform `torneos_yugioh/includes/decks/data-http.php` demuestra que admite el contrato `station-x-deck-package/1` con `deck-slots-v1`, no que el paquete se haya importado exitosamente. Se mantienen las discrepancias frente al registro histórico V40 (61 pasos de fotos, nueve manos visuales y dos descripciones). No alterar el registro almacenado hasta ejecutar la importación y comparar lectura posterior. No modificar deck, no merge/deploy, no A10B.
+
 **Censo por las 35 casillas reales:** 32/35 [x] y 3 abiertas: A05-T3, A05-T4 y A10A-T3. PR #23 permanece DRAFT/OPEN, sin merge, sin despliegue, sin actualización de Platform y sin A10B.
 
 ---
