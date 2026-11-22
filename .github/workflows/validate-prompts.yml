@@ -36,6 +36,7 @@ on:
       - 'scripts/audit-deck-a10a-visual-parity.cjs'
       - 'scripts/test-deck-a10a-browser.cjs'
       - 'scripts/test-deck-a10a-import-contract.php'
+      - 'scripts/test-deck-a10a-import-roundtrip.php'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -73,6 +74,7 @@ on:
       - 'scripts/audit-deck-a10a-visual-parity.cjs'
       - 'scripts/test-deck-a10a-browser.cjs'
       - 'scripts/test-deck-a10a-import-contract.php'
+      - 'scripts/test-deck-a10a-import-roundtrip.php'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -189,3 +191,25 @@ jobs:
           persist-credentials: false
       - name: Verify read-only native PHP inventory preflight for Memento import package
         run: php scripts/test-deck-a10a-import-contract.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+
+  memento-a10a-native-roundtrip:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout native Station X importer and historical Memento V40 in read-only workspace
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Prepare PHP with ZIP and mbstring
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: zip, mbstring
+          coverage: none
+      - name: Import ZIP, publish, reload and audit isolated Memento record using native PHP code
+        run: php scripts/test-deck-a10a-import-roundtrip.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json
