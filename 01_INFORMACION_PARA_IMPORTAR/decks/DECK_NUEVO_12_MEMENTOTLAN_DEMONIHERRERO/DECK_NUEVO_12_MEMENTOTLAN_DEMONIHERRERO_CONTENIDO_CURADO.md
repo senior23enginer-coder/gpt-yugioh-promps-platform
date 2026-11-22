@@ -3472,6 +3472,183 @@ Los siguientes son **casos de escritorio de dos decks reales**, no partidas ocur
 
 Estas exclusiones no eliminan sus `effect_id` documentales ni permiten agregar cartas o rellenar el Side para «hacer pasar» la auditoría. La importación futura deberá rechazar rutas que usen esos destinos sin un cambio explícito del inventario. La separación completa entre requisito, coste y resolución se mantiene pendiente de revisión semántica independiente en A07-T2/T3.
 
+### A07.10 — laboratorio de 17 escenarios de alto riesgo con estado físico y cadena
+
+**Objetivo:** revisar manualmente la interpretación de efectos en situaciones concretas de Memento 671 sin transformar los borradores A07.8 en afirmaciones de legalidad certificada. Cada escenario usa un `effect_id` real de A05, origen/destino físico y distinción explícita de coste, procedimiento, trigger y resolución. La fuente oficial es la de la carta por CID y el estado general permanece `CONDICIONAL` hasta contraste reglamentario del caso completo. Estos 17 ejemplos no sustituyen los **658 controles de categoría** de A07.8.
+
+#### 671:A07:S01 — Ventana de búsqueda
+
+- **Efecto y fuente:** `671:a05:19364:on-summon-search-memento` · [Konami CID 19364](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propio turno/Main1; Angbruja UID-A CID19364 recién Invocada Normal en M1; Tatsun UID-B CID19362 en Main Deck; búsqueda sin usar, cadena disponible.
+- **`action` (selección, cadena y coste frente a resolución):** Activar el disparo de Angbruja (CL1), sin coste. Selección desde Deck al resolver, no target en Campo.
+- **`expected_events/state_after` (sin interrupción adicional):** Si CL1 resuelve, UID-B Deck→mano; Angbruja permanece en M1; Normal usada. Si Flor de Ceniza rival responde en CL2, descartar Flor es coste rival; si niega la búsqueda, UID-B continúa en Deck.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo diferente: sin Invocación reciente ni otro Memento en Deck, no fingir búsqueda. La negación de una búsqueda legal es evento distinto de activación ilegal.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S02 — Evento real vs intento de añadir
+
+- **Efecto y fuente:** `671:a05:9279:after-opponent-main-deck-add` · [Konami CID 9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Rival Main1, se observó que añadió realmente 1 carta desde Main Deck a mano fuera de Draw; Droll UID-D CID9279 en propia mano.
+- **`action` (selección, cadena y coste frente a resolución):** Enviar Droll mano→GY al activar en ventana de respuesta posterior al evento; no invocarlo al Campo.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, ambos jugadores tienen bloqueo de nuevas adiciones del Main Deck a mano por el resto del turno. Droll permanece en GY.
+- **Contraejemplo y motivo de fallo cerrado:** Si Ash negó la búsqueda rival y no hubo adición, el disparador no existe; no usar mero intento de buscar como evento.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S03 — Nivel original y destrucción resolutiva
+
+- **Efecto y fuente:** `671:a05:19362:main-destroy-memento-send-level-total` · [Konami CID 19362](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main1; Tatsun UID-T CID19362 Nivel5 en M1; Desvantasma CID19472 Nivel2 y Dormiveja CID20199 Nivel3 presentes en Deck, efecto no usado.
+- **`action` (selección, cadena y coste frente a resolución):** Activar efecto de Tatsun; destruir Tatsun al resolver, después elegir dos monstruos Memento de nombres distintos (Lv2+Lv3=5). Destrucción no es coste al activar.
+- **`expected_events/state_after` (sin interrupción adicional):** Tatsun M1→GY; Desvantasma y Dormiveja Deck→GY. Desvantasma puede iniciar su propio disparo en ventana válida posterior por haber sido enviada por efecto de monstruo Memento.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: 2+4 excede Nivel5, o dos copias del mismo nombre. Si el efecto de Tatsun fue negado, no declarar destrucción ni envíos.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S04 — Causa del envío al GY
+
+- **Efecto y fuente:** `671:a05:19472:sent-by-memento-monster-gy-special` · [Konami CID 19472](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Desvantasma UID-G CID19472 fue enviada Deck→GY por resolución de Tatsun CID19362, monstruo Memento; ahora existe MZ propia libre.
+- **`action` (selección, cadena y coste frente a resolución):** En nueva cadena, usar el disparo de Desvantasma desde GY; no confundir con envío voluntario como coste.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, UID-G GY→MZ propia; la recuperación al Invocarse es un segundo disparo, necesita otra carta Memento seleccionable en GY y no recupera a UID-G que ya abandonó GY.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: enviar Desvantasma al GY como coste de Gotas CID15299 no cumple condición de efecto de monstruo Memento.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S05 — Material de GY solo tras destrucción real
+
+- **Efecto y fuente:** `671:a05:19904:quick-play-fusion` · [Konami CID 19904](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main1; Fusión UID-F CID19904 en mano; Angbruja UID-A en M1; Goblin UID-G y Tatsun UID-T en GY; ocurrió una destrucción propia por efecto este turno; Rey CID20216 en Extra.
+- **`action` (selección, cadena y coste frente a resolución):** Activar Fusión durante Main legal; no atribuir al retorno desde GY un coste previo. Al resolver, utilizar UID-A de Campo y barajar UID-G/UID-T de GY como tres materiales.
+- **`expected_events/state_after` (sin interrupción adicional):** UID-A MZ→GY, UID-G/UID-T GY→Deck, Rey Extra→MZ si existe zona legal. Si Rey fue Fusion Invocado podrá disparar después, no en la misma resolución de Fusión.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: sin destrucción previa real no pueden emplearse GY como materiales. Una Mágica Rápida colocada este mismo turno no se activa ese turno.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S06 — Destrucción no equivale a negación
+
+- **Efecto y fuente:** `671:a05:20216:quick-equal-destroy` · [Konami CID 20216](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia o rival Main; Rey Creación UID-R CID20216 Fusion Invocado en M1 con efecto de destrucción disponible; Memento UID-A controlado y carta rival boca arriba UID-O legalmente seleccionable.
+- **`action` (selección, cadena y coste frente a resolución):** Activar efecto rápido, seleccionar igual cantidad de Memento propios y cartas rivales; no pagar destrucción como coste.
+- **`expected_events/state_after` (sin interrupción adicional):** Si se resuelve, ambas cartas seleccionadas se destruyen y registran destinos según su identidad. No niega automáticamente ninguna activación de las cartas destruidas.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: no existe igual cantidad de objetivos elegibles o se intenta activar la destrucción en la misma cadena donde Rey activó envío de tres.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S07 — Dos efectos del Rey, cadenas separadas
+
+- **Efecto y fuente:** `671:a05:20216:same-chain-effect-restriction` · [Konami CID 20216](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Rey UID-R CID20216 acaba de ser Invocado por Fusión; disparo enviar tres Memento entra en CL1, sigue abierta esa misma cadena.
+- **`action` (selección, cadena y coste frente a resolución):** No añadir el efecto rápido de destrucción de Rey a esa misma cadena; esperar una cadena posterior tras resolución y ventana legal.
+- **`expected_events/state_after` (sin interrupción adicional):** El envío de tres se resuelve si no fue negado. El efecto rápido podrá intentarse en cadena nueva si guardas y uso están disponibles; los dos OPT no se confunden.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: prometer CL2 de destrucción mientras CL1 pertenece al disparo de envío de ese mismo Rey.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S08 — S:P no gana destierro inicial con dos Main
+
+- **Efecto y fuente:** `671:a05:19188:on-link-with-extra-banish` · [Konami CID 19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main1; S:P UID-S CID19188 Invocada por Link usando Angbruja CID19364 y Tatsun CID19362, ambos monstruos de efecto del Main Deck.
+- **`action` (selección, cadena y coste frente a resolución):** Enviar ambos materiales Campo→GY durante Link Summon; registrar S:P Extra→MZ. Verificar el origen de los materiales antes de proponer disparo de destierro.
+- **`expected_events/state_after` (sin interrupción adicional):** No se habilita el destierro de S:P al ser Invocada por Link por faltar material de Extra. La respuesta rápida posterior a activación rival es un efecto diferente.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: suponer que cualquier Link Summon de S:P habilita destierro inicial; no fingir activación rival para disparar su efecto rápido.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S09 — Equipo auténtico de Réquiem
+
+- **Efecto y fuente:** `671:a05:20196:target-own-equip-and-field-monster-to-gy` · [Konami CID 20196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main; Grabador UID-G CID20196 en M1, Réquiem UID-Q CID20225 equipado a Grabador en S1 y monstruo rival UID-O en MZ rival.
+- **`action` (selección, cadena y coste frente a resolución):** Activar Grabador seleccionando el equipo Fiendsmith propio y un monstruo real del Campo; confirmar que Réquiem efectivamente está equipado, no solo en GY.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, Réquiem S/T→GY y monstruo rival MZ→GY según reglas de destino; Grabador permanece en MZ. No se produce una negación genérica.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: Réquiem ya consumido como material de Princesa o no hay equipo propio legal; no atribuir dos usos simultáneos a la misma copia.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S10 — César sin falso OPT
+
+- **Efecto y fuente:** `671:a05:13081:quick-negate-special-summon-activation` · [Konami CID 13081](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Turno rival, César UID-C CID13081 en M1 con dos materiales Xyz CID físicos U1 y U2, rival activa una carta cuyo efecto incluye Invocación Especial.
+- **`action` (selección, cadena y coste frente a resolución):** Encadenar César y desacoplar U1 como coste (material→GY) antes de resolver; efecto no tiene OPT explícito en su texto oficial.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, niega la activación y destruye la carta que la inició. Conserva U2; si más adelante surge otra activación elegible, puede volver a activar con material restante, respetando condiciones reales.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: ningún material restante o activación que no incluya Invocación Especial; no limitar ficticiamente a una vez por turno.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S11 — TY-PHON bloquea continuidad propia
+
+- **Efecto y fuente:** `671:a05:19184:alternative-xyz-highest-atk` · [Konami CID 19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main; se observaron al menos dos Invocaciones especiales rivales desde Extra en turno actual o anterior; controlas el monstruo propio de mayor ATK, TY-PHON CID19184 en Extra.
+- **`action` (selección, cadena y coste frente a resolución):** Usar ese monstruo como material en procedimiento alternativo Xyz sin cadena; transferir sus materiales existentes si aplica.
+- **`expected_events/state_after` (sin interrupción adicional):** TY-PHON Extra→MZ con material auténtico; no puedes realizar más Invocaciones Normal/Especial propias ese turno. Mientras siga Xyz Invocado en Campo, ambos jugadores no pueden activar efectos de monstruos con 3000+ ATK.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: rival hizo solo una Invocación desde Extra o necesitas Invocar más monstruos propios después; no atribuir negación universal de efectos ya activados.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S12 — Lancea no se activa en turno propio
+
+- **Efecto y fuente:** `671:a05:11243:quick-tribute-banish-lock` · [Konami CID 11243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Turno del rival/Main1; Lancea UID-L CID11243 fue incorporada desde Side entre duelos y está realmente en mano; hay una Mágica Rápida propia Colocada con posible destierro en GY rival.
+- **`action` (selección, cadena y coste frente a resolución):** Tributar Lancea mano→GY como coste de su efecto rápido durante turno rival; al resolver se prohíbe desterrar a ambos por ese turno.
+- **`expected_events/state_after` (sin interrupción adicional):** Si después se intenta desterrar con Llamado por la Tumba mientras Lancea rige, no aplicar destierro exitoso. Fusión Mementotlán desde GY exige tu propia Main y no coincide temporalmente.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: pretender activar Lancea en tu turno, o usar una copia que sigue en Side sin intercambio autorizado.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S13 — Gordiano: resolución, no coste de activación
+
+- **Efecto y fuente:** `671:a05:21203:initial-main-banish-cost-bounce` · [Konami CID 21203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main1 en su comienzo; Gordiano UID-G CID21203 ya ingresó desde Side; rival controla una M/T boca arriba UID-O, y hay una carta adicional CID19364 en propia mano.
+- **`action` (selección, cadena y coste frente a resolución):** Activar Mágica Normal seleccionando M/T UID-O como objetivo. Solo durante la resolución desterrar CID19364 boca abajo desde mano (o seis cartas del Extra) por ese objetivo, después devolver UID-O a mano rival.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, Gordiano al GY tras activación, carta de mano al destierro boca abajo y M/T objetivo a mano rival. La propia activación y efecto no pueden ser negados según su texto.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: iniciar Gordiano después de haber avanzado la Main; descontar seis cartas del Extra como supuesto coste previo a resolver.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S14 — Gotas paga antes de resolver
+
+- **Efecto y fuente:** `671:a05:15299:send-other-cards-negate-monsters` · [Konami CID 15299](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main; Gotas CID15299 en mano, Goblin UID-G CID19366 en mano, rival controla Angbruja CID19364 boca arriba.
+- **`action` (selección, cadena y coste frente a resolución):** Activar Gotas enviando Goblin mano→GY como coste; en resolución elegir un monstruo de efecto rival por cada carta enviada y, si es legal, reducir ATK y negar hasta fin de turno.
+- **`expected_events/state_after` (sin interrupción adicional):** El coste pagado no se devuelve aunque se niegue el efecto de Gotas. Goblin enviado por Gotas no dispara efectos exclusivos de envío por monstruo Memento.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: no tener ninguna otra carta propia enviable a GY o seleccionar más monstruos rivales que cartas enviadas.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S15 — Quimera y robo oculto
+
+- **Efecto y fuente:** `671:a05:16845:fusion-summon-draw-destroy` · [Konami CID 16845](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main; Fusión Mementotlán resolvió una Fusión de Quimera CID16845 usando un monstruo en propia mano y dos monstruos diferentes en propio Campo; rival tiene dos cartas que pueden destruirse.
+- **`action` (selección, cadena y coste frente a resolución):** Tras Fusion Summon con efecto de Mágica, activar el disparo de Quimera y procesar robo/destrucción según cantidad de materiales en cada zona.
+- **`expected_events/state_after` (sin interrupción adicional):** Si resuelve, se roba una carta de identidad desconocida desde Deck y se destruyen dos cartas rivales legales; no inventar qué carta se robó. Sin Polimerización real en GY no adquiere protección contra targeting.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: la Invocación no fue por Fusión de Mágica, o se pretende contar material del GY como material de mano para el robo.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S16 — Fuwalos solo cuando campo propio vacío
+
+- **Efecto y fuente:** `671:a05:20500:hand-discard-draw-opponent-deck-extra-summons` · [Konami CID 20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Turno rival/Main; Fuwalos UID-F CID20500 en propia mano, no controlas ninguna carta; aún no hay robos atribuibles, efectos Mulcharmy del turno sin usar.
+- **`action` (selección, cadena y coste frente a resolución):** Descartar Fuwalos mano→GY como coste para activar efecto rápido. Mantener contador de futuras Invocaciones especiales rivales desde Deck/Extra después de que resuelva.
+- **`expected_events/state_after` (sin interrupción adicional):** Solo robar cartas desconocidas por eventos rivales observados elegibles; al End Phase aplicar ajuste de exceso de mano. Una Invocación rival desde su mano o GY no produce robo de Fuwalos.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: controlas una carta al activar o intentas cobrar robo por Invocación Especial desde Cementerio.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+#### 671:A07:S17 — Réquiem requiere Demonio LUZ real
+
+- **Efecto y fuente:** `671:a05:20225:link-one-light-fiend` · [Konami CID 20225](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en)
+- **`state_before` (evento, actor, zona, fase y recursos):** Propia Main; Luna CID19932 Link-2 LUZ/Demonio boca arriba en Campo propio, Réquiem CID20225 disponible en Extra; no se ha Invocado Réquiem ese turno.
+- **`action` (selección, cadena y coste frente a resolución):** Usar Luna como material Link-1 bajo condición Demonio/LUZ; enviar Luna de Campo a GY al invocar Réquiem desde Extra, sin iniciar cadena.
+- **`expected_events/state_after` (sin interrupción adicional):** Réquiem queda en zona Link válida; Luna ya no puede seguir simultáneamente como cuerpo en Campo ni usarse dos veces como material.
+- **Contraejemplo y motivo de fallo cerrado:** Negativo: Luna ya fue retirada, material no es Demonio LUZ o Réquiem ya fue Invocado Especialmente por nombre ese turno.
+- **Estado:** `CONDICIONAL_PENDIENTE_DE_VALIDACION_INDEPENDIENTE`. Es una prueba lógica de papel que no ejecuta la calculadora, ni inventa cartas ocultas, ni acredita un campo final espacial.
+
+
+
+**Advertencias transversales:** la ausencia de carta enemiga conocida impide inventar un objetivo, y una carta robada sin identidad observable queda desconocida. La destrucción hecha en resolución no es automáticamente un coste previo. No asignar OPT/HOPT que el texto no dice (César), no permitir efectos de Main propia en turno rival (Fusión-GY), ni consumir materiales de Extra como coste anterior a resolver (Gordiano). No mezclar `record.calculator` con estos casos.
+
 ## APARTADO_08 — Decisiones, planes y Side Deck
 
 **Estado:** `COMPLETA — clasificación y decisiones documentales (18-11-2026)`; **34 decisiones/prefichas I01–I34** por objetivo/estado/rol (I01–I12 iniciales, I13–I24 segunda pasada, I25–I34 tercera pasada). **Interacción básica, starter, extensión, combo completo y plan** se distinguen; ninguna fila se suma al contador A09 por sí sola. No se calculan tasas de victoria/matchup sin muestra. **Main 41 / Side 14** se mantienen como listas fuente; los intercambios son configuraciones hipotéticas entre duelos, **no edición del inventario original**.
