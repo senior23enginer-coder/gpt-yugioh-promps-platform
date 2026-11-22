@@ -94,7 +94,21 @@ function audit({deckId,assigned,packageFile,curatedFile}){
    'A07_MANUAL_CASE_OFFICIAL_SOURCE_MISSING_'+item[1]);
   assert(line.split('|').filter(x=>x.trim()).length===5,'A07_MANUAL_CASE_NOT_POSITIVE_NEGATIVE_'+item[1]);
  }
- return {ok:true,deck_id:deckId,card_cids:39,typed_effects:94,case_ids:658,manuallyReviewedPSCTScenarioFamilies:33,
+ const additional=segment(s,'### A07.15 —','## APARTADO_08 —');
+ const reviewedAdditional=[...additional.matchAll(/^\| \x60(671:a05:(\d+):[a-z0-9-]+)\x60 \|([^\n]+)$/gm)];
+ assert.equal(reviewedAdditional.length,61,'A07_EXPECT_SIXTY_ONE_CONDITIONAL_PAIRS');
+ assert.equal(new Set(reviewedAdditional.map(x=>x[1])).size,61,'A07_DUPLICATE_ADDITIONAL_PAIRS');
+ const overlap=new Set([...reviewed.map(x=>x[1]),...reviewedAdditional.map(x=>x[1])]);
+ assert.equal(overlap.size,94,'A07_NOT_ALL_NINETY_FOUR_CASE_FAMILIES');
+ for(const m of reviewedAdditional){
+   const fx=rules.find(x=>x.id===m[1]);
+   assert(fx&&Number(m[2])===fx.cid,'A07_CONDITIONAL_PAIR_FOREIGN_EFFECT_'+m[1]);
+   assert(m[0].includes('cid='+fx.cid),'A07_CONDITIONAL_PAIR_SOURCE_MISSING_'+m[1]);
+   assert(m[0].split('|').filter(x=>x.trim()).length===5,
+     'A07_CONDITIONAL_PAIR_MISSING_POSITIVE_NEGATIVE_'+m[1]);
+ }
+ return {ok:true,deck_id:deckId,card_cids:39,typed_effects:94,case_ids:658,manuallyReviewedPSCTScenarioFamilies:33,explicitlyConditionedScenarioFamilies:61,
+  completePositiveNegativeEffectFamilies:94,
   conditional:369,not_applicable:289,
   format_cases_blocked:94,source_and_timing_and_cost_and_target_and_usage_present_for_all:true,
   independently_legal_cases:0,calculator_executed:false};
