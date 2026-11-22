@@ -15,6 +15,10 @@ $inventory=[
 ];
 $folder='DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO';
 function passes(array $p,array $inventory,string $folder): bool {
+ // Mirror the upstream schema/deck-ID gate in ygo_data_prepare before the pure
+ // ygo_data_validate_portable_inventory call. Neither function writes data.
+ if(($p['schema']??'')!=='station-x-deck-package/1'
+    ||(int)($p['deck_id']??0)!==(int)$inventory['deck']['id'])return false;
  try {ygo_data_validate_portable_inventory($p,$inventory,$folder,null);return true;}
  catch (InvalidArgumentException $e){return false;}
 }
