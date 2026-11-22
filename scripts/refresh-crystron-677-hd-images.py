@@ -77,7 +77,7 @@ def main() -> None:
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
     assert args.deck_id == 677 and args.user_assigned, "Explicit Crystron 677 assignment required"
-    assert os.environ.get("GITHUB_REF") == "refs/heads/analysis/crystron-677-a01-a10a-20261121", "Protected branch-only photo migration"
+    assert os.environ.get("GITHUB_REF") == "refs/heads/analysis/crystron-677-a01-20261122", "Protected branch-only photo migration"
     assert os.environ.get("GITHUB_ACTIONS") == "true", "Run on dedicated GitHub CI runner"
     data = json.loads(PACKAGE.read_text(encoding="utf8"))
     rec = data["record"]
