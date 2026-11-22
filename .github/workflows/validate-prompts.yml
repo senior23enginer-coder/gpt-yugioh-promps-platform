@@ -27,6 +27,7 @@ on:
       - 'scripts/audit-deck-paper-model.cjs'
       - 'scripts/audit-deck-a06-synergies.cjs'
       - 'scripts/audit-deck-a06-physical-paper.cjs'
+      - 'scripts/audit-deck-a07-typed-rules.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -55,6 +56,7 @@ on:
       - 'scripts/audit-deck-paper-model.cjs'
       - 'scripts/audit-deck-a06-synergies.cjs'
       - 'scripts/audit-deck-a06-physical-paper.cjs'
+      - 'scripts/audit-deck-a07-typed-rules.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -117,5 +119,8 @@ jobs:
       - name: Validate 80 typed A06 paper states and physical copy conservation (selected Memento)
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-a06-physical-paper.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Verify all 94 A07 effects with exact CID, chain/cost/source and A05 pairs (Memento only)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-typed-rules.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
