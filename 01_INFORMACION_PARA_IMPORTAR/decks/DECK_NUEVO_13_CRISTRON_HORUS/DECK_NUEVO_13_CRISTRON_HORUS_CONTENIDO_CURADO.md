@@ -1455,6 +1455,175 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Casos de papel:** `677:A05:P079` positivo condicional: antes campo, Mudragon boca arriba y atributo legal declarado; acción quick-declare-change-attribute; después Cambiar el Atributo de Mudragon hasta fin del turno; protección se recalcula; coste Sin coste. `677:A05:N079` negativo: Mudragon no está en Campo o efecto ya se usó; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
+#### 80. `677:a05:9454:opponent-special-hand-discard-special` — CID 9454 (TRG)
+- **Actor / zona:** mano; copia física CID 9454 del inventario real 677.
+- **Ventana:** Tras Invocación Especial rival fuera de Damage Step.
+- **Guarda física:** Cazadora del Caos entró vía Side al Main tras duelo, está en mano y rival Invocó Especial.
+- **Coste:** Descartar otra carta de mano al activar.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Invocar Cazadora desde mano como respuesta al evento, sin inventar monstruo rival.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay Invocación Especial rival observada o falta otra carta descartable.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P080` positivo condicional: antes mano, Cazadora del Caos entró vía Side al Main tras duelo, está en mano y rival Invocó Especial; acción opponent-special-hand-discard-special; después Invocar Cazadora desde mano como respuesta al evento, sin inventar monstruo rival; coste Descartar otra carta de mano al activar. `677:A05:N080` negativo: No hay Invocación Especial rival observada o falta otra carta descartable; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 81. `677:a05:9454:continuous-opponent-cannot-banish` — CID 9454 (CONT)
+- **Actor / zona:** campo; copia física CID 9454 del inventario real 677.
+- **Ventana:** Mientras Cazadora boca arriba.
+- **Guarda física:** Cazadora del Caos boca arriba propia.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Rival no puede desterrar cartas mientras permanece aplicable; tú sí puedes.
+- **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Contraejemplo:** Cazadora ausente o ya fue retirada del campo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P081` positivo condicional: antes campo, Cazadora del Caos boca arriba propia; acción continuous-opponent-cannot-banish; después Rival no puede desterrar cartas mientras permanece aplicable; tú sí puedes; coste Sin coste. `677:A05:N081` negativo: Cazadora ausente o ya fue retirada del campo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 82. `677:a05:11243:set-monster-as-spell` — CID 11243 (PRO)
+- **Actor / zona:** mano→S/T; copia física CID 11243 del inventario real 677.
+- **Ventana:** Turno propio, procedimiento de colocar.
+- **Guarda física:** Lancea en mano y zona M/T vacía, antes de usar su efecto rápido.
+- **Coste:** No coste de activación.
+- **Objetivo y selección:** Elegir zona libre M/T.
+- **Resolución y estado posterior:** Colocar esa carta de monstruo como Mágica boca abajo.
+- **Límite / cadena:** Procedimiento sin cadena; naturaleza sin activación de cadena.
+- **Contraejemplo:** Lancea no está en mano o S/T sin espacio.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P082` positivo condicional: antes mano→S/T, Lancea en mano y zona M/T vacía, antes de usar su efecto rápido; acción set-monster-as-spell; después Colocar esa carta de monstruo como Mágica boca abajo; coste No coste de activación. `677:A05:N082` negativo: Lancea no está en mano o S/T sin espacio; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 83. `677:a05:11243:set-destroyed-opponent-turn-special` — CID 11243 (TRG)
+- **Actor / zona:** S/T→GY; copia física CID 11243 del inventario real 677.
+- **Ventana:** Tras ser destruida Lancea colocada en turno rival y enviada al GY.
+- **Guarda física:** Copia colocada como Mágica en S/T que fue destruida por rival durante su turno y enviada GY.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Invocar esta Lancea desde GY a MZ propia si zona libre.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Se envió al GY sin destrucción o fuera del turno rival.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P083` positivo condicional: antes S/T→GY, Copia colocada como Mágica en S/T que fue destruida por rival durante su turno y enviada GY; acción set-destroyed-opponent-turn-special; después Invocar esta Lancea desde GY a MZ propia si zona libre; coste Sin coste. `677:A05:N083` negativo: Se envió al GY sin destrucción o fuera del turno rival; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 84. `677:a05:11243:quick-tribute-hand-field-banish-lock` — CID 11243 (QCK)
+- **Actor / zona:** mano/campo; copia física CID 11243 del inventario real 677.
+- **Ventana:** Solo turno rival, ventana rápida legal.
+- **Guarda física:** Lancea en mano o campo propia boca arriba, sin que ya se haya tributado.
+- **Coste:** Sacrificar Lancea desde mano/campo al activar.
+- **Objetivo y selección:** Sin objetivo.
+- **Resolución y estado posterior:** Ningún jugador puede desterrar cartas durante resto de turno rival.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Intentas activar en tu turno o Lancea no está en zona correcta.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P084` positivo condicional: antes mano/campo, Lancea en mano o campo propia boca arriba, sin que ya se haya tributado; acción quick-tribute-hand-field-banish-lock; después Ningún jugador puede desterrar cartas durante resto de turno rival; coste Sacrificar Lancea desde mano/campo al activar. `677:A05:N084` negativo: Intentas activar en tu turno o Lancea no está en zona correcta; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 85. `677:a05:11411:solemn-scolding-pay3000-negate` — CID 11411 (SPL)
+- **Actor / zona:** S/T colocada; copia física CID 11411 del inventario real 677.
+- **Ventana:** Respuesta contratrampa a invocación o carta/efecto activado.
+- **Guarda física:** Regaño Solemne es la única CARTA COLOCADA en S/T propia; ventana válida y al menos 3000 LP.
+- **Coste:** Pagar 3000 LP al activar.
+- **Objetivo y selección:** Responder a evento de Invocación o eslabón activado, sin target.
+- **Resolución y estado posterior:** Negar la Invocación/activación y destruir carta si corresponde.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Otra carta propia colocada en S/T o no hay 3000 LP para pagar.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11411&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P085` positivo condicional: antes S/T colocada, Regaño Solemne es la única CARTA COLOCADA en S/T propia; ventana válida y al menos 3000 LP; acción solemn-scolding-pay3000-negate; después Negar la Invocación/activación y destruir carta si corresponde; coste Pagar 3000 LP al activar. `677:A05:N085` negativo: Otra carta propia colocada en S/T o no hay 3000 LP para pagar; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 86. `677:a05:13619:quick-target-opponent-gy-banish-negate-name` — CID 13619 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 13619 del inventario real 677.
+- **Ventana:** Ventana legal Mágica Rápida.
+- **Guarda física:** Llamado activable y monstruo físico targeteable en GY rival.
+- **Coste:** Sin coste adicional.
+- **Objetivo y selección:** Target a monstruo real del GY rival al activar.
+- **Resolución y estado posterior:** Desterrar si permanece; negar efectos nombre original hasta fin del siguiente turno.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Cementerio rival sin monstruos seleccionables o target fue movido antes de resolver.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P086` positivo condicional: antes mano/colocada, Llamado activable y monstruo físico targeteable en GY rival; acción quick-target-opponent-gy-banish-negate-name; después Desterrar si permanece; negar efectos nombre original hasta fin del siguiente turno; coste Sin coste adicional. `677:A05:N086` negativo: Cementerio rival sin monstruos seleccionables o target fue movido antes de resolver; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 87. `677:a05:15296:talent-draw-two` — CID 15296 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 15296 del inventario real 677.
+- **Ventana:** Main propia tras activación de efecto de monstruo rival durante la propia Main.
+- **Guarda física:** Talento en mano/colocada, rival activó efecto de monstruo propio Main, Deck con dos cartas.
+- **Coste:** Sin coste de activación.
+- **Objetivo y selección:** Elegir modo robar dos al activar, no target.
+- **Resolución y estado posterior:** Robar dos cartas superiores sin inventar identidades.
+- **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Contraejemplo:** Rival activó efecto únicamente en su turno o Deck sin suficientes cartas.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P087` positivo condicional: antes mano/colocada, Talento en mano/colocada, rival activó efecto de monstruo propio Main, Deck con dos cartas; acción talent-draw-two; después Robar dos cartas superiores sin inventar identidades; coste Sin coste de activación. `677:A05:N087` negativo: Rival activó efecto únicamente en su turno o Deck sin suficientes cartas; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 88. `677:a05:15296:talent-take-control` — CID 15296 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 15296 del inventario real 677.
+- **Ventana:** Main propia tras efecto de monstruo rival en tu Main.
+- **Guarda física:** Talento legal, rival controla monstruo elegible para tomar temporalmente.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir modo tomar control de monstruo al activar, sin target impreso.
+- **Resolución y estado posterior:** Tomar control de un monstruo rival hasta End Phase, con espacio propio legal.
+- **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Contraejemplo:** No hay monstruo rival o no hay zona; jamás usar también modo robo.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P088` positivo condicional: antes mano/colocada, Talento legal, rival controla monstruo elegible para tomar temporalmente; acción talent-take-control; después Tomar control de un monstruo rival hasta End Phase, con espacio propio legal; coste Sin coste. `677:A05:N088` negativo: No hay monstruo rival o no hay zona; jamás usar también modo robo; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 89. `677:a05:15296:talent-return-opponent-hand-card` — CID 15296 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 15296 del inventario real 677.
+- **Ventana:** Main propia tras efecto monstruo rival activado en tu Main.
+- **Guarda física:** Talento legal y rival tiene carta en mano real aunque identidad oculta.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Elegir modo inspeccionar mano y carta después de revelar, no target.
+- **Resolución y estado posterior:** Mirar mano rival y elegir una carta para barajarla en Deck.
+- **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Contraejemplo:** No ocurrió disparador en Main propia o mano rival vacía.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P089` positivo condicional: antes mano/colocada, Talento legal y rival tiene carta en mano real aunque identidad oculta; acción talent-return-opponent-hand-card; después Mirar mano rival y elegir una carta para barajarla en Deck; coste Sin coste. `677:A05:N089` negativo: No ocurrió disparador en Main propia o mano rival vacía; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 90. `677:a05:16868:sales-ban-declare-name-duel-lock` — CID 16868 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 16868 del inventario real 677.
+- **Ventana:** Main propia.
+- **Guarda física:** Prohibida la Venta activable y nombre de carta válido declarado.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Declarar nombre, no target.
+- **Resolución y estado posterior:** Rival no puede activar cartas/efectos de ese nombre este turno; tú no puedes activarlos por resto del DUELO.
+- **Límite / cadena:** Solo una activación de esta Mágica por turno; naturaleza con activación de cadena.
+- **Contraejemplo:** Intentas activar nombre ya prohibido o sin ventana; no tratar restricción propia como temporal.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P090` positivo condicional: antes mano/colocada, Prohibida la Venta activable y nombre de carta válido declarado; acción sales-ban-declare-name-duel-lock; después Rival no puede activar cartas/efectos de ese nombre este turno; tú no puedes activarlos por resto del DUELO; coste Sin coste. `677:A05:N090` negativo: Intentas activar nombre ya prohibido o sin ventana; no tratar restricción propia como temporal; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 91. `677:a05:11849:mistaken-arrest-both-players-deck-search-lock` — CID 11849 (SPL)
+- **Actor / zona:** mano/colocada; copia física CID 11849 del inventario real 677.
+- **Ventana:** Ventana Mágica Rápida.
+- **Guarda física:** Arresto Erróneo activable legalmente, se conoce duración hasta fin próximo turno propio.
+- **Coste:** Sin coste.
+- **Objetivo y selección:** Sin target.
+- **Resolución y estado posterior:** Ambos dejan de añadir cartas del Deck a mano salvo robándolas hasta fin de tu siguiente turno.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** Efecto no resolvió o permitir búsqueda mientras bloqueo sigue vigente.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11849&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P091` positivo condicional: antes mano/colocada, Arresto Erróneo activable legalmente, se conoce duración hasta fin próximo turno propio; acción mistaken-arrest-both-players-deck-search-lock; después Ambos dejan de añadir cartas del Deck a mano salvo robándolas hasta fin de tu siguiente turno; coste Sin coste. `677:A05:N091` negativo: Efecto no resolvió o permitir búsqueda mientras bloqueo sigue vigente; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
+#### 92. `677:a05:4861:solemn-judgment-pay-half-lp-negate` — CID 4861 (SPL)
+- **Actor / zona:** S/T colocada; copia física CID 4861 del inventario real 677.
+- **Ventana:** Respuesta contratrampa a Invocación que está por ocurrir o activación de M/T.
+- **Guarda física:** Juicio Solemne colocado legalmente, ventana en que puede negar Invocación o activación M/T.
+- **Coste:** Pagar mitad de LP actuales al activar.
+- **Objetivo y selección:** No selecciona target; responder a evento/activación admisible.
+- **Resolución y estado posterior:** Negar Invocación o activación y destruir carta si procede.
+- **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Contraejemplo:** No puede negar una activación de efecto de monstruo como tal, ni una Invocación que ocurre al resolver cadena.
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en.
+- **Casos de papel:** `677:A05:P092` positivo condicional: antes S/T colocada, Juicio Solemne colocado legalmente, ventana en que puede negar Invocación o activación M/T; acción solemn-judgment-pay-half-lp-negate; después Negar Invocación o activación y destruir carta si procede; coste Pagar mitad de LP actuales al activar. `677:A05:N092` negativo: No puede negar una activación de efecto de monstruo como tal, ni una Invocación que ocurre al resolver cadena; no atribuir coste ni resolución de una activación prohibida.
+- **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
+
 <!-- A05_EFFECTS_END -->
 
 ### A06.0 — Cómo cooperan las cartas en 30 segundos
