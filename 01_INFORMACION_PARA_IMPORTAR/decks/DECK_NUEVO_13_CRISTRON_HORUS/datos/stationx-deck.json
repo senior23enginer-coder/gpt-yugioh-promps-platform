@@ -6801,6 +6801,10 @@
   },
   "provenance": {
     "source": "platform-yugioh-md V40 structured editorial snapshot; GPT A01-A10 markdown preserved separately",
-    "claim": "documentary and visual routes, not engine-certified"
+    "claim": "documentary and visual routes, not engine-certified",
+    "native_snapshot_path": "torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json",
+    "native_snapshot_blob_sha": "1c23d72192199d9324a4b55dd1ced3d0bdd43997",
+    "native_snapshot_repository": "senior23enginer-coder/platform-yugioh-md",
+    "verification_scope": "Source snapshot and physical rows matched; not a live Station X DB read, publish, or A10B legality validation."
   }
 }
