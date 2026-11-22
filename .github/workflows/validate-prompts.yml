@@ -30,6 +30,7 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
+      - 'scripts/audit-deck-a07-state-matrix.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -61,6 +62,7 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
+      - 'scripts/audit-deck-a07-state-matrix.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -132,5 +134,8 @@ jobs:
       - name: Check the 2026-10-19 TCG Advanced Forbidden and Limited snapshot (assigned Memento)
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-a07-format-legality.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit 658 typed A07 paper state contracts without executing calculator
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-state-matrix.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
