@@ -77,6 +77,21 @@ function audit({deckId,userAssigned,packageFile,markdownFile}){
  const source=slice(doc,'### A06.12 —','## APARTADO_07 —');
  const block=source.match(/~~~text\n([\s\S]*?)\n~~~/);
  assert(block,'NO_STRUCTURED_CASE_MATRIX');
+ const eventSource=slice(doc,'### A06.14 —','## APARTADO_07 —');
+ const eventBlock=eventSource.match(/~~~text\n([\s\S]*?)\n~~~/);
+ assert(eventBlock,'NO_PHYSICAL_PAPER_SUPPLEMENT');
+ const meta=new Map();
+ for(const line of eventBlock[1].trim().split('\n')){
+   const [id,...extras]=line.split('|');
+   assert(/^M\d{2}$/.test(id)&&extras.length===1&&!meta.has(id),'INVALID_EVENT_SUPPLEMENT_'+id);
+   const facts=Object.fromEntries(extras[0].split(';').map(x=>{
+     const [key,value]=x.split('=');
+     assert(/^[a-z0-9_]+$/.test(key)&&value!==undefined,'INVALID_EVENT_METADATA_'+id);
+     return [key,value==='true'?true:(value==='false'?false:(/^\d+$/.test(value)?Number(value):value))];
+   }));
+   assert(Object.keys(facts).length>0,'EMPTY_EVENT_METADATA_'+id);
+   meta.set(id,facts);
+ }
  const rows=block[1].trim().split('\n').map(x=>x.split('|'));
  assert.equal(rows.length,40,'A06_REQUIRED_RELATIONSHIPS');
  const details=slice(doc,'### A06.7 —','### A06.8 —');
@@ -128,7 +143,7 @@ function audit({deckId,userAssigned,packageFile,markdownFile}){
       spatial_verified:false},
     action:{effect_ids:effects,costs:costMoves,resolution:resolutionMoves},
     expected_legal:true,
-    expected_state_after:{known_cards:after,spatial_verified:false},
+    expected_state_after:{known_cards:after,conditional_events:meta.get(id)||{},spatial_verified:false},
     status:'CONDICIONAL'},
    negative:{case_id:deckId+':A06:'+id+':N',
     state_before:{turn:active==='self'?1:2,active,phase:bad.phase,
@@ -148,6 +163,9 @@ function audit({deckId,userAssigned,packageFile,markdownFile}){
   identities:inventory.size,relations:records.length,typedCases:ids.length,
   physicalZoneTransitionsChecked:movements,costTransitionsChecked:costs,
   sideOnlyCardsInLegalPostSideContext:side,
+  temporalAndUnknownInformationAnnotations:meta.size,
+  unknownDrawsNotInvented:meta.get('M19')?.unknown_draw_count||0,
+  temporaryBanishReturnsScheduled:meta.get('M20')?.temporary_banish_until_end||0,
   negativeCasesWithoutPrematureIllegality:records.filter(x=>x.negative.expected_legal===null).length,
   negativeCasesWithInvalidTimingOrTrigger:records.filter(x=>x.negative.expected_legal===false).length,
   exactSpatialSlotsCertified:false,independentEffectSemanticsVerified:false,
