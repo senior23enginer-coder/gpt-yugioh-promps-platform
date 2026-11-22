@@ -59,16 +59,20 @@ function audit({deckId,assigned,documentPath}){
  const forbidden=cases.filter(x=>SNAPSHOT.restricted.has(Number(x[2])));
  assert.equal(forbidden.length,6,'FORMAT_AFFECTED_EFFECT_COUNT');
  for(const row of forbidden){
-  assert(row[0].includes('NO_APLICA_TORNEO_ACTUAL:')&&row[0].includes('TOUR')===false ||
-   row[0].includes('NO_APLICA_TORNEO_ACTUAL:'),
+  assert(row[0].includes('NO_APLICA_TORNEO_ACTUAL:'),
    'FORMAT_BANNED_CARD_CASE_NOT_BLOCKED_'+row[1]);
+ }
+ assert.equal(cases.length,94,'FORMAT_EXPECT_NINETY_FOUR_EFFECTS');
+ for(const row of cases){
+  assert(/\x60\d+:A07:E\d{3}:F\x60 NO_APLICA_TORNEO_(ACTUAL|DECK_671):/.test(row[0]),
+    'FORMAT_TOURNAMENT_CASE_FALSE_POSITIVE_'+row[1]);
  }
  const legal=violations.length===0;
  assert(legal===false,'FORMAT_HISTORICAL_DECK_FALSIFIED');
  return {ok:true,deck_id:deckId,effective_date:SNAPSHOT.effective_date,
   format:SNAPSHOT.format,source:SNAPSHOT.source,
-  physical_identites:parsed.length,totals,restrictedViolations:violations,
-  excessiveCopies:5,affectedEffectClauses:forbidden.length,tournamentLegal:legal,
+  physicalIdentities:parsed.length,totals,restrictedViolations:violations,
+  excessiveCopies:5,affectedEffectClauses:forbidden.length,excludedTournamentPaperCases:cases.length,tournamentLegal:legal,
   ruleTextStillDocumentable:true,proposedCardMutations:0,
   independentEffectLegalityCertified:false};
 }
