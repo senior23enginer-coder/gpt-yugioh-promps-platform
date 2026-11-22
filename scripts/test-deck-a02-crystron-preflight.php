@@ -17,7 +17,7 @@ if(!class_exists(ZipArchive::class))throw new RuntimeException('MISSING_ZIP_EXTE
 $folder=basename($folderPath);
 $pkg=json_decode((string)file_get_contents($folderPath.'/datos/stationx-deck.json'),true,128,JSON_THROW_ON_ERROR);
 $historic=json_decode((string)file_get_contents($historicPath),true,128,JSON_THROW_ON_ERROR);
-function need(bool $condition,string $code):void{if(!$condition)throw new RuntimeException($code);}
+function a02_need(bool $condition,string $code):void{if(!$condition)throw new RuntimeException($code);}
 need(($pkg['deck_id']??null)===677 && ($pkg['record']['deck_id']??null)===677,'DECK_MISMATCH');
 need(($pkg['inventory_binding']??null)==='deck-slots-v1' && ($pkg['content_mode']??null)==='structured','NOT_STRUCTURED_PORTABLE');
 need(($historic['deck_id']??null)===677 && ($historic['format']??null)==='tcg_advanced','WRONG_HISTORICAL_SOURCE');
@@ -43,13 +43,13 @@ $inventory=[
 $accept=static function(array $candidate,array $native,string $root):bool{
  if(($candidate['schema']??null)!=='station-x-deck-package/1'
   ||($candidate['deck_id']??null)!==677)return false;
- try {ygo_data_validate_portable_inventory($candidate,$native,$root,$historic=null);return true;}
+ try {ygo_data_validate_portable_inventory($candidate,$native,$root,null);return true;}
  catch(InvalidArgumentException $e){return false;}
 };
 need($accept($pkg,$inventory,$folder),'NATIVE_PORTABLE_GATE_REJECTED_VALID_DECK');
 $negative=[];
 $reject=static function(string $name,array $candidate,array $native,string $root)use(&$negative,$accept):void{
- need(!$accept($candidate,$native,$root),'UNSAFE_ACCEPTED_'+$name);$negative[]=$name;
+ a02_need(!$accept($candidate,$native,$root),'UNSAFE_ACCEPTED_'+$name);$negative[]=$name;
 };
 $t=$pkg;$t['deck_id']=678;$reject('wrong-deck',$t,$inventory,$folder);
 $t=$pkg;$t['package_root']='FOREIGN';$reject('wrong-root',$t,$inventory,$folder);
@@ -65,14 +65,12 @@ $n=$inventory;$n['format']='rush_duel';$reject('wrong-platform-format',$pkg,$n,$
 $n=$inventory;$n['cards'][0]['quantity']++;$reject('changed-live-inventory',$pkg,$n,$folder);
 $t=$pkg;$t['inventory_sha256']='fake-hash';$reject('unverified-inventory-hash',$t,$inventory,$folder);
 
-$zipPath=tempnam(sys_get_temp_dir(),'crystron-a02-').'.zip';
-$plain=tempnam(sys_get_temp_dir(),'crystron-work-');
-if($plain!==false)unlink($plain);
+$zipPath=sys_get_temp_dir().'/crystron-a02-'.bin2hex(random_bytes(8)).'.zip';
 $root=sys_get_temp_dir().'/crystron-a02-'.bin2hex(random_bytes(6));
 mkdir($root,0755,true);
 try{
  $zip=new ZipArchive();
- need($zip->open($zipPath,ZipArchive::CREATE|ZipArchive::OVERWRITE)===true,'ZIP_CREATE_FAILED');
+ a02_need($zip->open($zipPath,ZipArchive::CREATE|ZipArchive::OVERWRITE)===true,'ZIP_CREATE_FAILED');
  $required=[
   'datos/stationx-deck.json',
   $folder.'_CONTENIDO_CURADO.md',
@@ -80,26 +78,26 @@ try{
  ];
  foreach($required as $relative){
   $file=$folderPath.'/'.$relative;
-  need(is_file($file),'REQUIRED_ZIP_FILE_ABSENT_'.$relative);
+  a02_need(is_file($file),'REQUIRED_ZIP_FILE_ABSENT_'.$relative);
   $zip->addFile($file,$folder.'/'.$relative);
  }
  $images=glob($folderPath.'/imagenes/*.{png,jpg}',GLOB_BRACE)?:[];
- need(count($images)===39,'BAD_PHOTO_COUNT');
+ a02_need(count($images)===39,'BAD_PHOTO_COUNT');
  foreach($images as $file)$zip->addFile($file,$folder.'/imagenes/'.basename($file));
- need($zip->close(),'ZIP_CLOSE_FAILED');
+ a02_need($zip->close(),'ZIP_CLOSE_FAILED');
  $files=ygo_data_normalize_files(ygo_data_archive($zipPath));
- need(count($files)===42,'ZIP_EXPECTS_42_FILES');
+ a02_need(count($files)===42,'ZIP_EXPECTS_42_FILES');
  $sourceDoc=$pkg['source_document'];
- need(isset($files[$sourceDoc]),'SOURCE_DOCUMENT_NOT_IN_ZIP');
+ a02_need(isset($files[$sourceDoc]),'SOURCE_DOCUMENT_NOT_IN_ZIP');
  $sourceRefs=[$sourceDoc=>substr((string)file_get_contents($folderPath.'/'.$folder.'_CONTENIDO_CURADO.md'),0,60)];
  $prepared=ygo_data_prepare($root,$files,$inventory,$historic,$sourceRefs);
- need(($prepared['deck_id']??null)===677,'NATIVE_PREPARE_WRONG_DECK');
- need(($prepared['format']??null)==='tcg_advanced','NATIVE_PREPARE_WRONG_FORMAT');
- need(count($prepared['cards']??[])===39 && count($prepared['routes']??[])===14,'NATIVE_PREPARE_DROPPED_CONTENT');
+ a02_need(($prepared['deck_id']??null)===677,'NATIVE_PREPARE_WRONG_DECK');
+ a02_need(($prepared['format']??null)==='tcg_advanced','NATIVE_PREPARE_WRONG_FORMAT');
+ a02_need(count($prepared['cards']??[])===39 && count($prepared['routes']??[])===14,'NATIVE_PREPARE_DROPPED_CONTENT');
  $steps=array_sum(array_map(static fn($r)=>count($r['steps']??[]),$prepared['routes']));
- need($steps===60,'NATIVE_PREPARE_DROPPED_STEPS');
- need(count($prepared['calculator']['rules']??[])===13,'NATIVE_PREPARE_DROPPED_RULES');
- need(array_column($historic['routes'],'id')===array_column($prepared['routes'],'id'),
+ a02_need($steps===60,'NATIVE_PREPARE_DROPPED_STEPS');
+ a02_need(count($prepared['calculator']['rules']??[])===13,'NATIVE_PREPARE_DROPPED_RULES');
+ a02_need(array_column($historic['routes'],'id')===array_column($prepared['routes'],'id'),
   'NATIVE_PREPARE_CHANGED_ROUTE_IDENTITIES');
  echo json_encode(['ok'=>true,'deck_id'=>677,'zipFiles'=>count($files),
   'preparedRoutes'=>count($prepared['routes']),'preparedSteps'=>$steps,
