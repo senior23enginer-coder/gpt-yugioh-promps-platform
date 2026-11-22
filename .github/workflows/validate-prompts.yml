@@ -35,6 +35,7 @@ on:
       - 'scripts/audit-deck-a03-inventory.cjs'
       - 'scripts/audit-deck-a05-profiles.cjs'
       - 'scripts/audit-deck-a05-registry.cjs'
+      - 'scripts/audit-deck-a06-crystron.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -83,6 +84,7 @@ on:
       - 'scripts/audit-deck-a03-inventory.cjs'
       - 'scripts/audit-deck-a05-profiles.cjs'
       - 'scripts/audit-deck-a05-registry.cjs'
+      - 'scripts/audit-deck-a06-crystron.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -216,6 +218,8 @@ jobs:
         run: node scripts/audit-deck-a05-profiles.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Audit 92 Crystron PSCT clauses, high-risk semantic guards and 184 conditional paper IDs
         run: node scripts/audit-deck-a05-registry.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Verify user-assigned Crystron A06 causal links, 21 relationships and 42 paper scenarios
+        run: node scripts/audit-deck-a06-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Prepare PHP for isolated ZIP validation
         uses: shivammathur/setup-php@v2
         with:
