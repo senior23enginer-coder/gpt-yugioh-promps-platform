@@ -98,6 +98,10 @@ function audit({deckId,assigned,packagePath,curatedPath,expectEffects=94}) {
    'A07_CAESAR_CHAIN_NOT_LINKED');
  assert(rowFor('13081:quick-negate-special-summon-activation')?.[9]==='no-opt-in-official-text',
    'A07_CAESAR_FALSE_ONCE_PER_TURN');
+ assert(rowFor('19367:end-set-memento-spelltrap')?.[9]==='once-per-turn-per-faceup-copy',
+   'A07_MEMENTOMICTLAN_SOFT_OPT_NOT_NAME_HOPT');
+ assert(rowFor('19367:destroyed-own-monster-target-lower-revive')?.[9]==='once-per-turn-by-name-effect',
+   'A07_MEMENTOMICTLAN_NAME_RESTRICTED_DESTROY_TRIGGER');
  assert(rowFor('21203:initial-main-banish-cost-bounce')?.[7]==='none-resource-banish-on-resolution',
    'A07_GORDIAN_FALSE_PREPAID_COST');
  assert(src.includes('**no existe el conflicto simultáneo Lancea'),'A07_LANCEA_GY_CONFLICT_NOT_CORRECTED');
