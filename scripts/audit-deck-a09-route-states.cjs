@@ -30,7 +30,7 @@ function audit({id,assigned,packagePath,documentPath}){
  const openings=part(a09,'### A09.10 —','### A09.11 —');
  const trace=part(a09,'### A09.11 —','### A09.12 —');
  const cases=part(a09,'### A09.12 —','### A09.13 —');
- const gates=part(a09,'### A09.13 —','## APARTADO_10 —');
+ const gates=part(a09,'### A09.13 —','### A09.14 —');
  const openRows=[...openings.matchAll(/^\| \x60MEMD-(C\d{2})\x60 \|([^\n]+)$/gm)];
  const stepRows=[...trace.matchAll(/^\| \x60(671:A09:(C\d{2}):S(\d{2}))\x60 \|([^\n]+)$/gm)];
  const caseRows=[...cases.matchAll(/^\| \x60(C\d{2})\x60 · \x60(671:A09:C\d{2}:S\d{2})\x60 \|([^\n]+)$/gm)];
