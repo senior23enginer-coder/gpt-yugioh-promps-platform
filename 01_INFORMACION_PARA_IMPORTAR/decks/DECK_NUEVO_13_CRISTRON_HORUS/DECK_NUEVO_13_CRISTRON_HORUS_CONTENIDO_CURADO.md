@@ -15,6 +15,73 @@
 - Fuente de inventario: listado completo compartido por Miguel el **16-11-2026**; nombres y cantidades conservados exactamente como fueron proporcionados.
 - **Main: 40** (27 monstruos, 12 mágicas, 1 trampa); **Extra: 15**; **Side: 15**; **Reserva: 0**; **total: 70 copias**.
 
+## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
+
+**Asignación expresa:** el usuario solicitó comenzar por **A01**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+
+**Corte del checklist vigente:** **3/35 tareas acreditadas dentro del alcance A01; 32/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+
+**Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
+
+### A01 — auditado A01
+- [x] **A01-T1** Identificar arquetipo, estrategia, condición de victoria y riesgos propios, con CIDs de piezas y evidencia oficial; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
+- [x] **A01-T2** Escribir Estilo breve y Resumen para ficha sin jerga de auditoría, con precondiciones reales de las acciones citadas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
+- [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
+
+### A02 — pendiente de auditoría del contrato vigente
+- [ ] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+
+### A03 — pendiente de auditoría del contrato vigente
+- [ ] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A03-T2** Comprobar correspondencia unívoca card_id↔CID↔nombre oficial, sin duplicados o alias inseguros; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A03-T3** Congelar la lista aprobada y producir denominadores de identidades, copias, efectos y rutas para los reportes posteriores; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+
+### A04 — pendiente de auditoría del contrato vigente
+- [ ] **A04-T1** Acreditar CID, fuente oficial, formato y foto auténtica de todas las identidades del inventario; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A04-T2** Validar ruta de imagen, calidad y correspondencia física con el card_id/slot, sin importar imágenes ajenas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [ ] **A04-T3** Registrar el mapa de zonas y posiciones que compartirá A05/A07/A09/A10A y declarar FOTO_PENDIENTE sin falsificar prueba; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+
+### A05 — pendiente de auditoría del contrato vigente
+- [ ] **A05-T1** Fichar 100 % de identidades Main/Extra/Side/Reserva y Skills: CID/slot, foto, fuente y función específica en este deck
+- [ ] **A05-T2** Inventariar TODOS los efectos por efecto_id estable: activado/disparo/continuo/reemplazo/procedimiento/Skill o NO_EFFECT justificado
+- [ ] **A05-T3** Registrar por cada efecto actor, zona, condición, ventana, trigger, coste, selección, cadena, resolución, OPT/HOPT, recursos, negaciones y restricciones con fuente
+- [ ] **A05-T4** Crear matriz inicial de casos de papel por efecto y enlaces a A06/A07/A09; contar identidades y efectos con especificación completa, nunca confundir con ejecutables
+
+### A06 — pendiente de auditoría del contrato vigente
+- [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
+- [ ] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes
+- [ ] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales
+- [ ] **A06-T4** Derivar casos de papel de sinergias y enlaces A05→A07→A08/A09; clasificar SIN_COMBO_IDENTIFICADO sin fabricar acciones
+
+### A07 — pendiente de auditoría del contrato vigente
+- [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos
+- [ ] **A07-T2** Separar coste previo, trigger, ventana, objetivos/no-objetivos, cadena, resolución/negación, HOPT/OPT, restricciones y estados antes/después
+- [ ] **A07-T3** Construir matriz de casos de papel con caso positivo, ausencia de requisito, timing, recursos/zonas, repetición, negación y fallo cerrado para cada efecto
+- [ ] **A07-T4** Auditar cobertura effect_id→case_id→source, NO_APLICA con causa y necesidades de operador; no compilar ni probar en motor hasta A10B
+
+### A08 — pendiente de auditoría del contrato vigente
+- [ ] **A08-T1** Enumerar starters, líneas y decisiones reales por estado, formato, recursos y effect_id sin imponer metas a la calculadora
+- [ ] **A08-T2** Verificar alternativas, bricks, interrupciones, controles y matchups mediante casos de papel y supuestos explícitos
+- [ ] **A08-T3** Vincular cada línea a cartas físicas, uso previo, costes, restricciones, probabilidad sólo cuando esté sustentada
+- [ ] **A08-T4** Enlazar candidatos a route_id A09 o clasificar SIN_JUGADA_ACREDITADA/NO_APLICA con evidencia y motivo
+
+### A09 — pendiente de auditoría del contrato vigente
+- [ ] **A09-T1** Identificar cada ruta con route_id y starter/estado físico inicial: mano, GY, campo, recursos, fase, prioridades y cartas desconocidas
+- [ ] **A09-T2** Por cada step_id enlazar effect_id/procedimiento, requisito, coste real, materiales, ventana, resolución y estado antes/después
+- [ ] **A09-T3** Incluir casos lógicos positivos y de interrupción para pasos críticos, con causa, coste pagado y SIN_CONTINUACION_DEMOSTRADA si aplica
+- [ ] **A09-T4** Verificar campo final, recursos, materiales y restricciones sin casillas inventadas, conservando los mismos IDs que usarán A10A y A10B
+
+### A10A — pendiente de auditoría del contrato vigente
+- [ ] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales
+- [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
+- [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
+
+**Siguiente tarea:** A02-T1 cuando el usuario la asigne. No anticipar A02 ni promocionar otros 32 checks.
+
+---
+
 ## CONTROL INDIVIDUAL DE AVANCE A01–A10 — Cristron / Horus
 
 **Alcance y corte:** primera iteración, ampliaciones v2/v3 y conciliación del 17-11-2026, exclusivamente para el deck **677**. **Main 40, Extra 15, Side 15, Reserva 0; 70 copias y 39 identidades documentadas.** Se conservan **siete rutas principales C01–C07 y siete variantes V01–V07**; son trazas documentales, no simuladas, cuyos resultados dependen de supuestos explícitos. La importación V40 y las imágenes están registradas; la aprobación editorial expresa del inventario, si se considera trámite separado, no consta de forma independiente.
@@ -56,6 +123,33 @@
 | **Contra Salamangreat 673**: Link y Rugido colocado | **Segundo:** comprobar materiales concretos para Súper Polimerización **antes** de restringir el Extra | **Primero:** C01/C03 y sus ventanas; C04 si hay Horus y Extra libre | Rugido puede negar la Mágica si cumple sus requisitos; Garura no se invoca con cualquier par; bloqueo Cristron puede impedir Fusión/Link no Máquina |
 
 **Prioridad de respuesta:** antes de cada decisión identificar (1) turno/fase y cartas propias **realmente en mano/Deck/GY**; (2) si el objetivo rival está presente y es afectable; (3) si se activó bloqueo de Extra; (4) si la intervención ocurrió **antes o después** de una búsqueda/envío; (5) qué cuerpo y recurso permanecen **al acabar la cadena**. Cuando una condición falta, la ruta se registra como alternativa no acreditada, no como resultado logrado. Los seis Side S01–S06 son configuraciones **entre duelos**, no recursos disponibles en juego 1.
+
+### A01.2 — textos de la ficha sincronizados con el paquete nativo
+
+Los siguientes valores coinciden literalmente con `record.profile` de `datos/stationx-deck.json`. Son contenido del deck para el jugador, no metadatos de la auditoría.
+
+- **Arquetipo:** Cristron / Horus
+- **Tipo de estrategia:** Control reactivo por Sincronía Máquina con motor Horus de Nivel 8 y acceso Xyz condicionado.
+- **Estilo breve:** Control Cristron con Sincronías Máquina y recuperación; Horus aporta presión mediante Xyz de Rango 8 cuando el Extra Deck sigue disponible.
+- **Resumen para ficha:** Inicia con Smiger y Citree o Inclusión y Sulfador para preparar Sincronías y recuperar recursos con Elesqueletus. Horus ofrece Xyz de Rango 8 si el Extra está libre; gana por control y presión.
+- **Qué vigilar:** Smiger y Thystvern, al utilizar sus efectos de destrucción en Campo, restringen el resto del turno a Sincronías Máquina; Sulfador limita el Extra Deck a Máquinas si se Invoca por su efecto. C01/C03 dependen de la ventana rival y C04/C05 exigen recursos Horus y Extra libre. No se acreditan victorias ni replays.
+
+`Estilo breve` = 139 caracteres (máximo 190); `Resumen para ficha` = 193 (máximo 250). `Cómo se juega` mantiene explicación detallada en el mismo `record.profile`: plan primero/segundo, recuperación medio/tardío, restricciones y condiciones de salida. No hay texto «Catálogo completo», objetivo automático de calculadora ni garantía de victoria.
+
+### A01.3 — trazabilidad de propósitos a cartas, fuentes y rutas existentes
+
+Los CID de esta matriz se cotejaron con las **39 identidades físicas** de `record.cards`. Los `rule.id` son referencias de **las 13 variantes portátiles ya existentes**, no efectos nuevos ni cobertura reglamentaria completa. Cuando no existe un ID portátil apropiado se señala expresamente, sin inventarlo. Las rutas se cotejaron con los **14 `record.routes[].id`** existentes (7 C y 7 V).
+
+| Ref. | Propósito / condición de victoria | CID físicos | `rule.id` existente | `route_id` real | Guarda / riesgo específico | Fuente oficial |
+|---|---|---|---|---|---|---|
+| `A01-R01` | Control reactivo / Sincronía de turno rival | `12608`, `12606`, `20758`, `20778`, `12157` | `677:smiger:destroy-citree` | `677:A09:C01`, `677:A09:C03`, `677:A09:V05` | Smiger en Campo solo habilita Citree si la destrucción y el envío resuelven; Citree/Tristaros precisan ventana o activación rival, y la Sincronía no niega por sí misma. | [Konami CID 12608](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en); [Konami CID 12606](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=en) |
+| `A01-R02` | Recuperación de recursos | `20798`, `20759`, `20778` | SIN_REGLA_PORTATIL_ACREDITADA_A01 | `677:A09:C02`, `677:A09:V02`, `677:A09:V04` | Inclusión y Sulfador requieren recursos reales; Elesqueletus recupera solo si se produce su evento y cumple la condición. No inventar otro Cantante ni retorno. | [Konami CID 20798](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en); [Konami CID 20759](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en) |
+| `A01-R03` | Presión Horus y acceso Xyz | `19153`, `19155`, `19200`, `13826`, `16850` | `677:horus-gy:19153`, `677:horus-gy:19155`, `677:sarcophagus:send-horus` | `677:A09:C04`, `677:A09:C05`, `677:A09:V07` | Amset/Hapi y Sarcófago deben estar donde indique la apertura; elegir Número 90 o Vampiro Zombi, no ambos con las mismas dos copias. | [Konami CID 19153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en); [Konami CID 19155](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en) |
+| `A01-R04` | Negación de activación con Infinito | `20798`, `20759`, `12756`, `10870`, `11765` | SIN_REGLA_PORTATIL_ACREDITADA_A01 | `677:A09:C06` | Necesita dos Nivel 5 Máquina reales y segundo Azufafnir en Deck; el bloqueo de Sulfador permite el Xyz Máquina, no cualquier Extra. | [Konami CID 20798](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en); [Konami CID 20759](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en) |
+| `A01-R05` | Puente Horus/Cristron | `19153`, `12608`, `20758`, `20778` | `677:horus-gy:19153`, `677:smiger:graveyard-search` | `677:A09:C07` | Se evita activar la destrucción de Smiger en Campo antes de un Xyz incompatible; la Sincronía de Tristaros depende de la activación rival. | [Konami CID 19153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en); [Konami CID 12608](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en) |
+| `A01-R06` | Cartas de respuesta sin combo garantizado | `7445`, `15299` | SIN_REGLA_PORTATIL_ACREDITADA_A01 | SIN_RUTA_A09_ACREDITADA | Súper Polimerización y Gotas exigen materiales, costes y ventanas observables. Decisiones A08.3, SIN_RUTA_A09_ACREDITADA para una apertura independiente. | [Konami CID 7445](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en); [Konami CID 15299](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en) |
+
+**Regla de resultado:** controlar el turno rival, conservar recursos y después convertir un tablero real en presión y daño. Sin objetivos inventados, no asumir cadenas negadas, ni tratar Hagoita o Tristaros como negación universal. El control contra Memento, Purrely y Salamangreat sigue siendo **análisis contextual**, no tasa de victoria ni simulación. La clasificación de todos los efectos impresos, cadenas, costes y respuestas se hará en A05/A07; los endboards se validarán en A09 y los gráficos/importación en A10A.
 
 **Criterio de cierre A01:** identidad principal **control reactivo Cristron**, identidad secundaria **presión Horus/Rango 8**, alternativa **negación inmediata con Nova→Infinito** si C06 es accesible. Las prioridades en los tres enfrentamientos seleccionados y los conflictos entre rutas están definidos arriba. **A01 `COMPLETA` en su alcance de rol y decisiones documentales**; la exactitud causal de cada cadena queda bajo A07/A09 y la experiencia visual/importación bajo A10. Sin calculadora, replays ni superioridad competitiva medida. **Siguiente apartado cuando se solicite: A02**.
 
