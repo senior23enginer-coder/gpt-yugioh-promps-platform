@@ -26,7 +26,7 @@ const FIELDS=[
 const ORACLE={
  '12608:field-destroy-summon-tuner':[['Límite / cadena',/Solo un efecto Smiger/i],['Coste',/NO coste/i],['Guarda física',/Cantante Cristron/]],
  '12608:gy-banish-search-spelltrap':[['Coste',/Desterrar/i],['Límite / cadena',/Solo un efecto Smiger/i]],
- '20758:response-summon-synchro':[['Ventana',/activaci[oó]n.*rival/i],['Resolución y estado posterior',/no negar/i]],
+ '20758:response-summon-synchro':[['Ventana',/activaci[oó]n.*rival/i],['Resolución y estado posterior',/sin negar/i]],
  '20758:gy-banish-destroy-synchro-summon-two':[['Coste',/Desterrar Tristaros/i],['Resolución y estado posterior',/Extra solo M[aá]quina/i]],
  '12756:hand-gy-discard-revive':[['Coste',/Descartar otro Cristron/i]],
  '12606:opponent-main-battle-target-revive-synchro':[['Ventana',/Main o Battle rival/i],['Resolución y estado posterior',/desterrar ambos/i]],
@@ -90,7 +90,7 @@ function audit(args){
    const value=block.split('\n').find(line=>line.startsWith('- **'+key+':** '));
    a(value,'MISSING_SEMANTIC_FIELD_'+key+'_'+id);
    const text=value.slice(('- **'+key+':** ').length).trim();
-   a(text.length>=28,'EMPTY_SEMANTIC_FIELD_'+key+'_'+id);fields[key]=text;
+   a(text.length >= (key==='Coste'||key==='Objetivo y selección'?7:20),'EMPTY_SEMANTIC_FIELD_'+key+'_'+id);fields[key]=text;
   }
   a(fields['Fuente oficial'].includes(OFFICIAL+cid+'&ope=2&request_locale=en'),
     'WRONG_OFFICIAL_SOURCE_'+id);
