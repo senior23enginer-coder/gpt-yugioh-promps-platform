@@ -82,7 +82,7 @@ function audit({id,assigned,packagePath,documentPath}){
   if(num===1)assert(v[3].includes('APERTURA:')&&v[3].includes(original.hand),'STEP_OPENING_MISMATCH_'+id);
   else assert.equal(v[3].replace(/\x60/g,''),last.get(route),'STEP_BEFORE_NOT_PREVIOUS_AFTER_'+id);
   const source=original.steps[num-1].replace(/^\d+\.\s*/,'').replaceAll('|','/').slice(0,240);
-  assert.equal(v[4],source,'CANONICAL_PROSE_DRIFT_'+id);
+  assert.equal(v[4],source.trimEnd(),'CANONICAL_PROSE_DRIFT_'+id);
   const links=[...v[1].matchAll(/\x60(671:a05:\d+:[a-z0-9-]+)\x60/g)].map(x=>x[1]);
   const only=v[1].includes('STATE_ONLY');
   assert(links.length>0||only,'STEP_HAS_NO_EFFECT_'+id);
