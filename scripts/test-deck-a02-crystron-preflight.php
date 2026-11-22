@@ -49,7 +49,7 @@ $accept=static function(array $candidate,array $native,string $root):bool{
 a02_need($accept($pkg,$inventory,$folder),'NATIVE_PORTABLE_GATE_REJECTED_VALID_DECK');
 $negative=[];
 $reject=static function(string $name,array $candidate,array $native,string $root)use(&$negative,$accept):void{
- a02_need(!$accept($candidate,$native,$root),'UNSAFE_ACCEPTED_'+$name);$negative[]=$name;
+ a02_need(!$accept($candidate,$native,$root),'UNSAFE_ACCEPTED_'.$name);$negative[]=$name;
 };
 $t=$pkg;$t['deck_id']=678;$reject('wrong-deck',$t,$inventory,$folder);
 $t=$pkg;$t['package_root']='FOREIGN';$reject('wrong-root',$t,$inventory,$folder);
