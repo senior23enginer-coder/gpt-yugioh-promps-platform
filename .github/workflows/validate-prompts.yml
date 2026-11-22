@@ -29,6 +29,7 @@ on:
       - 'scripts/audit-deck-a06-physical-paper.cjs'
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
+      - 'scripts/audit-deck-a05-paper-evidence.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -69,6 +70,7 @@ on:
       - 'scripts/audit-deck-a06-physical-paper.cjs'
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
+      - 'scripts/audit-deck-a05-paper-evidence.cjs'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -144,6 +146,9 @@ jobs:
       - name: Verify all 94 A07 effects with exact CID, chain/cost/source and A05 pairs (Memento only)
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-a07-typed-rules.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Cross-check A05-T4 paper pairs and report independent certification gap
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a05-paper-evidence.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
       - name: Independently audit Memento A05-T3 PSCT modes costs targets and source-specific semantics
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-a05-semantic-psct.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
