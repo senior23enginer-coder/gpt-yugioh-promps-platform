@@ -33,6 +33,8 @@ on:
       - 'scripts/audit-deck-a01-profile.cjs'
       - 'scripts/audit-deck-a02-identity.cjs'
       - 'scripts/audit-deck-a03-inventory.cjs'
+      - 'scripts/audit-deck-a05-profiles.cjs'
+      - 'scripts/audit-deck-a05-registry.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -79,6 +81,8 @@ on:
       - 'scripts/audit-deck-a01-profile.cjs'
       - 'scripts/audit-deck-a02-identity.cjs'
       - 'scripts/audit-deck-a03-inventory.cjs'
+      - 'scripts/audit-deck-a05-profiles.cjs'
+      - 'scripts/audit-deck-a05-registry.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -208,6 +212,10 @@ jobs:
         run: node scripts/audit-deck-a03-inventory.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json
       - name: Audit Crystron A04 authentic HD photos, 39 CIDs, 151 step photos and zones
         run: node scripts/audit-deck-a04-photo-integrity.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Verify Crystron A05 physical profiles sources and exact cards
+        run: node scripts/audit-deck-a05-profiles.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit 92 Crystron PSCT clauses, high-risk semantic guards and 184 conditional paper IDs
+        run: node scripts/audit-deck-a05-registry.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Prepare PHP for isolated ZIP validation
         uses: shivammathur/setup-php@v2
         with:
