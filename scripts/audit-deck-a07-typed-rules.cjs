@@ -75,9 +75,17 @@ function audit({deckId,assigned,packagePath,curatedPath,expectEffects=94}) {
     'A07_CAUSAL_TEXT_MISSING_'+id);
   assert(paper.includes('\x60'+id+'\x60 — dos casos de papel'),
     'A07_PAPER_PAIR_MISSING_'+id);
-  if(annotations.includes('NO_APLICA_INVENTARIO'))
-   assert(/no-inventory|no-goblin-xyz/.test(transition),
-    'A07_INVENTORY_EXCEPTION_NOT_JUSTIFIED_'+id);
+  if(annotations.includes('NO_APLICA_INVENTARIO')){
+   const valid=new Map([
+    [deckId+':a05:13081:sent-field-to-gy-dark-contract','no-inventory'],
+    [deckId+':a05:16845:polymerization-gy-target-protection','polymerization'],
+    [deckId+':a05:19932:pointed-opponent-material-link5','link5'],
+    [deckId+':a05:20196:hand-discard-search-fiendsmith-spelltrap','no-inventory'],
+    [deckId+':a05:20533:gy-banish-detach-atk-reduction','no-goblin-xyz']
+   ]);
+   assert(valid.has(id)&&transition.includes(valid.get(id)),
+     'A07_INVENTORY_EXCEPTION_NOT_JUSTIFIED_'+id);
+  }
  }
  assert.equal(seen.size,effects.size,'A07_TYPED_CENSUS_NOT_BIJECTIVE');
  // Known regressions: independent source-based checks, not generic string aliases.
