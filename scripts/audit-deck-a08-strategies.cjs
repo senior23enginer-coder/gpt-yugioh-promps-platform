@@ -35,7 +35,7 @@ function audit({id,assigned,pkgPath,docPath}){
  for(let i=0;i<lines.length;i++){
   const line=lines[i][0],entry=lines[i][1],cells=line.split('|').slice(1,-1).map(x=>x.trim());
   a.equal(entry,'I'+String(i+1).padStart(2,'0'),'A08_UNSTABLE_ID');
-  a.equal(cells.length,8,'A08_COLS_'+entry);
+  a.equal(cells.length,7,'A08_COLS_'+entry);
   const [head,photos,initial,refs,context,routeCell,status]=cells;
   a(context.length>=28,'A08_NO_CONTEXT_'+entry);
   const places=[...initial.matchAll(/(SIDE|H|M|G|S|E)(\d+)(?:#(\d+))?/g)];
