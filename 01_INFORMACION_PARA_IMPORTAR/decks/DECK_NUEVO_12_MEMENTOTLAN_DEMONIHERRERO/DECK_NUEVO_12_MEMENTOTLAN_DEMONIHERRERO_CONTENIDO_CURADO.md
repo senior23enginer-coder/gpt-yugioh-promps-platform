@@ -4910,6 +4910,12 @@ El smoke reproducible `scripts/test-deck-a10a-browser.cjs` sirve **localmente** 
 
 **T3 continúa ABIERTA** por la parte de importar, guardar y volver a leer desde la interfaz real de Platform: no hubo sesión autenticada, escritura a BD, reimportación del ZIP ni prueba de persistencia en Station X. La revisión estática de la implementación de Platform `torneos_yugioh/includes/decks/data-http.php` demuestra que admite el contrato `station-x-deck-package/1` con `deck-slots-v1`, no que el paquete se haya importado exitosamente. Se mantienen las discrepancias frente al registro histórico V40 (61 pasos de fotos, nueve manos visuales y dos descripciones). No alterar el registro almacenado hasta ejecutar la importación y comparar lectura posterior. No modificar deck, no merge/deploy, no A10B.
 
+### A10.7 — validador real del contrato PHP de importación (sin escritura)
+
+El CI #45055406492 ejecutó `scripts/test-deck-a10a-import-contract.php` contra el fichero real de Platform (`torneos_yugioh/includes/decks/data-http.php`, leído mediante checkout **solo lectura** de `senior23enginer-coder/platform-yugioh-md@base`). Se exige sobre el deck Memento 671 el sobre `station-x-deck-package/1`, la identidad `deck_id`, el vínculo `deck-slots-v1`, el modo `structured` y las 40 filas físicas sin alteraciones (41 Main / 15 Extra / 14 Side / 0 Reserva). Se reprodujo el control upstream del ID que hace `ygo_data_prepare` antes de `ygo_data_validate_portable_inventory`, evitando atribuirle a esta última una responsabilidad que no tiene.
+
+El paquete auténtico fue aceptado en prevalidación y **12 escenarios inválidos rechazados**, incluyendo carpeta/ID equivocado, binding/modo erróneos, cantidades/zonas alteradas, duplicados/faltantes y discordancia con inventario nativo o formato. **No** es prueba de subir ZIP, desplegar, reimportar, guardar ni recuperar datos desde BD. Se exige todavía evidencia de transacción de importación y lectura posterior en la interfaz real antes de cerrar A10A-T3.
+
 **Censo por las 35 casillas reales:** 32/35 [x] y 3 abiertas: A05-T3, A05-T4 y A10A-T3. PR #23 permanece DRAFT/OPEN, sin merge, sin despliegue, sin actualización de Platform y sin A10B.
 
 ---
