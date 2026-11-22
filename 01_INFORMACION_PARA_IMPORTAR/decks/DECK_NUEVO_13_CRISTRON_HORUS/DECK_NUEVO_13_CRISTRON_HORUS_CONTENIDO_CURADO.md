@@ -17,9 +17,9 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04** y **A05**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05** y **A06**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **15/35 tareas acreditadas en A01–A04 y A05-T1/T2/T3; 20/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **19/35 tareas acreditadas en A01–A04, A05-T1/T2/T3 y A06-T1/T2/T3/T4; 16/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -49,11 +49,11 @@
 - [x] **A05-T3** Matriz semántica de 92 efectos/procedimientos: actor, zona, ventana, guarda, coste, target/no-target, resolución, uso OPT/HOPT, negación/conservación, estado posterior y fuente oficial. 34 invariantes de alto riesgo contrastados por oráculo separado; **especificación documental, no ejecución de A10B**.
 - [ ] **A05-T4** Casos de papel positivos/negativos: 184 descripciones, 7 casos positivos `NO_APLICA_INVENTARIO_677` y vínculos A06/A07/A09 por CID en A05.3. **Pendiente verificar individualmente estado físico antes/después, cadena, recursos y negaciones; 0/184 `CASO_LOGICO_VERIFICADO`.** No marcar COMPLETA por solo existir borradores.
 
-### A06 — pendiente de auditoría del contrato vigente
-- [ ] **A06-T1** Identificar motores, relaciones dirigidas entre CID/effect_id y recursos físicos; no inferir sinergias sólo por nombre
-- [ ] **A06-T2** Registrar efectos habilitadores, bloqueos, reemplazos, límites de Extra/zonas y dependencias temporales con fuentes
-- [ ] **A06-T3** Explicar aperturas primero/segundo, recuperación, juego medio/tardío y salidas por interrupción con costes reales
-- [ ] **A06-T4** Derivar casos de papel de sinergias y enlaces A05→A07→A08/A09; clasificar SIN_COMBO_IDENTIFICADO sin fabricar acciones
+### A06 — sinergias y casos de papel verificados documentalmente (4/4)
+- [x] **A06-T1** Identificar motores **M-CRY**, **M-HOR**, puente indirecto **M-PUE** y respuestas M-RESP; 21/21 relaciones R01–R21 con 32 `effect_id` distintos existentes de A05.2 y recursos físicos de Crystron 677. Evidencia A06.0, A06.4, A06.5 y auditor `scripts/audit-deck-a06-crystron.cjs`.
+- [x] **A06-T2** Registrar los bloqueos Extra **Sincronía Máquina** (Smiger/Thystvern) frente a **Máquinas** (Sulfador), límites alternativos por nombre, costes pagados, reemplazo Azufafnir, ventanas Citree/Tristaros, acceso a 13/13 Extra y dependencias de materiales con fuente CID de A05. Evidencia A06.2/A06.3/A06.5, RGL01–15 y auditor A06.
+- [x] **A06-T3** Documentar elecciones primero/segundo, recuperación y medio/tardío con recursos reales y alternativas: C01/C02/C03/V01, Horus C04/C05/V07, Nova→Infinito C06, puente C07, rompedor Super Poli R17–18; evitar rutas incompatibles y considerar interrupciones. Evidencia A06.0/A06.4/A06.5, A02.1–3 y decisiones A08 D01–D20.
+- [x] **A06-T4** Derivar **42 casos de sinergias** `677:A06:P01–P21` y `677:A06:N01–N21` con estado anterior/posterior parcial tipado, precondiciones y fallo cerrado; cada R01–R21 enlaza un `effect_id` válido, control A07, decisión A08 y ruta A09 real o **SIN_RUTA_IDENTIFICADA**. Evidencia A06.5 y auditor CI A06; **no confundir con los 184 casos A05-T4 sin certificar**.
 
 ### A07 — pendiente de auditoría del contrato vigente
 - [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea pendiente:** A05-T4. A06-T1 se abordará separadamente tras completar A05 o una asignación expresa. No promocionar las otras 20 casillas.
+**Siguiente tarea pendiente por orden de cierre:** A05-T4; A07 permanece sin nueva auditoría hasta que se solicite. La ejecución documental A06 autorizada no certifica la legalidad de cadenas, ni A10B. No promocionar las otras 16 casillas.
 
 ---
 
