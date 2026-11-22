@@ -82,7 +82,19 @@ function audit({deckId,assigned,packageFile,curatedFile}){
  assert.equal(find('19367:end-set-memento-spelltrap').usage,'once-per-turn-per-faceup-copy');
  assert.equal(find('19367:destroyed-own-monster-target-lower-revive').usage,'once-per-turn-by-name-effect');
  assert.equal(find('21203:initial-main-banish-cost-bounce').cost,'none-resource-banish-on-resolution');
- return {ok:true,deck_id:deckId,card_cids:39,typed_effects:94,case_ids:658,
+ const manual=segment(s,'### A07.14 —','## APARTADO_08 —');
+ const reviewed=[...manual.matchAll(/^\| \d{2} · \x60(671:a05:(\d+):[a-z0-9-]+)\x60 \|([^\n]+)$/gm)];
+ assert.equal(reviewed.length,33,'A07_NOT_THIRTY_THREE_SOURCED_MANUAL_CASES');
+ assert.equal(new Set(reviewed.map(m=>m[1])).size,33,'A07_DUPLICATED_MANUAL_REVIEW');
+ for(const item of reviewed){
+  const fx=rules.find(x=>x.id===item[1]);
+  assert(fx&&fx.cid===Number(item[2]),'A07_UNKNOWN_SOURCED_CASE_'+item[1]);
+  const line=item[0];
+  assert(line.includes('cid='+fx.cid)&&line.includes('request_locale=en'),
+   'A07_MANUAL_CASE_OFFICIAL_SOURCE_MISSING_'+item[1]);
+  assert(line.split('|').filter(x=>x.trim()).length===5,'A07_MANUAL_CASE_NOT_POSITIVE_NEGATIVE_'+item[1]);
+ }
+ return {ok:true,deck_id:deckId,card_cids:39,typed_effects:94,case_ids:658,manuallyReviewedPSCTScenarioFamilies:33,
   conditional:369,not_applicable:289,
   format_cases_blocked:94,source_and_timing_and_cost_and_target_and_usage_present_for_all:true,
   independently_legal_cases:0,calculator_executed:false};
