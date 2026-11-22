@@ -436,6 +436,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** una carta Cristron propia en campo.
 - **Resolución y estado posterior:** Destruir objetivo, invocar esa copia y restringir Extra a Máquina por resto de turno.
 - **Límite / cadena:** Una vez por turno por este efecto; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin carta Cristron propia o con bloqueo que impida invocación.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P001` positivo condicional: antes mano/GY, Sulfador mano/GY y Cristron propio seleccionable; zona M libre; acción hand-gy-destroy-summon; después Destruir objetivo, invocar esa copia y restringir Extra a Máquina por resto de turno; coste Sin coste previo; destrucción al resolver. `677:A05:N001` negativo: Sin carta Cristron propia o con bloqueo que impida invocación; no atribuir coste ni resolución de una activación prohibida.
@@ -449,6 +450,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir hasta dos nombres Crystron diferentes del Deck al resolver.
 - **Resolución y estado posterior:** Enviar al GY hasta dos cartas de nombres diferentes, sin inventar segunda.
 - **Límite / cadena:** Una vez por turno por este efecto; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No ocurrió Invocación o el Deck carece de cartas enviables.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P002` positivo condicional: antes campo, Sulfador acaba de invocarse; quedan Cristron distintos de Sulfador en Main Deck; acción on-summon-send-two; después Enviar al GY hasta dos cartas de nombres diferentes, sin inventar segunda; coste Sin coste. `677:A05:N002` negativo: No ocurrió Invocación o el Deck carece de cartas enviables; no atribuir coste ni resolución de una activación prohibida.
@@ -462,6 +464,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar carta boca arriba propia al activar.
 - **Resolución y estado posterior:** Destruir objetivo y, si se destruyó, Invocar Cantante Cristron desde Deck.
 - **Límite / cadena:** Solo un efecto Smiger por turno y una vez; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Objetivo ausente o Cantante no disponible, o ya se usó otro efecto Smiger.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P003` positivo condicional: antes campo, Smiger boca arriba y carta propia boca arriba, Cantante Cristron en Deck y zona M libre; acción field-destroy-summon-tuner; después Destruir objetivo y, si se destruyó, Invocar Cantante Cristron desde Deck; coste Destruir al resolver, NO coste; bloqueo Extra Sincronía Máquina desde la activación. `677:A05:N003` negativo: Objetivo ausente o Cantante no disponible, o ya se usó otro efecto Smiger; no atribuir coste ni resolución de una activación prohibida.
@@ -475,6 +478,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo; carta elegida desde Deck al resolver.
 - **Resolución y estado posterior:** Añadir Inclusión/Agrupamiento disponibles a mano, no una carta inexistente.
 - **Límite / cadena:** Solo un efecto Smiger por turno y una vez; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Smiger no está en GY, búsqueda bloqueada o ya gastó efecto de campo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P004` positivo condicional: antes GY, Smiger en GY, M/T Cristron buscable en Deck; no gastó efecto Smiger; acción gy-banish-search-spelltrap; después Añadir Inclusión/Agrupamiento disponibles a mano, no una carta inexistente; coste Desterrar este Smiger del GY al activar. `677:A05:N004` negativo: Smiger no está en GY, búsqueda bloqueada o ya gastó efecto de campo; no atribuir coste ni resolución de una activación prohibida.
@@ -488,6 +492,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elección de Cristron distinto al resolver.
 - **Resolución y estado posterior:** Invocar del Deck y luego Sincronía Máquina usando monstruos propios incluido el recién invocado; sin negar eslabón rival.
 - **Límite / cadena:** Cada efecto Tristaros una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hubo activación rival, faltan materiales o zona Extra legal.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P005` positivo condicional: antes campo, Tristaros propio boca arriba, Cristron distinto en Deck, materiales y zona para Sincronía Máquina; acción response-summon-synchro; después Invocar del Deck y luego Sincronía Máquina usando monstruos propios incluido el recién invocado; sin negar eslabón rival; coste Sin coste previo; no se niega activación rival. `677:A05:N005` negativo: No hubo activación rival, faltan materiales o zona Extra legal; no atribuir coste ni resolución de una activación prohibida.
@@ -501,6 +506,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sincronía propia seleccionada como recurso al resolver; dos Cristron reales en Deck.
 - **Resolución y estado posterior:** Destruir una Sincronía propia y si se destruye Invocar dos Cristron del Deck; resto turno Extra solo Máquina.
 - **Límite / cadena:** Cada efecto Tristaros una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sincronía propia ausente o dos Cristron disponibles no constatados.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P006` positivo condicional: antes GY, Tristaros en GY, Sincronía propia destruible y dos Cristron elegibles en Deck; acción gy-banish-destroy-synchro-summon-two; después Destruir una Sincronía propia y si se destruye Invocar dos Cristron del Deck; resto turno Extra solo Máquina; coste Desterrar Tristaros del GY al activar; destruir al resolver. `677:A05:N006` negativo: Sincronía propia ausente o dos Cristron disponibles no constatados; no atribuir coste ni resolución de una activación prohibida.
@@ -514,6 +520,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Invocar Azufafnir en Defensa y después destruir una carta propia existente.
 - **Límite / cadena:** Cada efecto de Azufafnir una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay otra carta Cristron para descartar o no hay carta propia destruible tras invocación.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P007` positivo condicional: antes mano/GY, Azufafnir en mano/GY, otra carta Cristron en mano descartable y zona libre; acción hand-gy-discard-revive; después Invocar Azufafnir en Defensa y después destruir una carta propia existente; coste Descartar otro Cristron al activar. `677:A05:N007` negativo: No hay otra carta Cristron para descartar o no hay carta propia destruible tras invocación; no atribuir coste ni resolución de una activación prohibida.
@@ -527,6 +534,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Cristron físico de Deck.
 - **Resolución y estado posterior:** Invocar Cristron en Defensa, sin crear copia adicional.
 - **Límite / cadena:** Cada efecto de Azufafnir una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Azufafnir enviado sin destruir desde campo o Deck sin objetivo legal.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P008` positivo condicional: antes campo→GY, Azufafnir fue destruido físicamente desde campo, hay Cristron en Deck y zona libre; acción field-destroyed-summon-from-deck; después Invocar Cristron en Defensa, sin crear copia adicional; coste Sin coste previo. `677:A05:N008` negativo: Azufafnir enviado sin destruir desde campo o Deck sin objetivo legal; no atribuir coste ni resolución de una activación prohibida.
@@ -540,6 +548,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar un no Cantante en propio GY al activar.
 - **Resolución y estado posterior:** Invocar objetivo con efectos negados; luego Sincronía Máquina SOLO con Citree y ese objetivo; desterrar ambos materiales.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No es Main/Battle rival, no hay objetivo o no existe suma de materiales legal.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P009` positivo condicional: antes campo, Citree boca arriba, no Cantante propio real en GY, suma de niveles y Sincronía Máquina disponible; acción opponent-main-battle-target-revive-synchro; después Invocar objetivo con efectos negados; luego Sincronía Máquina SOLO con Citree y ese objetivo; desterrar ambos materiales; coste Sin coste previo. `677:A05:N009` negativo: No es Main/Battle rival, no hay objetivo o no existe suma de materiales legal; no atribuir coste ni resolución de una activación prohibida.
@@ -553,6 +562,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target a carta propia boca arriba.
 - **Resolución y estado posterior:** Destruirla e Invocar Cantante del Deck si fue destruida.
 - **Límite / cadena:** Solo un efecto Thystvern por turno y una vez; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Objetivo ausente, Cantante no disponible o efecto de GY ya utilizado.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P010` positivo condicional: antes campo, Thystvern boca arriba, carta propia boca arriba seleccionable, Cantante Cristron en Deck; acción field-destroy-summon-tuner; después Destruirla e Invocar Cantante del Deck si fue destruida; coste Destrucción al resolver; bloqueo Extra Sincronía Máquina desde activación. `677:A05:N010` negativo: Objetivo ausente, Cantante no disponible o efecto de GY ya utilizado; no atribuir coste ni resolución de una activación prohibida.
@@ -566,6 +576,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target; selección en Deck al resolver.
 - **Resolución y estado posterior:** Añadir otro monstruo Cristron existente a mano.
 - **Límite / cadena:** Solo un efecto Thystvern por turno y una vez; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay otro Cristron en Deck o su efecto de campo ya fue utilizado.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P011` positivo condicional: antes GY, Thystvern en GY y otro Cristron distinto en Deck, búsqueda permitida; acción gy-banish-search-monster; después Añadir otro monstruo Cristron existente a mano; coste Desterrar Thystvern como coste de activación. `677:A05:N011` negativo: No hay otro Cristron en Deck o su efecto de campo ya fue utilizado; no atribuir coste ni resolución de una activación prohibida.
@@ -579,6 +590,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Invocar esta copia desde GY si no está bloqueada la Invocación.
 - **Límite / cadena:** Solo una Invocación por este procedimiento por nombre y turno; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Sarcófago no controlado o Amset es material Xyz y no está en GY.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P012` positivo condicional: antes GY, Controlas Sarcófago del Rey boca arriba y Amset está en GY; zona M legal; acción gy-sarcophagus-special; después Invocar esta copia desde GY si no está bloqueada la Invocación; coste Sin coste activado ni cadena. `677:A05:N012` negativo: Sarcófago no controlado o Amset es material Xyz y no está en GY; no atribuir coste ni resolución de una activación prohibida.
@@ -592,6 +604,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Añadir Sarcófago del Deck; robo adicional opcional de identidad desconocida.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay segunda carta de mano enviable, Sarcófago agotado o búsqueda bloqueada.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P013` positivo condicional: antes mano, Amset y otra carta propia en mano, Sarcófago disponible en Deck, búsqueda permitida; acción hand-send-two-search-sarcophagus; después Añadir Sarcófago del Deck; robo adicional opcional de identidad desconocida; coste Enviar dos cartas de mano al GY incluyendo Amset al activar. `677:A05:N013` negativo: No hay segunda carta de mano enviable, Sarcófago agotado o búsqueda bloqueada; no atribuir coste ni resolución de una activación prohibida.
@@ -605,6 +618,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Carta física cualquiera del campo seleccionada al resolver, no target.
 - **Resolución y estado posterior:** Enviar una carta del campo al GY si es legal, sin destruirla.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Salida fue por coste propio, batalla, o durante Damage Step.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P014` positivo condicional: antes campo, Amset en propia zona M; otra carta propia realmente salió del campo por efecto rival; acción on-opponent-remove-send-field; después Enviar una carta del campo al GY si es legal, sin destruirla; coste Sin coste previo. `677:A05:N014` negativo: Salida fue por coste propio, batalla, o durante Damage Step; no atribuir coste ni resolución de una activación prohibida.
@@ -618,6 +632,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Invocar Hapi desde GY, sin recuperar materiales Xyz.
 - **Límite / cadena:** Solo una Invocación por este modo por nombre y turno; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Hapi está en mano o debajo de Xyz, o no hay Sarcófago.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P015` positivo condicional: antes GY, Controlas Sarcófago y Hapi realmente en GY, zona M libre; acción gy-sarcophagus-special; después Invocar Hapi desde GY, sin recuperar materiales Xyz; coste Sin coste ni cadena. `677:A05:N015` negativo: Hapi está en mano o debajo de Xyz, o no hay Sarcófago; no atribuir coste ni resolución de una activación prohibida.
@@ -631,6 +646,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar dos cartas de GYs o destierro al activar.
 - **Resolución y estado posterior:** O añadir ambas a mano O barajar ambas a Deck; no elegir una de cada modalidad.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Solo una carta elegible o salida no fue por efecto del rival.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P016` positivo condicional: antes campo, Hapi en MZ propio; se produjo salida ajena por efecto del oponente; dos cartas en GYs/destierro; acción on-opponent-remove-recover-two; después O añadir ambas a mano O barajar ambas a Deck; no elegir una de cada modalidad; coste Sin coste previo. `677:A05:N016` negativo: Solo una carta elegible o salida no fue por efecto del rival; no atribuir coste ni resolución de una activación prohibida.
@@ -644,6 +660,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** No hace target; respuesta a eslabón observado.
 - **Resolución y estado posterior:** Negar EFECTO del eslabón, no activación; carta no se invoca al campo.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin eslabón de Deck o Ash ya en GY; no recomendar invocación de Flor.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P017` positivo condicional: antes mano, Flor de Ceniza en mano y eslabón rival incluye modalidad de Deck pertinente; acción hand-deck-effect-negate; después Negar EFECTO del eslabón, no activación; carta no se invoca al campo; coste Descartar esta carta al activar. `677:A05:N017` negativo: Sin eslabón de Deck o Ash ya en GY; no recomendar invocación de Flor; no atribuir coste ni resolución de una activación prohibida.
@@ -657,6 +674,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Impedir posteriores adiciones de Main Deck a mano a ambos jugadores este turno.
 - **Límite / cadena:** Sin OPT expreso impreso; respetar ventana; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Se negó la adición, ocurrió en Draw Phase o Droll no está en mano.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P018` positivo condicional: antes mano, Droll en mano, rival añadió efectivamente del Main, ventana de respuesta legal; acción after-opponent-main-deck-add; después Impedir posteriores adiciones de Main Deck a mano a ambos jugadores este turno; coste Enviar Droll mano→GY al activar. `677:A05:N018` negativo: Se negó la adición, ocurrió en Draw Phase o Droll no está en mano; no atribuir coste ni resolución de una activación prohibida.
@@ -670,6 +688,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Por cada Invocación Especial válida desde Deck/Extra realizada después de resolver, robar carta desconocida.
 - **Límite / cadena:** Solo puede activar otro efecto Mulcharmy ese turno; contador compartido; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Controlas carta propia al activar o Invocación rival desde GY no genera robo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P019` positivo condicional: antes mano, Fuwalos en mano, no controlas cartas; futuro rival Invoca Especial desde Deck/Extra; acción hand-discard-activate-draw; después Por cada Invocación Especial válida desde Deck/Extra realizada después de resolver, robar carta desconocida; coste Descartar Fuwalos al activar. `677:A05:N019` negativo: Controlas carta propia al activar o Invocación rival desde GY no genera robo; no atribuir coste ni resolución de una activación prohibida.
@@ -683,6 +702,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar cartas al azar de mano, sin inventar identidades.
 - **Resolución y estado posterior:** Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió.
 - **Límite / cadena:** Se aplica una vez en End Phase de turno pertinente; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No se activó Fuwalos o la mano no supera el umbral.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P020` positivo condicional: antes resolución/End Phase, Fuwalos resolvió, mano supera cartas rivales controladas más seis; acción end-phase-hand-rollback; después Barajar cantidad excedente al Deck hasta umbral indicado; parte del efecto que resolvió; coste Sin pago nuevo. `677:A05:N020` negativo: No se activó Fuwalos o la mano no supera el umbral; no atribuir coste ni resolución de una activación prohibida.
@@ -696,6 +716,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Robar una por Invocación Normal/Especial rival desde mano después de resolver.
 - **Límite / cadena:** Límite de otro efecto Mulcharmy en mismo turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Campo propio no vacío, o invocación no procede de mano.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P021` positivo condicional: antes mano, Purulia en mano (Main o Side tras intercambio), campo propio sin cartas; acción hand-discard-activate-draw; después Robar una por Invocación Normal/Especial rival desde mano después de resolver; coste Descartar Purulia mano→GY al activar. `677:A05:N021` negativo: Campo propio no vacío, o invocación no procede de mano; no atribuir coste ni resolución de una activación prohibida.
@@ -709,6 +730,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Barajar aleatoriamente excedentes.
 - **Resolución y estado posterior:** Aplicar reajuste solo si corresponde; no es una segunda activación.
 - **Límite / cadena:** Una vez en la End Phase del turno pertinente; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No hubo activación legal o mano no supera umbral.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P022` positivo condicional: antes resolución/End Phase, Purulia resolvió y mano propia excede umbral cartas rivales controladas más seis; acción end-phase-hand-rollback; después Aplicar reajuste solo si corresponde; no es una segunda activación; coste Sin coste nuevo. `677:A05:N022` negativo: No hubo activación legal o mano no supera umbral; no atribuir coste ni resolución de una activación prohibida.
@@ -722,6 +744,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Crystron en Deck al resolver; no targeting.
 - **Resolución y estado posterior:** Al activar, opcionalmente añadir una carta Crystron distinta de Inclusión.
 - **Límite / cadena:** Solo una activación de Inclusión por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Búsqueda negada, objeto no está en Deck o Inclusión ya se activó.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P023` positivo condicional: antes mano/colocada, Inclusión propia en mano o colocada legalmente, Crystron distinto de Inclusión en Deck; acción activation-search-crystron; después Al activar, opcionalmente añadir una carta Crystron distinta de Inclusión; coste Sin coste. `677:A05:N023` negativo: Búsqueda negada, objeto no está en Deck o Inclusión ya se activó; no atribuir coste ni resolución de una activación prohibida.
@@ -735,6 +758,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** No target; protección aplicable a cada monstruo.
 - **Resolución y estado posterior:** Cada Cristron propio evita su primera destrucción por batalla en turno.
 - **Límite / cadena:** Continuo por carta; una primera vez por monstruo y turno; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Inclusión ausente o destrucción se produce por efecto y no batalla.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P024` positivo condicional: antes campo M/T, Inclusión boca arriba y Cristron propio enfrenta primera destrucción por batalla; acción battle-first-destruction-protect; después Cada Cristron propio evita su primera destrucción por batalla en turno; coste Sin coste. `677:A05:N024` negativo: Inclusión ausente o destrucción se produce por efecto y no batalla; no atribuir coste ni resolución de una activación prohibida.
@@ -748,6 +772,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target al Crystron propio en GY al activar.
 - **Resolución y estado posterior:** Invocar objetivo desde GY si permanece y hay zona legal.
 - **Límite / cadena:** Una vez por turno por nombre para ese efecto; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay Crystron en GY, o inclusión ya desterrada.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P025` positivo condicional: antes GY, Inclusión en GY y un Crystron propio en GY, zona M válida; acción gy-banish-target-revive; después Invocar objetivo desde GY si permanece y hay zona legal; coste Desterrar Inclusión del GY como coste. `677:A05:N025` negativo: No hay Crystron en GY, o inclusión ya desterrada; no atribuir coste ni resolución de una activación prohibida.
@@ -761,6 +786,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Los Horus propios no son destruidos por efectos de cartas que no los seleccionan.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Sarcófago ausente o efecto selecciona objetivo; no confundir con inmunidad general.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P026` positivo condicional: antes campo M/T, Sarcófago en Campo; Horus propio atacado por destrucción no seleccionadora; acción continuous-horus-protect; después Los Horus propios no son destruidos por efectos de cartas que no los seleccionan; coste Sin coste. `677:A05:N026` negativo: Sarcófago ausente o efecto selecciona objetivo; no confundir con inmunidad general; no atribuir coste ni resolución de una activación prohibida.
@@ -774,6 +800,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Horus de Deck al resolver, no target.
 - **Resolución y estado posterior:** Enviar un Horus del Deck al GY; hasta cuatro usos por turno por nombre.
 - **Límite / cadena:** Hasta cuatro usos por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin carta propia en mano o sin Horus en Deck; no inventar cuarto objetivo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P027` positivo condicional: antes campo M/T, Sarcófago boca arriba; carta propia en mano enviable y monstruo Horus real en Deck; acción hand-send-horus-deck-gy; después Enviar un Horus del Deck al GY; hasta cuatro usos por turno por nombre; coste Enviar una carta mano→GY al activar. `677:A05:N027` negativo: Sin carta propia en mano o sin Horus en Deck; no inventar cuarto objetivo; no atribuir coste ni resolución de una activación prohibida.
@@ -787,6 +814,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Monstruo rival que participa en la batalla (no target).
 - **Resolución y estado posterior:** Enviar el monstruo rival al GY sin destrucción por batalla.
 - **Límite / cadena:** Una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay batalla Horus contra monstruo rival.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P028` positivo condicional: antes campo M/T, Sarcófago activo, Horus propio luchando contra monstruo rival; acción battle-send-opponent-monster; después Enviar el monstruo rival al GY sin destrucción por batalla; coste Sin coste. `677:A05:N028` negativo: No hay batalla Horus contra monstruo rival; no atribuir coste ni resolución de una activación prohibida.
@@ -800,6 +828,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir materiales de ambos campos al resolver, sin target.
 - **Resolución y estado posterior:** Invocar por Fusión con materiales válidos; nadie puede encadenar a esa activación.
 - **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No existe combinación física de materiales para las Fusiones cargadas o no hay descarte.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P029` positivo condicional: antes mano/colocada, Súper Polimerización y material de Fusión válido en cualquier Campo, monstruo Fusion en Extra; acción quick-discard-fusion-from-field; después Invocar por Fusión con materiales válidos; nadie puede encadenar a esa activación; coste Descartar una carta de mano al activar. `677:A05:N029` negativo: No existe combinación física de materiales para las Fusiones cargadas o no hay descarte; no atribuir coste ni resolución de una activación prohibida.
@@ -813,6 +842,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir N monstruos de efecto rivales al resolver, NO target.
 - **Resolución y estado posterior:** Reducir a mitad ATK y negar efectos hasta End Phase; rival sin respuesta de tipos enviados.
 - **Límite / cadena:** Solo una activación de Gotas por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay otro coste propio o no hay monstruos de efecto rivales elegibles.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P030` positivo condicional: antes mano/colocada, Gotas y N otras cartas propias enviables, N monstruos de efecto rivales elegibles; acción quick-send-n-negate-opponent-monsters; después Reducir a mitad ATK y negar efectos hasta End Phase; rival sin respuesta de tipos enviados; coste Enviar N otras cartas de mano/campo al GY como coste. `677:A05:N030` negativo: No hay otro coste propio o no hay monstruos de efecto rivales elegibles; no atribuir coste ni resolución de una activación prohibida.
@@ -826,6 +856,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir monstruo del Deck al resolver, sin target.
 - **Resolución y estado posterior:** Enviar monstruo del Deck al GY; no invocarlo desde el cementerio automáticamente.
 - **Límite / cadena:** Mágica Normal sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Deck sin monstruos elegibles o activación impedida.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5236&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P031` positivo condicional: antes mano/colocada, Entierro Insensato activable y monstruo real en Main Deck; acción normal-send-monster-from-deck; después Enviar monstruo del Deck al GY; no invocarlo desde el cementerio automáticamente; coste Sin coste distinto de activar Mágica. `677:A05:N031` negativo: Deck sin monstruos elegibles o activación impedida; no atribuir coste ni resolución de una activación prohibida.
@@ -839,6 +870,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Rival no puede desterrar tus cartas Cristron mediante sus efectos.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Agrupamiento no está activo; el dueño todavía puede desterrar sus propios Cristron.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P032` positivo condicional: antes campo M/T, Agrupamiento propio activo y cartas Cristron controladas; acción continuous-crystron-banish-protect; después Rival no puede desterrar tus cartas Cristron mediante sus efectos; coste Sin coste. `677:A05:N032` negativo: Agrupamiento no está activo; el dueño todavía puede desterrar sus propios Cristron; no atribuir coste ni resolución de una activación prohibida.
@@ -852,6 +884,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target 1 carta boca arriba, o 2 si controlas Sincronía Cristron.
 - **Resolución y estado posterior:** Barajar Cristron GY/destierro al Deck y si lo haces destruir objetivos legales.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin recurso para barajar o seleccionas 2 sin Sincronía Cristron propia.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P033` positivo condicional: antes campo M/T, Agrupamiento boca arriba, 1 Cristron en propio GY/destierro distinto de Agrupamiento, 1 o 2 objetivos boca arriba; acción target-then-shuffle-destroy; después Barajar Cristron GY/destierro al Deck y si lo haces destruir objetivos legales; coste Barajar carta Cristron real al Deck durante resolución, NO coste de activación. `677:A05:N033` negativo: Sin recurso para barajar o seleccionas 2 sin Sincronía Cristron propia; no atribuir coste ni resolución de una activación prohibida.
@@ -865,6 +898,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Materiales elegidos antes de Invocar.
 - **Resolución y estado posterior:** Invocar F.A. Dragster como Sincronía; no confundir con efecto de negación.
 - **Límite / cadena:** Procedimiento sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Sin Cantante real o niveles no suman 7, o bloqueo Extra incompatible.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P034` positivo condicional: antes Extra, 1 Cantante y uno o más no Cantantes propios que suman Nivel 7, zona Extra compatible; acción synchro-level7-materials; después Invocar F.A. Dragster como Sincronía; no confundir con efecto de negación; coste Materiales enviados según procedimiento, no activación. `677:A05:N034` negativo: Sin Cantante real o niveles no suman 7, o bloqueo Extra incompatible; no atribuir coste ni resolución de una activación prohibida.
@@ -878,6 +912,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** ATK propio igual a Nivel actual por 300, recalcular al cambiar Nivel.
 - **Límite / cadena:** Continuo, sin activación; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No está boca arriba o el nivel no es el supuesto.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P035` positivo condicional: antes campo, Esta copia en Campo con nivel actual conocido; acción continuous-atk-level-times300; después ATK propio igual a Nivel actual por 300, recalcular al cambiar Nivel; coste Sin coste. `677:A05:N035` negativo: No está boca arriba o el nivel no es el supuesto; no atribuir coste ni resolución de una activación prohibida.
@@ -891,6 +926,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo de activación.
 - **Resolución y estado posterior:** Infligir daño perforante igual diferencia real, no daño al azar.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No combate en defensa o ATK insuficiente.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P036` positivo condicional: antes campo, Dragster ataca monstruo en Defensa cuyo DEF no absorbe todo ATK; acción continuous-piercing; después Infligir daño perforante igual diferencia real, no daño al azar; coste Sin coste. `677:A05:N036` negativo: No combate en defensa o ATK insuficiente; no atribuir coste ni resolución de una activación prohibida.
@@ -904,6 +940,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Aumentar nivel de Dragster en uno.
 - **Límite / cadena:** Sin OPT impreso específico; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No se activó ninguna M/T F.A.; propia lista no contiene ninguna.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P037` positivo condicional: antes campo, Una carta/efecto F.A. se activó realmente y Dragster está boca arriba; acción on-fa-spelltrap-gain-level; después Aumentar nivel de Dragster en uno; coste Sin coste. `677:A05:N037` negativo: No se activó ninguna M/T F.A.; propia lista no contiene ninguna; no atribuir coste ni resolución de una activación prohibida.
@@ -917,6 +954,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Responder a eslabón M/T, sin target.
 - **Resolución y estado posterior:** Negar activación y destruir esa carta si reducción y negación son válidas.
 - **Límite / cadena:** Una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Nivel menor que dos o eslabón adversario no es carta/efecto M/T.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P038` positivo condicional: antes campo, Dragster boca arriba con Nivel actual suficiente para reducirlo en dos y eslabón rival M/T real; acción quick-reduce-level-negate-spelltrap; después Negar activación y destruir esa carta si reducción y negación son válidas; coste Reducir Nivel en dos durante resolución si procede, no pago prematuro de coste. `677:A05:N038` negativo: Nivel menor que dos o eslabón adversario no es carta/efecto M/T; no atribuir coste ni resolución de una activación prohibida.
@@ -930,6 +968,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir materiales físicos con Niveles reales.
 - **Resolución y estado posterior:** Invocar Elesqueletus Sincronía; no activar recuperación antes de la invocación.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Materiales no suman Nivel 7 o bloqueo de Extra lo prohíbe.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P039` positivo condicional: antes Extra, Un Cantante y uno o más no Cantantes propios suman 7, zona Extra válida; acción synchro-level7-materials; después Invocar Elesqueletus Sincronía; no activar recuperación antes de la invocación; coste Materiales por procedimiento. `677:A05:N039` negativo: Materiales no suman Nivel 7 o bloqueo de Extra lo prohíbe; no atribuir coste ni resolución de una activación prohibida.
@@ -943,6 +982,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** No selecciona objetivo.
 - **Resolución y estado posterior:** Todos monstruos del rival pierden 500 ATK/DEF, sin suponer negación de efectos.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Elesqueletus no está boca arriba, no crear disminución permanente.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P040` positivo condicional: antes campo, El rival controla monstruos con ATK/DEF aplicables; acción continuous-opponent-atk-def-minus500; después Todos monstruos del rival pierden 500 ATK/DEF, sin suponer negación de efectos; coste Sin coste. `677:A05:N040` negativo: Elesqueletus no está boca arriba, no crear disminución permanente; no atribuir coste ni resolución de una activación prohibida.
@@ -956,6 +996,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Cristron del GY/destierro elegible, no inventar carta.
 - **Resolución y estado posterior:** Añadir a mano una carta Cristron de recurso indicado.
 - **Límite / cadena:** Cada efecto siguiente una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Fue Invocado Especial por otra vía o no hay objetivo Cristron.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P041` positivo condicional: antes campo, Elesqueletus fue Invocado por Sincronía y una carta Cristron propia está en GY/destierro; acción on-synchro-recover-card; después Añadir a mano una carta Cristron de recurso indicado; coste Sin coste. `677:A05:N041` negativo: Fue Invocado Especial por otra vía o no hay objetivo Cristron; no atribuir coste ni resolución de una activación prohibida.
@@ -969,6 +1010,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Cristron real en GY/destierro.
 - **Resolución y estado posterior:** Invocar Cristron; no declarar que recupera Inclusión por ese efecto.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Salió del Campo sin destrucción o faltan monstruos Cristron elegibles.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P042` positivo condicional: antes campo→GY, Esta copia fue Invocada por Sincronía y destruida, Cristron propio elegible en GY/destierro y zona; acción synchro-destroyed-revive-crystron; después Invocar Cristron; no declarar que recupera Inclusión por ese efecto; coste Sin coste. `677:A05:N042` negativo: Salió del Campo sin destrucción o faltan monstruos Cristron elegibles; no atribuir coste ni resolución de una activación prohibida.
@@ -982,6 +1024,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir materiales con Niveles, posición y control reales.
 - **Resolución y estado posterior:** Invocar Quariongandrax; no sustituir varios Cantantes por uno.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Solo un Cantante o suma de Niveles distinta de nueve.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P043` positivo condicional: antes Extra, Dos o más Cantantes más exactamente un no Cantante para suma Nivel 9, zona disponible; acción synchro-three-materials; después Invocar Quariongandrax; no sustituir varios Cantantes por uno; coste Mover materiales según invocación. `677:A05:N043` negativo: Solo un Cantante o suma de Niveles distinta de nueve; no atribuir coste ni resolución de una activación prohibida.
@@ -995,6 +1038,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar hasta N monstruos entre campo y GY rivales al activar.
 - **Resolución y estado posterior:** Desterrar únicamente los monstruos seleccionados legalmente que permanezcan.
 - **Límite / cadena:** No OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No fue Sincronía o no hay monstruo rival elegible.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P044` positivo condicional: antes campo, Quariongandrax fue sincronizado con N materiales y hay hasta N monstruos rivales en Campo o GY; acción on-synchro-banish-up-to-material-count; después Desterrar únicamente los monstruos seleccionados legalmente que permanezcan; coste Sin coste. `677:A05:N044` negativo: No fue Sincronía o no hay monstruo rival elegible; no atribuir coste ni resolución de una activación prohibida.
@@ -1008,6 +1052,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target a un monstruo desterrado que no sea Quariongandrax.
 - **Resolución y estado posterior:** Invocar a tu Campo copia físicamente desterrada si la zona y restricciones lo permiten.
 - **Límite / cadena:** No OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Se devolvió al Extra en lugar de destruir, o no existe monstruo desterrado válido.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P045` positivo condicional: antes campo→GY, Quariongandrax sincronizado destruido; hay monstruo desterrado distinto de sí mismo; acción synchro-destroyed-revive-banished-monster; después Invocar a tu Campo copia físicamente desterrada si la zona y restricciones lo permiten; coste Sin coste. `677:A05:N045` negativo: Se devolvió al Extra en lugar de destruir, o no existe monstruo desterrado válido; no atribuir coste ni resolución de una activación prohibida.
@@ -1021,6 +1066,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir dos monstruos de efecto.
 - **Resolución y estado posterior:** Invocar S:P Link-2; verificar que algún material proviene del Extra para efecto de entrada.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Uno de materiales no es monstruo de efecto o zona Link ilegal.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P046` positivo condicional: antes Extra, Dos monstruos de efecto propios usados legalmente, suma de rating Link 2, zona Extra válida; acción link2-two-effect-monsters; después Invocar S:P Link-2; verificar que algún material proviene del Extra para efecto de entrada; coste Enviar materiales como procedimiento. `677:A05:N046` negativo: Uno de materiales no es monstruo de efecto o zona Link ilegal; no atribuir coste ni resolución de una activación prohibida.
@@ -1034,6 +1080,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target una carta del Campo o GY al activar.
 - **Resolución y estado posterior:** Desterrar objetivo si sigue válido; monstruos propios no pueden atacar directamente este turno.
 - **Límite / cadena:** Cada efecto por nombre una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin material del Extra usado o no hay carta objetivo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P047` positivo condicional: antes campo, S:P recién Link Invocada con material Extra apropiado; carta en Campo o cualquiera GY; acción on-link-extra-material-banish; después Desterrar objetivo si sigue válido; monstruos propios no pueden atacar directamente este turno; coste Sin coste. `677:A05:N047` negativo: Sin material del Extra usado o no hay carta objetivo; no atribuir coste ni resolución de una activación prohibida.
@@ -1047,6 +1094,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target dos monstruos boca arriba, uno propio mínimo.
 - **Resolución y estado posterior:** Desterrar temporalmente ambas copias hasta End Phase, sin negar activación rival.
 - **Límite / cadena:** Cada efecto por nombre una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No se activó nada rival, solo un monstruo o uno de los targets no es boca arriba.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P048` positivo condicional: antes campo, S:P propia boca arriba y dos monstruos boca arriba elegibles, incluido uno propio; acción quick-opponent-activation-temporary-banish; después Desterrar temporalmente ambas copias hasta End Phase, sin negar activación rival; coste Sin coste. `677:A05:N048` negativo: No se activó nada rival, solo un monstruo o uno de los targets no es boca arriba; no atribuir coste ni resolución de una activación prohibida.
@@ -1060,6 +1108,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar una Máquina no Link con ATK original <=1000.
 - **Resolución y estado posterior:** Invocar Clockwork Knight como Link-1.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Material es Link, no Máquina o ATK original excede 1000.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P049` positivo condicional: antes Extra, Una Máquina NO Link con ATK original máximo 1000 bajo propio control y zona legal; acción link1-low-atk-machine; después Invocar Clockwork Knight como Link-1; coste Enviar material según procedimiento. `677:A05:N049` negativo: Material es Link, no Máquina o ATK original excede 1000; no atribuir coste ni resolución de una activación prohibida.
@@ -1073,9 +1122,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo; buscar Clockwork Night en Deck.
 - **Resolución y estado posterior:** Añadir Clockwork Night si existe; no confundir con Inclusión, nombre distinto.
 - **Límite / cadena:** Cada efecto una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA en lista 677: no existe Clockwork Night en Main.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P050` positivo condicional: antes campo, Clockwork Knight recién Link Invocado y Mágica Continua propia, Clockwork Night en Main Deck; acción on-link-send-continuous-search-clockworknight; después Añadir Clockwork Night si existe; no confundir con Inclusión, nombre distinto; coste Enviar Mágica Continua propia al GY al activar. `677:A05:N050` negativo: NO_APLICA en lista 677: no existe Clockwork Night en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P050` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo, Clockwork Knight recién Link Invocado y Mágica Continua propia, Clockwork Night en Main Deck; acción on-link-send-continuous-search-clockworknight; después Añadir Clockwork Night si existe; no confundir con Inclusión, nombre distinto; coste Enviar Mágica Continua propia al GY al activar. `677:A05:N050` negativo: NO_APLICA en lista 677: no existe Clockwork Night en Main; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 51. `677:a05:20787:target-gy-low-atk-machine-tribute-revive` — CID 20787 (ACT)
@@ -1086,6 +1136,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target Máquina GY ATK <=1000 al activar.
 - **Resolución y estado posterior:** Invocar objetivo en Defensa si sigue válido y se sacrificó.
 - **Límite / cadena:** Cada efecto una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Sin otra Máquina para tributar o sin objetivo GY elegible.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P051` positivo condicional: antes campo, Clockwork Knight propia, Máquina con ATK <=1000 en propio GY, otra Máquina propia sacrificable; acción target-gy-low-atk-machine-tribute-revive; después Invocar objetivo en Defensa si sigue válido y se sacrificó; coste Sacrificar otra Máquina propia al resolver, no la copia Knight. `677:A05:N051` negativo: Sin otra Máquina para tributar o sin objetivo GY elegible; no atribuir coste ni resolución de una activación prohibida.
@@ -1099,6 +1150,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir exactamente tres Level6 LIGHT Machines.
 - **Resolución y estado posterior:** Invocar Infinity mediante Xyz regular, con tres materiales y sin activar cadena.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No hay tres Máquinas LUZ Nivel6; lista propia no demuestra esta línea.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P052` positivo condicional: antes Extra, Tres Máquinas LUZ Nivel 6 disponibles simultáneamente, zona libre; acción xyz-three-light-level6-machines; después Invocar Infinity mediante Xyz regular, con tres materiales y sin activar cadena; coste Apilar materiales Xyz por procedimiento. `677:A05:N052` negativo: No hay tres Máquinas LUZ Nivel6; lista propia no demuestra esta línea; no atribuir coste ni resolución de una activación prohibida.
@@ -1112,6 +1164,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Nova propia físicamente en Campo.
 - **Resolución y estado posterior:** Invocar Infinity usando Nova, conservar sus materiales como corresponde.
 - **Límite / cadena:** Una vez por turno para modo alternativo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Nova no está en Campo, solo en GY/Extra, o Infinity no puede Invocarse.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P053` positivo condicional: antes Extra, Controlas Cyber Dragon Nova real; Infinity en Extra, zona legal; acción alternative-xyz-on-nova; después Invocar Infinity usando Nova, conservar sus materiales como corresponde; coste Superponer Nova como material y transferir sus materiales. `677:A05:N053` negativo: Nova no está en Campo, solo en GY/Extra, o Infinity no puede Invocarse; no atribuir coste ni resolución de una activación prohibida.
@@ -1125,6 +1178,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Gana 200 ATK por cada material actual; recalcular tras desacople.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Materiales ya se desacoplaron y no aportan ATK.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P054` positivo condicional: antes campo, Número real de materiales acoplados a Infinity conocido; acción continuous-atk-per-material; después Gana 200 ATK por cada material actual; recalcular tras desacople; coste Sin coste. `677:A05:N054` negativo: Materiales ya se desacoplaron y no aportan ATK; no atribuir coste ni resolución de una activación prohibida.
@@ -1138,6 +1192,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target a un monstruo boca arriba Ataque.
 - **Resolución y estado posterior:** Adjuntar ese monstruo como material Xyz al resolver si es legal.
 - **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Solo Defensa/boca abajo o target abandonó campo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P055` positivo condicional: antes campo, Infinity boca arriba, monstruo cara arriba en Posición de Ataque en Campo; acción main-target-faceup-attack-attach; después Adjuntar ese monstruo como material Xyz al resolver si es legal; coste Sin coste. `677:A05:N055` negativo: Solo Defensa/boca abajo o target abandonó campo; no atribuir coste ni resolución de una activación prohibida.
@@ -1151,6 +1206,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Responder eslabón rival observado, sin target.
 - **Resolución y estado posterior:** Negar ACTIVACIÓN y destruir carta activada si corresponde; material ya permanece en GY.
 - **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Infinity sin material o efecto que no puede responderse.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P056` positivo condicional: antes campo, Infinity boca arriba con material desacoplable, ventana de cadena legal; acción quick-detach-negate-activation; después Negar ACTIVACIÓN y destruir carta activada si corresponde; material ya permanece en GY; coste Desacoplar un material Xyz al activar. `677:A05:N056` negativo: Infinity sin material o efecto que no puede responderse; no atribuir coste ni resolución de una activación prohibida.
@@ -1164,6 +1220,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir dos Máquinas Nivel5 reales.
 - **Resolución y estado posterior:** Invocar Cyber Dragon Nova Rango5 con dos materiales.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Solo un Nivel5 Máquina o bloqueo a Sincronías Máquina.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P057` positivo condicional: antes Extra, Dos Máquinas Nivel5 simultáneas en MZ propia, Nova disponible en Extra; acción xyz-two-level5-machine; después Invocar Cyber Dragon Nova Rango5 con dos materiales; coste Apilar dos cuerpos como materiales. `677:A05:N057` negativo: Solo un Nivel5 Máquina o bloqueo a Sincronías Máquina; no atribuir coste ni resolución de una activación prohibida.
@@ -1177,9 +1234,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target Cyber Dragon GY al activar.
 - **Resolución y estado posterior:** Invocar el Cyber Dragon GY señalado si permanece legal.
 - **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA: lista 677 no contiene Cyber Dragon en Main.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P058` positivo condicional: antes campo, Nova Xyz con material y Cyber Dragon en GY propio; acción detach-target-cyberdragon-revive; después Invocar el Cyber Dragon GY señalado si permanece legal; coste Desacoplar material Xyz al activar. `677:A05:N058` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P058` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo, Nova Xyz con material y Cyber Dragon en GY propio; acción detach-target-cyberdragon-revive; después Invocar el Cyber Dragon GY señalado si permanece legal; coste Desacoplar material Xyz al activar. `677:A05:N058` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon en Main; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 59. `677:a05:10870:quick-banish-cyberdragon-boost2100` — CID 10870 (QCK)
@@ -1190,9 +1248,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Nova gana 2100 ATK hasta fin de turno.
 - **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA: lista 677 no contiene Cyber Dragon como recurso propio.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P059` positivo condicional: antes campo, Nova boca arriba y Cyber Dragon en mano o propio campo boca arriba; acción quick-banish-cyberdragon-boost2100; después Nova gana 2100 ATK hasta fin de turno; coste Desterrar Cyber Dragon mano/campo al activar. `677:A05:N059` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon como recurso propio; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P059` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo, Nova boca arriba y Cyber Dragon en mano o propio campo boca arriba; acción quick-banish-cyberdragon-boost2100; después Nova gana 2100 ATK hasta fin de turno; coste Desterrar Cyber Dragon mano/campo al activar. `677:A05:N059` negativo: NO_APLICA: lista 677 no contiene Cyber Dragon como recurso propio; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 60. `677:a05:10870:sent-gy-by-opponent-fusion-machine` — CID 10870 (TRG)
@@ -1203,9 +1262,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Fusión Máquina de Extra al resolver.
 - **Resolución y estado posterior:** Invocar Especial la Fusión Máquina si es legal.
 - **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA: 677 no tiene una Fusión Máquina en Extra.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P060` positivo condicional: antes campo→GY, Nova en tu posesión enviada a tu GY por efecto rival, Máquina Fusión en Extra; acción sent-gy-by-opponent-fusion-machine; después Invocar Especial la Fusión Máquina si es legal; coste Sin coste. `677:A05:N060` negativo: NO_APLICA: 677 no tiene una Fusión Máquina en Extra; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P060` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo→GY, Nova en tu posesión enviada a tu GY por efecto rival, Máquina Fusión en Extra; acción sent-gy-by-opponent-fusion-machine; después Invocar Especial la Fusión Máquina si es legal; coste Sin coste. `677:A05:N060` negativo: NO_APLICA: 677 no tiene una Fusión Máquina en Extra; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 61. `677:a05:12157:synchro-level5-materials` — CID 12157 (PRO)
@@ -1216,6 +1276,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir los materiales reales.
 - **Resolución y estado posterior:** Invocar Hagoita por Sincronía, sin disponer todavía de negación.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Niveles no suman cinco o falta Cantante.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P061` positivo condicional: antes Extra, Cantante y uno o más no Cantantes propios con suma Nivel5, zona válida; acción synchro-level5-materials; después Invocar Hagoita por Sincronía, sin disponer todavía de negación; coste Enviar materiales según procedimiento. `677:A05:N061` negativo: Niveles no suman cinco o falta Cantante; no atribuir coste ni resolución de una activación prohibida.
@@ -1229,6 +1290,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Aumentar en uno Nivel de monstruos actualmente en Campo hasta final de turno.
 - **Límite / cadena:** Sin OPT expreso para este efecto; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Hagoita no está en Campo o no puede ser tributada.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P062` positivo condicional: antes campo, Hagoita boca arriba y monstruos en Campo cuyos niveles puedan alterarse; acción quick-tribute-increase-all-levels; después Aumentar en uno Nivel de monstruos actualmente en Campo hasta final de turno; coste Tributar Hagoita al activar. `677:A05:N062` negativo: Hagoita no está en Campo o no puede ser tributada; no atribuir coste ni resolución de una activación prohibida.
@@ -1242,9 +1304,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Invocar Hagoita del GY y bloquear otras Invocaciones que no sean VIENTO este turno.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA: lista 677 no incluye Cantante Velociroid.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P063` positivo condicional: antes GY, Hagoita en GY y controlas Cantante Velociroid; zona libre; acción gy-speedroid-tuner-special; después Invocar Hagoita del GY y bloquear otras Invocaciones que no sean VIENTO este turno; coste Sin coste previo. `677:A05:N063` negativo: NO_APLICA: lista 677 no incluye Cantante Velociroid; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P063` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes GY, Hagoita en GY y controlas Cantante Velociroid; zona libre; acción gy-speedroid-tuner-special; después Invocar Hagoita del GY y bloquear otras Invocaciones que no sean VIENTO este turno; coste Sin coste previo. `677:A05:N063` negativo: NO_APLICA: lista 677 no incluye Cantante Velociroid; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 64. `677:a05:13826:xyz-two-level8` — CID 13826 (PRO)
@@ -1255,6 +1318,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir los dos Nivel8 (habitualmente Amset/Hapi).
 - **Resolución y estado posterior:** Invocar Número 90 Rango8 con dos materiales, no ambos Xyz a la vez.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Solo un Horus real o nivel/campo incorrecto.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P064` positivo condicional: antes Extra, Dos monstruos Nivel8 físicos simultáneos, zona válida; acción xyz-two-level8; después Invocar Número 90 Rango8 con dos materiales, no ambos Xyz a la vez; coste Adjuntar los dos materiales. `677:A05:N064` negativo: Solo un Horus real o nivel/campo incorrecto; no atribuir coste ni resolución de una activación prohibida.
@@ -1268,9 +1332,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** No puede ser destruido por efectos de cartas mientras condición verdadera.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** NO_APLICA con dos materiales Horus: ninguno es Fotón, falta esa protección.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P065` positivo condicional: antes campo, Xyz Número90 posee al menos una carta Fotón como material; acción continuous-photon-material-protection; después No puede ser destruido por efectos de cartas mientras condición verdadera; coste Sin coste. `677:A05:N065` negativo: NO_APLICA con dos materiales Horus: ninguno es Fotón, falta esa protección; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P065` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo, Xyz Número90 posee al menos una carta Fotón como material; acción continuous-photon-material-protection; después No puede ser destruido por efectos de cartas mientras condición verdadera; coste Sin coste. `677:A05:N065` negativo: NO_APLICA con dos materiales Horus: ninguno es Fotón, falta esa protección; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 66. `677:a05:13826:quick-detach-negate-opponent-monster` — CID 13826 (QCK)
@@ -1281,6 +1346,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Responder al efecto activado de monstruo rival.
 - **Resolución y estado posterior:** Negar EFECTO del monstruo y destruir solo si material desacoplado era Galaxy.
 - **Límite / cadena:** Cada uno de los efectos siguientes una vez por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Material Horus no es Galaxy, así que negar no implica destruir; sin material no activar.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P066` positivo condicional: antes campo, Número90 con material y eslabón de monstruo rival real; acción quick-detach-negate-opponent-monster; después Negar EFECTO del monstruo y destruir solo si material desacoplado era Galaxy; coste Desacoplar un material Xyz al activar. `677:A05:N066` negativo: Material Horus no es Galaxy, así que negar no implica destruir; sin material no activar; no atribuir coste ni resolución de una activación prohibida.
@@ -1294,9 +1360,10 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir Fotón/Galaxia en Deck al resolver.
 - **Resolución y estado posterior:** Añadir a mano O acoplar como material, sin ambas modalidades.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** NO_APLICA: lista 677 no contiene cartas Fotón/Galaxia en Main.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=en.
-- **Casos de papel:** `677:A05:P067` positivo condicional: antes campo, Número90 en Campo, carta Fotón o Galaxia en Main Deck; acción opponent-turn-get-photon-galaxy; después Añadir a mano O acoplar como material, sin ambas modalidades; coste Sin coste. `677:A05:N067` negativo: NO_APLICA: lista 677 no contiene cartas Fotón/Galaxia en Main; no atribuir coste ni resolución de una activación prohibida.
+- **Casos de papel:** `677:A05:P067` positivo `expected_legal=null`, `NO_APLICA_INVENTARIO_677`: antes campo, Número90 en Campo, carta Fotón o Galaxia en Main Deck; acción opponent-turn-get-photon-galaxy; después Añadir a mano O acoplar como material, sin ambas modalidades; coste Sin coste. `677:A05:N067` negativo: NO_APLICA: lista 677 no contiene cartas Fotón/Galaxia en Main; no atribuir coste ni resolución de una activación prohibida.
 - **Estado:** `DOCUMENTADO_CON_FUENTE`, casos `CONDICIONAL_PENDIENTE_DE_VERIFICACION_INDEPENDIENTE`, sin motor A10B.
 
 #### 68. `677:a05:16850:xyz-level8-opponent-owned-conversion` — CID 16850 (PRO)
@@ -1307,6 +1374,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar monstruos físicos adecuados.
 - **Resolución y estado posterior:** Invocar Vampiro Zombi sin cambiar de dueños ni crear copias.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Materiales no cumplen nivel y ninguna carta rival controlada sirve.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P068` positivo condicional: antes Extra, Dos o más monstruos Nivel8 propios, o monstruo de Nivel cuyo dueño original es rival tratado como Nivel8; acción xyz-level8-opponent-owned-conversion; después Invocar Vampiro Zombi sin cambiar de dueños ni crear copias; coste Adjuntar materiales según procedimiento. `677:A05:N068` negativo: Materiales no cumplen nivel y ninguna carta rival controlada sirve; no atribuir coste ni resolución de una activación prohibida.
@@ -1320,6 +1388,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target propio.
 - **Resolución y estado posterior:** No puede ser elegido objetivo de esos efectos; no equivale a inmunidad general.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Efecto procede de monstruo Invocado desde GY, excepción permite target.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P069` positivo condicional: antes campo, Efecto que trata de seleccionarlo proviene de monstruo Invocado Especial que NO vino del GY; acción continuous-nontarget-special-summon-protect; después No puede ser elegido objetivo de esos efectos; no equivale a inmunidad general; coste Sin coste. `677:A05:N069` negativo: Efecto procede de monstruo Invocado desde GY, excepción permite target; no atribuir coste ni resolución de una activación prohibida.
@@ -1333,6 +1402,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target al activar; elegir monstruo enviado por este efecto al resolver.
 - **Resolución y estado posterior:** Cada jugador manda cuatro cartas superiores al GY; si mandó monstruo, opcionalmente Invocar uno de esos monstruos a tu Campo.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Vampiro sin material o ninguno de los ocho enviados fue monstruo; no inventar extensor.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P070` positivo condicional: antes campo, Vampiro Zombi con material, ambos Deck tienen cartas para envío y posible monstruo resultante; acción detach-mill-four-each-special; después Cada jugador manda cuatro cartas superiores al GY; si mandó monstruo, opcionalmente Invocar uno de esos monstruos a tu Campo; coste Desacoplar uno de sus materiales al activar. `677:A05:N070` negativo: Vampiro sin material o ninguno de los ocho enviados fue monstruo; no inventar extensor; no atribuir coste ni resolución de una activación prohibida.
@@ -1346,6 +1416,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir materiales reales.
 - **Resolución y estado posterior:** Invocar Destructor Samurái como Sincronía.
 - **Límite / cadena:** Sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Faltan Cantante/no Cantante o niveles no suman siete.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P071` positivo condicional: antes Extra, Un Cantante y uno o más no Cantantes con Niveles sumando 7; acción synchro-level7-materials; después Invocar Destructor Samurái como Sincronía; coste Materiales usados se envían según invocación. `677:A05:N071` negativo: Faltan Cantante/no Cantante o niveles no suman siete; no atribuir coste ni resolución de una activación prohibida.
@@ -1359,6 +1430,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Rival no activa cartas/efectos hasta final Damage Step y el monstruo combatido tiene efectos negados durante Battle Phase.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** No es batalla de Samurai contra monstruo enemigo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P072` positivo condicional: antes campo, Samurái propio combate con monstruo rival; ventana hasta final Damage Step; acción continuous-battle-lock-opponent; después Rival no activa cartas/efectos hasta final Damage Step y el monstruo combatido tiene efectos negados durante Battle Phase; coste Sin coste. `677:A05:N072` negativo: No es batalla de Samurai contra monstruo enemigo; no atribuir coste ni resolución de una activación prohibida.
@@ -1372,6 +1444,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target Máquina del GY propio al activar.
 - **Resolución y estado posterior:** Invocar objetivo si es legal, sin requerir destrucción de Samurai.
 - **Límite / cadena:** Sin OPT expreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No salió por efecto rival o Máquina elegible ausente en GY.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P073` positivo condicional: antes campo→otra zona, Samurai propio fue retirado por efecto rival, Máquina propia válida en GY; acción left-field-by-opponent-effect-revive-machine; después Invocar objetivo si es legal, sin requerir destrucción de Samurai; coste Sin coste. `677:A05:N073` negativo: No salió por efecto rival o Máquina elegible ausente en GY; no atribuir coste ni resolución de una activación prohibida.
@@ -1385,6 +1458,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Seleccionar dos monstruos con tipo/atributo iguales y nombres diferentes.
 - **Resolución y estado posterior:** Invocar Garura, no con cualquier par genérico.
 - **Límite / cadena:** Procedimiento dependiente de activación ajena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Dos materiales comparten nombre o no comparten Tipo/Atributo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P074` positivo condicional: antes Extra, Dos monstruos del mismo Tipo y Atributo, con nombres diferentes, materiales de zona legal; acción fusion-two-same-type-attr-diffnames; después Invocar Garura, no con cualquier par genérico; coste Mover materiales en resolución de Fusión habilitadora. `677:A05:N074` negativo: Dos materiales comparten nombre o no comparten Tipo/Atributo; no atribuir coste ni resolución de una activación prohibida.
@@ -1398,6 +1472,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Duplicar daño de batalla que recibe rival en esa batalla.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Sin daño de batalla al rival, no duplicar cero en daño inventado.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P075` positivo condicional: antes campo, Garura propia participa en batalla y rival recibe daño real; acción continuous-double-battle-damage; después Duplicar daño de batalla que recibe rival en esa batalla; coste Sin coste. `677:A05:N075` negativo: Sin daño de batalla al rival, no duplicar cero en daño inventado; no atribuir coste ni resolución de una activación prohibida.
@@ -1411,6 +1486,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Robar una carta superior desconocida de Deck al resolver.
 - **Límite / cadena:** Una vez por turno por nombre; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Garura no llegó al GY o efecto ya gastado.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P076` positivo condicional: antes cualquier zona→GY, Garura fue enviada físicamente al GY y disparo disponible; acción sent-to-gy-draw-one; después Robar una carta superior desconocida de Deck al resolver; coste Sin coste. `677:A05:N076` negativo: Garura no llegó al GY o efecto ya gastado; no atribuir coste ni resolución de una activación prohibida.
@@ -1424,6 +1500,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir dos materiales concretos de igual Atributo y distinto Tipo.
 - **Resolución y estado posterior:** Invocar Mudragon; no exigir mismo Tipo como Garura.
 - **Límite / cadena:** Sin cadena propia de material; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Ambos materiales comparten Tipo o atributos diferentes.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P077` positivo condicional: antes Extra, Dos monstruos mismo Atributo y diferente Tipo con carta/efecto Fusión que permita usar materiales; acción fusion-two-same-attr-diff-types; después Invocar Mudragon; no exigir mismo Tipo como Garura; coste Consumir materiales al resolver Fusión. `677:A05:N077` negativo: Ambos materiales comparten Tipo o atributos diferentes; no atribuir coste ni resolución de una activación prohibida.
@@ -1437,6 +1514,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Rival no puede seleccionar Mudragon ni monstruos con mismo Atributo mediante efectos de cartas.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Mudragon ausente o efecto no selecciona objetivo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P078` positivo condicional: antes campo, Mudragon boca arriba y monstruos con mismo Atributo actual en Campo; acción continuous-attribute-target-protection; después Rival no puede seleccionar Mudragon ni monstruos con mismo Atributo mediante efectos de cartas; coste Sin coste. `677:A05:N078` negativo: Mudragon ausente o efecto no selecciona objetivo; no atribuir coste ni resolución de una activación prohibida.
@@ -1450,6 +1528,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Declarar un Atributo, no target.
 - **Resolución y estado posterior:** Cambiar el Atributo de Mudragon hasta fin del turno; protección se recalcula.
 - **Límite / cadena:** Una vez por turno por copia; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Mudragon no está en Campo o efecto ya se usó.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P079` positivo condicional: antes campo, Mudragon boca arriba y atributo legal declarado; acción quick-declare-change-attribute; después Cambiar el Atributo de Mudragon hasta fin del turno; protección se recalcula; coste Sin coste. `677:A05:N079` negativo: Mudragon no está en Campo o efecto ya se usó; no atribuir coste ni resolución de una activación prohibida.
@@ -1463,6 +1542,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Invocar Cazadora desde mano como respuesta al evento, sin inventar monstruo rival.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay Invocación Especial rival observada o falta otra carta descartable.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P080` positivo condicional: antes mano, Cazadora del Caos entró vía Side al Main tras duelo, está en mano y rival Invocó Especial; acción opponent-special-hand-discard-special; después Invocar Cazadora desde mano como respuesta al evento, sin inventar monstruo rival; coste Descartar otra carta de mano al activar. `677:A05:N080` negativo: No hay Invocación Especial rival observada o falta otra carta descartable; no atribuir coste ni resolución de una activación prohibida.
@@ -1476,6 +1556,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Rival no puede desterrar cartas mientras permanece aplicable; tú sí puedes.
 - **Límite / cadena:** Continuo; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Cazadora ausente o ya fue retirada del campo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P081` positivo condicional: antes campo, Cazadora del Caos boca arriba propia; acción continuous-opponent-cannot-banish; después Rival no puede desterrar cartas mientras permanece aplicable; tú sí puedes; coste Sin coste. `677:A05:N081` negativo: Cazadora ausente o ya fue retirada del campo; no atribuir coste ni resolución de una activación prohibida.
@@ -1489,6 +1570,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir zona libre M/T.
 - **Resolución y estado posterior:** Colocar esa carta de monstruo como Mágica boca abajo.
 - **Límite / cadena:** Procedimiento sin cadena; naturaleza sin activación de cadena.
+- **Negación y conservación de recursos:** No inicia eslabón propio; no se descuentan costes de activación, se reevalúa la precondición en la ventana o evento correspondiente y no se inventan efectos posteriores.
 - **Contraejemplo:** Lancea no está en mano o S/T sin espacio.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P082` positivo condicional: antes mano→S/T, Lancea en mano y zona M/T vacía, antes de usar su efecto rápido; acción set-monster-as-spell; después Colocar esa carta de monstruo como Mágica boca abajo; coste No coste de activación. `677:A05:N082` negativo: Lancea no está en mano o S/T sin espacio; no atribuir coste ni resolución de una activación prohibida.
@@ -1502,6 +1584,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Invocar esta Lancea desde GY a MZ propia si zona libre.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Se envió al GY sin destrucción o fuera del turno rival.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P083` positivo condicional: antes S/T→GY, Copia colocada como Mágica en S/T que fue destruida por rival durante su turno y enviada GY; acción set-destroyed-opponent-turn-special; después Invocar esta Lancea desde GY a MZ propia si zona libre; coste Sin coste. `677:A05:N083` negativo: Se envió al GY sin destrucción o fuera del turno rival; no atribuir coste ni resolución de una activación prohibida.
@@ -1515,6 +1598,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin objetivo.
 - **Resolución y estado posterior:** Ningún jugador puede desterrar cartas durante resto de turno rival.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Intentas activar en tu turno o Lancea no está en zona correcta.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P084` positivo condicional: antes mano/campo, Lancea en mano o campo propia boca arriba, sin que ya se haya tributado; acción quick-tribute-hand-field-banish-lock; después Ningún jugador puede desterrar cartas durante resto de turno rival; coste Sacrificar Lancea desde mano/campo al activar. `677:A05:N084` negativo: Intentas activar en tu turno o Lancea no está en zona correcta; no atribuir coste ni resolución de una activación prohibida.
@@ -1528,6 +1612,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Responder a evento de Invocación o eslabón activado, sin target.
 - **Resolución y estado posterior:** Negar la Invocación/activación y destruir carta si corresponde.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Otra carta propia colocada en S/T o no hay 3000 LP para pagar.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11411&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P085` positivo condicional: antes S/T colocada, Regaño Solemne es la única CARTA COLOCADA en S/T propia; ventana válida y al menos 3000 LP; acción solemn-scolding-pay3000-negate; después Negar la Invocación/activación y destruir carta si corresponde; coste Pagar 3000 LP al activar. `677:A05:N085` negativo: Otra carta propia colocada en S/T o no hay 3000 LP para pagar; no atribuir coste ni resolución de una activación prohibida.
@@ -1541,6 +1626,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Target a monstruo real del GY rival al activar.
 - **Resolución y estado posterior:** Desterrar si permanece; negar efectos nombre original hasta fin del siguiente turno.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Cementerio rival sin monstruos seleccionables o target fue movido antes de resolver.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P086` positivo condicional: antes mano/colocada, Llamado activable y monstruo físico targeteable en GY rival; acción quick-target-opponent-gy-banish-negate-name; después Desterrar si permanece; negar efectos nombre original hasta fin del siguiente turno; coste Sin coste adicional. `677:A05:N086` negativo: Cementerio rival sin monstruos seleccionables o target fue movido antes de resolver; no atribuir coste ni resolución de una activación prohibida.
@@ -1554,6 +1640,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir modo robar dos al activar, no target.
 - **Resolución y estado posterior:** Robar dos cartas superiores sin inventar identidades.
 - **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Rival activó efecto únicamente en su turno o Deck sin suficientes cartas.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P087` positivo condicional: antes mano/colocada, Talento en mano/colocada, rival activó efecto de monstruo propio Main, Deck con dos cartas; acción talent-draw-two; después Robar dos cartas superiores sin inventar identidades; coste Sin coste de activación. `677:A05:N087` negativo: Rival activó efecto únicamente en su turno o Deck sin suficientes cartas; no atribuir coste ni resolución de una activación prohibida.
@@ -1567,6 +1654,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir modo tomar control de monstruo al activar, sin target impreso.
 - **Resolución y estado posterior:** Tomar control de un monstruo rival hasta End Phase, con espacio propio legal.
 - **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No hay monstruo rival o no hay zona; jamás usar también modo robo.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P088` positivo condicional: antes mano/colocada, Talento legal, rival controla monstruo elegible para tomar temporalmente; acción talent-take-control; después Tomar control de un monstruo rival hasta End Phase, con espacio propio legal; coste Sin coste. `677:A05:N088` negativo: No hay monstruo rival o no hay zona; jamás usar también modo robo; no atribuir coste ni resolución de una activación prohibida.
@@ -1580,6 +1668,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Elegir modo inspeccionar mano y carta después de revelar, no target.
 - **Resolución y estado posterior:** Mirar mano rival y elegir una carta para barajarla en Deck.
 - **Límite / cadena:** Solo una activación Talento por turno entre tres modos; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No ocurrió disparador en Main propia o mano rival vacía.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P089` positivo condicional: antes mano/colocada, Talento legal y rival tiene carta en mano real aunque identidad oculta; acción talent-return-opponent-hand-card; después Mirar mano rival y elegir una carta para barajarla en Deck; coste Sin coste. `677:A05:N089` negativo: No ocurrió disparador en Main propia o mano rival vacía; no atribuir coste ni resolución de una activación prohibida.
@@ -1593,6 +1682,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Declarar nombre, no target.
 - **Resolución y estado posterior:** Rival no puede activar cartas/efectos de ese nombre este turno; tú no puedes activarlos por resto del DUELO.
 - **Límite / cadena:** Solo una activación de esta Mágica por turno; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Intentas activar nombre ya prohibido o sin ventana; no tratar restricción propia como temporal.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P090` positivo condicional: antes mano/colocada, Prohibida la Venta activable y nombre de carta válido declarado; acción sales-ban-declare-name-duel-lock; después Rival no puede activar cartas/efectos de ese nombre este turno; tú no puedes activarlos por resto del DUELO; coste Sin coste. `677:A05:N090` negativo: Intentas activar nombre ya prohibido o sin ventana; no tratar restricción propia como temporal; no atribuir coste ni resolución de una activación prohibida.
@@ -1606,6 +1696,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** Sin target.
 - **Resolución y estado posterior:** Ambos dejan de añadir cartas del Deck a mano salvo robándolas hasta fin de tu siguiente turno.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** Efecto no resolvió o permitir búsqueda mientras bloqueo sigue vigente.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11849&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P091` positivo condicional: antes mano/colocada, Arresto Erróneo activable legalmente, se conoce duración hasta fin próximo turno propio; acción mistaken-arrest-both-players-deck-search-lock; después Ambos dejan de añadir cartas del Deck a mano salvo robándolas hasta fin de tu siguiente turno; coste Sin coste. `677:A05:N091` negativo: Efecto no resolvió o permitir búsqueda mientras bloqueo sigue vigente; no atribuir coste ni resolución de una activación prohibida.
@@ -1619,6 +1710,7 @@ El siguiente es el **contrato de disponibilidad por zona**, no un resultado de u
 - **Objetivo y selección:** No selecciona target; responder a evento/activación admisible.
 - **Resolución y estado posterior:** Negar Invocación o activación y destruir carta si procede.
 - **Límite / cadena:** Sin OPT impreso; naturaleza con activación de cadena.
+- **Negación y conservación de recursos:** Si el eslabón se niega, conservar solo los costes pagados realmente al activar; no atribuir resolución exitosa, ni mover carta oculta o un material inexistente. Si un objetivo desaparece antes de resolver, no se reembolsa el coste.
 - **Contraejemplo:** No puede negar una activación de efecto de monstruo como tal, ni una Invocación que ocurre al resolver cadena.
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en.
 - **Casos de papel:** `677:A05:P092` positivo condicional: antes S/T colocada, Juicio Solemne colocado legalmente, ventana en que puede negar Invocación o activación M/T; acción solemn-judgment-pay-half-lp-negate; después Negar Invocación o activación y destruir carta si procede; coste Pagar mitad de LP actuales al activar. `677:A05:N092` negativo: No puede negar una activación de efecto de monstruo como tal, ni una Invocación que ocurre al resolver cadena; no atribuir coste ni resolución de una activación prohibida.
