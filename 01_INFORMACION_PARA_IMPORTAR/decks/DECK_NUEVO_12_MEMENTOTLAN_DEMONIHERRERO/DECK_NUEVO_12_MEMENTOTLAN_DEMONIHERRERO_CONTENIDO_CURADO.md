@@ -4634,6 +4634,35 @@ Cada fila conserva el mismo `step_id` de A09.11; sus campos no se reinventan: pr
 
 **Criterio A09-T2:** las 69 fichas tienen costeo/ventana/selección/límite/effect_id **declarados** sin inventar operador, y sus estados críticos de antes/después están en A09.11. La legalidad integral de cada secuencia sigue condicionada a la corrección PSCT de su estado en una partida real; **ninguna de estas filas es por sí sola una regla de calculadora A10B**. La guía A10A debe visualizar los mismos IDs y casos, sin simplificar el coste hasta hacerlo incorrecto.
 
+### A09.14 — inventario final condicional por ruta y campo espacial no acreditado
+
+Esta sección formaliza los **doce resultados lógicos de A09.10** sin atribuir coordenadas que no se hayan inspeccionado. El tablero final propio incluye solo los monstruos que la secuencia deja en su zona de monstruos; los recursos críticos `H/G/B` se verifican separadamente y **no pueden ser simultáneamente la misma copia en dos zonas**. Cada ID `671:A09:Cxx:END` conserva su `route_id` y el identificador de la guía existente `a10-cxx`, sin alterar imágenes ni generar un tablero ilustrativo ficticio.
+
+| ID de cierre lógico | Monstruos conocidos en campo propio | Mano/GY/destierro crítico del final | Macro-pasos originales | Panel A10 existente | Estatus del campo |
+|---|---|---|---:|---|---|
+| `671:A09:C01:END` | `M20216,M19360` | `G19365,G19904` | 7 | `a10-c01` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C02:END` | `M19360` | `G19368` | 4 | `a10-c02` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C03:END` | `M20196` | `G19364,G19362,G19932,G20225` | 7 | `a10-c03` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C04:END` | `M20216,M19360` | `G20199,G19904` | 8 | `a10-c04` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C05:END` | `M20216,M19360` | `G20491,G20199,G19904#2,B19904#1` | 9 | `a10-c05` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C06:END` | `M19878,M19360` | `H19366,G19904` | 5 | `a10-c06` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C07:END` | `M16845` | `G19362,G19364,G19472,G20199,G19904` | 4 | `a10-c07` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C08:END` | `M19188` | `G19364,G19362` | 4 | `a10-c08` | `FIN_TURNO_PROPIO_M19188; RESPUESTA_TEMPORAL_B19188` |
+| `671:A09:C09:END` | `M20423` | `G19364,G19362,G19932,G20225,G20196,G19366` | 5 | `a10-c09` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C10:END` | `M20226,M20389,M19364` | `G19362,G19932,G20225,G19472,G19368` | 5 | `a10-c10` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C11:END` | `M20216,M19360` | `G20199,G19365,G19904,G20533` | 6 | `a10-c11` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+| `671:A09:C12:END` | `M19363` | `G19364,G19362,G19366,G19365,G19472,G19361,G19368` | 5 | `a10-c12` | `DOCUMENTADA_SIN_CAMPO_ESPACIAL` |
+
+**Excepciones obligatorias:**
+- **C08:** al cerrar el turno propio está **S:P** en el campo. El paso de respuesta en el turno rival puede desterrar temporalmente S:P y un objetivo rival, con retorno condicionado en End Phase; no se dibujan los dos estados a la vez.
+- **C07:** el robo de Quimera es una carta de identidad **desconocida**; no usarla para producir otro monstruo del campo sin un dato nuevo. Destrucción rival: máximo condicional y nunca victoria garantizada.
+- **C04/C05/C11:** Creación Combinada baraja cinco otros nombres; esos recursos salieron del GY, y el campo final de doble jefe no concede al jefe la condición de único monstruo propio.
+- **C09:** Princesa se Invoca usando material/equipo físico, y el procedimiento no es «envío para activar una carta/efecto» que produzca robo.
+- **C10:** Grabador y Goblin retornan al Deck como materiales de la Fusión de Secuencia; no siguen en GY para reusar inmediatamente como materiales de César. Duque ofrece una Normal adicional solo si resuelve su propio efecto.
+- **C12:** Hoja Oscura queda en campo; la destrucción de dos cartas rivales depende de que Horn encuentre tres objetivos boca arriba y su efecto resuelva.
+
+**Verificación y límite:** el control `scripts/audit-deck-a09-route-states.cjs` exige 12 rutas, 69 macro-pasos, 12 pares de interrupción, 69 registros de coste/ventana y ausencia de copias duplicadas en el final lógico. Se pretende **12/12 campos lógicos con estado declarado**, pero **0/12 campos espaciales certificados** y **0 replays**. Hasta la aprobación de CI, este resultado se conserva como especificación sujeta a auditoría. A10A debe reflejar exactamente estas cartas y estos estados, indicando `DOCUMENTADA_SIN_CAMPO_ESPACIAL` cuando no se conozca M1–M5/EMZ; A10B no se ha solicitado.
+
 ## APARTADO_10 — Doce secuencias didácticas (fotografía completa desde V37)
 
 **Estado visual vigente (V42, 18-11-2026):** `COMPLETA_DOCUMENTAL`; las doce guías G01–G12 corresponden a C01–C12 y los cuatro accesos EX-M01–EX-M04 no son nuevos combos. Desde V37 existen las 39 imágenes auténticas por CID (JPG o PNG, según cada carta); la guía HTML local y la publicación V40 constan en el seguimiento. Los antiguos marcadores fotográficos de las viñetas siguientes son una fotografía **del estado editorial previo a V37**, no faltantes actuales. La revisión textual de cada ruta A07/A09 permanece separada del cierre visual y no es prueba de partidas.
