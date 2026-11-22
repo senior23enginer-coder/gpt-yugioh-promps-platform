@@ -132,8 +132,10 @@ function inspect({deckId,packagePath,documentPath,historicalPath}) {
   (_,i)=>s+'-T'+(i+1)));
  const marks=[...ledger.matchAll(/^- \[x\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)]
   .map(x=>x[1]);
- assert.deepEqual(marks,ids,'A03_MUST_CLOSE_EXACTLY_NINE_TASKS');
- assert(ledger.includes('9/35')&&ledger.includes('26/35'),'MISSING_PROGRESS_RECONCILIATION');
+ assert.deepEqual(marks.slice(0,ids.length),ids,'A03_MUST_REMAIN_CERTIFIED');
+ assert(marks.length>=9&&marks.length<=35,'INVALID_CLOSED_TASK_COUNT');
+ assert(ledger.includes(marks.length+'/35')&&
+   ledger.includes((35-marks.length)+'/35'),'MISSING_PROGRESS_RECONCILIATION');
  assert(doc.includes('### A03.2 — auditoría del contrato físico'),
   'MISSING_A03_CERTIFICATION_EVIDENCE');
  const routes=record.routes;
