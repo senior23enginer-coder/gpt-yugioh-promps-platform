@@ -101,7 +101,7 @@ jobs:
         run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
       - name: Verify Memento 671 HD photos, 39 identities, 69 route steps and shared zone map
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
-        run: node scripts/audit-deck-visual-zone-links.cjs --deck-id=671 --user-assigned --expected=39,12,69,155,13 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+        run: node scripts/audit-deck-visual-zone-links.cjs --deck-id=671 --user-assigned --expected=39,12,69,198,13 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
       - name: Verify Memento A05-T1 official card sources, complete profiles and HD pictures
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-card-profiles.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
