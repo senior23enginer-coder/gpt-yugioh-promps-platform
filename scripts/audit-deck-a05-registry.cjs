@@ -68,7 +68,7 @@ function audit(args){
  a.equal(pkg.record.cards.length,39);a.equal(pkg.record.calculator.rules.length,13);
  const original=new Map(pkg.record.cards.map(c=>[c.cid,c]));
  a.equal(original.size,39);a.equal(COUNTS.size,39);
- const start=doc.indexOf('### A05.2 — censo causal preliminar');
+ const start=doc.indexOf('### A05.2 — censo causal documentado');
  const end=doc.indexOf('<!-- A05_EFFECTS_END -->',start);
  a(start>=0&&end>start,'MISSING_EFFECT_CENSUS');
  const content=doc.slice(start,end);
