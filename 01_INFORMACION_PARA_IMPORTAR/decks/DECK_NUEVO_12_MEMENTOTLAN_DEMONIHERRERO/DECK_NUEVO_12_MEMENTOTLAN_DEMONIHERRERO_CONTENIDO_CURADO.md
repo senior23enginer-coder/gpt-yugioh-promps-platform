@@ -2475,7 +2475,7 @@ Cada relación `REL-Mxx` indica **origen → destino**, nunca «estas cartas com
 | **REL-M32** | **016 destruye 010 → 003; 010 → 001 + 2 rivales** | Fiesta destruye Dragón de Cuerno y Especial Hoja; Horn destruido selecciona **tres boca arriba**, incluida Angbruja propia y dos rivales | Rival no tiene dos cartas boca arriba afectables o falta tercer objetivo | C12 |
 | **REL-M33** | **026 Fusión + 004 OSCURIDAD + 015 colocada → 024** | Al turno rival siguiente, Fusión rápida usa Rey del campo + Goblin de mano para Dragostapelia | No hay segunda Fusión previamente colocada o uno de los materiales desapareció | EX-M01 |
 | **REL-M34** | **031 → 029** | S:P como único monstruo propio es el de mayor ATK; sobre ella se superpone TY-PHON **solo tras 2+ monstruos Invocados especialmente desde Extra por rival en turno elegible** | Rival no cumplió condición o no tienes monstruo propio válido | EX-M02 |
-| **REL-M35** | **001 + 016 destruye 004 → segundo 001 + 007 → 035** | Fiesta trae segunda Angbruja del Deck; Dormiveja se Especial desde mano tras destrucción; **dos Angbruja Nivel 3** forman Aero | No hay otra Angbruja, falta Dormiveja, o se intenta buscar dos veces con Angbruja | EX-M03 |
+| **REL-M35** | **001 + 016 destruye 004 → segundo 001 → 035** | Fiesta destruye Goblin de la mano y trae otra Angbruja del Deck en Defensa; ambas Angbruja Nivel 3 forman Aero | No queda Goblin de mano u otro Memento para destruir, o falta la segunda Angbruja; Dormiveja no es requisito | EX-M03 |
 | **REL-M36** | **015 + campo(009) + GY(004) → 034** | Destrucción de Goblin en posesión habilita barajarlo desde GY como segundo Demonio material para Duque | No se destruyó monstruo propio por efecto ese turno o falta material | EX-M04 |
 | **REL-M37** | **011 Nivel 6 + 034 Nivel 6 → 028** | Grabador y Duque son dos Demonios de Nivel 6 que cumplen el material de César si coexisten en Campo | Si uno de ellos fue consumido en la Fusión de Duque o no están simultáneamente disponibles, no se puede hacer César | EX-M04, acceso condicional |
 | **REL-M38** | **013 ⊣ 014/036/037** | Droll que ya resolvió impide nuevas **adiciones desde Main Deck**, incluidas las robadas por Multivadoras | Pretender robar mediante Mulcharmy bajo Droll vigente | A08, conflicto |
@@ -2682,7 +2682,7 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 | `671:A06:M32:P` / `671:A06:M32:N` | M32 / `671:a05:19368:quick-destroy-search-or-special`, `671:a05:19361:destroyed-field-target-three-faceup` | **Positivo condicionado**: Fiesta destruye Dragón de Cuerno en MZ y obtiene Hoja Oscura; después Horn destruido selecciona 3 cartas boca arriba, una Memento propia; precondición Fiesta destruye Dragón de Cuerno y Especial Hoja; Horn destruido selecciona **tres boca arriba**, incluida Angbruja propia y dos rivales. | **Negativo / resolución fallida:** Rival no tiene dos cartas boca arriba afectables o falta tercer objetivo; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | C12; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
 | `671:A06:M33:P` / `671:A06:M33:N` | M33 / `671:a05:19904:quick-play-fusion`, `671:a05:12870:fusion-dark-material` | **Positivo condicionado**: Rey Fusión propio en MZ + Goblin OSCURIDAD en mano, Fusión colocada desde turno anterior; en Main rival Dragostapelia Extra→MZ; precondición Al turno rival siguiente, Fusión rápida usa Rey del campo + Goblin de mano para Dragostapelia. | **Negativo / resolución fallida:** No hay segunda Fusión previamente colocada o uno de los materiales desapareció; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M01; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
 | `671:A06:M34:P` / `671:A06:M34:N` | M34 / `671:a05:19184:alternative-xyz-highest-atk`, `671:a05:19184:continuous-3000-activation-lock` | **Positivo condicionado**: Rival invocó ≥2 desde Extra en turno actual/anterior; monstruo propio de mayor ATK→material; TY-PHON Extra→MZ, bloquea nuevas Invocaciones propias; precondición S:P como único monstruo propio es el de mayor ATK; sobre ella se superpone TY-PHON **solo tras 2+ monstruos Invocados especialmente desde Extra por rival en turno elegible**. | **Negativo / resolución fallida:** Rival no cumplió condición o no tienes monstruo propio válido; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M02; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
-| `671:A06:M35:P` / `671:A06:M35:N` | M35 / `671:a05:19368:quick-destroy-search-or-special`, `671:a05:9657:xyz-two-level3` | **Positivo condicionado**: Fiesta puede conseguir otra Angbruja desde Deck; se requieren exactamente dos monstruos Nivel3 reales simultáneos en MZ para Aero Extra→MZ; precondición Fiesta trae segunda Angbruja del Deck; Dormiveja se Especial desde mano tras destrucción; **dos Angbruja Nivel 3** forman Aero. | **Negativo / resolución fallida:** No hay otra Angbruja, falta Dormiveja, o se intenta buscar dos veces con Angbruja; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M03; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
+| `671:A06:M35:P` / `671:A06:M35:N` | M35 / `671:a05:19368:quick-destroy-search-or-special`, `671:a05:9657:xyz-two-level3` | **Positivo condicionado**: Fiesta puede conseguir otra Angbruja desde Deck; se requieren exactamente dos monstruos Nivel3 reales simultáneos en MZ para Aero Extra→MZ; precondición Fiesta trae segunda Angbruja del Deck; Dormiveja se Especial desde mano tras destrucción; **dos Angbruja Nivel 3** forman Aero. | **Negativo / resolución fallida:** Falta otra Angbruja del Deck, no existe Memento en mano para destruir o no hay dos Nivel 3 simultáneos; Dormiveja no es requisito; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M03; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
 | `671:A06:M36:P` / `671:A06:M36:N` | M36 / `671:a05:19904:quick-play-fusion`, `671:a05:20389:fusion-two-fiends-or-zombies` | **Positivo condicionado**: Destrucción previa propia habilita material Memento GY; Desvantasma Demonio en MZ + Goblin Demonio en GY→Fusión Duque Extra→MZ; precondición Destrucción de Goblin en posesión habilita barajarlo desde GY como segundo Demonio material para Duque. | **Negativo / resolución fallida:** No se destruyó monstruo propio por efecto ese turno o falta material; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M04; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
 | `671:A06:M37:P` / `671:A06:M37:N` | M37 / `671:a05:13081:xyz-2-level6-fiends` | **Positivo condicionado**: Grabador y Duque ambos Demonio Nivel6 y simultáneamente en MZ; superponer→César Xyz Extra→MZ con materiales reales; precondición Grabador y Duque son dos Demonios de Nivel 6 que cumplen el material de César. | **Negativo / resolución fallida:** Solo Grabador o solo Duque está en Campo, o un material fue consumido; no se cumple el requisito de dos Demonios Nivel 6; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | EX-M04, acceso condicional; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
 | `671:A06:M38:P` / `671:A06:M38:N` | M38 / `671:a05:9279:after-opponent-main-deck-add`, `671:a05:20500:hand-discard-draw-opponent-deck-extra-summons` | **Positivo condicionado**: Droll resuelto impide añadir desde Main Deck, incluidos robos Mulcharmy posteriores; solo afecta tras activación legal de Droll; precondición Droll que ya resolvió impide nuevas **adiciones desde Main Deck**, incluidas las robadas por Multivadoras. | **Negativo / resolución fallida:** Pretender robar mediante Mulcharmy bajo Droll vigente; no ejecutar resultados no acreditados ni devolver costes reales ya pagados. | A08, conflicto; A05.6→A07→A08/A09; `CONDICIONAL_SIN_ESTADO_TIPADO` |
@@ -2862,6 +2862,53 @@ Nodos con fotografías reales por CID y flechas causales. Estas relaciones no so
 
 **Resultado:** correcciones de razonamiento documental, no cierre automático de A06-T4. Faltan estados completos de copia, zona, ventana, cadena y postcondiciones para los 40 pares. No alterar el inventario original.
 
+
+### A06.12 — matriz física de papel (40 pares declarativos)
+
+Cada fila es una pareja de escenarios (`671:A06:Mxx:P/N`) con jugador activo, fase, copias físicas conocidas al inicio, movimientos de coste previo, movimientos al resolver, condición que invalida el escenario negativo y evento necesario. Las fuentes `effect_id` y los CID permanecen en A06.7. Abreviaturas: H mano; D Deck; G Cementerio; M zona monstruos; S M/T; E Extra; B desterrado; X material Xyz; O* oponente. El sufijo `#` distingue dos copias del mismo CID. **Estos datos no afirman posiciones espaciales exactas ni legalidad completa**; se verifican en un modelo tipado, sin ejecutar la calculadora.
+
+~~~text
+M01|self|main1|M:19364,D:19362|-|D:19362>H:19362|drop:D:19362|angwitch_summoned
+M02|self|main1|M:19362,D:19472,D:20199|-|M:19362>G:19362;D:19472>G:19472;D:20199>G:20199|drop:M:19362|main_open
+M03|self|main1|M:19362,D:19366,D:19365,D:19472|-|M:19362>G:19362;D:19366>G:19366;D:19365>G:19365;D:19472>G:19472|drop:M:19362|main_open
+M04|self|main1|D:19472,G:20199|-|D:19472>G:19472;G:19472>M:19472;G:20199>H:20199|drop:D:19472|sent_by_memento_monster
+M05|self|main1|M:19364,G:19366|-|M:19364>G:19364;G:19366>M:19366|drop:G:19366|main_open
+M06|self|main1|M:19365,D:19904|-|M:19365>G:19365;D:19904>H:19904|drop:D:19904|main_open
+M07|self|main1|M:19363,D:19364|-|M:19363>G:19363;D:19364>M:19364|drop:D:19364|main_open
+M08|self|main1|M:19366,D:19904,D:19360|-|M:19366>G:19366;D:19904>G:19904;D:19360>G:19360|drop:M:19366|main_open
+M09|self|main1|G:19904#a,M:19364,D:19904#b|G:19904#a>B:19904#a|M:19364>G:19364;D:19904#b>H:19904#b|drop:G:19904#a|main_open
+M10|self|main1|H:19904,M:19364,M:19362,H:19365,E:20216|-|H:19904>G:19904;M:19364>G:19364;M:19362>G:19362;H:19365>G:19365;E:20216>M:20216|drop:E:20216|legal_fusion_materials
+M11|self|main1|M:20216,D:19360,D:19365,D:19366|-|D:19360>G:19360;D:19365>G:19365;D:19366>G:19366|event:none|creation_king_fusion_summoned
+M12|self|main1|G:19360,G:19364,G:19362,G:19363,G:19365,G:19366|-|G:19364>D:19364;G:19362>D:19362;G:19363>D:19363;G:19365>D:19365;G:19366>D:19366;G:19360>M:19360|drop:G:19366|summon_procedure_five_names
+M13|self|main1|H:19368,M:19366,D:19362|-|H:19368>G:19368;M:19366>G:19366;D:19362>M:19362|drop:M:19366|bone_party_activation
+M14|self|main1|H:19904,M:19364,H:19366,E:19878|-|H:19904>G:19904;M:19364>G:19364;H:19366>G:19366;E:19878>M:19878|drop:E:19878|fusion_two_mementos
+M15|self|main1|M:19878,H:20199,D:19360,D:19366|-|H:20199>G:20199;D:19360>H:19360;D:19366>H:19366|drop:H:20199|twin_dragon_fusion_summoned
+M16|self|main1|G:20199,D:19365|-|D:19365>G:19365|event:none|sleepy_destroyed
+M17|self|main1|M:19878,H:19366,D:19360|-|H:19366>G:19366;D:19360>H:19360|drop:D:19360|twin_dragon_fusion_summoned
+M18|self|main1|M:19360,H:19366|H:19366>G:19366|-|drop:M:19360|boss_controls_field
+M19|self|main1|H:19904,H:19366,M:19364,M:19362,E:16845,OM:o1,OS:o2|-|H:19904>G:19904;H:19366>G:19366;M:19364>G:19364;M:19362>G:19362;E:16845>M:16845;OM:o1>OG:o1;OS:o2>OG:o2|drop:H:19366|chimera_fusion_spell
+M20|self|main1|M:19364,M:19362,E:19188,OM:o1|-|M:19364>G:19364;M:19362>G:19362;E:19188>M:19188;M:19188>B:19188;OM:o1>OB:o1|event:none|opponent_activation_after_link
+M21|self|main1|M:19364,M:19362,E:19932,E:20225|-|M:19364>G:19364;M:19362>G:19362;E:19932>M:19932;M:19932>G:19932;E:20225>M:20225|drop:M:19362|two_effect_monsters
+M22|self|main1|M:20225,D:20196,OM:o1|M:20225>G:20225|D:20196>M:20196;G:20225>S:20225;S:20225>G:20225;OM:o1>OG:o1|drop:D:20196|requiem_special_then_equip
+M23|self|main1|H:20533,M:19364,D:19366|M:19364>G:19364|H:20533>G:20533;D:19366>M:19366|drop:M:19364|tribute_goblin
+M24|self|start_main1|H:9139|-|H:9139>G:9139|phase:main2|heat_wave_opening
+M25|self|main1|M:20196,S:20225,H:19366,E:20423|-|M:20196>G:20196;S:20225>G:20225;H:19366>G:19366;E:20423>M:20423|drop:S:20225|necroquip_material_procedure
+M26|self|main1|H:19368,H:19366,D:19472,G:19364|-|H:19368>G:19368;H:19366>G:19366;D:19472>M:19472;G:19364>H:19364|drop:D:19472|bone_party_then_ghost
+M27|self|main1|M:20196,M:19472,E:20226|-|M:20196>G:20196;M:19472>G:19472;E:20226>M:20226|drop:M:20196|link_with_light_fiend
+M28|self|main1|M:20226,G:20196,G:19366,E:20389|-|G:20196>D:20196;G:19366>D:19366;E:20389>M:20389|drop:G:20196|sequence_gy_fusion
+M29|self|main1|M:20389,H:19364|-|H:19364>M:19364|drop:H:19364|duke_immediate_normal
+M30|self|main1|H:20533,M:19364,D:19366|M:19364>G:19364|H:20533>G:20533;D:19366>M:19366|drop:D:19366|goblin_biker_tribute
+M31|self|main1|H:19361,G:19364,G:19362,G:19366|-|H:19361>M:19361|drop:G:19366|three_memento_names_in_gy
+M32|self|main1|H:19368,M:19361,M:19364,D:19363,OM:o1,OS:o2|-|H:19368>G:19368;M:19361>G:19361;D:19363>M:19363;M:19364>G:19364;OM:o1>OG:o1;OS:o2>OG:o2|drop:OM:o1|horn_destruction_three_faceup
+M33|opponent|main1|S:19904,M:20216,H:19366,E:12870|-|S:19904>G:19904;M:20216>G:20216;H:19366>G:19366;E:12870>M:12870|drop:S:19904|set_from_prior_turn
+M34|self|main1|M:19188,E:19184|-|M:19188>X:19188;E:19184>M:19184|event:none|opponent_two_extra_summons
+M35|self|main1|H:19368,H:19366,M:19364#a,D:19364#b,E:9657|-|H:19368>G:19368;H:19366>G:19366;D:19364#b>M:19364#b;M:19364#a>X:19364#a;M:19364#b>X:19364#b;E:9657>M:9657|drop:D:19364#b|two_level3_for_xyz
+M36|self|main1|H:19904,M:19472,G:19366,E:20389|-|H:19904>G:19904;M:19472>G:19472;G:19366>D:19366;E:20389>M:20389|event:none|own_monster_destroyed_this_turn
+M37|self|main1|M:20196,M:20389,E:13081|-|M:20196>X:20196;M:20389>X:20389;E:13081>M:13081|drop:M:20196|two_level6_fiends
+M38|opponent|main1|H:9279,G:20500|H:9279>G:9279|-|event:none|opponent_added_from_main
+M39|opponent|main1|H:11243,S:13619,OG:o1|H:11243>G:11243|-|drop:H:11243|sideboarded_lancea_opponent_turn
+M40|self|start_main1|H:21203,H:19364,OM:o1|-|H:21203>G:21203;H:19364>B:19364;OM:o1>OH:o1|phase:battle|sideboarded_gordian_targets
+~~~
 
 ## APARTADO_07 — Reglas, ventanas, materiales y cadenas
 
