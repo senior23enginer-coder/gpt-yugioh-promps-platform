@@ -117,8 +117,10 @@ function run({deckId,packagePath,documentPath}){
    (_,i)=>id+'-T'+(i+1)));
  const closed=[...ledger.matchAll(/^- \[x\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)]
    .map(m=>m[1]);
- assert.deepEqual(closed,expected,'A04_MUST_CLOSE_ONLY_T1_T2_T3');
- assert(ledger.includes('12/35')&&ledger.includes('23/35'),'PROGRESS_NOT_CONSISTENT');
+ assert.deepEqual(closed.slice(0,expected.length),expected,'A04_MUST_REMAIN_CERTIFIED');
+ assert(closed.length>=12&&closed.length<=35,'INVALID_PROGRESS_COUNT');
+ assert(ledger.includes(closed.length+'/35')&&
+   ledger.includes((35-closed.length)+'/35'),'PROGRESS_NOT_CONSISTENT');
  return {ok:true,deck_id:deckId,photos:seen.size,minWidth,minHeight,
    jpgs,pngs,nativeSlots:zone.nativeSlots,physical:zone.counts,
    guideReferences:guideRefs.length,guideVisibleCIDs:ids.size,
