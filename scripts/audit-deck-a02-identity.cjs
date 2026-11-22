@@ -84,6 +84,23 @@ function inspect(args){
  for(const route of record.routes)assert(Array.isArray(route.steps)&&route.steps.length>0,
   'ROUTE_WITHOUT_STEPS');
  const md=fs.readFileSync(fullDoc,'utf8');
+ const ledgerBegin=md.indexOf('## CONTROL_DE_TAREAS_A01_A10 —');
+ const ledgerEnd=md.indexOf('\n---\n',ledgerBegin);
+ assert(ledgerBegin>=0&&ledgerEnd>ledgerBegin,'MISSING_CANONICAL_LEDGER');
+ const ledger=md.slice(ledgerBegin,ledgerEnd);
+ const manifest=JSON.parse(fs.readFileSync(path.join(ROOT,
+   '02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'));
+ const taskIds=manifest.stages.filter(x=>x.mandatory)
+   .flatMap(stage=>stage.tasks.map(t=>t.task_id));
+ const entries=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
+ assert.equal(entries.length,35,'MISSING_LEDGER_TASKS');
+ assert.deepEqual(entries.map(x=>x[2]),taskIds,'TASK_ORDER_DRIFT');
+ const completed=entries.filter(x=>x[1]==='x').map(x=>x[2]);
+ for(const id of ['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3'])
+   assert(completed.includes(id),'A02_NOT_CLOSED_'+id);
+ assert(ledger.includes('6/35')&&ledger.includes('29/35'),'A02_PROGRESS_NOT_RECONCILED');
+ assert(md.includes('### A02.4 — identidad técnica, procedencia'),
+   'MISSING_A02_TECHNICAL_ACT');
  for(const token of ['CONTROL_DE_TAREAS_A01_A10','## IDENTIDAD BÁSICA',
    '## APARTADO_01','## APARTADO_02']){
   assert(md.includes(token),'MISSING_CANONICAL_MD_'+token);
