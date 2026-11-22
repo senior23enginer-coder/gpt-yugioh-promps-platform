@@ -16,6 +16,30 @@ on:
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
       - 'scripts/analysis-eligibility*.cjs'
+      - 'scripts/audit-deck-images.cjs'
+      - 'scripts/audit-deck-visual-zone-links.cjs'
+      - 'scripts/audit-deck-card-profiles.cjs'
+      - 'scripts/audit-deck-effect-sources.cjs'
+      - 'scripts/audit-deck-official-source-text.cjs'
+      - 'scripts/compare-deck-cardtext-sources.cjs'
+      - 'scripts/audit-deck-documental-effects.cjs'
+      - 'scripts/audit-deck-causal-coverage.cjs'
+      - 'scripts/audit-deck-paper-model.cjs'
+      - 'scripts/audit-deck-a06-synergies.cjs'
+      - 'scripts/audit-deck-a06-physical-paper.cjs'
+      - 'scripts/audit-deck-a07-typed-rules.cjs'
+      - 'scripts/audit-deck-a05-semantic-psct.cjs'
+      - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a07-paper-cases.cjs'
+      - 'scripts/audit-deck-a07-format-legality.cjs'
+      - 'scripts/audit-deck-a07-state-matrix.cjs'
+      - 'scripts/audit-deck-a08-strategies.cjs'
+      - 'scripts/audit-deck-a09-route-states.cjs'
+      - 'scripts/audit-deck-a10a-visual-parity.cjs'
+      - 'scripts/test-deck-a10a-browser.cjs'
+      - 'scripts/test-deck-a10a-import-contract.php'
+      - 'scripts/test-deck-a10a-import-roundtrip.php'
+      - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   push:
@@ -33,6 +57,30 @@ on:
       - 'scripts/fixtures/stationx-paper-case.synthetic.json'
       - '02_PROMPT_PARA_CODEX/contrato_casos_logicos.schema.json'
       - 'scripts/analysis-eligibility*.cjs'
+      - 'scripts/audit-deck-images.cjs'
+      - 'scripts/audit-deck-visual-zone-links.cjs'
+      - 'scripts/audit-deck-card-profiles.cjs'
+      - 'scripts/audit-deck-effect-sources.cjs'
+      - 'scripts/audit-deck-official-source-text.cjs'
+      - 'scripts/compare-deck-cardtext-sources.cjs'
+      - 'scripts/audit-deck-documental-effects.cjs'
+      - 'scripts/audit-deck-causal-coverage.cjs'
+      - 'scripts/audit-deck-paper-model.cjs'
+      - 'scripts/audit-deck-a06-synergies.cjs'
+      - 'scripts/audit-deck-a06-physical-paper.cjs'
+      - 'scripts/audit-deck-a07-typed-rules.cjs'
+      - 'scripts/audit-deck-a05-semantic-psct.cjs'
+      - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a07-paper-cases.cjs'
+      - 'scripts/audit-deck-a07-format-legality.cjs'
+      - 'scripts/audit-deck-a07-state-matrix.cjs'
+      - 'scripts/audit-deck-a08-strategies.cjs'
+      - 'scripts/audit-deck-a09-route-states.cjs'
+      - 'scripts/audit-deck-a10a-visual-parity.cjs'
+      - 'scripts/test-deck-a10a-browser.cjs'
+      - 'scripts/test-deck-a10a-import-contract.php'
+      - 'scripts/test-deck-a10a-import-roundtrip.php'
+      - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
@@ -62,5 +110,127 @@ jobs:
         run: node scripts/test-p06-golden-route-contract.cjs
       - name: Audit 40 protected legacy assertions and recorded source provenance
         run: node scripts/test-p06-legacy-assertion-inventory.cjs
+      - name: Audit real image dimensions for explicitly assigned Memento 671
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Verify Memento 671 HD photos, 39 identities, 69 route steps and shared zone map
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-visual-zone-links.cjs --deck-id=671 --user-assigned --expected=39,12,69,198,13 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Verify Memento A05-T1 official card sources, complete profiles and HD pictures
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-card-profiles.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Verify 39 official Konami card-text source blocks for assigned Memento
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-official-source-text.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Audit effect source metadata for explicitly assigned Memento 671 (no A10B)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-effect-sources.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Cross-check Konami and Konami-ID-matched secondary text for 39 Memento cards
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/compare-deck-cardtext-sources.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+      - name: Verify the 94 attributed A05 effect/procedure clauses for selected Memento
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-documental-effects.cjs --deck-id=671 --user-assigned --expected-clauses=94 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit assigned Memento A05 semantic/paper coverage without false certification
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-causal-coverage.cjs --deck-id=671 --user-assigned --expected-clauses=94 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Build conditional typed paper suite for assigned Memento (A05 no calculator)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-paper-model.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit physical identity, A05 citations, 40 relations and A06 paper pairs (assigned Memento)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a06-synergies.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Validate 80 typed A06 paper states and physical copy conservation (selected Memento)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a06-physical-paper.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Verify all 94 A07 effects with exact CID, chain/cost/source and A05 pairs (Memento only)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-typed-rules.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Cross-check A05-T4 paper pairs and report independent certification gap
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a05-paper-evidence.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Independently audit Memento A05-T3 PSCT modes costs targets and source-specific semantics
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a05-semantic-psct.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Verify 658 A07 paper case categories, 94 operator needs and five genuine inventory exclusions
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-paper-cases.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Check the 2026-10-19 TCG Advanced Forbidden and Limited snapshot (assigned Memento)
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-format-legality.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit 658 typed A07 paper state contracts without executing calculator
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a07-state-matrix.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit 34 Memento A08 decisions, physical cards, 16 decision cases and five side swaps
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a08-strategies.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit twelve assigned Memento A09 routes, sixty-nine steps and exact endboard resources
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a09-route-states.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md
+      - name: Audit Memento A10A visual guide and import parity without calculator
+        if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
+        run: node scripts/audit-deck-a10a-visual-parity.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/guias/GUIA_VISUAL_A01_A10.html
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
+
+  memento-a10a-browser:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Checkout actual Station X frontend source for isolated import UI browser test
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Install isolated Chromium browser test dependency
+        run: npm install --no-save --no-package-lock playwright@1.46.1
+      - name: Install Chromium for local-only desktop/mobile smoke
+        run: npx playwright install --with-deps chromium
+      - name: Verify 12 Memento A10A routes, navigation and interruptions in both viewports
+        run: node scripts/test-deck-a10a-browser.cjs 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO
+      - name: Verify Station X import dialog preview, commit and reload on desktop/mobile
+        run: node scripts/test-deck-a10a-import-ui.cjs
+
+  memento-a10a-php-import-preflight:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read Platform importer PHP from its existing base branch (no modifications)
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Verify read-only native PHP inventory preflight for Memento import package
+        run: php scripts/test-deck-a10a-import-contract.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
+
+  memento-a10a-native-roundtrip:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout native Station X importer and historical Memento V40 in read-only workspace
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Prepare PHP with ZIP and mbstring
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: zip, mbstring
+          coverage: none
+      - name: Import ZIP, publish, reload and audit isolated Memento record using native PHP code
+        run: php scripts/test-deck-a10a-import-roundtrip.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json
