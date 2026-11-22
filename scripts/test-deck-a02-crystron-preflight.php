@@ -18,9 +18,9 @@ $folder=basename($folderPath);
 $pkg=json_decode((string)file_get_contents($folderPath.'/datos/stationx-deck.json'),true,128,JSON_THROW_ON_ERROR);
 $historic=json_decode((string)file_get_contents($historicPath),true,128,JSON_THROW_ON_ERROR);
 function a02_need(bool $condition,string $code):void{if(!$condition)throw new RuntimeException($code);}
-need(($pkg['deck_id']??null)===677 && ($pkg['record']['deck_id']??null)===677,'DECK_MISMATCH');
-need(($pkg['inventory_binding']??null)==='deck-slots-v1' && ($pkg['content_mode']??null)==='structured','NOT_STRUCTURED_PORTABLE');
-need(($historic['deck_id']??null)===677 && ($historic['format']??null)==='tcg_advanced','WRONG_HISTORICAL_SOURCE');
+a02_need(($pkg['deck_id']??null)===677 && ($pkg['record']['deck_id']??null)===677,'DECK_MISMATCH');
+a02_need(($pkg['inventory_binding']??null)==='deck-slots-v1' && ($pkg['content_mode']??null)==='structured','NOT_STRUCTURED_PORTABLE');
+a02_need(($historic['deck_id']??null)===677 && ($historic['format']??null)==='tcg_advanced','WRONG_HISTORICAL_SOURCE');
 $canonical=static function(array $cards):array{
  $rows=[];
  foreach($cards as $c)foreach(($c['slots']??[]) as $slot)
@@ -29,9 +29,9 @@ $canonical=static function(array $cards):array{
  return $rows;
 };
 $originalRows=$canonical($historic['cards']);
-need(count($originalRows)===40 && count($historic['cards'])===39,'HISTORICAL_INVENTORY_INVALID');
-need($originalRows===$canonical($pkg['record']['cards']),'CHANGED_PHYSICAL_SLOTS');
-need(array_column($historic['routes'],'id')===array_column($pkg['record']['routes'],'id'),
+a02_need(count($originalRows)===40 && count($historic['cards'])===39,'HISTORICAL_INVENTORY_INVALID');
+a02_need($originalRows===$canonical($pkg['record']['cards']),'CHANGED_PHYSICAL_SLOTS');
+a02_need(array_column($historic['routes'],'id')===array_column($pkg['record']['routes'],'id'),
  'CHANGED_HISTORICAL_ROUTE_IDS');
 $inventory=[
  'deck'=>['id'=>677,'name'=>'Crystron'],
@@ -46,7 +46,7 @@ $accept=static function(array $candidate,array $native,string $root):bool{
  try {ygo_data_validate_portable_inventory($candidate,$native,$root,null);return true;}
  catch(InvalidArgumentException $e){return false;}
 };
-need($accept($pkg,$inventory,$folder),'NATIVE_PORTABLE_GATE_REJECTED_VALID_DECK');
+a02_need($accept($pkg,$inventory,$folder),'NATIVE_PORTABLE_GATE_REJECTED_VALID_DECK');
 $negative=[];
 $reject=static function(string $name,array $candidate,array $native,string $root)use(&$negative,$accept):void{
  a02_need(!$accept($candidate,$native,$root),'UNSAFE_ACCEPTED_'+$name);$negative[]=$name;
