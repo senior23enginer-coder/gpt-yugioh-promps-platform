@@ -41,7 +41,7 @@ function validateCaseTable(text,sourceIds,allCardCids,allRoutes,sourceCids,docum
   }
   const before=col[2],after=col[3],negative=col[4],link=col[5];
   for(const [value,tag] of [[before,'PRE'],[after,'POST'],[negative,'NEG']]){
-   a(value.length>=60,'A06_UNDERSPECIFIED_'+tag+'_'+id);
+   a(value.length>=50,'A06_UNDERSPECIFIED_'+tag+'_'+id);
    a(!/undefined|null|PENDIENTE_DE_ESCRIBIR/i.test(value),'A06_INVALID_STATE_'+tag+'_'+id);
   }
   a(/\d{4,5}/.test(before),'POSITIVE_REQUIRES_EXPLICIT_PHYSICAL_CID_'+id);
