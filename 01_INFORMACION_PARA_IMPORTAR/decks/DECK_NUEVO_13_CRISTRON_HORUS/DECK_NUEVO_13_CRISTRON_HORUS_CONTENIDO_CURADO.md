@@ -17,21 +17,21 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario solicitó comenzar por **A01**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó **A01** y luego **A02**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **3/35 tareas acreditadas dentro del alcance A01; 32/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **6/35 tareas acreditadas en A01+A02; 29/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
 ### A01 — auditado A01
-- [x] **A01-T1** Identificar arquetipo, estrategia, condición de victoria y riesgos propios, con CIDs de piezas y evidencia oficial; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
-- [x] **A01-T2** Escribir Estilo breve y Resumen para ficha sin jerga de auditoría, con precondiciones reales de las acciones citadas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
-- [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría CI pendiente de este PR.
+- [x] **A01-T1** Identificar arquetipo, estrategia, condición de victoria y riesgos propios, con CIDs de piezas y evidencia oficial; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría específica verificada en PR #25.
+- [x] **A01-T2** Escribir Estilo breve y Resumen para ficha sin jerga de auditoría, con precondiciones reales de las acciones citadas; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría específica verificada en PR #25.
+- [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría específica verificada en PR #25.
 
-### A02 — pendiente de auditoría del contrato vigente
-- [ ] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
-- [ ] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+### A02 — identidad e importación documental auditadas
+- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado — evidencia A02.4 / 39 CID, 40 filas nativas, inventario 40/15/15/0 aprobado; comparación con fuente V40; auditor read-only `audit-deck-a02-identity.cjs`.
+- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas.
+- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks.
 
 ### A03 — pendiente de auditoría del contrato vigente
 - [ ] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea:** A02-T1 cuando el usuario la asigne. No anticipar A02 ni promocionar otros 32 checks.
+**Siguiente tarea:** A03-T1 cuando el usuario la asigne. No anticipar A03 ni promocionar los otros 29 checks.
 
 ---
 
@@ -204,6 +204,24 @@ Los CID de esta matriz se cotejaron con las **39 identidades físicas** de `reco
 | **Medio/tardío; reconstruir tras negación** | Sarcófago y Horus que estén efectivamente en GY; o Inclusión/Elesqueletus para recuperación Cristron | Tras Droll a C07 (**H20**), Sarcófago puede permanecer, pero Smiger no añade Inclusión; no repetir la búsqueda | Sin Xyz desde monstruos ya acoplados; sin segunda copia de una carta única del Deck; confirmar si hay Normal y qué efectos ya se gastaron |
 
 **Control de las 24 manos:** H01–H12 ilustran aperturas e interrupciones; H13–H20 verifican desvíos y ausencia de recursos; H21–H24 fijan **cinco cartas reales**, incluidas piezas únicas ya robadas y copias desplazadas fuera del Deck. Su función es comprobar la coherencia de las decisiones, **no** medir probabilidad de victoria ni certificar una secuencia en simulador. Los porcentajes A02.2 solo describen **coincidencias de cartas** bajo extracción aleatoria sin reemplazo; no se suman entre sí ni se aplican como porcentaje de combo exitoso.
+
+### A02.4 — identidad técnica, procedencia y compatibilidad ZIP (22-11-2026)
+
+**Alcance:** esta acta corresponde al A02 del **único deck seleccionado 677**, no al A02 histórico de planes A02.1–A02.3. Es un **deck existente** con inventario aprobado el 18-11-2026, no un alta nueva. El nombre de carpeta histórico **`DECK_NUEVO_13_CRISTRON_HORUS`** no modifica su identidad nativa `677`, nombre visible `Crystron` ni formato literal `tcg_advanced`. No se declara lectura de la base de datos en producción. La referencia de cotejo es el archivo versionado histórico de Platform.
+
+| Contrato A02 | Evidencia verificable | Condición / rechazo |
+|---|---|---|
+| Identidad y formato | `deck_id=677`, `record.deck_id=677`, `record.format=tcg_advanced`, `inventory_binding=deck-slots-v1`, `content_mode=structured` | No aceptar `rush_duel`, `goat`, otro ID o carpeta |
+| Inventario físico | 39 CID únicos en `record.cards`; **40 filas de card_id** originales incluyendo Purulia en Main+Side; **40 Main / 15 Extra / 15 Side / 0 Reserva** = 70 copias; 0 Skills | Concordancia exacta entre `inventory`, `record.cards[].slots` y la fuente V40; no rellenar Side ni duplicar copias |
+| Identidad visual y documental | `DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md`, `datos/stationx-deck.json`, `guias/GUIA_VISUAL_A01_A10.html` y 39 imágenes `CID.jpg/png` en una sola carpeta | Rechazar archivos faltantes, otras carpetas o fotos sin referencia física |
+| Importación estructurada | `station-x-deck-package/1` envuelve `record.schema=station-x-curated-v62`; `source_document` apunta al MD original; clasificación: **ESTRUCTURADA_IMPORTABLE** en contrato y preparación aislada | Se conservan las 14 rutas C01–C07/V01–V07 y sus **60 pasos**; el MD es fuente complementaria, no sustituto de `record` |
+| Proveniencia | <https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json> · blob Git `1c23d72192199d9324a4b55dd1ced3d0bdd43997` registrado en `provenance.native_snapshot_blob_sha` | Se comprueba paridad de filas/ID/formatos/rutas con esa instantánea; no implica afirmar el estado vivo de Station X |
+| Huella de inventario | No existe `inventory_sha256` inventado en el paquete portátil; el importador comparará su propia firma auténtica si corresponde | Si cambia la lista viva o formato de Station X, **fallo cerrado**; exportar de nuevo desde la aplicación antes de reemplazarla |
+| Reglas de calculadora | Se retienen las 13 variantes originales en `record.calculator.rules`; IDs existentes sin crear nuevas reglas | No interpretar disponibilidad de regla como eficacia, legalidad de duelo ni ejecución A10B |
+
+**Pruebas de aceptación automatizadas:** `scripts/audit-deck-a02-identity.cjs` compara el paquete contra inventario V40, nombres, `card_id`, CID, zonas, rutas, fotos y los archivos esenciales, sin tocar ningún deck ajeno; `scripts/test-deck-a02-crystron-preflight.php` utiliza en **solo lectura** el importador nativo `ygo_data_validate_portable_inventory` y `ygo_data_prepare` con un ZIP efímero de **42 archivos** (3 obligatorios + 39 imágenes) y **13 escenarios inválidos** para confirmar rechazo de desajustes. El test **prepara** el registro en un directorio temporal, no lo publica, no importa a producción y no prueba el motor.
+
+**Criterio de cierre del A02 técnico (T1–T3):** identidad, procedencia, paridad documental, ZIP válido y fallos de importación controlados. La inspección de actualización real de una cuenta Station X, navegación gráfica y persistencia autenticada corresponde a A10A; la certificación funcional de reglas a A10B opcional. La aprobación del inventario no autoriza sustituir ninguna carta ni modificar sus cantidades.
 
 **Criterio de cierre A02:** están diferenciados los planes **primero**, **segundo**, **respuesta en turno rival** y **recuperación a medio/tardío**, con acceso, alternativa y límite explícitos. A02 queda **`COMPLETA` en alcance documental** sin requerir partidas o calculadora. La legalidad fina de acciones pertenece a A07/A09, el Side 1:1 a A08 y la experiencia visual a A10. **Siguiente apartado: A03**, cuya aprobación editorial no se presupone.
 
