@@ -87,7 +87,7 @@ function run(pkgPath,mdPath,histPath){
   .filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(statuses.map(m=>m[2]),expected);
  A.deepEqual(statuses.filter(m=>m[1]==='x').map(m=>m[2]).slice(0,16),expected.slice(0,16));
- A(ledger.includes('20/35')&&ledger.includes('15/35'),'A04_PROGRESS_DRIFT');
+ A(ledger.includes('24/35')&&ledger.includes('11/35'),'A04_PROGRESS_DRIFT');
  const section=md.slice(md.indexOf('## APARTADO_04 —'));
  for(const token of ['FOTO_OK_MINIATURA','FOTO_HD_NO_CERTIFICADA','FOTO_PENDIENTE=0',
   'NO_VERIFICADO_ESPACIAL','xyz_materials','graveyard','banished','A04-T1 [x]','A04-T2 [x]','A04-T3 [x]'])

@@ -39,7 +39,7 @@ assert.equal(structure.inventory.length,44);
 assert.equal(structure.record.routes.length,16);
 const doc=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'),'utf8');
 for(const task of ['A01-T1','A01-T2','A01-T3'])assert(doc.includes('- [x] **'+task),'A01_NOT_CERTIFIED_'+task);
-assert(doc.includes('20/35')&&doc.includes('15/35'),'A01_A02_A03_PROGRESS_WRONG');
+assert(doc.includes('24/35')&&doc.includes('11/35'),'A01_A02_A03_PROGRESS_WRONG');
 const report=fs.readFileSync(path.join(root,'03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'),'utf8');
 assert(report.includes('EXCEPCION_A01_AUTORIZADA')&&report.includes('COMPLETA 3/3'),'OLD_BLOCKING_REPORT_NOT_RECONCILED');
 assert(report.includes('No evaluar banlist si no se pidió'),'USER_OUT_OF_SCOPE_RULE_MISSING');
@@ -48,6 +48,9 @@ assert(a01.includes('la banlist (lista de cartas prohibidas/limitadas y límites
 const a06=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A06',authorizedSideOmissionForA06:true});
 assert(a06.eligible&&a06.a06SideWaiverApplied,'USER_ASSIGNED_A06');
 assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA06:true}).eligible,'NO_WAIVER_LEAK_A07');
+const a07=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA07:true});
+assert(a07.eligible&&a07.a07SideWaiverApplied,'A07_SCOPED_AUTH');
+assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA07:true}).eligible,'A07_NOT_INHERITED');
 console.log(JSON.stringify({
   ok:true,deck_id:665,gate:'A01_EXPLICIT_SIDE_WAIVER',defaultEligible:false,a01Eligible:true,
   inventory:tested.counts,cardIdentities:38,nativePackageCreated:true,
