@@ -28,6 +28,104 @@
 | A09 Combos | 5 RUTAS + 3 VARIANTES | Pasos y recursos explícitos | 0 simulaciones / 0 replays |
 | A10 Guías visuales | GUÍAS VISUALES V37 | Guía HTML local y 39/39 fotos disponibles | Combos y cadenas pendientes de contrastar en simulador |
 
+## A01 — Verificación vigente de inventario y propósitos (673; 23-11-2026)
+
+**Asignación:** Salamangreat · TCG Advanced · Main 40, Extra 15, Side 15. **Fuente:** A03 y matriz A06.2 original con 39/39 CIDs y cantidades contrastados; no se cambian listas ni se consideran banlists.
+
+### A01-T1 — Arquetipo, motores, fases y riesgo
+
+- **Clasificación estratégica:** Combo-Control de Enlace, recuperación y reencarnación con Santuario.; arquetipo Salamangreat / Salamangrande (Cyberse/FUEGO).
+- **Motor principal y condición de victoria:** Gacela / de Fuego → Lincefogata → Santuario → reencarnación de Enlace, con recuperación de Jaguar/Lobo y rutas Link4 condicionales. La victoria depende de convertir recursos y presión legal en daño/control; no se asume OTK ni campo final.
+- **Plan primero, segundo y juego largo:** Primero: alcanzar Gacela o de Fuego, pasar por Lincefogata y buscar Santuario; preparar Lobo y Rugido solo con recursos reales. Segundo: medir negaciones rivales, respetar el bloqueo FUEGO de de Fuego y elegir la vía Link que corresponda al estado. Medio/tardío: reciclar Jaguar/Gacela, practicar reencarnación con un monstruo del mismo nombre y revisar que Quimera Violeta tenga habilitador válido de Fusión.
+- **Bloqueos y riesgos:** No usar Fénix Furioso como si buscara sin otro ejemplar; comprobar bloqueos FUEGO, zonas señaladas y acceso real a la Fusión. La carta, el coste, la ventana y el objetivo deben comprobarse en su ficha antes de trasladarse a A05/A07/A09.
+
+### A01-T2 — Perfil redactado, pendiente JSON canónico
+
+- **Arquetipo:** Salamangreat / Salamangrande (Cyberse/FUEGO).
+- **Tipo de estrategia:** Combo-Control de Enlace, recuperación y reencarnación con Santuario.
+- **Estilo breve:** Desarrolla Gacela y de Fuego hasta Links Salamangrande; Santuario permite reencarnar, Lobo recicla recursos y las opciones Link 4 dependen de materiales y ventanas.
+- **Resumen para ficha:** Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos.
+- **Cómo se juega:** Primero: alcanzar Gacela o de Fuego, pasar por Lincefogata y buscar Santuario; preparar Lobo y Rugido solo con recursos reales. Segundo: medir negaciones rivales, respetar el bloqueo FUEGO de de Fuego y elegir la vía Link que corresponda al estado. Medio/tardío: reciclar Jaguar/Gacela, practicar reencarnación con un monstruo del mismo nombre y revisar que Quimera Violeta tenga habilitador válido de Fusión.
+- **Qué vigilar:** de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.
+
+Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad literal con `record.profile` y una firma nativa válida.
+
+### A01-T3 — Matriz individual ya existente (A06.2)
+
+**Verificados documentalmente:** 39 CIDs distintos, ubicaciones, cantidades, propósito de carta, condiciones y advertencias en `A06.2 — Matriz canónica individual A05 → A06 → A08/A09` de este mismo documento. La tabla original se conserva como fuente única, sin duplicarla ni crear otra versión. **Conteos:** Main 40, Extra 15, Side 15. Los enlaces A09 allí son candidatos, nunca combos certificados. Cuando no haya `effect_id`/ruta comprobada, el enlace sigue `PENDIENTE_DE_ENLACE_A05_A09` y no se inventa.
+
+### A01-T4 y T5 — Pendientes
+
+- **T4:** contrastar el perfil con `datos/stationx-deck.json`, el inventario y la huella nativa para poder publicar `a01_profile_contract`; paquete estructurado actual no acreditado para esta revisión.
+- **T5:** ejecutar importación y reexportación reales en Station X, verificar render, rechazo de identidad/huella y conservación de fotos/rutas. La importación V40 histórica no acredita T5.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Estado:** A01-T1/T3 documentadas; A01-T2/T4/T5 bloqueadas a la espera de ZIP nativo y aceptación importable. No actualizar el estado histórico de A02–A10A; A10B no solicitado.
+
+### A01
+- [x] **A01-T1** — Evidencia en diagnóstico y matriz A06.2 de este deck.
+- [ ] **A01-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A01-T3** — Evidencia en diagnóstico y matriz A06.2 de este deck.
+- [ ] **A01-T4** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A02
+- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A03
+- [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A03-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A03-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A04
+- [ ] **A04-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A04-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A04-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A05
+- [ ] **A05-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A06
+- [ ] **A06-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A07
+- [ ] **A07-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A08
+- [ ] **A08-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A09
+- [ ] **A09-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A10A
+- [ ] **A10A-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10A-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10A-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A10B (opt-in no solicitado)
+- [ ] **A10B-T4** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10B-T5** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10B-T6** — Sin evidencia de certificación completa con el contrato vigente.
+
+---
 ## A01 — Identidad, ventajas, debilidades y condiciones de victoria
 
 **Estilo:** deck de FUEGO/Cyberse con **encadenamientos de material Link**, reciclaje de recursos, invocación «de reencarnación» mediante **Santuario Salamangrande** y finales con **Lobo de la Luz Solar, Fénix Furioso, Piro Fénix y Rugido Salamangrande**. La búsqueda/ventaja de Gacela y los Level3 habilitan **Espejismetal**. No depende de incorporar cartas que no estén en el inventario.
