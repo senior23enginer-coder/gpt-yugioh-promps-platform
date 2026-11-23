@@ -41,6 +41,16 @@ a01MissingSide.record.cards[0].slots=a01MissingSide.record.cards[0].slots.filter
 const explicitA01=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A01',authorizedSideOmissionForA01:true});
 assert(explicitA01.eligible&&explicitA01.a01SideWaiverApplied&&explicitA01.counts.side===0,'Explicit A01 exception preserves Side=0');
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A02',authorizedSideOmissionForA01:true}).eligible,'Never waive A02 Side');
+const explicitA02=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A02',authorizedSideOmissionForA02:true});
+assert(explicitA02.eligible&&explicitA02.a02SideWaiverApplied&&explicitA02.counts.side===0,'Explicit A02-only exception preserves Side=0');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,
+ stageId:'A02',authorizedSideOmissionForA02:true}).eligible,'A02 still requires assignment');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A03',authorizedSideOmissionForA02:true}).eligible,'Never waive A03');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A02'}).eligible,'A02 default gate requires Side');
+
 assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,stageId:'A01',authorizedSideOmissionForA01:true}).eligible,'Never waive assignment');
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A01'}).eligible,'Never waive by default');
 const a01MissingMain=make();
