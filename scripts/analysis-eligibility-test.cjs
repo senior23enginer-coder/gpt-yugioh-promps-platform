@@ -53,6 +53,16 @@ const explicitA03=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a0
 assert(explicitA03.eligible&&explicitA03.a03SideWaiverApplied&&explicitA03.counts.side===0,'A03 scoped exception must preserve Side 0');
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
  stageId:'A04',authorizedSideOmissionForA03:true}).eligible,'No A04 admission from A03');
+const explicitA04=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A04',authorizedSideOmissionForA04:true});
+assert(explicitA04.eligible&&explicitA04.a04SideWaiverApplied&&explicitA04.counts.side===0,'Explicit A04 permission keeps Side empty');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A05',authorizedSideOmissionForA04:true}).eligible,'A05 is not admitted by A04 authorization');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A04'}).eligible,'A04 default still requires Side');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,
+ stageId:'A04',authorizedSideOmissionForA04:true}).eligible,'A04 still requires explicit deck selection');
+
 assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,
  stageId:'A03',authorizedSideOmissionForA03:true}).eligible,'No unassigned deck A03');
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
