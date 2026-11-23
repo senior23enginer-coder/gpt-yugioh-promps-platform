@@ -36,7 +36,7 @@ function run({deckId,packagePath,documentPath}){
  assert.equal(zone.illustrativeBoards,15);
  assert.equal(zone.zoneMapEntries,60);
  assert.equal(zone.spatiallyCertifiedBoards,0);
- assert.equal(zone.htmlImageReferences,77,'HTML_IMAGE_TAG_COUNT_DRIFT');
+ assert(zone.htmlImageReferences>=77,'MISSING_A04_BASE_GUIDE_IMAGES');
  const byCid=new Map(pkg.record.cards.map(c=>[c.cid,c]));
  const seen=new Set();
  let minWidth=Number.POSITIVE_INFINITY,minHeight=Number.POSITIVE_INFINITY;
@@ -78,10 +78,10 @@ function run({deckId,packagePath,documentPath}){
     'KONAMI_RULES_SOURCE_MISSING_'+item.cid);
  }
  assert.equal(seen.size,39);assert.equal(jpgs,20);assert.equal(pngs,19);
- // The guide contains hyperlinks as well as <img> tags; both must resolve.
+ // The guide contains hyperlinks as well as <img> tags; A10A expands images per step and endboard. Both must resolve.
  const html=fs.readFileSync(path.join(folder,'guias/GUIA_VISUAL_A01_A10.html'),'utf8');
  const guideRefs=[...html.matchAll(/(?:src|href)=["']\.\.\/imagenes\/(\d+)\.(png|jpg)["']/gi)];
- assert.equal(guideRefs.length,96,'HISTORIC_GUIDE_IMAGE_LINK_COUNT_DRIFT');
+ assert(guideRefs.length>=96&&guideRefs.length>=zone.htmlImageReferences,'GUIDE_IMAGE_LINK_COUNT_INCOMPLETE');
  const ids=new Set();
  for(const match of guideRefs){
   const cid=Number(match[1]),card=byCid.get(cid);
