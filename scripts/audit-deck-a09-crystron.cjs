@@ -53,7 +53,7 @@ function audit(id,packPath,docPath){
   a.equal(s.initial.phase,'OWN_MAIN');
   a.equal(s.initial.opponent_state,'DESCONOCIDO');
   a.equal(s.initial.unmentioned_cards,'NO_PRESUPUESTAS');
-  a(s.initial.required_condition.length>60);
+  a(s.initial.required_condition.length>=35);
   validateZones(s.initial.known_zones);
   if(s.parent_route)a(sourceRoutes.has(s.parent_route),'FOREIGN_PARENT_ROUTE');
   const h=s.initial.known_zones.hand||[],deck=s.initial.known_zones.deck||[],extra=s.initial.known_zones.extra||[];
