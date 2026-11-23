@@ -145,8 +145,9 @@ assert(a10.includes('fixtures JSON parametrizadas') && a10.includes('No modifica
 
 const master=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md'),'utf8');
 assert(master.includes('Norma vigente A01–A10A / A10B'),'Missing current A10A/A10B master rule');
-assert(master.includes('## PUERTA CERO — autorización de un único deck') &&
-  master.includes('BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION'),
+assert(master.includes('## PUERTA CERO — autorización') &&
+  master.includes('BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION') &&
+  master.includes('Main+Extra en TCG/OCG y solo Main en GOAT/Rush Duel'),
   'Master cannot start any deck analysis without explicit assignment and loaded zones');
 for(const field of ['## CONTRATO TRANSVERSAL OBLIGATORIO','effect_id','state_before',
   'expected_costs','expected_events','expected_state_after','case_id',
