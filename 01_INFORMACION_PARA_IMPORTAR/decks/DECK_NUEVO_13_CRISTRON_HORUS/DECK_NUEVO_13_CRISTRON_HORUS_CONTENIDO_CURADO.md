@@ -17,9 +17,9 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
-**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05** y **A06**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
+**Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05**, **A06** y **A07**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **19/35 tareas acreditadas en A01–A04, A05-T1/T2/T3 y A06-T1/T2/T3/T4; 16/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **23/35 tareas acreditadas en A01–A04, A05-T1/T2/T3, A06-T1/T2/T3/T4 y A07-T1/T2/T3/T4; 12/35 quedan por conciliar y certificar contra el contrato nuevo**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -55,11 +55,11 @@
 - [x] **A06-T3** Documentar elecciones primero/segundo, recuperación y medio/tardío con recursos reales y alternativas: C01/C02/C03/V01, Horus C04/C05/V07, Nova→Infinito C06, puente C07, rompedor Super Poli R17–18; evitar rutas incompatibles y considerar interrupciones. Evidencia A06.0/A06.4/A06.5, A02.1–3 y decisiones A08 D01–D20.
 - [x] **A06-T4** Derivar **42 casos de sinergias** `677:A06:P01–P21` y `677:A06:N01–N21` con estado anterior/posterior parcial tipado, precondiciones y fallo cerrado; cada R01–R21 enlaza un `effect_id` válido, control A07, decisión A08 y ruta A09 real o **SIN_RUTA_IDENTIFICADA**. Evidencia A06.5 y auditor CI A06; **no confundir con los 184 casos A05-T4 sin certificar**.
 
-### A07 — pendiente de auditoría del contrato vigente
-- [ ] **A07-T1** Especificar 100 % de los efectos de A05 en lenguaje causal tipado según TCG/GOAT/Rush/Skill, sin omitir pasivos o procedimientos
-- [ ] **A07-T2** Separar coste previo, trigger, ventana, objetivos/no-objetivos, cadena, resolución/negación, HOPT/OPT, restricciones y estados antes/después
-- [ ] **A07-T3** Construir matriz de casos de papel con caso positivo, ausencia de requisito, timing, recursos/zonas, repetición, negación y fallo cerrado para cada efecto
-- [ ] **A07-T4** Auditar cobertura effect_id→case_id→source, NO_APLICA con causa y necesidades de operador; no compilar ni probar en motor hasta A10B
+### A07 — especificación documental de 92 cláusulas y 644 casos de papel, auditada (4/4)
+- [x] **A07-T1** Tipar 92/92 cláusulas A05 para formato real `tcg_advanced`: 16 ACT, 17 TRG, 15 QCK, 12 SPL, 17 PRO, 13 CONT y 2 RES; CID, `card_id`, fuente Konami, chain_mode y velocidad en A07.5, sin crear Skill Rush ni eslabones de procedimientos.
+- [x] **A07-T2** Especificar los 92 registros A07.5 con estado previo del actor/zona/ventana, guarda física, coste activado, selección/target, resolución y estado posterior, negación, límite OPT/HOPT y bloqueos Extra; corrección oficial de las dos secuelas RES Mulcharmy sin segundo eslabón.
+- [x] **A07-T3** Matriz A07.6 de 644 escenarios documentales `677:A07:E001–E092:{P,R,T,Z,U,N,F}`: positivo con guarda, requisito faltante, ventana, zona/material, uso previo, negación y formato; cada caso incluye `state_before`, `expected_legal`, `expected_costs`, `expected_events`, `expected_state_after` y motivo. **Son casos de papel, no replays; 7 positivos NO_APLICA y A05-T4 sigue sin verificación independiente.**
+- [x] **A07-T4** Auditoría `scripts/audit-deck-a07-crystron.cjs` de 92 effect_id → 644 case_id (7/efecto) → 39 fuentes CID, 7 NO_APLICA con causa, modos de cadena, velocidad 1/2/3 y necesidades `operator_requirement`. Las 13 variantes portátiles quedan sin cambios y **ningún operador se declara probado A10B**.
 
 ### A08 — pendiente de auditoría del contrato vigente
 - [ ] **A08-T1** Enumerar starters, líneas y decisiones reales por estado, formato, recursos y effect_id sin imponer metas a la calculadora
@@ -78,7 +78,7 @@
 - [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
 - [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
 
-**Siguiente tarea pendiente por orden de cierre:** A05-T4; A07 permanece sin nueva auditoría hasta que se solicite. La ejecución documental A06 autorizada no certifica la legalidad de cadenas, ni A10B. No promocionar las otras 16 casillas.
+**Siguiente tarea pendiente por orden de cierre:** A05-T4, que mantiene 184 casos sin transición física certificada independientemente. A08–A10A no se han reabierto bajo este contrato. No promocionar las otras 12 casillas; A10B no solicitado.
 
 ---
 
@@ -2791,6 +2791,12 @@ Cada `effect_id` conserva su CID oficial, los `card_id` físicos, zona/ventana, 
 **Relación con los 13 registros portátiles de calculadora:** permanecen `record.calculator.rules` sin alteración, con CIDs 19153/19155 (Horus), 12608 (Smiger), 12609 (Thystvern) y 19200 (Sarcófago). La presencia de estos registros **no demuestra** que las demás cláusulas tengan operador soportado ni que las 13 variantes funcionen en cualquier cadena. Las necesidades exactas por registro se consignan en `operator_requirement` de A07.5. La asignación de operador y sus fixtures de juego corresponden **solo a A10B opcional**.
 
 **Separación del cierre:** A07-T1–T4 son especificación tipada, escenarios de papel y auditoría de cobertura documental. **A05-T4 conserva sus 184 casos por efecto en estado no certificado**, pues se requieren transiciones físicas independientes antes/después y contraste individual legal/cadena. A07 no modifica A05-T4, A09 ni A10A. El conteo de `NO_APLICA` es por construcción/escenario, no ausencia del efecto impreso.
+
+### A07.8 — estado de certificación del contrato A07
+
+**A07-T1/T2/T3/T4 COMPLETAS en su alcance documental y de casos lógicos de papel.** El auditor específico debe conservar 92 tipos causales, 644 escenarios (92 por cada clase P/R/T/Z/U/N/F), siete positivos no aplicables al inventario físico y distinción entre costes previos y resultados de resolución. Los procedimientos `PRO`, continuos `CONT` y residuales `RES` no se presentan como efectos que inician cadena. El indicador de casos **ejecutados en motor permanece 0**.
+
+**No se valida aquí:** (i) las 184 transiciones físicas individuales pendientes de A05-T4; (ii) el ruling fino de Citree bajo Lancea (`PENDIENTE_DE_RULING`); (iii) partidas o cadenas rivales no documentadas; (iv) la capacidad real del motor A10B o compatibilidad de sus operadores; (v) las 14 rutas A09 y sus campos finales todavía sujetos a auditoría específica. Cualquier cambio en texto oficial o inventario exige reabrir exactamente el registro afectado, no proclamar legalidad universal.
 
 ## APARTADO_08 — Estrategia, selección de jugadas y Side
 
