@@ -2,8 +2,10 @@
 // Reusable admission gate; validates data only. It NEVER starts an analysis.
 const fs = require('node:fs');
 const path = require('node:path');
-const required = Object.freeze(['main','extra']);
-const allowed = new Set([...required,'side','reserve']);
+const required = Object.freeze(['main']);
+const requiredExtraFormats = new Set(['tcg','tcg_advanced','tcg_traditional','ocg','ocg_advanced']);
+const optionalExtraFormats = new Set(['goat','rush_duel','rush']);
+const allowed = new Set(['main','extra','side','reserve']);
 const key = r => Number(r?.id ?? r?.card_id);
 function parseRows(rows, violations, label) {
   if (!Array.isArray(rows)) {violations.push(label + '_NOT_LOADED');return [];}
@@ -46,6 +48,10 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   if(typeof format!=='string'||!format.trim()||
     (payload.format&&payload.record?.format&&payload.format!==payload.record.format))
     violations.push('FORMAT_MISSING_OR_MISMATCHED');
+  const normalizedFormat=String(format||'').trim().toLowerCase();
+  const formatKnown=requiredExtraFormats.has(normalizedFormat)||optionalExtraFormats.has(normalizedFormat);
+  if(!formatKnown)violations.push('FORMAT_UNSUPPORTED_FOR_A01_GATE');
+  const requiredForFormat=[...required,...(requiredExtraFormats.has(normalizedFormat)?['extra']:[])];
   const rows=parseRows(payload.inventory,violations,'INVENTORY');
   const rec=fromRecord(payload.record||payload);
   if(rec!==null){
@@ -56,9 +62,9 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const counts={main:0,extra:0,side:0,reserve:0};
   for(const row of rows)if(allowed.has(row.section)&&Number.isInteger(row.quantity)&&row.quantity>0)
     counts[row.section]+=row.quantity;
-  // Side and Reserve are now optional at ALL stages by the owner's explicit 2026-11-23 instruction.
-  // Historical waiver flags remain in the result for traceability, never as admission controls.
-  // Main, Extra, exact row signatures, format and the explicitly assigned deck ID remain strict.
+  // Main is mandatory for all supported formats; TCG/OCG also require Extra.
+  // GOAT and Rush can legitimately have no Extra, Side, or Reserve.
+  // Historical waiver flags remain trace-only; never fabricate missing rows.
   const a01SideWaiverApplied=stageId==='A01' && authorizedSideOmissionForA01===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
@@ -87,11 +93,11 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const a09SideWaiverApplied=stageId==='A09' && authorizedSideOmissionForA09===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===665 &&
     selected===payload.deck_id && counts.main>0 && counts.extra>0 && counts.side===0;
-  for(const section of required)if(counts[section]===0)
+  for(const section of requiredForFormat)if(counts[section]===0)
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts,requiredSections:[...required],optionalSections:['side','reserve'],a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied,a06SideWaiverApplied,a07SideWaiverApplied,a08SideWaiverApplied,a09SideWaiverApplied});
+    deck_id:payload.deck_id,format,counts,requiredSections:requiredForFormat,optionalSections:[...(optionalExtraFormats.has(normalizedFormat)?['extra']:[]),'side','reserve'],a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied,a06SideWaiverApplied,a07SideWaiverApplied,a08SideWaiverApplied,a09SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
