@@ -1,0 +1,30 @@
+# A01 — verificación individual Infernoble (670)
+
+23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 12; 45 identidades y 11 rutas. No se modifica inventario ni se aplica banlist; Reserva no equivale a Side.
+
+Fuentes versionadas: Markdown blob `50cde89821dd986511bbcc2f26a5103e0ac06f5a`; JSON blob `f91bf3a152dbdac4b1ab79da82f99c31c555d6b2`.
+
+## T1 y T3 — diagnóstico y matriz de propósitos
+
+Combo de Guerreros FUEGO mediante Equipos, búsqueda y recuperación para construir Enlaces y Sincronías. Ogier/Renaud, Museo y Durendal forman el núcleo; Connector/Dolphin aporta acceso a dos Guerreros. WANTED/Diabellstar prepara recursos alternativos; Fenrir/Riseheart es un paquete de presión separado cuyo bloqueo Xyz puede impedir las salidas principales. La victoria depende de desarrollar un jefe legal y conservar Equipos para interacción, no de atribuir automáticamente Charles a cualquier apertura. Los riesgos incluyen negación de búsqueda/envío, consumo de Normal, falta de Equipos distintos, niveles, zonas y restricciones de Guerreros.
+
+| Propósito | CID y zona | Condición, riesgo y límite | Ruta existente |
+|---|---|---|---|
+| Acceso a Isolde | [14085](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2), [6768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2), [15082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2) Main; [13500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2) Extra | Connector requiere Normal y Dolphin disponible; Isolde necesita dos Guerreros y Equipos elegibles. Renaud invocado por Isolde no se convierte en Cantante por ese procedimiento. No atribuir jefe final a esta apertura. | `670:A09:CONNECTOR:ISOLDE01` |
+| Búsqueda y extensión | [18844](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2), [15287](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2), [15082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2), [15392](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2) Main; [13500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2) Extra | Museo requiere pagar 1200 LP para buscar. Durendal necesita monstruo equipado para buscar y destruirse. La apertura usa dos Renaud distintos y recursos de Deck; el segundo efecto de Museo no se presume aplicado. | `670:A09:MUSEUM:RENAUD:ISOLDE01` |
+| Sincronía Angélica | [15247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2), [15082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2), [15287](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2) Main; [18827](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2) Extra | Ogier envía Equipo elegible; Renaud desde mano con Guerrero FUEGO es Cantante Nivel 1 y recupera recurso válido. Ogier Nivel 4 + Renaud Nivel 1 habilitan Sincronía Nivel 5; Roland no aparece sin cumplir disparador de Angélica. | `670:A09:OGIER:RENAUD:ANGELICA01` |
+| Preparación alternativa | [19196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2), [19148](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2), [19199](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2), [15247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2) Main | WANTED/Diabellstar requieren cartas y costes reales; la apertura registrada consume tres cartas y termina con Ogier, sin Extra usado. No confundir preparación del GY con negación o llegada a Charles. | `670:A09:WANTED:DIABELLSTAR:OGIER01` |
+| Jefe e interacción M/T | [15276](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2), [18835](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2) Extra; [15287](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2) Main | Great Charles requiere Charles Sincronía Nivel 9 ya equipado. Su negación M/T requiere enviar un Equipo elegible; la ruta empieza con Charles en campo, no demuestra una apertura completa a ese jefe. | `670:A09:CHARLES:EQUIPPED:LINK01` |
+| Alternativa Xyz | [15247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2), [18801](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2), [15248](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2) Main; [18926](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2) Extra | Turpin requiere monstruo equipado para extender; Dempsey usa dos Nivel 4 y elige añadir o enviar objetivo permitido. Materiales Xyz no son cuerpos disponibles. No acumular esta salida con las demás. | `670:A09:V11:OGIER:DURENDAL:TURPIN:DEMPSEY` |
+
+CID, zonas y route_id cotejados contra el registro exacto. Fuentes Konami procedentes de las fichas versionadas; no se atribuye nueva revisión exhaustiva del texto oficial. No existe record.calculator. Enlaces effect_id/motor_id inexistentes quedan PENDIENTE_DE_ENLACE_A05_A09; no se inventan reglas ni replays.
+
+## Checklist
+
+- [x] T1: diagnóstico específico, motores y riesgos.
+- [x] T2: seis campos de perfil, cuatro cartas y cuatro fases.
+- [x] T3: matriz individual de seis propósitos con fuentes, CID, zonas, condiciones y rutas reales.
+- [x] T4: [CI #45273999784](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273999784) devolvió PASS, estilo 61/190, resumen 171/250, paridad de seis campos.
+- [ ] T5: misma CI PASS visual a 390 y 1280 px; importación rechazada por etiqueta editorial "reference file:" (18 ocurrencias en Markdown; ninguna coincidencia prohibida en JSON). Corrección Platform `f31c91aa2f9de8ae1e02cee5eb163b5b47ec5792`, regresión `c8e38d72bdcfc3bbc2826d2f6056e4b99d9f1b7e`; resultado nuevo pendiente.
+
+Resultado: 4/5. Cero importaciones de producción. No iniciar A02.
