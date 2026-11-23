@@ -42,7 +42,7 @@ async function check(browser,origin,label,opts){
  await page.locator('#a10-c06 .a10-end [data-zone="xyz_materials"] img').first().evaluate(img=>img.decode());
  A(await page.locator('#a10-c06 .a10-end [data-zone="xyz_materials"] img').first().evaluate(img=>img.naturalWidth>=600),'XYZ_REAL_PHOTO_'+label);
  await page.locator('.a10-picker[data-target="V07"]').click();
- await page.waitForURL('**/#a10-v07');
+ await page.waitForFunction(()=>location.hash==='#a10-v07');
  A.equal(await page.locator('#a10-v07 .a10-end').count(),2);
  await page.locator('#a10-v07 .a10-interrupt summary').click();
  A(await page.locator('#a10-v07 .a10-interrupt').evaluate(x=>x.open),'FAIL_CASE_NOT_EXPANDED_'+label);
