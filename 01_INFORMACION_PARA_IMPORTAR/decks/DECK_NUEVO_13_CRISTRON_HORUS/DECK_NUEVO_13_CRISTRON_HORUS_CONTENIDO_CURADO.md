@@ -15,6 +15,19 @@
 - Fuente de inventario: listado completo compartido por Miguel el **16-11-2026**; nombres y cantidades conservados exactamente como fueron proporcionados.
 - **Main: 40** (27 monstruos, 12 mágicas, 1 trampa); **Extra: 15**; **Side: 15**; **Reserva: 0**; **total: 70 copias**.
 
+## APARTADO_01 — Perfil A01 importable Crystron 677
+
+- **Arquetipo:** Cristron / Horus
+- **Tipo de estrategia:** Control reactivo por Sincronía Máquina con motor Horus de Nivel 8 y acceso Xyz condicionado.
+- **Estilo breve:** Control Cristron con Sincronías Máquina y recuperación; Horus aporta presión mediante Xyz de Rango 8 cuando el Extra Deck sigue disponible.
+- **Resumen para ficha:** Inicia con Smiger y Citree o Inclusión y Sulfador para preparar Sincronías y recuperar recursos con Elesqueletus. Horus ofrece Xyz de Rango 8 si el Extra está libre; gana por control y presión.
+- **Cómo se juega:** Primero, desarrolla el motor Cristron según las piezas disponibles: Smiger puede destruir una carta propia boca arriba para traer Citree del Deck, dejando preparada una Sincronía Máquina en el turno rival si Citree conserva un no Cantante válido en el Cementerio. La línea con Inclusión y Sulfador ofrece recuperación y materiales distintos; no debes mezclarlas si los efectos activados bloquean el Extra. Segundo, identifica las amenazas visibles y decide si necesitas una respuesta de Sincronía, Gotas Prohibidas o Superpolimerización antes de invertir en cuerpos grandes. Si cuentas con Sarcófago del Rey y Amset o Hapi, el motor Horus permite recuperar Nivel 8 del Cementerio y abrir una Xyz solo cuando no hay restricciones incompatibles. En juego medio, recupera Cristron con Elesqueletus e Inclusión, revisa los efectos ya usados y conserva materiales. En juego tardío, elige entre presión Horus y control Máquina según los recursos reales; ninguna jugada implica una negación universal ni una victoria garantizada.
+- **Qué vigilar:** Los efectos de destrucción de Smiger y Thystvern pueden restringir el Extra a Sincronías Máquina; Sulfador limita el Extra a Máquinas al Invocarse por su efecto. Citree necesita un no Cantante en el Cementerio y una ventana durante el turno rival. Sarcófago y Horus requieren cartas y zonas reales. No ofrecer una Xyz después de activar un bloqueo incompatible.
+
+**Evidencia de importación pendiente:** los seis campos corresponden exactamente a `record.profile` del paquete estructurado; este dossier no afirma publicación en producción ni ejecución del motor.
+
+## APARTADO_02 — Continuidad del expediente histórico
+
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
 **Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05**, **A06**, **A07** y **A08**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.

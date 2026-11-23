@@ -2902,11 +2902,11 @@
       "Arquetipo": "Cristron / Horus",
       "Tipo de estrategia": "Control reactivo por Sincronía Máquina con motor Horus de Nivel 8 y acceso Xyz condicionado.",
       "Estilo de juego": "Dictamen: híbrido de control reactivo por Sincronía Máquina (Cristron) y presencia autónoma de Nivel 8 / Xyz (Horus); las distintas cartas de interacción/respuestas no convierten por sí solas todas las manos en un tablero. Objetivo 1: sobrevivir e interrumpir desde Tristaros/Citree, obtener ventaja con Elesqueletus y convertir recursos en presión; objetivo 2: desarrollar Amset + Hapi a Número 90 para negar efecto de monstruo o a Vampiro Zombi para moler y extender; objetivo 3: llegar a Nova → Infinito con dos Nivel 5 Máquina (C06) para negar la activación de cartas/efectos; objetivo 4: ganar tempo con Gotas Prohibidas / Súper Polimerización antes de aplicar bloqueos del Extra. Son objetivos tácticos, no victorias garantizadas.",
-      "Cómo se juega": "Dictamen: híbrido de control reactivo por Sincronía Máquina (Cristron) y presencia autónoma de Nivel 8 / Xyz (Horus); las distintas cartas de interacción/respuestas no convierten por sí solas todas las manos en un tablero. Objetivo 1: sobrevivir e interrumpir desde Tristaros/Citree, obtener ventaja con Elesqueletus y convertir recursos en presión; objetivo 2: desarrollar Amset + Hapi a Número 90 para negar efecto de monstruo o a Vampiro Zombi para moler y extender; objetivo 3: llegar a Nova → Infinito con dos Nivel 5 Máquina (C06) para negar la activación de cartas/efectos; objetivo 4: ganar tempo con Gotas Prohibidas / Súper Polimerización antes de aplicar bloqueos del Extra. Son objetivos tácticos, no victorias garantizadas.\n\nConflictos estructurales reales: (a) Smiger/Thystvern en campo restringen el resto del turno a Sincronías Máquina si usan su efecto de destruir; (b) Sulfador al invocarse por su efecto propio restringe a Máquinas del Extra por el resto del turno; (c) tras cualquiera de esas restricciones, S:P, Número 90, Vampiro Zombi, Garura y Fangodragón pueden quedar inaccesibles ese turno según el caso; (d) la segunda habilidad de Hagoita exige un Cantante «Velociroid» que esta lista no lleva. No declarar «puedo sacar cualquier Extra».\n\nFortalezas: dos motores que pueden trabajar en turnos distintos, recuperación de Cristron mediante Inclusión/Elesqueletus, descarte Horus que alimenta Cementerio, acceso alternativo a Infinito sin Normal (C06), sinergia Amset→Smiger de Cementerio (C07), salidas Máquina mediante las restricciones y cartas disruptivas genéricas. Debilidades: dependencia de Normal para algunos starters, escasez de Cantantes frente a 15 Extra, gastar Smiger en Campo impide usar su búsqueda de Cementerio ese mismo turno, C06 consume otra copia de Azufafnir del Deck y el Side puede bloquear nuestras propias búsquedas o destierros.\n\nPlan de juego (A01, basado en el inventario): primero, Smiger puede preparar Citree para una Sincronía reactiva en el turno rival (C01), mientras Inclusión y Sulfador desarrollan recursos (C02). Si las piezas Horus están disponibles y no existen bloqueos del Extra Deck, la alternativa es el Xyz de Rango 8 (C04/C05); no se generan ambos planes automáticamente. Segundo, considerar Gotas o Súper Polimerización solo si hay ventana y recursos/materiales legales, antes de activar bloqueos incompatibles. Medio/tardío, recuperar recursos mediante Elesqueletus/ Inclusión y valorar la presión de Horus desde el Cementerio, sin dar por conocidas cartas ocultas ni resultados de molienda. La condición de victoria es acumular ventaja, interrumpir y convertir esa ventaja en daño real, no una negación universal garantizada.",
+      "Cómo se juega": "Primero, desarrolla el motor Cristron según las piezas disponibles: Smiger puede destruir una carta propia boca arriba para traer Citree del Deck, dejando preparada una Sincronía Máquina en el turno rival si Citree conserva un no Cantante válido en el Cementerio. La línea con Inclusión y Sulfador ofrece recuperación y materiales distintos; no debes mezclarlas si los efectos activados bloquean el Extra. Segundo, identifica las amenazas visibles y decide si necesitas una respuesta de Sincronía, Gotas Prohibidas o Superpolimerización antes de invertir en cuerpos grandes. Si cuentas con Sarcófago del Rey y Amset o Hapi, el motor Horus permite recuperar Nivel 8 del Cementerio y abrir una Xyz solo cuando no hay restricciones incompatibles. En juego medio, recupera Cristron con Elesqueletus e Inclusión, revisa los efectos ya usados y conserva materiales. En juego tardío, elige entre presión Horus y control Máquina según los recursos reales; ninguna jugada implica una negación universal ni una victoria garantizada.",
       "Estilo breve": "Control Cristron con Sincronías Máquina y recuperación; Horus aporta presión mediante Xyz de Rango 8 cuando el Extra Deck sigue disponible.",
       "Resumen para ficha": "Inicia con Smiger y Citree o Inclusión y Sulfador para preparar Sincronías y recuperar recursos con Elesqueletus. Horus ofrece Xyz de Rango 8 si el Extra está libre; gana por control y presión.",
       "Referencia documental del estudio": "Cristron / Horus — estudio individual A01–A10, profundización v3 (17-11-2026)",
-      "Qué vigilar": "Smiger y Thystvern, al utilizar sus efectos de destrucción en Campo, restringen el resto del turno a Sincronías Máquina; Sulfador limita el Extra Deck a Máquinas si se Invoca por su efecto. C01/C03 dependen de la ventana rival y C04/C05 exigen recursos Horus y Extra libre. No se acreditan victorias ni replays."
+      "Qué vigilar": "Los efectos de destrucción de Smiger y Thystvern pueden restringir el Extra a Sincronías Máquina; Sulfador limita el Extra a Máquinas al Invocarse por su efecto. Citree necesita un no Cantante en el Cementerio y una ventana durante el turno rival. Sarcófago y Horus requieren cartas y zonas reales. No ofrecer una Xyz después de activar un bloqueo incompatible."
     },
     "summary": "",
     "engine_maps": [],
@@ -6797,6 +6797,102 @@
         }
       ],
       "scope": "Documentary analysis; no simulator execution or inventory changes."
+    },
+    "a01_profile_contract": "station-x-a01-profile/1",
+    "player_guide": {
+      "schema": "station-x-player-guide/1",
+      "featured_cards": [
+        {
+          "cid": 12608,
+          "role": "Iniciador Cristron que prepara un Cantante",
+          "reason": "Al destruir una carta propia boca arriba habilita la llegada de Citree desde el Deck y permite preparar respuesta de Sincronía Máquina; no realiza por sí solo la Sincronía.",
+          "when_to_use": "Al comenzar con Smiger y una carta válida que destruir, antes de consumir efectos que limiten las siguientes Invocaciones.",
+          "related_cids": [
+            12606,
+            20758
+          ]
+        },
+        {
+          "cid": 12606,
+          "role": "Cantante reactiva para Sincronía de turno rival",
+          "reason": "Puede usar un monstruo no Cantante del Cementerio durante una ventana del turno contrario y sincronizar solo con ambos materiales si el efecto resuelve.",
+          "when_to_use": "Cuando Citree permanezca en el Campo y haya un no Cantante válido en el Cementerio y un destino Máquina compatible.",
+          "related_cids": [
+            12608,
+            20778
+          ]
+        },
+        {
+          "cid": 19200,
+          "role": "Soporte continuo de Cementerio para los Horus",
+          "reason": "Permite enviar recursos de la mano y preparar monstruos Horus en Cementerio; su presencia habilita sus Invocaciones propias sin convertir ese envío en una búsqueda genérica.",
+          "when_to_use": "Cuando puedas asumir el coste de mano y necesites desarrollar recursos Horus para el siguiente movimiento.",
+          "related_cids": [
+            19153,
+            19155
+          ]
+        },
+        {
+          "cid": 19153,
+          "role": "Monstruo Horus que busca acceso a Sarcófago",
+          "reason": "Amset requiere recursos reales de la mano para su búsqueda y puede volver desde Cementerio si controlas Sarcófago; aporta un cuerpo de Nivel alto para opciones Xyz condicionadas.",
+          "when_to_use": "Si la mano tiene el coste exigido y el Campo o Cementerio permite continuar sin contradecir un bloqueo del Extra.",
+          "related_cids": [
+            19200,
+            19155
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "id": "first",
+          "title": "Ir primero: preparar una respuesta de Sincronía",
+          "plan": "Evalúa si la apertura dispone de Smiger, Inclusión o Sulfador y elige una línea según materiales y efectos ya utilizados. Smiger puede preparar Citree y un no Cantante en el Cementerio para sincronizar durante el turno rival, mientras que Inclusión ofrece rutas que convierten recursos en Elesqueletus. Conserva la mano restante para responder después, y no des por Invocada una Sincronía que depende de una ventana futura.",
+          "preconditions": "Smiger o acceso compatible, objetivo propio boca arriba para destruir, Citree en Deck y monstruo no Cantante que pueda llegar al Cementerio.",
+          "risks": "Negar o retirar Smiger antes de que resuelva elimina la preparación; después de activar sus efectos hay bloqueos que impiden escoger libremente cualquier monstruo Extra.",
+          "related_route_ids": [
+            "677:A09:C01",
+            "677:A09:C02",
+            "677:A09:C03"
+          ]
+        },
+        {
+          "id": "second",
+          "title": "Ir segundo: responder antes de gastar materiales",
+          "plan": "Examina el Campo visible del rival y decide si conviene obligar primero una respuesta o usar un recurso defensivo. Las líneas Horus son alternativas cuando existe Sarcófago y los cuerpos de Nivel alto, pero no se suman automáticamente con rutas Cristron que restringen el Extra. Para llegar a Número 90, Vampiro Zombi o Infinito, confirma la disponibilidad real de Nivel y materiales antes de activar el efecto que establezca el bloqueo.",
+          "preconditions": "Objetivos adversarios visibles y legales, mano suficiente para los costes, cuerpos compatibles con el Extra elegido y ausencia de restricciones incompatibles.",
+          "risks": "Una mano sin suficientes recursos Horus o una restricción previa de Máquina/Sincronía puede bloquear por completo el Xyz planeado; no anticipar respuestas rivales.",
+          "related_route_ids": [
+            "677:A09:C04",
+            "677:A09:C05",
+            "677:A09:C06"
+          ]
+        },
+        {
+          "id": "mid",
+          "title": "Juego medio: reciclar sin perder ventanas",
+          "plan": "Conserva el inventario exacto de cartas que permanecen en Cementerio, mano y destierro. Elesqueletus e Inclusión pueden recuperar recursos Cristron si la condición correspondiente está cumplida, mientras Sarcófago permite preparar monstruos Horus con límites de uso que no deben duplicarse. A medida que se consumen piezas, elige un solo motor principal para la secuencia siguiente en vez de atribuir a la misma carta dos efectos incompatibles.",
+          "preconditions": "Comprobar qué recursos fueron destruidos o enviados realmente, cuáles siguen siendo objetivos legales y qué efectos por nombre se utilizaron este turno.",
+          "risks": "Gastar el único Cantante disponible o confundir la restricción de Sulfador con una libertad completa de Invocar desde Extra reduce salidas de recuperación y presión.",
+          "related_route_ids": [
+            "677:A09:C02",
+            "677:A09:C07",
+            "677:A09:V01"
+          ]
+        },
+        {
+          "id": "late",
+          "title": "Juego tardío: elegir control o presión Horus",
+          "plan": "Cuando el Campo cambie, vuelve a contar cada carta disponible antes de repetir una ruta histórica. La presión de Amset y Hapi puede generar una salida Xyz solo si Sarcófago y sus costes siguen siendo válidos, mientras que una ruta de Sincronía Máquina ofrece control con menos dependencia de cuerpos de Nivel alto. Si una carta fue negada o los materiales se agotaron, conserva los recursos restantes y reconstruye en vez de anunciar un tablero final imposible.",
+          "preconditions": "Sarcófago accesible o piezas Cristron reciclables, destinos disponibles en Extra, recursos no utilizados y una ventana legal de Invocación o activación.",
+          "risks": "No declarar una negación o daño letal que el Campo actual no respalda; los efectos Horus y Cristron no sustituyen requisitos de materiales ni anulan los bloqueos ya aplicados.",
+          "related_route_ids": [
+            "677:A09:V05",
+            "677:A09:V07",
+            "677:A09:C07"
+          ]
+        }
+      ]
     }
   },
   "provenance": {
