@@ -1,4 +1,4 @@
-name: Kashtira 665 A01–A09 T1 source CID, 90 effects, paper cases and native ZIP audits
+name: Kashtira 665 A01–A09 T3 reference audits source CID, 90 effects, paper cases and native ZIP audits
 on:
   push:
     branches:
@@ -18,6 +18,7 @@ on:
       - 'scripts/audit-deck-a08-kashtira.cjs'
       - 'scripts/audit-deck-a09-kashtira.cjs'
       - 'scripts/audit-deck-a09-t2-kashtira.cjs'
+      - 'scripts/audit-deck-a09-t3-kashtira.cjs'
       - '02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md'
       - 'scripts/test-deck-a04-kashtira-decode.py'
       - '02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md'
@@ -76,6 +77,8 @@ jobs:
         run: node scripts/audit-deck-a09-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
       - name: Audit A09 T2 reference coverage and 70 missing transitions without false replay claims
         run: node scripts/audit-deck-a09-t2-kashtira.cjs
+      - name: Audit A09 T3 520 real A07 paper-case links without inventing replay outcomes
+        run: node scripts/audit-deck-a09-t3-kashtira.cjs
       - name: Lint native Kashtira A02 isolated PHP import test
         run: php -l scripts/test-deck-a02-kashtira-preflight.php
       - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing

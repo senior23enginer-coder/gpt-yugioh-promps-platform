@@ -9607,3 +9607,12 @@ El explorador `record.a08_review.role_index` contiene **38/38 fichas CID**, con 
 **Casos críticos por validar:** Big Bang desterrada sin Xyz Kashtira propio no se puede activar (ruta 02, paso 5); los dos disparadores opcionales tras Riseheart necesitan la misma ventana de construcción de Cadena (ruta 07, pasos 4–5, y ruta 14, paso 7, donde el orden elegido es distinto). El efecto rápido de Arise-Heart necesita materiales realmente disponibles y no puede asumirse que se completaron por sí solos. En `SHANGRI:STANDBY:ARISE04` no omitir cambio de turno/fase.
 
 No se cierra A09-T2, ni A09-T3/T4, ni se genera `record.calculator`. El avance mantiene el principio de **no presentar documentación de papel como ejecución verificada**.
+
+
+### A09-T3 — matriz trazable de pruebas en papel por paso (avance no certificado)
+
+**Estado de T3: PENDIENTE DE VALIDAR INTERRUPCIONES EN ESTADO REAL.** El paquete conserva **16 parejas** de escenarios A08 por ruta (con recursos / requisito ausente) y enlaza los **92 pasos** con **104 apariciones de reglas A07** a través de **520 referencias** a casos A07 ya documentados: positivo condicionado, condición falsa, ventana incorrecta, negación/bloqueo y recurso faltante. No se multiplican estas referencias para contarlas como rutas o combos nuevos.
+
+Los escenarios de A07 indican por regla el **coste esperado**, la guarda y el resultado hipotético; ninguno constituye una activación efectivamente resuelta ni demuestra el coste que se habría pagado en una partida. Los casos que impiden una acción llevan la salida `SIN_CONTINUACION_DEMOSTRADA`. En procedimientos sin cadena no se atribuye una negación de efecto propio inexistente, y los controles `NO_APLICA` de A07 permanecen así.
+
+**Faltantes para cerrar T3:** reproducir la condición concreta de cada interrupción crítica en la cadena y estado previo de A09, respetar CL1/CL2, zonas y costes reales, y demostrar las continuaciones alternativas solo cuando se acrediten. No se etiquetarán 520 enlaces documentales como 520 replays o 520 combos probados. **Total de replays: 0**; pago real de costes verificado: **0**.

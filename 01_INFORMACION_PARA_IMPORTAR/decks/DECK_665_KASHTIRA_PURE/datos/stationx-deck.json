@@ -59347,6 +59347,2740 @@
         "transitions_needing_zone_completion": 70,
         "validated_engine_replays": 0,
         "status": "A09_T2_MAPEO_DE_FUENTES_NO_CIERRE_SEMANTICO"
+      },
+      "paper_case_links": {
+        "schema": "station-x-a09-paper-case-links/1",
+        "deck_id": 665,
+        "stage": "A09-T3-REFERENCIAS",
+        "status": "CASOS_EXISTENTES_ENLAZADOS_PENDIENTE_PRUEBA_DE_CONTINUACION",
+        "route_cases": [
+          {
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "positive_a08_case_id": "665:A08:ROUTE:01:P",
+            "negative_a08_case_id": "665:A08:ROUTE:01:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "positive_a08_case_id": "665:A08:ROUTE:02:P",
+            "negative_a08_case_id": "665:A08:ROUTE:02:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "positive_a08_case_id": "665:A08:ROUTE:03:P",
+            "negative_a08_case_id": "665:A08:ROUTE:03:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+            "positive_a08_case_id": "665:A08:ROUTE:04:P",
+            "negative_a08_case_id": "665:A08:ROUTE:04:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "positive_a08_case_id": "665:A08:ROUTE:05:P",
+            "negative_a08_case_id": "665:A08:ROUTE:05:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "positive_a08_case_id": "665:A08:ROUTE:06:P",
+            "negative_a08_case_id": "665:A08:ROUTE:06:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "positive_a08_case_id": "665:A08:ROUTE:07:P",
+            "negative_a08_case_id": "665:A08:ROUTE:07:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "positive_a08_case_id": "665:A08:ROUTE:08:P",
+            "negative_a08_case_id": "665:A08:ROUTE:08:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "positive_a08_case_id": "665:A08:ROUTE:09:P",
+            "negative_a08_case_id": "665:A08:ROUTE:09:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "positive_a08_case_id": "665:A08:ROUTE:10:P",
+            "negative_a08_case_id": "665:A08:ROUTE:10:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "positive_a08_case_id": "665:A08:ROUTE:11:P",
+            "negative_a08_case_id": "665:A08:ROUTE:11:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "positive_a08_case_id": "665:A08:ROUTE:12:P",
+            "negative_a08_case_id": "665:A08:ROUTE:12:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "positive_a08_case_id": "665:A08:ROUTE:13:P",
+            "negative_a08_case_id": "665:A08:ROUTE:13:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "positive_a08_case_id": "665:A08:ROUTE:14:P",
+            "negative_a08_case_id": "665:A08:ROUTE:14:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "positive_a08_case_id": "665:A08:ROUTE:15:P",
+            "negative_a08_case_id": "665:A08:ROUTE:15:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          },
+          {
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "positive_a08_case_id": "665:A08:ROUTE:16:P",
+            "negative_a08_case_id": "665:A08:ROUTE:16:N",
+            "engine_replay": false,
+            "interruption_followup": "SIN_CONTINUACION_DEMOSTRADA"
+          }
+        ],
+        "step_cases": [
+          {
+            "step_id": "665:A09:R01:S01",
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "cases": [
+              {
+                "rule_id": "665:a07:18204:activation-search",
+                "case_ids": [
+                  "665:A07:P021",
+                  "665:A07:N021C",
+                  "665:A07:N021W",
+                  "665:A07:N021N",
+                  "665:A07:N021R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R01:S02",
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R01:S03",
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R01:S04",
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "cases": [
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R01:S05",
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S01",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S02",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S03",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S04",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S05",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [
+              {
+                "rule_id": "665:a07:18220:bigbang-banished-material-return",
+                "case_ids": [
+                  "665:A07:P043",
+                  "665:A07:N043C",
+                  "665:A07:N043W",
+                  "665:A07:N043N",
+                  "665:A07:N043R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S06",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R02:S07",
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S01",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S02",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S03",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S04",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S05",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:special-from-hand",
+                "case_ids": [
+                  "665:A07:P007",
+                  "665:A07:N007C",
+                  "665:A07:N007W",
+                  "665:A07:N007N",
+                  "665:A07:N007R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S06",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R03:S07",
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R04:S01",
+            "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-standby-summon",
+                "case_ids": [
+                  "665:A07:P045",
+                  "665:A07:N045C",
+                  "665:A07:N045W",
+                  "665:A07:N045N",
+                  "665:A07:N045R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R04:S02",
+            "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R04:S03",
+            "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S01",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S02",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [
+              {
+                "rule_id": "665:a07:17815:level7-normal-no-tribute",
+                "case_ids": [
+                  "665:A07:P024",
+                  "665:A07:N024C",
+                  "665:A07:N024W",
+                  "665:A07:N024N",
+                  "665:A07:N024R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S03",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S04",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [
+              {
+                "rule_id": "665:a07:17770:search-trap",
+                "case_ids": [
+                  "665:A07:P010",
+                  "665:A07:N010C",
+                  "665:A07:N010W",
+                  "665:A07:N010N",
+                  "665:A07:N010R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S05",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R05:S06",
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R06:S01",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17815:level7-normal-no-tribute",
+                "case_ids": [
+                  "665:A07:P024",
+                  "665:A07:N024C",
+                  "665:A07:N024W",
+                  "665:A07:N024N",
+                  "665:A07:N024R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17770:search-trap",
+                "case_ids": [
+                  "665:A07:P010",
+                  "665:A07:N010C",
+                  "665:A07:N010W",
+                  "665:A07:N010N",
+                  "665:A07:N010R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R06:S02",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "cases": [
+              {
+                "rule_id": "665:a07:9861:big-eye-xyz",
+                "case_ids": [
+                  "665:A07:P053",
+                  "665:A07:N053C",
+                  "665:A07:N053W",
+                  "665:A07:N053N",
+                  "665:A07:N053R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R06:S03",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "cases": [
+              {
+                "rule_id": "665:a07:9861:big-eye-take-control",
+                "case_ids": [
+                  "665:A07:P054",
+                  "665:A07:N054C",
+                  "665:A07:N054W",
+                  "665:A07:N054N",
+                  "665:A07:N054R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R06:S04",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S01",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:18204:activation-search",
+                "case_ids": [
+                  "665:A07:P021",
+                  "665:A07:N021C",
+                  "665:A07:N021W",
+                  "665:A07:N021N",
+                  "665:A07:N021R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S02",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:special-from-hand",
+                "case_ids": [
+                  "665:A07:P007",
+                  "665:A07:N007C",
+                  "665:A07:N007W",
+                  "665:A07:N007N",
+                  "665:A07:N007R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S03",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S04",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:18220:bigbang-banished-material-return",
+                "case_ids": [
+                  "665:A07:P043",
+                  "665:A07:N043C",
+                  "665:A07:N043W",
+                  "665:A07:N043N",
+                  "665:A07:N043R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S05",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18220:bigbang-banished-material-return",
+                "case_ids": [
+                  "665:A07:P043",
+                  "665:A07:N043C",
+                  "665:A07:N043W",
+                  "665:A07:N043N",
+                  "665:A07:N043R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S06",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [
+              {
+                "rule_id": "665:a07:9861:big-eye-xyz",
+                "case_ids": [
+                  "665:A07:P053",
+                  "665:A07:N053C",
+                  "665:A07:N053W",
+                  "665:A07:N053N",
+                  "665:A07:N053R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R07:S07",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S01",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [
+              {
+                "rule_id": "665:a07:18204:activation-search",
+                "case_ids": [
+                  "665:A07:P021",
+                  "665:A07:N021C",
+                  "665:A07:N021W",
+                  "665:A07:N021N",
+                  "665:A07:N021R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S02",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S03",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:special-from-hand",
+                "case_ids": [
+                  "665:A07:P007",
+                  "665:A07:N007C",
+                  "665:A07:N007W",
+                  "665:A07:N007N",
+                  "665:A07:N007R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S04",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S05",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R08:S06",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R09:S01",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "cases": [
+              {
+                "rule_id": "665:a07:18204:activation-search",
+                "case_ids": [
+                  "665:A07:P021",
+                  "665:A07:N021C",
+                  "665:A07:N021W",
+                  "665:A07:N021N",
+                  "665:A07:N021R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18151:special-from-hand",
+                "case_ids": [
+                  "665:A07:P007",
+                  "665:A07:N007C",
+                  "665:A07:N007W",
+                  "665:A07:N007N",
+                  "665:A07:N007R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R09:S02",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "cases": [
+              {
+                "rule_id": "665:a07:18220:bigbang-banished-material-return",
+                "case_ids": [
+                  "665:A07:P043",
+                  "665:A07:N043C",
+                  "665:A07:N043W",
+                  "665:A07:N043N",
+                  "665:A07:N043R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R09:S03",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R09:S04",
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R10:S01",
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R10:S02",
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R10:S03",
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "cases": [
+              {
+                "rule_id": "665:a07:17815:level7-normal-no-tribute",
+                "case_ids": [
+                  "665:A07:P024",
+                  "665:A07:N024C",
+                  "665:A07:N024W",
+                  "665:A07:N024N",
+                  "665:A07:N024R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R10:S04",
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "cases": [
+              {
+                "rule_id": "665:a07:13974:dark-armed-xyz",
+                "case_ids": [
+                  "665:A07:P059",
+                  "665:A07:N059C",
+                  "665:A07:N059W",
+                  "665:A07:N059N",
+                  "665:A07:N059R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R10:S05",
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "cases": [
+              {
+                "rule_id": "665:a07:13974:dark-armed-detach-destroy",
+                "case_ids": [
+                  "665:A07:P061",
+                  "665:A07:N061C",
+                  "665:A07:N061W",
+                  "665:A07:N061N",
+                  "665:A07:N061R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R11:S01",
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R11:S02",
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R11:S03",
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "cases": [
+              {
+                "rule_id": "665:a07:15524:zeus-alternative-after-battle",
+                "case_ids": [
+                  "665:A07:P056",
+                  "665:A07:N056C",
+                  "665:A07:N056W",
+                  "665:A07:N056N",
+                  "665:A07:N056R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R11:S04",
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R11:S05",
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R12:S01",
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R12:S02",
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R12:S03",
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "cases": [
+              {
+                "rule_id": "665:a07:15741:goddess-link-opponent-material",
+                "case_ids": [
+                  "665:A07:P069",
+                  "665:A07:N069C",
+                  "665:A07:N069W",
+                  "665:A07:N069N",
+                  "665:A07:N069R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R12:S04",
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "cases": [
+              {
+                "rule_id": "665:a07:15741:goddess-on-link-negate-opponent",
+                "case_ids": [
+                  "665:A07:P070",
+                  "665:A07:N070C",
+                  "665:A07:N070W",
+                  "665:A07:N070N",
+                  "665:A07:N070R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R12:S05",
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R13:S01",
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R13:S02",
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R13:S03",
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R13:S04",
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "cases": [
+              {
+                "rule_id": "665:a07:15524:zeus-alternative-after-battle",
+                "case_ids": [
+                  "665:A07:P056",
+                  "665:A07:N056C",
+                  "665:A07:N056W",
+                  "665:A07:N056N",
+                  "665:A07:N056R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R13:S05",
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "cases": [
+              {
+                "rule_id": "665:a07:15524:zeus-quick-send-all",
+                "case_ids": [
+                  "665:A07:P057",
+                  "665:A07:N057C",
+                  "665:A07:N057W",
+                  "665:A07:N057N",
+                  "665:A07:N057R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S01",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P001",
+                  "665:A07:N001C",
+                  "665:A07:N001W",
+                  "665:A07:N001N",
+                  "665:A07:N001R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S02",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17815:level7-normal-no-tribute",
+                "case_ids": [
+                  "665:A07:P024",
+                  "665:A07:N024C",
+                  "665:A07:N024W",
+                  "665:A07:N024N",
+                  "665:A07:N024R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S03",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S04",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S05",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S06",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S07",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18220:bigbang-banished-material-return",
+                "case_ids": [
+                  "665:A07:P043",
+                  "665:A07:N043C",
+                  "665:A07:N043W",
+                  "665:A07:N043N",
+                  "665:A07:N043R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S08",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R14:S09",
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-standby-summon",
+                "case_ids": [
+                  "665:A07:P045",
+                  "665:A07:N045C",
+                  "665:A07:N045W",
+                  "665:A07:N045N",
+                  "665:A07:N045R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S01",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:17769:empty-field-summon",
+                "case_ids": [
+                  "665:A07:P004",
+                  "665:A07:N004C",
+                  "665:A07:N004W",
+                  "665:A07:N004N",
+                  "665:A07:N004R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S02",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:16386:baronne-synchro-summon",
+                "case_ids": [
+                  "665:A07:P062",
+                  "665:A07:N062C",
+                  "665:A07:N062W",
+                  "665:A07:N062N",
+                  "665:A07:N062R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S03",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:17815:main-revive-kashtira",
+                "case_ids": [
+                  "665:A07:P025",
+                  "665:A07:N025C",
+                  "665:A07:N025W",
+                  "665:A07:N025N",
+                  "665:A07:N025R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17769:search-spell",
+                "case_ids": [
+                  "665:A07:P005",
+                  "665:A07:N005C",
+                  "665:A07:N005W",
+                  "665:A07:N005N",
+                  "665:A07:N005R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S04",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:18203:target-summon-different-attribute",
+                "case_ids": [
+                  "665:A07:P027",
+                  "665:A07:N027C",
+                  "665:A07:N027W",
+                  "665:A07:N027N",
+                  "665:A07:N027R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S05",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:16386:baronne-negate-activation",
+                "case_ids": [
+                  "665:A07:P064",
+                  "665:A07:N064C",
+                  "665:A07:N064W",
+                  "665:A07:N064N",
+                  "665:A07:N064R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S06",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:17768:search-monster",
+                "case_ids": [
+                  "665:A07:P002",
+                  "665:A07:N002C",
+                  "665:A07:N002W",
+                  "665:A07:N002N",
+                  "665:A07:N002R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:18151:special-from-hand",
+                "case_ids": [
+                  "665:A07:P007",
+                  "665:A07:N007C",
+                  "665:A07:N007W",
+                  "665:A07:N007N",
+                  "665:A07:N007R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S07",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S08",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:18151:banish-topthree-level7",
+                "case_ids": [
+                  "665:A07:P008",
+                  "665:A07:N008C",
+                  "665:A07:N008W",
+                  "665:A07:N008N",
+                  "665:A07:N008R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              },
+              {
+                "rule_id": "665:a07:17800:shangri-zone-block",
+                "case_ids": [
+                  "665:A07:P046",
+                  "665:A07:N046C",
+                  "665:A07:N046W",
+                  "665:A07:N046N",
+                  "665:A07:N046R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R15:S09",
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "cases": [
+              {
+                "rule_id": "665:a07:18191:arise-xyz-alternative",
+                "case_ids": [
+                  "665:A07:P049",
+                  "665:A07:N049C",
+                  "665:A07:N049W",
+                  "665:A07:N049N",
+                  "665:A07:N049R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R16:S01",
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "cases": [],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R16:S02",
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "cases": [
+              {
+                "rule_id": "665:a07:18153:quick-hand-summon-banish",
+                "case_ids": [
+                  "665:A07:P015",
+                  "665:A07:N015C",
+                  "665:A07:N015W",
+                  "665:A07:N015N",
+                  "665:A07:N015R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R16:S03",
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "cases": [
+              {
+                "rule_id": "665:a07:18153:summoned-mill-three",
+                "case_ids": [
+                  "665:A07:P016",
+                  "665:A07:N016C",
+                  "665:A07:N016W",
+                  "665:A07:N016N",
+                  "665:A07:N016R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R16:S04",
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "cases": [
+              {
+                "rule_id": "665:a07:17815:main-revive-kashtira",
+                "case_ids": [
+                  "665:A07:P025",
+                  "665:A07:N025C",
+                  "665:A07:N025W",
+                  "665:A07:N025N",
+                  "665:A07:N025R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          },
+          {
+            "step_id": "665:A09:R16:S05",
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "cases": [
+              {
+                "rule_id": "665:a07:17800:shangri-xyz",
+                "case_ids": [
+                  "665:A07:P044",
+                  "665:A07:N044C",
+                  "665:A07:N044W",
+                  "665:A07:N044N",
+                  "665:A07:N044R"
+                ],
+                "case_types": [
+                  "POSITIVO",
+                  "CONDICION_FALSA",
+                  "VENTANA_ERRONEA",
+                  "NEGACION_BLOQUEO",
+                  "RECURSO_FALTANTE"
+                ],
+                "real_cost_payment": "NO_DEMOSTRADO",
+                "negative_continuation": "SIN_CONTINUACION_DEMOSTRADA"
+              }
+            ],
+            "stage_status": "PAPEL_CONDICIONAL_SIN_REPLAY"
+          }
+        ],
+        "summary": {
+          "routes": 16,
+          "steps": 92,
+          "source_case_links": 520,
+          "linked_rule_occurrences": 104,
+          "engine_replays": 0,
+          "actual_paid_costs_verified": 0,
+          "continuations_verified": 0
+        }
       }
     }
   },
