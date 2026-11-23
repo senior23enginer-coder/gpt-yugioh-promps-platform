@@ -2,7 +2,7 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
-**Cierre A01–A08:** 28/35 tareas documentales registradas; quedan 7/35 para A09–A10A. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
+**Corte A09-T1:** 29/35 tareas documentales registradas; quedan 6/35 para A09-T2–T4 y A10A. La catalogación documental A09-T1 NO certifica la legalidad de un combo ni sustituye pruebas físicas. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
 
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
@@ -32,7 +32,7 @@
 - [x] **A08-T2** 16 rutas históricas clasificadas, 21 enlaces A06, 38 roles y 48 contrastes de papel; pendientes A09 certificados.
 - [x] **A08-T3** 16 rutas históricas clasificadas, 21 enlaces A06, 38 roles y 48 contrastes de papel; pendientes A09 certificados.
 - [x] **A08-T4** 16 rutas históricas clasificadas, 21 enlaces A06, 38 roles y 48 contrastes de papel; pendientes A09 certificados.
-- [ ] **A09-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [x] **A09-T1** 16 rutas/92 pasos inventariados mediante IDs estables, manos de A08 por CID, alertas por fotos y estados faltantes; auditor independiente sin replays.
 - [ ] **A09-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A09-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A09-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
@@ -9564,3 +9564,35 @@ El explorador `record.a08_review.role_index` contiene **38/38 fichas CID**, con 
 - **A08-T4 [x]** 16 vínculos explícitos a los `route_id` originales A09, 21 enlaces A06 y `SIN_JUGADA_ACREDITADA` para las faltantes; sin promover ninguna candidata a `COMBO_COMPLETO` antes de A09.
 
 **Siguiente apartado:** A09, que validará paso por paso legalidad, materiales, estados y campos finales de cada ruta; A10A aportará su guía visual completa.
+
+
+## APARTADO_09 — Kashtira Pure 665 · catalogación T1 (23-11-2026)
+
+**Estado:** A09-T1 COMPLETA documentalmente; T2–T4 pendientes de revisión semántica/campo/continuidad. Inventario congelado Main 42, Extra 15, Side 0, Reserva 19; banlist excluida; ni A10B ni importación a producción ejecutados.
+
+`record.a09_review` vincula las 16 fichas históricas y 92 pasos con A08, sin duplicar familias ni fabricar una mano de apertura cuando la ruta depende de un campo previo. La auditoría revisa que la ausencia de fotos y estados no se marque como prueba aprobada.
+
+| Ruta (`665:A09:…`) | Pasos | Sin foto participante por paso | Sin recursos estructurados por paso |
+|---|---:|---:|---:|
+| `WRAITSOTH:SHANGRI01` | 5 | 0 | 0 |
+| `FENRIR:RISEHEART:SHANGRI02` | 7 | 7 | 7 |
+| `UNICORN:THEOSIS:FENRIR:SHANGRI03` | 7 | 0 | 0 |
+| `SHANGRI:STANDBY:ARISE04` | 3 | 1 | 3 |
+| `FENRIR:BIRTH:SHANGRI05` | 6 | 6 | 6 |
+| `FENRIR:BIRTH:BIGEYE06` | 4 | 4 | 4 |
+| `WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07` | 7 | 7 | 7 |
+| `WRAITSOTH:RISEHEART:ARISE3MAT08` | 6 | 6 | 6 |
+| `WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09` | 4 | 4 | 4 |
+| `FENRIR:BIRTH:DARKARMED10` | 5 | 0 | 0 |
+| `BIGEYE:BATTLE:ZEUS11` | 5 | 0 | 0 |
+| `DONNER:FENRIR:UNICORN:GODDESS12` | 5 | 0 | 0 |
+| `MIRROR:ARISE:BATTLE:ZEUS13` | 5 | 0 | 5 |
+| `FENRIR:BIRTH:BIGBANG:ARISE14` | 9 | 0 | 9 |
+| `UNICORN:ASH:BIRTH:BARONNE15` | 9 | 0 | 9 |
+| `V11:TEARKASH:OGRE:BIRTH:SHANGRI` | 5 | 0 | 5 |
+
+**Cobertura real:** 57/92 pasos tienen fotografía de carta participante en la ficha histórica; 35/92 carecen de ella. 27/92 pasos tienen registro estructurado de recursos; 65/92 aún no. Ninguna de esas cifras constituye replays ni combos legalmente certificados.
+
+**Hallazgos obligatorios para T2–T4:** foto de Riseheart añadida históricamente a la mano declarada «solo Fenrir» en SHANGRI02; Arise-Heart del Extra aparece indebidamente en fotografías históricas de mano en ARISE3MAT08; SHANGRI:STANDBY:ARISE04 y BIGEYE:BATTLE:ZEUS11 requieren un campo previo real. Los disparadores opcionales Big Bang y Shangri-Ira tras Riseheart deben analizarse en la misma ventana de nueva cadena si se cumplen, no presuponer múltiples cadenas. No atribuir bloqueos retroactivos ni materiales Xyz duplicados.
+
+**Prueba pendiente T2:** fuente oficial, actor/carta, coste previo, target, cadena, resolución, destino, materiales y estado de ocho zonas para cada paso. **T3:** variantes y contrapruebas por ruta, incluyendo interrupciones y legalidad de la ventana. **T4:** pasos completos e imágenes locales alineadas con CID y campo final espacial solo si se acredita. Hasta cumplir estas puertas, `complete_combos_certified=0`, `engine_replays=0`, `spatial_endboards_certified=0`.

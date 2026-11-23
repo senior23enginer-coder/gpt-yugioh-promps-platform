@@ -53892,6 +53892,690 @@
         }
       ],
       "remaining": "A09 independent per-step certification; A10A graphic rendering; A10B not assigned"
+    },
+    "a09_review": {
+      "schema": "station-x-a09-documentary-index/1",
+      "deck_id": 665,
+      "stage": "A09-T1",
+      "status": "RUTAS_INDEXADAS_PENDIENTE_CERTIFICACION_DE_PASOS",
+      "banlist_evaluated": false,
+      "inventory": {
+        "main": 42,
+        "extra": 15,
+        "side": 0,
+        "reserve": 19
+      },
+      "routes": [
+        {
+          "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+          "a08_id": "665:A08:ROUTE:01",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "Mano de apertura: solo Pressured Planet Wraitsoth. Campo/GY propios vacíos, Main Phase 1; Unicornio, Fenrir y Kashtiratheosis en Deck, Shangri-Ira en Extra; rival sin responder.",
+          "hand_cids": [
+            18204
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 18204,
+              "name": "Pressured Planet Wraitsoth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+              "card_id": 100
+            }
+          ],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R01:S01",
+            "665:A09:R01:S02",
+            "665:A09:R01:S03",
+            "665:A09:R01:S04",
+            "665:A09:R01:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+          "a08_id": "665:A08:ROUTE:02",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "- Mano inicial mínima: solo Kashtira Fenrir (17768); campo propio vacío y Main Phase. En Deck: Kashtira Riseheart (18151) y Big Bang Kashtira (18220, 1 copia); en Extra Shangri-Ira (17800). Adversario tiene al menos 3 cartas en el Deck. No hay respuesta adversaria ni restricciones previas.",
+          "hand_cids": [
+            17768
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            }
+          ],
+          "existing_steps": 7,
+          "step_ids": [
+            "665:A09:R02:S01",
+            "665:A09:R02:S02",
+            "665:A09:R02:S03",
+            "665:A09:R02:S04",
+            "665:A09:R02:S05",
+            "665:A09:R02:S06",
+            "665:A09:R02:S07"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "known_issue": "FOTO_MANO_ADICIONAL_RISEHEART_CONTRADICE_SOLO_FENRIR",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+          "a08_id": "665:A08:ROUTE:03",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "solo Kashtira Unicorn. Campo/GY propios: vacíos. Deck: 1× Kashtiratheosis, 1× Kashtira Fenrir (TIERRA), 1× Kashtira Riseheart (FUEGO) y 1× Kashtira Big Bang disponibles. Extra: Shangri-Ira. Rival con mínimo 3 cartas en Deck; sin negaciones ni bloqueos previos. Es Main Phase propia y la Invocación Normal sigue libre.",
+          "hand_cids": [
+            17769
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17769,
+              "name": "Kashtira Unicorn",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+              "card_id": 93
+            }
+          ],
+          "existing_steps": 7,
+          "step_ids": [
+            "665:A09:R03:S01",
+            "665:A09:R03:S02",
+            "665:A09:R03:S03",
+            "665:A09:R03:S04",
+            "665:A09:R03:S05",
+            "665:A09:R03:S06",
+            "665:A09:R03:S07"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+          "a08_id": "665:A08:ROUTE:04",
+          "parent_id": "665:A09:WRAITSOTH:SHANGRI01",
+          "category": "CONTINUACION",
+          "opening": "- Familia y referencia: 665:A08:04 / 665:A09:C04; esta ficha depende de completar en el turno 1 665:A09:WRAITSOTH:SHANGRI01. Objetivo: preparar Arise-Heart con tres materiales conservando un Fenrir independiente. Dificultad: media por supervivencia entre turnos; formato: TCG, versión contrato 4. No equivale a un combo OTK ni a invocar Arise en el turno 1.\n- Apertura del turno 1: ![Wraitsoth](imagenes/tcg/18204.jpg) únicamente Wraitsoth en mano, con Unicorn, Kashtiratheosis y Fenrir en Deck, y ![Shangri](imagenes/tcg/17800.jpg) Shangri-Ira en Extra; aplicar exactamente los pasos 1–5 de la ficha previa WRAITSOTH:SHANGRI01. Se termina con Shangri en Defensa, 2 materiales Xyz originales (Unicorn + primer Fenrir) y Wraitsoth en Zona de Campo. Normal del turno 1 libre. No ocurre destierro rival boca abajo en esos pasos. Nueva condición de estado: Shangri-Ira debe permanecer en Campo durante el turno del rival sin ser neutralizado, volteado boca abajo ni perder la capacidad de activar sus efectos. La mano/carta de robo del siguiente turno no se usan ni se presuponen conocidas.",
+          "hand_cids": [],
+          "verified_hand_photos": [],
+          "existing_steps": 3,
+          "step_ids": [
+            "665:A09:R04:S01",
+            "665:A09:R04:S02",
+            "665:A09:R04:S03"
+          ],
+          "missing_step_photos": [
+            3
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3
+          ],
+          "known_issue": "CAMPOS_ANTERIORES_FOTOGRAFIADOS_COMO_MANO",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+          "a08_id": "665:A08:ROUTE:05",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "Apertura exacta: ![Fenrir](imagenes/tcg/17768.jpg) Kashtira Fenrir (17768) + ![Nacimiento](imagenes/tcg/17815.jpg) Nacimiento Kashtira (17815) en mano; propio Campo/GY vacíos, Main Phase propia, sin respuesta rival. En Main Deck quedan al menos Unicornio (17769, VIENTO), Kashtirateosis (18203), Ogro (17770, AGUA) y Preparaciones Kashtira (17831, Trampa); Extra incluye Shangri-Ira (17800). No requiere Riseheart ni desterrar cartas rivales.",
+          "hand_cids": [
+            17768,
+            17815
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            },
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            }
+          ],
+          "existing_steps": 6,
+          "step_ids": [
+            "665:A09:R05:S01",
+            "665:A09:R05:S02",
+            "665:A09:R05:S03",
+            "665:A09:R05:S04",
+            "665:A09:R05:S05",
+            "665:A09:R05:S06"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+          "a08_id": "665:A08:ROUTE:06",
+          "parent_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+          "category": "DECISION",
+          "opening": "Mano inicial: igual que FENRIR:BIRTH:SHANGRI05, pero el rival controla al menos un monstruo boca arriba elegible para tomar el control; sin respuestas a las activaciones. En Extra Número 11: Ojo Grande (9861, Rango 7, ATK 2600) sustituye a Shangri como destino. No se presupone ATK ni efectos del monstruo capturado.",
+          "hand_cids": [
+            17768,
+            17815
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            },
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            }
+          ],
+          "existing_steps": 4,
+          "step_ids": [
+            "665:A09:R06:S01",
+            "665:A09:R06:S02",
+            "665:A09:R06:S03",
+            "665:A09:R06:S04"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "known_issue": "MANO_HEREDADA_DE_RUTA_PADRE_NO_REPETIDA_EN_FOTOS",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+          "a08_id": "665:A08:ROUTE:07",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "Apertura exacta: ![Wraitsoth](imagenes/tcg/18204.jpg) Planeta Bajo Presión Wraitsoth (18204) + ![Riseheart](imagenes/tcg/18151.jpg) Kashtira Riseheart (18151) en mano; propio Campo/GY vacíos, Main Phase propia, sin respuesta rival. Deck con Unicornio, Teosis, Fenrir y Big Bang; Extra con Shangri-Ira y Número 11: Ojo Grande. El adversario tiene al menos tres cartas en el Deck. No hace falta que controle monstruos. Se presupone el desarrollo de una carta WRAITSOTH:SHANGRI01, descrito antes.",
+          "hand_cids": [
+            18204,
+            18151
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 18204,
+              "name": "Pressured Planet Wraitsoth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+              "card_id": 100
+            },
+            {
+              "cid": 18151,
+              "name": "Kashtira Riseheart",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+              "card_id": 94
+            }
+          ],
+          "existing_steps": 7,
+          "step_ids": [
+            "665:A09:R07:S01",
+            "665:A09:R07:S02",
+            "665:A09:R07:S03",
+            "665:A09:R07:S04",
+            "665:A09:R07:S05",
+            "665:A09:R07:S06",
+            "665:A09:R07:S07"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+          "a08_id": "665:A08:ROUTE:08",
+          "parent_id": null,
+          "category": "STARTER",
+          "opening": "Mano inicial mínima: ![Wraitsoth](imagenes/tcg/18204.jpg) Planeta Bajo Presión Wraitsoth + ![Riseheart](imagenes/tcg/18151.jpg) Kashtira Riseheart. Campo y GY propios vacíos; durante la Main Phase propia; rival sin respuestas y con al menos tres cartas en el Deck. El Main conserva Unicornio, Fenrir, Teosis y Big Bang; el Extra contiene Shangri-Ira y ![Arise-Heart](imagenes/tcg/18191.jpg) Arise-Heart. Es una bifurcación incompatible con la ruta 07: aquí no se recupera Fenrir mediante Big Bang. Se describe la mecánica de las cartas del inventario, sin evaluación de listas de prohibiciones.",
+          "hand_cids": [
+            18204,
+            18151
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 18204,
+              "name": "Pressured Planet Wraitsoth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+              "card_id": 100
+            },
+            {
+              "cid": 18151,
+              "name": "Kashtira Riseheart",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+              "card_id": 94
+            }
+          ],
+          "existing_steps": 6,
+          "step_ids": [
+            "665:A09:R08:S01",
+            "665:A09:R08:S02",
+            "665:A09:R08:S03",
+            "665:A09:R08:S04",
+            "665:A09:R08:S05",
+            "665:A09:R08:S06"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "known_issue": "FOTO_ARISE_EN_MANO_INICIAL_AUNQUE_PERTENECE_AL_EXTRA",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+          "a08_id": "665:A08:ROUTE:09",
+          "parent_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+          "category": "EXTENSION",
+          "opening": "Apertura: las mismas dos cartas, condiciones y ubicaciones iniciales de ARISE3MAT08. Objetivo alternativo: conservar Shangri-Ira boca arriba y su zona bloqueada, además de Invocar a Arise-Heart sobre Riseheart, aceptando que comienza con un único material y no puede pagar todavía el coste de tres materiales de su destierro rápido. No se combina con ruta 07 ni ruta 08: se elige un destino del Extra diferente para Riseheart.",
+          "hand_cids": [
+            18204,
+            18151
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 18204,
+              "name": "Pressured Planet Wraitsoth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+              "card_id": 100
+            },
+            {
+              "cid": 18151,
+              "name": "Kashtira Riseheart",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+              "card_id": 94
+            }
+          ],
+          "existing_steps": 4,
+          "step_ids": [
+            "665:A09:R09:S01",
+            "665:A09:R09:S02",
+            "665:A09:R09:S03",
+            "665:A09:R09:S04"
+          ],
+          "missing_step_photos": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "known_issue": "MANO_HEREDADA; ARISE_RAPIDO_CON_MENOS_DE_3_MATERIALES_NO_DISPONIBLE",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+          "a08_id": "665:A08:ROUTE:10",
+          "parent_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+          "category": "CONTINUACION",
+          "opening": "1× Kashtira Fenrir + 1× Kashtira Birth.",
+          "hand_cids": [
+            17768,
+            17815
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            },
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            }
+          ],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R10:S01",
+            "665:A09:R10:S02",
+            "665:A09:R10:S03",
+            "665:A09:R10:S04",
+            "665:A09:R10:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+          "a08_id": "665:A08:ROUTE:11",
+          "parent_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+          "category": "CONTINUACION",
+          "opening": "Consultar requisitos exactos en la ruta técnica enlazada.",
+          "hand_cids": [],
+          "verified_hand_photos": [],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R11:S01",
+            "665:A09:R11:S02",
+            "665:A09:R11:S03",
+            "665:A09:R11:S04",
+            "665:A09:R11:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [],
+          "known_issue": "NO_ES_APERTURA_AUTONOMA_REQUIERE_XYZ_Y_BATALLA",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+          "a08_id": "665:A08:ROUTE:12",
+          "parent_id": null,
+          "category": "CONTINUACION",
+          "opening": "Consultar requisitos exactos en la ruta técnica enlazada.",
+          "hand_cids": [],
+          "verified_hand_photos": [],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R12:S01",
+            "665:A09:R12:S02",
+            "665:A09:R12:S03",
+            "665:A09:R12:S04",
+            "665:A09:R12:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [],
+          "known_issue": "REQUIERE_TABLERO_PREVIO_Y_MATERIALES_LINK_NO_MANO_INICIAL",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+          "a08_id": "665:A08:ROUTE:13",
+          "parent_id": null,
+          "category": "RESPUESTA",
+          "opening": "Turno propio jugando segundo, sin monstruos propios. Fenrir en mano; también puede usarse Unicornio u Ogro en su lugar. Arise-Heart y ZEUS disponibles en Extra. El efecto de Shangri-Ira rival se activó correctamente en la Standby de ESTE turno. El rival conserva Shangri-Ira en Defensa, Arise-Heart con dos materiales y los monstruos mostrados en el ejemplo. Battle Phase y Main Phase 2 disponibles; sin bloqueo de Especial ni del Extra.",
+          "hand_cids": [
+            17768
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            }
+          ],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R13:S01",
+            "665:A09:R13:S02",
+            "665:A09:R13:S03",
+            "665:A09:R13:S04",
+            "665:A09:R13:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "known_issue": "SOLO_CON_ACTIVACION_RIVAL_SHANGRI_DEL_TURNO_Y_BATALLA",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+          "a08_id": "665:A08:ROUTE:14",
+          "parent_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+          "category": "STARTER",
+          "opening": "Fenrir y Nacimiento en mano; campo y GY propios vacíos, Normal disponible, Main Phase propia. En Main quedan Unicornio, Teosis, Riseheart, Big Bang y otro Fenrir; Shangri-Ira y Arise-Heart en Extra. El rival debe tener tres cartas en Deck para el efecto de Riseheart y una zona disponible que Shangri-Ira pueda bloquear.",
+          "hand_cids": [
+            17768,
+            17815
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17768,
+              "name": "Kashtira Fenrir",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+              "card_id": 92
+            },
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            }
+          ],
+          "existing_steps": 9,
+          "step_ids": [
+            "665:A09:R14:S01",
+            "665:A09:R14:S02",
+            "665:A09:R14:S03",
+            "665:A09:R14:S04",
+            "665:A09:R14:S05",
+            "665:A09:R14:S06",
+            "665:A09:R14:S07",
+            "665:A09:R14:S08",
+            "665:A09:R14:S09"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "known_issue": null,
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+          "a08_id": "665:A08:ROUTE:15",
+          "parent_id": null,
+          "category": "STARTER_CONDICIONADO",
+          "opening": "Unicornio, Ash Blossom y Nacimiento en mano; campo vacío y Normal libre. Baronne, Shangri-Ira y Arise-Heart disponibles en Extra. Teosis, Fenrir, Riseheart y Big Bang disponibles en Main. No se presupone otro Cantante: se usa la Ash registrada en esta lista.",
+          "hand_cids": [
+            17769,
+            12950,
+            17815
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17769,
+              "name": "Kashtira Unicorn",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+              "card_id": 93
+            },
+            {
+              "cid": 12950,
+              "name": "Ash Blossom & Joyous Spring",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12950.jpg",
+              "card_id": 98
+            },
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            }
+          ],
+          "existing_steps": 9,
+          "step_ids": [
+            "665:A09:R15:S01",
+            "665:A09:R15:S02",
+            "665:A09:R15:S03",
+            "665:A09:R15:S04",
+            "665:A09:R15:S05",
+            "665:A09:R15:S06",
+            "665:A09:R15:S07",
+            "665:A09:R15:S08",
+            "665:A09:R15:S09"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "known_issue": "ASH_SOLO_CANTANTE_ESPECIFICO; CUIDAR_ORDEN_ANTES_DE_LOCK_XYZ",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        },
+        {
+          "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+          "a08_id": "665:A08:ROUTE:16",
+          "parent_id": null,
+          "category": "CONTINUACION_GY",
+          "opening": "Campo propio: Vacío.\nCementerio propio: Kashtira Ogre (CID 17770) ya está en el Cementerio por una jugada ANTERIOR real.\nEstado rival: No se requieren cartas del oponente; no hay interrupciones en la línea base.\nMomento: Main Phase propia; Tearlaments Kashtira disponible en mano.",
+          "hand_cids": [
+            17815,
+            18153
+          ],
+          "verified_hand_photos": [
+            {
+              "cid": 17815,
+              "name": "Kashtira Birth",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+              "card_id": 101
+            },
+            {
+              "cid": 18153,
+              "name": "Tearlaments Kashtira",
+              "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18153.jpg",
+              "card_id": 97
+            }
+          ],
+          "existing_steps": 5,
+          "step_ids": [
+            "665:A09:R16:S01",
+            "665:A09:R16:S02",
+            "665:A09:R16:S03",
+            "665:A09:R16:S04",
+            "665:A09:R16:S05"
+          ],
+          "missing_step_photos": [],
+          "missing_step_states": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "known_issue": "BIRTH_DISPONIBLE_EN_ESTADO_INICIAL; OGRE_EN_GY_PREVIO_NO_CARTA_EN_MANO",
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+        }
+      ],
+      "summary": {
+        "historical_routes": 16,
+        "historical_steps": 92,
+        "steps_with_photos": 57,
+        "steps_missing_photos": 35,
+        "steps_with_structured_resources": 27,
+        "steps_missing_structured_resources": 65,
+        "certified_combos": 0,
+        "engine_replays": 0,
+        "spatial_endboards_certified": 0
+      },
+      "next_requirements": [
+        "A09-T2: step_id→effect_id exacto, costo/ventana/materiales, estado antes/después",
+        "A09-T3: casos positivos y negativos por ruta, cotejo PSCT oficial",
+        "A09-T4: guía canónica íntegra con fotos y endboard comprobado"
+      ]
     }
   },
   "provenance": {
