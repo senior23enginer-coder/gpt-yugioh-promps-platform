@@ -33,7 +33,12 @@ function run(historyFile,documentFile){
  const taskRows=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
  const expected=JSON.parse(fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'))
   .stages.filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
- A.deepEqual(taskRows.map(m=>m[2]),expected);A.equal(taskRows.length,35);
+ A.equal(expected.length,37,'CURRENT_CONTRACT_HAS_37_MANDATORY_TASKS');
+ const historicalExpected=expected.filter(id=>id!=='A01-T4'&&id!=='A01-T5');
+ A.deepEqual(taskRows.map(m=>m[2]),historicalExpected);
+ A.equal(taskRows.length,35,'HISTORICAL_35_TASK_LEDGER');
+ // Historical tasks do not certify the two newly added A01 obligations.
+ A(!taskRows.some(m=>['A01-T4','A01-T5'].includes(m[2])),'NO_RETROACTIVE_CERTIFICATION');
  A.deepEqual(taskRows.filter(m=>m[1]==='x').map(m=>m[2]).slice(0,16),['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3','A03-T1','A03-T2','A03-T3','A04-T1','A04-T2','A04-T3','A05-T1','A05-T2','A05-T3','A05-T4']);
  A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35)&&ledger.includes('Side 0'));
 for(const k of ['A02-T1','A02-T2','A02-T3'])A(taskRows.some(x=>x[2]===k&&x[1]==='x'),'A02_CHECKLIST_NOT_SYNCHRONIZED');
