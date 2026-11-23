@@ -39,7 +39,7 @@ assert.equal(structure.inventory.length,44);
 assert.equal(structure.record.routes.length,16);
 const doc=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'),'utf8');
 for(const task of ['A01-T1','A01-T2','A01-T3'])assert(doc.includes('- [x] **'+task),'A01_NOT_CERTIFIED_'+task);
-assert(doc.includes('12/35')&&doc.includes('23/35'),'A01_A02_A03_PROGRESS_WRONG');
+assert(doc.includes('16/35')&&doc.includes('19/35'),'A01_A02_A03_PROGRESS_WRONG');
 const report=fs.readFileSync(path.join(root,'03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'),'utf8');
 assert(report.includes('EXCEPCION_A01_AUTORIZADA')&&report.includes('COMPLETA 3/3'),'OLD_BLOCKING_REPORT_NOT_RECONCILED');
 assert(report.includes('No evaluar banlist si no se pidió'),'USER_OUT_OF_SCOPE_RULE_MISSING');

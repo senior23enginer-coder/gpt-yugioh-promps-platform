@@ -86,8 +86,8 @@ function run(pkgPath,mdPath,histPath){
  const expected=JSON.parse(fs.readFileSync(path.join(ROOT,'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8')).stages
   .filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(statuses.map(m=>m[2]),expected);
- A.deepEqual(statuses.filter(m=>m[1]==='x').map(m=>m[2]),expected.slice(0,12));
- A(ledger.includes('12/35')&&ledger.includes('23/35'),'A04_PROGRESS_DRIFT');
+ A.deepEqual(statuses.filter(m=>m[1]==='x').map(m=>m[2]),expected.slice(0,16));
+ A(ledger.includes('16/35')&&ledger.includes('19/35'),'A04_PROGRESS_DRIFT');
  const section=md.slice(md.indexOf('## APARTADO_04 —'));
  for(const token of ['FOTO_OK_MINIATURA','FOTO_HD_NO_CERTIFICADA','FOTO_PENDIENTE=0',
   'NO_VERIFICADO_ESPACIAL','xyz_materials','graveyard','banished','A04-T1 [x]','A04-T2 [x]','A04-T3 [x]'])
@@ -95,7 +95,7 @@ function run(pkgPath,mdPath,histPath){
  const original=fs.readFileSync(path.join(DIR,'imagenes/tcg',photoRows[0].split(tick)[1]+'.jpg'));
  A.notEqual(sha(Buffer.concat([original,Buffer.from([0])])),photoRows[0].match(/[a-f0-9]{40}/)[0],
    'IMAGE_MUTATION_HASH_NOT_DETECTED');
- return {ok:true,deck_id:665,stage:'A04',closed:12,pending:23,
+ return {ok:true,deck_id:665,stage:'A04',closed:16,pending:19,
   physical:{main:42,extra:15,side:0,reserve:19},cids:38,slots:44,
   jpgVerified:44,jpgPhysical:38,jpgExtraReferenced:6,quality:'THUMBNAIL_268x391_NOT_HD',
   webpInfographics:15,webpExamples:4,imageReferences:imageRefs,
