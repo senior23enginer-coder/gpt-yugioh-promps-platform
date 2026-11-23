@@ -12,6 +12,128 @@
 - Main: **30**; Extra: **8**; Side: **0**; Reserva: **0**.
 
 
+## APARTADO_01 — Evidencia actual HERO 706 (23-11-2026)
+
+**Deck/identidad verificada:** 706 · formato Rush Duel · **30 Main (12 identidades) + 8 Extra (5 identidades)** · Side 0 y Reserva 0 · Skill `Hero Rush Rising` separada de las cartas físicas. Extra opcional en el formato, pero este deck sí tiene 8 copias cargadas. No se analiza la banlist.
+
+### A01-T1 — Arquetipo, motores, plan por fase y riesgos verificados
+
+- **Arquetipo / estilo:** Elemental HERO, Combo-Midrange de Fusión con materiales nombrados y recuperación. **Motor principal:** Avian CID 20460 (3), Sparkman 20457 (3), Burstinatrix 20459 (3), Fusión 16934 (2); la Fusión Rush documentada necesita cuerpos **boca arriba en Campo**.
+- **Motores secundarios:** Rising HERO Argent/Argen CID 20461 (3) revela una Fusión Guerrero Nivel 6/7, excava cuatro cartas y puede añadir hasta dos Normales **que realmente fueron revelados y aparecen como materiales nombrados**; Inicio Reinicio CID 16929 (3) recupera un Normal y puede recuperar Fusión; Descenso de Héroe 20665 (3) recupera hasta dos objetivos con suma de Niveles máximo 7; Circulación Elemental 20465 (3) paga material nombrado antes de robar.
+- **Extra real:** Voltic Wingman CID 21316 (2) requiere Sparkman+Avian; Burst Wingman CID 20454 (2) y Flame Wingman CID 20453 (1) exigen Avian+Burstinatrix; Heliosphere CID 21501 (1) usa Sparkman+Avian+Burstinatrix y exige al menos diez cartas en Deck para su efecto; Shining Flare Wingman CID 20610 (2) usa Flame Wingman+Sparkman. No asumir que todas esas ramas se resuelven en una misma mano.
+- **Skill Hero Rush Rising:** requisito de construcción: todos los monstruos con ATK 1600+ del Deck deben ser Guerreros/LUZ y todos los del Extra, Guerreros. En esta lista Sparkman es el Normal de ATK 1600; los demás monstruos Main del censo (Avian, Burstinatrix y Argen) quedan por debajo; el Extra está integrado por cinco Fusiones Guerrero. **Para activarla** hay que enviar una carta del Campo propio al Cementerio; reduce 600 ATK/DEF de un monstruo boca arriba y permite añadir `Fusión` desde Deck/Cementerio a la mano. No Invoca ningún HERO automáticamente.
+- **Ir primero:** preparar materiales, evitar pagos que desarmen el Campo, conservar el acceso a Fusión. **Ir segundo:** elegir línea de Wingman que resuelva ante el rival, pagando los requisitos de Skill/Argen cuando correspondan. **Medio/tardío:** recuperar Normales, usar efectos de continuidad de Extra solo en su ventana y evitar gastar los tres nombres necesarios para Heliosphere.
+- **Condición de victoria:** ventaja de campo con Fusiones HERO y daño después de efectos que realmente resuelvan, sin prometer daño letal. **Riesgos:** 3 nombres concretos requeridos, excavación de Argen no garantizada, Skill con coste físico de Campo, ventanas de Voltic y Heliosphere y restricciones de atacantes tras Descenso de Héroe.
+- **Fuentes contrastables:** [Konami Rush CID 20461 (Argen)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2), [Konami Rush CID 21501 (Heliosphere)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2), [Skill Hero Rush Rising](https://www.duellinksmeta.com/skills/Hero%20Rush%20Rising). Textos españoles de nombres/efectos son resúmenes editoriales, no sustituyen cartas físicas ni texto original.
+
+### A01-T2 — Perfil textual de seis campos, pendiente paquete estructurado
+
+- **Arquetipo:** Elemental HERO de Rush Duel (Skill Hero Rush Rising).
+- **Tipo de estrategia:** Combo-Midrange basado en Fusiones de Guerreros con materiales nombrados.
+- **Estilo breve:** Reúne Avian, Sparkman y Burstinatrix con Argen, Descenso de Héroe y Fusión; el Extra decide el remate. Hero Rush Rising puede recuperar Fusión pagando una carta del Campo.
+- **Resumen para ficha:** Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables.
+- **Cómo se juega:** Primero: asegurar el acceso a Avian, Sparkman y Burstinatrix, reciclar Normales por Inicio Reinicio y no anunciar Fusiones sin el Campo preparado. Segundo: usar Argen para excavar cuatro cartas y sumar hasta dos Normales si efectivamente aparecen; elegir Wingman, Heliosphere o Voltic solo cuando se disponga del procedimiento y materiales nombrados. Juego medio/tardío: Hero Rush Rising puede enviar una carta propia de Campo al Cementerio, bajar 600 ATK/DEF a un monstruo boca arriba y recuperar Fusión de Deck/Cementerio cuando se cumpla su requisito de construcción.
+- **Qué vigilar:** Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.
+
+**Extensiones:** Estilo breve 171/190; Resumen para ficha 248/250. Aunque hay seis cadenas listas, **no declarar A01-T2 completa** sin acreditar equivalencia literal con `record.profile` JSON y fuentes.
+
+### A01-T3 — Propósitos, CIDs, zonas, cantidades y requisitos de todas las cartas
+
+| CID Rush | Carta | Zona/cantidad | Propósito | Condición para activar o resolver | Resultado documentado |
+|---|---|---|---|---|---|
+| [20460](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&ope=2) | Héroe Elemental Avian | Main ×3 | Material Normal nombrado Avian | No tiene efecto. | Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera. |
+| [20457](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&ope=2) | Héroe Elemental Sparkman | Main ×3 | Material Normal nombrado Sparkman | No tiene efecto. | Monstruo Normal de 1600 ATK; se emplea como material nombrado de Voltic Wingman, Heliosfera y Shining Flare Wingman. |
+| [20459](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&ope=2) | Héroe Elemental Burstinatrix | Main ×3 | Material Normal nombrado Burstinatrix | No tiene efecto. | Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera. |
+| [20461](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2) | Héroe Ascendente de Argen | Main ×3 | Excavar cuatro y recuperar Normales revelados | Revelar un monstruo Fusión Guerrero de Nivel 6 o 7 del Extra Deck. | Revelar las cuatro cartas superiores del Deck; añadir hasta dos monstruos Normales nombrados como material de esa Fusión y colocar las restantes en el fondo del Deck en el orden elegido. |
+| [16929](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&ope=2) | Inicio Reinicio | Main ×3 | Reponer Normal desde Cementerio | Colocar una carta de la mano al fondo del Deck. | Invoca un monstruo Normal de Nivel 5 o menor del Cementerio y opcionalmente recupera una Fusión de ese Cementerio. |
+| [20665](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&ope=2) | Descenso de Héroe | Main ×3 | Revivir Normales/Neo-Espaciales con límite de niveles | Sin requisito de activación. | Invoca desde el Cementerio, en Defensa boca arriba, hasta dos objetivos permitidos (Neo-Espaciales específicos o Guerreros Normales) cuyos Niveles sumen como máximo siete. Ese turno solo pueden atacar tus Guerreros. |
+| [20151](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2) | Brillo Sombrío | Main ×3 | Defensa ante invocación rival | Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio. | Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP. |
+| [20465](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&ope=2) | Circulación Elemental | Main ×3 | Robo y selección condicionada de material | Revelar una Fusión Guerrero de Nivel 6 o 7 del Extra y enviar de la mano un Guerrero cuyo nombre sea material de esa Fusión. | Roba tres, luego manda una carta de la mano al Cementerio. Durante el resto del turno impide activar efectos de monstruos que no sean Guerreros. |
+| [16358](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&ope=2) | Estrategia Mágica Aviar | Main ×2 | Romper M/T bajo presencia de Guerreros | Controlar en conjunto dos o más Guerreros y/o Bestias Aladas boca arriba. | Destruye una Mágica/Trampa rival; luego puedes devolver al tope del Deck un Guerrero o Bestia Alada de Nivel 8 o menor del Cementerio. |
+| [16934](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2) | Fusión | Main ×2 | Fusión con materiales de Campo | Sin requisito de activación. | Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano. |
+| [15913](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2) | Agujero Trampa | Main ×1 | Trampa ante Invocación | Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK. | Destruye ese monstruo invocado. |
+| [16372](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2) | Olla de la Codicia | Main ×1 | Robo | Sin requisito de activación. | Roba dos cartas. |
+| [21316](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&ope=2) | Héroe Elemental Voltic Wingman | Extra ×2 | Fusión y transición a Fusión adicional | Solo Invocación por Fusión; materiales Sparkman + Avian. Efecto en Main Phase propia en que fue Invocado de Modo Especial. | Devuelve al Deck monstruos del Cementerio empleados como materiales y realiza una Fusión de un monstruo Guerrero Nivel 6 a 8 que solo se pueda Invocar por Fusión. |
+| [20454](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&ope=2) | Héroe Elemental del Estallido Wingman | Extra ×2 | Fusión + bono de ATK + M/T | Solo Invocación por Fusión; materiales Avian + Burstinatrix. Enviar la primera carta del Deck al Cementerio. | Aumenta 1000 ATK de un Guerrero propio boca arriba hasta el final del siguiente turno rival; después puede destruir una Mágica/Trampa rival. |
+| [20453](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&ope=2) | Héroe Elemental de la Llama Wingman | Extra ×1 | Fusión con daño de efecto al destruir en batalla | Solo Invocación por Fusión; materiales Avian + Burstinatrix. Efecto continuo sin requisito activado. | Si destruye en batalla un monstruo y lo manda al Cementerio, inflige daño igual al ATK original de ese monstruo. |
+| [21501](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2) | Héroe Elemental Heliosfera | Extra ×1 | Fusión triple y robo revelado condicional | Solo Invocación por Fusión; materiales Sparkman + Avian + Burstinatrix. Tener al menos diez cartas en el Deck. | Robar y revelar una carta; si resulta ser monstruo, además puede destruir una carta del Campo rival. |
+| [20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2) | Héroe Elemental Shining Flare Wingman | Extra ×2 | Fusión de Flame Wingman+Sparkman con daño de batalla | Solo Invocación por Fusión; materiales Flame Wingman + Sparkman; efecto continuo. | Gana 300 ATK por cada Guerrero en tu Cementerio; al destruir en batalla y enviar al Cementerio un monstruo, inflige daño igual a su ATK original. |
+
+**Relaciones documentales existentes:** `706:A09:VOLTIC:SECOND01A`, `706:A09:AVIAN:BURST01A`, `706:A09:SHINING:DOUBLE01`, `706:A09:V11:TRIPLE_NORMAL:HELIOSPHERE`. Verificar la conexión causal de cada paso antes de A09/A10A; los `effect_id` no conciliados quedan `PENDIENTE_DE_ENLACE_A05_A09`. Los nombres y cantidades de cartas nunca se cambian.
+
+### A01-T4 / A01-T5 — Controles que faltan
+
+- **T4 pendiente:** no atribuir `a01_profile_contract` sin JSON real exportado de este mismo deck, inventario ligado y paridad exacta Markdown/JSON.
+- **T5 pendiente:** falta evidencia de importación, exportación, render móvil/escritorio y pruebas de rechazo/preservación de datos con el paquete 706. No se ha ejecutado importación ni motor A10B.
+- **No alterar el legado:** la documentación A05–A10 y rutas existentes continúan disponibles con sus estados previos, sin certificación retroactiva.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Manifiesto oficial:** `station-x-a01-a10-task-manifest/1` · **solo 706** · **A01-T1/T3 verificadas** · T2/T4/T5 abiertas por paridad y pruebas reales · A10B no autorizado.
+
+### A01
+- [x] **A01-T1** — TAREA ACREDITADA por el informe A01, fuentes CID e inventario real.
+- [ ] **A01-T2** — BLOQUEADA: seis campos textuales listos; falta record.profile JSON.
+- [x] **A01-T3** — TAREA ACREDITADA por el informe A01, fuentes CID e inventario real.
+- [ ] **A01-T4** — BLOQUEADA: sin paridad literal MD/JSON ni contrato importable real.
+- [ ] **A01-T5** — BLOQUEADA: sin evidencia de importación/exportación/render/rechazo para el deck 706.
+
+### A02
+- [ ] **A02-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A02-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A02-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A03
+- [ ] **A03-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A03-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A03-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A04
+- [ ] **A04-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A04-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A04-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A05
+- [ ] **A05-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A05-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A05-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A05-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A06
+- [ ] **A06-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A06-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A06-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A06-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A07
+- [ ] **A07-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A07-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A07-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A07-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A08
+- [ ] **A08-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A08-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A08-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A08-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A09
+- [ ] **A09-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A09-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A09-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A09-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A10A
+- [ ] **A10A-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A10A-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A10A-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+### A10B (opt-in, no solicitado)
+- [ ] **A10B-T4** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A10B-T5** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [ ] **A10B-T6** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+
+---
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** HERO de Rush Duel, con habilidad Hero Rush Rising.
