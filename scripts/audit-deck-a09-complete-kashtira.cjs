@@ -93,7 +93,7 @@ function audit(){
   A(r.a08_review.route_candidates[i].independent_complete_combo_certified===false);
  }
  A.equal(n,92);
- A(materialLinks>100,'MISSING_XYZ_TRANSFER_EVIDENCE');
+ A.equal(materialLinks,94,'XYZ_MATERIAL_SNAPSHOT_COUNT_DRIFT');
  A.equal(s.paper_case_links.summary.source_case_links,520);
  A.equal(s.paper_case_links.summary.engine_replays,0);
  // Deck-specific timing/negative invariants for known historically dangerous routes
