@@ -1,0 +1,92 @@
+name: Prepare Station X import ZIPs (Memento 671 and Crystron 677)
+on:
+  push:
+    branches: ['prep/stationx-import-671-677-20261122']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prepare-two-deck-zips:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package two independent deck folders without modifying inventory
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+          from hashlib import sha256
+
+          root = Path("01_INFORMACION_PARA_IMPORTAR/decks")
+          out = Path("stationx-import-zips")
+          out.mkdir(exist_ok=True)
+          specs = [
+              (671, "DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO", (41,15,14,0), 12,69, "Memento_671_StationX_Import.zip"),
+              (677, "DECK_NUEVO_13_CRISTRON_HORUS", (40,15,15,0), 14,60, "Crystron_Horus_677_StationX_Import.zip"),
+          ]
+          manifest = []
+          for deck_id, name, expected_inventory, routes, steps, zip_name in specs:
+              folder = root / name
+              p = folder / "datos/stationx-deck.json"
+              obj = json.loads(p.read_text(encoding="utf-8"))
+              assert obj["schema"] == "station-x-deck-package/1"
+              assert obj["deck_id"] == obj["record"]["deck_id"] == deck_id
+              assert obj["record"]["format"] == "tcg_advanced"
+              assert len(obj["record"]["cards"]) == 39
+              assert len(obj["record"]["routes"]) == routes
+              assert sum(len(r["steps"]) for r in obj["record"]["routes"]) == steps
+              assert len({r["id"] for r in obj["record"]["routes"]}) == routes
+              totals = dict(main=0, extra=0, side=0, reserve=0)
+              for card in obj["record"]["cards"]:
+                  for slot in card["slots"]:
+                      totals[slot["section"]] += slot["quantity"]
+              assert tuple(totals[k] for k in ("main","extra","side","reserve")) == expected_inventory
+              assert len(obj["inventory"]) == 40
+              required = [
+                  "datos/stationx-deck.json",
+                  "datos/A04_HD_IMAGE_PROVENANCE.json",
+                  "guias/GUIA_VISUAL_A01_A10.html",
+                  f"{name}_CONTENIDO_CURADO.md",
+              ]
+              files = [folder / s for s in required]
+              photos = sorted((folder/"imagenes").glob("*"))
+              assert len(photos) == 39
+              assert all(im.suffix.lower() in (".png", ".jpg") for im in photos)
+              for card in obj["record"]["cards"]:
+                  fp = folder / "imagenes" / Path(card["full_image"]).name
+                  assert fp.exists()
+                  assert fp.stem == str(card["cid"])
+              files += photos
+              assert len(files) == 43
+              assert all(f.is_file() for f in files)
+              dest = out / zip_name
+              with ZipFile(dest, "w", compression=ZIP_DEFLATED, compresslevel=6) as z:
+                  for item in files:
+                      relative = item.relative_to(folder).as_posix()
+                      z.write(item, arcname=name + "/" + relative)
+              with ZipFile(dest) as z:
+                  names = z.namelist()
+                  assert len(names) == 43
+                  assert len(set(names)) == 43
+                  assert all(n.startswith(name+"/") for n in names)
+                  assert z.testzip() is None
+              assert dest.stat().st_size < 48 * 1024 * 1024, "Station X upload exceeds 48 MiB"
+              manifest.append({"deck_id":deck_id,"deck_name":name,"zip_name":zip_name,
+                               "bytes":dest.stat().st_size,"sha256":sha256(dest.read_bytes()).hexdigest(),
+                               "files":len(files),"inventory":totals,"routes":routes,"steps":steps})
+          (out / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+          print(json.dumps(manifest, indent=2))
+          PY
+      - name: Publish the two original-size ZIP files in a downloadable Actions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: StationX-Memento671-Crystron677-Import-ZIPs
+          path: stationx-import-zips/
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
