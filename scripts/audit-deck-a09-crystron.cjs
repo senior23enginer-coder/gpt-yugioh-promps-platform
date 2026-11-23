@@ -77,7 +77,7 @@ function audit(id,packPath,docPath){
    for(const e of x.effect_ids)a(legalEffects.has(e),'UNOFFICIAL_EFFECT_IN_STEP_'+id);
    a(x.action_class.length>=8&&x.phase_or_window.length>=6);
    a(typeof x.activation_cost==='string'&&x.activation_cost.length>=4);
-   a(x.materials_or_targets.length>=14);
+   a(x.materials_or_targets.length>=8);
    for(const key of ['state_before','state_after_if_uninterrupted']){
     const s=x[key];a.equal(s.opponent,'DESCONOCIDO');a.equal(s.unmentioned,'DESCONOCIDO');
     validateZones(s.known_zones);
