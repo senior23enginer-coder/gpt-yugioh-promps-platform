@@ -33,6 +33,20 @@ for(const section of ['main','extra']){
   assert(!r.eligible && r.violations.includes('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED'),
     section+' must remain mandatory');
 }
+// GOAT and Rush Duel may have only Main; no fictitious Extra or Side.
+for(const format of ['goat','rush_duel']){
+  const p=make();p.format=format;p.record.format=format;
+  p.inventory=p.inventory.filter(x=>x.section==='main');
+  p.record.cards[0].slots=p.record.cards[0].slots.filter(x=>x.section==='main');
+  const accepted=verdict(p);
+  assert(accepted.eligible,format+' must accept Main-only inventory');
+  assert.deepEqual(accepted.requiredSections,['main']);
+  assert.deepEqual(accepted.optionalSections,['extra','side','reserve']);
+  assert.equal(accepted.counts.extra,0,'Do not invent Extra in '+format);
+  assert.equal(accepted.counts.side,0,'Do not invent Side in '+format);
+}
+const unsupported=make();unsupported.format='unspecified';unsupported.record.format='unspecified';
+assert(!verdict(unsupported).eligible,'Unknown format cannot bypass the Extra requirement');
 const reserve=make();reserve.inventory.push({id:4,section:'reserve',quantity:2});
 reserve.record.cards[0].slots.push({card_id:4,section:'reserve',quantity:2});
 assert(verdict(reserve).eligible,'Optional Reserve is preserved');
@@ -52,5 +66,5 @@ assert(!verdict(missingFormat).eligible,'Missing format must block');
 const unsupportedZone=make();unsupportedZone.inventory[2].section='unknown';
 unsupportedZone.record.cards[0].slots[2].section='unknown';
 assert(!verdict(unsupportedZone).eligible,'Unknown section cannot be accepted');
-console.log(JSON.stringify({ok:true,required:['main','extra'],optional:['side','reserve'],
+console.log(JSON.stringify({ok:true,requiredByFormat:{tcg:['main','extra'],ocg:['main','extra'],goat:['main'],rush_duel:['main']},optional:['side','reserve'],
   stageCases:10,analysisExecuted:false,syntheticFixturesOnly:true}));
