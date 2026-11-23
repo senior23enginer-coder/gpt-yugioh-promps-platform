@@ -8,6 +8,8 @@ on:
       - 'scripts/test-a01-a10-presentation.cjs'
       - 'scripts/a01-profile-contract.cjs'
       - 'scripts/test-a01-profile-contract.cjs'
+      - 'scripts/a01-player-guide-contract.cjs'
+      - 'scripts/test-a01-player-guide-contract.cjs'
       - '.github/workflows/validate-a01-a10-presentation.yml'
   push:
     branches: [base]
@@ -17,6 +19,8 @@ on:
       - 'scripts/test-a01-a10-presentation.cjs'
       - 'scripts/a01-profile-contract.cjs'
       - 'scripts/test-a01-profile-contract.cjs'
+      - 'scripts/a01-player-guide-contract.cjs'
+      - 'scripts/test-a01-player-guide-contract.cjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -33,3 +37,5 @@ jobs:
         run: node scripts/test-a01-a10-presentation.cjs
       - name: Check A01 profile and Markdown-JSON parity on synthetic data
         run: node scripts/test-a01-profile-contract.cjs
+      - name: Validate the assigned Memento player guide, provenance and negative cases
+        run: node scripts/test-a01-player-guide-contract.cjs
