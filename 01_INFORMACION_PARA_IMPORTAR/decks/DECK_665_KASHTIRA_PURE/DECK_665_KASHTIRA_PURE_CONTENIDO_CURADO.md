@@ -9616,3 +9616,14 @@ No se cierra A09-T2, ni A09-T3/T4, ni se genera `record.calculator`. El avance m
 Los escenarios de A07 indican por regla el **coste esperado**, la guarda y el resultado hipotético; ninguno constituye una activación efectivamente resuelta ni demuestra el coste que se habría pagado en una partida. Los casos que impiden una acción llevan la salida `SIN_CONTINUACION_DEMOSTRADA`. En procedimientos sin cadena no se atribuye una negación de efecto propio inexistente, y los controles `NO_APLICA` de A07 permanecen así.
 
 **Faltantes para cerrar T3:** reproducir la condición concreta de cada interrupción crítica en la cadena y estado previo de A09, respetar CL1/CL2, zonas y costes reales, y demostrar las continuaciones alternativas solo cuando se acrediten. No se etiquetarán 520 enlaces documentales como 520 replays o 520 combos probados. **Total de replays: 0**; pago real de costes verificado: **0**.
+
+
+### A09-T4 — revisión de campos finales y separación temporal (avance no certificado)
+
+**Estado de T4: PENDIENTE DE COMPLETAR ESTADOS FINALES.** El registro `record.a09_review.endboard_review` revisa las **16/16 descripciones** históricas de resultado y recoge los CIDs representados en Campo y como materiales Xyz o Link cuando la narración los identifica. Las cifras de copias se comparan contra Main/Extra; ninguna carta de Reserva se eleva al Campo por inferencia.
+
+En las fuentes actuales hay **5/16 pasos finales con recursos estructurados** y **11/16 descritos solo narrativamente**. Las 16 fichas conservan `DOCUMENTADA_SIN_CAMPO_ESPACIAL`: no se certificó ninguna distribución concreta M1–M5 ni una materialización visual completa. Las posiciones de antiguas infografías son ilustrativas, no requisitos del combo ni prueba del motor.
+
+**Precisión temporal relevante:** en rutas 14 y 15, el `record.routes[*].board` y el `endboard.variants[0]` históricos muestran **después** de la Standby del rival a un Fenrir adicional, sujeto a resolución de Shangri-Ira. El campo del **fin del turno propio** no debe incluirlo aún y conserva Nacimiento; se registran ambas ventanas por separado. Para la ruta Dark Armed se cotejó Nacimiento como Mágica Continua en Campo, pero no se adivinan los materiales Xyz restantes después del desacoplamiento.
+
+**Pendiente antes de cerrar T4:** reconstruir los 11 estados finales aún no estructurados en ocho zonas, comprobar coste/material y restricciones de los pasos previos en T2/T3, y decidir qué campos se pueden presentar con zonas reales o cuáles conservan el rótulo no espacial. No se convierten las 16 revisiones en campos finalizados ni en combos legales certificados.

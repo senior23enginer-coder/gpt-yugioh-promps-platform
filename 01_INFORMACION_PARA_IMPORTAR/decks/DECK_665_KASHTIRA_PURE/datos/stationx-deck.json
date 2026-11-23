@@ -62081,6 +62081,479 @@
           "actual_paid_costs_verified": 0,
           "continuations_verified": 0
         }
+      },
+      "endboard_review": {
+        "schema": "station-x-a09-final-board-review/1",
+        "deck_id": 665,
+        "status": "FINAL_DOCUMENTAL_CON_ESTADOS_ESPACIALES_PENDIENTES",
+        "review": [
+          {
+            "route_id": "665:A09:WRAITSOTH:SHANGRI01",
+            "source": "record.routes[0].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              18204
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17769,
+                  17768
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 2,
+            "final_step_resources_are_structured": true,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 592,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
+            "source": "record.routes[1].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17768,
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 437,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "source": "record.routes[2].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              17768
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17769,
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 2,
+            "final_step_resources_are_structured": true,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 473,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
+            "source": "record.routes[3].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "TURNO_2_PROPIO",
+            "on_field_cids_from_narrative": [
+              18191,
+              17768,
+              18204
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 18191,
+                "materials": [
+                  17800,
+                  17769,
+                  17768
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 3,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 625,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Fenrir independiente representa una segunda copia distinta de la acoplada"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
+            "source": "record.routes[4].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              17769,
+              17815,
+              17831
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17768,
+                  17770
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 507,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
+            "source": "record.routes[5].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              9861,
+              17769,
+              17815,
+              17831
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 9861,
+                "materials": [
+                  17768
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 338,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Monstruo rival capturado: identidad no acreditada"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
+            "source": "record.routes[6].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              9861,
+              18204
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17769
+                ]
+              },
+              {
+                "target": 9861,
+                "materials": [
+                  17768,
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 515,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
+            "source": "record.routes[7].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              18191,
+              18151,
+              18204
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 18191,
+                "materials": [
+                  17800,
+                  17769,
+                  17768
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 565,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
+            "source": "record.routes[8].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              18191,
+              17768,
+              18204
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17769
+                ]
+              },
+              {
+                "target": 18191,
+                "materials": [
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 593,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "source": "record.routes[9].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              13974,
+              17815
+            ],
+            "xyz_materials_from_narrative": [],
+            "source_endboard_photo_count": 2,
+            "final_step_resources_are_structured": true,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 458,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Dark Armed y Nacimiento constan en la fotografía histórica de campo; materiales Xyz restantes después de desacoplar siguen sin determinación verificada"
+          },
+          {
+            "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "source": "record.routes[10].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              15524,
+              17769,
+              17815,
+              17831
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 15524,
+                "materials": [
+                  9861,
+                  17768,
+                  17770
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": true,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 575,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Estado antes de activar la limpieza de Zeus"
+          },
+          {
+            "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "source": "record.routes[11].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              15741
+            ],
+            "xyz_materials_from_narrative": [],
+            "source_endboard_photo_count": 0,
+            "final_step_resources_are_structured": true,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 153,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "link_materials_from_narrative": {
+              "target": 15741,
+              "own": [
+                17804,
+                17768,
+                17769
+              ],
+              "opponent_unknown": 1,
+              "total_link_rating": 5
+            },
+            "qualification": "Identidad de monstruo rival usado como material no se asume"
+          },
+          {
+            "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "source": "record.routes[12].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              15524
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 15524,
+                "materials": []
+              }
+            ],
+            "source_endboard_photo_count": 1,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 285,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Después de pagar 2 materiales para Zeus, cero materiales restantes"
+          },
+          {
+            "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "source": "record.routes[13].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_PROPIO_CON_PROYECCION_STANDBY_RIVAL_SEPARADA",
+            "on_field_cids_from_narrative": [
+              17800,
+              18191,
+              17769,
+              17815
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17768
+                ]
+              },
+              {
+                "target": 18191,
+                "materials": [
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 4,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 391,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "next_rival_standby_conditional": "Fenrir adicional solo si resolución de Shangri-Ira",
+            "source_board_time": "DESPUES_DE_STANDBY_RIVAL_CONDICIONAL",
+            "own_turn_field_source": "record.routes[13].documentary_final"
+          },
+          {
+            "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "source": "record.routes[14].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_PROPIO_CON_PROYECCION_STANDBY_RIVAL_SEPARADA",
+            "on_field_cids_from_narrative": [
+              16386,
+              17800,
+              18191,
+              17769,
+              17815
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  17768
+                ]
+              },
+              {
+                "target": 18191,
+                "materials": [
+                  18151
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 5,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 371,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "La negación de Baronne solo está disponible si no fue gastada",
+            "next_rival_standby_conditional": "Fenrir adicional solo si resolución de Shangri-Ira",
+            "source_board_time": "DESPUES_DE_STANDBY_RIVAL_CONDICIONAL",
+            "own_turn_field_source": "record.routes[14].documentary_final"
+          },
+          {
+            "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
+            "source": "record.routes[15].result",
+            "presentation_status": "DOCUMENTADA_SIN_CAMPO_ESPACIAL",
+            "turn_boundary": "FIN_DE_SECUENCIA_O_RESULTADO_CONDICIONAL",
+            "on_field_cids_from_narrative": [
+              17800,
+              17815
+            ],
+            "xyz_materials_from_narrative": [
+              {
+                "target": 17800,
+                "materials": [
+                  18153,
+                  17770
+                ]
+              }
+            ],
+            "source_endboard_photo_count": 2,
+            "final_step_resources_are_structured": false,
+            "independent_exact_monster_slots_verified": false,
+            "material_copy_identity_verified": false,
+            "procedural_engine_replay_verified": false,
+            "source_result_length": 58,
+            "status": "REVISADO_DOCUMENTALMENTE_CONDICIONAL",
+            "qualification": "Ogre se originó de GY antes de su recuperación por Birth"
+          }
+        ],
+        "summary": {
+          "routes": 16,
+          "source_result_sections": 16,
+          "spatial_monster_slots_verified": 0,
+          "endboards_engine_verified": 0,
+          "with_full_final_step_resource_snapshot": 5,
+          "pending_exact_positions": 16,
+          "no_invented_board_slots": true
+        }
       }
     }
   },
