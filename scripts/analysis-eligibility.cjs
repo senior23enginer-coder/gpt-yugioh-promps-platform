@@ -30,7 +30,7 @@ function signature(rows) {
 function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,payload=null,
   stageId=null,authorizedSideOmissionForA01=false,
   authorizedSideOmissionForA02=false,authorizedSideOmissionForA03=false,
-  authorizedSideOmissionForA04=false}={}) {
+  authorizedSideOmissionForA04=false,authorizedSideOmissionForA05=false}={}) {
   const violations=[];
   const selected=Number(selectedDeckId);
   if(explicitlyAssigned!==true||!Number.isInteger(selected)||selected<=0)
@@ -71,12 +71,15 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const a04SideWaiverApplied=stageId==='A04' && authorizedSideOmissionForA04===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
+  const a05SideWaiverApplied=stageId==='A05' && authorizedSideOmissionForA05===true &&
+    explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
+    counts.main>0 && counts.extra>0 && counts.side===0;
   for(const section of required)if(counts[section]===0 &&
-    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied||a04SideWaiverApplied)))
+    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied||a04SideWaiverApplied||a05SideWaiverApplied)))
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied});
+    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
@@ -90,6 +93,7 @@ if(require.main===module){
     authorizedSideOmissionForA02:args.includes('--authorized-side-waiver'),
     authorizedSideOmissionForA03:args.includes('--authorized-side-waiver'),
     authorizedSideOmissionForA04:args.includes('--authorized-side-waiver'),
+    authorizedSideOmissionForA05:args.includes('--authorized-side-waiver'),
     payload:file?JSON.parse(fs.readFileSync(path.resolve(file),'utf8')):null
   });
   process.stdout.write(JSON.stringify(result,null,2)+'\n');
