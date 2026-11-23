@@ -27,7 +27,8 @@ function fromRecord(record) {
 function signature(rows) {
   return rows.map(r=>[r.id,r.section,r.quantity].join(':')).sort();
 }
-function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,payload=null}={}) {
+function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,payload=null,
+  stageId=null,authorizedSideOmissionForA01=false}={}) {
   const violations=[];
   const selected=Number(selectedDeckId);
   if(explicitlyAssigned!==true||!Number.isInteger(selected)||selected<=0)
@@ -53,11 +54,18 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const counts={main:0,extra:0,side:0,reserve:0};
   for(const row of rows)if(allowed.has(row.section)&&Number.isInteger(row.quantity)&&row.quantity>0)
     counts[row.section]+=row.quantity;
-  for(const section of required)if(counts[section]===0)
+  // Scoped user-authorized A01 exception: Side remains EMPTY; never auto-populate.
+  // The exception never waives Main, Extra, inventory signature, format or deck ID,
+  // and does not grant A02-A10A admission.
+  const a01SideWaiverApplied=stageId==='A01' && authorizedSideOmissionForA01===true &&
+    explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
+    counts.main>0 && counts.extra>0 && counts.side===0;
+  for(const section of required)if(counts[section]===0 &&
+    !(section==='side' && a01SideWaiverApplied))
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts});
+    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
@@ -66,6 +74,8 @@ if(require.main===module){
   const result=validateDeckAssignment({
     selectedDeckId:selection?Number(selection.slice('--deck-id='.length)):null,
     explicitlyAssigned:args.includes('--user-assigned'),
+    stageId:args.find(a=>a.startsWith('--stage='))?.slice(8)||null,
+    authorizedSideOmissionForA01:args.includes('--authorized-side-waiver'),
     payload:file?JSON.parse(fs.readFileSync(path.resolve(file),'utf8')):null
   });
   process.stdout.write(JSON.stringify(result,null,2)+'\n');

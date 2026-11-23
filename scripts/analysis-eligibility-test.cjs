@@ -35,6 +35,19 @@ const duplicate=make();duplicate.inventory.push({...duplicate.inventory[0]});
 assert(!verdict(duplicate).eligible,'Duplicate native rows cannot enter analysis');
 const zero=make();zero.inventory[2].quantity=0;zero.record.cards[0].slots[2].quantity=0;
 assert(!verdict(zero).eligible,'An empty Side section is not treated as loaded');
+const a01MissingSide=make();
+a01MissingSide.inventory=a01MissingSide.inventory.filter(x=>x.section!=='side');
+a01MissingSide.record.cards[0].slots=a01MissingSide.record.cards[0].slots.filter(x=>x.section!=='side');
+const explicitA01=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A01',authorizedSideOmissionForA01:true});
+assert(explicitA01.eligible&&explicitA01.a01SideWaiverApplied&&explicitA01.counts.side===0,'Explicit A01 exception preserves Side=0');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A02',authorizedSideOmissionForA01:true}).eligible,'Never waive A02 Side');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,stageId:'A01',authorizedSideOmissionForA01:true}).eligible,'Never waive assignment');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,stageId:'A01'}).eligible,'Never waive by default');
+const a01MissingMain=make();
+a01MissingMain.inventory=a01MissingMain.inventory.filter(x=>x.section!=='main');
+a01MissingMain.record.cards[0].slots=a01MissingMain.record.cards[0].slots.filter(x=>x.section!=='main');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingMain,stageId:'A01',authorizedSideOmissionForA01:true}).eligible,'A01 still requires Main');
+
 assert(!verdict(make(),undefined,false).eligible,'Missing selection never implies all decks');
 console.log(JSON.stringify({ok:true,selectedDeckGate:true,required:['main','extra','side'],
  reserve:'optional',analysisExecuted:false,syntheticFixturesOnly:true}));
