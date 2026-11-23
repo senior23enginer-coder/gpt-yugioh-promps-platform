@@ -42,9 +42,14 @@ function audit(){
    all++;
   }
  }
- A.equal(all,92);A.equal(photos,57);A.equal(resources,27);
+ A.equal(all,92);A.equal(photos,92);A.equal(resources,27);
  A.equal(s.summary.historical_routes,16);A.equal(s.summary.historical_steps,92);
  A.equal(s.summary.steps_with_photos,photos);A.equal(s.summary.steps_missing_photos,all-photos);
+ A.equal(s.photo_reconciliation.historical.stepWith,57);
+ A.equal(s.photo_reconciliation.historical.photos,116);
+ A.equal(s.photo_reconciliation.current.stepWith,92);
+ A.equal(s.photo_reconciliation.current.photos,227);
+ A.equal(s.photo_reconciliation.current.hand,23);
  A.equal(s.summary.steps_with_structured_resources,resources);A.equal(s.summary.steps_missing_structured_resources,all-resources);
  A.equal(s.summary.certified_combos,0);A.equal(s.summary.engine_replays,0);A.equal(s.summary.spatial_endboards_certified,0);
  A(!r.calculator?.rules?.length,'UNAUTHORIZED_A10B_RULES');

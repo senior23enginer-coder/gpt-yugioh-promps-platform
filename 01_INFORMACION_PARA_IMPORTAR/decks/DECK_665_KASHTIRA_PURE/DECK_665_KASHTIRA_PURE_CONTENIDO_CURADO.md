@@ -9572,7 +9572,7 @@ El explorador `record.a08_review.role_index` contiene **38/38 fichas CID**, con 
 
 `record.a09_review` vincula las 16 fichas históricas y 92 pasos con A08, sin duplicar familias ni fabricar una mano de apertura cuando la ruta depende de un campo previo. La auditoría revisa que la ausencia de fotos y estados no se marque como prueba aprobada.
 
-| Ruta (`665:A09:…`) | Pasos | Sin foto participante por paso | Sin recursos estructurados por paso |
+| Ruta (`665:A09:…`) | Pasos | Sin foto participante por paso (corte T1) | Sin recursos estructurados por paso |
 |---|---:|---:|---:|
 | `WRAITSOTH:SHANGRI01` | 5 | 0 | 0 |
 | `FENRIR:RISEHEART:SHANGRI02` | 7 | 7 | 7 |
@@ -9591,7 +9591,7 @@ El explorador `record.a08_review.role_index` contiene **38/38 fichas CID**, con 
 | `UNICORN:ASH:BIRTH:BARONNE15` | 9 | 0 | 9 |
 | `V11:TEARKASH:OGRE:BIRTH:SHANGRI` | 5 | 0 | 5 |
 
-**Cobertura real:** 57/92 pasos tienen fotografía de carta participante en la ficha histórica; 35/92 carecen de ella. 27/92 pasos tienen registro estructurado de recursos; 65/92 aún no. Ninguna de esas cifras constituye replays ni combos legalmente certificados.
+**Cobertura histórica previa a la reconciliación de A09:** 57/92 pasos tienen fotografía de carta participante en la ficha histórica; 35/92 carecen de ella. 27/92 pasos tienen registro estructurado de recursos; 65/92 aún no. Ninguna de esas cifras constituye replays ni combos legalmente certificados.
 
 **Hallazgos obligatorios para T2–T4:** foto de Riseheart añadida históricamente a la mano declarada «solo Fenrir» en SHANGRI02; Arise-Heart del Extra aparece indebidamente en fotografías históricas de mano en ARISE3MAT08; SHANGRI:STANDBY:ARISE04 y BIGEYE:BATTLE:ZEUS11 requieren un campo previo real. Los disparadores opcionales Big Bang y Shangri-Ira tras Riseheart deben analizarse en la misma ventana de nueva cadena si se cumplen, no presuponer múltiples cadenas. No atribuir bloqueos retroactivos ni materiales Xyz duplicados.
 
@@ -9627,3 +9627,12 @@ En las fuentes actuales hay **5/16 pasos finales con recursos estructurados** y 
 **Precisión temporal relevante:** en rutas 14 y 15, el `record.routes[*].board` y el `endboard.variants[0]` históricos muestran **después** de la Standby del rival a un Fenrir adicional, sujeto a resolución de Shangri-Ira. El campo del **fin del turno propio** no debe incluirlo aún y conserva Nacimiento; se registran ambas ventanas por separado. Para la ruta Dark Armed se cotejó Nacimiento como Mágica Continua en Campo, pero no se adivinan los materiales Xyz restantes después del desacoplamiento.
 
 **Pendiente antes de cerrar T4:** reconstruir los 11 estados finales aún no estructurados en ocho zonas, comprobar coste/material y restricciones de los pasos previos en T2/T3, y decidir qué campos se pueden presentar con zonas reales o cuáles conservan el rótulo no espacial. No se convierten las 16 revisiones en campos finalizados ni en combos legales certificados.
+
+
+### A09 — Corrección visual de manos y fotografías vinculadas a los pasos
+
+Se ejecutó una reconciliación **por CID confirmado** para las 16 rutas del deck 665, preservando sus 92 acciones originales, 44 filas físicas y fuentes A05–A07. Las **35 acciones históricas que carecían de foto** recibieron **111 referencias nuevas** a imágenes locales de cartas citadas por cada paso. La cobertura actual de fotos de pasos pasa de **57/92 a 92/92** (de 116 a **227 referencias**); no significa que 92 pasos hayan pasado una simulación reglamentaria.
+
+La mano inicial ahora se presenta **solo según `record.a08_review.route_candidates[*].confirmed_hand_photos`**, con 23 fotografías confirmadas en total. Se eliminan, como fotos de mano, el Riseheart que la apertura de SHANGRI02 no tenía, el Arise-Heart que pertenece al Extra en ARISE3MAT08 y las imágenes de cartas de un campo anterior que no se justifican como robo inicial de una continuación.
+
+Las fotos **son las miniaturas físicas 268×391** ya verificadas en A04, no imágenes HD reconstruidas. Los pasos que no tengan estado antes/después completo, costes o materiales acreditados mantienen el estado pendiente de T2/T3/T4. Este cierre de **cobertura fotográfica** tampoco convierte de forma automática en completo el apartado A10A.

@@ -34,7 +34,7 @@ function audit(){
   jids.add(candidate.jugada_id);rids.add(candidate.historical_route_id);
   A.equal(candidate.historical_route_id,hist.id,'HISTORICAL_ROUTE_ID_MISMATCH');
   A.equal(candidate.steps_count,hist.steps.length,'HISTORICAL_STEPS_CHANGED');
-  A.equal(candidate.steps_with_photos,actualStepPhotos(hist),'PHOTO_STEP_COVERAGE_UNGROUNDED');
+  A(actualStepPhotos(hist)>=candidate.steps_with_photos,'A09_PHOTO_REGRESSION_FROM_HISTORICAL_BASELINE');
   A(candidate.category!=='COMBO_COMPLETO'&&candidate.independent_complete_combo_certified===false,'FALSE_CERTIFIED_COMBO');
   A.equal(candidate.legalidad_documental,'CONDICIONAL_PENDIENTE_A09');
   A(candidate.soporte_calculadora==='OPERADOR_PENDIENTE_A10B');

@@ -19285,10 +19285,11 @@
         "opening": "Mano de apertura: solo Pressured Planet Wraitsoth. Campo/GY propios vacíos, Main Phase 1; Unicornio, Fenrir y Kashtiratheosis en Deck, Shangri-Ira en Extra; rival sin responder.",
         "hand_photos": [
           {
+            "cid": 18204,
             "name": "Pressured Planet Wraitsoth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Endboard comprobado al finalizar la secuencia: Shangri-Ira boca arriba con dos materiales (Unicornio/Fenrir), Wraitsoth en zona de Campo; sin Mágicas/Trampas adicionales generadas y sin monstruos independientes Unicornio/Fenrir. No atribuir destrucción, negación, banish ni bloqueo de zona inmediatos: Shangri-Ira ofrece Invocación desde Deck en Standby Phase futura, si permanece y el efecto puede utilizarse. Mano inicial restante y otras cartas robadas no especificadas; el motor consumió Wraitsoth desde mano. Efectos de Wraitsoth por Shangri-Ira aún condicionados a activaciones futuras.",
@@ -19844,14 +19845,7 @@
             "name": "Kashtira Fenrir",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
-            "label": "Carta mencionada en el paso"
-          },
-          {
-            "cid": 18151,
-            "name": "Kashtira Riseheart",
-            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
-            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Final definido: Shangri-Ira DEF 3000 con 2 materiales Fenrir/Riseheart, Big Bang desterrada boca arriba, 3 cartas rivales desterradas boca abajo, sin monstruos Kashtira adicionales, sin M/T propias activas, Normal gastada y mano vacía. Ninguna zona bloqueada aún: el destierro rival ocurrió antes de que Shangri-Ira existiera y su efecto no actúa retroactivamente. No se ejecuta Arise-Heart sin el requisito previo de otro procedimiento.",
@@ -19860,7 +19854,15 @@
             "number": 1,
             "action": "Invocar Especialmente Fenrir desde mano porque no controlas monstruos (Nivel 7 TIERRA, ATK 2400). Normal aún libre.",
             "detail": "Invocar Especialmente Fenrir desde mano porque no controlas monstruos (Nivel 7 TIERRA, ATK 2400). Normal aún libre.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19869,7 +19871,22 @@
             "number": 2,
             "action": "Activar su efecto de Main Phase CL1 para añadir Riseheart desde Deck a mano. Solo se buscó una carta, no otra Fenrir.",
             "detail": "Activar su efecto de Main Phase CL1 para añadir Riseheart desde Deck a mano. Solo se buscó una carta, no otra Fenrir.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19878,7 +19895,15 @@
             "number": 3,
             "action": "Invocar Normalmente Riseheart, Nivel 4 FUEGO ATK 1500, en zona de monstruo libre. Normal gastada.",
             "detail": "Invocar Normalmente Riseheart, Nivel 4 FUEGO ATK 1500, en zona de monstruo libre. Normal gastada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19887,7 +19912,22 @@
             "number": 4,
             "action": "Como Riseheart fue Invocado Normalmente ese turno, activar su efecto CL1, desterrando Big Bang Kashtira del Deck como coste (texto anterior al punto y coma). Al resolver, desterrar boca abajo las 3 cartas superiores del Deck del adversario; como alguna fue desterrada, el Nivel de Riseheart pasa a 7. No considerar conocimiento de las identidades de las tres cartas desterradas.",
             "detail": "Como Riseheart fue Invocado Normalmente ese turno, activar su efecto CL1, desterrando Big Bang Kashtira del Deck como coste (texto anterior al punto y coma). Al resolver, desterrar boca abajo las 3 cartas superiores del Deck del adversario; como alguna fue desterrada, el Nivel de Riseheart pasa a 7. No considerar conocimiento de las identidades de las tres cartas desterradas.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19896,7 +19936,15 @@
             "number": 5,
             "action": "Big Bang fue desterrada como coste, pero su disparo requiere seleccionar un Xyz «Kashtira» que controles. En este momento todavía no existe ninguno: no se puede utilizar su efecto para recuperar materiales retroactivamente después de la próxima Invocación.",
             "detail": "Big Bang fue desterrada como coste, pero su disparo requiere seleccionar un Xyz «Kashtira» que controles. En este momento todavía no existe ninguno: no se puede utilizar su efecto para recuperar materiales retroactivamente después de la próxima Invocación.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19905,7 +19953,29 @@
             "number": 6,
             "action": "Invocar por Xyz Shangri-Ira usando Fenrir Nivel 7 y Riseheart convertido en Nivel 7. Ambos se acoplan como 2 materiales Xyz. Elegir Defensa para el monstruo final; su Invocación desde Deck corresponde a Standby Phase, no a este instante.",
             "detail": "Invocar por Xyz Shangri-Ira usando Fenrir Nivel 7 y Riseheart convertido en Nivel 7. Ambos se acoplan como 2 materiales Xyz. Elegir Defensa para el monstruo final; su Invocación desde Deck corresponde a Standby Phase, no a este instante.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19914,7 +19984,36 @@
             "number": 7,
             "action": "Final definido: Shangri-Ira DEF 3000 con 2 materiales Fenrir/Riseheart, Big Bang desterrada boca arriba, 3 cartas rivales desterradas boca abajo, sin monstruos Kashtira adicionales, sin M/T propias activas, Normal gastada y mano vacía. Ninguna zona bloqueada aún: el destierro rival ocurrió antes de que Shangri-Ira existiera y su efecto no actúa retroactivamente. No se ejecuta Arise-Heart sin el requisito previo de otro procedimiento.",
             "detail": "Final definido: Shangri-Ira DEF 3000 con 2 materiales Fenrir/Riseheart, Big Bang desterrada boca arriba, 3 cartas rivales desterradas boca abajo, sin monstruos Kashtira adicionales, sin M/T propias activas, Normal gastada y mano vacía. Ninguna zona bloqueada aún: el destierro rival ocurrió antes de que Shangri-Ira existiera y su efecto no actúa retroactivamente. No se ejecuta Arise-Heart sin el requisito previo de otro procedimiento.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -19947,10 +20046,11 @@
         "opening": "solo Kashtira Unicorn. Campo/GY propios: vacíos. Deck: 1× Kashtiratheosis, 1× Kashtira Fenrir (TIERRA), 1× Kashtira Riseheart (FUEGO) y 1× Kashtira Big Bang disponibles. Extra: Shangri-Ira. Rival con mínimo 3 cartas en Deck; sin negaciones ni bloqueos previos. Es Main Phase propia y la Invocación Normal sigue libre.",
         "hand_photos": [
           {
+            "cid": 17769,
             "name": "Kashtira Unicorn",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Endboard estricto: Shangri-Ira DEF 3000 (dos materiales), Fenrir en Defensa, Kashtiratheosis en GY, Big Bang desterrada boca arriba, tres cartas del adversario desterradas boca abajo, cero zonas bloqueadas todavía, Invocación Normal libre, sin M/T propias continuas. No anunciar Arise-Heart, bloqueo de zonas retroactivo ni ataque en el mismo turno de un Fenrir en Defensa. La amenaza de destierro futuro de Fenrir está condicionada a su propio disparador y objetivo legal.",
@@ -20655,29 +20755,7 @@
         "purpose": "Continuar a Arise-Heart desde Shangri-Ira en un turno posterior",
         "category": "Continuación desde un campo de un turno anterior",
         "opening": "- Familia y referencia: 665:A08:04 / 665:A09:C04; esta ficha depende de completar en el turno 1 665:A09:WRAITSOTH:SHANGRI01. Objetivo: preparar Arise-Heart con tres materiales conservando un Fenrir independiente. Dificultad: media por supervivencia entre turnos; formato: TCG, versión contrato 4. No equivale a un combo OTK ni a invocar Arise en el turno 1.\n- Apertura del turno 1: ![Wraitsoth](imagenes/tcg/18204.jpg) únicamente Wraitsoth en mano, con Unicorn, Kashtiratheosis y Fenrir en Deck, y ![Shangri](imagenes/tcg/17800.jpg) Shangri-Ira en Extra; aplicar exactamente los pasos 1–5 de la ficha previa WRAITSOTH:SHANGRI01. Se termina con Shangri en Defensa, 2 materiales Xyz originales (Unicorn + primer Fenrir) y Wraitsoth en Zona de Campo. Normal del turno 1 libre. No ocurre destierro rival boca abajo en esos pasos. Nueva condición de estado: Shangri-Ira debe permanecer en Campo durante el turno del rival sin ser neutralizado, volteado boca abajo ni perder la capacidad de activar sus efectos. La mano/carta de robo del siguiente turno no se usan ni se presuponen conocidas.",
-        "hand_photos": [
-          {
-            "cid": 18204,
-            "name": "Pressured Planet Wraitsoth",
-            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
-            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
-            "label": "Carta mencionada en el paso"
-          },
-          {
-            "cid": 17800,
-            "name": "Kashtira Shangri-Ira [Xyz rango 7]",
-            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
-            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
-            "label": "Carta mencionada en el paso"
-          },
-          {
-            "cid": 18203,
-            "name": "Kashtiratheosis",
-            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
-            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
-            "label": "Carta mencionada en el paso"
-          }
-        ],
+        "hand_photos": [],
         "result": "Endboard exacto sin interferencia: Arise-Heart Rango 7 / ATK 3000 DEF 3000 con 3 materiales (Shangri-Ira, Unicorn y Fenrir #1), Fenrir #2 en Defensa / 2400 DEF, Wraitsoth en Campo. El efecto continuo de Arise-Heart destierra las cartas que irían al GY mientras permanezca boca arriba. Normal del turno 2 libre; ninguna carta rival fue desterrada ni ninguna zona bloqueada por esta línea; sin daño garantizado. Si se hubiera negado la activación o no sobreviviera Shangri, no se puede ejecutar la promoción así descrita. No garantizar que Arise esté ya presente al terminar el primer turno, ni una retirada que no se activó.;.",
         "steps": [
           {
@@ -20718,7 +20796,15 @@
             "number": 3,
             "action": "Cierre: conservar Arise-Heart en Campo; no activar su efecto rápido de destierro en esta secuencia. Ese efecto exige desacoplar tres materiales y un objetivo legal para desterrar una carta del Campo boca abajo; aquí no se paga ese coste. Distinguir este efecto del reemplazo de envío al GY por destierro y de los posibles nuevos materiales. No adjudicar zonas bloqueadas por Shangri-Ira si ya no permanece boca arriba en Campo.",
             "detail": "Cierre: conservar Arise-Heart en Campo; no activar su efecto rápido de destierro en esta secuencia. Ese efecto exige desacoplar tres materiales y un objetivo legal para desterrar una carta del Campo boca abajo; aquí no se paga ese coste. Distinguir este efecto del reemplazo de envío al GY por destierro y de los posibles nuevos materiales. No adjudicar zonas bloqueadas por Shangri-Ira si ya no permanece boca arriba en Campo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18191,
+                "name": "Kashtira Arise-Heart [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20909,14 +20995,14 @@
             "name": "Kashtira Fenrir",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
             "cid": 17815,
             "name": "Kashtira Birth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Final: Shangri-Ira DEF 3000, 2 materiales [Fenrir, Ogro] + Unicornio boca arriba ATK 2500 + Nacimiento boca arriba + Preparaciones Colocada. Sin cartas de mano sobrantes de la apertura mínima; Normal gastada; Teosis GY y restricción Extra Xyz activa. Cero zonas bloqueadas y cero cartas rivales desterradas boca abajo en esta ruta: los bloqueos de Shangri requieren un evento posterior. El efecto de Shangri de traer Kashtira desde Deck puede activarse en una Standby Phase posterior, no en esta Main Phase.",
@@ -20925,7 +21011,22 @@
             "number": 1,
             "action": "Invocar Especialmente Fenrir desde mano sin formar Cadena, puesto que no controlas monstruos. CL1 Fenrir en Main Phase: añadir Unicornio del Deck a mano. Fenrir TIERRA Nivel 7 queda en Ataque (2400 ATK).",
             "detail": "Invocar Especialmente Fenrir desde mano sin formar Cadena, puesto que no controlas monstruos. CL1 Fenrir en Main Phase: añadir Unicornio del Deck a mano. Fenrir TIERRA Nivel 7 queda en Ataque (2400 ATK).",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20934,7 +21035,22 @@
             "number": 2,
             "action": "Activar Nacimiento Kashtira como Mágica Continua. Su permiso «Puedes Invocar de Modo Normal monstruos de Nivel 7 sin Sacrificar» permite la Invocación Normal de Unicornio, Nivel 7, desde mano sin Sacrificios. Gasta la Normal del turno; no se activó el efecto de recuperación de Nacimiento.",
             "detail": "Activar Nacimiento Kashtira como Mágica Continua. Su permiso «Puedes Invocar de Modo Normal monstruos de Nivel 7 sin Sacrificar» permite la Invocación Normal de Unicornio, Nivel 7, desde mano sin Sacrificios. Gasta la Normal del turno; no se activó el efecto de recuperación de Nacimiento.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17815,
+                "name": "Kashtira Birth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20943,7 +21059,29 @@
             "number": 3,
             "action": "CL1 Unicornio: buscar Kashtirateosis del Deck a mano. Activarla seleccionando Unicornio VIENTO; al resolver, Invocar Especialmente Ogro AGUA desde Deck en Defensa, por su Atributo diferente. Teosis va al GY y desde su resolución el Extra queda limitado a Invocaciones Xyz el resto del turno.",
             "detail": "CL1 Unicornio: buscar Kashtirateosis del Deck a mano. Activarla seleccionando Unicornio VIENTO; al resolver, Invocar Especialmente Ogro AGUA desde Deck en Defensa, por su Atributo diferente. Teosis va al GY y desde su resolución el Extra queda limitado a Invocaciones Xyz el resto del turno.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20952,7 +21090,22 @@
             "number": 4,
             "action": "CL1 Ogro en Defensa: añadir Preparaciones Kashtira (Trampa) desde Deck a mano. Ogro puede buscar en Defensa. Colocar Preparaciones en M/T; no activarla durante el turno en que fue Colocada.",
             "detail": "CL1 Ogro en Defensa: añadir Preparaciones Kashtira (Trampa) desde Deck a mano. Ogro puede buscar en Defensa. Colocar Preparaciones en M/T; no activarla durante el turno en que fue Colocada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17831,
+                "name": "Kashtira Preparations",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20961,7 +21114,36 @@
             "number": 5,
             "action": "Superponer Fenrir + Ogro (dos monstruos Nivel 7) para Invocar Xyz Shangri-Ira Rango 7 en Defensa. Materiales exactos [Fenrir, Ogro], no Unicornio. Unicornio permanece en zona de Monstruos.",
             "detail": "Superponer Fenrir + Ogro (dos monstruos Nivel 7) para Invocar Xyz Shangri-Ira Rango 7 en Defensa. Materiales exactos [Fenrir, Ogro], no Unicornio. Unicornio permanece en zona de Monstruos.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -20970,7 +21152,36 @@
             "number": 6,
             "action": "Final: Shangri-Ira DEF 3000, 2 materiales [Fenrir, Ogro] + Unicornio boca arriba ATK 2500 + Nacimiento boca arriba + Preparaciones Colocada. Sin cartas de mano sobrantes de la apertura mínima; Normal gastada; Teosis GY y restricción Extra Xyz activa. Cero zonas bloqueadas y cero cartas rivales desterradas boca abajo en esta ruta: los bloqueos de Shangri requieren un evento posterior. El efecto de Shangri de traer Kashtira desde Deck puede activarse en una Standby Phase posterior, no en esta Main Phase.",
             "detail": "Final: Shangri-Ira DEF 3000, 2 materiales [Fenrir, Ogro] + Unicornio boca arriba ATK 2500 + Nacimiento boca arriba + Preparaciones Colocada. Sin cartas de mano sobrantes de la apertura mínima; Normal gastada; Teosis GY y restricción Extra Xyz activa. Cero zonas bloqueadas y cero cartas rivales desterradas boca abajo en esta ruta: los bloqueos de Shangri requieren un evento posterior. El efecto de Shangri de traer Kashtira desde Deck puede activarse en una Standby Phase posterior, no en esta Main Phase.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17815,
+                "name": "Kashtira Birth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17831,
+                "name": "Kashtira Preparations",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21009,14 +21220,72 @@
         "purpose": "Romper campo",
         "category": "APERTURA",
         "opening": "Mano inicial: igual que FENRIR:BIRTH:SHANGRI05, pero el rival controla al menos un monstruo boca arriba elegible para tomar el control; sin respuestas a las activaciones. En Extra Número 11: Ojo Grande (9861, Rango 7, ATK 2600) sustituye a Shangri como destino. No se presupone ATK ni efectos del monstruo capturado.",
-        "hand_photos": [],
+        "hand_photos": [
+          {
+            "cid": 17768,
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "label": "EN_MANO_CONFIRMADA"
+          },
+          {
+            "cid": 17815,
+            "name": "Kashtira Birth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "label": "EN_MANO_CONFIRMADA"
+          }
+        ],
         "result": "Final condicionado: Ojo Grande ATK 2600 con 1 material [Fenrir], Unicornio ATK 2500, monstruo rival capturado ahora bajo control propio, Nacimiento boca arriba y Preparaciones Colocada. Ogro acabó en GY por desacoplamiento, Teosis GY, Normal gastada, Extra solo Xyz durante el turno. No se desterró nada boca abajo ni bloqueó zona alguna.",
         "steps": [
           {
             "number": 1,
             "action": "Ejecutar los pasos 1–4 de FENRIR:BIRTH:SHANGRI05: Fenrir Especial busca Unicornio; Nacimiento permite Normal sin Sacrificios de Unicornio; éste busca Teosis; Teosis trae Ogro AGUA en Defensa; Ogro añade Preparaciones y se Coloca. Campo antes del Xyz: Fenrir + Unicornio + Ogro, los tres Nivel 7, Nacimiento boca arriba.",
             "detail": "Ejecutar los pasos 1–4 de FENRIR:BIRTH:SHANGRI05: Fenrir Especial busca Unicornio; Nacimiento permite Normal sin Sacrificios de Unicornio; éste busca Teosis; Teosis trae Ogro AGUA en Defensa; Ogro añade Preparaciones y se Coloca. Campo antes del Xyz: Fenrir + Unicornio + Ogro, los tres Nivel 7, Nacimiento boca arriba.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17815,
+                "name": "Kashtira Birth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17831,
+                "name": "Kashtira Preparations",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21025,7 +21294,29 @@
             "number": 2,
             "action": "Superponer Fenrir + Ogro para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Ogro]. Unicornio no se consume. La restricción de Teosis permite este Xyz.",
             "detail": "Superponer Fenrir + Ogro para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Ogro]. Unicornio no se consume. La restricción de Teosis permite este Xyz.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 9861,
+                "name": "Number 11: Big Eye [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21034,7 +21325,22 @@
             "number": 3,
             "action": "Efecto de Ojo Grande: desacoplar Ogro como coste, seleccionar un monstruo rival y, al resolver, tomar su control si permanece como objetivo válido. Ojo Grande no puede atacar en el turno en que activa este efecto; la restricción no impide automáticamente atacar a los demás monstruos si fuera legal.",
             "detail": "Efecto de Ojo Grande: desacoplar Ogro como coste, seleccionar un monstruo rival y, al resolver, tomar su control si permanece como objetivo válido. Ojo Grande no puede atacar en el turno en que activa este efecto; la restricción no impide automáticamente atacar a los demás monstruos si fuera legal.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 9861,
+                "name": "Number 11: Big Eye [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17770,
+                "name": "Kashtira Ogre",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21043,7 +21349,36 @@
             "number": 4,
             "action": "Final condicionado: Ojo Grande ATK 2600 con 1 material [Fenrir], Unicornio ATK 2500, monstruo rival capturado ahora bajo control propio, Nacimiento boca arriba y Preparaciones Colocada. Ogro acabó en GY por desacoplamiento, Teosis GY, Normal gastada, Extra solo Xyz durante el turno. No se desterró nada boca abajo ni bloqueó zona alguna.",
             "detail": "Final condicionado: Ojo Grande ATK 2600 con 1 material [Fenrir], Unicornio ATK 2500, monstruo rival capturado ahora bajo control propio, Nacimiento boca arriba y Preparaciones Colocada. Ogro acabó en GY por desacoplamiento, Teosis GY, Normal gastada, Extra solo Xyz durante el turno. No se desterró nada boca abajo ni bloqueó zona alguna.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 9861,
+                "name": "Number 11: Big Eye [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17815,
+                "name": "Kashtira Birth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17831,
+                "name": "Kashtira Preparations",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21080,14 +21415,14 @@
             "name": "Pressured Planet Wraitsoth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
             "cid": 18151,
             "name": "Kashtira Riseheart",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Final: Shangri-Ira (Rango 7; Unicornio como único material) y Ojo Grande (Rango 7; Fenrir y Riseheart como dos materiales) quedan en Campo. Wraitsoth permanece boca arriba, hay una zona rival bloqueada, tres cartas superiores del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba y Teosis en GY. Normal sin gastar; Extra restringido a Xyz. Wraitsoth aumenta ATK/DEF en 100 por cada Atributo diferente en Campo; no fijar un total si el Campo rival es desconocido. No se presupone otra carta en mano.",
@@ -21096,7 +21431,43 @@
             "number": 1,
             "action": "Ejecutar exactamente los pasos de 665:A09:WRAITSOTH:SHANGRI01 usando solo Wraitsoth de la mano y manteniendo Riseheart sin utilizar. Wraitsoth busca Unicornio; se Invoca Especialmente; Unicornio busca Teosis; Teosis Invoca Fenrir desde Deck con Atributo diferente; Unicornio + Fenrir forman Shangri-Ira. Estado intermedio: Shangri-Ira en Defensa con 2 materiales [Unicornio, Fenrir], Wraitsoth boca arriba en Zona de Campo, Riseheart en mano, Normal disponible. Ya rige el límite a Invocaciones Xyz impuesto por Teosis.",
             "detail": "Ejecutar exactamente los pasos de 665:A09:WRAITSOTH:SHANGRI01 usando solo Wraitsoth de la mano y manteniendo Riseheart sin utilizar. Wraitsoth busca Unicornio; se Invoca Especialmente; Unicornio busca Teosis; Teosis Invoca Fenrir desde Deck con Atributo diferente; Unicornio + Fenrir forman Shangri-Ira. Estado intermedio: Shangri-Ira en Defensa con 2 materiales [Unicornio, Fenrir], Wraitsoth boca arriba en Zona de Campo, Riseheart en mano, Normal disponible. Ya rige el límite a Invocaciones Xyz impuesto por Teosis.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21105,7 +21476,22 @@
             "number": 2,
             "action": "Como se controla un monstruo «Kashtira» (Shangri), Invocar Especialmente Riseheart desde mano por su procedimiento propio; Riseheart comienza en Nivel 4. Su Invocación añade el mismo bloqueo de Extra a Xyz, sin consumir Normal.",
             "detail": "Como se controla un monstruo «Kashtira» (Shangri), Invocar Especialmente Riseheart desde mano por su procedimiento propio; Riseheart comienza en Nivel 4. Su Invocación añade el mismo bloqueo de Extra a Xyz, sin consumir Normal.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21114,7 +21500,29 @@
             "number": 3,
             "action": "Activar el efecto de Riseheart en Main Phase: desterrar Big Bang Kashtira boca arriba del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck rival. Puesto que fueron desterradas, Riseheart pasa a Nivel 7. Big Bang no fue enviado al GY, ni esas tres cartas rivales fueron destruidas.",
             "detail": "Activar el efecto de Riseheart en Main Phase: desterrar Big Bang Kashtira boca arriba del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck rival. Puesto que fueron desterradas, Riseheart pasa a Nivel 7. Big Bang no fue enviado al GY, ni esas tres cartas rivales fueron destruidas.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21123,7 +21531,22 @@
             "number": 4,
             "action": "Una sola cadena nueva para los dos disparos opcionales: al terminar de resolver Riseheart, Big Bang (desterrada como coste) y Shangri-Ira (por las tres cartas rivales desterradas boca abajo) están pendientes de su ventana de activación. Como ambos son efectos opcionales propios, construir la nueva Cadena con CL1 Big Bang, seleccionando el Shangri propio con Fenrir acoplado, y CL2 Shangri-Ira. No activar Big Bang en otra cadena posterior: habría perdido la oportunidad de responder a su destierro. Solo se cuenta un evento de destierro rival, no tres bloqueos.",
             "detail": "Una sola cadena nueva para los dos disparos opcionales: al terminar de resolver Riseheart, Big Bang (desterrada como coste) y Shangri-Ira (por las tres cartas rivales desterradas boca abajo) están pendientes de su ventana de activación. Como ambos son efectos opcionales propios, construir la nueva Cadena con CL1 Big Bang, seleccionando el Shangri propio con Fenrir acoplado, y CL2 Shangri-Ira. No activar Big Bang en otra cadena posterior: habría perdido la oportunidad de responder a su destierro. Solo se cuenta un evento de destierro rival, no tres bloqueos.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21132,7 +21555,29 @@
             "number": 5,
             "action": "Resolución inversa de esa misma Cadena: resolver CL2 Shangri-Ira, eligiendo exactamente una zona sin usar de Monstruos Principal o M/T para bloquearla mientras Shangri siga boca arriba; después resolver CL1 Big Bang, tomar Fenrir de los materiales acoplados al Shangri seleccionado hacia la mano y, si es legal, Invocarlo Especialmente desde esa mano por el propio efecto de Big Bang. Se requiere conservar Shangri y el material elegible hasta la resolución. Aunque ya haya monstruos propios, no se está usando el procedimiento autónomo de Fenrir. Shangri queda con un único material [Unicornio], Fenrir en Campo y Big Bang desterrada boca arriba. Si un efecto fue negado o su objetivo dejó de ser legal, recalcular solo los resultados realmente resueltos antes de intentar el paso 6.",
             "detail": "Resolución inversa de esa misma Cadena: resolver CL2 Shangri-Ira, eligiendo exactamente una zona sin usar de Monstruos Principal o M/T para bloquearla mientras Shangri siga boca arriba; después resolver CL1 Big Bang, tomar Fenrir de los materiales acoplados al Shangri seleccionado hacia la mano y, si es legal, Invocarlo Especialmente desde esa mano por el propio efecto de Big Bang. Se requiere conservar Shangri y el material elegible hasta la resolución. Aunque ya haya monstruos propios, no se está usando el procedimiento autónomo de Fenrir. Shangri queda con un único material [Unicornio], Fenrir en Campo y Big Bang desterrada boca arriba. Si un efecto fue negado o su objetivo dejó de ser legal, recalcular solo los resultados realmente resueltos antes de intentar el paso 6.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21141,7 +21586,36 @@
             "number": 6,
             "action": "Superponer Fenrir + Riseheart, ambos Nivel 7, para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Riseheart]. No usar Shangri-Ira como material: debe permanecer boca arriba para sostener la zona bloqueada. No activar el efecto de Ojo Grande sin monstruo rival que seleccionar.",
             "detail": "Superponer Fenrir + Riseheart, ambos Nivel 7, para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Riseheart]. No usar Shangri-Ira como material: debe permanecer boca arriba para sostener la zona bloqueada. No activar el efecto de Ojo Grande sin monstruo rival que seleccionar.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 9861,
+                "name": "Number 11: Big Eye [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21150,7 +21624,43 @@
             "number": 7,
             "action": "Final: Shangri-Ira (Rango 7; Unicornio como único material) y Ojo Grande (Rango 7; Fenrir y Riseheart como dos materiales) quedan en Campo. Wraitsoth permanece boca arriba, hay una zona rival bloqueada, tres cartas superiores del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba y Teosis en GY. Normal sin gastar; Extra restringido a Xyz. Wraitsoth aumenta ATK/DEF en 100 por cada Atributo diferente en Campo; no fijar un total si el Campo rival es desconocido. No se presupone otra carta en mano.",
             "detail": "Final: Shangri-Ira (Rango 7; Unicornio como único material) y Ojo Grande (Rango 7; Fenrir y Riseheart como dos materiales) quedan en Campo. Wraitsoth permanece boca arriba, hay una zona rival bloqueada, tres cartas superiores del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba y Teosis en GY. Normal sin gastar; Extra restringido a Xyz. Wraitsoth aumenta ATK/DEF en 100 por cada Atributo diferente en Campo; no fijar un total si el Campo rival es desconocido. No se presupone otra carta en mano.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 9861,
+                "name": "Number 11: Big Eye [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21188,21 +21698,14 @@
             "name": "Pressured Planet Wraitsoth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
             "cid": 18151,
             "name": "Kashtira Riseheart",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
-            "label": "Carta mencionada en el paso"
-          },
-          {
-            "cid": 18191,
-            "name": "Kashtira Arise-Heart [Xyz rango 7]",
-            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
-            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
-            "label": "Carta mencionada en el paso"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Resultado antes de usar más efectos: Arise-Heart ATK impreso 3000, 3 materiales; Riseheart Nivel 7 permanece como otro monstruo; Wraitsoth boca arriba en zona de Campo; 3 cartas del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba, Teosis en GY; 0 zonas bloqueadas al final, Normal libre, Extra solo Xyz por el resto del turno. El ATK actual de Arise puede subir por Wraitsoth según los Atributos del Campo. Arise dispone de materiales para una activación posterior de su Efecto Rápido de destierro, pero no se ejecuta aquí ni se presume objetivo.",
@@ -21211,7 +21714,36 @@
             "number": 1,
             "action": "Wraitsoth se activa y busca Unicornio. Unicornio se Invoca Especialmente desde mano cuando todavía no controlas monstruos y, en Main Phase, busca Teosis. Teosis selecciona Unicornio VIENTO para Invocar Especialmente Fenrir TIERRA en Defensa desde Deck. Extra restringido a Xyz por Teosis.",
             "detail": "Wraitsoth se activa y busca Unicornio. Unicornio se Invoca Especialmente desde mano cuando todavía no controlas monstruos y, en Main Phase, busca Teosis. Teosis selecciona Unicornio VIENTO para Invocar Especialmente Fenrir TIERRA en Defensa desde Deck. Extra restringido a Xyz por Teosis.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21220,7 +21752,29 @@
             "number": 2,
             "action": "Superponer Unicornio y Fenrir para Shangri-Ira en Defensa, con 2 materiales [Unicornio, Fenrir]. Riseheart sigue en mano, Normal todavía libre. No hay zona bloqueada en este momento.",
             "detail": "Superponer Unicornio y Fenrir para Shangri-Ira en Defensa, con 2 materiales [Unicornio, Fenrir]. Riseheart sigue en mano, Normal todavía libre. No hay zona bloqueada en este momento.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21229,7 +21783,22 @@
             "number": 3,
             "action": "Invocar Especialmente Riseheart de mano porque controlas un Kashtira. Activar su efecto de Main Phase: desterrar Big Bang del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck contrario. Riseheart pasa a Nivel 7 al desterrar alguna de esas cartas. Los tres destierros constituyen un solo evento a efectos de Shangri.",
             "detail": "Invocar Especialmente Riseheart de mano porque controlas un Kashtira. Activar su efecto de Main Phase: desterrar Big Bang del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck contrario. Riseheart pasa a Nivel 7 al desterrar alguna de esas cartas. Los tres destierros constituyen un solo evento a efectos de Shangri.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21238,7 +21807,22 @@
             "number": 4,
             "action": "En una nueva Cadena, activar el efecto de Shangri-Ira que permite elegir una zona sin usar y bloquearla mientras Shangri permanezca boca arriba. Resolver el bloqueo de una zona, no de tres. No activar el efecto opcional de Big Bang que también fue desterrada: sus materiales siguen intactos. La activación exitosa de Shangri este turno cumple la condición del procedimiento alternativo de Arise-Heart; no se requiere esperar una Standby futura.",
             "detail": "En una nueva Cadena, activar el efecto de Shangri-Ira que permite elegir una zona sin usar y bloquearla mientras Shangri permanezca boca arriba. Resolver el bloqueo de una zona, no de tres. No activar el efecto opcional de Big Bang que también fue desterrada: sus materiales siguen intactos. La activación exitosa de Shangri este turno cumple la condición del procedimiento alternativo de Arise-Heart; no se requiere esperar una Standby futura.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21247,7 +21831,36 @@
             "number": 5,
             "action": "En la misma Main Phase, Invocar por Xyz Arise-Heart sobre Shangri-Ira mediante su procedimiento de un monstruo Kashtira cuando se activó con éxito un efecto de Shangri-Ira ese turno. Transferir los dos materiales de Shangri a Arise: [Shangri-Ira, Unicornio, Fenrir] = 3 materiales. No usar Riseheart como material. El bloqueo anterior desaparece al dejar Shangri de estar boca arriba.",
             "detail": "En la misma Main Phase, Invocar por Xyz Arise-Heart sobre Shangri-Ira mediante su procedimiento de un monstruo Kashtira cuando se activó con éxito un efecto de Shangri-Ira ese turno. Transferir los dos materiales de Shangri a Arise: [Shangri-Ira, Unicornio, Fenrir] = 3 materiales. No usar Riseheart como material. El bloqueo anterior desaparece al dejar Shangri de estar boca arriba.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18191,
+                "name": "Kashtira Arise-Heart [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21256,7 +21869,43 @@
             "number": 6,
             "action": "Resultado antes de usar más efectos: Arise-Heart ATK impreso 3000, 3 materiales; Riseheart Nivel 7 permanece como otro monstruo; Wraitsoth boca arriba en zona de Campo; 3 cartas del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba, Teosis en GY; 0 zonas bloqueadas al final, Normal libre, Extra solo Xyz por el resto del turno. El ATK actual de Arise puede subir por Wraitsoth según los Atributos del Campo. Arise dispone de materiales para una activación posterior de su Efecto Rápido de destierro, pero no se ejecuta aquí ni se presume objetivo.",
             "detail": "Resultado antes de usar más efectos: Arise-Heart ATK impreso 3000, 3 materiales; Riseheart Nivel 7 permanece como otro monstruo; Wraitsoth boca arriba en zona de Campo; 3 cartas del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba, Teosis en GY; 0 zonas bloqueadas al final, Normal libre, Extra solo Xyz por el resto del turno. El ATK actual de Arise puede subir por Wraitsoth según los Atributos del Campo. Arise dispone de materiales para una activación posterior de su Efecto Rápido de destierro, pero no se ejecuta aquí ni se presume objetivo.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18191,
+                "name": "Kashtira Arise-Heart [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21288,14 +21937,79 @@
         "purpose": "Conservar Shangri-Ira y Arise-Heart con un material",
         "category": "APERTURA",
         "opening": "Apertura: las mismas dos cartas, condiciones y ubicaciones iniciales de ARISE3MAT08. Objetivo alternativo: conservar Shangri-Ira boca arriba y su zona bloqueada, además de Invocar a Arise-Heart sobre Riseheart, aceptando que comienza con un único material y no puede pagar todavía el coste de tres materiales de su destierro rápido. No se combina con ruta 07 ni ruta 08: se elige un destino del Extra diferente para Riseheart.",
-        "hand_photos": [],
+        "hand_photos": [
+          {
+            "cid": 18204,
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "label": "EN_MANO_CONFIRMADA"
+          },
+          {
+            "cid": 18151,
+            "name": "Kashtira Riseheart",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+            "label": "EN_MANO_CONFIRMADA"
+          }
+        ],
         "result": "Campo final sin interrupciones: Shangri-Ira en Defensa con 1 material [Unicornio]; Arise-Heart boca arriba con 1 material [Riseheart]; Fenrir independiente boca arriba; Wraitsoth en zona de Campo, 1 zona rival bloqueada, 3 cartas rivales desterradas boca abajo, Big Bang desterrada boca arriba, Teosis al GY; Normal libre y restricción Extra Xyz. El refuerzo de estadísticas de Wraitsoth es variable según todos los Atributos en Campo. Arise no puede aún desacoplar tres materiales: no se inventan materiales adicionales procedentes de Shangri ni se supone un destierro futuro que lo alimente.",
         "steps": [
           {
             "number": 1,
             "action": "Repetir los pasos 1–3 de ARISE3MAT08: Wraitsoth busca Unicornio, Teosis trae Fenrir, ambos forman Shangri con 2 materiales [Unicornio, Fenrir]; luego Riseheart entra de mano, destierra Big Bang del Deck como coste y las 3 cartas superiores rivales boca abajo por efecto, y se convierte en Nivel 7. No se usó la Normal.",
             "detail": "Repetir los pasos 1–3 de ARISE3MAT08: Wraitsoth busca Unicornio, Teosis trae Fenrir, ambos forman Shangri con 2 materiales [Unicornio, Fenrir]; luego Riseheart entra de mano, destierra Big Bang del Deck como coste y las 3 cartas superiores rivales boca abajo por efecto, y se convierte en Nivel 7. No se usó la Normal.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17769,
+                "name": "Kashtira Unicorn",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21304,7 +22018,29 @@
             "number": 2,
             "action": "En la cadena de disparos posterior a la resolución de Riseheart, decidir activar CL1 Big Bang (seleccionando el Shangri propio, que tiene Fenrir acoplado) y CL2 Shangri-Ira por el destierro rival boca abajo. Resolver CL2: Shangri elige una única zona sin utilizar y la bloquea mientras siga boca arriba. Resolver CL1 Big Bang: recuperar Fenrir que estaba acoplado a Shangri y Invocarlo Especialmente desde la mano con el propio efecto de Big Bang. No se usa la condición autónoma de Fenrir de controlar cero monstruos. Shangri mantiene 1 material [Unicornio].",
             "detail": "En la cadena de disparos posterior a la resolución de Riseheart, decidir activar CL1 Big Bang (seleccionando el Shangri propio, que tiene Fenrir acoplado) y CL2 Shangri-Ira por el destierro rival boca abajo. Resolver CL2: Shangri elige una única zona sin utilizar y la bloquea mientras siga boca arriba. Resolver CL1 Big Bang: recuperar Fenrir que estaba acoplado a Shangri y Invocarlo Especialmente desde la mano con el propio efecto de Big Bang. No se usa la condición autónoma de Fenrir de controlar cero monstruos. Shangri mantiene 1 material [Unicornio].",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21313,7 +22049,36 @@
             "number": 3,
             "action": "Dado que Shangri activó y resolvió su efecto ese mismo turno, Invocar por Xyz Arise-Heart sobre Riseheart como un único monstruo Kashtira permitido por su procedimiento alternativo. Esta vez Shangri no es material: Arise queda con 1 material [Riseheart]. Fenrir sigue independiente, y Shangri permanece boca arriba para conservar la zona bloqueada.",
             "detail": "Dado que Shangri activó y resolvió su efecto ese mismo turno, Invocar por Xyz Arise-Heart sobre Riseheart como un único monstruo Kashtira permitido por su procedimiento alternativo. Esta vez Shangri no es material: Arise queda con 1 material [Riseheart]. Fenrir sigue independiente, y Shangri permanece boca arriba para conservar la zona bloqueada.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 18191,
+                "name": "Kashtira Arise-Heart [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18151,
+                "name": "Kashtira Riseheart",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21322,7 +22087,50 @@
             "number": 4,
             "action": "Campo final sin interrupciones: Shangri-Ira en Defensa con 1 material [Unicornio]; Arise-Heart boca arriba con 1 material [Riseheart]; Fenrir independiente boca arriba; Wraitsoth en zona de Campo, 1 zona rival bloqueada, 3 cartas rivales desterradas boca abajo, Big Bang desterrada boca arriba, Teosis al GY; Normal libre y restricción Extra Xyz. El refuerzo de estadísticas de Wraitsoth es variable según todos los Atributos en Campo. Arise no puede aún desacoplar tres materiales: no se inventan materiales adicionales procedentes de Shangri ni se supone un destierro futuro que lo alimente.",
             "detail": "Campo final sin interrupciones: Shangri-Ira en Defensa con 1 material [Unicornio]; Arise-Heart boca arriba con 1 material [Riseheart]; Fenrir independiente boca arriba; Wraitsoth en zona de Campo, 1 zona rival bloqueada, 3 cartas rivales desterradas boca abajo, Big Bang desterrada boca arriba, Teosis al GY; Normal libre y restricción Extra Xyz. El refuerzo de estadísticas de Wraitsoth es variable según todos los Atributos en Campo. Arise no puede aún desacoplar tres materiales: no se inventan materiales adicionales procedentes de Shangri ni se supone un destierro futuro que lo alimente.",
-            "photos": [],
+            "photos": [
+              {
+                "cid": 17800,
+                "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18191,
+                "name": "Kashtira Arise-Heart [Xyz rango 7]",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 17768,
+                "name": "Kashtira Fenrir",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18204,
+                "name": "Pressured Planet Wraitsoth",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18220,
+                "name": "Kashtira Big Bang",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              },
+              {
+                "cid": 18203,
+                "name": "Kashtiratheosis",
+                "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+                "label": "CARTA_PARTICIPANTE_EN_PASO"
+              }
+            ],
             "requirements": [],
             "resources": [],
             "board": []
@@ -21356,16 +22164,18 @@
         "opening": "1× Kashtira Fenrir + 1× Kashtira Birth.",
         "hand_photos": [
           {
+            "cid": 17768,
             "name": "Kashtira Fenrir",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
-            "label": "Zona indicada en la descripción"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
+            "cid": 17815,
             "name": "Kashtira Birth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
-            "label": "Zona indicada en la descripción"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "result": "Dark Armed, the Dragon of Annihilation Dark Armed → GY → Campo rival: activa su efecto en Main Phase: desacopla 1 material como coste y selecciona 1 carta que controle el rival. Si el efecto resuelve y destruye esa carta, destierra 1 carta de tu GY (puede ser el material desacoplado que acaba de llegar allí). Dark Armed no podrá atacar durante el resto de este turno. El efecto no es Rápido y no niega nada. No es «desterrar la carta rival»; es destruirla.",
@@ -22417,10 +23227,11 @@
         "opening": "Turno propio jugando segundo, sin monstruos propios. Fenrir en mano; también puede usarse Unicornio u Ogro en su lugar. Arise-Heart y ZEUS disponibles en Extra. El efecto de Shangri-Ira rival se activó correctamente en la Standby de ESTE turno. El rival conserva Shangri-Ira en Defensa, Arise-Heart con dos materiales y los monstruos mostrados en el ejemplo. Battle Phase y Main Phase 2 disponibles; sin bloqueo de Especial ni del Extra.",
         "hand_photos": [
           {
+            "cid": 17768,
             "name": "Kashtira Fenrir",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "turn_order": "second",
@@ -22686,16 +23497,18 @@
         "opening": "Fenrir y Nacimiento en mano; campo y GY propios vacíos, Normal disponible, Main Phase propia. En Main quedan Unicornio, Teosis, Riseheart, Big Bang y otro Fenrir; Shangri-Ira y Arise-Heart en Extra. El rival debe tener tres cartas en Deck para el efecto de Riseheart y una zona disponible que Shangri-Ira pueda bloquear.",
         "hand_photos": [
           {
+            "cid": 17768,
             "name": "Kashtira Fenrir",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
+            "cid": 17815,
             "name": "Kashtira Birth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "turn_order": "first",
@@ -23229,22 +24042,25 @@
         "opening": "Unicornio, Ash Blossom y Nacimiento en mano; campo vacío y Normal libre. Baronne, Shangri-Ira y Arise-Heart disponibles en Extra. Teosis, Fenrir, Riseheart y Big Bang disponibles en Main. No se presupone otro Cantante: se usa la Ash registrada en esta lista.",
         "hand_photos": [
           {
+            "cid": 17769,
             "name": "Kashtira Unicorn",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
+            "cid": 12950,
             "name": "Ash Blossom & Joyous Spring",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12950.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12950.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
+            "cid": 17815,
             "name": "Kashtira Birth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "turn_order": "first",
@@ -23840,14 +24656,14 @@
             "name": "Kashtira Birth",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           },
           {
             "cid": 18153,
             "name": "Tearlaments Kashtira",
             "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18153.jpg",
             "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18153.jpg",
-            "label": "En mano"
+            "label": "EN_MANO_CONFIRMADA"
           }
         ],
         "initial_details": "Ogre debía estar REALMENTE en GY antes de empezar; se destierra como parte del efecto de Tearlaments Kashtira, no se inventa un tercer monstruo.\nDos Nivel7 consumidos como materiales Xyz.\nNo es apertura desde campo/cementerio vacíos: Ogre en GY es condición indispensable.\nBirth sólo reanima un Kashtira NO-Xyz; Ogre sí cumple.\nEl mill de Tearlaments Kashtira es opcional: si se usa, su destino y disparos deben analizarse carta por carta.\nNo declarar Arise-Heart en campo ni materiales extra no creados.",
@@ -53934,7 +54750,8 @@
           "missing_step_photos": [],
           "missing_step_states": [],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
@@ -53963,15 +54780,7 @@
             "665:A09:R02:S06",
             "665:A09:R02:S07"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -53982,7 +54791,16 @@
             7
           ],
           "known_issue": "FOTO_MANO_ADICIONAL_RISEHEART_CONTRADICE_SOLO_FENRIR",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
         },
         {
           "route_id": "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
@@ -54014,7 +54832,8 @@
           "missing_step_photos": [],
           "missing_step_states": [],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
@@ -54030,16 +54849,17 @@
             "665:A09:R04:S02",
             "665:A09:R04:S03"
           ],
-          "missing_step_photos": [
-            3
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
             3
           ],
           "known_issue": "CAMPOS_ANTERIORES_FOTOGRAFIADOS_COMO_MANO",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            3
+          ]
         },
         {
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
@@ -54074,14 +54894,7 @@
             "665:A09:R05:S05",
             "665:A09:R05:S06"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -54091,7 +54904,15 @@
             6
           ],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
         },
         {
           "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
@@ -54124,12 +54945,7 @@
             "665:A09:R06:S03",
             "665:A09:R06:S04"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -54137,7 +54953,13 @@
             4
           ],
           "known_issue": "MANO_HEREDADA_DE_RUTA_PADRE_NO_REPETIDA_EN_FOTOS",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4
+          ]
         },
         {
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
@@ -54173,15 +54995,7 @@
             "665:A09:R07:S06",
             "665:A09:R07:S07"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -54192,7 +55006,16 @@
             7
           ],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
         },
         {
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
@@ -54227,14 +55050,7 @@
             "665:A09:R08:S05",
             "665:A09:R08:S06"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -54244,7 +55060,15 @@
             6
           ],
           "known_issue": "FOTO_ARISE_EN_MANO_INICIAL_AUNQUE_PERTENECE_AL_EXTRA",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
         },
         {
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
@@ -54277,12 +55101,7 @@
             "665:A09:R09:S03",
             "665:A09:R09:S04"
           ],
-          "missing_step_photos": [
-            1,
-            2,
-            3,
-            4
-          ],
+          "missing_step_photos": [],
           "missing_step_states": [
             1,
             2,
@@ -54290,7 +55109,13 @@
             4
           ],
           "known_issue": "MANO_HEREDADA; ARISE_RAPIDO_CON_MENOS_DE_3_MATERIALES_NO_DISPONIBLE",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": [
+            1,
+            2,
+            3,
+            4
+          ]
         },
         {
           "route_id": "665:A09:FENRIR:BIRTH:DARKARMED10",
@@ -54327,7 +55152,8 @@
           "missing_step_photos": [],
           "missing_step_states": [],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:BIGEYE:BATTLE:ZEUS11",
@@ -54348,7 +55174,8 @@
           "missing_step_photos": [],
           "missing_step_states": [],
           "known_issue": "NO_ES_APERTURA_AUTONOMA_REQUIERE_XYZ_Y_BATALLA",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
@@ -54369,7 +55196,8 @@
           "missing_step_photos": [],
           "missing_step_states": [],
           "known_issue": "REQUIERE_TABLERO_PREVIO_Y_MATERIALES_LINK_NO_MANO_INICIAL",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
@@ -54405,7 +55233,8 @@
             5
           ],
           "known_issue": "SOLO_CON_ACTIVACION_RIVAL_SHANGRI_DEL_TURNO_Y_BATALLA",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
@@ -54456,7 +55285,8 @@
             9
           ],
           "known_issue": null,
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
@@ -54514,7 +55344,8 @@
             9
           ],
           "known_issue": "ASH_SOLO_CANTANTE_ESPECIFICO; CUIDAR_ORDEN_ANTES_DE_LOCK_XYZ",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         },
         {
           "route_id": "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI",
@@ -54557,19 +55388,23 @@
             5
           ],
           "known_issue": "BIRTH_DISPONIBLE_EN_ESTADO_INICIAL; OGRE_EN_GY_PREVIO_NO_CARTA_EN_MANO",
-          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA"
+          "status": "CATALOGADA_CONDICIONAL_NO_CERTIFICADA",
+          "historical_missing_step_photos": []
         }
       ],
       "summary": {
         "historical_routes": 16,
         "historical_steps": 92,
-        "steps_with_photos": 57,
-        "steps_missing_photos": 35,
+        "steps_with_photos": 92,
+        "steps_missing_photos": 0,
         "steps_with_structured_resources": 27,
         "steps_missing_structured_resources": 65,
         "certified_combos": 0,
         "engine_replays": 0,
-        "spatial_endboards_certified": 0
+        "spatial_endboards_certified": 0,
+        "historical_steps_with_photos": 57,
+        "historical_steps_missing_photos": 35,
+        "steps_with_existing_photos": 92
       },
       "next_requirements": [
         "A09-T2: step_id→effect_id exacto, costo/ventana/materiales, estado antes/después",
@@ -55076,7 +55911,9 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 1,
           "step_action_source": "Invocar Especialmente Fenrir desde mano porque no controlas monstruos (Nivel 7 TIERRA, ATK 2400). Normal aún libre.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17768:empty-field-summon",
@@ -55112,7 +55949,10 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 2,
           "step_action_source": "Activar su efecto de Main Phase CL1 para añadir Riseheart desde Deck a mano. Solo se buscó una carta, no otra Fenrir.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            18151
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17768:search-monster",
@@ -55148,7 +55988,9 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 3,
           "step_action_source": "Invocar Normalmente Riseheart, Nivel 4 FUEGO ATK 1500, en zona de monstruo libre. Normal gastada.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18151
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "INVOCACION_NORMAL_GENERICA_SIN_EFECTO_A07",
           "before": {
@@ -55168,7 +56010,10 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 4,
           "step_action_source": "Como Riseheart fue Invocado Normalmente ese turno, activar su efecto CL1, desterrando Big Bang Kashtira del Deck como coste (texto anterior al punto y coma). Al resolver, desterrar boca abajo las 3 cartas superiores del Deck del adversario; como alguna fue desterrada, el Nivel de Riseheart pasa a 7. No considerar conocimiento de las identidades de las tres cartas desterradas.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18151,
+            18220
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18151:banish-topthree-level7",
@@ -55204,7 +56049,9 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 5,
           "step_action_source": "Big Bang fue desterrada como coste, pero su disparo requiere seleccionar un Xyz «Kashtira» que controles. En este momento todavía no existe ninguno: no se puede utilizar su efecto para recuperar materiales retroactivamente después de la próxima Invocación.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18220
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18220:bigbang-banished-material-return",
@@ -55240,7 +56087,11 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 6,
           "step_action_source": "Invocar por Xyz Shangri-Ira usando Fenrir Nivel 7 y Riseheart convertido en Nivel 7. Ambos se acoplan como 2 materiales Xyz. Elegir Defensa para el monstruo final; su Invocación desde Deck corresponde a Standby Phase, no a este instante.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            18151,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17800:shangri-xyz",
@@ -55276,7 +56127,12 @@
           "route_id": "665:A09:FENRIR:RISEHEART:SHANGRI02",
           "number": 7,
           "step_action_source": "Final definido: Shangri-Ira DEF 3000 con 2 materiales Fenrir/Riseheart, Big Bang desterrada boca arriba, 3 cartas rivales desterradas boca abajo, sin monstruos Kashtira adicionales, sin M/T propias activas, Normal gastada y mano vacía. Ninguna zona bloqueada aún: el destierro rival ocurrió antes de que Shangri-Ira existiera y su efecto no actúa retroactivamente. No se ejecuta Arise-Heart sin el requisito previo de otro procedimiento.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            17768,
+            18151,
+            18220
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -56073,7 +56929,9 @@
           "route_id": "665:A09:SHANGRI:STANDBY:ARISE04",
           "number": 3,
           "step_action_source": "Cierre: conservar Arise-Heart en Campo; no activar su efecto rápido de destierro en esta secuencia. Ese efecto exige desacoplar tres materiales y un objetivo legal para desterrar una carta del Campo boca abajo; aquí no se paga ese coste. Distinguir este efecto del reemplazo de envío al GY por destierro y de los posibles nuevos materiales. No adjudicar zonas bloqueadas por Shangri-Ira si ya no permanece boca arriba en Campo.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18191
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -56093,7 +56951,10 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 1,
           "step_action_source": "Invocar Especialmente Fenrir desde mano sin formar Cadena, puesto que no controlas monstruos. CL1 Fenrir en Main Phase: añadir Unicornio del Deck a mano. Fenrir TIERRA Nivel 7 queda en Ataque (2400 ATK).",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            17769
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17768:empty-field-summon",
@@ -56144,7 +57005,10 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 2,
           "step_action_source": "Activar Nacimiento Kashtira como Mágica Continua. Su permiso «Puedes Invocar de Modo Normal monstruos de Nivel 7 sin Sacrificar» permite la Invocación Normal de Unicornio, Nivel 7, desde mano sin Sacrificios. Gasta la Normal del turno; no se activó el efecto de recuperación de Nacimiento.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17815,
+            17769
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17815:level7-normal-no-tribute",
@@ -56180,7 +57044,11 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 3,
           "step_action_source": "CL1 Unicornio: buscar Kashtirateosis del Deck a mano. Activarla seleccionando Unicornio VIENTO; al resolver, Invocar Especialmente Ogro AGUA desde Deck en Defensa, por su Atributo diferente. Teosis va al GY y desde su resolución el Extra queda limitado a Invocaciones Xyz el resto del turno.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17769,
+            18203,
+            17770
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17769:search-spell",
@@ -56231,7 +57099,10 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 4,
           "step_action_source": "CL1 Ogro en Defensa: añadir Preparaciones Kashtira (Trampa) desde Deck a mano. Ogro puede buscar en Defensa. Colocar Preparaciones en M/T; no activarla durante el turno en que fue Colocada.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17770,
+            17831
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17770:search-trap",
@@ -56267,7 +57138,12 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 5,
           "step_action_source": "Superponer Fenrir + Ogro (dos monstruos Nivel 7) para Invocar Xyz Shangri-Ira Rango 7 en Defensa. Materiales exactos [Fenrir, Ogro], no Unicornio. Unicornio permanece en zona de Monstruos.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            17770,
+            17800,
+            17769
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17800:shangri-xyz",
@@ -56303,7 +57179,12 @@
           "route_id": "665:A09:FENRIR:BIRTH:SHANGRI05",
           "number": 6,
           "step_action_source": "Final: Shangri-Ira DEF 3000, 2 materiales [Fenrir, Ogro] + Unicornio boca arriba ATK 2500 + Nacimiento boca arriba + Preparaciones Colocada. Sin cartas de mano sobrantes de la apertura mínima; Normal gastada; Teosis GY y restricción Extra Xyz activa. Cero zonas bloqueadas y cero cartas rivales desterradas boca abajo en esta ruta: los bloqueos de Shangri requieren un evento posterior. El efecto de Shangri de traer Kashtira desde Deck puede activarse en una Standby Phase posterior, no en esta Main Phase.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            17769,
+            17815,
+            17831
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -56323,7 +57204,14 @@
           "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
           "number": 1,
           "step_action_source": "Ejecutar los pasos 1–4 de FENRIR:BIRTH:SHANGRI05: Fenrir Especial busca Unicornio; Nacimiento permite Normal sin Sacrificios de Unicornio; éste busca Teosis; Teosis trae Ogro AGUA en Defensa; Ogro añade Preparaciones y se Coloca. Campo antes del Xyz: Fenrir + Unicornio + Ogro, los tres Nivel 7, Nacimiento boca arriba.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            17815,
+            17769,
+            18203,
+            17770,
+            17831
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17768:empty-field-summon",
@@ -56434,7 +57322,11 @@
           "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
           "number": 2,
           "step_action_source": "Superponer Fenrir + Ogro para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Ogro]. Unicornio no se consume. La restricción de Teosis permite este Xyz.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            17770,
+            9861
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:9861:big-eye-xyz",
@@ -56470,7 +57362,10 @@
           "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
           "number": 3,
           "step_action_source": "Efecto de Ojo Grande: desacoplar Ogro como coste, seleccionar un monstruo rival y, al resolver, tomar su control si permanece como objetivo válido. Ojo Grande no puede atacar en el turno en que activa este efecto; la restricción no impide automáticamente atacar a los demás monstruos si fuera legal.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            9861,
+            17770
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:9861:big-eye-take-control",
@@ -56506,7 +57401,12 @@
           "route_id": "665:A09:FENRIR:BIRTH:BIGEYE06",
           "number": 4,
           "step_action_source": "Final condicionado: Ojo Grande ATK 2600 con 1 material [Fenrir], Unicornio ATK 2500, monstruo rival capturado ahora bajo control propio, Nacimiento boca arriba y Preparaciones Colocada. Ogro acabó en GY por desacoplamiento, Teosis GY, Normal gastada, Extra solo Xyz durante el turno. No se desterró nada boca abajo ni bloqueó zona alguna.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            9861,
+            17769,
+            17815,
+            17831
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -56526,7 +57426,13 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 1,
           "step_action_source": "Ejecutar exactamente los pasos de 665:A09:WRAITSOTH:SHANGRI01 usando solo Wraitsoth de la mano y manteniendo Riseheart sin utilizar. Wraitsoth busca Unicornio; se Invoca Especialmente; Unicornio busca Teosis; Teosis Invoca Fenrir desde Deck con Atributo diferente; Unicornio + Fenrir forman Shangri-Ira. Estado intermedio: Shangri-Ira en Defensa con 2 materiales [Unicornio, Fenrir], Wraitsoth boca arriba en Zona de Campo, Riseheart en mano, Normal disponible. Ya rige el límite a Invocaciones Xyz impuesto por Teosis.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18204,
+            17769,
+            18203,
+            17768,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18204:activation-search",
@@ -56622,7 +57528,10 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 2,
           "step_action_source": "Como se controla un monstruo «Kashtira» (Shangri), Invocar Especialmente Riseheart desde mano por su procedimiento propio; Riseheart comienza en Nivel 4. Su Invocación añade el mismo bloqueo de Extra a Xyz, sin consumir Normal.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18151,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18151:special-from-hand",
@@ -56658,7 +57567,11 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 3,
           "step_action_source": "Activar el efecto de Riseheart en Main Phase: desterrar Big Bang Kashtira boca arriba del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck rival. Puesto que fueron desterradas, Riseheart pasa a Nivel 7. Big Bang no fue enviado al GY, ni esas tres cartas rivales fueron destruidas.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18151,
+            18220,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18151:banish-topthree-level7",
@@ -56694,7 +57607,10 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 4,
           "step_action_source": "Una sola cadena nueva para los dos disparos opcionales: al terminar de resolver Riseheart, Big Bang (desterrada como coste) y Shangri-Ira (por las tres cartas rivales desterradas boca abajo) están pendientes de su ventana de activación. Como ambos son efectos opcionales propios, construir la nueva Cadena con CL1 Big Bang, seleccionando el Shangri propio con Fenrir acoplado, y CL2 Shangri-Ira. No activar Big Bang en otra cadena posterior: habría perdido la oportunidad de responder a su destierro. Solo se cuenta un evento de destierro rival, no tres bloqueos.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18220,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18220:bigbang-banished-material-return",
@@ -56745,7 +57661,11 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 5,
           "step_action_source": "Resolución inversa de esa misma Cadena: resolver CL2 Shangri-Ira, eligiendo exactamente una zona sin usar de Monstruos Principal o M/T para bloquearla mientras Shangri siga boca arriba; después resolver CL1 Big Bang, tomar Fenrir de los materiales acoplados al Shangri seleccionado hacia la mano y, si es legal, Invocarlo Especialmente desde esa mano por el propio efecto de Big Bang. Se requiere conservar Shangri y el material elegible hasta la resolución. Aunque ya haya monstruos propios, no se está usando el procedimiento autónomo de Fenrir. Shangri queda con un único material [Unicornio], Fenrir en Campo y Big Bang desterrada boca arriba. Si un efecto fue negado o su objetivo dejó de ser legal, recalcular solo los resultados realmente resueltos antes de intentar el paso 6.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18220,
+            17800,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17800:shangri-zone-block",
@@ -56796,7 +57716,12 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 6,
           "step_action_source": "Superponer Fenrir + Riseheart, ambos Nivel 7, para Invocar Xyz Número 11: Ojo Grande en Ataque con 2 materiales [Fenrir, Riseheart]. No usar Shangri-Ira como material: debe permanecer boca arriba para sostener la zona bloqueada. No activar el efecto de Ojo Grande sin monstruo rival que seleccionar.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17768,
+            18151,
+            9861,
+            17800
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:9861:big-eye-xyz",
@@ -56832,7 +57757,13 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07",
           "number": 7,
           "step_action_source": "Final: Shangri-Ira (Rango 7; Unicornio como único material) y Ojo Grande (Rango 7; Fenrir y Riseheart como dos materiales) quedan en Campo. Wraitsoth permanece boca arriba, hay una zona rival bloqueada, tres cartas superiores del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba y Teosis en GY. Normal sin gastar; Extra restringido a Xyz. Wraitsoth aumenta ATK/DEF en 100 por cada Atributo diferente en Campo; no fijar un total si el Campo rival es desconocido. No se presupone otra carta en mano.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            9861,
+            18204,
+            18220,
+            18203
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -56852,7 +57783,12 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 1,
           "step_action_source": "Wraitsoth se activa y busca Unicornio. Unicornio se Invoca Especialmente desde mano cuando todavía no controlas monstruos y, en Main Phase, busca Teosis. Teosis selecciona Unicornio VIENTO para Invocar Especialmente Fenrir TIERRA en Defensa desde Deck. Extra restringido a Xyz por Teosis.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18204,
+            17769,
+            18203,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18204:activation-search",
@@ -56933,7 +57869,11 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 2,
           "step_action_source": "Superponer Unicornio y Fenrir para Shangri-Ira en Defensa, con 2 materiales [Unicornio, Fenrir]. Riseheart sigue en mano, Normal todavía libre. No hay zona bloqueada en este momento.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            17769,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17800:shangri-xyz",
@@ -56969,7 +57909,10 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 3,
           "step_action_source": "Invocar Especialmente Riseheart de mano porque controlas un Kashtira. Activar su efecto de Main Phase: desterrar Big Bang del Deck como coste y, al resolver, desterrar boca abajo tres cartas superiores del Deck contrario. Riseheart pasa a Nivel 7 al desterrar alguna de esas cartas. Los tres destierros constituyen un solo evento a efectos de Shangri.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18151,
+            18220
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18151:special-from-hand",
@@ -57020,7 +57963,10 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 4,
           "step_action_source": "En una nueva Cadena, activar el efecto de Shangri-Ira que permite elegir una zona sin usar y bloquearla mientras Shangri permanezca boca arriba. Resolver el bloqueo de una zona, no de tres. No activar el efecto opcional de Big Bang que también fue desterrada: sus materiales siguen intactos. La activación exitosa de Shangri este turno cumple la condición del procedimiento alternativo de Arise-Heart; no se requiere esperar una Standby futura.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            18220
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:17800:shangri-zone-block",
@@ -57056,7 +58002,12 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 5,
           "step_action_source": "En la misma Main Phase, Invocar por Xyz Arise-Heart sobre Shangri-Ira mediante su procedimiento de un monstruo Kashtira cuando se activó con éxito un efecto de Shangri-Ira ese turno. Transferir los dos materiales de Shangri a Arise: [Shangri-Ira, Unicornio, Fenrir] = 3 materiales. No usar Riseheart como material. El bloqueo anterior desaparece al dejar Shangri de estar boca arriba.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18191,
+            17800,
+            17769,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18191:arise-xyz-alternative",
@@ -57092,7 +58043,13 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08",
           "number": 6,
           "step_action_source": "Resultado antes de usar más efectos: Arise-Heart ATK impreso 3000, 3 materiales; Riseheart Nivel 7 permanece como otro monstruo; Wraitsoth boca arriba en zona de Campo; 3 cartas del Deck rival desterradas boca abajo, Big Bang desterrada boca arriba, Teosis en GY; 0 zonas bloqueadas al final, Normal libre, Extra solo Xyz por el resto del turno. El ATK actual de Arise puede subir por Wraitsoth según los Atributos del Campo. Arise dispone de materiales para una activación posterior de su Efecto Rápido de destierro, pero no se ejecuta aquí ni se presume objetivo.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18191,
+            18151,
+            18204,
+            18220,
+            18203
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -57112,7 +58069,15 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
           "number": 1,
           "step_action_source": "Repetir los pasos 1–3 de ARISE3MAT08: Wraitsoth busca Unicornio, Teosis trae Fenrir, ambos forman Shangri con 2 materiales [Unicornio, Fenrir]; luego Riseheart entra de mano, destierra Big Bang del Deck como coste y las 3 cartas superiores rivales boca abajo por efecto, y se convierte en Nivel 7. No se usó la Normal.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18204,
+            17769,
+            18203,
+            17768,
+            17800,
+            18151,
+            18220
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18204:activation-search",
@@ -57238,7 +58203,11 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
           "number": 2,
           "step_action_source": "En la cadena de disparos posterior a la resolución de Riseheart, decidir activar CL1 Big Bang (seleccionando el Shangri propio, que tiene Fenrir acoplado) y CL2 Shangri-Ira por el destierro rival boca abajo. Resolver CL2: Shangri elige una única zona sin utilizar y la bloquea mientras siga boca arriba. Resolver CL1 Big Bang: recuperar Fenrir que estaba acoplado a Shangri y Invocarlo Especialmente desde la mano con el propio efecto de Big Bang. No se usa la condición autónoma de Fenrir de controlar cero monstruos. Shangri mantiene 1 material [Unicornio].",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            18220,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18220:bigbang-banished-material-return",
@@ -57289,7 +58258,12 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
           "number": 3,
           "step_action_source": "Dado que Shangri activó y resolvió su efecto ese mismo turno, Invocar por Xyz Arise-Heart sobre Riseheart como un único monstruo Kashtira permitido por su procedimiento alternativo. Esta vez Shangri no es material: Arise queda con 1 material [Riseheart]. Fenrir sigue independiente, y Shangri permanece boca arriba para conservar la zona bloqueada.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            18191,
+            18151,
+            17800,
+            17768
+          ],
           "rule_evidence": [
             {
               "rule_id": "665:a07:18191:arise-xyz-alternative",
@@ -57325,7 +58299,14 @@
           "route_id": "665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09",
           "number": 4,
           "step_action_source": "Campo final sin interrupciones: Shangri-Ira en Defensa con 1 material [Unicornio]; Arise-Heart boca arriba con 1 material [Riseheart]; Fenrir independiente boca arriba; Wraitsoth en zona de Campo, 1 zona rival bloqueada, 3 cartas rivales desterradas boca abajo, Big Bang desterrada boca arriba, Teosis al GY; Normal libre y restricción Extra Xyz. El refuerzo de estadísticas de Wraitsoth es variable según todos los Atributos en Campo. Arise no puede aún desacoplar tres materiales: no se inventan materiales adicionales procedentes de Shangri ni se supone un destierro futuro que lo alimente.",
-          "source_photo_cids": [],
+          "source_photo_cids": [
+            17800,
+            18191,
+            17768,
+            18204,
+            18220,
+            18203
+          ],
           "rule_evidence": [],
           "rule_mapping_type": "ESTADO_RESUMEN_NO_ACTIVACION",
           "before": {
@@ -62554,6 +63535,29 @@
           "pending_exact_positions": 16,
           "no_invented_board_slots": true
         }
+      },
+      "photo_reconciliation": {
+        "status": "FOTOGRAFIAS_DE_PASOS_RECONCILIADAS_POR_CID_NO_CERTIFICA_TRANSICIONES",
+        "historical": {
+          "hand": 24,
+          "stepWith": 57,
+          "photos": 116
+        },
+        "current": {
+          "hand": 23,
+          "stepWith": 92,
+          "photos": 227
+        },
+        "previously_missing_steps": 35,
+        "added_photo_refs": 111,
+        "hand_source": "record.a08_review.route_candidates.confirmed_hand_photos",
+        "warnings": [
+          "SHANGRI02 Riseheart no es mano inicial: solo Fenrir",
+          "ARISE3MAT08 Arise-Heart pertenece al Extra, no a mano",
+          "Continuaciones con mano vacía no heredan fotos del campo como cartas robadas"
+        ],
+        "photos_are_native_268x391": true,
+        "hd_claim": false
       }
     }
   },

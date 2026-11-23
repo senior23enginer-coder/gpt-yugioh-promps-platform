@@ -59,6 +59,13 @@ function run(packagePath,documentPath,historyPath){
   }
  }
  images(normalized,true);normalized.profile=h.profile;
+ // A09 improves native step photography and confirms initial-hand cards without
+ // modifying any original action, route identity, material, result or inventory.
+ const stripRouteMedia=routes=>routes.map(route=>({...route,
+  hand_photos:[],steps:route.steps.map(step=>({...step,photos:[]}))}));
+ A.deepEqual(stripRouteMedia(normalized.routes),stripRouteMedia(h.routes),
+  'HISTORIC_ROUTE_ACTION_CHANGED_OUTSIDE_A09_PHOTOGRAPHY');
+ normalized.routes=h.routes;
  // Later scoped A06 is allowed to append documented causal studies and maps;
  // historical slots, routes and all other native fields are still compared in full.
  normalized.engine_maps=h.engine_maps;

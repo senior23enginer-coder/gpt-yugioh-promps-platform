@@ -76,7 +76,7 @@ function run(pkgPath,mdPath,histPath){
    A.equal(photo.image,IMG+photo.cid+'.jpg','STEP_IMAGE_PATH_WRONG');
   }
  }
- A.deepEqual({steps,photos,hands,endboards},{steps:92,photos:116,hands:24,endboards:10});
+ A.deepEqual({steps,photos,hands,endboards},{steps:92,photos:227,hands:23,endboards:10});
  A.equal(fs.readdirSync(path.join(DIR,'imagenes/infografias')).filter(x=>x.endsWith('.webp')).length,15);
  A.equal(fs.readdirSync(path.join(DIR,'imagenes/ejemplos_combos_kashtira')).filter(x=>x.endsWith('.webp')).length,4);
  const start=md.indexOf('## CONTROL_DE_TAREAS_A01_A10 —'),end=md.indexOf('\n---\n',start);
@@ -99,7 +99,7 @@ function run(pkgPath,mdPath,histPath){
   physical:{main:42,extra:15,side:0,reserve:19},cids:38,slots:44,
   jpgVerified:44,jpgPhysical:38,jpgExtraReferenced:6,quality:'THUMBNAIL_268x391_NOT_HD',
   webpInfographics:15,webpExamples:4,imageReferences:imageRefs,
-  routes:16,steps:92,stepPhotos:116,handPhotos:24,endboardVariants:10,
+  routes:16,steps:92,stepPhotos:227,handPhotos:23,endboardVariants:10,
   banlistAssessed:false,sideChanged:false,liveImport:false,engineExecuted:false};
 }
 if(require.main===module){

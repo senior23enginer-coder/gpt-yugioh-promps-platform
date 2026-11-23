@@ -77,7 +77,7 @@ function audit(pkgFile,mdFile,historyFile){
    photos++;A(cids.has(img.cid),'PHOTO_REF_FOREIGN_CID_'+img.cid);
   }
  }
- A.equal(steps,92);A.equal(photos,116);
+ A.equal(steps,92);A.equal(photos,227);
  const begin=doc.indexOf('## CONTROL_DE_TAREAS_A01_A10'),end=doc.indexOf('\n---\n',begin);
  A(begin>=0&&end>begin);
  const ledger=doc.slice(begin,end);
@@ -112,7 +112,7 @@ function audit(pkgFile,mdFile,historyFile){
  for(const [id,modify] of negatives){const x=structuredClone(pkg);modify(x);A.throws(()=>verify(x,old),undefined,'MUTATION_NOT_REJECTED_'+id)}
  return {ok:true,deck_id:665,stage:'A03',complete:16,pending:19,counts,totalCopies:76,
   cids:38,cardIds:44,officialSources:38,photos:44,externalPhotoReferences:6,
-  routes:16,steps:92,stepImageReferences:116,negativeTests:negatives.length,
+  routes:16,steps:92,stepImageReferences:227,negativeTests:negatives.length,
   banlistAssessed:false,reserveReclassified:false,gameEngineExecuted:false,livePublished:false};
 }
 if(require.main===module){
