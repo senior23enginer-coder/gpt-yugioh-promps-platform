@@ -1991,7 +1991,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** extra
 - **quantity:** 1
 - **image:** imagenes/tcg/17804.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Donner, Dagger Fur Hire
 - **scenario:**
   - **initial condition:** La ruta `665:A09:DONNER:FENRIR:UNICORN:GODDESS12` **parte con Donner ya presente**; usarla para Underworld Goddess no prueba su Invocación
@@ -2029,7 +2029,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** extra
 - **quantity:** 1
 - **image:** imagenes/tcg/15366.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Fossil Warrior Skull Knight
 - **scenario:**
   - **initial condition:** Su envío al GY y efecto de GY pueden dar utilidad sin Invocación
@@ -2067,7 +2067,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** extra
 - **quantity:** 1
 - **image:** imagenes/tcg/15882.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Fossil Machine Skull Wagon
 - **scenario:**
   - **initial condition:** La utilidad desde GY no es acceso al campo desde Extra
@@ -2105,7 +2105,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 1
 - **image:** imagenes/tcg/18152.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Scareclaw Kashtira
 - **scenario:**
   - **initial condition:** Desde mano se puede Invocar Especial desterrando Kashtira/Scareclaw de mano/GY según texto; puede atacar en Defensa y sus batallas interactúan con efectos de monstruos rivales
@@ -2143,7 +2143,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 1
 - **image:** imagenes/tcg/18153.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Tearlaments Kashtira
 - **scenario:**
   - **initial condition:** Invocación Especial mediante destierro de Kashtira/Tearlaments de mano/GY; al Invocarse o enviarse al GY por efecto, puede enviar cartas desde la cima del Deck al GY según texto
@@ -2181,7 +2181,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 1
 - **image:** imagenes/tcg/14740.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Dimension Shifter
 - **scenario:**
   - **initial condition:** Si tu GY está vacío, enviarlo de mano al GY como coste; durante los siguientes dos turnos, cartas que irían al GY se destierran
@@ -2219,7 +2219,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 1
 - **image:** imagenes/tcg/5537.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Terraforming
 - **scenario:**
   - **initial condition:** Mágica Normal busca Mágica de Campo en Deck, por ejemplo Pressured Planet Wraitsoth si disponible
@@ -2257,7 +2257,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 2
 - **image:** imagenes/tcg/5432.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Book of Moon
 - **scenario:**
   - **initial condition:** Mágica Rápida para poner monstruo boca arriba en Defensa boca abajo
@@ -2295,7 +2295,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 3
 - **image:** imagenes/tcg/4342.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Dark Hole
 - **scenario:**
   - **initial condition:** Destruye monstruos en campo
@@ -2333,7 +2333,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 2
 - **image:** imagenes/tcg/15756.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Pot of Prosperity
 - **scenario:**
   - **initial condition:** En tu Main Phase destierra del Extra 3 o 6 **boca abajo como coste**, excava igual cantidad de cartas del Deck y añade una elegida; resto se coloca debajo del Deck según texto
@@ -2371,7 +2371,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 2
 - **image:** imagenes/tcg/12464.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Cosmic Cyclone
 - **scenario:**
   - **initial condition:** Paga 1000 LP, selecciona una Mágica/Trampa en campo y la destierra
@@ -2409,7 +2409,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 2
 - **image:** imagenes/tcg/9352.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Forbidden Lance
 - **scenario:**
   - **initial condition:** Mágica Rápida: selecciona monstruo boca arriba, pierde 800 ATK y queda no afectado por efectos de otras Magias/Trampas durante turno
@@ -2447,7 +2447,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 1
 - **image:** imagenes/tcg/15296.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Triple Tactics Talent
 - **scenario:**
   - **initial condition:** En Main Phase propia, si rival activó efecto de monstruo durante ese turno, escoger una acción legal de robo, control o perturbación
@@ -2485,7 +2485,7 @@ Evidencia documental hist?rica conservada con sus identificadores y estados orig
 - **zone:** main
 - **quantity:** 3
 - **image:** imagenes/tcg/13631.jpg
-- **reference file:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
+- **reference document:** 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/guias/DECK_665_KASHTIRA_CATORCE_CASOS_20261113.md
 - **purpose:** Infinite Impermanence
 - **scenario:**
   - **initial condition:** Negar efectos de monstruo rival boca arriba; desde mano solo si no controlas cartas
