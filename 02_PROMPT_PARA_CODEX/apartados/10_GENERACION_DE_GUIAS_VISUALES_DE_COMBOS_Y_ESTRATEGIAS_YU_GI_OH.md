@@ -1,5 +1,10 @@
 # Apartado 10 — A10A Guías visuales obligatorias / A10B Calculadora opcional
 
+### Regla transversal de presentación al jugador (23-11-2026)
+
+A10A solo da por lista la guía integrada si el `record.player_guide` certificado en A01 está presente, usa nombres reales de cartas, presenta las cuatro fases y destaca exclusivamente cartas elegidas por una razón verificable. Los metadatos de auditoría (CID numérico, C01, identificadores de efectos/rutas, A01–A10, dictámenes, estados internos, revisión editorial y fechas de estudio) se mantienen como trazabilidad técnica **fuera** de los componentes del jugador. No publicar un enlace HTML de consulta técnica para suplir contenido incompleto. No renderizar paneles de reglas, fuentes, formato o Skill cuando estén vacíos o solo contengan estados pendientes. Guía, tarjetas del deck y ficha comparten un mismo perfil del JSON estructurado; comparar en pruebas de importación y renderizado. Las fotos de cartas destacadas son relativas a CIDs efectivamente cargados, con rol, razón y momento de uso; nunca primeras tres cartas por posición en inventario. Los estados A01/A10A solo se cierran con evidencia individual real, no por una prueba sintética.
+
+
 ### Precondición A10 — selección expresa y deck realmente cargado
 
 **NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
