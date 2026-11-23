@@ -2,8 +2,8 @@
 // Reusable admission gate; validates data only. It NEVER starts an analysis.
 const fs = require('node:fs');
 const path = require('node:path');
-const required = Object.freeze(['main','extra','side']);
-const allowed = new Set([...required,'reserve']);
+const required = Object.freeze(['main','extra']);
+const allowed = new Set([...required,'side','reserve']);
 const key = r => Number(r?.id ?? r?.card_id);
 function parseRows(rows, violations, label) {
   if (!Array.isArray(rows)) {violations.push(label + '_NOT_LOADED');return [];}
@@ -56,9 +56,9 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const counts={main:0,extra:0,side:0,reserve:0};
   for(const row of rows)if(allowed.has(row.section)&&Number.isInteger(row.quantity)&&row.quantity>0)
     counts[row.section]+=row.quantity;
-  // Scoped, user-authorized structural A01/A02 exceptions; Side stays EMPTY.
-  // Neither exception waives Main, Extra, row signatures, format or deck ID.
-  // A05-A10A keep their original gate. A04 requires independent explicit assignment.
+  // Side and Reserve are now optional at ALL stages by the owner's explicit 2026-11-23 instruction.
+  // Historical waiver flags remain in the result for traceability, never as admission controls.
+  // Main, Extra, exact row signatures, format and the explicitly assigned deck ID remain strict.
   const a01SideWaiverApplied=stageId==='A01' && authorizedSideOmissionForA01===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
@@ -87,12 +87,11 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const a09SideWaiverApplied=stageId==='A09' && authorizedSideOmissionForA09===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===665 &&
     selected===payload.deck_id && counts.main>0 && counts.extra>0 && counts.side===0;
-  for(const section of required)if(counts[section]===0 &&
-    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied||a04SideWaiverApplied||a05SideWaiverApplied||a06SideWaiverApplied||a07SideWaiverApplied||a08SideWaiverApplied||a09SideWaiverApplied)))
+  for(const section of required)if(counts[section]===0)
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied,a06SideWaiverApplied,a07SideWaiverApplied,a08SideWaiverApplied,a09SideWaiverApplied});
+    deck_id:payload.deck_id,format,counts,requiredSections:[...required],optionalSections:['side','reserve'],a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied,a06SideWaiverApplied,a07SideWaiverApplied,a08SideWaiverApplied,a09SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
