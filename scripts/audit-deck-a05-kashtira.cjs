@@ -108,7 +108,7 @@ function inspect(pkgFile,mdFile,srcFile){
  const items=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
  A.deepEqual(items.map(x=>x[2]),ordered);
  A.deepEqual(items.filter(x=>x[1]==='x').map(x=>x[2]).slice(0,16),ordered.slice(0,16));
- A(ledger.includes('24/35')&&ledger.includes('11/35'),'CHECKLIST_COUNTS');
+ A(ledger.includes('28/35')&&ledger.includes('7/35'),'CHECKLIST_COUNTS');
  return {ok:true,deck_id:665,stage:'A05',completed:16,pending:19,
   identities:38,physicalSlots:44,effects:90,paperCases:630,
   independentHighRiskGuards:ORACLE.length,motorCasesExecuted:0,banlistAssessed:false,

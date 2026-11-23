@@ -39,7 +39,7 @@ assert.equal(structure.inventory.length,44);
 assert.equal(structure.record.routes.length,16);
 const doc=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'),'utf8');
 for(const task of ['A01-T1','A01-T2','A01-T3'])assert(doc.includes('- [x] **'+task),'A01_NOT_CERTIFIED_'+task);
-assert(doc.includes('24/35')&&doc.includes('11/35'),'A01_A02_A03_PROGRESS_WRONG');
+assert(doc.includes('28/35')&&doc.includes('7/35'),'A01_A02_A03_PROGRESS_WRONG');
 const report=fs.readFileSync(path.join(root,'03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'),'utf8');
 assert(report.includes('EXCEPCION_A01_AUTORIZADA')&&report.includes('COMPLETA 3/3'),'OLD_BLOCKING_REPORT_NOT_RECONCILED');
 assert(report.includes('No evaluar banlist si no se pidió'),'USER_OUT_OF_SCOPE_RULE_MISSING');
@@ -51,6 +51,9 @@ assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,paylo
 const a07=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA07:true});
 assert(a07.eligible&&a07.a07SideWaiverApplied,'A07_SCOPED_AUTH');
 assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA07:true}).eligible,'A07_NOT_INHERITED');
+const a08=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA08:true});
+assert(a08.eligible&&a08.a08SideWaiverApplied,'A08_SCOPED_AUTH');
+assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A09',authorizedSideOmissionForA08:true}).eligible,'A08_NO_A09_LEAK');
 console.log(JSON.stringify({
   ok:true,deck_id:665,gate:'A01_EXPLICIT_SIDE_WAIVER',defaultEligible:false,a01Eligible:true,
   inventory:tested.counts,cardIdentities:38,nativePackageCreated:true,

@@ -42,7 +42,7 @@ function audit(){
  }
  A.equal(paperIds.size,42,'PAPER_CASES_NOT_COMPLETE');
  const ledger=doc.slice(doc.indexOf('## CONTROL_DE_TAREAS_A01_A10'),doc.indexOf('\n---\n'));
- A(ledger.includes('24/35')&&ledger.includes('11/35'),'LEDGER_COUNTS');
+ A(ledger.includes('28/35')&&ledger.includes('7/35'),'LEDGER_COUNTS');
  for(let n=1;n<=4;n++){A(ledger.includes('- [x] **A06-T'+n+'**'),'MISSING_A06_TASK');A(ledger.includes('- [x] **A07-T'+n+'**'),'A07_PREMATURE');}
  const sec=doc.slice(doc.indexOf('## APARTADO_06 — Kashtira Pure 665 · motores y relaciones (23-11-2026)'));
  A(sec.length>10000&&sec.includes('### A06.5 —'),'NO_A06_STUDY');

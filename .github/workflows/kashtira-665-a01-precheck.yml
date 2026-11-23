@@ -1,4 +1,4 @@
-name: Kashtira 665 A01–A07 source CID, 90 effects, paper cases and native ZIP audits
+name: Kashtira 665 A01–A08 source CID, 90 effects, paper cases and native ZIP audits
 on:
   push:
     branches:
@@ -15,6 +15,7 @@ on:
       - 'scripts/audit-deck-a05-kashtira.cjs'
       - 'scripts/audit-deck-a06-kashtira.cjs'
       - 'scripts/audit-deck-a07-kashtira.cjs'
+      - 'scripts/audit-deck-a08-kashtira.cjs'
       - '02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md'
       - 'scripts/test-deck-a04-kashtira-decode.py'
       - '02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md'
@@ -67,6 +68,8 @@ jobs:
         run: node scripts/audit-deck-a06-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
       - name: Audit A07 90 causal clauses, 900 paper tests and 38 source CIDs
         run: node scripts/audit-deck-a07-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A08 16 historical routes, 21 edges, 38 card roles and 48 paper contrasts
+        run: node scripts/audit-deck-a08-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
       - name: Lint native Kashtira A02 isolated PHP import test
         run: php -l scripts/test-deck-a02-kashtira-preflight.php
       - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing
@@ -88,7 +91,7 @@ jobs:
           assert len(list((root/'imagenes/infografias').glob('*.webp')))==15
           assert len(list((root/'imagenes/ejemplos_combos_kashtira').glob('*.webp')))==4
           assert len(list((root/'guias').glob('*.md')))==7
-          out=Path('Kashtira_Pure_665_A07_StationX_Import.zip')
+          out=Path('Kashtira_Pure_665_A08_StationX_Import.zip')
           with ZipFile(out,'w',ZIP_DEFLATED,compresslevel=6) as z:
               for p in items:z.write(p,arcname=root.name+'/'+p.relative_to(root).as_posix())
           with ZipFile(out) as z:
@@ -103,8 +106,8 @@ jobs:
       - name: Publish Kashtira A02 import ZIP as CI artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Kashtira-Pure-665-A07-StationX-Import
-          path: Kashtira_Pure_665_A07_StationX_Import.zip
+          name: Kashtira-Pure-665-A08-StationX-Import
+          path: Kashtira_Pure_665_A08_StationX_Import.zip
           if-no-files-found: error
           retention-days: 30
           compression-level: 0
