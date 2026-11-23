@@ -30,6 +30,104 @@
 
 **No confundir «documentado» con «probado».** A01–A10 están desarrollados como estudio; cero rutas certificadas en cliente de juego. No se asigna puntuación competitiva arbitraria.
 
+## A01 — Verificación vigente de inventario y propósitos (660; 23-11-2026)
+
+**Asignación:** Purrely · TCG Advanced · Main 48, Extra 15, Side 7. **Fuente:** A03 y matriz A06.2 original con 36/36 CIDs y cantidades contrastados; no se cambian listas ni se consideran banlists.
+
+### A01-T1 — Arquetipo, motores, fases y riesgo
+
+- **Clasificación estratégica:** Control-Midrange con Xyz de Rango 2, ventaja de materiales y remate condicional.; arquetipo Purrely / Purrelyly, Recuerdos y monstruos Xyz.
+- **Motor principal y condición de victoria:** Purrely / Purrelyly → Recuerdos → Xyz Rango 2 → materiales → Noir, cuando el estado y la cantidad de materiales lo permitan. La victoria depende de convertir recursos y presión legal en daño/control; no se asume OTK ni campo final.
+- **Plan primero, segundo y juego largo:** Primero: obtener una Xyz pequeña y proteger Recuerdos; después acumular materiales sin dar por hecha Noir. Segundo: decidir entre Belleza para negar, Felicidad para presión o ZEUS tras batalla legal. Medio/tardío: recuperar recursos con Mi Amigo Purrely únicamente al cumplirse su disparo; conservar la trampa Purrelysaltó para una salida de Rango temporal.
+- **Bloqueos y riesgos:** Purrely excava al azar; las opciones de Noir y las subidas por trampa son condicionales. Ángel del Alba Kambi puede impedir Extra de Tipo no Hada ese turno. La carta, el coste, la ventana y el objetivo deben comprobarse en su ficha antes de trasladarse a A05/A07/A09.
+
+### A01-T2 — Perfil redactado, pendiente JSON canónico
+
+- **Arquetipo:** Purrely / Purrelyly, Recuerdos y monstruos Xyz.
+- **Tipo de estrategia:** Control-Midrange con Xyz de Rango 2, ventaja de materiales y remate condicional.
+- **Estilo breve:** Purrely excava Recuerdos, Purrelyly recupera Magias y las Xyz pequeñas ganan materiales hasta Noir; la trampa Purrelysaltó permite una subida de Rango temporal.
+- **Resumen para ficha:** Construye Xyz de Rango 2 con Recuerdos, acumula materiales y llega a Noir solo con requisitos completos. Belleza, Rechoncho y Felicidad tienen objetivos distintos; no se garantiza el resultado de excavación de Purrely.
+- **Cómo se juega:** Primero: obtener una Xyz pequeña y proteger Recuerdos; después acumular materiales sin dar por hecha Noir. Segundo: decidir entre Belleza para negar, Felicidad para presión o ZEUS tras batalla legal. Medio/tardío: recuperar recursos con Mi Amigo Purrely únicamente al cumplirse su disparo; conservar la trampa Purrelysaltó para una salida de Rango temporal.
+- **Qué vigilar:** Purrely excava sin buscar carta garantizada; la subida a Noir grande requiere los materiales exigidos. Purrelysaltó tiene retorno temporal al Extra; Ángel del Alba Kambi puede bloquear Xyz no Hada. Side real 7 copias, no completar 15.
+
+Estilo breve 160/190; Resumen para ficha 218/250. No cerrar T2 sin paridad literal con `record.profile` y una firma nativa válida.
+
+### A01-T3 — Matriz individual ya existente (A06.2)
+
+**Verificados documentalmente:** 36 CIDs distintos, ubicaciones, cantidades, propósito de carta, condiciones y advertencias en `A06.2 — Matriz canónica individual A05 → A06 → A08/A09` de este mismo documento. La tabla original se conserva como fuente única, sin duplicarla ni crear otra versión. **Conteos:** Main 48, Extra 15, Side 7. Los enlaces A09 allí son candidatos, nunca combos certificados. Cuando no haya `effect_id`/ruta comprobada, el enlace sigue `PENDIENTE_DE_ENLACE_A05_A09` y no se inventa.
+
+### A01-T4 y T5 — Pendientes
+
+- **T4:** contrastar el perfil con `datos/stationx-deck.json`, el inventario y la huella nativa para poder publicar `a01_profile_contract`; paquete estructurado actual no acreditado para esta revisión.
+- **T5:** ejecutar importación y reexportación reales en Station X, verificar render, rechazo de identidad/huella y conservación de fotos/rutas. La importación V40 histórica no acredita T5.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Estado:** A01-T1/T3 documentadas; A01-T2/T4/T5 bloqueadas a la espera de ZIP nativo y aceptación importable. No actualizar el estado histórico de A02–A10A; A10B no solicitado.
+
+### A01
+- [x] **A01-T1** — Evidencia en diagnóstico y matriz A06.2 de este deck.
+- [ ] **A01-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A01-T3** — Evidencia en diagnóstico y matriz A06.2 de este deck.
+- [ ] **A01-T4** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A02
+- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A03
+- [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A03-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A03-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A04
+- [ ] **A04-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A04-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A04-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A05
+- [ ] **A05-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A05-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A06
+- [ ] **A06-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A06-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A07
+- [ ] **A07-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A07-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A08
+- [ ] **A08-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A08-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A09
+- [ ] **A09-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A09-T4** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A10A
+- [ ] **A10A-T1** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10A-T2** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10A-T3** — Sin evidencia de certificación completa con el contrato vigente.
+
+### A10B (opt-in no solicitado)
+- [ ] **A10B-T4** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10B-T5** — Sin evidencia de certificación completa con el contrato vigente.
+- [ ] **A10B-T6** — Sin evidencia de certificación completa con el contrato vigente.
+
+---
 ## A01 — Identidad y plan de victoria
 
 **Plan principal:** transformar a Purrely/Purrelyly y los Recuerdos rápidos en Xyz Rango 2, añadir cartas como materiales y, cuando realmente se llegue a cinco o más, superponer **Noir Expurrely** de Rango 7. Una alternativa es la trampa **¿¡Purrelysaltó!?**, que permite un cambio de Rango temporal con su propia condición de regreso al Extra.
