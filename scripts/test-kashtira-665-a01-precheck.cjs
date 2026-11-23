@@ -32,6 +32,8 @@ for(const task of ['A01-T1','A01-T2','A01-T3']){
 }
 assert(doc.includes('BLOQUEADA_POR_PRECONDICION'),'FALSE_A01_CLOSURE');
 assert(doc.includes('No evaluar banlist si no se pidió'),'USER_OUT_OF_SCOPE_RULE_MISSING');
+const a01=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/apartados/01_ROL_Y_OBJETIVO_PRINCIPAL.md'),'utf8');
+assert(a01.includes('la banlist (lista de cartas prohibidas/limitadas y límites de copias por torneo) **no se consulta, no se evalúa y nunca bloquea este análisis**'),'A01_BANLIST_OUT_OF_SCOPE_INSTRUCTION_MISSING');
 console.log(JSON.stringify({
   ok:true,deck_id:665,gate:'BLOCKED_AS_REQUIRED',eligible:false,
   inventory:tested.counts,cardIdentities:38,missingNativePackage:true,
