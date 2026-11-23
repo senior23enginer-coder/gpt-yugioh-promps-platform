@@ -13,7 +13,7 @@ El usuario asignó **Kashtira Pure 665** y pidió continuar hasta terminar A01 a
 | Extra | 15 |
 | Side | **0**, conservado sin cambios |
 | Reserva | **19**, separada del Side |
-| Identidades reales y filas físicas | 38 CID · 40 `card_id` |
+| Identidades reales y filas físicas | 38 CID · 44 `card_id` |
 | Rutas existentes en V40 | 16 (documentales, sin replay atribuido) |
 | Paquete ZIP/JSON portable | Pendiente de A02; no se inventa un paquete |
 | A01-T1/T2/T3 | **COMPLETA 3/3**, documento canónico y auditoría de fuentes |
@@ -26,6 +26,6 @@ Se retiraron las comprobaciones anteriores de banlist por ser ajenas al encargo.
 
 ## Evidencia de CI
 
-La auditoría `scripts/audit-deck-a01-kashtira.cjs` verifica contra el histórico Station X [665.json](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json) las 38 identidades, 40 filas físicas, 16 rutas, 15 referencias de efecto documentales, seis propósitos, las fuentes Konami por CID y los tres checks A01. La prueba `scripts/test-kashtira-665-a01-precheck.cjs` asegura tanto la puerta estándar como la excepción limitada a A01.
+La auditoría `scripts/audit-deck-a01-kashtira.cjs` verifica contra el histórico Station X [665.json](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json) las 38 identidades, 44 filas físicas, 16 rutas, 15 referencias de efecto documentales, seis propósitos, las fuentes Konami por CID y los tres checks A01. La prueba `scripts/test-kashtira-665-a01-precheck.cjs` asegura tanto la puerta estándar como la excepción limitada a A01.
 
 **Alcance de este cierre:** identidad, perfil táctico y trazabilidad A01 completos; no supone ejecutar ni certificar el motor A05/A07/A09, los 16 combos, una importación a producción, ni un cambio en la ficha viva de Station X.

@@ -19,7 +19,7 @@ function run(historyFile,documentFile){
  const routes=new Set(j.routes.map(r=>r.id));A.equal(routes.size,16);
  const rel=new Set(j.causal_relations.map(x=>x.id));
  const inv=j.cards.flatMap(c=>c.slots.map(s=>({id:s.card_id,section:s.section,quantity:s.quantity})));
- A.equal(inv.length,40);
+ A.equal(inv.length,44);
  const payload={deck_id:665,format:j.format,record:{deck_id:665,format:j.format,cards:j.cards},inventory:inv};
  const normal=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload});
  A.equal(normal.eligible,false);A(normal.violations.includes('REQUIRED_SIDE_NOT_LOADED'));
@@ -91,7 +91,7 @@ function run(historyFile,documentFile){
  A(cids.size>=11&&refs.size>=10&&relatedRoutes.size===6);
  A(second.includes('Side continúa en cero'),'SIDE_NOT_PRESERVED');
  return {ok:true,deck_id:665,stage:'A01',completed:['A01-T1','A01-T2','A01-T3'],
-  tasksClosed:3,tasksPending:32,cardIdentities:38,physicalSlots:40,historicalRoutes:16,
+  tasksClosed:3,tasksPending:32,cardIdentities:38,physicalSlots:44,historicalRoutes:16,
   registeredEffectReferences:effects.size,documentedPurposes:goals.length,linkedRoutes:relatedRoutes.size,
   physical:allowed.counts,explicitWaiverForA01:true,sideInvented:false,banlistAssessed:false,
   engineExecuted:false,livePlatformChanged:false};
