@@ -36,3 +36,25 @@
 4. **Solo entonces** realizar la auditoría A01-T1→T2→T3, con evidencia independiente y CI, sin implicar que A05/A07/A09/A10A estén certificados.
 
 **Exclusiones:** no A10B, no nuevos combos, no pruebas de calculadora ni replays, no alteraciones de Memento/Crystron, no merge o despliegue. Este precheck no equivale a la publicación o importación de Kashtira 665.
+
+
+## Dictamen normativo TCG Advanced — lista efectiva 19-10-2026
+
+Fuente oficial actual contrastada: https://www.yugioh-card.com/en/limited/list_2026-10-19/
+
+**No reemplaza la lista física ni autoriza cambios**. La revisión distingue Main + Extra + Side (zona competitiva) y **no** suma las 19 copias de Reserva como si participaran en un torneo. Identidades y cantidades cotejadas contra el \`665.json\` histórico, no inferidas de ejemplos.
+
+| CID | Carta física | Zona/cantidad | Regla TCG Advanced 19-10-2026 | Exceso |
+|---|---|---|---|---:|
+| 18191 | Kashtira Arise-Heart | Extra ×2 | **Forbidden**, máximo 0 | **2** |
+| 14740 | Dimension Shifter | Main ×1 | **Forbidden**, máximo 0 | **1** |
+| 16386 | Baronne de Fleur | Extra ×1 | **Forbidden**, máximo 0 | **1** |
+| 15296 | Triple Tactics Talent | Main ×1 | **Forbidden**, máximo 0 | **1** |
+| 15756 | Pot of Prosperity | Main ×2 | **Limited**, máximo 1 | **1** |
+| **TOTAL** | | | | **6 copias excedentes** |
+
+**Consecuencia A01-T1:** las rutas históricas de Arise-Heart y la ruta Baronne pueden describir su mecánica documental, pero no pueden acreditarse como condición de victoria *legal para torneo Advanced* mientras esas cartas sigan en la lista física. Tampoco es válido simular que desaparecieron del Extra/Mano; el inventario permanece intacto.
+
+**Permanecen dos bloqueos independientes:** (1) \`Side=0\` frente al contrato de admisión que exige un Side real y aprobado, y (2) las **seis copias excedentes** frente al formato competitivo actual. No es posible certificar A01-T1/T2/T3 ni promover el progreso a 3/35. No se trasladó reserva, no se modificó Side ni se creó paquete nativo.
+
+**Prueba reproducible, sin realizar el análisis:** \`node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json\`. Es una prueba de puerta **negativa esperada**, no una validación de A01.
