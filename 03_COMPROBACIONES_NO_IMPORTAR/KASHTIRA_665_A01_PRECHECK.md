@@ -33,3 +33,8 @@ La auditoría `scripts/audit-deck-a01-kashtira.cjs` verifica contra el históric
 ## Continuación A03 autorizada y auditada (22-11-2026)
 
 El usuario asignó expresamente «A03» al mismo deck 665. Se usa exclusivamente para inventario/copia/identidad la excepción temporal `stageId='A03'` / `authorizedSideOmissionForA03=true`; **42 Main, 15 Extra, 0 Side, 19 Reserva** sin cambios. La ficha canónica registra **A03 COMPLETA 3/3**, total **9/35**. Esta nota sustituye cualquier referencia antigua del precheck que describa A03 como no iniciado. La banlist sigue fuera de alcance y A04–A10A no heredan la autorización.
+
+
+### Conciliación con `base` (23-11-2026)
+
+El PR histórico A01–A09 de Kashtira conserva sus resultados documentales e inventario nativo (Main 42 / Extra 15 / Side 0 / Reserva 19). Se fusionó `base` sin sustituir los contratos nuevos de A01/A10A ni su manifiesto vigente de 37 tareas. El corte 32/35 corresponde al historial de esa ejecución y no acredita automáticamente las dos tareas A01-T4/A01-T5 añadidas posteriormente, ni la importación real ni A10A. El Side 0 permanece registrado como excepción de alcance exclusivamente documental; no equivale a una elegibilidad general de decks incompletos.
