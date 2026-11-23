@@ -31,7 +31,7 @@ for(let i=1;i<=10;i++){
   assert(!source.includes('\\'+String.fromCharCode(96)),'Markdown code marker incorrectly escaped in '+file);
 }
 // New division and per-deck checklist are part of the mandatory prompt contract.
-const mandatoryChecks={1:3,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
+const mandatoryChecks={1:5,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
 for(let stage=1;stage<=10;stage++){
   const moduleName=files.find(x=>x.startsWith(String(stage).padStart(2,'0')+'_'));
   const moduleText=fs.readFileSync(path.join(dir,moduleName),'utf8');
@@ -62,7 +62,7 @@ assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
 assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
 assert.equal(manifest.stages.length,11);
 const taskIds=manifest.stages.flatMap(stage=>stage.tasks.map(task=>task.task_id));
-assert.equal(taskIds.length,38,'35 mandatory plus 3 optional task IDs');
+assert.equal(taskIds.length,40,'37 mandatory plus 3 optional task IDs');
 assert.equal(new Set(taskIds).size,38,'Never duplicate stage task IDs');
 for(let i=1;i<=10;i++){
   const number=String(i).padStart(2,'0');
@@ -73,15 +73,15 @@ for(let i=1;i<=10;i++){
     flatMap(x=>x.tasks.map(t=>t.task_id)).sort();
   assert.deepEqual(fromMarkdown,fromManifest,'Manifest mismatch with A'+number);
 }
-assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===35);
+assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===37);
 assert(manifest.stages.find(s=>s.stage_id==='A10B').mandatory===false);
 
 // A01 defines an evidence-backed strategy before A05-A09. This is a contract
 // regression only: it must not execute deck analysis or alter deck artifacts.
 const a01Prompt=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('01_'))),'utf8');
 const a01Tasks=manifest.stages.find(stage=>stage.stage_id==='A01');
-assert(a01Tasks?.mandatory===true&&a01Tasks.tasks.length===3,
-  'A01 must retain exactly three mandatory tasks');
+assert(a01Tasks?.mandatory===true&&a01Tasks.tasks.length===5,
+  'A01 must contain five mandatory tasks including structural and import acceptance');
 for(const field of ['Arquetipo','Tipo de estrategia','Estilo breve',
   'Resumen para ficha','Cómo se juega','Qué vigilar']){
   assert(a01Prompt.includes('`'+field+'`'),'A01 missing profile field '+field);
@@ -93,7 +93,11 @@ for(const clause of ['### Método obligatorio de diagnóstico estratégico A01',
   'NO_IMPORTABLE_TODAVIA','tcg_advanced','goat','rush_duel',
   'Combo','Control','Midrange','Stun','Aggro','OTK','Híbrido',
   'A05 analiza individualmente','A10B es opcional','190 caracteres',
-  '250 caracteres','record.profile','datos/stationx-deck.json']){
+  '250 caracteres','record.profile','datos/stationx-deck.json',
+  '### A01-T4 — validación estructural del perfil y paridad de fuente',
+  '### A01-T5 — prueba de importación y presentación del perfil',
+  'a01_profile_contract','station-x-a01-profile/1',
+  'PERFIL_JSON_DESINCRONIZADO','PRUEBA_IMPORTACION_PENDIENTE']){
   assert(a01Prompt.includes(clause),'A01 evidence/format contract missing '+clause);
 }
 for(const task of a01Tasks.tasks){
