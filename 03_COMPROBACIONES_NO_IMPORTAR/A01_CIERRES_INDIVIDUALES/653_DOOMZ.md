@@ -25,6 +25,6 @@ Todos los CID, zonas y route_id constan en el JSON exacto. Las fuentes oficiales
 - [x] T2: seis campos del perfil, cuatro cartas y cuatro fases.
 - [x] T3: matriz por propósito con fuentes, zonas, CID y rutas existentes.
 - [x] T4: CI [#45273679793](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273679793) PASS para 653, seis campos, estilo 103/190, resumen 186/250 y paridad.
-- [ ] T5: la misma CI confirmó PASS visual a 390 y 1280 px; importación llegó a publicación aislada pero falló por fotos existentes no reproducidas en la carpeta temporal. Corrección de entorno en Platform commit `34e9f1fb22a5faebe8c6a138efe19416cbb998d4`; comprobar nueva ejecución y no cerrar antes de resultado.
+- [x] T5: [CI #45273999784](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273999784), commit Platform `34e9f1fb22a5faebe8c6a138efe19416cbb998d4`, devolvió ISOLATED_PASS de importación/exportación/reimportación para 653, 37 fotografías, 16 rutas, ocho rechazos y conservación de cantidades. Presentación del paquete real: PASS a 390 y 1280 px. Los fallos globales corresponden a otros registros.
 
-Resultado: 4/5. Cero importaciones de producción. No iniciar A02.
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
