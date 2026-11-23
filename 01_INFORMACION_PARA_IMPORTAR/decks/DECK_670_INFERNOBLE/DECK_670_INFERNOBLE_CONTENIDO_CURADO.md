@@ -12,6 +12,155 @@
 - Main: **42**; Extra: **15**; Side: **0**; Reserva: **12**.
 
 
+## APARTADO_01 — A01 fuente del deck Infernoble (670)
+
+**Inventario original comprobado:** TCG Advanced. Main 42, Extra 15, Side 0, Reserva 12. 45 identidades documentadas con CID, sección, cantidades y función. Sin banlist ni traslado de copias entre zonas.
+
+### A01-T1 — Diagnóstico estratégico individual
+
+- **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
+- **Clasificación:** desarrollo de Guerreros FUEGO y acceso condicionado a Enlace/Sincronía.
+- **Estilo y motor principal:** combos de equipamiento, búsqueda y reutilización de recursos.
+- **Plan por fases y salidas condicionales:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
+- **Riesgos, materiales y restricciones:** Equipos disponibles, niveles de Sincro y efectos que bloqueen otras invocaciones del Extra.
+- **Condición de victoria:** convertir acceso legal a los motores y al Extra en control, tempo o daño; sin anunciar OTK ni campo final garantizados. Los recursos se analizan carta a carta en la matriz T3.
+- **Alcance:** el diagnóstico se respalda en el inventario y las fichas de este deck; aún se deben cotejar los efectos y ventanas pendientes en A05/A07 antes de construir reglas ejecutables.
+
+### A01-T2 — Perfil de seis campos para preparar importación (aún no certificado)
+
+- **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
+- **Tipo de estrategia:** desarrollo de Guerreros FUEGO y acceso condicionado a Enlace/Sincronía.
+- **Estilo breve:** combos de equipamiento, búsqueda y reutilización de recursos.
+- **Resumen para ficha:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
+- **Cómo se juega:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
+- **Qué vigilar:** Equipos disponibles, niveles de Sincro y efectos que bloqueen otras invocaciones del Extra.
+
+Estilo breve 61/190; Resumen para ficha 171/250. **T2 pendiente**: no existe prueba de igualdad literal con el paquete estructurado de este deck.
+
+### A01-T3 — Inventario y propósitos trazados por CID
+
+| CID fuente Konami | Identidad | Zona/copias | Rol documental | Efecto pendiente de cotejo jurídico/reglamentario | Condición/riesgo |
+|---|---|---|---|---|---|
+| [17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2) | Kashtira Fenrir | Main 3x. No altera las cantidades registradas. | starter Kashtira · presión de destierro. | Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar. | hay límite por turno según el efecto concreto; requiere campo propio sin las cartas indicadas; interactúa con información oculta o resultados no siempre elegibles. |
+| [18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2) | Kashtira Riseheart | Main 1x. No altera las cantidades registradas. | extensor Kashtira · ajuste de Nivel. | Se invoca si controlas Kashtira y transforma recursos por destierro para habilitar Nivel 7/Xyz. | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck; requiere estado de campo específico; interactúa con información oculta o resultado |
+| [19148](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2) | Diabellstar la Bruja Negra | Main 1x. No altera las cantidades registradas. | interrupción · recuperación · extensor · preparación. | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; colocación de Mágicas/Trampas o recursos. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [14801](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2) | Immortal Phoenix Gearfried | Main 1x. No altera las cantidades registradas. | interrupción · extensor · negación · cierre · motor Equipo. | acceso al campo desde la mano; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [18801](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2) | Infernoble Caballero Turpin | Main 1x. No altera las cantidades registradas. | recuperación · extensor · respuesta · motor Equipo. | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; requiere estado de campo específico; depende de recursos en Cementerio; exige materiales de Extra Deck o materiales adecuados. |
+| [15249](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2) | Infernoble Caballero Maugis | Main 1x. No altera las cantidades registradas. | removal · recuperación · ventaja de mano · respuesta · motor Equipo. | destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra; generación de cartas por robo; interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independ | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [15247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2) | Infernoble Caballero Ogier | Main 1x. No altera las cantidades registradas. | respuesta · motor Equipo · protección. | interacción sobre monstruos en campo; uso o producción de cartas equipadas; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [18800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2) | Infernoble Caballero Ricciardetto | Main 1x. No altera las cantidades registradas. | extensor. | acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | puede bloquear tipos de Invocación del Extra Deck; depende de recursos en Cementerio. |
+| [15082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2) | Infernoble Caballero Renaud | Main 2x. No altera las cantidades registradas. | extensor · removal · motor Equipo. | acceso al campo desde la mano; destierro de recursos o de amenazas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; requiere estado de campo específico; depende de recursos en Cementerio. |
+| [15248](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2) | Infernoble Caballero Oliver | Main 1x. No altera las cantidades registradas. | recuperación · extensor · respuesta · motor Equipo. | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [14085](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2) | Neo Space Connector | Main 3x. No altera las cantidades registradas. | extensor · cierre · coste/recurso. | acceso al campo desde la mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [6768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2) | Neo-Spacian Aqua Dolphin | Main 1x. No altera las cantidades registradas. | removal · cierre. | destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; requiere estado de campo específico. |
+| [15392](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2) | Fire Flint Lady | Main 1x. No altera las cantidades registradas. | recuperación · extensor. | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; requiere estado de campo específico. |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2) | Droll & Lock Bird | Main 3x. No altera las cantidades registradas. | handtrap · bloqueo de búsquedas. | Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [8933](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2) | Effect Veiler | Main 2x. No altera las cantidades registradas. | handtrap · negación. | Durante la Main Phase rival, se manda desde la mano al Cementerio para negar los efectos de un monstruo rival boca arriba. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2) | Ash Blossom & Joyous Spring | Main 2x. No altera las cantidades registradas. | handtrap · negación. | Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. | hay límite por turno según el efecto concreto. |
+| [19207](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2) | Angelica's Angelic Ring | Main 1x. No altera las cantidades registradas. | removal · motor Equipo. | destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [18843](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2) | Infernoble Arms - Almace | Main 1x. No altera las cantidades registradas. | removal · motor Equipo. | destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | depende de recursos en Cementerio. |
+| [15287](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2) | Infernoble Arms - Durendal | Main 2x. No altera las cantidades registradas. | searcher · buscador · removal · motor Equipo. | búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | puede bloquear tipos de Invocación del Extra Deck; depende de recursos en Cementerio. |
+| [18844](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2) | Noble Arms Museum | Main 3x. No altera las cantidades registradas. | searcher · buscador · cierre. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. |
+| [6458](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2) | Divine Sword - Phoenix Blade | Main 1x. No altera las cantidades registradas. | searcher · buscador · cierre · motor Equipo. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | depende de recursos en Cementerio. |
+| [7519](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2) | D.D.R. - Different Dimension Reincarnation | Main 1x. No altera las cantidades registradas. | removal. | destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [19196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2) | WANTED: Seeker of Sinful Spoils | Main 3x. No altera las cantidades registradas. | searcher · buscador · removal · ventaja de mano. | búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas; generación de cartas por robo. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [14075](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2) | Heritage of the Chalice | Main 3x. No altera las cantidades registradas. | searcher · buscador · motor Equipo. | búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | depende de recursos en Cementerio. |
+| [5328](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2) | Reinforcement of the Army | Main 1x. No altera las cantidades registradas. | searcher · buscador. | búsqueda o incorporación de cartas a mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [19199](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2) | Original Sinful Spoils - Snake-Eye | Main 1x. No altera las cantidades registradas. | searcher · buscador · extensor. | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | depende de recursos en Cementerio. |
+| [15275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2) | Infernoble Knight Captain Roland [Synchro] | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · buscador · cierre · respuesta. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; interacción sobre monstruos en campo; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [16386](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2) | Baronne de Fleur [Synchro] | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · removal · negación · recuperación. | destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [15276](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2) | Infernoble Knight Emperor Charles [Synchro] | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · cierre · motor Equipo. | presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [18926](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2) | Battlin' Boxer King Dempsey [Xyz] | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · buscador · respuesta · habilitador Xyz. | búsqueda o incorporación de cartas a mano; interacción sobre monstruos en campo; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2) | Super Starslayer TY-PHON - Sky Crisis [Xyz] | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · recuperación · cierre · habilitador Xyz. | retorno o reciclaje hacia mano/Deck/Extra; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [18827](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2) | Angelica, Princess of Noble Arms [Synchro] | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · buscador · extensor · removal. | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; acceso al campo desde la mano; destierro de recursos o de amenazas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2) | Isolde, Two Tales of the Noble Knights [Link] | Extra 2x. No altera las cantidades registradas. | resultado de Extra Deck · buscador · extensor · recuperación · preparación. | búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck; recuperación e invocación desde Cementerio/destierro; colocación de Mágicas/Trampas o recursos; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independien | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [18835](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2) | Emperor Charles the Great [Link] | Extra 2x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · removal · negación · cierre. | destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [14496](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2) | Apollousa, Bow of the Goddess [Link] | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · habilitador de Extra · negación · cierre. | habilitación o continuación de una invocación del Extra Deck; negación de efectos o activaciones; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13841](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2) | Relinquished Anima [Link] | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · cierre · motor Equipo. | presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13034](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2) | Link Spider [Link] | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · extensor. | acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2) | S:P Little Knight [Link] | Extra 2x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · removal · respuesta. | destierro de recursos o de amenazas; interacción sobre monstruos en campo. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede limitar ataques. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2) | Nibiru, the Primal Being | Reserva 3x. No altera las cantidades registradas. | handtrap · limpieza del campo. | En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival. | hay límite por turno según el efecto concreto. |
+| [6980](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2) | D.D. Crow | Reserva 2x. No altera las cantidades registradas. | handtrap · interacción de Cementerio. | Descarta para desterrar una carta elegida del Cementerio rival como efecto rápido. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [13950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2) | Herald of the Abyss | Reserva 1x. No altera las cantidades registradas. | recurso situacional. | interacción propia de la carta que requiere consultar el texto íntegro enlazado. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2) | Triple Tactics Talent | Reserva 1x. No altera las cantidades registradas. | mágica de respuesta · ventaja. | Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck. | hay límite por turno según el efecto concreto. |
+| [18214](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2) | Triple Tactics Thrust | Reserva 3x. No altera las cantidades registradas. | mágica de respuesta · acceso a Trampa/Mágica. | Después de activarse un efecto de monstruo rival, fija o incorpora una Mágica/Trampa Normal del Deck según presencia de monstruos enemigos. | hay límite por turno según el efecto concreto. |
+| [13293](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2) | Evenly Matched | Reserva 1x. No altera las cantidades registradas. | trampa · ruptura de mesa. | Al final de Battle Phase y con más cartas rivales, obliga al adversario a desterrar boca abajo hasta igualar las cantidades. | requiere campo propio sin las cartas indicadas; interactúa con información oculta o resultados no siempre elegibles. |
+| [12668](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2) | Dimensional Barrier | Reserva 1x. No altera las cantidades registradas. | trampa · bloqueo del Extra. | Declara un tipo de monstruo y bloquea sus Invocaciones Especiales y efectos ese turno. | hay límite por turno según el efecto concreto. |
+
+Todos los CID provienen de la fuente previa. El enlace de referencia **no certifica** que cada paráfrasis haya sido cotejada contra texto vigente; los `effect_id`, `motor_id` y `route_id` que no constan de forma verificable se dejan `PENDIENTE_DE_ENLACE_A05_A09`. No se crean efectos ni combos ficticios.
+
+### A01-T4 y A01-T5 — Por certificar
+
+- T4: faltan JSON original exportado por Station X, inventario ligado, paridad literal de los seis campos y contrato `a01_profile_contract` verificado.
+- T5: faltan importación real, exportación, render (móvil y escritorio) y rechazo de paquetes inválidos para este deck. Sin estos ensayos no se declara A01 cerrado.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**A01:** T1/T3 completadas documentalmente; T2/T4/T5 siguen pendientes. No se relabelan tareas anteriores y A10B no ha sido solicitado.
+
+### A01
+- [x] **A01-T1** — Matriz específica con CID/cantidad/rol y diagnóstico en este documento.
+- [ ] **A01-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A01-T3** — Matriz específica con CID/cantidad/rol y diagnóstico en este documento.
+- [ ] **A01-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A02
+- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A03
+- [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A03-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A03-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A04
+- [ ] **A04-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A04-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A04-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A05
+- [ ] **A05-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A06
+- [ ] **A06-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A07
+- [ ] **A07-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A08
+- [ ] **A08-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A09
+- [ ] **A09-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A10A
+- [ ] **A10A-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10A-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10A-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A10B (opcional)
+- [ ] **A10B-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10B-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10B-T6** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+---
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
