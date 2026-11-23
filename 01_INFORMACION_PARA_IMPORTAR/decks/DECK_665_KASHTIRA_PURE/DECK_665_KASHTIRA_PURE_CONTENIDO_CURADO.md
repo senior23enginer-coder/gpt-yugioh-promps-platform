@@ -6146,3 +6146,472 @@ La siguiente tabla conserva **38 CID distintos, 44 filas Station X y 76 copias**
 
 **Dictamen de fichas existentes:** `38/38 PERFIL_DOCUMENTADO`, sin declarar como completos los efectos separados. Se conservaron los campos de tarjeta originales `record.cards[].functional`, `operational`, `sources`, `source_aliases`, `photo` y sus relaciones. Los efectos A05.2 son la auditoría de cláusulas individuales, no una síntesis genérica de las 38 filas.
 
+
+### A05.2 — censo causal documentado por effect_id
+
+**Registro de cláusulas individualizadas:** cada ID es independiente de traducciones y del ID de fila nativa. Este censo no implica ejecución ni presume las cartas de Reserva como disponibles. Clasificación propia PRO/ACT/TRG/QCK/CONT/REP con enlaces Konami por CID. Los casos P/N constituyen únicamente identificadores y se desarrollan en A05.3.
+
+#### 1. `665:a05:17768:empty-field-summon` — CID 17768 (PRO)
+- **Actor / zona:** CID 17768 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Campo propio sin monstruos
+- **Disparador:** Procedimiento de Invocación sin Cadena
+- **Coste:** NO_APLICA sin pago adicional
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Invocar Fenrir de mano en zona libre
+- **Límite / cadena:** PRO sin cadena. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** Al controlar un monstruo ya no puede usarse procedimiento
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P001`, `665:A05:N001C`, `665:A05:N001Z`, `665:A05:N001W`, `665:A05:N001R`, `665:A05:N001U`, `665:A05:N001N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 2. `665:a05:17768:search-monster` — CID 17768 (ACT)
+- **Actor / zona:** CID 17768 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Fenrir boca arriba y Kashtira en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Kashtira del Deck al resolver
+- **Resolución y estado posterior:** Añadir monstruo Kashtira a mano
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No buscar si Deck carece objetivo
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P002`, `665:A05:N002C`, `665:A05:N002Z`, `665:A05:N002W`, `665:A05:N002R`, `665:A05:N002U`, `665:A05:N002N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 3. `665:a05:17768:attack-trigger-banish` — CID 17768 (TRG)
+- **Actor / zona:** CID 17768 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Al atacar o efecto de monstruo rival fuera Damage Step
+- **Guarda física:** Fenrir boca arriba y carta rival boca arriba
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Selecciona carta rival boca arriba
+- **Resolución y estado posterior:** Desterrar objetivo boca abajo sin negar efecto rival
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No activar sin objetivo boca arriba
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P003`, `665:A05:N003C`, `665:A05:N003Z`, `665:A05:N003W`, `665:A05:N003R`, `665:A05:N003U`, `665:A05:N003N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 4. `665:a05:17769:empty-field-summon` — CID 17769 (PRO)
+- **Actor / zona:** CID 17769 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Campo propio sin monstruos
+- **Disparador:** Procedimiento de Invocación sin Cadena
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Invocar Unicornio de mano
+- **Límite / cadena:** PRO sin cadena. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No reutilizar con monstruo propio en campo
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P004`, `665:A05:N004C`, `665:A05:N004Z`, `665:A05:N004W`, `665:A05:N004R`, `665:A05:N004U`, `665:A05:N004N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 5. `665:a05:17769:search-spell` — CID 17769 (ACT)
+- **Actor / zona:** CID 17769 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Unicornio boca arriba y Mágica Kashtira en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Mágica Kashtira del Deck
+- **Resolución y estado posterior:** Añadir Mágica Kashtira a mano
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No buscar Trampa o monstruo
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P005`, `665:A05:N005C`, `665:A05:N005Z`, `665:A05:N005W`, `665:A05:N005R`, `665:A05:N005U`, `665:A05:N005N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 6. `665:a05:17769:attack-trigger-extra-banish` — CID 17769 (TRG)
+- **Actor / zona:** CID 17769 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Ataca o rival activa efecto monstruo fuera Damage Step
+- **Guarda física:** Unicornio boca arriba y Extra rival con monstruo
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Inspeccionar Extra rival y elegir monstruo
+- **Resolución y estado posterior:** Desterrar 1 monstruo del Extra rival boca abajo
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No negar efecto rival ni inventar Extra
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P006`, `665:A05:N006C`, `665:A05:N006Z`, `665:A05:N006W`, `665:A05:N006R`, `665:A05:N006U`, `665:A05:N006N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 7. `665:a05:18151:special-from-hand` — CID 18151 (ACT)
+- **Actor / zona:** CID 18151 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Controlar otro Kashtira y tener Riseheart en mano
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Invocar Riseheart Especial desde mano
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** Extra solo Xyz tras esta activación
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P007`, `665:A05:N007C`, `665:A05:N007Z`, `665:A05:N007W`, `665:A05:N007R`, `665:A05:N007U`, `665:A05:N007N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 8. `665:a05:18151:banish-topthree-level7` — CID 18151 (ACT)
+- **Actor / zona:** CID 18151 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Main propia del turno invocado
+- **Guarda física:** Riseheart invocado este turno y Kashtira distinto en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA destierro es resolución
+- **Objetivo y selección:** Elegir Kashtira en Deck y 3 superiores rivales sin target
+- **Resolución y estado posterior:** Desterrar Kashtira y 3 superiores rivales boca abajo; si alguna desterrada Nivel7
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No declarar Nivel7 si no resolvió destierro
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P008`, `665:A05:N008C`, `665:A05:N008Z`, `665:A05:N008W`, `665:A05:N008R`, `665:A05:N008U`, `665:A05:N008N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 9. `665:a05:17770:empty-field-summon` — CID 17770 (PRO)
+- **Actor / zona:** CID 17770 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Campo propio vacío de monstruos
+- **Disparador:** Procedimiento de Invocación sin Cadena
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Invocar Ogre desde mano
+- **Límite / cadena:** PRO sin cadena. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No invocar con monstruo propio
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P009`, `665:A05:N009C`, `665:A05:N009Z`, `665:A05:N009W`, `665:A05:N009R`, `665:A05:N009U`, `665:A05:N009N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 10. `665:a05:17770:search-trap` — CID 17770 (ACT)
+- **Actor / zona:** CID 17770 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Ogre boca arriba y Trampa Kashtira en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Trampa Kashtira del Deck
+- **Resolución y estado posterior:** Añadir Trampa a mano
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No busca monstruo o Mágica
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P010`, `665:A05:N010C`, `665:A05:N010Z`, `665:A05:N010W`, `665:A05:N010R`, `665:A05:N010U`, `665:A05:N010N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 11. `665:a05:17770:attack-trigger-excavate` — CID 17770 (TRG)
+- **Actor / zona:** CID 17770 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Ataca Ogre o efecto monstruo rival fuera Damage Step
+- **Guarda física:** Ogre boca arriba y Deck rival con cartas
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Excavar hasta 5 cartas superiores rivales
+- **Resolución y estado posterior:** Desterrar 1 excavada boca abajo y devolver restantes arriba mismo orden
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No niega cadena rival ni consulta cartas no excavadas
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P011`, `665:A05:N011C`, `665:A05:N011Z`, `665:A05:N011W`, `665:A05:N011R`, `665:A05:N011U`, `665:A05:N011N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 12. `665:a05:18152:quick-hand-summon-banish` — CID 18152 (QCK)
+- **Actor / zona:** CID 18152 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main de cualquier jugador
+- **Guarda física:** Scareclaw Kashtira mano con Kashtira o Scareclaw propio desterrable de mano o GY
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA destierro después de Invocación
+- **Objetivo y selección:** Elegir carta propia Kashtira o Scareclaw al resolver
+- **Resolución y estado posterior:** Invocar desde mano y después desterrar recurso de mano o GY
+- **Límite / cadena:** HOPT esta modalidad. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No desterrar carta inexistente
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P012`, `665:A05:N012C`, `665:A05:N012Z`, `665:A05:N012W`, `665:A05:N012R`, `665:A05:N012U`, `665:A05:N012N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 13. `665:a05:18152:attack-in-defense` — CID 18152 (CONT)
+- **Actor / zona:** CID 18152 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Battle propia
+- **Guarda física:** Scareclaw Kashtira boca arriba en Defensa
+- **Disparador:** Aplicación continua sin Cadena
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** NO_APLICA el combate tiene su objetivo normal
+- **Resolución y estado posterior:** Puede atacar en Defensa y aplicar DEF en cálculo
+- **Límite / cadena:** NO_APLICA continuo. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No convertir su posición a Ataque por la imagen
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P013`, `665:A05:N013C`, `665:A05:N013Z`, `665:A05:N013W`, `665:A05:N013R`, `665:A05:N013U`, `665:A05:N013N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 14. `665:a05:18152:battle-opponent-negation` — CID 18152 (CONT)
+- **Actor / zona:** CID 18152 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Batalla con Kashtira o Scareclaw propio
+- **Guarda física:** Un Kashtira o Scareclaw combate un monstruo rival
+- **Disparador:** Aplicación continua sin Cadena
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** Monstruo rival enfrentado en batalla
+- **Resolución y estado posterior:** Negar efectos de ese monstruo rival hasta fin del turno
+- **Límite / cadena:** NO_APLICA continuo. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No afecta monstruos rivales que no combatieron
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P014`, `665:A05:N014C`, `665:A05:N014Z`, `665:A05:N014W`, `665:A05:N014R`, `665:A05:N014U`, `665:A05:N014N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 15. `665:a05:18153:quick-hand-summon-banish` — CID 18153 (QCK)
+- **Actor / zona:** CID 18153 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Main propia o rival
+- **Guarda física:** Tearlaments Kashtira en mano y recurso Kashtira o Tearlaments en mano o GY
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA destierro tras Invocación
+- **Objetivo y selección:** Escoger recurso propio Kashtira o Tearlaments
+- **Resolución y estado posterior:** Invocar desde mano y después desterrar recurso
+- **Límite / cadena:** HOPT cada efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No inventar recurso desterrable
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P015`, `665:A05:N015C`, `665:A05:N015Z`, `665:A05:N015W`, `665:A05:N015R`, `665:A05:N015U`, `665:A05:N015N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 16. `665:a05:18153:summoned-mill-three` — CID 18153 (TRG)
+- **Actor / zona:** CID 18153 en `monster` con fila nativa y copia física según A03.
+- **Ventana:** Tras Invocación Normal o Especial
+- **Guarda física:** Esta carta acaba de Invocarse
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Deck propio o rival no cartas ocultas
+- **Resolución y estado posterior:** Enviar 3 cartas superiores del Deck elegido al GY
+- **Límite / cadena:** HOPT cada efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** Aplicar reemplazo si cartas se destierran en vez de GY
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P016`, `665:A05:N016C`, `665:A05:N016Z`, `665:A05:N016W`, `665:A05:N016R`, `665:A05:N016U`, `665:A05:N016N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 17. `665:a05:18153:sent-effect-mill-two` — CID 18153 (TRG)
+- **Actor / zona:** CID 18153 en `graveyard` con fila nativa y copia física según A03.
+- **Ventana:** Enviada al GY por efecto de carta
+- **Guarda física:** Envío por efecto acreditado y Deck propio con cartas
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin selección
+- **Resolución y estado posterior:** Enviar 2 superiores Deck propio a GY
+- **Límite / cadena:** HOPT cada efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** Envío como coste no activa este disparador
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P017`, `665:A05:N017C`, `665:A05:N017Z`, `665:A05:N017W`, `665:A05:N017R`, `665:A05:N017U`, `665:A05:N017N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 18. `665:a05:12950:discard-negate-deck-operation` — CID 12950 (QCK)
+- **Actor / zona:** CID 12950 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Cadena ante efecto que involucre Deck
+- **Guarda física:** Eslabón incluye añadir del Deck, Invocar del Deck o enviar del Deck a GY
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** Descartar Ash de mano al activar
+- **Objetivo y selección:** Seleccionar eslabón al que responde, sin target de Campo
+- **Resolución y estado posterior:** Negar el efecto activado de Deck, no la activación completa
+- **Límite / cadena:** HOPT por nombre. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No recomendar Invocación Normal como uso de handtrap
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P018`, `665:A05:N018C`, `665:A05:N018Z`, `665:A05:N018W`, `665:A05:N018R`, `665:A05:N018U`, `665:A05:N018N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 19. `665:a05:14740:shifter-hand-send` — CID 14740 (QCK)
+- **Actor / zona:** CID 14740 en `hand` con fila nativa y copia física según A03.
+- **Ventana:** Ventana rápida con GY propio vacío
+- **Guarda física:** Dimension Shifter en mano y GY propio vacío
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** Enviar Shifter de mano al GY al activar
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Aplicar sustitución al GY hasta fin del siguiente turno
+- **Límite / cadena:** HOPT por nombre. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No activar con GY propio poblado
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P019`, `665:A05:N019C`, `665:A05:N019Z`, `665:A05:N019W`, `665:A05:N019R`, `665:A05:N019U`, `665:A05:N019N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 20. `665:a05:14740:shifter-gy-replacement` — CID 14740 (REP)
+- **Actor / zona:** CID 14740 en `global` con fila nativa y copia física según A03.
+- **Ventana:** Hasta finalizar turno siguiente tras resolver Shifter
+- **Guarda física:** Shifter resolvió previamente y duración vigente
+- **Disparador:** Reemplazo ya establecido
+- **Coste:** NO_APLICA continuación sin coste nuevo
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Cartas que irían al GY se destierran para ambos jugadores
+- **Límite / cadena:** NO_APLICA reemplazo no activa segunda vez. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No generar segundo efecto de mano
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P020`, `665:A05:N020C`, `665:A05:N020Z`, `665:A05:N020W`, `665:A05:N020R`, `665:A05:N020U`, `665:A05:N020N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 21. `665:a05:18204:activation-search` — CID 18204 (ACT)
+- **Actor / zona:** CID 18204 en `field` con fila nativa y copia física según A03.
+- **Ventana:** Activación de Mágica Campo en Main propia
+- **Guarda física:** Wraitsoth activada y hay monstruo Kashtira en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Kashtira Deck al resolver
+- **Resolución y estado posterior:** Añadir monstruo Kashtira a mano
+- **Límite / cadena:** Uso sujeto a activación legal. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No busca Trampa
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P021`, `665:A05:N021C`, `665:A05:N021Z`, `665:A05:N021W`, `665:A05:N021R`, `665:A05:N021U`, `665:A05:N021N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 22. `665:a05:18204:field-attribute-boost` — CID 18204 (CONT)
+- **Actor / zona:** CID 18204 en `field` con fila nativa y copia física según A03.
+- **Ventana:** Mientras esté Wraitsoth activa
+- **Guarda física:** Campo propio con Wraitsoth boca arriba y Atributos presentes
+- **Disparador:** Aplicación continua sin Cadena
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Cada monstruo propio gana 100 ATK DEF por Atributo distinto en Campo
+- **Límite / cadena:** NO_APLICA continuo. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** Recalcular cuando cambian Atributos
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P022`, `665:A05:N022C`, `665:A05:N022Z`, `665:A05:N022W`, `665:A05:N022R`, `665:A05:N022U`, `665:A05:N022N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 23. `665:a05:18204:shangri-effect-destroy` — CID 18204 (TRG)
+- **Actor / zona:** CID 18204 en `field` con fila nativa y copia física según A03.
+- **Ventana:** Tras activar efecto Shangri-Ira propio fuera Damage Step
+- **Guarda física:** Wraitsoth activa y carta del campo seleccionable
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar 1 carta en Campo
+- **Resolución y estado posterior:** Destruir objetivo en resolución
+- **Límite / cadena:** HOPT si la fuente así lo especifica. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No disparar ante destierro genérico
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P023`, `665:A05:N023C`, `665:A05:N023Z`, `665:A05:N023W`, `665:A05:N023R`, `665:A05:N023U`, `665:A05:N023N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 24. `665:a05:17815:level7-normal-no-tribute` — CID 17815 (CONT)
+- **Actor / zona:** CID 17815 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Durante ventana de Invocación Normal propia
+- **Guarda física:** Nacimiento Kashtira boca arriba y Nivel 7 en mano
+- **Disparador:** Aplicación continua sin Cadena
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** Elegir monstruo Nivel 7 propio de mano
+- **Resolución y estado posterior:** Permite Invocar Normal sin Sacrificios
+- **Límite / cadena:** NO_APLICA continuo. NO_APLICA: procedimiento o aplicación no inicia cadena independiente.
+- **Restricciones y recursos:** No crea Normal Summon adicional
+- **Negaciones:** NO_APLICA negar un eslabón propio inexistente; comprobar restricciones externas
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P024`, `665:A05:N024C`, `665:A05:N024Z`, `665:A05:N024W`, `665:A05:N024R`, `665:A05:N024U`, `665:A05:N024N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 25. `665:a05:17815:main-revive-kashtira` — CID 17815 (ACT)
+- **Actor / zona:** CID 17815 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Nacimiento activa y Kashtira no Xyz en GY o destierro propio
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar Kashtira no Xyz elegible en GY o destierro
+- **Resolución y estado posterior:** Invocar Especial el monstruo elegible
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No recuperar Xyz ni desde Deck
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P025`, `665:A05:N025C`, `665:A05:N025Z`, `665:A05:N025W`, `665:A05:N025R`, `665:A05:N025U`, `665:A05:N025N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 26. `665:a05:17815:opponent-spell-banish-gy-three` — CID 17815 (TRG)
+- **Actor / zona:** CID 17815 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Rival activa Mágica o efecto Mágica
+- **Guarda física:** Nacimiento activa, controlas Kashtira y rival tiene 3 cartas en GY
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar exactamente 3 cartas en GY rival
+- **Resolución y estado posterior:** Desterrar esas 3 boca abajo sin negar efecto de Mágica rival
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** Sin 3 objetivos rivales no acreditar destierro
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P026`, `665:A05:N026C`, `665:A05:N026Z`, `665:A05:N026W`, `665:A05:N026R`, `665:A05:N026U`, `665:A05:N026N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 27. `665:a05:18203:target-summon-different-attribute` — CID 18203 (ACT)
+- **Actor / zona:** CID 18203 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Seleccionar Kashtira propio y otro en Deck de Atributo diferente
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin descarte
+- **Objetivo y selección:** Seleccionar Kashtira propio al activar
+- **Resolución y estado posterior:** Invocar desde Deck Kashtira Atributo diferente en Defensa
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** Tras usar solo Xyz desde Extra este turno
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P027`, `665:A05:N027C`, `665:A05:N027Z`, `665:A05:N027W`, `665:A05:N027R`, `665:A05:N027U`, `665:A05:N027N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 28. `665:a05:18203:banished-recover-kashtira` — CID 18203 (TRG)
+- **Actor / zona:** CID 18203 en `banished` con fila nativa y copia física según A03.
+- **Ventana:** Cuando Kashtiratheosis sea desterrada
+- **Guarda física:** Theosis desterrada y otra carta Kashtira desterrada recuperable
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar otra carta Kashtira desterrada, excepto Theosis
+- **Resolución y estado posterior:** Añadir la carta seleccionada a mano
+- **Límite / cadena:** HOPT por efecto. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No recuperar propia Theosis
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P028`, `665:A05:N028C`, `665:A05:N028Z`, `665:A05:N028W`, `665:A05:N028R`, `665:A05:N028U`, `665:A05:N028N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 29. `665:a05:5537:search-field-spell` — CID 5537 (ACT)
+- **Actor / zona:** CID 5537 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Terraforming en mano o colocada válida y Mágica Campo en Deck
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Mágica Campo del Deck al resolver
+- **Resolución y estado posterior:** Añadir Mágica Campo a mano
+- **Límite / cadena:** No HOPT propio; respetar activación de Mágica Normal. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No buscar Mágica Continua
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P029`, `665:A05:N029C`, `665:A05:N029Z`, `665:A05:N029W`, `665:A05:N029R`, `665:A05:N029U`, `665:A05:N029N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 30. `665:a05:5432:quick-target-set-defense` — CID 5432 (QCK)
+- **Actor / zona:** CID 5432 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Ventana de Mágica Rápida
+- **Guarda física:** Book of Moon disponible y monstruo boca arriba seleccionable
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar 1 monstruo boca arriba en Campo
+- **Resolución y estado posterior:** Cambiar el monstruo a Defensa boca abajo si legal
+- **Límite / cadena:** No HOPT propio. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No seleccionar monstruo boca abajo ni Link
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P030`, `665:A05:N030C`, `665:A05:N030Z`, `665:A05:N030W`, `665:A05:N030R`, `665:A05:N030U`, `665:A05:N030N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 31. `665:a05:4342:destroy-all-monsters` — CID 4342 (ACT)
+- **Actor / zona:** CID 4342 en `spell` con fila nativa y copia física según A03.
+- **Ventana:** Main propia
+- **Guarda física:** Dark Hole disponible y existen monstruos que pueden ser destruidos
+- **Disparador:** Activación/disparo sujeto a ventana y requisito anteriores
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA afecta todos los monstruos
+- **Resolución y estado posterior:** Destruir todos los monstruos en Campo que no estén protegidos
+- **Límite / cadena:** No HOPT propio. Efecto activado: se puede responder con cadena legal.
+- **Restricciones y recursos:** No afecta Mágicas ni Trampas
+- **Negaciones:** Si se niega legalmente el efecto o activación, no afirmar resultado; cualquier coste previo permanece pagado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P031`, `665:A05:N031C`, `665:A05:N031Z`, `665:A05:N031W`, `665:A05:N031R`, `665:A05:N031U`, `665:A05:N031N`; su resultado es condicional hasta revisión de A05-T4.
+- **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
