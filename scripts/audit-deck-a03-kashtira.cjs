@@ -85,8 +85,8 @@ function audit(pkgFile,mdFile,historyFile){
  const taskIds=JSON.parse(fs.readFileSync(path.join(ROOT,'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'))
   .stages.filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(all.map(m=>m[2]),taskIds);
- A.deepEqual(all.filter(m=>m[1]==='x').map(m=>m[2]),taskIds.slice(0,9));
- A(ledger.includes('9/35')&&ledger.includes('26/35'));
+ A.deepEqual(all.filter(m=>m[1]==='x').map(m=>m[2]),taskIds.slice(0,12));
+ A(ledger.includes('12/35')&&ledger.includes('23/35'));
  const section=doc.slice(doc.indexOf('## APARTADO_03 —'));
  A(section.includes('### A03.1')&&section.includes('### A03.2')&&section.includes('### A03.3'));
  const lines=section.split('### A03.2')[0].split('\n');
@@ -110,7 +110,7 @@ function audit(pkgFile,mdFile,historyFile){
   ['fake-hash',x=>x.inventory_sha256='invented']
  ];
  for(const [id,modify] of negatives){const x=structuredClone(pkg);modify(x);A.throws(()=>verify(x,old),undefined,'MUTATION_NOT_REJECTED_'+id)}
- return {ok:true,deck_id:665,stage:'A03',complete:9,pending:26,counts,totalCopies:76,
+ return {ok:true,deck_id:665,stage:'A03',complete:12,pending:23,counts,totalCopies:76,
   cids:38,cardIds:44,officialSources:38,photos:44,externalPhotoReferences:6,
   routes:16,steps:92,stepImageReferences:116,negativeTests:negatives.length,
   banlistAssessed:false,reserveReclassified:false,gameEngineExecuted:false,livePublished:false};
