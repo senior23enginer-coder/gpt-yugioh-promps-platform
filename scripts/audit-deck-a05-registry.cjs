@@ -8,7 +8,7 @@
 const a=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const ROOT=path.resolve(__dirname,'..'),DECKS=path.join(ROOT,'01_INFORMACION_PARA_IMPORTAR/decks')+path.sep;
 const OFFICIAL='https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=';
-const TYPES=new Set(['PRO','CONT','TRG','ACT','QCK','SPL']);
+const TYPES=new Set(['PRO','CONT','RES','TRG','ACT','QCK','SPL']);
 const COUNTS=new Map(Object.entries({
  20759:2,12608:2,20758:2,12756:2,12606:1,12609:2,19153:3,19155:2,
  12950:1,9279:1,20500:2,20206:2,20798:3,19200:3,7445:1,15299:1,
@@ -112,6 +112,11 @@ function audit(args){
  // These were not automatically promoted to VERIFIED; physical paper states
  // and legal chain transitions remain an independent A05-T4 obligation.
  a(parsed.every(x=>x.fields['Estado'].includes('CONDICIONAL_PENDIENTE')));
+ for(const cid of [20500,20206]){
+  const residual=parsed.find(x=>x.id==='677:a05:'+cid+':end-phase-hand-rollback');
+  a(residual&&residual.type==='RES'&&/consecuencia retardada/i.test(residual.fields['Límite / cadena']),
+   'MULCHARMY_ENDPHASE_MUST_NOT_BE_SECOND_ACTIVATED_EFFECT');
+ }
  const typeCounts=Object.fromEntries([...TYPES].map(t=>[t,parsed.filter(x=>x.type===t).length]));
  return {ok:true,deck_id:677,identities:39,officialClauseRecords:92,
   semanticFields:92*8,typedPSCTKinds:typeCounts,linkedPaperCaseDescriptions:184,
