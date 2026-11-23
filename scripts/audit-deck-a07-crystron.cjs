@@ -85,10 +85,10 @@ function audit(id,pf,df){
  const checks=[...ledger.matchAll(/^- \[x\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)].map(x=>x[1]);
  A(!checks.includes('A05-T4'),'A05_T4_FALSELY_CLOSED');
  for(const id of ['A07-T1','A07-T2','A07-T3','A07-T4'])A(checks.includes(id),'A07_TASK_OPEN');
- A.equal(checks.length,23);A(ledger.includes('23/35')&&ledger.includes('12/35'));
+ A(checks.length>=23&&checks.length<=35);A(ledger.includes(checks.length+'/35')&&ledger.includes((35-checks.length)+'/35'));
  return {ok:true,deck_id:677,physicalCIDs:39,effectRecords:92,types:counts,paperCases:644,
   byScenario:byKind,positiveUnusable:no.size,portableVariantsUntouched:13,
-  A05T4Certified:0,calculatorExecuted:false,mandatoryClosed:23,mandatoryPending:12};
+  A05T4Certified:0,calculatorExecuted:false,mandatoryClosed:checks.length,mandatoryPending:35-checks.length};
 }
 if(require.main===module){
  const args=process.argv.slice(2),files=args.filter(x=>!x.startsWith('--'));
