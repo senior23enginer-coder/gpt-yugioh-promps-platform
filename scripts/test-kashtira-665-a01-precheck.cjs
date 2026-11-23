@@ -1,8 +1,8 @@
 'use strict';
 /** Negative admission regression for user-assigned Kashtira Pure 665.
- * The user's express authorization permits only A01 with Side=0.
+ * The user's express authorization permits A01 and separately assigned A02 with Side=0.
  * The default gate remains blocked, Side and Reserve are unchanged, and
- * A02-A10A do not inherit this waiver.
+ * A03-A10A do not inherit either stage-specific waiver.
  * Tournament banlists are explicitly outside the requested analysis.
  */
 const assert=require('node:assert/strict');
@@ -32,10 +32,14 @@ assert.deepEqual(waived.counts,tested.counts,'SIDE_COPIES_CHANGED');
 assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:approved,
  stageId:'A02',authorizedSideOmissionForA01:true}).eligible,'A02_MUST_STAY_BLOCKED');
 const packagePath=path.join(root,'01_INFORMACION_PARA_IMPORTAR','decks','DECK_665_KASHTIRA_PURE','datos','stationx-deck.json');
-assert(!fs.existsSync(packagePath),'A02_NATIVE_PACKAGE_NOW_EXISTS_RECHECK_GATE');
+assert(fs.existsSync(packagePath),'A02_NATIVE_PACKAGE_NOT_CREATED');
+const structure=JSON.parse(fs.readFileSync(packagePath,'utf8'));
+assert.equal(structure.deck_id,665);
+assert.equal(structure.inventory.length,44);
+assert.equal(structure.record.routes.length,16);
 const doc=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'),'utf8');
 for(const task of ['A01-T1','A01-T2','A01-T3'])assert(doc.includes('- [x] **'+task),'A01_NOT_CERTIFIED_'+task);
-assert(doc.includes('3/35')&&doc.includes('32/35'),'A01_PROGRESS_WRONG');
+assert(doc.includes('6/35')&&doc.includes('29/35'),'A01_A02_PROGRESS_WRONG');
 const report=fs.readFileSync(path.join(root,'03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'),'utf8');
 assert(report.includes('EXCEPCION_A01_AUTORIZADA')&&report.includes('COMPLETA 3/3'),'OLD_BLOCKING_REPORT_NOT_RECONCILED');
 assert(report.includes('No evaluar banlist si no se pidió'),'USER_OUT_OF_SCOPE_RULE_MISSING');
@@ -43,7 +47,7 @@ const a01=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/apartados/01_ROL_
 assert(a01.includes('la banlist (lista de cartas prohibidas/limitadas y límites de copias por torneo) **no se consulta, no se evalúa y nunca bloquea este análisis**'),'A01_BANLIST_OUT_OF_SCOPE_INSTRUCTION_MISSING');
 console.log(JSON.stringify({
   ok:true,deck_id:665,gate:'A01_EXPLICIT_SIDE_WAIVER',defaultEligible:false,a01Eligible:true,
-  inventory:tested.counts,cardIdentities:38,missingNativePackage:true,
+  inventory:tested.counts,cardIdentities:38,nativePackageCreated:true,
   banlistAssessed:false, banlistUsedAsGate:false, a01Certified:3,
   reserveConvertedToSide:false,inventoryChanged:false,
   ruleEngineExecuted:false,productionImported:false

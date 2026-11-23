@@ -1,4 +1,4 @@
-name: Kashtira 665 A01 user-authorized profile certification
+name: Kashtira 665 A01/A02 certified profile and native ZIP parity
 on:
   push:
     branches:
@@ -9,6 +9,10 @@ on:
     paths:
       - 'scripts/test-kashtira-665-a01-precheck.cjs'
       - 'scripts/audit-deck-a01-kashtira.cjs'
+      - 'scripts/audit-deck-a02-kashtira.cjs'
+      - 'scripts/test-deck-a02-kashtira-preflight.php'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json'
+      - '02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md'
       - 'scripts/analysis-eligibility.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'
       - '03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'
@@ -25,13 +29,19 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: senior23enginer-coder/platform-yugioh-md
-          ref: base
+          ref: fix/stationx-portable-reserve-665-20261122
           path: _platform_source
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify default gate and explicit A01-only empty-Side exception
+      - name: Verify default gate and scoped A01/A02 empty-Side exceptions
         run: node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
       - name: Certify Kashtira 665 A01-T1/T2/T3 with official CID and historical route references
         run: node scripts/audit-deck-a01-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md
+      - name: Audit Kashtira A02 native package and 44-slot provenance
+        run: node scripts/audit-deck-a02-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Lint native Kashtira A02 isolated PHP import test
+        run: php -l scripts/test-deck-a02-kashtira-preflight.php
+      - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing
+        run: php scripts/test-deck-a02-kashtira-preflight.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
