@@ -44,9 +44,9 @@ for(let stage=1;stage<=10;stage++){
     'Checklist missing a required task or has duplicate task IDs: A'+number);
   assert(moduleText.includes('### Precondición A'+number+' — selección expresa y deck realmente cargado'),
     'Any single stage must block unassigned decks: A'+number);
-  assert(moduleText.includes('Main y Extra') &&
-    moduleText.includes('Side y Reserva son opcionales'),
-    'Stage must require loaded Main+Extra with optional Side+Reserve: A'+number);
+  assert(moduleText.includes('Main') && moduleText.includes('Side') &&
+    moduleText.includes('Extra') && moduleText.includes('Reserva'),
+    'Stage must mention the real inventory sections and format-aware eligibility: A'+number);
   assert(moduleText.includes('CONTROL_DE_TAREAS_A01_A10'),
     'Checklist must be persisted inside the existing deck file: A'+number);
   assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
@@ -56,7 +56,9 @@ for(let stage=1;stage<=10;stage++){
 const manifest=JSON.parse(fs.readFileSync(path.join(root,
   '02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'));
 assert.equal(manifest.schema,'station-x-a01-a10-task-manifest/1');
-assert.deepEqual(manifest.required_sections,['main','extra']);
+assert.deepEqual(manifest.required_sections,['main']);
+assert.deepEqual(manifest.extra_deck_policy.required_for,['tcg','tcg_advanced','tcg_traditional','ocg','ocg_advanced']);
+assert.deepEqual(manifest.extra_deck_policy.optional_for,['goat','rush_duel','rush']);
 assert.deepEqual(manifest.optional_sections,['side','reserve']);
 assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
 assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
