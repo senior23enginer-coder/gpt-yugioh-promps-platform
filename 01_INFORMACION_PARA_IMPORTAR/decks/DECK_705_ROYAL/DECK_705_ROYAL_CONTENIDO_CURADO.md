@@ -12,6 +12,122 @@
 - Main: **30**; Extra: **0**; Side: **0**; Reserva: **0**.
 
 
+## APARTADO_01 — Informe A01 vigente y trazable (23-11-2026)
+
+**Deck:** Royal · **deck_id:** 705 · **formato:** `rush_duel` · **inventario nativo comprobado:** Main 30; Extra 0; Side 0; Reserva 0. **Identidades del Main:** 16. La ausencia de Extra es válida en Rush Duel; no fabricar cartas para completar zonas. **Banlist:** fuera de alcance por instrucción del propietario.
+
+### A01-T1 — Diagnóstico estratégico comprobado
+
+- **Arquetipo:** Royal Rebel's con soporte de Demonios/LUZ y la Skill `Hard Rock Overture` (Skill separada del Main).
+- **Clasificación:** Combo-Midrange con interacción de control/remoción. El plan de victoria depende de preparar Sacrificios legales y después retirar defensas: no es una OTK garantizada ni un combo automático de la habilidad.
+- **Motor principal:** jefes de Nivel 8 (Heavy Metal CID 15441, Doom Metal CID 16331, Progrock CID 19761) que requieren Invocación por Sacrificio con materiales específicos para activar sus efectos. Heavy Metal responde a monstruos; Progrock a M/T; Doom Metal a monstruos rivales boca arriba cuando recibió dos Demonios de Nivel 7+ como Tributos.
+- **Soporte:** Phaser CID 16330 permite traer del Cementerio un Demonio de Nivel alto en Defensa cuando ya se controla un Demonio propio de Nivel 7+. Kheiron CID 16344 añade perforación condicionada. La Skill `Hard Rock Overture` envía un Nivel 7/8 desde la mano y puede colocar hasta dos monstruos Nivel 7/8 de mano/Cementerio en Defensa, siempre que **todos los monstruos del Deck/Extra sean Demonios/LUZ**. El cuerpo colocado **no** equivale a Invocación por Sacrificio. A partir del segundo turno la Skill contempla recuperación adicional según su texto. La identidad de la Skill no debe mezclarse con una carta Main.
+- **Recursos físicos:** monstruos Nivel 7/8 en mano y Cementerio; niveles y tipo real de los Tributos; cartas para pagar Canjear/Reencarnado; M/T rivales; ventanas de los efectos de los jefes. Debe comprobarse el requisito global Demonio/LUZ de la Skill antes de activarla.
+- **Ir primero:** desarrollar recursos sin consumir jefes innecesariamente; reconocer que colocar uno por Skill no activa el disparo de Sacrificio. **Ir segundo:** seleccionar el jefe cuyo efecto responde al campo real; confirmar que se tributó material correcto. **Juego medio/tardío:** reciclar materiales y administrar la mano sin inventar movimientos del Extra.
+- **Condiciones de victoria y riesgos:** presión y control de mesa tras remoción válida; alto consumo de monstruos de Nivel alto, efectos de jefes inutilizados si se colocaron por Skill o se invocaron con Tributos incorrectos, dependencia de recursos de Cementerio y de que haya objetivos adecuados. Sin Extra Deck.
+
+**Fuentes del diagnóstico:** [Konami Heavy Metal (15441)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2), [Konami Doom Metal (16331)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2), [Konami Progrock (19761)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2), [Konami Phaser (16330)](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2), [Hard Rock Overture — texto de Skill en Duel Links Meta](https://www.duellinksmeta.com/skills/Hard%20Rock%20Overture). Para los textos japoneses, las formulaciones en español son paráfrasis editoriales y no traducciones oficiales.
+
+### A01-T2 — Seis campos propuestos para record.profile (documentales, no publicados)
+
+- **Arquetipo:** Royal Rebel's (Rush Duel; habilidad Hard Rock Overture).
+- **Tipo de estrategia:** Combo-Midrange de Demonios/LUZ con Sacrificios de Nivel alto y control de mesa.
+- **Estilo breve:** Rush Duel de Demonios/LUZ: prepara Sacrificios para Heavy Metal, Doom Metal y Progrock; la habilidad coloca cuerpos, pero no sustituye una Invocación por Sacrificio.
+- **Resumen para ficha:** Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo.
+- **Cómo se juega:** Primero: conservar materiales y preparar monstruos de Nivel alto; usar Hard Rock Overture solo con la condición de Demonios/LUZ y un Nivel 7/8 en mano. Segundo: elegir Heavy Metal contra monstruos, Progrock contra Magias/Trampas y Doom Metal únicamente cuando puedan tributarse DOS Demonios de Nivel 7 o más. Medio/tardío: aprovechar Phaser y recuperación del Cementerio sin prometer que una Invocación Especial cumpla los requisitos de una Invocación por Sacrificio.
+- **Qué vigilar:** El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.
+
+**Longitudes comprobadas:** Estilo breve 165/190; Resumen para ficha 245/250. **Estado:** redacción documental disponible; **T2 no se cierra** hasta certificar paridad exacta con `datos/stationx-deck.json` real, actualmente inexistente para este deck. No fabricar `record.profile`, `a01_profile_contract`, `inventory_sha256` ni `imported_at`.
+
+### A01-T3 — Matriz de propósitos, CIDs, condiciones y riesgos
+
+| CID Rush | Carta / zona y copias | Propósito | Condición real | Riesgo / no suposición | Referencia |
+|---|---|---|---|---|---|
+| 16344 | Kheiron (3x Main) | Perforación | El rival tiene un monstruo; enviar la carta superior del Deck al Cementerio; elegir Demonio propio boca arriba de Nivel 5+ | No concede destrucción por sí solo. | [Konami Rush CID 16344](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2) |
+| 16330 | Phaser (3x Main) | Recuperación y material | Demonio propio de Nivel 7+ boca arriba; enviar Phaser boca arriba del Campo al Cementerio; revivir Demonio de Nivel 7+ en Defensa | El revivido no fue Invocado por Sacrificio. | [Konami Rush CID 16330](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2) |
+| 16331 | Doom Metal (2x Main) | Remoción masiva/daño | Invocación por Sacrificio con dos Demonios de Nivel 7+; destruir monstruos rivales boca arriba, después daño por suma de Niveles originales ×100 | La Skill no acredita los dos Sacrificios. | [Konami Rush CID 16331](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2) |
+| 15441 | Heavy Metal (2x Main) | Remoción de monstruo y ATK | Invocado por Sacrificio usando al menos un Nivel 5+; seleccionar monstruo rival boca arriba de Nivel 8 o menor con nivel más bajo; destruir y ganar ATK temporalmente | No seleccionar uno con Nivel más alto por conveniencia. | [Konami Rush CID 15441](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2) |
+| 19761 | Progrock (2x Main) | Remoción de Magias/Trampas | Invocado por Sacrificio usando al menos un Nivel 5+; destruir M/T rival y opcionalmente carta boca abajo | Solo Demonios pueden atacar ese turno. | [Konami Rush CID 19761](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2) |
+| 17721 | Canjear (2x Main) | Flujo de cartas | Enviar de mano un monstruo de Nivel 8 al Cementerio como requisito y robar dos | No prometer robo si no hay Nivel 8 en mano. | [Konami Rush CID 17721](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2) |
+| 16305 | Monstruo Reencarnado (1x Main) | Recuperación | Enviar una carta de mano al Cementerio y disponer de monstruo en Cementerio | No confundir con Invocación Especial ni con su versión TCG. | [Konami Rush CID 16305](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2) |
+
+**Trazabilidad cruzada:** no atribuir `effect_id`, `motor_id` ni `route_id` que no hayan sido conciliados contra el contrato estructurado nativo: `PENDIENTE_DE_ENLACE_A05_A09`. La próxima verificación debe enlazar los IDs ya existentes del deck (si los hay) sin cambiarlos. La Skill se registra como recurso aparte de Main/Extra/Side/Reserva, no como copia física.
+
+### A01-T4 / A01-T5 — Bloqueos verificables
+
+- **T4 — PENDIENTE:** faltan JSON estructurado nativo de 705, cotejo literal de los seis campos y firma de inventario real; no se asigna `a01_profile_contract`.
+- **T5 — PENDIENTE:** sin paquete JSON acreditado no hay evidencia de importación, exportación, render en móvil/escritorio o escenarios de rechazo de Station X para 705. Las pruebas sintéticas de otros decks no acreditan T5.
+- **Integridad:** este estudio conserva la lista original de 16 identidades y 30 copias Main sin editar cantidades, nombres, CIDs, Skill, Side/Reserva ni Extra.
+- **Evidencia histórica:** la guía y rutas previas pueden mantenerse accesibles; este avance A01 no certifica sus efectos, fotografías, tableros finales ni la calculadora A10B.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Manifiesto:** `station-x-a01-a10-task-manifest/1` · **alcance exclusivo:** deck 705 · **A01 verificado:** T1 y T3 · **resto:** pendiente sin atribuir certificaciones retroactivas. A10B no fue solicitado.
+
+### A01 (obligatorio)
+- [x] **A01-T1** — VERIFICADO EN FUENTE (inventario 30 Main/16 identidades, CID, requisitos, efectos, referencias y riesgos, sección A01 de este documento)
+- [ ] **A01-T2** — BLOQUEADO: seis campos redactados y límites correctos; falta su correspondencia literal con JSON canónico del deck
+- [x] **A01-T3** — VERIFICADO EN FUENTE (inventario 30 Main/16 identidades, CID, requisitos, efectos, referencias y riesgos, sección A01 de este documento)
+- [ ] **A01-T4** — BLOQUEADO: no existe JSON canónico `datos/stationx-deck.json` acreditado para 705; no emitir contrato certificado
+- [ ] **A01-T5** — BLOQUEADO: sin paquete nativo validado ni importación/exportación real en Station X
+
+### A02 (obligatorio)
+- [ ] **A02-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A02-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A02-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A03 (obligatorio)
+- [ ] **A03-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A03-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A03-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A04 (obligatorio)
+- [ ] **A04-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A04-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A04-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A05 (obligatorio)
+- [ ] **A05-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A05-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A05-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A05-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A06 (obligatorio)
+- [ ] **A06-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A06-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A06-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A06-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A07 (obligatorio)
+- [ ] **A07-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A07-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A07-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A07-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A08 (obligatorio)
+- [ ] **A08-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A08-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A08-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A08-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A09 (obligatorio)
+- [ ] **A09-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A09-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A09-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A09-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A10A (obligatorio)
+- [ ] **A10A-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A10A-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A10A-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+### A10B (opcional; no solicitado)
+- [ ] **A10B-T4** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A10B-T5** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [ ] **A10B-T6** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+
+---
+
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** Royal Rebel de Rush Duel, con habilidad Hard Rock Overture.
