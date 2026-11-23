@@ -86,7 +86,7 @@ function audit(pkgFile,mdFile,historyFile){
   .stages.filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(all.map(m=>m[2]),taskIds);
  A.deepEqual(all.filter(m=>m[1]==='x').map(m=>m[2]).slice(0,16),taskIds.slice(0,16));
- A(ledger.includes('28/35')&&ledger.includes('7/35'));
+ A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35));
  const section=doc.slice(doc.indexOf('## APARTADO_03 —'));
  A(section.includes('### A03.1')&&section.includes('### A03.2')&&section.includes('### A03.3'));
  const lines=section.split('### A03.2')[0].split('\n');

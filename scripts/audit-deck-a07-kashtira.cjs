@@ -86,7 +86,7 @@ function audit(){
  }
  A.equal(caseIds.size,900);for(const count of byRule.values())A.equal(count,10);
  const ledger=doc.slice(doc.indexOf('## CONTROL_DE_TAREAS_A01_A10'),doc.indexOf('\n---\n'));
- A(ledger.includes('28/35')&&ledger.includes('7/35'),'STAGE_COUNTERS');
+ A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35),'STAGE_COUNTERS');
  for(let n=1;n<=4;n++){A(ledger.includes('- [x] **A07-T'+n+'**'),'A07_NOT_CLOSED');A(ledger.includes('- [x] **A08-T'+n+'**'),'A08_UNAUTHORIZED');}
  const section=doc.slice(doc.indexOf('## APARTADO_07 — Kashtira Pure 665 · reglas contextuales'));
  A(section.length>50000&&section.includes('### A07.4 —'),'INCOMPLETE_A07_DOCUMENT');

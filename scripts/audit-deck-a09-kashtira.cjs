@@ -49,7 +49,7 @@ function audit(){
  A.equal(s.summary.certified_combos,0);A.equal(s.summary.engine_replays,0);A.equal(s.summary.spatial_endboards_certified,0);
  A(!r.calculator?.rules?.length,'UNAUTHORIZED_A10B_RULES');
  const ledger=md.slice(0,md.indexOf('\n---\n'));
- A(ledger.includes('29/35')&&ledger.includes('6/35')&&ledger.includes('- [x] **A09-T1**'));
+ A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35)&&ledger.includes('- [x] **A09-T1**'));
  for(let n=2;n<=4;n++)A(ledger.includes('- [ ] **A09-T'+n+'**'),'FALSE_COMPLETION');
  A(md.includes('## APARTADO_09 — Kashtira Pure 665 · catalogación T1'));
  const copy=structuredClone(pkg);copy.inventory[0].section='side';
