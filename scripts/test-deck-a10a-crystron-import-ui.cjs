@@ -26,7 +26,7 @@ window.YgoDocumentedCombos={convert(record,route){
 window.YgoCuratedStudy={render(host,deck,data){
  const steps=data.routes.reduce((n,r)=>n+r.steps.length,0);
  const photos=data.routes.reduce((n,r)=>n+r.steps.reduce((a,s)=>a+s.photos.length,0),0);
- if(deck.id!==677||data.cards.length!==39||data.routes.length!==12||steps!==60||photos!==151)throw Error('Invalid preview render shape');
+ if(deck.id!==677||data.cards.length!==39||data.routes.length!==14||steps!==60||photos!==151)throw Error('Invalid preview render shape');
  window.__observed.rendered++;
  const sample=data.routes.find(r=>r.steps.some(s=>s.photos.length))?.steps.find(s=>s.photos.length)?.photos[0];
  window.__observed.hasOnlyNeutralPhotos=sample.image.startsWith('data:image/gif');
@@ -73,7 +73,7 @@ async function run(browser,base,name,opts){
  assert((await page.locator('[data-dd-preview]').innerText()).includes('Calidad visual'));
  assert((await page.locator('[data-dd-preview]').innerText()).includes('Guía documental parcial'),'MUST_NOT_FALSIFY_SPATIAL_ENDBOARDS');
  const observed=await page.evaluate(()=>window.__observed);
- assert.deepEqual([observed.converted,observed.rendered,observed.hasOnlyNeutralPhotos],[12,1,true]);
+ assert.deepEqual([observed.converted,observed.rendered,observed.hasOnlyNeutralPhotos],[14,1,true]);
  await page.locator('[data-dd-commit]:not([hidden])').click();
  await page.locator('.deck-data-finished').waitFor();
  assert((await page.locator('.deck-data-finished').innerText()).includes('Importación completada'));
