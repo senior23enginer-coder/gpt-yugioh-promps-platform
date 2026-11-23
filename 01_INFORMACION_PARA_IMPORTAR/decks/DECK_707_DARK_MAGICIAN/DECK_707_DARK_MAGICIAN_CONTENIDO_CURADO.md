@@ -12,6 +12,131 @@
 - Main: **30**; Extra: **7**; Side: **0**; Reserva: **0**.
 
 
+## APARTADO_01 — Diagnóstico A01 Dark Magician 707 (23-11-2026)
+
+**Identidad e inventario confirmado:** deck_id 707 · `rush_duel` · **Main 30 / 17 identidades**, **Extra 7 / 3 identidades**, Side 0, Reserva 0. Skill `Illusion of Execution` fuera de las cartas físicas. Banlist fuera de alcance.
+
+### A01-T1 — Arquetipo, motores, juego por fases y riesgos
+
+- **Estilo:** Control-Midrange de Lanzadores de Conjuros OSCURIDAD. **Motor principal:** Mago Oscuro (CID 15410, Main ×1), Hechicero Eliminador Oscuro (CID 19773, Main ×3), Mil Cuchillos (15450, ×2) y Ataque Mágico Oscuro (15451, ×2). Las dos Magias requieren controlar efectivamente un **Mago Oscuro boca arriba**; el Hechicero solo cumple el nombre en la ventana en que su efecto haya resuelto legalmente.
+- **Motor secundario:** Mago Oscuro Sabio (19597) puede robar y reanimar a DM del Cementerio pagando el envío desde mano; Piedra de los Magos Oscuros (19598) pone cuerpos válidos desde mano/GY; Chica Maga Oscura (16371) presiona según nombres en Cementerio; Ráfaga de Resonancia Oscura (17209) refuerza un Lanzador OSCURIDAD condicional.
+- **Skill `Illusion of Execution`:** **desde turno 2**, una vez por Duelo y revelando en mano un monstruo de Nivel 5+. Todos los monstruos Main deben ser Lanzadores de Conjuros, y los de Nivel 5+ solo Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Excava **tres** cartas y permite añadir **una Mágica solo si fue revelada**, enviando el resto al GY; después puede enviar un Mago Oscuro desde el Deck al GY. No proporciona materiales de Fusión Gaia.
+- **Extra y acceso real:** 3× Gaia el Campeón Dragón Rápido (CID 19995), 3× Gaia el Campeón Dragón (18298) y 1× Gaia, el Conquistador de Campeones (19323). **No figuran Gaia el Caballero Feroz ni Maldición de Dragón en las 17 identidades Main**, y la Skill no los crea. Las siete copias Extra quedan etiquetadas **`EXTRA_SIN_ACCESO_DEMOSTRADO`**; no ofrecer Invocaciones ni combos imaginarios con esos monstruos.
+- **Primero:** preparar nombre Mago Oscuro, recursos y protección. **Segundo:** elegir Mil Cuchillos para monstruo o Ataque Mágico Oscuro para backrow si el requisito nominal está vigente. **Juego medio/tardío:** usar recuperación Spellcaster, contar cartas excavadas por Skill y no declarar búsquedas garantizadas.
+- **Condición de victoria:** control del Campo, intercambios favorables y presión de monstruos Spellcaster; **riesgos:** Magias que se atascan sin Mago Oscuro, ventana/requisito de Skill, enviar el único DM al GY sin acceso posterior y Extra sin Invocación demostrada.
+- **Fuentes:** [Konami Rush 15410](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Konami Rush 19773](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2), [Konami Rush 15451](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2), [Duel Links Meta — Illusion of Execution](https://www.duellinksmeta.com/skills/Illusion%20of%20Execution), [Gaia the Dragon Champion: materiales](https://www.duellinksmeta.com/cards/rush/Gaia%20the%20Dragon%20Champion). Español = paráfrasis editorial, no texto Konami traducido oficial.
+
+### A01-T2 — Perfil de seis campos redactado, aún sin certificado JSON
+
+- **Arquetipo:** Dark Magician de Rush Duel (Skill Illusion of Execution).
+- **Tipo de estrategia:** Control-Midrange de Lanzadores de Conjuros/OSCURIDAD.
+- **Estilo breve:** Controla con Mago Oscuro, Magias que exigen su nombre y la Skill desde turno 2. Las siete cartas Extra Gaia carecen de materiales acreditados en Main.
+- **Resumen para ficha:** Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado.
+- **Cómo se juega:** Primero: preparar Mago Oscuro o un medio legítimo de acceder a él y conservar Magias condicionadas. Segundo: con Hechicero Eliminador Oscuro y su efecto resuelto, usar el nombre Mago Oscuro temporal para habilitar Mil Cuchillos o Ataque Mágico Oscuro. Medio/tardío: la Skill puede activarse una vez por Duelo desde el turno 2, excavando tres cartas sin garantizar Mágica; recuperar recursos con Mago Oscuro Sabio o Piedra de los Magos cuando existan objetivos legales.
+- **Qué vigilar:** Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; no inventar jugadas del Extra.
+
+**Longitudes:** Estilo breve 150/190; Resumen para ficha 226/250. T2 no se cierra hasta acreditar igualdad literal con `record.profile` del paquete estructurado real.
+
+### A01-T3 — Matriz integral de fuentes, propósitos y condiciones
+
+| CID Rush | Identidad | Zona/copias | Propósito | Requisito de efecto | Resultado y limitaciones |
+|---|---|---|---|---|---|
+| [15451](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2) | Ataque Mágico Oscuro | Main ×2 | Retirar M/T con nombre Mago Oscuro activo | Controlar un Mago Oscuro boca arriba. | Destruye todas las cartas Mágicas y Trampas del campo rival. |
+| [16772](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&ope=2) | Distribuidor Maravilloso | Main ×1 | Flujo de mano con LP y descarte | Tener hasta tres monstruos en el Cementerio y pagar 300 LP. | Enviar tres cartas de la mano al Cementerio y robar tres cartas. |
+| [18685](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&ope=2) | Maga Legendaria | Main ×2 | Excavar y recuperar Normal LEGEND | No tiene requisito de activación. | Revelar las tres cartas superiores; puede enviar un monstruo revelado al Cementerio y recuperar un monstruo Normal LEGEND del Cementerio. |
+| [19597](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2) | Mago Oscuro Sabio | Main ×1 | Robo y posible reanimación DM | Enviar desde la mano al Cementerio un Lanzador de Conjuros/OSCURIDAD. | Roba una carta; después puede Invocar de Modo Especial un Mago Oscuro del Cementerio. |
+| [19329](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&ope=2) | Grito de Monstruo | Main ×2 | Robo/recuperación condicionada | Enviar de la mano un monstruo al Cementerio. | Roba una carta; después puede Invocar del Cementerio un monstruo sin efecto que tenga ATK 2000 o DEF 2100. |
+| [19773](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2) | Hechicero Eliminador Oscuro | Main ×3 | Nombre temporal DM y remoción condicionada | Enviar la primera carta de tu Deck al Cementerio. | Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior. |
+| [17209](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&ope=2) | Ráfaga de Resonancia Oscura | Main ×3 | Bono de ATK | Sin requisito de activación. | Otorga 1000 ATK por el turno a un Lanzador de Conjuros OSCURIDAD propio de Nivel 6+; otorga otros 1000 si controlas Mago Oscuro o Chica Maga Oscura. |
+| [20151](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2) | Brillo Sombrío | Main ×2 | Interrupción defensiva | Cuando el rival Invoca un monstruo en su turno; enviar una carta de la mano al Cementerio. | Pone hasta dos monstruos de Efecto boca arriba de cualquier Campo boca abajo en Defensa; si incluyó un monstruo rival con ATK original de al menos 2600, recupera 1500 LP. |
+| [19598](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2) | Piedra de los Magos Oscuros | Main ×3 | Acceso a cuerpos Spellcaster | Sin requisito de activación. | Invoca desde la mano y/o Cementerio hasta un Lanzador de Conjuros OSCURIDAD con 2500 ATK y hasta otro con 2000 ATK, boca arriba. |
+| [15410](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2) | Mago Oscuro | Main ×1 | Habilitador Normal LEGEND | No tiene efecto. | Monstruo Normal LEGEND. |
+| [20305](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2) | Lily Aniquiladora | Main ×1 | Tributo doble condicional | Haber sido Invocada de Modo Normal este turno. | Envía la primera carta del Deck al Cementerio; si era Lanzador de Conjuros, esta carta cuenta por dos Sacrificios para un Lanzador de Conjuros/OSCURIDAD en Ataque este turno. |
+| [16371](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2) | Chica Maga Oscura | Main ×3 | Presión con apoyo de DM | No necesita activación. | Gana 500 ATK por cada Mago Oscuro en ambos Cementerios. |
+| [15450](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2) | Mil Cuchillos | Main ×2 | Retirar monstruo rival con DM | Controlar un Mago Oscuro boca arriba. | Destruye un monstruo del Campo rival. |
+| [19341](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&ope=2) | ¡Equitación Lindasesina! | Main ×1 | Respuesta a Invocación | Cuando el rival Invoca boca arriba un monstruo de Efecto. | Invoca del Cementerio en Ataque propio un monstruo cuyo ATK no supere el del recién invocado; después puede reducir en 1800 ATK hasta dos monstruos rivales boca arriba ese turno. |
+| [17212](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2) | Orden Secreta | Main ×1 | Recuperar Normal de Nivel 7 | Sin requisito de activación. | Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales. |
+| [16372](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2) | Olla de la Codicia | Main ×1 | Robo | Sin requisito de activación. | Roba dos cartas. |
+| [21007](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2) | Maldición de la Luz Ascendente | Main ×1 | Cambio de posición y robo | El rival debe tener una o ninguna carta en mano. | Cambia un monstruo rival a Ataque boca arriba o Defensa boca abajo. Si el rival activó una Trampa ese turno o es el primer turno del jugador segundo, ambos roban dos. |
+| [19995](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2) | Gaia el Campeón Dragón Rápido | Extra ×3 | Extra sin materiales presentes | Fusionar un Guerrero con DEF 2100 y Maldición de Dragón; para el efecto, enviar la carta superior del Deck al Cementerio. | Inflige daño de penetración este turno y, si la mano está vacía, puede robar una carta. |
+| [18298](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2) | Gaia el Campeón Dragón | Extra ×3 | Extra sin materiales presentes | Materiales nombrados: Gaia el Caballero Feroz y Maldición de Dragón. | Monstruo Fusión sin efecto activado. |
+| [19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2) | Gaia, el Conquistador de Campeones | Extra ×1 | Extra sin materiales presentes | Fusionar Gaia el Caballero Feroz y Maldición de Dragón; el turno que fue Invocado de Modo Especial, devolver al Deck un monstruo del Cementerio que no sea Caballero Mágico. | Elegir entre atacar directamente este turno o destruir una Mágica/Trampa rival. |
+
+**Enlaces existentes para cotejo:** `707:A09:ILLUSION:SAGE01`, `707:A09:EXECUTOR:KNIVES01` y `707:A09:EXECUTOR:DARKMAGIC01`. Son rutas documentales, no ejecución certificada. Sin efecto `effect_id` conciliado: `PENDIENTE_DE_ENLACE_A05_A09`. Para las tres familias Gaia del Extra se documenta `SIN_JUGADA_ACREDITADA`, no una ruta nueva.
+
+### A01-T4 / T5 — Puertas que siguen abiertas
+
+- **T4:** falta `datos/stationx-deck.json` auténtico, firma de inventario y comparación literal Markdown/JSON; no emitir `a01_profile_contract` sin prueba.
+- **T5:** falta importación real, exportación y presentación móvil/escritorio de este paquete, además de casos de rechazo por identidad; no afirmar despliegue ni cobertura de calculadora.
+- **Protección:** mantener 30 Main y 7 Extra, IDs, Skills, fotos y documentos previos sin inferencias; banlist y A10B fuera de alcance.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Manifiesto:** `station-x-a01-a10-task-manifest/1` · deck 707 · T1/T3 completas con evidencia, T2/T4/T5 abiertas, A10B no solicitado.
+
+### A01
+- [x] **A01-T1** — VERIFICADA: inventario/identidad, fuentes, condiciones y riesgos en A01.
+- [ ] **A01-T2** — BLOQUEADA: perfil documental sin record.profile JSON confirmado.
+- [x] **A01-T3** — VERIFICADA: inventario/identidad, fuentes, condiciones y riesgos en A01.
+- [ ] **A01-T4** — BLOQUEADA: falta paridad Markdown/JSON y contrato firmado.
+- [ ] **A01-T5** — BLOQUEADA: sin prueba de import/export/render/rechazo del deck 707.
+
+### A02
+- [ ] **A02-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A02-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A02-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A03
+- [ ] **A03-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A03-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A03-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A04
+- [ ] **A04-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A04-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A04-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A05
+- [ ] **A05-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A05-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A05-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A05-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A06
+- [ ] **A06-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A06-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A06-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A06-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A07
+- [ ] **A07-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A07-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A07-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A07-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A08
+- [ ] **A08-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A08-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A08-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A08-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A09
+- [ ] **A09-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A09-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A09-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A09-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A10A
+- [ ] **A10A-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A10A-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A10A-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+### A10B (A10B opcional no solicitado)
+- [ ] **A10B-T4** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A10B-T5** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [ ] **A10B-T6** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+
+---
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** Dark Magician de Rush Duel, con habilidad Illusion of Execution.
