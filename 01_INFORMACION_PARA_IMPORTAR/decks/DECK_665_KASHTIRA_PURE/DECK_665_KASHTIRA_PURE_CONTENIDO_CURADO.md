@@ -2,7 +2,7 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
-**Cierre A01–A03:** 9/35 tareas acreditadas; quedan 26/35 para A04–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
+**Cierre A01–A04:** 12/35 tareas acreditadas; quedan 23/35 para A05–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
 
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
@@ -13,9 +13,9 @@
 - [x] **A03-T1** 100 % de Main, Extra, Side, Reserva y Skill cotejados: 38 CID, 44 card_id, 76 copias y Side 0 preservado sin inventar cartas.
 - [x] **A03-T2** 44 correspondencias card_id↔CID↔nombre histórico/oficial (source_aliases), referencias Konami e imágenes reales; cero identidades ambiguas o IDs repetidos.
 - [x] **A03-T3** Inventario físico 42/15/0/19 congelado por referencia a V40 y JSON portátil; denominadores A04–A10 identificados sin completar sus análisis.
-- [ ] **A04-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A04-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A04-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [x] **A04-T1** 38/38 CID físicos identificados, fuente Konami por CID y 44 JPG de procedencia real, con seis referencias extras separadas; ninguna FOTO_PENDIENTE en la lista física.
+- [x] **A04-T2** 44 JPEG + 19 WebP decodificables, firma Git del archivo y ruta real verificados; miniaturas 268×391, sin afirmar HD para A10A.
+- [x] **A04-T3** Zonas/estados y disponibilidad definidos, 16 rutas/92 pasos, 116 fotos de paso, 24 hand_photos y 10 endboards ilustrativos sin certificación espacial.
 - [ ] **A05-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A05-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A05-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
@@ -5963,4 +5963,133 @@ Las verificaciones de este apartado son **de identidad y compatibilidad mínima*
 **A03-T3 [x]:** estado físico congelado por fuente V40 autenticada y denominadores A04–A10A documentados; CI rechaza modificaciones de ID/cantidad/zona y no abre etapas posteriores.
 
 **Siguiente apartado:** A04 — validación fotográfica y procedencia; A03 no afirma que las guías de combos estén completas ni ejecuta el motor.
+
+---
+
+
+## APARTADO_04 — Kashtira Pure 665 · evidencia fotográfica y mapa de zonas (22-11-2026)
+
+### A04.1 — Procedencia, fuente oficial por CID y 38 imágenes físicas identificadas
+
+**Alcance y autorización:** el usuario asignó expresamente A04 del único deck **665** tras A01–A03 y autorizó avanzar sin completar Side. Por eso el preflight usa solamente `stageId='A04'` + `authorizedSideOmissionForA04=true`; **Main 42 · Extra 15 · Side 0 · Reserva 19**, 38 CIDs y 44 `card_id` permanecen intactos. A05–A10A no heredan la excepción; la banlist no se consulta ni es condición de este apartado.
+
+- **Fuente física de imágenes:** JPG ya versionados en este repositorio bajo `DECK_665_KASHTIRA_PURE/imagenes/tcg/`; cada archivo se identifica por el **CID numérico exacto**. La columna *Git blob SHA-1* representa el contenido existente del archivo, no un hash ficticio de inventario vivo.
+- **Fuente de identidad del juego:** `record.cards[].sources[0]` apunta al registro Konami oficial de ese mismo CID. Se inspeccionó una hoja de contacto de las 38 imágenes para cotejar título y arte visibles. Esto **no** demuestra que el JPG fuera descargado originalmente del servidor Konami ni certifica su licencia de redistribución: su procedencia de archivo es el repositorio histórico, la identidad oficial se verifica por CID.
+- **Formato:** mecánicas `tcg_advanced` y cartas asociadas a CID; no se evalúan prohibidas/limitadas, reemplazos ni cantidades sugeridas.
+- **Control de calidad:** los **44 JPG** son decodificables, RGB, de **268 × 391 píxeles** (miniatura) y cada archivo presenta tamaño positivo. **FOTO_OK_MINIATURA** para 38/38 CIDs físicos; `FOTO_PENDIENTE=0` para las cartas físicas. **FOTO_HD_NO_CERTIFICADA**: no se afirmará legibilidad de textos pequeños, zoom de carta o resolución HD para A10A.
+- **Integridad reproducible:** auditor `scripts/audit-deck-a04-kashtira.cjs` compara las 44 huellas Git blob con esta tabla y los `record.cards[*].image/full_image`; prueba Python/Pillow decodifica imágenes JPG/WebP completas y verifica dimensiones, identidad de formato y rutas internas.
+
+| CID físico | Nombre preservado | card_id y sección real | Ruta relativa dentro de la carpeta | Dimensiones / tamaño | Git blob SHA-1 del archivo | Referencia oficial de identidad |
+|---|---|---|---|---|---|---|
+| `4342` | Dark Hole | main #105 ×3 | `imagenes/tcg/4342.jpg` | 268 × 391 · 19144 B | `ab6a4466ad9a32f25dc2d8abf0a728296297757b` | [Konami CID 4342](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en) |
+| `5432` | Book of Moon | main #104 ×2 / reserve #123 ×1 | `imagenes/tcg/5432.jpg` | 268 × 391 · 25205 B | `4dc5c63d41e860ee1d99baba1db4de3c7ce5a3f9` | [Konami CID 5432](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en) |
+| `5537` | Terraforming | main #103 ×1 | `imagenes/tcg/5537.jpg` | 268 × 391 · 17249 B | `1d355fc7e1c5df7a98e4be3d7207e4b07d4cb7ae` | [Konami CID 5537](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en) |
+| `7153` | Eradicator Epidemic Virus | reserve #125 ×2 | `imagenes/tcg/7153.jpg` | 268 × 391 · 26489 B | `7ea9a16c8af9fe09f2968dee7be4bb907ebb70c1` | [Konami CID 7153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7153&ope=2&request_locale=en) |
+| `9279` | Droll & Lock Bird | reserve #133 ×3 | `imagenes/tcg/9279.jpg` | 268 × 391 · 28670 B | `77a6328e93badb35ab1c92d116e8fbc692ab36e2` | [Konami CID 9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en) |
+| `9352` | Forbidden Lance | main #108 ×2 / reserve #127 ×1 | `imagenes/tcg/9352.jpg` | 268 × 391 · 23872 B | `ac9b9571c193b22269b5bf1a6e5fa502ce5e7bc4` | [Konami CID 9352](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en) |
+| `9861` | Number 11: Big Eye [Xyz rango 7] | extra #115 ×2 | `imagenes/tcg/9861.jpg` | 268 × 391 · 27820 B | `6385bca87207a3067a2f5b679184041f1d1434ce` | [Konami CID 9861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en) |
+| `12464` | Cosmic Cyclone | main #107 ×2 | `imagenes/tcg/12464.jpg` | 268 × 391 · 20958 B | `afbcf6fb0f2173f4668dd55ad545b9d4df0c8c5a` | [Konami CID 12464](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en) |
+| `12668` | Dimensional Barrier | reserve #130 ×2 | `imagenes/tcg/12668.jpg` | 268 × 391 · 28857 B | `110d02456ec7c71d3946a13e00d03620fa0854b6` | [Konami CID 12668](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en) |
+| `12950` | Ash Blossom & Joyous Spring | main #98 ×3 | `imagenes/tcg/12950.jpg` | 268 × 391 · 26325 B | `845f2ca4dee48bfe3e091eb550d03a05a75e26c1` | [Konami CID 12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en) |
+| `13587` | Ghost Belle & Haunted Mansion | reserve #134 ×2 | `imagenes/tcg/13587.jpg` | 268 × 391 · 26686 B | `38d1f00a3e8321b319cbf698dfa29b48a9b76510` | [Konami CID 13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) |
+| `13631` | Infinite Impermanence | main #110 ×3 | `imagenes/tcg/13631.jpg` | 268 × 391 · 30076 B | `804a40b3f2c8fc7e6e9f860e97de085ca518ea44` | [Konami CID 13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) |
+| `13896` | Dinowrestler Pankratops | reserve #129 ×1 | `imagenes/tcg/13896.jpg` | 268 × 391 · 31047 B | `3206ef4ab9af6db2ebc61ae88d2ab864218be65e` | [Konami CID 13896](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en) |
+| `13974` | Dark Armed, the Dragon of Annihilation [Xyz rango 7] | extra #117 ×1 | `imagenes/tcg/13974.jpg` | 268 × 391 · 30213 B | `91d9b36d8d6388ccb5eeae5ea17858615d670548` | [Konami CID 13974](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en) |
+| `14400` | Infinitrack Goliath [monstruo Link para intercambio con Extra Deck] | reserve #135 ×1 | `imagenes/tcg/14400.jpg` | 268 × 391 · 29649 B | `2b4484e243cb8f12f6c59b204d01255ef6b9d351` | [Konami CID 14400](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en) |
+| `14740` | Dimension Shifter | main #99 ×1 / reserve #126 ×2 | `imagenes/tcg/14740.jpg` | 268 × 391 · 26903 B | `a499c782eba3fcc48267e1a90bbd9e7dc73601e9` | [Konami CID 14740](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en) |
+| `14741` | Nibiru, the Primal Being | reserve #132 ×1 | `imagenes/tcg/14741.jpg` | 268 × 391 · 27237 B | `8e5a1727e8d195f769e0c451a3b3e198ee407373` | [Konami CID 14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en) |
+| `15296` | Triple Tactics Talent | main #109 ×1 / reserve #124 ×1 | `imagenes/tcg/15296.jpg` | 268 × 391 · 27734 B | `a2c5f7b9d568f94db1666e8d1372b34c1ee75708` | [Konami CID 15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en) |
+| `15366` | Fossil Warrior Skull Knight [Fusión] | extra #121 ×1 | `imagenes/tcg/15366.jpg` | 268 × 391 · 28175 B | `49cdaa3d864476d53df78386b78085b6b2544dc5` | [Konami CID 15366](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en) |
+| `15524` | Divine Arsenal AA-ZEUS – Sky Thunder [Xyz] | extra #116 ×2 | `imagenes/tcg/15524.jpg` | 268 × 391 · 30770 B | `eb11eadf03bb638e5af3cf38d769e479389d3f97` | [Konami CID 15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en) |
+| `15741` | Underworld Goddess of the Closed World [Link-5] | extra #120 ×1 | `imagenes/tcg/15741.jpg` | 268 × 391 · 27976 B | `dd71485ee465bbf48b3cc2383ad8dfae94c48f99` | [Konami CID 15741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en) |
+| `15756` | Pot of Prosperity | main #106 ×2 / reserve #131 ×1 | `imagenes/tcg/15756.jpg` | 268 × 391 · 30247 B | `49d23912aa5642e44ab320cbc8cc7dc0b1844702` | [Konami CID 15756](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en) |
+| `15882` | Fossil Machine Skull Wagon [Fusión] | extra #122 ×1 | `imagenes/tcg/15882.jpg` | 268 × 391 · 27890 B | `d5e9067a5b0c2351d727e015cf5a101a794b8aa7` | [Konami CID 15882](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en) |
+| `16386` | Baronne de Fleur [Synchro nivel 10] | extra #118 ×1 | `imagenes/tcg/16386.jpg` | 268 × 391 · 32431 B | `32b7df3fa3cb8c00ef120dbaff4cbb8db729c83a` | [Konami CID 16386](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en) |
+| `17768` | Kashtira Fenrir | main #92 ×3 | `imagenes/tcg/17768.jpg` | 268 × 391 · 29828 B | `4304e7061c550eda8eda606e8a12bfc61188717b` | [Konami CID 17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en) |
+| `17769` | Kashtira Unicorn | main #93 ×2 / reserve #128 ×1 | `imagenes/tcg/17769.jpg` | 268 × 391 · 29230 B | `8165dd7253be8b29bbb5ade62de52b4b2cede219` | [Konami CID 17769](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en) |
+| `17770` | Kashtira Ogre | main #95 ×1 | `imagenes/tcg/17770.jpg` | 268 × 391 · 29238 B | `cc59efa316827e29f086be287374ff085caeb204` | [Konami CID 17770](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en) |
+| `17800` | Kashtira Shangri-Ira [Xyz rango 7] | extra #113 ×3 | `imagenes/tcg/17800.jpg` | 268 × 391 · 25975 B | `bb66149169a22cdb2dbc92acd735cfabb37b5d8f` | [Konami CID 17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en) |
+| `17804` | Donner, Dagger Fur Hire [Link-2] | extra #119 ×1 | `imagenes/tcg/17804.jpg` | 268 × 391 · 29242 B | `e14764dbcaf69b53eebd9cebae6955ca1dd80b45` | [Konami CID 17804](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en) |
+| `17815` | Kashtira Birth | main #101 ×3 | `imagenes/tcg/17815.jpg` | 268 × 391 · 27780 B | `3f17bde0f9314b59dd1cd1f18b1c59647d0f31a1` | [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en) |
+| `17831` | Kashtira Preparations | main #111 ×1 | `imagenes/tcg/17831.jpg` | 268 × 391 · 25030 B | `d685be7dffe76642fa1c98d6d870e435fb7cee7e` | [Konami CID 17831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en) |
+| `18151` | Kashtira Riseheart | main #94 ×3 | `imagenes/tcg/18151.jpg` | 268 × 391 · 29662 B | `72081b19a7dda04d40f05bc91dcac6aa1eb96723` | [Konami CID 18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en) |
+| `18152` | Scareclaw Kashtira | main #96 ×1 | `imagenes/tcg/18152.jpg` | 268 × 391 · 30874 B | `17e3615dad90e6c0d4b860358ffc79c08185df8d` | [Konami CID 18152](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en) |
+| `18153` | Tearlaments Kashtira | main #97 ×1 | `imagenes/tcg/18153.jpg` | 268 × 391 · 29611 B | `8a5d792dc5c6bb6e77366373f0c4ed7e2da78782` | [Konami CID 18153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en) |
+| `18191` | Kashtira Arise-Heart [Xyz rango 7] | extra #114 ×2 | `imagenes/tcg/18191.jpg` | 268 × 391 · 31484 B | `10ec8f97e7fb1c93b9b3b34c314567473844548d` | [Konami CID 18191](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en) |
+| `18203` | Kashtiratheosis | main #102 ×3 | `imagenes/tcg/18203.jpg` | 268 × 391 · 30898 B | `1d9026da283dd2095490365174bed8b7674e56c8` | [Konami CID 18203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en) |
+| `18204` | Pressured Planet Wraitsoth | main #100 ×3 | `imagenes/tcg/18204.jpg` | 268 × 391 · 30728 B | `dab89a045e91dbe3a1f726294901484bfb0b3cbe` | [Konami CID 18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en) |
+| `18220` | Kashtira Big Bang | main #112 ×1 | `imagenes/tcg/18220.jpg` | 268 × 391 · 30704 B | `1549730e4bbec6ccdb4d50ab343276523a70244d` | [Konami CID 18220](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en) |
+
+### A04.2 — Calidad y separación de las seis referencias externas
+
+Los **6 JPG adicionales** corresponden a ilustraciones que cita una guía compartida para 665/670/687 y **no** son identidades jugables del inventario 665. Se conservan como recursos pedagógicos explícitos, sin tratarlos como cartas físicas propias ni invocarlas en un combo. Ninguna fotografía se incorporó a partir de un nombre parecido ni se recategorizó de Reserva a Side.
+
+| Archivo JPG adicional | Dimensiones / tamaño | Git blob SHA-1 | Uso permitido |
+|---|---|---|---|
+| `14676.jpg` | 268 × 391 · 30643 B | `8e92017617bd1f6018acf4073f0262c29e36ea37` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+| `15082.jpg` | 268 × 391 · 29831 B | `f596bf4eec15c696fb87f6aece94b570c5977dee` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+| `18916.jpg` | 268 × 391 · 30096 B | `87af2037c12475b620da76b8237923cb8d12403e` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+| `19184.jpg` | 268 × 391 · 32020 B | `168d9ce65a16630b45aef6f9ed889c7e377fd39c` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+| `7082.jpg` | 268 × 391 · 24601 B | `634db4e382871db0544751dd6346bd97dc843a82` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+| `7243.jpg` | 268 × 391 · 27148 B | `c1e63cdff7cf4bf780629ef609ed7be59badc29f` | Guía `DECK_665_670_687_TYPHON_GODDESS_GUIA_V13.md`; **REFERENCIA_EXTERNA_NO_INVENTARIO**, no se atribuye como carta del deck 665 |
+
+**Otros recursos visuales existentes:** 15 infografías WebP de las rutas históricas (1540 px de ancho, alturas variables) y 4 WebP de ejemplos de aperturas (592–800 px de ancho); además, 7 guías Markdown en la misma carpeta. Los **19 WebP** se decodifican y cotejan en CI, pero una infografía no certifica por sí misma una línea de combo o el estado del motor. Todos estos recursos permanecen dentro de `DECK_665_KASHTIRA_PURE`.
+
+### A04.3 — Mapa reutilizable de disponibilidad, zonas físicas y posiciones
+
+**Disponibilidad inicial real según inventario**, no según las imágenes:
+
+| Sección física | Copias actuales | Regla de acceso y ubicación para A05/A07/A09/A10A |
+|---|---:|---|
+| Main | 42 | Fuente del Deck principal. La mano inicial se conoce **solo** cuando una situación declara una carta como robada o disponible |
+| Extra | 15 | Monstruos disponibles en Extra, sujetos a materiales, procedimiento de Invocación y restricciones activas; no son material de mano por defecto |
+| Side | 0 | No hay ninguna carta cargada. Solo existirían opciones tras un cambio entre duelos que el propietario autorice |
+| Reserva | 19 | Alternativas no disponibles durante un duelo ni en el Extra. No convertir a Side, no asumir copias extra de Main |
+| Skills | 0 | No aplica habilidad Rush; no se inventa una ni se cuenta como carta |
+
+**Zonas/estados objetivo para secuencias futuras (la imagen no es evidencia de ocupación):**
+
+| Zona semántica | Identificador compartido | Qué se puede afirmar desde A04 | Qué queda pendiente |
+|---|---|---|---|
+| Mano propia | `hand` | Identidad CID cuando el estado inicial la declare | Mano oculta, robos y cantidad de oponentes |
+| Deck principal | `deck` | Procedencia Main, cantidad total física | Orden aleatorio del Deck, carta superior |
+| Monstruos propios | `monster` | Efectos de monstruo compatibles con la zona si resueltos | Casillas `M1–M5`, EMZ, modo y posición exacta salvo estado A09 acreditado |
+| Magia/Trampa | `spell` | M/T identificadas como propias si una jugada lo especifica | Cinco casillas S/T y boca arriba/abajo exactos |
+| Zona de Campo | `field` | Mágica de Campo activa si la ruta demuestra su resolución | Sustitución, permanencia y control sin prueba |
+| Cementerio | `graveyard` | Cartas realmente enviadas a GY por una acción resuelta | No declarar GY poblado por llevar una imagen |
+| Destierro | `banished` | Solo tras un destierro demostrado, boca arriba/abajo según efecto | Propiedad y cara de cartas rivales desconocidas |
+| Extra Deck | `extra` | Copias de Extra todavía disponibles, según consumo acreditado | Reposiciones y rutas condicionadas |
+| Materiales Xyz | `xyz_materials` | CID acoplado bajo un Xyz únicamente cuando se verificó la superposición | No contarlos como cuerpos libres en Campo, mano ni GY |
+| Campo del rival | `opponent` | Únicamente cartas declaradas por escenario | Todas las zonas rivales no especificadas siguen desconocidas |
+
+**Rutas con fotos y campos finales heredados:**
+
+| route_id estable V40 | Pasos | Fotos referenciadas en pasos | `hand_photos` | Endboards documentales | Posiciones exactas |
+|---|---:|---:|---:|---:|---|
+| `665:A09:WRAITSOTH:SHANGRI01` | 5 | 12 | 1 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:FENRIR:RISEHEART:SHANGRI02` | 7 | 0 | 2 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03` | 7 | 13 | 1 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:SHANGRI:STANDBY:ARISE04` | 3 | 2 | 3 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:FENRIR:BIRTH:SHANGRI05` | 6 | 0 | 2 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:FENRIR:BIRTH:BIGEYE06` | 4 | 0 | 0 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07` | 7 | 0 | 2 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08` | 6 | 0 | 3 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09` | 4 | 0 | 0 | 0 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:FENRIR:BIRTH:DARKARMED10` | 5 | 9 | 2 | 2 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:BIGEYE:BATTLE:ZEUS11` | 5 | 8 | 0 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:DONNER:FENRIR:UNICORN:GODDESS12` | 5 | 7 | 0 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:MIRROR:ARISE:BATTLE:ZEUS13` | 5 | 10 | 1 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:FENRIR:BIRTH:BIGBANG:ARISE14` | 9 | 21 | 2 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:UNICORN:ASH:BIRTH:BARONNE15` | 9 | 24 | 3 | 1 | `NO_VERIFICADO_ESPACIAL` |
+| `665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI` | 5 | 10 | 2 | 0 | `NO_VERIFICADO_ESPACIAL` |
+
+**Denominadores A04:** 16 rutas, 92 pasos históricos, **116** referencias de fotografías en pasos, **24** `hand_photos` didácticas y **10** variantes históricas de endboard. `hand_photos` son apoyos visuales y **no certifican** por sí mismas una mano inicial; las variantes existentes son **ilustrativas**, sin validación espacial de casillas. Algunas rutas no tienen fotos en sus pasos ni endboards; A09/A10A deberán cubrir eso, no inventarlo o marcarlo terminado en A04.
+
+**A04-T1 [x]:** 38/38 CID con imagen local auténtica identificable y fuente oficial de identidad; seis fotos extras separadas.
+
+**A04-T2 [x]:** 44 JPG y 19 WebP inspeccionados como archivos decodificables; 268 × 391 en las miniaturas, sin atribuir HD; rutas y contenido se verifican por archivo y firma Git real.
+
+**A04-T3 [x]:** mapa de mano/Deck/Extra/Campo/Cementerio/destierro/zonas Xyz, disponibilidad exacta por sección, 116 fotos de paso y 10 endboards etiquetados como ilustrativos; cero cartas de Reserva asumidas en juego.
+
+**Siguiente apartado pendiente:** A05 (efectos y restricciones PSCT, sin activar calculadora). Este cierre A04 no afirma que A09/A10A, el motor o el despliegue estén terminados.
 
