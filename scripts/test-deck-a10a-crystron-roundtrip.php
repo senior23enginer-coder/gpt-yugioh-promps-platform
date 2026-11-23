@@ -93,7 +93,8 @@ try{
  a10a_need(count($prepared['cards'])===39&&count($prepared['routes'])===14,'BAD_IMPORT_RECORD');
  a10a_need($candidate['steps']===60&&$candidate['photos']===151&&$candidate['opens']===5&&$candidate['endboards']===14,'PREVIEW_VISUAL_PARITY_FAILURE');
  a10a_need($candidate['actions']===$historic['actions'],'A09_ACTION_SEQUENCE_CHANGED');
- a10a_need($candidate['photos']>$historic['photos'],'PHOTOS_NOT_UPDATED');
+ a10a_need($candidate['photos']===$historic['photos']&&$candidate['photos']===151,'NATIVE_STEP_IMAGES_CHANGED');
+ // A10A improves static HTML images; native 151 step photo links are intentionally immutable.
  // Native registry optimistic check must reject stale imports before any write.
  $wrongGuard=hash('sha256','stale');
  try{ygo_data_publish($tempRoot,677,$prepared,$files,$wrongGuard);throw new RuntimeException('STALE_IMPORT_ACCEPTED');}
