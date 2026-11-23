@@ -94,7 +94,7 @@ function audit(pkgFile,mdFile,historyFile){
   const row=lines.find(x=>x.startsWith('| '+String.fromCharCode(96)+p.id+String.fromCharCode(96)+' | '));
   A(row&&row.includes(' | '+p.qty+' | ')&&row.includes('cid='+p.cid+'&'),'ROW_NOT_GROUNDED_'+p.id);
  }
- for(const k of ['A03-T1','A03-T2','A03-T3'])A(section.includes('**'+k+' [x]**'));
+ for(const k of ['A03-T1','A03-T2','A03-T3'])A(section.includes('**'+k+' [x]'),'A03_TASK_EVIDENCE_MISSING_'+k);
  const negatives=[
   ['deck',x=>x.deck_id=666],
   ['cid',x=>x.record.cards[0].cid=999999],
