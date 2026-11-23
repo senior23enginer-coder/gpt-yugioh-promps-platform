@@ -15,6 +15,16 @@
 
 **Precedencia:** este contrato rige el orquestador, los tres documentos base y los diez módulos A01–A10. Reemplaza las instrucciones anteriores que repartían la interpretación de un efecto entre distintas vistas. A01–A10A siempre se realizan; A10B únicamente se ejecuta si el usuario lo solicita. Que A10B sea opcional NO reduce en absoluto la información necesaria para prepararlo en A01–A09.
 
+### Ampliación A01 — perfil importable comprobable (23-11-2026)
+
+A01 contiene **cinco tareas obligatorias**, A01-T1…A01-T5: análisis estratégico, perfil de seis campos, matriz de propósitos por CID, validación de paridad Markdown/JSON y prueba real de importación/presentación. El total vigente de A01–A10A es **37 tareas obligatorias**, con **3 opcionales A10B**. El manifiesto `02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json` y el módulo A01 son la autoridad para sus identificadores.
+
+**Sin modificar los decks históricos automáticamente:** las actas antiguas de 35 tareas se conservan como instantáneas. No marcar A01-T4 ni A01-T5 de ningún deck sin nueva asignación expresa y evidencia individual. Los validadores de infraestructura pueden comprobar el nuevo contrato con ejemplos sintéticos, pero no aprueban por sí solos un deck.
+
+**Salida A01:** seis cadenas no vacías y específicas dentro del `record.profile` ya admitido por Station X: `Arquetipo`, `Tipo de estrategia`, `Estilo breve` (hasta 190 caracteres), `Resumen para ficha` (hasta 250), `Cómo se juega` y `Qué vigilar`. Para entregas nuevas que afirmen cumplir A01-T4/T5, declarar también `record.a01_profile_contract = "station-x-a01-profile/1"`: el importador valida el perfil y rechaza contenidos vacíos, de relleno o fuera de límites. Paquetes históricos sin esta declaración siguen siendo legibles, **sin que su A01-T4/T5 se considere completo**. Los propósitos investigados se documentan en `APARTADO_01`, no se crean rutas/efectos artificiales ni nuevas propiedades de estrategia no aceptadas por la plataforma.
+
+La prueba de importación/visualización **no** prueba la legalidad de la construcción ni la calculadora. A01-T5 requiere evidencia del paquete individual del deck seleccionado; las pruebas sintéticas del importador solo acreditan infraestructura.
+
 ### Una fuente semántica, múltiples consumidores
 
 Cada deck aporta **una especificación causal canónica**, estructurada y validada por carta/efecto/ruta en la misma entrega del deck. La guía visual, fichas de cartas, decisiones tácticas, combo creator y futura calculadora **leen la misma semántica**; ningún consumidor vuelve a reinterpretar texto libre, inventa efectos o crea su propia definición contradictoria. En la carpeta importable, `datos/stationx-deck.json` es el registro estructurado de Station X y conserva sus campos y formato admitidos (`record.cards`, `record.engine_maps`, `record.decisions`, `record.routes`, `record.calculator` solo para A10B). La investigación exhaustiva, los casos de papel y el checklist se guardan en secciones identificadas del `DECK_*_CONTENIDO_CURADO.md` existente hasta que un contrato de importación permita transportarlos sin pérdida. **No inventar campos admitidos por el importador.** No generar archivos de salida paralelos por efecto, combo, prompt o test.
