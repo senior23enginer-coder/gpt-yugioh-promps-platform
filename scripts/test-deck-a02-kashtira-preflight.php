@@ -40,6 +40,9 @@ $inventory=[
  'inventory_sha256'=>'CI-FIXTURE-NOT-LIVE-INVENTORY'
 ];
 $allow=static function(array $candidate,array $currentInventory)use($folder):bool{
+ if(($candidate['schema']??null)!=='station-x-deck-package/1'
+    ||($candidate['deck_id']??null)!==665
+    ||($candidate['record']['deck_id']??null)!==665)return false;
  try{
   ygo_data_validate_portable_inventory($candidate,$currentInventory,$folder,null);
   return true;
