@@ -39,6 +39,52 @@
 - **Juego medio/tardío:** calcular cartas en mano, GY LIGHT/DARK para BLS, mágicas recuperables mediante Mago de la Fe, y cuántas Metamorfosis restan.
 - **Debilidad clave:** solo dos Scapegoat, tres Metamorfosis; manos de sacrificios de Extra sin objetivos de mismo nivel; si el usuario gasta el último Dark o Light válido, BLS puede quedar muerto; pocas cartas Extra de utilidad real sin monstruos Nivel6/9 propios.
 
+## A01.1 — Evidencia contractual vigente, GOAT 699 (23-11-2026)
+
+**Alcance:** A01 del deck_id **699** y formato **goat**, con Main **40** (16 monstruos, 16 Mágicas, 8 Trampas), Extra **14** y Side **NO RECIBIDO**; se han documentado **39 identidades**. No completar la plaza 15 del Extra ni inventar un Side de cero. La revisión no evalúa banlist, no cambia las 54 copias ni marca simulaciones como ejecutadas.
+
+### A01-T1 — Diagnóstico cerrado con evidencia de inventario y fuentes
+
+- **Clasificación:** Control/tempo y ventaja de cartas, con rematador condicional. **Motor principal:** Scapegoat ×2 → Metamorfosis ×3 → Límite de los Mil Ojos ×3. Se requieren cuatro zonas libres cuando se activa Scapegoat y conservar al menos una ficha de Nivel 1 hasta el siguiente turno propio si Scapegoat se activó durante turno rival. Ese turno de activación no permite otras Invocaciones.
+- **Motores secundarios:** Mago de la Fe ×2 (recuperación tras FLIP), Tsukuyomi/Libro de la Luna (protección/posición), Parshath ×2 (presión y robo), BLS ×1 (condición de Invocación con una LUZ y una OSCURIDAD reales en Cementerio). No hay una sola línea que garantice todas esas ganancias juntas.
+- **Primero:** conservar recursos, colocar defensa y preparar una ventana legítima para Goats. **Segundo:** negociar backrow y combatientes antes de gastar Metamorfosis o BLS. **Medio/tardío:** evaluar ventaja de cartas, recursos de Cementerio y compatibilidad de niveles del Extra.
+- **Condición de victoria:** negar o absorber amenazas con Límite de los Mil Ojos y después convertir la ventaja acumulada en daño con Parshath o BLS según mano/campo reales.
+- **Riesgos:** activar Goats en el turno propio bloquea Metamorfosis ese mismo turno; TER no aparece sin un Nivel 1 disponible; varios Extra Nivel 6/9 no tienen fuente natural en el Main; BLS se atasca sin ambos atributos; FLIP no se activa por Colocar; Side no recibido; erratas GOAT requieren cotejo histórico y no versión TCG moderna.
+- **Referencias cotejadas:** [Scapegoat, Konami CID 4818](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es), [GoatFormat rulings S–T](https://www.goatformat.com/rulings7.html) y [GoatFormat — guía Goat Control](https://beta.goatformat.com/deck-guides/goat-control).
+
+### A01-T2 — Perfil propuesto de seis campos (no importado ni certificado)
+
+- **Arquetipo:** GOAT Control (entorno histórico de 2005).
+- **Tipo de estrategia:** Control y ventaja de cartas con FLIP, Scapegoat y Metamorfosis.
+- **Estilo breve:** Controla la mesa con FLIP y Magias rápidas; usa Scapegoat en turno rival y Metamorfosis en tu turno para Límite de los Mil Ojos. Parshath presiona y BLS cierra con recursos reales.
+- **Resumen para ficha:** Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas.
+- **Cómo se juega:** Primero: proteger mano, colocar FLIP/trampas y activar Scapegoat durante el turno rival solo con cuatro zonas libres. Segundo: castigar aperturas con Breaker, Libro de la Luna, Crossout y rutas legales de Metamorfosis. Medio/tardío: reusar Mago de la Fe, evaluar recursos LUZ/OSCURIDAD para BLS y no gastar Parshath sin comparar su ventaja frente a Balter. No activar Scapegoat y luego intentar invocar TER por Metamorfosis durante el mismo turno.
+- **Qué vigilar:** Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.
+
+**Control de longitud:** Estilo breve 180/190; Resumen para ficha 228/250. **Pendiente:** generar o cotejar `record.profile` del paquete estructurado para 699. No afirmar contrato `a01_profile_contract` sin evidencia de paridad y aceptación del importador.
+
+### A01-T3 — Matriz de propósitos, zonas, condiciones, fuentes y enlaces reales
+
+| CID | Identidad/zona | Propósito de uso | Requisito de efecto/ventana | Enlace documental o riesgo | Fuente |
+|---|---|---|---|---|---|
+| 4818 | Scapegoat, Main ×2 | Acceso defensivo a fichas Nivel 1 | Cuatro zonas libres y turno sin Invocaciones anteriores; prohibición de Invocar otros monstruos ese turno | G-C01: fichas en turno rival, no fusionar ese turno | [Konami CID 4818](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es) |
+| 5539 | Metamorfosis, Main ×3 | Convertir un monstruo propio en Fusión | Ofrecer como Tributo un monstruo del mismo Nivel que la Fusión escogida | G-C01/G-C04; no inferir acceso a Nivel 6/9 | [Konami CID 5539](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5539&ope=2&request_locale=es) |
+| 4740 | Límite de los Mil Ojos, Extra ×3 | Control y absorción | Acceso legítimo por Metamorfosis de Nivel 1; efecto/ventana al llegar a Campo | G-C01/G-C03; no atribuir daño ni absorción garantizada | [Konami CID 4740](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4740&ope=2&request_locale=es) |
+| 4434 | Mago de la Fe, Main ×2 | Recuperar Magias | Activación y resolución del FLIP con Mágica real en Cementerio | G-C02; no recuperar al solo Colocarla | [Konami CID 4434](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4434&ope=2&request_locale=es) |
+| 5023 | Caballero del Aire Parshath, Main ×2 | Presión de combate y robo | Infligir daño de batalla al rival; o entregarlo como Nivel 5 para Meta | G-C04; elegir entre conservar robo o convertir a Balter | [Konami CID 5023](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5023&ope=2&request_locale=es) |
+| 5835 | BLS - Enviado del Principio, Main ×1 | Remate condicional | Desterrar realmente una LUZ y una OSCURIDAD del Cementerio | G-C05; no declarar BLS sin ambos recursos | [Konami CID 5835](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5835&ope=2&request_locale=es) |
+| 5432 | Libro de la Luna, Main ×2 | Interrupción y reinicio de efectos de volteo | Un monstruo boca arriba legal; respetar límites de cambios de posición | G-C03; no prometer Flip Summon inmediata | [Konami CID 5432](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=es) |
+| 5780 | Tsukuyomi, Main ×2 | Ciclar posición/FLIP | Ventana legal del Espíritu y monstruo objetivo | G-C03; no usar cambios de posición ilegales | [Konami CID 5780](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5780&ope=2&request_locale=es) |
+
+**Cobertura documental:** `A06.2` del presente documento ya traza **39/39 identidades** con CIDs, cantidades, papeles, vínculos y estado de comprobación. El motor `MOTOR-GOAT-META-01` y las rutas `G-C01`–`G-C05` son referencias **existentes** en este archivo, no IDs nuevos. Ningún enlace documental se convierte automáticamente en efecto ejecutable. `effect_id` exactos sin prueba se marcan `PENDIENTE_DE_ENLACE_A05_A09`, y no se inventan. Siguiente verificación: cotejar efectos por CID con A05/A07 y las 5 rutas A09 antes de habilitar operadores en calculadora.
+
+### Bloqueos restantes para cerrar A01
+
+- **A01-T2:** falta JSON real con los seis campos equivalentes sin pérdida; el perfil textual está redactado.
+- **A01-T4:** falta comprobar igualdad literal de Markdown/`record.profile`, calidad y aceptación de `a01_profile_contract`.
+- **A01-T5:** no hay ensayo acreditado de importación/exportación/lectura/presentación en Station X para 699, preservando 40 Main, 14 Extra y Side no recibido; no afirmar pruebas end-to-end.
+- **Sin modificaciones de inventario:** fuentes de imágenes existentes se conservan; la cobertura fotográfica se indica históricamente como pendiente, no se fabrican nuevas fotos.
+
 ## A02 — Manos de práctica y control de recursos
 
 | Estado | Acción correcta | Posible error |
@@ -652,3 +698,70 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 - La lista original, el número de copias, los nombres de ruta y las fotografías no se cambiaron. Se añadieron **únicamente análisis**.
 - Las 51 rutas de V39 siguen clasificadas como comprobación documental con 0 replays reales; NO declarar legal una carta prohibida, ni importar Side inexistente.
 - Las recomendaciones de mejora son opcionales: solo el usuario puede autorizar cambios a las cartas físicas; los análisis conservan las listas originales. GOAT mantiene su contexto histórico.
+
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Manifest:** `station-x-a01-a10-task-manifest/1` · **deck_id:** 699 · **A01 verificadas:** T1 y T3 · **T2/T4/T5 pendientes**. Tareas A02–A10A no se certifican retroactivamente; A10B no solicitado.
+
+### A01 — obligatorio
+- [x] **A01-T1** — TERMINADA: evidencia en este A01 y matriz A06.2 del mismo documento.
+- [ ] **A01-T2** — BLOQUEADA: campos redactados; sin igualdad certificada con record.profile JSON.
+- [x] **A01-T3** — TERMINADA: evidencia en este A01 y matriz A06.2 del mismo documento.
+- [ ] **A01-T4** — BLOQUEADA: falta cotejo MD/JSON y prueba de contrato A01 importable.
+- [ ] **A01-T5** — BLOQUEADA: faltan pruebas reales import/export/render/rechazo con inventario nativo.
+
+### A02 — obligatorio
+- [ ] **A02-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A02-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A02-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A03 — obligatorio
+- [ ] **A03-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A03-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A03-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A04 — obligatorio
+- [ ] **A04-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A04-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A04-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A05 — obligatorio
+- [ ] **A05-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A05-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A05-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A05-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A06 — obligatorio
+- [ ] **A06-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A06-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A06-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A06-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A07 — obligatorio
+- [ ] **A07-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A07-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A07-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A07-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A08 — obligatorio
+- [ ] **A08-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A08-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A08-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A08-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A09 — obligatorio
+- [ ] **A09-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A09-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A09-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A09-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A10A — obligatorio
+- [ ] **A10A-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A10A-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A10A-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+
+### A10B — opt-in A10B no autorizado
+- [ ] **A10B-T4** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A10B-T5** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [ ] **A10B-T6** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
