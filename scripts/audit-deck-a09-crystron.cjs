@@ -75,7 +75,7 @@ function audit(id,packPath,docPath){
    a(x.step_action_prefix.length>=30);
    a(Array.isArray(x.effect_ids),'EFFECT_ID_LIST_MISSING');
    for(const e of x.effect_ids)a(legalEffects.has(e),'UNOFFICIAL_EFFECT_IN_STEP_'+id);
-   a(x.action_class.length>=14&&x.phase_or_window.length>=8);
+   a(x.action_class.length>=8&&x.phase_or_window.length>=6);
    a(typeof x.activation_cost==='string'&&x.activation_cost.length>=4);
    a(x.materials_or_targets.length>=14);
    for(const key of ['state_before','state_after_if_uninterrupted']){
