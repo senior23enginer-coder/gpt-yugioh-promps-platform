@@ -1,0 +1,713 @@
+{
+  "schema": "station-x-card-photo-provenance/1",
+  "deck_id": 677,
+  "format": "tcg_advanced",
+  "photo_count": 39,
+  "policy": "authentic YGOPRODeck English-language high-resolution images; no generated text, no inventory changes",
+  "original_spanish_assets": "recoverable from Git history before this commit",
+  "official_rules_text": "Konami Neuron sources in record.cards; card art language is English",
+  "images": [
+    {
+      "cid": 4861,
+      "display_name_es": "Juicio Solemne",
+      "source_name_en": "Solemn Judgment",
+      "konami_id": 4861,
+      "ygoprodeck_card_id": 41420027,
+      "url": "https://images.ygoprodeck.com/images/cards/41420027.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7bd7ea2abcc833b6d53f3c7c574f016be22ffa4867213953e81bdaafd42a64f6",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/4861.jpg",
+      "previous_sha256": "f584dafa60b72b671db74e43fa6f0692a3ad26388033f83de88b3c358f1f6e48",
+      "saved_sha256": "7bd7ea2abcc833b6d53f3c7c574f016be22ffa4867213953e81bdaafd42a64f6",
+      "saved_bytes": 134307
+    },
+    {
+      "cid": 5236,
+      "display_name_es": "Entierro Insensato",
+      "source_name_en": "Foolish Burial",
+      "konami_id": 5236,
+      "ygoprodeck_card_id": 81439173,
+      "url": "https://images.ygoprodeck.com/images/cards/81439173.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7036f6cf40ee431049688ef30d91e381af1d1c41a58eb221a04aef371cc3f499",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/5236.png",
+      "previous_sha256": "7cbac78ef86ff8b9dcab7e68170cead0b1eca0e8b1c0b1433d17841b699a4e13",
+      "saved_sha256": "5292170f530f254dd523883b8805c535eb76ebf765f190bb08d06b638fbbb379",
+      "saved_bytes": 972132
+    },
+    {
+      "cid": 7445,
+      "display_name_es": "Súper Polimerización",
+      "source_name_en": "Super Polymerization",
+      "konami_id": 7445,
+      "ygoprodeck_card_id": 48130397,
+      "url": "https://images.ygoprodeck.com/images/cards/48130397.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "627fb2ba81b9036cd3b389fbc5e10ad2dc82f0181f40339c34b142c1d0d54ab0",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/7445.jpg",
+      "previous_sha256": "26baf7ba3e2ae54c2e2fb6da464d3c772d0c2fe7a5454bccb050552f092b47c3",
+      "saved_sha256": "627fb2ba81b9036cd3b389fbc5e10ad2dc82f0181f40339c34b142c1d0d54ab0",
+      "saved_bytes": 138704
+    },
+    {
+      "cid": 9279,
+      "display_name_es": "El Bufón y el Pájaro del Candado",
+      "source_name_en": "Droll & Lock Bird",
+      "konami_id": 9279,
+      "ygoprodeck_card_id": 94145021,
+      "url": "https://images.ygoprodeck.com/images/cards/94145021.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "4c27e58f21d55d985be079bdd0730d6e082150e21f941d7456921f882a045576",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/9279.jpg",
+      "previous_sha256": "3483d25d7bef25210502a4a69132d2c4dfd791313054bde7a626b6e1126ecf14",
+      "saved_sha256": "4c27e58f21d55d985be079bdd0730d6e082150e21f941d7456921f882a045576",
+      "saved_bytes": 164415
+    },
+    {
+      "cid": 9454,
+      "display_name_es": "Cazadora del Caos",
+      "source_name_en": "Chaos Hunter",
+      "konami_id": 9454,
+      "ygoprodeck_card_id": 97940434,
+      "url": "https://images.ygoprodeck.com/images/cards/97940434.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "c45afabc47b1dec00dcaed69947f661f97103d07ac6df0f20cab329e9b986d48",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/9454.png",
+      "previous_sha256": "b22be402caf5f258114c7f288c1a096ea49bb69a72eb1c3222f4bededf41037f",
+      "saved_sha256": "48d6efdaa67d77c3bbd5d6e530d7294186a67c6004a0fe616809a092ed128c2b",
+      "saved_bytes": 1140264
+    },
+    {
+      "cid": 10870,
+      "display_name_es": "Ciber Dragón Nova",
+      "source_name_en": "Cyber Dragon Nova",
+      "konami_id": 10870,
+      "ygoprodeck_card_id": 58069384,
+      "url": "https://images.ygoprodeck.com/images/cards/58069384.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "0825c4a09a4713fd54f015f8c507efb7750e401b08f82abebef64df2f26a9327",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/10870.jpg",
+      "previous_sha256": "7db0e90015345ad403d2b08dd3ec2efab169680c5cff26a03fbbc0b118d6dcb4",
+      "saved_sha256": "0825c4a09a4713fd54f015f8c507efb7750e401b08f82abebef64df2f26a9327",
+      "saved_bytes": 191133
+    },
+    {
+      "cid": 11243,
+      "display_name_es": "Artefacto Lancea",
+      "source_name_en": "Artifact Lancea",
+      "konami_id": 11243,
+      "ygoprodeck_card_id": 34267821,
+      "url": "https://images.ygoprodeck.com/images/cards/34267821.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ef72b880cbbd3eef6c91c4395dcc2cfd621a5df59220a5a4a3b0108091205fd7",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11243.png",
+      "previous_sha256": "6b1b136f71f4ae116108aacd7df82eb4aa38bb894d51732a0dbac4e406fcb93d",
+      "saved_sha256": "9174587578e53ccfb9cf6feaa4864d73f1da7a5be7f0b02d93a40f95a3c3aea7",
+      "saved_bytes": 1322522
+    },
+    {
+      "cid": 11411,
+      "display_name_es": "Regaño Solemne",
+      "source_name_en": "Solemn Scolding",
+      "konami_id": 11411,
+      "ygoprodeck_card_id": 92512625,
+      "url": "https://images.ygoprodeck.com/images/cards/92512625.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "74d0212d770eb47344aacfcd221fef1c34f9b6435e9fbe80bb2cc1795632c15e",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11411.png",
+      "previous_sha256": "966a5642e888baac9c3bd2ead1edc5b10f590bb710bd7fa08f08cb0e427207af",
+      "saved_sha256": "356cbdfef2613f80dba8cb7c5794a8aede25b2d388b9cf84bd9a38dbf48df92c",
+      "saved_bytes": 1097023
+    },
+    {
+      "cid": 11765,
+      "display_name_es": "Ciber Dragón del Infinito",
+      "source_name_en": "Cyber Dragon Infinity",
+      "konami_id": 11765,
+      "ygoprodeck_card_id": 10443957,
+      "url": "https://images.ygoprodeck.com/images/cards/10443957.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ac0374c5fa1e39a7241185841c4f42a46b990bbdef565e4ec97ae17cc391f00a",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11765.jpg",
+      "previous_sha256": "75f718d00fab18e35ec18ccd571eaebca607d739fe8144d4fc43c847e403e454",
+      "saved_sha256": "ac0374c5fa1e39a7241185841c4f42a46b990bbdef565e4ec97ae17cc391f00a",
+      "saved_bytes": 192729
+    },
+    {
+      "cid": 11849,
+      "display_name_es": "Arresto Erróneo",
+      "source_name_en": "Mistaken Arrest",
+      "konami_id": 11849,
+      "ygoprodeck_card_id": 4227096,
+      "url": "https://images.ygoprodeck.com/images/cards/4227096.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "50df318eeb870fabe10c46349a889486fc341a3a1d03d6d22d5e04fb6943bbc5",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/11849.png",
+      "previous_sha256": "8719fab3ec43c361507b301b70b3c27455d5cc5fe718945ced1ced14bf582b53",
+      "saved_sha256": "33666f818036bb38ce0373bb25f5acbddd809b2fec7378559fcc8c6341dd5fa5",
+      "saved_bytes": 1104793
+    },
+    {
+      "cid": 12157,
+      "display_name_es": "Hagoita de Alta-Velociroid",
+      "source_name_en": "Hi-Speedroid Hagoita",
+      "konami_id": 12157,
+      "ygoprodeck_card_id": 21516908,
+      "url": "https://images.ygoprodeck.com/images/cards/21516908.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "60507eab275ecd20334d53d5042ac90598a311a6ac45010bdbd8e8e8aa0ef8b6",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12157.png",
+      "previous_sha256": "9960ceba05a1c6486f83656c51c6c89bcfda4b6fba75559e02c8a3bcf42388c0",
+      "saved_sha256": "c59edd4e2e99e120be694bb6aa45d2a8cae3a4402a4fb526b7f7e7ba5178e727",
+      "saved_bytes": 1162927
+    },
+    {
+      "cid": 12606,
+      "display_name_es": "Cristron Citree",
+      "source_name_en": "Crystron Citree",
+      "konami_id": 12606,
+      "ygoprodeck_card_id": 20050865,
+      "url": "https://images.ygoprodeck.com/images/cards/20050865.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "e5d788013e0bdd0d080f0b4f245fb2c2090b2b352847b1365afe289922a2df64",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12606.png",
+      "previous_sha256": "1df6736195bffbdb27e83c5cb623b8984a458a973bd263df70ff12563c388360",
+      "saved_sha256": "64d51e6423850b9143308782b674a089e162beb292622a9957ef75ebd7a098ed",
+      "saved_bytes": 1341034
+    },
+    {
+      "cid": 12608,
+      "display_name_es": "Cristron Smiger",
+      "source_name_en": "Crystron Smiger",
+      "konami_id": 12608,
+      "ygoprodeck_card_id": 83443619,
+      "url": "https://images.ygoprodeck.com/images/cards/83443619.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "8aac220b2611c4a2172ec1b70ca836525839ebb32e595a0df8f626e46469fa8e",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12608.png",
+      "previous_sha256": "192af050b20894f1acd529351fcce03e1fb6e51de71c907dbc26ee6ec2bacf66",
+      "saved_sha256": "24703f71372294c2df1425586c20dcf4b6f574e2e0ef3e1fa2d40d7decab54c3",
+      "saved_bytes": 1404087
+    },
+    {
+      "cid": 12609,
+      "display_name_es": "Cristron Thystvern",
+      "source_name_en": "Crystron Thystvern",
+      "konami_id": 12609,
+      "ygoprodeck_card_id": 29838323,
+      "url": "https://images.ygoprodeck.com/images/cards/29838323.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "c580b98517cf3f72bc41f88267aff9c4de7f697989bd8f376909c7c5e1553f05",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12609.png",
+      "previous_sha256": "4f5aa8d94b7c01098249b1bd950f49e0f3557aa279b5c259adc2a2fd1b609c08",
+      "saved_sha256": "708d0716d64fd01c896bb91b08ff0d34f9b64e3de23d4cc7967f41b5d9fcc114",
+      "saved_bytes": 1354072
+    },
+    {
+      "cid": 12756,
+      "display_name_es": "Cristron Azufafnir",
+      "source_name_en": "Crystron Sulfefnir",
+      "konami_id": 12756,
+      "ygoprodeck_card_id": 3422200,
+      "url": "https://images.ygoprodeck.com/images/cards/3422200.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "b82ca4b4831fd26d2dbb3efb766275b601bf0cfc8ec234cbfa2fd736c1af08d8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12756.png",
+      "previous_sha256": "fb122a23a4d313dfb0a44acb82b192a4d0081f05e6e05521e08c6fbdaa71d57b",
+      "saved_sha256": "3b65fe16613670b7501e01502b66696a3ccee6888efb94b778f024bb3bd41586",
+      "saved_bytes": 1444799
+    },
+    {
+      "cid": 12781,
+      "display_name_es": "Cristron Quariongandrax",
+      "source_name_en": "Crystron Quariongandrax",
+      "konami_id": 12781,
+      "ygoprodeck_card_id": 13455674,
+      "url": "https://images.ygoprodeck.com/images/cards/13455674.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "e7ea5399327aa746a935e83fbb7a0385249e90dd719cdf3904b24ee4df5441e9",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12781.png",
+      "previous_sha256": "86484c2ea5d50a7e906f97dd0202253e31f383a3dd33b553671f7fe8211b5bc1",
+      "saved_sha256": "c0ed7556a87f58fcc70e9bd01f86ae3acecdae8777434d839c4e37c748f2443d",
+      "saved_bytes": 1334734
+    },
+    {
+      "cid": 12950,
+      "display_name_es": "Flor de Ceniza & Primavera Feliz",
+      "source_name_en": "Ash Blossom & Joyous Spring",
+      "konami_id": 12950,
+      "ygoprodeck_card_id": 14558127,
+      "url": "https://images.ygoprodeck.com/images/cards/14558127.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "6aec2aa4b7a504f35671fe283d8ccebff26d74d0d455eb7e828267bd7ed14e7c",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/12950.jpg",
+      "previous_sha256": "b5a5fcd690df4111e871c86e36b2a84c521f4e9110ecf7e0fcd7107d12e730c1",
+      "saved_sha256": "6aec2aa4b7a504f35671fe283d8ccebff26d74d0d455eb7e828267bd7ed14e7c",
+      "saved_bytes": 160057
+    },
+    {
+      "cid": 13360,
+      "display_name_es": "Destructor Samurái",
+      "source_name_en": "Samurai Destroyer",
+      "konami_id": 13360,
+      "ygoprodeck_card_id": 40509732,
+      "url": "https://images.ygoprodeck.com/images/cards/40509732.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7dcf334a2e04f2ba5a3617c52bb72a3ed31d78f712e35c7a3b19018ca85a0660",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13360.png",
+      "previous_sha256": "daaae370b5aa611154ac8b86fcdc951e50a2ff46211dadcff4863e9b79611be4",
+      "saved_sha256": "8e2d5c9d29c9ae3e5463ec77e7fdc3614118e938324d2acd7fe35503cf2912e9",
+      "saved_bytes": 1130407
+    },
+    {
+      "cid": 13454,
+      "display_name_es": "Fangodragón del Pantano",
+      "source_name_en": "Mudragon of the Swamp",
+      "konami_id": 13454,
+      "ygoprodeck_card_id": 54757758,
+      "url": "https://images.ygoprodeck.com/images/cards/54757758.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "b3503af0df3e566e2e6d7ed34a29a82b9958eeb9bc5b032ae99235f0375ab037",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13454.jpg",
+      "previous_sha256": "606d1d1388ece0719369983c3d823f74991c4531699d2bccb58d894ff3d45551",
+      "saved_sha256": "b3503af0df3e566e2e6d7ed34a29a82b9958eeb9bc5b032ae99235f0375ab037",
+      "saved_bytes": 145369
+    },
+    {
+      "cid": 13619,
+      "display_name_es": "Llamado por la Tumba",
+      "source_name_en": "Called by the Grave",
+      "konami_id": 13619,
+      "ygoprodeck_card_id": 24224830,
+      "url": "https://images.ygoprodeck.com/images/cards/24224830.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d355b61d3c437a96167109fc163fcd3aa75c646c616353b04e22f67fede1f398",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13619.jpg",
+      "previous_sha256": "72071857ac307eb49042bc6533f0d9f66e8552e87aa0b1f8e18fe3190b828fc5",
+      "saved_sha256": "d355b61d3c437a96167109fc163fcd3aa75c646c616353b04e22f67fede1f398",
+      "saved_bytes": 139707
+    },
+    {
+      "cid": 13710,
+      "display_name_es": "F.A. Coche Trucado del Amanecer",
+      "source_name_en": "F.A. Dawn Dragster",
+      "konami_id": 13710,
+      "ygoprodeck_card_id": 33158448,
+      "url": "https://images.ygoprodeck.com/images/cards/33158448.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "f68060fe1ba293982068e76c01f820147cddebb17665f5b1288a42bba0fb3d47",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13710.jpg",
+      "previous_sha256": "cf9987d5116de9f8a05eb40465e6a0058cd54662f5faa79c026b1a4cd04ef6d8",
+      "saved_sha256": "f68060fe1ba293982068e76c01f820147cddebb17665f5b1288a42bba0fb3d47",
+      "saved_bytes": 174984
+    },
+    {
+      "cid": 13826,
+      "display_name_es": "Número 90: Señor Fotónico de Ojos Galácticos",
+      "source_name_en": "Number 90: Galaxy-Eyes Photon Lord",
+      "konami_id": 13826,
+      "ygoprodeck_card_id": 8165596,
+      "url": "https://images.ygoprodeck.com/images/cards/8165596.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "7b93f7ed0e46ee22d4cf93871f1d7f0af39c9f047fd90a5633b6742b5ae0d352",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/13826.png",
+      "previous_sha256": "9e607ab56cef1c3c4c83b2b1d1b533066f89e90568193c42399a9ae508e67126",
+      "saved_sha256": "a65e3bc05eb6c922e11bb1b0c70e8d5283eacff1d779965fa0d3ba6133543116",
+      "saved_bytes": 1348588
+    },
+    {
+      "cid": 15296,
+      "display_name_es": "Talento de Tácticas Triples",
+      "source_name_en": "Triple Tactics Talent",
+      "konami_id": 15296,
+      "ygoprodeck_card_id": 25311006,
+      "url": "https://images.ygoprodeck.com/images/cards/25311006.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "d64e5396e51d6686348c599416543b2dda692a729915573751bea2658bcd0995",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/15296.jpg",
+      "previous_sha256": "fcdd9d11ad7ce45ef41a781c80931be78da05adfde11e64a4b663e21e9495be0",
+      "saved_sha256": "d64e5396e51d6686348c599416543b2dda692a729915573751bea2658bcd0995",
+      "saved_bytes": 153622
+    },
+    {
+      "cid": 15299,
+      "display_name_es": "Gotas Prohibidas",
+      "source_name_en": "Forbidden Droplet",
+      "konami_id": 15299,
+      "ygoprodeck_card_id": 24299458,
+      "url": "https://images.ygoprodeck.com/images/cards/24299458.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "ba512804ad3f05865d0d98e8062397d865bac2d3385cb1f9f5eadc4fdbfb6009",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/15299.jpg",
+      "previous_sha256": "7b222de43d59c891d4a5b5648f27b0a07c02ad295a2d9bfae6f1d5431a417596",
+      "saved_sha256": "ba512804ad3f05865d0d98e8062397d865bac2d3385cb1f9f5eadc4fdbfb6009",
+      "saved_bytes": 169076
+    },
+    {
+      "cid": 16850,
+      "display_name_es": "El Vampiro Zombi",
+      "source_name_en": "The Zombie Vampire",
+      "konami_id": 16850,
+      "ygoprodeck_card_id": 73082255,
+      "url": "https://images.ygoprodeck.com/images/cards/73082255.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "5b1bcb306e970a36e4f341c6127d761ea158d5ef5d4c146c90f1898bcf91ea52",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16850.jpg",
+      "previous_sha256": "769ca816765d55a85fa4467e4e49f6759d1245cea7d99b4e34ad9429b83a2136",
+      "saved_sha256": "5b1bcb306e970a36e4f341c6127d761ea158d5ef5d4c146c90f1898bcf91ea52",
+      "saved_bytes": 202509
+    },
+    {
+      "cid": 16868,
+      "display_name_es": "Prohibida la Venta",
+      "source_name_en": "Sales Ban",
+      "konami_id": 16868,
+      "ygoprodeck_card_id": 64964750,
+      "url": "https://images.ygoprodeck.com/images/cards/64964750.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "5a56213635de18741606b5753284adef84457da9e2b364e4ada5e5a7c438593d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/16868.png",
+      "previous_sha256": "89c75d9a997b72a996e9ab3b2aa92edd57157220e5bae874b5ade52465add99f",
+      "saved_sha256": "9c1e6edbf4ae5ce951e437fa9c32a857b8419b810abddd26430f7ec405bab33e",
+      "saved_bytes": 1332003
+    },
+    {
+      "cid": 17746,
+      "display_name_es": "Garura, Alas de Vida Resonante",
+      "source_name_en": "Garura, Wings of Resonant Life",
+      "konami_id": 17746,
+      "ygoprodeck_card_id": 11765832,
+      "url": "https://images.ygoprodeck.com/images/cards/11765832.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "2945c0e7fe52531d9ffde0cfe342e9682ab38fcc4f1c9129fd8d6bac185a3ee8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/17746.jpg",
+      "previous_sha256": "572128ba03d57d989203edf75447b7acaa17685ae1a5889e7f0cd4ee39016c6c",
+      "saved_sha256": "2945c0e7fe52531d9ffde0cfe342e9682ab38fcc4f1c9129fd8d6bac185a3ee8",
+      "saved_bytes": 183804
+    },
+    {
+      "cid": 19153,
+      "display_name_es": "Amset, Gloria de Horus",
+      "source_name_en": "Imsety, Glory of Horus",
+      "konami_id": 19153,
+      "ygoprodeck_card_id": 84941194,
+      "url": "https://images.ygoprodeck.com/images/cards/84941194.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "c637e7ee28eb3e6aed93f0a2e052f119651a9869bfc5adf7a654774d71570e78",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19153.jpg",
+      "previous_sha256": "7810249257cdb7df805d621c4cf7efc0aee0edca3a6e95d3abedc512b7c00ad6",
+      "saved_sha256": "c637e7ee28eb3e6aed93f0a2e052f119651a9869bfc5adf7a654774d71570e78",
+      "saved_bytes": 205635
+    },
+    {
+      "cid": 19155,
+      "display_name_es": "Hapi, Guía de Horus",
+      "source_name_en": "Hapi, Guidance of Horus",
+      "konami_id": 19155,
+      "ygoprodeck_card_id": 47330808,
+      "url": "https://images.ygoprodeck.com/images/cards/47330808.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "829b9cfc6781a71607beac8cda218a64cfb51215f893e0b3a6865a638fe41cd7",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19155.jpg",
+      "previous_sha256": "601b9561eac11292d5be2715bf855c232f7d4fa288cc8e25165791bcdc31e5ea",
+      "saved_sha256": "829b9cfc6781a71607beac8cda218a64cfb51215f893e0b3a6865a638fe41cd7",
+      "saved_bytes": 195566
+    },
+    {
+      "cid": 19188,
+      "display_name_es": "S:P Pequeña Caballera",
+      "source_name_en": "S:P Little Knight",
+      "konami_id": 19188,
+      "ygoprodeck_card_id": 29301450,
+      "url": "https://images.ygoprodeck.com/images/cards/29301450.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "fac4ace8f67ec54c3ef34654a54e13b7fd379503b1c935523b98772916abeb1d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19188.jpg",
+      "previous_sha256": "76e18e0456a871784829d90d210c373480b5467145f6812163b68c146a0c6ef3",
+      "saved_sha256": "fac4ace8f67ec54c3ef34654a54e13b7fd379503b1c935523b98772916abeb1d",
+      "saved_bytes": 198773
+    },
+    {
+      "cid": 19200,
+      "display_name_es": "Sarcófago del Rey",
+      "source_name_en": "King's Sarcophagus",
+      "konami_id": 19200,
+      "ygoprodeck_card_id": 16528181,
+      "url": "https://images.ygoprodeck.com/images/cards/16528181.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "746646cd91529b6aaceb0c53711e531323e52a469fe3d7868a20950d1149909e",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/19200.jpg",
+      "previous_sha256": "3d1ecd7addf732e6223ebc06562abb968f34d3b0520d151c36528b825173dcbd",
+      "saved_sha256": "746646cd91529b6aaceb0c53711e531323e52a469fe3d7868a20950d1149909e",
+      "saved_bytes": 175029
+    },
+    {
+      "cid": 20206,
+      "display_name_es": "Purulia Multivadora",
+      "source_name_en": "Mulcharmy Purulia",
+      "konami_id": 20206,
+      "ygoprodeck_card_id": 84192580,
+      "url": "https://images.ygoprodeck.com/images/cards/84192580.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "34f5a4659153a273688b8946ee48a67f4e9d63a05b30e32b3d6174aaedb45cc4",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20206.jpg",
+      "previous_sha256": "8a354b768d8a1ebe3898d892fcf8da5f9720edb4b04dd42e99094585a49f3c92",
+      "saved_sha256": "34f5a4659153a273688b8946ee48a67f4e9d63a05b30e32b3d6174aaedb45cc4",
+      "saved_bytes": 180259
+    },
+    {
+      "cid": 20500,
+      "display_name_es": "Fuwalos Multivadora",
+      "source_name_en": "Mulcharmy Fuwalos",
+      "konami_id": 20500,
+      "ygoprodeck_card_id": 42141493,
+      "url": "https://images.ygoprodeck.com/images/cards/42141493.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "41eb9a5a3113cc8f338661d2d37e80e47c65a202b0687bc778eac8632e401ac8",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20500.jpg",
+      "previous_sha256": "49fe11e964cb15bf5d5350e71768a6685f55d6d6af7fade7c46da1ef62301b93",
+      "saved_sha256": "41eb9a5a3113cc8f338661d2d37e80e47c65a202b0687bc778eac8632e401ac8",
+      "saved_bytes": 182214
+    },
+    {
+      "cid": 20758,
+      "display_name_es": "Cristron Tristaros",
+      "source_name_en": "Crystron Tristaros",
+      "konami_id": 20758,
+      "ygoprodeck_card_id": 99471856,
+      "url": "https://images.ygoprodeck.com/images/cards/99471856.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "373df37b01f73fb75ae66e96eaa5bdd3ddb381abb268ac1b84ef7448e5164b0f",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20758.png",
+      "previous_sha256": "208d55a1e08259546e1e45a55848c0b47495cf7bab5543cb59649eb43cc3a70d",
+      "saved_sha256": "b8e96fa6a10bbc6e9dbafd9447d5d8e239c3ef3c380dce5ea952e1daced4882a",
+      "saved_bytes": 1493329
+    },
+    {
+      "cid": 20759,
+      "display_name_es": "Cristron Sulfador",
+      "source_name_en": "Crystron Sulfador",
+      "konami_id": 20759,
+      "ygoprodeck_card_id": 25865565,
+      "url": "https://images.ygoprodeck.com/images/cards/25865565.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "cddefd5ab5e78f66e388b6a94e736e8d3a3fe621a9de12ded40137f5f1172344",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20759.png",
+      "previous_sha256": "3bdeef7ab6db556b6c50cda19f6af54c1d5a20199ebf862bd8728634a815a763",
+      "saved_sha256": "c963628a46239a634b2edc1a7eb8df66a7264a38e7b16120e43f005b3e86ef94",
+      "saved_bytes": 1476966
+    },
+    {
+      "cid": 20778,
+      "display_name_es": "Cristron Elesqueletus",
+      "source_name_en": "Crystron Eleskeletus",
+      "konami_id": 20778,
+      "ygoprodeck_card_id": 47736165,
+      "url": "https://images.ygoprodeck.com/images/cards/47736165.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "a5986fb3473dcf2c3ee7f162e340ffd1b10ba528f73cf7c32857db8bf014780d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20778.png",
+      "previous_sha256": "9d7f31b551d8d832a9d88b4925a5690cb8647a0615a8176e89ab53829e919572",
+      "saved_sha256": "6d6ef712c22061604f1d79ff48a36d770ab3107415d3434ce687107024d7381c",
+      "saved_bytes": 1316715
+    },
+    {
+      "cid": 20787,
+      "display_name_es": "Caballero Mecánico",
+      "source_name_en": "Clockwork Knight",
+      "konami_id": 20787,
+      "ygoprodeck_card_id": 41739381,
+      "url": "https://images.ygoprodeck.com/images/cards/41739381.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "b19575722f2b60e7f7f5ebe270e0618adf0406305359a3de2995afe116fc11ae",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20787.jpg",
+      "previous_sha256": "cdc30ccdbae619eb040da543b251e84ebfaa08e92b6747be341bccd07511f665",
+      "saved_sha256": "b19575722f2b60e7f7f5ebe270e0618adf0406305359a3de2995afe116fc11ae",
+      "saved_bytes": 188242
+    },
+    {
+      "cid": 20798,
+      "display_name_es": "Inclusión Cristron",
+      "source_name_en": "Crystron Inclusion",
+      "konami_id": 20798,
+      "ygoprodeck_card_id": 31552317,
+      "url": "https://images.ygoprodeck.com/images/cards/31552317.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "52a4284171b113951055db729450c3ffc9e712716f0cc396bc623e671ae5fec1",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20798.png",
+      "previous_sha256": "4238f2188afbce4e1c4a4e3de79ef296cc293dcba644ccb1b65bf58cc0d40095",
+      "saved_sha256": "cea0dff304184e6ad9b4d0cfe181c57642d638edf6787ea21aa7e1d410d65a7b",
+      "saved_bytes": 1352833
+    },
+    {
+      "cid": 20817,
+      "display_name_es": "Agrupamiento Cristron",
+      "source_name_en": "Crystron Cluster",
+      "konami_id": 20817,
+      "ygoprodeck_card_id": 53829527,
+      "url": "https://images.ygoprodeck.com/images/cards/53829527.jpg",
+      "source_language": "en",
+      "dimensions": [
+        813,
+        1185
+      ],
+      "source_sha256": "39f7086303e254f67de21714e1a723f3f137e1ca73b828a06d1a0e32ee01703d",
+      "original_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/imagenes/20817.png",
+      "previous_sha256": "98be885932cdd849e5a9ec60cb91e5ec238c683f96a3120f1cfa0e17197b500f",
+      "saved_sha256": "6770a6a8ef53e9863f3f56a26967520ffb70b1d2d7fc9d057ae1d2d0ca72c22f",
+      "saved_bytes": 1492902
+    }
+  ]
+}

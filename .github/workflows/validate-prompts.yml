@@ -30,6 +30,21 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
       - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a01-profile.cjs'
+      - 'scripts/audit-deck-a02-identity.cjs'
+      - 'scripts/audit-deck-a03-inventory.cjs'
+      - 'scripts/audit-deck-a05-profiles.cjs'
+      - 'scripts/audit-deck-a05-registry.cjs'
+      - 'scripts/audit-deck-a06-crystron.cjs'
+      - 'scripts/audit-deck-a07-crystron.cjs'
+      - 'scripts/audit-deck-a08-crystron.cjs'
+      - 'scripts/audit-deck-a09-crystron.cjs'
+      - 'scripts/audit-deck-a10a-crystron.cjs'
+      - 'scripts/test-deck-a10a-crystron-browser.cjs'
+      - 'scripts/test-deck-a10a-crystron-import-ui.cjs'
+      - 'scripts/test-deck-a10a-crystron-roundtrip.php'
+      - 'scripts/audit-deck-a04-photo-integrity.cjs'
+      - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -71,6 +86,21 @@ on:
       - 'scripts/audit-deck-a07-typed-rules.cjs'
       - 'scripts/audit-deck-a05-semantic-psct.cjs'
       - 'scripts/audit-deck-a05-paper-evidence.cjs'
+      - 'scripts/audit-deck-a01-profile.cjs'
+      - 'scripts/audit-deck-a02-identity.cjs'
+      - 'scripts/audit-deck-a03-inventory.cjs'
+      - 'scripts/audit-deck-a05-profiles.cjs'
+      - 'scripts/audit-deck-a05-registry.cjs'
+      - 'scripts/audit-deck-a06-crystron.cjs'
+      - 'scripts/audit-deck-a07-crystron.cjs'
+      - 'scripts/audit-deck-a08-crystron.cjs'
+      - 'scripts/audit-deck-a09-crystron.cjs'
+      - 'scripts/audit-deck-a10a-crystron.cjs'
+      - 'scripts/test-deck-a10a-crystron-browser.cjs'
+      - 'scripts/test-deck-a10a-crystron-import-ui.cjs'
+      - 'scripts/test-deck-a10a-crystron-roundtrip.php'
+      - 'scripts/audit-deck-a04-photo-integrity.cjs'
+      - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
       - 'scripts/audit-deck-a07-format-legality.cjs'
       - 'scripts/audit-deck-a07-state-matrix.cjs'
@@ -110,6 +140,9 @@ jobs:
         run: node scripts/test-p06-golden-route-contract.cjs
       - name: Audit 40 protected legacy assertions and recorded source provenance
         run: node scripts/test-p06-legacy-assertion-inventory.cjs
+      - name: Certify assigned Crystron A01 identity, native profile and actual CID/route links
+        if: ${{ github.head_ref == 'analysis/crystron-677-a01-20261122' }}
+        run: node scripts/audit-deck-a01-profile.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Audit real image dimensions for explicitly assigned Memento 671
         if: ${{ github.head_ref == 'analysis/memento-671-a01-a10a-20261121' }}
         run: node scripts/audit-deck-images.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json
@@ -172,6 +205,82 @@ jobs:
         run: node scripts/audit-deck-a10a-visual-parity.cjs --deck-id=671 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO/guias/GUIA_VISUAL_A01_A10.html
       - name: Verify 36 protected prompts and A01-A10 import contracts
         run: node scripts/test-a01-a10-presentation.cjs
+
+  crystron-a02-native-preflight:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/crystron-677-a01-20261122'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read the original V40 Crystron and native Station X importer without modifying Platform
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify assigned Crystron identity, stable native slots and historical provenance
+        run: node scripts/audit-deck-a02-identity.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json
+      - name: Audit user-approved Crystron A03 card identities, forty native slots and fixed V40 inventory
+        run: node scripts/audit-deck-a03-inventory.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json
+      - name: Audit Crystron A04 authentic HD photos, 39 CIDs, 151 step photos and zones
+        run: node scripts/audit-deck-a04-photo-integrity.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Verify Crystron A05 physical profiles sources and exact cards
+        run: node scripts/audit-deck-a05-profiles.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit 92 Crystron PSCT clauses, high-risk semantic guards and 184 conditional paper IDs
+        run: node scripts/audit-deck-a05-registry.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Verify Crystron A07 92 typed official effects and 644 conditional paper scenarios
+        run: node scripts/audit-deck-a07-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit Crystron A08 26 decisions, 52 cases, 6 Side plans and TCG Advanced F&L
+        run: node scripts/audit-deck-a08-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit Crystron A09 14 routes, 60 steps, 28 cases and 15 endboards without engine replay
+        run: node scripts/audit-deck-a09-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit Crystron A10A 14 routes, 60 steps, CID images and 15 endboards
+        run: node scripts/audit-deck-a10a-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/guias/GUIA_VISUAL_A01_A10.html
+      - name: Verify user-assigned Crystron A06 causal links, 21 relationships and 42 paper scenarios
+        run: node scripts/audit-deck-a06-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Prepare PHP for isolated ZIP validation
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: zip, mbstring
+          coverage: none
+      - name: Lint native Crystron preflight
+        run: php -l scripts/test-deck-a02-crystron-preflight.php
+      - name: Validate Crystron ZIP against native importer and reject thirteen incompatible inputs
+        run: php scripts/test-deck-a02-crystron-preflight.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json
+      - name: Lint native Crystron A10A isolated roundtrip
+        run: php -l scripts/test-deck-a10a-crystron-roundtrip.php
+      - name: Import ZIP prepare publish reload isolated Crystron 677; preserve live production
+        run: php scripts/test-deck-a10a-crystron-roundtrip.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json
+
+
+  crystron-a10a-browser:
+    if: github.event_name == 'pull_request' && github.head_ref == 'analysis/crystron-677-a01-20261122'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Checkout actual Station X frontend source for isolated import UI browser test
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - name: Install isolated Chromium browser test dependency
+        run: npm install --no-save --no-package-lock playwright@1.46.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Test actual Crystron A10A visual guide, real card photos and nav in mobile and desktop
+        run: node scripts/test-deck-a10a-crystron-browser.cjs 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS
+      - name: Test Station X real frontend import UI against isolated mocked HTTP in mobile and desktop
+        run: node scripts/test-deck-a10a-crystron-import-ui.cjs
 
   memento-a10a-browser:
     if: github.event_name == 'pull_request' && github.head_ref == 'analysis/memento-671-a01-a10a-20261121'
