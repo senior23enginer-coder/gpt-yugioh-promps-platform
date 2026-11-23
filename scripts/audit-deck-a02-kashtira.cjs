@@ -66,6 +66,7 @@ function run(packagePath,documentPath,historyPath){
  delete normalized.a06_review;
  delete normalized.a07_review;
  delete normalized.a08_review;
+ delete normalized.a09_review;
  A.deepEqual(normalized,h,'RECORD_SOURCE_DRIFT_OUTSIDE_A01_PROFILE_AND_IMAGE_REFERENCES');
  A.equal(sourceImages.size,38,'CID_ART_NOT_GROUNDED');
  for(const c of pkg.record.cards){
