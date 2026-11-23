@@ -48,7 +48,7 @@ function run(historyFile,documentFile){
   const marker='- **'+label+':** ';
   const line=second.split('\n').find(x=>x.startsWith(marker));
   A(line,'MISSING_PROFILE_'+label);profile[label]=line.slice(marker.length);
-  A(profile[label].length>=15,'EMPTY_PROFILE_'+label);
+  A(profile[label].length>=(label==='Arquetipo'?3:15),'EMPTY_PROFILE_'+label);
  }
  A.equal(profile.Arquetipo,'Kashtira');
  A(profile['Tipo de estrategia'].includes('Rango 7'));

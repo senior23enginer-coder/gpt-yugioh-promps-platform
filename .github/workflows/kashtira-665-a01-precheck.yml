@@ -1,4 +1,4 @@
-name: Kashtira 665 A01 admission precheck (read-only)
+name: Kashtira 665 A01 user-authorized profile certification
 on:
   push:
     branches:
@@ -8,6 +8,9 @@ on:
       - base
     paths:
       - 'scripts/test-kashtira-665-a01-precheck.cjs'
+      - 'scripts/audit-deck-a01-kashtira.cjs'
+      - 'scripts/analysis-eligibility.cjs'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'
       - '03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'
       - '.github/workflows/kashtira-665-a01-precheck.yml'
 permissions:
@@ -28,5 +31,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Assert A01 gate blocked only by unfilled Side, ignoring banlist and keeping reserve intact
+      - name: Verify default gate and explicit A01-only empty-Side exception
         run: node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Certify Kashtira 665 A01-T1/T2/T3 with official CID and historical route references
+        run: node scripts/audit-deck-a01-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md
