@@ -74,8 +74,8 @@ function run(packagePath,documentPath,historyPath){
  const all=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
  const contract=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8')).stages.filter(x=>x.mandatory).flatMap(x=>x.tasks.map(t=>t.task_id));
  A.deepEqual(all.map(x=>x[2]),contract);A.equal(all.length,35);
- A.deepEqual(all.filter(x=>x[1]==='x').map(x=>x[2]),['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3','A03-T1','A03-T2','A03-T3','A04-T1','A04-T2','A04-T3','A05-T1','A05-T2','A05-T3','A05-T4']);
- A(ledger.includes('16/35')&&ledger.includes('19/35'),'CHECKLIST_COUNTS_WRONG');
+ A.deepEqual(all.filter(x=>x[1]==='x').map(x=>x[2]).slice(0,16),['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3','A03-T1','A03-T2','A03-T3','A04-T1','A04-T2','A04-T3','A05-T1','A05-T2','A05-T3','A05-T4']);
+ A(ledger.includes('20/35')&&ledger.includes('15/35'),'CHECKLIST_COUNTS_WRONG');
  A(doc.includes('### A02.4 — identidad técnica, procedencia'),'A02_EVIDENCE_MISSING');
  A(doc.includes('SHA de blob real')||doc.includes('SHA del Git blob')||doc.includes('objeto Git'),'MISSING_VERSIONING');
  A(!doc.includes('A02-T4 [x]'),'EXTRANEOUS_TASK');

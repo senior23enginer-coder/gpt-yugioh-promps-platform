@@ -18823,7 +18823,7 @@
       "Cómo se juega": "**Primero.** Comienza valorando si controlas monstruos: Fenrir y Unicornio pueden Invocarse de modo especial desde la mano por su propio procedimiento solo cuando no controlas ninguno. Si Wraitsoth está disponible, su activación puede buscar un monstruo Kashtira. Con Unicornio activo, busca Teosis durante Main Phase; Teosis necesita seleccionar un Kashtira propio y traer desde Deck otro con Atributo diferente en Defensa. La meta documentada de Wraitsoth → Unicornio → Teosis → Fenrir es Xyz Shangri-Ira con dos materiales; no promete bloquear zonas al invocarlo.\n\n**Elección de campo final.** Si el plan exige presión diferida, Shangri-Ira puede Invocar un Kashtira del Deck en Standby. Bloquea una zona sin uso solo tras el destierro boca abajo de una carta que pertenezca y posea el rival, con Shangri-Ira boca arriba. Riseheart puede desterrar un Kashtira del Deck, desterrar tres cartas superiores rivales y pasar a Nivel 7 si se cumple su condición; al Invocarlo de forma especial desde la mano restringe el Extra a Xyz. Arise-Heart usa tres Nivel 7 o su procedimiento alternativo después de que un efecto de Shangri-Ira se haya activado con éxito ese turno. Para su Efecto Rápido de destierro debe desacoplar tres materiales reales. No se cuentan materiales Xyz simultáneamente como cuerpos libres.\n\n**Segundo.** Si el rival presenta una amenaza, Fenrir puede desterrar boca abajo una carta boca arriba rival al declarar ataque o en respuesta a una activación de efecto de monstruo rival; esto no niega esa activación. Con dos Nivel 7 y un monstruo enemigo elegible, Número 11: Ojo Grande ofrece control del monstruo seleccionado, a cambio de un material y de no poder atacar él mismo ese turno. Dark Armed puede retirar una carta concreta por su efecto documentado; no debe recomendarse como limpieza de campo universal. Si un Xyz realmente ha batallado y la línea lo admite, ZEUS es una continuación posible, no un resultado automático.\n\n**Medio y tardío.** Nacimiento permite Invocar Normal un Nivel 7 sin Sacrificio y puede recuperar un Kashtira no Xyz desde Cementerio o destierro durante tu Main Phase. Si Big Bang es desterrada y hay un Kashtira acoplado a un Xyz propio, puede recuperarlo a mano y luego Invocarlo. Es importante comprobar dónde está cada copia: un monstruo debajo de un Xyz no está simultáneamente en el Cementerio, la mano ni como cuerpo libre. No declarar recuperación si el destino u objetivo no existe.\n\n**Gestión y riesgos.** Respeta el uso por turno de los buscadores y el orden de la primera Invocación cuando el Campo está vacío. Teosis y Riseheart pueden limitar el Extra a Xyz; usar antes una opción Link/Sincronía puede ser incompatible según el orden. Pot of Prosperity consume cartas del Extra y reduce rutas alternativas. No inferir cartas de la mano, objetivos del rival, daño, bloqueos ni resultados de una respuesta. Las cartas de Reserva (19) no están disponibles automáticamente en un duelo: Side continúa en cero por decisión de conservar el inventario.\n\n**Condición de victoria realista.** Este mazo pretende privar al adversario de recursos y de líneas útiles mediante destierros con disparadores válidos, presión progresiva de Shangri-Ira y Arise-Heart, y ataques cuando el tablero lo permita; puede elegir una salida de retirada con Big Eye, Dark Armed o ZEUS según la situación. Ninguna pieza asegura la victoria por sí sola y los 16 ID A09 heredados son rutas documentales, no replays del motor.",
       "Cartas representativas": "Wraitsoth, Fenrir, Unicornio, Teosis, Riseheart, Shangri-Ira, Arise-Heart.",
       "Qué vigilar": "Fenrir y Unicornio se Invocan libremente solo con Campo propio vacío; Teosis y Riseheart restringen el Extra a Xyz; Shangri-Ira necesita destierro boca abajo real para bloquear zonas; Arise-Heart requiere materiales y ventana legal.",
-      "Estilo breve": "Kashtira enlaza buscadores y monstruos de Nivel 7 para desplegar Xyz que destierran amenazas, presionan recursos y condicionan las zonas rivales.",
+      "Estilo breve": "Wraitsoth/Fenrir/Unicornio buscan Kash; Teosis/Birth habilitan recursos Nivel 7 y Shangri-Ira/Arise-Heart presionan si hay disparadores, materiales y ventanas legales.",
       "Resumen para ficha": "Con Wraitsoth, Unicornio o Fenrir accede a Teosis y Nacimiento, reúne dos Nivel 7 para Shangri-Ira y elige entre presión por destierro, Arise-Heart o retirada situacional según materiales y ventanas."
     },
     "summary": [
@@ -18866,7 +18866,12 @@
           }
         ],
         "result": "Fenrir puede buscar otro monstruo Kashtira como Unicornio en Main Phase; no presupone que el buscado pueda Invocarse por procedimiento propio con Fenrir en campo.",
-        "requirements": "DIRECTA"
+        "requirements": "DIRECTA",
+        "relation_id": "A06:REL:016",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Fenrir negado, Unicornio ausente"
       },
       {
         "title": "Kashtira Unicorn → Kashtiratheosis",
@@ -18881,7 +18886,12 @@
           }
         ],
         "result": "Unicornio añade una Mágica Kashtira, por ejemplo Theosis, si el efecto resuelve.",
-        "requirements": "DIRECTA"
+        "requirements": "DIRECTA",
+        "relation_id": "A06:REL:017",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Unicornio negado o Teosis agotada"
       },
       {
         "title": "Kashtira Birth → Kashtira Unicorn",
@@ -18896,7 +18906,12 @@
           }
         ],
         "result": "Birth permite Normal Summon de un Nivel7 sin Tributos, posibilitando Unicornio aunque ya controles Fenrir.",
-        "requirements": "DIRECTA"
+        "requirements": "DIRECTA",
+        "relation_id": "A06:REL:018",
+        "motor_id": "665:A06:M2",
+        "accion": "HABILITA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Birth ausente o Normal ya gastada"
       },
       {
         "title": "Kashtira Riseheart → Kashtira Shangri-Ira [Xyz rango 7]",
@@ -18911,7 +18926,12 @@
           }
         ],
         "result": "Riseheart puede pasar a Nivel7 tras su efecto pero bloquea Extra salvo Xyz; Shangri-Ira exige realmente dos Nivel7.",
-        "requirements": "CONDICIONADA"
+        "requirements": "CONDICIONADA",
+        "relation_id": "A06:REL:019",
+        "motor_id": "665:A06:M2",
+        "accion": "MATERIAL",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Riseheart sigue Nivel 4 o falta material"
       },
       {
         "title": "Kashtira Fenrir → Number 11: Big Eye [Xyz rango 7]",
@@ -18926,7 +18946,12 @@
           }
         ],
         "result": "Fenrir cuenta como un Nivel7 material de Big Eye, pero debe haber un SEGUNDO Nivel7 propio y objetivo rival para la toma.",
-        "requirements": "CONDICIONADA"
+        "requirements": "CONDICIONADA",
+        "relation_id": "A06:REL:020",
+        "motor_id": "665:A06:M4",
+        "accion": "MATERIAL",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Solo Fenrir no crea Big Eye"
       },
       {
         "title": "Pressured Planet Wraitsoth → Kashtira Ogre",
@@ -18941,7 +18966,12 @@
           }
         ],
         "result": "Wraitsoth al activarse busca Ogre, que busca una TRAMPA Kashtira, nunca otro monstruo por su propio efecto.",
-        "requirements": "DIRECTA"
+        "requirements": "DIRECTA",
+        "relation_id": "A06:REL:052",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Ogro ausente o Wraitsoth negada"
       },
       {
         "title": "Kashtira Ogre → Kashtira Preparations",
@@ -18956,7 +18986,12 @@
           }
         ],
         "result": "Ogre busca Kashtira Preparations del Deck por ser Trampa Kashtira; no equivale a negar efectos enemigos.",
-        "requirements": "DIRECTA"
+        "requirements": "DIRECTA",
+        "relation_id": "A06:REL:053",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Ogro negado o Preparations ausente"
       },
       {
         "title": "Kashtira Shangri-Ira [Xyz rango 7] → Kashtira Arise-Heart [Xyz rango 7]",
@@ -18971,7 +19006,12 @@
           }
         ],
         "result": "Arise-Heart puede superponerse sobre un monstruo Kashtira propio solo tras activarse el efecto de Shangri-Ira ese turno; no basta controlar la carta sin activar.",
-        "requirements": "ASCENSO XYZ CONDICIONAL"
+        "requirements": "ASCENSO XYZ CONDICIONAL",
+        "relation_id": "A06:REL:132",
+        "motor_id": "665:A06:M3",
+        "accion": "CONVIERTE",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Controlar Shangri sin activación no basta"
       },
       {
         "title": "Kashtira Shangri-Ira [Xyz rango 7] → Kashtira Big Bang",
@@ -18986,7 +19026,12 @@
           }
         ],
         "result": "Shangri-Ira es un Xyz Kashtira que satisface requisito de Big Bang; Big Bang afectará también al propio controlador si tiene dos o más monstruos.",
-        "requirements": "CONDICION DE TRAMPA"
+        "requirements": "CONDICION DE TRAMPA",
+        "relation_id": "A06:REL:133",
+        "motor_id": "665:A06:M3",
+        "accion": "HABILITA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Sin Xyz Kash o cantidad necesaria"
       },
       {
         "title": "Kashtira Arise-Heart [Xyz rango 7] → Kashtira Big Bang",
@@ -19001,7 +19046,12 @@
           }
         ],
         "result": "Arise-Heart es Xyz Kashtira que habilita Big Bang; el destierro simétrico debe calcularse en ambos campos.",
-        "requirements": "CONDICION DE TRAMPA"
+        "requirements": "CONDICION DE TRAMPA",
+        "relation_id": "A06:REL:134",
+        "motor_id": "665:A06:M3",
+        "accion": "HABILITA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "No existe Xyz Kash o condición de monstruos"
       },
       {
         "title": "Kashtira Preparations → Kashtira Unicorn",
@@ -19016,7 +19066,12 @@
           }
         ],
         "result": "Preparaciones puede Invocar Unicorn Kashtira desde mano o destierro durante cualquiera de los turnos, si existe recurso elegible.",
-        "requirements": "INVOCACION CONDICIONAL"
+        "requirements": "INVOCACION CONDICIONAL",
+        "relation_id": "A06:REL:135",
+        "motor_id": "665:A06:M3",
+        "accion": "INVOCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Unicornio como material Xyz o en Deck"
       },
       {
         "title": "Kashtira Preparations → Scareclaw Kashtira",
@@ -19031,7 +19086,12 @@
           }
         ],
         "result": "Preparaciones puede recuperar Scareclaw Kashtira desterrado o Invocarlo desde mano, respetando restricciones reales.",
-        "requirements": "INVOCACION CONDICIONAL"
+        "requirements": "INVOCACION CONDICIONAL",
+        "relation_id": "A06:REL:136",
+        "motor_id": "665:A06:M3",
+        "accion": "INVOCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Scareclaw en Deck no es objetivo válido"
       },
       {
         "title": "Kashtira Riseheart → Kashtira Big Bang",
@@ -19046,7 +19106,12 @@
           }
         ],
         "result": "Si Riseheart destierra Big Bang desde Deck por efecto, Big Bang puede recuperar un Kashtira acoplado a Xyz propio a mano y eventualmente Invocarlo.",
-        "requirements": "DESTIERRO DISPARADOR"
+        "requirements": "DESTIERRO DISPARADOR",
+        "relation_id": "A06:REL:137",
+        "motor_id": "665:A06:M3",
+        "accion": "RECUPERA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Ningún material Kash acoplado"
       },
       {
         "title": "Kashtira Arise-Heart [Xyz rango 7] → Kashtira Shangri-Ira [Xyz rango 7]",
@@ -19061,7 +19126,152 @@
           }
         ],
         "result": "Arise-Heart puede desterrar una carta rival boca abajo; si se trata de carta propiedad rival y Shangri-Ira está boca arriba, se activa la condición de bloqueo de zona.",
-        "requirements": "DESTIERRO BOCABAJO"
+        "requirements": "DESTIERRO BOCABAJO",
+        "relation_id": "A06:REL:138",
+        "motor_id": "665:A06:M3",
+        "accion": "RESTRINGE",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Destierro boca arriba o carta propia"
+      },
+      {
+        "title": "Pressured Planet Wraitsoth → Kashtira Unicorn",
+        "photos": [
+          {
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg"
+          },
+          {
+            "name": "Kashtira Unicorn",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg"
+          }
+        ],
+        "result": "Wraitsoth busca Unicornio del Deck a mano",
+        "requirements": "Wraitsoth resuelve con Unicornio en Deck",
+        "relation_id": "A06:REL:201",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Unicornio ausente de Deck"
+      },
+      {
+        "title": "Pressured Planet Wraitsoth → Kashtira Fenrir",
+        "photos": [
+          {
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg"
+          },
+          {
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg"
+          }
+        ],
+        "result": "Wraitsoth puede buscar Fenrir sin Invocarlo",
+        "requirements": "Wraitsoth resuelve con Fenrir en Deck",
+        "relation_id": "A06:REL:202",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Fenrir buscado no se Invoca con campo ocupado"
+      },
+      {
+        "title": "Kashtiratheosis → Kashtira Fenrir",
+        "photos": [
+          {
+            "name": "Kashtiratheosis",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg"
+          },
+          {
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg"
+          }
+        ],
+        "result": "Teosis Invoca Fenrir en Defensa desde Deck bajo requisito de Atributo",
+        "requirements": "Kashtira propio y Fenrir de Atributo distinto en Deck",
+        "relation_id": "A06:REL:203",
+        "motor_id": "665:A06:M1",
+        "accion": "INVOCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Mismo Atributo o destino no está en Deck"
+      },
+      {
+        "title": "Terraforming → Pressured Planet Wraitsoth",
+        "photos": [
+          {
+            "name": "Terraforming",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/5537.jpg"
+          },
+          {
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg"
+          }
+        ],
+        "result": "Terraforming busca la Mágica de Campo Wraitsoth",
+        "requirements": "Terraforming se resuelve y Wraitsoth está en Deck",
+        "relation_id": "A06:REL:204",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Wraitsoth no está en Deck"
+      },
+      {
+        "title": "Kashtira Birth → Kashtira Fenrir",
+        "photos": [
+          {
+            "name": "Kashtira Birth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg"
+          },
+          {
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg"
+          }
+        ],
+        "result": "Birth recupera Fenrir no Xyz desde GY o destierro",
+        "requirements": "Birth en campo y Fenrir no Xyz en GY/destierro",
+        "relation_id": "A06:REL:205",
+        "motor_id": "665:A06:M2",
+        "accion": "RECUPERA",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "Fenrir bajo Xyz no es objetivo recuperable"
+      },
+      {
+        "title": "Number 11: Big Eye [Xyz rango 7] → Divine Arsenal AA-ZEUS – Sky Thunder [Xyz]",
+        "photos": [
+          {
+            "name": "Number 11: Big Eye [Xyz rango 7]",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg"
+          },
+          {
+            "name": "Divine Arsenal AA-ZEUS – Sky Thunder [Xyz]",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15524.jpg"
+          }
+        ],
+        "result": "ZEUS puede superponerse tras batalla de un Xyz",
+        "requirements": "Un Xyz ha batallado, Big Eye propio y ZEUS en Extra",
+        "relation_id": "A06:REL:206",
+        "motor_id": "665:A06:M4",
+        "accion": "CONVIERTE",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "fallo": "No hubo batalla Xyz o salida impedida"
+      },
+      {
+        "title": "Kashtira Birth → Kashtira Riseheart",
+        "photos": [
+          {
+            "name": "Kashtira Birth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg"
+          },
+          {
+            "name": "Kashtira Riseheart",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg"
+          }
+        ],
+        "result": "Incompatibilidad: Birth no transforma Riseheart original en Nivel 7",
+        "requirements": "Riseheart antes de su efecto es Nivel 4",
+        "relation_id": "A06:REL:207",
+        "motor_id": "665:A06:M2",
+        "accion": "RESTRINGE",
+        "estado": "INCOMPATIBLE_ACTUAL",
+        "fallo": "Birth NO otorga Normal sin Tributos a Riseheart Nivel 4"
       }
     ],
     "routes": [
@@ -25268,7 +25478,7 @@
           "cid": 17769,
           "nombre": "Kashtira Unicorn",
           "zona": "Main",
-          "copias": 3
+          "copias": 2
         },
         "clase": "DIRECTA",
         "interaccion": "Fenrir puede buscar otro monstruo Kashtira como Unicornio en Main Phase; no presupone que el buscado pueda Invocarse por procedimiento propio con Fenrir en campo.",
@@ -25311,7 +25521,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "BUSCA",
+        "effect_id": "665:a05:17768:search-monster",
+        "condicion": "Fenrir en Main Phase y Unicornio en Deck",
+        "fallo": "Fenrir negado, Unicornio ausente",
+        "motor_id": "665:A06:M1",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:017",
@@ -25320,7 +25536,7 @@
           "cid": 17769,
           "nombre": "Kashtira Unicorn",
           "zona": "Main",
-          "copias": 3
+          "copias": 2
         },
         "destino": {
           "cid": 18203,
@@ -25369,7 +25585,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "BUSCA",
+        "effect_id": "665:a05:17769:search-spell",
+        "condicion": "Unicornio en Main Phase y Teosis en Deck",
+        "fallo": "Unicornio negado o Teosis agotada",
+        "motor_id": "665:A06:M1",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:018",
@@ -25384,7 +25606,7 @@
           "cid": 17769,
           "nombre": "Kashtira Unicorn",
           "zona": "Main",
-          "copias": 3
+          "copias": 2
         },
         "clase": "DIRECTA",
         "interaccion": "Birth permite Normal Summon de un Nivel7 sin Tributos, posibilitando Unicornio aunque ya controles Fenrir.",
@@ -25427,7 +25649,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "HABILITA",
+        "effect_id": "665:a05:17815:level7-normal-no-tribute",
+        "condicion": "Birth activa y Normal disponible, Unicornio Nivel 7",
+        "fallo": "Birth ausente o Normal ya gastada",
+        "motor_id": "665:A06:M2",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:019",
@@ -25480,7 +25708,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "MATERIAL",
+        "effect_id": "665:a05:18151:banish-topthree-level7",
+        "condicion": "Riseheart alcanzó Nivel 7 y hay segundo Nivel 7 propio",
+        "fallo": "Riseheart sigue Nivel 4 o falta material",
+        "motor_id": "665:A06:M2",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:020",
@@ -25533,7 +25767,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "MATERIAL",
+        "effect_id": "665:a05:9861:big-eye-xyz",
+        "condicion": "Fenrir y otro Nivel 7 propios a la vez",
+        "fallo": "Solo Fenrir no crea Big Eye",
+        "motor_id": "665:A06:M4",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:052",
@@ -25586,7 +25826,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "BUSCA",
+        "effect_id": "665:a05:18204:activation-search",
+        "condicion": "Wraitsoth activada y Ogro en Deck",
+        "fallo": "Ogro ausente o Wraitsoth negada",
+        "motor_id": "665:A06:M1",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:053",
@@ -25639,7 +25885,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "BUSCA",
+        "effect_id": "665:a05:17770:search-trap",
+        "condicion": "Ogro en campo y Preparations en Deck",
+        "fallo": "Ogro negado o Preparations ausente",
+        "motor_id": "665:A06:M1",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:132",
@@ -25692,7 +25944,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "CONVIERTE",
+        "effect_id": "665:a05:18191:arise-xyz-alternative",
+        "condicion": "Efecto Shangri-Ira activado este turno, Kash propio",
+        "fallo": "Controlar Shangri sin activación no basta",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:133",
@@ -25745,7 +26003,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "HABILITA",
+        "effect_id": "665:a05:18220:bigbang-board-banish",
+        "condicion": "Shangri Xyz Kash presente; Big Bang con conteo válido",
+        "fallo": "Sin Xyz Kash o cantidad necesaria",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:134",
@@ -25798,7 +26062,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "HABILITA",
+        "effect_id": "665:a05:18220:bigbang-board-banish",
+        "condicion": "Arise Xyz Kash presente y Big Bang válido",
+        "fallo": "No existe Xyz Kash o condición de monstruos",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:135",
@@ -25813,7 +26083,7 @@
           "cid": 17769,
           "nombre": "Kashtira Unicorn",
           "zona": "Main",
-          "copias": 3
+          "copias": 2
         },
         "clase": "INVOCACION_CONDICIONAL",
         "interaccion": "Preparaciones puede Invocar Unicorn Kashtira desde mano o destierro durante cualquiera de los turnos, si existe recurso elegible.",
@@ -25856,7 +26126,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "INVOCA",
+        "effect_id": "665:a05:17831:preparations-recover-kashtira",
+        "condicion": "Unicornio en mano o desterrado y Preparations",
+        "fallo": "Unicornio como material Xyz o en Deck",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:136",
@@ -25909,7 +26185,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "INVOCA",
+        "effect_id": "665:a05:17831:preparations-recover-kashtira",
+        "condicion": "Scareclaw Kash en mano o desterrado y Preparations",
+        "fallo": "Scareclaw en Deck no es objetivo válido",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:137",
@@ -25962,7 +26244,13 @@
               }
             ]
           }
-        ]
+        ],
+        "accion": "RECUPERA",
+        "effect_id": "665:a05:18220:bigbang-banished-material-return",
+        "condicion": "Big Bang desterrada y material Kash bajo Xyz propio",
+        "fallo": "Ningún material Kash acoplado",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
       },
       {
         "id": "A06:REL:138",
@@ -26012,6 +26300,423 @@
                 "section": "extra",
                 "quantity": 3,
                 "card_id": 113
+              }
+            ]
+          }
+        ],
+        "accion": "RESTRINGE",
+        "effect_id": "665:a05:17800:shangri-zone-block",
+        "condicion": "Arise destierra boca abajo carta propiedad rival y Shangri boca arriba",
+        "fallo": "Destierro boca arriba o carta propia",
+        "motor_id": "665:A06:M3",
+        "estado": "DOCUMENTADO_CONDICIONAL"
+      },
+      {
+        "id": "A06:REL:201",
+        "deck_id": 665,
+        "origen": {
+          "cid": 18204,
+          "nombre": "Pressured Planet Wraitsoth",
+          "zona": "main",
+          "copias": 3
+        },
+        "destino": {
+          "cid": 17769,
+          "nombre": "Kashtira Unicorn",
+          "zona": "main",
+          "copias": 2
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "Wraitsoth busca Unicornio del Deck a mano",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en"
+        ],
+        "control": "Wraitsoth resuelve con Unicornio en Deck; Unicornio ausente de Deck",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "effect_id": "665:a05:18204:activation-search",
+        "condicion": "Wraitsoth resuelve con Unicornio en Deck",
+        "fallo": "Unicornio ausente de Deck",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 18204,
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 100
+              }
+            ]
+          },
+          {
+            "cid": 17769,
+            "name": "Kashtira Unicorn",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 2,
+                "card_id": 93
+              },
+              {
+                "section": "reserve",
+                "quantity": 1,
+                "card_id": 128
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:202",
+        "deck_id": 665,
+        "origen": {
+          "cid": 18204,
+          "nombre": "Pressured Planet Wraitsoth",
+          "zona": "main",
+          "copias": 3
+        },
+        "destino": {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir",
+          "zona": "main",
+          "copias": 3
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "Wraitsoth puede buscar Fenrir sin Invocarlo",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en"
+        ],
+        "control": "Wraitsoth resuelve con Fenrir en Deck; Fenrir buscado no se Invoca con campo ocupado",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "effect_id": "665:a05:18204:activation-search",
+        "condicion": "Wraitsoth resuelve con Fenrir en Deck",
+        "fallo": "Fenrir buscado no se Invoca con campo ocupado",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 18204,
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 100
+              }
+            ]
+          },
+          {
+            "cid": 17768,
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 92
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:203",
+        "deck_id": 665,
+        "origen": {
+          "cid": 18203,
+          "nombre": "Kashtiratheosis",
+          "zona": "main",
+          "copias": 3
+        },
+        "destino": {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir",
+          "zona": "main",
+          "copias": 3
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "Teosis Invoca Fenrir en Defensa desde Deck bajo requisito de Atributo",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en"
+        ],
+        "control": "Kashtira propio y Fenrir de Atributo distinto en Deck; Mismo Atributo o destino no está en Deck",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M1",
+        "accion": "INVOCA",
+        "effect_id": "665:a05:18203:target-summon-different-attribute",
+        "condicion": "Kashtira propio y Fenrir de Atributo distinto en Deck",
+        "fallo": "Mismo Atributo o destino no está en Deck",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 18203,
+            "name": "Kashtiratheosis",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 102
+              }
+            ]
+          },
+          {
+            "cid": 17768,
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 92
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:204",
+        "deck_id": 665,
+        "origen": {
+          "cid": 5537,
+          "nombre": "Terraforming",
+          "zona": "main",
+          "copias": 1
+        },
+        "destino": {
+          "cid": 18204,
+          "nombre": "Pressured Planet Wraitsoth",
+          "zona": "main",
+          "copias": 3
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "Terraforming busca la Mágica de Campo Wraitsoth",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en"
+        ],
+        "control": "Terraforming se resuelve y Wraitsoth está en Deck; Wraitsoth no está en Deck",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M1",
+        "accion": "BUSCA",
+        "effect_id": "665:a05:5537:search-field-spell",
+        "condicion": "Terraforming se resuelve y Wraitsoth está en Deck",
+        "fallo": "Wraitsoth no está en Deck",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 5537,
+            "name": "Terraforming",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/5537.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/5537.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 1,
+                "card_id": 103
+              }
+            ]
+          },
+          {
+            "cid": 18204,
+            "name": "Pressured Planet Wraitsoth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:205",
+        "deck_id": 665,
+        "origen": {
+          "cid": 17815,
+          "nombre": "Kashtira Birth",
+          "zona": "main",
+          "copias": 3
+        },
+        "destino": {
+          "cid": 17768,
+          "nombre": "Kashtira Fenrir",
+          "zona": "main",
+          "copias": 3
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "Birth recupera Fenrir no Xyz desde GY o destierro",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en"
+        ],
+        "control": "Birth en campo y Fenrir no Xyz en GY/destierro; Fenrir bajo Xyz no es objetivo recuperable",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M2",
+        "accion": "RECUPERA",
+        "effect_id": "665:a05:17815:main-revive-kashtira",
+        "condicion": "Birth en campo y Fenrir no Xyz en GY/destierro",
+        "fallo": "Fenrir bajo Xyz no es objetivo recuperable",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 17815,
+            "name": "Kashtira Birth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 101
+              }
+            ]
+          },
+          {
+            "cid": 17768,
+            "name": "Kashtira Fenrir",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 92
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:206",
+        "deck_id": 665,
+        "origen": {
+          "cid": 9861,
+          "nombre": "Number 11: Big Eye [Xyz rango 7]",
+          "zona": "extra",
+          "copias": 2
+        },
+        "destino": {
+          "cid": 15524,
+          "nombre": "Divine Arsenal AA-ZEUS – Sky Thunder [Xyz]",
+          "zona": "extra",
+          "copias": 2
+        },
+        "clase": "CONDICIONAL",
+        "interaccion": "ZEUS puede superponerse tras batalla de un Xyz",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en"
+        ],
+        "control": "Un Xyz ha batallado, Big Eye propio y ZEUS en Extra; No hubo batalla Xyz o salida impedida",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M4",
+        "accion": "CONVIERTE",
+        "effect_id": "665:a05:15524:zeus-alternative-after-battle",
+        "condicion": "Un Xyz ha batallado, Big Eye propio y ZEUS en Extra",
+        "fallo": "No hubo batalla Xyz o salida impedida",
+        "estado": "DOCUMENTADO_CONDICIONAL",
+        "photos": [
+          {
+            "cid": 9861,
+            "name": "Number 11: Big Eye [Xyz rango 7]",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg",
+            "slots": [
+              {
+                "section": "extra",
+                "quantity": 2,
+                "card_id": 115
+              }
+            ]
+          },
+          {
+            "cid": 15524,
+            "name": "Divine Arsenal AA-ZEUS – Sky Thunder [Xyz]",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15524.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15524.jpg",
+            "slots": [
+              {
+                "section": "extra",
+                "quantity": 2,
+                "card_id": 116
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A06:REL:207",
+        "deck_id": 665,
+        "origen": {
+          "cid": 17815,
+          "nombre": "Kashtira Birth",
+          "zona": "main",
+          "copias": 3
+        },
+        "destino": {
+          "cid": 18151,
+          "nombre": "Kashtira Riseheart",
+          "zona": "main",
+          "copias": 3
+        },
+        "clase": "CONFLICTO",
+        "interaccion": "Incompatibilidad: Birth no transforma Riseheart original en Nivel 7",
+        "fuentes": [
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en",
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en"
+        ],
+        "control": "Riseheart antes de su efecto es Nivel 4; Birth NO otorga Normal sin Tributos a Riseheart Nivel 4",
+        "evidencia": "A05_PSCT_DOCUMENTAL",
+        "motor_id": "665:A06:M2",
+        "accion": "RESTRINGE",
+        "effect_id": "665:a05:17815:level7-normal-no-tribute",
+        "condicion": "Riseheart antes de su efecto es Nivel 4",
+        "fallo": "Birth NO otorga Normal sin Tributos a Riseheart Nivel 4",
+        "estado": "INCOMPATIBLE_ACTUAL",
+        "photos": [
+          {
+            "cid": 17815,
+            "name": "Kashtira Birth",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 101
+              }
+            ]
+          },
+          {
+            "cid": 18151,
+            "name": "Kashtira Riseheart",
+            "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+            "full_image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg",
+            "slots": [
+              {
+                "section": "main",
+                "quantity": 3,
+                "card_id": 94
               }
             ]
           }
@@ -27423,7 +28128,1542 @@
       "source_file": "torneos_yugioh/context/gpt/01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md"
     },
     "documentary_reviews": [],
-    "source_format_checks": []
+    "source_format_checks": [],
+    "a06_review": {
+      "deck_id": 665,
+      "status": "DOCUMENTAL_COMPLETA_NO_REPLAY",
+      "counts": {
+        "main": 42,
+        "extra": 15,
+        "side": 0,
+        "reserve": 19
+      },
+      "banlist_evaluated": false,
+      "engines": [
+        [
+          "M1",
+          "PRINCIPAL",
+          "Búsqueda y construcción de Rango 7",
+          [
+            18204,
+            17768,
+            17769,
+            17770,
+            18203,
+            17800
+          ],
+          "Wraitsoth/Fenrir/Unicornio/Ogro habilitan acceso; Unicornio busca Teosis y Teosis trae Kash de Atributo distinto",
+          "Sin segundo Nivel 7 o atributo válido no hay Shangri; no bloquea zona al invocarse"
+        ],
+        [
+          "M2",
+          "SUBMOTOR",
+          "Birth y extensión",
+          [
+            17815,
+            18151,
+            17768,
+            17769,
+            18152,
+            18153
+          ],
+          "Birth Normal Nivel 7 o recupera Kash no Xyz; Riseheart pasa a Nivel 7 solo después del destierro",
+          "Riseheart Nivel 4 no recibe Normal Nivel 7 de Birth; materiales Xyz no son cuerpos libres"
+        ],
+        [
+          "M3",
+          "SUBMOTOR",
+          "Destierro y presión diferidos",
+          [
+            17800,
+            18191,
+            18220,
+            17831
+          ],
+          "Shangri activada habilita Arise alternativo; Big Bang desterrada devuelve material propio Kashtira",
+          "No hay bloqueo sin destierro boca abajo de carta propiedad rival ni destierro rápido de Arise sin tres materiales"
+        ],
+        [
+          "M4",
+          "APOYO",
+          "Alternativas Extra situacionales",
+          [
+            9861,
+            15524,
+            13974,
+            16386,
+            17804,
+            15741
+          ],
+          "Big Eye toma objetivo rival; ZEUS requiere batalla Xyz; Sincronía/Link requieren materiales",
+          "Restricciones Xyz de Teosis/Riseheart impiden Sincronía/Link posteriores"
+        ]
+      ],
+      "card_evaluations": [
+        {
+          "cid": 17768,
+          "name": "Kashtira Fenrir",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 92
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "starter Kashtira · presión de destierro. Se invoca desde mano sin monstruos propios, busca otro Kashtira y destierra boca abajo una carta rival al reaccionar a su efecto o atacar. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Invocación propia con campo vacío, búsqueda en Main; destierro en disparador de ataque/efecto rival.",
+          "restriccion": "Cada efecto activado una vez por turno; el destierro NO niega efecto activado.",
+          "a05_effect_ids": [
+            "665:a05:17768:empty-field-summon",
+            "665:a05:17768:search-monster",
+            "665:a05:17768:attack-trigger-banish"
+          ],
+          "a06_relations": [
+            "A06:REL:016",
+            "A06:REL:020",
+            "A06:REL:202",
+            "A06:REL:203",
+            "A06:REL:205"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:WRAITSOTH:SHANGRI01",
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:SHANGRI:STANDBY:ARISE04",
+            "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17768.jpg"
+        },
+        {
+          "cid": 17769,
+          "name": "Kashtira Unicorn",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 2,
+              "card_id": 93
+            },
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 128
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "starter Kashtira · presión de Extra. Se invoca desde mano sin monstruos propios, busca una Mágica Kashtira e inspecciona/destierra del Extra rival según su disparador. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Búsqueda en propia Main; destierro Extra por ataque o efecto rival fuera Damage Step.",
+          "restriccion": "Cada efecto una vez por turno; quitar Extra no equivale a negar el monstruo rival que activó.",
+          "a05_effect_ids": [
+            "665:a05:17769:empty-field-summon",
+            "665:a05:17769:search-spell",
+            "665:a05:17769:attack-trigger-extra-banish"
+          ],
+          "a06_relations": [
+            "A06:REL:016",
+            "A06:REL:017",
+            "A06:REL:018",
+            "A06:REL:135",
+            "A06:REL:201"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:WRAITSOTH:SHANGRI01",
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "665:A09:DONNER:FENRIR:UNICORN:GODDESS12",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17769.jpg"
+        },
+        {
+          "cid": 18151,
+          "name": "Kashtira Riseheart",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 94
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "extensor Kashtira · ajuste de Nivel. Se invoca si controlas Kashtira y transforma recursos por destierro para habilitar Nivel 7/Xyz. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Invocación propia y efecto en Main del turno en que fue Invocado.",
+          "restriccion": "Después de Invocarlo por procedimiento solo Extra Xyz por resto del turno; obtener Nivel7 requiere resolver destierro.",
+          "a05_effect_ids": [
+            "665:a05:18151:special-from-hand",
+            "665:a05:18151:banish-topthree-level7"
+          ],
+          "a06_relations": [
+            "A06:REL:019",
+            "A06:REL:137",
+            "A06:REL:207"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18151.jpg"
+        },
+        {
+          "cid": 17770,
+          "name": "Kashtira Ogre",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 95
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Acceso a trampas y control de cartas futuras del Deck contrario.",
+          "requisito": "Búsqueda de Trampa en Main; excavación con ataque o activación de efecto monstruo enemigo.",
+          "restriccion": "No busca monstruos Kashtira; no niega el efecto enemigo que detonó la excavación.",
+          "a05_effect_ids": [
+            "665:a05:17770:empty-field-summon",
+            "665:a05:17770:search-trap",
+            "665:a05:17770:attack-trigger-excavate"
+          ],
+          "a06_relations": [
+            "A06:REL:052",
+            "A06:REL:053"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17770.jpg"
+        },
+        {
+          "cid": 18152,
+          "name": "Scareclaw Kashtira",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 96
+            }
+          ],
+          "clase": "CONDICIONAL",
+          "funcion": "Extensor de Main y combatiente en Defensa con control de efecto rival.",
+          "requisito": "Quick durante Main; interacción de batalla por enfrentamiento.",
+          "restriccion": "No niega efecto rival de antemano; la negación se aplica cuando se cumple batalla.",
+          "a05_effect_ids": [
+            "665:a05:18152:quick-hand-summon-banish",
+            "665:a05:18152:attack-in-defense",
+            "665:a05:18152:battle-opponent-negation"
+          ],
+          "a06_relations": [
+            "A06:REL:136"
+          ],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18152.jpg"
+        },
+        {
+          "cid": 18153,
+          "name": "Tearlaments Kashtira",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 97
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "interrupción · extensor · removal. acceso al campo desde la mano; destierro de recursos o de amenazas. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica. Disparo tras la Invocación indicada. Disparo condicionado al envío al Cementerio.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:18153:quick-hand-summon-banish",
+            "665:a05:18153:summoned-mill-three",
+            "665:a05:18153:sent-effect-mill-two"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18153.jpg"
+        },
+        {
+          "cid": 12950,
+          "name": "Ash Blossom & Joyous Spring",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 98
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "handtrap · negación. Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "En cadena a la activación de un efecto que incluya una de las tres operaciones previstas; efecto una vez por turno.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:12950:discard-negate-deck-operation"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12950.jpg"
+        },
+        {
+          "cid": 14740,
+          "name": "Dimension Shifter",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 99
+            },
+            {
+              "section": "reserve",
+              "quantity": 2,
+              "card_id": 126
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "handtrap · macro-destierro. Si el Cementerio propio está vacío, se envía desde mano y hace que las cartas que irían al Cementerio se destierren hasta el final del turno siguiente. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto Rápido con Cementerio propio vacío; reemplazo hasta el final del siguiente turno.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:14740:shifter-hand-send",
+            "665:a05:14740:shifter-gy-replacement"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/14740.jpg"
+        },
+        {
+          "cid": 18204,
+          "name": "Pressured Planet Wraitsoth",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 100
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Campo de acceso de motor y destrucción condicionada.",
+          "requisito": "Búsqueda cuando el Campo se activa; destrucción ligada a activación propia de Shangri-Ira, fuera de Damage Step.",
+          "restriccion": "No se dispara por cualquier destierro ni equivale a negación de la cadena adversaria.",
+          "a05_effect_ids": [
+            "665:a05:18204:activation-search",
+            "665:a05:18204:field-attribute-boost",
+            "665:a05:18204:shangri-effect-destroy"
+          ],
+          "a06_relations": [
+            "A06:REL:052",
+            "A06:REL:201",
+            "A06:REL:202",
+            "A06:REL:204"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:WRAITSOTH:SHANGRI01"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18204.jpg"
+        },
+        {
+          "cid": 17815,
+          "name": "Kashtira Birth",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 101
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "recuperación · removal · coste/recurso. recuperación e invocación desde Cementerio/destierro; destierro de recursos o de amenazas; uso de Sacrificios como parte del efecto. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Birth no Invoca un Xyz desterrado o en GY por su efecto de recuperación: específicamente monstruo Kashtira no-Xyz. Reanimación y destierro GY tienen límite propio por turno.",
+          "restriccion": "hay límite por turno según el efecto concreto; depende de recursos en Cementerio; interactúa con información oculta o resultados no siempre elegibles.",
+          "a05_effect_ids": [
+            "665:a05:17815:level7-normal-no-tribute",
+            "665:a05:17815:main-revive-kashtira",
+            "665:a05:17815:opponent-spell-banish-gy-three"
+          ],
+          "a06_relations": [
+            "A06:REL:018",
+            "A06:REL:205",
+            "A06:REL:207"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:FENRIR:BIRTH:DARKARMED10",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17815.jpg"
+        },
+        {
+          "cid": 18203,
+          "name": "Kashtiratheosis",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 102
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Acceso condicionado a segundo cuerpo y reciclaje de desterradas.",
+          "requisito": "Mágica en Main con Kashtira propio legal; disparador cuando Theosis es desterrada.",
+          "restriccion": "Bloqueo Extra Xyz posterior a la resolución; un uso de cada efecto por turno.",
+          "a05_effect_ids": [
+            "665:a05:18203:target-summon-different-attribute",
+            "665:a05:18203:banished-recover-kashtira"
+          ],
+          "a06_relations": [
+            "A06:REL:017",
+            "A06:REL:203"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:WRAITSOTH:SHANGRI01",
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18203.jpg"
+        },
+        {
+          "cid": 5537,
+          "name": "Terraforming",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 103
+            }
+          ],
+          "clase": "CONDICIONAL",
+          "funcion": "mágica · búsqueda de campo. Busca una Mágica de Campo en el Deck y la lleva a la mano. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:5537:search-field-spell"
+          ],
+          "a06_relations": [
+            "A06:REL:204"
+          ],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/5537.jpg"
+        },
+        {
+          "cid": 5432,
+          "name": "Book of Moon",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 2,
+              "card_id": 104
+            },
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 123
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "control de zonas · cierre. manipulación de posiciones o zonas; presión de combate o modificación de estadísticas. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:5432:quick-target-set-defense"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/5432.jpg"
+        },
+        {
+          "cid": 4342,
+          "name": "Dark Hole",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 105
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "removal. destrucción de cartas o empleo de destrucción como detonante. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:4342:destroy-all-monsters"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/4342.jpg"
+        },
+        {
+          "cid": 15756,
+          "name": "Pot of Prosperity",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 2,
+              "card_id": 106
+            },
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 131
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "searcher · buscador · removal · ventaja de mano · cierre. búsqueda o incorporación de cartas a mano; destierro de recursos o de amenazas; generación de cartas por robo; presión de combate o modificación de estadísticas. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Mágica Normal, una activación por turno; no puedes robar por efectos el mismo turno, y el daño al rival se reduce a la mitad después de resolver.",
+          "restriccion": "La modalidad o carta posee exclusión de usos alternativos.",
+          "a05_effect_ids": [
+            "665:a05:15756:pot-banish-excavate"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15756.jpg"
+        },
+        {
+          "cid": 12464,
+          "name": "Cosmic Cyclone",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 2,
+              "card_id": 107
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "mágica rápida · remoción. Paga 1000 LP para desterrar una Mágica/Trampa en campo. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:12464:cosmic-banish-spelltrap"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12464.jpg"
+        },
+        {
+          "cid": 9352,
+          "name": "Forbidden Lance",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 2,
+              "card_id": 108
+            },
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 127
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "cierre · protección. presión de combate o modificación de estadísticas; protección o resistencia contra respuestas. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:9352:lance-protect-faceup"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9352.jpg"
+        },
+        {
+          "cid": 15296,
+          "name": "Triple Tactics Talent",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 109
+            },
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 124
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "mágica de respuesta · ventaja. Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "En Main Phase bajo condición específica.",
+          "restriccion": "La modalidad o carta posee exclusión de usos alternativos.",
+          "a05_effect_ids": [
+            "665:a05:15296:talent-draw-two",
+            "665:a05:15296:talent-control-monster",
+            "665:a05:15296:talent-random-shuffle-hand"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15296.jpg"
+        },
+        {
+          "cid": 13631,
+          "name": "Infinite Impermanence",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 3,
+              "card_id": 110
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "trampa · negación. Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. Aporta respuesta o consistencia sin exigir enlace directo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Trampa Normal; desde mano solo si no controlas cartas. La negación de columna exige que estuviera Colocada y permanezca en campo al resolver.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:13631:impermanence-negate-monster",
+            "665:a05:13631:impermanence-set-column"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/13631.jpg"
+        },
+        {
+          "cid": 17831,
+          "name": "Kashtira Preparations",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 111
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Recuperación y control de mano por Trampa rival.",
+          "requisito": "Efecto de continua en turno cualquiera; segundo dispara ante Trampa rival.",
+          "restriccion": "Cada modalidad una vez por turno; mirar mano no niega la Trampa que ya se activó.",
+          "a05_effect_ids": [
+            "665:a05:17831:preparations-recover-kashtira",
+            "665:a05:17831:preparations-trap-hand-banish"
+          ],
+          "a06_relations": [
+            "A06:REL:053",
+            "A06:REL:135",
+            "A06:REL:136"
+          ],
+          "a09_candidates_by_photo": [],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17831.jpg"
+        },
+        {
+          "cid": 18220,
+          "name": "Kashtira Big Bang",
+          "slots": [
+            {
+              "section": "main",
+              "quantity": 1,
+              "card_id": 112
+            }
+          ],
+          "clase": "CONDICIONAL",
+          "funcion": "Barrido simétrico condicionado y reciclaje de material acoplado.",
+          "requisito": "Trampa al activar con Xyz Kashtira y cantidad de monstruos; disparo al ser desterrada.",
+          "restriccion": "Cada efecto una vez por turno; no es eliminación selectiva de cualquier carta.",
+          "a05_effect_ids": [
+            "665:a05:18220:bigbang-board-banish",
+            "665:a05:18220:bigbang-banished-material-return"
+          ],
+          "a06_relations": [
+            "A06:REL:133",
+            "A06:REL:134",
+            "A06:REL:137"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18220.jpg"
+        },
+        {
+          "cid": 17800,
+          "name": "Kashtira Shangri-Ira [Xyz rango 7]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 3,
+              "card_id": 113
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Xyz de invocación recurrente y bloqueo de zonas.",
+          "requisito": "Standby para extensión; disparo al destierro rival boca abajo; protección de reemplazo.",
+          "restriccion": "El bloqueo de zona no se activa por destierro boca arriba ni por carta propia.",
+          "a05_effect_ids": [
+            "665:a05:17800:shangri-xyz",
+            "665:a05:17800:shangri-standby-summon",
+            "665:a05:17800:shangri-zone-block",
+            "665:a05:17800:shangri-detach-protect"
+          ],
+          "a06_relations": [
+            "A06:REL:019",
+            "A06:REL:132",
+            "A06:REL:133",
+            "A06:REL:138"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:WRAITSOTH:SHANGRI01",
+            "665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03",
+            "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15",
+            "665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17800.jpg"
+        },
+        {
+          "cid": 18191,
+          "name": "Kashtira Arise-Heart [Xyz rango 7]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 2,
+              "card_id": 114
+            }
+          ],
+          "clase": "ENGINE",
+          "funcion": "Jefe Xyz de destierro y negación de GY por reemplazo, no negador de activación.",
+          "requisito": "Procedimiento alternativo después de Shangri-Ira, efecto continuo de reemplazo y Quick de 3 materiales.",
+          "restriccion": "No puede realizar remoción con menos de tres materiales ni superponerse sin efecto Shangri-Ira activado correctamente.",
+          "a05_effect_ids": [
+            "665:a05:18191:arise-xyz-three-level7",
+            "665:a05:18191:arise-xyz-alternative",
+            "665:a05:18191:arise-gy-banished-instead",
+            "665:a05:18191:arise-attach-banished",
+            "665:a05:18191:arise-quick-detach-three"
+          ],
+          "a06_relations": [
+            "A06:REL:132",
+            "A06:REL:134",
+            "A06:REL:138"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:SHANGRI:STANDBY:ARISE04",
+            "665:A09:MIRROR:ARISE:BATTLE:ZEUS13",
+            "665:A09:FENRIR:BIRTH:BIGBANG:ARISE14",
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/18191.jpg"
+        },
+        {
+          "cid": 9861,
+          "name": "Number 11: Big Eye [Xyz rango 7]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 2,
+              "card_id": 115
+            }
+          ],
+          "clase": "CONDICIONAL",
+          "funcion": "resultado de Extra Deck · respuesta · habilitador Xyz. interacción sobre monstruos en campo; gestión de materiales Xyz. A06 identifica su destino, condicionado a material/procedimiento. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Contiene límite de uso por turno. Incluye restricción sobre ataques.",
+          "a05_effect_ids": [
+            "665:a05:9861:big-eye-xyz",
+            "665:a05:9861:big-eye-take-control"
+          ],
+          "a06_relations": [
+            "A06:REL:020",
+            "A06:REL:206"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:BIGEYE:BATTLE:ZEUS11"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9861.jpg"
+        },
+        {
+          "cid": 15524,
+          "name": "Divine Arsenal AA-ZEUS – Sky Thunder [Xyz]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 2,
+              "card_id": 116
+            }
+          ],
+          "clase": "CONDICIONAL",
+          "funcion": "interrupción · resultado de Extra Deck · habilitador Xyz. `665:A09:BIGEYE:BATTLE:ZEUS11`: Fenrir + Birth llevan a Fenrir/Ogre, Big Eye, Battle Phase superviviente y Zeus en Main Phase 2. Campo final 3 materiales; el barrido puede quitar tus propias cartas. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:15524:zeus-xyz-level12",
+            "665:a05:15524:zeus-alternative-after-battle",
+            "665:a05:15524:zeus-quick-send-all",
+            "665:a05:15524:zeus-on-other-destroy-attach"
+          ],
+          "a06_relations": [
+            "A06:REL:206"
+          ],
+          "a09_candidates_by_photo": [
+            "665:A09:BIGEYE:BATTLE:ZEUS11",
+            "665:A09:MIRROR:ARISE:BATTLE:ZEUS13"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15524.jpg"
+        },
+        {
+          "cid": 13974,
+          "name": "Dark Armed, the Dragon of Annihilation [Xyz rango 7]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 117
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "resultado de Extra Deck · removal · habilitador Xyz. Fenrir + Birth permite buscar y hacer Normal de Unicorn sin tributos. Los dos cuerpos Nivel 7 se convierten en Dark Armed para destruir una carta rival. El material desacoplado queda en el GY y puede ser desterrado por el mismo efecto si la destrucción se realizó. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Contiene límite de uso por turno. Incluye restricción sobre ataques.",
+          "a05_effect_ids": [
+            "665:a05:13974:dark-armed-xyz",
+            "665:a05:13974:dark-armed-alt-xyz",
+            "665:a05:13974:dark-armed-detach-destroy"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:FENRIR:BIRTH:DARKARMED10"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/13974.jpg"
+        },
+        {
+          "cid": 16386,
+          "name": "Baronne de Fleur [Synchro nivel 10]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 118
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "interrupción · resultado de Extra Deck · removal · negación · recuperación. destrucción de cartas o empleo de destrucción como detonante; negación de efectos o activaciones; retorno o reciclaje hacia mano/Deck/Extra. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:16386:baronne-synchro-summon",
+            "665:a05:16386:baronne-destroy-one-card",
+            "665:a05:16386:baronne-negate-activation",
+            "665:a05:16386:baronne-standby-return-revive"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:UNICORN:ASH:BIRTH:BARONNE15"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/16386.jpg"
+        },
+        {
+          "cid": 17804,
+          "name": "Donner, Dagger Fur Hire [Link-2]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 119
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "resultado de Extra Deck · recuperación · extensor · respuesta · coste/recurso. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; interacción sobre monstruos en campo; uso de Sacrificios como parte del efecto. Falta arista de materiales en A06; A09 podría contener una ruta válida no indexada aquí. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "La modalidad o carta posee exclusión de usos alternativos.",
+          "a05_effect_ids": [
+            "665:a05:17804:donner-link-summon",
+            "665:a05:17804:donner-target-destroy-both",
+            "665:a05:17804:donner-tribute-revive-furhire"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:DONNER:FENRIR:UNICORN:GODDESS12"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/17804.jpg"
+        },
+        {
+          "cid": 15741,
+          "name": "Underworld Goddess of the Closed World [Link-5]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 120
+            }
+          ],
+          "clase": "AUTONOMA_UTIL",
+          "funcion": "interrupción · resultado de Extra Deck · habilitador de Extra · negación · protección. `665:A09:DONNER:FENRIR:UNICORN:GODDESS12`. Los tres propios + uno rival cumplen la Invocación por Enlace a Diosa 3000; el bloqueo de Theosis es excluyente. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:15741:goddess-link-opponent-material",
+            "665:a05:15741:goddess-on-link-negate-opponent",
+            "665:a05:15741:goddess-untargeted-immune",
+            "665:a05:15741:goddess-negate-gy-summon-activation"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [
+            "665:A09:DONNER:FENRIR:UNICORN:GODDESS12"
+          ],
+          "estado": "DOCUMENTADO_CONDICIONAL",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15741.jpg"
+        },
+        {
+          "cid": 15366,
+          "name": "Fossil Warrior Skull Knight [Fusión]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 121
+            }
+          ],
+          "clase": "SIN_EVIDENCIA_SUFICIENTE",
+          "funcion": "resultado de Extra Deck · removal · cierre. Fossil Warrior Skull Knight carece de procedimiento de Fusión Fósil disponible en Main; su efecto en Cementerio no demuestra que pueda Invocarse legalmente. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:15366:fossil-knight-fusion-procedure",
+            "665:a05:15366:fossil-knight-piercing",
+            "665:a05:15366:fossil-knight-extra-attack",
+            "665:a05:15366:fossil-knight-gy-banish-destroy"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "SIN_RUTA_ACREDITADA",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15366.jpg"
+        },
+        {
+          "cid": 15882,
+          "name": "Fossil Machine Skull Wagon [Fusión]",
+          "slots": [
+            {
+              "section": "extra",
+              "quantity": 1,
+              "card_id": 122
+            }
+          ],
+          "clase": "SIN_EVIDENCIA_SUFICIENTE",
+          "funcion": "interrupción · resultado de Extra Deck · removal · cierre. Fossil Machine Skull Wagon carece de procedimiento de Fusión Fósil disponible en Main; una carta en Extra no entra directamente en Cementerio. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:15882:fossil-wagon-fusion-procedure",
+            "665:a05:15882:fossil-wagon-two-monster-attacks",
+            "665:a05:15882:fossil-wagon-battle-burn-eight-hundred",
+            "665:a05:15882:fossil-wagon-gy-banish-destroy-spelltrap"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "SIN_RUTA_ACREDITADA",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/15882.jpg"
+        },
+        {
+          "cid": 7153,
+          "name": "Eradicator Epidemic Virus",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 2,
+              "card_id": 125
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "removal · cierre · coste/recurso. Fuera de lista. destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:7153:eradicator-virus-tribute-spelltrap"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7153&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/7153.jpg"
+        },
+        {
+          "cid": 13896,
+          "name": "Dinowrestler Pankratops",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 129
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "interrupción · extensor · coste/recurso. Fuera de lista. acceso al campo desde la mano; uso de Sacrificios como parte del efecto.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:13896:pankratops-hand-special",
+            "665:a05:13896:pankratops-quick-tribute-destroy"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/13896.jpg"
+        },
+        {
+          "cid": 12668,
+          "name": "Dimensional Barrier",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 2,
+              "card_id": 130
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "trampa · bloqueo del Extra. Fuera de lista. Declara un tipo de monstruo y bloquea sus Invocaciones Especiales y efectos ese turno.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Trampa Normal; elegir un tipo permitido al activar y aplicar a ambos jugadores ese turno; una activación por turno.",
+          "restriccion": "La modalidad o carta posee exclusión de usos alternativos.",
+          "a05_effect_ids": [
+            "665:a05:12668:dimensional-barrier-declare-extra-type"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/12668.jpg"
+        },
+        {
+          "cid": 14741,
+          "name": "Nibiru, the Primal Being",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 132
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "handtrap · limpieza del campo. Fuera de lista. En Main Phase, tras cinco o más invocaciones rivales, sacrifica los monstruos boca arriba y deja a Nibiru junto con una Ficha rival.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales. En Main Phase bajo condición específica.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:14741:nibiru-five-opponent-summons"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/14741.jpg"
+        },
+        {
+          "cid": 9279,
+          "name": "Droll & Lock Bird",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 3,
+              "card_id": 133
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "handtrap · bloqueo de búsquedas. Fuera de lista. Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto Rápido después de que el rival añada una o más cartas desde Main Deck a mano, fuera de Draw Phase; dura lo restante del turno.",
+          "restriccion": "Revisar condiciones específicas de materiales, objetivos y zonas antes de ejecutar.",
+          "a05_effect_ids": [
+            "665:a05:9279:droll-after-add-deck-to-hand"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/9279.jpg"
+        },
+        {
+          "cid": 13587,
+          "name": "Ghost Belle & Haunted Mansion",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 2,
+              "card_id": 134
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "handtrap · negación de Cementerio. Fuera de lista. Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "Efecto rápido; necesita condición, velocidad y momento legales. Respuesta a activación concreta; requiere cadena válida.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:13587:ghost-belle-discard-negate-graveyard"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/13587.jpg"
+        },
+        {
+          "cid": 14400,
+          "name": "Infinitrack Goliath [monstruo Link para intercambio con Extra Deck]",
+          "slots": [
+            {
+              "section": "reserve",
+              "quantity": 1,
+              "card_id": 135
+            }
+          ],
+          "clase": "RESERVA_HIPOTETICA",
+          "funcion": "respuesta · habilitador Xyz · protección. Fuera de lista. interacción sobre monstruos en campo; gestión de materiales Xyz; protección o resistencia contra respuestas.. No aporta recursos durante este duelo. Relación contextual con monstruos de Nivel 7, Xyz y destierro boca abajo con presión de zonas. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.",
+          "requisito": "No se reconoció disparador específico; conservar timing exacto de la carta y no asumir uso libre.",
+          "restriccion": "Contiene límite de uso por turno.",
+          "a05_effect_ids": [
+            "665:a05:14400:goliath-link-one-infinitrack",
+            "665:a05:14400:goliath-gy-attach-to-xyz",
+            "665:a05:14400:goliath-machine-xyz-protection"
+          ],
+          "a06_relations": [],
+          "a09_candidates_by_photo": [],
+          "estado": "RESERVA_NO_DISPONIBLE",
+          "source": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en",
+          "image": "DECK_665_KASHTIRA_PURE/imagenes/tcg/14400.jpg"
+        }
+      ],
+      "paper_cases": [
+        {
+          "id": "665:A06:P016",
+          "relation_id": "A06:REL:016",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Fenrir en Main Phase y Unicornio en Deck",
+          "outcome": "Fenrir puede buscar otro monstruo Kashtira como Unicornio en Main Phase; no presupone que el buscado pueda Invocarse por procedimiento propio con Fenrir en campo.",
+          "effect_id": "665:a05:17768:search-monster",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N016",
+          "relation_id": "A06:REL:016",
+          "kind": "NEGATIVO",
+          "guard": "Fenrir negado, Unicornio ausente",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17768:search-monster",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P017",
+          "relation_id": "A06:REL:017",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Unicornio en Main Phase y Teosis en Deck",
+          "outcome": "Unicornio añade una Mágica Kashtira, por ejemplo Theosis, si el efecto resuelve.",
+          "effect_id": "665:a05:17769:search-spell",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N017",
+          "relation_id": "A06:REL:017",
+          "kind": "NEGATIVO",
+          "guard": "Unicornio negado o Teosis agotada",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17769:search-spell",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P018",
+          "relation_id": "A06:REL:018",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Birth activa y Normal disponible, Unicornio Nivel 7",
+          "outcome": "Birth permite Normal Summon de un Nivel7 sin Tributos, posibilitando Unicornio aunque ya controles Fenrir.",
+          "effect_id": "665:a05:17815:level7-normal-no-tribute",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N018",
+          "relation_id": "A06:REL:018",
+          "kind": "NEGATIVO",
+          "guard": "Birth ausente o Normal ya gastada",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17815:level7-normal-no-tribute",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P019",
+          "relation_id": "A06:REL:019",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Riseheart alcanzó Nivel 7 y hay segundo Nivel 7 propio",
+          "outcome": "Riseheart puede pasar a Nivel7 tras su efecto pero bloquea Extra salvo Xyz; Shangri-Ira exige realmente dos Nivel7.",
+          "effect_id": "665:a05:18151:banish-topthree-level7",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N019",
+          "relation_id": "A06:REL:019",
+          "kind": "NEGATIVO",
+          "guard": "Riseheart sigue Nivel 4 o falta material",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18151:banish-topthree-level7",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P020",
+          "relation_id": "A06:REL:020",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Fenrir y otro Nivel 7 propios a la vez",
+          "outcome": "Fenrir cuenta como un Nivel7 material de Big Eye, pero debe haber un SEGUNDO Nivel7 propio y objetivo rival para la toma.",
+          "effect_id": "665:a05:9861:big-eye-xyz",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N020",
+          "relation_id": "A06:REL:020",
+          "kind": "NEGATIVO",
+          "guard": "Solo Fenrir no crea Big Eye",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:9861:big-eye-xyz",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P052",
+          "relation_id": "A06:REL:052",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Wraitsoth activada y Ogro en Deck",
+          "outcome": "Wraitsoth al activarse busca Ogre, que busca una TRAMPA Kashtira, nunca otro monstruo por su propio efecto.",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N052",
+          "relation_id": "A06:REL:052",
+          "kind": "NEGATIVO",
+          "guard": "Ogro ausente o Wraitsoth negada",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P053",
+          "relation_id": "A06:REL:053",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Ogro en campo y Preparations en Deck",
+          "outcome": "Ogre busca Kashtira Preparations del Deck por ser Trampa Kashtira; no equivale a negar efectos enemigos.",
+          "effect_id": "665:a05:17770:search-trap",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N053",
+          "relation_id": "A06:REL:053",
+          "kind": "NEGATIVO",
+          "guard": "Ogro negado o Preparations ausente",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17770:search-trap",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P132",
+          "relation_id": "A06:REL:132",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Efecto Shangri-Ira activado este turno, Kash propio",
+          "outcome": "Arise-Heart puede superponerse sobre un monstruo Kashtira propio solo tras activarse el efecto de Shangri-Ira ese turno; no basta controlar la carta sin activar.",
+          "effect_id": "665:a05:18191:arise-xyz-alternative",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N132",
+          "relation_id": "A06:REL:132",
+          "kind": "NEGATIVO",
+          "guard": "Controlar Shangri sin activación no basta",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18191:arise-xyz-alternative",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P133",
+          "relation_id": "A06:REL:133",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Shangri Xyz Kash presente; Big Bang con conteo válido",
+          "outcome": "Shangri-Ira es un Xyz Kashtira que satisface requisito de Big Bang; Big Bang afectará también al propio controlador si tiene dos o más monstruos.",
+          "effect_id": "665:a05:18220:bigbang-board-banish",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N133",
+          "relation_id": "A06:REL:133",
+          "kind": "NEGATIVO",
+          "guard": "Sin Xyz Kash o cantidad necesaria",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18220:bigbang-board-banish",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P134",
+          "relation_id": "A06:REL:134",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Arise Xyz Kash presente y Big Bang válido",
+          "outcome": "Arise-Heart es Xyz Kashtira que habilita Big Bang; el destierro simétrico debe calcularse en ambos campos.",
+          "effect_id": "665:a05:18220:bigbang-board-banish",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N134",
+          "relation_id": "A06:REL:134",
+          "kind": "NEGATIVO",
+          "guard": "No existe Xyz Kash o condición de monstruos",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18220:bigbang-board-banish",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P135",
+          "relation_id": "A06:REL:135",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Unicornio en mano o desterrado y Preparations",
+          "outcome": "Preparaciones puede Invocar Unicorn Kashtira desde mano o destierro durante cualquiera de los turnos, si existe recurso elegible.",
+          "effect_id": "665:a05:17831:preparations-recover-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N135",
+          "relation_id": "A06:REL:135",
+          "kind": "NEGATIVO",
+          "guard": "Unicornio como material Xyz o en Deck",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17831:preparations-recover-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P136",
+          "relation_id": "A06:REL:136",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Scareclaw Kash en mano o desterrado y Preparations",
+          "outcome": "Preparaciones puede recuperar Scareclaw Kashtira desterrado o Invocarlo desde mano, respetando restricciones reales.",
+          "effect_id": "665:a05:17831:preparations-recover-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N136",
+          "relation_id": "A06:REL:136",
+          "kind": "NEGATIVO",
+          "guard": "Scareclaw en Deck no es objetivo válido",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17831:preparations-recover-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P137",
+          "relation_id": "A06:REL:137",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Big Bang desterrada y material Kash bajo Xyz propio",
+          "outcome": "Si Riseheart destierra Big Bang desde Deck por efecto, Big Bang puede recuperar un Kashtira acoplado a Xyz propio a mano y eventualmente Invocarlo.",
+          "effect_id": "665:a05:18220:bigbang-banished-material-return",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N137",
+          "relation_id": "A06:REL:137",
+          "kind": "NEGATIVO",
+          "guard": "Ningún material Kash acoplado",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18220:bigbang-banished-material-return",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P138",
+          "relation_id": "A06:REL:138",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Arise destierra boca abajo carta propiedad rival y Shangri boca arriba",
+          "outcome": "Arise-Heart puede desterrar una carta rival boca abajo; si se trata de carta propiedad rival y Shangri-Ira está boca arriba, se activa la condición de bloqueo de zona.",
+          "effect_id": "665:a05:17800:shangri-zone-block",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N138",
+          "relation_id": "A06:REL:138",
+          "kind": "NEGATIVO",
+          "guard": "Destierro boca arriba o carta propia",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17800:shangri-zone-block",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P201",
+          "relation_id": "A06:REL:201",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Wraitsoth resuelve con Unicornio en Deck",
+          "outcome": "Wraitsoth busca Unicornio del Deck a mano",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N201",
+          "relation_id": "A06:REL:201",
+          "kind": "NEGATIVO",
+          "guard": "Unicornio ausente de Deck",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P202",
+          "relation_id": "A06:REL:202",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Wraitsoth resuelve con Fenrir en Deck",
+          "outcome": "Wraitsoth puede buscar Fenrir sin Invocarlo",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N202",
+          "relation_id": "A06:REL:202",
+          "kind": "NEGATIVO",
+          "guard": "Fenrir buscado no se Invoca con campo ocupado",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18204:activation-search",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P203",
+          "relation_id": "A06:REL:203",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Kashtira propio y Fenrir de Atributo distinto en Deck",
+          "outcome": "Teosis Invoca Fenrir en Defensa desde Deck bajo requisito de Atributo",
+          "effect_id": "665:a05:18203:target-summon-different-attribute",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N203",
+          "relation_id": "A06:REL:203",
+          "kind": "NEGATIVO",
+          "guard": "Mismo Atributo o destino no está en Deck",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:18203:target-summon-different-attribute",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P204",
+          "relation_id": "A06:REL:204",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Terraforming se resuelve y Wraitsoth está en Deck",
+          "outcome": "Terraforming busca la Mágica de Campo Wraitsoth",
+          "effect_id": "665:a05:5537:search-field-spell",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N204",
+          "relation_id": "A06:REL:204",
+          "kind": "NEGATIVO",
+          "guard": "Wraitsoth no está en Deck",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:5537:search-field-spell",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P205",
+          "relation_id": "A06:REL:205",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Birth en campo y Fenrir no Xyz en GY/destierro",
+          "outcome": "Birth recupera Fenrir no Xyz desde GY o destierro",
+          "effect_id": "665:a05:17815:main-revive-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N205",
+          "relation_id": "A06:REL:205",
+          "kind": "NEGATIVO",
+          "guard": "Fenrir bajo Xyz no es objetivo recuperable",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17815:main-revive-kashtira",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P206",
+          "relation_id": "A06:REL:206",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Un Xyz ha batallado, Big Eye propio y ZEUS en Extra",
+          "outcome": "ZEUS puede superponerse tras batalla de un Xyz",
+          "effect_id": "665:a05:15524:zeus-alternative-after-battle",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N206",
+          "relation_id": "A06:REL:206",
+          "kind": "NEGATIVO",
+          "guard": "No hubo batalla Xyz o salida impedida",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:15524:zeus-alternative-after-battle",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:P207",
+          "relation_id": "A06:REL:207",
+          "kind": "POSITIVO_CONDICIONAL",
+          "guard": "Riseheart antes de su efecto es Nivel 4",
+          "outcome": "Incompatibilidad: Birth no transforma Riseheart original en Nivel 7",
+          "effect_id": "665:a05:17815:level7-normal-no-tribute",
+          "status": "PAPER_NOT_ENGINE"
+        },
+        {
+          "id": "665:A06:N207",
+          "relation_id": "A06:REL:207",
+          "kind": "NEGATIVO",
+          "guard": "Birth NO otorga Normal sin Tributos a Riseheart Nivel 4",
+          "outcome": "No promover a combo legal en este estado",
+          "effect_id": "665:a05:17815:level7-normal-no-tribute",
+          "status": "PAPER_NOT_ENGINE"
+        }
+      ]
+    }
   },
   "provenance": {
     "source": "platform-yugioh-md V40 verified historical structured editorial snapshot; A01 curated profile from approved GPT dossier",

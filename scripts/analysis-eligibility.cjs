@@ -30,7 +30,7 @@ function signature(rows) {
 function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,payload=null,
   stageId=null,authorizedSideOmissionForA01=false,
   authorizedSideOmissionForA02=false,authorizedSideOmissionForA03=false,
-  authorizedSideOmissionForA04=false,authorizedSideOmissionForA05=false}={}) {
+  authorizedSideOmissionForA04=false,authorizedSideOmissionForA05=false,authorizedSideOmissionForA06=false}={}) {
   const violations=[];
   const selected=Number(selectedDeckId);
   if(explicitlyAssigned!==true||!Number.isInteger(selected)||selected<=0)
@@ -74,12 +74,15 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
   const a05SideWaiverApplied=stageId==='A05' && authorizedSideOmissionForA05===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
+  const a06SideWaiverApplied=stageId==='A06' && authorizedSideOmissionForA06===true &&
+    explicitlyAssigned===true && selected===665 && selected===payload.deck_id &&
+    counts.main>0 && counts.extra>0 && counts.side===0;
   for(const section of required)if(counts[section]===0 &&
-    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied||a04SideWaiverApplied||a05SideWaiverApplied)))
+    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied||a04SideWaiverApplied||a05SideWaiverApplied||a06SideWaiverApplied)))
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied});
+    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied,a04SideWaiverApplied,a05SideWaiverApplied,a06SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
@@ -94,6 +97,7 @@ if(require.main===module){
     authorizedSideOmissionForA03:args.includes('--authorized-side-waiver'),
     authorizedSideOmissionForA04:args.includes('--authorized-side-waiver'),
     authorizedSideOmissionForA05:args.includes('--authorized-side-waiver'),
+    authorizedSideOmissionForA06:args.includes('--authorized-side-waiver'),
     payload:file?JSON.parse(fs.readFileSync(path.resolve(file),'utf8')):null
   });
   process.stdout.write(JSON.stringify(result,null,2)+'\n');

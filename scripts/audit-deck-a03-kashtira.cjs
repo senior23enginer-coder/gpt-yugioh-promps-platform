@@ -85,8 +85,8 @@ function audit(pkgFile,mdFile,historyFile){
  const taskIds=JSON.parse(fs.readFileSync(path.join(ROOT,'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'))
   .stages.filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(all.map(m=>m[2]),taskIds);
- A.deepEqual(all.filter(m=>m[1]==='x').map(m=>m[2]),taskIds.slice(0,16));
- A(ledger.includes('16/35')&&ledger.includes('19/35'));
+ A.deepEqual(all.filter(m=>m[1]==='x').map(m=>m[2]).slice(0,16),taskIds.slice(0,16));
+ A(ledger.includes('20/35')&&ledger.includes('15/35'));
  const section=doc.slice(doc.indexOf('## APARTADO_03 —'));
  A(section.includes('### A03.1')&&section.includes('### A03.2')&&section.includes('### A03.3'));
  const lines=section.split('### A03.2')[0].split('\n');
