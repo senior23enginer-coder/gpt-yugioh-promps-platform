@@ -1,5 +1,19 @@
 # Pyro
 
+## APARTADO_01 — Perfil A01 importable 704
+
+- **Arquetipo:** Pyro/FUEGO de Rush Duel con Skill Alchemy Blaze y Fusiones nombradas.
+- **Tipo de estrategia:** Combo-Midrange de Piro/FUEGO: acceso a materiales, Fusión y presión de combate.
+- **Estilo breve:** Alinea Piro/FUEGO y materiales boca arriba para Fusión; Alchemy Blaze busca recursos desde el turno 2 si se cumple el requisito de DEF. Salamandra y Arquero son salidas distintas.
+- **Resumen para ficha:** Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado.
+- **Cómo se juega:** Primero: desarrollar monstruos Piro/FUEGO y conservar Fusión/materiales sin prometer la Skill antes del turno 2. Segundo: si el rival controla monstruo, Hiperasistente Ember puede traer un Piro Nivel 7+ de la mano pagando su envío del Campo al Cementerio; después elegir materiales exactos para la Fusión. Medio/tardío: reusar materiales mediante Alchemy Blaze si todos los monstruos del Deck son FUEGO/Piro con DEF ≥100 y existe una carta revelable en mano. No usar materiales directamente desde la mano con la Mágica Fusión documentada.
+- **Qué vigilar:** Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

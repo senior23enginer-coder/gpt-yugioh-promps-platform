@@ -1,5 +1,19 @@
 # STATION X | Purrely | análisis A01–A10 v02 | 17-11-2026
 
+## APARTADO_01 — Perfil A01 importable 660
+
+- **Arquetipo:** Purrely / Purrelyly, Recuerdos y monstruos Xyz.
+- **Tipo de estrategia:** Control-Midrange con Xyz de Rango 2, ventaja de materiales y remate condicional.
+- **Estilo breve:** Purrely excava Recuerdos, Purrelyly recupera Magias y las Xyz pequeñas ganan materiales hasta Noir; la trampa Purrelysaltó permite una subida de Rango temporal.
+- **Resumen para ficha:** Construye Xyz de Rango 2 con Recuerdos, acumula materiales y llega a Noir solo con requisitos completos. Belleza, Rechoncho y Felicidad tienen objetivos distintos; no se garantiza el resultado de excavación de Purrely.
+- **Cómo se juega:** Primero: obtener una Xyz pequeña y proteger Recuerdos; después acumular materiales sin dar por hecha Noir. Segundo: decidir entre Belleza para negar, Felicidad para presión o ZEUS tras batalla legal. Medio/tardío: recuperar recursos con Mi Amigo Purrely únicamente al cumplirse su disparo; conservar la trampa Purrelysaltó para una salida de Rango temporal. Al usar la Trampa de ascenso temporal, comprueba el regreso al Extra en su ventana y conserva materiales de Rango dos antes de invertir en Noir.
+- **Qué vigilar:** Purrely excava sin buscar carta garantizada; la subida a Noir grande requiere los materiales exigidos. Purrelysaltó tiene retorno temporal al Extra; Ángel del Alba Kambi puede bloquear Xyz no Hada. Side real 7 copias, no completar 15.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real de Station X **660** confirmado; `NUEVO_14` es únicamente el nombre histórico de la carpeta. A06.2 incluye ahora **36/36 filas de trazabilidad por identidad** con CID, zona, copias, función, condición, referencia eventual A09 y estado de comprobación. La cobertura estructural no acredita participación causal ni jugadas reglamentariamente cerradas. El Side tiene **7 copias recibidas**, sin completar artificialmente las plazas restantes. La importación V40 consta en el registro único, sin reimportación en esta revisión.
 
 > **CRITERIO DEL INVENTARIO FÍSICO (V41):** Las cartas y sus cantidades se conservan exactamente como fueron documentadas. El análisis A01–A10 se basa en sus efectos, materiales, ventanas, zonas, cadenas y recursos; no evalúa listas externas de prohibidas o limitadas. No se atribuyen partidas ni simulaciones ejecutadas a estos análisis documentales.

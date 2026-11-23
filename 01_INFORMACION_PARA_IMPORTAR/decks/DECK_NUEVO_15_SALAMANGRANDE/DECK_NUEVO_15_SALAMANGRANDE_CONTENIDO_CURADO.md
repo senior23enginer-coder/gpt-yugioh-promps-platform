@@ -1,5 +1,19 @@
 # STATION X | Salamangrande (Salamangreat) | A01–A10 v02 | 17-11-2026
 
+## APARTADO_01 — Perfil A01 importable 673
+
+- **Arquetipo:** Salamangreat / Salamangrande (Cyberse/FUEGO).
+- **Tipo de estrategia:** Combo-Control de Enlace, recuperación y reencarnación con Santuario.
+- **Estilo breve:** Desarrolla Gacela y de Fuego hasta Links Salamangrande; Santuario permite reencarnar, Lobo recicla recursos y las opciones Link 4 dependen de materiales y ventanas.
+- **Resumen para ficha:** Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos.
+- **Cómo se juega:** Primero: alcanzar Gacela o de Fuego, pasar por Lincefogata y buscar Santuario; preparar Lobo y Rugido solo con recursos reales. Segundo: medir negaciones rivales, respetar el bloqueo FUEGO de de Fuego y elegir la vía Link que corresponda al estado. Medio/tardío: reciclar Jaguar/Gacela, practicar reencarnación con un monstruo del mismo nombre y revisar que Quimera Violeta tenga habilitador válido de Fusión.
+- **Qué vigilar:** de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real **673** confirmado; `NUEVO_15` es la denominación documental de esta carpeta. A06.2 integra **39/39 filas por identidad** con CID, fotografía, copias, función, relación condicional y rutas A09 solo como candidatas. Las 70 copias (40 Main / 15 Extra / 15 Side) permanecen intactas. Los accesos Extra, materiales, zonas y efectos deben cotejarse antes de acreditar una jugada; esta revisión no reimporta contenido a Station X.
 
 > **CRITERIO DEL INVENTARIO FÍSICO (V41):** Las cartas y sus cantidades se conservan exactamente como fueron documentadas. El análisis A01–A10 se basa en sus efectos, materiales, ventanas, zonas, cadenas y recursos; no evalúa listas externas de prohibidas o limitadas. No se atribuyen partidas ni simulaciones ejecutadas a estos análisis documentales.

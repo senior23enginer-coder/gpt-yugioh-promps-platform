@@ -1,5 +1,19 @@
 # Hero
 
+## APARTADO_01 — Perfil A01 importable 706
+
+- **Arquetipo:** Elemental HERO de Rush Duel (Skill Hero Rush Rising).
+- **Tipo de estrategia:** Combo-Midrange basado en Fusiones de Guerreros con materiales nombrados.
+- **Estilo breve:** Reúne Avian, Sparkman y Burstinatrix con Argen, Descenso de Héroe y Fusión; el Extra decide el remate. Hero Rush Rising puede recuperar Fusión pagando una carta del Campo.
+- **Resumen para ficha:** Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables.
+- **Cómo se juega:** Primero: asegurar el acceso a Avian, Sparkman y Burstinatrix, reciclar Normales por Inicio Reinicio y no anunciar Fusiones sin el Campo preparado. Segundo: usar Argen para excavar cuatro cartas y sumar hasta dos Normales si efectivamente aparecen; elegir Wingman, Heliosphere o Voltic solo cuando se disponga del procedimiento y materiales nombrados. Juego medio/tardío: Hero Rush Rising puede enviar una carta propia de Campo al Cementerio, bajar 600 ATK/DEF a un monstruo boca arriba y recuperar Fusión de Deck/Cementerio cuando se cumpla su requisito de construcción.
+- **Qué vigilar:** Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

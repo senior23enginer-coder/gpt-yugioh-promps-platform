@@ -1,5 +1,19 @@
 # Royal
 
+## APARTADO_01 — Perfil A01 importable 705
+
+- **Arquetipo:** Royal Rebel's (Rush Duel; habilidad Hard Rock Overture).
+- **Tipo de estrategia:** Combo-Midrange de Demonios/LUZ con Sacrificios de Nivel alto y control de mesa.
+- **Estilo breve:** Rush Duel de Demonios/LUZ: prepara Sacrificios para Heavy Metal, Doom Metal y Progrock; la habilidad coloca cuerpos, pero no sustituye una Invocación por Sacrificio.
+- **Resumen para ficha:** Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo.
+- **Cómo se juega:** Primero: conservar materiales y preparar monstruos de Nivel alto; usar Hard Rock Overture solo con la condición de Demonios/LUZ y un Nivel 7/8 en mano. Segundo: elegir Heavy Metal contra monstruos, Progrock contra Magias/Trampas y Doom Metal únicamente cuando puedan tributarse DOS Demonios de Nivel 7 o más. Medio/tardío: aprovechar Phaser y recuperación del Cementerio sin prometer que una Invocación Especial cumpla los requisitos de una Invocación por Sacrificio.
+- **Qué vigilar:** El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

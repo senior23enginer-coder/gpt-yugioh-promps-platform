@@ -1,5 +1,19 @@
 # Dark Magician
 
+## APARTADO_01 — Perfil A01 importable 707
+
+- **Arquetipo:** Dark Magician de Rush Duel (Skill Illusion of Execution).
+- **Tipo de estrategia:** Control-Midrange de Lanzadores de Conjuros/OSCURIDAD.
+- **Estilo breve:** Controla con Mago Oscuro, Magias que exigen su nombre y la Skill desde turno 2. Las siete cartas Extra Gaia carecen de materiales acreditados en Main.
+- **Resumen para ficha:** Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado.
+- **Cómo se juega:** Primero: preparar Mago Oscuro o un medio legítimo de acceder a él y conservar Magias condicionadas. Segundo: con Hechicero Eliminador Oscuro y su efecto resuelto, usar el nombre Mago Oscuro temporal para habilitar Mil Cuchillos o Ataque Mágico Oscuro. Medio/tardío: la Skill puede activarse una vez por Duelo desde el turno 2, excavando tres cartas sin garantizar Mágica; recuperar recursos con Mago Oscuro Sabio o Piedra de los Magos cuando existan objetivos legales.
+- **Qué vigilar:** Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; no inventar jugadas del Extra.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

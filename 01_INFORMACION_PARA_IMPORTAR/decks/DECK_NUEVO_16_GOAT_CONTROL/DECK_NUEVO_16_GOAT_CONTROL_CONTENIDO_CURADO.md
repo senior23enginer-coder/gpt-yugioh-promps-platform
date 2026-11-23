@@ -1,5 +1,19 @@
 # STATION X | GOAT Control | A01–A10 v02 | 17-11-2026
 
+## APARTADO_01 — Perfil A01 importable 699
+
+- **Arquetipo:** GOAT Control (entorno histórico de 2005).
+- **Tipo de estrategia:** Control y ventaja de cartas con FLIP, Scapegoat y Metamorfosis.
+- **Estilo breve:** Controla la mesa con FLIP y Magias rápidas; usa Scapegoat en turno rival y Metamorfosis en tu turno para Límite de los Mil Ojos. Parshath presiona y BLS cierra con recursos reales.
+- **Resumen para ficha:** Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas.
+- **Cómo se juega:** Primero: proteger mano, colocar FLIP/trampas y activar Scapegoat durante el turno rival solo con cuatro zonas libres. Segundo: castigar aperturas con Breaker, Libro de la Luna, Crossout y rutas legales de Metamorfosis. Medio/tardío: reusar Mago de la Fe, evaluar recursos LUZ/OSCURIDAD para BLS y no gastar Parshath sin comparar su ventaja frente a Balter. No activar Scapegoat y luego intentar invocar TER por Metamorfosis durante el mismo turno.
+- **Qué vigilar:** Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real **699** confirmado y formato GOAT preservado. A06.2 incorpora **39/39 identidades** con sus CID, función, cantidades y posibles relaciones. **Main 40 / Extra 14 visibles; Side no recibido**, por lo que no se equipara la ausencia de datos a una elección deliberada de Side vacío. Las vías por Metamorfosis se conservan condicionales; ningún combo o material nuevo se infiere de la matriz. La importación V40 es histórica y esta revisión no reimporta ni publica.
 
 > **CRITERIO DEL INVENTARIO FÍSICO (V41):** Las cartas y sus cantidades se conservan exactamente como fueron documentadas. El análisis A01–A10 se basa en sus efectos, materiales, ventanas, zonas, cadenas y recursos; no evalúa listas externas de prohibidas o limitadas. No se atribuyen partidas ni simulaciones ejecutadas a estos análisis documentales.
