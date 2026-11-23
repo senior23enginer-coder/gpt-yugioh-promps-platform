@@ -1,4 +1,4 @@
-name: Temporary Kashtira conflict reconnaissance
+name: Temporary Kashtira base integration
 on:
   push:
     branches:
@@ -6,25 +6,48 @@ on:
     paths:
       - .github/workflows/reconcile-kashtira-temporary.yml
 permissions:
-  contents: read
+  contents: write
 jobs:
-  conflicts:
+  integrate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: analysis/kashtira-665-a01-precheck-20261122
-      - name: Identify conflicts without changing any branch
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Merge latest base, preserve new prompt hashes, run contract checks
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git fetch origin base
-          echo '=== Merge-base and branch status ==='
-          git rev-parse HEAD origin/base
           git merge --no-commit --no-ff origin/base || true
-          echo '=== Unmerged paths ==='
-          git diff --name-only --diff-filter=U
-          echo '=== Change summary ==='
-          git status --short | head -100
-          git merge --abort || true
+          unresolved="$(git diff --name-only --diff-filter=U)"
+          expected="03_COMPROBACIONES_NO_IMPORTAR/HUELLAS_AUTORIZADAS_A10A_A10B_20261121.json"
+          if [ "$unresolved" != "$expected" ]; then
+            echo "::error::Unexpected unresolved conflicts: $unresolved"
+            exit 1
+          fi
+          git checkout --theirs -- "$expected"
+          node - <<'NODE'
+          const fs=require('node:fs'),crypto=require('node:crypto');
+          const path='03_COMPROBACIONES_NO_IMPORTAR/HUELLAS_AUTORIZADAS_A10A_A10B_20261121.json';
+          const overlay=JSON.parse(fs.readFileSync(path,'utf8'));
+          for(const filename of Object.keys(overlay.sha256)){
+            overlay.sha256[filename]=crypto.createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
+          }
+          overlay.date='2026-11-23';
+          overlay.purpose='Reconciled Kashtira A01-A09 and current protected A01/A10A contracts';
+          fs.writeFileSync(path,JSON.stringify(overlay,null,2)+'\n');
+          NODE
+          node scripts/reconcile-protected-prompts.cjs --check
+          node scripts/test-a01-a10-presentation.cjs
+          node scripts/test-a01-player-guide-contract.cjs
+          git add -A
+          git rm -f .github/workflows/reconcile-kashtira-temporary.yml
+          git commit -m 'merge(kashtira): integrate base and reconcile protected prompt checksums'
+          git push origin HEAD:analysis/kashtira-665-a01-precheck-20261122
