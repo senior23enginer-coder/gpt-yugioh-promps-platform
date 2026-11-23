@@ -22,7 +22,7 @@
 
 ## A01 — contrato T1/T2/T3 (no se declaran completas)
 
-- [ ] **A01-T1 — Identidad competitiva y condiciones de victoria.** Ya existe un perfil histórico: control del campo con destierro, Xyz Rango 7, Wraitsoth/Fenrir/Unicorn, Riseheart/Teosis/Nacimiento, Shangri-Ira/Arise-Heart. **Falta** verificar las condiciones de cada objetivo y riesgos contra cartas físicas y rutas A09 por CID. La lista de prohibidas/limitadas vigente será un control de legalidad separado; no debe suponerse validez de torneo por el simple campo `tcg_advanced`.
+- [ ] **A01-T1 — Identidad, estrategia y condiciones de victoria del deck.** Ya existe un perfil histórico: control del campo con destierro, Xyz Rango 7, Wraitsoth/Fenrir/Unicorn, Riseheart/Teosis/Nacimiento, Shangri-Ira/Arise-Heart. **Falta** verificar sus condiciones, riesgos y relaciones con las cartas físicas y rutas A09 por CID. **No evaluar banlist ni límites competitivos por copias**, porque el usuario no lo solicitó.
 - [ ] **A01-T2 — Ficha breve y resumen de usuario.** Hay un texto de presentación histórico. **Falta** contrastarlo con requisitos mecánicos, coste y efecto, y luego sincronizarlo con `record.profile` en el paquete nativo del deck. No insertar un perfil inventado en producción.
 - [ ] **A01-T3 — Propósitos con trazabilidad.** Hay referencias documentales y 16 rutas en el registro histórico. **Falta** enlazar cada propósito con `cid`, `card_id`, `effect_id` y `route_id` de un paquete aprobado, y cerrar los casos `SIN_REGLA_PORTATIL_ACREDITADA_A01` o `SIN_RUTA_A09_ACREDITADA` sin inventar identificadores.
 
@@ -37,24 +37,8 @@
 
 **Exclusiones:** no A10B, no nuevos combos, no pruebas de calculadora ni replays, no alteraciones de Memento/Crystron, no merge o despliegue. Este precheck no equivale a la publicación o importación de Kashtira 665.
 
+## Regla explícita del análisis — sin banlist
 
-## Dictamen normativo TCG Advanced — lista efectiva 19-10-2026
+La banlist y los límites de copias por torneo quedan **FUERA DEL ALCANCE** por instrucción del usuario y por el contrato vigente del prompt A03: «No evaluar banlist si no se pidió». El valor técnico `tcg_advanced` identifica la mecánica del formato; **no** autoriza una auditoría de prohibidas o limitadas, ni altera las cartas, el análisis de jugadas o los objetivos del deck.
 
-Fuente oficial actual contrastada: https://www.yugioh-card.com/en/limited/list_2026-10-19/
-
-**No reemplaza la lista física ni autoriza cambios**. La revisión distingue Main + Extra + Side (zona competitiva) y **no** suma las 19 copias de Reserva como si participaran en un torneo. Identidades y cantidades cotejadas contra el \`665.json\` histórico, no inferidas de ejemplos.
-
-| CID | Carta física | Zona/cantidad | Regla TCG Advanced 19-10-2026 | Exceso |
-|---|---|---|---|---:|
-| 18191 | Kashtira Arise-Heart | Extra ×2 | **Forbidden**, máximo 0 | **2** |
-| 14740 | Dimension Shifter | Main ×1 | **Forbidden**, máximo 0 | **1** |
-| 16386 | Baronne de Fleur | Extra ×1 | **Forbidden**, máximo 0 | **1** |
-| 15296 | Triple Tactics Talent | Main ×1 | **Forbidden**, máximo 0 | **1** |
-| 15756 | Pot of Prosperity | Main ×2 | **Limited**, máximo 1 | **1** |
-| **TOTAL** | | | | **6 copias excedentes** |
-
-**Consecuencia A01-T1:** las rutas históricas de Arise-Heart y la ruta Baronne pueden describir su mecánica documental, pero no pueden acreditarse como condición de victoria *legal para torneo Advanced* mientras esas cartas sigan en la lista física. Tampoco es válido simular que desaparecieron del Extra/Mano; el inventario permanece intacto.
-
-**Permanecen dos bloqueos independientes:** (1) \`Side=0\` frente al contrato de admisión que exige un Side real y aprobado, y (2) las **seis copias excedentes** frente al formato competitivo actual. No es posible certificar A01-T1/T2/T3 ni promover el progreso a 3/35. No se trasladó reserva, no se modificó Side ni se creó paquete nativo.
-
-**Prueba reproducible, sin realizar el análisis:** \`node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json\`. Es una prueba de puerta **negativa esperada**, no una validación de A01.
+**Único bloqueo de admisión registrado:** falta un Side físico cargado para pasar el preflight de `analysis-eligibility.cjs`. Este bloqueo es independiente de la banlist, que no debe consultarse ni utilizarse como criterio para A01–A10A.

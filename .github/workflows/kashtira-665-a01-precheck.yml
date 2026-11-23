@@ -28,5 +28,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Assert blocked A01 gate, untouched reserve, missing native package and 19 October 2026 F&L conflicts
+      - name: Assert A01 gate blocked only by unfilled Side, ignoring banlist and keeping reserve intact
         run: node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
