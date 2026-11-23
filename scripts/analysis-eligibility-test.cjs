@@ -48,6 +48,16 @@ assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingS
  stageId:'A02',authorizedSideOmissionForA02:true}).eligible,'A02 still requires assignment');
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
  stageId:'A03',authorizedSideOmissionForA02:true}).eligible,'Never waive A03');
+const explicitA03=check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A03',authorizedSideOmissionForA03:true});
+assert(explicitA03.eligible&&explicitA03.a03SideWaiverApplied&&explicitA03.counts.side===0,'A03 scoped exception must preserve Side 0');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A04',authorizedSideOmissionForA03:true}).eligible,'No A04 admission from A03');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:false,payload:a01MissingSide,
+ stageId:'A03',authorizedSideOmissionForA03:true}).eligible,'No unassigned deck A03');
+assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
+ stageId:'A03'}).eligible,'A03 default must require Side');
+
 assert(!check({selectedDeckId:13579,explicitlyAssigned:true,payload:a01MissingSide,
  stageId:'A02'}).eligible,'A02 default gate requires Side');
 

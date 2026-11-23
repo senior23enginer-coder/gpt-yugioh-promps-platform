@@ -29,7 +29,7 @@ function signature(rows) {
 }
 function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,payload=null,
   stageId=null,authorizedSideOmissionForA01=false,
-  authorizedSideOmissionForA02=false}={}) {
+  authorizedSideOmissionForA02=false,authorizedSideOmissionForA03=false}={}) {
   const violations=[];
   const selected=Number(selectedDeckId);
   if(explicitlyAssigned!==true||!Number.isInteger(selected)||selected<=0)
@@ -57,19 +57,22 @@ function validateDeckAssignment({selectedDeckId=null,explicitlyAssigned=false,pa
     counts[row.section]+=row.quantity;
   // Scoped, user-authorized structural A01/A02 exceptions; Side stays EMPTY.
   // Neither exception waives Main, Extra, row signatures, format or deck ID.
-  // A03-A10A stay behind their original inventory gate.
+  // A04-A10A stay behind their original inventory gate. A03 requires its own explicit authorization.
   const a01SideWaiverApplied=stageId==='A01' && authorizedSideOmissionForA01===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
   const a02SideWaiverApplied=stageId==='A02' && authorizedSideOmissionForA02===true &&
     explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
     counts.main>0 && counts.extra>0 && counts.side===0;
+  const a03SideWaiverApplied=stageId==='A03' && authorizedSideOmissionForA03===true &&
+    explicitlyAssigned===true && Number.isInteger(selected) && selected===payload.deck_id &&
+    counts.main>0 && counts.extra>0 && counts.side===0;
   for(const section of required)if(counts[section]===0 &&
-    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied)))
+    !(section==='side' && (a01SideWaiverApplied||a02SideWaiverApplied||a03SideWaiverApplied)))
     violations.push('REQUIRED_'+section.toUpperCase()+'_NOT_LOADED');
   // Reserve is optional; never manufacture a card to fill an empty section.
   return Object.freeze({eligible:violations.length===0,violations,
-    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied});
+    deck_id:payload.deck_id,format,counts,a01SideWaiverApplied,a02SideWaiverApplied,a03SideWaiverApplied});
 }
 if(require.main===module){
   const args=process.argv.slice(2);
@@ -81,6 +84,7 @@ if(require.main===module){
     stageId:args.find(a=>a.startsWith('--stage='))?.slice(8)||null,
     authorizedSideOmissionForA01:args.includes('--authorized-side-waiver'),
     authorizedSideOmissionForA02:args.includes('--authorized-side-waiver'),
+    authorizedSideOmissionForA03:args.includes('--authorized-side-waiver'),
     payload:file?JSON.parse(fs.readFileSync(path.resolve(file),'utf8')):null
   });
   process.stdout.write(JSON.stringify(result,null,2)+'\n');
