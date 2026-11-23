@@ -1,0 +1,78 @@
+name: Prepare Kashtira Pure 665 A01 native profile once
+on:
+  push:
+    branches: [base]
+    paths:
+      - '.github/workflows/prepare-kashtira-a01-once.yml'
+permissions:
+  contents: write
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/base'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Write canonical profile, source parity and documented player guide only
+        shell: bash
+        run: |
+          node <<'NODE'
+          'use strict';
+          const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('node:path');
+          const {validateProfile,assertSourceParity}=require('./scripts/a01-profile-contract.cjs');
+          const {validatePlayerGuide}=require('./scripts/a01-player-guide-contract.cjs');
+          const root='01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE';
+          const jsonPath=path.join(root,'datos/stationx-deck.json');
+          const mdPath=path.join(root,'DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md');
+          const data=JSON.parse(fs.readFileSync(jsonPath,'utf8')),rec=data.record,md=fs.readFileSync(mdPath,'utf8');
+          assert.equal(data.deck_id,665);assert.equal(rec.cards.length,38);assert.equal(rec.routes.length,16);assert.equal(data.inventory_binding,'deck-slots-v1');
+          if(md.includes('## APARTADO_01 — Perfil A01 importable Kashtira Pure 665'))throw Error('Already prepared');
+          const originalInventory=JSON.stringify(data.inventory),originalCards=JSON.stringify(rec.cards),originalRoutes=JSON.stringify(rec.routes);
+          rec.profile['Cómo se juega']='Primero, verifica si tu Campo está vacío antes de elegir Fenrir o Unicornio como entrada; sus procedimientos dependen de esa condición. Wraitsoth permite buscar una pieza Kashtira, y Teosis exige seleccionar un monstruo propio para traer desde Deck otro de Atributo distinto. Reúne dos Nivel siete para una Xyz solo si ambos cuerpos siguen en Campo. Shangri-Ira no bloquea zonas al Invocarse: necesita que se cumpla un destierro boca abajo válido del adversario. Segundo, usa Fenrir para retirar amenazas elegibles sin confundir destierro con negación; con dos Nivel siete, Big Eye puede tomar un monstruo rival pagando material, pero no puede atacar tras su efecto. En juego medio, Birth recupera cuerpos no Xyz del Cementerio o destierro según sus requisitos. En juego tardío, elige entre Shangri-Ira, Arise-Heart, Big Eye y ZEUS en función de materiales, restricciones y batalla previa. No supongas cartas ocultas ni daño letal automático.';
+          rec.profile['Qué vigilar']='Fenrir y Unicornio necesitan Campo propio vacío para su Invocación desde mano; Teosis y Riseheart pueden limitar el Extra a Xyz. Shangri-Ira bloquea zonas solo con el destierro boca abajo correcto. Arise-Heart necesita el procedimiento adecuado y materiales reales. Reserva no equivale a Side y no se juega desde ella.';
+          rec.a01_profile_contract='station-x-a01-profile/1';
+          rec.player_guide={schema:'station-x-player-guide/1',featured_cards:[
+          {cid:17768,role:'Iniciador de Nivel siete y destierro condicional',reason:'Fenrir puede entrar con Campo propio vacío y buscar otra pieza Kashtira; su destierro de carta rival depende de una ventana válida y no niega efectos.',when_to_use:'Cuando el Campo esté vacío o debas responder a una amenaza boca arriba con una condición legal.',related_cids:[17769,18151]},
+          {cid:17769,role:'Buscador del acceso al motor de Teosis',reason:'Unicornio genera presencia propia y puede buscar la Mágica necesaria para enlazar otro cuerpo si el objetivo sigue en el Deck.',when_to_use:'Al comenzar con Campo vacío y necesitar convertir la entrada en materiales de Nivel siete.',related_cids:[17768,17800]},
+          {cid:17800,role:'Xyz de desarrollo y control diferido de zonas',reason:'Shangri-Ira dispone de Invocación en Standby y de un bloqueo de zonas con disparador propio; ninguno ocurre automáticamente por entrar en Campo.',when_to_use:'Cuando dos cuerpos Nivel siete estén disponibles y quieras preparar una respuesta en turnos siguientes.',related_cids:[18191,18151]},
+          {cid:18191,role:'Jefe Xyz de presión sobre el Cementerio',reason:'Arise-Heart modifica el destino de cartas y puede retirar amenazas mediante materiales reales, pero no constituye una negación general de activaciones.',when_to_use:'Cuando el procedimiento de Invocación, los materiales y las restricciones del Extra permitan esa elección.',related_cids:[17800,17768]}
+          ],phases:[
+          {id:'first',title:'Ir primero: desarrollar sin bloqueo prematuro',plan:'Prioriza Wraitsoth, Unicornio o Fenrir según la mano y el Campo vacío. Accede a Teosis o Birth cuando los buscadores se hayan resuelto y verifica que conservas dos cuerpos de Nivel siete. Shangri-Ira puede preparar presión para la siguiente Standby, pero no declares zonas bloqueadas por su mera Invocación. Conserva piezas para los siguientes turnos y adapta la ruta si una búsqueda fue negada.',preconditions:'Fenrir o Unicornio deben tener Campo propio vacío; Teosis exige objetivo propio y monstruo de Atributo compatible en el Deck.',risks:'Negar el buscador puede detener la extensión y el bloqueo de Shangri-Ira exige un destierro boca abajo válido que todavía no necesariamente ocurrió.',related_route_ids:['665:A09:WRAITSOTH:SHANGRI01','665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03']},
+          {id:'second',title:'Ir segundo: retirar una amenaza concreta',plan:'Observa los monstruos rivales visibles y elige entre destierro de Fenrir y una salida Xyz. Fenrir no niega una activación por desterrar la carta que la provocó. Big Eye puede tomar control de un monstruo enemigo válido, pagando material, pero renuncia a atacar ese turno. ZEUS es una continuación condicional después de una batalla Xyz real, con sus materiales necesarios; no se trata de una salida libre sin combate.',preconditions:'Disponer de objetivos rivales elegibles, cuerpos Nivel siete reales y ausencia de restricciones incompatibles en el Extra.',risks:'Confundir destierro con negación o activar Big Eye sin recursos suficientes puede dejar al jugador sin presión ni defensa.',related_route_ids:['665:A09:FENRIR:BIRTH:BIGEYE06','665:A09:BIGEYE:BATTLE:ZEUS11']},
+          {id:'mid',title:'Juego medio: recuperar sin duplicar recursos',plan:'Revisa qué cartas están en mano, Campo, Cementerio, destierro o debajo de una Xyz antes de elegir el siguiente efecto. Birth puede devolver presencia con Kashtira no Xyz bajo sus condiciones y Big Bang puede interactuar con materiales acoplados cuando se destierra. Conserva cuerpos útiles para la siguiente Invocación y evita consumir el mismo material en rutas incompatibles. Usa la Reserva únicamente como inventario separado, no como cartas disponibles durante el duelo.',preconditions:'Birth o Big Bang deben cumplir su condición y existir un recurso recuperable en la zona específica de cada efecto.',risks:'Teosis y Riseheart pueden bloquear el uso de otras opciones del Extra; una carta acoplada no está a la vez en el Cementerio.',related_route_ids:['665:A09:FENRIR:BIRTH:SHANGRI05','665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07']},
+          {id:'late',title:'Juego tardío: escoger entre presión y control',plan:'Cuenta los cuerpos Nivel siete, materiales Xyz y cartas del Extra todavía disponibles. Shangri-Ira ofrece presencia diferida y Arise-Heart puede influir en las cartas desterradas si fue Invocado legalmente; Big Eye es alternativa para una amenaza concreta. Si una Xyz participó en batalla, ZEUS puede servir de cierre cuando se cumplen sus requisitos. Reconstruye desde Birth cuando faltan materiales y nunca anuncies victoria solo por el nombre del monstruo.',preconditions:'Comprobar materiales reales, posibles objetivos rivales, restricciones acumuladas y la batalla previa si se considera ZEUS.',risks:'Una Xyz sin materiales suficientes no ejecuta el efecto previsto y el destierro boca abajo no equivale a control automático de la partida.',related_route_ids:['665:A09:SHANGRI:STANDBY:ARISE04','665:A09:BIGEYE:BATTLE:ZEUS11']}
+          ]};
+          data.content_mode='structured';
+          assert.equal(JSON.stringify(data.inventory),originalInventory);
+          assert.equal(JSON.stringify(rec.cards),originalCards);
+          assert.equal(JSON.stringify(rec.routes),originalRoutes);
+          const names=['Arquetipo','Tipo de estrategia','Estilo breve','Resumen para ficha','Cómo se juega','Qué vigilar'];
+          let section='## APARTADO_01 — Perfil A01 importable Kashtira Pure 665\n\n';
+          for(const name of names)section+='- **'+name+':** '+rec.profile[name]+'\n';
+          section+='\n**Control:** perfil preparado para paquete individual; no certifica importación a producción ni jugadas de calculadora.\n\n## APARTADO_02 — Continuidad del estudio histórico\n\n';
+          const anchor='## CONTROL_DE_TAREAS_A01_A10';
+          assert(md.includes(anchor));
+          const newMd=md.replace(anchor,section+anchor);
+          assert.equal(validateProfile(rec).fields,6);
+          assert.equal(validatePlayerGuide(rec).featured,4);
+          assert.equal(validatePlayerGuide(rec).phases,4);
+          assert.equal(assertSourceParity(rec,newMd).fields,6);
+          fs.writeFileSync(jsonPath,JSON.stringify(data,null,2)+'\n');
+          fs.writeFileSync(mdPath,newMd);
+          console.log(JSON.stringify({ok:true,deck:665,cards:38,routes:16,profile_fields:6,featured:4,phases:4,original_inventory_preserved:true,production_imports:0}));
+          NODE
+      - name: Commit exact two vetted source files to base
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json' '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'
+          git diff --cached --quiet && exit 0
+          git commit -m "analysis(A01 Kashtira Pure 665): profile source parity and four-phase guide"
+          git push origin HEAD:base
