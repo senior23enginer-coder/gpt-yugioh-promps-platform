@@ -5,6 +5,8 @@
 **NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
 
 
+**Excepción documentada de continuidad A02:** en un deck concreto ya asignado por el usuario y al que este autorizó A01 con Side vacío, una solicitud posterior explícita de «A02» autoriza únicamente preparar/verificar identidad y transferencia estructurada con `stageId='A02'`, `authorizedSideOmissionForA02=true`. Se exige Main/Extra presentes, coincidencia exacta de IDs, CIDs, formato, filas Main/Extra/Side/Reserva, fuente versionada y prueba aislada del importador; conservar `side=0`. No crear cartas ni reclasificar Reserva. No permite A03–A10A, importación real ni A10B. No consultar banlist sin petición.
+
 ## Entrega estandarizada A02 — semántica compartida y criterios de aceptación
 
 Establece el contexto tipado que consumirán todas las etapas: deck_id, formato, versión, firma real si existe, card_id, CID, slots y Skill independiente. Prohibido fabricar identidad, huella o evidencia. A10B no se ejecuta en A02.

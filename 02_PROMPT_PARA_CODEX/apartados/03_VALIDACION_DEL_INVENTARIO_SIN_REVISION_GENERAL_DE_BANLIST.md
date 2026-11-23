@@ -5,6 +5,8 @@
 **NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
 
 
+**Excepción específica A03 para Kashtira Pure 665:** el usuario ya asignó y completó A01/A02 sin Side, y ahora solicita A03 explícitamente. Se permite auditar **solo A03** con Side vacío mediante `stageId='A03'` y `authorizedSideOmissionForA03=true`, comprobando todos los CIDs, `card_id`, Main/Extra/Side/Reserva, copia, nombre, fuente e imágenes sin cambiar una sola carta. La reserva no es Side. No se aplica banlist. La excepción **no certifica ni inicia A04–A10A**, ni modifica el importador o el formato competitivo. Fuera de esta autorización, la puerta normal sigue vigente.
+
 ## Entrega estandarizada A03 — semántica compartida y criterios de aceptación
 
 El inventario es la fuente de cardinalidad de todo el checklist: ninguna carta (incluido Side/Reserva) se omite del estudio, aunque Side/Reserva no entren automáticamente en el duelo. No evaluar banlist si no se pidió; no inventar recursos.

@@ -1,0 +1,128 @@
+name: Kashtira 665 A01–A09 documentary closure 92 resource states source CID, 90 effects, paper cases and native ZIP audits
+on:
+  push:
+    branches:
+      - 'analysis/kashtira-665-a01-precheck-20261122'
+  pull_request:
+    branches:
+      - base
+    paths:
+      - 'scripts/test-kashtira-665-a01-precheck.cjs'
+      - 'scripts/audit-deck-a01-kashtira.cjs'
+      - 'scripts/audit-deck-a02-kashtira.cjs'
+      - 'scripts/audit-deck-a03-kashtira.cjs'
+      - 'scripts/audit-deck-a04-kashtira.cjs'
+      - 'scripts/audit-deck-a05-kashtira.cjs'
+      - 'scripts/audit-deck-a06-kashtira.cjs'
+      - 'scripts/audit-deck-a07-kashtira.cjs'
+      - 'scripts/audit-deck-a08-kashtira.cjs'
+      - 'scripts/audit-deck-a09-kashtira.cjs'
+      - 'scripts/audit-deck-a09-t2-kashtira.cjs'
+      - 'scripts/audit-deck-a09-t3-kashtira.cjs'
+      - 'scripts/audit-deck-a09-t4-kashtira.cjs'
+      - 'scripts/audit-deck-a09-complete-kashtira.cjs'
+      - '02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md'
+      - 'scripts/test-deck-a04-kashtira-decode.py'
+      - '02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md'
+      - '02_PROMPT_PARA_CODEX/apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md'
+      - 'scripts/test-deck-a02-kashtira-preflight.php'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json'
+      - '02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md'
+      - 'scripts/analysis-eligibility.cjs'
+      - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md'
+      - '03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'
+      - '.github/workflows/kashtira-665-a01-precheck.yml'
+permissions:
+  contents: read
+jobs:
+  kashtira-a01-prerequisite:
+    if: github.event_name != 'pull_request' || github.head_ref == 'analysis/kashtira-665-a01-precheck-20261122'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out historical 665 inventory from Station X, read-only
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: fix/stationx-portable-reserve-665-20261122
+          path: _platform_source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify default gate and scoped A01/A02 empty-Side exceptions
+        run: node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Certify Kashtira 665 A01-T1/T2/T3 with official CID and historical route references
+        run: node scripts/audit-deck-a01-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md
+      - name: Audit Kashtira A02 native package and 44-slot provenance
+        run: node scripts/audit-deck-a02-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Certify Kashtira A03 44 physical IDs and 12 negative inventory cases
+        run: node scripts/audit-deck-a03-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Audit Kashtira A04 38 real card photos, 6 guide references, 44 provenance hashes and zone maps
+        run: node scripts/audit-deck-a04-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow for actual pixel decoding
+        run: python -m pip install Pillow==11.3.0
+      - name: Decode 44 JPEG and 19 WebP sources; verify native resolution without upscaling
+        run: python scripts/test-deck-a04-kashtira-decode.py 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE
+      - name: Certify 38 Kashtira A05 profiles, 90 sourced effects and 630 conditional paper cases
+        run: node scripts/audit-deck-a05-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Audit A06 38 identities, 21 causal links and 42 paper cases
+        run: node scripts/audit-deck-a06-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A07 90 causal clauses, 900 paper tests and 38 source CIDs
+        run: node scripts/audit-deck-a07-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A08 16 historical routes, 21 edges, 38 card roles and 48 paper contrasts
+        run: node scripts/audit-deck-a08-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A09 T1 16 historical routes, 92 steps and unresolved evidence gaps
+        run: node scripts/audit-deck-a09-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A09 T2 reference coverage and 70 missing transitions without false replay claims
+        run: node scripts/audit-deck-a09-t2-kashtira.cjs
+      - name: Audit A09 T3 520 real A07 paper-case links without inventing replay outcomes
+        run: node scripts/audit-deck-a09-t3-kashtira.cjs
+      - name: Audit A09 T4 16 sourced final boards and temporal endboards without invented spatial slots
+        run: node scripts/audit-deck-a09-t4-kashtira.cjs
+      - name: Certify A09 documentary 16 routes, 92 step states, physical UID conservation and 16 interruptions
+        run: node scripts/audit-deck-a09-complete-kashtira.cjs
+      - name: Lint native Kashtira A02 isolated PHP import test
+        run: php -l scripts/test-deck-a02-kashtira-preflight.php
+      - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing
+        run: php scripts/test-deck-a02-kashtira-preflight.php _platform_source/torneos_yugioh/includes/decks/data-http.php 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Package single Kashtira deck ZIP with authentic assets
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+          import json
+          root=Path('01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE')
+          pkg=json.loads((root/'datos/stationx-deck.json').read_text(encoding='utf-8'))
+          assert pkg['deck_id']==665
+          assert pkg['package_root']==root.name
+          items=sorted(p for p in root.rglob('*') if p.is_file())
+          assert len(items)==72, (len(items),[str(p) for p in items])
+          assert len(list((root/'imagenes/tcg').glob('*.jpg')))==44
+          assert len(list((root/'imagenes/infografias').glob('*.webp')))==15
+          assert len(list((root/'imagenes/ejemplos_combos_kashtira').glob('*.webp')))==4
+          assert len(list((root/'guias').glob('*.md')))==7
+          out=Path('Kashtira_Pure_665_A09_StationX_Import.zip')
+          with ZipFile(out,'w',ZIP_DEFLATED,compresslevel=6) as z:
+              for p in items:z.write(p,arcname=root.name+'/'+p.relative_to(root).as_posix())
+          with ZipFile(out) as z:
+              names=z.namelist()
+              assert len(names)==72 and len(set(names))==72
+              assert all(n.startswith(root.name+'/') for n in names)
+              assert z.testzip() is None
+          assert out.stat().st_size<48*1024*1024
+          print(json.dumps({'ok':True,'zip':out.name,'files':72,'size':out.stat().st_size,
+           'inventory':{'main':42,'extra':15,'side':0,'reserve':19}}))
+          PY
+      - name: Publish Kashtira A09 documentary import ZIP as CI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Kashtira-Pure-665-A09-StationX-Import
+          path: Kashtira_Pure_665_A09_StationX_Import.zip
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

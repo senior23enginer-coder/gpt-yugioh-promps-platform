@@ -5,6 +5,8 @@
 **NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
 
 
+**Autorización acotada A04:** el usuario ha asignado expresamente A04 del Kashtira Pure 665 después de completar A01–A03 con Side=0. La puerta permite `stageId='A04'` y `authorizedSideOmissionForA04=true` solo para certificar imágenes, procedencia, calidad real y zonas, manteniendo **Main 42, Extra 15, Side 0, Reserva 19** y todos los `card_id`/CID originales. No traslada Reserva, no incorpora banlist, no inicia A05–A10A. Imágenes decodificables de resolución baja se identifican como **miniaturas**, sin declararlas HD.
+
 ## Entrega estandarizada A04 — semántica compartida y criterios de aceptación
 
 Una imagen aporta identidad visual, no efectos ni legalidad. Entregar referencias reutilizables por CID para la ficha, el editor y las guías, separadas del estado físico real que observará A10B.
