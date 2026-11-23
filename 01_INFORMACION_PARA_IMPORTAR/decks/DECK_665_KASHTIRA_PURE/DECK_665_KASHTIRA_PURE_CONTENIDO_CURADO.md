@@ -1,5 +1,129 @@
 # Kashtira Pure
 
+## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
+
+**Cierre A01:** 3/35 tareas acreditadas; quedan 32/35 para A02–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas y **no habilita A02–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 40 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` todavía corresponde a A02, no se fabrica en A01.
+
+- [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
+- [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
+- [x] **A01-T3** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
+- [ ] **A02-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A02-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A02-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A03-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A03-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A03-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A04-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A04-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A04-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A05-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A05-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A05-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A05-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A06-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A06-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A06-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A06-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A07-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A07-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A07-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A07-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A08-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A08-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A08-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A08-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A09-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A09-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A09-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A09-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A10A-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A10A-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [ ] **A10A-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+
+---
+
+## APARTADO_01 — Kashtira Pure · COMPLETA (documental, sin Side inventado)
+
+### A01.1 — Arquetipo, plan de victoria, recursos, precondiciones y riesgos
+
+- **Deck_id:** 665; **Formato de mecánicas:** TCG Advanced; **Arquetipo:** Kashtira.
+- **Inventario físico inmutable:** Main 42 · Extra 15 · Side 0 · Reserva 19; **38 CIDs distintos y 40 filas por card_id**. No se considera Reserva un Side.
+- **Motor real:** Wraitsoth 18204 busca monstruo, Unicornio 17769 busca Mágica Kashtira, Fenrir 17768 busca monstruo y puede desterrar rival, Teosis 18203 trae monstruo Kashtira de Atributo distinto y Riseheart 18151 puede completar Nivel 7 para Xyz. Enlaces oficiales: [Konami CID 18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=es) · [Konami CID 17769](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=es) · [Konami CID 17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es) · [Konami CID 18203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=es) · [Konami CID 18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=es).
+- **Objetivo estratégico comprobable:** reunir dos Nivel 7 reales para Shangri-Ira 17800, que sostiene presión en Standby y puede bloquear zona cuando una carta de propiedad rival es desterrada boca abajo; elegir Arise-Heart 18191 únicamente con materiales o procedimiento alternativo legal tras una activación válida de Shangri-Ira. Referencias: [Konami CID 17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=es) · [Konami CID 18191](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=es).
+- **Amenazas situacionales:** Fenrir destierra carta boca arriba en la ventana correcta sin negar activación; Ojo Grande 9861 puede apropiarse de un monstruo rival gastando un material y sin atacar ese turno; Nacimiento 17815 y Big Bang 18220 recuperan únicamente recursos elegibles. Referencias: [Konami CID 9861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=es) · [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=es) · [Konami CID 18220](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=es).
+- **Riesgos verificados:** (a) no invocar libremente Fenrir y luego Unicornio si se perdió el Campo propio vacío; (b) Teosis/Riseheart limitan el Extra a Xyz; (c) dos materiales acoplados no son dos monstruos independientes; (d) Shangri-Ira no bloquea al ser Invocada sin disparador; (e) Arise-Heart no destierra por Efecto Rápido sin tres materiales; (f) rival, cadenas y robos desconocidos no se adivinan.
+- **Condición de victoria:** ventaja de recursos y ataques tras limitar rutas rivales mediante presión progresiva y destierros reales. No se garantiza OTK, control total, bloqueo universal ni respuesta rival predeterminada.
+- **Evidencia:** Konami CID + IDs nativos del inventario + rutas históricas enlazadas en A01.3. No se certifica A05/A07/A09 por completar A01.
+
+### A01.2 — Perfil específico y plan completo para ficha de Station X
+
+- **Arquetipo:** Kashtira
+- **Tipo de estrategia:** Control de recursos y zonas mediante destierro y Xyz de Rango 7
+- **Estilo breve:** Kashtira enlaza buscadores y monstruos de Nivel 7 para desplegar Xyz que destierran amenazas, presionan recursos y condicionan las zonas rivales.
+- **Resumen para ficha:** Con Wraitsoth, Unicornio o Fenrir accede a Teosis y Nacimiento, reúne dos Nivel 7 para Shangri-Ira y elige entre presión por destierro, Arise-Heart o retirada situacional según materiales y ventanas.
+- **Qué vigilar:** Fenrir y Unicornio se Invocan libremente solo con Campo propio vacío; Teosis y Riseheart restringen el Extra a Xyz; Shangri-Ira necesita destierro boca abajo real para bloquear zonas; Arise-Heart requiere materiales y ventana legal.
+- **Cartas representativas:** Wraitsoth, Fenrir, Unicornio, Teosis, Riseheart, Shangri-Ira, Arise-Heart.
+
+**Cómo se juega:**
+
+**Primero.** Comienza valorando si controlas monstruos: Fenrir y Unicornio pueden Invocarse de modo especial desde la mano por su propio procedimiento solo cuando no controlas ninguno. Si Wraitsoth está disponible, su activación puede buscar un monstruo Kashtira. Con Unicornio activo, busca Teosis durante Main Phase; Teosis necesita seleccionar un Kashtira propio y traer desde Deck otro con Atributo diferente en Defensa. La meta documentada de Wraitsoth → Unicornio → Teosis → Fenrir es Xyz Shangri-Ira con dos materiales; no promete bloquear zonas al invocarlo.
+
+**Elección de campo final.** Si el plan exige presión diferida, Shangri-Ira puede Invocar un Kashtira del Deck en Standby. Bloquea una zona sin uso solo tras el destierro boca abajo de una carta que pertenezca y posea el rival, con Shangri-Ira boca arriba. Riseheart puede desterrar un Kashtira del Deck, desterrar tres cartas superiores rivales y pasar a Nivel 7 si se cumple su condición; al Invocarlo de forma especial desde la mano restringe el Extra a Xyz. Arise-Heart usa tres Nivel 7 o su procedimiento alternativo después de que un efecto de Shangri-Ira se haya activado con éxito ese turno. Para su Efecto Rápido de destierro debe desacoplar tres materiales reales. No se cuentan materiales Xyz simultáneamente como cuerpos libres.
+
+**Segundo.** Si el rival presenta una amenaza, Fenrir puede desterrar boca abajo una carta boca arriba rival al declarar ataque o en respuesta a una activación de efecto de monstruo rival; esto no niega esa activación. Con dos Nivel 7 y un monstruo enemigo elegible, Número 11: Ojo Grande ofrece control del monstruo seleccionado, a cambio de un material y de no poder atacar él mismo ese turno. Dark Armed puede retirar una carta concreta por su efecto documentado; no debe recomendarse como limpieza de campo universal. Si un Xyz realmente ha batallado y la línea lo admite, ZEUS es una continuación posible, no un resultado automático.
+
+**Medio y tardío.** Nacimiento permite Invocar Normal un Nivel 7 sin Sacrificio y puede recuperar un Kashtira no Xyz desde Cementerio o destierro durante tu Main Phase. Si Big Bang es desterrada y hay un Kashtira acoplado a un Xyz propio, puede recuperarlo a mano y luego Invocarlo. Es importante comprobar dónde está cada copia: un monstruo debajo de un Xyz no está simultáneamente en el Cementerio, la mano ni como cuerpo libre. No declarar recuperación si el destino u objetivo no existe.
+
+**Gestión y riesgos.** Respeta el uso por turno de los buscadores y el orden de la primera Invocación cuando el Campo está vacío. Teosis y Riseheart pueden limitar el Extra a Xyz; usar antes una opción Link/Sincronía puede ser incompatible según el orden. Pot of Prosperity consume cartas del Extra y reduce rutas alternativas. No inferir cartas de la mano, objetivos del rival, daño, bloqueos ni resultados de una respuesta. Las cartas de Reserva (19) no están disponibles automáticamente en un duelo: Side continúa en cero por decisión de conservar el inventario.
+
+**Condición de victoria realista.** Este mazo pretende privar al adversario de recursos y de líneas útiles mediante destierros con disparadores válidos, presión progresiva de Shangri-Ira y Arise-Heart, y ataques cuando el tablero lo permita; puede elegir una salida de retirada con Big Eye, Dark Armed o ZEUS según la situación. Ninguna pieza asegura la victoria por sí sola y los 16 ID A09 heredados son rutas documentales, no replays del motor.
+
+**Control de presentación A01-T2:** Estilo breve 145/190 caracteres; Resumen para ficha 199/250. El plan detallado se ubica en sección expandible y no sustituye el resumen de portada. `record.profile` será actualizado en A02 cuando se disponga del ZIP base verificable del usuario; el registro histórico V40 no debe reescribirse ni suplantar al paquete de exportación actual. La falta de ese paquete no crea una fuente o un hash imaginarios en A01.
+
+### A01.3 — Relación de objetivos, CIDs, card_id, referencias de efecto y rutas existentes
+
+**Las referencias `665:A01:EF:...` son identificadores documentales nuevos, respaldados por el texto de carta oficial, no PSCT A05 ejecutable.** No se les atribuye ser `record.calculator.rules` ni efectos portátiles validados; A05 los conectará a un `effect_id` tipado cuando se analice. Cada `route_id` siguiente ya existe exactamente en el registro histórico V40, pero A01 no declara que se haya reejecutado esa jugada.
+
+**Registro de referencias de efecto (CID y operación concreta):**
+
+| effect_ref A01 (no ejecutable) | CID / card_id real | Descripción y ventana | Fuente oficial |
+|---|---|---|---|
+| `665:A01:EF:18204:BUSQUEDA` | 18204 / 18204 / card_id 100 | Al activar Wraitsoth, búsqueda de un monstruo Kashtira del Deck. **ACTIVACION_CAMPO** | [Konami CID 18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=es) |
+| `665:A01:EF:17769:BUSCAR_MAGICA` | 17769 / 17769 / card_id 93 | Unicornio añade una Mágica Kashtira desde Deck en Main Phase. **MAIN** | [Konami CID 17769](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=es) |
+| `665:A01:EF:18203:ATRIBUTO_DISTINTO` | 18203 / 18203 / card_id 102 | Teosis Invoca un Kashtira de Atributo diferente en Defensa y restringe Extra a Xyz. **MAIN** | [Konami CID 18203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=es) |
+| `665:A01:EF:17768:DESTIERRO_RIVAL` | 17768 / 17768 / card_id 92 | Fenrir ante ataque propio o efecto de monstruo rival selecciona carta boca arriba rival y la destierra boca abajo, sin negar el efecto original. **DISPARADOR** | [Konami CID 17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es) |
+| `665:A01:EF:18151:DESTERRAR_TRES` | 18151 / 18151 / card_id 94 | Riseheart destierra un Kashtira del Deck, después tres cartas superiores rivales boca abajo, pudiendo pasar a Nivel 7. **MAIN** | [Konami CID 18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=es) |
+| `665:A01:EF:17800:BLOQUEAR_ZONA` | 17800 / 17800 / card_id 113 | Shangri-Ira bloquea zona no usada solamente tras destierro boca abajo de carta que pertenezca y posea rival. **DISPARADOR** | [Konami CID 17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=es) |
+| `665:A01:EF:17800:INVOCAR_STANDBY` | 17800 / 17800 / card_id 113 | Shangri-Ira puede Invocar un Kashtira del Deck durante Standby Phase. **STANDBY** | [Konami CID 17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=es) |
+| `665:A01:EF:18191:REEMPLAZO_CEMENTERIO` | 18191 / 18191 / card_id 114 | Arise-Heart destierra cartas que debieran ser enviadas al Cementerio, mientras aplique su efecto. **CONTINUO** | [Konami CID 18191](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=es) |
+| `665:A01:EF:18191:DESTIERRO_TRES_MATERIALES` | 18191 / 18191 / card_id 114 | Arise-Heart desacopla tres materiales y selecciona una carta en Campo para desterrarla boca abajo. **RAPIDO** | [Konami CID 18191](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=es) |
+| `665:A01:EF:13974:DESTRUIR_CARTA` | 13974 / 13974 / card_id 117 | Dark Armed Xyz desacopla material para destruir carta rival seleccionada, con condiciones posteriores. **MAIN** | [Konami CID 13974](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=es) |
+| `665:A01:EF:17815:NORMAL_NIVEL_SIETE` | 17815 / 17815 / card_id 101 | Nacimiento permite la Invocación Normal de Nivel 7 sin Sacrificio. **CONTINUO** | [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=es) |
+| `665:A01:EF:17815:REVIVIR_KASHTIRA` | 17815 / 17815 / card_id 101 | Nacimiento Invoca un Kashtira no Xyz desde Cementerio o destierro durante Main Phase. **MAIN** | [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=es) |
+| `665:A01:EF:9861:TOMAR_CONTROL` | 9861 / 9861 / card_id 115 | Ojo Grande desacopla un material, toma control del monstruo rival objetivo y no puede atacar ese turno. **MAIN** | [Konami CID 9861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=es) |
+| `665:A01:EF:18220:RECUPERAR_MATERIAL` | 18220 / 18220 / card_id 112 | Big Bang desterrada puede llevar un monstruo Kashtira acoplado a Xyz propio a la mano y luego invocarlo. **DISPARADOR** | [Konami CID 18220](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=es) |
+| `665:A01:EF:15524:RETIRAR_CAMPO` | 15524 / 15524 / card_id 116 | ZEUS desacopla dos materiales para enviar las demás cartas del Campo al Cementerio, sujeto a reemplazos y respuestas. **RAPIDO** | [Konami CID 15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es) |
+
+**Matriz causal de seis propósitos (no nuevas rutas):**
+
+| Propósito A01 | Precondición o estado inicial | CIDs y card_id físicos | Effect_ref documentales | Route_id histórico existente | Resultado útil y límite | Fuentes oficiales / A06 |
+|---|---|---|---|---|---|---|
+| `A01-R01` — Acceso y desarrollo de Nivel 7 | Campo propio vacío y búsqueda no negada; Teosis debe tener objetivo propio y Kashtira del Deck de Atributo diferente. | 18204 / card_id 100; 17769 / card_id 93; 18203 / card_id 102; 17768 / card_id 92 | `665:A01:EF:18204:BUSQUEDA`, `665:A01:EF:17769:BUSCAR_MAGICA`, `665:A01:EF:18203:ATRIBUTO_DISTINTO` | `665:A09:WRAITSOTH:SHANGRI01` | Dos cuerpos Nivel 7 producen Shangri-Ira; no se atribuye bloqueo instantáneo de zonas. | [Konami CID 18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=es) · [Konami CID 17769](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=es) · `A06:REL:017` |
+| `A01-R02` — Presión por destierro y bloqueo de zonas | Riseheart debe poder desterrar desde Deck; Shangri-Ira boca arriba y destierro boca abajo de propiedad rival para elegir zona no usada. | 18151 / card_id 94; 17800 / card_id 113; 18191 / card_id 114 | `665:A01:EF:18151:DESTERRAR_TRES`, `665:A01:EF:17800:BLOQUEAR_ZONA`, `665:A01:EF:18191:REEMPLAZO_CEMENTERIO` | `665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08` | El bloqueo de Shangri-Ira depende de su disparador; Arise-Heart no entra automáticamente y su destierro rápido requiere tres materiales. | [Konami CID 18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=es) · [Konami CID 17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=es) · `A06:REL:019` |
+| `A01-R03` — Retirada puntual de una amenaza rival | Fenrir requiere ataque propio o activación de efecto de monstruo rival; Dark Armed requiere dos Nivel 7 y objetivo legal. | 17768 / card_id 92; 13974 / card_id 117; 17815 / card_id 101 | `665:A01:EF:17768:DESTIERRO_RIVAL`, `665:A01:EF:13974:DESTRUIR_CARTA`, `665:A01:EF:17815:NORMAL_NIVEL_SIETE` | `665:A09:FENRIR:BIRTH:DARKARMED10` | Fenrir destierra pero no niega la cadena; Dark Armed no es limpieza completa ni ataque garantizado. | [Konami CID 17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es) · [Konami CID 13974](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=es) · `A06:REL:018` |
+| `A01-R04` — Tomar control de un monstruo rival | Con dos cuerpos Nivel 7 reales y un monstruo rival seleccionable; Big Eye debe disponer de material. | 17768 / card_id 92; 17815 / card_id 101; 9861 / card_id 115 | `665:A01:EF:17815:NORMAL_NIVEL_SIETE`, `665:A01:EF:9861:TOMAR_CONTROL` | `665:A09:FENRIR:BIRTH:BIGEYE06` | Big Eye no puede atacar en el turno en que activa su efecto; no se supone objetivo enemigo. | [Konami CID 17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=es) · [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=es) · `A06:REL:020` |
+| `A01-R05` — Reciclar recursos y sostener el motor | Nacimiento boca arriba con Kashtira no Xyz en GY/destierro; Big Bang debe desterrarse y haber material Kashtira en Xyz propio. | 17815 / card_id 101; 18220 / card_id 112; 17800 / card_id 113; 18151 / card_id 94 | `665:A01:EF:17815:REVIVIR_KASHTIRA`, `665:A01:EF:18220:RECUPERAR_MATERIAL`, `665:A01:EF:17800:INVOCAR_STANDBY` | `665:A09:FENRIR:BIRTH:BIGBANG:ARISE14` | Big Bang no trae del Deck ni crea copias; Shangri-Ira solo invoca en Standby si resuelve. | [Konami CID 17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=es) · [Konami CID 18220](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=es) · `A06:REL:133` |
+| `A01-R06` — Retirar un tablero tras combate Xyz | Un Monstruo Xyz debe haber batallado; ZEUS ha de estar disponible y conservar al menos dos materiales para resolver. | 9861 / card_id 115; 15524 / card_id 116; 17768 / card_id 92 | `665:A01:EF:9861:TOMAR_CONTROL`, `665:A01:EF:15524:RETIRAR_CAMPO` | `665:A09:BIGEYE:BATTLE:ZEUS11` | ZEUS necesita condiciones de Invocación y pago real; no se anticipan respuestas ni cartas desconocidas rivales. | [Konami CID 9861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=es) · [Konami CID 15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es) · `A06:REL:020` |
+
+**Regla de resultado:** una ruta escrita con sus requisitos no equivale a replay, ejecución de calculadora ni garantía de victoria. A01 se cierra solo como perfil y trazabilidad documental; A05/A06/A07/A08/A09/A10A deben conservar sus pendientes independientes.
+
+**A01-T1 [x]:** fuentes Konami y CIDs, inventario físico, condiciones de victoria y riesgos documentados en A01.1.
+
+**A01-T2 [x]:** perfil de lectura breve, resumen y plan desarrollado con condiciones reales y límites en A01.2.
+
+**A01-T3 [x]:** seis propósitos ↔ 15 referencias de efecto por CID ↔ 16 rutas existentes (las seis enlazadas son reales), card_id y A06 previas en A01.3; ninguna nueva secuencia fabricada.
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 
@@ -14,12 +138,14 @@
 
 ## PERFIL BREVE — CONOCE TU DECK
 
-- **Arquetipo:** Kashtira.
-- **Tipo de estrategia:** control del campo mediante destierro y monstruos Xyz de Rango 7.
-- **Estilo de juego:** presión progresiva, gestión de zonas y selección de recursos según la mano.
-- **Cómo se juega:** Wraitsoth, Fenrir y Unicorn buscan piezas del motor; Teosis, Nacimiento y Riseheart ayudan a desarrollar monstruos de Nivel 7 para elegir una salida Xyz. Los efectos de bloqueo y destierro ocurren solo cuando se cumplen sus disparadores.
+- **Arquetipo:** Kashtira
+- **Tipo de estrategia:** Control de recursos y zonas mediante destierro y Xyz de Rango 7
+- **Estilo de juego:** Kashtira enlaza buscadores y monstruos de Nivel 7 para desplegar Xyz que destierran amenazas, presionan recursos y condicionan las zonas rivales.
+- **Estilo breve:** Kashtira enlaza buscadores y monstruos de Nivel 7 para desplegar Xyz que destierran amenazas, presionan recursos y condicionan las zonas rivales.
+- **Resumen para ficha:** Con Wraitsoth, Unicornio o Fenrir accede a Teosis y Nacimiento, reúne dos Nivel 7 para Shangri-Ira y elige entre presión por destierro, Arise-Heart o retirada situacional según materiales y ventanas.
+- **Cómo se juega:** el plan de juego completo y verificable está en la sección `A01.2` superior, con todos sus pasos tácticos y límites; no se reemplaza por un resumen genérico.
 - **Cartas representativas:** Wraitsoth, Fenrir, Unicorn, Riseheart, Shangri-Ira y Arise-Heart.
-- **Qué vigilar:** restricciones del Extra a Xyz, materiales y momento real del destierro. No prometer bloqueo de zonas automático.
+- **Qué vigilar:** Fenrir y Unicornio se Invocan libremente solo con Campo propio vacío; Teosis y Riseheart restringen el Extra a Xyz; Shangri-Ira necesita destierro boca abajo real para bloquear zonas; Arise-Heart requiere materiales y ventana legal.
 
 ### A02 — Decisión táctica por mano y ventana (síntesis del perfil)
 
@@ -1764,7 +1890,7 @@ Las siguientes filas son **relaciones funcionales**, no secuencias certificadas 
 
 | Apartado | Estado del corte | Resultado material comprobado | Pendiente específico para cerrar |
 |---|---|---|---|
-| **01** Rol y propósito | DOCUMENTADO; AUDITORÍA PARCIAL | Perfil y plan de juego anteriores conservados | Contrastar condiciones de victoria y sus cartas contra A09 y amenazas reales |
+| **01** Rol y propósito | **COMPLETA (22-11-2026, excepción A01 autorizada)** | Perfil A01.1–A01.3, seis objetivos trazados a CID/route_id y evidencia Konami | No hay tarea A01 abierta; el paquete de importación corresponde a A02 |
 | **02** Recepción e identidad | IDENTIDAD COTEJADA; AUDITORÍA PARCIAL | Deck ID, formato y cantidades confrontadas con inventario confirmado | Corroborar datos de equipo/versión cuando no consten; no cambiar inventario |
 | **03** Inventario | COINCIDE ESTRUCTURALMENTE; AUDITORÍA PARCIAL | 38/38 fichas visibles; zonas A05: Main 42/42, Extra 15/15, Side 0/0, Reserva 19/19 | Cotejar requisitos mecánicos individuales y excepciones de identidad sin revisión general de banlist |
 | **04** Fuentes y fotografías | COINCIDENCIA DE ARCHIVOS; AUDITORÍA PARCIAL | 38/38 imágenes CID decodificables; 38/38 fichas con URL de fuente | Cotejar texto vigente completo y fotografía correcta en fuente oficial; existencia de archivo no equivale a identidad visual validada |
