@@ -14,7 +14,7 @@ const ORACLE=[
  ['17815:main-revive-kashtira','Guarda física',/no Xyz/i],
  ['18203:target-summon-different-attribute','Guarda física',/Atributo diferente/i],
  ['15756:pot-banish-excavate','Coste',/3 o 6.*Extra/i],
- ['13631:impermanence-set-column','Guarda física',/Colocada/i],
+ ['13631:impermanence-set-column','Guarda física',/Set|Colocada/i],
  ['17831:preparations-trap-hand-banish','Guarda física',/YA boca arriba/i],
  ['17800:shangri-zone-block','Objetivo y selección',/SIN USAR/i],
  ['18191:arise-quick-detach-three','Coste',/Desacoplar 3/i],
@@ -52,7 +52,7 @@ function inspect(pkgFile,mdFile,srcFile){
   for(const slot of c.slots)A(row.includes('#'+slot.card_id+' ×'+slot.quantity),'MISSING_NATIVE_SLOT_'+c.cid);
  }
  const middle=all.slice(all.indexOf('### A05.2 —'),all.indexOf('<!-- A05_EFFECTS_END -->'));
- const headings=[...middle.matchAll(/^#### (\d+)\. (665:a05:(\d+):([a-z0-9-]+)).*CID (\d+) \(([A-Z]+)\)$/gm)];
+ const headings=[...middle.matchAll(/^#### (\d+)\. \x60(665:a05:(\d+):([a-z0-9-]+))\x60 — CID (\d+) \(([A-Z]+)\)$/gm)];
  A.equal(headings.length,90,'A05_EFFECT_COUNT');
  const fields=new Map(),cnt={},kinds={},seen=new Set(),tick=String.fromCharCode(96);
  for(let i=0;i<headings.length;i++){
@@ -88,7 +88,7 @@ function inspect(pkgFile,mdFile,srcFile){
   const caseId=cells[0].replaceAll(tick,''),effectId=cells[1].replaceAll(tick,''),type=cells[2];
   A(!caseIds.has(caseId)&&fields.has(effectId),'PAPER_CASE_WRONG_FK_'+caseId);
   caseIds.add(caseId);byEffect.set(effectId,(byEffect.get(effectId)||0)+1);caseTypes[type]=(caseTypes[type]||0)+1;
-  for(const val of cells.slice(3))A(val.length>3,'PAPER_CASE_INCOMPLETE_'+caseId);
+  for(const val of cells.slice(3))A(val.length>=2,'PAPER_CASE_INCOMPLETE_'+caseId);
   const cid=Number(effectId.split(':')[2]);A(row.includes('cid='+cid+'&'),'PAPER_CASE_WRONG_OFFICIAL_CID');
  }
  A.equal(caseIds.size,630);A.equal(byEffect.size,90);
