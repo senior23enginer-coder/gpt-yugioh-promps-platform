@@ -1,0 +1,66 @@
+name: Build certified Memento 671 Station X import ZIP
+on:
+  push:
+    branches:
+      - ops/memento-671-import-zip-20261123
+    paths:
+      - .github/workflows/build-memento-671-import-zip-temporary.yml
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate actual assigned Memento profile and Markdown/JSON parity
+        run: node scripts/test-a01-player-guide-contract.cjs
+      - name: Zip precisely one Memento folder; verify exact schema and inventory
+        run: |
+          python - <<'PY'
+          import json, pathlib, zipfile, hashlib
+          root=pathlib.Path('01_INFORMACION_PARA_IMPORTAR/decks')
+          folder=root/'DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO'
+          p=folder/'datos/stationx-deck.json'
+          pkg=json.loads(p.read_text('utf-8'))
+          assert pkg['deck_id']==671 and pkg['record']['deck_id']==671
+          assert pkg['schema']=='station-x-deck-package/1'
+          assert pkg['record']['schema']=='station-x-curated-v62'
+          assert pkg['record']['format']=='tcg_advanced'
+          assert pkg['record']['a01_profile_contract']=='station-x-a01-profile/1'
+          assert pkg['record']['player_guide']['schema']=='station-x-player-guide/1'
+          assert pkg['content_mode']=='structured' and pkg['inventory_binding']=='deck-slots-v1'
+          assert len(pkg['record']['cards'])==39 and len(pkg['record']['routes'])==12
+          sections={'main':0,'extra':0,'side':0,'reserve':0}
+          for card in pkg['record']['cards']:
+            for slot in card['slots']:
+              sections[slot['section']]+=slot['quantity']
+          assert sections=={'main':41,'extra':15,'side':14,'reserve':0},sections
+          files=sorted(x for x in folder.rglob('*') if x.is_file())
+          assert all(x.suffix.lower() in ('.json','.md','.png','.jpg','.jpeg','.webp','.gif','.html','.svg','.txt') for x in files)
+          target=pathlib.Path('outputs/Memento-671-StationX-A01T5.zip')
+          target.parent.mkdir(exist_ok=True)
+          with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
+            for f in files:
+              z.write(f,f.relative_to(root).as_posix())
+          with zipfile.ZipFile(target) as z:
+            assert z.testzip() is None
+            names=z.namelist()
+            assert len(names)==len(files)
+            assert all(x.startswith(folder.name+'/') for x in names)
+            assert folder.name+'/datos/stationx-deck.json' in names
+          sha=hashlib.sha256(target.read_bytes()).hexdigest()
+          result={'deck_id':671,'name':'Memento','file_count':len(files),'sha256':sha,'size_bytes':target.stat().st_size,'inventory':sections,'cards':39,'routes':12,'import_mode':'structured','a01_t5':'ISOLATED_CERTIFIED','production_imported':False}
+          pathlib.Path('outputs/Memento-671-import-manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n','utf-8')
+          print(json.dumps(result,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Memento-671-StationX-A01T5-Import
+          path: |
+            outputs/Memento-671-StationX-A01T5.zip
+            outputs/Memento-671-import-manifest.json
+          if-no-files-found: error
+          retention-days: 30
