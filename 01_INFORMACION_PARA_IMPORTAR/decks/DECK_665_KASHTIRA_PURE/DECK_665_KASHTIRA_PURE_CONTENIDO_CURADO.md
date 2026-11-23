@@ -6615,3 +6615,453 @@ La siguiente tabla conserva **38 CID distintos, 44 filas Station X y 76 copias**
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en
 - **Casos de papel:** `665:A05:P031`, `665:A05:N031C`, `665:A05:N031Z`, `665:A05:N031W`, `665:A05:N031R`, `665:A05:N031U`, `665:A05:N031N`; su resultado es condicional hasta revisión de A05-T4.
 - **Estado:** DOCUMENTADO_CON_FUENTE · MATRIZ_DE_CASOS_PENDIENTE_DE_REVISION · NO_EJECUTABLE
+
+#### 32. `665:a05:15756:pot-banish-excavate` — CID 15756 (ACT)
+- **Actor / zona:** CID 15756 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia; Pot disponible con 3 o 6 Extra disponibles
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Desterrar 3 o 6 cartas del Extra boca abajo al activar
+- **Objetivo y selección:** Elegir carta entre las excavadas, sin target al activar
+- **Resolución y estado posterior:** Excavar 3 o 6 superiores del Deck, añadir 1 a mano, restantes abajo; daño rival se reduce a mitad
+- **Límite / cadena:** Una por turno; no robar por efectos turno de activación. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Una por turno; no robar por efectos turno de activación
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P032`, `665:A05:N032C`, `665:A05:N032Z`, `665:A05:N032W`, `665:A05:N032R`, `665:A05:N032U`, `665:A05:N032N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 33. `665:a05:12464:cosmic-banish-spelltrap` — CID 12464 (QCK)
+- **Actor / zona:** CID 12464 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Ventana rápida compatible con guarda
+- **Guarda física:** Ventana de Mágica Rápida y al menos 1000 LP
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Pagar 1000 LP al activar
+- **Objetivo y selección:** Seleccionar 1 Mágica o Trampa en el Campo
+- **Resolución y estado posterior:** Desterrar la Mágica o Trampa sin destruirla
+- **Límite / cadena:** No se dirige a monstruos y no inventar LP. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No se dirige a monstruos y no inventar LP
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P033`, `665:A05:N033C`, `665:A05:N033Z`, `665:A05:N033W`, `665:A05:N033R`, `665:A05:N033U`, `665:A05:N033N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 34. `665:a05:9352:lance-protect-faceup` — CID 9352 (QCK)
+- **Actor / zona:** CID 9352 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Ventana rápida compatible con guarda
+- **Guarda física:** Ventana de Mágica Rápida y monstruo boca arriba seleccionable
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar 1 monstruo boca arriba
+- **Resolución y estado posterior:** Pierde 800 ATK y no le afectan otras Magias/Trampas ese turno
+- **Límite / cadena:** No niega efectos de monstruos. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No niega efectos de monstruos
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P034`, `665:A05:N034C`, `665:A05:N034Z`, `665:A05:N034W`, `665:A05:N034R`, `665:A05:N034U`, `665:A05:N034N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 35. `665:a05:15296:talent-draw-two` — CID 15296 (ACT)
+- **Actor / zona:** CID 15296 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia; rival activó efecto monstruo en tu Main este turno
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA modo robo, no target
+- **Resolución y estado posterior:** Robar 2 cartas del Deck propio
+- **Límite / cadena:** Talent una por turno, sólo un modo por activación. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Talent una por turno, sólo un modo por activación
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P035`, `665:A05:N035C`, `665:A05:N035Z`, `665:A05:N035W`, `665:A05:N035R`, `665:A05:N035U`, `665:A05:N035N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 36. `665:a05:15296:talent-control-monster` — CID 15296 (ACT)
+- **Actor / zona:** CID 15296 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia tras efecto monstruo rival y monstruo enemigo elegible
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar monstruo rival
+- **Resolución y estado posterior:** Tomar control del monstruo objetivo hasta End Phase
+- **Límite / cadena:** Talent una por turno, sólo un modo. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Talent una por turno, sólo un modo
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P036`, `665:A05:N036C`, `665:A05:N036Z`, `665:A05:N036W`, `665:A05:N036R`, `665:A05:N036U`, `665:A05:N036N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 37. `665:a05:15296:talent-random-shuffle-hand` — CID 15296 (ACT)
+- **Actor / zona:** CID 15296 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia tras efecto monstruo rival con cartas en mano contraria
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Mirar mano rival y elegir carta aleatoria
+- **Resolución y estado posterior:** Barajar 1 carta aleatoria en Deck rival
+- **Límite / cadena:** No conocer mano oculta antes de resolución. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No conocer mano oculta antes de resolución
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P037`, `665:A05:N037C`, `665:A05:N037Z`, `665:A05:N037W`, `665:A05:N037R`, `665:A05:N037U`, `665:A05:N037N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 38. `665:a05:13631:impermanence-negate-monster` — CID 13631 (QCK)
+- **Actor / zona:** CID 13631 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Ventana rápida compatible con guarda
+- **Guarda física:** Ventana de Trampa; desde mano sólo si controlas cero cartas
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar monstruo enemigo boca arriba
+- **Resolución y estado posterior:** Negar efectos del monstruo seleccionado hasta fin del turno
+- **Límite / cadena:** No atribuir negación de la activación completa. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No atribuir negación de la activación completa
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P038`, `665:A05:N038C`, `665:A05:N038Z`, `665:A05:N038W`, `665:A05:N038R`, `665:A05:N038U`, `665:A05:N038N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 39. `665:a05:13631:impermanence-set-column` — CID 13631 (REP)
+- **Actor / zona:** CID 13631 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Aplicación de estado continuo, no nueva activación
+- **Guarda física:** Solo si Impermanence se activó Colocada y resolvió
+- **Disparador:** Reemplazo de evento/resultado
+- **Coste:** NO_APLICA consecuencia de efecto anterior
+- **Objetivo y selección:** Mágicas y Trampas de la columna correspondiente
+- **Resolución y estado posterior:** Negar efectos de otras Mágicas/Trampas en esa columna ese turno
+- **Límite / cadena:** No es nueva activación ni aplica desde mano. No inicia cadena independiente.
+- **Restricciones y recursos:** No es nueva activación ni aplica desde mano
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P039`, `665:A05:N039C`, `665:A05:N039Z`, `665:A05:N039W`, `665:A05:N039R`, `665:A05:N039U`, `665:A05:N039N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 40. `665:a05:17831:preparations-recover-kashtira` — CID 17831 (ACT)
+- **Actor / zona:** CID 17831 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Trampa Continua boca arriba durante cualquier turno con Kashtira en mano o destierro
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir monstruo Kashtira propio de mano o destierro
+- **Resolución y estado posterior:** Invocar Especial el Kashtira seleccionado
+- **Límite / cadena:** Cada efecto de Preparations una vez por turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Cada efecto de Preparations una vez por turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P040`, `665:A05:N040C`, `665:A05:N040Z`, `665:A05:N040W`, `665:A05:N040R`, `665:A05:N040U`, `665:A05:N040N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 41. `665:a05:17831:preparations-trap-hand-banish` — CID 17831 (TRG)
+- **Actor / zona:** CID 17831 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Rival activa Trampa mientras Preparations ya boca arriba y controlas Kashtira
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Mirar mano rival y escoger 1 carta
+- **Resolución y estado posterior:** Desterrar carta de mano rival boca abajo
+- **Límite / cadena:** Cada efecto una vez por turno, no niega Trampa rival. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Cada efecto una vez por turno, no niega Trampa rival
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P041`, `665:A05:N041C`, `665:A05:N041Z`, `665:A05:N041W`, `665:A05:N041R`, `665:A05:N041U`, `665:A05:N041N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 42. `665:a05:18220:bigbang-board-banish` — CID 18220 (ACT)
+- **Actor / zona:** CID 18220 en zona `spell`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Xyz Kashtira en Campo y un jugador controla 2 o más monstruos
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Jugador con 2 o más destierra monstruos boca abajo hasta conservar 1
+- **Límite / cadena:** Cada efecto una vez por turno, efecto simétrico. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Cada efecto una vez por turno, efecto simétrico
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P042`, `665:A05:N042C`, `665:A05:N042Z`, `665:A05:N042W`, `665:A05:N042R`, `665:A05:N042U`, `665:A05:N042N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 43. `665:a05:18220:bigbang-banished-material-return` — CID 18220 (TRG)
+- **Actor / zona:** CID 18220 en zona `banished`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Big Bang fue desterrada y Xyz Kashtira propio tiene material Kashtira acoplado
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar un Xyz Kashtira propio
+- **Resolución y estado posterior:** Recuperar a mano un Kashtira acoplado; opcionalmente Invocarlo desde mano
+- **Límite / cadena:** No sacar monstruos del Deck ni usar reserva. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No sacar monstruos del Deck ni usar reserva
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P043`, `665:A05:N043C`, `665:A05:N043Z`, `665:A05:N043W`, `665:A05:N043R`, `665:A05:N043U`, `665:A05:N043N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 44. `665:a05:17800:shangri-xyz` — CID 17800 (PRO)
+- **Actor / zona:** CID 17800 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Dos o más monstruos de Nivel 7 reales disponibles
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer 2 o más materiales sin cadena
+- **Objetivo y selección:** Elegir los materiales propios Nivel7
+- **Resolución y estado posterior:** Invocar Xyz Shangri-Ira Rango7
+- **Límite / cadena:** No convertir materiales acoplados en cuerpos. No inicia cadena independiente.
+- **Restricciones y recursos:** No convertir materiales acoplados en cuerpos
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P044`, `665:A05:N044C`, `665:A05:N044Z`, `665:A05:N044W`, `665:A05:N044R`, `665:A05:N044U`, `665:A05:N044N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 45. `665:a05:17800:shangri-standby-summon` — CID 17800 (TRG)
+- **Actor / zona:** CID 17800 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Cada Standby Phase con Shangri-Ira boca arriba y Kashtira en Deck
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir Kashtira del Deck
+- **Resolución y estado posterior:** Invocar Kashtira del Deck
+- **Límite / cadena:** Efecto Standby una vez por turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Efecto Standby una vez por turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P045`, `665:A05:N045C`, `665:A05:N045Z`, `665:A05:N045W`, `665:A05:N045R`, `665:A05:N045U`, `665:A05:N045N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 46. `665:a05:17800:shangri-zone-block` — CID 17800 (TRG)
+- **Actor / zona:** CID 17800 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Carta que rival posee y tiene desterrada boca abajo fuera Damage Step, Shangri-Ira boca arriba
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir zona principal de monstruos o M/T SIN USAR
+- **Resolución y estado posterior:** Zona elegida queda inutilizable mientras Shangri-Ira siga boca arriba
+- **Límite / cadena:** No disparar por destierro boca arriba o propio. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No disparar por destierro boca arriba o propio
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P046`, `665:A05:N046C`, `665:A05:N046Z`, `665:A05:N046W`, `665:A05:N046R`, `665:A05:N046U`, `665:A05:N046N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 47. `665:a05:17800:shangri-detach-protect` — CID 17800 (REP)
+- **Actor / zona:** CID 17800 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Aplicación de estado continuo, no nueva activación
+- **Guarda física:** Shangri-Ira en Campo sería destruida por batalla o efecto con material
+- **Disparador:** Reemplazo de evento/resultado
+- **Coste:** Desacoplar 1 material en lugar de destruir
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Mantener Shangri-Ira en Campo evitando esa destrucción
+- **Límite / cadena:** No evita destierro o devolución. No inicia cadena independiente.
+- **Restricciones y recursos:** No evita destierro o devolución
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P047`, `665:A05:N047C`, `665:A05:N047Z`, `665:A05:N047W`, `665:A05:N047R`, `665:A05:N047U`, `665:A05:N047N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 48. `665:a05:18191:arise-xyz-three-level7` — CID 18191 (PRO)
+- **Actor / zona:** CID 18191 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Tres monstruos de Nivel 7 propios reales
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer 3 Nivel7 sin cadena
+- **Objetivo y selección:** Elegir los tres Nivel7
+- **Resolución y estado posterior:** Invocar Arise-Heart Xyz con 3 materiales
+- **Límite / cadena:** No confundir Rank7 con Nivel7. No inicia cadena independiente.
+- **Restricciones y recursos:** No confundir Rank7 con Nivel7
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P048`, `665:A05:N048C`, `665:A05:N048Z`, `665:A05:N048W`, `665:A05:N048R`, `665:A05:N048U`, `665:A05:N048N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 49. `665:a05:18191:arise-xyz-alternative` — CID 18191 (PRO)
+- **Actor / zona:** CID 18191 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Efecto de Shangri-Ira activado exitosamente este turno y un Kashtira propio
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer Kashtira y transferir materiales existentes
+- **Objetivo y selección:** Elegir Kashtira propio
+- **Resolución y estado posterior:** Invocar Arise-Heart por procedimiento alternativo
+- **Límite / cadena:** Una vez por turno para procedimiento alternativo. No inicia cadena independiente.
+- **Restricciones y recursos:** Una vez por turno para procedimiento alternativo
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P049`, `665:A05:N049C`, `665:A05:N049Z`, `665:A05:N049W`, `665:A05:N049R`, `665:A05:N049U`, `665:A05:N049N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 50. `665:a05:18191:arise-gy-banished-instead` — CID 18191 (REP)
+- **Actor / zona:** CID 18191 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Aplicación de estado continuo, no nueva activación
+- **Guarda física:** Arise-Heart boca arriba cuando carta iría al GY
+- **Disparador:** Reemplazo de evento/resultado
+- **Coste:** NO_APLICA efecto continuo sin pago
+- **Objetivo y selección:** NO_APLICA no objetivo
+- **Resolución y estado posterior:** Desterrar la carta en vez de mandarla al Cementerio
+- **Límite / cadena:** No niega cadenas, cambia destino. No inicia cadena independiente.
+- **Restricciones y recursos:** No niega cadenas, cambia destino
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P050`, `665:A05:N050C`, `665:A05:N050Z`, `665:A05:N050W`, `665:A05:N050R`, `665:A05:N050U`, `665:A05:N050N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 51. `665:a05:18191:arise-attach-banished` — CID 18191 (TRG)
+- **Actor / zona:** CID 18191 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Arise-Heart boca arriba, ocurrió destierro y carta desterrada elegible
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Escoger una carta desterrada
+- **Resolución y estado posterior:** Acoplarla como material de Arise-Heart
+- **Límite / cadena:** Una vez por cadena, no una vez por turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Una vez por cadena, no una vez por turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P051`, `665:A05:N051C`, `665:A05:N051Z`, `665:A05:N051W`, `665:A05:N051R`, `665:A05:N051U`, `665:A05:N051N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 52. `665:a05:18191:arise-quick-detach-three` — CID 18191 (QCK)
+- **Actor / zona:** CID 18191 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Ventana rápida compatible con guarda
+- **Guarda física:** Arise-Heart con 3 materiales y carta en Campo elegible
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Desacoplar 3 materiales al activar
+- **Objetivo y selección:** Seleccionar 1 carta en Campo
+- **Resolución y estado posterior:** Desterrar la carta seleccionada boca abajo
+- **Límite / cadena:** Una vez por turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Una vez por turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P052`, `665:A05:N052C`, `665:A05:N052Z`, `665:A05:N052W`, `665:A05:N052R`, `665:A05:N052U`, `665:A05:N052N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 53. `665:a05:9861:big-eye-xyz` — CID 9861 (PRO)
+- **Actor / zona:** CID 9861 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Dos monstruos Nivel7 reales disponibles
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer 2 Nivel7
+- **Objetivo y selección:** Elegir ambos Nivel7
+- **Resolución y estado posterior:** Invocar Number 11 Big Eye Rank7
+- **Límite / cadena:** No invocar con un solo Nivel7. No inicia cadena independiente.
+- **Restricciones y recursos:** No invocar con un solo Nivel7
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P053`, `665:A05:N053C`, `665:A05:N053Z`, `665:A05:N053W`, `665:A05:N053R`, `665:A05:N053U`, `665:A05:N053N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 54. `665:a05:9861:big-eye-take-control` — CID 9861 (ACT)
+- **Actor / zona:** CID 9861 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia con material y monstruo rival seleccionable
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Desacoplar 1 material al activar
+- **Objetivo y selección:** Seleccionar monstruo rival
+- **Resolución y estado posterior:** Tomar control del monstruo rival
+- **Límite / cadena:** Una vez por turno; Big Eye no ataca ese turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Una vez por turno; Big Eye no ataca ese turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P054`, `665:A05:N054C`, `665:A05:N054Z`, `665:A05:N054W`, `665:A05:N054R`, `665:A05:N054U`, `665:A05:N054N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 55. `665:a05:15524:zeus-xyz-level12` — CID 15524 (PRO)
+- **Actor / zona:** CID 15524 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Dos monstruos Nivel12 reales
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer 2 Nivel12
+- **Objetivo y selección:** Elegir los dos Nivel12
+- **Resolución y estado posterior:** Invocar Zeus Xyz Rank12
+- **Límite / cadena:** No superponer directamente dos Nivel7. No inicia cadena independiente.
+- **Restricciones y recursos:** No superponer directamente dos Nivel7
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P055`, `665:A05:N055C`, `665:A05:N055Z`, `665:A05:N055W`, `665:A05:N055R`, `665:A05:N055U`, `665:A05:N055N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 56. `665:a05:15524:zeus-alternative-after-battle` — CID 15524 (PRO)
+- **Actor / zona:** CID 15524 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Algún Xyz batalló este turno y controlas un Xyz superponible
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer Xyz y transferir materiales
+- **Objetivo y selección:** Elegir Xyz propio
+- **Resolución y estado posterior:** Invocar Zeus por alternativa
+- **Límite / cadena:** Una vez por turno para ese procedimiento. No inicia cadena independiente.
+- **Restricciones y recursos:** Una vez por turno para ese procedimiento
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P056`, `665:A05:N056C`, `665:A05:N056Z`, `665:A05:N056W`, `665:A05:N056R`, `665:A05:N056U`, `665:A05:N056N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 57. `665:a05:15524:zeus-quick-send-all` — CID 15524 (QCK)
+- **Actor / zona:** CID 15524 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Ventana rápida compatible con guarda
+- **Guarda física:** Zeus boca arriba con 2 materiales
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Desacoplar 2 materiales al activar
+- **Objetivo y selección:** NO_APLICA no selecciona objetivo
+- **Resolución y estado posterior:** Enviar todas las demás cartas del Campo al GY o destino reemplazado
+- **Límite / cadena:** No destruye y no confundir con target. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** No destruye y no confundir con target
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P057`, `665:A05:N057C`, `665:A05:N057Z`, `665:A05:N057W`, `665:A05:N057R`, `665:A05:N057U`, `665:A05:N057N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 58. `665:a05:15524:zeus-on-other-destroy-attach` — CID 15524 (TRG)
+- **Actor / zona:** CID 15524 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Disparo al evento descrito en guarda
+- **Guarda física:** Otra carta propia destruida por batalla o efecto rival y Zeus en Campo
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Elegir 1 carta de mano Deck o Extra propios
+- **Resolución y estado posterior:** Acoplar esa carta a Zeus como material
+- **Límite / cadena:** Una vez por turno. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Una vez por turno
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P058`, `665:A05:N058C`, `665:A05:N058Z`, `665:A05:N058W`, `665:A05:N058R`, `665:A05:N058U`, `665:A05:N058N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 59. `665:a05:13974:dark-armed-xyz` — CID 13974 (PRO)
+- **Actor / zona:** CID 13974 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Dos o más monstruos Nivel7 propios disponibles
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer Nivel7
+- **Objetivo y selección:** Elegir los materiales Nivel7
+- **Resolución y estado posterior:** Invocar Dark Armed Xyz Rank7
+- **Límite / cadena:** No consume monstruo que no está en Campo. No inicia cadena independiente.
+- **Restricciones y recursos:** No consume monstruo que no está en Campo
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P059`, `665:A05:N059C`, `665:A05:N059Z`, `665:A05:N059W`, `665:A05:N059R`, `665:A05:N059U`, `665:A05:N059N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 60. `665:a05:13974:dark-armed-alt-xyz` — CID 13974 (PRO)
+- **Actor / zona:** CID 13974 en zona `extra`, con fila física nativa documentada en A03.
+- **Ventana:** Invocación según procedimiento y guarda
+- **Guarda física:** Exactamente 5 monstruos DARK en GY y Dragón DARK Nivel5+ propio
+- **Disparador:** Procedimiento sin cadena
+- **Coste:** Superponer Dragón DARK Nivel5+
+- **Objetivo y selección:** Elegir Dragón propio elegible
+- **Resolución y estado posterior:** Invocar Dark Armed por alternativa
+- **Límite / cadena:** Una vez por turno para alternativa. No inicia cadena independiente.
+- **Restricciones y recursos:** Una vez por turno para alternativa
+- **Negaciones:** NO_APLICA negar un eslabón inexistente
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P060`, `665:A05:N060C`, `665:A05:N060Z`, `665:A05:N060W`, `665:A05:N060R`, `665:A05:N060U`, `665:A05:N060N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 61. `665:a05:13974:dark-armed-detach-destroy` — CID 13974 (ACT)
+- **Actor / zona:** CID 13974 en zona `monster`, con fila física nativa documentada en A03.
+- **Ventana:** Fase permitida según guarda
+- **Guarda física:** Main propia, material Xyz y carta rival objetivo
+- **Disparador:** Evento o activación descrito por la guarda
+- **Coste:** Desacoplar 1 material al activar
+- **Objetivo y selección:** Seleccionar carta que rival controla
+- **Resolución y estado posterior:** Destruir, luego desterrar 1 carta de GY propio y Dark Armed no ataca el resto turno
+- **Límite / cadena:** Destierro de GY en resolución, no es coste inicial. Efecto activado, sujeto a cadena y respuesta legal.
+- **Restricciones y recursos:** Destierro de GY en resolución, no es coste inicial
+- **Negaciones:** Si una respuesta legal niega esta activación o su efecto, no se acredita resolución; coste pagado permanece
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P061`, `665:A05:N061C`, `665:A05:N061Z`, `665:A05:N061W`, `665:A05:N061R`, `665:A05:N061U`, `665:A05:N061N`; resultados sujetos a matriz A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
