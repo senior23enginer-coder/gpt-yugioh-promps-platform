@@ -76,6 +76,34 @@ for(let i=1;i<=10;i++){
 assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===35);
 assert(manifest.stages.find(s=>s.stage_id==='A10B').mandatory===false);
 
+// A01 defines an evidence-backed strategy before A05-A09. This is a contract
+// regression only: it must not execute deck analysis or alter deck artifacts.
+const a01Prompt=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('01_'))),'utf8');
+const a01Tasks=manifest.stages.find(stage=>stage.stage_id==='A01');
+assert(a01Tasks?.mandatory===true&&a01Tasks.tasks.length===3,
+  'A01 must retain exactly three mandatory tasks');
+for(const field of ['Arquetipo','Tipo de estrategia','Estilo breve',
+  'Resumen para ficha','Cómo se juega','Qué vigilar']){
+  assert(a01Prompt.includes('`'+field+'`'),'A01 missing profile field '+field);
+}
+for(const clause of ['### Método obligatorio de diagnóstico estratégico A01',
+  '### Trazabilidad progresiva A01-T3 sin IDs ficticios',
+  '### Puerta de aceptación A01 — contenido, consistencia y portabilidad',
+  'PENDIENTE_DE_ENLACE_A05_A09','PENDIENTE_DE_SINCRONIZACION_O_IMPORTACION',
+  'NO_IMPORTABLE_TODAVIA','tcg_advanced','goat','rush_duel',
+  'Combo','Control','Midrange','Stun','Aggro','OTK','Híbrido',
+  'A05 analiza individualmente','A10B es opcional','190 caracteres',
+  '250 caracteres','record.profile','datos/stationx-deck.json']){
+  assert(a01Prompt.includes(clause),'A01 evidence/format contract missing '+clause);
+}
+for(const task of a01Tasks.tasks){
+  assert(a01Prompt.includes('- [ ] **'+task.task_id+'** '+task.description),
+    'A01 checklist/manifest description drift: '+task.task_id);
+}
+assert(!a01Prompt.includes('Una consulta para listar tareas, auditar prompts, corregir código o estimar duración NO es una asignación de deck.') ||
+  a01Prompt.includes('no autoriza ejecutar A01'),
+  'A01 prompt editing must not trigger deck analysis');
+
 // Prevent duplicate per-deck checklists and schema drift in all ten modules.
 for (let stage=1;stage<=10;stage++) {
   const no=String(stage).padStart(2,'0');
