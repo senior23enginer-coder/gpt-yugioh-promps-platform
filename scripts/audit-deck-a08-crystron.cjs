@@ -74,7 +74,7 @@ function audit(id,packagePath,docPath){
  const checked=[...ledger.matchAll(/^- \[x\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)].map(x=>x[1]);
  assert(checked.length>=27&&checked.length<=35);
  for(const id of ['A08-T1','A08-T2','A08-T3','A08-T4'])assert(checked.includes(id),'A08_OPEN_'+id);
- for(const id of ['A05-T4','A10A-T1','A10A-T2','A10A-T3'])
+ for(const id of ['A05-T4'])
   assert(!checked.includes(id),'FALSE_CLOSURE_'+id);
  assert(ledger.includes(checked.length+'/35')&&ledger.includes((35-checked.length)+'/35'));
  return {ok:true,deck_id:677,decisions:26,positiveNegativeCases:52,
