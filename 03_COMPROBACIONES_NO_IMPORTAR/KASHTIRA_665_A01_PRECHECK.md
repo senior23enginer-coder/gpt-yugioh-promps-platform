@@ -29,3 +29,7 @@ Se retiraron las comprobaciones anteriores de banlist por ser ajenas al encargo.
 La auditoría `scripts/audit-deck-a01-kashtira.cjs` verifica contra el histórico Station X [665.json](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json) las 38 identidades, 44 filas físicas, 16 rutas, 15 referencias de efecto documentales, seis propósitos, las fuentes Konami por CID y los tres checks A01. La prueba `scripts/test-kashtira-665-a01-precheck.cjs` asegura tanto la puerta estándar como la excepción limitada a A01.
 
 **Alcance de este cierre:** identidad, perfil táctico y trazabilidad A01 completos; no supone ejecutar ni certificar el motor A05/A07/A09, los 16 combos, una importación a producción, ni un cambio en la ficha viva de Station X.
+
+## Continuación A03 autorizada y auditada (22-11-2026)
+
+El usuario asignó expresamente «A03» al mismo deck 665. Se usa exclusivamente para inventario/copia/identidad la excepción temporal `stageId='A03'` / `authorizedSideOmissionForA03=true`; **42 Main, 15 Extra, 0 Side, 19 Reserva** sin cambios. La ficha canónica registra **A03 COMPLETA 3/3**, total **9/35**. Esta nota sustituye cualquier referencia antigua del precheck que describa A03 como no iniciado. La banlist sigue fuera de alcance y A04–A10A no heredan la autorización.

@@ -1,4 +1,4 @@
-name: Kashtira 665 A01/A02 certified profile and native ZIP parity
+name: Kashtira 665 A01/A02/A03 profiles, ZIP and physical inventory parity
 on:
   push:
     branches:
@@ -10,6 +10,8 @@ on:
       - 'scripts/test-kashtira-665-a01-precheck.cjs'
       - 'scripts/audit-deck-a01-kashtira.cjs'
       - 'scripts/audit-deck-a02-kashtira.cjs'
+      - 'scripts/audit-deck-a03-kashtira.cjs'
+      - '02_PROMPT_PARA_CODEX/apartados/03_VALIDACION_DEL_INVENTARIO_SIN_REVISION_GENERAL_DE_BANLIST.md'
       - 'scripts/test-deck-a02-kashtira-preflight.php'
       - '01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json'
       - '02_PROMPT_PARA_CODEX/apartados/02_RECEPCION_DE_UN_DECK.md'
@@ -41,6 +43,8 @@ jobs:
         run: node scripts/audit-deck-a01-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md
       - name: Audit Kashtira A02 native package and 44-slot provenance
         run: node scripts/audit-deck-a02-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
+      - name: Certify Kashtira A03 44 physical IDs and 12 negative inventory cases
+        run: node scripts/audit-deck-a03-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
       - name: Lint native Kashtira A02 isolated PHP import test
         run: php -l scripts/test-deck-a02-kashtira-preflight.php
       - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing

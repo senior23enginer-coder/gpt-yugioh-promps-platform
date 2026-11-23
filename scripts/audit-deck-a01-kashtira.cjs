@@ -34,8 +34,8 @@ function run(historyFile,documentFile){
  const expected=JSON.parse(fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'))
   .stages.filter(s=>s.mandatory).flatMap(s=>s.tasks.map(t=>t.task_id));
  A.deepEqual(taskRows.map(m=>m[2]),expected);A.equal(taskRows.length,35);
- A.deepEqual(taskRows.filter(m=>m[1]==='x').map(m=>m[2]),['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3']);
- A(ledger.includes('6/35')&&ledger.includes('29/35')&&ledger.includes('Side 0'));
+ A.deepEqual(taskRows.filter(m=>m[1]==='x').map(m=>m[2]),['A01-T1','A01-T2','A01-T3','A02-T1','A02-T2','A02-T3','A03-T1','A03-T2','A03-T3']);
+ A(ledger.includes('9/35')&&ledger.includes('26/35')&&ledger.includes('Side 0'));
 for(const k of ['A02-T1','A02-T2','A02-T3'])A(taskRows.some(x=>x[2]===k&&x[1]==='x'),'A02_CHECKLIST_NOT_SYNCHRONIZED');
  const a01=area(md,'## APARTADO_01 — Kashtira Pure','## IDENTIDAD BÁSICA');
  const first=area(a01,'### A01.1 —','### A01.2 —');
