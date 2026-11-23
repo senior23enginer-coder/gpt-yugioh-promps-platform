@@ -1,5 +1,18 @@
 # Kashtira Pure
 
+## APARTADO_01 — Perfil A01 importable Kashtira Pure 665
+
+- **Arquetipo:** Kashtira
+- **Tipo de estrategia:** Control de recursos y zonas mediante destierro y Xyz de Rango 7
+- **Estilo breve:** Wraitsoth/Fenrir/Unicornio buscan Kash; Teosis/Birth habilitan recursos Nivel 7 y Shangri-Ira/Arise-Heart presionan si hay disparadores, materiales y ventanas legales.
+- **Resumen para ficha:** Con Wraitsoth, Unicornio o Fenrir accede a Teosis y Nacimiento, reúne dos Nivel 7 para Shangri-Ira y elige entre presión por destierro, Arise-Heart o retirada situacional según materiales y ventanas.
+- **Cómo se juega:** Primero, verifica si tu Campo está vacío antes de elegir Fenrir o Unicornio como entrada; sus procedimientos dependen de esa condición. Wraitsoth permite buscar una pieza Kashtira, y Teosis exige seleccionar un monstruo propio para traer desde Deck otro de Atributo distinto. Reúne dos Nivel siete para una Xyz solo si ambos cuerpos siguen en Campo. Shangri-Ira no bloquea zonas al Invocarse: necesita que se cumpla un destierro boca abajo válido del adversario. Segundo, usa Fenrir para retirar amenazas elegibles sin confundir destierro con negación; con dos Nivel siete, Big Eye puede tomar un monstruo rival pagando material, pero no puede atacar tras su efecto. En juego medio, Birth recupera cuerpos no Xyz del Cementerio o destierro según sus requisitos. En juego tardío, elige entre Shangri-Ira, Arise-Heart, Big Eye y ZEUS en función de materiales, restricciones y batalla previa. No supongas cartas ocultas ni daño letal automático.
+- **Qué vigilar:** Fenrir y Unicornio necesitan Campo propio vacío para su Invocación desde mano; Teosis y Riseheart pueden limitar el Extra a Xyz. Shangri-Ira bloquea zonas solo con el destierro boca abajo correcto. Arise-Heart necesita el procedimiento adecuado y materiales reales. Reserva no equivale a Side y no se juega desde ella.
+
+**Control:** perfil preparado para paquete individual; no certifica importación a producción ni jugadas de calculadora.
+
+## APARTADO_02 — Continuidad del estudio histórico
+
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
 **Cierre documental A09:** 32/35 tareas acreditadas; 3/35 pendientes (exclusivamente A10A-T1–T3). A09 certifica un análisis documental condicional de las rutas, NO la legalidad universal ni 16 replays ejecutados. Ningún combo se certifica mediante el motor en esta etapa. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
