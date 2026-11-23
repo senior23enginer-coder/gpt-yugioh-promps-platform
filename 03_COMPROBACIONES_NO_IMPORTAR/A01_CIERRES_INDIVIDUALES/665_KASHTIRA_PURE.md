@@ -8,6 +8,6 @@ Fuentes: Markdown blob `a3270c337e2b29bd5db89bbb9657753ca36c1835`; JSON blob `f0
 - [x] T2: seis campos de perfil, cuatro cartas y cuatro fases existentes.
 - [x] T3: seis propósitos, 15 referencias documentales de efectos, CID/card_id y fuentes Konami, seis rutas existentes enlazadas en A01.3. Las referencias A01 no son efectos ejecutables.
 - [x] T4: [CI #45272833416](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45272833416) devolvió PASS para 665: 6 campos, estilo 167/190, resumen 199/250, paridad Markdown/JSON y 4 cartas/4 fases.
-- [ ] T5: la misma CI devolvió ISOLATED_PASS de importación/exportación/reimportación, 38 fotos, 16 rutas, 8 rechazos y cantidades conservadas. El navegador falló por módulo visual ausente en el entorno de prueba; corrección `030df199fba5d9f8f4760e1a3ef1324521539ece` en Platform. Pendiente resultado de ambos tamaños de pantalla.
+- [x] T5: CI #45272833416 devolvió ISOLATED_PASS de importación/exportación/reimportación, 38 fotos, 16 rutas, 8 rechazos y cantidades conservadas. Tras corregir el módulo visual del entorno de pruebas, [CI #45273243817](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273243817), job 138038253600, commit `030df199fba5d9f8f4760e1a3ef1324521539ece`, devolvió ISOLATED_PASS y PASS de navegador para el mismo deck (390 y 1280 px, 6 campos). El fallo global corresponde a otros registros.
 
-Resultado actual: 4/5, no publicación en producción. No iniciar otro apartado.
+Resultado: **5/5 acreditadas en entorno aislado**. No publicación en producción. No iniciar otro apartado.
