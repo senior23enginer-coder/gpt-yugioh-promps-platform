@@ -2,7 +2,10 @@ name: Audit A01 scope for all user-assigned loaded decks (no analyses certified)
 on:
   push:
     branches: [feat/a01-four-surface-contract-and-loaded-inventory-20261123]
-    paths: [.github/workflows/a01-audit-live-assigned-decks-temporary.yml]
+    paths:
+      - .github/workflows/a01-audit-live-assigned-decks-temporary.yml
+      - scripts/a01-batch-live-audit.cjs
+      - scripts/analysis-eligibility.cjs
 permissions:
   contents: read
 jobs:
