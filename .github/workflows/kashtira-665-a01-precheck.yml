@@ -1,4 +1,4 @@
-name: Kashtira 665 A01–A09 T4 preflight reference audits source CID, 90 effects, paper cases and native ZIP audits
+name: Kashtira 665 A01–A09 documentary closure 92 resource states source CID, 90 effects, paper cases and native ZIP audits
 on:
   push:
     branches:
@@ -20,6 +20,7 @@ on:
       - 'scripts/audit-deck-a09-t2-kashtira.cjs'
       - 'scripts/audit-deck-a09-t3-kashtira.cjs'
       - 'scripts/audit-deck-a09-t4-kashtira.cjs'
+      - 'scripts/audit-deck-a09-complete-kashtira.cjs'
       - '02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md'
       - 'scripts/test-deck-a04-kashtira-decode.py'
       - '02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md'
@@ -82,6 +83,8 @@ jobs:
         run: node scripts/audit-deck-a09-t3-kashtira.cjs
       - name: Audit A09 T4 16 sourced final boards and temporal endboards without invented spatial slots
         run: node scripts/audit-deck-a09-t4-kashtira.cjs
+      - name: Certify A09 documentary 16 routes, 92 step states, physical UID conservation and 16 interruptions
+        run: node scripts/audit-deck-a09-complete-kashtira.cjs
       - name: Lint native Kashtira A02 isolated PHP import test
         run: php -l scripts/test-deck-a02-kashtira-preflight.php
       - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing

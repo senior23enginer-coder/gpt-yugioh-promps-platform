@@ -4,7 +4,7 @@ const p=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../01_INFORMACION_PAR
 function audit(){
  const r=p.record,s=r.a09_review.endboard_review;
  A(s&&s.schema==='station-x-a09-final-board-review/1'&&s.deck_id===665);
- A(s.status==='FINAL_DOCUMENTAL_CON_ESTADOS_ESPACIALES_PENDIENTES');
+ A(s.status==='FINAL_DOCUMENTAL_CID_Y_MATERIALES_VERIFICADOS_SIN_ESPACIALIDAD');
  A.equal(s.review.length,16);
  A.equal(r.routes.length,16);A.equal(r.cards.length,38);A.equal(p.inventory.length,44);
  const cards=new Map(r.cards.map(c=>[c.cid,c]));
@@ -55,7 +55,10 @@ function audit(){
   pending_exact_positions:16,no_invented_board_slots:true});
  A.equal(r.a09_review.summary.certified_combos,0);
  A(!r.calculator?.rules?.length);
- return {ok:true,stage:'A09-T4-PREFLIGHT',routes_reviewed:16,full_final_state_sources:5,missing_final_8zones:11,spatial_endboards_verified:0,temporally_separated:2,stage_closed:false};
+ A.equal(r.a09_review.detailed_route_closure.route_finals.length,16);
+ A.equal(r.a09_review.symbolic_paper_traces.routes.length,16);
+ A.equal(r.a09_review.documentary_closure.task_status.T4,'COMPLETA_DOCUMENTAL_NO_ESPACIAL');
+ return {ok:true,stage:'A09-T4-DOCUMENTAL',routes_reviewed:16,historical_full_final_state_sources:5,new_documentary_finals:16,spatial_endboards_verified:0,temporally_separated:2,stage_closed:true};
 }
 if(require.main===module)console.log(JSON.stringify(audit()));
 module.exports={audit};

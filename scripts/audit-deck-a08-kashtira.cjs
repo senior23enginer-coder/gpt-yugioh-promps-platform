@@ -103,7 +103,7 @@ function audit(){
  A.deepEqual(types,{RUTA_CON_RECURSOS:16,RUTA_SIN_RECURSO:16,MOTOR_GUARDA_PRESENTE:4,MOTOR_GUARDA_AUSENTE:4,DECISION_ESTADO_HABILITANTE:4,DECISION_GUARDA_FALSA:4},'A08_TEST_DISTRIBUTION');
  const ledger=doc.slice(doc.indexOf('## CONTROL_DE_TAREAS_A01_A10'),doc.indexOf('\n---\n'));
  A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35),'A08_PROGRESS_DRIFT');
- for(let n=1;n<=4;n++){A(ledger.includes('- [x] **A08-T'+n+'**'),'A08_TASK_NOT_CLOSED');A(ledger.includes((n===1?'- [x] **A09-T':'- [ ] **A09-T')+n+'**'),'A09_PROGRESS_MISMATCH');}
+ for(let n=1;n<=4;n++){A(ledger.includes('- [x] **A08-T'+n+'**'),'A08_TASK_NOT_CLOSED');A(ledger.includes(('- [x] **A09-T')+n+'**'),'A09_PROGRESS_MISMATCH');}
  const s8=doc.slice(doc.indexOf('## APARTADO_08 — Kashtira Pure 665 · exploración'));
  A(s8.length>20000&&s8.includes('### A08.5 —'),'A08_CANONICAL_NOT_PRESENT');
  const between=(start,end)=>s8.slice(s8.indexOf(start),s8.indexOf(end));

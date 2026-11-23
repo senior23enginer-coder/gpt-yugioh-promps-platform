@@ -63,7 +63,10 @@ function audit(){
  A.equal(summary.validated_engine_replays,0);
  A.equal(s.summary.certified_combos,0);
  A(!r.calculator?.rules?.length);
- return {ok:true,deck_id:665,stage:'A09-T2-PREFLIGHT',linked_steps:linked,state_only:noRule,needs_zone_completion:incomplete,engine_replays:0,task_closed:false};
+ A.equal(s.symbolic_paper_traces.routes.length,16);
+ A.equal(s.symbolic_paper_traces.routes.reduce((n,x)=>n+x.steps.length,0),92);
+ A.equal(s.documentary_closure.task_status.T2,'COMPLETA_DOCUMENTAL_CONDICIONAL');
+ return {ok:true,deck_id:665,stage:'A09-T2-DOCUMENTAL',linked_steps:linked,state_only:noRule,historical_source_gaps:incomplete,new_documentary_snapshots:92,engine_replays:0,task_closed:true};
 }
 if(require.main===module){console.log(JSON.stringify(audit()));}
 module.exports={audit};

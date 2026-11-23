@@ -2,7 +2,7 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
-**Corte A09-T1:** 29/35 tareas documentales registradas; quedan 6/35 para A09-T2–T4 y A10A. La catalogación documental A09-T1 NO certifica la legalidad de un combo ni sustituye pruebas físicas. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
+**Cierre documental A09:** 32/35 tareas acreditadas; faltan exclusivamente A10A-T1–T3. A09 certifica un análisis documental condicional de las rutas, NO la legalidad universal ni 16 replays ejecutados. Ningún combo se certifica mediante el motor en esta etapa. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
 
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
@@ -33,9 +33,9 @@
 - [x] **A08-T3** 16 rutas históricas clasificadas, 21 enlaces A06, 38 roles y 48 contrastes de papel; pendientes A09 certificados.
 - [x] **A08-T4** 16 rutas históricas clasificadas, 21 enlaces A06, 38 roles y 48 contrastes de papel; pendientes A09 certificados.
 - [x] **A09-T1** 16 rutas/92 pasos inventariados mediante IDs estables, manos de A08 por CID, alertas por fotos y estados faltantes; auditor independiente sin replays.
-- [ ] **A09-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A09-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A09-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [x] **A09-T2** 92/92 transiciones documentales con estados antes/después y UIDs físicos sin duplicación; 75 pasos con regla A07 explícita y 17 estados/procedimientos. Son hipótesis condicionadas, NO simulaciones PSCT.
+- [x] **A09-T3** 16 escenarios positivos/negativos A08, 520 referencias reales A07 y 16 interrupciones ancladas en regla/coste/causa, siempre SIN_CONTINUACION_DEMOSTRADA si falla guardia; 0 replays.
+- [x] **A09-T4** 16 cierres por CIDs, materiales Xyz, M/T, GY, destierro, Normal y fase; sin asignar M1–M5 ni rival desconocido. 92 fotos en pasos y dos campos de turno rival separados.
 - [ ] **A10A-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A10A-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A10A-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
@@ -9636,3 +9636,44 @@ Se ejecutó una reconciliación **por CID confirmado** para las 16 rutas del dec
 La mano inicial ahora se presenta **solo según `record.a08_review.route_candidates[*].confirmed_hand_photos`**, con 23 fotografías confirmadas en total. Se eliminan, como fotos de mano, el Riseheart que la apertura de SHANGRI02 no tenía, el Arise-Heart que pertenece al Extra en ARISE3MAT08 y las imágenes de cartas de un campo anterior que no se justifican como robo inicial de una continuación.
 
 Las fotos **son las miniaturas físicas 268×391** ya verificadas en A04, no imágenes HD reconstruidas. Los pasos que no tengan estado antes/después completo, costes o materiales acreditados mantienen el estado pendiente de T2/T3/T4. Este cierre de **cobertura fotográfica** tampoco convierte de forma automática en completo el apartado A10A.
+
+
+## APARTADO_09 — CIERRE DOCUMENTAL (23-11-2026) · FUENTE VIGENTE
+
+**Estado:** `COMPLETA_DOCUMENTAL_CON_RUTAS_CONDICIONALES_NO_REPLAY`. Se auditó el deck **665 exclusivamente**, con **Main 42 / Extra 15 / Side 0 / Reserva 19** sin evaluar ninguna banlist. A10B y calculadora siguen fuera de alcance.
+
+### Evidencia A09-T2 — transiciones de recursos
+
+Las 16 rutas y 92 macroacciones conservan `route_id` y el `step_id` de A09. `record.a09_review.symbolic_paper_traces.routes[*].steps[*]` contiene **estado antes y después** con copias UID distintas: mano, monstruos propios, Mágicas/Trampas activas y Colocadas, Campo, GY, destierro propio, materiales Xyz por monstruo, estado rival conocido/desconocido y uso de Normal/Extra/turno/fase. Se rechazaron cartas ajenas a Main/Extra y duplicaciones de UID. Cada paso está ligado a la prosa y, si aplica, a 1+ cláusulas A07 (75 pasos con relación; 17 sin efecto activado propio). Los pasos compuestos conservan varias acciones y no se reducen a una Cadena ficticia.
+
+Las 92 trazas son **trayectorias documentales hipotéticas** bajo las precondiciones expresas y sin intervención rival, no un motor de juego. El corte histórico que decía 27/92 recursos estructurados correspondía al objeto antiguo `record.routes[*].steps[*].resources`; no se ha fabricado ni cambiado ese historial. Se añadió una traza nueva verificable sin mutar las rutas heredadas.
+
+### Evidencia A09-T3 — contrapruebas y ventanas
+
+Se incorporan 16 puntos de interrupción específicos (uno por ruta) unidos a regla A07 y al caso positivo/negativo existente, además de las 520 referencias a casos A07. **Si la guardia impide activar, no se paga coste ni se continúa**; si la respuesta ocurre tras una activación, el coste realmente pagado depende de esa activación concreta, y no se inventa aquí un duelo ejecutado. La cadena conjunta de Big Bang y Shangri-Ira conserva la elección expresa de CL1/CL2; la ausencia de Xyz en SHANGRI02 bloquea Big Bang; el segundo Fenrir de la Standby rival no entra antes de esa ventana.
+
+### Evidencia A09-T4 — campos finales por CID, no por casilla supuesta
+
+Se registran 16 fichas de resultados en `record.a09_review.detailed_route_closure` y en `symbolic_paper_traces.routes[*].final`, que preservan materiales bajo cada Xyz y distinción de monstruos independientes. `DOCUMENTADA_SIN_CAMPO_ESPACIAL` significa que **M1–M5 y EMZ exactas no fueron acreditadas**; A10A debe visualizar sin engañar. Los endboards son de la rama documental positiva y no una garantía de ganar o evitar interrupciones. Ningún resultado oculto del rival se tradujo en una carta inventada.
+
+
+| # | Ruta | Campo propio confirmado en la línea condicional (CID) | Materiales Xyz | Límite importante |
+|---:|---|---|---|---|
+| 1 | Wraitsoth → Shangri-Ira | 17800 | 17800:[17769,17768] | Mano restante ajena a la apertura y ubicación espacial de Shangri no identificadas |
+| 2 | Fenrir → Riseheart → Shangri-Ira | 17800 | 17800:[17768,18151] | Solo 3 cartas rivales desterradas boca abajo, identidad desconocida; no hay Xyz previo al destierro de Big Bang |
+| 3 | Unicornio → Teosis → Shangri-Ira | 17800, 17768 | 17800:[17769,18151] | Posición espacial de ambos monstruos no fijada, no retroceder activaciones de Shangri |
+| 4 | Shangri en Standby → Arise-Heart | 18191, 17768 | 18191:[17800,17769,17768] | La segunda copia de Fenrir viene del Deck en la Standby; no pertenece al final del turno 1 |
+| 5 | Fenrir + Birth → Shangri-Ira | 17800, 17769 | 17800:[17768,17770] | Preparaciones permanece Colocada y no se activa el turno en que se colocó |
+| 6 | Fenrir + Birth → Big Eye | 9861, 17769 | 9861:[17768] | La captura depende de objetivo rival legal y resolución de Ojo Grande |
+| 7 | Wraitsoth + Riseheart → Shangri + Big Eye | 17800, 9861 | 9861:[17768,18151]; 17800:[17769] | El orden de Big Bang y Shangri-Ira es en la misma ventana de nueva cadena; materiales y zonas condicionados a resolución |
+| 8 | Wraitsoth + Riseheart → Arise con 3 materiales | 18191, 18151 | 18191:[17800,17769,17768] | Shangri sale del Campo al subir sobre él Arise; su bloqueo no persiste |
+| 9 | Shangri + Arise con 1 material | 17800, 18191, 17768 | 17800:[17769]; 18191:[18151] | Arise no tiene 3 materiales; no puede activar su efecto rápido de desacoplar 3 en este punto |
+| 10 | Fenrir + Birth → Dark Armed | 13974 | 13974:[sin precisar] | Los materiales exactos y destino de la carta desacoplada no están documentados; la destrucción depende de resolución y objetivo rival válido |
+| 11 | Big Eye batalla → Zeus | 15524, 17769 | 15524:[9861,17768,17770] | ZEUS no activó su barrido; si lo hace, cambiará estado y tendrá solo un material |
+| 12 | Donner + Kashtira → Underworld Goddess | 15741 | No aplica | El monstruo rival puede terminar en GY o destino reemplazado; no hay identificación de cartas rivales |
+| 13 | Espejo rival → Arise → Zeus | 15524 | 15524:[sin precisar] | Arise-Heart y Fenrir desacoplados: se destinan a destierro o GY según reemplazo efectivo; campo rival sujeto a protecciones y respuestas |
+| 14 | Fenrir + Birth → Shangri + Arise | 17800, 18191, 17769 | 17800:[17768]; 18191:[18151] | Segundo Fenrir de la Standby rival NO forma parte del fin de turno propio; depende de resolución futura |
+| 15 | Unicornio + Ash + Birth → Baronne | 16386, 17800, 18191, 17769 | 17800:[17768]; 18191:[18151] | Negación de Baronne solo disponible si no se consumió antes contra Nibiru u otra cadena; segundo Fenrir no entra todavía |
+| 16 | Tearlaments Kashtira + Ogre desde GY | 17800 | 17800:[18153,17770] | Ogre debe existir en GY antes de iniciar ruta; cartas enviadas por mill opcional no se identifican |
+
+**Criterio de cierre A09:** tareas T1–T4 verificadas en su alcance **documental condicional**; 16/16 rutas clasificadas, 92/92 checkpoints de recursos, 16/16 finales revisados y 16/16 casos específicos de interrupción. Contadores separados: **0 replays del motor, 0 combos certificados por ejecución física y 0 distribuciones espaciales verificadas**. Esto no habilita `record.calculator` ni sustituye A10A. El siguiente apartado asignado por el usuario deberá ser A10A.

@@ -50,7 +50,9 @@ function audit(){
  A.equal(z.summary.continuations_verified,0);
  A.equal(s.summary.certified_combos,0);
  A(!r.calculator?.rules?.length);
- return {ok:true,stage:'A09-T3-PREFLIGHT',routes:16,steps:92,rule_occurrences:104,referenced_paper_cases:520,real_interruption_replays:0,stage_closed:false};
+ A.equal(s.detailed_route_closure.route_finals.length,16);
+ A.equal(s.documentary_closure.task_status.T3,'COMPLETA_DOCUMENTAL_CONDICIONAL');
+ return {ok:true,stage:'A09-T3-DOCUMENTAL',routes:16,steps:92,rule_occurrences:104,referenced_paper_cases:520,interruption_anchors:16,real_interruption_replays:0,stage_closed:true};
 }
 if(require.main===module)console.log(JSON.stringify(audit()));
 module.exports={audit};

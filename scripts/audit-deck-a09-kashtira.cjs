@@ -16,7 +16,7 @@ function audit(){
  ]) A(!validateDeckAssignment({...x,payload:pkg}).eligible,'NO_CROSS_SCOPE_WAIVER');
  const r=pkg.record,s=r.a09_review,cards=new Map(r.cards.map(c=>[c.cid,c]));
  A.equal(pkg.inventory.length,44);A.equal(r.cards.length,38);
- A(s&&s.schema==='station-x-a09-documentary-index/1'&&s.stage==='A09-T1');
+ A(s&&s.schema==='station-x-a09-documentary-index/1'&&s.stage==='A09-T4');
  A.equal(s.deck_id,665);A.equal(s.banlist_evaluated,false);
  A.equal(r.routes.length,16);A.equal(r.routes.reduce((a,x)=>a+x.steps.length,0),92);
  A.equal(s.routes.length,16);A.deepEqual(s.inventory,g.counts);
@@ -55,11 +55,14 @@ function audit(){
  A(!r.calculator?.rules?.length,'UNAUTHORIZED_A10B_RULES');
  const ledger=md.slice(0,md.indexOf('\n---\n'));
  A((Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[1]) + Number((ledger.match(/\b(\d+)\/35\b[^\n]*\b(\d+)\/35\b/)||[])[2]) === 35)&&ledger.includes('- [x] **A09-T1**'));
- for(let n=2;n<=4;n++)A(ledger.includes('- [ ] **A09-T'+n+'**'),'FALSE_COMPLETION');
+ for(let n=2;n<=4;n++)A(ledger.includes('- [x] **A09-T'+n+'**'),'A09_STAGE_NOT_COMPLETED');
  A(md.includes('## APARTADO_09 — Kashtira Pure 665 · catalogación T1'));
  const copy=structuredClone(pkg);copy.inventory[0].section='side';
  A(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:copy,stageId:'A09',authorizedSideOmissionForA09:true}).eligible,'MUTATED_INVENTORY_ACCEPTED');
- return {ok:true,deck_id:665,phase:'A09-T1',complete:29,pending:6,historical_routes:16,steps:92,steps_without_photos:35,steps_without_states:65,engine_replays:0,certified_combos:0};
+ A(s.documentary_closure&&s.documentary_closure.status==='A09_DOCUMENTAL_CERRADA_NO_EQUIVALE_A_REPLAY_NI_GUIA_VISUAL_A10A');
+ A.equal(s.symbolic_paper_traces.routes.length,16);
+ A.equal(s.summary.documentary_steps_with_before_after,92);
+ return {ok:true,deck_id:665,phase:'A09-T1-T4',complete:32,pending:3,routes:16,step_resources_documentary:92,engine_replays:0,certified_combos:0};
 }
 if(require.main===module){
  A(process.argv.includes('--deck-id=665')&&process.argv.includes('--user-assigned')&&process.argv.includes('--authorized-side-waiver'));
