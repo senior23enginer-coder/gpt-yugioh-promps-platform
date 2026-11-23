@@ -12,6 +12,162 @@
 - Main: **42**; Extra: **15**; Side: **0**; Reserva: **24**.
 
 
+## APARTADO_01 — A01 fuente del deck Cyber Dragon Pure (684)
+
+**Inventario original comprobado:** TCG Advanced. Main 42, Extra 15, Side 0, Reserva 24. 52 identidades documentadas con CID, sección, cantidades y función. Sin banlist ni traslado de copias entre zonas.
+
+### A01-T1 — Diagnóstico estratégico individual
+
+- **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
+- **Clasificación:** despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.
+- **Estilo y motor principal:** ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.
+- **Plan por fases y salidas condicionales:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
+- **Riesgos, materiales y restricciones:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
+- **Condición de victoria:** convertir acceso legal a los motores y al Extra en control, tempo o daño; sin anunciar OTK ni campo final garantizados. Los recursos se analizan carta a carta en la matriz T3.
+- **Alcance:** el diagnóstico se respalda en el inventario y las fichas de este deck; aún se deben cotejar los efectos y ventanas pendientes en A05/A07 antes de construir reglas ejecutables.
+
+### A01-T2 — Perfil de seis campos para preparar importación (aún no certificado)
+
+- **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
+- **Tipo de estrategia:** despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.
+- **Estilo breve:** ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.
+- **Resumen para ficha:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
+- **Cómo se juega:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
+- **Qué vigilar:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
+
+Estilo breve 67/190; Resumen para ficha 227/250. **T2 pendiente**: no existe prueba de igualdad literal con el paquete estructurado de este deck.
+
+### A01-T3 — Inventario y propósitos trazados por CID
+
+| CID fuente Konami | Identidad | Zona/copias | Rol documental | Efecto pendiente de cotejo jurídico/reglamentario | Condición/riesgo |
+|---|---|---|---|---|---|
+| [10866](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2) | Cyber Dragon Core | Main 3x. No altera las cantidades registradas. | starter Cyber · búsqueda. | Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival. | depende de recursos en Cementerio. |
+| [6390](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2) | Cyber Dragon | Main 1x. No altera las cantidades registradas. | extensor Cyber · acceso gratuito. | Cyber Dragon se Invoca Especial desde mano únicamente cuando solo el oponente controla monstruos. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [14047](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2) | Cyber Dragon Nachster | Main 1x. No altera las cantidades registradas. | extensor · cierre. | acceso al campo desde la mano; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck; depende de recursos en Cementerio. |
+| [13723](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2) | Cyber Dragon Herz | Main 1x, Reserva 1x. No altera las cantidades registradas. | searcher · buscador · recuperación. | búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | puede bloquear tipos de Invocación del Extra Deck. |
+| [16296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2) | Cyberdark Chimera | Main 1x. No altera las cantidades registradas. | searcher · buscador. | búsqueda o incorporación de cartas a mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio; exige materiales de Extra Deck o materiales adecuados. |
+| [6830](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2) | Cyberdark Horn | Main 1x. No altera las cantidades registradas. | removal · cierre · motor Equipo. | destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | depende de recursos en Cementerio. |
+| [21164](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2) | Cyberdark Wurm [Konami 21164] | Main 1x. No altera las cantidades registradas. | searcher · buscador · recuperación · extensor. | búsqueda o incorporación de cartas a mano; recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [13181](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2) | Cyberdark Claw | Main 2x. No altera las cantidades registradas. | searcher · buscador · cierre · motor Equipo. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [6663](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2) | Cyber Phoenix | Main 1x. No altera las cantidades registradas. | ventaja de mano. | generación de cartas por robo. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [21163](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2) | Cyber Jormungardr [Konami 21163] | Main 1x. No altera las cantidades registradas. | searcher · buscador · extensor · motor Equipo. | PENDIENTE_COTEJO | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck; tiene procedimiento especial de Invocación. |
+| [17119](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2) | Therion "King" Regulus | Main 1x. No altera las cantidades registradas. | extensor Máquina · negación. | Regulus se invoca desde mano equipando Máquina o Therion del GY y ofrece una negación con coste de envío de Therion. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2) | Ash Blossom & Joyous Spring | Main 3x. No altera las cantidades registradas. | handtrap · negación. | Descarta desde la mano para detener efectos que buscan, invocan o mandan cartas desde el Deck. | hay límite por turno según el efecto concreto. |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2) | Ghost Belle & Haunted Mansion | Main 2x. No altera las cantidades registradas. | handtrap · negación de Cementerio. | Descarta para negar la activación de una operación que recupere, invoque o destierre cartas del Cementerio. | hay límite por turno según el efecto concreto. |
+| [20205](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2) | Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nom | Main 1x. No altera las cantidades registradas. | extensor. | acceso al campo desde la mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [8428](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2) | Cyber Emergency | Main 3x. No altera las cantidades registradas. | searcher · buscador. | búsqueda o incorporación de cartas a mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [16298](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2) | Cyberdark Realm | Main 2x, Reserva 1x. No altera las cantidades registradas. | searcher · buscador · motor Equipo. | búsqueda o incorporación de cartas a mano; uso o producción de cartas equipadas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [13770](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2) | Cyber Revsystem | Main 2x. No altera las cantidades registradas. | recuperación · extensor · protección. | recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [16301](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2) | Cybernetic Horizon | Main 2x, Reserva 1x. No altera las cantidades registradas. | searcher · buscador. | búsqueda o incorporación de cartas a mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede bloquear tipos de Invocación del Extra Deck. |
+| [17625](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2) | Clockwork Night | Main 2x. No altera las cantidades registradas. | searcher · buscador · cierre. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [6398](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2) | Power Bond | Main 1x, Reserva 1x. No altera las cantidades registradas. | mágica de Fusión · finisher. | Power Bond fusiona Máquinas con materiales de mano/campo, duplica el ATK de la Fusión y causa daño al propio jugador en End Phase. | exige materiales de Extra Deck o materiales adecuados. |
+| [5129](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2) | Limiter Removal | Main 1x. No altera las cantidades registradas. | removal · cierre. | destrucción de cartas o empleo de destrucción como detonante; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [13849](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2) | Cyberload Fusion | Main 1x. No altera las cantidades registradas. | removal · recuperación. | destierro de recursos o de amenazas; retorno o reciclaje hacia mano/Deck/Extra. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede limitar ataques. |
+| [6783](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2) | Overload Fusion | Main 1x. No altera las cantidades registradas. | recurso situacional. | interacción propia de la carta que requiere consultar el texto íntegro enlazado. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [16297](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2) | Cyber Eternal | Main 1x. No altera las cantidades registradas. | recurso situacional. | interacción propia de la carta que requiere consultar el texto íntegro enlazado. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. |
+| [4909](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2) | Mystical Space Typhoon | Main 1x. No altera las cantidades registradas. | removal. | destrucción de cartas o empleo de destrucción como detonante. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [12464](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2) | Cosmic Cyclone | Main 1x, Reserva 1x. No altera las cantidades registradas. | mágica rápida · remoción. | Paga 1000 LP para desterrar una Mágica/Trampa en campo. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2) | Infinite Impermanence | Main 3x. No altera las cantidades registradas. | trampa · negación. | Niega temporalmente un monstruo rival boca arriba; si se activó tras estar Colocada, también afecta la columna M/T correspondiente. | requiere campo propio sin las cartas indicadas. |
+| [13787](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2) | Cybernetic Overflow | Main 1x. No altera las cantidades registradas. | searcher · buscador · removal. | búsqueda o incorporación de cartas a mano; destrucción de cartas o empleo de destrucción como detonante; destierro de recursos o de amenazas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. |
+| [11764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2) | Chimeratech Rampage Dragon (Konami ID 11764) | Extra 2x. No altera las cantidades registradas. | resultado de Extra Deck · habilitador de Extra. | habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13758](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2) | Cyber Dragon Sieger | Extra 1x, Reserva 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · cierre · respuesta. | presión de combate o modificación de estadísticas; interacción sobre monstruos en campo. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [7403](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2) | Chimeratech Fortress Dragon | Extra 1x. No altera las cantidades registradas. | Fusión de contacto · removal Máquina. | Fortress usa Cyber Dragon y Máquinas de cualquier campo enviadas al Cementerio para su Invocación especial del Extra. | exige materiales de Extra Deck o materiales adecuados; tiene procedimiento especial de Invocación. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [20787](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2) | Clockwork Knight (Konami ID 20787) | Extra 1x, Reserva 2x. No altera las cantidades registradas. | resultado de Extra Deck · buscador · cierre · coste/recurso. | búsqueda o incorporación de cartas a mano; presión de combate o modificación de estadísticas; uso de Sacrificios como parte del efecto. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [14710](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2) | Barricadeborg Blocker | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · buscador. | búsqueda o incorporación de cartas a mano. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [10870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2) | Cyber Dragon Nova (Konami ID 10870) | Extra 1x, Reserva 1x. No altera las cantidades registradas. | Xyz Cyber · puente a Infinity. | Nova revive Cyber Dragon del Cementerio, puede ganar ATK desterrando Cyber y al ser enviado al Cementerio por efecto rival trae Fusión Máquina del Extra. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [20511](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2) | Heosvarog the Mechanical Dawn (Konami ID 20511) | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · buscador · negación. | Heosvarog 0 ATK/2800 DEF; al Fusionarse prepara para la Standby siguiente recuperar del GY una carta con efecto de Fusión (Power Bond). Como Efecto Rápido, cuando el rival activa Mágica/Trampa o su efecto, puede desterrar una Máquina LUZ propia boca arriba o **dos** Máquinas LUZ de tu GY p | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13502](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2) | Qliphort Genius | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · buscador · extensor · protección. | búsqueda o incorporación de cartas a mano; acceso al campo desde la mano; protección o resistencia contra respuestas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13358](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2) | Chimeratech Megafleet Dragon | Extra 1x. No altera las cantidades registradas. | Fusión de contacto · removal Extra. | Megafleet requiere Cyber Dragon y monstruos en zona Extra, enviados desde cualquier campo al Cementerio. | exige materiales de Extra Deck o materiales adecuados; tiene procedimiento especial de Invocación. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [18448](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2) | Sky Striker Ace - Azalea | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · removal. | destrucción de cartas o empleo de destrucción como detonante. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [16233](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2) | Chronomaly Vimana | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · negación · cierre · habilitador Xyz. | negación de efectos o activaciones; presión de combate o modificación de estadísticas; gestión de materiales Xyz. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [11765](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2) | Cyber Dragon Infinity (Konami ID 11765) | Extra 1x. No altera las cantidades registradas. | jefe Xyz Cyber · negación. | Infinity sube sobre Nova, gana ATK por materiales, absorbe monstruo en ataque y niega activaciones al desacoplar. | hay límite por turno según el efecto concreto. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2) | S:P Little Knight | Extra 1x. No altera las cantidades registradas. | interrupción · resultado de Extra Deck · removal · respuesta. | destierro de recursos o de amenazas; interacción sobre monstruos en campo. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede limitar ataques. Invocar sólo desde el Extra Deck usando su procedimiento propio. |
+| [13847](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2) | Cyber Eternity Dragon | Extra 1x. No altera las cantidades registradas. | resultado de Extra Deck · recuperación · extensor · respuesta · protección. | 2800 ATK/4000 DEF; solo cuando tienes un Monstruo de Fusión Máquina **en GY**, Eternity queda protegido frente a selección y destrucción por efectos enemigos. Si esta carta Invocada por Fusión bajo tu control va a tu GY por una carta rival, puedes Invocar un Cyber Dragon de mano/Deck/GY. A | requisito original 1 «Cyber Dragon» monstruo + 2 monstruos Máquina. La protección propia no existe cuando el GY no contiene una Fusión Máquina; la propia Eternity en Campo no cumpl |
+| [7436](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2) | El Calculador | Reserva 2x. No altera las cantidades registradas. | cierre. | presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [7400](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2) | Prisión Dimensional | Reserva 1x. No altera las cantidades registradas. | trampa · remoción de atacante. | Cuando un monstruo rival declara ataque, lo selecciona y destierra. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2) | Fuwalos Multivadora | Reserva 2x. No altera las cantidades registradas. | handtrap · robo condicional. | Con campo propio sin cartas, descarta y roba al producirse Invocaciones Especiales rivales desde Deck o Extra; ajusta la mano en End Phase. | requiere campo propio sin las cartas indicadas; interactúa con información oculta o resultados no siempre elegibles. |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2) | Droll & Lock Bird | Reserva 2x. No altera las cantidades registradas. | handtrap · bloqueo de búsquedas. | Tras una incorporación desde el Deck a la mano rival, se envía al Cementerio para impedir nuevas adiciones desde ambos Decks principales ese turno. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [14876](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2) | Tormenta de Relámpagos | Reserva 3x. No altera las cantidades registradas. | mágica · ruptura de mesa. | Con ningún permanente propio boca arriba, elige destruir los monstruos enemigos en ataque o las Mágicas/Trampas rivales. | hay límite por turno según el efecto concreto; requiere campo propio sin las cartas indicadas. |
+| [12872](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2) | Fusion Recycling Plant | Reserva 1x. No altera las cantidades registradas. | buscador · habilitador de Extra. | búsqueda o incorporación de cartas a mano; habilitación o continuación de una invocación del Extra Deck. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; depende de recursos en Cementerio; exige materiales de Extra Deck o materiales adecuados. |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2) | Talento de Tácticas Triples | Reserva 1x. No altera las cantidades registradas. | mágica de respuesta · ventaja. | Si el rival activó un efecto de monstruo durante tu Main Phase, permite elegir entre robar dos, tomar control temporal o devolver una carta de mano al Deck. | hay límite por turno según el efecto concreto. |
+| [13851](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2) | Revolución Cibernética | Reserva 1x. No altera las cantidades registradas. | coste/recurso. | uso de Sacrificios como parte del efecto. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | hay límite por turno según el efecto concreto; puede limitar ataques. |
+| [6397](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2) | Dragón Ciber Final | Reserva 1x. No altera las cantidades registradas. | habilitador de Extra · cierre. | habilitación o continuación de una invocación del Extra Deck; presión de combate o modificación de estadísticas. Son operaciones detectadas en el texto, no efectos independientes garantizados; leer sus condiciones en la fuente. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+| [6734](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2) | Chimeratech Overdragon | Reserva 1x. No altera las cantidades registradas. | Fusión Cyber · limpieza propia y OTK. | Overdragon requiere Cyber Dragon más Máquinas, envía las otras cartas propias al Cementerio y escala ATK/ataques según materiales. | aplicar restricciones de selección, activación y copias que consten en el texto original. |
+
+Todos los CID provienen de la fuente previa. El enlace de referencia **no certifica** que cada paráfrasis haya sido cotejada contra texto vigente; los `effect_id`, `motor_id` y `route_id` que no constan de forma verificable se dejan `PENDIENTE_DE_ENLACE_A05_A09`. No se crean efectos ni combos ficticios.
+
+### A01-T4 y A01-T5 — Por certificar
+
+- T4: faltan JSON original exportado por Station X, inventario ligado, paridad literal de los seis campos y contrato `a01_profile_contract` verificado.
+- T5: faltan importación real, exportación, render (móvil y escritorio) y rechazo de paquetes inválidos para este deck. Sin estos ensayos no se declara A01 cerrado.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**A01:** T1/T3 completadas documentalmente; T2/T4/T5 siguen pendientes. No se relabelan tareas anteriores y A10B no ha sido solicitado.
+
+### A01
+- [x] **A01-T1** — Matriz específica con CID/cantidad/rol y diagnóstico en este documento.
+- [ ] **A01-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A01-T3** — Matriz específica con CID/cantidad/rol y diagnóstico en este documento.
+- [ ] **A01-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A02
+- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A03
+- [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A03-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A03-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A04
+- [ ] **A04-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A04-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A04-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A05
+- [ ] **A05-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A05-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A06
+- [ ] **A06-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A06-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A07
+- [ ] **A07-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A07-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A08
+- [ ] **A08-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A08-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A09
+- [ ] **A09-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A09-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A10A
+- [ ] **A10A-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10A-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10A-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+### A10B (opcional)
+- [ ] **A10B-T4** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10B-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [ ] **A10B-T6** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+
+---
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
