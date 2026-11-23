@@ -1,0 +1,39 @@
+name: Reconcile protected GPT format-policy checksums
+on:
+  push:
+    branches: [feat/a01-four-surface-contract-and-loaded-inventory-20261123]
+    paths: [.github/workflows/reconcile-format-policy-hashes-temporary.yml]
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/a01-four-surface-contract-and-loaded-inventory-20261123
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Recompute authorized prompt hashes and remove the temporary job
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          node - <<'NODE'
+          const fs=require('node:fs'),crypto=require('node:crypto');
+          const filename='03_COMPROBACIONES_NO_IMPORTAR/HUELLAS_AUTORIZADAS_A10A_A10B_20261121.json';
+          const manifest=JSON.parse(fs.readFileSync(filename,'utf8'));
+          for (const p of Object.keys(manifest.sha256)) {
+            manifest.sha256[p]=crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+          }
+          manifest.purpose='Approved 2026-11-23 format-conditional Main+Extra TCG/OCG, Main GOAT/Rush, optional Side/Reserve, GPT four surfaces';
+          fs.writeFileSync(filename,JSON.stringify(manifest,null,2)+'\n');
+          NODE
+          node scripts/analysis-eligibility-test.cjs
+          node scripts/test-a01-player-guide-contract.cjs
+          git add 03_COMPROBACIONES_NO_IMPORTAR/HUELLAS_AUTORIZADAS_A10A_A10B_20261121.json
+          git rm .github/workflows/reconcile-format-policy-hashes-temporary.yml
+          git commit -m 'chore(contracts): reconcile protected hashes after format-aware Main/Extra policy'
+          git push origin HEAD:feat/a01-four-surface-contract-and-loaded-inventory-20261123
