@@ -2,14 +2,14 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
-**Cierre A01:** 3/35 tareas acreditadas; quedan 32/35 para A02–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas y **no habilita A02–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` todavía corresponde a A02, no se fabrica en A01.
+**Cierre A01–A02:** 6/35 tareas acreditadas; quedan 29/35 para A03–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
 
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T3** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
-- [ ] **A02-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A02-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A02-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [x] **A02-T1** Identidad 665, formato tcg_advanced, V40 SHA de Git real y 44 filas `card_id` verificadas sin alteración; excepción de Side=0 acotada solo a A02.
+- [x] **A02-T2** Paquete `station-x-deck-package/1`, ZIP de carpeta única y preflight nativo PHP aislado; 38 CID, 16 rutas, 92 pasos y 44 fotos; ninguna regla de calculadora inventada.
+- [x] **A02-T3** `deck-slots-v1`, IDs originales, nombres, secciones Main/Extra/Side/Reserva y procedencia versionada; 7 guías Markdown intactas, perfil A01 sincronizado.
 - [ ] **A03-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A03-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A03-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
@@ -5802,3 +5802,53 @@ Material hist?rico para estudio: no acredita reglas, replays ni posiciones espac
 - Artwork policy: Imágenes auténticas del catálogo; la presencia de una carta en pasos NO significa que permanezca en campo final
 - Source status: DOCUMENTAL_NOT_CERTIFIED
 - Codex acceptance: Mostrar texto y recursos; convertir a posiciones espaciales únicamente tras replay o evidencia exacta de zonas; no poner todas las cartas mencionadas como cuerpos finales.
+
+---
+
+## APARTADO_02 — Kashtira Pure 665 · identidad y paquete importable (22-11-2026)
+
+### A02.1 — Identidad, fuente y admisión explícita
+
+- Deck real existente en Station X: **665, Kashtira Pure, `tcg_advanced`**. Carpeta única permanente `DECK_665_KASHTIRA_PURE`.
+- Origen de identidad: [Station X V40 665.json](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json), objeto Git **`29a120ffd8378ea9606e4b509a478fde34e423bd`** (SHA de blob real, no huella fabricada).
+- Inventario histórico 38 CIDs, **44 filas `card_id` nativas** y **76 cartas físicas**: **Main 42, Extra 15, Side 0, Reserva 19**. Ninguna copia cambia de zona, se crea o se retira.
+- Usuario asignó explícitamente «A02» al mismo Kashtira 665 después de autorizar continuar A01 sin Side. Se usa la excepción A02 **solo** para contrato de identidad/transferencia con Side cero, y **no** para A03–A10A ni para publicación; nunca se evalúa banlist.
+- Las 16 rutas documentales (92 pasos) se identifican por los `route_id` heredados **sin** duplicarlas ni acreditarlas como replays. No se ejecuta A10B ni se certifican 35 efectos por esta tarea.
+
+### A02.2 — Entrega estructurada y carpeta única
+
+- Paquete exacto `datos/stationx-deck.json`, esquema `station-x-deck-package/1`, `record.schema=station-x-curated-v62`, `inventory_binding=deck-slots-v1`, `content_mode=structured`, `deck_id=665`.
+- `record.cards` mantiene los **38 CID y 44 `card_id` físicos**, en su misma sección y cantidad. `record.routes` mantiene 16 ID con 92 pasos, `record.skills=[]`, `record.calculator` **ausente**: A02 no presume operadores del motor.
+- Se vincularon las fotos mediante su CID a `DECK_665_KASHTIRA_PURE/imagenes/tcg/<CID>.jpg` sin cambiar la identidad de ninguna imagen; se incluyen **44 JPG existentes** y **7 guías Markdown originales**.
+- El `record.profile` usa los textos A01.2 aprobados (estilo/resumen/plan) y la fuente histórica V40 se conserva en `provenance`. No se atribuye una revisión editorial viva a la captura histórica.
+- El ZIP contiene **una sola carpeta** y exactamente un deck; su importación **se comprueba en entorno temporal con el importador real**, sin tocar la base de datos ni publicar en producción.
+- **Compatibilidad necesaria de reserva:** el importador V40 rechazaba la sección `reserve` incluso cuando existía en la lista física. El ajuste de compatibilidad debe admitirla **solo con coincidencia exacta de filas** y se prueba en entorno aislado; nunca se transforma en Side o `tech` por suposición.
+- **Hash:** no se incorpora `inventory_sha256` porque el hash de inventario **vivo** de Station X no está disponible aquí. La firma no se inventa; la validación portátil utiliza comparación estricta de 44 filas por `card_id`.
+
+### A02.3 — Procedencia/IDs y condiciones de aceptación
+
+| Elemento | Fuente auténtica | Control A02 |
+|---|---|---|
+| Deck y formato | V40 Git blob `29a120ff…` | `665` y `tcg_advanced`, sin traducción de formato |
+| CID / card_id | `record.cards[].cid`, `slots[].card_id` y `inventory[].id` | **38/38 CID, 44/44 IDs**, 1:1, sin duplicados |
+| Cantidades | 42/15/0/19 | ninguna zona inventada o reclasificada |
+| Rutas históricas | `665.json record.routes[].id` | 16/16 y 92 pasos idénticos |
+| Imágenes reales | `imagenes/tcg/*.jpg` | 44/44 rutas presentes, 38 identidades mapeadas |
+| Guías heredadas | `guias/*.md` | siete archivos originales, sin guía A10A simulada |
+| Versiones y hashes | URL de V40 + SHA del Git blob | `inventory_sha256` omitido; sin inventar firmas |
+| Calculadora y Skills | Histórico V40 | **0 Skills**, sin reglas de calculadora inferidas |
+
+### A02.4 — identidad técnica, procedencia y auditoría del único contrato
+
+**Clasificación de transferencia:** `ESTRUCTURADA_IMPORTABLE` como paquete **documental** cuando supera el preflight nativo aislado; no equivale a importación, despliegue, ni compatibilidad con una edición posterior no leída de la base de datos.
+
+**Certificación:** `scripts/audit-deck-a02-kashtira.cjs` (comparación de 44 slots, 16 rutas y fuente V40), `scripts/test-deck-a02-kashtira-preflight.php` (ZIP/cadena de importación aislada y casos negativos), `scripts/analysis-eligibility-test.cjs` (excepción temporal exclusiva A02). Todas las tareas A02 deben alcanzar CI satisfactorio sin cambiar otros decks, sin side ficticio y sin banlist.
+
+**A02-T1 [x]:** identidad y fila física V40 acreditada.
+
+**A02-T2 [x]:** JSON estructurado, ZIP individual y verificación PHP del importador.
+
+**A02-T3 [x]:** 44 IDs nativos, procedencia real, siete guías y 44 imágenes; ningún SHA de inventario creado.
+
+**Siguiente apartado en cola:** A03 (permanece pendiente de autorización/verificación independiente; no se ejecuta como efecto de A02).
+
