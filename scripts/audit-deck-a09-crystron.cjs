@@ -138,7 +138,7 @@ function audit(id,packPath,docPath){
  a(ledger.includes(checked.length+'/35')&&ledger.includes((35-checked.length)+'/35'));
  return {ok:true,deck_id:677,sourceRoutes:14,sourceSteps:60,stepReferences:stepIndex,conditionalCases:28,
   endboardVariants:15,spatiallyCertified:0,portableRules:13,physical,
-  paperOnly:true,calculationEngineExecuted:false,previousA05T4StillOpen:true,closed:31,pending:4};
+  paperOnly:true,calculationEngineExecuted:false,previousA05T4StillOpen:true,closed:checked.length,pending:35-checked.length};
 }
 if(require.main===module){
  const args=process.argv.slice(2),files=args.filter(x=>!x.startsWith('--'));
