@@ -25,6 +25,6 @@ CID, zonas y route_id verificados contra el registro exacto. Las referencias ofi
 - [x] T2: seis campos del perfil, cuatro cartas destacadas y cuatro fases.
 - [x] T3: matriz por propósito con CID, zonas, fuentes, riesgos y rutas existentes.
 - [x] T4: CI [#45273999784](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273999784) PASS para 656: seis campos, estilo 84/190, resumen 190/250 y paridad.
-- [ ] T5: la misma CI confirmó PASS visual a 390 y 1280 px, pero rechazó el documento curado por la etiqueta editorial literal "reference file:" (15 ocurrencias). El registro estructurado no contiene coincidencias de esquemas/etiquetas prohibidos. Se normaliza únicamente esa etiqueta de Markdown antes de la validación, preservando el ZIP original y el rechazo de URI file: reales. Corrección Platform `f31c91aa2f9de8ae1e02cee5eb163b5b47ec5792`; regresión `c8e38d72bdcfc3bbc2826d2f6056e4b99d9f1b7e`. Falta comprobar importación/exportación/reimportación, fotos, rutas y ocho rechazos.
+- [x] T5: [CI #45274393388](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45274393388), job 138042292852, commit Platform `c8e38d72bdcfc3bbc2826d2f6056e4b99d9f1b7e`, devolvió ISOLATED_PASS de importación/exportación/reimportación para 656, 50 fotografías, 23 rutas, ocho rechazos y conservación de cantidades. Presentación del paquete real: PASS a 390 y 1280 px. Los tres pasos de aceptación finalizaron correctamente.
 
-Resultado: 4/5. Cero importaciones de producción. No iniciar A02.
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
