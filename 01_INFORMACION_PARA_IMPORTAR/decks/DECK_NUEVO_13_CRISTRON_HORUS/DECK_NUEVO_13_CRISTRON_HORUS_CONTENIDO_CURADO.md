@@ -19,7 +19,7 @@
 
 **Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05**, **A06**, **A07** y **A08**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
-**Corte del checklist vigente:** **31/35 tareas acreditadas en A01–A04, A05-T1/T2/T3, A06-T1/T2/T3/T4, A07-T1/T2/T3/T4, A08-T1/T2/T3/T4 y A09-T1/T2/T3/T4; 4/35 quedan pendientes: A05-T4 (1) y A10A (3)**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
+**Corte del checklist vigente:** **34/35 tareas acreditadas en A01–A04, A05-T1/T2/T3, A06-T1/T2/T3/T4, A07-T1/T2/T3/T4, A08-T1/T2/T3/T4, A09-T1/T2/T3/T4 y A10A-T1/T2/T3; 1/35 queda pendiente: A05-T4**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
 
 **Alcance del cierre A01:** se verifica identidad/plan/riesgos (A01-T1), texto visible sincronizado con `record.profile` (A01-T2), y correspondencia CID / referencia oficial / IDs portátiles existentes / rutas reales (A01-T3). Los IDs portátiles mencionados son **solo los actualmente presentes**; no representan un censo completo de todos los efectos, cuya auditoría corresponde a A05. Condiciones de ejecución y legalidad final de cada combo corresponden a A07/A09; visual/navegador/importación a A10A.
 
@@ -73,12 +73,12 @@
 - [x] **A09-T3** A09.6: 14 pares positivos/negativos (28 casos) centrados en pasos de riesgo, conservación de costes realmente pagados, ventanas rivales, bloqueos de Extra y salidas `SIN_CONTINUACION_DEMOSTRADA` si falta una precondición. **0 replays y A05-T4 todavía abierto.**
 - [x] **A09-T4** A09.7: 15 variantes de endboard para 14 rutas con CIDs reales y zonas generales verificadas estáticamente; materiales Xyz, Sincronía normal frente a Citree, copia física y mano/Deck conocidas; `spatial_verified=false` preservado, sin atribuir posiciones M1–M5/EMZ. A10A sigue independiente.
 
-### A10A — pendiente de auditoría del contrato vigente
-- [ ] **A10A-T1** A10A: crear guía visual de cada route_id con apertura correcta, imágenes por CID, pasos step_id, detalles y recursos reales
-- [ ] **A10A-T2** A10A: comprobar paridad exacta A05/A07/A09→ficha/combos/guía (CID, efecto, costes, estados y campo final); denunciar posiciones ilustrativas
-- [ ] **A10A-T3** A10A: verificar paquete y navegación visual/importación de contenido en móvil y escritorio; nunca exigir motor de calculadora
+### A10A — guías visuales e importación aislada (3/3)
+- [x] **A10A-T1** Guía real con 14 rutas, 60 pasos y fotos auténticas por CID, condiciones de inicio, enlaces A05 y campos finales legibles.
+- [x] **A10A-T2** Paridad 14 route_id/60 step_id/15 endboards, CID y zonas, con todas las ubicaciones `spatial_verified=false` y casos de interrupción que fallan cerrado.
+- [x] **A10A-T3** QA con Chromium móvil/escritorio, pruebas visuales y nativas ZIP/PHP y UI con HTTP aislado; sin despliegue ni A10B.
 
-**Siguiente tarea pendiente por orden de cierre:** A05-T4 (184 casos sin certificación individual) y después A10A (3). A09 termina 4/4 en alcance documental, con 60 pasos, 28 casos condicionales y 15 mapas ilustrativos auditados; faltan **4/35**. No A10B, importación, despliegue ni merge.
+**Siguiente tarea pendiente por orden de cierre:** A05-T4, con 184 casos sin certificación independiente. A10A queda 3/3 tras CI documental/visual/importación aislada; falta **1/35**. Sin A10B, merge ni despliegue de producción.
 
 ---
 
@@ -3330,6 +3330,15 @@ Los 15 mapas de `record.routes[].endboard.variants` se cotejan por identidad y z
 <!-- A09_BOARDS_END -->
 
 **Control A09:** inventario físico intacto, 14 rutas existentes, 60 pasos, 15 variantes de mapas, 28 casos de papel, ninguna copia nueva ni `step_id` adicional en el JSON nativo. **A09-T1/T2/T3/T4 completa en auditoría documental**, con condiciones exigidas y fallos registrados. **0 replays, 0 certificación espacial, 0 ejecuciones de calculadora**. A05-T4 y A10A mantienen su alcance separado; falta verificación de navegador/guía para A10A.
+
+
+### A10A.1 — Guía visual canónica de 14 rutas y 60 pasos
+
+La [guía visual de Crystron/Horus](guias/GUIA_VISUAL_A01_A10.html#rutas) contiene **14 paneles C01–C07/V01–V07**, los mismos **60 step_id** de A09.5, imágenes HD auténticas por CID en las cartas de apertura y acciones, fuentes A05, coste, ventanas y estados conocidos. Presenta **15 campos finales** por zonas generales y alternativas excluyentes V07; todos con `spatial_verified=false`. No se infieren fotografías por palabras, ni se muestra la advertencia equivocada de C03. Los detalles de interrupción quedan visibles bajo demanda. El resto de la mano y campo rival son desconocidos.
+
+### A10A.2 — Validaciones aisladas de compatibilidad
+
+La auditoría `scripts/audit-deck-a10a-crystron.cjs` comprueba CID, ruta, paso, imagen y endboard por zona frente al paquete físico y al contrato A09. La prueba Playwright `scripts/test-deck-a10a-crystron-browser.cjs` valida la guía en móvil y escritorio, imágenes y navegación. La UI real de Station X se comprueba con respuestas HTTP aisladas y el importador PHP nativo se ejecuta contra un ZIP de carpeta en un directorio temporal con `prepare/publish/reload`, sin cambiar producción, ni ejecutar motor de duelos. A05-T4 sigue sin certificación completa de sus 184 casos.
 
 ## APARTADO_10 — Siete guías numeradas con referencia visual auténtica
 
