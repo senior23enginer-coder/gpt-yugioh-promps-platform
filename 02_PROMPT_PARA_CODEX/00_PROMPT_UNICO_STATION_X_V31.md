@@ -1,5 +1,10 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
+### Separación obligatoria entre perfil del jugador y evidencias (23-11-2026)
+
+En toda entrega nueva A01–A10A, el contenido pedagógico de `record.profile` y `record.player_guide` debe pasar el contrato `station-x-player-guide/1` del apartado A01: lenguaje de jugador, nombres concretos, planes first/second/mid/late, cartas destacadas con razón y referencias CID/route_id solo en propiedades estructuradas invisibles. Las actas, claves de verificación, fecha del estudio, códigos C01/efectos, dictámenes y porcentajes van en `APARTADO_01` de evidencia, nunca en las seis cadenas visibles. A10A debe comprobar que la guía integrada no tenga secciones vacías ni enlace de auditoría HTML. El ZIP validado no equivale a publicación: solo la importación confirmada por Station X registra el instante real `folder_delivery.imported_at`. No declarar importado ni actualizado el deck sin respuesta positiva del endpoint y lectura posterior de estado. Las pruebas sintéticas protegen el contrato, no analizan ni publican otros decks.
+
+
 ## PUERTA CERO — autorización de un único deck y presencia de sus tres zonas obligatorias
 
 **Este repositorio NO procesa automáticamente los más de 60 decks, ni uno solo por iniciativa propia.** Cada ejecución A01–A10A o A10B exige que el usuario haya **asignado explícitamente un deck concreto**, identificado por `deck_id` del registro real, formato y carpeta de su paquete. Seleccionar por proximidad de nombre, recorrer todos los decks, aprovechar un catálogo, continuar con un deck anterior o iniciar un lote sin asignación explícita individual está **PROHIBIDO**. La existencia de un deck en la plataforma no autoriza analizarlo.
