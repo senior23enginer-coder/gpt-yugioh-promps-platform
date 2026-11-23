@@ -7065,3 +7065,438 @@ La siguiente tabla conserva **38 CID distintos, 44 filas Station X y 76 copias**
 - **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en
 - **Casos de papel:** `665:A05:P061`, `665:A05:N061C`, `665:A05:N061Z`, `665:A05:N061W`, `665:A05:N061R`, `665:A05:N061U`, `665:A05:N061N`; resultados sujetos a matriz A05.3.
 - **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 62. `665:a05:16386:baronne-synchro-summon` — CID 16386 (PRO)
+- **Actor / zona:** CID 16386 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Cantante y al menos un no Cantante suman Nivel10; sin restricción Xyz activa
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Usar materiales Synchro reales según regla, no coste activación
+- **Objetivo y selección:** Elegir Cantante y no Cantante válidos
+- **Resolución y estado posterior:** Invocar Baronne Sincronía Nivel10
+- **Límite / cadena:** No invocable si Teosis o Riseheart bloquearon Extra no Xyz. No inicia cadena propia.
+- **Restricciones y recursos:** No invocable si Teosis o Riseheart bloquearon Extra no Xyz
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P062`, `665:A05:N062C`, `665:A05:N062Z`, `665:A05:N062W`, `665:A05:N062R`, `665:A05:N062U`, `665:A05:N062N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 63. `665:a05:16386:baronne-destroy-one-card` — CID 16386 (ACT)
+- **Actor / zona:** CID 16386 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Baronne boca arriba y carta seleccionable en Campo Main propia
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar 1 carta del Campo
+- **Resolución y estado posterior:** Destruir el objetivo
+- **Límite / cadena:** Una vez por turno. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P063`, `665:A05:N063C`, `665:A05:N063Z`, `665:A05:N063W`, `665:A05:N063R`, `665:A05:N063U`, `665:A05:N063N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 64. `665:a05:16386:baronne-negate-activation` — CID 16386 (QCK)
+- **Actor / zona:** CID 16386 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Rival o jugador activa carta o efecto en ventana legal; Baronne no usó su negación mientras estuvo boca arriba
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Responder al eslabón activado sin objetivo de Campo
+- **Resolución y estado posterior:** Negar la activación y destruir carta si se negó
+- **Límite / cadena:** Una vez mientras permanezca boca arriba y una vez por turno. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez mientras permanezca boca arriba y una vez por turno
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P064`, `665:A05:N064C`, `665:A05:N064Z`, `665:A05:N064W`, `665:A05:N064R`, `665:A05:N064U`, `665:A05:N064N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 65. `665:a05:16386:baronne-standby-return-revive` — CID 16386 (TRG)
+- **Actor / zona:** CID 16386 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Tras evento descrito en guarda.
+- **Guarda física:** Standby Phase con Baronne en Campo y monstruo Nivel9 o menor en GY propio
+- **Disparador:** Evento de disparo
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar monstruo GY propio Nivel9 o menor
+- **Resolución y estado posterior:** Devolver Baronne a Extra, luego Invocar monstruo seleccionado si se devolvió
+- **Límite / cadena:** Una vez por turno. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P065`, `665:A05:N065C`, `665:A05:N065Z`, `665:A05:N065W`, `665:A05:N065R`, `665:A05:N065U`, `665:A05:N065N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 66. `665:a05:17804:donner-link-summon` — CID 17804 (PRO)
+- **Actor / zona:** CID 17804 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Dos monstruos de Tipos diferentes propios para Link2, sin bloqueo Extra Link
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Usar 2 materiales Link adecuados
+- **Objetivo y selección:** Elegir dos monstruos Tipos diferentes
+- **Resolución y estado posterior:** Invocar Donner Fur Hire Link2
+- **Límite / cadena:** No requiere dos Kashtira del mismo Tipo y no asume línea sin materiales. No inicia cadena propia.
+- **Restricciones y recursos:** No requiere dos Kashtira del mismo Tipo y no asume línea sin materiales
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P066`, `665:A05:N066C`, `665:A05:N066Z`, `665:A05:N066W`, `665:A05:N066R`, `665:A05:N066U`, `665:A05:N066N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 67. `665:a05:17804:donner-target-destroy-both` — CID 17804 (ACT)
+- **Actor / zona:** CID 17804 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Donner boca arriba, tienes monstruo Fur Hire y rival tiene monstruo seleccionable
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar un Fur Hire propio y un monstruo rival
+- **Resolución y estado posterior:** Destruir ambos objetivos si legales
+- **Límite / cadena:** Solo uno de los dos efectos Donner por turno y solo una vez. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Solo uno de los dos efectos Donner por turno y solo una vez
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P067`, `665:A05:N067C`, `665:A05:N067Z`, `665:A05:N067W`, `665:A05:N067R`, `665:A05:N067U`, `665:A05:N067N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 68. `665:a05:17804:donner-tribute-revive-furhire` — CID 17804 (ACT)
+- **Actor / zona:** CID 17804 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Donner boca arriba y monstruo tribut able; Fur Hire de nombre original distinto en mano o GY
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Sacrificar 1 monstruo al activar
+- **Objetivo y selección:** Elegir Fur Hire mano o GY con nombre original diferente al sacrificado
+- **Resolución y estado posterior:** Invocar ese Fur Hire; si sacrificó Link puede Invocar otro Fur Hire elegible
+- **Límite / cadena:** Solo uno de los dos efectos Donner por turno; requiere Fur Hire real ausente del Main. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Solo uno de los dos efectos Donner por turno; requiere Fur Hire real ausente del Main
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P068`, `665:A05:N068C`, `665:A05:N068Z`, `665:A05:N068W`, `665:A05:N068R`, `665:A05:N068U`, `665:A05:N068N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 69. `665:a05:15741:goddess-link-opponent-material` — CID 15741 (PRO)
+- **Actor / zona:** CID 15741 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Cuatro o más monstruos de efecto con Valor Link5 y opcionalmente uno controlado por rival, sin bloqueo Link
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Usar materiales Link válidos, máximo uno de rival
+- **Objetivo y selección:** Elegir materiales propios y como máximo un monstruo rival
+- **Resolución y estado posterior:** Invocar Underworld Goddess Link5
+- **Límite / cadena:** No convertir 3 cuerpos en 5 Link Rating por suposición. No inicia cadena propia.
+- **Restricciones y recursos:** No convertir 3 cuerpos en 5 Link Rating por suposición
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P069`, `665:A05:N069C`, `665:A05:N069Z`, `665:A05:N069W`, `665:A05:N069R`, `665:A05:N069U`, `665:A05:N069N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 70. `665:a05:15741:goddess-on-link-negate-opponent` — CID 15741 (TRG)
+- **Actor / zona:** CID 15741 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Tras evento descrito en guarda.
+- **Guarda física:** Goddess fue Invocada por Enlace este evento
+- **Disparador:** Evento de disparo
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA afecta monstruos rivales boca arriba actuales
+- **Resolución y estado posterior:** Negar efectos de todos los monstruos boca arriba que rival controla al resolver
+- **Límite / cadena:** No afirmar negación de monstruos invocados después. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No afirmar negación de monstruos invocados después
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P070`, `665:A05:N070C`, `665:A05:N070Z`, `665:A05:N070W`, `665:A05:N070R`, `665:A05:N070U`, `665:A05:N070N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 71. `665:a05:15741:goddess-untargeted-immune` — CID 15741 (CONT)
+- **Actor / zona:** CID 15741 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Condición continua o reemplazo en estado vigente.
+- **Guarda física:** Goddess invocada por Enlace está boca arriba
+- **Disparador:** Aplicación continua
+- **Coste:** NO_APLICA continuo sin coste
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** No le afectan efectos activados del rival que no la seleccionen
+- **Límite / cadena:** No es inmunidad absoluta a efectos continuos ni a los que la seleccionan. No inicia cadena propia.
+- **Restricciones y recursos:** No es inmunidad absoluta a efectos continuos ni a los que la seleccionan
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P071`, `665:A05:N071C`, `665:A05:N071Z`, `665:A05:N071W`, `665:A05:N071R`, `665:A05:N071U`, `665:A05:N071N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 72. `665:a05:15741:goddess-negate-gy-summon-activation` — CID 15741 (QCK)
+- **Actor / zona:** CID 15741 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Rival activa carta o efecto que Invocaría monstruo desde GY
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Responder al eslabón que contiene Invocación desde GY
+- **Resolución y estado posterior:** Negar activación del efecto de resurrección
+- **Límite / cadena:** Una vez por turno. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P072`, `665:A05:N072C`, `665:A05:N072Z`, `665:A05:N072W`, `665:A05:N072R`, `665:A05:N072U`, `665:A05:N072N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 73. `665:a05:15366:fossil-knight-fusion-procedure` — CID 15366 (PRO)
+- **Actor / zona:** CID 15366 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Fossil Fusion disponible, un Roca y un monstruo Nivel5 o 6 materiales; Fusion no existe en Main actual
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Utilizar materiales de Fossil Fusion según texto, no coste de cadena directo
+- **Objetivo y selección:** Elegir materiales conforme a Fossil Fusion
+- **Resolución y estado posterior:** Invocar Skull Knight si se cumplió primer Fusión Fósil
+- **Límite / cadena:** NO_APLICA en lista actual sin Fossil Fusion disponible. No inicia cadena propia.
+- **Restricciones y recursos:** NO_APLICA en lista actual sin Fossil Fusion disponible
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P073`, `665:A05:N073C`, `665:A05:N073Z`, `665:A05:N073W`, `665:A05:N073R`, `665:A05:N073U`, `665:A05:N073N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 74. `665:a05:15366:fossil-knight-piercing` — CID 15366 (CONT)
+- **Actor / zona:** CID 15366 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Condición continua o reemplazo en estado vigente.
+- **Guarda física:** Skull Knight Invocado legalmente ataca monstruo en Defensa
+- **Disparador:** Aplicación continua
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** Monstruo en Defensa enfrentado
+- **Resolución y estado posterior:** Infligir daño de batalla perforante según diferencia
+- **Límite / cadena:** No aplicar si carta sigue en Extra. No inicia cadena propia.
+- **Restricciones y recursos:** No aplicar si carta sigue en Extra
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P074`, `665:A05:N074C`, `665:A05:N074Z`, `665:A05:N074W`, `665:A05:N074R`, `665:A05:N074U`, `665:A05:N074N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 75. `665:a05:15366:fossil-knight-extra-attack` — CID 15366 (TRG)
+- **Actor / zona:** CID 15366 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Tras evento descrito en guarda.
+- **Guarda física:** Skull Knight atacante destruyó monstruo en batalla
+- **Disparador:** Evento de disparo
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Puede realizar segundo ataque consecutivo
+- **Límite / cadena:** No se activa si no hubo destrucción por batalla. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No se activa si no hubo destrucción por batalla
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P075`, `665:A05:N075C`, `665:A05:N075Z`, `665:A05:N075W`, `665:A05:N075R`, `665:A05:N075U`, `665:A05:N075N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 76. `665:a05:15366:fossil-knight-gy-banish-destroy` — CID 15366 (ACT)
+- **Actor / zona:** CID 15366 en zona `graveyard` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Skull Knight en GY después de haber estado legalmente invocado y monstruo en Campo seleccionable
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Desterrar Skull Knight de GY al activar
+- **Objetivo y selección:** Seleccionar 1 monstruo del Campo
+- **Resolución y estado posterior:** Destruir monstruo objetivo
+- **Límite / cadena:** Una vez por turno para efecto en GY. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno para efecto en GY
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P076`, `665:A05:N076C`, `665:A05:N076Z`, `665:A05:N076W`, `665:A05:N076R`, `665:A05:N076U`, `665:A05:N076N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 77. `665:a05:15882:fossil-wagon-fusion-procedure` — CID 15882 (PRO)
+- **Actor / zona:** CID 15882 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Fossil Fusion disponible, Roca en GY y monstruo Nivel5 o 6 materiales; Fossil Fusion ausente del Main
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Usar materiales de Fossil Fusion según carta
+- **Objetivo y selección:** Elegir materiales legales
+- **Resolución y estado posterior:** Invocar Skull Wagon si se cumplen sus condiciones
+- **Límite / cadena:** NO_APLICA en configuración física actual sin Fossil Fusion. No inicia cadena propia.
+- **Restricciones y recursos:** NO_APLICA en configuración física actual sin Fossil Fusion
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P077`, `665:A05:N077C`, `665:A05:N077Z`, `665:A05:N077W`, `665:A05:N077R`, `665:A05:N077U`, `665:A05:N077N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 78. `665:a05:15882:fossil-wagon-two-monster-attacks` — CID 15882 (CONT)
+- **Actor / zona:** CID 15882 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Condición continua o reemplazo en estado vigente.
+- **Guarda física:** Skull Wagon Invocado legalmente y Battle Phase con monstruos rivales
+- **Disparador:** Aplicación continua
+- **Coste:** NO_APLICA continuo
+- **Objetivo y selección:** Elegir objetivos de ataque de monstruos
+- **Resolución y estado posterior:** Puede hacer hasta dos ataques a monstruos en misma Battle Phase
+- **Límite / cadena:** No asegura dos objetivos o invocación legal. No inicia cadena propia.
+- **Restricciones y recursos:** No asegura dos objetivos o invocación legal
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P078`, `665:A05:N078C`, `665:A05:N078Z`, `665:A05:N078W`, `665:A05:N078R`, `665:A05:N078U`, `665:A05:N078N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 79. `665:a05:15882:fossil-wagon-battle-burn-eight-hundred` — CID 15882 (TRG)
+- **Actor / zona:** CID 15882 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Tras evento descrito en guarda.
+- **Guarda física:** Skull Wagon destruyó monstruo del rival en batalla
+- **Disparador:** Evento de disparo
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Infligir 800 LP daño rival
+- **Límite / cadena:** No aplicar sin destrucción en combate. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No aplicar sin destrucción en combate
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P079`, `665:A05:N079C`, `665:A05:N079Z`, `665:A05:N079W`, `665:A05:N079R`, `665:A05:N079U`, `665:A05:N079N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 80. `665:a05:15882:fossil-wagon-gy-banish-destroy-spelltrap` — CID 15882 (ACT)
+- **Actor / zona:** CID 15882 en zona `graveyard` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Skull Wagon en GY y Mágica o Trampa seleccionable en Campo
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Desterrar Skull Wagon de GY al activar
+- **Objetivo y selección:** Seleccionar 1 Mágica o Trampa del Campo
+- **Resolución y estado posterior:** Destruir la Mágica/Trampa objetivo
+- **Límite / cadena:** Una vez por turno para efecto de GY. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno para efecto de GY
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P080`, `665:A05:N080C`, `665:A05:N080Z`, `665:A05:N080W`, `665:A05:N080R`, `665:A05:N080U`, `665:A05:N080N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 81. `665:a05:7153:eradicator-virus-tribute-spelltrap` — CID 7153 (ACT)
+- **Actor / zona:** CID 7153 en zona `spell` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Trampa Normal activa con monstruo OSCURIDAD >=2500 ATK en Campo propio; carta en Reserva no disponible actualmente
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Sacrificar 1 monstruo OSCURIDAD con 2500 o más ATK
+- **Objetivo y selección:** Declarar Magia o Trampa, no monstruo
+- **Resolución y estado posterior:** Destruir las declaradas en mano y Campo rivales y las robadas hasta tercer turno siguiente bajo texto
+- **Límite / cadena:** No activar sin monstruo tribut able ni disponibilidad física en Main. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No activar sin monstruo tribut able ni disponibilidad física en Main
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7153&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P081`, `665:A05:N081C`, `665:A05:N081Z`, `665:A05:N081W`, `665:A05:N081R`, `665:A05:N081U`, `665:A05:N081N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 82. `665:a05:13896:pankratops-hand-special` — CID 13896 (PRO)
+- **Actor / zona:** CID 13896 en zona `hand` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Rival controla más monstruos que tú y Pankratops está en mano tras Side autorizado
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Invocar Pankratops desde mano
+- **Límite / cadena:** Una vez por turno para su procedimiento. No inicia cadena propia.
+- **Restricciones y recursos:** Una vez por turno para su procedimiento
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P082`, `665:A05:N082C`, `665:A05:N082Z`, `665:A05:N082W`, `665:A05:N082R`, `665:A05:N082U`, `665:A05:N082N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 83. `665:a05:13896:pankratops-quick-tribute-destroy` — CID 13896 (QCK)
+- **Actor / zona:** CID 13896 en zona `monster` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Pankratops boca arriba y carta rival seleccionable en Campo
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Sacrificar un monstruo Dinowrestler al activar, puede ser él mismo
+- **Objetivo y selección:** Seleccionar carta que rival controla
+- **Resolución y estado posterior:** Destruir carta seleccionada
+- **Límite / cadena:** Una vez por turno; Reserva no disponible por defecto. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno; Reserva no disponible por defecto
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P083`, `665:A05:N083C`, `665:A05:N083Z`, `665:A05:N083W`, `665:A05:N083R`, `665:A05:N083U`, `665:A05:N083N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 84. `665:a05:12668:dimensional-barrier-declare-extra-type` — CID 12668 (ACT)
+- **Actor / zona:** CID 12668 en zona `spell` de juego, inventario real en A03.
+- **Ventana:** Fase propia o rival acorde con guarda.
+- **Guarda física:** Trampa Normal activable, elegir Fusión Sincronía Xyz Péndulo o Ritual para impedirlo este turno
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA sin pago
+- **Objetivo y selección:** Declarar tipo de monstruo de la lista, no Link
+- **Resolución y estado posterior:** Ambos jugadores no pueden Invocar ese tipo y efectos en Campo de ese tipo se niegan este turno
+- **Límite / cadena:** No se activa desde Reserva sin cambio autorizado. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No se activa desde Reserva sin cambio autorizado
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P084`, `665:A05:N084C`, `665:A05:N084Z`, `665:A05:N084W`, `665:A05:N084R`, `665:A05:N084U`, `665:A05:N084N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 85. `665:a05:14741:nibiru-five-opponent-summons` — CID 14741 (QCK)
+- **Actor / zona:** CID 14741 en zona `hand` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Main propia o rival tras al menos cinco invocaciones de monstruos del rival en este turno
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** NO_APLICA tributos en resolución
+- **Objetivo y selección:** NO_APLICA afecta monstruos boca arriba ambos jugadores
+- **Resolución y estado posterior:** Sacrificar todos monstruos boca arriba si legal; Invocar Nibiru mano y Token al Campo rival con estadísticas según tributos
+- **Límite / cadena:** No usar antes de 5 invocaciones ni como Invocación Normal. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No usar antes de 5 invocaciones ni como Invocación Normal
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P085`, `665:A05:N085C`, `665:A05:N085Z`, `665:A05:N085W`, `665:A05:N085R`, `665:A05:N085U`, `665:A05:N085N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 86. `665:a05:9279:droll-after-add-deck-to-hand` — CID 9279 (QCK)
+- **Actor / zona:** CID 9279 en zona `hand` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Rival añadió desde Deck principal a mano fuera Draw Phase y Droll en mano
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Enviar Droll de mano a GY al activar
+- **Objetivo y selección:** NO_APLICA sin target
+- **Resolución y estado posterior:** Ambos jugadores no pueden añadir cartas desde Deck principal a mano resto del turno
+- **Límite / cadena:** No disparar por robos normales de Draw Phase. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** No disparar por robos normales de Draw Phase
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P086`, `665:A05:N086C`, `665:A05:N086Z`, `665:A05:N086W`, `665:A05:N086R`, `665:A05:N086U`, `665:A05:N086N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 87. `665:a05:13587:ghost-belle-discard-negate-graveyard` — CID 13587 (QCK)
+- **Actor / zona:** CID 13587 en zona `hand` de juego, inventario real en A03.
+- **Ventana:** Efecto Rápido en ventana aplicable.
+- **Guarda física:** Rival activa efecto que añade desde GY, Invoca desde GY o destierra del GY
+- **Disparador:** Activación disponible bajo guardia
+- **Coste:** Descartar Ghost Belle al activar
+- **Objetivo y selección:** Responder al eslabón del efecto, no seleccionar monstruo al Campo
+- **Resolución y estado posterior:** Negar la activación que involucra GY
+- **Límite / cadena:** HOPT por nombre; no negar efectos de Deck sin acción GY. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** HOPT por nombre; no negar efectos de Deck sin acción GY
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P087`, `665:A05:N087C`, `665:A05:N087Z`, `665:A05:N087W`, `665:A05:N087R`, `665:A05:N087U`, `665:A05:N087N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 88. `665:a05:14400:goliath-link-one-infinitrack` — CID 14400 (PRO)
+- **Actor / zona:** CID 14400 en zona `extra` de juego, inventario real en A03.
+- **Ventana:** Procedimiento de Invocación no encadenable.
+- **Guarda física:** Un monstruo Infinitrack no Link propio; Goliath está en Reserva no Extra actual
+- **Disparador:** Procedimiento propio sin cadena
+- **Coste:** Usar ese Infinitrack como material Link1
+- **Objetivo y selección:** Seleccionar Infinitrack no Link
+- **Resolución y estado posterior:** Invocar Goliath Link1
+- **Límite / cadena:** SIN_COMBO_IDENTIFICADO sin Infinitrack Main y sin movimiento Reserva. No inicia cadena propia.
+- **Restricciones y recursos:** SIN_COMBO_IDENTIFICADO sin Infinitrack Main y sin movimiento Reserva
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P088`, `665:A05:N088C`, `665:A05:N088Z`, `665:A05:N088W`, `665:A05:N088R`, `665:A05:N088U`, `665:A05:N088N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 89. `665:a05:14400:goliath-gy-attach-to-xyz` — CID 14400 (TRG)
+- **Actor / zona:** CID 14400 en zona `graveyard` de juego, inventario real en A03.
+- **Ventana:** Tras evento descrito en guarda.
+- **Guarda física:** Goliath enviado desde Campo a GY y Xyz propio seleccionable
+- **Disparador:** Evento de disparo
+- **Coste:** NO_APLICA sin coste
+- **Objetivo y selección:** Seleccionar 1 Xyz propio
+- **Resolución y estado posterior:** Acoplar Goliath desde GY como material Xyz
+- **Límite / cadena:** Una vez por turno por nombre. Admite respuesta legal en cadena.
+- **Restricciones y recursos:** Una vez por turno por nombre
+- **Negaciones:** Si efecto se niega, no acreditar resultado; mantener costes pagados
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P089`, `665:A05:N089C`, `665:A05:N089Z`, `665:A05:N089W`, `665:A05:N089R`, `665:A05:N089U`, `665:A05:N089N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
+
+#### 90. `665:a05:14400:goliath-machine-xyz-protection` — CID 14400 (CONT)
+- **Actor / zona:** CID 14400 en zona `xyz_materials` de juego, inventario real en A03.
+- **Ventana:** Condición continua o reemplazo en estado vigente.
+- **Guarda física:** Goliath es material de Xyz cuyo Tipo original Máquina
+- **Disparador:** Aplicación continua
+- **Coste:** NO_APLICA efecto prestado
+- **Objetivo y selección:** NO_APLICA sin objetivo
+- **Resolución y estado posterior:** Xyz Máquina con Goliath como material no puede ser destruido por efecto de carta
+- **Límite / cadena:** No proteger Xyz de otro Tipo ni fuera material. No inicia cadena propia.
+- **Restricciones y recursos:** No proteger Xyz de otro Tipo ni fuera material
+- **Negaciones:** NO_APLICA negar un eslabón no activado
+- **Fuente oficial:** https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en
+- **Casos de papel:** `665:A05:P090`, `665:A05:N090C`, `665:A05:N090Z`, `665:A05:N090W`, `665:A05:N090R`, `665:A05:N090U`, `665:A05:N090N`; revisión en A05.3.
+- **Estado:** DOCUMENTADO_CON_FUENTE · CASOS_DE_PAPEL_PENDIENTES · NO_EJECUTABLE
