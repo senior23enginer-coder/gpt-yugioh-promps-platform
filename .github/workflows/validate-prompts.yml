@@ -38,6 +38,7 @@ on:
       - 'scripts/audit-deck-a06-crystron.cjs'
       - 'scripts/audit-deck-a07-crystron.cjs'
       - 'scripts/audit-deck-a08-crystron.cjs'
+      - 'scripts/audit-deck-a09-crystron.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -89,6 +90,7 @@ on:
       - 'scripts/audit-deck-a06-crystron.cjs'
       - 'scripts/audit-deck-a07-crystron.cjs'
       - 'scripts/audit-deck-a08-crystron.cjs'
+      - 'scripts/audit-deck-a09-crystron.cjs'
       - 'scripts/audit-deck-a04-photo-integrity.cjs'
       - 'scripts/test-deck-a02-crystron-preflight.php'
       - 'scripts/audit-deck-a07-paper-cases.cjs'
@@ -226,6 +228,8 @@ jobs:
         run: node scripts/audit-deck-a07-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Audit Crystron A08 26 decisions, 52 cases, 6 Side plans and TCG Advanced F&L
         run: node scripts/audit-deck-a08-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
+      - name: Audit Crystron A09 14 routes, 60 steps, 28 cases and 15 endboards without engine replay
+        run: node scripts/audit-deck-a09-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Verify user-assigned Crystron A06 causal links, 21 relationships and 42 paper scenarios
         run: node scripts/audit-deck-a06-crystron.cjs --deck-id=677 --user-assigned 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/datos/stationx-deck.json 01_INFORMACION_PARA_IMPORTAR/decks/DECK_NUEVO_13_CRISTRON_HORUS/DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md
       - name: Prepare PHP for isolated ZIP validation
