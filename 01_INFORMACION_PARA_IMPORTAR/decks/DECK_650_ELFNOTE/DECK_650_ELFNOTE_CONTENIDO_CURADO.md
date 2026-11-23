@@ -1,5 +1,19 @@
 # Elfnote
 
+## APARTADO_01 — Perfil A01 importable 650
+
+- **Arquetipo:** Elfnote, con apoyos Dogmátika y otros recursos registrados.
+- **Tipo de estrategia:** despliegue de monstruos y preparación de Invocaciones por Sincronía.
+- **Estilo breve:** combinación de posicionamiento, extensiones y decisiones de Extra Deck.
+- **Resumen para ficha:** Lucina, Tinia y Fortuna ayudan a desarrollar el motor y aprovechar la zona central; los Cantantes y niveles disponibles permiten buscar salidas Sincro apropiadas. Otros paquetes ofrecen alternativas, no una misma línea automática.
+- **Cómo se juega:** Lucina, Tinia y Fortuna ayudan a desarrollar el motor y aprovechar la zona central; los Cantantes y niveles disponibles permiten buscar salidas Sincro apropiadas. Otros paquetes ofrecen alternativas, no una misma línea automática. Primero: abre con Lucina y aprovecha la zona central para elegir Regina o Patron según los recursos. Segundo: evalúa Tinia y Fortuna como interrupción y busca una Sincronía legal. Juego medio: reutiliza los cuerpos y conserva la zona central sin repetir la misma búsqueda. Juego tardío: recupera recursos con Strelitzia y decide entre extender o mantener el control. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** la zona central, los niveles, los materiales y restricciones del Extra. No asumir que dos motores se pueden encadenar sin conflicto.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Estado vigente de cotejo (18-11-2026, segunda pasada):** 16 de 42 funciones individuales A05 tienen contraste explícito con texto oficial Konami; **26 continúan pendientes**. Las diez incorporaciones recientes son Regina, Lucina, Tinia, Power Patron, Fortuna, Medius, Strelitzia, Welcome Home, Rhapsodia y Junora. Sus filas A06.2 se han conciliado con la función real. Los conteos históricos `2/42` y `6/42` de cortes anteriores que aparecen más abajo **no son el estado actual**. No se alteran las 70 copias físicas ni se declaran replays.
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.

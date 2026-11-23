@@ -1,5 +1,19 @@
 # Volcanic
 
+## APARTADO_01 — Perfil A01 importable 687
+
+- **Arquetipo:** Volcanic, alrededor de Blaze Accelerator.
+- **Tipo de estrategia:** daño por efectos, control de monstruos y gestión de munición Piro/FUEGO.
+- **Estilo breve:** presión de recursos, control del campo y acumulación de daño.
+- **Resumen para ficha:** Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas.
+- **Cómo se juega:** Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Primero: usa Trooper o Rocket para obtener Aceleradores y munición. Segundo: aplica Scattershot solo si el envío proviene de un efecto compatible. Juego medio: recupera Shell y Rimfire con costes reales. Juego tardío: considera Emperor cuando se cumpla el procedimiento y existan recursos. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

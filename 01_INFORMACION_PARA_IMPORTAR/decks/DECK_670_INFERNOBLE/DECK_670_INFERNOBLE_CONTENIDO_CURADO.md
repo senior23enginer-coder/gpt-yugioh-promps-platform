@@ -1,5 +1,19 @@
 # Infernoble
 
+## APARTADO_01 — Perfil A01 importable 670
+
+- **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
+- **Tipo de estrategia:** desarrollo de Guerreros FUEGO y acceso condicionado a Enlace/Sincronía.
+- **Estilo breve:** combos de equipamiento, búsqueda y reutilización de recursos.
+- **Resumen para ficha:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
+- **Cómo se juega:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos. Primero: prepara Guerreros FUEGO con Ogier y Equipos antes de elegir Isolde o Sincronía. Segundo: desarrolla Oliver y Renaud solo con los costes legales. Juego medio: recicla Durendal y Almace con objetivos reales. Juego tardío: conserva Equipos y materiales para un jefe Infernoble invocable. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** Equipos disponibles, niveles de Sincro y efectos que bloqueen otras invocaciones del Extra.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

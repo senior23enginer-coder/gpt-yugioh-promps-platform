@@ -1,5 +1,19 @@
 # DoomZ
 
+## APARTADO_01 — Perfil A01 importable 653
+
+- **Arquetipo:** DoomZ, con sus piezas de Modelo de Poder y Equipos registrados.
+- **Tipo de estrategia:** preparación de materiales y salidas Xyz condicionadas.
+- **Estilo breve:** desarrollo por efectos encadenados y aprovechamiento de recursos que se equipan, destruyen o recuperan.
+- **Resumen para ficha:** Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios.
+- **Cómo se juega:** Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Primero: desarrolla con Incursores DoomZ y Amalthe comprobando los Equipos. Segundo: elige entre retirar amenazas o extender sin confundir equipar y destruir. Juego medio: recupera Equipo y materiales con Elara según sus efectos. Juego tardío: decide si Drastrius tiene materiales y ventanas para cerrar la partida. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

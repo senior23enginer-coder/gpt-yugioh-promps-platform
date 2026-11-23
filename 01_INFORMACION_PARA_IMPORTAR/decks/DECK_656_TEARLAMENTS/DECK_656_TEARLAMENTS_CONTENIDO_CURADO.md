@@ -1,5 +1,19 @@
 # Tearlaments
 
+## APARTADO_01 — Perfil A01 importable 656
+
+- **Arquetipo:** Tearlaments, complementado por paquetes Horus y Demoniherrero de la lista registrada.
+- **Tipo de estrategia:** Fusión mediante efectos de envío al Cementerio y utilización de recursos recuperables.
+- **Estilo breve:** motor de Cementerio, generación de ventajas y adaptación según qué cartas se envían.
+- **Resumen para ficha:** Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión.
+- **Cómo se juega:** Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Primero: abre con Reinoheart o Scheiren y distingue envío por efecto de coste. Segundo: usa Havnis como respuesta cuando se cumpla su ventana de activación. Juego medio: reutiliza recursos Tearlaments sin asumir resultados de la molienda. Juego tardío: elige una Fusión legal y protege los nombres necesarios para otra secuencia. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 

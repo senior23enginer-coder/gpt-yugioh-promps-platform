@@ -1,5 +1,19 @@
 # Cyber Dragon Pure
 
+## APARTADO_01 — Perfil A01 importable 684
+
+- **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
+- **Tipo de estrategia:** despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.
+- **Estilo breve:** ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.
+- **Resumen para ficha:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
+- **Cómo se juega:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Primero: usa Core y dos Máquinas adecuadas para preparar Nova. Segundo: valora Fusión o Xyz según el campo rival real. Juego medio: reutiliza Nachster y Herz bajo sus condiciones de recuperación. Juego tardío: elige Infinity o una Fusión sin contar materiales duplicados. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
+- **Qué vigilar:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
+
+**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+## APARTADO_02 — Continuidad del contenido anterior
+
+
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
 
