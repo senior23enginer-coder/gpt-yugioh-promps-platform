@@ -25,6 +25,6 @@ Todos los CID, zonas y route_id de la tabla se cotejaron con el registro exacto.
 - [x] T2: perfil existente de seis campos, cuatro cartas destacadas y cuatro fases.
 - [x] T3: matriz de CID, zonas, condiciones, fuentes, rutas existentes y límites.
 - [x] T4: [CI #45272833416](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45272833416) devolvió PASS para 650: estilo 71/190, resumen 230/250, seis campos en paridad y cuatro cartas/fases.
-- [ ] T5: la misma CI rechazó la ruta de source_document sin prefijo de carpeta, y el entorno visual omitió el módulo curated-visual. Correcciones Platform `1d18c4c142e58276a6ab55721a4fc92dae313384` y `030df199fba5d9f8f4760e1a3ef1324521539ece`; verificar resultado individual de nueva CI antes de cierre.
+- [x] T5: [CI #45273999784](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45273999784), commit Platform `34e9f1fb22a5faebe8c6a138efe19416cbb998d4`, devolvió ISOLATED_PASS de importación/exportación/reimportación para 650, 42 fotografías, 20 rutas, ocho rechazos y conservación de cantidades. Presentación del paquete real: PASS a 390 y 1280 px. Los fallos globales corresponden a otros registros.
 
-Resultado: 4/5, T5 pendiente. Cero importaciones de producción. No activar A02.
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
