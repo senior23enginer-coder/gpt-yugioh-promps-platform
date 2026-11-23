@@ -41,7 +41,7 @@ jobs:
           ];
           const platform='_platform/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40';
           const fields=['Arquetipo','Tipo de estrategia','Estilo breve','Resumen para ficha','Cómo se juega','Qué vigilar'];
-          const sanitize=v=>String(v||'').replace(/\*\*/g,'').replace(/\bCID\s*\d+\b/gi,'').replace(/\b[CV]\d{2}\b/g,'').replace(/\s+/g,' ').trim();
+          const sanitize=v=>String(v||'').replace(/\*\*/g,'').replace(/\bCID\s*\d+\b/gi,'').replace(/\b[CV]\d{2}\b/gi,'').replace(/\bA(?:0[1-9]|10[AB]?)\s*[-–]?\s*T?\d*\b/gi,'').replace(/effect_id|route_id|dictamen editorial|cat[aá]logo completo|consultar el plan|estudio individual|PARCIAL_AVANZADO|PENDIENTE_REPLAY|iteraci[oó]n\s*\d+/gi,'').replace(/\s+/g,' ').trim();
           const signature=rows=>rows.map(r=>[r.id,r.section,r.quantity].join(':')).sort();
           async function prepare(d){
            const base=path.join('01_INFORMACION_PARA_IMPORTAR/decks',d.dir);
