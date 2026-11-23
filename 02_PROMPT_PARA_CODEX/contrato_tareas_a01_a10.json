@@ -26,6 +26,14 @@
         {
           "task_id": "A01-T3",
           "description": "Registrar por propósito evidencia CID/zona/fuente/condición/riesgo y vínculos a `effect_id`/`motor_id`/`route_id` solo si existen; usar `PENDIENTE_DE_ENLACE_A05_A09` para enlaces futuros sin fabricar IDs, registrar siguiente verificación y reabrir solo la afirmación afectada cuando cambie su evidencia."
+        },
+        {
+          "task_id": "A01-T4",
+          "description": "Validar los seis campos A01, máximos de 190/250 caracteres, calidad sin relleno, fuente/CID e igualdad literal Markdown/`record.profile`, conservando inventario y declarando `a01_profile_contract` solo con evidencia; reportar cualquier divergencia sin modificar otros decks."
+        },
+        {
+          "task_id": "A01-T5",
+          "description": "Probar con el paquete del deck asignado importación, exportación/lectura y presentación en Station X, con casos de rechazo y preservación de IDs/rutas/fotos; registrar resultados reales, o dejar pendiente sin confundir pruebas sintéticas con certificación individual."
         }
       ]
     },
