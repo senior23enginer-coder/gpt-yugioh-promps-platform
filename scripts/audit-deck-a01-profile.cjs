@@ -43,9 +43,11 @@ function run({deckId,packagePath,documentPath}){
  const ledger=doc.slice(controlStart,controlEnd);
  const rows=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
  const expected=TASKS.stages.filter(x=>x.mandatory).flatMap(x=>x.tasks.map(t=>t.task_id));
- assert.equal(expected.length,35);
+ assert.equal(expected.length,37,'CURRENT_CONTRACT_37_TASKS');
+ // Previous 35-task ledgers remain historical evidence; T4/T5 stay open.
+ const legacyExpected=expected.filter(id=>id!=='A01-T4'&&id!=='A01-T5');
  assert.equal(rows.length,35,'TASK_LEDGER_MISSING_ROWS');
- assert.deepEqual(rows.map(m=>m[2]),expected,'TASK_LEDGER_WRONG_ORDER');
+ assert.deepEqual(rows.map(m=>m[2]),legacyExpected,'LEGACY_TASK_LEDGER_WRONG_ORDER');
  const closed=rows.filter(m=>m[1]==='x').map(m=>m[2]);
  assert.deepEqual(closed.filter(t=>t.startsWith('A01-')),
   ['A01-T1','A01-T2','A01-T3'], 'A01_MUST_REMAIN_CERTIFIED');
@@ -117,7 +119,8 @@ function run({deckId,packagePath,documentPath}){
   routesInPackage:routeIds.size,portableVariants:record.calculator.rules.length,
   documentedPurposes:purposeRows.length,uniqueReferencedCIDs:cids.size,
   referencedRouteIds:routes.size,referencedPortableRuleIds:rules.size,
-  closedTasks:closed,pendingTasks:35-closed.length,calculatorExecuted:false,
+  closedTasks:closed,pendingTasks:37-closed.length,
+  historicalLedgerTotal:35,newA01TasksPending:['A01-T4','A01-T5'],calculatorExecuted:false,
   independentRuleLegalityCertified:false};
  return result;
 }

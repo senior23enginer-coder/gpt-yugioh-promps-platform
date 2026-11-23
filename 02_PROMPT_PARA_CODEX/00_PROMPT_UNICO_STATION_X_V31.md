@@ -1,5 +1,10 @@
 # STATION X — ORQUESTADOR GLOBAL DE INTEGRACIÓN (ACTUALIZADO)
 
+### Separación obligatoria entre perfil del jugador y evidencias (23-11-2026)
+
+En toda entrega nueva A01–A10A, el contenido pedagógico de `record.profile` y `record.player_guide` debe pasar el contrato `station-x-player-guide/1` del apartado A01: lenguaje de jugador, nombres concretos, planes first/second/mid/late, cartas destacadas con razón y referencias CID/route_id solo en propiedades estructuradas invisibles. Las actas, claves de verificación, fecha del estudio, códigos C01/efectos, dictámenes y porcentajes van en `APARTADO_01` de evidencia, nunca en las seis cadenas visibles. A10A debe comprobar que la guía integrada no tenga secciones vacías ni enlace de auditoría HTML. El ZIP validado no equivale a publicación: solo la importación confirmada por Station X registra el instante real `folder_delivery.imported_at`. No declarar importado ni actualizado el deck sin respuesta positiva del endpoint y lectura posterior de estado. Las pruebas sintéticas protegen el contrato, no analizan ni publican otros decks.
+
+
 ## PUERTA CERO — autorización de un único deck y presencia de sus tres zonas obligatorias
 
 **Este repositorio NO procesa automáticamente los más de 60 decks, ni uno solo por iniciativa propia.** Cada ejecución A01–A10A o A10B exige que el usuario haya **asignado explícitamente un deck concreto**, identificado por `deck_id` del registro real, formato y carpeta de su paquete. Seleccionar por proximidad de nombre, recorrer todos los decks, aprovechar un catálogo, continuar con un deck anterior o iniciar un lote sin asignación explícita individual está **PROHIBIDO**. La existencia de un deck en la plataforma no autoriza analizarlo.
@@ -24,6 +29,16 @@
 ## CONTRATO TRANSVERSAL OBLIGATORIO — lenguaje ubicuo del deck, checklist y pruebas de papel (21-11-2026)
 
 **Precedencia:** este contrato rige el orquestador, los tres documentos base y los diez módulos A01–A10. Reemplaza las instrucciones anteriores que repartían la interpretación de un efecto entre distintas vistas. A01–A10A siempre se realizan; A10B únicamente se ejecuta si el usuario lo solicita. Que A10B sea opcional NO reduce en absoluto la información necesaria para prepararlo en A01–A09.
+
+### Ampliación A01 — perfil importable comprobable (23-11-2026)
+
+A01 contiene **cinco tareas obligatorias**, A01-T1…A01-T5: análisis estratégico, perfil de seis campos, matriz de propósitos por CID, validación de paridad Markdown/JSON y prueba real de importación/presentación. El total vigente de A01–A10A es **37 tareas obligatorias**, con **3 opcionales A10B**. El manifiesto `02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json` y el módulo A01 son la autoridad para sus identificadores.
+
+**Sin modificar los decks históricos automáticamente:** las actas antiguas de 35 tareas se conservan como instantáneas. No marcar A01-T4 ni A01-T5 de ningún deck sin nueva asignación expresa y evidencia individual. Los validadores de infraestructura pueden comprobar el nuevo contrato con ejemplos sintéticos, pero no aprueban por sí solos un deck.
+
+**Salida A01:** seis cadenas no vacías y específicas dentro del `record.profile` ya admitido por Station X: `Arquetipo`, `Tipo de estrategia`, `Estilo breve` (hasta 190 caracteres), `Resumen para ficha` (hasta 250), `Cómo se juega` y `Qué vigilar`. Para entregas nuevas que afirmen cumplir A01-T4/T5, declarar también `record.a01_profile_contract = "station-x-a01-profile/1"`: el importador valida el perfil y rechaza contenidos vacíos, de relleno o fuera de límites. Paquetes históricos sin esta declaración siguen siendo legibles, **sin que su A01-T4/T5 se considere completo**. Los propósitos investigados se documentan en `APARTADO_01`, no se crean rutas/efectos artificiales ni nuevas propiedades de estrategia no aceptadas por la plataforma.
+
+La prueba de importación/visualización **no** prueba la legalidad de la construcción ni la calculadora. A01-T5 requiere evidencia del paquete individual del deck seleccionado; las pruebas sintéticas del importador solo acreditan infraestructura.
 
 ### Una fuente semántica, múltiples consumidores
 

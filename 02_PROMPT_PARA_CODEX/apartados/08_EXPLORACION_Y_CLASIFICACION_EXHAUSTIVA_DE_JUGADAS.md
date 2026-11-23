@@ -68,6 +68,10 @@ contabilizan como combos certificados. Codex filtra unidad por unidad;
 nunca importa automáticamente un apartado entero.
 
 
+### Cobertura de salidas del Extra
+
+Explorar cada destino de Extra que tenga materiales acreditables en el inventario; distinguir (a) ruta A09 completa, (b) transformación/acceso condicional con ID `EX-Mnn`, (c) recurso sin invocación, y (d) acceso no demostrado con causa. Una clase (b) debe conservar apertura real, piezas disponibles, coste/consumo, riesgo, desenlace y vínculo de CID a `record.cards[*].extra_access`, aunque no se cree un `route_id` nuevo. En particular, **no sumar EX-Mnn a los combos completos** ni dejar a una carta como «sin jugada» si existe un acceso documental identificado. No confundir candidato investigado con ruta legal certificada.
+
 ## Checklist obligatorio por deck A08 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:

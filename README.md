@@ -51,7 +51,10 @@ La semántica de cartas, efectos, coste, chain, propietario/controlador, OPT/HOP
 
 ### Tareas verificables y medición de tiempos
 
-`02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json` es el **manifiesto único y versionado de tareas**, no un archivo por deck: **35 tareas obligatorias** repartidas entre A01–A10A y **3 tareas opcionales** A10B. Cada ejecución autorizada conserva la evidencia y el estado real de esas tareas en la sección `CONTROL_DE_TAREAS_A01_A10` del `DECK_*_CONTENIDO_CURADO.md` existente. `[x]` requiere prueba y resultado completos; una tarea bloqueada permanece abierta con causa y siguiente acción. El reporte muestra todas las terminadas y faltantes, aunque solo se haya trabajado un apartado.
+A01 incorpora ahora T4/T5 para validar los seis campos del perfil y comprobar su importación/presentación; las actas históricas de 35 tareas no quedan completadas de forma retroactiva.
+
+
+`02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json` es el **manifiesto único y versionado de tareas**, no un archivo por deck: **37 tareas obligatorias** repartidas entre A01–A10A y **3 tareas opcionales** A10B. Cada ejecución autorizada conserva la evidencia y el estado real de esas tareas en la sección `CONTROL_DE_TAREAS_A01_A10` del `DECK_*_CONTENIDO_CURADO.md` existente. `[x]` requiere prueba y resultado completos; una tarea bloqueada permanece abierta con causa y siguiente acción. El reporte muestra todas las terminadas y faltantes, aunque solo se haya trabajado un apartado.
 
 **Medición:** no se atribuyen tiempos a la IA sin ejecutar la tarea. Los `started_at`, `finished_at`, `elapsed_seconds` y reintentos corresponden a sesiones realmente observadas; un ETA solo es defendible tras obtener muestras comparables de trabajo real. La lógica reutilizable del ledger y la estimación está en Platform; **no está conectada todavía a un ejecutor autónomo de prompts ni a un grid de producción**. No hay procesamiento masivo ni en segundo plano habilitado por este contrato.
 

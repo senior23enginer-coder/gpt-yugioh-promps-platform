@@ -57,6 +57,12 @@ Para cada carta realmente disponible estudiar: nombre y copias; efecto y requisi
 Etiquetar roles combinables: starter, searcher, extender, enabler, engine, handtrap, negación, protección, removal, board breaker, finisher, recuperación, carta dependiente y recurso de largo plazo. Si una carta no entra en rutas útiles, explicar por qué; no forzarla.
 
 
+### Puerta de utilidad individual del Extra Deck (sin rutas ficticias)
+
+Cada identidad realmente cargada en el Extra debe contar en `record.cards` con `practical`, `operational` y `learning` específicos y verificables, más materiales/procedimiento, propósito, momento de uso, restricción y estado de evidencia. No basta el nombre o un resumen de efecto. Una carta sin acceso acreditado conserva utilidad documental y `SIN_RUTA_ACREDITADA` razonado; no inventar un combo ni repetir el mismo consejo genérico en todas las cartas.
+
+Cuando A09 documente accesos adicionales fuera de las familias de combos C01–C12, registrar su identidad `EX-Mnn` y fuente sin declarar ejecución ni crear rutas falsas; A06/A08/A09 completarán el acceso y A10A comprobará su presencia en la ficha importable.
+
 ## Checklist obligatorio por deck A05 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:

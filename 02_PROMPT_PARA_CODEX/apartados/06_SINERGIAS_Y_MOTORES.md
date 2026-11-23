@@ -157,6 +157,12 @@ de inventar estructura. Los estados internos nunca son títulos de la vista.
 - La representación fotográfica y las cuatro vistas quedan especificadas, con enlaces válidos o `FOTO_PENDIENTE` sin afirmar finalización visual.
 
 
+### Puerta de cobertura individual del Extra Deck
+
+Para **cada CID del Extra**, comprobar `A05 → A06 → A07 → A08 → A09/A10A`: materiales y zonas de origen, carta o efecto que habilita la Invocación, restricciones, alternativa de uso sin invocación, ventaja táctica y estado real. Mantener en la matriz existente la evidencia de acceso o `SIN_RUTA_ACREDITADA` con causa concreta; **no** declarar cobertura completa porque los monstruos tengan foto, texto de efecto o una fila en una tabla.
+
+Si el estudio A09 contiene un acceso adicional `EX-Mnn` que no constituye familia de combo, reflejarlo en `record.cards[*].extra_access` como acceso documental condicional con CID, estado, apertura, materiales, pasos, resultado y limitaciones. No elevarlo a `record.routes` ni contarlo como combo completo. Verificar que cada acceso se pueda recuperar desde la ficha de la carta en Station X y que ningún material proceda de Side/Reserva sin cambio documentado.
+
 ## Checklist obligatorio por deck A06 — control de entrega
 
 Para cada `deck_id` y formato, completar y marcar en `CONTROL_DE_TAREAS_A01_A10` del **único** `DECK_*_CONTENIDO_CURADO.md` existente, nunca en informes ni ficheros adicionales:

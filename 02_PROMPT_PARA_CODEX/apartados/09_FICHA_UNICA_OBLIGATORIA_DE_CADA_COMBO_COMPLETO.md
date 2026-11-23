@@ -96,6 +96,10 @@ Separar la secuencia sin respuesta de las ramas ante respuestas conocidas y de l
 Registrar faltantes de cada deck en el único registro privado existente, por carta/CID, efecto, paso, operador y fuente faltante. No declarar «cobertura completa» por conservar las 193 rutas actuales: ampliar al índice vigente y comprobar los efectos individualmente. A10 representa la misma secuencia y ramas de A09, conservando su incertidumbre.
 
 
+### Puente A09.0 → ficha de carta (accesos condicionales sin inflar combos)
+
+Los accesos del Extra que no cumplen la definición de combo A09 mantienen identificador de acceso `EX-Mnn` distinto de `route_id`. Si hay fuente, apertura, materiales, pasos, resultado y limitaciones, entregar la proyección en `record.cards[*].extra_access` con `cid`, `id`, `status` (`DOCUMENTADA_CONDICIONAL_SIN_REPLAY` o `TEORICA_PENDIENTE_VALIDACION`), `opening`, `materials`, `steps`, `result`, `limitation`, `source_section` y referencia opcional al combo padre. Esta proyección **no crea rutas en `record.routes`**, no constituye replay del motor ni valida automáticamente la invocación. La ficha debe informar con precisión de las rutas interactivas que sí existen y mostrar separadamente los accesos documentales.
+
 ## Checklist obligatorio por deck A09 — control de entrega
 
 Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:

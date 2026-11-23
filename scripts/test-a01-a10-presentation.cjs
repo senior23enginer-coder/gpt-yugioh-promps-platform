@@ -31,7 +31,7 @@ for(let i=1;i<=10;i++){
   assert(!source.includes('\\'+String.fromCharCode(96)),'Markdown code marker incorrectly escaped in '+file);
 }
 // New division and per-deck checklist are part of the mandatory prompt contract.
-const mandatoryChecks={1:3,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
+const mandatoryChecks={1:5,2:3,3:3,4:3,5:4,6:4,7:4,8:4,9:4,10:6};
 for(let stage=1;stage<=10;stage++){
   const moduleName=files.find(x=>x.startsWith(String(stage).padStart(2,'0')+'_'));
   const moduleText=fs.readFileSync(path.join(dir,moduleName),'utf8');
@@ -62,8 +62,8 @@ assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
 assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
 assert.equal(manifest.stages.length,11);
 const taskIds=manifest.stages.flatMap(stage=>stage.tasks.map(task=>task.task_id));
-assert.equal(taskIds.length,38,'35 mandatory plus 3 optional task IDs');
-assert.equal(new Set(taskIds).size,38,'Never duplicate stage task IDs');
+assert.equal(taskIds.length,40,'37 mandatory plus 3 optional task IDs');
+assert.equal(new Set(taskIds).size,40,'Never duplicate stage task IDs');
 for(let i=1;i<=10;i++){
   const number=String(i).padStart(2,'0');
   const body=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith(number+'_'))),'utf8');
@@ -73,8 +73,40 @@ for(let i=1;i<=10;i++){
     flatMap(x=>x.tasks.map(t=>t.task_id)).sort();
   assert.deepEqual(fromMarkdown,fromManifest,'Manifest mismatch with A'+number);
 }
-assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===35);
+assert(manifest.stages.filter(s=>s.mandatory).reduce((n,s)=>n+s.tasks.length,0)===37);
 assert(manifest.stages.find(s=>s.stage_id==='A10B').mandatory===false);
+
+// A01 defines an evidence-backed strategy before A05-A09. This is a contract
+// regression only: it must not execute deck analysis or alter deck artifacts.
+const a01Prompt=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith('01_'))),'utf8');
+const a01Tasks=manifest.stages.find(stage=>stage.stage_id==='A01');
+assert(a01Tasks?.mandatory===true&&a01Tasks.tasks.length===5,
+  'A01 must contain five mandatory tasks including structural and import acceptance');
+for(const field of ['Arquetipo','Tipo de estrategia','Estilo breve',
+  'Resumen para ficha','Cómo se juega','Qué vigilar']){
+  assert(a01Prompt.includes('`'+field+'`'),'A01 missing profile field '+field);
+}
+for(const clause of ['### Método obligatorio de diagnóstico estratégico A01',
+  '### Trazabilidad progresiva A01-T3 sin IDs ficticios',
+  '### Puerta de aceptación A01 — contenido, consistencia y portabilidad',
+  'PENDIENTE_DE_ENLACE_A05_A09','PENDIENTE_DE_SINCRONIZACION_O_IMPORTACION',
+  'NO_IMPORTABLE_TODAVIA','tcg_advanced','goat','rush_duel',
+  'Combo','Control','Midrange','Stun','Aggro','OTK','Híbrido',
+  'A05 analiza individualmente','A10B es opcional','190 caracteres',
+  '250 caracteres','record.profile','datos/stationx-deck.json',
+  '### A01-T4 — validación estructural del perfil y paridad de fuente',
+  '### A01-T5 — prueba de importación y presentación del perfil',
+  'a01_profile_contract','station-x-a01-profile/1',
+  'PERFIL_JSON_DESINCRONIZADO','PRUEBA_IMPORTACION_PENDIENTE']){
+  assert(a01Prompt.includes(clause),'A01 evidence/format contract missing '+clause);
+}
+for(const task of a01Tasks.tasks){
+  assert(a01Prompt.includes('- [ ] **'+task.task_id+'** '+task.description),
+    'A01 checklist/manifest description drift: '+task.task_id);
+}
+assert(!a01Prompt.includes('Una consulta para listar tareas, auditar prompts, corregir código o estimar duración NO es una asignación de deck.') ||
+  a01Prompt.includes('no autoriza ejecutar A01'),
+  'A01 prompt editing must not trigger deck analysis');
 
 // Prevent duplicate per-deck checklists and schema drift in all ten modules.
 for (let stage=1;stage<=10;stage++) {
@@ -235,6 +267,33 @@ for(const [folder,id,routes] of packs){
       rule.format==='tcg_advanced' && Array.isArray(rule.guards) &&
       Array.isArray(rule.resolve) && rule.resolve.length>0),
       'Portable Memento rules must preserve version, guards and resolution');
+    // La cobertura de Extra no se satisface sólo con 12 rutas y fotos.
+    const extras=pack.record.cards.filter(c=>c.slots.some(s=>s.section==='extra'));
+    assert.equal(extras.length,13,'Memento requires thirteen distinct Extra identities');
+    const documented=new Map();
+    for(const card of extras){
+      assert((card.practical||[]).length>0&&Object.keys(card.operational||{}).length>0&&
+        Object.keys(card.learning||{}).length>0,'Extra without practical usage: '+card.cid);
+      assert((card.synergy?.labels||[]).length>0,'Extra without A06 classification: '+card.cid);
+      for(const access of card.extra_access||[]){
+        assert.equal(access.cid,card.cid,'Extra access wrongly attached to card');
+        assert(!documented.has(access.id),'Duplicate Extra access '+access.id);
+        assert(['DOCUMENTADA_CONDICIONAL_SIN_REPLAY','TEORICA_PENDIENTE_VALIDACION'].includes(access.status));
+        for(const key of ['opening','materials','result','limitation','source_section'])
+          assert(typeof access[key]==='string'&&access[key].trim(),'Incomplete '+access.id+': '+key);
+        assert(Array.isArray(access.steps)&&access.steps.length>=2&&access.steps.every(s=>typeof s==='string'&&s.trim()),
+          'Extra access missing ordered actions '+access.id);
+        if(access.parent_route_id)assert(pack.record.routes.some(r=>r.id===access.parent_route_id),'Invalid parent route');
+        documented.set(access.id,card.cid);
+      }
+    }
+    assert.deepEqual([...documented.entries()].sort((a,b)=>a[0].localeCompare(b[0])),
+      [['EX-M01',12870],['EX-M02',19184],['EX-M03',9657],['EX-M04',13081]]);
+    const source=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks',pack.source_document),'utf8');
+    for(const [accessId,cid] of documented){
+      assert(source.includes(accessId)&&source.includes(String(cid)),'Missing A09 source for '+accessId);
+      assert(!pack.record.routes.some(r=>r.id.includes(accessId)),'Extra documentary access miscounted as full combo');
+    }
   }
   const steps=pack.record.routes.flatMap(route=>route.steps||[]);
   const photos=steps.filter(step=>Array.isArray(step.photos)&&step.photos.length>0).length;
