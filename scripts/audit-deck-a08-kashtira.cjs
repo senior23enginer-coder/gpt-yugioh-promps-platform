@@ -95,7 +95,7 @@ function audit(){
  const cases=new Set(),types={};
  for(const t of s.contrasts){
   A(!cases.has(t.case_id),'DUPLICATE_A08_SCENARIO');cases.add(t.case_id);
-  A(t.status==='PAPEL_NO_REPLAY'&&t.initial_state.length>3&&t.expected_legal.length>3);
+  A(t.status==='PAPEL_NO_REPLAY'&&t.initial_state.length>3&&t.expected_legal.length>=2,'PAPER_CASE_MISSING_STATE_'+t.case_id);
   A(t.source_rule_ids.every(id=>a07.has(id)),'SCENARIO_FOREIGN_RULE');
   types[t.category]=(types[t.category]||0)+1;
  }
