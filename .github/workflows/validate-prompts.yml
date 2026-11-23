@@ -56,6 +56,7 @@ on:
       - 'scripts/test-deck-a10a-import-roundtrip.php'
       - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - 'scripts/test-a01-crystron-677-player-guide.cjs'
       - '.github/workflows/validate-prompts.yml'
   push:
     branches: [base]
@@ -112,6 +113,7 @@ on:
       - 'scripts/test-deck-a10a-import-roundtrip.php'
       - 'scripts/test-deck-a10a-import-ui.cjs'
       - '01_INFORMACION_PARA_IMPORTAR/decks/**'
+      - 'scripts/test-a01-crystron-677-player-guide.cjs'
       - '.github/workflows/validate-prompts.yml'
   workflow_dispatch:
 
@@ -128,6 +130,8 @@ jobs:
           node-version: '22'
       - name: Verify user-assigned deck analysis eligibility and loaded zones
         run: node scripts/analysis-eligibility-test.cjs
+      - name: Validate Crystron 677 six-field GPT profile and four-phase guide
+        run: node scripts/test-a01-crystron-677-player-guide.cjs
       - name: Validate universal paper-case contract and synthetic fixtures
         run: node scripts/test-paper-case-contract.cjs
       - name: Validate GPT-owned paper regression scenarios for legacy migration
