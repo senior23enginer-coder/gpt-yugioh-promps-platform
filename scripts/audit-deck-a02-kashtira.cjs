@@ -59,6 +59,11 @@ function run(packagePath,documentPath,historyPath){
   }
  }
  images(normalized,true);normalized.profile=h.profile;
+ // Later scoped A06 is allowed to append documented causal studies and maps;
+ // historical slots, routes and all other native fields are still compared in full.
+ normalized.engine_maps=h.engine_maps;
+ normalized.causal_relations=h.causal_relations;
+ delete normalized.a06_review;
  A.deepEqual(normalized,h,'RECORD_SOURCE_DRIFT_OUTSIDE_A01_PROFILE_AND_IMAGE_REFERENCES');
  A.equal(sourceImages.size,38,'CID_ART_NOT_GROUNDED');
  for(const c of pkg.record.cards){
