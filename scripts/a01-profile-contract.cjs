@@ -36,7 +36,8 @@ function assertSourceParity(record,markdown){
   const section=markdown.slice(start,next<0?undefined:next);
   for(const field of FIELDS){
     // Canonical A01 values are one paragraph per field, preserving exact text.
-    const escaped=field.replace(/[.*+?^\\$\x7b\x7d()|[\]\\]/g,'\\$&');
+    // All six canonical field names are fixed, with no regexp metacharacters.
+    const escaped=field;
     const re=new RegExp('^- \\*\\*'+escaped+':\\*\\* (.+)$','gm');
     const found=[...section.matchAll(re)].map(m=>m[1]);
     assert.equal(found.length,1,'A01_SOURCE_FIELD_COUNT_'+field);
