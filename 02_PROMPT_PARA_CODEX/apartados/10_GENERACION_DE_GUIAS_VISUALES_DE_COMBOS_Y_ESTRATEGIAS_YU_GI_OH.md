@@ -110,6 +110,10 @@ Para interacciones, starters y extensiones, enseñar fotos y flechas con su **re
 **Antecedente Volcanic (orientativo y no obligatorio):** una guía previa describió 26 secuencias con Main 42 / Extra 15 / Side 0 / Reserva 14. Esa cifra no certifica 26 combos válidos ni exige recuperar un PDF antiguo; las rutas vigentes se revisan con su inventario y fichas A09/A10 actuales.
 
 
+### Puerta A10A — paridad por CID de accesos adicionales
+
+Comparar los accesos `EX-Mnn` documentados en A09.0 con `record.cards[*].extra_access`: mismo CID, ID, apertura, materiales, pasos, resultado, condición y estado. La guía y ficha visual deben permitir leerlos desde la carta, incluso cuando no existe ruta independiente en `record.routes`. No convertir accesos condicionados en combos certificados ni aumentar artificialmente las rutas A09; tampoco mostrar «No hay una jugada enlazada» sin distinguir que existe un acceso documental. Rechazar la entrega si se documentó un EX-Mnn pero se omitió del JSON. Mantener separadas visualización, importación y certificación de motor A10B.
+
 ## Checklist obligatorio por deck A10 — control de entrega
 
 Registrar estado en `CONTROL_DE_TAREAS_A01_A10` del **mismo** `DECK_*_CONTENIDO_CURADO.md`, asociado a `deck_id`, inventario y formato. No generar un archivo nuevo por efecto, prueba, ruta ni versión:
