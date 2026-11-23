@@ -5,6 +5,8 @@
 **NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
 
 
+**Regla expresa de alcance A01:** la banlist (lista de cartas prohibidas/limitadas y límites de copias por torneo) **no se consulta, no se evalúa y nunca bloquea este análisis** salvo solicitud explícita del usuario. El `format` es contexto para mecánicas y reglas de cartas, no autorización para corregir un deck conforme a una banlist. Preservar íntegro el inventario del usuario. Esta regla refuerza la exclusión ya establecida en A03.
+
 ## Entrega estandarizada A01 — semántica compartida y criterios de aceptación
 
 Produce perfil utilizable tanto en ficha como en guía y analizador: entradas = inventario real y fuentes; salidas = perfil, condiciones de victoria, restricciones, roles por CID y enlaces estables. No confundir deseo estratégico con acción legal.
