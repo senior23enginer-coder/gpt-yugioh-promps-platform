@@ -17,6 +17,8 @@ jobs:
           ref: analysis/kashtira-665-a01-precheck-20261122
       - name: Identify conflicts without changing any branch
         run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git fetch origin base
           echo '=== Merge-base and branch status ==='
           git rev-parse HEAD origin/base
