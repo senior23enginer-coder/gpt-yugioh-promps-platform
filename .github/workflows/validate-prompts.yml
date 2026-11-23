@@ -266,6 +266,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Checkout actual Station X frontend source for isolated import UI browser test
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
       - name: Install isolated Chromium browser test dependency
         run: npm install --no-save --no-package-lock playwright@1.46.1
       - name: Install Chromium
