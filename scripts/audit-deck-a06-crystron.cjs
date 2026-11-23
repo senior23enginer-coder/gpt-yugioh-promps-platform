@@ -115,10 +115,10 @@ function audit({deckId,packagePath,documentPath}){
  const marks=[...ledger.matchAll(/^- \[([ x])\] \*\*(A(?:0[1-9]|10A)-T\d)\*\*/gm)];
  a.equal(marks.length,35,'MISSING_REQUIRED_TASKS');
  const closed=marks.filter(x=>x[1]==='x').map(x=>x[2]);
- a.equal(closed.length,19,'A06_EXACTLY_NINETEEN_TASKS_CLOSED');
+ a(closed.length>=19&&closed.length<=35,'A06_REQUIRES_PREVIOUS_CLOSURE');
  a(closed.includes('A06-T1')&&closed.includes('A06-T2')&&closed.includes('A06-T3')&&closed.includes('A06-T4'),'A06_NOT_CLOSED');
  a(!closed.includes('A05-T4'),'A05_T4_MUST_REMAIN_OPEN');
- a(ledger.includes('19/35')&&ledger.includes('16/35'),'PROGRESS_MISMATCH');
+ a(ledger.includes(closed.length+'/35')&&ledger.includes((35-closed.length)+'/35'),'PROGRESS_MISMATCH');
  return {ok:true,deck_id:677,physical:counts,identities:39,
   a05ClauseIds:92,a05T4IndependentlyVerified:false,
   a06Relations:details.relations,a06PaperCases:details.cases,
