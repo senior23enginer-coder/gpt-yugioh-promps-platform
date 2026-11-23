@@ -1,0 +1,29 @@
+# A01 — cierre individual Pyro (704)
+
+23-11-2026. Rush Duel, Skill Alchemy Blaze registrada en reglas locales. Main 30 / Extra 5 / Side 0 / Reserva 0; 17 identidades, tres rutas. No se añade Side ni Extra. Skill separada del inventario físico; no se evalúa banlist.
+
+Fuentes exactas: Markdown `e21199e8709be27a6ecba01fee7151b7b67a22e5`, JSON `2966c0da5b33ba9e909e495329c342101a46616c`. Referencia de Skill del expediente: https://www.duellinksmeta.com/skills/Alchemy%20Blaze.
+
+## T1 y T3 — diagnóstico y propósitos
+
+Combo/Midrange Piro/FUEGO mediante materiales nombrados y Fusión Rush. El plan principal reúne Cromatográfagas y Superasistente Ember para Arquero; Salamandra Quimicalizada y Superasistente para Salamandra Alquimicalizada. Orden Secreta, Hiperasistente Ember y Gobernante de las Llamas aportan extensiones distintas. Alchemy Blaze es una Skill local condicional desde el turno 2, no una carta del Main ni una invocación garantizada. Victoria por presión de combate o retirada de retaguardia, sin daño garantizado. Riesgos: materiales nombrados no disponibles, falta de zona, destrucción de M/T propias, Skill no elegible y recursos del GY agotados.
+
+| Propósito | CID, zona y fuente de identidad | Condición y riesgo | Ruta documental existente |
+|---|---|---|---|
+| Fusión de presión | [18583](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2), [17963](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2), [16934](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2), [17212](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2) Main; [19990](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2) Extra | Orden Secreta extiende Normal Nivel 7; Fusión usa materiales boca arriba del propio Campo. Arquero requiere devolver Normal Piro Nivel 7 del GY a la cima del Deck para su presión de ATK. No asumir combate ni daño. | `704:A09:ALCHEMY:ARCHER01` |
+| Fusión de control | [17868](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2), [17963](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2), [16934](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2) Main; [18614](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2) Extra | Salamandra Alquimicalizada destruye M/T de ambos campos en la ventana de su Invocación Especial; la reducción de ATK depende de Magias efectivamente destruidas. No asumir limpieza selectiva ni afectar monstruos por destrucción. | `704:A09:ALCHEMY:SALAMANDRA02` |
+| Extensión y penetración | [19291](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2), [17868](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2), [15204](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2) Main | Hiperasistente necesita monstruo rival y enviarse desde Campo para traer Piro Nivel 7+ de mano. El aumento de ATK requiere Superasistente en GY. Atraviesa concede penetración; no asegura ataque legal ni daño. | `704:A09:V11:HYPER:CHEMICALIZED:PIERCE` |
+| Consistencia por Skill | Skill Alchemy Blaze; [18583](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2), [17868](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2), [17963](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2) Main | Turno 2+, revelación elegible y todos los monstruos del Deck Piro/FUEGO DEF ≥100 conforme al expediente. Selección de dos cartas y envío posterior de una de mano; no tratar la Skill como robo aleatorio. | `704:A09:ALCHEMY:ARCHER01`, `704:A09:ALCHEMY:SALAMANDRA02` |
+| Presencia y remoción | [17285](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2), [17926](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2), [16171](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2) Main | Germalewe es Normal; Gobernante cuenta por dos Tributos solo para la Invocación por Sacrificio compatible, no para Fusión. Fuego Ardiente necesita dos Piros boca arriba y M/T rival elegible para retirada. | PENDIENTE_DE_ENLACE_A05_A09 |
+| Defensa y recursos | [18646](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2), [15913](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2), [16372](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2) Main | Gelatina y Agujero Trampa tienen ventanas diferentes; comprobar Nivel del atacante o ATK de monstruo Invocado Normalmente. No convertir Olla de la Codicia en búsqueda determinista. | PENDIENTE_DE_ENLACE_A05_A09 |
+
+CID, zonas, rutas y Skill cotejados contra el expediente versionado; enlaces Rushdb de identidad/texto y referencia de Skill del expediente. No se afirma nueva auditoría exhaustiva de reglas ni simulación de las rutas. No crear effect_id/motor_id inexistentes.
+
+## Checklist
+- [x] T1: diagnóstico específico del formato, Skill, motores, riesgos y condición de victoria.
+- [x] T2: seis campos del perfil, cuatro cartas destacadas y cuatro fases.
+- [x] T3: matriz de propósitos, CID, zonas, fuentes, condiciones y rutas existentes o pendiente explícito.
+- [x] T4: [CI #45275755236](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45275755236) PASS, estilo 179/190, resumen 244/250, paridad de seis campos.
+- [x] T5: misma CI, job 138046988317, commit Platform `47c7552b61e446ec932d72fdbb7291cd95317967`: ISOLATED_PASS importación/exportación/reimportación, 17 fotos, tres rutas, ocho rechazos y cantidades conservadas. Presentación a 390 y 1280 px PASS. Job finalizado exitosamente.
+
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción; no iniciar A02.

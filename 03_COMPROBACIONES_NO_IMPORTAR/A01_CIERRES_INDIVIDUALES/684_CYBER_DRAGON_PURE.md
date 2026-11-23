@@ -1,0 +1,30 @@
+# A01 — verificación individual Cyber Dragon Pure (684)
+
+23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 24; 52 identidades, 17 rutas. Inventario inalterado; Reserva no equivale a Side. No se evalúa banlist.
+
+Fuentes versionadas: Markdown blob `4b8f72ccbacadef9af00920fe45bb1410f4d1bbf`; JSON blob `c8b37e52bb6d70e6c573166e8ab441be12a07a47`.
+
+## T1 y T3 — diagnóstico y matriz de propósitos
+
+Estrategia Combo/OTK de Máquinas orientada a romper el campo rival mediante procedimientos de Chimeratech y presión de Fusión; Nova/Infinity ofrece interacción alternativa al ir primero. Core y Emergency aportan búsqueda, Herz y Nachster recuperación y extensión condicionadas; Cyberdark Realm, Claw y Chimera permiten acceder al submotor Power Bond. Clockwork Night facilita Fortress cuando los materiales pueden enviarse al GY. La victoria depende de convertir recursos y ventanas reales en daño de combate, no de garantizar OTK. Riesgos: restricciones a Máquinas, efectos excluyentes de Herz, daño de Power Bond, materiales inaccesibles y falta de un monstruo rival elegible.
+
+| Propósito | CID y zona | Condición, riesgo y límite | Ruta existente |
+|---|---|---|---|
+| Presión con Rampage | [6783](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2), [10866](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2), [13723](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2) Main; [11764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2) Extra | Overload requiere materiales elegibles; la apertura registrada consume Core y Herz del GY. Rampage necesita enviar Máquinas LUZ del Deck para obtener ataques adicionales contra monstruos; no garantizar daño ni atacar directamente varias veces. | `684:A09:OVERLOAD:RAMPAGE01` |
+| Submotor Cyberdark | [13181](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2), [16298](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2), [16296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2), [6398](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2) Main; [11764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2) Extra | La apertura Claw/Realm/Power Bond registrada exige cuatro cartas, descartes y Normal adicional; Rampage gana 2100 ATK y existe daño de End Phase. No atribuir a Claw solo el resultado final. | `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01` |
+| Ruptura mediante Fortress | [10866](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2), [17625](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2) Main; [7403](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2) Extra | Night convierte monstruos boca arriba en Máquinas; Core cuenta como Cyber Dragon en Campo. Fortress requiere materiales que puedan enviarse al GY, no destrucción ni efecto de negación. | `684:A09:CLOCKWORK:FORTRESS01` |
+| Ruptura mediante Megafleet | [6390](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2), [10866](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2) Main; [13358](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2) Extra | Necesita monstruo Cyber Dragon y material elegible en Zona de Monstruos Extra. No retirar arbitrariamente un monstruo en zona principal ni garantizar continuación. | `684:A09:MEGAFLEET:CYBER01`, `684:A09:MEGAFLEET:CORE01` |
+| Control Xyz | [6390](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2), [13770](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2), [13723](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2) Main; [10870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2), [11765](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2) Extra | La apertura requiere Herz previamente en GY y monstruo rival para Invocar Cyber Dragon original por su procedimiento. Herz puede hacerse Nivel 5 si cumple su condición; Nova necesita dos Máquinas Nivel 5. Infinity puede superponerse a Nova; su negación exige material y ventana legal. | `684:A09:REV:HERZ:NOVA:INFINITY01` |
+| Recuperación y ofensiva | [14047](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2), [6390](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2) Main; [13758](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2) Extra | Nachster descarta otro monstruo y requiere Máquina elegible con 2100 ATK/DEF en GY para recuperar; su efecto limita posteriores Invocaciones Especiales a Máquinas. Sieger necesita materiales legales y una ventana de Battle Phase para aumentar ATK/DEF. No prometer daño letal. | `684:A09:NACHSTER:SIEGER01` |
+
+CID, zonas, rutas y fuentes comprobados en el registro exacto; las fuentes Konami proceden de las fichas versionadas. No se atribuye una nueva revisión exhaustiva del texto oficial ni ejecución de combos. El registro no contiene record.calculator; los effect_id/motor_id inexistentes quedan PENDIENTE_DE_ENLACE_A05_A09. No iniciar A02.
+
+## Checklist
+
+- [x] T1: diagnóstico específico, motores, estrategia y riesgos.
+- [x] T2: seis campos de perfil, cuatro cartas destacadas y cuatro fases.
+- [x] T3: matriz individual con CID, zonas, fuentes, condiciones y rutas existentes.
+- [x] T4: [CI #45274393388](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45274393388) PASS, estilo 67/190, resumen 227/250, paridad Markdown/JSON de seis campos.
+- [x] T5: misma CI, job 138042292852, commit Platform `c8e38d72bdcfc3bbc2826d2f6056e4b99d9f1b7e`: ISOLATED_PASS de importación/exportación/reimportación, 52 fotografías, 17 rutas, ocho rechazos, inventario conservado. PASS de presentación del paquete real a 390 y 1280 px. Job finalizado exitosamente.
+
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
