@@ -1,0 +1,32 @@
+name: Kashtira 665 A01 admission precheck (read-only)
+on:
+  push:
+    branches:
+      - 'analysis/kashtira-665-a01-precheck-20261122'
+  pull_request:
+    branches:
+      - base
+    paths:
+      - 'scripts/test-kashtira-665-a01-precheck.cjs'
+      - '03_COMPROBACIONES_NO_IMPORTAR/KASHTIRA_665_A01_PRECHECK.md'
+      - '.github/workflows/kashtira-665-a01-precheck.yml'
+permissions:
+  contents: read
+jobs:
+  kashtira-a01-prerequisite:
+    if: github.event_name != 'pull_request' || github.head_ref == 'analysis/kashtira-665-a01-precheck-20261122'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out historical 665 inventory from Station X, read-only
+        uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform_source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Assert blocked A01 gate, untouched reserve, missing native package and 19 October 2026 F&L conflicts
+        run: node scripts/test-kashtira-665-a01-precheck.cjs _platform_source/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json
