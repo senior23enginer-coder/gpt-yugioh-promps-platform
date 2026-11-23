@@ -63,7 +63,7 @@ assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
 assert.equal(manifest.stages.length,11);
 const taskIds=manifest.stages.flatMap(stage=>stage.tasks.map(task=>task.task_id));
 assert.equal(taskIds.length,40,'37 mandatory plus 3 optional task IDs');
-assert.equal(new Set(taskIds).size,38,'Never duplicate stage task IDs');
+assert.equal(new Set(taskIds).size,40,'Never duplicate stage task IDs');
 for(let i=1;i<=10;i++){
   const number=String(i).padStart(2,'0');
   const body=fs.readFileSync(path.join(dir,files.find(x=>x.startsWith(number+'_'))),'utf8');
