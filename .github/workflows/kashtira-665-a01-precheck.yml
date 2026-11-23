@@ -17,6 +17,7 @@ on:
       - 'scripts/audit-deck-a07-kashtira.cjs'
       - 'scripts/audit-deck-a08-kashtira.cjs'
       - 'scripts/audit-deck-a09-kashtira.cjs'
+      - 'scripts/audit-deck-a09-t2-kashtira.cjs'
       - '02_PROMPT_PARA_CODEX/apartados/05_ANALISIS_INDIVIDUAL_DE_TODAS_LAS_CARTAS.md'
       - 'scripts/test-deck-a04-kashtira-decode.py'
       - '02_PROMPT_PARA_CODEX/apartados/04_FUENTES_Y_ZONAS_DE_CARTAS.md'
@@ -73,6 +74,8 @@ jobs:
         run: node scripts/audit-deck-a08-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
       - name: Audit A09 T1 16 historical routes, 92 steps and unresolved evidence gaps
         run: node scripts/audit-deck-a09-kashtira.cjs --deck-id=665 --user-assigned --authorized-side-waiver
+      - name: Audit A09 T2 reference coverage and 70 missing transitions without false replay claims
+        run: node scripts/audit-deck-a09-t2-kashtira.cjs
       - name: Lint native Kashtira A02 isolated PHP import test
         run: php -l scripts/test-deck-a02-kashtira-preflight.php
       - name: Prepare Kashtira A02 portable ZIP in isolated Station X PHP, without publishing

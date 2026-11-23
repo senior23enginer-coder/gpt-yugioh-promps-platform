@@ -9596,3 +9596,14 @@ El explorador `record.a08_review.role_index` contiene **38/38 fichas CID**, con 
 **Hallazgos obligatorios para T2–T4:** foto de Riseheart añadida históricamente a la mano declarada «solo Fenrir» en SHANGRI02; Arise-Heart del Extra aparece indebidamente en fotografías históricas de mano en ARISE3MAT08; SHANGRI:STANDBY:ARISE04 y BIGEYE:BATTLE:ZEUS11 requieren un campo previo real. Los disparadores opcionales Big Bang y Shangri-Ira tras Riseheart deben analizarse en la misma ventana de nueva cadena si se cumplen, no presuponer múltiples cadenas. No atribuir bloqueos retroactivos ni materiales Xyz duplicados.
 
 **Prueba pendiente T2:** fuente oficial, actor/carta, coste previo, target, cadena, resolución, destino, materiales y estado de ocho zonas para cada paso. **T3:** variantes y contrapruebas por ruta, incluyendo interrupciones y legalidad de la ventana. **T4:** pasos completos e imágenes locales alineadas con CID y campo final espacial solo si se acredita. Hasta cumplir estas puertas, `complete_combos_certified=0`, `engine_replays=0`, `spatial_endboards_certified=0`.
+
+
+### A09-T2 — correspondencia documental de efectos por paso (avance no certificado)
+
+**Estado real de T2: PENDIENTE DE ESTADOS COMPLETOS.** El paquete `record.a09_review.step_links` enlaza las **92 acciones macro** existentes por `step_id` a las cláusulas A07 que correspondan: **75** pasos tienen al menos una referencia `rule_id/effect_id` y **17** son decisiones, resúmenes, batalla, Invocación Normal general o estado sin regla propia de A07. Los pasos compuestos mantienen más de una regla; no se convierten artificialmente en un único eslabón de Cadena.
+
+**Control antes/después:** 22/92 transiciones tienen registro previo y posterior de recursos; **70/92 requieren completar zonas y causalidad** antes de certificar T2. Donde no existe un estado estructurado se conserva el texto fuente con el marcador `TRANSICION_PENDIENTE_EVIDENCIA_POR_ZONA`, no una posición o mano inventada. Ningún vínculo A07 equivale a replay o validación de reglas del motor.
+
+**Casos críticos por validar:** Big Bang desterrada sin Xyz Kashtira propio no se puede activar (ruta 02, paso 5); los dos disparadores opcionales tras Riseheart necesitan la misma ventana de construcción de Cadena (ruta 07, pasos 4–5, y ruta 14, paso 7, donde el orden elegido es distinto). El efecto rápido de Arise-Heart necesita materiales realmente disponibles y no puede asumirse que se completaron por sí solos. En `SHANGRI:STANDBY:ARISE04` no omitir cambio de turno/fase.
+
+No se cierra A09-T2, ni A09-T3/T4, ni se genera `record.calculator`. El avance mantiene el principio de **no presentar documentación de papel como ejecución verificada**.
