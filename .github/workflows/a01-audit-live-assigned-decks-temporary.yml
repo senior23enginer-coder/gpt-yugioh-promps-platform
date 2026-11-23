@@ -1,0 +1,57 @@
+name: Audit A01 scope for all user-assigned loaded decks (no analyses certified)
+on:
+  push:
+    branches: [feat/a01-four-surface-contract-and-loaded-inventory-20261123]
+    paths: [.github/workflows/a01-audit-live-assigned-decks-temporary.yml]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Obtain the exact GPT mapping and native inventory from production (read only)
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch base https://github.com/senior23enginer-coder/platform-yugioh-md.git /tmp/stationx-platform-a01
+          python3 - <<'PY'
+          import urllib.request, pathlib, json, os
+          platform=pathlib.Path('/tmp/stationx-platform-a01/torneos_yugioh')
+          gpt=pathlib.Path('01_INFORMACION_PARA_IMPORTAR/decks')
+          idx=json.loads((platform/'assets/editorial/deck-data-sources/index.json').read_text())
+          state=json.loads((platform/'assets/editorial/strategy-content-state.json').read_text())
+          folder_by_doc={p.name:p.parent.name for p in gpt.glob('*/**/*_CONTENIDO_CURADO.md')}
+          records=[]
+          for k,source in sorted(idx.items(),key=lambda x:int(x[0])):
+            deck_id=int(k)
+            req=urllib.request.Request(f'https://stationxtulua.com/yugioh/?api=deck_builder&deck_id={deck_id}',headers={'User-Agent':'StationX-A01-ReadOnly-20261123'})
+            with urllib.request.urlopen(req,timeout=40) as response: data=json.load(response)
+            if data.get('ok') is not True: raise RuntimeError(f'Native inventory unavailable: {deck_id}')
+            folder=folder_by_doc.get(source['source_document'])
+            current=state.get('checked_studies',{}).get(k)
+            fmt=None
+            if current and current.get('path'):
+              try:
+                active=platform/current['path'].removeprefix('./')
+                fmt=json.loads(active.read_text())['format']
+              except (OSError,KeyError,ValueError): pass
+            records.append({'id':deck_id,'name':data.get('deck',{}).get('name'),
+              'format':fmt,'source_folder':folder,'cards':data.get('cards',[])})
+          pathlib.Path('outputs').mkdir(exist_ok=True)
+          pathlib.Path('outputs/native-a01-readonly-snapshot.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
+          print('LIVE_DECKS',len(records),'WITH_FORMAT',sum(bool(r['format']) for r in records))
+          PY
+      - name: Check A01 admission for the exact sources and preserve honest task status
+        run: |
+          node scripts/a01-batch-live-audit.cjs outputs/native-a01-readonly-snapshot.json outputs/a01-batch-readonly-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: a01-user-assigned-live-deck-preflight
+          path: |
+            outputs/native-a01-readonly-snapshot.json
+            outputs/a01-batch-readonly-report.json
+          if-no-files-found: error

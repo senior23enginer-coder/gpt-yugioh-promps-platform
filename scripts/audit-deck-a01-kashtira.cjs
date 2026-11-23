@@ -22,7 +22,7 @@ function run(historyFile,documentFile){
  A.equal(inv.length,44);
  const payload={deck_id:665,format:j.format,record:{deck_id:665,format:j.format,cards:j.cards},inventory:inv};
  const normal=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload});
- A.equal(normal.eligible,false);A(normal.violations.includes('REQUIRED_SIDE_NOT_LOADED'));
+ A.equal(normal.eligible,true);A.deepEqual(normal.violations,[]);
  const allowed=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload,
   stageId:'A01',authorizedSideOmissionForA01:true});
  A(allowed.eligible&&allowed.a01SideWaiverApplied,'USER_WAIVER_NOT_APPLIED');
@@ -99,7 +99,7 @@ for(const k of ['A02-T1','A02-T2','A02-T3'])A(taskRows.some(x=>x[2]===k&&x[1]===
  return {ok:true,deck_id:665,stage:'A01',completed:['A01-T1','A01-T2','A01-T3'],
   tasksClosed:3,tasksPending:32,cardIdentities:38,physicalSlots:44,historicalRoutes:16,
   registeredEffectReferences:effects.size,documentedPurposes:goals.length,linkedRoutes:relatedRoutes.size,
-  physical:allowed.counts,explicitWaiverForA01:true,sideInvented:false,banlistAssessed:false,
+  physical:allowed.counts,historicalWaiverRecorded:true,sideOptionalUnderCurrentGate:true,sideInvented:false,banlistAssessed:false,
   engineExecuted:false,livePlatformChanged:false};
 }
 if(require.main===module){

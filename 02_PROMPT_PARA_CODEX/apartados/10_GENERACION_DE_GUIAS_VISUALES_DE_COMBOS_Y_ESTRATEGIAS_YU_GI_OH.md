@@ -7,7 +7,10 @@ A10A solo da por lista la guía integrada si el `record.player_guide` certificad
 
 ### Precondición A10 — selección expresa y deck realmente cargado
 
-**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main y Extra físicamente cargados con cantidades positivas**. **Side y Reserva son opcionales** y jamás deben completarse por suposición. En ausencia de selección o cualquiera de esas dos zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
+**Regla vigente de elegibilidad para todo A01–A10A (23-11-2026):** Main y Extra cargados con cantidades positivas son el mínimo universal; Side y Reserva son opcionales. Las excepciones históricas para Side=0 ya no se necesitan y no bloquean otros decks. Preservar inventario y formato, no analizar ningún deck no asignado y no evaluar banlist salvo petición expresa.
 
 
 ## Entrega estandarizada A10 — trazabilidad canónica y cobertura medible

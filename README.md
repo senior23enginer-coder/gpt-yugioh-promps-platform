@@ -1,4 +1,12 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
+## Regla de elegibilidad y contrato con Station X (23-11-2026)
+
+Por instrucción del propietario, **Main Deck y Extra Deck cargados son el mínimo para A01–A10A**; Side Deck y Reserva son opcionales. Conservar siempre secciones reales, cantidades, CIDs, `card_id`, formato y fuentes; no completar Side desde Reserva ni consultar banlist sin petición expresa. La selección explícita por deck sigue siendo obligatoria. Las excepciones documentales antiguas de Kashtira Side=0 son históricas y no una puerta necesaria.
+
+El análisis de GPT proporciona exclusivamente los cuatro contenidos estratégicos de Station X mediante `record.profile` (estilo/arquetipo y plan de ficha), `record.player_guide` (cartas y fases), `record.routes` (combos/estrategias documentales) y `record.calculator.rules` (solo efectos realmente modelados). Inventarios, partidas, estados físicos y herramientas de edición nativas son responsabilidad de Station X. Todo nuevo paquete debe conservar datos sin fabricar reglas ni trasladar metadatos técnicos a la UI del jugador.
+
+**Asignación del lote A01:** el propietario solicitó los decks con inventario cargado. El preflight de producción del 23-11-2026 identificó 16 decks con alguna carta y 15 con Main+Extra; Royal 705 carece de Extra y permanece bloqueado. La auditoría automatizada solo verifica acceso e inventario y **nunca cierra por sí sola T1–T5**. Los seis campos del perfil, fuentes/propósitos, paridad Markdown/JSON y aceptación de importación/render/export deben comprobarse por deck. Memento 671 cuenta con A01-T5 certificado e importación real anterior; no se asume que los otros 14 tengan el mismo grado de completitud.
+
 
 ## Contrato de casos lógicos por efecto (infraestructura, sin analizar decks)
 

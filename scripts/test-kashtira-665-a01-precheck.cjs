@@ -1,8 +1,8 @@
 'use strict';
 /** Negative admission regression for user-assigned Kashtira Pure 665.
  * The user's express authorization permits A01 and separately assigned A02 with Side=0.
- * The default gate remains blocked, Side and Reserve are unchanged, and
- * A03-A10A do not inherit either stage-specific waiver.
+ * The current gate requires Main+Extra only. Historical Side waiver markers
+ * remain for provenance but have no admission effect; neither Side nor Reserve is modified.
  * Tournament banlists are explicitly outside the requested analysis.
  */
 const assert=require('node:assert/strict');
@@ -22,15 +22,15 @@ assert.equal(historic.cards.length,38);
 const rows=historic.cards.flatMap(c=>c.slots.map(s=>({id:s.card_id,section:s.section,quantity:s.quantity})));
 const approved={deck_id:665,format:historic.format,record:{deck_id:665,format:historic.format,cards:historic.cards},inventory:rows};
 const tested=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:approved});
-assert.equal(tested.eligible,false,'INVALID_UNAUTHORISED_ADMISSION');
+assert.equal(tested.eligible,true,'MAIN_EXTRA_ELIGIBLE_UNDER_CURRENT_POLICY');
 assert.deepEqual(tested.counts,{main:42,extra:15,side:0,reserve:19});
-assert.deepEqual(tested.violations,['REQUIRED_SIDE_NOT_LOADED']);
+assert.deepEqual(tested.violations,[]);
 const waived=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:approved,
  stageId:'A01',authorizedSideOmissionForA01:true});
 assert(waived.eligible&&waived.a01SideWaiverApplied,'A01_USER_WAIVER_NOT_HONORED');
 assert.deepEqual(waived.counts,tested.counts,'SIDE_COPIES_CHANGED');
 assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:approved,
- stageId:'A02',authorizedSideOmissionForA01:true}).eligible,'A02_MUST_STAY_BLOCKED');
+ stageId:'A02',authorizedSideOmissionForA01:true}).eligible,'A02_SIDE_OPTIONAL');
 const packagePath=path.join(root,'01_INFORMACION_PARA_IMPORTAR','decks','DECK_665_KASHTIRA_PURE','datos','stationx-deck.json');
 assert(fs.existsSync(packagePath),'A02_NATIVE_PACKAGE_NOT_CREATED');
 const structure=JSON.parse(fs.readFileSync(packagePath,'utf8'));
@@ -47,15 +47,15 @@ const a01=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/apartados/01_ROL_
 assert(a01.includes('la banlist (lista de cartas prohibidas/limitadas y límites de copias por torneo) **no se consulta, no se evalúa y nunca bloquea este análisis**'),'A01_BANLIST_OUT_OF_SCOPE_INSTRUCTION_MISSING');
 const a06=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A06',authorizedSideOmissionForA06:true});
 assert(a06.eligible&&a06.a06SideWaiverApplied,'USER_ASSIGNED_A06');
-assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA06:true}).eligible,'NO_WAIVER_LEAK_A07');
+assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA06:true}).eligible,'A07_SIDE_OPTIONAL');
 const a07=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A07',authorizedSideOmissionForA07:true});
 assert(a07.eligible&&a07.a07SideWaiverApplied,'A07_SCOPED_AUTH');
-assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA07:true}).eligible,'A07_NOT_INHERITED');
+assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA07:true}).eligible,'A08_SIDE_OPTIONAL');
 const a08=validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A08',authorizedSideOmissionForA08:true});
 assert(a08.eligible&&a08.a08SideWaiverApplied,'A08_SCOPED_AUTH');
-assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A09',authorizedSideOmissionForA08:true}).eligible,'A08_NO_A09_LEAK');
+assert(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:structure,stageId:'A09',authorizedSideOmissionForA08:true}).eligible,'A09_SIDE_OPTIONAL');
 console.log(JSON.stringify({
-  ok:true,deck_id:665,gate:'A01_EXPLICIT_SIDE_WAIVER',defaultEligible:false,a01Eligible:true,
+  ok:true,deck_id:665,gate:'MAIN_EXTRA_MINIMUM',defaultEligible:true,a01Eligible:true,
   inventory:tested.counts,cardIdentities:38,nativePackageCreated:true,
   banlistAssessed:false, banlistUsedAsGate:false, a01Certified:3,
   reserveConvertedToSide:false,inventoryChanged:false,

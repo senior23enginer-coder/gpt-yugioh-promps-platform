@@ -2,7 +2,10 @@
 
 ### Precondición A09 — selección expresa y deck realmente cargado
 
-**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main, Extra y Side físicamente cargados con cantidades positivas**. **Reserva es opcional** y jamás debe completarse por suposición. En ausencia de selección o cualquiera de esas tres zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+**NO ejecutar este apartado sin asignación expresa del usuario de un `deck_id` concreto.** Antes de realizar cualquier tarea, comprobar mediante el gate `scripts/analysis-eligibility.cjs` que el deck seleccionado coincide con el registro real y tiene **Main y Extra físicamente cargados con cantidades positivas**. **Side y Reserva son opcionales** y jamás deben completarse por suposición. En ausencia de selección o cualquiera de esas dos zonas, registrar `BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION`, indicar exactamente qué falta y **no analizar parcialmente, ni continuar con otros decks**. Verificar formatos/IDs/slots y no aceptar listas de otro deck. Las comprobaciones de infraestructura/CI no representan una asignación del usuario ni autorizan reejecutar A01–A10A en mazos existentes.
+
+
+**Regla vigente de elegibilidad para todo A01–A10A (23-11-2026):** Main y Extra cargados con cantidades positivas son el mínimo universal; Side y Reserva son opcionales. Conservar la identidad, zona y cantidad real de cada carta, incluso cuando Side esté vacío. Las excepciones históricas de Kashtira para Side=0 se conservan como trazabilidad, pero ya no son permisos necesarios ni bloquean otros decks. Banlist fuera de alcance salvo solicitud expresa. El análisis se ejecuta únicamente para los decks expresamente asignados por el usuario.
 
 
 ## Entrega estandarizada A09 — trazabilidad canónica y cobertura medible

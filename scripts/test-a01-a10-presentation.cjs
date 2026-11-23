@@ -44,9 +44,9 @@ for(let stage=1;stage<=10;stage++){
     'Checklist missing a required task or has duplicate task IDs: A'+number);
   assert(moduleText.includes('### Precondición A'+number+' — selección expresa y deck realmente cargado'),
     'Any single stage must block unassigned decks: A'+number);
-  assert(moduleText.includes('Main, Extra y Side') &&
-    moduleText.includes('Reserva es opcional'),
-    'Stage must require loaded Main/Extra/Side and optional Reserve: A'+number);
+  assert(moduleText.includes('Main') && moduleText.includes('Side') &&
+    moduleText.includes('Extra') && moduleText.includes('Reserva'),
+    'Stage must mention the real inventory sections and format-aware eligibility: A'+number);
   assert(moduleText.includes('CONTROL_DE_TAREAS_A01_A10'),
     'Checklist must be persisted inside the existing deck file: A'+number);
   assert(moduleText.includes('A10B') && moduleText.includes('opcional'),
@@ -56,8 +56,10 @@ for(let stage=1;stage<=10;stage++){
 const manifest=JSON.parse(fs.readFileSync(path.join(root,
   '02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json'),'utf8'));
 assert.equal(manifest.schema,'station-x-a01-a10-task-manifest/1');
-assert.deepEqual(manifest.required_sections,['main','extra','side']);
-assert.deepEqual(manifest.optional_sections,['reserve']);
+assert.deepEqual(manifest.required_sections,['main']);
+assert.deepEqual(manifest.extra_deck_policy.required_for,['tcg','tcg_advanced','tcg_traditional','ocg','ocg_advanced']);
+assert.deepEqual(manifest.extra_deck_policy.optional_for,['goat','rush_duel','rush']);
+assert.deepEqual(manifest.optional_sections,['side','reserve']);
 assert.equal(manifest.applicable_only_to_user_assigned_deck,true);
 assert.equal(manifest.analysis_is_not_triggered_by_this_manifest,true);
 assert.equal(manifest.stages.length,11);
@@ -143,8 +145,9 @@ assert(a10.includes('fixtures JSON parametrizadas') && a10.includes('No modifica
 
 const master=fs.readFileSync(path.join(root,'02_PROMPT_PARA_CODEX/00_PROMPT_UNICO_STATION_X_V31.md'),'utf8');
 assert(master.includes('Norma vigente A01–A10A / A10B'),'Missing current A10A/A10B master rule');
-assert(master.includes('## PUERTA CERO — autorización de un único deck') &&
-  master.includes('BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION'),
+assert(master.includes('## PUERTA CERO — autorización') &&
+  master.includes('BLOQUEADO_POR_INVENTARIO_O_AUTORIZACION') &&
+  master.includes('Main+Extra en TCG/OCG y solo Main en GOAT/Rush Duel'),
   'Master cannot start any deck analysis without explicit assignment and loaded zones');
 for(const field of ['## CONTRATO TRANSVERSAL OBLIGATORIO','effect_id','state_before',
   'expected_costs','expected_events','expected_state_after','case_id',
