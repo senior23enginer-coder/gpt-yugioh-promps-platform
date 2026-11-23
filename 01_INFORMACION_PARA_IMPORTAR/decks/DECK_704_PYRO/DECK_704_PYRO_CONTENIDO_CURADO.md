@@ -12,6 +12,128 @@
 - Main: **30**; Extra: **5**; Side: **0**; Reserva: **0**.
 
 
+## APARTADO_01 — Análisis estratégico Pyro 704 verificable (23-11-2026)
+
+**Identidad confirmada:** deck_id 704 · Rush Duel `rush_duel` · **Main 30** cartas (15 identidades), **Extra 5** cartas (dos identidades), Side/Reserva 0. La existencia del Extra es física en este deck, pero es opcional según las reglas generales de Rush Duel. Skill **Alchemy Blaze** separada del Main. No se considera la banlist.
+
+### A01-T1 — Diagnóstico con fuentes y condiciones
+
+- **Arquetipo/estilo:** Piro/FUEGO; motor Combo-Midrange de Fusión con materiales nombrados, extensores y control de M/T. No se equiparan todas las salidas de Extra a una única secuencia ni se anuncia victoria garantizada.
+- **Motor principal:** `Fusión` CID 16934 (Main ×2) usa materiales **boca arriba en el Campo propio**, no de la mano. `Chromatographagas` CID 18583 (Main ×3) + `Ember the Super Assistant` CID 17963 (Main ×3) habilitan `Flame Archer the Super Graphagas` CID 19990 (Extra ×2). `Chemicalized Salamander` CID 17868 (Main ×2) + `Ember` CID 17963 habilitan `Alchemicalize Salamandra` CID 18614 (Extra ×3).
+- **Skill:** `Alchemy Blaze` permite buscar dos cartas elegibles del Deck/Cementerio y después enviar una de la mano al Cementerio **a partir del turno 2** si se revela desde la mano Chemicalized Salamander, Chromatographagas o Ember the Super Assistant, y todos los monstruos del Deck son Piro/FUEGO con DEF >= 100. **Identidades de monstruos del Main acreditadas por CID:** Germalewe 17285 (DEF 400); Ember Hyper Assistant 19291 (DEF 1500); Chromatographagas 18583 (DEF 1600); Ember Super Assistant 17963 (DEF 1500); Chemicalized Salamander 17868 (DEF 1500); Flame Ruler 17926 (DEF 1600). Todas Piro/FUEGO. La comprobación de futuras versiones del inventario debe repetirse antes de ejecutar la Skill. La Skill no es una carta física Main.
+- **Apoyos:** Hyper Assistant 19291 puede Invocar desde mano Piro Nivel 7+ pagando su envío desde el Campo, solo con monstruo rival existente. Secret Order 17212 extiende un Normal Nivel 7. Flame Ruler 17926 puede contar por dos Tributos para una Invocación por Sacrificio válida en Ataque; **no** equivale a dos materiales de Fusión. Burning Blaze 16171 exige dos Piros boca arriba y puede destruir una M/T rival.
+- **Primero:** formar mesa y conservar Fusión/materiales; la Skill está bloqueada por turno. **Segundo:** aprovechar los materiales reales y escoger Arquero (presión) frente a Salamandra (limpieza de backrow). **Medio/tardío:** recuperar piezas con Skill bajo condiciones verificables y medir recursos del Cementerio.
+- **Condiciones de victoria/riesgos:** presión o retirada de M/T con Fusión legal; manos con pieza suelta sin materiales, falta de monstruos boca arriba, efecto de Salamandra que destruye también M/T propias, Skill inválida antes de turno 2, y ventanas de efectos de Extra condicionadas. Ninguna de las rutas documentales equivale a replay certificado.
+- **Fuentes:** [Konami — Fusión Rush 16934](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2), [Konami — Salamandra 18614](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2), [Konami — Arquero 19990](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2), [Alchemy Blaze — Duel Links Meta](https://www.duellinksmeta.com/skills/Alchemy%20Blaze). Las traducciones españolas de efectos siguen siendo paráfrasis, no una sustitución del texto oficial.
+
+### A01-T2 — Seis campos de ficha redactados, pendientes de paridad
+
+- **Arquetipo:** Pyro/FUEGO de Rush Duel con Skill Alchemy Blaze y Fusiones nombradas.
+- **Tipo de estrategia:** Combo-Midrange de Piro/FUEGO: acceso a materiales, Fusión y presión de combate.
+- **Estilo breve:** Alinea Piro/FUEGO y materiales boca arriba para Fusión; Alchemy Blaze busca recursos desde el turno 2 si se cumple el requisito de DEF. Salamandra y Arquero son salidas distintas.
+- **Resumen para ficha:** Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado.
+- **Cómo se juega:** Primero: desarrollar monstruos Piro/FUEGO y conservar Fusión/materiales sin prometer la Skill antes del turno 2. Segundo: si el rival controla monstruo, Hiperasistente Ember puede traer un Piro Nivel 7+ de la mano pagando su envío del Campo al Cementerio; después elegir materiales exactos para la Fusión. Medio/tardío: reusar materiales mediante Alchemy Blaze si todos los monstruos del Deck son FUEGO/Piro con DEF ≥100 y existe una carta revelable en mano. No usar materiales directamente desde la mano con la Mágica Fusión documentada.
+- **Qué vigilar:** Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.
+
+**Control de longitud:** Estilo breve 179/190; Resumen para ficha 244/250. **Estado T2 bloqueado:** no afirmar paridad documental/JSON hasta que el deck tenga `datos/stationx-deck.json` con IDs/huella nativa y se coteje `record.profile` literal.
+
+### A01-T3 — Censo completo de identidades, usos y condiciones
+
+| CID Rush | Carta | Sección/copias físicas | Propósito | Requisito de activación | Efecto/resolución documentado |
+|---|---|---|---|---|---|
+| [15204](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2) | ¡Atraviesa! | Main ×1 | Presión de combate/penetración | Sin requisito de activación. | Otorga daño de penetración este turno a un monstruo propio boca arriba. |
+| [17285](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2) | Germalewe | Main ×3 | Normal Piro; cuerpo físico | No tiene efecto. | Monstruo Normal; recurso para sacrificar o emplear como material. |
+| [17212](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2) | Orden Secreta | Main ×3 | Recuperación de Normal Nivel 7 | Sin requisito de activación. | Invoca un monstruo Normal de Nivel 7 desde mano o Cementerio; le da 700 ATK ese turno y lo protege frente a destrucción por Trampas rivales. |
+| [19291](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2) | Hiperasistente Ember | Main ×3 | Extensión desde mano a Campo | El rival debe controlar un monstruo; enviar esta carta boca arriba propia al Cementerio. | Invoca desde la mano un Piro de Nivel 7+; si SP Assistant Archer está en el Cementerio, ese monstruo gana 800 ATK este turno. |
+| [18583](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2) | Cromatográfagas | Main ×3 | Material nombrado de Fusión | No tiene efecto. | Monstruo Normal de Nivel 7 y material nombrado de Supergráfagas Archer. |
+| [17963](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2) | Superasistente Ember | Main ×3 | Material nombrado de ambas Fusiones | No tiene efecto. | Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra. |
+| [16934](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2) | Fusión | Main ×2 | Invocación por Fusión desde Campo | Sin requisito de activación. | Usa monstruos boca arriba del Campo propio como materiales, enviándolos al Cementerio para una Invocación por Fusión válida; no usa automáticamente materiales de la mano. |
+| [16171](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2) | Fuego Ardiente | Main ×3 | Daño y remoción condicional de M/T | Controlar dos o más monstruos Piro boca arriba. | Inflige 300 puntos de daño; después puede destruir una Mágica/Trampa rival. |
+| [17868](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2) | Salamandra Quimicalizada | Main ×2 | Debilitar monstruos rivales | Devolver al Deck tres monstruos Piro del propio Cementerio. | Todos los monstruos boca arriba rivales pierden 100 ATK por cada monstruo en el Cementerio rival hasta fin de turno. |
+| [18646](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2) | Gelatina Defensiva | Main ×1 | Prevención de daño con coste | Cuando un monstruo rival de Nivel 8 o inferior declara ataque. | Envía al Cementerio la carta superior de tu Deck y evita todo el daño de batalla ese turno; si tienes 3000 LP o más, recibes además 2000 de daño de efecto. |
+| [19700](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2) | Amparo del Protector Estelar | Main ×2 | Defensa; límite de ataques rival | En el turno rival, cuando roba o Invoca un monstruo; enviar un monstruo propio del Campo al Cementerio. | El rival solo puede declarar un ataque en ese turno. Opcionalmente permite tomar control de una Fusión Caballero Mágico rival de Nivel 9+ y ATK original 3000. |
+| [16776](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2) | Parar la Defensa | Main ×1 | Cambiar posición del rival | Sin requisito de activación. | Cambia un monstruo rival que esté en Defensa a Ataque boca arriba. |
+| [15913](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2) | Agujero Trampa | Main ×1 | Respuesta a Invocación Normal | Cuando el rival Invoca de Modo Normal un monstruo de al menos 1000 ATK. | Destruye ese monstruo invocado. |
+| [17926](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2) | Gobernante de las Llamas | Main ×1 | Habilitador de doble Tributo | No necesita activación. | Esta carta boca arriba cuenta por dos Sacrificios para Invocar por Sacrificio en Ataque un monstruo de FUEGO. |
+| [16372](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2) | Olla de la Codicia | Main ×1 | Robo | Sin requisito de activación. | Roba dos cartas. |
+| [19990](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2) | Arquero Ígneo Supergráfagas | Extra ×2 | Fusión; ataque condicional | Fusionar Chromatographagas + SP Assistant Archer. Devolver al tope del Deck un Piro Normal de Nivel 7 del Cementerio. | Gana 2500 ATK este turno; opcionalmente reduce en 1500 ATK un monstruo rival boca arriba de Nivel 9 o inferior. |
+| [18614](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2) | Salamandra Alquimicalizada | Extra ×3 | Fusión; limpieza de M/T de ambos jugadores | Fusionar Chemicalized Salamander + SP Assistant Archer; usar efecto en la Main Phase en que se invocó de Modo Especial. | Destruye todas las Mágicas/Trampas de ambos Campos y opcionalmente reduce 1000 ATK a los monstruos rivales por cada Mágica destruida. |
+
+**Trazabilidad:** 17/17 identidades, 30 copias Main y 5 Extra preservadas. Rutas ya presentes en esta fuente: `704:A09:ALCHEMY:ARCHER01`, `704:A09:ALCHEMY:SALAMANDRA02` y `704:A09:V11:HYPER:CHEMICALIZED:PIERCE`; son referencias documentales condicionadas, no certificaciones de ejecución. Los vínculos `effect_id` aún no concordados se conservan como `PENDIENTE_DE_ENLACE_A05_A09`, sin crear identificadores. Verificar antes de A05/A07 los casos de coste, restricciones y ventanas de los efectos.
+
+### A01-T4 / A01-T5 — Bloqueos con siguiente acción
+
+- **T4:** falta fuente JSON canónica nativa del deck 704; no inventar `inventory_sha256`, `a01_profile_contract` ni campos faltantes.
+- **T5:** falta probar paquete auténtico ZIP contra importación, exportación, rechazado de identidad/firma y render de Station X para este deck; el inventario y fotos existentes no se tocan.
+- **A10B:** no solicitado; no convertir este estudio en operadores ejecutables ni fabricar replays.
+
+## CONTROL_DE_TAREAS_A01_A10
+
+**Manifest:** `station-x-a01-a10-task-manifest/1` · deck_id **704** · **T1 y T3 evidenciadas**, T2/T4/T5 pendientes por paquete y pruebas físicas. La documentación previa A02–A10 se mantiene, sin cierre retroactivo de tareas del contrato nuevo.
+
+### A01
+- [x] **A01-T1** — EVIDENCIA INDIVIDUAL EN SECCIÓN APARTADO_01: inventario, CID, efectos/condiciones, Skill y rutas.
+- [ ] **A01-T2** — BLOQUEADA: perfil de seis campos redactado pero sin paridad JSON.
+- [x] **A01-T3** — EVIDENCIA INDIVIDUAL EN SECCIÓN APARTADO_01: inventario, CID, efectos/condiciones, Skill y rutas.
+- [ ] **A01-T4** — BLOQUEADA: no hay JSON canónico original para comparación literal y firma.
+- [ ] **A01-T5** — BLOQUEADA: import/export/render físico del paquete no certificado.
+
+### A02
+- [ ] **A02-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A02-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A02-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A03
+- [ ] **A03-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A03-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A03-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A04
+- [ ] **A04-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A04-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A04-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A05
+- [ ] **A05-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A05-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A05-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A05-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A06
+- [ ] **A06-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A06-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A06-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A06-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A07
+- [ ] **A07-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A07-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A07-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A07-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A08
+- [ ] **A08-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A08-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A08-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A08-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A09
+- [ ] **A09-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A09-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A09-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A09-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A10A
+- [ ] **A10A-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A10A-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A10A-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+### A10B (A10B opt-in no solicitado)
+- [ ] **A10B-T4** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A10B-T5** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [ ] **A10B-T6** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+
+---
 ## PERFIL BREVE — CONOCE TU DECK
 
 - **Arquetipo:** Piro/FUEGO de Rush Duel con la habilidad Alchemy Blaze.
