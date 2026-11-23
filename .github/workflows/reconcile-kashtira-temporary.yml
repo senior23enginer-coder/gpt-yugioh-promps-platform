@@ -1,0 +1,28 @@
+name: Temporary Kashtira conflict reconnaissance
+on:
+  push:
+    branches:
+      - analysis/kashtira-665-a01-precheck-20261122
+    paths:
+      - .github/workflows/reconcile-kashtira-temporary.yml
+permissions:
+  contents: read
+jobs:
+  conflicts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: analysis/kashtira-665-a01-precheck-20261122
+      - name: Identify conflicts without changing any branch
+        run: |
+          git fetch origin base
+          echo '=== Merge-base and branch status ==='
+          git rev-parse HEAD origin/base
+          git merge --no-commit --no-ff origin/base || true
+          echo '=== Unmerged paths ==='
+          git diff --name-only --diff-filter=U
+          echo '=== Change summary ==='
+          git status --short | head -100
+          git merge --abort || true
