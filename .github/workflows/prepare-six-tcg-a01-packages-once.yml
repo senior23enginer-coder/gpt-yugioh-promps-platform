@@ -1,0 +1,143 @@
+name: Prepare six TCG A01 GPT packages once
+on:
+  push:
+    branches: [base]
+    paths:
+      - '.github/workflows/prepare-six-tcg-a01-packages-once.yml'
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/checkout@v4
+        with:
+          repository: senior23enginer-coder/platform-yugioh-md
+          ref: base
+          path: _platform
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate six live TCG decklist inventories and guide packages
+        shell: bash
+        run: |
+          node <<'NODE'
+          'use strict';
+          const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+          const {validateProfile,assertSourceParity}=require('./scripts/a01-profile-contract.cjs');
+          const {validatePlayerGuide}=require('./scripts/a01-player-guide-contract.cjs');
+          const definitions=[
+          {"id":650,"dir":"DECK_650_ELFNOTE","featured":[22523,22116,22117,22119],"first":"abre con Lucina y aprovecha la zona central para elegir Regina o Patron según los recursos","second":"evalúa Tinia y Fortuna como interrupción y busca una Sincronía legal","mid":"reutiliza los cuerpos y conserva la zona central sin repetir la misma búsqueda","late":"recupera recursos con Strelitzia y decide entre extender o mantener el control"},
+          {"id":653,"dir":"DECK_653_DOOMZ","featured":[21823,21775,21776,21811],"first":"desarrolla con Incursores DoomZ y Amalthe comprobando los Equipos","second":"elige entre retirar amenazas o extender sin confundir equipar y destruir","mid":"recupera Equipo y materiales con Elara según sus efectos","late":"decide si Drastrius tiene materiales y ventanas para cerrar la partida"},
+          {"id":656,"dir":"DECK_656_TEARLAMENTS","featured":[17417,17415,17416,17414],"first":"abre con Reinoheart o Scheiren y distingue envío por efecto de coste","second":"usa Havnis como respuesta cuando se cumpla su ventana de activación","mid":"reutiliza recursos Tearlaments sin asumir resultados de la molienda","late":"elige una Fusión legal y protege los nombres necesarios para otra secuencia"},
+          {"id":670,"dir":"DECK_670_INFERNOBLE","featured":[15247,15248,15082,13500],"first":"prepara Guerreros FUEGO con Ogier y Equipos antes de elegir Isolde o Sincronía","second":"desarrolla Oliver y Renaud solo con los costes legales","mid":"recicla Durendal y Almace con objetivos reales","late":"conserva Equipos y materiales para un jefe Infernoble invocable"},
+          {"id":684,"dir":"DECK_684_CYBER_DRAGON_PURE","featured":[10866,6390,10870,11765],"first":"usa Core y dos Máquinas adecuadas para preparar Nova","second":"valora Fusión o Xyz según el campo rival real","mid":"reutiliza Nachster y Herz bajo sus condiciones de recuperación","late":"elige Infinity o una Fusión sin contar materiales duplicados"},
+          {"id":687,"dir":"DECK_687_VOLCANIC","featured":[18916,7243,18918,18915],"first":"usa Trooper o Rocket para obtener Aceleradores y munición","second":"aplica Scattershot solo si el envío proviene de un efecto compatible","mid":"recupera Shell y Rimfire con costes reales","late":"considera Emperor cuando se cumpla el procedimiento y existan recursos"}
+          ];
+          const platform='_platform/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40';
+          const fields=['Arquetipo','Tipo de estrategia','Estilo breve','Resumen para ficha','Cómo se juega','Qué vigilar'];
+          const sanitize=v=>String(v||'').replace(/\*\*/g,'').replace(/\bCID\s*\d+\b/gi,'').replace(/\b[CV]\d{2}\b/g,'').replace(/\s+/g,' ').trim();
+          const signature=rows=>rows.map(r=>[r.id,r.section,r.quantity].join(':')).sort();
+          async function prepare(d){
+           const base=path.join('01_INFORMACION_PARA_IMPORTAR/decks',d.dir);
+           const mdPath=path.join(base,d.dir+'_CONTENIDO_CURADO.md');
+           const jsonPath=path.join(base,'datos/stationx-deck.json');
+           assert(!fs.existsSync(jsonPath),'No existing native JSON should be overwritten for '+d.id);
+           const md=fs.readFileSync(mdPath,'utf8');
+           const current=JSON.parse(fs.readFileSync(path.join(platform,d.id+'.json'),'utf8'));
+           assert.equal(current.deck_id,d.id);assert.equal(current.schema,'station-x-curated-v62');
+           const first=md.indexOf('### A01-T2'),last=md.indexOf('### A01-T3',first+1);
+           assert(first>=0&&last>first,'A01 six-field source missing '+d.id);
+           const block=md.slice(first,last);
+           const profile={};
+           for(const key of fields){
+             const prefix='- **'+key+':** ';
+             const matches=block.split('\n').filter(row=>row.startsWith(prefix));
+             assert.equal(matches.length,1,'Invalid field '+key+' in '+d.id);
+             profile[key]=matches[0].slice(prefix.length).trim();
+           }
+           profile['Cómo se juega']+=' Primero: '+d.first+'. Segundo: '+d.second+'. Juego medio: '+d.mid+'. Juego tardío: '+d.late+'. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.';
+           assert(!md.includes('## APARTADO_01 — Perfil A01 importable '+d.id));
+           const sourceRows=current.cards.flatMap(c=>c.slots.map(s=>({id:s.card_id,section:s.section,quantity:s.quantity})));
+           const url='https://stationxtulua.com/yugioh/?api=deck_builder&deck_id='+d.id;
+           const response=await fetch(url,{headers:{'User-Agent':'StationX-A01-SourceParity/1'}});
+           assert(response.ok,'Native deck endpoint unreachable '+d.id);
+           const live=await response.json();
+           assert.equal(live.ok,true,'Native deck endpoint refused '+d.id);
+           const nativeRows=(live.cards||[]).map(r=>({id:Number(r.id),section:r.section==='tech'?'reserve':r.section,quantity:Number(r.quantity)}));
+           assert.deepEqual(signature(nativeRows),signature(sourceRows),'Live inventory does not match V40 '+d.id);
+           const currentMain=nativeRows.filter(x=>x.section==='main').reduce((n,x)=>n+x.quantity,0);
+           const currentExtra=nativeRows.filter(x=>x.section==='extra').reduce((n,x)=>n+x.quantity,0);
+           const format=current.format;
+           assert(currentMain>0&&(['goat','rush_duel','rush'].includes(format)||currentExtra>0),'Eligibility failed '+d.id);
+           const catalog=new Map(current.cards.map(c=>[c.cid,c]));
+           for(const cid of d.featured){const card=catalog.get(cid);assert(card,'Unknown featured CID '+cid);assert(card.slots.some(s=>['main','extra'].includes(s.section)),'Unavailable featured '+cid);}
+           current.profile={...current.profile,...profile};
+           current.a01_profile_contract='station-x-a01-profile/1';
+           const featured=d.featured.map(cid=>{
+             const card=catalog.get(cid),purpose=sanitize(card.functional?.purpose||card.role);
+             const what=purpose.length>=15?purpose:'una función particular en la estrategia del deck según su texto y sus materiales';
+             return {cid,role:'Pieza del motor: '+sanitize(card.name),
+                reason:'En esta lista, '+sanitize(card.name)+' cumple esta función documentada: '+what+'. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.',
+                when_to_use:'Cuando tengas '+sanitize(card.name)+' disponible en su zona válida y recursos para aprovechar '+what+' sin gastar materiales inexistentes.',
+                related_cids:[]};
+           });
+           const specs=[['first','Ir primero',d.first],['second','Ir segundo',d.second],['mid','Juego medio',d.mid],['late','Juego tardío',d.late]];
+           const phases=specs.map(([id,title,tip])=>({
+             id,title:title+': '+d.dir.replace(/^DECK_(?:NUEVO_\d+_|\d+_)/,'').replaceAll('_',' '),
+             plan:title+': '+tip+'. '+profile['Resumen para ficha']+' Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.',
+             preconditions:'Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; '+profile['Qué vigilar'],
+             risks:profile['Qué vigilar'],
+             related_route_ids:[]
+           }));
+           current.player_guide={schema:'station-x-player-guide/1',featured_cards:featured,phases};
+           const envelope={schema:'station-x-deck-package/1',inventory_binding:'deck-slots-v1',
+            deck_id:d.id,deck_name:current.name,package_root:d.dir,content_mode:'structured',
+            source_document:d.dir+'_CONTENIDO_CURADO.md',inventory:nativeRows,record:current,
+            provenance:{source:'Station X V40 structured study and live native decklist read-only '+d.id,
+              source_revision:'20261117-folder-delivery-v40',live_inventory_identical:true,
+              scope:'A01 profile and player guide, not A10B',production_imports:0}};
+           let section='## APARTADO_01 — Perfil A01 importable '+d.id+'\n\n';
+           for(const key of fields)section+='- **'+key+':** '+profile[key]+'\n';
+           section+='\n**Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.\n\n## APARTADO_02 — Continuidad del contenido anterior\n\n';
+           const updated=md.replace(/^# ([^\n]+)\n/,match=>match+'\n'+section);
+           assert.notEqual(updated,md,'Could not insert A01');
+           assert.equal(validateProfile(current).fields,6);
+           assert.equal(assertSourceParity(current,updated).fields,6);
+           assert.equal(validatePlayerGuide(current).featured,4);
+           assert.equal(validatePlayerGuide(current).phases,4);
+           fs.mkdirSync(path.dirname(jsonPath),{recursive:true});
+           return {d,mdPath,jsonPath,md:updated,json:JSON.stringify(envelope,null,2)+'\n',count:nativeRows.length,format,cardCount:current.cards.length,routeCount:current.routes.length};
+          }
+          (async()=>{
+           const ready=[];
+           for(const d of definitions)ready.push(await prepare(d));
+           for(const item of ready){fs.writeFileSync(item.mdPath,item.md);fs.writeFileSync(item.jsonPath,item.json);}
+           console.log(JSON.stringify({ok:true,validated:ready.map(x=>({deck_id:x.d.id,native_rows:x.count,format:x.format,cards:x.cardCount,routes:x.routeCount,profile_fields:6,featured:4,phases:4})),database_writes:0,production_imports:0}));
+          })().catch(error=>{console.error(error);process.exitCode=1;});
+          NODE
+      - name: Commit six verified TCG A01 profiles and structured data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for id in 650 653 656 670 684 687; do
+            case "$id" in
+              650) folder=DECK_650_ELFNOTE ;;
+              653) folder=DECK_653_DOOMZ ;;
+              656) folder=DECK_656_TEARLAMENTS ;;
+              670) folder=DECK_670_INFERNOBLE ;;
+              684) folder=DECK_684_CYBER_DRAGON_PURE ;;
+              687) folder=DECK_687_VOLCANIC ;;
+            esac
+            git add -- "01_INFORMACION_PARA_IMPORTAR/decks/$folder/$folder""_CONTENIDO_CURADO.md" "01_INFORMACION_PARA_IMPORTAR/decks/$folder/datos/stationx-deck.json"
+          done
+          git diff --cached --quiet && exit 0
+          git commit -m "analysis(A01): prepare six TCG live-inventory-matched player guides"
+          git push origin HEAD:base
