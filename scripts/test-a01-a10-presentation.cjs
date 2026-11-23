@@ -235,6 +235,33 @@ for(const [folder,id,routes] of packs){
       rule.format==='tcg_advanced' && Array.isArray(rule.guards) &&
       Array.isArray(rule.resolve) && rule.resolve.length>0),
       'Portable Memento rules must preserve version, guards and resolution');
+    // La cobertura de Extra no se satisface sólo con 12 rutas y fotos.
+    const extras=pack.record.cards.filter(c=>c.slots.some(s=>s.section==='extra'));
+    assert.equal(extras.length,13,'Memento requires thirteen distinct Extra identities');
+    const documented=new Map();
+    for(const card of extras){
+      assert((card.practical||[]).length>0&&Object.keys(card.operational||{}).length>0&&
+        Object.keys(card.learning||{}).length>0,'Extra without practical usage: '+card.cid);
+      assert((card.synergy?.labels||[]).length>0,'Extra without A06 classification: '+card.cid);
+      for(const access of card.extra_access||[]){
+        assert.equal(access.cid,card.cid,'Extra access wrongly attached to card');
+        assert(!documented.has(access.id),'Duplicate Extra access '+access.id);
+        assert(['DOCUMENTADA_CONDICIONAL_SIN_REPLAY','TEORICA_PENDIENTE_VALIDACION'].includes(access.status));
+        for(const key of ['opening','materials','result','limitation','source_section'])
+          assert(typeof access[key]==='string'&&access[key].trim(),'Incomplete '+access.id+': '+key);
+        assert(Array.isArray(access.steps)&&access.steps.length>=2&&access.steps.every(s=>typeof s==='string'&&s.trim()),
+          'Extra access missing ordered actions '+access.id);
+        if(access.parent_route_id)assert(pack.record.routes.some(r=>r.id===access.parent_route_id),'Invalid parent route');
+        documented.set(access.id,card.cid);
+      }
+    }
+    assert.deepEqual([...documented.entries()].sort((a,b)=>a[0].localeCompare(b[0])),
+      [['EX-M01',12870],['EX-M02',19184],['EX-M03',9657],['EX-M04',13081]]);
+    const source=fs.readFileSync(path.join(root,'01_INFORMACION_PARA_IMPORTAR/decks',pack.source_document),'utf8');
+    for(const [accessId,cid] of documented){
+      assert(source.includes(accessId)&&source.includes(String(cid)),'Missing A09 source for '+accessId);
+      assert(!pack.record.routes.some(r=>r.id.includes(accessId)),'Extra documentary access miscounted as full combo');
+    }
   }
   const steps=pack.record.routes.flatMap(route=>route.steps||[]);
   const photos=steps.filter(step=>Array.isArray(step.photos)&&step.photos.length>0).length;
