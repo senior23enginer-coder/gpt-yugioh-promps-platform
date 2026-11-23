@@ -14,7 +14,7 @@ function audit(){
  A(!validateDeckAssignment({selectedDeckId:666,explicitlyAssigned:true,payload:pkg,stageId:'A08',authorizedSideOmissionForA08:true}).eligible,'NO_OTHER_DECK');
  A(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:false,payload:pkg,stageId:'A08',authorizedSideOmissionForA08:true}).eligible,'NO_IMPLICIT_USER_ASSIGNMENT');
  A(!validateDeckAssignment({selectedDeckId:665,explicitlyAssigned:true,payload:pkg,stageId:'A08'}).eligible,'NO_SIDE_WAIVER_BY_DEFAULT');
- const r=pkg.record,s=r.a08_review,A(s&&s.schema==='station-x-jugada-analysis/1');
+ const r=pkg.record,s=r.a08_review; A(s&&s.schema==='station-x-jugada-analysis/1');
  A.equal(s.deck_id,665);A.equal(s.format,'tcg_advanced');
  A(s.status==='EXPLORACION_DOCUMENTAL_COMPLETA_NO_CERTIFICA_A09'&&s.banlist_evaluated===false);
  A.deepEqual(s.inventory,COUNTS);A.equal(s.summary.certified_complete_combos,0);
