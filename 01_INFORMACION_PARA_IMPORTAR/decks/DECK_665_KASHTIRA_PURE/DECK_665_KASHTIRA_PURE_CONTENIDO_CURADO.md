@@ -2,7 +2,7 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
-**Cierre A01–A04:** 12/35 tareas acreditadas; quedan 23/35 para A05–A10A. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
+**Cierre A01–A05:** 16/35 tareas acreditadas; quedan 19/35 para A06–A10A. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
 
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
@@ -16,10 +16,10 @@
 - [x] **A04-T1** 38/38 CID físicos identificados, fuente Konami por CID y 44 JPG de procedencia real, con seis referencias extras separadas; ninguna FOTO_PENDIENTE en la lista física.
 - [x] **A04-T2** 44 JPEG + 19 WebP decodificables, firma Git del archivo y ruta real verificados; miniaturas 268×391, sin afirmar HD para A10A.
 - [x] **A04-T3** Zonas/estados y disponibilidad definidos, 16 rutas/92 pasos, 116 fotos de paso, 24 hand_photos y 10 endboards ilustrativos sin certificación espacial.
-- [ ] **A05-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A05-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A05-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
-- [ ] **A05-T4** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
+- [x] **A05-T1** 38 identidades y 44 card_id comprobados contra fuente A03, foto A04, función específica, fuentes oficiales y rol Main/Extra/Reserva sin uso automático de Reserva.
+- [x] **A05-T2** 90 cláusulas separadas y tipadas por effect_id y CID; PRO/ACT/TRG/QCK/CONT/REP, sin colapsar modalidades ni inventar motor.
+- [x] **A05-T3** 90 cláusulas con actor, zona, guardia, ventana, costes, objetivo, resolución, HOPT/OPT, cadena, negación, restricciones y fuente Konami; NO_APLICA documentado.
+- [x] **A05-T4** 630 casos de papel iniciales P/N/NO_APLICA con antes, costes, eventos, después, fuente y referencias previas A06/A07/A09; sin afirmar ejecución.
 - [ ] **A06-T1** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A06-T2** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
 - [ ] **A06-T3** PENDIENTE de auditoría independiente de su apartado; el material histórico no equivale a certificación.
