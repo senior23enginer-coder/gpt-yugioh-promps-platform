@@ -24,7 +24,7 @@ CID, zonas y rutas contrastados con el registro exacto. Se contrastaron directam
 - [x] T1: diagnóstico estratégico, motores, condiciones y riesgos.
 - [x] T2: seis campos corregidos en JSON y Markdown; cuatro cartas destacadas y cuatro fases específicas, enlazadas a rutas existentes.
 - [x] T3: matriz por propósito con CID, zona, fuente, condición, riesgo y route_id existente o pendiente.
-- [ ] T4: paridad literal verificada directamente en los seis campos de la nueva revisión; estilo 144/190 y resumen 196/250; inventario y demás campos preservados. Falta ejecutar el contrato completo sobre la revisión corregida.
-- [ ] T5: revisión anterior superó importación/exportación/reimportación con 36 fotos, cinco rutas y ocho rechazos, además de render a 390 y 1280 px en [CI #45274393388](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45274393388). La revisión corregida exige repetir aceptación; commit Platform `47c7552b61e446ec932d72fdbb7291cd95317967` fija la revisión GPT exacta. No se traslada una certificación de versión anterior sin comprobar la nueva.
+- [x] T4: [CI #45275755236](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45275755236), job 138046988317, commit Platform `47c7552b61e446ec932d72fdbb7291cd95317967`, PASS para la revisión GPT `a9c214433ceb4cd955e705465547df1a36cf4f0b`: seis campos en paridad, estilo 144/190, resumen 196/250, cuatro cartas y cuatro fases.
+- [x] T5: misma CI finalizada exitosamente: ISOLATED_PASS de importación/exportación/reimportación; 36 fotos, cinco rutas, ocho rechazos y cantidades preservadas. PASS de navegador del paquete revisado a 390 y 1280 px.
 
-Resultado: pendiente de T4/T5 en la versión corregida. Cero importaciones en producción. No iniciar A02.
+Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
