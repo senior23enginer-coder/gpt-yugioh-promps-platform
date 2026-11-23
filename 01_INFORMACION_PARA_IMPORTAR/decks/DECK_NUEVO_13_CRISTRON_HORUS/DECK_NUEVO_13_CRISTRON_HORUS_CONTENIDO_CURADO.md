@@ -2753,6 +2753,45 @@ Cada `effect_id` conserva su CID oficial, los `card_id` físicos, zona/ventana, 
 {"case_id":"677:A07:E092:F","effect_id":"677:a05:4861:solemn-judgment-pay-half-lp-negate","cid":4861,"kind":"F","scenario":"FORMATO_INCORRECTO_O_FALLO_CERRADO","status":"FALLO_CERRADO_POR_FORMATO","state_before":{"actor_cid":4861,"actor_zone":"S/T colocada; copia física CID 4861 del inventario real 677.","window":"Respuesta contratrampa a Invocación que está por ocurrir o activación de M/T.","resource_guard":"Juicio Solemne colocado legalmente, ventana en que puede negar Invocación o activación M/T.","usage_before":"NO_UTILIZADO","format":"NO_ES_TCG_ADVANCED","chain_mode":"activated_chain"},"expected_legal":false,"expected_costs":"NINGUNO","expected_events":"NO_EJECUTAR_MECANICA_EXTRANJERA","expected_state_after":"SIN_MUTACION; SIN_SKILLS_RUSH_EN_ESTADOS_TCG","reason":"El inventario 677 y la fuente oficial corresponden a TCG Advanced, sin Skill Rush, GOAT ni OCG como sustituto.","legal_certification":"PAPEL_CONDICIONAL_NO_EJECUTADO"}
 ```
 
+### A07.7 — cobertura de fuentes, clasificación de operadores y excepciones físicas
+
+**Denominador y lectura:** exactamente **92 cláusulas A05.2** para **39 CID oficiales** y sus `card_id` aprobados; **644 `case_id` A07.6** organizados en siete categorías por cláusula. Cada caso apunta a un `effect_id` y, por este, a una fuente `db.yugioh-card.com` con CID coincidente. No se sustituye la ficha Konami por una imagen ni se mezclan reglas TCG con GOAT/Rush. `source` y `chain_mode` están en A07.5; los escenarios incluyen `state_before`, `expected_legal`, `expected_costs`, `expected_events`, `expected_state_after` y `reason`. Todos son **pruebas declarativas de papel**, no ejecución, ni prueba de rulings exhaustiva.
+
+| Categoría causal | Cláusulas | Cadena / operador que habría que soportar | Estado A07 |
+|---|---:|---|---|
+| `PRO` · procedimiento de Invocación/colocación | 17 | Materiales reales, zona del Extra y reglas de Invocación sin activar eslabón propio; controlar negación de Invocación por separado | `SIN_CERTIFICACION_A10B` |
+| `CONT` · condición continua | 13 | Recalcular efecto mientras permanece cara arriba y con materiales/objetivos; no cobrar coste ni abrir cadena artificial | `SIN_CERTIFICACION_A10B` |
+| `RES` · secuela del efecto Mulcharmy | 2 | Al resolver el descarte rápido, registrar su consecuencia de End Phase y aplicar exceso de mano; **no segunda activación** | `SIN_CERTIFICACION_A10B` |
+| `TRG` · disparo | 17 | Identificar evento físico real, disparo nuevo cuando termine cadena en curso, coste/selección y resolución | `SIN_CERTIFICACION_A10B` |
+| `ACT` · activación de efecto | 16 | Ventana, origen, coste, condición, target/no-target, resolución y contador por nombre/ejemplar | `SIN_CERTIFICACION_A10B` |
+| `QCK` · efecto rápido | 15 | Cadena de respuesta, prioridad/velocidad 2, objetivos que se mueven y negación de efecto frente a activación | `SIN_CERTIFICACION_A10B` |
+| `SPL` · Mágica/Trampa | 12 | Mágica Normal/Continua velocidad 1; Rápida velocidad 2; Contra Trampa velocidad 3; legalidad de Colocación y activación | `SIN_CERTIFICACION_A10B` |
+
+**Siete excepciones positivas no aplicables a la construcción física actual (sin añadir cartas):**
+
+| `effect_id` / CID | Razón física | Resultado esperado |
+|---|---|---|
+| `677:a05:20787:on-link-send-continuous-search-clockworknight` · 20787 | No hay `Clockwork Night` buscable en Main | `NO_APLICA_CONSTRUCCION_677`; el Link podría Invocarse, pero no produce esa búsqueda |
+| `677:a05:10870:detach-target-cyberdragon-revive` · 10870 | Ningún `Cyber Dragon` propio en GY por esta lista | `NO_APLICA_CONSTRUCCION_677`; Nova no inventa objetivo |
+| `677:a05:10870:quick-banish-cyberdragon-boost2100` · 10870 | No existe `Cyber Dragon` para desterrar desde mano/MZ | `NO_APLICA_CONSTRUCCION_677`; no se asignan 2100 ATK ficticios |
+| `677:a05:10870:sent-gy-by-opponent-fusion-machine` · 10870 | No hay Fusión Máquina en las 15 cartas del Extra | `NO_APLICA_CONSTRUCCION_677` |
+| `677:a05:12157:gy-speedroid-tuner-special` · 12157 | No existe Cantante `Speedroid` en la lista | `NO_APLICA_CONSTRUCCION_677`; no revivir Hagoita automáticamente |
+| `677:a05:13826:continuous-photon-material-protection` · 13826 | Los dos materiales de C04 son Horus y no `Photon` | `NO_APLICA` al estado C04; la protección solo sería condicional a material Fotón auténtico |
+| `677:a05:13826:opponent-turn-get-photon-galaxy` · 13826 | No hay carta `Photon` o `Galaxy` en Main para su búsqueda | `NO_APLICA_CONSTRUCCION_677` |
+
+**Control de situaciones de cadena sin inventar desenlaces:**
+
+1. `677:a05:20758:response-summon-synchro` / C03: CL1 del rival y CL2 Tristaros; en CL2 puede Invocar del Deck y hacer Sincronía Máquina con el cuerpo recién traído. **No niega CL1**. Los disparos del monstruo sincronizado se consideran en cadena nueva cuando corresponda, no dentro de CL2.
+2. `677:a05:12606:opponent-main-battle-target-revive-synchro` / C01: Citree requiere Main/Battle rival, un no Cantante realmente en propio GY y Sincronía Máquina con esos dos materiales; si su efecto resuelve, ambos se destierran. **Con Lancea ya aplicada, el desenlace sigue `PENDIENTE_DE_RULING`**: no afirmar invocación válida o bloqueo automático sin confirmación oficial.
+3. `677:a05:12608:field-destroy-summon-tuner` y Thystvern Campo: el bloqueo a **Sincronías Máquina** impide Nova/Infinity incluso si son Máquinas. En cambio `677:a05:20759:hand-gy-destroy-summon` restringe a **Máquinas**; por sí solo no impide Xyz Nova/Infinity. El bloqueo se comprueba en el turno de aplicación y no se borra por cambiar de monstruo.
+4. `677:a05:19153:hand-send-two-search-sarcophagus`: enviar dos cartas de mano es coste; si Flor de Ceniza niega el efecto, ambas siguen en GY, sin Sarcófago buscado. La Invocación Horus del GY corresponde al **procedimiento propio del monstruo** mientras controles Sarcófago, no a un operador que le invente resurrección a Sarcófago.
+5. `677:a05:11765:quick-detach-negate-activation`: Infinity **niega activación** al desacoplar. `677:a05:13826:quick-detach-negate-opponent-monster`: Número 90 **niega efecto**; con material Horus no añade la destrucción reservada al material Galaxy. No se recuperan materiales ya desacoplados.
+6. `677:a05:20500:end-phase-hand-rollback` y `677:a05:20206:end-phase-hand-rollback`: solo en End Phase tras resolver el efecto rápido original; la devolución aleatoria depende de la cantidad real de cartas, no de una segunda activación `CONT`.
+
+**Relación con los 13 registros portátiles de calculadora:** permanecen `record.calculator.rules` sin alteración, con CIDs 19153/19155 (Horus), 12608 (Smiger), 12609 (Thystvern) y 19200 (Sarcófago). La presencia de estos registros **no demuestra** que las demás cláusulas tengan operador soportado ni que las 13 variantes funcionen en cualquier cadena. Las necesidades exactas por registro se consignan en `operator_requirement` de A07.5. La asignación de operador y sus fixtures de juego corresponden **solo a A10B opcional**.
+
+**Separación del cierre:** A07-T1–T4 son especificación tipada, escenarios de papel y auditoría de cobertura documental. **A05-T4 conserva sus 184 casos por efecto en estado no certificado**, pues se requieren transiciones físicas independientes antes/después y contraste individual legal/cadena. A07 no modifica A05-T4, A09 ni A10A. El conteo de `NO_APLICA` es por construcción/escenario, no ausencia del efecto impreso.
+
 ## APARTADO_08 — Estrategia, selección de jugadas y Side
 
 ### 20 decisiones situacionales D01–D20
