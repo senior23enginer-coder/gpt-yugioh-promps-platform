@@ -35,7 +35,7 @@ function audit(id,pkgPath,mdPath,guidePath){
   const id='a10-'+tag.toLowerCase(),open='<article id="'+id+'" class="a10-lesson" data-route-id="'+r.id+'">';
   const begin=html.indexOf(open),next=html.indexOf('<article id="a10-',begin+open.length);
   A(begin>=0,'ROUTE_PANEL_NOT_FOUND_'+r.id);
-  const panel=html.slice(begin,next<0?html.indexOf('</section>',begin):next);
+  const panel=html.slice(begin,next<0?html.indexOf('</article>',begin):next);
   A(panel.includes('class="a10-initial"'),'OPENING_MISSING_'+r.id);
   A(panel.includes('class="a10-final"'),'ENDBOARD_MISSING_'+r.id);
   A(panel.includes('class="a10-interrupt"'),'FAIL_BRANCH_MISSING_'+r.id);
