@@ -260,6 +260,64 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 650, Elfnote, formato tcg_advanced; Main/Extra/Side/Reserva 40/15/15/0; 42 CID y 43 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 650: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 42 IDs de ficha, 43 card_id, 20 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 650](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/650.json), blob `3f1027e973815be95177d4368cc1fea3c3365c80`. Paquete GPT: blob `95b22a556d3841b32b8687994df6276f8b57d687`; Markdown anterior: blob `5aabddf9cb7b99ceae14b6e89cd51cf66651e18d`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 22523 | Elfnote Regina | 650:A08:C001 | 181:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en |
+| 22116 | Elfnote Lucina | 650:A08:C002 | 182:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=en |
+| 22117 | Elfnote Tinia | 650:A08:C003 | 183:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=en |
+| 22119 | Elfnote Power Patron | 650:A08:C004 | 184:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=en |
+| 22118 | Elfnote Fortuna | 650:A08:C005 | 185:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=en |
+| 22533 | Fidraulis Harmony | 650:A08:C006 | 186:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en |
+| 21419 | Medius the Pure | 650:A08:C007 | 187:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en |
+| 22519 | Vidolium the Unstable Power Patron of Unity | 650:A08:C008 | 188:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en |
+| 17762 | Bystial Magnamhut | 650:A08:C009 | 189:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en |
+| 15239 | Dogmatika Ecclesia, the Virtuous | 650:A08:C010 | 190:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en |
+| 22520 | Nervedo the Shadebeast Power Patron | 650:A08:C011 | 191:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en |
+| 12950 | Ash Blossom & Joyous Spring | 650:A08:C012 | 192:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 20500 | Mulcharmy Fuwalos | 650:A08:C013 | 193:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 20206 | Mulcharmy Purulia | 650:A08:C014 | 194:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en |
+| 13587 | Ghost Belle & Haunted Mansion | 650:A08:C015 | 195:main×2; 216:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 22565 | Prohibited Power Patron Portal - Terminus | 650:A08:C016 | 196:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en |
+| 22089 | The Fallen & The Virtuous | 650:A08:C017 | 197:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en |
+| 22159 | Elfnotes: Welcome Home | 650:A08:C018 | 198:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=en |
+| 22173 | Elfnotes: Rhapsodia of Madness | 650:A08:C019 | 199:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=en |
+| 22356 | The Three Champions of Swordsoul [Synchro; Konami 22356] | 650:A08:C020 | 200:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en |
+| 18666 | Golden Cloud Beast - Malong [Synchro] | 650:A08:C021 | 201:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en |
+| 22335 | Storm-Bane Dragon Destorbim [Synchro] | 650:A08:C022 | 202:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en |
+| 22144 | Ecclesia and the Dark Dragon [extra; efecto y material según carta] | 650:A08:C023 | 203:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en |
+| 22143 | Elfnote Seraphim Strelitzia [Synchro] | 650:A08:C024 | 204:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=en |
+| 22984 | Elfnote June Pride [Synchro] | 650:A08:C025 | 205:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en |
+| 19188 | S:P Little Knight [Link] | 650:A08:C026 | 206:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 18505 | Despian Luluwalilith [Synchro] | 650:A08:C027 | 207:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en |
+| 8038 | Arcanite Magician [Synchro] | 650:A08:C028 | 208:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en |
+| 12321 | Crystal Wing Synchro Dragon [Synchro] | 650:A08:C029 | 209:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en |
+| 13710 | F.A. Dawn Dragster [Synchro] | 650:A08:C030 | 210:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en |
+| 15996 | Ruddy Rose Dragon [Synchro] | 650:A08:C031 | 211:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en |
+| 15994 | Albion the Branded Dragon [Fusion] | 650:A08:C032 | 212:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en |
+| 18507 | Chaos Angel [Synchro] | 650:A08:C033 | 213:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en |
+| 22142 | Junora the Power Patron of Tuning [Synchro] | 650:A08:C034 | 214:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=en |
+| 17764 | Bystial Druiswurm | 650:A08:C035 | 215:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en |
+| 9279 | Droll & Lock Bird | 650:A08:C036 | 217:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 11708 | Ghost Ogre & Snow Rabbit | 650:A08:C037 | 218:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en |
+| 13619 | Called by the Grave | 650:A08:C038 | 219:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 15296 | Triple Tactics Talent | 650:A08:C039 | 220:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 13407 | Contact "C" | 650:A08:C040 | 221:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en |
+| 4861 | Solemn Judgment | 650:A08:C041 | 222:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en |
+| 6511 | Pot of Avarice | 650:A08:C042 | 223:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en |
+
+**Rutas preservadas:** `650:A09:ECCLESIA:FALLEN:ALBION01`, `650:A09:ELFNOTE:TINIA01`, `650:A09:ELFNOTE:LUCINA01`, `650:A09:ELFNOTE:LUCINA:STRELITZIA02`, `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03`, `650:A09:ELFNOTE:TINIA:STRELITZIA04`, `650:A09:LUCINA:PATRON:JUNE_PRIDE07`, `650:A09:LUCINA:PATRON:ARCANITE08`, `650:A09:LUCINA:PATRON:DAWN_DRAGSTER09`, `650:A09:V11:REGINA:FORTUNA:RHAPSODIA`, `650:A09:V11:HARMONIA:MEDIUS:DESTORBIM`, `650:A09:ASH:RESPUESTA_DECK16`, `650:A09:GHOST_BELLE:RESPUESTA_GY17`, `650:A09:LUCINA_MEDIUS:SP18`, `650:EXTRA:V13:22356`, `650:EXTRA:V13:18666`, `650:EXTRA:V13:22144`, `650:EXTRA:V13:18505`, `650:EXTRA:V13:15996`, `650:EXTRA:V13:18507`.
+
+**Alcance:** solo A02 del deck 650; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1 y T3 con evidencia documental arriba; T2/T4/T5 sin prueba individual de importación o paridad. A10B no solicitado.
 
 ### A01
@@ -270,9 +328,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
