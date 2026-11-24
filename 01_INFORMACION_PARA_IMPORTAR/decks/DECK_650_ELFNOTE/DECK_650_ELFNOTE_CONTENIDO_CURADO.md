@@ -165,6 +165,74 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 650; nombre en plataforma: Elfnote; nombre fuente: Elfnote; formato: `tcg_advanced`.
+- Carpeta única: `DECK_650_ELFNOTE`; documento: `DECK_650_ELFNOTE_CONTENIDO_CURADO.md`.
+- Main 40 / Extra 15 / Side 15 / Reserva 0; 42 CID; 43 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `95b22a556d3841b32b8687994df6276f8b57d687`; blob documental anterior: `5aabddf9cb7b99ceae14b6e89cd51cf66651e18d`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 650", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `3382d8139bd7e8a97d605c436c6de8c71f2b85e236de2186f2f028ac2f7f2013`. SHA-256 del ZIP de entrada auditado: `8fa14393d84f88002acb71f0d2ab9b8048716c3429fbcec303044398a48b8402`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:12+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:29.517728+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 181 | 22523 | Elfnote Regina | main | 3 |
+| 182 | 22116 | Elfnote Lucina | main | 3 |
+| 183 | 22117 | Elfnote Tinia | main | 3 |
+| 184 | 22119 | Elfnote Power Patron | main | 2 |
+| 185 | 22118 | Elfnote Fortuna | main | 1 |
+| 186 | 22533 | Fidraulis Harmony | main | 3 |
+| 187 | 21419 | Medius the Pure | main | 2 |
+| 188 | 22519 | Vidolium the Unstable Power Patron of Unity | main | 2 |
+| 189 | 17762 | Bystial Magnamhut | main | 1 |
+| 190 | 15239 | Dogmatika Ecclesia, the Virtuous | main | 1 |
+| 191 | 22520 | Nervedo the Shadebeast Power Patron | main | 1 |
+| 192 | 12950 | Ash Blossom & Joyous Spring | main | 3 |
+| 193 | 20500 | Mulcharmy Fuwalos | main | 3 |
+| 194 | 20206 | Mulcharmy Purulia | main | 3 |
+| 195 | 13587 | Ghost Belle & Haunted Mansion | main | 2 |
+| 196 | 22565 | Prohibited Power Patron Portal - Terminus | main | 3 |
+| 197 | 22089 | The Fallen & The Virtuous | main | 2 |
+| 198 | 22159 | Elfnotes: Welcome Home | main | 1 |
+| 199 | 22173 | Elfnotes: Rhapsodia of Madness | main | 1 |
+| 200 | 22356 | The Three Champions of Swordsoul [Synchro; Konami 22356] | extra | 1 |
+| 201 | 18666 | Golden Cloud Beast - Malong [Synchro] | extra | 1 |
+| 202 | 22335 | Storm-Bane Dragon Destorbim [Synchro] | extra | 1 |
+| 203 | 22144 | Ecclesia and the Dark Dragon [extra; efecto y material según carta] | extra | 1 |
+| 204 | 22143 | Elfnote Seraphim Strelitzia [Synchro] | extra | 1 |
+| 205 | 22984 | Elfnote June Pride [Synchro] | extra | 1 |
+| 206 | 19188 | S:P Little Knight [Link] | extra | 1 |
+| 207 | 18505 | Despian Luluwalilith [Synchro] | extra | 1 |
+| 208 | 8038 | Arcanite Magician [Synchro] | extra | 1 |
+| 209 | 12321 | Crystal Wing Synchro Dragon [Synchro] | extra | 1 |
+| 210 | 13710 | F.A. Dawn Dragster [Synchro] | extra | 1 |
+| 211 | 15996 | Ruddy Rose Dragon [Synchro] | extra | 1 |
+| 212 | 15994 | Albion the Branded Dragon [Fusion] | extra | 1 |
+| 213 | 18507 | Chaos Angel [Synchro] | extra | 1 |
+| 214 | 22142 | Junora the Power Patron of Tuning [Synchro] | extra | 1 |
+| 215 | 17764 | Bystial Druiswurm | side | 1 |
+| 216 | 13587 | Ghost Belle & Haunted Mansion | side | 1 |
+| 217 | 9279 | Droll & Lock Bird | side | 2 |
+| 218 | 11708 | Ghost Ogre & Snow Rabbit | side | 2 |
+| 219 | 13619 | Called by the Grave | side | 1 |
+| 220 | 15296 | Triple Tactics Talent | side | 1 |
+| 221 | 13407 | Contact "C" | side | 3 |
+| 222 | 4861 | Solemn Judgment | side | 1 |
+| 223 | 6511 | Pot of Avarice | side | 3 |
+
+**Rutas existentes:** `650:A09:ECCLESIA:FALLEN:ALBION01`, `650:A09:ELFNOTE:TINIA01`, `650:A09:ELFNOTE:LUCINA01`, `650:A09:ELFNOTE:LUCINA:STRELITZIA02`, `650:A09:ELFNOTE:LUCINA:TINIA:JUNORA03`, `650:A09:ELFNOTE:TINIA:STRELITZIA04`, `650:A09:LUCINA:PATRON:JUNE_PRIDE07`, `650:A09:LUCINA:PATRON:ARCANITE08`, `650:A09:LUCINA:PATRON:DAWN_DRAGSTER09`, `650:A09:V11:REGINA:FORTUNA:RHAPSODIA`, `650:A09:V11:HARMONIA:MEDIUS:DESTORBIM`, `650:A09:ASH:RESPUESTA_DECK16`, `650:A09:GHOST_BELLE:RESPUESTA_GY17`, `650:A09:LUCINA_MEDIUS:SP18`, `650:EXTRA:V13:22356`, `650:EXTRA:V13:18666`, `650:EXTRA:V13:22144`, `650:EXTRA:V13:18505`, `650:EXTRA:V13:15996`, `650:EXTRA:V13:18507`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Estado vigente de cotejo (18-11-2026, segunda pasada):** 16 de 42 funciones individuales A05 tienen contraste explícito con texto oficial Konami; **26 continúan pendientes**. Las diez incorporaciones recientes son Regina, Lucina, Tinia, Power Patron, Fortuna, Medius, Strelitzia, Welcome Home, Rhapsodia y Junora. Sus filas A06.2 se han conciliado con la función real. Los conteos históricos `2/42` y `6/42` de cortes anteriores que aparecen más abajo **no son el estado actual**. No se alteran las 70 copias físicas ni se declaran replays.
 
@@ -270,9 +338,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
