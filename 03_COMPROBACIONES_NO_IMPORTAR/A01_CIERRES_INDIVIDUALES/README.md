@@ -31,3 +31,7 @@ Fecha: 23-11-2026. Alcance exclusivo A01 (T1–T5). Las actas individuales const
 - Revisión GPT de Purrely certificada: `a9c214433ceb4cd955e705465547df1a36cf4f0b`. Los demás paquetes conservan su revisión original.
 - [PR Station X #47](https://github.com/senior23enginer-coder/platform-yugioh-md/pull/47): aceptación aprobada en revisión `47c7552b61e446ec932d72fdbb7291cd95317967`. Se propone actualización explícita de la línea base P06 para dos pruebas genéricas, sin eliminar ninguna. La integración global requiere comprobación adicional de la revisión posterior.
 - Estado de entrega: ramas de trabajo y revisión de PR; no merge, despliegue ni importación en producción.
+
+## Revisión técnica y pedagógica 3
+
+Leídas las 128 lecciones y contrastadas con el inventario, los resultados de las rutas existentes y textos oficiales seleccionados. Se ajustaron las 16 actas, con correcciones de precisión y condiciones concretas. No se da por acreditado todo el texto oficial ni la legalidad de las rutas. T4 y T5 permanecen abiertos para la revisión 3 hasta comprobar paridad, revisión semántica restante y nuevo navegador. La evidencia técnica previa de los 16 paquetes, móvil/escritorio y round-trip fue exitosa en Station X #45296171257 y #45296171254, pero corresponde a la revisión 2, no a los cambios posteriores. Pyro y Royal requieren evidencia adicional de apertura autónoma sin recuperación de Skill en turno uno; las Skills locales de los cuatro decks Rush requieren cotejo con su fuente local. Sin cambios de inventario, banlist, A02 ni producción.

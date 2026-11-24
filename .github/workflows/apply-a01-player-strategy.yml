@@ -1,4 +1,4 @@
-name: Apply authored A01 lessons to assigned packages (risk and legacy phase cleanup)
+name: Apply reviewed A01 lessons to assigned packages (technical review 3)
 on:
   push:
     branches: [fix/a01-player-quality-20261123]
