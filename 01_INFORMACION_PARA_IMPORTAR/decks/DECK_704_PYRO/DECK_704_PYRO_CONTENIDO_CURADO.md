@@ -325,6 +325,11 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 17/17 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 17/17 filas por ID/CID/zona/cantidad; huella FNV-1a64 `0f8c996ce8713c20` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/5/0/0; 17 identidades, 3 rutas, 15 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica ALCHEMY BLAZE preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T1/T2 — contraste externo de Skill (24-11-2026)
+
+**Alchemy Blaze** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Alchemy%20Blaze). Desde el turno 2: revelar uno de tres nombres elegibles; los monstruos deben ser Piro/FUEGO con DEF >=100. Recupera dos recursos elegibles del Deck/GY y después envía una carta de mano al GY. No constituye apertura autónoma de turno 1.  Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
