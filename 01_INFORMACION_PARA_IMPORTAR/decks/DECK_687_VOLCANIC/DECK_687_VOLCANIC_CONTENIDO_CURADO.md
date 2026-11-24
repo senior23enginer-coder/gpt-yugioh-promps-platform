@@ -164,6 +164,69 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 687; nombre en plataforma: Volcanic; nombre fuente: Volcanic; formato: `tcg_advanced`.
+- Carpeta única: `DECK_687_VOLCANIC`; documento: `DECK_687_VOLCANIC_CONTENIDO_CURADO.md`.
+- Main 42 / Extra 15 / Side 0 / Reserva 14; 36 CID; 38 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `97058caf2883383f1913d503b92821457a1cbfb4`; blob documental anterior: `40aa314166271468cdb2b4cf3c80fae1eb3b365c`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 687", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `e98d5481e6595519a11c98635c1ae83fd80cdeb7fb30fde4b08d97cf74213dcf`. SHA-256 del ZIP de entrada auditado: `907b28f2199c18948036ca0c5307b16ebad5f6aa232ad5d345da4088f138ee27`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:45+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:50.131059+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 284 | 18916 | Volcanic Trooper — Soldado Volcánico | main | 3 |
+| 285 | 18915 | Volcanic Emperor — Emperador Volcánico | main | 2 |
+| 286 | 7243 | Volcanic Rocket — Misil Volcánico | main | 3 |
+| 287 | 18917 | Volcanic Rimfire — Percusión Anular Volcánica | main | 3 |
+| 288 | 7083 | Volcanic Scattershot — Disparo Disperso Volcánico | main | 3 |
+| 289 | 7082 | Volcanic Shell — Cartucho Volcánico | main | 3 |
+| 290 | 6884 | Barrier Statue of the Inferno — Estatua-Barrera del Infierno | main | 1 |
+| 291 | 9455 | Maxx "C" — «C» Maxx | main | 2 |
+| 292 | 18918 | Volcanic Blaze Accelerator — Acelerador de Llama Volcánico | main | 3 |
+| 293 | 7086 | Blaze Accelerator — Acelerador de Llama | main | 1 |
+| 294 | 18919 | Fire Ejection — Eyección de Fuego | main | 3 |
+| 295 | 15299 | Forbidden Droplet — Gotas Prohibidas | main | 3 |
+| 296 | 19027 | Bonfire — Hoguera | main | 3 |
+| 297 | 14144 | Pot of Extravagance — Olla de la Extravagancia | main | 2 |
+| 298 | 11597 | Blaze Accelerator Reload — Recarga del Acelerador de Llama | main | 3 |
+| 299 | 18921 | Volcanic Inferno — Infierno Volcánico | main | 1 |
+| 300 | 18920 | Volcanic Emission — Emisión Volcánica | main | 1 |
+| 301 | 7934 | Gozen Match — Emparejamiento de Atributos | main | 2 |
+| 302 | 14676 | I:P Masquerena — I:P Enmascarada | extra | 2 |
+| 303 | 14133 | Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida | extra | 1 |
+| 304 | 13601 | Knightmare Unicorn — Caballero de Pesadilla Unicornio | extra | 1 |
+| 305 | 15741 | Underworld Goddess of the Closed World — Diosa del Inframundo del Mundo Cerrado | extra | 1 |
+| 306 | 13600 | Knightmare Phoenix — Caballero de Pesadilla Fénix | extra | 1 |
+| 307 | 13346 | Linkuriboh — Enlacekuriboh | extra | 1 |
+| 308 | 19184 | Super Starslayer TY-PHON - Sky Crisis — Súper Asesino Estelar TY-PHON | extra | 3 |
+| 309 | 19188 | S:P Little Knight — S:P Pequeña Caballera | extra | 3 |
+| 310 | 14338 | Salamangreat Almiraj — Salamangrande Almiraj | extra | 1 |
+| 311 | 19507 | Promethean Princess, Bestower of Flames — Princesa Prometea | extra | 1 |
+| 312 | 13631 | Infinite Impermanence — Infinito Temporal | reserve | 3 |
+| 313 | 12950 | Ash Blossom & Joyous Spring — Flor de Ceniza y Primavera Feliz | reserve | 2 |
+| 314 | 8213 | Forbidden Chalice — Corona Prohibida | reserve | 2 |
+| 315 | 13002 | Clashing Souls — Almas en Choque | reserve | 1 |
+| 316 | 13293 | Evenly Matched — Pelea Pareja | reserve | 1 |
+| 317 | 5622 | Rivalry of Warlords — Rivalidad de los Señores de la Guerra | reserve | 1 |
+| 318 | 4678 | Harpie's Feather Duster — Polvo de Pluma de Arpía | reserve | 1 |
+| 319 | 9455 | Maxx "C" — «C» Maxx | reserve | 1 |
+| 320 | 7934 | Gozen Match — Emparejamiento de Atributos | reserve | 1 |
+| 321 | 15756 | Pot of Prosperity — Olla de la Prosperidad | reserve | 1 |
+
+**Rutas existentes:** `687:A09:BLAZE:RIMFIRE:RELOAD01`, `687:A09:BLAZE:SHELL:RESOURCE01`, `687:A09:VBA:EJECTION:EMPEROR01`, `687:A09:DROPLET:RELOAD:SCATTERSHOT01`, `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01`, `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`, `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02`, `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05`, `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07`, `687:A09:IP:EMPEROR:UNICORN14`, `687:A09:SHELL:LINKURIBOH:DEFENSA15`, `687:A09:IP:EMPEROR:SP_DEFENSA16`, `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`, `687:A09:SHELL:TYPHON18`, `687:A09:IP:TROOPER:ROCKET:GODDESS19`, `687:A09:V11:TROOPER:EJECTION:SHELL:INFERNO`, `687:A09:BONFIRE:TROOPER_EMISSION`, `687:A09:EJECTION:RIMFIRE:SCATTERSHOT`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -262,9 +325,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
