@@ -325,6 +325,11 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 17/17 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 17/17 filas por ID/CID/zona/cantidad; huella FNV-1a64 `82e2e8141bfef34c` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/8/0/0; 17 identidades, 9 rutas, 35 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica HERO RUSH RISING preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T1/T2 — contraste externo de Skill (24-11-2026)
+
+**Hero Rush Rising** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Hero%20Rush%20Rising). Exige que monstruos con ATK >=1600 del Deck construido sean LUZ/Guerrero y que monstruos de Extra sean Guerrero. Envía una carta propia del campo al GY, reduce 600 ATK/DEF de un monstruo boca arriba y puede recuperar Fusion del Deck/GY. El nombre de la Skill también aparece en [resultados oficiales de Konami WCS 2026](https://www.konami.com/yugioh/worldchampionship/2026/en/). Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
