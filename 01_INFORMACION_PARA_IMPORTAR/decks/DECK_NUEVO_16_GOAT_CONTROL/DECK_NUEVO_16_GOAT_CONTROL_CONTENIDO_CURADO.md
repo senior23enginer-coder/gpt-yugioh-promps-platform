@@ -164,6 +164,70 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 699; nombre en plataforma: Goat Control; nombre fuente: Goat Control; formato: `goat`.
+- Carpeta única: `DECK_NUEVO_16_GOAT_CONTROL`; documento: `DECK_NUEVO_16_GOAT_CONTROL_CONTENIDO_CURADO.md`.
+- Main 40 / Extra 14 / Side 0 / Reserva 0; 39 CID; 39 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `b065d14effe24b758098b42ea370f0e1d12a8dc3`; blob documental anterior: `defa7bd98376cac02d8ba4fab95aa386f4a51a92`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 699", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `7034b109c842c1135042b181eeca590717b52d21ce980f37c66763d79f45a318`. SHA-256 del ZIP de entrada auditado: `d4253ab28d4b57075d8fedb3e96638e348ffa732b42dcd786b3b072a105b1947`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:59+00:00; lectura nativa de solo lectura: 2026-11-24T19:56:01.356135+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 637 | 5023 | Caballero del Aire Parshath | main | 2 |
+| 638 | 4434 | Mago de la Fe | main | 2 |
+| 639 | 5663 | Mercader Mágico | main | 2 |
+| 640 | 5780 | Tsukuyomi | main | 2 |
+| 641 | 5835 | Soldado del Brillo Negro - Enviado del Principio | main | 1 |
+| 642 | 5381 | Sacerdote de Asura | main | 1 |
+| 643 | 5719 | D.D. Dama Guerrera | main | 1 |
+| 644 | 4481 | Serpiente Siniestra | main | 1 |
+| 645 | 4054 | Sangan | main | 1 |
+| 646 | 5655 | Breaker el Guerrero Mágico | main | 1 |
+| 647 | 4597 | Jarra de la Metamorfosis | main | 1 |
+| 648 | 5660 | Virus Infecta-Tribu | main | 1 |
+| 649 | 5539 | Metamorfosis | main | 3 |
+| 650 | 4818 | Scapegoat | main | 2 |
+| 651 | 5432 | Libro de la Luna | main | 2 |
+| 652 | 4963 | Noble de Crossout | main | 2 |
+| 653 | 4844 | Olla de la Codicia | main | 1 |
+| 654 | 4812 | Caridad Grácil | main | 1 |
+| 655 | 4901 | Dúo de Delincuentes | main | 1 |
+| 656 | 4891 | Tormenta Fuerte | main | 1 |
+| 657 | 4909 | Tifón del Espacio Místico | main | 1 |
+| 658 | 4898 | Robo Oportunista | main | 1 |
+| 659 | 4966 | Entierro Prematuro | main | 1 |
+| 660 | 4988 | Tornado de Polvo | main | 2 |
+| 661 | 5799 | Armadura Sakuretsu | main | 2 |
+| 662 | 4887 | Fuerza de Espejo | main | 1 |
+| 663 | 5114 | Tributo Torrencial | main | 1 |
+| 664 | 5005 | Anillo Destructor | main | 1 |
+| 665 | 4989 | Llamada de los Condenados | main | 1 |
+| 666 | 4740 | Límite de los Mil Ojos | extra | 3 |
+| 667 | 5302 | Balter Oscuro el Terrible | extra | 2 |
+| 668 | 6204 | Hoja Oscura el Caballero Dragón | extra | 2 |
+| 669 | 5319 | Ryu Senshi | extra | 1 |
+| 670 | 6264 | Dragón Gatling | extra | 1 |
+| 671 | 6126 | Rey Ojama | extra | 1 |
+| 672 | 4300 | Dragoness, el Caballero Perverso | extra | 1 |
+| 673 | 4174 | Dragón de Fuego Oscuro | extra | 1 |
+| 674 | 5338 | Dragón Cráneo Demonio | extra | 1 |
+| 675 | 5528 | Segador en la Pesadilla | extra | 1 |
+
+**Rutas existentes:** `699:A09:G-C01`, `699:A09:G-C02`, `699:A09:G-C03`, `699:A09:G-C04`, `699:A09:G-C05`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real **699** confirmado y formato GOAT preservado. A06.2 incorpora **39/39 identidades** con sus CID, función, cantidades y posibles relaciones. **Main 40 / Extra 14 visibles; Side no recibido**, por lo que no se equipara la ausencia de datos a una elección deliberada de Side vacío. Las vías por Metamorfosis se conservan condicionales; ningún combo o material nuevo se infiere de la matriz. La importación V40 es histórica y esta revisión no reimporta ni publica.
 
@@ -877,9 +941,9 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 - [ ] **A01-T5** — BLOQUEADA: faltan pruebas reales import/export/render/rechazo con inventario nativo.
 
 ### A02 — obligatorio
-- [ ] **A02-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
-- [ ] **A02-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
-- [ ] **A02-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [x] **A02-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03 — obligatorio
 - [ ] **A03-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
