@@ -346,6 +346,73 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 656](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/656.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `ac8b58b84564a73d7836cc40adddc456c505329a`.
+
+- **A03-T1:** 53 filas, 50 CID, 75 copias, Main/Extra/Side/Reserva 44/15/0/16, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 50/50 referencias oficiales con CID coherente; 50/50 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 23 rutas, 105 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/50 CID representados). Conteo documental, no censo oficial exhaustivo. CID multizona: 7445, 17416, 17813. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 359 | 7445 | Súper Polimerización | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en |
+| 360 | 20490 | Lácrima las Lágrimas Carmesíes | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=en |
+| 361 | 17416 | Tiagrimientos Havnis | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=en |
+| 362 | 17462 | Planeta Primigenio Perlerreino | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&ope=2&request_locale=en |
+| 363 | 17768 | Kashtira Fenrir | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en |
+| 364 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 365 | 17417 | Tiagrimientos Reinoheart | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&ope=2&request_locale=en |
+| 366 | 17415 | Tiagrimientos Scheiren | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=en |
+| 367 | 17414 | Tiagrimientos Merrli | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&ope=2&request_locale=en |
+| 368 | 12800 | Bienes del Entierro Insensato | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=en |
+| 369 | 18219 | Trivikarma | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=en |
+| 370 | 17475 | Crimanto Tiagrimientos | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&ope=2&request_locale=en |
+| 371 | 17813 | Grito Tiagrimientos | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=en |
+| 372 | 17604 | Mudora el Oráculo de la Espada | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=en |
+| 373 | 19153 | Amset, Gloria de Horus | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en |
+| 374 | 8933 | Ocultador de Efectos | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en |
+| 375 | 22169 | Corona Prohibida | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=en |
+| 376 | 18153 | Tiagrimientos Kashtira | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en |
+| 377 | 18204 | Planeta Bajo Presión Wraitsoth | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en |
+| 378 | 17473 | Metarruido Tiagrimientos | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&ope=2&request_locale=en |
+| 379 | 20196 | Demoniherrero Grabador | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en |
+| 380 | 19200 | Sarcófago del Rey | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en |
+| 381 | 19155 | Hapi, Guía de Horus | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en |
+| 382 | 20240 | Tracto del Demoniherrero | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&ope=2&request_locale=en |
+| 383 | 8092 | Fabuloso Lurrie | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&ope=2&request_locale=en |
+| 384 | 17603 | Keldo la Protectora Sagrada | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=en |
+| 385 | 20521 | Agnumday del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=en |
+| 386 | 17803 | Sprind Spright | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=en |
+| 387 | 19188 | S:P Pequeña Caballera | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 388 | 20225 | Réquiem del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en |
+| 389 | 17746 | Garura, Alas de Vida Resonante | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en |
+| 390 | 12870 | Predaplanta Dragostapelia | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en |
+| 391 | 17445 | Tiagrimientos Caleido-Heart | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&ope=2&request_locale=en |
+| 392 | 14676 | I:P Enmascarada | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en |
+| 393 | 20226 | Secuencia del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en |
+| 394 | 13454 | Fangodragón del Pantano | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en |
+| 395 | 20214 | Lácrima del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=en |
+| 396 | 11005 | Parca Peregrina | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=en |
+| 397 | 16850 | El Vampiro Zombi | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en |
+| 398 | 10942 | Caballero Exciton Horda de Maldad | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=en |
+| 399 | 14356 | Ladrón del Tiempo Repetidor | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=en |
+| 400 | 17416 | Tiagrimientos Havnis | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=en |
+| 401 | 20500 | Fuwalos Multivadora | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 402 | 14856 | Punto de Oveja | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=en |
+| 403 | 18807 | Alma Desencadenada de Shyama | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=en |
+| 404 | 13619 | Llamado por la Tumba | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 405 | 12464 | Ciclón del Cosmos | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 406 | 4678 | Polvo de Pluma de Arpía | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en |
+| 407 | 5537 | Terraformación | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en |
+| 408 | 15296 | Talento de Tácticas Triples | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 409 | 17813 | Grito Tiagrimientos | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=en |
+| 410 | 7445 | Súper Polimerización | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en |
+| 411 | 13587 | Bella Fantasma & Mansión Embrujada | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 44 Main · 15 Extra · 0 Side recibido · 16 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
