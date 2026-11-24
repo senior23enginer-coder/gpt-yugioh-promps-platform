@@ -165,6 +165,70 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 673; nombre en plataforma: Salamangreat; nombre fuente: Salamangreat; formato: `tcg_advanced`.
+- Carpeta única: `DECK_NUEVO_15_SALAMANGRANDE`; documento: `DECK_NUEVO_15_SALAMANGRANDE_CONTENIDO_CURADO.md`.
+- Main 40 / Extra 15 / Side 15 / Reserva 0; 39 CID; 39 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `72c8fd2364604eb0ba1f074177f2af42e8f0ca26`; blob documental anterior: `00de70076503819798de8e55983764803a2cbe05`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 673", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `4824791265686b77223e5a6af87ca01408cc480d1255c321e98aeef4541fac61`. SHA-256 del ZIP de entrada auditado: `8bc0c76607e92a651f65d5fd9fd3c549ff42480b27710a9a49a4633eb0dacf7a`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:55+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:57.920593+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 598 | 14240 | Salamangrande Gacela | main | 3 |
+| 599 | 18908 | Salamangrande de Fuego | main | 3 |
+| 600 | 14241 | Salamangrande Rotante | main | 2 |
+| 601 | 18909 | Salamangrande Comadreja | main | 1 |
+| 602 | 13890 | Salamangrande Zorro | main | 1 |
+| 603 | 13892 | Salamangrande Jaque Jaguar | main | 1 |
+| 604 | 13891 | Salamangrande Halcón | main | 1 |
+| 605 | 14239 | Salamangrande Topo | main | 1 |
+| 606 | 18813 | Hiita la Canalizadora del Fuego | main | 1 |
+| 607 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 |
+| 608 | 9279 | El Bufón y el Pájaro del Candado | main | 3 |
+| 609 | 20500 | Fuwalos Multivadora | main | 3 |
+| 610 | 20206 | Purulia Multivadora | main | 1 |
+| 611 | 14244 | Círculo Salamangrande | main | 3 |
+| 612 | 14301 | Cinet-Minado | main | 3 |
+| 613 | 14742 | Gobernante Oscuro No Más | main | 3 |
+| 614 | 13938 | Santuario Salamangrande | main | 1 |
+| 615 | 13940 | Voluntad de la Salamangrande | main | 1 |
+| 616 | 13619 | Llamado por la Tumba | main | 1 |
+| 617 | 13631 | Infinito Temporal | main | 3 |
+| 618 | 14247 | Rugido Salamangrande | main | 1 |
+| 619 | 14249 | Salamangrande Lincefogata | extra | 3 |
+| 620 | 14125 | Salamangrande Lobo de la Luz Solar | extra | 2 |
+| 621 | 14666 | Salamangrande Piro Fénix | extra | 2 |
+| 622 | 18912 | Salamangrande Fénix Furioso | extra | 2 |
+| 623 | 14248 | Salamangrande Espejismetal | extra | 1 |
+| 624 | 19507 | Princesa Prometeica, Otorgadora de Llamas | extra | 1 |
+| 625 | 14855 | Fénix de Fuego @Ignister | extra | 1 |
+| 626 | 14133 | Hiita la Encantadora del Fuego, Encendida | extra | 1 |
+| 627 | 15033 | Mago Proxy F | extra | 1 |
+| 628 | 14111 | Salamangrande Quimera Violeta | extra | 1 |
+| 629 | 11243 | Artefacto Lancea | side | 3 |
+| 630 | 15406 | Despertar del Poseído - Inari de Fuego Superior | side | 1 |
+| 631 | 14876 | Tormenta de Relámpagos | side | 2 |
+| 632 | 4678 | Polvo de Pluma de Arpía | side | 1 |
+| 633 | 5102 | Máscara de la Debilidad | side | 3 |
+| 634 | 13293 | Pelea Pareja | side | 3 |
+| 635 | 6441 | Arte Espiritual del Fuego - Kurenai | side | 1 |
+| 636 | 7934 | Emparejamiento de Atributos | side | 1 |
+
+**Rutas existentes:** `673:A09:S-C01`, `673:A09:S-C02`, `673:A09:S-C03`, `673:A09:S-C04`, `673:A09:S-C05`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real **673** confirmado; `NUEVO_15` es la denominación documental de esta carpeta. A06.2 integra **39/39 filas por identidad** con CID, fotografía, copias, función, relación condicional y rutas A09 solo como candidatas. Las 70 copias (40 Main / 15 Extra / 15 Side) permanecen intactas. Los accesos Extra, materiales, zonas y efectos deben cotejarse antes de acreditar una jugada; esta revisión no reimporta contenido a Station X.
 
@@ -237,9 +301,9 @@ Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad liter
 - [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.
