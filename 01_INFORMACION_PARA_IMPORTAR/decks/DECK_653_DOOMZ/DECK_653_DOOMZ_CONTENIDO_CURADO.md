@@ -252,6 +252,59 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 653, DoomZ, formato tcg_advanced; Main/Extra/Side/Reserva 40/15/9/0; 37 CID y 37 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 653: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 37 IDs de ficha, 37 card_id, 16 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 653](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/653.json), blob `d3688e68e8c08357b2a2eeaafd1abf2c251aa14e`. Paquete GPT: blob `9222af9d3871bab8a00407a09bd7c0c405f958ce`; Markdown anterior: blob `44d1391ca3fc3bf03fa4000056b5abf712fc187c`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 21419 | Medius el Puro | 653:A08:C001 | 322:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en |
+| 21824 | Mando DoomZ «D.O.O.M.D.U.R.G.» | 653:A08:C002 | 323:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=en |
+| 21777 | DoomZ Modelo de Poder | 653:A08:C003 | 324:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=en |
+| 9279 | El Bufón y el Pájaro del Candado | 653:A08:C004 | 325:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 22521 | Modelo de Poder Máquina de Sombras Zegredo | 653:A08:C005 | 326:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=en |
+| 12950 | Flor de Ceniza & Primavera Feliz | 653:A08:C006 | 327:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 17119 | Therion «Rey» Regulus | 653:A08:C007 | 328:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en |
+| 21774 | DoomZ XII Cero - Drastea | 653:A08:C008 | 329:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=en |
+| 21775 | DoomZ V Cinco - Amalthe | 653:A08:C009 | 330:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=en |
+| 21776 | DoomZ VII Siete - Elara | 653:A08:C010 | 331:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=en |
+| 13631 | Infinito Temporal | 653:A08:C011 | 332:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 20500 | Fuwalos Multivadora | 653:A08:C012 | 333:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 22565 | Portal del Modelo de Poder Desatado - Terminus | 653:A08:C013 | 334:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en |
+| 21823 | Incursores DoomZ | 653:A08:C014 | 335:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=en |
+| 22519 | Vidrium, Modelo de Poder de la Exterminación del Caos | 653:A08:C015 | 336:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en |
+| 22158 | Cambio DoomZ | 653:A08:C016 | 337:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=en |
+| 21840 | Destrucción DoomZ | 653:A08:C017 | 338:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2&request_locale=en |
+| 22567 | Mando DoomZ «A.D.R.A.S.T.E.I.A.» | 653:A08:C018 | 339:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22567&ope=2&request_locale=en |
+| 14958 | Número F0: Futuro Draco Utópico | 653:A08:C019 | 340:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=en |
+| 16002 | Springans Fiestero | 653:A08:C020 | 341:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=en |
+| 18190 | Gigantesco «Campeón» Sargas | 653:A08:C021 | 342:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=en |
+| 21811 | DoomZ XII Fin - Drastrius | 653:A08:C022 | 343:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=en |
+| 22554 | DoomZ XIII Over - Graflario | 653:A08:C023 | 344:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=en |
+| 21812 | Fractura DoomZ - Diactorus | 653:A08:C024 | 345:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=en |
+| 21810 | Júpiter el Modelo de Poder de Destrucción | 653:A08:C025 | 346:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=en |
+| 21453 | Número F0: Futuro Utópico Zexal | 653:A08:C026 | 347:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=en |
+| 19886 | Varudras, el Último Portador del Fin de los Tiempos | 653:A08:C027 | 348:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2&request_locale=en |
+| 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | 653:A08:C028 | 349:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en |
+| 11413 | Número F0: Futuro Utópico | 653:A08:C029 | 350:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=en |
+| 14920 | Mago Gagagaga | 653:A08:C030 | 351:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=en |
+| 11708 | Ogro Fantasma & Conejo de las Nieves | 653:A08:C031 | 352:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en |
+| 15296 | Talento de Tácticas Triples | 653:A08:C032 | 353:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 14564 | Número 60: Dugares el Eterno | 653:A08:C033 | 354:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2&request_locale=en |
+| 13619 | Llamado por la Tumba | 653:A08:C034 | 355:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 14876 | Tormenta de Relámpagos | 653:A08:C035 | 356:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en |
+| 14741 | Nibiru, el Ser Primitivo | 653:A08:C036 | 357:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en |
+| 19184 | Súper Asesino Estelar TY-PHON - Crisis Celeste | 653:A08:C037 | 358:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+
+**Rutas preservadas:** `653:A09:RAIDERS:ELARA:DRAS01`, `653:A09:RAIDERS:AMALTHE:DRAS02`, `653:A09:RAIDERS:CHANGE:DRAS03`, `653:A09:MEDIUS:JUPREDO:JUPITER04`, `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05`, `653:A09:MEDIUS:GRAFLAREIO:DRAS06`, `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`, `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`, `653:A09:V11:DRASTEA:ADRASTEIA:DIACTORUS`, `653:A09:V12:ELARA:DRASTEA:DRASTRIUS:SINGLE`, `653:EXTRA:V13:14958`, `653:EXTRA:V13:16002`, `653:EXTRA:V13:18190`, `653:EXTRA:V13:21453`, `653:EXTRA:V13:11413`, `653:EXTRA:V13:14920`.
+
+**Alcance:** solo A02 del deck 653; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1 y T3 con evidencia documental arriba; T2/T4/T5 sin prueba individual de importación o paridad. A10B no solicitado.
 
 ### A01
@@ -262,9 +315,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
