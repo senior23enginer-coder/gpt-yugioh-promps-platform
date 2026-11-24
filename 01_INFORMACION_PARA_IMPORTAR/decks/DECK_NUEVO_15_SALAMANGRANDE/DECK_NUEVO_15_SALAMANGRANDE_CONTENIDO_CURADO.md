@@ -227,6 +227,61 @@ Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad liter
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 673, Salamangreat, formato tcg_advanced; Main/Extra/Side/Reserva 40/15/15/0; 39 CID y 39 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 673: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 39 IDs de ficha, 39 card_id, 5 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 673](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/673.json), blob `d7cbaac925814f293c2295bdec41ef695ac60c00`. Paquete GPT: blob `72c8fd2364604eb0ba1f074177f2af42e8f0ca26`; Markdown anterior: blob `00de70076503819798de8e55983764803a2cbe05`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 4678 | Polvo de Pluma de Arpía | 673:CARD:4678 | 632:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=es |
+| 5102 | Máscara de la Debilidad | 673:CARD:5102 | 633:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5102&ope=2&request_locale=es |
+| 6441 | Arte Espiritual del Fuego - Kurenai | 673:CARD:6441 | 635:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6441&ope=2&request_locale=es |
+| 7934 | Emparejamiento de Atributos | 673:CARD:7934 | 636:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=es |
+| 9279 | El Bufón y el Pájaro del Candado | 673:CARD:9279 | 608:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 11243 | Artefacto Lancea | 673:CARD:11243 | 629:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 12950 | Flor de Ceniza & Primavera Feliz | 673:CARD:12950 | 607:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 13293 | Pelea Pareja | 673:CARD:13293 | 634:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=es |
+| 13619 | Llamado por la Tumba | 673:CARD:13619 | 616:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 13631 | Infinito Temporal | 673:CARD:13631 | 617:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es |
+| 13890 | Salamangrande Zorro | 673:CARD:13890 | 602:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13890&ope=2&request_locale=es |
+| 13891 | Salamangrande Halcón | 673:CARD:13891 | 604:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13891&ope=2&request_locale=es |
+| 13892 | Salamangrande Jaque Jaguar | 673:CARD:13892 | 603:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13892&ope=2&request_locale=es |
+| 13938 | Santuario Salamangrande | 673:CARD:13938 | 614:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13938&ope=2&request_locale=es |
+| 13940 | Voluntad de la Salamangrande | 673:CARD:13940 | 615:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13940&ope=2&request_locale=es |
+| 14111 | Salamangrande Quimera Violeta | 673:CARD:14111 | 628:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14111&ope=2&request_locale=es |
+| 14125 | Salamangrande Lobo de la Luz Solar | 673:CARD:14125 | 620:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14125&ope=2&request_locale=es |
+| 14133 | Hiita la Encantadora del Fuego, Encendida | 673:CARD:14133 | 626:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=es |
+| 14239 | Salamangrande Topo | 673:CARD:14239 | 605:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14239&ope=2&request_locale=es |
+| 14240 | Salamangrande Gacela | 673:CARD:14240 | 598:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14240&ope=2&request_locale=es |
+| 14241 | Salamangrande Rotante | 673:CARD:14241 | 600:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14241&ope=2&request_locale=es |
+| 14244 | Círculo Salamangrande | 673:CARD:14244 | 611:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14244&ope=2&request_locale=es |
+| 14247 | Rugido Salamangrande | 673:CARD:14247 | 618:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14247&ope=2&request_locale=es |
+| 14248 | Salamangrande Espejismetal | 673:CARD:14248 | 623:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14248&ope=2&request_locale=es |
+| 14249 | Salamangrande Lincefogata | 673:CARD:14249 | 619:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14249&ope=2&request_locale=es |
+| 14301 | Cinet-Minado | 673:CARD:14301 | 612:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14301&ope=2&request_locale=es |
+| 14666 | Salamangrande Piro Fénix | 673:CARD:14666 | 621:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14666&ope=2&request_locale=es |
+| 14742 | Gobernante Oscuro No Más | 673:CARD:14742 | 613:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es |
+| 14855 | Fénix de Fuego @Ignister | 673:CARD:14855 | 625:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14855&ope=2&request_locale=es |
+| 14876 | Tormenta de Relámpagos | 673:CARD:14876 | 631:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es |
+| 15033 | Mago Proxy F | 673:CARD:15033 | 627:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15033&ope=2&request_locale=es |
+| 15406 | Despertar del Poseído - Inari de Fuego Superior | 673:CARD:15406 | 630:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15406&ope=2&request_locale=es |
+| 18813 | Hiita la Canalizadora del Fuego | 673:CARD:18813 | 606:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18813&ope=2&request_locale=es |
+| 18908 | Salamangrande de Fuego | 673:CARD:18908 | 599:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18908&ope=2&request_locale=es |
+| 18909 | Salamangrande Comadreja | 673:CARD:18909 | 601:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18909&ope=2&request_locale=es |
+| 18912 | Salamangrande Fénix Furioso | 673:CARD:18912 | 622:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18912&ope=2&request_locale=es |
+| 19507 | Princesa Prometeica, Otorgadora de Llamas | 673:CARD:19507 | 624:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=es |
+| 20206 | Purulia Multivadora | 673:CARD:20206 | 610:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 20500 | Fuwalos Multivadora | 673:CARD:20500 | 609:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+
+**Rutas preservadas:** `673:A09:S-C01`, `673:A09:S-C02`, `673:A09:S-C03`, `673:A09:S-C04`, `673:A09:S-C05`.
+
+**Alcance:** solo A02 del deck 673; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Estado:** A01-T1/T3 documentadas; A01-T2/T4/T5 bloqueadas a la espera de ZIP nativo y aceptación importable. No actualizar el estado histórico de A02–A10A; A10B no solicitado.
 
 ### A01
@@ -237,9 +292,9 @@ Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad liter
 - [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.

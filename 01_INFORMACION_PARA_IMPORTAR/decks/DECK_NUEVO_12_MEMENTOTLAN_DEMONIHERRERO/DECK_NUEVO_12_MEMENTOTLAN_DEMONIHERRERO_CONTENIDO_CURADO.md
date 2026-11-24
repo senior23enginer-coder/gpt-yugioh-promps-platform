@@ -18,6 +18,61 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Memento 671 · contrato vigente (21-11-2026)
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 671, Memento, formato tcg_advanced; Main/Extra/Side/Reserva 41/15/14/0; 39 CID y 40 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 671: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 39 IDs de ficha, 40 card_id, 12 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 671](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json), blob `a1f85fb6ed5e32afa0d18ce98888c0bf58ecba5c`. Paquete GPT: blob `c9b3829860dece151be739867ae1c4d26a037e71`; Markdown anterior: blob `707e5cb92607db7a7b7313ed66a564f0e06a8b6a`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 9139 | Oleada de Calor | 671:CARD:9139 | 499:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=es |
+| 9279 | El Bufón y el Pájaro del Candado | 671:CARD:9279 | 494:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 9657 | Portaaviones Sumergible Aero Tiburón | 671:CARD:9657 | 517:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=es |
+| 11243 | Artefacto Lancea | 671:CARD:11243 | 520:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 12870 | Predaplanta Dragostapelia | 671:CARD:12870 | 506:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=es |
+| 12950 | Flor de Ceniza | 671:CARD:12950 | 493:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 13081 | D/D/D César, Alto Rey de las Olas | 671:CARD:13081 | 510:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=es |
+| 13619 | Llamado por la Tumba | 671:CARD:13619 | 503:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 15296 | Talento de Tácticas Triples | 671:CARD:15296 | 504:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 15299 | Gotas Prohibidas | 671:CARD:15299 | 501:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es |
+| 16845 | Quimera Guardián | 671:CARD:16845 | 507:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=es |
+| 19184 | TY-PHON - Crisis Celeste | 671:CARD:19184 | 511:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es |
+| 19188 | S:P Pequeña Caballera | 671:CARD:19188 | 513:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 19360 | Tecuhtlica - Creación Combinada | 671:CARD:19360 | 486:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=es |
+| 19361 | Dragón de Cuerno | 671:CARD:19361 | 491:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=es |
+| 19362 | Tatsunootoshigo | 671:CARD:19362 | 483:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=es |
+| 19363 | Hoja Oscura | 671:CARD:19363 | 484:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=es |
+| 19364 | Angbruja | 671:CARD:19364 | 482:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=es |
+| 19365 | Maza | 671:CARD:19365 | 489:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=es |
+| 19366 | Goblin | 671:CARD:19366 | 485:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=es |
+| 19367 | Mementomictlán | 671:CARD:19367 | 502:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=es |
+| 19368 | Fiesta de Huesos | 671:CARD:19368 | 498:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=es |
+| 19472 | Desvantasmas | 671:CARD:19472 | 490:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=es |
+| 19878 | Dragón Gemelo | 671:CARD:19878 | 509:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=es |
+| 19904 | Fusión Mementotlán | 671:CARD:19904 | 497:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=es |
+| 19932 | Luna del Cielo Cerrado | 671:CARD:19932 | 514:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=es |
+| 20196 | Demoniherrero Grabador | 671:CARD:20196 | 492:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=es |
+| 20199 | Dormiveja | 671:CARD:20199 | 488:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=es |
+| 20206 | Purulia | 671:CARD:20206 | 519:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 20216 | Rey Creación | 671:CARD:20216 | 508:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=es |
+| 20225 | Réquiem del Demoniherrero | 671:CARD:20225 | 512:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=es |
+| 20226 | Secuencia del Demoniherrero | 671:CARD:20226 | 515:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=es |
+| 20389 | Duque de la Defunción | 671:CARD:20389 | 516:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=es |
+| 20423 | Princesa Necroequipo | 671:CARD:20423 | 505:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=es |
+| 20491 | Akhíron | 671:CARD:20491 | 487:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=es |
+| 20500 | Fuwalos | 671:CARD:20500 | 495:main×1; 496:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 20533 | Gran Fuga Moto Goblin | 671:CARD:20533 | 500:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=es |
+| 20764 | Meowls | 671:CARD:20764 | 518:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=es |
+| 21203 | Rebanador Gordiano | 671:CARD:21203 | 521:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=es |
+
+**Rutas preservadas:** `671:A09:C01`, `671:A09:C02`, `671:A09:C03`, `671:A09:C04`, `671:A09:C05`, `671:A09:C06`, `671:A09:C07`, `671:A09:C08`, `671:A09:C09`, `671:A09:C10`, `671:A09:C11`, `671:A09:C12`.
+
+**Alcance:** solo A02 del deck 671; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist.
+
+
 **Actualización verificable 23-11-2026:** para esta asignación de Memento se completaron las nuevas A01-T4 y A01-T5; el detalle y las dos casillas con evidencia constan bajo **APARTADO_01 / Control de la nueva ejecución de A01**. A01 está **5/5** en la revisión de cinco tareas. Los contadores **35 tareas** de cortes históricos permanecen como historia; el manifiesto universal vigente es de **37** tareas obligatorias y no se recalifican otros apartados sin sus propias pruebas. La importación real en producción sigue pendiente y no se confunde con las pruebas aisladas.
 
 **Asignación expresa recibida:** “Analizamos memento”. Identidad inequívoca: `deck_id=671`, formato `tcg_advanced`, carpeta histórica `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO`. Preflight realizado sobre los DOS paquetes versionados, `datos/stationx-deck.json` de GPT y `torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json` de Platform: misma lista de `card_id, sección, cantidad, CID` en 40 filas, **41 Main / 15 Extra / 14 Side / 0 Reserva**, 70 copias y 39 identidades. La Reserva opcional no se fabricó. **Importante:** GitHub permite acreditar la igualdad de las dos copias versionadas, no consultar el estado vivo de la base de datos de producción.
@@ -2054,11 +2109,11 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
   - **Evidencia verificada:** Cruce CID/efecto/ruta: 19364→671:angwitch:search→C01/C04; 19363→671:dark-blade:goblin→C05; 19904→671:memento-fusion:fuse→C01/C06; 20216→671:creation-king:fusion-send→C01/C04; 19360→671:tecuhtlica:five-names→C02; 19188→671:sp:temporary-banish→C08.
 
 ### A02 — COMPLETA con evidencias
-- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control; ver A02-T1.
   - **Evidencia verificada:** Paquete station-x-deck-package/1 y record.schema station-x-curated-v62; deck_id=671 en ambos; format=tcg_advanced, carpeta NUEVO_12 es alias histórico, fuente de inventario original aprobada el 18-11-2026.
-- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control; ver A02-T2.
   - **Evidencia verificada:** Compatibilidad documental comprobada: content_mode=structured, inventory_binding=deck-slots-v1, source_document existe, 40 filas de inventory concordantes con record.cards[*].slots, 12 rutas/69 pasos con fotos. La prueba aislada de ZIP de Platform CI #44938444076 aprobó la estructura base; no se declara aquí una nueva importación viva posterior a la actualización del perfil A01.
-- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control; ver A02-T3.
   - **Evidencia verificada:** 40 card_id nativos estables, 39 CID y mismo formato/suma de cantidades en ambas copias del repositorio. Skills=0 y Reserva ausente por ser opcional. No se modificaron cartas, reglas, rutas ni otros decks.
 
 ### A03 — COMPLETA con evidencias

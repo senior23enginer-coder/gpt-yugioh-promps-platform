@@ -265,6 +265,72 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 656, Tearlaments, formato tcg_advanced; Main/Extra/Side/Reserva 44/15/0/16; 50 CID y 53 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 656: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 50 IDs de ficha, 53 card_id, 23 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 656](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/656.json), blob `64104880f217682bb6682ca99d3662f0221866e6`. Paquete GPT: blob `e3010b54f1cede9d85d86db08071ec25ed159704`; Markdown anterior: blob `ac8b58b84564a73d7836cc40adddc456c505329a`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 7445 | Súper Polimerización | 656:A08:C001 | 359:main×2; 410:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=en |
+| 20490 | Lácrima las Lágrimas Carmesíes | 656:A08:C002 | 360:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=en |
+| 17416 | Tiagrimientos Havnis | 656:A08:C003 | 361:main×1; 400:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=en |
+| 17462 | Planeta Primigenio Perlerreino | 656:A08:C004 | 362:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&ope=2&request_locale=en |
+| 17768 | Kashtira Fenrir | 656:A08:C005 | 363:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en |
+| 12950 | Flor de Ceniza & Primavera Feliz | 656:A08:C006 | 364:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 17417 | Tiagrimientos Reinoheart | 656:A08:C007 | 365:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&ope=2&request_locale=en |
+| 17415 | Tiagrimientos Scheiren | 656:A08:C008 | 366:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=en |
+| 17414 | Tiagrimientos Merrli | 656:A08:C009 | 367:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&ope=2&request_locale=en |
+| 12800 | Bienes del Entierro Insensato | 656:A08:C010 | 368:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=en |
+| 18219 | Trivikarma | 656:A08:C011 | 369:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=en |
+| 17475 | Crimanto Tiagrimientos | 656:A08:C012 | 370:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&ope=2&request_locale=en |
+| 17813 | Grito Tiagrimientos | 656:A08:C013 | 371:main×1; 409:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=en |
+| 17604 | Mudora el Oráculo de la Espada | 656:A08:C014 | 372:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=en |
+| 19153 | Amset, Gloria de Horus | 656:A08:C015 | 373:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=en |
+| 8933 | Ocultador de Efectos | 656:A08:C016 | 374:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en |
+| 22169 | Corona Prohibida | 656:A08:C017 | 375:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=en |
+| 18153 | Tiagrimientos Kashtira | 656:A08:C018 | 376:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en |
+| 18204 | Planeta Bajo Presión Wraitsoth | 656:A08:C019 | 377:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en |
+| 17473 | Metarruido Tiagrimientos | 656:A08:C020 | 378:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&ope=2&request_locale=en |
+| 20196 | Demoniherrero Grabador | 656:A08:C021 | 379:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en |
+| 19200 | Sarcófago del Rey | 656:A08:C022 | 380:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=en |
+| 19155 | Hapi, Guía de Horus | 656:A08:C023 | 381:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=en |
+| 20240 | Tracto del Demoniherrero | 656:A08:C024 | 382:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&ope=2&request_locale=en |
+| 8092 | Fabuloso Lurrie | 656:A08:C025 | 383:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&ope=2&request_locale=en |
+| 17603 | Keldo la Protectora Sagrada | 656:A08:C026 | 384:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=en |
+| 20521 | Agnumday del Demoniherrero | 656:A08:C027 | 385:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=en |
+| 17803 | Sprind Spright | 656:A08:C028 | 386:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=en |
+| 19188 | S:P Pequeña Caballera | 656:A08:C029 | 387:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 20225 | Réquiem del Demoniherrero | 656:A08:C030 | 388:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en |
+| 17746 | Garura, Alas de Vida Resonante | 656:A08:C031 | 389:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=en |
+| 12870 | Predaplanta Dragostapelia | 656:A08:C032 | 390:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en |
+| 17445 | Tiagrimientos Caleido-Heart | 656:A08:C033 | 391:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&ope=2&request_locale=en |
+| 14676 | I:P Enmascarada | 656:A08:C034 | 392:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en |
+| 20226 | Secuencia del Demoniherrero | 656:A08:C035 | 393:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en |
+| 13454 | Fangodragón del Pantano | 656:A08:C036 | 394:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=en |
+| 20214 | Lácrima del Demoniherrero | 656:A08:C037 | 395:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=en |
+| 11005 | Parca Peregrina | 656:A08:C038 | 396:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=en |
+| 16850 | El Vampiro Zombi | 656:A08:C039 | 397:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=en |
+| 10942 | Caballero Exciton Horda de Maldad | 656:A08:C040 | 398:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=en |
+| 14356 | Ladrón del Tiempo Repetidor | 656:A08:C041 | 399:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=en |
+| 20500 | Fuwalos Multivadora | 656:A08:C042 | 401:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 14856 | Punto de Oveja | 656:A08:C043 | 402:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=en |
+| 18807 | Alma Desencadenada de Shyama | 656:A08:C044 | 403:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=en |
+| 13619 | Llamado por la Tumba | 656:A08:C045 | 404:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 12464 | Ciclón del Cosmos | 656:A08:C046 | 405:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 4678 | Polvo de Pluma de Arpía | 656:A08:C047 | 406:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en |
+| 5537 | Terraformación | 656:A08:C048 | 407:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en |
+| 15296 | Talento de Tácticas Triples | 656:A08:C049 | 408:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 13587 | Bella Fantasma & Mansión Embrujada | 656:A08:C050 | 411:reserve×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+
+**Rutas preservadas:** `656:A09:ENGRAVER:LACRIMA01`, `656:A09:REINO:SCHEIREN:KALEIDO01`, `656:A09:REINO:MERRLI:KALEIDO01`, `656:A09:REINO:SCHEIREN:HAVNIS_HAND01`, `656:A09:REINO:MERRLI:SCHEIREN_HAND01`, `656:A09:SARC:IMSETY_HAPI:ZOMBIE01`, `656:A09:IMSETY:SARC_HAPI:ZOMBIE01`, `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01`, `656:A09:GOODS:SCREAM:CRYME:KALEIDO02`, `656:A09:SUPERPOLY:GARURA10`, `656:A09:FENRIR:REINO:SP_DIRECTA11`, `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12`, `656:A09:V11:GOODS:TRIVIKARMA:SCREAM:REINO`, `656:A09:V11:REINO:SCHEIREN:REDOER`, `656:A09:V12:SUPERPOLY:OPP_LUBELLION_ALBAZ:DRAGOSTAPELIA`, `656:A09:V12:SUPERPOLY:OPP_ALBAZ_ALUBER:MUDRAGON`, `656:A09:SUPERPOLY:THREE_FUSIONS01–03`, `656:EXTRA:V13:20521`, `656:EXTRA:V13:17803`, `656:EXTRA:V13:12870`, `656:EXTRA:V13:13454`, `656:EXTRA:V13:11005`, `656:EXTRA:V13:10942`.
+
+**Alcance:** solo A02 del deck 656; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1 y T3 con evidencia documental arriba; T2/T4/T5 sin prueba individual de importación o paridad. A10B no solicitado.
 
 ### A01
@@ -275,9 +341,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.

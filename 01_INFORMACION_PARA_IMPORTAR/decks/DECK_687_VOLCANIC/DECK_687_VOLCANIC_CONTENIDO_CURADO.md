@@ -252,6 +252,58 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 687, Volcanic, formato tcg_advanced; Main/Extra/Side/Reserva 42/15/0/14; 36 CID y 38 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 687: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 36 IDs de ficha, 38 card_id, 22 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 687](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/687.json), blob `a3689b68278da6a0509bb4c94dc54a4cc7cd6504`. Paquete GPT: blob `97058caf2883383f1913d503b92821457a1cbfb4`; Markdown anterior: blob `40aa314166271468cdb2b4cf3c80fae1eb3b365c`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 18916 | Volcanic Trooper — Soldado Volcánico | 687:A08:C001 | 284:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2&request_locale=en |
+| 18915 | Volcanic Emperor — Emperador Volcánico | 687:A08:C002 | 285:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2&request_locale=en |
+| 7243 | Volcanic Rocket — Misil Volcánico | 687:A08:C003 | 286:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2&request_locale=en |
+| 18917 | Volcanic Rimfire — Percusión Anular Volcánica | 687:A08:C004 | 287:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2&request_locale=en |
+| 7083 | Volcanic Scattershot — Disparo Disperso Volcánico | 687:A08:C005 | 288:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2&request_locale=en |
+| 7082 | Volcanic Shell — Cartucho Volcánico | 687:A08:C006 | 289:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2&request_locale=en |
+| 6884 | Barrier Statue of the Inferno — Estatua-Barrera del Infierno | 687:A08:C007 | 290:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en |
+| 9455 | Maxx "C" — «C» Maxx | 687:A08:C008 | 291:main×2; 319:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en |
+| 18918 | Volcanic Blaze Accelerator — Acelerador de Llama Volcánico | 687:A08:C009 | 292:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2&request_locale=en |
+| 7086 | Blaze Accelerator — Acelerador de Llama | 687:A08:C010 | 293:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2&request_locale=en |
+| 18919 | Fire Ejection — Eyección de Fuego | 687:A08:C011 | 294:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2&request_locale=en |
+| 15299 | Forbidden Droplet — Gotas Prohibidas | 687:A08:C012 | 295:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en |
+| 19027 | Bonfire — Hoguera | 687:A08:C013 | 296:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en |
+| 14144 | Pot of Extravagance — Olla de la Extravagancia | 687:A08:C014 | 297:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en |
+| 11597 | Blaze Accelerator Reload — Recarga del Acelerador de Llama | 687:A08:C015 | 298:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2&request_locale=en |
+| 18921 | Volcanic Inferno — Infierno Volcánico | 687:A08:C016 | 299:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en |
+| 18920 | Volcanic Emission — Emisión Volcánica | 687:A08:C017 | 300:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2&request_locale=en |
+| 7934 | Gozen Match — Emparejamiento de Atributos | 687:A08:C018 | 301:main×2; 320:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en |
+| 14676 | I:P Masquerena — I:P Enmascarada | 687:A08:C019 | 302:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en |
+| 14133 | Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida | 687:A08:C020 | 303:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en |
+| 13601 | Knightmare Unicorn — Caballero de Pesadilla Unicornio | 687:A08:C021 | 304:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en |
+| 15741 | Underworld Goddess of the Closed World — Diosa del Inframundo del Mundo Cerrado | 687:A08:C022 | 305:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en |
+| 13600 | Knightmare Phoenix — Caballero de Pesadilla Fénix | 687:A08:C023 | 306:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en |
+| 13346 | Linkuriboh — Enlacekuriboh | 687:A08:C024 | 307:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en |
+| 19184 | Super Starslayer TY-PHON - Sky Crisis — Súper Asesino Estelar TY-PHON | 687:A08:C025 | 308:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+| 19188 | S:P Little Knight — S:P Pequeña Caballera | 687:A08:C026 | 309:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 14338 | Salamangreat Almiraj — Salamangrande Almiraj | 687:A08:C027 | 310:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en |
+| 19507 | Promethean Princess, Bestower of Flames — Princesa Prometea | 687:A08:C028 | 311:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en |
+| 13631 | Infinite Impermanence — Infinito Temporal | 687:A08:C029 | 312:reserve×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 12950 | Ash Blossom & Joyous Spring — Flor de Ceniza y Primavera Feliz | 687:A08:C030 | 313:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 8213 | Forbidden Chalice — Corona Prohibida | 687:A08:C031 | 314:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en |
+| 13002 | Clashing Souls — Almas en Choque | 687:A08:C032 | 315:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en |
+| 13293 | Evenly Matched — Pelea Pareja | 687:A08:C033 | 316:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en |
+| 5622 | Rivalry of Warlords — Rivalidad de los Señores de la Guerra | 687:A08:C034 | 317:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en |
+| 4678 | Harpie's Feather Duster — Polvo de Pluma de Arpía | 687:A08:C035 | 318:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en |
+| 15756 | Pot of Prosperity — Olla de la Prosperidad | 687:A08:C036 | 321:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en |
+
+**Rutas preservadas:** `687:A09:BLAZE:RIMFIRE:RELOAD01`, `687:A09:BLAZE:SHELL:RESOURCE01`, `687:A09:VBA:EJECTION:EMPEROR01`, `687:A09:DROPLET:RELOAD:SCATTERSHOT01`, `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01`, `687:A09:BONFIRE:TROOPER:BOMB:EMISSION01`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`, `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02`, `687:A09:SITUACION:GO_FIRST:TROOPER_RELOAD_ALMIRAJ03`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05`, `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06`, `687:A09:SITUACION:GO_FIRST:TROOPER_VBA_ROCKET_EJECTION_IP07`, `687:A09:IP:EMPEROR:UNICORN14`, `687:A09:SHELL:LINKURIBOH:DEFENSA15`, `687:A09:IP:EMPEROR:SP_DEFENSA16`, `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`, `687:A09:SHELL:TYPHON18`, `687:A09:IP:TROOPER:ROCKET:GODDESS19`, `687:A09:V11:TROOPER:EJECTION:SHELL:INFERNO`, `687:A09:BONFIRE:TROOPER_EMISSION`, `687:A09:EJECTION:RIMFIRE:SCATTERSHOT`.
+
+**Alcance:** solo A02 del deck 687; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1/T3 completadas documentalmente; T2/T4/T5 siguen pendientes. No se relabelan tareas anteriores y A10B no ha sido solicitado.
 
 ### A01
@@ -262,9 +314,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.

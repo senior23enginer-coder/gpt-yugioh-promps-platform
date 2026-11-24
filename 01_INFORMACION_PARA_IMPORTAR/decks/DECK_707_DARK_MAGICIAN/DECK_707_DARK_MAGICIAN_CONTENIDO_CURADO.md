@@ -237,6 +237,42 @@
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 707, Dark Magician, formato rush_duel; Main/Extra/Side/Reserva 30/7/0/0; 20 CID y 20 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 707: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 20 IDs de ficha, 20 card_id, 9 route_id, 1 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 707](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/707.json), blob `b2dc292567236927c90a339949dcd1b1229013c8`. Paquete GPT: blob `49309574a2fed3cf0c5cffe859a35d2f6cfb2a29`; Markdown anterior: blob `b2bd1fe04297f84081bc0a739f7e9a1b66e79b56`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 15451 | Ataque Mágico Oscuro | 707:A08:C001 | 446:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2 |
+| 16772 | Distribuidor Maravilloso | 707:A08:C002 | 447:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&ope=2 |
+| 18685 | Maga Legendaria | 707:A08:C003 | 448:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&ope=2 |
+| 19597 | Mago Oscuro Sabio | 707:A08:C004 | 449:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2 |
+| 19329 | Grito de Monstruo | 707:A08:C005 | 450:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&ope=2 |
+| 19773 | Hechicero Eliminador Oscuro | 707:A08:C006 | 451:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2 |
+| 17209 | Ráfaga de Resonancia Oscura | 707:A08:C007 | 452:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&ope=2 |
+| 20151 | Brillo Sombrío | 707:A08:C008 | 453:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2 |
+| 19598 | Piedra de los Magos Oscuros | 707:A08:C009 | 454:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2 |
+| 15410 | Mago Oscuro | 707:A08:C010 | 455:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2 |
+| 20305 | Lily Aniquiladora | 707:A08:C011 | 456:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2 |
+| 16371 | Chica Maga Oscura | 707:A08:C012 | 457:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2 |
+| 15450 | Mil Cuchillos | 707:A08:C013 | 458:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2 |
+| 19341 | ¡Equitación Lindasesina! | 707:A08:C014 | 459:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&ope=2 |
+| 17212 | Orden Secreta | 707:A08:C015 | 460:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2 |
+| 16372 | Olla de la Codicia | 707:A08:C016 | 461:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 21007 | Maldición de la Luz Ascendente | 707:A08:C017 | 462:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2 |
+| 19995 | Gaia el Campeón Dragón Rápido | 707:A08:C018 | 463:extra×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2 |
+| 18298 | Gaia el Campeón Dragón | 707:A08:C019 | 464:extra×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2 |
+| 19323 | Gaia, el Conquistador de Campeones | 707:A08:C020 | 465:extra×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2 |
+
+**Rutas preservadas:** `707:A09:ILLUSION:SAGE01`, `707:A09:SECRETORDER:DM01`, `707:A09:EXECUTOR:KNIVES01`, `707:A09:EXECUTOR:DARKMAGIC01`, `707:A09:ILLUSION:SAGE:KNIVES02`, `707:A09:SECRETORDER:DM:KNIVES02`, `707:A09:JEWEL:PAIR:KNIVES03`, `707:A09:V11:EXECUTOR:RENAME:DARK_MAGIC_ATTACK`, `707:A09:JEWEL:PAIR01`.
+
+**Alcance:** solo A02 del deck 707; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Manifiesto:** `station-x-a01-a10-task-manifest/1` · deck 707 · T1/T3 completas con evidencia, T2/T4/T5 abiertas, A10B no solicitado.
 
 ### A01
@@ -247,9 +283,9 @@
 - [ ] **A01-T5** — BLOQUEADA: sin prueba de import/export/render/rechazo del deck 707.
 
 ### A02
-- [ ] **A02-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
-- [ ] **A02-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
-- [ ] **A02-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.

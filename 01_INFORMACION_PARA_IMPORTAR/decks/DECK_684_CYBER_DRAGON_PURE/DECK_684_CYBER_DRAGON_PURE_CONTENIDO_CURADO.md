@@ -268,6 +268,74 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 684, Cyber Dragon Pure, formato tcg_advanced; Main/Extra/Side/Reserva 42/15/0/24; 52 CID y 60 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 684: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 52 IDs de ficha, 60 card_id, 17 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 684](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/684.json), blob `c179677f6d5cf1f77ed7a83197344db97b1942b2`. Paquete GPT: blob `c4f560bf8cafa0bca23a1015f3add823e81c47c2`; Markdown anterior: blob `8f0ba0335bf6ba707c3739159e8c14472a574ab6`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 10866 | Cyber Dragon Core | 684:A08:C001 | 224:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2&request_locale=en |
+| 6390 | Cyber Dragon | 684:A08:C002 | 225:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2&request_locale=en |
+| 14047 | Cyber Dragon Nachster | 684:A08:C003 | 226:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2&request_locale=en |
+| 13723 | Cyber Dragon Herz | 684:A08:C004 | 227:main×1; 277:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=en |
+| 16296 | Cyberdark Chimera | 684:A08:C005 | 228:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en |
+| 6830 | Cyberdark Horn | 684:A08:C006 | 229:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=en |
+| 21164 | Cyberdark Wurm [Konami 21164] | 684:A08:C007 | 230:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en |
+| 13181 | Cyberdark Claw | 684:A08:C008 | 231:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=en |
+| 6663 | Cyber Phoenix | 684:A08:C009 | 232:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=en |
+| 21163 | Cyber Jormungardr [Konami 21163] | 684:A08:C010 | 233:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en |
+| 17119 | Therion "King" Regulus | 684:A08:C011 | 234:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en |
+| 12950 | Ash Blossom & Joyous Spring | 684:A08:C012 | 235:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 13587 | Ghost Belle & Haunted Mansion | 684:A08:C013 | 236:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 20205 | Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] | 684:A08:C014 | 237:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=en |
+| 8428 | Cyber Emergency | 684:A08:C015 | 238:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2&request_locale=en |
+| 16298 | Cyberdark Realm | 684:A08:C016 | 239:main×2; 275:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en |
+| 13770 | Cyber Revsystem | 684:A08:C017 | 240:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en |
+| 16301 | Cybernetic Horizon | 684:A08:C018 | 241:main×2; 270:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en |
+| 17625 | Clockwork Night | 684:A08:C019 | 242:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2&request_locale=en |
+| 6398 | Power Bond | 684:A08:C020 | 243:main×1; 276:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=en |
+| 5129 | Limiter Removal | 684:A08:C021 | 244:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=en |
+| 13849 | Cyberload Fusion | 684:A08:C022 | 245:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en |
+| 6783 | Overload Fusion | 684:A08:C023 | 246:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=en |
+| 16297 | Cyber Eternal | 684:A08:C024 | 247:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=en |
+| 4909 | Mystical Space Typhoon | 684:A08:C025 | 248:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=en |
+| 12464 | Cosmic Cyclone | 684:A08:C026 | 249:main×1; 272:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 13631 | Infinite Impermanence | 684:A08:C027 | 250:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 13787 | Cybernetic Overflow | 684:A08:C028 | 251:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2&request_locale=en |
+| 11764 | Chimeratech Rampage Dragon (Konami ID 11764) | 684:A08:C029 | 252:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2&request_locale=en |
+| 13758 | Cyber Dragon Sieger | 684:A08:C030 | 253:extra×1; 279:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en |
+| 7403 | Chimeratech Fortress Dragon | 684:A08:C031 | 254:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2&request_locale=en |
+| 20787 | Clockwork Knight (Konami ID 20787) | 684:A08:C032 | 255:extra×1; 281:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en |
+| 14710 | Barricadeborg Blocker | 684:A08:C033 | 256:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=en |
+| 10870 | Cyber Dragon Nova (Konami ID 10870) | 684:A08:C034 | 257:extra×1; 283:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en |
+| 20511 | Heosvarog the Mechanical Dawn (Konami ID 20511) | 684:A08:C035 | 258:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=en |
+| 13502 | Qliphort Genius | 684:A08:C036 | 259:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=en |
+| 13358 | Chimeratech Megafleet Dragon | 684:A08:C037 | 260:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2&request_locale=en |
+| 18448 | Sky Striker Ace - Azalea | 684:A08:C038 | 261:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=en |
+| 16233 | Chronomaly Vimana | 684:A08:C039 | 262:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=en |
+| 11765 | Cyber Dragon Infinity (Konami ID 11765) | 684:A08:C040 | 263:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en |
+| 19188 | S:P Little Knight | 684:A08:C041 | 264:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 13847 | Cyber Eternity Dragon | 684:A08:C042 | 265:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en |
+| 7436 | El Calculador | 684:A08:C043 | 266:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=en |
+| 7400 | Prisión Dimensional | 684:A08:C044 | 267:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=en |
+| 20500 | Fuwalos Multivadora | 684:A08:C045 | 268:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 9279 | Droll & Lock Bird | 684:A08:C046 | 269:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 14876 | Tormenta de Relámpagos | 684:A08:C047 | 271:reserve×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en |
+| 12872 | Fusion Recycling Plant | 684:A08:C048 | 273:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=en |
+| 15296 | Talento de Tácticas Triples | 684:A08:C049 | 274:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 13851 | Revolución Cibernética | 684:A08:C050 | 278:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en |
+| 6397 | Dragón Ciber Final | 684:A08:C051 | 280:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en |
+| 6734 | Chimeratech Overdragon | 684:A08:C052 | 282:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en |
+
+**Rutas preservadas:** `684:A09:OVERLOAD:RAMPAGE01`, `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01`, `684:A09:CLOCKWORK:FORTRESS01`, `684:A09:MEGAFLEET:CYBER01`, `684:A09:MEGAFLEET:CORE01`, `684:A09:REV:HERZ:NOVA:INFINITY01`, `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01`, `684:A09:NACHSTER:SIEGER01`, `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`, `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`, `684:A09:CYBER:CORE:SP_DEFENSA11`, `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`, `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13`, `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`, `684:A09:CYBER:CORE:AZALEA15`, `684:A09:JORMUNGARDR:VIMANA16`, `684:A09:V11:CORE:WURM:REVSYSTEM:INFINITY:OVERFLOW`.
+
+**Alcance:** solo A02 del deck 684; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1/T3 completadas documentalmente; T2/T4/T5 siguen pendientes. No se relabelan tareas anteriores y A10B no ha sido solicitado.
 
 ### A01
@@ -278,9 +346,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.

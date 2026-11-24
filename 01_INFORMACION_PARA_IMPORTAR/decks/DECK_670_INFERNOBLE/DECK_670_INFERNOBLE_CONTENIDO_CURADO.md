@@ -262,6 +262,67 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 670, Infernoble, formato tcg_advanced; Main/Extra/Side/Reserva 42/15/0/12; 45 CID y 45 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 670: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 45 IDs de ficha, 45 card_id, 11 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 670](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/670.json), blob `93d83ef76c09a3d5d583befdc0595c0d1b0979c8`. Paquete GPT: blob `6b9ac72cad62553fdd5996915e0f4c68b032646c`; Markdown anterior: blob `c1af57d3da13bc4b3de8915b75f15a9c57ba3372`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 17768 | Kashtira Fenrir | 670:A08:C001 | 136:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en |
+| 18151 | Kashtira Riseheart | 670:A08:C002 | 137:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en |
+| 19148 | Diabellstar la Bruja Negra | 670:A08:C003 | 138:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2&request_locale=en |
+| 14801 | Immortal Phoenix Gearfried | 670:A08:C004 | 139:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2&request_locale=en |
+| 18801 | Infernoble Caballero Turpin | 670:A08:C005 | 140:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2&request_locale=en |
+| 15249 | Infernoble Caballero Maugis | 670:A08:C006 | 141:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2&request_locale=en |
+| 15247 | Infernoble Caballero Ogier | 670:A08:C007 | 142:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2&request_locale=en |
+| 18800 | Infernoble Caballero Ricciardetto | 670:A08:C008 | 143:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2&request_locale=en |
+| 15082 | Infernoble Caballero Renaud | 670:A08:C009 | 144:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2&request_locale=en |
+| 15248 | Infernoble Caballero Oliver | 670:A08:C010 | 145:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2&request_locale=en |
+| 14085 | Neo Space Connector | 670:A08:C011 | 146:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2&request_locale=en |
+| 6768 | Neo-Spacian Aqua Dolphin | 670:A08:C012 | 147:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2&request_locale=en |
+| 15392 | Fire Flint Lady | 670:A08:C013 | 148:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2&request_locale=en |
+| 9279 | Droll & Lock Bird | 670:A08:C014 | 149:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 8933 | Effect Veiler | 670:A08:C015 | 150:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en |
+| 12950 | Ash Blossom & Joyous Spring | 670:A08:C016 | 151:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 19207 | Angelica's Angelic Ring | 670:A08:C017 | 152:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2&request_locale=en |
+| 18843 | Infernoble Arms - Almace | 670:A08:C018 | 153:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2&request_locale=en |
+| 15287 | Infernoble Arms - Durendal | 670:A08:C019 | 154:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2&request_locale=en |
+| 18844 | Noble Arms Museum | 670:A08:C020 | 155:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2&request_locale=en |
+| 6458 | Divine Sword - Phoenix Blade | 670:A08:C021 | 156:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2&request_locale=en |
+| 7519 | D.D.R. - Different Dimension Reincarnation | 670:A08:C022 | 157:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2&request_locale=en |
+| 19196 | WANTED: Seeker of Sinful Spoils | 670:A08:C023 | 158:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2&request_locale=en |
+| 14075 | Heritage of the Chalice | 670:A08:C024 | 159:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2&request_locale=en |
+| 5328 | Reinforcement of the Army | 670:A08:C025 | 160:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2&request_locale=en |
+| 19199 | Original Sinful Spoils - Snake-Eye | 670:A08:C026 | 161:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2&request_locale=en |
+| 15275 | Infernoble Knight Captain Roland [Synchro] | 670:A08:C027 | 162:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2&request_locale=en |
+| 16386 | Baronne de Fleur [Synchro] | 670:A08:C028 | 163:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en |
+| 15276 | Infernoble Knight Emperor Charles [Synchro] | 670:A08:C029 | 164:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2&request_locale=en |
+| 18926 | Battlin' Boxer King Dempsey [Xyz] | 670:A08:C030 | 165:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2&request_locale=en |
+| 19184 | Super Starslayer TY-PHON - Sky Crisis [Xyz] | 670:A08:C031 | 166:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+| 18827 | Angelica, Princess of Noble Arms [Synchro] | 670:A08:C032 | 167:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2&request_locale=en |
+| 13500 | Isolde, Two Tales of the Noble Knights [Link] | 670:A08:C033 | 168:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2&request_locale=en |
+| 18835 | Emperor Charles the Great [Link] | 670:A08:C034 | 169:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2&request_locale=en |
+| 14496 | Apollousa, Bow of the Goddess [Link] | 670:A08:C035 | 170:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2&request_locale=en |
+| 13841 | Relinquished Anima [Link] | 670:A08:C036 | 171:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=en |
+| 13034 | Link Spider [Link] | 670:A08:C037 | 172:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2&request_locale=en |
+| 19188 | S:P Little Knight [Link] | 670:A08:C038 | 173:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 14741 | Nibiru, the Primal Being | 670:A08:C039 | 174:reserve×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en |
+| 6980 | D.D. Crow | 670:A08:C040 | 175:reserve×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2&request_locale=en |
+| 13950 | Herald of the Abyss | 670:A08:C041 | 176:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2&request_locale=en |
+| 15296 | Triple Tactics Talent | 670:A08:C042 | 177:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 18214 | Triple Tactics Thrust | 670:A08:C043 | 178:reserve×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=en |
+| 13293 | Evenly Matched | 670:A08:C044 | 179:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en |
+| 12668 | Dimensional Barrier | 670:A08:C045 | 180:reserve×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en |
+
+**Rutas preservadas:** `670:A09:CONNECTOR:ISOLDE01`, `670:A09:MUSEUM:RENAUD:ISOLDE01`, `670:A09:OGIER:RENAUD:ANGELICA01`, `670:A09:WANTED:DIABELLSTAR:OGIER01`, `670:A09:CONNECTOR:DURENDAL02`, `670:A09:ANGELICA:ROLAND02`, `670:A09:CHARLES:EQUIPPED:LINK01`, `670:A09:OGIER:RENAUD:SP_DEFENSA08`, `670:A09:OGIER:RENAUD:ANIMA:SP09`, `670:A09:RENAUD:TYPHON10`, `670:A09:V11:OGIER:DURENDAL:TURPIN:DEMPSEY`.
+
+**Alcance:** solo A02 del deck 670; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **A01:** T1/T3 completadas documentalmente; T2/T4/T5 siguen pendientes. No se relabelan tareas anteriores y A10B no ha sido solicitado.
 
 ### A01
@@ -272,9 +333,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.

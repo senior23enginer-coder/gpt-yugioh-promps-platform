@@ -867,6 +867,61 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 699, Goat Control, formato goat; Main/Extra/Side/Reserva 40/14/0/0; 39 CID y 39 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 699: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 39 IDs de ficha, 39 card_id, 5 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 699](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/699.json), blob `e131104ab9e5ea8f6824e1368ff0ac748ff15712`. Paquete GPT: blob `b065d14effe24b758098b42ea370f0e1d12a8dc3`; Markdown anterior: blob `defa7bd98376cac02d8ba4fab95aa386f4a51a92`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 4054 | Sangan | 699:CARD:4054 | 645:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4054&ope=2&request_locale=es |
+| 4174 | Dragón de Fuego Oscuro | 699:CARD:4174 | 673:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4174&ope=2&request_locale=es |
+| 4300 | Dragoness, el Caballero Perverso | 699:CARD:4300 | 672:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4300&ope=2&request_locale=es |
+| 4434 | Mago de la Fe | 699:CARD:4434 | 638:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4434&ope=2&request_locale=es |
+| 4481 | Serpiente Siniestra | 699:CARD:4481 | 644:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4481&ope=2&request_locale=es |
+| 4597 | Jarra de la Metamorfosis | 699:CARD:4597 | 647:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4597&ope=2&request_locale=es |
+| 4740 | Límite de los Mil Ojos | 699:CARD:4740 | 666:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4740&ope=2&request_locale=es |
+| 4812 | Caridad Grácil | 699:CARD:4812 | 654:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4812&ope=2&request_locale=es |
+| 4818 | Scapegoat | 699:CARD:4818 | 650:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es |
+| 4844 | Olla de la Codicia | 699:CARD:4844 | 653:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4844&ope=2&request_locale=es |
+| 4887 | Fuerza de Espejo | 699:CARD:4887 | 662:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4887&ope=2&request_locale=es |
+| 4891 | Tormenta Fuerte | 699:CARD:4891 | 656:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4891&ope=2&request_locale=es |
+| 4898 | Robo Oportunista | 699:CARD:4898 | 658:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4898&ope=2&request_locale=es |
+| 4901 | Dúo de Delincuentes | 699:CARD:4901 | 655:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4901&ope=2&request_locale=es |
+| 4909 | Tifón del Espacio Místico | 699:CARD:4909 | 657:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=es |
+| 4963 | Noble de Crossout | 699:CARD:4963 | 652:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4963&ope=2&request_locale=es |
+| 4966 | Entierro Prematuro | 699:CARD:4966 | 659:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4966&ope=2&request_locale=es |
+| 4988 | Tornado de Polvo | 699:CARD:4988 | 660:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4988&ope=2&request_locale=es |
+| 4989 | Llamada de los Condenados | 699:CARD:4989 | 665:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4989&ope=2&request_locale=es |
+| 5005 | Anillo Destructor | 699:CARD:5005 | 664:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5005&ope=2&request_locale=es |
+| 5023 | Caballero del Aire Parshath | 699:CARD:5023 | 637:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5023&ope=2&request_locale=es |
+| 5114 | Tributo Torrencial | 699:CARD:5114 | 663:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5114&ope=2&request_locale=es |
+| 5302 | Balter Oscuro el Terrible | 699:CARD:5302 | 667:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5302&ope=2&request_locale=es |
+| 5319 | Ryu Senshi | 699:CARD:5319 | 669:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5319&ope=2&request_locale=es |
+| 5338 | Dragón Cráneo Demonio | 699:CARD:5338 | 674:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5338&ope=2&request_locale=es |
+| 5381 | Sacerdote de Asura | 699:CARD:5381 | 642:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5381&ope=2&request_locale=es |
+| 5432 | Libro de la Luna | 699:CARD:5432 | 651:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=es |
+| 5528 | Segador en la Pesadilla | 699:CARD:5528 | 675:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5528&ope=2&request_locale=es |
+| 5539 | Metamorfosis | 699:CARD:5539 | 649:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5539&ope=2&request_locale=es |
+| 5655 | Breaker el Guerrero Mágico | 699:CARD:5655 | 646:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5655&ope=2&request_locale=es |
+| 5660 | Virus Infecta-Tribu | 699:CARD:5660 | 648:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5660&ope=2&request_locale=es |
+| 5663 | Mercader Mágico | 699:CARD:5663 | 639:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5663&ope=2&request_locale=es |
+| 5719 | D.D. Dama Guerrera | 699:CARD:5719 | 643:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5719&ope=2&request_locale=es |
+| 5780 | Tsukuyomi | 699:CARD:5780 | 640:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5780&ope=2&request_locale=es |
+| 5799 | Armadura Sakuretsu | 699:CARD:5799 | 661:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5799&ope=2&request_locale=es |
+| 5835 | Soldado del Brillo Negro - Enviado del Principio | 699:CARD:5835 | 641:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5835&ope=2&request_locale=es |
+| 6126 | Rey Ojama | 699:CARD:6126 | 671:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6126&ope=2&request_locale=es |
+| 6204 | Hoja Oscura el Caballero Dragón | 699:CARD:6204 | 668:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6204&ope=2&request_locale=es |
+| 6264 | Dragón Gatling | 699:CARD:6264 | 670:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6264&ope=2&request_locale=es |
+
+**Rutas preservadas:** `699:A09:G-C01`, `699:A09:G-C02`, `699:A09:G-C03`, `699:A09:G-C04`, `699:A09:G-C05`.
+
+**Alcance:** solo A02 del deck 699; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Manifest:** `station-x-a01-a10-task-manifest/1` · **deck_id:** 699 · **A01 verificadas:** T1 y T3 · **T2/T4/T5 pendientes**. Tareas A02–A10A no se certifican retroactivamente; A10B no solicitado.
 
 ### A01 — obligatorio
@@ -877,9 +932,9 @@ Estos son **30 escenarios editoriales para cinco decks**: no predicciones de met
 - [ ] **A01-T5** — BLOQUEADA: faltan pruebas reales import/export/render/rechazo con inventario nativo.
 
 ### A02 — obligatorio
-- [ ] **A02-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
-- [ ] **A02-T2** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
-- [ ] **A02-T3** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03 — obligatorio
 - [ ] **A03-T1** — NO CERTIFICADA: contenido histórico puede existir, pero falta evidencia contractual por tarea.
