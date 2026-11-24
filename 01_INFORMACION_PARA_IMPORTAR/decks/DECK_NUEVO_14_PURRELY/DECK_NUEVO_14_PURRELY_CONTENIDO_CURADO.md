@@ -164,6 +164,67 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 660; nombre en plataforma: Purrely; nombre fuente: Purrely; formato: `tcg_advanced`.
+- Carpeta única: `DECK_NUEVO_14_PURRELY`; documento: `DECK_NUEVO_14_PURRELY_CONTENIDO_CURADO.md`.
+- Main 48 / Extra 15 / Side 7 / Reserva 0; 36 CID; 36 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `c3d527fca6d708c8d7dd55808931b7889c53dbf2`; blob documental anterior: `301c17e365831c4f70c798314468fc063de61f7a`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 660", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `7036480904e6251c5ac5d447195583c532ab60cb082d5231919f4719dc5286d8`. SHA-256 del ZIP de entrada auditado: `9ee77a737b1f353079d1dfc6664dd6f66ae0f892e730d23f4f2b075f6c94a682`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:50+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:54.549562+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 562 | 18003 | Purrely | main | 3 |
+| 563 | 18481 | Purrelyly | main | 2 |
+| 564 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 |
+| 565 | 21338 | Ángel del Alba Kambi | main | 3 |
+| 566 | 11708 | Hermana Fantasma & Conejo Espectral | main | 2 |
+| 567 | 13587 | Bella Fantasma & Mansión Embrujada | main | 2 |
+| 568 | 9279 | El Bufón y el Pájaro del Candado | main | 3 |
+| 569 | 20500 | Fuwalos Multivadora | main | 3 |
+| 570 | 20206 | Purulia Multivadora | main | 3 |
+| 571 | 18010 | Mi Amigo Purrely | main | 3 |
+| 572 | 18009 | Calle Purrely Vagabundo | main | 3 |
+| 573 | 18012 | Bello Recuerdo Purrely | main | 3 |
+| 574 | 18011 | Feliz Recuerdo Purrely | main | 3 |
+| 575 | 18013 | Delicioso Recuerdo Purrely | main | 2 |
+| 576 | 18524 | Sueño Recuerdo Purrely | main | 2 |
+| 577 | 16868 | Prohibida la Venta | main | 2 |
+| 578 | 15756 | Olla de la Prosperidad | main | 1 |
+| 579 | 15296 | Talento de Tácticas Triples | main | 1 |
+| 580 | 14742 | Gobernante Oscuro No Más | main | 1 |
+| 581 | 4842 | Monstruo Renacido | main | 1 |
+| 582 | 18014 | ¿¡Purrelysaltó!? | main | 1 |
+| 583 | 13631 | Infinito Temporal | main | 1 |
+| 584 | 18004 | Felicidad Epurrely | extra | 2 |
+| 585 | 18005 | Belleza Epurrely | extra | 2 |
+| 586 | 18006 | Rechoncho Epurrely | extra | 2 |
+| 587 | 18008 | Noir Expurrely | extra | 3 |
+| 588 | 12027 | Princesaduende Silvana | extra | 1 |
+| 589 | 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 |
+| 590 | 14208 | Señoroscuro Condenado | extra | 1 |
+| 591 | 16651 | Protector del Agente - Luna | extra | 1 |
+| 592 | 19188 | S:P Pequeña Caballera | extra | 1 |
+| 593 | 13841 | Ánima Renunciada | extra | 1 |
+| 594 | 11243 | Artefacto Lancea | side | 3 |
+| 595 | 14741 | Nibiru, el Ser Primitivo | side | 2 |
+| 596 | 18214 | Impulso de Tácticas Triples | side | 1 |
+| 597 | 13619 | Llamado por la Tumba | side | 1 |
+
+**Rutas existentes:** `660:A09:P-C01`, `660:A09:P-C02`, `660:A09:P-C03`, `660:A09:P-C04`, `660:A09:P-C05`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **CONCILIACIÓN ACTUAL (18-11-2026):** ID real de Station X **660** confirmado; `NUEVO_14` es únicamente el nombre histórico de la carpeta. A06.2 incluye ahora **36/36 filas de trazabilidad por identidad** con CID, zona, copias, función, condición, referencia eventual A09 y estado de comprobación. La cobertura estructural no acredita participación causal ni jugadas reglamentariamente cerradas. El Side tiene **7 copias recibidas**, sin completar artificialmente las plazas restantes. La importación V40 consta en el registro único, sin reimportación en esta revisión.
 
@@ -238,9 +299,9 @@ Estilo breve 160/190; Resumen para ficha 218/250. No cerrar T2 sin paridad liter
 - [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.
