@@ -179,6 +179,71 @@
 
 ## APARTADO_02 — Continuidad del expediente histórico
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 677; nombre en plataforma: Crystron; nombre fuente: Crystron; formato: `tcg_advanced`.
+- Carpeta única: `DECK_NUEVO_13_CRISTRON_HORUS`; documento: `DECK_NUEVO_13_CRISTRON_HORUS_CONTENIDO_CURADO.md`.
+- Main 40 / Extra 15 / Side 15 / Reserva 0; 39 CID; 40 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `a3276d0cd581859148361180684c917c54388ca3`; blob documental anterior: `c2ac48e9d5778a232cc1ef8a8702c1071a4b568b`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "platform-yugioh-md V40 structured editorial snapshot; GPT A01-A10 markdown preserved separately", "claim": "documentary and visual routes, not engine-certified", "native_snapshot_path": "torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json", "native_snapshot_blob_sha": "1c23d72192199d9324a4b55dd1ced3d0bdd43997", "native_snapshot_repository": "senior23enginer-coder/platform-yugioh-md", "verification_scope": "Source snapshot and physical rows matched; not a live Station X DB read, publish, or A10B legality validation."}.
+- Huella de inventario nativa: `d406c0ef79662cdd542d13b75364b7b475c5e6998c51d110fb41331e3721c9ef`. SHA-256 del ZIP de entrada auditado: `3c9017eefa23307644cef6983d2ff62e1d682e8ba0d711306077a9ae0af1ee3f`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:21:43+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:15.019432+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 522 | 20759 | Cristron Sulfador | main | 2 |
+| 523 | 12608 | Cristron Smiger | main | 3 |
+| 524 | 20758 | Cristron Tristaros | main | 2 |
+| 525 | 12756 | Cristron Azufafnir | main | 3 |
+| 526 | 12606 | Cristron Citree | main | 1 |
+| 527 | 12609 | Cristron Thystvern | main | 1 |
+| 528 | 19153 | Amset, Gloria de Horus | main | 3 |
+| 529 | 19155 | Hapi, Guía de Horus | main | 1 |
+| 530 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 |
+| 531 | 9279 | El Bufón y el Pájaro del Candado | main | 3 |
+| 532 | 20500 | Fuwalos Multivadora | main | 3 |
+| 533 | 20206 | Purulia Multivadora | main | 2 |
+| 534 | 20206 | Purulia Multivadora | side | 1 |
+| 535 | 20798 | Inclusión Cristron | main | 3 |
+| 536 | 19200 | Sarcófago del Rey | main | 2 |
+| 537 | 7445 | Súper Polimerización | main | 3 |
+| 538 | 15299 | Gotas Prohibidas | main | 3 |
+| 539 | 5236 | Entierro Insensato | main | 1 |
+| 540 | 20817 | Agrupamiento Cristron | main | 1 |
+| 541 | 13710 | F.A. Coche Trucado del Amanecer | extra | 2 |
+| 542 | 20778 | Cristron Elesqueletus | extra | 2 |
+| 543 | 12781 | Cristron Quariongandrax | extra | 1 |
+| 544 | 19188 | S:P Pequeña Caballera | extra | 1 |
+| 545 | 20787 | Caballero Mecánico | extra | 1 |
+| 546 | 11765 | Ciber Dragón del Infinito | extra | 1 |
+| 547 | 10870 | Ciber Dragón Nova | extra | 1 |
+| 548 | 12157 | Hagoita de Alta-Velociroid | extra | 1 |
+| 549 | 13826 | Número 90: Señor Fotónico de Ojos Galácticos | extra | 1 |
+| 550 | 16850 | El Vampiro Zombi | extra | 1 |
+| 551 | 13360 | Destructor Samurái | extra | 1 |
+| 552 | 17746 | Garura, Alas de Vida Resonante | extra | 1 |
+| 553 | 13454 | Fangodragón del Pantano | extra | 1 |
+| 554 | 9454 | Cazadora del Caos | side | 2 |
+| 555 | 11243 | Artefacto Lancea | side | 2 |
+| 556 | 11411 | Regaño Solemne | side | 1 |
+| 557 | 13619 | Llamado por la Tumba | side | 1 |
+| 558 | 15296 | Talento de Tácticas Triples | side | 1 |
+| 559 | 16868 | Prohibida la Venta | side | 2 |
+| 560 | 11849 | Arresto Erróneo | side | 2 |
+| 561 | 4861 | Juicio Solemne | side | 3 |
+
+**Rutas existentes:** `677:A09:C01`, `677:A09:C02`, `677:A09:C03`, `677:A09:C04`, `677:A09:C05`, `677:A09:C06`, `677:A09:C07`, `677:A09:V01`, `677:A09:V02`, `677:A09:V03`, `677:A09:V04`, `677:A09:V05`, `677:A09:V06`, `677:A09:V07`.
+**Skills:** No aplica..
+
+**Checklist existente:** 34/35 checks obligatorios marcados; 1/35 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
 **Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05**, **A06**, **A07** y **A08**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
@@ -193,9 +258,9 @@
 - [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría específica verificada en PR #25.
 
 ### A02 — identidad e importación documental auditadas
-- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado — evidencia A02.4 / 39 CID, 40 filas nativas, inventario 40/15/15/0 aprobado; comparación con fuente V40; auditor read-only `audit-deck-a02-identity.cjs`.
-- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas.
-- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks.
+- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado — evidencia A02.4 / 39 CID, 40 filas nativas, inventario 40/15/15/0 aprobado; comparación con fuente V40; auditor read-only `audit-deck-a02-identity.cjs`. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03 — inventario aprobado y congelado contra V40
 - [x] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real — matriz A06 CRYH-001–039 contra 40 `record.cards[].slots` e inventario V40, 40/15/15/0 = 70 copias; Purulia 2 Main + 1 Side; Skill 0; auditor `scripts/audit-deck-a03-inventory.cjs`.
