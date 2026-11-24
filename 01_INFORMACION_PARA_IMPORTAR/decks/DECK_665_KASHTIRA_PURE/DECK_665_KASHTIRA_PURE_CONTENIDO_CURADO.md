@@ -164,6 +164,75 @@
 
 ## APARTADO_02 — Continuidad del estudio histórico
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 665; nombre en plataforma: Kashtira Pure; nombre fuente: Kashtira Pure; formato: `tcg_advanced`.
+- Carpeta única: `DECK_665_KASHTIRA_PURE`; documento: `DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md`.
+- Main 42 / Extra 15 / Side 0 / Reserva 19; 38 CID; 44 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `4cdea36b5c009edcf16ce1fa80f3572f36d2f7e3`; blob documental anterior: `f40771c98b71700aac5d8a2a6acf3cc578c0ac51`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "platform-yugioh-md V40 verified historical structured editorial snapshot; A01 curated profile from approved GPT dossier", "source_revision": "20261117-folder-delivery-v40", "native_snapshot_repository": "senior23enginer-coder/platform-yugioh-md", "native_snapshot_path": "torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json", "native_snapshot_blob_sha": "29a120ffd8378ea9606e4b509a478fde34e423bd", "source_document_repo_path": "01_INFORMACION_PARA_IMPORTAR/decks/DECK_665_KASHTIRA_PURE/DECK_665_KASHTIRA_PURE_CONTENIDO_CURADO.md", "imported_profile_from": "A01.2, user-assigned Kashtira Pure deck 665", "inventory_scope": "44 native card_id slots; Main 42 / Extra 15 / Side 0 / Reserve 19; all unchanged", "format_scope": "TCG game mechanics, banlist intentionally not considered", "visual_scope": "Legacy guide assets only; no A10A visual completeness claim", "calculation_scope": "No calculator/rule engine asserted; no A10B", "verification_scope": "Linked to historical Station X snapshot; live database not read or mutated"}.
+- Huella de inventario nativa: `b7a6c8d26a045b20d03c39640ca453997d913d68967b32d015de9402b29a7915`. SHA-256 del ZIP de entrada auditado: `cc69c17acf07661df4fba9aa7930648f675f6b63ddd782ef3b118c6016ddceb0`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:05+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:23.820939+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 92 | 17768 | Kashtira Fenrir | main | 3 |
+| 93 | 17769 | Kashtira Unicorn | main | 2 |
+| 94 | 18151 | Kashtira Riseheart | main | 3 |
+| 95 | 17770 | Kashtira Ogre | main | 1 |
+| 96 | 18152 | Scareclaw Kashtira | main | 1 |
+| 97 | 18153 | Tearlaments Kashtira | main | 1 |
+| 98 | 12950 | Ash Blossom & Joyous Spring | main | 3 |
+| 99 | 14740 | Dimension Shifter | main | 1 |
+| 100 | 18204 | Pressured Planet Wraitsoth | main | 3 |
+| 101 | 17815 | Kashtira Birth | main | 3 |
+| 102 | 18203 | Kashtiratheosis | main | 3 |
+| 103 | 5537 | Terraforming | main | 1 |
+| 104 | 5432 | Book of Moon | main | 2 |
+| 105 | 4342 | Dark Hole | main | 3 |
+| 106 | 15756 | Pot of Prosperity | main | 2 |
+| 107 | 12464 | Cosmic Cyclone | main | 2 |
+| 108 | 9352 | Forbidden Lance | main | 2 |
+| 109 | 15296 | Triple Tactics Talent | main | 1 |
+| 110 | 13631 | Infinite Impermanence | main | 3 |
+| 111 | 17831 | Kashtira Preparations | main | 1 |
+| 112 | 18220 | Kashtira Big Bang | main | 1 |
+| 113 | 17800 | Kashtira Shangri-Ira [Xyz rango 7] | extra | 3 |
+| 114 | 18191 | Kashtira Arise-Heart [Xyz rango 7] | extra | 2 |
+| 115 | 9861 | Number 11: Big Eye [Xyz rango 7] | extra | 2 |
+| 116 | 15524 | Divine Arsenal AA-ZEUS – Sky Thunder [Xyz] | extra | 2 |
+| 117 | 13974 | Dark Armed, the Dragon of Annihilation [Xyz rango 7] | extra | 1 |
+| 118 | 16386 | Baronne de Fleur [Synchro nivel 10] | extra | 1 |
+| 119 | 17804 | Donner, Dagger Fur Hire [Link-2] | extra | 1 |
+| 120 | 15741 | Underworld Goddess of the Closed World [Link-5] | extra | 1 |
+| 121 | 15366 | Fossil Warrior Skull Knight [Fusión] | extra | 1 |
+| 122 | 15882 | Fossil Machine Skull Wagon [Fusión] | extra | 1 |
+| 123 | 5432 | Book of Moon | reserve | 1 |
+| 124 | 15296 | Triple Tactics Talent | reserve | 1 |
+| 125 | 7153 | Eradicator Epidemic Virus | reserve | 2 |
+| 126 | 14740 | Dimension Shifter | reserve | 2 |
+| 127 | 9352 | Forbidden Lance | reserve | 1 |
+| 128 | 17769 | Kashtira Unicorn | reserve | 1 |
+| 129 | 13896 | Dinowrestler Pankratops | reserve | 1 |
+| 130 | 12668 | Dimensional Barrier | reserve | 2 |
+| 131 | 15756 | Pot of Prosperity | reserve | 1 |
+| 132 | 14741 | Nibiru, the Primal Being | reserve | 1 |
+| 133 | 9279 | Droll & Lock Bird | reserve | 3 |
+| 134 | 13587 | Ghost Belle & Haunted Mansion | reserve | 2 |
+| 135 | 14400 | Infinitrack Goliath [monstruo Link para intercambio con Extra Deck] | reserve | 1 |
+
+**Rutas existentes:** `665:A09:WRAITSOTH:SHANGRI01`, `665:A09:FENRIR:RISEHEART:SHANGRI02`, `665:A09:UNICORN:THEOSIS:FENRIR:SHANGRI03`, `665:A09:SHANGRI:STANDBY:ARISE04`, `665:A09:FENRIR:BIRTH:SHANGRI05`, `665:A09:FENRIR:BIRTH:BIGEYE06`, `665:A09:WRAITSOTH:RISEHEART:BIGBANG:BIGEYE07`, `665:A09:WRAITSOTH:RISEHEART:ARISE3MAT08`, `665:A09:WRAITSOTH:RISEHEART:BIGBANG:ARISE1MAT09`, `665:A09:FENRIR:BIRTH:DARKARMED10`, `665:A09:BIGEYE:BATTLE:ZEUS11`, `665:A09:DONNER:FENRIR:UNICORN:GODDESS12`, `665:A09:MIRROR:ARISE:BATTLE:ZEUS13`, `665:A09:FENRIR:BIRTH:BIGBANG:ARISE14`, `665:A09:UNICORN:ASH:BIRTH:BARONNE15`, `665:A09:V11:TEARKASH:OGRE:BIRTH:SHANGRI`.
+**Skills:** No aplica..
+
+**Checklist existente:** 32/35 checks obligatorios marcados; 3/35 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 ## CONTROL_DE_TAREAS_A01_A10 — Kashtira Pure 665 · contrato 35 tareas (22-11-2026)
 
 **Cierre documental A09:** 32/35 tareas acreditadas; 3/35 pendientes (exclusivamente A10A-T1–T3). A09 certifica un análisis documental condicional de las rutas, NO la legalidad universal ni 16 replays ejecutados. Ningún combo se certifica mediante el motor en esta etapa. A05: 38 fichas, 90 cláusulas con fuente y 630 casos lógicos iniciales; 0 replays de motor. **Excepción expresa del usuario:** A01 se puede verificar con `side=0` solo para el deck 665; el usuario pidió continuar hasta terminar A01 sin bloquear por Side. La excepción no asigna, mueve o agrega cartas; A02 tiene su propia autorización posterior limitada a identidad/paquete y **no habilita A03–A10A**. Main 42 / Extra 15 / Side 0 / Reserva 19; ninguna banlist evaluada. A10B opcional no solicitado. Registro fuente: Station X V40 `665.json`, 38 CIDs, 44 slots, 16 rutas históricas; el paquete `datos/stationx-deck.json` se generó en A02 desde V40 con los 44 slots y 16 rutas reales, sin hash de inventario ficticio.
@@ -171,9 +240,9 @@
 - [x] **A01-T1** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T2** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
 - [x] **A01-T3** Evidencia A01.1–A01.3, CID/ID, fuentes y auditoría específica; alcance documental, sin replays.
-- [x] **A02-T1** Identidad 665, formato tcg_advanced, V40 SHA de Git real y 44 filas `card_id` verificadas sin alteración; excepción de Side=0 acotada solo a A02.
-- [x] **A02-T2** Paquete `station-x-deck-package/1`, ZIP de carpeta única y preflight nativo PHP aislado; 38 CID, 16 rutas, 92 pasos y 44 fotos; ninguna regla de calculadora inventada.
-- [x] **A02-T3** `deck-slots-v1`, IDs originales, nombres, secciones Main/Extra/Side/Reserva y procedencia versionada; 7 guías Markdown intactas, perfil A01 sincronizado.
+- [x] **A02-T1** Identidad 665, formato tcg_advanced, V40 SHA de Git real y 44 filas `card_id` verificadas sin alteración; excepción de Side=0 acotada solo a A02. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** Paquete `station-x-deck-package/1`, ZIP de carpeta única y preflight nativo PHP aislado; 38 CID, 16 rutas, 92 pasos y 44 fotos; ninguna regla de calculadora inventada. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** `deck-slots-v1`, IDs originales, nombres, secciones Main/Extra/Side/Reserva y procedencia versionada; 7 guías Markdown intactas, perfil A01 sincronizado. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 - [x] **A03-T1** 100 % de Main, Extra, Side, Reserva y Skill cotejados: 38 CID, 44 card_id, 76 copias y Side 0 preservado sin inventar cartas.
 - [x] **A03-T2** 44 correspondencias card_id↔CID↔nombre histórico/oficial (source_aliases), referencias Konami e imágenes reales; cero identidades ambiguas o IDs repetidos.
 - [x] **A03-T3** Inventario físico 42/15/0/19 congelado por referencia a V40 y JSON portátil; denominadores A04–A10 identificados sin completar sus análisis.
