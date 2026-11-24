@@ -164,6 +164,84 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 656; nombre en plataforma: Tearlaments; nombre fuente: Tearlaments; formato: `tcg_advanced`.
+- Carpeta única: `DECK_656_TEARLAMENTS`; documento: `DECK_656_TEARLAMENTS_CONTENIDO_CURADO.md`.
+- Main 44 / Extra 15 / Side 0 / Reserva 16; 50 CID; 53 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `e3010b54f1cede9d85d86db08071ec25ed159704`; blob documental anterior: `ac8b58b84564a73d7836cc40adddc456c505329a`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 656", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `2ced0a8c06534699264da7edf3961e78790d681af0df76b049839f4385f16543`. SHA-256 del ZIP de entrada auditado: `655a38a6bfb772ca0d451ca40681b07f5593196a3abd62f02015cf72bfdb13e9`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:25+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:34.690813+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 359 | 7445 | Súper Polimerización | main | 2 |
+| 360 | 20490 | Lácrima las Lágrimas Carmesíes | main | 1 |
+| 361 | 17416 | Tiagrimientos Havnis | main | 1 |
+| 362 | 17462 | Planeta Primigenio Perlerreino | main | 3 |
+| 363 | 17768 | Kashtira Fenrir | main | 2 |
+| 364 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 |
+| 365 | 17417 | Tiagrimientos Reinoheart | main | 2 |
+| 366 | 17415 | Tiagrimientos Scheiren | main | 1 |
+| 367 | 17414 | Tiagrimientos Merrli | main | 1 |
+| 368 | 12800 | Bienes del Entierro Insensato | main | 3 |
+| 369 | 18219 | Trivikarma | main | 1 |
+| 370 | 17475 | Crimanto Tiagrimientos | main | 2 |
+| 371 | 17813 | Grito Tiagrimientos | main | 1 |
+| 372 | 17604 | Mudora el Oráculo de la Espada | main | 1 |
+| 373 | 19153 | Amset, Gloria de Horus | main | 2 |
+| 374 | 8933 | Ocultador de Efectos | main | 2 |
+| 375 | 22169 | Corona Prohibida | main | 2 |
+| 376 | 18153 | Tiagrimientos Kashtira | main | 3 |
+| 377 | 18204 | Planeta Bajo Presión Wraitsoth | main | 1 |
+| 378 | 17473 | Metarruido Tiagrimientos | main | 1 |
+| 379 | 20196 | Demoniherrero Grabador | main | 3 |
+| 380 | 19200 | Sarcófago del Rey | main | 2 |
+| 381 | 19155 | Hapi, Guía de Horus | main | 1 |
+| 382 | 20240 | Tracto del Demoniherrero | main | 1 |
+| 383 | 8092 | Fabuloso Lurrie | main | 1 |
+| 384 | 17603 | Keldo la Protectora Sagrada | main | 1 |
+| 385 | 20521 | Agnumday del Demoniherrero | extra | 1 |
+| 386 | 17803 | Sprind Spright | extra | 1 |
+| 387 | 19188 | S:P Pequeña Caballera | extra | 1 |
+| 388 | 20225 | Réquiem del Demoniherrero | extra | 1 |
+| 389 | 17746 | Garura, Alas de Vida Resonante | extra | 1 |
+| 390 | 12870 | Predaplanta Dragostapelia | extra | 1 |
+| 391 | 17445 | Tiagrimientos Caleido-Heart | extra | 1 |
+| 392 | 14676 | I:P Enmascarada | extra | 1 |
+| 393 | 20226 | Secuencia del Demoniherrero | extra | 1 |
+| 394 | 13454 | Fangodragón del Pantano | extra | 1 |
+| 395 | 20214 | Lácrima del Demoniherrero | extra | 1 |
+| 396 | 11005 | Parca Peregrina | extra | 1 |
+| 397 | 16850 | El Vampiro Zombi | extra | 1 |
+| 398 | 10942 | Caballero Exciton Horda de Maldad | extra | 1 |
+| 399 | 14356 | Ladrón del Tiempo Repetidor | extra | 1 |
+| 400 | 17416 | Tiagrimientos Havnis | reserve | 1 |
+| 401 | 20500 | Fuwalos Multivadora | reserve | 2 |
+| 402 | 14856 | Punto de Oveja | reserve | 1 |
+| 403 | 18807 | Alma Desencadenada de Shyama | reserve | 1 |
+| 404 | 13619 | Llamado por la Tumba | reserve | 1 |
+| 405 | 12464 | Ciclón del Cosmos | reserve | 2 |
+| 406 | 4678 | Polvo de Pluma de Arpía | reserve | 1 |
+| 407 | 5537 | Terraformación | reserve | 1 |
+| 408 | 15296 | Talento de Tácticas Triples | reserve | 1 |
+| 409 | 17813 | Grito Tiagrimientos | reserve | 1 |
+| 410 | 7445 | Súper Polimerización | reserve | 1 |
+| 411 | 13587 | Bella Fantasma & Mansión Embrujada | reserve | 3 |
+
+**Rutas existentes:** `656:A09:ENGRAVER:LACRIMA01`, `656:A09:REINO:SCHEIREN:KALEIDO01`, `656:A09:REINO:MERRLI:KALEIDO01`, `656:A09:REINO:SCHEIREN:HAVNIS_HAND01`, `656:A09:REINO:MERRLI:SCHEIREN_HAND01`, `656:A09:SARC:IMSETY_HAPI:ZOMBIE01`, `656:A09:IMSETY:SARC_HAPI:ZOMBIE01`, `656:A09:GOODS:SCREAM:METANOISE:KALEIDO01`, `656:A09:GOODS:SCREAM:CRYME:KALEIDO02`, `656:A09:SUPERPOLY:GARURA10`, `656:A09:FENRIR:REINO:SP_DIRECTA11`, `656:A09:FENRIR:REINO:SCHEIREN:IP_SP12`, `656:A09:V11:GOODS:TRIVIKARMA:SCREAM:REINO`, `656:A09:V11:REINO:SCHEIREN:REDOER`, `656:A09:V12:SUPERPOLY:OPP_LUBELLION_ALBAZ:DRAGOSTAPELIA`, `656:A09:V12:SUPERPOLY:OPP_ALBAZ_ALUBER:MUDRAGON`, `656:A09:SUPERPOLY:THREE_FUSIONS01–03`, `656:EXTRA:V13:20521`, `656:EXTRA:V13:17803`, `656:EXTRA:V13:12870`, `656:EXTRA:V13:13454`, `656:EXTRA:V13:11005`, `656:EXTRA:V13:10942`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -275,9 +353,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
