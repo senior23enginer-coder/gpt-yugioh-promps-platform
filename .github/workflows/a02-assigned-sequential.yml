@@ -1,4 +1,4 @@
-name: A02 sequential validation of 16 assigned decks (native export contract)
+name: A02 sequential validation — resume with canonical historical checklist
 on:
   push:
     branches: [analysis/a02-assigned-16-20261124]

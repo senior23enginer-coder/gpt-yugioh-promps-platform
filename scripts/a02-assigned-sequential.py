@@ -98,25 +98,48 @@ def audit(id,platform,folder):
             need(z.read(folder.name+'/datos/stationx-deck.json')==jp.read_bytes(),'ZIP JSON drift')
         zip_hash=hashlib.sha256(zp.read_bytes()).hexdigest()
     md=doc.read_text('utf-8')
-    # Modify the canonical task ledger only, preserving all other task checkboxes.
+    # Some historical documents place extensive subsections between the ledger
+    # heading and its actual checklist. Identify one complete ordered task set
+    # by the canonical manifest, not an arbitrary Markdown divider.
     lm=re.search(r'^## CONTROL_DE_TAREAS_A01_A10[^\n]*\n',md,re.M)
     need(lm is not None,'Missing canonical ledger')
-    end=re.search(r'^(?:---[ \t]*$|## )',md[lm.end():],re.M)
-    stop=lm.end()+end.start() if end else len(md)
-    ledger=md[lm.start():stop]
-    rx=r'^- \[([ xX])\] \*\*(A(?:0[1-9]|10A)-T\d+)\*\*'
+    manifest=json.loads((ROOT/'02_PROMPT_PARA_CODEX/contrato_tareas_a01_a10.json').read_text('utf-8'))
+    expected=[t['task_id'] for st in manifest['stages'] if st['mandatory'] for t in st['tasks']]
+    rx=r'^- \[([ xX])\] \*\*(A(?:0[1-9]|10A)-T\d+)\*\*[^\n]*'
+    matches=list(re.finditer(rx,md[lm.end():],re.M))
+    taskids=[m.group(2) for m in matches]
+    # Old ledgers have 35 tasks, excluding the separately recorded A01 T4/T5.
+    legacy=[x for x in expected if x not in ('A01-T4','A01-T5')]
+    candidates=[]
+    for i in range(len(matches)):
+        for wanted in (expected,legacy):
+            if taskids[i:i+len(wanted)]==wanted:
+                candidates.append((i,i+len(wanted),wanted))
+    # One ordered canonical checklist; no guessing between multiple candidates.
+    need(len(candidates)==1,'Canonical ordered ledger missing/ambiguous: '+str([(x[0],len(x[2])) for x in candidates])+'; rows='+str(len(matches)))
+    lo,hi,wanted=candidates[0]
+    begin=lm.end()+matches[lo].start();stop=lm.end()+matches[hi-1].end()
+    ledger=md[begin:stop]
     before=re.findall(rx,ledger,re.M)
-    need(len(before)>=35,'Incomplete ledger')
     reasons=['Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.','ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.','Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.']
     for i,reason in enumerate(reasons,1):
-        ledger,n=re.subn(r'^- \[[ xX]\] \*\*A02-T'+str(i)+r'\*\*[^\n]*','- [x] **A02-T'+str(i)+'** — '+reason,ledger,flags=re.M)
+        # Preserve the historical task explanation and any following evidence.
+        pattern=r'^- \[[ xX]\] \*\*A02-T'+str(i)+r'\*\*[^\n]*'
+        def update(m):
+            row=re.sub(r'^- \[[ xX]\]','- [x]',m.group(0))
+            row=re.sub(r' — Revalidación A02 24-11-2026:.*$','',row)
+            return row+' — Revalidación A02 24-11-2026: '+reason
+        ledger,n=re.subn(pattern,update,ledger,flags=re.M)
         need(n==1,'A02 task missing or duplicated '+str(i))
     after=re.findall(rx,ledger,re.M)
     need([(v,k) for v,k in before if not k.startswith('A02-')]==[(v,k) for v,k in after if not k.startswith('A02-')],'Other task states changed')
     total=len(after);done=sum(v.lower()=='x' for v,k in after);old=sum(v.lower()=='x' for v,k in before)
-    # Only reconcile known old aggregate counters, leaving all other text untouched.
-    ledger=re.sub(r'(?<!\d)'+str(old)+'/'+str(total)+r'\b([^\n]*?)'+str(total-old)+'/'+str(total)+r'\b',lambda m:str(done)+'/'+str(total)+m[1]+str(total-done)+'/'+str(total),ledger,count=1)
-    md=md[:lm.start()]+ledger+md[stop:]
+    # Update only an exact aggregate pair before this checklist, if present.
+    prefix=md[:begin]
+    old_prefix=prefix[:lm.start()]
+    ledger_header=prefix[lm.start():]
+    ledger_header=re.sub(r'(?<!\d)'+str(old)+'/'+str(total)+r'\b([^\n]*?)'+str(total-old)+'/'+str(total)+r'\b',lambda m:str(done)+'/'+str(total)+m[1]+str(total-done)+'/'+str(total),ledger_header,count=1)
+    md=old_prefix+ledger_header+ledger+md[stop:]
     tick=chr(96)
     lines=['<!-- A02_RECEPCION_IDENTIDAD_V1_START -->','### A02 — Recepción e identidad técnica verificada','',
         '**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.','',
@@ -170,7 +193,16 @@ def main():
             need(id not in folders,'Duplicate assigned folder')
             folders[id]=f.parent.parent
     need(set(folders)==set(ORDER),'Missing assigned source')
+    completed=set()
+    for line in git('log','--format=%s',BASE+'..HEAD').splitlines():
+        m=re.fullmatch(r'analysis\(A02\): verify native identity and package for deck (\d+)',line)
+        if m: completed.add(int(m.group(1)))
     for id in ORDER:
+        if id in completed:
+            doc=folders[id]/(folders[id].name+'_CONTENIDO_CURADO.md')
+            need('<!-- A02_RECEPCION_IDENTIDAD_V1_START -->' in doc.read_text('utf-8'),'Missing verified evidence for '+str(id))
+            print('A02_RESUME_VERIFIED '+str(id),flush=True)
+            continue
         print('A02_START '+str(id),flush=True)
         try:print('A02_RESULT '+json.dumps(audit(id,platform,folders[id]),ensure_ascii=False),flush=True)
         except Exception as e:
