@@ -1,5 +1,7 @@
 # A01 — verificación individual DoomZ (653)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 40 / Extra 15 / Side 9 / Reserva 0; 37 identidades, 16 rutas. Se conserva cada copia y zona; no se evalúa banlist.
 
 Fuentes versionadas: Markdown blob `f128d47aa8a5459543abdfade2a9e491baf04efa`; JSON blob `603419f4d81d60a670c9cd9073c17a0ab5b4101a`.

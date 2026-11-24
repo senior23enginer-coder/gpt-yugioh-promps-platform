@@ -1,5 +1,7 @@
 # A01 — verificación individual Tearlaments (656)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 44 / Extra 15 / Side 0 / Reserva 16, 50 CID distintos, 23 rutas. No se cambia el inventario ni se aplica banlist. Reserva no equivale a Side.
 
 Fuentes versionadas: Markdown blob `a45b6fa0a264bf20a753c901eac189cd13a102fc`; JSON blob `9577683d2bcec382922af65316eddfde97ae8269`.

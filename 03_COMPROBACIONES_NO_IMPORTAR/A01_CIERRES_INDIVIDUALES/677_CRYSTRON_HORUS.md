@@ -1,5 +1,7 @@
 # A01 — cierre individual Crystron Horus (677)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 Fecha: 23-11-2026. Formato TCG Advanced. Alcance exclusivo A01 de este deck; no activa otros apartados ni modifica el inventario.
 
 Fuentes exactas:

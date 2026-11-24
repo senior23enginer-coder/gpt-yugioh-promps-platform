@@ -1,5 +1,7 @@
 # A01 — verificación individual Elfnote (650)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 Fecha 23-11-2026. TCG Advanced, 40 Main / 15 Extra / 15 Side / 0 Reserva; 42 identidades y 20 rutas. No se modifica el inventario, no se evalúa banlist ni se ejecutan otros apartados.
 
 Fuentes versionadas: Markdown blob `299bc99cc74e5812367b7df516daba1bc56f6cdb`; JSON blob `0a86b485c80690516879f384728a070fc0b48840`. Los resultados históricos de A05/A07 no certifican la legalidad integral de combos.

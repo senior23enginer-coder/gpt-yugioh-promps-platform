@@ -1,5 +1,7 @@
 # A01 — cierre individual Salamangreat (673)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 40 / Extra 15 / Side 15 / Reserva 0; 39 identidades y cinco rutas. Sin modificación del inventario ni revisión de banlist.
 
 Fuentes exactas: Markdown `2c86c2c09615b48f39d4420114608e3b73ede3e5`, JSON `a46cc2a42c440dd7196ecdea16b466c9b81ebe47`.

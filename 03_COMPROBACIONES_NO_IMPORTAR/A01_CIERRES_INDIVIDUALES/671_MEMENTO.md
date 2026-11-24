@@ -1,5 +1,7 @@
 # A01 — acta de cierre individual Memento (671)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced, Mementotlán / Demoniherrero. Main 41 / Extra 15 / Side 14 / Reserva 0; 39 identidades, 12 rutas. Inventario intacto. Sin evaluación de banlist.
 
 Esta acta consolida el cierre individual previo, no sustituye ni altera su análisis. Fuentes versionadas: Markdown `bf97190ca365a355690bff77177ca12fe8d7f3e1`, JSON `9ee360210cb62a16e2bd1522319a9b687af09562`. El apartado «Control de la nueva ejecución de A01 para Memento 671» del documento registra las cinco tareas cerradas y su evidencia específica.

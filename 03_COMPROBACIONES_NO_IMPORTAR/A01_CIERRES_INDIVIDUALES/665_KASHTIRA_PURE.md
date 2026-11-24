@@ -1,5 +1,7 @@
 # A01 — verificación individual Kashtira Pure (665)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 19, 38 CID, 44 filas y 16 rutas. No se cambia el inventario ni se aplica banlist.
 
 Fuentes: Markdown blob `a3270c337e2b29bd5db89bbb9657753ca36c1835`; JSON blob `f0b79c443a774e16f01e1e4940e9dc92de823d35`. La evidencia estratégica está en A01.1–A01.3 del documento individual, no en una simulación.

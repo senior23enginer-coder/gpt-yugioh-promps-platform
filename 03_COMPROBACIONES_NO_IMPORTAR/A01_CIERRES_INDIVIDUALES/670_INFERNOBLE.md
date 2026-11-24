@@ -1,5 +1,7 @@
 # A01 — verificación individual Infernoble (670)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 12; 45 identidades y 11 rutas. No se modifica inventario ni se aplica banlist; Reserva no equivale a Side.
 
 Fuentes versionadas: Markdown blob `50cde89821dd986511bbcc2f26a5103e0ac06f5a`; JSON blob `f91bf3a152dbdac4b1ab79da82f99c31c555d6b2`.

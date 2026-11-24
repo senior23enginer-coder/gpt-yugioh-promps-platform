@@ -1,5 +1,7 @@
 # A01 — verificación individual Purrely (660)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 48 / Extra 15 / Side 7 / Reserva 0; 36 identidades, cinco rutas. Inventario inalterado. No se evalúa banlist ni se completa el Side artificialmente.
 
 Fuentes versionadas: revisión GPT `a9c214433ceb4cd955e705465547df1a36cf4f0b`, Markdown blob `d88d223d1a1d8c3c727fc4c67e83b4a686e9948b` y JSON blob `0f1d81fd4bc37ac113b4127c9de183c26f41b27b`. Comparación con la revisión anterior: inventario idéntico y todos los campos de record ajenos a profile/player_guide idénticos. Los estados históricos de A02–A10 permanecen intactos.
