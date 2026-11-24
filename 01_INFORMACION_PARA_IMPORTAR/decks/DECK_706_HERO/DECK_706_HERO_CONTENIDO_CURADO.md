@@ -234,6 +234,39 @@
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 706, Hero, formato rush_duel; Main/Extra/Side/Reserva 30/8/0/0; 17 CID y 17 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 706: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 17 IDs de ficha, 17 card_id, 9 route_id, 1 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 706](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/706.json), blob `d03bbf4d787a86a3fe3b0b89ff1047c04e33be6c`. Paquete GPT: blob `767a01de0722edd070e2f42eef65779d00d3deee`; Markdown anterior: blob `64aa9a6d8af2233040920601caa3cc945d929988`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 20460 | Héroe Elemental Avian | 706:A08:C001 | 412:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&ope=2 |
+| 20457 | Héroe Elemental Sparkman | 706:A08:C002 | 413:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&ope=2 |
+| 20459 | Héroe Elemental Burstinatrix | 706:A08:C003 | 414:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&ope=2 |
+| 20461 | Héroe Ascendente de Argen | 706:A08:C004 | 415:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2 |
+| 16929 | Inicio Reinicio | 706:A08:C005 | 416:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&ope=2 |
+| 20665 | Descenso de Héroe | 706:A08:C006 | 417:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&ope=2 |
+| 20151 | Brillo Sombrío | 706:A08:C007 | 418:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2 |
+| 20465 | Circulación Elemental | 706:A08:C008 | 419:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&ope=2 |
+| 16358 | Estrategia Mágica Aviar | 706:A08:C009 | 420:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&ope=2 |
+| 16934 | Fusión | 706:A08:C010 | 421:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2 |
+| 15913 | Agujero Trampa | 706:A08:C011 | 422:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 16372 | Olla de la Codicia | 706:A08:C012 | 423:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 21316 | Héroe Elemental Voltic Wingman | 706:A08:C013 | 424:extra×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&ope=2 |
+| 20454 | Héroe Elemental del Estallido Wingman | 706:A08:C014 | 425:extra×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&ope=2 |
+| 20453 | Héroe Elemental de la Llama Wingman | 706:A08:C015 | 426:extra×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&ope=2 |
+| 21501 | Héroe Elemental Heliosfera | 706:A08:C016 | 427:extra×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2 |
+| 20610 | Héroe Elemental Shining Flare Wingman | 706:A08:C017 | 428:extra×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2 |
+
+**Rutas preservadas:** `706:A09:AVIAN:BURST01A`, `706:A09:AVIAN:BURST01B`, `706:A09:VOLTIC:SECOND01A`, `706:A09:VOLTIC:SECOND01B`, `706:A09:VOLTIC:SECOND01C`, `706:A09:SHINING:DOUBLE01`, `706:A09:V11:TRIPLE_NORMAL:HELIOSPHERE`, `706:A09:AVIAN:BURST01A/B`, `706:A09:VOLTIC:SECOND01A/B/C`.
+
+**Alcance:** solo A02 del deck 706; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Manifiesto oficial:** `station-x-a01-a10-task-manifest/1` · **solo 706** · **A01-T1/T3 verificadas** · T2/T4/T5 abiertas por paridad y pruebas reales · A10B no autorizado.
 
 ### A01
@@ -244,9 +277,9 @@
 - [ ] **A01-T5** — BLOQUEADA: sin evidencia de importación/exportación/render/rechazo para el deck 706.
 
 ### A02
-- [ ] **A02-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
-- [ ] **A02-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
-- [ ] **A02-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
