@@ -64,9 +64,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck.",
         "En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea.",
-        "Usa el procedimiento de Drastea con su Equipo para llegar a Drastrius; conserva la Invocación Normal."
+        "Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8."
       ],
-      "expected_result": "Drastrius con dos materiales y 2700 ATK; Incursores permanece boca arriba. Puede negar una activación elegible de monstruo en Campo o Cementerio.",
+      "expected_result": "Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba.",
       "resources_to_keep": "Un material para la interacción de Drastrius y la Normal si todavía está libre.",
       "alternative": "Con Incursores y Amalthe, busca Elara tras destruir Amalthe y gasta la Normal para colocar Mando.",
       "related_route_ids": [
@@ -110,11 +110,11 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         21812
       ],
       "actions": [
-        "Invoca Elara y decide si colocar Destrucción DoomZ antes de usar Drastea.",
-        "Usa Drastea para destruir Elara e Invocarse cuando los objetivos sean válidos; aprovecha la colocación posterior de Elara.",
-        "Si el Equipo y el destino siguen disponibles, elige la línea de Diactorus o la de Drastrius según la interacción que necesites."
+        "Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck.",
+        "Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno.",
+        "Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción."
       ],
-      "expected_result": "Diactorus con Destrucción preparada, o Drastrius con materiales, según la línea elegida; la Trampa necesita su ventana legal.",
+      "expected_result": "Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse.",
       "resources_to_keep": "Una carta DoomZ para destruir, un Equipo utilizable y materiales del siguiente Xyz.",
       "alternative": "Si no quedan Equipos válidos, evita gastar Drastea esperando una Xyz que no se puede completar.",
       "related_route_ids": [
@@ -126,7 +126,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "late",
       "title": "Juego tardío: presión de Júpiter",
       "objective": "Cambiar a una amenaza de 3500 ATK cuando el motor de Equipos no está disponible.",
-      "situation": "Medius en mano, Zegredo en Deck, Júpiter disponible en Extra; se puede asumir el coste de desterrar tres cartas superiores.",
+      "situation": "Medius en mano, Jupredo (alias Zegredo en la lista) en Deck, Júpiter en Extra y al menos tres cartas para desterrar boca abajo.",
       "card_cids": [
         21419,
         22521,
@@ -134,9 +134,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         21811
       ],
       "actions": [
-        "Invoca Medius normalmente y trae Zegredo del Deck.",
-        "Usa el procedimiento de Zegredo pagando las tres cartas superiores desterradas boca abajo; Júpiter entra sin materiales.",
-        "Comprueba si el disparo de Zegredo al llegar al Extra permite recuperar una Magia/Trampa del motor que quede en Deck."
+        "Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck.",
+        "Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar.",
+        "Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo."
       ],
       "expected_result": "Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.",
       "resources_to_keep": "Piezas DoomZ que aún estén en Deck, y acceso a Drastrius para un turno posterior.",
@@ -250,3 +250,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se precisó el procedimiento alternativo de Drastea (Rango 8, dos materiales, no tres cuerpos), el límite de Elara entre sus dos disparos, y el momento/resultado de Jupredo. El nombre Jupredo es el oficial; Zegredo es el alias del inventario. Fuente oficial de Drastea/Drastrius y Jupredo cotejada: 21774, 21811, 22521.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

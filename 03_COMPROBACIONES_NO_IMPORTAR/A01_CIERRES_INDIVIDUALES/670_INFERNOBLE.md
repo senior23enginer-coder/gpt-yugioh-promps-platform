@@ -63,9 +63,10 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         15275
       ],
       "actions": [
-        "Invoca Ogier y desarrolla Renaud usando la ruta de recuperación del Equipo.",
-        "Reúne los niveles correctos de Ogier y Renaud para Angélica; utiliza la búsqueda del Museo conforme a la secuencia.",
-        "Conserva los Equipos accesibles y espera la condición de Angélica para que pueda traer Roland."
+        "Invoca Normalmente Ogier de Nivel 4 y usa su disparo para enviar Durendal del Deck al Cementerio.",
+        "Como controlas un Guerrero FUEGO, Invoca Renaud de Nivel 1 desde mano por su procedimiento propio; se trata como Cantante. Recupera Durendal de Cementerio con su disparo si resuelve.",
+        "Sincroniza Ogier (4) + Renaud (1) para Angélica (5). Utiliza su efecto de Invocación Especial para añadir Museo y gestiona los Equipos conforme a sus requisitos.",
+        "Conserva los Equipos; para que Angélica traiga Roland necesita su condición de selección en Campo. No existe Charles todavía."
       ],
       "expected_result": "Angélica y Museo con recursos para continuar; Roland y Charles no están automáticamente en el Campo.",
       "resources_to_keep": "Equipo recuperado, Museo y un no Cantante de Nivel 4 si la continuación exige ese material.",
@@ -141,7 +142,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Verifica que Charles esté realmente equipado y que la carta de Enlace permanezca disponible.",
         "Utiliza el procedimiento de Enlace que requiere al Charles equipado.",
-        "Resuelve el equipamiento de Charles al nuevo monstruo cuando corresponda y comprueba el recurso necesario para la negación."
+        "Al Invocar Great Charles, selecciona al Charles Sincronía del Cementerio para su efecto de equipamiento. Reserva la Mágica de Equipo que deba enviarse para responder a una activación de Magia/Trampa."
       ],
       "expected_result": "Great Charles de 3500 ATK con Charles equipado y una respuesta potencial a Magia/Trampa.",
       "resources_to_keep": "El recurso de Equipo necesario para la respuesta y un iniciador si el jefe es retirado.",
@@ -241,7 +242,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         15287
       ],
       "actions": [
-        "Renaud Invocado por Isolde no se convierte automáticamente en Cantante como por su procedimiento propio desde mano.",
+        "Renaud es Cantante si fue Invocado mediante su procedimiento propio desde mano al controlar un Guerrero FUEGO; si Isolde lo Invoca desde Deck, ese cambio de tipo no se aplica.",
         "El Guerrero añadido por el efecto pertinente de Isolde tiene restricciones durante ese turno; no lo uses como si fuera una extensión libre.",
         "Angélica puede traer Roland solo si se abre su condición; para Charles Nivel 9 aún necesitas el material no Cantante exigido."
       ],
@@ -256,3 +257,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se precisó Ogier, envío de Durendal, procedimiento de Renaud y niveles de Angélica; se distinguen búsquedas y negación de Magia/Trampa de Great Charles. Renaud 15082 cotejado en base oficial. No se certifica construcción de Charles desde una mano que no lo produce.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

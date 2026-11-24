@@ -63,11 +63,12 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         22173
       ],
       "actions": [
-        "Invoca Lucina mediante su acceso a la zona central y busca la pieza Elfnote que falte.",
-        "Desarrolla Regina y Fortuna siguiendo la ruta de Lucina; coloca los soportes mediante los efectos que correspondan.",
-        "Deja a Regina en el centro y a Fortuna en una lateral; comprueba que las Continuas estén boca arriba."
+        "Invoca Especialmente Lucina a la zona central mediante su procedimiento, activa su efecto en Main Phase y añade Regina del Deck.",
+        "Desde mano, Regina envía Lucina del centro al Cementerio como coste y se Invoca al centro. Su efecto al llegar allí trae Tinia del Deck a una zona lateral.",
+        "Tinia pone Welcome Home boca arriba desde el Deck. Envía Tinia AGUA con ese soporte para Invocar Fortuna LUZ en otra zona lateral; el Extra queda limitado a Sincronías.",
+        "Con Fortuna, aplica su efecto de colocar Rhapsodia conforme a la ruta; comprueba que Regina quede en el centro y que ambos soportes estén boca arriba."
       ],
-      "expected_result": "Regina central, Fortuna lateral, Welcome Home y Rhapsodia; protección y control de ataques según sus condiciones, Normal sin gastar.",
+      "expected_result": "Regina central de 2000 ATK, Fortuna lateral de 1800 DEF, Welcome Home y Rhapsodia. La Normal sigue libre. El centro recibe protección de destrucción por efecto mientras Welcome Home aplica; Rhapsodia condiciona los ataques del rival.",
       "resources_to_keep": "Zona central, una carta Elfnote para los efectos posteriores y los distintos Atributos que requiere Welcome Home.",
       "alternative": "Con Tinia como apertura, usa su colocación de soporte para llegar al mismo tipo de campo.",
       "related_route_ids": [
@@ -87,7 +88,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         8038
       ],
       "actions": [
-        "Desarrolla Lucina y Power Patron respetando niveles, zonas y restricciones de la ruta.",
+        "Con Lucina en mano y centro libre, Invócala Especialmente y busca Power Patron; Invoca Normalmente al Cantante Nivel 1 para combinarlo con Lucina Nivel 6.",
         "Si necesitas retirar una carta, considera Arcanite con sus contadores; cada contador gastado reduce su ATK.",
         "Si conviene presión, sincroniza hacia Strelitzia y colócala en el centro para aprovechar los 3000 ATK."
       ],
@@ -139,7 +140,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         22142
       ],
       "actions": [
-        "Sigue la línea de Lucina y Tinia para reunir los materiales reales de Junora.",
+        "Con Lucina y Tinia en mano, Invoca Lucina al centro y busca Power Patron. Invoca Normalmente Patron en una lateral; usa 6 + 1 para Strelitzia y busca Regina con Patron si resuelve.",
         "Aprovecha el incremento de Nivel del Patron solo en el monstruo que exige la ruta.",
         "Mantén Welcome Home para proteger al monstruo central de destrucción por efecto; revisa las columnas antes de usar Junora."
       ],
@@ -256,3 +257,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+La apertura posicional ahora identifica el envío de Lucina, Tinia lateral, Atributos distintos y la colocación de Rhapsodia; se sustituyó la indicación vaga de seguir una ruta. Requiere cotejo oficial completo del motor y sus condiciones antes de cerrar T4.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

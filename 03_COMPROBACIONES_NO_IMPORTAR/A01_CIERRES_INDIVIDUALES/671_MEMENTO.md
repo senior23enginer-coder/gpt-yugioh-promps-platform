@@ -47,11 +47,12 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         19360
       ],
       "actions": [
-        "Invoca Angbruja y busca Tatsunootoshigo; Invócalo especialmente.",
-        "Destruye Tatsunootoshigo por su propio efecto para enviar Desvantasmas y Dormiveja; revive Desvantasmas y recupera Dormiveja.",
-        "Usa Fusión Mementotlán para desarrollar Rey Creación y sigue la ruta de reciclaje de cinco nombres hacia Creación Combinada."
+        "Invoca Normalmente Angbruja, añade Tatsunootoshigo del Deck e Invócalo Especialmente si todos tus monstruos boca arriba son Memento.",
+        "Destruye Tatsunootoshigo con su efecto; envía Desvantasmas de Nivel 2 y Dormiveja de Nivel 3 al Cementerio. En una cadena posterior revive Desvantasmas y recupera Dormiveja a mano.",
+        "Activa Fusión Mementotlán en Main Phase con tres monstruos Memento: Angbruja y Desvantasmas en Campo y Dormiveja en mano son materiales disponibles para Rey Creación.",
+        "Al Invocar Rey Creación, utiliza su envío de tres cartas Memento de Deck o Extra para preparar nombres y recuperación. Completa la ruta enlazada antes de intentar Invocar Creación Combinada; el requisito es cinco otros nombres distintos en mano y/o Cementerio."
       ],
-      "expected_result": "Dos jefes si la secuencia se resuelve. Rey Creación tiene destrucción condicionada; Creación Combinada puede revivir un Memento disponible en respuesta al rival.",
+      "expected_result": "Objetivo: Rey Creación (3000 ATK) y Creación Combinada (5000 ATK) si se completa la ruta. Rey Creación puede destruir igual número de monstruos Memento propios y cartas rivales; el jefe de 5000 puede Invocar otro Memento al activarse una carta o efecto rival fuera del Damage Step.",
       "resources_to_keep": "Los cinco nombres necesarios hasta invocar el jefe y Maza en Cementerio si la línea la deja allí.",
       "alternative": "Si solo puedes sostener Angbruja y Tatsunootoshigo, el Enlace S:P ofrece una salida de menor compromiso cuando sus condiciones se cumplen.",
       "related_route_ids": [
@@ -106,7 +107,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "expected_result": "Recuperas acceso a cartas del motor o a Creación Combinada según los nombres y las ventanas que realmente conserves.",
       "resources_to_keep": "Goblin en mano cuando quieras proteger al jefe de efectos que seleccionan; Maza y otros nombres para próximos turnos.",
-      "alternative": "Si el Cementerio no reúne cinco nombres diferentes, conserva el motor sin forzar la Invocación de Creación Combinada.",
+      "alternative": "Si no hay cinco otros nombres distintos entre mano y Cementerio, conserva los recursos en sus zonas hasta reunirlos; no gastes la Fusión solo para intentar una Invocación imposible.",
       "related_route_ids": [
         "671:A09:C06",
         "671:A09:C02"
@@ -116,7 +117,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "late",
       "title": "Juego tardío: elegir una amenaza sostenible",
       "objective": "Reconstruir tras intercambios, evitando agotar todos los nombres en una sola salida.",
-      "situation": "Puedes volver a reunir cinco nombres Memento en Campo o Cementerio según el procedimiento, o recuperar acceso a una Fusión.",
+      "situation": "Creación Combinada disponible en mano o Cementerio; puedes reunir cinco otros monstruos Memento de nombres distintos en mano y/o Cementerio.",
       "card_cids": [
         19360,
         19364,
@@ -125,7 +126,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         19365
       ],
       "actions": [
-        "Cuenta nombres distintos y comprueba que Creación Combinada esté disponible antes de reciclarlos.",
+        "Cuenta cinco otros nombres de monstruo Memento en mano y/o Cementerio; devuélvelos al Deck o Extra para Invocar Creación Combinada desde mano o Cementerio. Los monstruos que siguen en Campo no cuentan.",
         "Si tienes Fiesta de Huesos y los recursos de su apertura, elige la línea de Creación Combinada como único monstruo para presionar en batalla.",
         "Con Rey Creación ya presente, evalúa si conservar una carta Memento para su destrucción rápida vale más que añadir otro cuerpo."
       ],
@@ -154,7 +155,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Invoca Angbruja y busca Tatsunootoshigo si sigue en Deck.",
-        "Si están Goblin, Maza y Desvantasmas en Deck, sigue la apertura de una Angbruja que prepara el doble jefe.",
+        "Si puedes enviar Goblin, Maza y Desvantasmas con Tatsunootoshigo, usa Desvantasmas para recuperar Goblin y el efecto de Angbruja para destruirse y revivir Maza; comprueba la ruta completa de una carta antes de gastar la Fusión.",
         "Si faltan las piezas de la ruta extensa pero tienes los dos monstruos de efecto, puedes usar ambos como materiales de S:P."
       ],
       "expected_result": "Doble jefe solamente si completa la ruta de una carta; en la salida corta, S:P con respuesta temporal condicionada.",
@@ -230,7 +231,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         19904
       ],
       "actions": [
-        "Cuenta nombres diferentes, no número de copias; respeta la suma de niveles de los envíos de Tatsunootoshigo.",
+        "Cuenta cinco otros monstruos Memento de nombres distintos en mano y/o Cementerio, no cinco copias ni monstruos en Campo; Tatsunootoshigo también exige respetar la suma de niveles de los envíos.",
         "No actives la reanimación opcional de Desvantasmas si con ella pierdes el quinto nombre necesario para Creación Combinada.",
         "Distingue destruir, enviar y Sacrificar; Fusión Mementotlán no concede por sí sola la protección de Quimera asociada a Polimerización."
       ],
@@ -246,3 +247,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Error material corregido: Creación Combinada requiere cinco OTROS monstruos Memento de nombres distintos en mano y/o Cementerio, no en Campo. Se explicitó la Fusión con tres materiales y el alcance de Rey Creación; textos oficiales 19360, 19904 y 20216 contrastados. La ruta extensa debe seguir revisándose paso por paso antes de certificarla.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

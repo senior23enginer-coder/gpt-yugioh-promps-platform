@@ -64,9 +64,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         13787
       ],
       "actions": [
-        "Invoca Core y sigue su búsqueda y la extensión con Wurm y Revsystem para reunir dos Nivel 5.",
-        "Superpón los cuerpos de Nivel 5 para Nova y utiliza su procedimiento de ascenso hacia Infinity.",
-        "Conserva Core y coloca Overflow si la búsqueda y los recursos de la secuencia lo permiten."
+        "Invoca Normalmente Core y busca Cybernetic Overflow del Deck.",
+        "Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original.",
+        "Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow."
       ],
       "expected_result": "Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas.",
       "resources_to_keep": "Un material para Infinity y Core disponible como recurso de Overflow.",
@@ -166,11 +166,11 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         19188
       ],
       "actions": [
-        "Usa Cyber Dragon y Nachster según la apertura documentada para reunir dos Máquinas elegibles.",
-        "Enlaza los dos cuerpos hacia Sieger, manteniendo la Normal si la línea la deja libre.",
+        "Descarta Cyber Dragon original como coste del efecto de Nachster en mano; Invoca Nachster. En nueva cadena selecciona Cyber Dragon de 2100 ATK en Cementerio para revivirlo; desde esa resolución, solo Invocaciones Especiales de Máquinas el resto del turno.",
+        "Enlaza ambos monstruos Máquina hacia Sieger, sin gastar la Normal. En Battle Phase, si Sieger no declaró ataque, su efecto puede dar +2100 ATK/DEF a una Máquina propia con al menos 2100 ATK; comprueba la restricción de daño de batalla.",
         "Si en cambio dispones de Cyber Dragon y Core, usa Core para buscar Cyber Emergency y considera la salida defensiva de S:P."
       ],
-      "expected_result": "Sieger con opción de aumento de ATK en batalla, o S:P con respuesta temporal condicionada; no ambos simultáneamente.",
+      "expected_result": "Sieger (2100 ATK base) y Normal libre tras la línea Nachster. La rama Cyber Dragon + Core hacia S:P es diferente y no debe hacerse bajo el bloqueo Máquina de Nachster.",
       "resources_to_keep": "La Normal o Cyber Emergency según la apertura que hayas elegido.",
       "alternative": "Si no tienes dos cuerpos válidos, conserva Cyber Dragon como presión y evita gastar la única pieza de recuperación.",
       "related_route_ids": [
@@ -218,7 +218,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         5129
       ],
       "actions": [
-        "Comprueba cuántas Máquinas LUZ envió Rampage realmente y cuántos ataques adicionales obtuvo.",
+        "Rampage puede enviar hasta dos Máquinas LUZ desde Deck al Cementerio y obtener un ataque adicional por cada una durante la Battle Phase de ese turno, si su efecto resuelve.",
         "Si fue Invocado por Power Bond, calcula su ATK aumentado y el daño que recibirás en End Phase si no terminas el duelo.",
         "Antes de usar Sieger o Limiter Removal, comprueba sus condiciones y calcula el daño después de defensas y restricciones."
       ],
@@ -260,3 +260,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se precisó apertura Core/Wurm/Revsystem, coste y retorno de Nachster, restricción Máquina y uso de Sieger. Fuente oficial Nachster 14047 cotejada. Las rutas de Fusión mantienen sus condiciones; efectos de todo el inventario no se han recertificado en esta revisión.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

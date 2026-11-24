@@ -53,7 +53,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "first",
       "title": "Primero: fusión dirigida a Kaleido-Heart",
       "objective": "Obtener una amenaza de Fusión utilizando recursos reales en mano y Cementerio.",
-      "situation": "Reinoheart en mano, Havnis previamente en Cementerio o en mano según la variante, Scheiren en Deck.",
+      "situation": "Reinoheart en mano, Havnis en Cementerio desde una acción anterior, Scheiren en Deck y Caleido-Heart en Extra. Para otras ubicaciones de Havnis consulta la variante correspondiente.",
       "card_cids": [
         17417,
         17416,
@@ -61,9 +61,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         17445
       ],
       "actions": [
-        "Invoca Reinoheart y envía el Tiagrimientos indicado por la ruta desde Deck al Cementerio.",
-        "Cuando se dispare su efecto de Fusión por haber sido enviado por efecto, comprueba Reinoheart y los otros dos materiales válidos.",
-        "Devuelve los tres materiales al fondo del Deck e Invoca Kaleido-Heart; usa su retirada solo si existe una carta rival elegible."
+        "Invoca Normalmente Reinoheart, activa su efecto y manda Scheiren del Deck al Cementerio por efecto.",
+        "En una nueva cadena, Scheiren activa su efecto de Fusión desde Cementerio; reúne a Scheiren y Havnis de Tipo Aqua en Cementerio y a Reinoheart Guerrero en Campo.",
+        "Devuelve esos tres al fondo del Deck para Invocar Caleido-Heart. Si el rival controla una carta seleccionable, usa su disparo de Invocación Especial para barajarla al Deck."
       ],
       "expected_result": "Kaleido-Heart de 3000 ATK/DEF, materiales reciclados; no se promete una negación ni una Fusión adicional.",
       "resources_to_keep": "La siguiente carta Tiagrimientos y el Cementerio que no se consumió en materiales.",
@@ -85,7 +85,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         13454
       ],
       "actions": [
-        "Observa nombres, Tipos y Atributos de ambos monstruos; elige la Fusión cuyos materiales coincidan.",
+        "Para Garura, busca dos monstruos del mismo Tipo y Atributo, pero de nombres distintos; para Fangodragón, mismo Atributo y Tipos distintos; para Dragostapelia, un monstruo de Fusión y otro OSCURIDAD.",
         "Paga la carta adicional de mano al activar Súper Polimerización; utiliza únicamente materiales disponibles y permitidos.",
         "Después de la Fusión, conserva la Normal para Reinoheart si sigue en mano y valora la interacción real del monstruo obtenido."
       ],
@@ -141,7 +141,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         20214
       ],
       "actions": [
-        "Descarta Grabador para buscar Tracto y utiliza Tracto con Lurrie para abrir el Enlace Réquiem.",
+        "Descarta Grabador para buscar Tracto; activa Tracto, añade Lurrie del Deck y descártalo durante la resolución. Cuando Lurrie se Invoque desde Cementerio, úsalo como material de Réquiem.",
         "Usa Réquiem y el retorno de Grabador para reunir los cuerpos exigidos por Secuencia.",
         "Fusiona mediante Secuencia con los materiales del Cementerio indicados; conserva la Normal para otro motor."
       ],
@@ -261,3 +261,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se explicitó que Scheiren, no Reinoheart, activa la Fusión desde Cementerio y que Havnis es un recurso previo; se precisaron las parejas de Súper Polimerización y Tracto/Lurrie. No se promete una Fusión desde Reinoheart solo. Revisión oficial integral todavía pendiente.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.
