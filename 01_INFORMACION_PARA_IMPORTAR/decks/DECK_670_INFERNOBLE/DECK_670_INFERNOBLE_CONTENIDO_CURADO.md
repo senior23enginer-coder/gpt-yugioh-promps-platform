@@ -165,6 +165,76 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 670; nombre en plataforma: Infernoble; nombre fuente: Infernoble; formato: `tcg_advanced`.
+- Carpeta única: `DECK_670_INFERNOBLE`; documento: `DECK_670_INFERNOBLE_CONTENIDO_CURADO.md`.
+- Main 42 / Extra 15 / Side 0 / Reserva 12; 45 CID; 45 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `6b9ac72cad62553fdd5996915e0f4c68b032646c`; blob documental anterior: `c1af57d3da13bc4b3de8915b75f15a9c57ba3372`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 670", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `ee21cd4285b6618ba9c3805eb44e3b3ef655908cc9ca0e64b93a802f629ed972`. SHA-256 del ZIP de entrada auditado: `e77314e39fdf145287e676626a9e3b067e6a54f7372ae2f6a381353faf31890c`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:31+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:39.661637+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 136 | 17768 | Kashtira Fenrir | main | 3 |
+| 137 | 18151 | Kashtira Riseheart | main | 1 |
+| 138 | 19148 | Diabellstar la Bruja Negra | main | 1 |
+| 139 | 14801 | Immortal Phoenix Gearfried | main | 1 |
+| 140 | 18801 | Infernoble Caballero Turpin | main | 1 |
+| 141 | 15249 | Infernoble Caballero Maugis | main | 1 |
+| 142 | 15247 | Infernoble Caballero Ogier | main | 1 |
+| 143 | 18800 | Infernoble Caballero Ricciardetto | main | 1 |
+| 144 | 15082 | Infernoble Caballero Renaud | main | 2 |
+| 145 | 15248 | Infernoble Caballero Oliver | main | 1 |
+| 146 | 14085 | Neo Space Connector | main | 3 |
+| 147 | 6768 | Neo-Spacian Aqua Dolphin | main | 1 |
+| 148 | 15392 | Fire Flint Lady | main | 1 |
+| 149 | 9279 | Droll & Lock Bird | main | 3 |
+| 150 | 8933 | Effect Veiler | main | 2 |
+| 151 | 12950 | Ash Blossom & Joyous Spring | main | 2 |
+| 152 | 19207 | Angelica's Angelic Ring | main | 1 |
+| 153 | 18843 | Infernoble Arms - Almace | main | 1 |
+| 154 | 15287 | Infernoble Arms - Durendal | main | 2 |
+| 155 | 18844 | Noble Arms Museum | main | 3 |
+| 156 | 6458 | Divine Sword - Phoenix Blade | main | 1 |
+| 157 | 7519 | D.D.R. - Different Dimension Reincarnation | main | 1 |
+| 158 | 19196 | WANTED: Seeker of Sinful Spoils | main | 3 |
+| 159 | 14075 | Heritage of the Chalice | main | 3 |
+| 160 | 5328 | Reinforcement of the Army | main | 1 |
+| 161 | 19199 | Original Sinful Spoils - Snake-Eye | main | 1 |
+| 162 | 15275 | Infernoble Knight Captain Roland [Synchro] | extra | 1 |
+| 163 | 16386 | Baronne de Fleur [Synchro] | extra | 1 |
+| 164 | 15276 | Infernoble Knight Emperor Charles [Synchro] | extra | 1 |
+| 165 | 18926 | Battlin' Boxer King Dempsey [Xyz] | extra | 1 |
+| 166 | 19184 | Super Starslayer TY-PHON - Sky Crisis [Xyz] | extra | 1 |
+| 167 | 18827 | Angelica, Princess of Noble Arms [Synchro] | extra | 1 |
+| 168 | 13500 | Isolde, Two Tales of the Noble Knights [Link] | extra | 2 |
+| 169 | 18835 | Emperor Charles the Great [Link] | extra | 2 |
+| 170 | 14496 | Apollousa, Bow of the Goddess [Link] | extra | 1 |
+| 171 | 13841 | Relinquished Anima [Link] | extra | 1 |
+| 172 | 13034 | Link Spider [Link] | extra | 1 |
+| 173 | 19188 | S:P Little Knight [Link] | extra | 2 |
+| 174 | 14741 | Nibiru, the Primal Being | reserve | 3 |
+| 175 | 6980 | D.D. Crow | reserve | 2 |
+| 176 | 13950 | Herald of the Abyss | reserve | 1 |
+| 177 | 15296 | Triple Tactics Talent | reserve | 1 |
+| 178 | 18214 | Triple Tactics Thrust | reserve | 3 |
+| 179 | 13293 | Evenly Matched | reserve | 1 |
+| 180 | 12668 | Dimensional Barrier | reserve | 1 |
+
+**Rutas existentes:** `670:A09:CONNECTOR:ISOLDE01`, `670:A09:MUSEUM:RENAUD:ISOLDE01`, `670:A09:OGIER:RENAUD:ANGELICA01`, `670:A09:WANTED:DIABELLSTAR:OGIER01`, `670:A09:CONNECTOR:DURENDAL02`, `670:A09:ANGELICA:ROLAND02`, `670:A09:CHARLES:EQUIPPED:LINK01`, `670:A09:OGIER:RENAUD:SP_DEFENSA08`, `670:A09:OGIER:RENAUD:ANIMA:SP09`, `670:A09:RENAUD:TYPHON10`, `670:A09:V11:OGIER:DURENDAL:TURPIN:DEMPSEY`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -272,9 +342,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
