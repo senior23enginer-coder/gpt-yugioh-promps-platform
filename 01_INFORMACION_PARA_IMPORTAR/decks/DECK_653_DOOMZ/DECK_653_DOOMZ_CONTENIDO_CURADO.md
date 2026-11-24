@@ -164,6 +164,68 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 653; nombre en plataforma: DoomZ; nombre fuente: DoomZ; formato: `tcg_advanced`.
+- Carpeta única: `DECK_653_DOOMZ`; documento: `DECK_653_DOOMZ_CONTENIDO_CURADO.md`.
+- Main 40 / Extra 15 / Side 9 / Reserva 0; 37 CID; 37 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `9222af9d3871bab8a00407a09bd7c0c405f958ce`; blob documental anterior: `44d1391ca3fc3bf03fa4000056b5abf712fc187c`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 653", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `6eb8724eeef5e76e866fa0de0be7718729496ad4634c4793ce8f776c8431789c`. SHA-256 del ZIP de entrada auditado: `dd6628cc622885cc67d6233fd586d6f253f22303476d1a3daad196bc94e7891a`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:19+00:00; lectura nativa de solo lectura: 2026-11-24T19:47:08.981370+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 322 | 21419 | Medius el Puro | main | 1 |
+| 323 | 21824 | Mando DoomZ «D.O.O.M.D.U.R.G.» | main | 2 |
+| 324 | 21777 | DoomZ Modelo de Poder | main | 2 |
+| 325 | 9279 | El Bufón y el Pájaro del Candado | main | 2 |
+| 326 | 22521 | Modelo de Poder Máquina de Sombras Zegredo | main | 3 |
+| 327 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 |
+| 328 | 17119 | Therion «Rey» Regulus | main | 1 |
+| 329 | 21774 | DoomZ XII Cero - Drastea | main | 2 |
+| 330 | 21775 | DoomZ V Cinco - Amalthe | main | 3 |
+| 331 | 21776 | DoomZ VII Siete - Elara | main | 3 |
+| 332 | 13631 | Infinito Temporal | main | 3 |
+| 333 | 20500 | Fuwalos Multivadora | main | 3 |
+| 334 | 22565 | Portal del Modelo de Poder Desatado - Terminus | main | 3 |
+| 335 | 21823 | Incursores DoomZ | main | 3 |
+| 336 | 22519 | Vidrium, Modelo de Poder de la Exterminación del Caos | main | 1 |
+| 337 | 22158 | Cambio DoomZ | main | 3 |
+| 338 | 21840 | Destrucción DoomZ | main | 1 |
+| 339 | 22567 | Mando DoomZ «A.D.R.A.S.T.E.I.A.» | main | 1 |
+| 340 | 14958 | Número F0: Futuro Draco Utópico | extra | 1 |
+| 341 | 16002 | Springans Fiestero | extra | 1 |
+| 342 | 18190 | Gigantesco «Campeón» Sargas | extra | 1 |
+| 343 | 21811 | DoomZ XII Fin - Drastrius | extra | 2 |
+| 344 | 22554 | DoomZ XIII Over - Graflario | extra | 2 |
+| 345 | 21812 | Fractura DoomZ - Diactorus | extra | 2 |
+| 346 | 21810 | Júpiter el Modelo de Poder de Destrucción | extra | 1 |
+| 347 | 21453 | Número F0: Futuro Utópico Zexal | extra | 1 |
+| 348 | 19886 | Varudras, el Último Portador del Fin de los Tiempos | extra | 1 |
+| 349 | 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 |
+| 350 | 11413 | Número F0: Futuro Utópico | extra | 1 |
+| 351 | 14920 | Mago Gagagaga | extra | 1 |
+| 352 | 11708 | Ogro Fantasma & Conejo de las Nieves | side | 2 |
+| 353 | 15296 | Talento de Tácticas Triples | side | 1 |
+| 354 | 14564 | Número 60: Dugares el Eterno | side | 1 |
+| 355 | 13619 | Llamado por la Tumba | side | 1 |
+| 356 | 14876 | Tormenta de Relámpagos | side | 2 |
+| 357 | 14741 | Nibiru, el Ser Primitivo | side | 1 |
+| 358 | 19184 | Súper Asesino Estelar TY-PHON - Crisis Celeste | side | 1 |
+
+**Rutas existentes:** `653:A09:RAIDERS:ELARA:DRAS01`, `653:A09:RAIDERS:AMALTHE:DRAS02`, `653:A09:RAIDERS:CHANGE:DRAS03`, `653:A09:MEDIUS:JUPREDO:JUPITER04`, `653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05`, `653:A09:MEDIUS:GRAFLAREIO:DRAS06`, `653:A09:CHANGE:POWERPATRON:GRAFLAREIO:DRAS07`, `653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08`, `653:A09:V11:DRASTEA:ADRASTEIA:DIACTORUS`, `653:A09:V12:ELARA:DRASTEA:DRASTRIUS:SINGLE`, `653:EXTRA:V13:14958`, `653:EXTRA:V13:16002`, `653:EXTRA:V13:18190`, `653:EXTRA:V13:21453`, `653:EXTRA:V13:11413`, `653:EXTRA:V13:14920`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -262,9 +324,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - [ ] **A01-T5** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
 
 ### A02
-- [ ] **A02-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T2** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
-- [ ] **A02-T3** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
+- [x] **A02-T1** — Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin certificación bajo el contrato actual; conservar el estudio previo y completar evidencia antes de marcar.
