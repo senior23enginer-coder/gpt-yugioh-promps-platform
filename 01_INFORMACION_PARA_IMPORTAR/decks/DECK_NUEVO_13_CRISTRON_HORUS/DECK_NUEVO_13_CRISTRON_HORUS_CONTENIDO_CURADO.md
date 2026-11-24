@@ -181,6 +181,61 @@
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 677, Crystron, formato tcg_advanced; Main/Extra/Side/Reserva 40/15/15/0; 39 CID y 40 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 677: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 39 IDs de ficha, 40 card_id, 14 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 677](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json), blob `1c23d72192199d9324a4b55dd1ced3d0bdd43997`. Paquete GPT: blob `a3276d0cd581859148361180684c917c54388ca3`; Markdown anterior: blob `c2ac48e9d5778a232cc1ef8a8702c1071a4b568b`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 4861 | Juicio Solemne | 677:CARD:4861 | 561:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=es |
+| 5236 | Entierro Insensato | 677:CARD:5236 | 539:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5236&ope=2&request_locale=es |
+| 7445 | Súper Polimerización | 677:CARD:7445 | 537:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=es |
+| 9279 | El Bufón y el Pájaro del Candado | 677:CARD:9279 | 531:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 9454 | Cazadora del Caos | 677:CARD:9454 | 554:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=es |
+| 10870 | Ciber Dragón Nova | 677:CARD:10870 | 547:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=es |
+| 11243 | Artefacto Lancea | 677:CARD:11243 | 555:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 11411 | Regaño Solemne | 677:CARD:11411 | 556:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11411&ope=2&request_locale=es |
+| 11765 | Ciber Dragón del Infinito | 677:CARD:11765 | 546:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=es |
+| 11849 | Arresto Erróneo | 677:CARD:11849 | 560:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11849&ope=2&request_locale=es |
+| 12157 | Hagoita de Alta-Velociroid | 677:CARD:12157 | 548:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=es |
+| 12606 | Cristron Citree | 677:CARD:12606 | 526:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=es |
+| 12608 | Cristron Smiger | 677:CARD:12608 | 523:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=es |
+| 12609 | Cristron Thystvern | 677:CARD:12609 | 527:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es |
+| 12756 | Cristron Azufafnir | 677:CARD:12756 | 525:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=es |
+| 12781 | Cristron Quariongandrax | 677:CARD:12781 | 543:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=es |
+| 12950 | Flor de Ceniza & Primavera Feliz | 677:CARD:12950 | 530:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 13360 | Destructor Samurái | 677:CARD:13360 | 551:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=es |
+| 13454 | Fangodragón del Pantano | 677:CARD:13454 | 553:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=es |
+| 13619 | Llamado por la Tumba | 677:CARD:13619 | 557:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 13710 | F.A. Coche Trucado del Amanecer | 677:CARD:13710 | 541:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=es |
+| 13826 | Número 90: Señor Fotónico de Ojos Galácticos | 677:CARD:13826 | 549:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=es |
+| 15296 | Talento de Tácticas Triples | 677:CARD:15296 | 558:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 15299 | Gotas Prohibidas | 677:CARD:15299 | 538:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es |
+| 16850 | El Vampiro Zombi | 677:CARD:16850 | 550:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=es |
+| 16868 | Prohibida la Venta | 677:CARD:16868 | 559:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es |
+| 17746 | Garura, Alas de Vida Resonante | 677:CARD:17746 | 552:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=es |
+| 19153 | Amset, Gloria de Horus | 677:CARD:19153 | 528:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=es |
+| 19155 | Hapi, Guía de Horus | 677:CARD:19155 | 529:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=es |
+| 19188 | S:P Pequeña Caballera | 677:CARD:19188 | 544:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 19200 | Sarcófago del Rey | 677:CARD:19200 | 536:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=es |
+| 20206 | Purulia Multivadora | 677:CARD:20206 | 533:main×2; 534:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 20500 | Fuwalos Multivadora | 677:CARD:20500 | 532:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 20758 | Cristron Tristaros | 677:CARD:20758 | 524:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=es |
+| 20759 | Cristron Sulfador | 677:CARD:20759 | 522:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=es |
+| 20778 | Cristron Elesqueletus | 677:CARD:20778 | 542:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=es |
+| 20787 | Caballero Mecánico | 677:CARD:20787 | 545:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=es |
+| 20798 | Inclusión Cristron | 677:CARD:20798 | 535:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=es |
+| 20817 | Agrupamiento Cristron | 677:CARD:20817 | 540:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=es |
+
+**Rutas preservadas:** `677:A09:C01`, `677:A09:C02`, `677:A09:C03`, `677:A09:C04`, `677:A09:C05`, `677:A09:C06`, `677:A09:C07`, `677:A09:V01`, `677:A09:V02`, `677:A09:V03`, `677:A09:V04`, `677:A09:V05`, `677:A09:V06`, `677:A09:V07`.
+
+**Alcance:** solo A02 del deck 677; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 34/35; los estados históricos de otros apartados no se recertifican.
+
+
 **Asignación expresa:** el usuario asignó en orden **A01**, **A02**, **A03**, **A04**, **A05**, **A06**, **A07** y **A08**, únicamente del deck `677` (formato `tcg_advanced`). Inventario del paquete: **40 Main / 15 Extra / 15 Side / 0 Reserva, 70 copias, 39 CID únicos**, siete rutas C01–C07 más siete variantes V01–V07. No se modifica la lista ni se estudia otro deck.
 
 **Corte del checklist vigente:** **34/35 tareas acreditadas en A01–A04, A05-T1/T2/T3, A06-T1/T2/T3/T4, A07-T1/T2/T3/T4, A08-T1/T2/T3/T4, A09-T1/T2/T3/T4 y A10A-T1/T2/T3; 1/35 queda pendiente: A05-T4**, aunque el registro editorial histórico de abajo marque A02–A10 como documentados. Las etiquetas históricas no son evidencia automática para el checklist nuevo: cada casilla exige fuentes, inventario, prueba y acta independientes. **A10B no solicitada** y fuera de los 35 obligatorios; no se ejecutan reglas ni replays, no se importa ni publica el mazo con esta asignación.
@@ -193,9 +248,9 @@
 - [x] **A01-T3** Vincular cada propósito/objetivo a IDs de cartas, efectos y futuras rutas sin fabricar secuencias; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — evidencia A01.2/A01.3, perfil y paquete; auditoría específica verificada en PR #25.
 
 ### A02 — identidad e importación documental auditadas
-- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado — evidencia A02.4 / 39 CID, 40 filas nativas, inventario 40/15/15/0 aprobado; comparación con fuente V40; auditor read-only `audit-deck-a02-identity.cjs`.
-- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas.
-- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control. Evidencia anterior: Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado — evidencia A02.4 / 39 CID, 40 filas nativas, inventario 40/15/15/0 aprobado; comparación con fuente V40; auditor read-only `audit-deck-a02-identity.cjs`.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control. Evidencia anterior: Comprobar compatibilidad documental del ZIP y `datos/stationx-deck.json` — evidencia A02.4; prueba PHP nativa `test-deck-a02-crystron-preflight.php`: ZIP de una carpeta, preparación temporal del importador, sin publicación y 13 rechazos negativos; 13 variantes portátiles conservadas, no ejecutadas.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control. Evidencia anterior: Asignar IDs estables y registrar procedencia/versionado del único contrato — evidencia A02.4 y `datos/stationx-deck.json` con SHA del blob V40; 40 card_id, 39 CID, 14 route_id, `record.schema=station-x-curated-v62`, 0 Skills, sin hash ficticio ni mutaciones de otros decks.
 
 ### A03 — inventario aprobado y congelado contra V40
 - [x] **A03-T1** Cotejar el 100 % de Main, Extra, Side, Reserva y Skill por zona, cantidad y copia física real — matriz A06 CRYH-001–039 contra 40 `record.cards[].slots` e inventario V40, 40/15/15/0 = 70 copias; Purulia 2 Main + 1 Side; Skill 0; auditor `scripts/audit-deck-a03-inventory.cjs`.
