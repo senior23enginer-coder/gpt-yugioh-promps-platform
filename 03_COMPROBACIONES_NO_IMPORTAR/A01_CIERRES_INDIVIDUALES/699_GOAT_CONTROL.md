@@ -1,5 +1,7 @@
 # A01 — cierre individual GOAT Control (699)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. Formato histórico GOAT. Main 40 / Extra 14 / Side 0 / Reserva 0; 39 identidades, cinco rutas. No se añaden cartas ni se aplica banlist. Extra y Side no son obligatorios para la elegibilidad de este formato.
 
 Fuentes exactas: Markdown `e09c8cd57123f8c08bdcbe9cbc2787fc89b7265a`; JSON `e984a34fb993c3fa49b1bb7762e39459b0b399b7`. Referencias históricas del expediente: https://www.goatformat.com/rulings7.html y https://beta.goatformat.com/deck-guides/goat-control.

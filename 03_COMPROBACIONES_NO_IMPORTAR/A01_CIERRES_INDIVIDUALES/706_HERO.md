@@ -1,5 +1,7 @@
 # A01 — cierre individual HERO (706)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. Rush Duel, Elemental HERO con Skill local Hero Rush Rising. Main 30 / Extra 8 / Side 0 / Reserva 0; 17 identidades, nueve registros de ruta. No se modifica inventario ni se evalúa banlist. Skill independiente de Main.
 
 Fuentes exactas: Markdown `30141ff34c5ec1752724cc4bad7db0aad262987e`; JSON `a7ef30e412d75f076dba960c8b2c5966950b17a7`. Referencia de Skill del expediente: https://www.duellinksmeta.com/skills/Hero%20Rush%20Rising.

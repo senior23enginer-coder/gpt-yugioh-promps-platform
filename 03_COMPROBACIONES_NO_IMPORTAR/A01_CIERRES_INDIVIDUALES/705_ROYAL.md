@@ -1,5 +1,7 @@
 # A01 — cierre individual Royal (705)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. Rush Duel, Royal Rebel's con Skill local Hard Rock Overture. Main 30 / Extra 0 / Side 0 / Reserva 0; 16 identidades, seis rutas. El Extra y Side no son obligatorios para admitir Rush Duel. Skill separada del inventario físico; no se cambia ninguna carta ni se evalúa banlist.
 
 Fuentes exactas: Markdown `98a58cc42f80f724d2b6b38dc83e0dc62768547c`, JSON `dd6deee37457743b07f21588a6f4e082ef90d800`. Referencia de Skill en expediente: https://www.duellinksmeta.com/skills/Hard%20Rock%20Overture.

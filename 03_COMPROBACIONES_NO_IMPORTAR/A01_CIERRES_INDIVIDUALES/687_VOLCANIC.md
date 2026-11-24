@@ -1,5 +1,7 @@
 # A01 — verificación individual Volcanic (687)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 14; 36 identidades y 22 registros de ruta. Inventario inalterado. Reserva no equivale a Side; no se evalúa banlist.
 
 Fuentes versionadas: Markdown blob `1fe95f73d986fb121de807b4c7e89e114ced1213`; JSON blob `c3413476e76821a4dc225519505aec8d8e2e3f13`.

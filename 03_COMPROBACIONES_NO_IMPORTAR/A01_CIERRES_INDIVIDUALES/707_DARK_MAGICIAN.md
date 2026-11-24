@@ -1,5 +1,7 @@
 # A01 — cierre individual Dark Magician (707)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. Rush Duel, Dark Magician con Skill local Illusion of Execution. Main 30 / Extra 7 / Side 0 / Reserva 0; 20 identidades (17 Main, 3 Extra) y nueve registros de ruta. Skill separada del inventario físico. No modificar cartas ni evaluar banlist.
 
 Fuentes exactas: Markdown `1ed2a283889a4703f87f10535a3d5fc7471ee4b1`; JSON `3cb6c1b835972c88aa8e1c313a9041e5b2b7fb4e`. Skill del expediente: https://www.duellinksmeta.com/skills/Illusion%20of%20Execution.

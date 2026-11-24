@@ -1,5 +1,7 @@
 # A01 — verificación individual Cyber Dragon Pure (684)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 24; 52 identidades, 17 rutas. Inventario inalterado; Reserva no equivale a Side. No se evalúa banlist.
 
 Fuentes versionadas: Markdown blob `4b8f72ccbacadef9af00920fe45bb1410f4d1bbf`; JSON blob `c8b37e52bb6d70e6c573166e8ab441be12a07a47`.

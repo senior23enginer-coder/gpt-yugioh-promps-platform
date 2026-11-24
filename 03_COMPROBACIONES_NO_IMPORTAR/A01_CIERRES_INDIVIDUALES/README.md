@@ -1,5 +1,7 @@
 # A01 — índice de cierre de los 16 decks asignados
 
+> **ESTADO VIGENTE: REABIERTO — 16/16 decks requieren reevaluación funcional A01.** Los 80 checks de abajo son evidencia histórica de la revisión anterior, no aprobación del nuevo estándar. La importación técnica de los 16 fue verificada en [CI #45289498450](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45289498450); el usuario identificó fuga de auditoría y plan insuficiente en la guía real. Ninguna certificación anterior puede sustituir las ocho lecciones y las nuevas puertas T1–T5. No se alteró inventario ni se ejecutó A02.
+
 Fecha: 23-11-2026. Alcance exclusivo A01 (T1–T5). Las actas individuales constituyen el registro de esta ejecución y complementan los estados históricos de los documentos curados. No actualizan estados de A02–A10 ni acreditan replays de motor.
 
 **Resultado documental:** 16/16 actas, 80/80 casillas marcadas, 0 casillas pendientes. Se comprobó la existencia de cada acta y su checklist. El inventario real se mantiene; no se aplica banlist, Side/Reserva no se inventan. GOAT y Rush admiten Main sin Extra.

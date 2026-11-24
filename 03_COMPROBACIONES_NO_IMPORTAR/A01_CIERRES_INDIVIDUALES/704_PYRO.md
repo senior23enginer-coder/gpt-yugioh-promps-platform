@@ -1,5 +1,7 @@
 # A01 — cierre individual Pyro (704)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. Rush Duel, Skill Alchemy Blaze registrada en reglas locales. Main 30 / Extra 5 / Side 0 / Reserva 0; 17 identidades, tres rutas. No se añade Side ni Extra. Skill separada del inventario físico; no se evalúa banlist.
 
 Fuentes exactas: Markdown `e21199e8709be27a6ecba01fee7151b7b67a22e5`, JSON `2966c0da5b33ba9e909e495329c342101a46616c`. Referencia de Skill del expediente: https://www.duellinksmeta.com/skills/Alchemy%20Blaze.
