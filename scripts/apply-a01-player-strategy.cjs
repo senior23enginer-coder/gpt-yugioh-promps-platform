@@ -15,11 +15,17 @@ for(const id of ids){
  assert.equal(folders.length,1);const folder=folders[0];
  const jp=path.join(root,folder,'datos/stationx-deck.json'), mp=path.join(root,folder,folder+'_CONTENIDO_CURADO.md');
  const orig=JSON.parse(fs.readFileSync(jp,'utf8')), p=structuredClone(orig);
- const oldMd=fs.readFileSync(mp,'utf8');assert.equal(p.record.deck_id,id);
+ let oldMd=fs.readFileSync(mp,'utf8');assert.equal(p.record.deck_id,id);
  validateProfile(p.record);assertSourceParity(p.record,oldMd);
+ if(id===707){
+  const oldRisk=p.record.profile['Qué vigilar'];
+  const newRisk='Illusion of Execution solo está disponible desde el turno 2 y exige la construcción y revelación correctas. Conserva el acceso a la única copia de Mago Oscuro; el nombre del Hechicero Eliminador dura un turno. Las Fusiones Gaia carecen de materiales accesibles en esta lista.';
+  const oldLine='- **Qué vigilar:** '+oldRisk;assert(oldMd.includes(oldLine));oldMd=oldMd.replace(oldLine,'- **Qué vigilar:** '+newRisk);p.record.profile['Qué vigilar']=newRisk;
+ }
  p.record.player_guide.strategy=strategy;
  validateStrategy(p.record);validatePlayerGuide(p.record);
  const copy=structuredClone(p);if(orig.record.player_guide.strategy)copy.record.player_guide.strategy=orig.record.player_guide.strategy;else delete copy.record.player_guide.strategy;
+ if(id===707)copy.record.profile['Qué vigilar']=orig.record.profile['Qué vigilar'];
  assert.deepEqual(copy,orig,'Non-A01 data changed: '+id);
  const names=new Map(p.record.cards.map(c=>[c.cid,c.name]));
  const block=['<!-- A01_PLAYER_STRATEGY_V2_START -->','### Plan práctico de juego',...strategy.sections.flatMap(s=>['','#### '+s.title,'','**Objetivo:** '+s.objective,'','**Situación:** '+s.situation,'','**Cartas:** '+s.card_cids.map(cid=>names.get(cid)).join(', '),'',...s.actions.map((a,i)=>(i+1)+'. '+a),'','**Resultado esperado:** '+s.expected_result,'','**Recursos que conservar:** '+s.resources_to_keep,'','**Alternativa:** '+s.alternative]),'','<!-- A01_PLAYER_STRATEGY_V2_END -->',''].join('\n');

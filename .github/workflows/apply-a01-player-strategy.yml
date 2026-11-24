@@ -1,4 +1,4 @@
-name: Apply authored A01 lessons to assigned packages
+name: Apply authored A01 lessons to assigned packages (risk cleanup)
 on:
   push:
     branches: [fix/a01-player-quality-20261123]
