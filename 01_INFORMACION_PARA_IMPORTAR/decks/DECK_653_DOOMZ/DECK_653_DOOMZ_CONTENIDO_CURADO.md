@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -24,9 +25,9 @@
 
 1. Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck.
 2. En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea.
-3. Usa el procedimiento de Drastea con su Equipo para llegar a Drastrius; conserva la Invocación Normal.
+3. Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8.
 
-**Resultado esperado:** Drastrius con dos materiales y 2700 ATK; Incursores permanece boca arriba. Puede negar una activación elegible de monstruo en Campo o Cementerio.
+**Resultado esperado:** Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba.
 
 **Recursos que conservar:** Un material para la interacción de Drastrius y la Normal si todavía está libre.
 
@@ -58,11 +59,11 @@
 
 **Cartas:** DoomZ VII Siete - Elara, DoomZ XII Cero - Drastea, Mando DoomZ «A.D.R.A.S.T.E.I.A.», Destrucción DoomZ, Fractura DoomZ - Diactorus
 
-1. Invoca Elara y decide si colocar Destrucción DoomZ antes de usar Drastea.
-2. Usa Drastea para destruir Elara e Invocarse cuando los objetivos sean válidos; aprovecha la colocación posterior de Elara.
-3. Si el Equipo y el destino siguen disponibles, elige la línea de Diactorus o la de Drastrius según la interacción que necesites.
+1. Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck.
+2. Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno.
+3. Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción.
 
-**Resultado esperado:** Diactorus con Destrucción preparada, o Drastrius con materiales, según la línea elegida; la Trampa necesita su ventana legal.
+**Resultado esperado:** Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse.
 
 **Recursos que conservar:** Una carta DoomZ para destruir, un Equipo utilizable y materiales del siguiente Xyz.
 
@@ -72,13 +73,13 @@
 
 **Objetivo:** Cambiar a una amenaza de 3500 ATK cuando el motor de Equipos no está disponible.
 
-**Situación:** Medius en mano, Zegredo en Deck, Júpiter disponible en Extra; se puede asumir el coste de desterrar tres cartas superiores.
+**Situación:** Medius en mano, Jupredo (alias Zegredo en la lista) en Deck, Júpiter en Extra y al menos tres cartas para desterrar boca abajo.
 
 **Cartas:** Medius el Puro, Modelo de Poder Máquina de Sombras Zegredo, Júpiter el Modelo de Poder de Destrucción, DoomZ XII Fin - Drastrius
 
-1. Invoca Medius normalmente y trae Zegredo del Deck.
-2. Usa el procedimiento de Zegredo pagando las tres cartas superiores desterradas boca abajo; Júpiter entra sin materiales.
-3. Comprueba si el disparo de Zegredo al llegar al Extra permite recuperar una Magia/Trampa del motor que quede en Deck.
+1. Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck.
+2. Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar.
+3. Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo.
 
 **Resultado esperado:** Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.
 

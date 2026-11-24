@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -23,10 +24,10 @@
 **Cartas:** Purrely, Bello Recuerdo Purrely, Belleza Epurrely
 
 1. Invoca Purrely normalmente y resuelve su excavación sin contar cartas que todavía no has visto.
-2. Revela Bello Recuerdo para utilizar el procedimiento de Xyz desde mano si sigue disponible.
+2. En tu Main Phase, activa el efecto de Purrely que controlas boca arriba y muestra Bello Recuerdo de mano. Invoca Belleza desde el Extra usando a Purrely como material y acopla Bello.
 3. Comprueba los materiales reales de Belleza y reserva el efecto de interacción para una amenaza elegible.
 
-**Resultado esperado:** Belleza con Purrely y Bello como materiales; la Normal se consumió y la respuesta depende de su ventana.
+**Resultado esperado:** Belleza con Purrely y Bello Recuerdo como materiales. Belleza puede seleccionar un monstruo de efecto rival y negar sus efectos; con Bello como material, esa interacción es un Efecto Rápido.
 
 **Recursos que conservar:** Bello Recuerdo hasta completar el procedimiento y otros Recuerdos que permitan extender.
 
@@ -59,7 +60,7 @@
 **Cartas:** Purrelyly, Delicioso Recuerdo Purrely, Rechoncho Epurrely, Noir Expurrely
 
 1. Invoca Purrelyly y verifica que Delicioso Recuerdo siga en Cementerio para su procedimiento.
-2. Forma Rechoncho con los materiales previstos y usa su efecto para acoplar las dos Magias/Trampas elegibles.
+2. Invoca Rechoncho usando Purrelyly en Campo y Delicioso Recuerdo de Cementerio; después selecciona hasta dos Magias/Trampas de los Cementerios para acoplarlas. Con Delicioso como material, este último efecto es rápido.
 3. Cuenta el resultado: cuatro materiales en este escenario, todavía insuficientes para el ascenso permanente a Noir.
 
 **Resultado esperado:** Rechoncho con cuatro materiales si los dos objetivos permanecen disponibles y resuelve el efecto.
@@ -76,9 +77,9 @@
 
 **Cartas:** Rechoncho Epurrely, Noir Expurrely, ¿¡Purrelysaltó!?, Delicioso Recuerdo Purrely
 
-1. Para el acceso permanente, activa el Recuerdo adicional y confirma que el efecto de Rechoncho acopla el quinto material.
-2. Utiliza el procedimiento alternativo de Noir cuando se cumple su requisito de cinco materiales.
-3. Si eliges la Trampa sobre una Xyz elegible, trata el Noir obtenido como temporal y revisa cuántos materiales tiene.
+1. Activa un Recuerdo Purrely de Juego Rápido; encadena el efecto de Rechoncho para acoplarlo desde Campo. Si los cuatro materiales anteriores siguen allí, tendrás cinco.
+2. Invoca Noir usando el Rango 2 con cinco o más materiales y transfiérelos. Noir es inmune a efectos ACTIVADOS del adversario mientras mantenga al menos cinco; no es inmune a todos los efectos ni a toda retirada.
+3. Con la Trampa ¿¡Purrelysaltó!?, usa una Xyz Purrely propia para Invocar otra de Rango diferente; transfiere los materiales y cuenta los reales. El monstruo obtenido regresa al Extra en la End Phase del siguiente turno.
 
 **Resultado esperado:** Noir permanente con cinco o más materiales, o Noir temporal por Trampa; sus condiciones y duración no son equivalentes.
 
@@ -130,7 +131,7 @@
 
 **Cartas:** Noir Expurrely, Felicidad Epurrely, Rechoncho Epurrely, Divino Arsenal AA-ZEUS - Trueno del Cielo
 
-1. Antes de retirar una amenaza con Noir, comprueba el coste de materiales y la protección que conservará después.
+1. Antes de devolver una carta rival al fondo del Deck con Noir, comprueba si puedes desacoplar dos materiales. La retirada es rápida si mantiene un Purrely de Nivel 1 acoplado; si baja de cinco, pierde la inmunidad indicada.
 2. Si pasas de control a ataque, usa la línea de Felicidad cuando exista un combate útil y su efecto pueda resolver.
 3. Calcula el daño de las criaturas realmente en Campo; no conviertas una retirada de Noir en daño garantizado.
 
@@ -150,7 +151,7 @@
 
 1. Cuenta los materiales que tiene la Xyz en ese momento, no las cartas que se pensaba acoplar.
 2. No uses el procedimiento permanente de Noir desde cuatro materiales ni atribuyas protección a un Noir temporal que no cumple cinco.
-3. Cuando desacoples materiales, vuelve a comprobar si Noir conserva la condición que da protección.
+3. Noir solo es inmune a efectos activados rivales con cinco o más materiales; después de desacoplar dos, vuelve a contar y conserva un Purrely de Nivel 1 si necesitas que su retirada sea rápida.
 
 **Resultado esperado:** La duración y protección de Noir corresponden a su procedimiento y materiales reales.
 

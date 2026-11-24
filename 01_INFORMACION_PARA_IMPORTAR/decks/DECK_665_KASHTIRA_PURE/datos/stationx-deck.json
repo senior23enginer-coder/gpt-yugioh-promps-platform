@@ -76356,11 +76356,11 @@
               17769
             ],
             "actions": [
-              "Desarrolla los Nivel 7 con Fenrir y Nacimiento siguiendo la apertura documentada.",
-              "Elige Ojo Grande cuando el monstruo rival sea seleccionable y el cambio de control sea útil; desacopla el material exigido.",
-              "Si conviene destruir otra clase de carta, usa la alternativa Dark Armed respetando su coste y el destierro posterior."
+              "Invoca Fenrir con Campo vacío y busca Unicornio. Activa Nacimiento; Invoca Normalmente Unicornio sin Sacrificios, busca Teosis y úsala para traer Ogro AGUA desde Deck.",
+              "Si Ogro busca Preparaciones, Colócala. Superpón Fenrir y Ogro en Ojo Grande; desacopla Ogro y selecciona un monstruo rival elegible para tomar su control.",
+              "Ojo Grande no puede atacar el turno de su efecto. Si necesitas destruir una carta en vez de tomar control, elige Dark Armed como ruta alternativa y respeta su coste y destierro posterior."
             ],
-            "expected_result": "Una amenaza retirada o controlada y recursos Kashtira restantes según la variante; no se garantizan ambos resultados a la vez.",
+            "expected_result": "Ojo Grande con un material (Fenrir), Unicornio, Nacimiento, Preparaciones Colocada y, si resolvió, un monstruo rival bajo tu control; la Normal se gastó y el Extra queda limitado a Xyz.",
             "resources_to_keep": "Nacimiento y los Nivel 7 independientes que no necesites convertir en materiales.",
             "alternative": "Si ya no existe un objetivo legal para Ojo Grande, prioriza Shangri-Ira o una Xyz apropiada para la amenaza real.",
             "related_route_ids": [
@@ -76406,10 +76406,10 @@
             ],
             "actions": [
               "Activa la opción de Shangri-Ira en la Standby legal para desarrollar un Kashtira del Deck.",
-              "Si la continuación de tres materiales está disponible, prepara Arise-Heart mediante el procedimiento documentado.",
+              "En tu Main Phase, si el efecto de Shangri-Ira se activó exitosamente ese mismo turno, utiliza su procedimiento alternativo para Arise-Heart: superpón sobre Shangri-Ira y transfiere los materiales. Con dos materiales iniciales, Arise-Heart tiene tres.",
               "Evalúa si conservar Shangri-Ira y un Fenrir independiente es más útil que concentrar todo el Campo en un único Xyz."
             ],
-            "expected_result": "Arise-Heart con materiales para interacción o un campo diversificado, según los recursos de la apertura.",
+            "expected_result": "Arise-Heart con tres materiales y Fenrir independiente si Shangri-Ira trajo otra copia; su destierro rápido requiere desacoplar tres. Si Shangri-Ira deja el Campo, deja de aplicar su bloqueo de zonas.",
             "resources_to_keep": "Una salida adicional en Extra y un Fenrir o Nacimiento para volver a desarrollar.",
             "alternative": "Con pocos materiales, conserva Shangri-Ira y no trates Arise-Heart como una negación universal.",
             "related_route_ids": [

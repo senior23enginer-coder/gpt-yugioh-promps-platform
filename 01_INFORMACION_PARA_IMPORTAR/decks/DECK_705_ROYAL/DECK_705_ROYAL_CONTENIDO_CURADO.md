@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -18,15 +19,15 @@
 
 **Objetivo:** Preparar un siguiente turno con los Demonios necesarios sin asumir la recuperación de Skill antes del turno dos.
 
-**Situación:** Primer turno del duelo, mano con Rebelde Real y cartas de defensa; Skill externa a la mano.
+**Situación:** Primer turno del duelo: identifica Metal Maldito, Heavy Metal y Progrock en mano; comprueba si tienes defensas como Gelatina Defensiva o Agujero Trampa. La recuperación de Hard Rock Overture usada en las rutas exige turno 2+.
 
-**Cartas:** Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real, Phaser del Rebelde Real, Gelatina Defensiva
+**Cartas:** Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real, Phaser del Rebelde Real, Gelatina Defensiva, Agujero Trampa
 
-1. Identifica qué jefe necesitarás y qué Demonios de Nivel alto puedes convertir en materiales.
-2. Si no puedes reunir dos Tributos legales, conserva los jefes y prepara defensa de manera legal.
-3. Reserva la línea completa de Hard Rock Overture para el turno permitido con las tres cartas requeridas.
+1. Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior.
+2. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito.
+3. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida.
 
-**Resultado esperado:** Una preparación para el siguiente turno, sin prometer una Invocación por Sacrificio que todavía no puede realizarse.
+**Resultado esperado:** Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes.
 
 **Recursos que conservar:** Los tres Demonios de la apertura y Phaser si se puede emplear después.
 
@@ -42,7 +43,7 @@
 
 1. Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK.
 2. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto.
-3. Envía el jefe elegido por la Skill, coloca los otros dos, recupera al elegido y Sacrifícalos para su Invocación.
+3. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio.
 
 **Resultado esperado:** Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto.
 
@@ -94,7 +95,7 @@
 
 **Cartas:** Phaser del Rebelde Real, Canjear, Heavy Metal del Rebelde Real, Gelatina Defensiva, Agujero Trampa
 
-1. Si tienes Canjear y un Nivel 8 elegible, valora el intercambio de mano sin presuponer qué vas a robar.
+1. Si tienes Canjear y un monstruo de Nivel 8 elegible, envíalo de mano al Cementerio como requisito y roba dos cartas. Decide con las cartas que realmente obtuviste.
 2. Reserva Phaser hasta controlar un Demonio de Nivel 7 o superior y tener un objetivo en Cementerio.
 3. Utiliza una defensa disponible si aún no puedes reunir los dos Tributos.
 
@@ -132,7 +133,7 @@
 
 1. Con Heavy, identifica al objetivo de menor Nivel aplicable y calcula su aumento de ATK solo si resuelve.
 2. Con Kheiron, paga el envío de la carta superior y aplica la penetración al Demonio elegido si existe el requisito.
-3. Calcula el daño y respeta el límite de ataques directos de Nivel original 7+ de la Skill.
+3. Si Kheiron tiene 2300 ATK y combate contra un defensor de 500 DEF, la perforación del escenario produce 1800 LP. Respeta también el límite de un ataque directo por monstruo de Nivel original 7+ impuesto por la Skill.
 
 **Resultado esperado:** Heavy alcanza 4100 en el ejemplo de objetivo de 1600 ATK; Kheiron inflige 1800 contra DEF 500 en el caso documentado.
 

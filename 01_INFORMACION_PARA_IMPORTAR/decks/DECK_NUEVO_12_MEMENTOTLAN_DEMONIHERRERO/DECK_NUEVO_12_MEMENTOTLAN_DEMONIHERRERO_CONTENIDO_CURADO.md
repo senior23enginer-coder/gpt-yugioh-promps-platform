@@ -2239,6 +2239,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Resultado de A01:** la prioridad del motor y del puente quedó contrastada con interrupciones reales descritas y tres rivales registrados. No queda una decisión de **identidad o propósito** pendiente de investigar en este apartado con el inventario actual. Si una auditoría posterior de A05–A09 invalida un efecto o ruta utilizada como evidencia, **reabrir únicamente la afirmación A01 dependiente por ID** conforme al módulo 32. Siguiente apartado **solo por nueva petición:** A02; esta ejecución no lo inicia.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -2250,11 +2251,12 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Cartas:** Angbruja, Tatsunootoshigo, Desvantasmas, Dormiveja, Fusión Mementotlán, Rey Creación, Tecuhtlica - Creación Combinada
 
-1. Invoca Angbruja y busca Tatsunootoshigo; Invócalo especialmente.
-2. Destruye Tatsunootoshigo por su propio efecto para enviar Desvantasmas y Dormiveja; revive Desvantasmas y recupera Dormiveja.
-3. Usa Fusión Mementotlán para desarrollar Rey Creación y sigue la ruta de reciclaje de cinco nombres hacia Creación Combinada.
+1. Invoca Normalmente Angbruja, añade Tatsunootoshigo del Deck e Invócalo Especialmente si todos tus monstruos boca arriba son Memento.
+2. Destruye Tatsunootoshigo con su efecto; envía Desvantasmas de Nivel 2 y Dormiveja de Nivel 3 al Cementerio. En una cadena posterior revive Desvantasmas y recupera Dormiveja a mano.
+3. Activa Fusión Mementotlán en Main Phase con tres monstruos Memento: Angbruja y Desvantasmas en Campo y Dormiveja en mano son materiales disponibles para Rey Creación.
+4. Al Invocar Rey Creación, utiliza su envío de tres cartas Memento de Deck o Extra para preparar nombres y recuperación. Completa la ruta enlazada antes de intentar Invocar Creación Combinada; el requisito es cinco otros nombres distintos en mano y/o Cementerio.
 
-**Resultado esperado:** Dos jefes si la secuencia se resuelve. Rey Creación tiene destrucción condicionada; Creación Combinada puede revivir un Memento disponible en respuesta al rival.
+**Resultado esperado:** Objetivo: Rey Creación (3000 ATK) y Creación Combinada (5000 ATK) si se completa la ruta. Rey Creación puede destruir igual número de monstruos Memento propios y cartas rivales; el jefe de 5000 puede Invocar otro Memento al activarse una carta o efecto rival fuera del Damage Step.
 
 **Recursos que conservar:** Los cinco nombres necesarios hasta invocar el jefe y Maza en Cementerio si la línea la deja allí.
 
@@ -2294,17 +2296,17 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Recursos que conservar:** Goblin en mano cuando quieras proteger al jefe de efectos que seleccionan; Maza y otros nombres para próximos turnos.
 
-**Alternativa:** Si el Cementerio no reúne cinco nombres diferentes, conserva el motor sin forzar la Invocación de Creación Combinada.
+**Alternativa:** Si no hay cinco otros nombres distintos entre mano y Cementerio, conserva los recursos en sus zonas hasta reunirlos; no gastes la Fusión solo para intentar una Invocación imposible.
 
 #### Juego tardío: elegir una amenaza sostenible
 
 **Objetivo:** Reconstruir tras intercambios, evitando agotar todos los nombres en una sola salida.
 
-**Situación:** Puedes volver a reunir cinco nombres Memento en Campo o Cementerio según el procedimiento, o recuperar acceso a una Fusión.
+**Situación:** Creación Combinada disponible en mano o Cementerio; puedes reunir cinco otros monstruos Memento de nombres distintos en mano y/o Cementerio.
 
 **Cartas:** Tecuhtlica - Creación Combinada, Angbruja, Fiesta de Huesos, Rey Creación, Maza
 
-1. Cuenta nombres distintos y comprueba que Creación Combinada esté disponible antes de reciclarlos.
+1. Cuenta cinco otros nombres de monstruo Memento en mano y/o Cementerio; devuélvelos al Deck o Extra para Invocar Creación Combinada desde mano o Cementerio. Los monstruos que siguen en Campo no cuentan.
 2. Si tienes Fiesta de Huesos y los recursos de su apertura, elige la línea de Creación Combinada como único monstruo para presionar en batalla.
 3. Con Rey Creación ya presente, evalúa si conservar una carta Memento para su destrucción rápida vale más que añadir otro cuerpo.
 
@@ -2323,7 +2325,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 **Cartas:** Angbruja, Tatsunootoshigo, Goblin, Maza, Desvantasmas, S:P Pequeña Caballera, Rey Creación
 
 1. Invoca Angbruja y busca Tatsunootoshigo si sigue en Deck.
-2. Si están Goblin, Maza y Desvantasmas en Deck, sigue la apertura de una Angbruja que prepara el doble jefe.
+2. Si puedes enviar Goblin, Maza y Desvantasmas con Tatsunootoshigo, usa Desvantasmas para recuperar Goblin y el efecto de Angbruja para destruirse y revivir Maza; comprueba la ruta completa de una carta antes de gastar la Fusión.
 3. Si faltan las piezas de la ruta extensa pero tienes los dos monstruos de efecto, puedes usar ambos como materiales de S:P.
 
 **Resultado esperado:** Doble jefe solamente si completa la ruta de una carta; en la salida corta, S:P con respuesta temporal condicionada.
@@ -2376,7 +2378,7 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Cartas:** Tatsunootoshigo, Desvantasmas, Tecuhtlica - Creación Combinada, Fiesta de Huesos, Goblin, Fusión Mementotlán
 
-1. Cuenta nombres diferentes, no número de copias; respeta la suma de niveles de los envíos de Tatsunootoshigo.
+1. Cuenta cinco otros monstruos Memento de nombres distintos en mano y/o Cementerio, no cinco copias ni monstruos en Campo; Tatsunootoshigo también exige respetar la suma de niveles de los envíos.
 2. No actives la reanimación opcional de Desvantasmas si con ella pierdes el quinto nombre necesario para Creación Combinada.
 3. Distingue destruir, enviar y Sacrificar; Fusión Mementotlán no concede por sí sola la protección de Quimera asociada a Polimerización.
 

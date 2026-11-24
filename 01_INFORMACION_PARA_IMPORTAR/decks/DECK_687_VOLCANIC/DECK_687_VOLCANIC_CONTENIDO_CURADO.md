@@ -11,26 +11,27 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
-#### Primero: Emperador e Infierno
+#### Primero: preparar Inferno y conservar munición
 
-**Objetivo:** Preparar daño por Invocaciones Especiales rivales y una respuesta de monstruo en su Campo.
+**Objetivo:** Dejar una respuesta concreta a un efecto de monstruo del rival sin necesitar que ya controle uno.
 
-**Situación:** Trooper y Rocket en mano; VBA, Reload, Rimfire, Emperador, Scattershot e Inferno permanecen disponibles.
+**Situación:** Soldado Volcánico (Trooper) y Eyección de Fuego en mano; quedan Infierno Volcánico (Inferno) y al menos dos Cartuchos Volcánicos (Shell) en Deck.
 
-**Cartas:** Volcanic Trooper — Soldado Volcánico, Volcanic Rocket — Misil Volcánico, Volcanic Blaze Accelerator — Acelerador de Llama Volcánico, Blaze Accelerator Reload — Recarga del Acelerador de Llama, Volcanic Scattershot — Disparo Disperso Volcánico, Volcanic Emperor — Emperador Volcánico, Volcanic Inferno — Infierno Volcánico, I:P Masquerena — I:P Enmascarada
+**Cartas:** Volcanic Trooper — Soldado Volcánico, Fire Ejection — Eyección de Fuego, Volcanic Shell — Cartucho Volcánico, Volcanic Inferno — Infierno Volcánico, Volcanic Emperor — Emperador Volcánico, Volcanic Blaze Accelerator — Acelerador de Llama Volcánico, Blaze Accelerator — Acelerador de Llama, Salamangreat Almiraj — Salamangrande Almiraj
 
-1. Sigue la búsqueda de Trooper y Rocket hacia el Acelerador, prepara Reload y envía la munición de Scattershot según la ruta.
-2. Desarrolla Emperador desterrando los recursos Piro requeridos y coloca Inferno mediante su acceso de preparación.
-3. Enlaza Trooper y Rocket hacia I:P, dejando esos Piros en Cementerio para el coste de Inferno.
+1. Invoca Normalmente Soldado Volcánico y añade Infierno Volcánico del Deck; Coloca la Trampa.
+2. Activa Eyección de Fuego para enviar Cartucho Volcánico de Nivel 1 desde Deck al Cementerio; aplica su daño según el Nivel. Con Cartucho en Cementerio, paga 500 LP para buscar otra copia si queda disponible.
+3. En turno rival, cuando active el efecto de un monstruo en Campo, usa Infierno en su ventana legal: destierra Cartucho del Cementerio, inflige 500 LP y puedes negar ese efecto porque desterraste un Volcánico.
 
-**Resultado esperado:** Emperador de 3100 ATK, I:P, VBA e Inferno colocada; la negación se usa durante una activación rival elegible posterior.
+**Resultado esperado:** Soldado en Campo, Infierno preparada y otra copia de Cartucho en mano si la búsqueda resolvió. En la End Phase rival, Infierno puede devolver hasta dos Volcánicos desterrados o en Cementerio al fondo del Deck.
 
-**Recursos que conservar:** Al menos un Piro disponible en Cementerio para Inferno y Emperador en Campo para presión.
+**Recursos que conservar:** Un monstruo Volcánico en Cementerio para pagar Infierno; no basta con cualquier Piro si deseas negar el efecto.
 
-**Alternativa:** Con Gozen en mano, elige la variante de Hiita FUEGO en lugar de I:P OSCURIDAD.
+**Alternativa:** Con Acelerador de Llama Volcánico además de Soldado y Eyección, envía el Acelerador original del Deck al Cementerio, envía Emperador con Eyección y destierra el Acelerador original para Invocar Emperador. Convierte Soldado en Almiraj si quieres dejarlo como munición de Infierno.
 
 #### Segundo: limpiar y retirar Magias/Trampas
 
@@ -40,11 +41,11 @@
 
 **Cartas:** Volcanic Trooper — Soldado Volcánico, Volcanic Rocket — Misil Volcánico, Volcanic Blaze Accelerator — Acelerador de Llama Volcánico, Volcanic Scattershot — Disparo Disperso Volcánico, Knightmare Phoenix — Caballero de Pesadilla Fénix, Volcanic Emperor — Emperador Volcánico, Volcanic Inferno — Infierno Volcánico
 
-1. Usa el motor Acelerador para retirar el monstruo y preparar la munición de Scattershot si sus condiciones se cumplen.
-2. Desarrolla los dos monstruos requeridos para Phoenix; usa su efecto de retirada de Magia/Trampa con el coste apropiado.
-3. Invoca Emperador con los Piros de la línea y coloca Inferno, evitando gastar la única respuesta necesaria para después.
+1. Con Soldado y Misil Volcánico en mano, Invoca Normalmente Soldado, busca Acelerador de Llama Volcánico y actívalo enviando el Acelerador original al Cementerio.
+2. Usa el Acelerador Volcánico para Invocar Misil desde mano y buscar Recarga. Si hay un objetivo boca arriba, usa el otro efecto del Acelerador para enviar Percusión Anular de Nivel 1 y destruir ese monstruo.
+3. Enlaza Soldado + Misil en Caballero de Pesadilla Fénix; descarta Recarga y selecciona una Magia/Trampa rival para destruirla. Recarga en Cementerio permite preparar la interacción de Disparo Disperso si están las tres copias; solo Invoca Emperador si se encuentra en mano o Cementerio y puedes pagar su procedimiento.
 
-**Resultado esperado:** Phoenix y Emperador, con el daño y las cartas retiradas únicamente cuando sus efectos resuelven.
+**Resultado esperado:** Fénix y retirada de una Magia/Trampa si resuelve; el barrido de Disparo Disperso y la Invocación de Emperador son extensiones condicionadas a sus recursos, no consecuencias automáticas.
 
 **Recursos que conservar:** VBA e Inferno para el siguiente turno y cualquier Piro que aún pueda pagar su coste.
 
@@ -59,7 +60,7 @@
 **Cartas:** Volcanic Blaze Accelerator — Acelerador de Llama Volcánico, Volcanic Rimfire — Percusión Anular Volcánica, Volcanic Shell — Cartucho Volcánico, Blaze Accelerator — Acelerador de Llama, Blaze Accelerator Reload — Recarga del Acelerador de Llama
 
 1. Cuando VBA pueda usar su efecto, elige Rimfire para preparar Reload o Shell para conservar recursos de mano.
-2. Con Rimfire, usa la ventana de su efecto y el Acelerador original elegible para colocar Reload según la secuencia.
+2. Con Percusión Anular (Rimfire) en Cementerio, destierra un Acelerador de Llama de Campo boca arriba o Cementerio para poner Recarga boca arriba desde mano o Deck; no la mandes al Cementerio por este efecto.
 3. Con Shell en Cementerio, paga los 500 LP solo si necesitas otra copia de Deck y puedes asumir ese coste.
 
 **Resultado esperado:** Reload preparado o una Shell recuperada, además de la retirada del monstruo si resolvió; no ambos resultados del mismo uso de VBA.
@@ -131,7 +132,7 @@
 **Cartas:** Volcanic Emperor — Emperador Volcánico, Fire Ejection — Eyección de Fuego, Volcanic Scattershot — Disparo Disperso Volcánico, Volcanic Emission — Emisión Volcánica, Volcanic Inferno — Infierno Volcánico
 
 1. Contabiliza el daño real de Scattershot y Ejection conforme a la carta enviada y al efecto resuelto.
-2. Aplica el daño de Emperador solo por los eventos que ocurran; no proyectes un número inventado de Invocaciones Especiales rivales.
+2. Emperador causa 500 LP por cada Piro desterrado para su procedimiento (si eliges ese efecto), y luego 500 LP por cada evento de Invocación Especial rival, aunque ese evento invoque varios monstruos.
 3. Decide si Emission permite una amenaza temporal adicional en el turno rival, o si Inferno es más útil para proteger el campo.
 
 **Resultado esperado:** Presión de daño directo y 3100 ATK de Emperador; el letal requiere sumar únicamente eventos reales.
@@ -149,7 +150,7 @@
 **Cartas:** Volcanic Scattershot — Disparo Disperso Volcánico, Blaze Accelerator Reload — Recarga del Acelerador de Llama, Gozen Match — Emparejamiento de Atributos, Promethean Princess, Bestower of Flames — Princesa Prometea, Volcanic Emperor — Emperador Volcánico, I:P Masquerena — I:P Enmascarada
 
 1. El barrido de Scattershot requiere el envío correspondiente por un Acelerador y otras dos copias disponibles.
-2. Una Inferno o Emission recién colocada no se trata como activada automáticamente ese mismo turno.
+2. Infierno recién Colocada debe esperar una ventana legal. Su efecto solo responde a monstruos en Campo: destierra un Piro del Cementerio, causa 500 LP y solo puede negar si el Piro desterrado era Volcánico.
 3. Con Gozen o el límite de FUEGO de Princesa, revisa Atributos de I:P, S:P y las siguientes Invocaciones.
 
 **Resultado esperado:** Daño, destrucción y Enlaces únicamente cuando las condiciones de cada efecto y restricción se cumplen.

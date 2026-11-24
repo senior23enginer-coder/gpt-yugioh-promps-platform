@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -18,13 +19,13 @@
 
 **Objetivo:** Establecer defensa y preparar la transformación sin gastar la Invocación propia.
 
-**Situación:** Scapegoat disponible y cuatro zonas libres al activarla en turno rival.
+**Situación:** Scapegoat Colocada previamente, cuatro Zonas de Monstruos libres y ninguna otra Invocación ese turno. Conserva Metamorfosis en mano para el siguiente turno propio y Límite de los Mil Ojos en Extra.
 
 **Cartas:** Scapegoat, Metamorfosis, Límite de los Mil Ojos
 
-1. Reserva Scapegoat colocada para una ventana legal del turno rival.
-2. Invoca las cuatro fichas y espera a tu turno antes de usar Metamorfosis.
-3. Sacrifica una ficha superviviente de Nivel 1 para Límite de los Mil Ojos.
+1. Durante el turno rival, activa Scapegoat en una ventana válida; Invoca cuatro fichas Oveja de Nivel 1 en Defensa. No realices otras Invocaciones ese turno.
+2. En tu siguiente Main Phase, si sobrevive al menos una ficha, activa Metamorfosis ofreciendo esa ficha de Nivel 1 como Tributo para Invocar Límite de los Mil Ojos.
+3. Utiliza su efecto de absorción contra un monstruo rival elegible. Conserva las fichas restantes como defensa, sin tratarlas como Tributos de una Invocación por Sacrificio.
 
 **Resultado esperado:** Límite de los Mil Ojos puede absorber un monstruo elegible; quedan hasta tres fichas.
 
@@ -40,9 +41,9 @@
 
 **Cartas:** Scapegoat, Metamorfosis, Límite de los Mil Ojos, Caballero del Aire Parshath, Balter Oscuro el Terrible
 
-1. Si el rival amenaza tu defensa, prepara Scapegoat en su turno con cuatro zonas libres.
+1. Si tienes Scapegoat ya Colocada desde un turno previo, actívala durante el turno rival con cuatro zonas libres; si acabas de robarla, no asumas que puedes activarla desde mano en turno rival.
 2. En tu turno transforma una ficha y selecciona un monstruo que Límite pueda absorber.
-3. Si ya controlas Parshath y puede infligir daño, considera mantenerlo para robar en vez de sacrificarlo.
+3. Si Parshath ya está en Campo, compara la retirada de una amenaza con la opción de atacar a un defensor de menor DEF: su perforación puede generar daño y su efecto permite robar cuando inflige daño de batalla.
 
 **Resultado esperado:** Control de un monstruo rival o presión con robo de Parshath, según la posición.
 
@@ -131,7 +132,7 @@
 **Cartas:** Caridad Grácil, Soldado del Brillo Negro - Enviado del Principio, Caballero del Aire Parshath, Límite de los Mil Ojos
 
 1. Resuelve Caridad Grácil y decide los descartes según las cartas realmente robadas.
-2. Si hay un monstruo LUZ y otro OSCURIDAD elegibles en Cementerio, aplica la condición de Invocación del Soldado desde mano.
+2. Si hay un monstruo LUZ y uno OSCURIDAD elegibles en Cementerio, destierra uno de cada Atributo para Invocar Especialmente al Soldado del Brillo Negro desde mano.
 3. Elige entre desterrar una amenaza o atacar, respetando que la opción de destierro impide atacar ese turno.
 
 **Resultado esperado:** Presión de batalla o eliminación de un objetivo con el Soldado; Parshath puede sostener ventaja por robo.

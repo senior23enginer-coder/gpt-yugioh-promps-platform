@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -22,9 +23,10 @@
 
 **Cartas:** Infernoble Caballero Ogier, Infernoble Caballero Renaud, Infernoble Arms - Durendal, Noble Arms Museum, Angelica, Princess of Noble Arms [Synchro], Infernoble Knight Captain Roland [Synchro]
 
-1. Invoca Ogier y desarrolla Renaud usando la ruta de recuperación del Equipo.
-2. Reúne los niveles correctos de Ogier y Renaud para Angélica; utiliza la búsqueda del Museo conforme a la secuencia.
-3. Conserva los Equipos accesibles y espera la condición de Angélica para que pueda traer Roland.
+1. Invoca Normalmente Ogier de Nivel 4 y usa su disparo para enviar Durendal del Deck al Cementerio.
+2. Como controlas un Guerrero FUEGO, Invoca Renaud de Nivel 1 desde mano por su procedimiento propio; se trata como Cantante. Recupera Durendal de Cementerio con su disparo si resuelve.
+3. Sincroniza Ogier (4) + Renaud (1) para Angélica (5). Utiliza su efecto de Invocación Especial para añadir Museo y gestiona los Equipos conforme a sus requisitos.
+4. Conserva los Equipos; para que Angélica traiga Roland necesita su condición de selección en Campo. No existe Charles todavía.
 
 **Resultado esperado:** Angélica y Museo con recursos para continuar; Roland y Charles no están automáticamente en el Campo.
 
@@ -78,7 +80,7 @@
 
 1. Verifica que Charles esté realmente equipado y que la carta de Enlace permanezca disponible.
 2. Utiliza el procedimiento de Enlace que requiere al Charles equipado.
-3. Resuelve el equipamiento de Charles al nuevo monstruo cuando corresponda y comprueba el recurso necesario para la negación.
+3. Al Invocar Great Charles, selecciona al Charles Sincronía del Cementerio para su efecto de equipamiento. Reserva la Mágica de Equipo que deba enviarse para responder a una activación de Magia/Trampa.
 
 **Resultado esperado:** Great Charles de 3500 ATK con Charles equipado y una respuesta potencial a Magia/Trampa.
 
@@ -148,7 +150,7 @@
 
 **Cartas:** Infernoble Caballero Renaud, Isolde, Two Tales of the Noble Knights [Link], Angelica, Princess of Noble Arms [Synchro], Infernoble Knight Captain Roland [Synchro], Infernoble Knight Emperor Charles [Synchro], Infernoble Arms - Durendal
 
-1. Renaud Invocado por Isolde no se convierte automáticamente en Cantante como por su procedimiento propio desde mano.
+1. Renaud es Cantante si fue Invocado mediante su procedimiento propio desde mano al controlar un Guerrero FUEGO; si Isolde lo Invoca desde Deck, ese cambio de tipo no se aplica.
 2. El Guerrero añadido por el efecto pertinente de Isolde tiene restricciones durante ese turno; no lo uses como si fuera una extensión libre.
 3. Angélica puede traer Roland solo si se abre su condición; para Charles Nivel 9 aún necesitas el material no Cantante exigido.
 

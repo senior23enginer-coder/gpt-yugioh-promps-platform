@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -18,19 +19,19 @@
 
 **Objetivo:** Organizar una Fusión futura sin activar Alchemy Blaze antes del turno permitido.
 
-**Situación:** Turno inicial propio; tienes materiales Piro y Fusión, pero la Skill requiere turno de duelo 2 o posterior.
+**Situación:** Primer turno del duelo, Fusión en mano y materiales Piro accesibles; Alchemy Blaze aún no está disponible. Comprueba si puedes reunir Cromatográfagas + Superasistente Ember o Salamandra Quimicalizada + Superasistente Ember boca arriba.
 
-**Cartas:** Cromatográfagas, Superasistente Ember, Fusión, Amparo del Protector Estelar, Gelatina Defensiva
+**Cartas:** Cromatográfagas, Superasistente Ember, Fusión, Salamandra Quimicalizada, Arquero Ígneo Supergráfagas, Salamandra Alquimicalizada, Gelatina Defensiva, Hiperasistente Ember
 
-1. Comprueba si puedes colocar en Campo los materiales de una Fusión con los recursos de la mano.
-2. Si no reúnes los nombres exactos, conserva Fusión y prepara una defensa apropiada.
-3. Reserva Alchemy Blaze para un turno permitido con la construcción y revelación requeridas.
+1. Elige la pareja de materiales de acuerdo con el destino que conservas en Extra: Cromatográfagas + Superasistente para Arquero, o Salamandra Quimicalizada + Superasistente para Salamandra Alquimicalizada.
+2. Si no reúnes la pareja legal, conserva Fusión y utiliza una defensa disponible como Gelatina Defensiva en su ventana correspondiente.
+3. Reserva Alchemy Blaze hasta turno 2 o posterior y revisa los requisitos de construcción, revelación y cartas disponibles en Deck.
 
-**Resultado esperado:** Recursos preservados para una Fusión posterior o una Fusión legal si los materiales ya existen.
+**Resultado esperado:** Preparación defensiva y recursos para el próximo turno. No hay una apertura autónoma de primer turno certificada en las tres rutas actuales.
 
 **Recursos que conservar:** Fusión y los nombres de material que no puedas recuperar inmediatamente.
 
-**Alternativa:** Si no hay materiales, defiende el turno en lugar de atribuir cartas gratuitas a la Skill.
+**Alternativa:** Conserva Hiperasistente para un turno con monstruo rival, cuando pueda desarrollar Salamandra Quimicalizada sin Skill.
 
 #### Segundo: Arquero con Orden Secreta
 
@@ -40,9 +41,9 @@
 
 **Cartas:** Cromatográfagas, Orden Secreta, Superasistente Ember, Fusión, Arquero Ígneo Supergráfagas
 
-1. Aplica Alchemy Blaze revelando Cromatográfagas conforme a los requisitos locales.
+1. Aplica Alchemy Blaze únicamente si la Skill local está habilitada, el turno y la construcción son válidos y su resolución coloca Cromatográfagas en Cementerio y permite disponer de Superasistente y Fusión. Comprueba esos resultados antes de continuar.
 2. Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano.
-3. Activa Fusión con ambos materiales boca arriba para obtener Arquero Ígneo Supergráfagas y resuelve su efecto conforme a la secuencia.
+3. Activa Fusión con Cromatográfagas y Superasistente boca arriba para Invocar Arquero Ígneo Supergráfagas. Aplica su aumento de ATK solo si se cumplen sus condiciones; 5500 corresponde al escenario enlazado.
 
 **Resultado esperado:** Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático.
 
@@ -59,7 +60,7 @@
 **Cartas:** Salamandra Quimicalizada, Hiperasistente Ember, Superasistente Ember, Fusión, Salamandra Alquimicalizada, ¡Atraviesa!
 
 1. Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos.
-2. Invoca Hiperasistente y usa su efecto enviándolo al Cementerio para desarrollar Salamandra.
+2. Invoca Hiperasistente con un monstruo rival presente. Envía Hiperasistente boca arriba al Cementerio como coste y desarrolla Salamandra Quimicalizada únicamente si su efecto resuelve.
 3. Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas.
 
 **Resultado esperado:** Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas.

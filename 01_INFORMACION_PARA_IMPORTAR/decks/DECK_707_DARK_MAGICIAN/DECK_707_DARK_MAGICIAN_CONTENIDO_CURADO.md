@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -20,11 +21,11 @@
 
 **Situación:** Mago Oscuro y Orden Secreta disponibles, o Piedra con Mago Oscuro y Chica Maga Oscura en mano.
 
-**Cartas:** Mago Oscuro, Orden Secreta, Piedra de los Magos Oscuros, Chica Maga Oscura
+**Cartas:** Mago Oscuro, Orden Secreta, Piedra de los Magos Oscuros, Chica Maga Oscura, Mil Cuchillos, Ataque Mágico Oscuro, Hechicero Eliminador Oscuro
 
-1. Si tienes Orden Secreta, usa su Invocación Especial de Mago Oscuro Nivel 7 desde mano.
-2. Si tienes Piedra y ambos Magos, invócalos en dos zonas libres sin Sacrificios.
-3. Conserva Mil Cuchillos o Ataque Mágico Oscuro hasta que exista una amenaza que justifique usarlos.
+1. Con Orden Secreta y Mago Oscuro Normal de Nivel 7 en mano, activa la Magia para Invocarlo Especialmente; gana 700 ATK y protección contra destrucción por Trampas rivales durante ese turno.
+2. Con Piedra de los Magos Oscuros, Mago Oscuro y Chica Maga Oscura en mano, activa Piedra para Invocar ambos en dos zonas libres. No se aplican Sacrificios.
+3. Guarda Mil Cuchillos y Ataque Mágico Oscuro si no hay una amenaza elegible. Ambas exigen controlar un monstruo que tenga el nombre Mago Oscuro.
 
 **Resultado esperado:** Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2.
 
@@ -58,7 +59,7 @@
 
 **Cartas:** Chica Maga Oscura, Mago Oscuro Sabio, Mago Oscuro, Mil Cuchillos, Ataque Mágico Oscuro
 
-1. Revela Chica Maga Oscura para la Skill y excava tres; añade una Magia solo si aparece y eliges hacerlo.
+1. Desde turno 2, con la Skill local Illusion of Execution habilitada y sin usar, revela Chica Maga Oscura y excava tres cartas. Puedes añadir una Magia excavada; las demás van al Cementerio.
 2. Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio.
 3. Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio.
 
@@ -77,7 +78,7 @@
 **Cartas:** Mago Oscuro Sabio, Lily Aniquiladora, Hechicero Eliminador Oscuro, Mil Cuchillos, Ataque Mágico Oscuro
 
 1. Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales.
-2. Sacrifica ambos cuerpos para Invocar al Hechicero de Nivel 7 y envía la carta superior como requisito de su efecto.
+2. Sacrifica Sabio y Lily para la Invocación Normal por Sacrificio de Hechicero Eliminador de Nivel 7 (2500 ATK). Activa su efecto enviando la carta superior del Deck al Cementerio como requisito; su nombre pasa a Mago Oscuro hasta fin de turno.
 3. Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival.
 
 **Resultado esperado:** Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.
@@ -132,7 +133,7 @@
 
 1. Si Piedra permite los dos Magos, establece ambos cuerpos sin contar una bonificación inexistente de Chica Maga.
 2. Elige Mil Cuchillos para el monstruo que bloquea el ataque o Ataque Mágico Oscuro para las Magias y Trampas.
-3. Calcula los ATK efectivos: Orden Secreta da 3200 a Mago Oscuro solo durante ese turno; Piedra deja los valores documentados.
+3. Con Orden Secreta, Mago Oscuro tiene 3200 ATK ese turno. Con Piedra, Mago Oscuro tiene 2500 y Chica Maga 2000 ATK en el ejemplo de Cementerio vacío; calcula los cambios reales y el daño.
 
 **Resultado esperado:** Presión de Mago Oscuro y, cuando procede, Chica Maga Oscura; victoria solo con daño efectivo suficiente.
 

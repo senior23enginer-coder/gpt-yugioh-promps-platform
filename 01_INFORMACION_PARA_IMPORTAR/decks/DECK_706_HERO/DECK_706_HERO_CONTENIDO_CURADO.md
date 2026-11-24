@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -24,7 +25,7 @@
 
 1. Invoca normalmente Avian y Burstinatrix boca arriba usando las reglas Rush.
 2. Activa Fusión con esos dos materiales; elige Llama Wingman o Estallido Wingman, no ambos.
-3. Si escoges Estallido, valora su aumento de ATK pagando el envío de la carta superior conforme al efecto.
+3. Si eliges Estallido Wingman, su efecto permite enviar la carta superior al Cementerio para dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y, cuando proceda, destruir una Magia/Trampa rival.
 
 **Resultado esperado:** Un Wingman de 2100 ATK base; Estallido puede aumentar la fuerza de un Guerrero propio según su efecto.
 
@@ -41,8 +42,8 @@
 **Cartas:** Héroe Elemental Sparkman, Héroe Elemental Avian, Héroe Elemental Burstinatrix, Fusión, Héroe Elemental Voltic Wingman, Héroe Elemental del Estallido Wingman, Héroe Elemental Heliosfera
 
 1. Invoca los tres Normales y fusiona Sparkman con Avian para Voltic Wingman.
-2. Usa la Skill enviando Burstinatrix; aplica la reducción de 600 a Voltic y recupera Fusión según el procedimiento.
-3. Utiliza el efecto de Voltic con los materiales de Cementerio devueltos al Deck para escoger Estallido, Llama o Heliosfera según corresponda.
+2. Usa HERO RUSH RISING bajo sus reglas locales: envía Burstinatrix del Campo al Cementerio, elige Voltic para que pierda 600 ATK/DEF hasta fin de turno y recupera Fusión desde Cementerio conforme a la opción de la Skill.
+3. Usa el efecto de Voltic para devolver Avian + Burstinatrix de Cementerio al Deck si eliges Llama o Estallido, o esos dos + Sparkman si eliges Heliosfera; son destinos alternativos.
 
 **Resultado esperado:** Voltic de 1400 ATK temporal y una segunda Fusión elegida; Heliosfera puede robar y destruir solo si su condición se cumple.
 
@@ -60,7 +61,7 @@
 
 1. Recuenta los nombres de Cementerio antes de aplicar el efecto de Voltic.
 2. Si necesitas dos materiales, elige Llama o Estallido conforme al Campo rival.
-3. Si eliges Heliosfera, utiliza los tres nombres; verifica al menos diez cartas en Deck para el robo documentado.
+3. Para Heliosfera, devuelve Sparkman, Avian y Burstinatrix al Deck. Si quedan al menos diez cartas en Deck en el momento exigido, puedes robar; solo si sale un monstruo podrá aplicarse la destrucción indicada.
 
 **Resultado esperado:** Una segunda Fusión y reciclaje de los materiales usados, sin sumar otros destinos a la misma activación.
 
@@ -78,7 +79,7 @@
 
 1. Invoca los tres Héroes Normales y usa la primera Fusión para Llama Wingman.
 2. Usa la segunda Fusión con Llama Wingman y Sparkman que permanecen boca arriba.
-3. Cuenta los Guerreros de Cementerio para calcular el ATK real de Shining Flare.
+3. En el ejemplo con Avian, Burstinatrix, Sparkman y Llama Wingman en Cementerio, Shining Flare suma 4 × 300 ATK a sus 2500 base; si cambia el número de Guerreros, recalcula el ATK.
 
 **Resultado esperado:** Shining Flare de 3700 ATK en el ejemplo con cuatro Guerreros en Cementerio, sin daño por la mera Invocación.
 

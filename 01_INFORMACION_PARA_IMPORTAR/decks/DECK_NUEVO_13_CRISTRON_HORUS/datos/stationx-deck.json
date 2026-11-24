@@ -6909,9 +6909,9 @@
             "actions": [
               "Invoca Smiger normalmente y destrúyelo con su propio efecto para traer Citree del Deck.",
               "Termina el turno con Citree en Campo y Smiger en Cementerio, sin presentar Hagoita como ya Invocada.",
-              "En el turno rival y en la ventana de Citree, usa Smiger y Citree como materiales para Hagoita."
+              "Durante la Main Phase o Battle Phase rival, activa Citree: selecciona Smiger en Cementerio, Invócalo con efectos negados y, tras resolver, sincroniza únicamente Citree (2) y Smiger (3) para Hagoita (5). Ambos materiales son desterrados."
             ],
-            "expected_result": "Hagoita en Campo si la reacción se resuelve; ambos materiales se destierran por el efecto de Citree. No es una negación universal.",
+            "expected_result": "Hagoita (2000 ATK) en Campo si Citree resuelve. Su Efecto Rápido Sacrifica a Hagoita para subir en 1 los Niveles de todos los monstruos que estén en Campo; sirve para alterar cálculos de Nivel, no para negar efectos ni cambiar Rangos Xyz.",
             "resources_to_keep": "Citree en Campo y Smiger en Cementerio; respeta el límite de un efecto de Smiger por turno.",
             "alternative": "Con Tristaros disponible, puedes preparar Elesqueletus como respuesta a una activación rival.",
             "related_route_ids": [
@@ -6935,9 +6935,9 @@
               13826
             ],
             "actions": [
-              "Con Inclusión y Sulfador, desarrolla Citree de Nivel 2 y Sulfador de Nivel 5 mediante la ruta de recuperación.",
+              "Activa Inclusión, busca Smiger y usa su Normal y destrucción para traer Citree; Sulfador destruye Inclusión desde mano e Invócalo de Nivel 5. Destierra Inclusión para recuperar Smiger.",
               "Si necesitas combatir una amenaza, elige Destructor Samurái como Sincronía Máquina de Nivel 7; no recupera Inclusión como Elesqueletus.",
-              "Si la mano permite el motor Horus y aún no hay bloqueo incompatible, reúne Amset y Hapi para Número 90, que responde a efectos de monstruo."
+              "Como rama separada, envía Amset y Hapi de mano al Cementerio para buscar Sarcófago. Actívalo y retorna ambos Horus por sus procedimientos propios; superpón los dos Nivel 8 para Número 90 si el Extra no está bloqueado."
             ],
             "expected_result": "Destructor Samurái para combate o Número 90 con dos materiales para interacción; son salidas distintas, no un campo combinado garantizado.",
             "resources_to_keep": "Sarcófago, materiales Xyz o Inclusión según el motor que elijas.",
@@ -6961,9 +6961,9 @@
               20778
             ],
             "actions": [
-              "Activa Inclusión para buscar Smiger; destruye Smiger para traer Citree.",
-              "Usa Sulfador para destruir Inclusión y desarrollar el cuerpo de Nivel 5; prepara los envíos pertinentes al Cementerio.",
-              "Usa el efecto de Cementerio de Inclusión para recuperar Smiger y sincroniza Citree con Sulfador hacia Elesqueletus; aprovecha la recuperación permitida de Inclusión."
+              "Activa Inclusión y busca Smiger; Invócalo Normalmente, destrúyelo con su efecto y trae Citree del Deck.",
+              "Desde mano, selecciona Inclusión con Sulfador; destrúyela, Invoca Sulfador de Nivel 5 y, si procede, envía Tristaros y Thystvern de nombres distintos desde Deck al Cementerio.",
+              "Destierra Inclusión desde Cementerio para Invocar Smiger; sincroniza Citree (2) + Sulfador (5) hacia Elesqueletus (7). Utiliza su efecto de recuperación para añadir Inclusión desterrada a mano."
             ],
             "expected_result": "Elesqueletus y Smiger en Campo, Inclusión recuperada a mano si toda la secuencia resuelve.",
             "resources_to_keep": "Los Cantantes que sigan disponibles, Inclusión para el siguiente turno y los límites por nombre.",
@@ -7092,7 +7092,7 @@
               10870
             ],
             "actions": [
-              "Si usaste Smiger en Campo, no uses su búsqueda de Cementerio ese mismo turno y limita el Extra a Sincronías Máquina.",
+              "Si usaste el efecto de Smiger en Campo, no uses su búsqueda del Cementerio ese turno. Su activación impone Sincronías Máquina desde el Extra por el resto del turno.",
               "El bloqueo de Sulfador permite Máquinas desde Extra, pero no elimina el bloqueo más estricto de Smiger.",
               "El efecto reactivo de Tristaros trae un material que debe utilizarse en la Sincronía; la activación rival original no queda negada por ese procedimiento."
             ],

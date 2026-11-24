@@ -27938,30 +27938,30 @@
         "sections": [
           {
             "id": "first",
-            "title": "Primero: Emperador e Infierno",
-            "objective": "Preparar daño por Invocaciones Especiales rivales y una respuesta de monstruo en su Campo.",
-            "situation": "Trooper y Rocket en mano; VBA, Reload, Rimfire, Emperador, Scattershot e Inferno permanecen disponibles.",
+            "title": "Primero: preparar Inferno y conservar munición",
+            "objective": "Dejar una respuesta concreta a un efecto de monstruo del rival sin necesitar que ya controle uno.",
+            "situation": "Soldado Volcánico (Trooper) y Eyección de Fuego en mano; quedan Infierno Volcánico (Inferno) y al menos dos Cartuchos Volcánicos (Shell) en Deck.",
             "card_cids": [
               18916,
-              7243,
-              18918,
-              11597,
-              7083,
-              18915,
+              18919,
+              7082,
               18921,
-              14676
+              18915,
+              18918,
+              7086,
+              14338
             ],
             "actions": [
-              "Sigue la búsqueda de Trooper y Rocket hacia el Acelerador, prepara Reload y envía la munición de Scattershot según la ruta.",
-              "Desarrolla Emperador desterrando los recursos Piro requeridos y coloca Inferno mediante su acceso de preparación.",
-              "Enlaza Trooper y Rocket hacia I:P, dejando esos Piros en Cementerio para el coste de Inferno."
+              "Invoca Normalmente Soldado Volcánico y añade Infierno Volcánico del Deck; Coloca la Trampa.",
+              "Activa Eyección de Fuego para enviar Cartucho Volcánico de Nivel 1 desde Deck al Cementerio; aplica su daño según el Nivel. Con Cartucho en Cementerio, paga 500 LP para buscar otra copia si queda disponible.",
+              "En turno rival, cuando active el efecto de un monstruo en Campo, usa Infierno en su ventana legal: destierra Cartucho del Cementerio, inflige 500 LP y puedes negar ese efecto porque desterraste un Volcánico."
             ],
-            "expected_result": "Emperador de 3100 ATK, I:P, VBA e Inferno colocada; la negación se usa durante una activación rival elegible posterior.",
-            "resources_to_keep": "Al menos un Piro disponible en Cementerio para Inferno y Emperador en Campo para presión.",
-            "alternative": "Con Gozen en mano, elige la variante de Hiita FUEGO en lugar de I:P OSCURIDAD.",
+            "expected_result": "Soldado en Campo, Infierno preparada y otra copia de Cartucho en mano si la búsqueda resolvió. En la End Phase rival, Infierno puede devolver hasta dos Volcánicos desterrados o en Cementerio al fondo del Deck.",
+            "resources_to_keep": "Un monstruo Volcánico en Cementerio para pagar Infierno; no basta con cualquier Piro si deseas negar el efecto.",
+            "alternative": "Con Acelerador de Llama Volcánico además de Soldado y Eyección, envía el Acelerador original del Deck al Cementerio, envía Emperador con Eyección y destierra el Acelerador original para Invocar Emperador. Convierte Soldado en Almiraj si quieres dejarlo como munición de Infierno.",
             "related_route_ids": [
-              "687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01",
-              "687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04"
+              "687:A09:V11:TROOPER:EJECTION:SHELL:INFERNO",
+              "687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05"
             ]
           },
           {
@@ -27979,11 +27979,11 @@
               18921
             ],
             "actions": [
-              "Usa el motor Acelerador para retirar el monstruo y preparar la munición de Scattershot si sus condiciones se cumplen.",
-              "Desarrolla los dos monstruos requeridos para Phoenix; usa su efecto de retirada de Magia/Trampa con el coste apropiado.",
-              "Invoca Emperador con los Piros de la línea y coloca Inferno, evitando gastar la única respuesta necesaria para después."
+              "Con Soldado y Misil Volcánico en mano, Invoca Normalmente Soldado, busca Acelerador de Llama Volcánico y actívalo enviando el Acelerador original al Cementerio.",
+              "Usa el Acelerador Volcánico para Invocar Misil desde mano y buscar Recarga. Si hay un objetivo boca arriba, usa el otro efecto del Acelerador para enviar Percusión Anular de Nivel 1 y destruir ese monstruo.",
+              "Enlaza Soldado + Misil en Caballero de Pesadilla Fénix; descarta Recarga y selecciona una Magia/Trampa rival para destruirla. Recarga en Cementerio permite preparar la interacción de Disparo Disperso si están las tres copias; solo Invoca Emperador si se encuentra en mano o Cementerio y puedes pagar su procedimiento."
             ],
-            "expected_result": "Phoenix y Emperador, con el daño y las cartas retiradas únicamente cuando sus efectos resuelven.",
+            "expected_result": "Fénix y retirada de una Magia/Trampa si resuelve; el barrido de Disparo Disperso y la Invocación de Emperador son extensiones condicionadas a sus recursos, no consecuencias automáticas.",
             "resources_to_keep": "VBA e Inferno para el siguiente turno y cualquier Piro que aún pueda pagar su coste.",
             "alternative": "Si no hay Magia/Trampa que justifique Phoenix, conserva los cuerpos o elige una retirada diferente.",
             "related_route_ids": [
@@ -28004,7 +28004,7 @@
             ],
             "actions": [
               "Cuando VBA pueda usar su efecto, elige Rimfire para preparar Reload o Shell para conservar recursos de mano.",
-              "Con Rimfire, usa la ventana de su efecto y el Acelerador original elegible para colocar Reload según la secuencia.",
+              "Con Percusión Anular (Rimfire) en Cementerio, destierra un Acelerador de Llama de Campo boca arriba o Cementerio para poner Recarga boca arriba desde mano o Deck; no la mandes al Cementerio por este efecto.",
               "Con Shell en Cementerio, paga los 500 LP solo si necesitas otra copia de Deck y puedes asumir ese coste."
             ],
             "expected_result": "Reload preparado o una Shell recuperada, además de la retirada del monstruo si resolvió; no ambos resultados del mismo uso de VBA.",
@@ -28104,7 +28104,7 @@
             ],
             "actions": [
               "Contabiliza el daño real de Scattershot y Ejection conforme a la carta enviada y al efecto resuelto.",
-              "Aplica el daño de Emperador solo por los eventos que ocurran; no proyectes un número inventado de Invocaciones Especiales rivales.",
+              "Emperador causa 500 LP por cada Piro desterrado para su procedimiento (si eliges ese efecto), y luego 500 LP por cada evento de Invocación Especial rival, aunque ese evento invoque varios monstruos.",
               "Decide si Emission permite una amenaza temporal adicional en el turno rival, o si Inferno es más útil para proteger el campo."
             ],
             "expected_result": "Presión de daño directo y 3100 ATK de Emperador; el letal requiere sumar únicamente eventos reales.",
@@ -28130,7 +28130,7 @@
             ],
             "actions": [
               "El barrido de Scattershot requiere el envío correspondiente por un Acelerador y otras dos copias disponibles.",
-              "Una Inferno o Emission recién colocada no se trata como activada automáticamente ese mismo turno.",
+              "Infierno recién Colocada debe esperar una ventana legal. Su efecto solo responde a monstruos en Campo: destierra un Piro del Cementerio, causa 500 LP y solo puede negar si el Piro desterrado era Volcánico.",
               "Con Gozen o el límite de FUEGO de Princesa, revisa Atributos de I:P, S:P y las siguientes Invocaciones."
             ],
             "expected_result": "Daño, destrucción y Enlaces únicamente cuando las condiciones de cada efecto y restricción se cumplen.",

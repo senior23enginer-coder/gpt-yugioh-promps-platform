@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -22,11 +23,12 @@
 
 **Cartas:** Elfnote Lucina, Elfnote Tinia, Elfnote Regina, Elfnote Fortuna, Elfnotes: Welcome Home, Elfnotes: Rhapsodia of Madness
 
-1. Invoca Lucina mediante su acceso a la zona central y busca la pieza Elfnote que falte.
-2. Desarrolla Regina y Fortuna siguiendo la ruta de Lucina; coloca los soportes mediante los efectos que correspondan.
-3. Deja a Regina en el centro y a Fortuna en una lateral; comprueba que las Continuas estén boca arriba.
+1. Invoca Especialmente Lucina a la zona central mediante su procedimiento, activa su efecto en Main Phase y añade Regina del Deck.
+2. Desde mano, Regina envía Lucina del centro al Cementerio como coste y se Invoca al centro. Su efecto al llegar allí trae Tinia del Deck a una zona lateral.
+3. Tinia pone Welcome Home boca arriba desde el Deck. Envía Tinia AGUA con ese soporte para Invocar Fortuna LUZ en otra zona lateral; el Extra queda limitado a Sincronías.
+4. Con Fortuna, aplica su efecto de colocar Rhapsodia conforme a la ruta; comprueba que Regina quede en el centro y que ambos soportes estén boca arriba.
 
-**Resultado esperado:** Regina central, Fortuna lateral, Welcome Home y Rhapsodia; protección y control de ataques según sus condiciones, Normal sin gastar.
+**Resultado esperado:** Regina central de 2000 ATK, Fortuna lateral de 1800 DEF, Welcome Home y Rhapsodia. La Normal sigue libre. El centro recibe protección de destrucción por efecto mientras Welcome Home aplica; Rhapsodia condiciona los ataques del rival.
 
 **Recursos que conservar:** Zona central, una carta Elfnote para los efectos posteriores y los distintos Atributos que requiere Welcome Home.
 
@@ -40,7 +42,7 @@
 
 **Cartas:** Elfnote Lucina, Elfnote Power Patron, Elfnote Seraphim Strelitzia [Synchro], Arcanite Magician [Synchro]
 
-1. Desarrolla Lucina y Power Patron respetando niveles, zonas y restricciones de la ruta.
+1. Con Lucina en mano y centro libre, Invócala Especialmente y busca Power Patron; Invoca Normalmente al Cantante Nivel 1 para combinarlo con Lucina Nivel 6.
 2. Si necesitas retirar una carta, considera Arcanite con sus contadores; cada contador gastado reduce su ATK.
 3. Si conviene presión, sincroniza hacia Strelitzia y colócala en el centro para aprovechar los 3000 ATK.
 
@@ -76,7 +78,7 @@
 
 **Cartas:** Elfnote Lucina, Elfnote Tinia, Elfnote Power Patron, Elfnote Regina, Elfnotes: Welcome Home, Junora the Power Patron of Tuning [Synchro]
 
-1. Sigue la línea de Lucina y Tinia para reunir los materiales reales de Junora.
+1. Con Lucina y Tinia en mano, Invoca Lucina al centro y busca Power Patron. Invoca Normalmente Patron en una lateral; usa 6 + 1 para Strelitzia y busca Regina con Patron si resuelve.
 2. Aprovecha el incremento de Nivel del Patron solo en el monstruo que exige la ruta.
 3. Mantén Welcome Home para proteger al monstruo central de destrucción por efecto; revisa las columnas antes de usar Junora.
 

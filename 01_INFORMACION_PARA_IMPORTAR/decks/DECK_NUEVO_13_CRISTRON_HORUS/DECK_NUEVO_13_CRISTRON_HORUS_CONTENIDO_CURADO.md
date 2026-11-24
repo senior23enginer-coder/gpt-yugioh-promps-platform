@@ -26,6 +26,7 @@
 
 **Evidencia de importación pendiente:** los seis campos corresponden exactamente a `record.profile` del paquete estructurado; este dossier no afirma publicación en producción ni ejecución del motor.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -39,9 +40,9 @@
 
 1. Invoca Smiger normalmente y destrúyelo con su propio efecto para traer Citree del Deck.
 2. Termina el turno con Citree en Campo y Smiger en Cementerio, sin presentar Hagoita como ya Invocada.
-3. En el turno rival y en la ventana de Citree, usa Smiger y Citree como materiales para Hagoita.
+3. Durante la Main Phase o Battle Phase rival, activa Citree: selecciona Smiger en Cementerio, Invócalo con efectos negados y, tras resolver, sincroniza únicamente Citree (2) y Smiger (3) para Hagoita (5). Ambos materiales son desterrados.
 
-**Resultado esperado:** Hagoita en Campo si la reacción se resuelve; ambos materiales se destierran por el efecto de Citree. No es una negación universal.
+**Resultado esperado:** Hagoita (2000 ATK) en Campo si Citree resuelve. Su Efecto Rápido Sacrifica a Hagoita para subir en 1 los Niveles de todos los monstruos que estén en Campo; sirve para alterar cálculos de Nivel, no para negar efectos ni cambiar Rangos Xyz.
 
 **Recursos que conservar:** Citree en Campo y Smiger en Cementerio; respeta el límite de un efecto de Smiger por turno.
 
@@ -55,9 +56,9 @@
 
 **Cartas:** Inclusión Cristron, Cristron Sulfador, Cristron Smiger, Cristron Citree, Destructor Samurái, Amset, Gloria de Horus, Hapi, Guía de Horus, Número 90: Señor Fotónico de Ojos Galácticos
 
-1. Con Inclusión y Sulfador, desarrolla Citree de Nivel 2 y Sulfador de Nivel 5 mediante la ruta de recuperación.
+1. Activa Inclusión, busca Smiger y usa su Normal y destrucción para traer Citree; Sulfador destruye Inclusión desde mano e Invócalo de Nivel 5. Destierra Inclusión para recuperar Smiger.
 2. Si necesitas combatir una amenaza, elige Destructor Samurái como Sincronía Máquina de Nivel 7; no recupera Inclusión como Elesqueletus.
-3. Si la mano permite el motor Horus y aún no hay bloqueo incompatible, reúne Amset y Hapi para Número 90, que responde a efectos de monstruo.
+3. Como rama separada, envía Amset y Hapi de mano al Cementerio para buscar Sarcófago. Actívalo y retorna ambos Horus por sus procedimientos propios; superpón los dos Nivel 8 para Número 90 si el Extra no está bloqueado.
 
 **Resultado esperado:** Destructor Samurái para combate o Número 90 con dos materiales para interacción; son salidas distintas, no un campo combinado garantizado.
 
@@ -73,9 +74,9 @@
 
 **Cartas:** Inclusión Cristron, Cristron Sulfador, Cristron Smiger, Cristron Citree, Cristron Elesqueletus
 
-1. Activa Inclusión para buscar Smiger; destruye Smiger para traer Citree.
-2. Usa Sulfador para destruir Inclusión y desarrollar el cuerpo de Nivel 5; prepara los envíos pertinentes al Cementerio.
-3. Usa el efecto de Cementerio de Inclusión para recuperar Smiger y sincroniza Citree con Sulfador hacia Elesqueletus; aprovecha la recuperación permitida de Inclusión.
+1. Activa Inclusión y busca Smiger; Invócalo Normalmente, destrúyelo con su efecto y trae Citree del Deck.
+2. Desde mano, selecciona Inclusión con Sulfador; destrúyela, Invoca Sulfador de Nivel 5 y, si procede, envía Tristaros y Thystvern de nombres distintos desde Deck al Cementerio.
+3. Destierra Inclusión desde Cementerio para Invocar Smiger; sincroniza Citree (2) + Sulfador (5) hacia Elesqueletus (7). Utiliza su efecto de recuperación para añadir Inclusión desterrada a mano.
 
 **Resultado esperado:** Elesqueletus y Smiger en Campo, Inclusión recuperada a mano si toda la secuencia resuelve.
 
@@ -163,7 +164,7 @@
 
 **Cartas:** Cristron Smiger, Cristron Sulfador, Cristron Citree, Cristron Tristaros, Sarcófago del Rey, Amset, Gloria de Horus, Ciber Dragón Nova
 
-1. Si usaste Smiger en Campo, no uses su búsqueda de Cementerio ese mismo turno y limita el Extra a Sincronías Máquina.
+1. Si usaste el efecto de Smiger en Campo, no uses su búsqueda del Cementerio ese turno. Su activación impone Sincronías Máquina desde el Extra por el resto del turno.
 2. El bloqueo de Sulfador permite Máquinas desde Extra, pero no elimina el bloqueo más estricto de Smiger.
 3. El efecto reactivo de Tristaros trae un material que debe utilizarse en la Sincronía; la activación rival original no queda negada por ese procedimiento.
 

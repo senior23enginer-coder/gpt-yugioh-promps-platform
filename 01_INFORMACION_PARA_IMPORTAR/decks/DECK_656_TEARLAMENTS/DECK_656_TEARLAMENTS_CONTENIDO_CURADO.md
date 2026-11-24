@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -18,13 +19,13 @@
 
 **Objetivo:** Obtener una amenaza de Fusión utilizando recursos reales en mano y Cementerio.
 
-**Situación:** Reinoheart en mano, Havnis previamente en Cementerio o en mano según la variante, Scheiren en Deck.
+**Situación:** Reinoheart en mano, Havnis en Cementerio desde una acción anterior, Scheiren en Deck y Caleido-Heart en Extra. Para otras ubicaciones de Havnis consulta la variante correspondiente.
 
 **Cartas:** Tiagrimientos Reinoheart, Tiagrimientos Havnis, Tiagrimientos Scheiren, Tiagrimientos Caleido-Heart
 
-1. Invoca Reinoheart y envía el Tiagrimientos indicado por la ruta desde Deck al Cementerio.
-2. Cuando se dispare su efecto de Fusión por haber sido enviado por efecto, comprueba Reinoheart y los otros dos materiales válidos.
-3. Devuelve los tres materiales al fondo del Deck e Invoca Kaleido-Heart; usa su retirada solo si existe una carta rival elegible.
+1. Invoca Normalmente Reinoheart, activa su efecto y manda Scheiren del Deck al Cementerio por efecto.
+2. En una nueva cadena, Scheiren activa su efecto de Fusión desde Cementerio; reúne a Scheiren y Havnis de Tipo Aqua en Cementerio y a Reinoheart Guerrero en Campo.
+3. Devuelve esos tres al fondo del Deck para Invocar Caleido-Heart. Si el rival controla una carta seleccionable, usa su disparo de Invocación Especial para barajarla al Deck.
 
 **Resultado esperado:** Kaleido-Heart de 3000 ATK/DEF, materiales reciclados; no se promete una negación ni una Fusión adicional.
 
@@ -40,7 +41,7 @@
 
 **Cartas:** Súper Polimerización, Garura, Alas de Vida Resonante, Predaplanta Dragostapelia, Fangodragón del Pantano
 
-1. Observa nombres, Tipos y Atributos de ambos monstruos; elige la Fusión cuyos materiales coincidan.
+1. Para Garura, busca dos monstruos del mismo Tipo y Atributo, pero de nombres distintos; para Fangodragón, mismo Atributo y Tipos distintos; para Dragostapelia, un monstruo de Fusión y otro OSCURIDAD.
 2. Paga la carta adicional de mano al activar Súper Polimerización; utiliza únicamente materiales disponibles y permitidos.
 3. Después de la Fusión, conserva la Normal para Reinoheart si sigue en mano y valora la interacción real del monstruo obtenido.
 
@@ -76,7 +77,7 @@
 
 **Cartas:** Demoniherrero Grabador, Tracto del Demoniherrero, Fabuloso Lurrie, Réquiem del Demoniherrero, Lácrima las Lágrimas Carmesíes, Secuencia del Demoniherrero, Lácrima del Demoniherrero
 
-1. Descarta Grabador para buscar Tracto y utiliza Tracto con Lurrie para abrir el Enlace Réquiem.
+1. Descarta Grabador para buscar Tracto; activa Tracto, añade Lurrie del Deck y descártalo durante la resolución. Cuando Lurrie se Invoque desde Cementerio, úsalo como material de Réquiem.
 2. Usa Réquiem y el retorno de Grabador para reunir los cuerpos exigidos por Secuencia.
 3. Fusiona mediante Secuencia con los materiales del Cementerio indicados; conserva la Normal para otro motor.
 

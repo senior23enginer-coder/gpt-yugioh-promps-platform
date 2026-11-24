@@ -11,6 +11,7 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+
 <!-- A01_PLAYER_STRATEGY_V2_START -->
 ### Plan práctico de juego
 
@@ -22,9 +23,9 @@
 
 **Cartas:** Cyber Dragon Core, Cyberdark Wurm [Konami 21164], Cyber Revsystem, Cyber Dragon, Cyber Dragon Nova (Konami ID 10870), Cyber Dragon Infinity (Konami ID 11765), Cybernetic Overflow
 
-1. Invoca Core y sigue su búsqueda y la extensión con Wurm y Revsystem para reunir dos Nivel 5.
-2. Superpón los cuerpos de Nivel 5 para Nova y utiliza su procedimiento de ascenso hacia Infinity.
-3. Conserva Core y coloca Overflow si la búsqueda y los recursos de la secuencia lo permiten.
+1. Invoca Normalmente Core y busca Cybernetic Overflow del Deck.
+2. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original.
+3. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow.
 
 **Resultado esperado:** Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas.
 
@@ -94,11 +95,11 @@
 
 **Cartas:** Cyber Dragon, Cyber Dragon Nachster, Cyber Dragon Sieger, Cyber Dragon Core, Cyber Emergency, S:P Little Knight
 
-1. Usa Cyber Dragon y Nachster según la apertura documentada para reunir dos Máquinas elegibles.
-2. Enlaza los dos cuerpos hacia Sieger, manteniendo la Normal si la línea la deja libre.
+1. Descarta Cyber Dragon original como coste del efecto de Nachster en mano; Invoca Nachster. En nueva cadena selecciona Cyber Dragon de 2100 ATK en Cementerio para revivirlo; desde esa resolución, solo Invocaciones Especiales de Máquinas el resto del turno.
+2. Enlaza ambos monstruos Máquina hacia Sieger, sin gastar la Normal. En Battle Phase, si Sieger no declaró ataque, su efecto puede dar +2100 ATK/DEF a una Máquina propia con al menos 2100 ATK; comprueba la restricción de daño de batalla.
 3. Si en cambio dispones de Cyber Dragon y Core, usa Core para buscar Cyber Emergency y considera la salida defensiva de S:P.
 
-**Resultado esperado:** Sieger con opción de aumento de ATK en batalla, o S:P con respuesta temporal condicionada; no ambos simultáneamente.
+**Resultado esperado:** Sieger (2100 ATK base) y Normal libre tras la línea Nachster. La rama Cyber Dragon + Core hacia S:P es diferente y no debe hacerse bajo el bloqueo Máquina de Nachster.
 
 **Recursos que conservar:** La Normal o Cyber Emergency según la apertura que hayas elegido.
 
@@ -130,7 +131,7 @@
 
 **Cartas:** Chimeratech Rampage Dragon (Konami ID 11764), Power Bond, Overload Fusion, Cyber Dragon Sieger, Limiter Removal
 
-1. Comprueba cuántas Máquinas LUZ envió Rampage realmente y cuántos ataques adicionales obtuvo.
+1. Rampage puede enviar hasta dos Máquinas LUZ desde Deck al Cementerio y obtener un ataque adicional por cada una durante la Battle Phase de ese turno, si su efecto resuelve.
 2. Si fue Invocado por Power Bond, calcula su ATK aumentado y el daño que recibirás en End Phase si no terminas el duelo.
 3. Antes de usar Sieger o Limiter Removal, comprueba sus condiciones y calcula el daño después de defensas y restricciones.
 
