@@ -29,3 +29,228 @@ CID, zonas, referencias y route_id cotejados contra registro versionado. No se a
 - [x] T5: misma CI, job 138046988317, commit Platform `47c7552b61e446ec932d72fdbb7291cd95317967`: ISOLATED_PASS de importación/exportación/reimportación, 20 fotografías, nueve registros de ruta, ocho rechazos e inventario conservado. Presentación a 390 y 1280 px PASS; job finalizado exitosamente.
 
 Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
+
+## Revisión funcional 2 — ocho lecciones propuestas
+
+Redacción individual basada en inventario y aperturas/resultados del paquete real, con condiciones y alternativas. No se modifica ningún efecto ni ruta; enlaces oficiales para cotejo. El nuevo cierre queda pendiente de la aplicación del contrato, verificación semántica completa y prueba real de interfaz.
+
+- first: cartas [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Orden Secreta](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2), [Piedra de los Magos Oscuros](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2), [Chica Maga Oscura](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2); rutas fuente `707:A09:SECRETORDER:DM01`, `707:A09:JEWEL:PAIR01`.
+- second: cartas [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Orden Secreta](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2); rutas fuente `707:A09:SECRETORDER:DM01`, `707:A09:SECRETORDER:DM:KNIVES02`.
+- mid: cartas [Chica Maga Oscura](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2), [Mago Oscuro Sabio](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2), [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2); rutas fuente `707:A09:ILLUSION:SAGE01`, `707:A09:ILLUSION:SAGE:KNIVES02`.
+- late: cartas [Mago Oscuro Sabio](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2), [Lily Aniquiladora](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2), [Hechicero Eliminador Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2); rutas fuente `707:A09:EXECUTOR:KNIVES01`, `707:A09:EXECUTOR:DARKMAGIC01`.
+- weak_hand: cartas [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2), [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Hechicero Eliminador Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2), [Piedra de los Magos Oscuros](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2), [Mago Oscuro Sabio](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2); rutas fuente `707:A09:ILLUSION:SAGE:KNIVES02`, `707:A09:JEWEL:PAIR01`.
+- disruption: cartas [Orden Secreta](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2), [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Mago Oscuro Sabio](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2), [Hechicero Eliminador Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2); rutas fuente `707:A09:SECRETORDER:DM:KNIVES02`, `707:A09:ILLUSION:SAGE:KNIVES02`.
+- win_condition: cartas [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Chica Maga Oscura](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2), [Orden Secreta](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2), [Piedra de los Magos Oscuros](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2); rutas fuente `707:A09:JEWEL:PAIR:KNIVES03`, `707:A09:SECRETORDER:DM01`.
+- common_errors: cartas [Mago Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2), [Hechicero Eliminador Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2), [Mil Cuchillos](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2), [Ataque Mágico Oscuro](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2), [Gaia el Campeón Dragón Rápido](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2), [Gaia el Campeón Dragón](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2), [Gaia, el Conquistador de Campeones](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2); rutas fuente `707:A09:ILLUSION:SAGE01`, `707:A09:EXECUTOR:DARKMAGIC01`, `707:A09:SECRETORDER:DM01`.
+
+<!-- A01_ESTRATEGIA_REVISADA -->
+```json
+{
+  "schema": "station-x-player-strategy/1",
+  "sections": [
+    {
+      "id": "first",
+      "title": "Primero: preparar el nombre de Mago Oscuro",
+      "objective": "Establecer presión con el monstruo correcto sin activar la Skill antes del turno permitido.",
+      "situation": "Mago Oscuro y Orden Secreta disponibles, o Piedra con Mago Oscuro y Chica Maga Oscura en mano.",
+      "card_cids": [
+        15410,
+        17212,
+        19598,
+        16371
+      ],
+      "actions": [
+        "Si tienes Orden Secreta, usa su Invocación Especial de Mago Oscuro Nivel 7 desde mano.",
+        "Si tienes Piedra y ambos Magos, invócalos en dos zonas libres sin Sacrificios.",
+        "Conserva Mil Cuchillos o Ataque Mágico Oscuro hasta que exista una amenaza que justifique usarlos."
+      ],
+      "expected_result": "Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2.",
+      "resources_to_keep": "La Skill para una ocasión posterior y las Magias de retirada.",
+      "alternative": "Si Mago Oscuro no está accesible, prepara cuerpos para Hechicero Eliminador o reserva la defensa disponible.",
+      "related_route_ids": [
+        "707:A09:SECRETORDER:DM01",
+        "707:A09:JEWEL:PAIR01"
+      ]
+    },
+    {
+      "id": "second",
+      "title": "Segundo: retirar monstruos o Magias y Trampas",
+      "objective": "Seleccionar la Magia de limpieza según el obstáculo real del adversario.",
+      "situation": "Mago Oscuro y Orden Secreta en mano; Mil Cuchillos o Ataque Mágico Oscuro según el objetivo.",
+      "card_cids": [
+        15410,
+        17212,
+        15450,
+        15451
+      ],
+      "actions": [
+        "Activa Orden Secreta para Invocar Mago Oscuro y comprueba el aumento de 700 ATK de ese turno.",
+        "Si necesitas eliminar un monstruo elegible, usa Mil Cuchillos con Mago Oscuro boca arriba.",
+        "Si necesitas limpiar Magias y Trampas rivales, utiliza Ataque Mágico Oscuro en lugar de presumir la otra Magia."
+      ],
+      "expected_result": "Mago Oscuro de 3200 ATK temporal y la retirada que haya resuelto; la Normal permanece disponible.",
+      "resources_to_keep": "Una Magia de retirada para otro turno si no es necesaria ahora.",
+      "alternative": "Si falta Mago Oscuro, considera la línea de Hechicero Eliminador con dos materiales.",
+      "related_route_ids": [
+        "707:A09:SECRETORDER:DM01",
+        "707:A09:SECRETORDER:DM:KNIVES02"
+      ]
+    },
+    {
+      "id": "mid",
+      "title": "Juego medio: Sabio e Illusion of Execution",
+      "objective": "Recuperar acceso a Mago Oscuro desde Cementerio sin inventar las cartas excavadas.",
+      "situation": "Turno 2+, Skill local sin usar, Chica Maga Oscura y Sabio en mano, Mago Oscuro en Deck y al menos tres cartas para excavar.",
+      "card_cids": [
+        16371,
+        19597,
+        15410,
+        15450,
+        15451
+      ],
+      "actions": [
+        "Revela Chica Maga Oscura para la Skill y excava tres; añade una Magia solo si aparece y eliges hacerlo.",
+        "Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio.",
+        "Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio."
+      ],
+      "expected_result": "Mago Oscuro y Sabio en Campo; la Magia excavada y el robo dependen de las cartas reales.",
+      "resources_to_keep": "La Magia de retirada adecuada que permanezca en mano.",
+      "alternative": "Si ya usaste la Skill o no cumples su construcción local, considera Orden Secreta o el jefe de Sacrificio.",
+      "related_route_ids": [
+        "707:A09:ILLUSION:SAGE01",
+        "707:A09:ILLUSION:SAGE:KNIVES02"
+      ]
+    },
+    {
+      "id": "late",
+      "title": "Juego tardío: usar el nombre temporal del Hechicero",
+      "objective": "Sustituir el acceso al único Mago Oscuro LEGEND cuando no esté disponible.",
+      "situation": "Sabio, Lily Aniquiladora, Hechicero Eliminador y la Magia de retirada apropiada en mano.",
+      "card_cids": [
+        19597,
+        20305,
+        19773,
+        15450,
+        15451
+      ],
+      "actions": [
+        "Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales.",
+        "Sacrifica ambos cuerpos para Invocar al Hechicero de Nivel 7 y envía la carta superior como requisito de su efecto.",
+        "Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival."
+      ],
+      "expected_result": "Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.",
+      "resources_to_keep": "Una forma de acceso futuro al nombre correcto cuando termine el cambio de nombre.",
+      "alternative": "Si no puedes cambiar el nombre, conserva la Magia y utiliza el Hechicero como atacante.",
+      "related_route_ids": [
+        "707:A09:EXECUTOR:KNIVES01",
+        "707:A09:EXECUTOR:DARKMAGIC01"
+      ]
+    },
+    {
+      "id": "weak_hand",
+      "title": "Mano débil: conservar la pareja correcta",
+      "objective": "No gastar las Magias de nombre antes de disponer de su habilitador.",
+      "situation": "Tienes Mil Cuchillos o Ataque Mágico Oscuro, pero no controlas Mago Oscuro ni al Hechicero con nombre cambiado.",
+      "card_cids": [
+        15450,
+        15451,
+        15410,
+        19773,
+        19598,
+        19597
+      ],
+      "actions": [
+        "Comprueba si Orden Secreta o Piedra pueden poner un Mago Oscuro real en Campo con la mano actual.",
+        "Si tienes Sabio y los requisitos de Skill, reserva la carta de Nivel alto para la recuperación documentada.",
+        "Si ninguna vía existe, conserva la Magia de retirada y prepara los Lanzadores de Conjuros disponibles."
+      ],
+      "expected_result": "Un acceso legal al nombre correcto si se reúnen las piezas; en caso contrario una defensa de recursos.",
+      "resources_to_keep": "Mil Cuchillos o Ataque Mágico Oscuro hasta que el nombre esté disponible.",
+      "alternative": "Si falta una pieza del acceso, no atribuyas un Mago Oscuro al resultado de una excavación desconocida.",
+      "related_route_ids": [
+        "707:A09:ILLUSION:SAGE:KNIVES02",
+        "707:A09:JEWEL:PAIR01"
+      ]
+    },
+    {
+      "id": "disruption",
+      "title": "Interrupción: verificar el nombre tras la respuesta",
+      "objective": "Evitar activar una Magia de nombre después de perder su condición de activación.",
+      "situation": "Orden Secreta fue negada o el rival retiró el objetivo de Mil Cuchillos.",
+      "card_cids": [
+        17212,
+        15410,
+        15450,
+        19597,
+        19773
+      ],
+      "actions": [
+        "Si Orden Secreta no Invocó Mago Oscuro, no declares Mil Cuchillos desde esa mano mínima.",
+        "Si Sabio ya dejó a Mago Oscuro en Campo, comprueba si el nombre sigue disponible antes de activar otra Magia.",
+        "Si el objetivo de Mil Cuchillos deja de ser válido, no lo cuentes como destruido; conserva los cuerpos que realmente sobrevivan."
+      ],
+      "expected_result": "Una retirada solo si la Magia resuelve con su estado real; la posición propia depende de la interrupción.",
+      "resources_to_keep": "La Normal y un acceso al nombre que no se hayan gastado.",
+      "alternative": "Si ya no controlas el nombre requerido, recurre al Hechicero con materiales reales o espera otro turno.",
+      "related_route_ids": [
+        "707:A09:SECRETORDER:DM:KNIVES02",
+        "707:A09:ILLUSION:SAGE:KNIVES02"
+      ]
+    },
+    {
+      "id": "win_condition",
+      "title": "Ganar: limpiar antes de atacar con los Magos",
+      "objective": "Convertir las Magias de nombre en ataques reales con los monstruos que permanezcan en Campo.",
+      "situation": "Puedes usar Orden Secreta o Piedra; rival con defensas identificadas y LP conocidos.",
+      "card_cids": [
+        15410,
+        16371,
+        17212,
+        19598,
+        15450,
+        15451
+      ],
+      "actions": [
+        "Si Piedra permite los dos Magos, establece ambos cuerpos sin contar una bonificación inexistente de Chica Maga.",
+        "Elige Mil Cuchillos para el monstruo que bloquea el ataque o Ataque Mágico Oscuro para las Magias y Trampas.",
+        "Calcula los ATK efectivos: Orden Secreta da 3200 a Mago Oscuro solo durante ese turno; Piedra deja los valores documentados."
+      ],
+      "expected_result": "Presión de Mago Oscuro y, cuando procede, Chica Maga Oscura; victoria solo con daño efectivo suficiente.",
+      "resources_to_keep": "Un acceso al nombre y una Magia de retirada si la partida continúa.",
+      "alternative": "Si el daño no alcanza, mantén el monstruo que habilita la siguiente Magia.",
+      "related_route_ids": [
+        "707:A09:JEWEL:PAIR:KNIVES03",
+        "707:A09:SECRETORDER:DM01"
+      ]
+    },
+    {
+      "id": "common_errors",
+      "title": "Errores: nombre, Skill y Extra sin acceso",
+      "objective": "No tratar el cambio temporal de nombre como permanente ni inventar rutas a Gaia.",
+      "situation": "Vas a usar Illusion of Execution, Hechicero Eliminador, Orden Secreta o una Fusión del Extra.",
+      "card_cids": [
+        15410,
+        19773,
+        15450,
+        15451,
+        19995,
+        18298,
+        19323
+      ],
+      "actions": [
+        "La Skill local requiere turno 2+, construcción y revelación válidas; no asegura que aparezca una Magia al excavar.",
+        "El Hechicero recupera su nombre impreso al final del turno; no habilita automáticamente Mil Cuchillos al turno siguiente.",
+        "Los materiales de las Fusiones Gaia no tienen una ruta demostrada con el Main registrado; no las declares disponibles por estar en Extra."
+      ],
+      "expected_result": "Acceso al nombre y Magias de retirada conforme a su requisito real, sin atribuir una Fusión no demostrada.",
+      "resources_to_keep": "La única copia de Mago Oscuro y los recursos que permiten su acceso.",
+      "alternative": "Si la Skill no puede utilizarse, emplea Orden Secreta, Piedra o el Hechicero según tu mano.",
+      "related_route_ids": [
+        "707:A09:ILLUSION:SAGE01",
+        "707:A09:EXECUTOR:DARKMAGIC01",
+        "707:A09:SECRETORDER:DM01"
+      ]
+    }
+  ]
+}
+```
