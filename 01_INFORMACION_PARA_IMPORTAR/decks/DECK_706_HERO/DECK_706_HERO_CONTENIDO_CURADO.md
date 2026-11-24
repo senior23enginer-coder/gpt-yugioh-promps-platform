@@ -315,6 +315,37 @@
 
 ### A03 — Integridad del inventario físico por zonas
 
+#### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 706](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/706.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `64aa9a6d8af2233040920601caa3cc945d929988`.
+
+- **A03-T1:** 17 filas, 17 CID, 38 copias, Main/Extra/Side/Reserva 30/8/0/0, 1 Skill(s): HERO RUSH RISING. Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 17/17 referencias oficiales con CID coherente; 17/17 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia y fuente local de Skill.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 9 rutas, 35 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/17 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 412 | 20460 | Héroe Elemental Avian | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20460&ope=2 |
+| 413 | 20457 | Héroe Elemental Sparkman | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20457&ope=2 |
+| 414 | 20459 | Héroe Elemental Burstinatrix | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20459&ope=2 |
+| 415 | 20461 | Héroe Ascendente de Argen | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20461&ope=2 |
+| 416 | 16929 | Inicio Reinicio | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16929&ope=2 |
+| 417 | 20665 | Descenso de Héroe | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20665&ope=2 |
+| 418 | 20151 | Brillo Sombrío | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2 |
+| 419 | 20465 | Circulación Elemental | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20465&ope=2 |
+| 420 | 16358 | Estrategia Mágica Aviar | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16358&ope=2 |
+| 421 | 16934 | Fusión | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2 |
+| 422 | 15913 | Agujero Trampa | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 423 | 16372 | Olla de la Codicia | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 424 | 21316 | Héroe Elemental Voltic Wingman | extra | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21316&ope=2 |
+| 425 | 20454 | Héroe Elemental del Estallido Wingman | extra | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20454&ope=2 |
+| 426 | 20453 | Héroe Elemental de la Llama Wingman | extra | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20453&ope=2 |
+| 427 | 21501 | Héroe Elemental Heliosfera | extra | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21501&ope=2 |
+| 428 | 20610 | Héroe Elemental Shining Flare Wingman | extra | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2 |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 30 Main · 8 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
