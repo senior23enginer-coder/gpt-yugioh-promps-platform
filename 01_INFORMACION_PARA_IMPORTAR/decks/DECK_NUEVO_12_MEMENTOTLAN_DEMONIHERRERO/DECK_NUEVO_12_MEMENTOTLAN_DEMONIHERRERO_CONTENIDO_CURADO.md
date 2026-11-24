@@ -2445,6 +2445,60 @@ Mano de **cinco** cartas aleatorias sin reemplazo en Main de **41**, sin reorden
 
 ## APARTADO_03 — Inventario inmutable y aprobación
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas; no se reabren otras etapas. Fuente: [Station X V40 671](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/671.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `707e5cb92607db7a7b7313ed66a564f0e06a8b6a`.
+
+- **A03-T1:** 40 filas nativas, 39 CID, 70 copias, Main/Extra/Side/Reserva 41/15/14/0, 0 Skill(s). Cotejo por ID/CID/nombre/zona/cantidad y slots frente al snapshot: PASS. No se consultó la BD viva ni se inspeccionaron cartas físicas; no se acredita nuevo cierre físico.
+- **A03-T2:** 39/39 referencias oficiales con CID coherente, 0/39 fichas con huella histórica de texto oficial V22; unicidad y nombre documental cotejados frente a V40. No se descargó nuevamente el texto oficial de todas las cartas ni se certificaron requisitos de invocación; identidad oficial/mecánica pendiente de cotejo independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit y las filas anteriores (sin inventar hash vivo); 12 rutas existentes, 69 pasos, 94 IDs de efecto A05 del deck identificados por patrón en el Markdown (39/39 CID representados). Este conteo es de referencias documentales distintas, no un censo oficial exhaustivo; no contar variantes de calculadora como efectos. CID en varias filas preservados: 20500. Cierre pendiente de denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 482 | 19364 | Angbruja | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=es |
+| 483 | 19362 | Tatsunootoshigo | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=es |
+| 484 | 19363 | Hoja Oscura | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=es |
+| 485 | 19366 | Goblin | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=es |
+| 486 | 19360 | Tecuhtlica - Creación Combinada | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=es |
+| 487 | 20491 | Akhíron | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=es |
+| 488 | 20199 | Dormiveja | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=es |
+| 489 | 19365 | Maza | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=es |
+| 490 | 19472 | Desvantasmas | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=es |
+| 491 | 19361 | Dragón de Cuerno | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=es |
+| 492 | 20196 | Demoniherrero Grabador | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=es |
+| 493 | 12950 | Flor de Ceniza | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 494 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 495 | 20500 | Fuwalos | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 496 | 20500 | Fuwalos | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 497 | 19904 | Fusión Mementotlán | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=es |
+| 498 | 19368 | Fiesta de Huesos | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=es |
+| 499 | 9139 | Oleada de Calor | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=es |
+| 500 | 20533 | Gran Fuga Moto Goblin | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=es |
+| 501 | 15299 | Gotas Prohibidas | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es |
+| 502 | 19367 | Mementomictlán | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=es |
+| 503 | 13619 | Llamado por la Tumba | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 504 | 15296 | Talento de Tácticas Triples | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 505 | 20423 | Princesa Necroequipo | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=es |
+| 506 | 12870 | Predaplanta Dragostapelia | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=es |
+| 507 | 16845 | Quimera Guardián | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=es |
+| 508 | 20216 | Rey Creación | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=es |
+| 509 | 19878 | Dragón Gemelo | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=es |
+| 510 | 13081 | D/D/D César, Alto Rey de las Olas | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=es |
+| 511 | 19184 | TY-PHON - Crisis Celeste | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es |
+| 512 | 20225 | Réquiem del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=es |
+| 513 | 19188 | S:P Pequeña Caballera | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 514 | 19932 | Luna del Cielo Cerrado | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=es |
+| 515 | 20226 | Secuencia del Demoniherrero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=es |
+| 516 | 20389 | Duque de la Defunción | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=es |
+| 517 | 9657 | Portaaviones Sumergible Aero Tiburón | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=es |
+| 518 | 20764 | Meowls | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=es |
+| 519 | 20206 | Purulia | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 520 | 11243 | Artefacto Lancea | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 521 | 21203 | Rebanador Gordiano | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación o ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, confirmar evidencia física/nativa actual y cerrar denominadores. Los checks históricos mantienen su alcance, no representan esta nueva revisión.
+
+
 La matriz A06 de abajo representa el **inventario íntegro** y constituye la única tabla por identidad para este deck: una carta que aparece en Main y Side solo ocupa una fila, con sus cantidades separadas. Los totales provienen de sumar las copias de cada zona; un espacio vacío del Side no es una carta no identificada. **25 monstruos + 16 mágicas = 41 Main**, 15 Extra, 14 Side y 0 Reserva; **39 identidades, 70 copias**, sin trampas Main ni Skill. Side de 14 no se rellena sin autorización.
 
 ### A03.1 — Aprobación expresa y cierre (18-11-2026)
