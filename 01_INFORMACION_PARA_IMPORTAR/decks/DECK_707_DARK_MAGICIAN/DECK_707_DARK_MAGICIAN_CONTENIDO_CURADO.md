@@ -164,6 +164,51 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 707; nombre en plataforma: Dark Magician; nombre fuente: Dark Magician; formato: `rush_duel`.
+- Carpeta única: `DECK_707_DARK_MAGICIAN`; documento: `DECK_707_DARK_MAGICIAN_CONTENIDO_CURADO.md`.
+- Main 30 / Extra 7 / Side 0 / Reserva 0; 20 CID; 20 filas; 1 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `49309574a2fed3cf0c5cffe859a35d2f6cfb2a29`; blob documental anterior: `b2bd1fe04297f84081bc0a739f7e9a1b66e79b56`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 707", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `1514080ee239642bf0ade6b59d3e81689d5f3972e1ba2be8f3d536bc58d7f8a4`. SHA-256 del ZIP de entrada auditado: `7300163e8d1dde73165b4fafb55c9591f3b5824ef4a87c841706c16a553165a0`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:24:04+00:00; lectura nativa de solo lectura: 2026-11-24T19:56:55.602275+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 446 | 15451 | Ataque Mágico Oscuro | main | 2 |
+| 447 | 16772 | Distribuidor Maravilloso | main | 1 |
+| 448 | 18685 | Maga Legendaria | main | 2 |
+| 449 | 19597 | Mago Oscuro Sabio | main | 1 |
+| 450 | 19329 | Grito de Monstruo | main | 2 |
+| 451 | 19773 | Hechicero Eliminador Oscuro | main | 3 |
+| 452 | 17209 | Ráfaga de Resonancia Oscura | main | 3 |
+| 453 | 20151 | Brillo Sombrío | main | 2 |
+| 454 | 19598 | Piedra de los Magos Oscuros | main | 3 |
+| 455 | 15410 | Mago Oscuro | main | 1 |
+| 456 | 20305 | Lily Aniquiladora | main | 1 |
+| 457 | 16371 | Chica Maga Oscura | main | 3 |
+| 458 | 15450 | Mil Cuchillos | main | 2 |
+| 459 | 19341 | ¡Equitación Lindasesina! | main | 1 |
+| 460 | 17212 | Orden Secreta | main | 1 |
+| 461 | 16372 | Olla de la Codicia | main | 1 |
+| 462 | 21007 | Maldición de la Luz Ascendente | main | 1 |
+| 463 | 19995 | Gaia el Campeón Dragón Rápido | extra | 3 |
+| 464 | 18298 | Gaia el Campeón Dragón | extra | 3 |
+| 465 | 19323 | Gaia, el Conquistador de Campeones | extra | 1 |
+
+**Rutas existentes:** `707:A09:ILLUSION:SAGE01`, `707:A09:SECRETORDER:DM01`, `707:A09:EXECUTOR:KNIVES01`, `707:A09:EXECUTOR:DARKMAGIC01`, `707:A09:ILLUSION:SAGE:KNIVES02`, `707:A09:SECRETORDER:DM:KNIVES02`, `707:A09:JEWEL:PAIR:KNIVES03`, `707:A09:V11:EXECUTOR:RENAME:DARK_MAGIC_ATTACK`, `707:A09:JEWEL:PAIR01`.
+**Skills:** [{"name": "ILLUSION OF EXECUTION"}].
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -247,9 +292,9 @@
 - [ ] **A01-T5** — BLOQUEADA: sin prueba de import/export/render/rechazo del deck 707.
 
 ### A02
-- [ ] **A02-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
-- [ ] **A02-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
-- [ ] **A02-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
+- [x] **A02-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — NO CERTIFICADA por el manifiesto actual; conservar estudios históricos.
