@@ -1,0 +1,35 @@
+name: A02 sequential validation of 16 assigned decks
+on:
+  push:
+    branches: [analysis/a02-assigned-16-20261124]
+    paths: ['.github/workflows/a02-assigned-sequential.yml']
+permissions:
+  contents: write
+concurrency:
+  group: a02-assigned-16-20261124
+  cancel-in-progress: false
+jobs:
+  a02:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, zip, pdo_sqlite
+          coverage: none
+      - name: Checkout exact verified Platform source
+        run: |
+          git clone --depth 1 --branch base https://github.com/senior23enginer-coder/platform-yugioh-md.git /tmp/a02-platform
+          git -C /tmp/a02-platform fetch --depth 1 origin 574c6426b3c6668f1ae8b95cd1a539c79ee14d2f
+          git -C /tmp/a02-platform checkout --detach 574c6426b3c6668f1ae8b95cd1a539c79ee14d2f
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Execute T1-T3 deck by deck and stop on first blocker
+        run: python3 scripts/a02-assigned-sequential.py /tmp/a02-platform
