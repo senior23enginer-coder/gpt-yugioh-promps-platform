@@ -25111,14 +25111,14 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Cyber Dragon, con piezas Cyberdark registradas.",
-      "Tipo de estrategia": "despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.",
+      "Arquetipo": "Cyber Dragon / apoyo Cyberdark",
+      "Tipo de estrategia": "Combo ofensivo de Máquinas, Fusión y Xyz",
       "Estilo de juego": "ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.",
-      "Cómo se juega": "las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Primero: usa Core y dos Máquinas adecuadas para preparar Nova. Segundo: valora Fusión o Xyz según el campo rival real. Juego medio: reutiliza Nachster y Herz bajo sus condiciones de recuperación. Juego tardío: elige Infinity o una Fusión sin contar materiales duplicados. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.",
+      "Cómo se juega": "Primero: Infinity y una respuesta adicional. Invoca Normalmente Core y busca Cybernetic Overflow del Deck. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow. Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas. Segundo: retirar monstruos sin combate. Con Core y Clockwork Night, usa la búsqueda de Core y confirma que la carta rival ahora es Máquina. Si el material puede enviarse al Cementerio, utiliza el procedimiento de Fortress con Core y la Máquina rival. Si el problema es un monstruo elegible en Zona Extra, usa Cyber Dragon para Megafleet en lugar de depender de Clockwork Night. Fortress o Megafleet y el monstruo rival enviado como material; la elección depende del tipo, zona y restricciones reales. Juego medio: usar los Ciber del Cementerio. Activa Overload usando los materiales requeridos del Cementerio; comprueba los nombres aplicables allí. Con Rampage, decide qué Máquinas LUZ enviar del Deck para habilitar ataques adicionales. Si envías Herz y su efecto está disponible, revisa qué Cyber Dragon original puedes recuperar. Rampage listo para ataques múltiples si resolvió el efecto y se enviaron las cartas requeridas; materiales de Overload quedan desterrados. Juego tardío: reciclar destierro con Cyberload. Primero usa Overload para producir Rampage y deja identificados los materiales desterrados boca arriba. Después, si esos materiales son elegibles para Cyberload, devuélvelos al Deck mediante su efecto para la nueva Fusión. Respeta la restricción de ataques de Cyberload: únicamente la criatura fusionada por esa Magia podrá atacar el resto del turno. Dos Rampage en el caso documentado, pero solo el segundo puede atacar tras Cyberload; no se suman ataques de ambos.",
       "Cartas representativas": "Cyber Dragon, Cyber Dragon Core, las piezas Cyberdark y los destinos de Fusión/Xyz registrados.",
-      "Qué vigilar": "ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-      "Estilo breve": "ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.",
-      "Resumen para ficha": "las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe."
+      "Qué vigilar": "Nachster puede imponer solo Máquinas; Megafleet necesita Zona Extra y Fortress material Máquina. Cyberload limita ataques y Power Bond puede dañarte en End Phase.",
+      "Estilo breve": "Reúne Máquinas y nombres Cyber Dragon para Infinity, rompe campos con Fortress o Megafleet y presiona con los ataques de Rampage.",
+      "Resumen para ficha": "Core busca soporte y Wurm/Revsystem reúnen Nivel 5 para Nova e Infinity. Clockwork Night habilita Fortress, mientras Rampage convierte materiales en presión de batalla."
     },
     "summary": [
       {
@@ -34327,65 +34327,77 @@
       "featured_cards": [
         {
           "cid": 10866,
-          "role": "Pieza del motor: Cyber Dragon Core",
-          "reason": "En esta lista, Cyber Dragon Core cumple esta función documentada: starter Cyber · búsqueda. Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival. Relación contextual con Máquinas, nombres Cyber Dragon, Fusión/Xyz/Enlace y cierre de partida por daño. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Cyber Dragon Core disponible en su zona válida y recursos para aprovechar starter Cyber · búsqueda. Core se llama Cyber Dragon en campo/Cementerio, busca M/T Cyber al ser Invocada Normal y desde GY habilita Cyber del Deck ante campo sólo rival. Relación contextual con Máquinas, nombres Cyber Dragon, Fusión/Xyz/Enlace y cierre de partida por daño. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado. sin gastar materiales inexistentes.",
+          "role": "Iniciador de búsqueda Cyber",
+          "reason": "Al ser Invocado Normalmente busca una Magia o Trampa Cyber; se llama Cyber Dragon en Campo y Cementerio, por lo que habilita materiales de las rutas de contacto.",
+          "when_to_use": "Úsalo para buscar Overflow en la línea de Infinity o Cyber Emergency si necesitas completar la mano; con Clockwork Night puede acceder a Fortress.",
           "related_cids": []
         },
         {
           "cid": 6390,
-          "role": "Pieza del motor: Cyber Dragon",
-          "reason": "En esta lista, Cyber Dragon cumple esta función documentada: Nivel5 de acceso y material principal de contacto/Fusión.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Cyber Dragon disponible en su zona válida y recursos para aprovechar Nivel5 de acceso y material principal de contacto/Fusión. sin gastar materiales inexistentes.",
+          "role": "Cuerpo de Nivel cinco y material central",
+          "reason": "Puede Invocarse Especialmente desde mano si solo el rival controla monstruos; su Nivel y nombre habilitan Xyz, Fusiones y procedimientos de contacto.",
+          "when_to_use": "Úsalo para reunir dos Nivel 5 hacia Nova, o como material de Megafleet cuando el rival tiene un monstruo elegible en Zona Extra.",
           "related_cids": []
         },
         {
           "cid": 10870,
-          "role": "Pieza del motor: Cyber Dragon Nova (Konami ID 10870)",
-          "reason": "En esta lista, Cyber Dragon Nova (Konami ID 10870) cumple esta función documentada: Base de Infinity y recuperación de Ciber Dragón.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Cyber Dragon Nova (Konami ID 10870) disponible en su zona válida y recursos para aprovechar Base de Infinity y recuperación de Ciber Dragón. sin gastar materiales inexistentes.",
+          "role": "Xyz intermedia y acceso a Infinity",
+          "reason": "Requiere dos Máquinas de Nivel 5 y sirve como material del procedimiento alternativo de Infinity; sus propios efectos permiten gestionar Cyber Dragon.",
+          "when_to_use": "Invócalo cuando tengas Wurm y Cyber Dragon u otros dos materiales compatibles, antes de decidir si subir a Infinity.",
           "related_cids": []
         },
         {
           "cid": 11765,
-          "role": "Pieza del motor: Cyber Dragon Infinity (Konami ID 11765)",
-          "reason": "En esta lista, Cyber Dragon Infinity (Konami ID 11765) cumple esta función documentada: Jefe Xyz de toma de recursos y negación.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Cyber Dragon Infinity (Konami ID 11765) disponible en su zona válida y recursos para aprovechar Jefe Xyz de toma de recursos y negación. sin gastar materiales inexistentes.",
+          "role": "Jefe de negación y absorción de recursos",
+          "reason": "Puede acoplar un monstruo boca arriba en Ataque y, al activarse una carta o efecto, desacoplar un material para negar su activación y destruirlo si procede.",
+          "when_to_use": "Úsalo como respuesta de primer turno y conserva material; no gastes la negación en una amenaza menor si necesitas proteger el resto del campo.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: CYBER DRAGON PURE",
-          "plan": "Ir primero: usa Core y dos Máquinas adecuadas para preparar Nova. las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "risks": "ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "related_route_ids": []
+          "title": "Primero: Infinity y una respuesta adicional",
+          "plan": "Invoca Normalmente Core y busca Cybernetic Overflow del Deck. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow. Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas.",
+          "preconditions": "Core, Wurm y Revsystem disponibles según la apertura; Cyber Dragon en Deck y Nova e Infinity en Extra.",
+          "risks": "Si falta Wurm pero Cyber Dragon y Revsystem están en mano con Herz ya en Cementerio, utiliza esa variante.",
+          "related_route_ids": [
+            "684:A09:V11:CORE:WURM:REVSYSTEM:INFINITY:OVERFLOW",
+            "684:A09:REV:HERZ:NOVA:INFINITY01"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: CYBER DRAGON PURE",
-          "plan": "Ir segundo: valora Fusión o Xyz según el campo rival real. las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "risks": "ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "related_route_ids": []
+          "title": "Segundo: retirar monstruos sin combate",
+          "plan": "Con Core y Clockwork Night, usa la búsqueda de Core y confirma que la carta rival ahora es Máquina. Si el material puede enviarse al Cementerio, utiliza el procedimiento de Fortress con Core y la Máquina rival. Si el problema es un monstruo elegible en Zona Extra, usa Cyber Dragon para Megafleet en lugar de depender de Clockwork Night. Fortress o Megafleet y el monstruo rival enviado como material; la elección depende del tipo, zona y restricciones reales.",
+          "preconditions": "Clockwork Night y Core, o Cyber Dragon disponible frente a un monstruo rival situado en Zona Extra y apto como material.",
+          "risks": "Si el rival solo controla monstruos de zonas principales y no son Máquina, Megafleet no ofrece esa retirada.",
+          "related_route_ids": [
+            "684:A09:CLOCKWORK:FORTRESS01",
+            "684:A09:MEGAFLEET:CYBER01",
+            "684:A09:MEGAFLEET:CORE01"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: CYBER DRAGON PURE",
-          "plan": "Juego medio: reutiliza Nachster y Herz bajo sus condiciones de recuperación. las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "risks": "ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "related_route_ids": []
+          "title": "Juego medio: usar los Ciber del Cementerio",
+          "plan": "Activa Overload usando los materiales requeridos del Cementerio; comprueba los nombres aplicables allí. Con Rampage, decide qué Máquinas LUZ enviar del Deck para habilitar ataques adicionales. Si envías Herz y su efecto está disponible, revisa qué Cyber Dragon original puedes recuperar. Rampage listo para ataques múltiples si resolvió el efecto y se enviaron las cartas requeridas; materiales de Overload quedan desterrados.",
+          "preconditions": "Overload Fusion en mano, Core y Herz en Cementerio, Rampage disponible en Extra.",
+          "risks": "Si no hay dos materiales aptos para Rampage, conserva Overload para cuando los recursos estén disponibles.",
+          "related_route_ids": [
+            "684:A09:OVERLOAD:RAMPAGE01",
+            "684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: CYBER DRAGON PURE",
-          "plan": "Juego tardío: elige Infinity o una Fusión sin contar materiales duplicados. las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "risks": "ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.",
-          "related_route_ids": []
+          "title": "Juego tardío: reciclar destierro con Cyberload",
+          "plan": "Primero usa Overload para producir Rampage y deja identificados los materiales desterrados boca arriba. Después, si esos materiales son elegibles para Cyberload, devuélvelos al Deck mediante su efecto para la nueva Fusión. Respeta la restricción de ataques de Cyberload: únicamente la criatura fusionada por esa Magia podrá atacar el resto del turno. Dos Rampage en el caso documentado, pero solo el segundo puede atacar tras Cyberload; no se suman ataques de ambos.",
+          "preconditions": "Overload y Cyberload disponibles, con Core y Herz preparados inicialmente en Cementerio y destinos apropiados en Extra.",
+          "risks": "Si el primer Rampage tiene ataques suficientes, evita Cyberload hasta un momento en que su restricción no reduzca tu daño.",
+          "related_route_ids": [
+            "684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01"
+          ]
         }
       ],
       "strategy": {

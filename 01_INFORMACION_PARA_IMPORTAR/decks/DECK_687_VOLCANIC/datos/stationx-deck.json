@@ -15790,14 +15790,14 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Volcanic, alrededor de Blaze Accelerator.",
-      "Tipo de estrategia": "daño por efectos, control de monstruos y gestión de munición Piro/FUEGO.",
+      "Arquetipo": "Volcánico / Aceleradores de Llama",
+      "Tipo de estrategia": "Control por daño de efecto y retirada de campo",
       "Estilo de juego": "presión de recursos, control del campo y acumulación de daño.",
-      "Cómo se juega": "Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Primero: usa Trooper o Rocket para obtener Aceleradores y munición. Segundo: aplica Scattershot solo si el envío proviene de un efecto compatible. Juego medio: recupera Shell y Rimfire con costes reales. Juego tardío: considera Emperor cuando se cumpla el procedimiento y existan recursos. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.",
+      "Cómo se juega": "Primero: preparar Inferno y conservar munición. Invoca Normalmente Soldado Volcánico y añade Infierno Volcánico del Deck; Coloca la Trampa. Activa Eyección de Fuego para enviar Cartucho Volcánico de Nivel 1 desde Deck al Cementerio; aplica su daño según el Nivel. Con Cartucho en Cementerio, paga 500 LP para buscar otra copia si queda disponible. En turno rival, cuando active el efecto de un monstruo en Campo, usa Infierno en su ventana legal: destierra Cartucho del Cementerio, inflige 500 LP y puedes negar ese efecto porque desterraste un Volcánico. Soldado en Campo, Infierno preparada y otra copia de Cartucho en mano si la búsqueda resolvió. En la End Phase rival, Infierno puede devolver hasta dos Volcánicos desterrados o en Cementerio al fondo del Deck. Segundo: limpiar y retirar Magias/Trampas. Con Soldado y Misil Volcánico en mano, Invoca Normalmente Soldado, busca Acelerador de Llama Volcánico y actívalo enviando el Acelerador original al Cementerio. Usa el Acelerador Volcánico para Invocar Misil desde mano y buscar Recarga. Si hay un objetivo boca arriba, usa el otro efecto del Acelerador para enviar Percusión Anular de Nivel 1 y destruir ese monstruo. Enlaza Soldado + Misil en Caballero de Pesadilla Fénix; descarta Recarga y selecciona una Magia/Trampa rival para destruirla. Recarga en Cementerio permite preparar la interacción de Disparo Disperso si están las tres copias; solo Invoca Emperador si se encuentra en mano o Cementerio y puedes pagar su procedimiento. Fénix y retirada de una Magia/Trampa si resuelve; el barrido de Disparo Disperso y la Invocación de Emperador son extensiones condicionadas a sus recursos, no consecuencias automáticas. Juego medio: elegir la munición. Cuando VBA pueda usar su efecto, elige Rimfire para preparar Reload o Shell para conservar recursos de mano. Con Percusión Anular (Rimfire) en Cementerio, destierra un Acelerador de Llama de Campo boca arriba o Cementerio para poner Recarga boca arriba desde mano o Deck; no la mandes al Cementerio por este efecto. Con Shell en Cementerio, paga los 500 LP solo si necesitas otra copia de Deck y puedes asumir ese coste. Reload preparado o una Shell recuperada, además de la retirada del monstruo si resolvió; no ambos resultados del mismo uso de VBA. Juego tardío: Emperador o retirada puntual. Si Emperador está infligiendo presión al rival, evita convertirlo en material sin una razón concreta. Con una carta de mano para el coste de Unicornio, evalúa I:P y Emperador para devolver una carta rival al Deck. Si necesitas una respuesta de destierro temporal, considera S:P mediante I:P, respetando sus materiales y objetivos. Emperador conservado para daño o una retirada puntual con Unicornio o S:P; no quedan los jefes simultáneamente.",
       "Cartas representativas": "Volcanic Trooper, Volcanic Rocket, Blaze Accelerator Reload, Scattershot y Volcanic Emperor.",
-      "Qué vigilar": "qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-      "Estilo breve": "presión de recursos, control del campo y acumulación de daño.",
-      "Resumen para ficha": "Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas."
+      "Qué vigilar": "Infierno solo puede negar cuando destierras un Volcánico; Disparo Disperso necesita el envío exigido y dos copias adicionales. No presupongas Invocaciones rivales.",
+      "Estilo breve": "Envía munición Volcánica al Cementerio para retirar monstruos, reciclar recursos y preparar Infierno; Emperador añade presión de daño directo.",
+      "Resumen para ficha": "Soldado busca el soporte, el Acelerador despliega Piros y envía munición. Disparo Disperso puede limpiar monstruos; Emperador e Infierno sostienen el daño y la interacción."
     },
     "summary": [
       {
@@ -27872,65 +27872,76 @@
       "featured_cards": [
         {
           "cid": 18916,
-          "role": "Pieza del motor: Volcanic Trooper — Soldado Volcánico",
-          "reason": "En esta lista, Volcanic Trooper — Soldado Volcánico cumple esta función documentada: Buscador Volcanic y creador de objetivo situacional.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Volcanic Trooper — Soldado Volcánico disponible en su zona válida y recursos para aprovechar Buscador Volcanic y creador de objetivo situacional. sin gastar materiales inexistentes.",
+          "role": "Iniciador de búsqueda y ficha situacional",
+          "reason": "Busca otra carta Volcánica al ser Invocado. También puede descartar una carta para crear una Ficha Bomba en el Campo rival.",
+          "when_to_use": "Úsalo para buscar Infierno si preparas interacción, o el Acelerador si necesitas desplegar Misil; la Ficha necesita su propio coste.",
           "related_cids": []
         },
         {
           "cid": 7243,
-          "role": "Pieza del motor: Volcanic Rocket — Misil Volcánico",
-          "reason": "En esta lista, Volcanic Rocket — Misil Volcánico cumple esta función documentada: Buscador de habilitador de munición, no combo final por sí solo.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Volcanic Rocket — Misil Volcánico disponible en su zona válida y recursos para aprovechar Buscador de habilitador de munición, no combo final por sí solo. sin gastar materiales inexistentes.",
+          "role": "Buscador de Aceleradores y cuerpo Piro",
+          "reason": "Al ser Invocado permite añadir un Acelerador de Llama elegible del Deck o Cementerio; su cuerpo puede servir de material de Enlace.",
+          "when_to_use": "Úsalo mediante el Acelerador Volcánico cuando necesites Recarga para preparar munición o un segundo cuerpo de desarrollo.",
           "related_cids": []
         },
         {
           "cid": 18918,
-          "role": "Pieza del motor: Volcanic Blaze Accelerator — Acelerador de Llama Volcánico",
-          "reason": "En esta lista, Volcanic Blaze Accelerator — Acelerador de Llama Volcánico cumple esta función documentada: Main 3x; núcleo continuo / extensor de Invocación / removal puntual con envío al GY. enviar Rimfire Nivel 1 habilita su efecto de GY; enviar Shell Nivel 1 prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar. enviar Rimfire Nivel 1 habilita su efecto de GY; enviar Shell Nivel 1 prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Volcanic Blaze Accelerator — Acelerador de Llama Volcánico disponible en su zona válida y recursos para aprovechar Main 3x; núcleo continuo / extensor de Invocación / removal puntual con envío al GY. enviar Rimfire Nivel 1 habilita su efecto de GY; enviar Shell Nivel 1 prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar. enviar Rimfire Nivel 1 habilita su efecto de GY; enviar Shell Nivel 1 prepara recursión; su Invocación desde mano puede desplegar Trooper para buscar. sin gastar materiales inexistentes.",
+          "role": "Motor continuo de extensión y retirada",
+          "reason": "Se activa enviando el Acelerador original; puede Invocar un Volcánico de mano y enviar un Piro de Nivel 1 del Deck para destruir un monstruo rival boca arriba.",
+          "when_to_use": "Úsalo para desarrollar Soldado o Misil. Contra un objetivo rival, elige Cartucho para recursos o Percusión Anular para preparar soporte.",
           "related_cids": []
         },
         {
           "cid": 18915,
-          "role": "Pieza del motor: Volcanic Emperor — Emperador Volcánico",
-          "reason": "En esta lista, Volcanic Emperor — Emperador Volcánico cumple esta función documentada: Jefe de daño y acceso a trampa con coste tangible.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Volcanic Emperor — Emperador Volcánico disponible en su zona válida y recursos para aprovechar Jefe de daño y acceso a trampa con coste tangible. sin gastar materiales inexistentes.",
+          "role": "Jefe de daño y acceso a Trampas",
+          "reason": "Se Invoca desde mano o Cementerio desterrando tres Piros o un Acelerador elegible; puede infligir daño por los Piros y Colocar una Trampa Volcánica.",
+          "when_to_use": "Úsalo cuando puedas pagar ese procedimiento sin agotar Infierno; mientras permanezca en Campo castiga cada evento de Invocación Especial rival.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: VOLCANIC",
-          "plan": "Ir primero: usa Trooper o Rocket para obtener Aceleradores y munición. Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "risks": "qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "related_route_ids": []
+          "title": "Primero: preparar Inferno y conservar munición",
+          "plan": "Invoca Normalmente Soldado Volcánico y añade Infierno Volcánico del Deck; Coloca la Trampa. Activa Eyección de Fuego para enviar Cartucho Volcánico de Nivel 1 desde Deck al Cementerio; aplica su daño según el Nivel. Con Cartucho en Cementerio, paga 500 LP para buscar otra copia si queda disponible. En turno rival, cuando active el efecto de un monstruo en Campo, usa Infierno en su ventana legal: destierra Cartucho del Cementerio, inflige 500 LP y puedes negar ese efecto porque desterraste un Volcánico. Soldado en Campo, Infierno preparada y otra copia de Cartucho en mano si la búsqueda resolvió. En la End Phase rival, Infierno puede devolver hasta dos Volcánicos desterrados o en Cementerio al fondo del Deck.",
+          "preconditions": "Soldado Volcánico (Trooper) y Eyección de Fuego en mano; quedan Infierno Volcánico (Inferno) y al menos dos Cartuchos Volcánicos (Shell) en Deck.",
+          "risks": "Con Acelerador de Llama Volcánico además de Soldado y Eyección, envía el Acelerador original del Deck al Cementerio, envía Emperador con Eyección y destierra el Acelerador original para Invocar Emperador. Convierte Soldado en Almiraj si quieres dejarlo como munición de Infierno.",
+          "related_route_ids": [
+            "687:A09:V11:TROOPER:EJECTION:SHELL:INFERNO",
+            "687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: VOLCANIC",
-          "plan": "Ir segundo: aplica Scattershot solo si el envío proviene de un efecto compatible. Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "risks": "qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "related_route_ids": []
+          "title": "Segundo: limpiar y retirar Magias/Trampas",
+          "plan": "Con Soldado y Misil Volcánico en mano, Invoca Normalmente Soldado, busca Acelerador de Llama Volcánico y actívalo enviando el Acelerador original al Cementerio. Usa el Acelerador Volcánico para Invocar Misil desde mano y buscar Recarga. Si hay un objetivo boca arriba, usa el otro efecto del Acelerador para enviar Percusión Anular de Nivel 1 y destruir ese monstruo. Enlaza Soldado + Misil en Caballero de Pesadilla Fénix; descarta Recarga y selecciona una Magia/Trampa rival para destruirla. Recarga en Cementerio permite preparar la interacción de Disparo Disperso si están las tres copias; solo Invoca Emperador si se encuentra en mano o Cementerio y puedes pagar su procedimiento. Fénix y retirada de una Magia/Trampa si resuelve; el barrido de Disparo Disperso y la Invocación de Emperador son extensiones condicionadas a sus recursos, no consecuencias automáticas.",
+          "preconditions": "Trooper y Rocket en mano; el rival controla un monstruo y una Magia/Trampa elegibles; Phoenix y Emperador disponibles.",
+          "risks": "Si no hay Magia/Trampa que justifique Phoenix, conserva los cuerpos o elige una retirada diferente.",
+          "related_route_ids": [
+            "687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: VOLCANIC",
-          "plan": "Juego medio: recupera Shell y Rimfire con costes reales. Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "risks": "qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "related_route_ids": []
+          "title": "Juego medio: elegir la munición",
+          "plan": "Cuando VBA pueda usar su efecto, elige Rimfire para preparar Reload o Shell para conservar recursos de mano. Con Percusión Anular (Rimfire) en Cementerio, destierra un Acelerador de Llama de Campo boca arriba o Cementerio para poner Recarga boca arriba desde mano o Deck; no la mandes al Cementerio por este efecto. Con Shell en Cementerio, paga los 500 LP solo si necesitas otra copia de Deck y puedes asumir ese coste. Reload preparado o una Shell recuperada, además de la retirada del monstruo si resolvió; no ambos resultados del mismo uso de VBA.",
+          "preconditions": "VBA activo y una copia de Rimfire o Shell disponible en Deck según la variante; rival con objetivo destruible.",
+          "risks": "Si no hay objetivo rival para el Acelerador, conserva su activación y prepara una línea de Fire Ejection.",
+          "related_route_ids": [
+            "687:A09:BLAZE:RIMFIRE:RELOAD01",
+            "687:A09:BLAZE:SHELL:RESOURCE01"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: VOLCANIC",
-          "plan": "Juego tardío: considera Emperor cuando se cumpla el procedimiento y existan recursos. Trooper y Rocket encuentran piezas; los Aceleradores envían munición como Rimfire, Shell o Scattershot bajo condiciones distintas. Emperor, Inferno y Emission convierten recursos reunidos en presión y respuestas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "risks": "qué efecto envió cada carta al Cementerio y cuántos recursos quedan. Rocket + Reload por sí solos son una interacción básica, no un combo completo.",
-          "related_route_ids": []
+          "title": "Juego tardío: Emperador o retirada puntual",
+          "plan": "Si Emperador está infligiendo presión al rival, evita convertirlo en material sin una razón concreta. Con una carta de mano para el coste de Unicornio, evalúa I:P y Emperador para devolver una carta rival al Deck. Si necesitas una respuesta de destierro temporal, considera S:P mediante I:P, respetando sus materiales y objetivos. Emperador conservado para daño o una retirada puntual con Unicornio o S:P; no quedan los jefes simultáneamente.",
+          "preconditions": "Emperador e I:P permanecen en Campo y tienes recursos para la alternativa de Enlace.",
+          "risks": "Si no hay objetivo que justifique sacrificar Emperador, mantén la presión y prepara Inferno.",
+          "related_route_ids": [
+            "687:A09:IP:EMPEROR:UNICORN14",
+            "687:A09:IP:EMPEROR:SP_DEFENSA16"
+          ]
         }
       ],
       "strategy": {

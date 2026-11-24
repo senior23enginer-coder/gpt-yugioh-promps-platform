@@ -2234,13 +2234,13 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "GOAT Control (entorno histórico de 2005).",
+      "Arquetipo": "GOAT Control / Scapegoat y Metamorfosis",
       "Estilo de juego": "Estilo: control y ventaja de cartas, no un deck de combos extensos al estilo moderno. Presiona mediante Caballero del Aire Parshath (piercing/robo), Soldado del Brillo Negro – Enviado del Principio, recuperación de mágicas de Mago de la Fe, protección por Libro de la Luna / Tsukuyomi, intercambios de uno por uno y una pieza central: Scapegoat → Metamorfosis → Límite de los Mil Ojos.",
-      "Cómo se juega": "Primero: proteger mano, colocar FLIP/trampas y activar Scapegoat durante el turno rival solo con cuatro zonas libres. Segundo: castigar aperturas con Breaker, Libro de la Luna, Crossout y rutas legales de Metamorfosis. Medio/tardío: reusar Mago de la Fe, evaluar recursos LUZ/OSCURIDAD para BLS y no gastar Parshath sin comparar su ventaja frente a Balter. No activar Scapegoat y luego intentar invocar TER por Metamorfosis durante el mismo turno.",
-      "Tipo de estrategia": "Control y ventaja de cartas con FLIP, Scapegoat y Metamorfosis.",
-      "Estilo breve": "Controla la mesa con FLIP y Magias rápidas; usa Scapegoat en turno rival y Metamorfosis en tu turno para Límite de los Mil Ojos. Parshath presiona y BLS cierra con recursos reales.",
-      "Resumen para ficha": "Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas.",
-      "Qué vigilar": "Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente."
+      "Cómo se juega": "Primero: preparar las ovejas para el siguiente turno. Durante el turno rival, activa Scapegoat en una ventana válida; Invoca cuatro fichas Oveja de Nivel 1 en Defensa. No realices otras Invocaciones ese turno. En tu siguiente Main Phase, si sobrevive al menos una ficha, activa Metamorfosis ofreciendo esa ficha de Nivel 1 como Tributo para Invocar Límite de los Mil Ojos. Utiliza su efecto de absorción contra un monstruo rival elegible. Conserva las fichas restantes como defensa, sin tratarlas como Tributos de una Invocación por Sacrificio. Límite de los Mil Ojos puede absorber un monstruo elegible; quedan hasta tres fichas. Segundo: neutralizar antes de atacar. Si tienes Scapegoat ya Colocada desde un turno previo, actívala durante el turno rival con cuatro zonas libres; si acabas de robarla, no asumas que puedes activarla desde mano en turno rival. En tu turno transforma una ficha y selecciona un monstruo que Límite pueda absorber. Si Parshath ya está en Campo, compara la retirada de una amenaza con la opción de atacar a un defensor de menor DEF: su perforación puede generar daño y su efecto permite robar cuando inflige daño de batalla. Control de un monstruo rival o presión con robo de Parshath, según la posición. Juego medio: recuperar la Magia decisiva. Voltea Mago de la Fe mediante una acción legal y activa su efecto de volteo. Elige entre recuperar Metamorfosis para un material disponible, Scapegoat para defensa u otra Magia necesaria. Comprueba que el estado del Campo permita usar la carta recuperada antes de comprometerla. Una Magia recuperada y una nueva decisión de control; no se garantiza otra Fusión. Juego tardío: reutilizar Límite de los Mil Ojos. Coloca Límite boca abajo con Libro de la Luna en una ventana permitida. Comprueba qué ocurrió con el monstruo equipado al perder el equipo válido. Voltea Límite en una ocasión legal futura y absorbe otra amenaza si cumple su objetivo. Posibilidad de nueva absorción en el turno correspondiente, sin declarar un ciclo inmediato.",
+      "Tipo de estrategia": "Control de recursos y presión de batalla",
+      "Estilo breve": "Defiende con fichas y Trampas, transforma un Nivel 1 en Límite de los Mil Ojos y recupera Magias con Mago de la Fe; el Soldado cierra cuando hay recursos.",
+      "Resumen para ficha": "Scapegoat prepara fichas para Metamorfosis y Límite controla amenazas. Mago de la Fe recicla Magias; Parshath y Soldado del Brillo Negro convierten ventaja en presión.",
+      "Qué vigilar": "Scapegoat exige cuatro zonas y restringe otras Invocaciones ese turno; Metamorfosis exige el Nivel correcto. Soldado necesita un LUZ y un OSCURIDAD en Cementerio."
     },
     "summary": "",
     "engine_maps": [],
@@ -3205,65 +3205,74 @@
       "featured_cards": [
         {
           "cid": 4818,
-          "role": "Pieza del motor: Scapegoat",
-          "reason": "En esta lista, Scapegoat cumple esta función documentada: Trae cuatro fichas oveja Nivel1 DEF si 4 zonas libres. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Scapegoat disponible en su zona válida y recursos para aprovechar Trae cuatro fichas oveja Nivel1 DEF si 4 zonas libres sin gastar materiales inexistentes.",
+          "role": "Defensa y preparación de material de Nivel uno",
+          "reason": "Invoca cuatro fichas Oveja de Nivel 1 en Defensa cuando hay cuatro zonas libres; pueden utilizarse para Metamorfosis en un turno posterior.",
+          "when_to_use": "Colócala para el turno rival y actívala en una ventana válida sin otras Invocaciones ese turno; conserva al menos una ficha para la transformación.",
           "related_cids": []
         },
         {
           "cid": 5539,
-          "role": "Pieza del motor: Metamorfosis",
-          "reason": "En esta lista, Metamorfosis cumple esta función documentada: Tributa 1 monstruo propio y trae Fusión de mismo Nivel desde Extra. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Metamorfosis disponible en su zona válida y recursos para aprovechar Tributa 1 monstruo propio y trae Fusión de mismo Nivel desde Extra sin gastar materiales inexistentes.",
+          "role": "Magia de transformación por Nivel",
+          "reason": "Ofrece como Tributo un monstruo propio para Invocar una Fusión del mismo Nivel desde Extra; una ficha de Nivel 1 sirve para Límite.",
+          "when_to_use": "Úsala en tu turno con una ficha superviviente para controlar amenazas, o con Parshath si convertirlo en Balter resulta mejor que conservar su robo.",
           "related_cids": []
         },
         {
           "cid": 4740,
-          "role": "Pieza del motor: Límite de los Mil Ojos",
-          "reason": "En esta lista, Límite de los Mil Ojos cumple esta función documentada: una función particular en la estrategia del deck según su texto y sus materiales. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Límite de los Mil Ojos disponible en su zona válida y recursos para aprovechar una función particular en la estrategia del deck según su texto y sus materiales sin gastar materiales inexistentes.",
+          "role": "Fusión de absorción y control del combate",
+          "reason": "Puede equiparse con un monstruo rival y limitar el combate mientras está boca arriba; Libro de la Luna puede preparar una nueva absorción si puede voltearse legalmente.",
+          "when_to_use": "Úsala para retirar una amenaza elegible mediante absorción, no para buscar daño inmediato; conserva su posición si protege tus LP.",
           "related_cids": []
         },
         {
           "cid": 5835,
-          "role": "Pieza del motor: Soldado del Brillo Negro - Enviado del Principio",
-          "reason": "En esta lista, Soldado del Brillo Negro - Enviado del Principio cumple esta función documentada: una función particular en la estrategia del deck según su texto y sus materiales. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Soldado del Brillo Negro - Enviado del Principio disponible en su zona válida y recursos para aprovechar una función particular en la estrategia del deck según su texto y sus materiales sin gastar materiales inexistentes.",
+          "role": "Finalizador de batalla o destierro de amenaza",
+          "reason": "Se Invoca desde mano desterrando un monstruo LUZ y otro OSCURIDAD del Cementerio; puede elegir retirada o presión mediante su ataque.",
+          "when_to_use": "Úsalo cuando los dos Atributos existan; si eliges desterrar un monstruo, no puede atacar ese turno.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: GOAT CONTROL",
-          "plan": "Ir primero: coloca defensas y reserva Scapegoat para el turno rival cuando haya cuatro zonas libres. Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "risks": "Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "related_route_ids": []
+          "title": "Primero: preparar las ovejas para el siguiente turno",
+          "plan": "Durante el turno rival, activa Scapegoat en una ventana válida; Invoca cuatro fichas Oveja de Nivel 1 en Defensa. No realices otras Invocaciones ese turno. En tu siguiente Main Phase, si sobrevive al menos una ficha, activa Metamorfosis ofreciendo esa ficha de Nivel 1 como Tributo para Invocar Límite de los Mil Ojos. Utiliza su efecto de absorción contra un monstruo rival elegible. Conserva las fichas restantes como defensa, sin tratarlas como Tributos de una Invocación por Sacrificio. Límite de los Mil Ojos puede absorber un monstruo elegible; quedan hasta tres fichas.",
+          "preconditions": "Scapegoat Colocada previamente, cuatro Zonas de Monstruos libres y ninguna otra Invocación ese turno. Conserva Metamorfosis en mano para el siguiente turno propio y Límite de los Mil Ojos en Extra.",
+          "risks": "Si pierdes las fichas, utiliza las defensas disponibles y espera otro material válido.",
+          "related_route_ids": [
+            "699:A09:G-C01"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: GOAT CONTROL",
-          "plan": "Ir segundo: elige entre remoción de amenazas, preservar Parshath para robar y convertir fichas en Límite de los Mil Ojos. Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "risks": "Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "related_route_ids": []
+          "title": "Segundo: neutralizar antes de atacar",
+          "plan": "Si tienes Scapegoat ya Colocada desde un turno previo, actívala durante el turno rival con cuatro zonas libres; si acabas de robarla, no asumas que puedes activarla desde mano en turno rival. En tu turno transforma una ficha y selecciona un monstruo que Límite pueda absorber. Si Parshath ya está en Campo, compara la retirada de una amenaza con la opción de atacar a un defensor de menor DEF: su perforación puede generar daño y su efecto permite robar cuando inflige daño de batalla. Control de un monstruo rival o presión con robo de Parshath, según la posición.",
+          "preconditions": "El rival presenta un monstruo; dispones de la línea de ovejas o de Parshath ya en Campo.",
+          "risks": "Si Parshath debe convertirse en defensa, utiliza Metamorfosis para Balter cuando exista el Nivel correcto.",
+          "related_route_ids": [
+            "699:A09:G-C01",
+            "699:A09:G-C04"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: GOAT CONTROL",
-          "plan": "Juego medio: recupera Magias con Mago de la Fe al resolverse su volteo y conserva recursos LUZ y OSCURIDAD. Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "risks": "Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "related_route_ids": []
+          "title": "Juego medio: recuperar la Magia decisiva",
+          "plan": "Voltea Mago de la Fe mediante una acción legal y activa su efecto de volteo. Elige entre recuperar Metamorfosis para un material disponible, Scapegoat para defensa u otra Magia necesaria. Comprueba que el estado del Campo permita usar la carta recuperada antes de comprometerla. Una Magia recuperada y una nueva decisión de control; no se garantiza otra Fusión.",
+          "preconditions": "Mago de la Fe preparado para voltearse y una Magia útil en Cementerio.",
+          "risks": "Si el Mago es destruido sin voltearse, no cuentes con la recuperación y conserva tu otra defensa.",
+          "related_route_ids": [
+            "699:A09:G-C02"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: GOAT CONTROL",
-          "plan": "Juego tardío: evalúa un cierre con BLS o el control repetido de Límite de los Mil Ojos sin suponer un daño garantizado. Control de recursos con Scapegoat, Metamorfosis y Límite de los Mil Ojos; Mago de la Fe recupera Magias, Parshath presiona y roba y BLS remata solo con LUZ/OSCURIDAD en Cementerio. Las fusiones de Nivel 6/9 siguen condicionadas. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "risks": "Main 40, Extra 14, Side no recibido. Scapegoat exige cuatro zonas libres y bloquea Invocaciones el turno de activación; la ficha no sirve como Tributo para Invocación por Sacrificio, sí para Metamorfosis. El Extra necesita niveles que existan realmente en Campo; la mayoría de Nivel 6/9 es condicional. No aplicar erratas modernas automáticamente.",
-          "related_route_ids": []
+          "title": "Juego tardío: reutilizar Límite de los Mil Ojos",
+          "plan": "Coloca Límite boca abajo con Libro de la Luna en una ventana permitida. Comprueba qué ocurrió con el monstruo equipado al perder el equipo válido. Voltea Límite en una ocasión legal futura y absorbe otra amenaza si cumple su objetivo. Posibilidad de nueva absorción en el turno correspondiente, sin declarar un ciclo inmediato.",
+          "preconditions": "Límite de los Mil Ojos sigue en Campo tras una absorción y tienes Libro de la Luna.",
+          "risks": "Si todavía no puede voltearse, deja pasar el turno y protege la posición.",
+          "related_route_ids": [
+            "699:A09:G-C03"
+          ]
         }
       ],
       "strategy": {

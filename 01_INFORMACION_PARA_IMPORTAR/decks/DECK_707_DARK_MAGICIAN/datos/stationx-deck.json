@@ -8657,14 +8657,14 @@
       }
     ],
     "profile": {
-      "Arquetipo": "Dark Magician de Rush Duel (Skill Illusion of Execution).",
-      "Tipo de estrategia": "Control-Midrange de Lanzadores de Conjuros/OSCURIDAD.",
+      "Arquetipo": "Mago Oscuro / Lanzadores de Conjuros",
+      "Tipo de estrategia": "Control de campo por nombre y Sacrificio en Rush Duel",
       "Estilo de juego": "control por herramientas Mágicas y desarrollo de monstruos Lanzadores de Conjuros.",
-      "Cómo se juega": "Primero: preparar Mago Oscuro o un medio legítimo de acceder a él y conservar Magias condicionadas. Segundo: con Hechicero Eliminador Oscuro y su efecto resuelto, usar el nombre Mago Oscuro temporal para habilitar Mil Cuchillos o Ataque Mágico Oscuro. Medio/tardío: la Skill puede activarse una vez por Duelo desde el turno 2, excavando tres cartas sin garantizar Mágica; recuperar recursos con Mago Oscuro Sabio o Piedra de los Magos cuando existan objetivos legales.",
+      "Cómo se juega": "Primero: preparar el nombre de Mago Oscuro. Con Orden Secreta y Mago Oscuro Normal de Nivel 7 en mano, activa la Magia para Invocarlo Especialmente; gana 700 ATK y protección contra destrucción por Trampas rivales durante ese turno. Con Piedra de los Magos Oscuros, Mago Oscuro y Chica Maga Oscura en mano, activa Piedra para Invocar ambos en dos zonas libres. No se aplican Sacrificios. Guarda Mil Cuchillos y Ataque Mágico Oscuro si no hay una amenaza elegible. Ambas exigen controlar un monstruo que tenga el nombre Mago Oscuro. Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2. Segundo: retirar monstruos o Magias y Trampas. Activa Orden Secreta para Invocar Mago Oscuro y comprueba el aumento de 700 ATK de ese turno. Si necesitas eliminar un monstruo elegible, usa Mil Cuchillos con Mago Oscuro boca arriba. Si necesitas limpiar Magias y Trampas rivales, utiliza Ataque Mágico Oscuro en lugar de presumir la otra Magia. Mago Oscuro de 3200 ATK temporal y la retirada que haya resuelto; la Normal permanece disponible. Juego medio: Sabio e Illusion of Execution. Desde turno 2, con la Skill local Illusion of Execution habilitada y sin usar, revela Chica Maga Oscura y excava tres cartas. Puedes añadir una Magia excavada; las demás van al Cementerio. Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio. Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio. Mago Oscuro y Sabio en Campo; la Magia excavada y el robo dependen de las cartas reales. Juego tardío: usar el nombre temporal del Hechicero. Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales. Sacrifica Sabio y Lily para la Invocación Normal por Sacrificio de Hechicero Eliminador de Nivel 7 (2500 ATK). Activa su efecto enviando la carta superior del Deck al Cementerio como requisito; su nombre pasa a Mago Oscuro hasta fin de turno. Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival. Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.",
       "Cartas representativas": "Dark Magician, Dark Eradicator Warlock, Thousand Knives, Dark Magic Attack e Illusion of Execution.",
-      "Qué vigilar": "Illusion of Execution solo está disponible desde el turno 2 y exige la construcción y revelación correctas. Conserva el acceso a la única copia de Mago Oscuro; el nombre del Hechicero Eliminador dura un turno. Las Fusiones Gaia carecen de materiales accesibles en esta lista.",
-      "Estilo breve": "Controla con Mago Oscuro, Magias que exigen su nombre y la Skill desde turno 2. Las siete cartas Extra Gaia carecen de materiales acreditados en Main.",
-      "Resumen para ficha": "Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado."
+      "Qué vigilar": "Las Magias exigen el nombre Mago Oscuro. La Skill local requiere turno 2+; el Hechicero cambia de nombre solo ese turno. Gaia carece de materiales accesibles.",
+      "Estilo breve": "Invoca Mago Oscuro o cambia el nombre del Hechicero Eliminador para habilitar Mil Cuchillos y Ataque Mágico Oscuro; Sabio permite recuperar el nombre.",
+      "Resumen para ficha": "Orden Secreta y Piedra desarrollan Mago Oscuro; Sabio e Illusion of Execution preparan su recuperación. El Hechicero habilita las Magias de retirada con su nombre temporal."
     },
     "summary": [
       {
@@ -14540,65 +14540,77 @@
       "featured_cards": [
         {
           "cid": 15410,
-          "role": "Pieza del motor: Mago Oscuro",
-          "reason": "En esta lista, Mago Oscuro cumple esta función documentada: Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal LEGEND. ILLUSION OF EXECUTION permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Mago Oscuro disponible en su zona válida y recursos para aprovechar Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal LEGEND. ILLUSION OF EXECUTION permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo. sin gastar materiales inexistentes.",
+          "role": "Monstruo Normal LEGEND y habilitador de Magias",
+          "reason": "Su nombre permite activar Mil Cuchillos y Ataque Mágico Oscuro. Orden Secreta puede Invocarlo y Sabio permite recuperarlo del Cementerio.",
+          "when_to_use": "Úsalo con Orden Secreta o Piedra cuando esté en mano; desde Cementerio, prepara el acceso de Sabio y conserva la única copia.",
           "related_cids": []
         },
         {
           "cid": 19773,
-          "role": "Pieza del motor: Hechicero Eliminador Oscuro",
-          "reason": "En esta lista, Hechicero Eliminador Oscuro cumple esta función documentada: Monstruo de Efecto — apoyo situacional sujeto a condición escrita. Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior. ILLUSION OF EXECUTION permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Hechicero Eliminador Oscuro disponible en su zona válida y recursos para aprovechar Monstruo de Efecto — apoyo situacional sujeto a condición escrita. Se llama Mago Oscuro ese turno; puede devolver diez Mágicas del Cementerio al Deck para destruir un monstruo rival boca arriba de Nivel 8 o inferior. ILLUSION OF EXECUTION permite enviar «Mago Oscuro» desde Deck al GY bajo sus condiciones; puede alimentar recuperación, pero la Skill solo se usa una vez por duelo. sin gastar materiales inexistentes.",
+          "role": "Jefe alternativo de nombre temporal",
+          "reason": "Al cumplir su requisito de envío de la carta superior al Cementerio pasa a llamarse Mago Oscuro hasta fin de turno, habilitando las Magias del motor.",
+          "when_to_use": "Invócalo por Sacrificio con dos materiales legales cuando Mago Oscuro no esté disponible; activa la Magia de retirada antes de perder el nombre.",
           "related_cids": []
         },
         {
           "cid": 15450,
-          "role": "Pieza del motor: Mil Cuchillos",
-          "reason": "En esta lista, Mil Cuchillos cumple esta función documentada: Remoción dirigida a monstruo ligada al nombre del motor.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Mil Cuchillos disponible en su zona válida y recursos para aprovechar Remoción dirigida a monstruo ligada al nombre del motor. sin gastar materiales inexistentes.",
+          "role": "Magia de retirada de un monstruo",
+          "reason": "Con Mago Oscuro boca arriba permite seleccionar y destruir un monstruo rival elegible; no necesita que ese monstruo esté boca arriba salvo otra restricción.",
+          "when_to_use": "Úsala cuando un monstruo impida tu ataque o amenace el Campo; si pierdes el nombre antes de activarla, conserva la carta.",
           "related_cids": []
         },
         {
           "cid": 15451,
-          "role": "Pieza del motor: Ataque Mágico Oscuro",
-          "reason": "En esta lista, Ataque Mágico Oscuro cumple esta función documentada: Carta Mágica Normal — removal / apertura de campo. Destruye todas las cartas Mágicas y Trampas del campo rival. La Skill ILLUSION OF EXECUTION se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Ataque Mágico Oscuro disponible en su zona válida y recursos para aprovechar Carta Mágica Normal — removal / apertura de campo. Destruye todas las cartas Mágicas y Trampas del campo rival. La Skill ILLUSION OF EXECUTION se aplica desde turno 2, una vez por duelo, después de comprobar sus restricciones de construcción. sin gastar materiales inexistentes.",
+          "role": "Magia de limpieza del apoyo rival",
+          "reason": "Con Mago Oscuro boca arriba puede destruir las Magias y Trampas que controla el adversario; no retira automáticamente sus monstruos.",
+          "when_to_use": "Úsala para despejar el apoyo antes de la Battle Phase, después de establecer Mago Oscuro o el nombre temporal del Hechicero.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: DARK MAGICIAN",
-          "plan": "Ir primero: prepara acceso a Mago Oscuro y conserva las Magias que dependen de su nombre. Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "risks": "Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "related_route_ids": []
+          "title": "Primero: preparar el nombre de Mago Oscuro",
+          "plan": "Con Orden Secreta y Mago Oscuro Normal de Nivel 7 en mano, activa la Magia para Invocarlo Especialmente; gana 700 ATK y protección contra destrucción por Trampas rivales durante ese turno. Con Piedra de los Magos Oscuros, Mago Oscuro y Chica Maga Oscura en mano, activa Piedra para Invocar ambos en dos zonas libres. No se aplican Sacrificios. Guarda Mil Cuchillos y Ataque Mágico Oscuro si no hay una amenaza elegible. Ambas exigen controlar un monstruo que tenga el nombre Mago Oscuro. Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2.",
+          "preconditions": "Mago Oscuro y Orden Secreta disponibles, o Piedra con Mago Oscuro y Chica Maga Oscura en mano.",
+          "risks": "Si Mago Oscuro no está accesible, prepara cuerpos para Hechicero Eliminador o reserva la defensa disponible.",
+          "related_route_ids": [
+            "707:A09:SECRETORDER:DM01",
+            "707:A09:JEWEL:PAIR01"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: DARK MAGICIAN",
-          "plan": "Ir segundo: usa Mil Cuchillos contra un monstruo o Ataque Mágico Oscuro contra Magias y Trampas solo si controlas el nombre correcto. Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "risks": "Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "related_route_ids": []
+          "title": "Segundo: retirar monstruos o Magias y Trampas",
+          "plan": "Activa Orden Secreta para Invocar Mago Oscuro y comprueba el aumento de 700 ATK de ese turno. Si necesitas eliminar un monstruo elegible, usa Mil Cuchillos con Mago Oscuro boca arriba. Si necesitas limpiar Magias y Trampas rivales, utiliza Ataque Mágico Oscuro en lugar de presumir la otra Magia. Mago Oscuro de 3200 ATK temporal y la retirada que haya resuelto; la Normal permanece disponible.",
+          "preconditions": "Mago Oscuro y Orden Secreta en mano; Mil Cuchillos o Ataque Mágico Oscuro según el objetivo.",
+          "risks": "Si falta Mago Oscuro, considera la línea de Hechicero Eliminador con dos materiales.",
+          "related_route_ids": [
+            "707:A09:SECRETORDER:DM01",
+            "707:A09:SECRETORDER:DM:KNIVES02"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: DARK MAGICIAN",
-          "plan": "Juego medio: recicla Lanzadores de Conjuros y aprovecha la Skill desde el segundo turno cuando se pueda revelar un Nivel cinco o mayor. Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "risks": "Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "related_route_ids": []
+          "title": "Juego medio: Sabio e Illusion of Execution",
+          "plan": "Desde turno 2, con la Skill local Illusion of Execution habilitada y sin usar, revela Chica Maga Oscura y excava tres cartas. Puedes añadir una Magia excavada; las demás van al Cementerio. Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio. Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio. Mago Oscuro y Sabio en Campo; la Magia excavada y el robo dependen de las cartas reales.",
+          "preconditions": "Turno 2+, Skill local sin usar, Chica Maga Oscura y Sabio en mano, Mago Oscuro en Deck y al menos tres cartas para excavar.",
+          "risks": "Si ya usaste la Skill o no cumples su construcción local, considera Orden Secreta o el jefe de Sacrificio.",
+          "related_route_ids": [
+            "707:A09:ILLUSION:SAGE01",
+            "707:A09:ILLUSION:SAGE:KNIVES02"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: DARK MAGICIAN",
-          "plan": "Juego tardío: presiona con Mago Oscuro sin anunciar Fusiones Gaia porque sus materiales no están presentes en el Main. Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "risks": "Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; Las Fusiones del Extra no están disponibles con los materiales actuales.",
-          "related_route_ids": []
+          "title": "Juego tardío: usar el nombre temporal del Hechicero",
+          "plan": "Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales. Sacrifica Sabio y Lily para la Invocación Normal por Sacrificio de Hechicero Eliminador de Nivel 7 (2500 ATK). Activa su efecto enviando la carta superior del Deck al Cementerio como requisito; su nombre pasa a Mago Oscuro hasta fin de turno. Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival. Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.",
+          "preconditions": "Sabio, Lily Aniquiladora, Hechicero Eliminador y la Magia de retirada apropiada en mano.",
+          "risks": "Si no puedes cambiar el nombre, conserva la Magia y utiliza el Hechicero como atacante.",
+          "related_route_ids": [
+            "707:A09:EXECUTOR:KNIVES01",
+            "707:A09:EXECUTOR:DARKMAGIC01"
+          ]
         }
       ],
       "strategy": {

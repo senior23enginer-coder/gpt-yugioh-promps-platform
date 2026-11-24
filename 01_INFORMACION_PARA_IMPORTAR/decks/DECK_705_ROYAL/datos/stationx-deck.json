@@ -6844,14 +6844,14 @@
       }
     ],
     "profile": {
-      "Arquetipo": "Royal Rebel's (Rush Duel; habilidad Hard Rock Overture).",
-      "Tipo de estrategia": "Combo-Midrange de Demonios/LUZ con Sacrificios de Nivel alto y control de mesa.",
+      "Arquetipo": "Rebelde Real / Hard Rock Overture",
+      "Tipo de estrategia": "Control por Sacrificio de Demonios en Rush Duel",
       "Estilo de juego": "combate y retirada selectiva según el jefe disponible.",
-      "Cómo se juega": "Primero: conservar materiales y preparar monstruos de Nivel alto; usar Hard Rock Overture solo con la condición de Demonios/LUZ y un Nivel 7/8 en mano. Segundo: elegir Heavy Metal contra monstruos, Progrock contra Magias/Trampas y Doom Metal únicamente cuando puedan tributarse DOS Demonios de Nivel 7 o más. Medio/tardío: aprovechar Phaser y recuperación del Cementerio sin prometer que una Invocación Especial cumpla los requisitos de una Invocación por Sacrificio.",
+      "Cómo se juega": "Primero: reservar el jefe y sus Tributos. Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida. Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes. Segundo: elegir entre Death Doom, Heavy y Progrock. Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio. Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto. Juego medio: Canjear y Phaser. Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida. Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba. Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa. Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio. Juego tardío: reconstruir Death Doom sin Skill. Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente. Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa. Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles. Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.",
       "Cartas representativas": "Heavy Metal, Progrock, Phaser y Hard Rock Overture.",
-      "Qué vigilar": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-      "Estilo breve": "Rush Duel de Demonios/LUZ: prepara Sacrificios para Heavy Metal, Doom Metal y Progrock; la habilidad coloca cuerpos, pero no sustituye una Invocación por Sacrificio.",
-      "Resumen para ficha": "Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo."
+      "Qué vigilar": "Colocar por Skill o revivir por Phaser no equivale a Invocar por Sacrificio. Los tres jefes son destinos alternativos y requieren recursos reales.",
+      "Estilo breve": "Reúne dos Tributos para elegir un Rebelde Real de Nivel alto según la amenaza; Phaser recupera Demonios y Canjear reorganiza la mano.",
+      "Resumen para ficha": "Metal Maldito limpia monstruos, Heavy Metal gana ATK y Progrock retira apoyo. Hard Rock Overture ayuda en la apertura local de turno 2+; Phaser recupera cuerpos."
     },
     "summary": [
       {
@@ -11849,65 +11849,73 @@
       "featured_cards": [
         {
           "cid": 16331,
-          "role": "Pieza del motor: Metal Maldito del Rebelde Real",
-          "reason": "En esta lista, Metal Maldito del Rebelde Real cumple esta función documentada: Finalizador costoso anti-monstruos, no limpieza gratuita.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Metal Maldito del Rebelde Real disponible en su zona válida y recursos para aprovechar Finalizador costoso anti-monstruos, no limpieza gratuita. sin gastar materiales inexistentes.",
+          "role": "Jefe de limpieza de monstruos rivales",
+          "reason": "Su efecto tras la Invocación por Sacrificio de los materiales requeridos permite retirar los monstruos rivales elegibles; la recuperación por Phaser no habilita ese efecto.",
+          "when_to_use": "Elígelo cuando el rival tenga monstruos boca arriba que cumplan sus condiciones y dispongas de los dos Demonios requeridos.",
           "related_cids": []
         },
         {
           "cid": 15441,
-          "role": "Pieza del motor: Heavy Metal del Rebelde Real",
-          "reason": "En esta lista, Heavy Metal del Rebelde Real cumple esta función documentada: Monstruo de Efecto — removal / apertura de campo. Entre los monstruos boca arriba rivales de Nivel 8 o menor, elegir uno del Nivel más bajo; gana su ATK hasta fin del turno y lo destruye. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Heavy Metal del Rebelde Real disponible en su zona válida y recursos para aprovechar Monstruo de Efecto — removal / apertura de campo. Entre los monstruos boca arriba rivales de Nivel 8 o menor, elegir uno del Nivel más bajo; gana su ATK hasta fin del turno y lo destruye. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's. sin gastar materiales inexistentes.",
+          "role": "Jefe de retirada y aumento de ataque",
+          "reason": "Tras una Invocación por Sacrificio compatible, elige un monstruo rival aplicable de menor Nivel, gana su ATK hasta fin de turno y lo destruye si resuelve.",
+          "when_to_use": "Elígelo cuando puedas abrir el camino de ataque con esa retirada; si el objetivo tiene 1600 ATK, el ejemplo alcanza 4100.",
           "related_cids": []
         },
         {
           "cid": 19761,
-          "role": "Pieza del motor: Progrock del Rebelde Real",
-          "reason": "En esta lista, Progrock del Rebelde Real cumple esta función documentada: Monstruo de Efecto — removal / apertura de campo. Destruye una Mágica/Trampa rival; después puede destruir otra carta boca abajo rival. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Progrock del Rebelde Real disponible en su zona válida y recursos para aprovechar Monstruo de Efecto — removal / apertura de campo. Destruye una Mágica/Trampa rival; después puede destruir otra carta boca abajo rival. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's. sin gastar materiales inexistentes.",
+          "role": "Jefe de retirada de Magias y cartas colocadas",
+          "reason": "Su efecto puede destruir una Magia o Trampa rival y después otra carta boca abajo; requiere el tipo de Invocación y recursos establecidos.",
+          "when_to_use": "Elígelo frente a apoyo rival y una segunda carta colocada, no cuando la prioridad sea limpiar varios monstruos boca arriba.",
           "related_cids": []
         },
         {
           "cid": 16330,
-          "role": "Pieza del motor: Phaser del Rebelde Real",
-          "reason": "En esta lista, Phaser del Rebelde Real cumple esta función documentada: Monstruo de Efecto — extensor / habilitador de material. Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Phaser del Rebelde Real disponible en su zona válida y recursos para aprovechar Monstruo de Efecto — extensor / habilitador de material. Invocar de Modo Especial en Defensa boca arriba un Demonio de Nivel 7+ del Cementerio. HARD ROCK OVERTURE puede colocar Nivel 7/8 en Defensa, pero colocar por Skill no cuenta como Invocación por Sacrificio de los jefes Royal Rebel's. sin gastar materiales inexistentes.",
+          "role": "Extensor de Demonios desde Cementerio",
+          "reason": "Si controlas un Demonio de Nivel 7 o superior, puede enviarse desde Campo para recuperar un Demonio elegible del Cementerio en Defensa.",
+          "when_to_use": "Úsalo cuando ya tengas un jefe en Campo para preparar otro material de Sacrificio; el monstruo revivido no obtiene un efecto de Sacrificio.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: ROYAL",
-          "plan": "Ir primero: prepara cuerpos válidos para Sacrificio y no trates los colocados por la Skill como una Invocación por Sacrificio. Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "risks": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
+          "title": "Primero: reservar el jefe y sus Tributos",
+          "plan": "Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida. Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes.",
+          "preconditions": "Primer turno del duelo: identifica Metal Maldito, Heavy Metal y Progrock en mano; comprueba si tienes defensas como Gelatina Defensiva o Agujero Trampa. La recuperación de Hard Rock Overture usada en las rutas exige turno 2+.",
+          "risks": "Si no dispones de la Skill, reúne cuerpos mediante las cartas de tu lista y no asumas Invocaciones gratuitas.",
           "related_route_ids": []
         },
         {
           "id": "second",
-          "title": "Ir segundo: ROYAL",
-          "plan": "Ir segundo: elige Heavy Metal frente a monstruos o Progrock frente a Magias y Trampas, solo con los Tributos correctos. Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "risks": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "related_route_ids": []
+          "title": "Segundo: elegir entre Death Doom, Heavy y Progrock",
+          "plan": "Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio. Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto.",
+          "preconditions": "Turno 2+, Skill habilitada y los tres Rebelde Real de Nivel 8 en mano; rival con objetivos elegibles.",
+          "risks": "Si falta la tercera carta o el objetivo no cumple la condición, no uses esta apertura como si estuviera completa.",
+          "related_route_ids": [
+            "705:A09:OVERTURE:DEATHDOOM01",
+            "705:A09:OVERTURE:HEAVY01",
+            "705:A09:OVERTURE:PROGROCK01"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: ROYAL",
-          "plan": "Juego medio: recupera Demonios del Cementerio mediante Phaser cuando cumpla sus condiciones y conserva materiales. Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "risks": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "related_route_ids": []
+          "title": "Juego medio: Canjear y Phaser",
+          "plan": "Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida. Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba. Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa. Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio.",
+          "preconditions": "Ya controlas Death Doom, tienes Canjear, Heavy Metal y Phaser en mano y queda espacio para la recuperación.",
+          "risks": "Si Death Doom desaparece antes del efecto, verifica que aún controlas un Demonio válido; si no, conserva Phaser.",
+          "related_route_ids": [
+            "705:A09:TRADEIN:PHASER01"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: ROYAL",
-          "plan": "Juego tardío: usa Doom Metal solo después de dos Demonios Nivel siete o más sacrificados legalmente. Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "risks": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
-          "related_route_ids": []
+          "title": "Juego tardío: reconstruir Death Doom sin Skill",
+          "plan": "Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente. Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa. Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles. Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.",
+          "preconditions": "Una copia de Heavy Metal en Campo, otra en Cementerio, Phaser y Death Doom disponibles.",
+          "risks": "Si solo reúnes un Heavy, mantén el cuerpo en lugar de declarar una Invocación que exige dos Tributos.",
+          "related_route_ids": [
+            "705:A09:V11:PHASER:REVIVE:DEATHDOOM"
+          ]
         }
       ],
       "strategy": {

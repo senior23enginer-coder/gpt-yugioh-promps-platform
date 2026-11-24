@@ -2,14 +2,15 @@
 
 ## APARTADO_01 — Perfil A01 importable 684
 
-- **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
-- **Tipo de estrategia:** despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.
-- **Estilo breve:** ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.
-- **Resumen para ficha:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
-- **Cómo se juega:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Primero: usa Core y dos Máquinas adecuadas para preparar Nova. Segundo: valora Fusión o Xyz según el campo rival real. Juego medio: reutiliza Nachster y Herz bajo sus condiciones de recuperación. Juego tardío: elige Infinity o una Fusión sin contar materiales duplicados. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
+- **Arquetipo:** Cyber Dragon / apoyo Cyberdark
+- **Tipo de estrategia:** Combo ofensivo de Máquinas, Fusión y Xyz
+- **Estilo breve:** Reúne Máquinas y nombres Cyber Dragon para Infinity, rompe campos con Fortress o Megafleet y presiona con los ataques de Rampage.
+- **Resumen para ficha:** Core busca soporte y Wurm/Revsystem reúnen Nivel 5 para Nova e Infinity. Clockwork Night habilita Fortress, mientras Rampage convierte materiales en presión de batalla.
+- **Cómo se juega:** Primero: Infinity y una respuesta adicional. Invoca Normalmente Core y busca Cybernetic Overflow del Deck. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow. Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas. Segundo: retirar monstruos sin combate. Con Core y Clockwork Night, usa la búsqueda de Core y confirma que la carta rival ahora es Máquina. Si el material puede enviarse al Cementerio, utiliza el procedimiento de Fortress con Core y la Máquina rival. Si el problema es un monstruo elegible en Zona Extra, usa Cyber Dragon para Megafleet en lugar de depender de Clockwork Night. Fortress o Megafleet y el monstruo rival enviado como material; la elección depende del tipo, zona y restricciones reales. Juego medio: usar los Ciber del Cementerio. Activa Overload usando los materiales requeridos del Cementerio; comprueba los nombres aplicables allí. Con Rampage, decide qué Máquinas LUZ enviar del Deck para habilitar ataques adicionales. Si envías Herz y su efecto está disponible, revisa qué Cyber Dragon original puedes recuperar. Rampage listo para ataques múltiples si resolvió el efecto y se enviaron las cartas requeridas; materiales de Overload quedan desterrados. Juego tardío: reciclar destierro con Cyberload. Primero usa Overload para producir Rampage y deja identificados los materiales desterrados boca arriba. Después, si esos materiales son elegibles para Cyberload, devuélvelos al Deck mediante su efecto para la nueva Fusión. Respeta la restricción de ataques de Cyberload: únicamente la criatura fusionada por esa Magia podrá atacar el resto del turno. Dos Rampage en el caso documentado, pero solo el segundo puede atacar tras Cyberload; no se suman ataques de ambos.
+- **Qué vigilar:** Nachster puede imponer solo Máquinas; Megafleet necesita Zona Extra y Fortress material Máquina. Cyberload limita ataques y Power Bond puede dañarte en End Phase.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
 
 
 <!-- A01_PLAYER_STRATEGY_V2_START -->

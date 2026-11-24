@@ -18369,14 +18369,14 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "DoomZ, con sus piezas de Modelo de Poder y Equipos registrados.",
-      "Tipo de estrategia": "preparación de materiales y salidas Xyz condicionadas.",
+      "Arquetipo": "DoomZ / Modelo de Poder",
+      "Tipo de estrategia": "Combo Xyz con control mediante Equipos",
       "Estilo de juego": "desarrollo por efectos encadenados y aprovechamiento de recursos que se equipan, destruyen o recuperan.",
-      "Cómo se juega": "Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Primero: desarrolla con Incursores DoomZ y Amalthe comprobando los Equipos. Segundo: elige entre retirar amenazas o extender sin confundir equipar y destruir. Juego medio: recupera Equipo y materiales con Elara según sus efectos. Juego tardío: decide si Drastrius tiene materiales y ventanas para cerrar la partida. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.",
+      "Cómo se juega": "Primero: Drastrius con una respuesta. Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck. En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea. Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8. Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba. Segundo: elegir cómo romper el campo. Completa la apertura hacia Drastrius solo si Incursores y Elara pueden resolver. Si Drastrius puede combatir y se cumple el procedimiento de ZEUS, valora sobreponerlo tras la batalla. Desacopla dos materiales de ZEUS únicamente cuando limpiar las otras cartas del Campo compense perder también recursos propios. ZEUS con materiales para limpieza condicional, o Drastrius conservado si la batalla o la limpieza no convienen. Juego medio: reciclar Equipos y destrucción. Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck. Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno. Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción. Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse. Juego tardío: presión de Júpiter. Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck. Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar. Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo. Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.",
       "Cartas representativas": "Incursores DoomZ, Amalthe, Elara, Drastrius y Júpiter.",
-      "Qué vigilar": "niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-      "Estilo breve": "desarrollo por efectos encadenados y aprovechamiento de recursos que se equipan, destruyen o recuperan.",
-      "Resumen para ficha": "Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios."
+      "Qué vigilar": "Respeta los límites de cada efecto de Elara y Amalthe, la restricción Xyz de Incursores y los materiales de Drastrius. Júpiter puede entrar sin materiales.",
+      "Estilo breve": "Destruye recursos DoomZ para buscar o colocar soporte, equipa monstruos y conviértelos en Xyz Máquina VIENTO; Drastrius controla y Júpiter presiona.",
+      "Resumen para ficha": "Incursores, Amalthe y Elara convierten destrucciones en búsquedas y Equipos. Drastea equipada accede a Drastrius; Medius abre alternativas con Diactorus o Júpiter."
     },
     "summary": [
       {
@@ -25285,65 +25285,76 @@
       "featured_cards": [
         {
           "cid": 21823,
-          "role": "Pieza del motor: Incursores DoomZ",
-          "reason": "En esta lista, Incursores DoomZ cumple esta función documentada: searcher · buscador · extensor. búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Incursores DoomZ disponible en su zona válida y recursos para aprovechar searcher · buscador · extensor. búsqueda o incorporación de cartas a mano; extensión mediante monstruos procedentes del Deck. Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado. sin gastar materiales inexistentes.",
+          "role": "Iniciador y extensión desde Deck",
+          "reason": "Destruye otra carta DoomZ mediante su efecto para buscar o Invocar una pieza del Deck. Elara o Amalthe pueden activar su propio disparo después.",
+          "when_to_use": "Úsalo con una DoomZ que puedas destruir y cuando todavía puedas respetar el límite del Extra a Xyz.",
           "related_cids": []
         },
         {
           "cid": 21775,
-          "role": "Pieza del motor: DoomZ V Cinco - Amalthe",
-          "reason": "En esta lista, DoomZ V Cinco - Amalthe cumple esta función documentada: Buscador de monstruos y conductor hacia Xyz DoomZ.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas DoomZ V Cinco - Amalthe disponible en su zona válida y recursos para aprovechar Buscador de monstruos y conductor hacia Xyz DoomZ. sin gastar materiales inexistentes.",
+          "role": "Buscador de monstruos y material de Xyz",
+          "reason": "Busca otro monstruo DoomZ al ser Invocada o destruida por efecto; equipada puede transformarse en una Xyz Máquina VIENTO del Rango correspondiente.",
+          "when_to_use": "Úsala cuando necesites Elara o Drastea en mano, o un cuerpo de Nivel 4 equipado para Diactorus.",
           "related_cids": []
         },
         {
           "cid": 21776,
-          "role": "Pieza del motor: DoomZ VII Siete - Elara",
-          "reason": "En esta lista, DoomZ VII Siete - Elara cumple esta función documentada: Buscador de apoyo DoomZ mediante colocación y material Xyz condicionado.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas DoomZ VII Siete - Elara disponible en su zona válida y recursos para aprovechar Buscador de apoyo DoomZ mediante colocación y material Xyz condicionado. sin gastar materiales inexistentes.",
+          "role": "Acceso a Magias y Trampas del motor",
+          "reason": "Al ser Invocada o destruida por efecto permite Colocar soporte DoomZ desde Deck; equipada también puede convertirse en una Xyz de Rango 4.",
+          "when_to_use": "Decide si gastar su disparo al Invocarla o reservarlo para su destrucción: no puedes obtener las dos colocaciones ese turno.",
           "related_cids": []
         },
         {
           "cid": 21811,
-          "role": "Pieza del motor: DoomZ XII Fin - Drastrius",
-          "reason": "En esta lista, DoomZ XII Fin - Drastrius cumple esta función documentada: interrupción · resultado de Extra Deck · negación · habilitador Xyz · motor Equipo. negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. identifica su destino, condicionado a material/procedimiento. Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas DoomZ XII Fin - Drastrius disponible en su zona válida y recursos para aprovechar interrupción · resultado de Extra Deck · negación · habilitador Xyz · motor Equipo. negación de efectos o activaciones; gestión de materiales Xyz; uso o producción de cartas equipadas. identifica su destino, condicionado a material/procedimiento. Relación contextual con destruir recursos DoomZ para ganar ventaja, equipar monstruos y transformarlos en Xyz Máquina de VIENTO. Puede cerrar o prolongar una ruta del Extra si los materiales están disponibles. sin gastar materiales inexistentes.",
+          "role": "Jefe Xyz de interacción y presión",
+          "reason": "Puede negar un efecto de monstruo rival activado en Campo o Cementerio desacoplando un material; después puede equipar un monstruo rival boca arriba.",
+          "when_to_use": "Priorízalo con Drastea y su Equipo para preparar una respuesta; conserva material para la amenaza que realmente interrumpa tu plan.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: DOOMZ",
-          "plan": "Ir primero: desarrolla con Incursores DoomZ y Amalthe comprobando los Equipos. Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "risks": "niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "related_route_ids": []
+          "title": "Primero: Drastrius con una respuesta",
+          "plan": "Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck. En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea. Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8. Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba.",
+          "preconditions": "Incursores DoomZ y Elara en mano; Drastea y Mando en Deck; Drastrius en Extra.",
+          "risks": "Con Incursores y Amalthe, busca Elara tras destruir Amalthe y gasta la Normal para colocar Mando.",
+          "related_route_ids": [
+            "653:A09:RAIDERS:ELARA:DRAS01",
+            "653:A09:RAIDERS:AMALTHE:DRAS02"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: DOOMZ",
-          "plan": "Ir segundo: elige entre retirar amenazas o extender sin confundir equipar y destruir. Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "risks": "niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "related_route_ids": []
+          "title": "Segundo: elegir cómo romper el campo",
+          "plan": "Completa la apertura hacia Drastrius solo si Incursores y Elara pueden resolver. Si Drastrius puede combatir y se cumple el procedimiento de ZEUS, valora sobreponerlo tras la batalla. Desacopla dos materiales de ZEUS únicamente cuando limpiar las otras cartas del Campo compense perder también recursos propios. ZEUS con materiales para limpieza condicional, o Drastrius conservado si la batalla o la limpieza no convienen.",
+          "preconditions": "El rival controla monstruos o cartas que siguen siendo vulnerables; dispones de una apertura hacia Drastrius y, si procede, de la Battle Phase.",
+          "risks": "Si el ataque no es posible, conserva Drastrius y su respuesta a monstruos en lugar de anunciar ZEUS.",
+          "related_route_ids": [
+            "653:A09:RAIDERS:ELARA:DRASTRIUS_BATTLE_ZEUS08"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: DOOMZ",
-          "plan": "Juego medio: recupera Equipo y materiales con Elara según sus efectos. Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "risks": "niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "related_route_ids": []
+          "title": "Juego medio: reciclar Equipos y destrucción",
+          "plan": "Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck. Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno. Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción. Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse.",
+          "preconditions": "Elara y Drastea disponibles; existe Adrasteia o Mando en el Deck y una zona de Magias/Trampas utilizable.",
+          "risks": "Si no quedan Equipos válidos, evita gastar Drastea esperando una Xyz que no se puede completar.",
+          "related_route_ids": [
+            "653:A09:V11:DRASTEA:ADRASTEIA:DIACTORUS",
+            "653:A09:V12:ELARA:DRASTEA:DRASTRIUS:SINGLE"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: DOOMZ",
-          "plan": "Juego tardío: decide si Drastrius tiene materiales y ventanas para cerrar la partida. Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "risks": "niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.",
-          "related_route_ids": []
+          "title": "Juego tardío: presión de Júpiter",
+          "plan": "Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck. Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar. Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo. Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.",
+          "preconditions": "Medius en mano, Jupredo (alias Zegredo en la lista) en Deck, Júpiter en Extra y al menos tres cartas para desterrar boca abajo.",
+          "risks": "Si quedan pocas cartas esenciales o el coste es demasiado arriesgado, usa la salida documentada de Medius con Modelo de Poder hacia Drastrius.",
+          "related_route_ids": [
+            "653:A09:MEDIUS:JUPREDO:JUPITER04",
+            "653:A09:MEDIUS:POWERPATRON:DIACTORUS:DRAS05"
+          ]
         }
       ],
       "strategy": {

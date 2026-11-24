@@ -2,14 +2,15 @@
 
 ## APARTADO_01 — Perfil A01 importable 705
 
-- **Arquetipo:** Royal Rebel's (Rush Duel; habilidad Hard Rock Overture).
-- **Tipo de estrategia:** Combo-Midrange de Demonios/LUZ con Sacrificios de Nivel alto y control de mesa.
-- **Estilo breve:** Rush Duel de Demonios/LUZ: prepara Sacrificios para Heavy Metal, Doom Metal y Progrock; la habilidad coloca cuerpos, pero no sustituye una Invocación por Sacrificio.
-- **Resumen para ficha:** Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo.
-- **Cómo se juega:** Primero: conservar materiales y preparar monstruos de Nivel alto; usar Hard Rock Overture solo con la condición de Demonios/LUZ y un Nivel 7/8 en mano. Segundo: elegir Heavy Metal contra monstruos, Progrock contra Magias/Trampas y Doom Metal únicamente cuando puedan tributarse DOS Demonios de Nivel 7 o más. Medio/tardío: aprovechar Phaser y recuperación del Cementerio sin prometer que una Invocación Especial cumpla los requisitos de una Invocación por Sacrificio.
-- **Qué vigilar:** El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.
+- **Arquetipo:** Rebelde Real / Hard Rock Overture
+- **Tipo de estrategia:** Control por Sacrificio de Demonios en Rush Duel
+- **Estilo breve:** Reúne dos Tributos para elegir un Rebelde Real de Nivel alto según la amenaza; Phaser recupera Demonios y Canjear reorganiza la mano.
+- **Resumen para ficha:** Metal Maldito limpia monstruos, Heavy Metal gana ATK y Progrock retira apoyo. Hard Rock Overture ayuda en la apertura local de turno 2+; Phaser recupera cuerpos.
+- **Cómo se juega:** Primero: reservar el jefe y sus Tributos. Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida. Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes. Segundo: elegir entre Death Doom, Heavy y Progrock. Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio. Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto. Juego medio: Canjear y Phaser. Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida. Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba. Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa. Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio. Juego tardío: reconstruir Death Doom sin Skill. Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente. Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa. Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles. Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.
+- **Qué vigilar:** Colocar por Skill o revivir por Phaser no equivale a Invocar por Sacrificio. Los tres jefes son destinos alternativos y requieren recursos reales.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
 
 
 <!-- A01_PLAYER_STRATEGY_V2_START -->

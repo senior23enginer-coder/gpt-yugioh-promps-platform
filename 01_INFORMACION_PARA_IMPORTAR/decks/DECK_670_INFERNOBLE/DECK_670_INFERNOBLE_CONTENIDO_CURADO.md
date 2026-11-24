@@ -2,14 +2,15 @@
 
 ## APARTADO_01 — Perfil A01 importable 670
 
-- **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
-- **Tipo de estrategia:** desarrollo de Guerreros FUEGO y acceso condicionado a Enlace/Sincronía.
-- **Estilo breve:** combos de equipamiento, búsqueda y reutilización de recursos.
-- **Resumen para ficha:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
-- **Cómo se juega:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos. Primero: prepara Guerreros FUEGO con Ogier y Equipos antes de elegir Isolde o Sincronía. Segundo: desarrolla Oliver y Renaud solo con los costes legales. Juego medio: recicla Durendal y Almace con objetivos reales. Juego tardío: conserva Equipos y materiales para un jefe Infernoble invocable. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** Equipos disponibles, niveles de Sincro y efectos que bloqueen otras invocaciones del Extra.
+- **Arquetipo:** Infiernoble / Guerreros y Equipos
+- **Tipo de estrategia:** Combo de Guerreros FUEGO, Sincronía y Enlace
+- **Estilo breve:** Convierte Guerreros FUEGO y Equipos en materiales de Angélica y recursos de Museo; Isolde desarrolla cuerpos y Great Charles ofrece presión cuando su acceso existe.
+- **Resumen para ficha:** Ogier envía Equipos y Renaud recupera recursos para Angélica. Connector abre Isolde; un Charles Sincronía equipado habilita Great Charles como salida de control.
+- **Cómo se juega:** Primero: construir Angélica con Equipos disponibles. Invoca Normalmente Ogier de Nivel 4 y usa su disparo para enviar Durendal del Deck al Cementerio. Como controlas un Guerrero FUEGO, Invoca Renaud de Nivel 1 desde mano por su procedimiento propio; se trata como Cantante. Recupera Durendal de Cementerio con su disparo si resuelve. Sincroniza Ogier (4) + Renaud (1) para Angélica (5). Utiliza su efecto de Invocación Especial para añadir Museo y gestiona los Equipos conforme a sus requisitos. Conserva los Equipos; para que Angélica traiga Roland necesita su condición de selección en Campo. No existe Charles todavía. Angélica y Museo con recursos para continuar; Roland y Charles no están automáticamente en el Campo. Segundo: retirar una amenaza con Anima y S:P. Desarrolla Ogier y Renaud y conserva el Equipo recuperado según la ruta. Si la posición rival permite que Anima equipe un monstruo elegible, sigue la variante ofensiva con Anima. Convierte los materiales disponibles en S:P y resuelve su retirada solo si queda un objetivo elegible. S:P y Durendal en mano; Anima ya no queda en Campo cuando se usa como material. Juego medio: recuperar mediante Renaud. Si Connector puede resolver, trae Aqua Dolphin y usa ambos Guerreros para Isolde según la ruta existente. Usa las búsquedas y recuperación permitidas de Isolde y Renaud, respetando las limitaciones del Guerrero añadido. Activa Durendal para obtener Fire Flint Lady si esa continuación sigue disponible. Cuerpos adicionales y recursos de mano, no una Sincronía o negación gratuita. Juego tardío: convertir Charles equipado. Verifica que Charles esté realmente equipado y que la carta de Enlace permanezca disponible. Utiliza el procedimiento de Enlace que requiere al Charles equipado. Al Invocar Great Charles, selecciona al Charles Sincronía del Cementerio para su efecto de equipamiento. Reserva la Mágica de Equipo que deba enviarse para responder a una activación de Magia/Trampa. Great Charles de 3500 ATK con Charles equipado y una respuesta potencial a Magia/Trampa.
+- **Qué vigilar:** Distingue cómo fue Invocado Renaud y cuándo se trata como Cantante. No atribuyas Charles a Angélica sin niveles y materiales suficientes.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
 
 
 <!-- A01_PLAYER_STRATEGY_V2_START -->

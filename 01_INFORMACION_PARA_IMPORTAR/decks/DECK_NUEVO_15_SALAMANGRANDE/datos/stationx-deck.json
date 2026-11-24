@@ -2168,13 +2168,13 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Salamangreat / Salamangrande (Cyberse/FUEGO).",
+      "Arquetipo": "Salamangrande / motor de Enlaces FUEGO",
       "Estilo de juego": "Estilo: deck de FUEGO/Cyberse con encadenamientos de material Link, reciclaje de recursos, invocación «de reencarnación» mediante Santuario Salamangrande y finales con Lobo de la Luz Solar, Fénix Furioso, Piro Fénix y Rugido Salamangrande. La búsqueda/ventaja de Gacela y los Level3 habilitan Espejismetal. No depende de incorporar cartas que no estén en el inventario.",
-      "Cómo se juega": "Primero: alcanzar Gacela o de Fuego, pasar por Lincefogata y buscar Santuario; preparar Lobo y Rugido solo con recursos reales. Segundo: medir negaciones rivales, respetar el bloqueo FUEGO de de Fuego y elegir la vía Link que corresponda al estado. Medio/tardío: reciclar Jaguar/Gacela, practicar reencarnación con un monstruo del mismo nombre y revisar que Quimera Violeta tenga habilitador válido de Fusión.",
-      "Tipo de estrategia": "Combo-Control de Enlace, recuperación y reencarnación con Santuario.",
-      "Estilo breve": "Desarrolla Gacela y de Fuego hasta Links Salamangrande; Santuario permite reencarnar, Lobo recicla recursos y las opciones Link 4 dependen de materiales y ventanas.",
-      "Resumen para ficha": "Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos.",
-      "Qué vigilar": "de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main."
+      "Cómo se juega": "Primero: Lobo reencarnado y Jaque Jaguar. Invoca Normalmente Gacela y envía Rotante del Deck al Cementerio con su efecto. Como controlas Gacela, Invoca Rotante mediante su efecto de Cementerio. Superpón Gacela y Rotante (Nivel 3) para Espejismetal. Desacopla Rotante y trae Jaque Jaguar del Deck en Defensa; tras resolver, este turno solo puedes activar efectos de monstruos FUEGO. Obtén Santuario mediante Lincefogata y construye Lobo usando los cuerpos de la ruta enlazada; usa Santuario para Invocar el segundo Lobo utilizando el primero según su procedimiento. Usa Jaque Jaguar desde Cementerio devolviendo un Salamangrande elegible al Deck; Invócalo a una zona apuntada por Lobo y aprovecha su recuperación si está disponible. Segundo Lobo, Jaque Jaguar y Santuario, con acceso a recuperar Gacela si se cumplen las condiciones; Rugido no fue obtenido por esta ruta. Segundo: convertir cuerpos en presión o Fusión. Comprueba que Mago Proxy F esté en Campo y que los otros dos monstruos cumplan los materiales de Quimera. Utiliza su efecto de Fusión en la ventana indicada, sin sumar materiales que no estén presentes. Si la zona y la carta de mano permiten el efecto adicional de Proxy F, valora esa extensión; calcula el combate con el resultado real. Quimera Violeta Invocada por Fusión con materiales reales; no es una apertura de una carta. Juego medio: reciclar Lobo con Jaque Jaguar. Comprueba que la flecha de Lobo apunta a una zona de monstruos libre. Desde Cementerio, activa Jaque Jaguar seleccionando otro Salamangrande elegible de Cementerio; devuélvelo al Deck y, si resuelve, Invoca Jaguar en una zona libre apuntada por tu Enlace Salamangrande. Cuando Jaque Jaguar llegue a la zona apuntada, aplica la recuperación de Lobo si su efecto sigue disponible. Jaque Jaguar en Campo y una carta recuperada cuando resuelve el disparo de Lobo. Juego tardío: reencarnar Fénix Furioso. Verifica que el primer Fénix Furioso esté presente y que puedas utilizar el procedimiento de reencarnación. Invoca el segundo Fénix usando el primero conforme al efecto de Santuario. Busca la carta Salamangrande que realmente necesites para continuar o responder; no presupongas que Rugido está en mano antes de la búsqueda. Fénix Furioso reencarnado y una carta buscada si la secuencia resuelve; no se presupone cómo se construyó el primer Enlace 4.",
+      "Tipo de estrategia": "Combo de Enlace y recuperación de recursos",
+      "Estilo breve": "Desarrolla Gacela y Rotante, obtiene Santuario y reutiliza Enlaces con Lobo y Jaque Jaguar; Fénix Furioso añade búsqueda mediante reencarnación.",
+      "Resumen para ficha": "Gacela envía Rotante y Espejismetal trae Jaque Jaguar. Lincefogata busca Santuario; Lobo recupera recursos y Fénix Furioso puede buscar al reencarnarse.",
+      "Qué vigilar": "Distingue el bloqueo de Invocaciones FUEGO de Salamangrande de Fuego y el de activaciones de efectos de monstruos FUEGO de Espejismetal."
     },
     "summary": "",
     "engine_maps": [],
@@ -3425,65 +3425,76 @@
       "featured_cards": [
         {
           "cid": 14240,
-          "role": "Pieza del motor: Salamangrande Gacela",
-          "reason": "En esta lista, Salamangrande Gacela cumple esta función documentada: Invoca desde mano cuando otro Salamangrande llega a GY; al invocar manda 1 Salamangrande del Deck a GY. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Salamangrande Gacela disponible en su zona válida y recursos para aprovechar Invoca desde mano cuando otro Salamangrande llega a GY; al invocar manda 1 Salamangrande del Deck a GY sin gastar materiales inexistentes.",
+          "role": "Iniciadora y envío dirigido del motor",
+          "reason": "Puede entrar desde mano al enviarse otro Salamangrande al Cementerio y, al ser Invocada, enviar una carta Salamangrande del Deck.",
+          "when_to_use": "Úsala para enviar Rotante cuando quieras formar Espejismetal; si necesitas otra carta, comprueba que la línea de recuperación sigue viable.",
           "related_cids": []
         },
         {
           "cid": 18908,
-          "role": "Pieza del motor: Salamangrande de Fuego",
-          "reason": "En esta lista, Salamangrande de Fuego cumple esta función documentada: Normal/Especial busca Salamangrande Nivel4 o menos excepto sí mismo. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Salamangrande de Fuego disponible en su zona válida y recursos para aprovechar Normal/Especial busca Salamangrande Nivel4 o menos excepto sí mismo sin gastar materiales inexistentes.",
+          "role": "Buscador de acceso a Gacela",
+          "reason": "Al ser Invocado puede buscar otro Salamangrande de Nivel 4 o menor; después de resolver, limita las Invocaciones Especiales a FUEGO ese turno.",
+          "when_to_use": "Úsalo con la Normal para buscar Gacela y formar Lincefogata; evita elegir un destino incompatible con el bloqueo.",
           "related_cids": []
         },
         {
           "cid": 14249,
-          "role": "Pieza del motor: Salamangrande Lincefogata",
-          "reason": "En esta lista, Salamangrande Lincefogata cumple esta función documentada: 1 Cyberse Level4 o menor. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Salamangrande Lincefogata disponible en su zona válida y recursos para aprovechar 1 Cyberse Level4 o menor sin gastar materiales inexistentes.",
+          "role": "Enlace de acceso a Santuario",
+          "reason": "Convierte un Ciberso de Nivel 4 o menor en un Enlace 1 y puede buscar Santuario para habilitar la reencarnación de tus Enlaces.",
+          "when_to_use": "Úsalo al comienzo del desarrollo para obtener Santuario antes de construir y reutilizar Lobo.",
           "related_cids": []
         },
         {
           "cid": 14125,
-          "role": "Pieza del motor: Salamangrande Lobo de la Luz Solar",
-          "reason": "En esta lista, Salamangrande Lobo de la Luz Solar cumple esta función documentada: Link2 con recuperación de FUEGO del GY al invocar a zona apuntada. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Salamangrande Lobo de la Luz Solar disponible en su zona válida y recursos para aprovechar Link2 con recuperación de FUEGO del GY al invocar a zona apuntada sin gastar materiales inexistentes.",
+          "role": "Enlace de recuperación y continuidad",
+          "reason": "Puede recuperar un monstruo FUEGO del Cementerio cuando se Invoca un monstruo a una zona que apunta; su reencarnación habilita otra recuperación de soporte.",
+          "when_to_use": "Déjalo apuntando a una zona libre para Jaque Jaguar y decide qué recurso necesitas recuperar antes de gastar otra copia de Extra.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: SALAMANGRANDE",
-          "plan": "Ir primero: usa Gacela o Salamangrande de Fuego para preparar Lincefogata y Santuario. Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "risks": "de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "related_route_ids": []
+          "title": "Primero: Lobo reencarnado y Jaque Jaguar",
+          "plan": "Invoca Normalmente Gacela y envía Rotante del Deck al Cementerio con su efecto. Como controlas Gacela, Invoca Rotante mediante su efecto de Cementerio. Superpón Gacela y Rotante (Nivel 3) para Espejismetal. Desacopla Rotante y trae Jaque Jaguar del Deck en Defensa; tras resolver, este turno solo puedes activar efectos de monstruos FUEGO. Obtén Santuario mediante Lincefogata y construye Lobo usando los cuerpos de la ruta enlazada; usa Santuario para Invocar el segundo Lobo utilizando el primero según su procedimiento. Usa Jaque Jaguar desde Cementerio devolviendo un Salamangrande elegible al Deck; Invócalo a una zona apuntada por Lobo y aprovecha su recuperación si está disponible. Segundo Lobo, Jaque Jaguar y Santuario, con acceso a recuperar Gacela si se cumplen las condiciones; Rugido no fue obtenido por esta ruta.",
+          "preconditions": "Gacela en mano, Rotante y Jaque Jaguar en Deck; Lincefogata, Espejismetal y dos Lobo disponibles.",
+          "risks": "Con Salamangrande de Fuego en mano, usa su búsqueda de Gacela para desarrollar Lincefogata y Espejismetal.",
+          "related_route_ids": [
+            "673:A09:S-C01",
+            "673:A09:S-C02"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: SALAMANGRANDE",
-          "plan": "Ir segundo: mide las amenazas y respeta el bloqueo FUEGO antes de Invocar monstruos del Extra. Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "risks": "de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "related_route_ids": []
+          "title": "Segundo: convertir cuerpos en presión o Fusión",
+          "plan": "Comprueba que Mago Proxy F esté en Campo y que los otros dos monstruos cumplan los materiales de Quimera. Utiliza su efecto de Fusión en la ventana indicada, sin sumar materiales que no estén presentes. Si la zona y la carta de mano permiten el efecto adicional de Proxy F, valora esa extensión; calcula el combate con el resultado real. Quimera Violeta Invocada por Fusión con materiales reales; no es una apertura de una carta.",
+          "preconditions": "Mago Proxy F ya Invocado legalmente; además controlas un Salamangrande y un monstruo Enlace utilizables, sin bloqueo incompatible.",
+          "risks": "Si no puedes construir Proxy F, conserva los Enlaces y sigue una línea de Lobo sin forzar Fusión.",
+          "related_route_ids": [
+            "673:A09:S-C05",
+            "673:A09:S-C01"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: SALAMANGRANDE",
-          "plan": "Juego medio: recupera recursos con Jaque Jaguar y Lobo de la Luz Solar cuando haya una zona apuntada legal. Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "risks": "de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "related_route_ids": []
+          "title": "Juego medio: reciclar Lobo con Jaque Jaguar",
+          "plan": "Comprueba que la flecha de Lobo apunta a una zona de monstruos libre. Desde Cementerio, activa Jaque Jaguar seleccionando otro Salamangrande elegible de Cementerio; devuélvelo al Deck y, si resuelve, Invoca Jaguar en una zona libre apuntada por tu Enlace Salamangrande. Cuando Jaque Jaguar llegue a la zona apuntada, aplica la recuperación de Lobo si su efecto sigue disponible. Jaque Jaguar en Campo y una carta recuperada cuando resuelve el disparo de Lobo.",
+          "preconditions": "Lobo de la Luz Solar apunta a una zona libre; Jaque Jaguar y otro objetivo Salamangrande elegible están en Cementerio.",
+          "risks": "Si no hay zona libre, no actives la ruta como si Jaguar pudiera aparecer allí; conserva el Cementerio.",
+          "related_route_ids": [
+            "673:A09:S-C03"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: SALAMANGRANDE",
-          "plan": "Juego tardío: considera Fénix Furioso, Piro Fénix o Quimera Violeta solo con sus materiales y procedimientos. Salamangrande usa Gacela, de Fuego, Lincefogata y Santuario para convertir cuerpos en Enlaces y recuperar recursos. Las rutas a Fénix Furioso, Piro Fénix y Quimera Violeta exigen materiales y medios específicos. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "risks": "de Fuego limita Invocaciones posteriores a FUEGO; Fénix Furioso exige otro Fénix Furioso como material para su búsqueda de reencarnación. Quimera Violeta depende de Proxy F y materiales exactos porque Fusión de Fuego no está en Main.",
-          "related_route_ids": []
+          "title": "Juego tardío: reencarnar Fénix Furioso",
+          "plan": "Verifica que el primer Fénix Furioso esté presente y que puedas utilizar el procedimiento de reencarnación. Invoca el segundo Fénix usando el primero conforme al efecto de Santuario. Busca la carta Salamangrande que realmente necesites para continuar o responder; no presupongas que Rugido está en mano antes de la búsqueda. Fénix Furioso reencarnado y una carta buscada si la secuencia resuelve; no se presupone cómo se construyó el primer Enlace 4.",
+          "preconditions": "Santuario activo, primer Fénix Furioso legalmente Invocado y segunda copia en Extra; búsqueda aún no usada.",
+          "risks": "Si falta la segunda copia de Fénix o el primer Enlace 4, conserva Lobo y recupera recursos mediante Jaque Jaguar.",
+          "related_route_ids": [
+            "673:A09:S-C04",
+            "673:A09:S-C03"
+          ]
         }
       ],
       "strategy": {

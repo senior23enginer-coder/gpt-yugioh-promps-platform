@@ -7633,14 +7633,14 @@
       }
     ],
     "profile": {
-      "Arquetipo": "Elemental HERO de Rush Duel (Skill Hero Rush Rising).",
-      "Tipo de estrategia": "Combo-Midrange basado en Fusiones de Guerreros con materiales nombrados.",
+      "Arquetipo": "HÉROE Elemental / HERO RUSH RISING",
+      "Tipo de estrategia": "Fusión ofensiva y reciclaje en Rush Duel",
       "Estilo de juego": "preparación de materiales, Fusiones sucesivas y presión de combate.",
-      "Cómo se juega": "Primero: asegurar el acceso a Avian, Sparkman y Burstinatrix, reciclar Normales por Inicio Reinicio y no anunciar Fusiones sin el Campo preparado. Segundo: usar Argen para excavar cuatro cartas y sumar hasta dos Normales si efectivamente aparecen; elegir Wingman, Heliosphere o Voltic solo cuando se disponga del procedimiento y materiales nombrados. Juego medio/tardío: Hero Rush Rising puede enviar una carta propia de Campo al Cementerio, bajar 600 ATK/DEF a un monstruo boca arriba y recuperar Fusión de Deck/Cementerio cuando se cumpla su requisito de construcción.",
+      "Cómo se juega": "Primero: Wingman con dos materiales. Invoca normalmente Avian y Burstinatrix boca arriba usando las reglas Rush. Activa Fusión con esos dos materiales; elige Llama Wingman o Estallido Wingman, no ambos. Si eliges Estallido Wingman, su efecto permite enviar la carta superior al Cementerio para dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y, cuando proceda, destruir una Magia/Trampa rival. Un Wingman de 2100 ATK base; Estallido puede aumentar la fuerza de un Guerrero propio según su efecto. Segundo: Voltic y una segunda Fusión. Invoca los tres Normales y fusiona Sparkman con Avian para Voltic Wingman. Usa HERO RUSH RISING bajo sus reglas locales: envía Burstinatrix del Campo al Cementerio, elige Voltic para que pierda 600 ATK/DEF hasta fin de turno y recupera Fusión desde Cementerio conforme a la opción de la Skill. Usa el efecto de Voltic para devolver Avian + Burstinatrix de Cementerio al Deck si eliges Llama o Estallido, o esos dos + Sparkman si eliges Heliosfera; son destinos alternativos. Voltic de 1400 ATK temporal y una segunda Fusión elegida; Heliosfera puede robar y destruir solo si su condición se cumple. Juego medio: administrar el Cementerio de Voltic. Recuenta los nombres de Cementerio antes de aplicar el efecto de Voltic. Si necesitas dos materiales, elige Llama o Estallido conforme al Campo rival. Para Heliosfera, devuelve Sparkman, Avian y Burstinatrix al Deck. Si quedan al menos diez cartas en Deck en el momento exigido, puedes robar; solo si sale un monstruo podrá aplicarse la destrucción indicada. Una segunda Fusión y reciclaje de los materiales usados, sin sumar otros destinos a la misma activación. Juego tardío: Shining Flare con dos Fusiones. Invoca los tres Héroes Normales y usa la primera Fusión para Llama Wingman. Usa la segunda Fusión con Llama Wingman y Sparkman que permanecen boca arriba. En el ejemplo con Avian, Burstinatrix, Sparkman y Llama Wingman en Cementerio, Shining Flare suma 4 × 300 ATK a sus 2500 base; si cambia el número de Guerreros, recalcula el ATK. Shining Flare de 3700 ATK en el ejemplo con cuatro Guerreros en Cementerio, sin daño por la mera Invocación.",
       "Cartas representativas": "Avian, Sparkman, Burstinatrix, Flame Wingman y Hero Rush Rising.",
-      "Qué vigilar": "Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-      "Estilo breve": "Reúne Avian, Sparkman y Burstinatrix con Argen, Descenso de Héroe y Fusión; el Extra decide el remate. Hero Rush Rising puede recuperar Fusión pagando una carta del Campo.",
-      "Resumen para ficha": "Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables."
+      "Qué vigilar": "Fusión usa materiales boca arriba, Voltic usa su procedimiento de Cementerio; la Skill reduce 600 ATK/DEF y los destinos de segunda Fusión son alternativas.",
+      "Estilo breve": "Reúne Héroes Normales con Fusión para Wingman; Voltic recicla nombres del Cementerio hacia una segunda Fusión y Shining Flare convierte Guerreros en ATK.",
+      "Resumen para ficha": "Avian, Burstinatrix y Sparkman habilitan distintas Fusiones. Voltic y la Skill local permiten una segunda salida; Shining Flare y Heliosfera aportan ataque o retirada."
     },
     "summary": [
       {
@@ -13885,65 +13885,78 @@
       "featured_cards": [
         {
           "cid": 20460,
-          "role": "Pieza del motor: Héroe Elemental Avian",
-          "reason": "En esta lista, Héroe Elemental Avian cumple esta función documentada: Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera. La Skill local HERO RUSH RISING puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Héroe Elemental Avian disponible en su zona válida y recursos para aprovechar Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal; material nombrado para las Fusiones Wingman y Heliosfera. La Skill local HERO RUSH RISING puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main. sin gastar materiales inexistentes.",
+          "role": "Material Normal de múltiples Fusiones",
+          "reason": "Con Burstinatrix habilita Llama o Estallido Wingman; con Sparkman permite Voltic. Es también uno de los tres nombres de Heliosfera.",
+          "when_to_use": "Invócalo boca arriba con la pareja adecuada antes de usar Fusión; conserva su nombre para la recuperación posterior de Voltic.",
           "related_cids": []
         },
         {
           "cid": 20457,
-          "role": "Pieza del motor: Héroe Elemental Sparkman",
-          "reason": "En esta lista, Héroe Elemental Sparkman cumple esta función documentada: Material Normal Guerrero requerido por fusiones HERO.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Héroe Elemental Sparkman disponible en su zona válida y recursos para aprovechar Material Normal Guerrero requerido por fusiones HERO. sin gastar materiales inexistentes.",
+          "role": "Material Normal de Voltic y Shining Flare",
+          "reason": "Con Avian forma Voltic; además, Sparkman y Llama Wingman son los materiales expresos de Shining Flare.",
+          "when_to_use": "Úsalo con Avian para el plan de doble Fusión por Skill, o resérvalo en Campo para fusionarlo con Llama Wingman.",
           "related_cids": []
         },
         {
           "cid": 20459,
-          "role": "Pieza del motor: Héroe Elemental Burstinatrix",
-          "reason": "En esta lista, Héroe Elemental Burstinatrix cumple esta función documentada: Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera. La Skill local HERO RUSH RISING puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Héroe Elemental Burstinatrix disponible en su zona válida y recursos para aprovechar Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal; material nombrado de Burst Wingman, Flame Wingman y Heliosfera. La Skill local HERO RUSH RISING puede recuperar «Fusión» y debilitar un monstruo, pero exige sus condiciones globales Guerrero/LUZ y no se roba del Main. sin gastar materiales inexistentes.",
+          "role": "Material Normal de Wingman y segunda Fusión",
+          "reason": "Con Avian permite Llama o Estallido; la ruta local de Voltic puede enviarla mediante la Skill para completar los materiales de Cementerio.",
+          "when_to_use": "Úsala en Campo para la Fusión simple, o conserva su nombre para el procedimiento de Voltic si la Skill está habilitada.",
           "related_cids": []
         },
         {
           "cid": 21316,
-          "role": "Pieza del motor: Héroe Elemental Voltic Wingman",
-          "reason": "En esta lista, Héroe Elemental Voltic Wingman cumple esta función documentada: Puente de Fusion desde Cementerio después de Fusión inicial.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Héroe Elemental Voltic Wingman disponible en su zona válida y recursos para aprovechar Puente de Fusion desde Cementerio después de Fusión inicial. sin gastar materiales inexistentes.",
+          "role": "Fusión puente para reciclar materiales",
+          "reason": "Se forma con Sparkman y Avian; su efecto permite utilizar nombres del Cementerio devueltos al Deck para una segunda Fusión elegible.",
+          "when_to_use": "Úsalo con los materiales de Cementerio correctos; elige Llama, Estallido o Heliosfera según el nombre disponible y la amenaza.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: HERO",
-          "plan": "Ir primero: conserva Avian, Sparkman y Burstinatrix y busca piezas con Argen sin presumir qué cartas aparecerán. Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "risks": "Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "related_route_ids": []
+          "title": "Primero: Wingman con dos materiales",
+          "plan": "Invoca normalmente Avian y Burstinatrix boca arriba usando las reglas Rush. Activa Fusión con esos dos materiales; elige Llama Wingman o Estallido Wingman, no ambos. Si eliges Estallido Wingman, su efecto permite enviar la carta superior al Cementerio para dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y, cuando proceda, destruir una Magia/Trampa rival. Un Wingman de 2100 ATK base; Estallido puede aumentar la fuerza de un Guerrero propio según su efecto.",
+          "preconditions": "Avian, Burstinatrix y Fusión en mano; dos zonas libres y ambos destinos en Extra.",
+          "risks": "Si no puedes reunir los dos nombres, conserva Fusión y prepara una defensa en vez de anunciar el jefe.",
+          "related_route_ids": [
+            "706:A09:AVIAN:BURST01A",
+            "706:A09:AVIAN:BURST01B"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: HERO",
-          "plan": "Ir segundo: reúne materiales nombrados boca arriba y activa Fusión solo cuando el Campo y el destino sean compatibles. Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "risks": "Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "related_route_ids": []
+          "title": "Segundo: Voltic y una segunda Fusión",
+          "plan": "Invoca los tres Normales y fusiona Sparkman con Avian para Voltic Wingman. Usa HERO RUSH RISING bajo sus reglas locales: envía Burstinatrix del Campo al Cementerio, elige Voltic para que pierda 600 ATK/DEF hasta fin de turno y recupera Fusión desde Cementerio conforme a la opción de la Skill. Usa el efecto de Voltic para devolver Avian + Burstinatrix de Cementerio al Deck si eliges Llama o Estallido, o esos dos + Sparkman si eliges Heliosfera; son destinos alternativos. Voltic de 1400 ATK temporal y una segunda Fusión elegida; Heliosfera puede robar y destruir solo si su condición se cumple.",
+          "preconditions": "Sparkman, Avian, Burstinatrix y Fusión en mano; tres zonas libres; Skill local HERO RUSH RISING habilitada.",
+          "risks": "Si la Skill no está disponible, realiza solo la Fusión cuyos materiales tengas en Campo.",
+          "related_route_ids": [
+            "706:A09:VOLTIC:SECOND01A",
+            "706:A09:VOLTIC:SECOND01B",
+            "706:A09:VOLTIC:SECOND01C"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: HERO",
-          "plan": "Juego medio: reutiliza Normales y la Mágica Fusión desde el Cementerio mediante los efectos que corresponda. Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "risks": "Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "related_route_ids": []
+          "title": "Juego medio: administrar el Cementerio de Voltic",
+          "plan": "Recuenta los nombres de Cementerio antes de aplicar el efecto de Voltic. Si necesitas dos materiales, elige Llama o Estallido conforme al Campo rival. Para Heliosfera, devuelve Sparkman, Avian y Burstinatrix al Deck. Si quedan al menos diez cartas en Deck en el momento exigido, puedes robar; solo si sale un monstruo podrá aplicarse la destrucción indicada. Una segunda Fusión y reciclaje de los materiales usados, sin sumar otros destinos a la misma activación.",
+          "preconditions": "Voltic en Campo y los Héroes Normales necesarios en Cementerio por la apertura anterior.",
+          "risks": "Si no hay tres nombres para Heliosfera, considera el Wingman de dos materiales que sí puedas reunir.",
+          "related_route_ids": [
+            "706:A09:VOLTIC:SECOND01A",
+            "706:A09:VOLTIC:SECOND01B",
+            "706:A09:VOLTIC:SECOND01C"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: HERO",
-          "plan": "Juego tardío: elige la Fusión HERO adecuada para presión de batalla o recuperación sin inventar materiales. Construye Fusiones HERO desde materiales reales en Campo. Argen excava para encontrar Normales nombrados; Hero Rush Rising puede recuperar Fusión, pero no invoca por sí sola. Voltic Wingman y Shining Flare exigen materiales y ventanas verificables. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "risks": "Fusión Rush usa materiales boca arriba del Campo. Hero Rush Rising exige que los monstruos con 1600+ ATK del Deck construido sean Guerreros/LUZ y todos los del Extra sean Guerreros. Argen excava, no busca automáticamente; Heliosphere exige diez cartas en Deck para robar. Ninguna Skill sustituye el procedimiento de Fusión.",
-          "related_route_ids": []
+          "title": "Juego tardío: Shining Flare con dos Fusiones",
+          "plan": "Invoca los tres Héroes Normales y usa la primera Fusión para Llama Wingman. Usa la segunda Fusión con Llama Wingman y Sparkman que permanecen boca arriba. En el ejemplo con Avian, Burstinatrix, Sparkman y Llama Wingman en Cementerio, Shining Flare suma 4 × 300 ATK a sus 2500 base; si cambia el número de Guerreros, recalcula el ATK. Shining Flare de 3700 ATK en el ejemplo con cuatro Guerreros en Cementerio, sin daño por la mera Invocación.",
+          "preconditions": "Avian, Burstinatrix, Sparkman y dos Fusiones disponibles; destinos Llama y Shining Flare en Extra.",
+          "risks": "Si solo tienes una Fusión, conserva el Wingman obtenido y Sparkman si sigue en Campo.",
+          "related_route_ids": [
+            "706:A09:SHINING:DOUBLE01"
+          ]
         }
       ],
       "strategy": {
