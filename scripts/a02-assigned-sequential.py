@@ -45,7 +45,9 @@ def audit(id,platform,folder):
     need(git('hash-object',rel)==blob,'Package differs from approved imported source')
     pkg=json.loads(jp.read_text('utf-8'));r=pkg['record']
     need(pkg['deck_id']==id and r['deck_id']==id and pkg['schema']=='station-x-deck-package/1' and r['schema']=='station-x-curated-v62','Package identity/schema mismatch')
-    need(pkg['package_root']==folder.name and pkg['source_document']==folder.name+'/'+doc.name and pkg['content_mode']=='structured' and pkg['inventory_binding']=='deck-slots-v1','Package path or binding mismatch')
+    need(pkg['package_root']==folder.name and pkg['content_mode']=='structured' and pkg['inventory_binding']=='deck-slots-v1','Package root/mode/binding mismatch')
+    # Native V40 packages declare basename; historical native packages use a folder-relative path.
+    need(pkg['source_document'] in (doc.name,folder.name+'/'+doc.name),'Source document does not resolve to the canonical file: '+str(pkg.get('source_document')))
     gate=json.loads(subprocess.check_output(['node','scripts/analysis-eligibility.cjs',str(jp),'--user-assigned','--deck-id='+str(id),'--stage=A02'],cwd=ROOT,text=True))
     need(gate['eligible'] is True,'A02 eligibility rejected')
     rr=slots(r);cc=cards(r);rt=routes(r);counts=gate['counts']
@@ -79,7 +81,7 @@ def audit(id,platform,folder):
             names=z.namelist()
             need(z.testzip() is None and len(set(names))==len(names),'Bad ZIP')
             need(all(n.split('/')[0]==folder.name and '..' not in n.split('/') for n in names),'Cross-deck ZIP')
-            need(sum(n.endswith('/datos/stationx-deck.json') for n in names)==1 and pkg['source_document'] in names,'ZIP document/package absent or duplicate')
+            need(sum(n.endswith('/datos/stationx-deck.json') for n in names)==1 and folder.name+'/'+doc.name in names,'ZIP document/package absent or duplicate')
             need(z.read(folder.name+'/datos/stationx-deck.json')==jp.read_bytes(),'ZIP JSON drift')
         zip_hash=hashlib.sha256(zp.read_bytes()).hexdigest()
     md=doc.read_text('utf-8')

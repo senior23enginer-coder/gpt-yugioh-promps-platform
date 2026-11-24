@@ -1,4 +1,4 @@
-name: A02 sequential validation of 16 assigned decks
+name: A02 sequential validation of 16 assigned decks (native document path compatibility)
 on:
   push:
     branches: [analysis/a02-assigned-16-20261124]
