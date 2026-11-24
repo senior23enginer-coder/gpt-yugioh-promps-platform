@@ -349,6 +349,9 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 - **A03-T2:** 42/42 referencias oficiales con CID coherente; 42/42 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
 - **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 20 rutas, 98 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/42 CID representados). Conteo documental, no censo oficial exhaustivo. CID multizona: 13587. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
 
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 43/43 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 43/43 filas por ID/CID/zona/cantidad; huella FNV-1a64 `f3180a3dd3e49aa5` (no es inventory_sha256 de Station X). Zonas 40/15/15/0; 42 identidades, 20 rutas, 98 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: CID nativo completo; falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
 | 181 | 22523 | Elfnote Regina | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en |
