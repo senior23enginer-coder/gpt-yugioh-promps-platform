@@ -319,6 +319,56 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 
 ## A03 — Inventario físico íntegro
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 660](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/660.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `301c17e365831c4f70c798314468fc063de61f7a`.
+
+- **A03-T1:** 36 filas, 36 CID, 70 copias, Main/Extra/Side/Reserva 48/15/7/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 36/36 referencias oficiales con CID coherente; 0/36 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 5 rutas, 24 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/36 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 562 | 18003 | Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es |
+| 563 | 18481 | Purrelyly | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es |
+| 564 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 565 | 21338 | Ángel del Alba Kambi | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es |
+| 566 | 11708 | Hermana Fantasma & Conejo Espectral | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es |
+| 567 | 13587 | Bella Fantasma & Mansión Embrujada | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es |
+| 568 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 569 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 570 | 20206 | Purulia Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 571 | 18010 | Mi Amigo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es |
+| 572 | 18009 | Calle Purrely Vagabundo | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es |
+| 573 | 18012 | Bello Recuerdo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es |
+| 574 | 18011 | Feliz Recuerdo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es |
+| 575 | 18013 | Delicioso Recuerdo Purrely | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es |
+| 576 | 18524 | Sueño Recuerdo Purrely | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es |
+| 577 | 16868 | Prohibida la Venta | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es |
+| 578 | 15756 | Olla de la Prosperidad | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=es |
+| 579 | 15296 | Talento de Tácticas Triples | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 580 | 14742 | Gobernante Oscuro No Más | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es |
+| 581 | 4842 | Monstruo Renacido | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es |
+| 582 | 18014 | ¿¡Purrelysaltó!? | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es |
+| 583 | 13631 | Infinito Temporal | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es |
+| 584 | 18004 | Felicidad Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es |
+| 585 | 18005 | Belleza Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es |
+| 586 | 18006 | Rechoncho Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es |
+| 587 | 18008 | Noir Expurrely | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es |
+| 588 | 12027 | Princesaduende Silvana | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es |
+| 589 | 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es |
+| 590 | 14208 | Señoroscuro Condenado | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es |
+| 591 | 16651 | Protector del Agente - Luna | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es |
+| 592 | 19188 | S:P Pequeña Caballera | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 593 | 13841 | Ánima Renunciada | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es |
+| 594 | 11243 | Artefacto Lancea | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 595 | 14741 | Nibiru, el Ser Primitivo | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es |
+| 596 | 18214 | Impulso de Tácticas Triples | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es |
+| 597 | 13619 | Llamado por la Tumba | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 ### MAIN DECK — MONSTRUOS (24)
 
 | Copias | Carta |
