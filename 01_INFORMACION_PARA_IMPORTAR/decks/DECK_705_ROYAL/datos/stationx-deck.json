@@ -11909,7 +11909,203 @@
           "risks": "El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.",
           "related_route_ids": []
         }
-      ]
+      ],
+      "strategy": {
+        "schema": "station-x-player-strategy/1",
+        "sections": [
+          {
+            "id": "first",
+            "title": "Primero: reservar el jefe y sus Tributos",
+            "objective": "Preparar un siguiente turno con los Demonios necesarios sin asumir la recuperación de Skill antes del turno dos.",
+            "situation": "Primer turno del duelo, mano con Rebelde Real y cartas de defensa; Skill externa a la mano.",
+            "card_cids": [
+              16331,
+              15441,
+              19761,
+              16330,
+              18646
+            ],
+            "actions": [
+              "Identifica qué jefe necesitarás y qué Demonios de Nivel alto puedes convertir en materiales.",
+              "Si no puedes reunir dos Tributos legales, conserva los jefes y prepara defensa de manera legal.",
+              "Reserva la línea completa de Hard Rock Overture para el turno permitido con las tres cartas requeridas."
+            ],
+            "expected_result": "Una preparación para el siguiente turno, sin prometer una Invocación por Sacrificio que todavía no puede realizarse.",
+            "resources_to_keep": "Los tres Demonios de la apertura y Phaser si se puede emplear después.",
+            "alternative": "Si no dispones de la Skill, reúne cuerpos mediante las cartas de tu lista y no asumas Invocaciones gratuitas.",
+            "related_route_ids": []
+          },
+          {
+            "id": "second",
+            "title": "Segundo: elegir entre Death Doom, Heavy y Progrock",
+            "objective": "Retirar la amenaza relevante con un único jefe de Nivel 8, según el Campo rival.",
+            "situation": "Turno 2+, Skill habilitada y los tres Rebelde Real de Nivel 8 en mano; rival con objetivos elegibles.",
+            "card_cids": [
+              16331,
+              15441,
+              19761
+            ],
+            "actions": [
+              "Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK.",
+              "Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto.",
+              "Envía el jefe elegido por la Skill, coloca los otros dos, recupera al elegido y Sacrifícalos para su Invocación."
+            ],
+            "expected_result": "Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto.",
+            "resources_to_keep": "La posibilidad de mantener el jefe en Campo para el siguiente turno.",
+            "alternative": "Si falta la tercera carta o el objetivo no cumple la condición, no uses esta apertura como si estuviera completa.",
+            "related_route_ids": [
+              "705:A09:OVERTURE:DEATHDOOM01",
+              "705:A09:OVERTURE:HEAVY01",
+              "705:A09:OVERTURE:PROGROCK01"
+            ]
+          },
+          {
+            "id": "mid",
+            "title": "Juego medio: Canjear y Phaser",
+            "objective": "Convertir un Nivel 8 de mano en dos robos y recuperar un cuerpo de Cementerio.",
+            "situation": "Ya controlas Death Doom, tienes Canjear, Heavy Metal y Phaser en mano y queda espacio para la recuperación.",
+            "card_cids": [
+              17721,
+              15441,
+              16330,
+              16331
+            ],
+            "actions": [
+              "Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida.",
+              "Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba.",
+              "Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa."
+            ],
+            "expected_result": "Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio.",
+            "resources_to_keep": "El jefe de Nivel alto en Campo y las cartas robadas que realmente sean útiles.",
+            "alternative": "Si Death Doom desaparece antes del efecto, verifica que aún controlas un Demonio válido; si no, conserva Phaser.",
+            "related_route_ids": [
+              "705:A09:TRADEIN:PHASER01"
+            ]
+          },
+          {
+            "id": "late",
+            "title": "Juego tardío: reconstruir Death Doom sin Skill",
+            "objective": "Usar Phaser y los Demonios acumulados para un nuevo jefe de limpieza.",
+            "situation": "Una copia de Heavy Metal en Campo, otra en Cementerio, Phaser y Death Doom disponibles.",
+            "card_cids": [
+              15441,
+              16330,
+              16331
+            ],
+            "actions": [
+              "Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente.",
+              "Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa.",
+              "Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles."
+            ],
+            "expected_result": "Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.",
+            "resources_to_keep": "Una copia de Phaser o recursos de recuperación para otro turno.",
+            "alternative": "Si solo reúnes un Heavy, mantén el cuerpo en lugar de declarar una Invocación que exige dos Tributos.",
+            "related_route_ids": [
+              "705:A09:V11:PHASER:REVIVE:DEATHDOOM"
+            ]
+          },
+          {
+            "id": "weak_hand",
+            "title": "Mano débil: no gastar Phaser antes del jefe",
+            "objective": "Conservar la recuperación cuando falta el Demonio de Nivel alto que la habilita.",
+            "situation": "Phaser o Canjear disponibles, pero todavía no hay un Demonio Nivel 7+ boca arriba.",
+            "card_cids": [
+              16330,
+              17721,
+              15441,
+              18646,
+              15913
+            ],
+            "actions": [
+              "Si tienes Canjear y un Nivel 8 elegible, valora el intercambio de mano sin presuponer qué vas a robar.",
+              "Reserva Phaser hasta controlar un Demonio de Nivel 7 o superior y tener un objetivo en Cementerio.",
+              "Utiliza una defensa disponible si aún no puedes reunir los dos Tributos."
+            ],
+            "expected_result": "Mano reorganizada o defensa del turno; no se obtiene una recuperación ilegal de Phaser.",
+            "resources_to_keep": "Phaser y el jefe que pueda habilitar su efecto después.",
+            "alternative": "Si no puedes pagar Canjear, conserva el Nivel alto para la apertura futura con Skill.",
+            "related_route_ids": [
+              "705:A09:TRADEIN:PHASER01"
+            ]
+          },
+          {
+            "id": "disruption",
+            "title": "Interrupción: comprobar qué jefe permanece",
+            "objective": "Reaccionar a la retirada de un material sin tratar la colocación por Skill como Invocación por Sacrificio.",
+            "situation": "El rival retira un Demonio antes de la Invocación del jefe o impide una recuperación.",
+            "card_cids": [
+              16331,
+              15441,
+              19761,
+              16330
+            ],
+            "actions": [
+              "Recuenta los Demonios boca arriba que realmente quedan para Sacrificar.",
+              "Si falta un Tributo y controlas un jefe de Nivel 7+, verifica si Phaser puede recuperar otro Demonio elegible.",
+              "Si no consigues ambos materiales, conserva el jefe de mano y evita declarar su efecto de Invocación por Sacrificio."
+            ],
+            "expected_result": "Jefe solo si se reúnen los materiales requeridos; si no, una posición que preserva recursos.",
+            "resources_to_keep": "Phaser y el monstruo recuperable que aún está en Cementerio.",
+            "alternative": "Si no queda Demonio de Nivel alto en Campo, no uses Phaser contando un requisito perdido.",
+            "related_route_ids": [
+              "705:A09:V11:PHASER:REVIVE:DEATHDOOM",
+              "705:A09:OVERTURE:DEATHDOOM01"
+            ]
+          },
+          {
+            "id": "win_condition",
+            "title": "Ganar: elegir ataque aumentado o penetración",
+            "objective": "Aprovechar la defensa rival y el ATK temporal sin inventar ataques directos adicionales.",
+            "situation": "Skill permitida con los materiales correspondientes; rival con monstruo boca arriba de ATK conocido o defensor de DEF conocida.",
+            "card_cids": [
+              15441,
+              16344,
+              19761,
+              16331
+            ],
+            "actions": [
+              "Con Heavy, identifica al objetivo de menor Nivel aplicable y calcula su aumento de ATK solo si resuelve.",
+              "Con Kheiron, paga el envío de la carta superior y aplica la penetración al Demonio elegido si existe el requisito.",
+              "Calcula el daño y respeta el límite de ataques directos de Nivel original 7+ de la Skill."
+            ],
+            "expected_result": "Heavy alcanza 4100 en el ejemplo de objetivo de 1600 ATK; Kheiron inflige 1800 contra DEF 500 en el caso documentado.",
+            "resources_to_keep": "Un jefe que pueda permanecer en Campo si no consigues cerrar los LP rivales.",
+            "alternative": "Si los objetivos no favorecen el ataque, elige la limpieza de Death Doom o Progrock.",
+            "related_route_ids": [
+              "705:A09:OVERTURE:HEAVY01",
+              "705:A09:OVERTURE:KHEIRON01",
+              "705:A09:OVERTURE:PROGROCK01"
+            ]
+          },
+          {
+            "id": "common_errors",
+            "title": "Errores: Sacrificio y Skill no son lo mismo",
+            "objective": "Evitar aplicar efectos de jefes a monstruos colocados o recuperados sin su Invocación exigida.",
+            "situation": "Se usa Hard Rock Overture, Canjear o Phaser con Rebelde Real.",
+            "card_cids": [
+              16330,
+              16331,
+              15441,
+              19761,
+              17721
+            ],
+            "actions": [
+              "La Skill coloca los materiales en Defensa; eso no equivale a Invocarlos por Sacrificio.",
+              "Heavy Metal recuperado por Phaser no obtiene por ello su efecto de Invocación por Sacrificio.",
+              "No sumes Death Doom, Heavy y Progrock como tres jefes desde la misma mano: son destinos alternativos de los dos Tributos."
+            ],
+            "expected_result": "Un estado de Campo coherente, sin retiradas ni ataques atribuidos al jefe incorrecto.",
+            "resources_to_keep": "Los dos Tributos efectivos y el objetivo que requiere el jefe elegido.",
+            "alternative": "Si no puedes Invocar por Sacrificio, utiliza el cuerpo recuperado como material futuro o defensa.",
+            "related_route_ids": [
+              "705:A09:OVERTURE:DEATHDOOM01",
+              "705:A09:OVERTURE:HEAVY01",
+              "705:A09:OVERTURE:PROGROCK01",
+              "705:A09:TRADEIN:PHASER01"
+            ]
+          }
+        ]
+      }
     }
   },
   "provenance": {

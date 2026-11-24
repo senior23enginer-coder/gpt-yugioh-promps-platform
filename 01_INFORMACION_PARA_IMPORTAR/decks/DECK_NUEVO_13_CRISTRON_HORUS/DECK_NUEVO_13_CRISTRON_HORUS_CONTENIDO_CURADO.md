@@ -26,6 +26,155 @@
 
 **Evidencia de importación pendiente:** los seis campos corresponden exactamente a `record.profile` del paquete estructurado; este dossier no afirma publicación en producción ni ejecución del motor.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: preparar una Sincronía reactiva
+
+**Objetivo:** Dejar una respuesta de turno rival con una sola carta inicial.
+
+**Situación:** Smiger en mano; Citree en Deck y Hagoita en Extra; Normal disponible.
+
+**Cartas:** Cristron Smiger, Cristron Citree, Hagoita de Alta-Velociroid
+
+1. Invoca Smiger normalmente y destrúyelo con su propio efecto para traer Citree del Deck.
+2. Termina el turno con Citree en Campo y Smiger en Cementerio, sin presentar Hagoita como ya Invocada.
+3. En el turno rival y en la ventana de Citree, usa Smiger y Citree como materiales para Hagoita.
+
+**Resultado esperado:** Hagoita en Campo si la reacción se resuelve; ambos materiales se destierran por el efecto de Citree. No es una negación universal.
+
+**Recursos que conservar:** Citree en Campo y Smiger en Cementerio; respeta el límite de un efecto de Smiger por turno.
+
+**Alternativa:** Con Tristaros disponible, puedes preparar Elesqueletus como respuesta a una activación rival.
+
+#### Segundo: elegir una respuesta o una salida de batalla
+
+**Objetivo:** Atacar un monstruo problemático o preparar una negación según los recursos disponibles.
+
+**Situación:** Inclusión y Sulfador en mano para la salida de Nivel 7, o Amset y Hapi sin bloqueo de Extra para Rango 8.
+
+**Cartas:** Inclusión Cristron, Cristron Sulfador, Cristron Smiger, Cristron Citree, Destructor Samurái, Amset, Gloria de Horus, Hapi, Guía de Horus, Número 90: Señor Fotónico de Ojos Galácticos
+
+1. Con Inclusión y Sulfador, desarrolla Citree de Nivel 2 y Sulfador de Nivel 5 mediante la ruta de recuperación.
+2. Si necesitas combatir una amenaza, elige Destructor Samurái como Sincronía Máquina de Nivel 7; no recupera Inclusión como Elesqueletus.
+3. Si la mano permite el motor Horus y aún no hay bloqueo incompatible, reúne Amset y Hapi para Número 90, que responde a efectos de monstruo.
+
+**Resultado esperado:** Destructor Samurái para combate o Número 90 con dos materiales para interacción; son salidas distintas, no un campo combinado garantizado.
+
+**Recursos que conservar:** Sarcófago, materiales Xyz o Inclusión según el motor que elijas.
+
+**Alternativa:** Si necesitas recuperar Inclusión en vez de combatir, selecciona Elesqueletus en la línea Cristron.
+
+#### Juego medio: recuperar Inclusión
+
+**Objetivo:** Reciclar recursos Cristron y mantener una amenaza de Sincronía.
+
+**Situación:** Inclusión y Sulfador disponibles, Citree y nombres Cristron pertinentes siguen en Deck o Cementerio según la ruta.
+
+**Cartas:** Inclusión Cristron, Cristron Sulfador, Cristron Smiger, Cristron Citree, Cristron Elesqueletus
+
+1. Activa Inclusión para buscar Smiger; destruye Smiger para traer Citree.
+2. Usa Sulfador para destruir Inclusión y desarrollar el cuerpo de Nivel 5; prepara los envíos pertinentes al Cementerio.
+3. Usa el efecto de Cementerio de Inclusión para recuperar Smiger y sincroniza Citree con Sulfador hacia Elesqueletus; aprovecha la recuperación permitida de Inclusión.
+
+**Resultado esperado:** Elesqueletus y Smiger en Campo, Inclusión recuperada a mano si toda la secuencia resuelve.
+
+**Recursos que conservar:** Los Cantantes que sigan disponibles, Inclusión para el siguiente turno y los límites por nombre.
+
+**Alternativa:** Si no se puede recuperar Inclusión, considera una salida de Sincronía Máquina menor en lugar de gastar más cuerpos.
+
+#### Juego tardío: reconstruir con Horus
+
+**Objetivo:** Volver a generar cuerpos de Nivel 8 después de perder parte del campo.
+
+**Situación:** Controlas Sarcófago del Rey boca arriba; Amset o Hapi están en Cementerio y sus retornos siguen disponibles.
+
+**Cartas:** Sarcófago del Rey, Amset, Gloria de Horus, Hapi, Guía de Horus, Número 90: Señor Fotónico de Ojos Galácticos, El Vampiro Zombi
+
+1. Comprueba que Sarcófago permanece boca arriba y que cada Horus está realmente en Cementerio.
+2. Invoca los Horus por sus procedimientos propios si tienes zonas y no hay bloqueo de Invocación.
+3. Si reúnes dos Nivel 8 y no existe restricción incompatible de Extra, elige Número 90 para interacción o Vampiro Zombi para extensión incierta.
+
+**Resultado esperado:** Recuperación de cuerpos o una Xyz de Rango 8; las cartas enviadas por Vampiro Zombi no tienen identidad garantizada.
+
+**Recursos que conservar:** Sarcófago y al menos una pieza de retorno para el turno siguiente.
+
+**Alternativa:** Si solo puedes revivir un Horus, conserva ese cuerpo y reevalúa la mano; no lo conviertas en una Xyz de dos materiales.
+
+#### Mano débil: una carta de acceso
+
+**Objetivo:** Desarrollar una reacción sin exigir que se roben los dos motores juntos.
+
+**Situación:** La mano contiene Smiger, Inclusión o Tristaros y el objetivo correspondiente sigue en Deck.
+
+**Cartas:** Cristron Smiger, Inclusión Cristron, Cristron Citree, Cristron Tristaros, Cristron Sulfador, Cristron Elesqueletus
+
+1. Con Inclusión, busca Smiger y utiliza la Normal para traer Citree.
+2. Con Tristaros, invócalo y espera la activación rival para traer Sulfador y sincronizar Elesqueletus.
+3. Si Smiger llegó por otra vía al Cementerio sin haber usado su efecto de Campo, decide si su búsqueda de Inclusión es mejor para el turno siguiente.
+
+**Resultado esperado:** Citree o Tristaros preparados; la Sincronía reactiva solo se realiza en la ventana y con los materiales correctos.
+
+**Recursos que conservar:** La Normal hasta elegir el starter y los nombres no gastados.
+
+**Alternativa:** Si Inclusión es negada y no tienes Smiger ni Tristaros, no hay apertura demostrada desde esa carta sola.
+
+#### Interrupción: no perder el segundo motor
+
+**Objetivo:** Mantener una línea Horus o Cristron cuando la otra no consigue resolver.
+
+**Situación:** El rival corta la búsqueda de Inclusión, Smiger o Amset; observa los costes que ya se pagaron.
+
+**Cartas:** Inclusión Cristron, Cristron Smiger, Amset, Gloria de Horus, Sarcófago del Rey, Cristron Tristaros, Cristron Sulfador
+
+1. Si niegan Inclusión, revisa si Smiger llegó a mano; no actives una línea que depende de una búsqueda fallida.
+2. Si Amset pagó Amset y Smiger al Cementerio, revisa si ya controlas Sarcófago o puedes buscarlo por una fuente real.
+3. Smiger enviado como coste puede buscar Inclusión desde Cementerio si no usó el otro efecto y la ventana sigue abierta.
+
+**Resultado esperado:** Un puente entre motores únicamente cuando la pieza alternativa está disponible; las cartas perdidas como coste no regresan automáticamente.
+
+**Recursos que conservar:** Sarcófago, Smiger o Tristaros que aún puedan habilitar desarrollo.
+
+**Alternativa:** Si no existe una continuación, conserva las cartas de respuesta de mano y evita consumir otra apertura sin objetivo.
+
+#### Ganar: convertir ventaja en combate
+
+**Objetivo:** Elegir un campo que permita superar amenazas y conservar una respuesta.
+
+**Situación:** Tienes acceso a Sincronías Máquina de Nivel 7, o a un motor Horus con dos cuerpos compatibles.
+
+**Cartas:** Cristron Elesqueletus, Destructor Samurái, Ciber Dragón del Infinito, Número 90: Señor Fotónico de Ojos Galácticos, Amset, Gloria de Horus
+
+1. Si quieres recuperar recursos, mantén Elesqueletus; si el rival presenta un monstruo que dificulta combatir, evalúa Destructor Samurái.
+2. Antes de buscar Ciber Dragón del Infinito, confirma que puedes producir Nova sin haber impuesto el bloqueo de Smiger a Sincronías.
+3. Calcula daño con los monstruos que realmente controlas y utiliza una negación de Infinito o Número 90 solo en su ventana.
+
+**Resultado esperado:** Daño efectivo y control residual; ninguno de estos finales constituye un letal automático.
+
+**Recursos que conservar:** Un material para una respuesta de tu Xyz y un acceso de recuperación al siguiente turno.
+
+**Alternativa:** Si hay bloqueo de Sincronía Máquina, elige una Sincronía permitida en vez de forzar Nova o una Xyz Horus.
+
+#### Errores: restricciones y ventanas
+
+**Objetivo:** Evitar recomendaciones que confundan un efecto de reacción con una negación o una Invocación libre.
+
+**Situación:** Estás usando Smiger, Sulfador, Citree, Tristaros o el retorno Horus.
+
+**Cartas:** Cristron Smiger, Cristron Sulfador, Cristron Citree, Cristron Tristaros, Sarcófago del Rey, Amset, Gloria de Horus, Ciber Dragón Nova
+
+1. Si usaste Smiger en Campo, no uses su búsqueda de Cementerio ese mismo turno y limita el Extra a Sincronías Máquina.
+2. El bloqueo de Sulfador permite Máquinas desde Extra, pero no elimina el bloqueo más estricto de Smiger.
+3. El efecto reactivo de Tristaros trae un material que debe utilizarse en la Sincronía; la activación rival original no queda negada por ese procedimiento.
+
+**Resultado esperado:** Sincronías y Xyz únicamente cuando sus restricciones y materiales reales las permiten.
+
+**Recursos que conservar:** Los límites de efectos por nombre y los cuerpos que deseas usar en el turno rival.
+
+**Alternativa:** Si buscas Infinito, emplea la ruta documentada que evita activar Smiger en Campo.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Continuidad del expediente histórico
 
 ## CONTROL_DE_TAREAS_A01_A10 — Crystron/Horus 677 · contrato de 35 tareas (22-11-2026)

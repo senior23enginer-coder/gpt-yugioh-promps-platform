@@ -7,9 +7,158 @@
 - **Estilo breve:** Controla con Mago Oscuro, Magias que exigen su nombre y la Skill desde turno 2. Las siete cartas Extra Gaia carecen de materiales acreditados en Main.
 - **Resumen para ficha:** Mago Oscuro y Hechicero Eliminador Oscuro habilitan Mil Cuchillos y Ataque Mágico Oscuro bajo condiciones. Illusion of Execution excava cartas desde turno 2, sin garantizar una Mágica. El Extra Gaia no tiene acceso demostrado.
 - **Cómo se juega:** Primero: preparar Mago Oscuro o un medio legítimo de acceder a él y conservar Magias condicionadas. Segundo: con Hechicero Eliminador Oscuro y su efecto resuelto, usar el nombre Mago Oscuro temporal para habilitar Mil Cuchillos o Ataque Mágico Oscuro. Medio/tardío: la Skill puede activarse una vez por Duelo desde el turno 2, excavando tres cartas sin garantizar Mágica; recuperar recursos con Mago Oscuro Sabio o Piedra de los Magos cuando existan objetivos legales.
-- **Qué vigilar:** Illusion of Execution exige un monstruo de Nivel 5+ revelable y un Main de Lanzadores; los de Nivel 5+ deben ser Mago Oscuro, Chica Maga Oscura o Hechicero Eliminador Oscuro. Se usa desde turno 2 y una vez por Duelo. Las Fusiones Gaia requieren materiales que no figuran en el Main; no inventar jugadas del Extra.
+- **Qué vigilar:** Illusion of Execution solo está disponible desde el turno 2 y exige la construcción y revelación correctas. Conserva el acceso a la única copia de Mago Oscuro; el nombre del Hechicero Eliminador dura un turno. Las Fusiones Gaia carecen de materiales accesibles en esta lista.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: preparar el nombre de Mago Oscuro
+
+**Objetivo:** Establecer presión con el monstruo correcto sin activar la Skill antes del turno permitido.
+
+**Situación:** Mago Oscuro y Orden Secreta disponibles, o Piedra con Mago Oscuro y Chica Maga Oscura en mano.
+
+**Cartas:** Mago Oscuro, Orden Secreta, Piedra de los Magos Oscuros, Chica Maga Oscura
+
+1. Si tienes Orden Secreta, usa su Invocación Especial de Mago Oscuro Nivel 7 desde mano.
+2. Si tienes Piedra y ambos Magos, invócalos en dos zonas libres sin Sacrificios.
+3. Conserva Mil Cuchillos o Ataque Mágico Oscuro hasta que exista una amenaza que justifique usarlos.
+
+**Resultado esperado:** Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2.
+
+**Recursos que conservar:** La Skill para una ocasión posterior y las Magias de retirada.
+
+**Alternativa:** Si Mago Oscuro no está accesible, prepara cuerpos para Hechicero Eliminador o reserva la defensa disponible.
+
+#### Segundo: retirar monstruos o Magias y Trampas
+
+**Objetivo:** Seleccionar la Magia de limpieza según el obstáculo real del adversario.
+
+**Situación:** Mago Oscuro y Orden Secreta en mano; Mil Cuchillos o Ataque Mágico Oscuro según el objetivo.
+
+**Cartas:** Mago Oscuro, Orden Secreta, Mil Cuchillos, Ataque Mágico Oscuro
+
+1. Activa Orden Secreta para Invocar Mago Oscuro y comprueba el aumento de 700 ATK de ese turno.
+2. Si necesitas eliminar un monstruo elegible, usa Mil Cuchillos con Mago Oscuro boca arriba.
+3. Si necesitas limpiar Magias y Trampas rivales, utiliza Ataque Mágico Oscuro en lugar de presumir la otra Magia.
+
+**Resultado esperado:** Mago Oscuro de 3200 ATK temporal y la retirada que haya resuelto; la Normal permanece disponible.
+
+**Recursos que conservar:** Una Magia de retirada para otro turno si no es necesaria ahora.
+
+**Alternativa:** Si falta Mago Oscuro, considera la línea de Hechicero Eliminador con dos materiales.
+
+#### Juego medio: Sabio e Illusion of Execution
+
+**Objetivo:** Recuperar acceso a Mago Oscuro desde Cementerio sin inventar las cartas excavadas.
+
+**Situación:** Turno 2+, Skill local sin usar, Chica Maga Oscura y Sabio en mano, Mago Oscuro en Deck y al menos tres cartas para excavar.
+
+**Cartas:** Chica Maga Oscura, Mago Oscuro Sabio, Mago Oscuro, Mil Cuchillos, Ataque Mágico Oscuro
+
+1. Revela Chica Maga Oscura para la Skill y excava tres; añade una Magia solo si aparece y eliges hacerlo.
+2. Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio.
+3. Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio.
+
+**Resultado esperado:** Mago Oscuro y Sabio en Campo; la Magia excavada y el robo dependen de las cartas reales.
+
+**Recursos que conservar:** La Magia de retirada adecuada que permanezca en mano.
+
+**Alternativa:** Si ya usaste la Skill o no cumples su construcción local, considera Orden Secreta o el jefe de Sacrificio.
+
+#### Juego tardío: usar el nombre temporal del Hechicero
+
+**Objetivo:** Sustituir el acceso al único Mago Oscuro LEGEND cuando no esté disponible.
+
+**Situación:** Sabio, Lily Aniquiladora, Hechicero Eliminador y la Magia de retirada apropiada en mano.
+
+**Cartas:** Mago Oscuro Sabio, Lily Aniquiladora, Hechicero Eliminador Oscuro, Mil Cuchillos, Ataque Mágico Oscuro
+
+1. Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales.
+2. Sacrifica ambos cuerpos para Invocar al Hechicero de Nivel 7 y envía la carta superior como requisito de su efecto.
+3. Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival.
+
+**Resultado esperado:** Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.
+
+**Recursos que conservar:** Una forma de acceso futuro al nombre correcto cuando termine el cambio de nombre.
+
+**Alternativa:** Si no puedes cambiar el nombre, conserva la Magia y utiliza el Hechicero como atacante.
+
+#### Mano débil: conservar la pareja correcta
+
+**Objetivo:** No gastar las Magias de nombre antes de disponer de su habilitador.
+
+**Situación:** Tienes Mil Cuchillos o Ataque Mágico Oscuro, pero no controlas Mago Oscuro ni al Hechicero con nombre cambiado.
+
+**Cartas:** Mil Cuchillos, Ataque Mágico Oscuro, Mago Oscuro, Hechicero Eliminador Oscuro, Piedra de los Magos Oscuros, Mago Oscuro Sabio
+
+1. Comprueba si Orden Secreta o Piedra pueden poner un Mago Oscuro real en Campo con la mano actual.
+2. Si tienes Sabio y los requisitos de Skill, reserva la carta de Nivel alto para la recuperación documentada.
+3. Si ninguna vía existe, conserva la Magia de retirada y prepara los Lanzadores de Conjuros disponibles.
+
+**Resultado esperado:** Un acceso legal al nombre correcto si se reúnen las piezas; en caso contrario una defensa de recursos.
+
+**Recursos que conservar:** Mil Cuchillos o Ataque Mágico Oscuro hasta que el nombre esté disponible.
+
+**Alternativa:** Si falta una pieza del acceso, no atribuyas un Mago Oscuro al resultado de una excavación desconocida.
+
+#### Interrupción: verificar el nombre tras la respuesta
+
+**Objetivo:** Evitar activar una Magia de nombre después de perder su condición de activación.
+
+**Situación:** Orden Secreta fue negada o el rival retiró el objetivo de Mil Cuchillos.
+
+**Cartas:** Orden Secreta, Mago Oscuro, Mil Cuchillos, Mago Oscuro Sabio, Hechicero Eliminador Oscuro
+
+1. Si Orden Secreta no Invocó Mago Oscuro, no declares Mil Cuchillos desde esa mano mínima.
+2. Si Sabio ya dejó a Mago Oscuro en Campo, comprueba si el nombre sigue disponible antes de activar otra Magia.
+3. Si el objetivo de Mil Cuchillos deja de ser válido, no lo cuentes como destruido; conserva los cuerpos que realmente sobrevivan.
+
+**Resultado esperado:** Una retirada solo si la Magia resuelve con su estado real; la posición propia depende de la interrupción.
+
+**Recursos que conservar:** La Normal y un acceso al nombre que no se hayan gastado.
+
+**Alternativa:** Si ya no controlas el nombre requerido, recurre al Hechicero con materiales reales o espera otro turno.
+
+#### Ganar: limpiar antes de atacar con los Magos
+
+**Objetivo:** Convertir las Magias de nombre en ataques reales con los monstruos que permanezcan en Campo.
+
+**Situación:** Puedes usar Orden Secreta o Piedra; rival con defensas identificadas y LP conocidos.
+
+**Cartas:** Mago Oscuro, Chica Maga Oscura, Orden Secreta, Piedra de los Magos Oscuros, Mil Cuchillos, Ataque Mágico Oscuro
+
+1. Si Piedra permite los dos Magos, establece ambos cuerpos sin contar una bonificación inexistente de Chica Maga.
+2. Elige Mil Cuchillos para el monstruo que bloquea el ataque o Ataque Mágico Oscuro para las Magias y Trampas.
+3. Calcula los ATK efectivos: Orden Secreta da 3200 a Mago Oscuro solo durante ese turno; Piedra deja los valores documentados.
+
+**Resultado esperado:** Presión de Mago Oscuro y, cuando procede, Chica Maga Oscura; victoria solo con daño efectivo suficiente.
+
+**Recursos que conservar:** Un acceso al nombre y una Magia de retirada si la partida continúa.
+
+**Alternativa:** Si el daño no alcanza, mantén el monstruo que habilita la siguiente Magia.
+
+#### Errores: nombre, Skill y Extra sin acceso
+
+**Objetivo:** No tratar el cambio temporal de nombre como permanente ni inventar rutas a Gaia.
+
+**Situación:** Vas a usar Illusion of Execution, Hechicero Eliminador, Orden Secreta o una Fusión del Extra.
+
+**Cartas:** Mago Oscuro, Hechicero Eliminador Oscuro, Mil Cuchillos, Ataque Mágico Oscuro, Gaia el Campeón Dragón Rápido, Gaia el Campeón Dragón, Gaia, el Conquistador de Campeones
+
+1. La Skill local requiere turno 2+, construcción y revelación válidas; no asegura que aparezca una Magia al excavar.
+2. El Hechicero recupera su nombre impreso al final del turno; no habilita automáticamente Mil Cuchillos al turno siguiente.
+3. Los materiales de las Fusiones Gaia no tienen una ruta demostrada con el Main registrado; no las declares disponibles por estar en Extra.
+
+**Resultado esperado:** Acceso al nombre y Magias de retirada conforme a su requisito real, sin atribuir una Fusión no demostrada.
+
+**Recursos que conservar:** La única copia de Mago Oscuro y los recursos que permiten su acceso.
+
+**Alternativa:** Si la Skill no puede utilizarse, emplea Orden Secreta, Piedra o el Hechicero según tu mano.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 

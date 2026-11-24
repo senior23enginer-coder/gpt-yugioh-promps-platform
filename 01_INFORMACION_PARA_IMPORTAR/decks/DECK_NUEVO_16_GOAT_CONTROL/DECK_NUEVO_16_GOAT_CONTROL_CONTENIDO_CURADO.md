@@ -11,6 +11,155 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: preparar las ovejas para el siguiente turno
+
+**Objetivo:** Establecer defensa y preparar la transformación sin gastar la Invocación propia.
+
+**Situación:** Scapegoat disponible y cuatro zonas libres al activarla en turno rival.
+
+**Cartas:** Scapegoat, Metamorfosis, Límite de los Mil Ojos
+
+1. Reserva Scapegoat colocada para una ventana legal del turno rival.
+2. Invoca las cuatro fichas y espera a tu turno antes de usar Metamorfosis.
+3. Sacrifica una ficha superviviente de Nivel 1 para Límite de los Mil Ojos.
+
+**Resultado esperado:** Límite de los Mil Ojos puede absorber un monstruo elegible; quedan hasta tres fichas.
+
+**Recursos que conservar:** Metamorfosis y una ficha superviviente hasta tu Main Phase.
+
+**Alternativa:** Si pierdes las fichas, utiliza las defensas disponibles y espera otro material válido.
+
+#### Segundo: neutralizar antes de atacar
+
+**Objetivo:** Decidir si conviene absorber una amenaza o mantener un atacante que genere cartas.
+
+**Situación:** El rival presenta un monstruo; dispones de la línea de ovejas o de Parshath ya en Campo.
+
+**Cartas:** Scapegoat, Metamorfosis, Límite de los Mil Ojos, Caballero del Aire Parshath, Balter Oscuro el Terrible
+
+1. Si el rival amenaza tu defensa, prepara Scapegoat en su turno con cuatro zonas libres.
+2. En tu turno transforma una ficha y selecciona un monstruo que Límite pueda absorber.
+3. Si ya controlas Parshath y puede infligir daño, considera mantenerlo para robar en vez de sacrificarlo.
+
+**Resultado esperado:** Control de un monstruo rival o presión con robo de Parshath, según la posición.
+
+**Recursos que conservar:** Una defensa y la Magia de transformación si todavía no es necesaria.
+
+**Alternativa:** Si Parshath debe convertirse en defensa, utiliza Metamorfosis para Balter cuando exista el Nivel correcto.
+
+#### Juego medio: recuperar la Magia decisiva
+
+**Objetivo:** Obtener una segunda utilización de una Magia sin gastar cartas que no aportan valor.
+
+**Situación:** Mago de la Fe preparado para voltearse y una Magia útil en Cementerio.
+
+**Cartas:** Mago de la Fe, Metamorfosis, Scapegoat, Olla de la Codicia
+
+1. Voltea Mago de la Fe mediante una acción legal y activa su efecto de volteo.
+2. Elige entre recuperar Metamorfosis para un material disponible, Scapegoat para defensa u otra Magia necesaria.
+3. Comprueba que el estado del Campo permita usar la carta recuperada antes de comprometerla.
+
+**Resultado esperado:** Una Magia recuperada y una nueva decisión de control; no se garantiza otra Fusión.
+
+**Recursos que conservar:** El monstruo de Nivel adecuado o las zonas libres para la siguiente línea.
+
+**Alternativa:** Si el Mago es destruido sin voltearse, no cuentes con la recuperación y conserva tu otra defensa.
+
+#### Juego tardío: reutilizar Límite de los Mil Ojos
+
+**Objetivo:** Recuperar la capacidad de absorción cuando el estado de posición lo permite.
+
+**Situación:** Límite de los Mil Ojos sigue en Campo tras una absorción y tienes Libro de la Luna.
+
+**Cartas:** Límite de los Mil Ojos, Libro de la Luna, Mago de la Fe
+
+1. Coloca Límite boca abajo con Libro de la Luna en una ventana permitida.
+2. Comprueba qué ocurrió con el monstruo equipado al perder el equipo válido.
+3. Voltea Límite en una ocasión legal futura y absorbe otra amenaza si cumple su objetivo.
+
+**Resultado esperado:** Posibilidad de nueva absorción en el turno correspondiente, sin declarar un ciclo inmediato.
+
+**Recursos que conservar:** Libro de la Luna y Límite vivo hasta que pueda cambiar legalmente de posición.
+
+**Alternativa:** Si todavía no puede voltearse, deja pasar el turno y protege la posición.
+
+#### Mano débil: seleccionar una defensa
+
+**Objetivo:** Sobrevivir sin depender de reunir inmediatamente las dos Magias del motor.
+
+**Situación:** No tienes Metamorfosis y Scapegoat juntas o el Campo no admite cuatro fichas.
+
+**Cartas:** Scapegoat, Mago de la Fe, Fuerza de Espejo, Tributo Torrencial, Metamorfosis
+
+1. Si Scapegoat está disponible, reserva una ventana rival con cuatro zonas libres.
+2. Si Mago de la Fe está disponible y tienes una Magia útil en Cementerio, prepara su volteo futuro.
+3. Si ninguna línea está lista, conserva una Trampa de defensa acorde con la amenaza rival.
+
+**Resultado esperado:** Un turno adicional para encontrar el recurso faltante, no una Fusión asegurada.
+
+**Recursos que conservar:** Metamorfosis si falta material y zonas libres si tienes Scapegoat.
+
+**Alternativa:** Si el rival retira el Mago boca abajo, continúa con la defensa real que permanezca.
+
+#### Interrupción: no sacrificar un recurso inexistente
+
+**Objetivo:** Evitar perder la continuación si las fichas desaparecen o una Magia no resuelve.
+
+**Situación:** Scapegoat o Metamorfosis recibe una respuesta rival o se elimina el material previsto.
+
+**Cartas:** Scapegoat, Metamorfosis, Mago de la Fe, Libro de la Luna
+
+1. Confirma cuántas fichas sobrevivieron y si Metamorfosis sigue en mano.
+2. Si no queda ficha de Nivel 1, no declares Límite de los Mil Ojos.
+3. Si una Magia llegó al Cementerio y Mago de la Fe puede voltearse, recupera el recurso que falte.
+
+**Resultado esperado:** Continuación solo con material y Magia reales; una defensa menor si la transformación no procede.
+
+**Recursos que conservar:** Libro de la Luna o una defensa de batalla que no se haya gastado.
+
+**Alternativa:** Si la recuperación tampoco es viable, protege tus LP y espera una nueva oportunidad.
+
+#### Ganar: Soldado del Brillo Negro o ventaja sostenida
+
+**Objetivo:** Convertir los intercambios de control en daño sin presumir atributos o cartas robadas.
+
+**Situación:** Caridad Grácil disponible y Soldado del Brillo Negro en mano o accesible; LP rivales conocidos.
+
+**Cartas:** Caridad Grácil, Soldado del Brillo Negro - Enviado del Principio, Caballero del Aire Parshath, Límite de los Mil Ojos
+
+1. Resuelve Caridad Grácil y decide los descartes según las cartas realmente robadas.
+2. Si hay un monstruo LUZ y otro OSCURIDAD elegibles en Cementerio, aplica la condición de Invocación del Soldado desde mano.
+3. Elige entre desterrar una amenaza o atacar, respetando que la opción de destierro impide atacar ese turno.
+
+**Resultado esperado:** Presión de batalla o eliminación de un objetivo con el Soldado; Parshath puede sostener ventaja por robo.
+
+**Recursos que conservar:** Un monstruo de cada Atributo hasta pagar la condición y una defensa para el turno siguiente.
+
+**Alternativa:** Si faltan los Atributos, conserva el plan de control de Límite o Parshath.
+
+#### Errores: ovejas, niveles y turnos
+
+**Objetivo:** Evitar Invocaciones incorrectas y pérdidas de cartas por transformar sin necesidad.
+
+**Situación:** Vas a activar Scapegoat, Metamorfosis o Libro de la Luna sobre una Fusión.
+
+**Cartas:** Scapegoat, Metamorfosis, Límite de los Mil Ojos, Libro de la Luna, Caballero del Aire Parshath, Balter Oscuro el Terrible
+
+1. Scapegoat requiere cuatro zonas y restringe otras Invocaciones ese turno; sus fichas no son Tributos para una Invocación por Sacrificio.
+2. Metamorfosis sí puede ofrecer una ficha válida; el Nivel del material debe corresponder al destino de Fusión.
+3. No mantengas Parshath después de sacrificarlo para Balter ni voltees Límite antes de una ocasión legal.
+
+**Resultado esperado:** Transformación y recuperación coherentes con los recursos y las reglas GOAT documentadas.
+
+**Recursos que conservar:** Los Niveles correctos y la defensa que permita esperar otro turno.
+
+**Alternativa:** Si el Nivel requerido no existe en Campo, conserva la Magia para un material que sí lo cumpla.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Continuidad del contenido anterior
 
 

@@ -11,6 +11,155 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: preparar materiales sin Skill anticipada
+
+**Objetivo:** Organizar una Fusión futura sin activar Alchemy Blaze antes del turno permitido.
+
+**Situación:** Turno inicial propio; tienes materiales Piro y Fusión, pero la Skill requiere turno de duelo 2 o posterior.
+
+**Cartas:** Cromatográfagas, Superasistente Ember, Fusión, Amparo del Protector Estelar, Gelatina Defensiva
+
+1. Comprueba si puedes colocar en Campo los materiales de una Fusión con los recursos de la mano.
+2. Si no reúnes los nombres exactos, conserva Fusión y prepara una defensa apropiada.
+3. Reserva Alchemy Blaze para un turno permitido con la construcción y revelación requeridas.
+
+**Resultado esperado:** Recursos preservados para una Fusión posterior o una Fusión legal si los materiales ya existen.
+
+**Recursos que conservar:** Fusión y los nombres de material que no puedas recuperar inmediatamente.
+
+**Alternativa:** Si no hay materiales, defiende el turno en lugar de atribuir cartas gratuitas a la Skill.
+
+#### Segundo: Arquero con Orden Secreta
+
+**Objetivo:** Convertir Cromatográfagas en una amenaza de ataque mediante una Fusión concreta.
+
+**Situación:** Turno 2 o posterior, Cromatográfagas y Orden Secreta en mano; Skill disponible; Superasistente y Fusión en Deck.
+
+**Cartas:** Cromatográfagas, Orden Secreta, Superasistente Ember, Fusión, Arquero Ígneo Supergráfagas
+
+1. Aplica Alchemy Blaze revelando Cromatográfagas conforme a los requisitos locales.
+2. Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano.
+3. Activa Fusión con ambos materiales boca arriba para obtener Arquero Ígneo Supergráfagas y resuelve su efecto conforme a la secuencia.
+
+**Resultado esperado:** Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático.
+
+**Recursos que conservar:** Superasistente y Fusión disponibles en Deck antes de usar la Skill.
+
+**Alternativa:** Si Orden Secreta o un material falla, no anuncies Arquero; considera una salida Piro independiente.
+
+#### Juego medio: retirar las Magias y Trampas
+
+**Objetivo:** Usar Salamandra Alquimicalizada para limpiar el Campo cuando compense perder las propias Magias y Trampas.
+
+**Situación:** Salamandra Quimicalizada, Hiperasistente y una carta para el descarte de Skill; turno permitido y monstruo rival.
+
+**Cartas:** Salamandra Quimicalizada, Hiperasistente Ember, Superasistente Ember, Fusión, Salamandra Alquimicalizada, ¡Atraviesa!
+
+1. Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos.
+2. Invoca Hiperasistente y usa su efecto enviándolo al Cementerio para desarrollar Salamandra.
+3. Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas.
+
+**Resultado esperado:** Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas.
+
+**Recursos que conservar:** Una zona disponible para Superasistente y Fusión hasta que ambos materiales estén boca arriba.
+
+**Alternativa:** Si perder tus propias defensas es perjudicial, conserva la Fusión para otro momento.
+
+#### Juego tardío: presión sin consumir la Skill
+
+**Objetivo:** Aprovechar Salamandra Quimicalizada con penetración cuando no hay una Fusión completa.
+
+**Situación:** Hiperasistente y ¡Atraviesa! disponibles, Salamandra accesible; rival con monstruo en Defensa elegible.
+
+**Cartas:** Hiperasistente Ember, Salamandra Quimicalizada, ¡Atraviesa!, Superasistente Ember
+
+1. Invoca Hiperasistente y usa su efecto legal para desarrollar Salamandra Quimicalizada.
+2. No sumes 800 ATK si Superasistente no está en Cementerio.
+3. Activa ¡Atraviesa! sobre Salamandra y calcula el daño contra la DEF real.
+
+**Resultado esperado:** Salamandra con penetración hasta el final del turno, sin prometer un daño determinado.
+
+**Recursos que conservar:** La Skill y Fusión si todavía no fueron necesarias.
+
+**Alternativa:** Si no existe un combate favorable, conserva Salamandra y la Magia para una oportunidad posterior.
+
+#### Mano débil: una salida de Hiperasistente
+
+**Objetivo:** Desarrollar un monstruo útil aunque no hayas reunido la pareja de Fusión.
+
+**Situación:** Hiperasistente en mano y una Salamandra accesible mediante su efecto; existe el requisito rival.
+
+**Cartas:** Hiperasistente Ember, Salamandra Quimicalizada, ¡Atraviesa!, Fusión
+
+1. Invoca Hiperasistente y comprueba su condición antes de enviarlo al Cementerio.
+2. Si resuelve, desarrolla Salamandra; usa ¡Atraviesa! únicamente si mejora un combate real.
+3. Conserva Fusión si Superasistente no está disponible en Campo.
+
+**Resultado esperado:** Una amenaza Piro que puede combatir sin depender de Alchemy Blaze.
+
+**Recursos que conservar:** Fusión y la Skill aún no usada para reconstruir.
+
+**Alternativa:** Si el efecto de Hiperasistente no es viable, usa la defensa disponible en vez de gastar materiales inexistentes.
+
+#### Interrupción: rescatar la línea de Fusión
+
+**Objetivo:** Evitar activar Fusión después de que un material deje de estar disponible.
+
+**Situación:** Una respuesta rival retira Hiperasistente, Cromatográfagas o Superasistente antes de la Fusión.
+
+**Cartas:** Hiperasistente Ember, Cromatográfagas, Superasistente Ember, Fusión, Orden Secreta
+
+1. Comprueba si el material fue enviado como coste o retirado por el efecto rival.
+2. Si Orden Secreta sigue disponible y Cromatográfagas está en una zona elegible, evalúa su Invocación antes de usar Fusión.
+3. Solo activa Fusión cuando ambos materiales expresos sigan boca arriba en tu Campo.
+
+**Resultado esperado:** Una Fusión únicamente si se reconstruye la pareja; en caso contrario se preserva la Magia.
+
+**Recursos que conservar:** La carta de recuperación que todavía no se haya usado y una defensa para el siguiente turno.
+
+**Alternativa:** Si no recuperas el segundo material, conserva la amenaza Piro que sí esté en Campo.
+
+#### Ganar: escoger el jefe según el obstáculo
+
+**Objetivo:** Convertir una Fusión en daño efectivo según el Campo, en vez de declarar un OTK por su ATK.
+
+**Situación:** Puedes desarrollar Arquero o Salamandra; conoces las defensas y los LP del adversario.
+
+**Cartas:** Arquero Ígneo Supergráfagas, Salamandra Alquimicalizada, Salamandra Quimicalizada, ¡Atraviesa!
+
+1. Elige Arquero cuando el ataque temporal de 5500 permita superar las amenazas del escenario.
+2. Elige Salamandra Alquimicalizada cuando retirar Magias y Trampas sea más importante que aumentar el ATK.
+3. Recalcula la fuerza de los monstruos tras la resolución y solo entonces declara los ataques.
+
+**Resultado esperado:** Daño de batalla calculado o Campo rival debilitado; ninguna Fusión garantiza victoria por sí sola.
+
+**Recursos que conservar:** Una defensa o siguiente material si los LP del rival no llegan a cero.
+
+**Alternativa:** Si no puedes cerrar, mantén el jefe que mejor sostenga el próximo turno.
+
+#### Errores: materiales y límites de Alchemy Blaze
+
+**Objetivo:** Respetar requisitos Rush y no confundir una Skill local con una carta de la mano.
+
+**Situación:** Vas a usar Alchemy Blaze, Hiperasistente, Fusión o la reducción de Salamandra.
+
+**Cartas:** Cromatográfagas, Hiperasistente Ember, Superasistente Ember, Fusión, Salamandra Alquimicalizada
+
+1. Comprueba turno 2+, revelación y composición Piro/FUEGO con DEF requerida antes de utilizar la Skill.
+2. Fusión requiere los nombres correctos boca arriba en Campo; las múltiples Normales Rush no eliminan ese requisito.
+3. La destrucción de Salamandra alcanza las Magias y Trampas propias y rivales; no sumes una reducción por cartas no destruidas.
+
+**Resultado esperado:** Uso de Skill y Fusiones acorde con su construcción, costes y estado real.
+
+**Recursos que conservar:** Los materiales de Fusión y los espacios de monstruo necesarios.
+
+**Alternativa:** Si la Skill local no está habilitada, utiliza las rutas independientes de Hiperasistente y la Fusión que puedas reunir.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Continuidad del contenido anterior
 
 

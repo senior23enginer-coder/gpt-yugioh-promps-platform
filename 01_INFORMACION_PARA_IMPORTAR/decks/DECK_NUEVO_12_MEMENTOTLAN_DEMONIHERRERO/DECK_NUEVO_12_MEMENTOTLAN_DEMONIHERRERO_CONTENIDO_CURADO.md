@@ -2239,6 +2239,155 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 
 **Resultado de A01:** la prioridad del motor y del puente quedó contrastada con interrupciones reales descritas y tres rivales registrados. No queda una decisión de **identidad o propósito** pendiente de investigar en este apartado con el inventario actual. Si una auditoría posterior de A05–A09 invalida un efecto o ruta utilizada como evidencia, **reabrir únicamente la afirmación A01 dependiente por ID** conforme al módulo 32. Siguiente apartado **solo por nueva petición:** A02; esta ejecución no lo inicia.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: dos jefes desde Angbruja
+
+**Objetivo:** Preparar Rey Creación y Creación Combinada con recursos reales para responder.
+
+**Situación:** Angbruja y Fusión Mementotlán en mano, campo vacío; Tatsunootoshigo, Desvantasmas, Dormiveja y demás nombres de la ruta siguen en Deck.
+
+**Cartas:** Angbruja, Tatsunootoshigo, Desvantasmas, Dormiveja, Fusión Mementotlán, Rey Creación, Tecuhtlica - Creación Combinada
+
+1. Invoca Angbruja y busca Tatsunootoshigo; Invócalo especialmente.
+2. Destruye Tatsunootoshigo por su propio efecto para enviar Desvantasmas y Dormiveja; revive Desvantasmas y recupera Dormiveja.
+3. Usa Fusión Mementotlán para desarrollar Rey Creación y sigue la ruta de reciclaje de cinco nombres hacia Creación Combinada.
+
+**Resultado esperado:** Dos jefes si la secuencia se resuelve. Rey Creación tiene destrucción condicionada; Creación Combinada puede revivir un Memento disponible en respuesta al rival.
+
+**Recursos que conservar:** Los cinco nombres necesarios hasta invocar el jefe y Maza en Cementerio si la línea la deja allí.
+
+**Alternativa:** Si solo puedes sostener Angbruja y Tatsunootoshigo, el Enlace S:P ofrece una salida de menor compromiso cuando sus condiciones se cumplen.
+
+#### Segundo: abrir campo con Quimera
+
+**Objetivo:** Convertir la Fusión en retirada de cartas y una carta adicional de mano.
+
+**Situación:** Angbruja y Fusión en mano; el rival tiene al menos dos cartas destruibles; queda Quimera Guardián en Extra.
+
+**Cartas:** Angbruja, Tatsunootoshigo, Desvantasmas, Dormiveja, Fusión Mementotlán, Quimera Guardián
+
+1. Busca y desarrolla Tatsunootoshigo con Angbruja; envía Desvantasmas y Dormiveja al Cementerio.
+2. Revive Desvantasmas y recupera Dormiveja a mano; conserva Angbruja y Desvantasmas en Campo.
+3. Fusiona los dos monstruos de Campo y Dormiveja de mano para Quimera Guardián; aplica robo y destrucción solo si resuelven.
+
+**Resultado esperado:** Quimera Guardián de 3300 ATK, un robo de identidad desconocida y hasta dos cartas rivales destruidas.
+
+**Recursos que conservar:** La carta de Fusión y los tres nombres distintos requeridos hasta completar la Invocación.
+
+**Alternativa:** Con Dragón de Cuerno y Fiesta de Huesos en mano, usa su retirada de cartas boca arriba si están dadas las condiciones.
+
+#### Juego medio: recuperar nombres y recursos
+
+**Objetivo:** Reutilizar el Cementerio sin perder los nombres requeridos por Creación Combinada.
+
+**Situación:** Desvantasmas ha sido enviada por el efecto de un monstruo Memento, o existe Dormiveja y un efecto de destrucción propio disponible.
+
+**Cartas:** Desvantasmas, Dormiveja, Maza, Goblin, Dragón Gemelo, Tecuhtlica - Creación Combinada
+
+1. Decide si revivir Desvantasmas aporta un cuerpo o si necesitas dejar su nombre en Cementerio para Creación Combinada.
+2. Cuando Desvantasmas se Invoca y puede recuperar un Memento válido, selecciona el recurso que falta en tu próxima acción.
+3. Si la ruta de Dragón Gemelo está disponible, usa su efecto al fusionarse para destruir Dormiveja y buscar nombres distintos; resuelve sus disparos en orden.
+
+**Resultado esperado:** Recuperas acceso a cartas del motor o a Creación Combinada según los nombres y las ventanas que realmente conserves.
+
+**Recursos que conservar:** Goblin en mano cuando quieras proteger al jefe de efectos que seleccionan; Maza y otros nombres para próximos turnos.
+
+**Alternativa:** Si el Cementerio no reúne cinco nombres diferentes, conserva el motor sin forzar la Invocación de Creación Combinada.
+
+#### Juego tardío: elegir una amenaza sostenible
+
+**Objetivo:** Reconstruir tras intercambios, evitando agotar todos los nombres en una sola salida.
+
+**Situación:** Puedes volver a reunir cinco nombres Memento en Campo o Cementerio según el procedimiento, o recuperar acceso a una Fusión.
+
+**Cartas:** Tecuhtlica - Creación Combinada, Angbruja, Fiesta de Huesos, Rey Creación, Maza
+
+1. Cuenta nombres distintos y comprueba que Creación Combinada esté disponible antes de reciclarlos.
+2. Si tienes Fiesta de Huesos y los recursos de su apertura, elige la línea de Creación Combinada como único monstruo para presionar en batalla.
+3. Con Rey Creación ya presente, evalúa si conservar una carta Memento para su destrucción rápida vale más que añadir otro cuerpo.
+
+**Resultado esperado:** Una amenaza que pueda atacar o responder según el campo real, sin prometer un doble jefe desde recursos ausentes.
+
+**Recursos que conservar:** Un iniciador o recuperación para un siguiente turno y el nombre Memento que utilizará el jefe si está disponible.
+
+**Alternativa:** Si faltan nombres, prioriza una Fusión o un Enlace que puedas efectuar con los cuerpos existentes.
+
+#### Mano débil: una sola Angbruja
+
+**Objetivo:** Elegir la línea larga o una salida corta según las piezas del Deck.
+
+**Situación:** Angbruja en mano y Normal disponible; comprueba Tatsunootoshigo y las demás cartas antes de decidir.
+
+**Cartas:** Angbruja, Tatsunootoshigo, Goblin, Maza, Desvantasmas, S:P Pequeña Caballera, Rey Creación
+
+1. Invoca Angbruja y busca Tatsunootoshigo si sigue en Deck.
+2. Si están Goblin, Maza y Desvantasmas en Deck, sigue la apertura de una Angbruja que prepara el doble jefe.
+3. Si faltan las piezas de la ruta extensa pero tienes los dos monstruos de efecto, puedes usar ambos como materiales de S:P.
+
+**Resultado esperado:** Doble jefe solamente si completa la ruta de una carta; en la salida corta, S:P con respuesta temporal condicionada.
+
+**Recursos que conservar:** Los efectos por nombre aún disponibles y las cartas de mano que no sean necesarias para el cierre elegido.
+
+**Alternativa:** Si niegan la búsqueda y no tienes otra apertura, no declares que Tatsunootoshigo llegó a mano.
+
+#### Interrupción: reconocer el punto de corte
+
+**Objetivo:** Evitar gastar la Fusión o los cinco nombres cuando una búsqueda o envío falla.
+
+**Situación:** La búsqueda de Angbruja, el envío de Tatsunootoshigo o la recuperación de Desvantasmas recibe una respuesta rival.
+
+**Cartas:** Angbruja, Tatsunootoshigo, Desvantasmas, Fiesta de Huesos, Fusión Mementotlán, Goblin
+
+1. Si Angbruja fue negada, revisa si Tatsunootoshigo está realmente en mano por otra fuente.
+2. Si el envío de Tatsunootoshigo no resolvió, no cuentes Desvantasmas ni Dormiveja en el Cementerio.
+3. Si conservas Fiesta o Fusión, evalúa su requisito con las cartas que quedaron; Goblin solo protege contra selección en la ventana indicada y si controlas el jefe.
+
+**Resultado esperado:** Una continuación legal cuando existe una pieza independiente; de lo contrario, se conserva la mano sin inventar un final.
+
+**Recursos que conservar:** Fiesta de Huesos, Fusión y cualquier nombre disponible que permita recuperar el motor.
+
+**Alternativa:** Con dos monstruos de efecto válidos, considera S:P; si no los tienes, evita prometer esa alternativa.
+
+#### Ganar: aprovechar los 5000 ATK
+
+**Objetivo:** Cerrar por batalla solo después de comprobar el campo rival y los monstruos propios.
+
+**Situación:** Creación Combinada en Campo; para atacar a todos los monstruos debe ser tu único monstruo, con Battle Phase disponible.
+
+**Cartas:** Tecuhtlica - Creación Combinada, Fiesta de Huesos, Rey Creación, Dragón de Cuerno
+
+1. Si necesitas atacar a varios monstruos, verifica que Creación Combinada sea tu único monstruo.
+2. Si Fiesta de Huesos está en Cementerio y su efecto es utilizable, valora darle perforación contra monstruos en Defensa.
+3. Calcula el daño efectivo frente a ATK/DEF y LP; si no es letal, conserva una interacción o recurso para el turno rival.
+
+**Resultado esperado:** Presión de batalla de 5000 ATK y daño según los objetivos reales; no se garantiza un OTK.
+
+**Recursos que conservar:** La protección disponible, una carta de recuperación y los recursos necesarios para responder si el duelo continúa.
+
+**Alternativa:** Con Rey Creación y Creación Combinada juntos, elige el control del doble campo en vez de atribuir al jefe el ataque múltiple.
+
+#### Errores: contar nombres y no confundir efectos
+
+**Objetivo:** Evitar que una mala administración del Cementerio invalide la condición del jefe.
+
+**Situación:** Estás usando Tatsunootoshigo, Fiesta de Huesos, Desvantasmas o Goblin.
+
+**Cartas:** Tatsunootoshigo, Desvantasmas, Tecuhtlica - Creación Combinada, Fiesta de Huesos, Goblin, Fusión Mementotlán
+
+1. Cuenta nombres diferentes, no número de copias; respeta la suma de niveles de los envíos de Tatsunootoshigo.
+2. No actives la reanimación opcional de Desvantasmas si con ella pierdes el quinto nombre necesario para Creación Combinada.
+3. Distingue destruir, enviar y Sacrificar; Fusión Mementotlán no concede por sí sola la protección de Quimera asociada a Polimerización.
+
+**Resultado esperado:** Los efectos se aplican al evento correcto y la condición de cinco nombres se mantiene hasta que puedas usarla.
+
+**Recursos que conservar:** Los nombres que faltan y los efectos por nombre aún no usados.
+
+**Alternativa:** Si no se cumple la condición del jefe, vuelve al plan de Fusión o a una salida de Enlace respaldada por tu Campo.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Planes y estilo por situación
 
 | Estado | Objetivo práctico | Decisión y coste | Límite/cambio de plan |

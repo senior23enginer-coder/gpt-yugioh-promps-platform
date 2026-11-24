@@ -11,6 +11,155 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: Wingman con dos materiales
+
+**Objetivo:** Preparar una Fusión estable y escoger el Wingman cuyo efecto sirva en la posición actual.
+
+**Situación:** Avian, Burstinatrix y Fusión en mano; dos zonas libres y ambos destinos en Extra.
+
+**Cartas:** Héroe Elemental Avian, Héroe Elemental Burstinatrix, Fusión, Héroe Elemental de la Llama Wingman, Héroe Elemental del Estallido Wingman
+
+1. Invoca normalmente Avian y Burstinatrix boca arriba usando las reglas Rush.
+2. Activa Fusión con esos dos materiales; elige Llama Wingman o Estallido Wingman, no ambos.
+3. Si escoges Estallido, valora su aumento de ATK pagando el envío de la carta superior conforme al efecto.
+
+**Resultado esperado:** Un Wingman de 2100 ATK base; Estallido puede aumentar la fuerza de un Guerrero propio según su efecto.
+
+**Recursos que conservar:** Los materiales o una segunda Fusión para un turno posterior.
+
+**Alternativa:** Si no puedes reunir los dos nombres, conserva Fusión y prepara una defensa en vez de anunciar el jefe.
+
+#### Segundo: Voltic y una segunda Fusión
+
+**Objetivo:** Construir dos amenazas escogiendo un segundo destino según el Campo rival.
+
+**Situación:** Sparkman, Avian, Burstinatrix y Fusión en mano; tres zonas libres; Skill local HERO RUSH RISING habilitada.
+
+**Cartas:** Héroe Elemental Sparkman, Héroe Elemental Avian, Héroe Elemental Burstinatrix, Fusión, Héroe Elemental Voltic Wingman, Héroe Elemental del Estallido Wingman, Héroe Elemental Heliosfera
+
+1. Invoca los tres Normales y fusiona Sparkman con Avian para Voltic Wingman.
+2. Usa la Skill enviando Burstinatrix; aplica la reducción de 600 a Voltic y recupera Fusión según el procedimiento.
+3. Utiliza el efecto de Voltic con los materiales de Cementerio devueltos al Deck para escoger Estallido, Llama o Heliosfera según corresponda.
+
+**Resultado esperado:** Voltic de 1400 ATK temporal y una segunda Fusión elegida; Heliosfera puede robar y destruir solo si su condición se cumple.
+
+**Recursos que conservar:** La Fusión recuperada y los nombres reciclados en Deck.
+
+**Alternativa:** Si la Skill no está disponible, realiza solo la Fusión cuyos materiales tengas en Campo.
+
+#### Juego medio: administrar el Cementerio de Voltic
+
+**Objetivo:** Seleccionar el segundo destino sin perder los nombres necesarios para próximas Fusiones.
+
+**Situación:** Voltic en Campo y los Héroes Normales necesarios en Cementerio por la apertura anterior.
+
+**Cartas:** Héroe Elemental Voltic Wingman, Héroe Elemental Sparkman, Héroe Elemental Avian, Héroe Elemental Burstinatrix, Héroe Elemental de la Llama Wingman, Héroe Elemental del Estallido Wingman, Héroe Elemental Heliosfera
+
+1. Recuenta los nombres de Cementerio antes de aplicar el efecto de Voltic.
+2. Si necesitas dos materiales, elige Llama o Estallido conforme al Campo rival.
+3. Si eliges Heliosfera, utiliza los tres nombres; verifica al menos diez cartas en Deck para el robo documentado.
+
+**Resultado esperado:** Una segunda Fusión y reciclaje de los materiales usados, sin sumar otros destinos a la misma activación.
+
+**Recursos que conservar:** La Fusión de mano y los nombres que siguen disponibles después de reciclar.
+
+**Alternativa:** Si no hay tres nombres para Heliosfera, considera el Wingman de dos materiales que sí puedas reunir.
+
+#### Juego tardío: Shining Flare con dos Fusiones
+
+**Objetivo:** Convertir Flame Wingman y Sparkman en un jefe de presión con ATK dependiente del Cementerio.
+
+**Situación:** Avian, Burstinatrix, Sparkman y dos Fusiones disponibles; destinos Llama y Shining Flare en Extra.
+
+**Cartas:** Héroe Elemental Avian, Héroe Elemental Burstinatrix, Héroe Elemental Sparkman, Fusión, Héroe Elemental de la Llama Wingman, Héroe Elemental Shining Flare Wingman
+
+1. Invoca los tres Héroes Normales y usa la primera Fusión para Llama Wingman.
+2. Usa la segunda Fusión con Llama Wingman y Sparkman que permanecen boca arriba.
+3. Cuenta los Guerreros de Cementerio para calcular el ATK real de Shining Flare.
+
+**Resultado esperado:** Shining Flare de 3700 ATK en el ejemplo con cuatro Guerreros en Cementerio, sin daño por la mera Invocación.
+
+**Recursos que conservar:** Una segunda Fusión antes de gastar la primera si pretendes completar esta línea.
+
+**Alternativa:** Si solo tienes una Fusión, conserva el Wingman obtenido y Sparkman si sigue en Campo.
+
+#### Mano débil: dos Héroes antes de la tercera pieza
+
+**Objetivo:** Construir un Wingman simple sin exigir la mano de cuatro cartas de Voltic.
+
+**Situación:** Avian y Burstinatrix con Fusión, o una mano a la que todavía le falta uno de estos nombres.
+
+**Cartas:** Héroe Elemental Avian, Héroe Elemental Burstinatrix, Fusión, Héroe Elemental de la Llama Wingman, Héroe Elemental del Estallido Wingman, Agujero Trampa
+
+1. Con la pareja completa, usa la Fusión simple de Llama o Estallido.
+2. Si solo tienes un material, conserva Fusión para cuando puedas colocar ambos nombres.
+3. Prepara una defensa disponible si la mano no reúne una pareja válida.
+
+**Resultado esperado:** Un Wingman legal o recursos conservados; no se supone una segunda Fusión.
+
+**Recursos que conservar:** Fusión y el nombre que falte para la pareja de materiales.
+
+**Alternativa:** Si después reúnes los tres Normales, valora Heliosfera con sus requisitos.
+
+#### Interrupción: no fusionar desde zonas equivocadas
+
+**Objetivo:** Evitar perder la Magia o declarar una Fusión cuando un material fue retirado.
+
+**Situación:** Un Héroe deja el Campo antes de Fusión o la Skill no puede recuperar la Magia.
+
+**Cartas:** Héroe Elemental Avian, Héroe Elemental Sparkman, Héroe Elemental Burstinatrix, Fusión, Héroe Elemental Voltic Wingman
+
+1. Comprueba qué Héroes siguen boca arriba antes de activar Fusión.
+2. Si Voltic ya está en Campo, verifica los nombres que realmente están en Cementerio para su efecto específico.
+3. Si no se completa la recuperación de Fusión por Skill, no la cuentes de nuevo en mano.
+
+**Resultado esperado:** Solo el jefe que haya sido Invocado legalmente; el resto queda condicionado a los recursos sobrevivientes.
+
+**Recursos que conservar:** Un material y Fusión que todavía no se hayan gastado.
+
+**Alternativa:** Si no puedes reconstruir la pareja, conserva Voltic o el Wingman existente y defiende el siguiente turno.
+
+#### Ganar: daño de batalla o retirada de apoyo
+
+**Objetivo:** Elegir la Fusión que permita superar la defensa rival y calcular el daño real.
+
+**Situación:** Puedes acceder a Llama, Estallido, Shining Flare o Heliosfera con sus materiales; LP rivales conocidos.
+
+**Cartas:** Héroe Elemental de la Llama Wingman, Héroe Elemental del Estallido Wingman, Héroe Elemental Shining Flare Wingman, Héroe Elemental Heliosfera
+
+1. Llama y Shining Flare solo aportan el daño correspondiente cuando destruyen un monstruo en batalla y se cumple su efecto.
+2. Estallido puede mejorar el ATK de un Guerrero y retirar una Magia o Trampa si existe un objetivo.
+3. Con Heliosfera, no cuentes la destrucción hasta comprobar que la carta robada es monstruo y el efecto resuelve.
+
+**Resultado esperado:** Presión por batalla o retirada condicionada; el duelo termina solo si el daño efectivo alcanza los LP rivales.
+
+**Recursos que conservar:** Una Fusión o material para reconstruir si no puedes cerrar.
+
+**Alternativa:** Si el rival conserva una defensa que impide el ataque, elige Estallido o Heliosfera cuando sus efectos sean utilizables.
+
+#### Errores: Skill y destinos de Fusión excluyentes
+
+**Objetivo:** Mantener las zonas correctas y no prometer varias Fusiones desde los mismos materiales.
+
+**Situación:** Vas a usar Fusión, Voltic Wingman o HERO RUSH RISING.
+
+**Cartas:** Fusión, Héroe Elemental Voltic Wingman, Héroe Elemental de la Llama Wingman, Héroe Elemental del Estallido Wingman, Héroe Elemental Heliosfera, Héroe Elemental Shining Flare Wingman
+
+1. La Magia Fusión usa los monstruos boca arriba del Campo; el efecto de Voltic tiene su propio procedimiento de Cementerio.
+2. La Skill es externa a la mano y tiene requisitos; la reducción de 600 no es un aumento de ATK.
+3. Las variantes Llama, Estallido y Heliosfera de Voltic son alternativas, no tres jefes simultáneos.
+
+**Resultado esperado:** Materiales, ATK y número de Fusiones acordes con los efectos realmente resueltos.
+
+**Recursos que conservar:** Los nombres exactos de material y la Magia cuando la ruta exige dos copias.
+
+**Alternativa:** Si no está habilitada la Skill local, usa la Fusión simple o doble que puedas reunir sin ella.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Continuidad del contenido anterior
 
 

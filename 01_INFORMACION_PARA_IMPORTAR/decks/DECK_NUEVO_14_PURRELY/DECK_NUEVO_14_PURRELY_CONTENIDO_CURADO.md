@@ -11,6 +11,155 @@
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
 
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: Belleza como respuesta inicial
+
+**Objetivo:** Establecer una Xyz Purrely con un Recuerdo que permita interacción de monstruo.
+
+**Situación:** Purrely y Bello Recuerdo en mano, Belleza disponible en Extra, Campo propio vacío.
+
+**Cartas:** Purrely, Bello Recuerdo Purrely, Belleza Epurrely
+
+1. Invoca Purrely normalmente y resuelve su excavación sin contar cartas que todavía no has visto.
+2. Revela Bello Recuerdo para utilizar el procedimiento de Xyz desde mano si sigue disponible.
+3. Comprueba los materiales reales de Belleza y reserva el efecto de interacción para una amenaza elegible.
+
+**Resultado esperado:** Belleza con Purrely y Bello como materiales; la Normal se consumió y la respuesta depende de su ventana.
+
+**Recursos que conservar:** Bello Recuerdo hasta completar el procedimiento y otros Recuerdos que permitan extender.
+
+**Alternativa:** Si falta Bello pero Delicioso ya está en Cementerio y tienes Purrelyly, evalúa la ruta de Rechoncho.
+
+#### Segundo: Felicidad y combate
+
+**Objetivo:** Buscar recursos mediante combate o convertir una Xyz que batalló en ZEUS.
+
+**Situación:** Purrely y Feliz Recuerdo en mano; Felicidad en Extra y objetivo de batalla alcanzable.
+
+**Cartas:** Purrely, Feliz Recuerdo Purrely, Felicidad Epurrely, Divino Arsenal AA-ZEUS - Trueno del Cielo
+
+1. Desarrolla Felicidad mediante el Recuerdo correspondiente y conserva sus materiales reales.
+2. Elige un combate que cumpla sus condiciones; aplica la búsqueda de posbatalla solo si ocurrió y resolvió.
+3. En Main Phase 2, evalúa ZEUS si se cumple el procedimiento y limpiar otras cartas del Campo es más útil.
+
+**Resultado esperado:** Una búsqueda condicionada al combate o acceso posterior a ZEUS; no es una Xyz de primer turno garantizada por esta ruta.
+
+**Recursos que conservar:** Materiales de Felicidad o ZEUS y un Recuerdo que permita reconstruir.
+
+**Alternativa:** Si el rival no ofrece un objetivo de batalla válido, prioriza el control de Belleza o la preparación de Noir.
+
+#### Juego medio: cuatro materiales en Rechoncho
+
+**Objetivo:** Acumular recursos del Cementerio para desarrollar la siguiente Xyz sin atribuir materiales imaginarios.
+
+**Situación:** Purrelyly en mano, Delicioso Recuerdo en Cementerio, dos Magias/Trampas elegibles adicionales y Rechoncho en Extra.
+
+**Cartas:** Purrelyly, Delicioso Recuerdo Purrely, Rechoncho Epurrely, Noir Expurrely
+
+1. Invoca Purrelyly y verifica que Delicioso Recuerdo siga en Cementerio para su procedimiento.
+2. Forma Rechoncho con los materiales previstos y usa su efecto para acoplar las dos Magias/Trampas elegibles.
+3. Cuenta el resultado: cuatro materiales en este escenario, todavía insuficientes para el ascenso permanente a Noir.
+
+**Resultado esperado:** Rechoncho con cuatro materiales si los dos objetivos permanecen disponibles y resuelve el efecto.
+
+**Recursos que conservar:** Un Recuerdo Rápido adicional en mano para alcanzar el quinto material.
+
+**Alternativa:** Si falta un objetivo de Cementerio, acepta un número menor de materiales y no declares Noir todavía.
+
+#### Juego tardío: elegir Noir permanente o temporal
+
+**Objetivo:** Distinguir dos formas de acceder a Noir según los materiales y la Trampa disponible.
+
+**Situación:** Rechoncho con cuatro materiales y otro Recuerdo activable, o una Xyz Purrely con ¿¡Purrelysaltó!? colocada desde el turno anterior.
+
+**Cartas:** Rechoncho Epurrely, Noir Expurrely, ¿¡Purrelysaltó!?, Delicioso Recuerdo Purrely
+
+1. Para el acceso permanente, activa el Recuerdo adicional y confirma que el efecto de Rechoncho acopla el quinto material.
+2. Utiliza el procedimiento alternativo de Noir cuando se cumple su requisito de cinco materiales.
+3. Si eliges la Trampa sobre una Xyz elegible, trata el Noir obtenido como temporal y revisa cuántos materiales tiene.
+
+**Resultado esperado:** Noir permanente con cinco o más materiales, o Noir temporal por Trampa; sus condiciones y duración no son equivalentes.
+
+**Recursos que conservar:** Los cinco materiales si necesitas conservar la protección y las cartas que alimentan una nueva Xyz.
+
+**Alternativa:** Si no llegaste al quinto material, conserva Rechoncho o usa la Trampa solo cuando sea legal.
+
+#### Mano débil: confirmar el Recuerdo disponible
+
+**Objetivo:** No depender de acertar una excavación para decidir el destino del Extra.
+
+**Situación:** Purrely o Purrelyly disponibles, pero faltan Recuerdos o blancos adicionales de Cementerio.
+
+**Cartas:** Purrely, Purrelyly, Bello Recuerdo Purrely, Delicioso Recuerdo Purrely, Belleza Epurrely, Rechoncho Epurrely
+
+1. Comprueba qué Recuerdo está realmente en mano antes de revelar con Purrely.
+2. Si tienes Purrelyly y Delicioso en Cementerio, utiliza la vía de Rechoncho solo cuando la carta sigue allí.
+3. Si obtienes un Recuerdo mediante excavación o búsqueda, elige la Xyz correspondiente a esa carta real.
+
+**Resultado esperado:** Belleza o Rechoncho cuando hay acceso legítimo; si no, se conserva el motor sin prometer una Xyz.
+
+**Recursos que conservar:** La Normal y los Recuerdos que puedan utilizarse después de la búsqueda.
+
+**Alternativa:** Si la excavación no ofrece el Recuerdo necesario, conserva tus defensas y espera otro recurso.
+
+#### Interrupción: proteger la cuenta de materiales
+
+**Objetivo:** Mantener un plan defensivo si se pierde el Recuerdo o se niega el acoplamiento.
+
+**Situación:** El rival niega Purrely, Purrelyly o el efecto que acoplaría un quinto material a Rechoncho.
+
+**Cartas:** Purrely, Purrelyly, Rechoncho Epurrely, Noir Expurrely, ¿¡Purrelysaltó!?
+
+1. Si Bello ya no está en mano o Purrely fue negado, no presentes Belleza como Invocada.
+2. Si se perdió Delicioso del Cementerio, revisa el procedimiento de Purrelyly con los recursos que quedan.
+3. Si Rechoncho permanece con cuatro materiales, conserva su Campo y evalúa la Trampa de ascenso solo si ya estaba colocada y es activable.
+
+**Resultado esperado:** Una Xyz existente preservada o una salida temporal legal; no se fuerza Noir permanente con cuatro materiales.
+
+**Recursos que conservar:** El Recuerdo todavía disponible y la Trampa que pueda responder en su turno correcto.
+
+**Alternativa:** Si la interrupción retira todos los cuerpos, conserva Purrelyly o un Recuerdo para reconstruir más adelante.
+
+#### Ganar: controlar antes de buscar daño
+
+**Objetivo:** Preservar Noir cuando su retirada es la ventaja principal y usar Felicidad para presionar.
+
+**Situación:** Noir con materiales o Felicidad en Campo, con amenazas y LP rivales identificados.
+
+**Cartas:** Noir Expurrely, Felicidad Epurrely, Rechoncho Epurrely, Divino Arsenal AA-ZEUS - Trueno del Cielo
+
+1. Antes de retirar una amenaza con Noir, comprueba el coste de materiales y la protección que conservará después.
+2. Si pasas de control a ataque, usa la línea de Felicidad cuando exista un combate útil y su efecto pueda resolver.
+3. Calcula el daño de las criaturas realmente en Campo; no conviertas una retirada de Noir en daño garantizado.
+
+**Resultado esperado:** Control por retirada y presión gradual mediante combate y recursos Xyz; no se presupone letal.
+
+**Recursos que conservar:** Materiales suficientes para mantener la condición de Noir y un Recuerdo para otro turno.
+
+**Alternativa:** Si usar Noir deja de protegerlo y no permite ganar, conserva sus materiales hasta una amenaza más importante.
+
+#### Errores: cinco materiales y duración de Noir
+
+**Objetivo:** Evitar confundir un ascenso temporal con la condición de protección del jefe.
+
+**Situación:** Estás gestionando Rechoncho, Noir y ¿¡Purrelysaltó!? después de una respuesta rival.
+
+**Cartas:** Rechoncho Epurrely, Noir Expurrely, ¿¡Purrelysaltó!?, Purrelyly
+
+1. Cuenta los materiales que tiene la Xyz en ese momento, no las cartas que se pensaba acoplar.
+2. No uses el procedimiento permanente de Noir desde cuatro materiales ni atribuyas protección a un Noir temporal que no cumple cinco.
+3. Cuando desacoples materiales, vuelve a comprobar si Noir conserva la condición que da protección.
+
+**Resultado esperado:** La duración y protección de Noir corresponden a su procedimiento y materiales reales.
+
+**Recursos que conservar:** Recuerdos que sirvan para el quinto material y una Trampa que ya sea activable.
+
+**Alternativa:** Con cuatro materiales sin otra extensión, conserva Rechoncho en lugar de declarar un ascenso inexistente.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
+
 ## APARTADO_02 — Continuidad del contenido anterior
 
 
