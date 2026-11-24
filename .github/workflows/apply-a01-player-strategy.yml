@@ -1,4 +1,4 @@
-name: Apply reviewed A01 lessons to assigned packages (technical review 3)
+name: Apply reviewed A01 lessons, player profiles and featured cards (review 3)
 on:
   push:
     branches: [fix/a01-player-quality-20261123]
@@ -24,7 +24,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --cached --quiet; then
-            git commit -m "analysis(A01): apply 128 authored lessons to 16 validated packages"
+            git commit -m "analysis(A01): reconcile reviewed 16 profiles, 64 featured cards and 128 lessons"
             git push origin HEAD:refs/heads/fix/a01-player-quality-20261123
           fi
           git rev-parse HEAD
