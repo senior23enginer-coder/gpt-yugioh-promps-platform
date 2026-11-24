@@ -319,6 +319,32 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 16/16 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 16/16 filas por ID/zona/cantidad; huella FNV-1a64 `0822a523c660723d` (no es inventory_sha256 de Station X). Los 16 nombres por ID coinciden exactamente con V40 (FNV-1a64 `ae51cc7602454ea3`); las 16 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 30/0/0/0; 16 identidades, 6 rutas, 28 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica HARD ROCK OVERTURE preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
+
+Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada. No inferir YGOPRODeck ID, no cambiar inventario ni marcar T2 completa. Pendiente consulta independiente, traducción oficial y reconciliación nativa.
+
+| card_id | Nombre del inventario | Zona | Copias | CID candidato | Fuente oficial |
+|---:|---|---|---:|---:|---|
+| 466 | Kheiron el Caballero Estelar | main | 3 | 16344 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2) |
+| 467 | Phaser del Rebelde Real | main | 3 | 16330 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2) |
+| 468 | Impasse Ignoto | main | 3 | 19760 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2) |
+| 469 | Metal Maldito del Rebelde Real | main | 2 | 16331 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2) |
+| 470 | Heavy Metal del Rebelde Real | main | 2 | 15441 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2) |
+| 471 | Progrock del Rebelde Real | main | 2 | 19761 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2) |
+| 472 | Descendiente de Titanes | main | 2 | 16135 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2) |
+| 473 | Canjear | main | 2 | 17721 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2) |
+| 474 | Aliento de Fuego del Genio | main | 2 | 15673 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2) |
+| 475 | Restauración de Cartas | main | 2 | 17543 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2) |
+| 476 | Maldición de la Luz Ascendente | main | 2 | 21007 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2) |
+| 477 | Gelatina Defensiva | main | 1 | 18646 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja) |
+| 478 | Avaricia del Rey | main | 1 | 19799 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2) |
+| 479 | Agujero Trampa | main | 1 | 15913 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2) |
+| 480 | Esplendor del Rey | main | 1 | 15674 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2) |
+| 481 | Monstruo Reencarnado | main | 1 | 16305 | [Konami Rush](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2) |
+
+16/16 candidatos únicos; 16 fichas con huella oficial histórica. T1/T3 conservan sus bloqueos de evidencia física, Skill nativa y censo exhaustivo.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
