@@ -341,6 +341,63 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 650](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/650.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `5aabddf9cb7b99ceae14b6e89cd51cf66651e18d`.
+
+- **A03-T1:** 43 filas, 42 CID, 70 copias, Main/Extra/Side/Reserva 40/15/15/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 42/42 referencias oficiales con CID coherente; 42/42 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 20 rutas, 98 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/42 CID representados). Conteo documental, no censo oficial exhaustivo. CID multizona: 13587. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 181 | 22523 | Elfnote Regina | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en |
+| 182 | 22116 | Elfnote Lucina | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=en |
+| 183 | 22117 | Elfnote Tinia | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=en |
+| 184 | 22119 | Elfnote Power Patron | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=en |
+| 185 | 22118 | Elfnote Fortuna | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=en |
+| 186 | 22533 | Fidraulis Harmony | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en |
+| 187 | 21419 | Medius the Pure | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en |
+| 188 | 22519 | Vidolium the Unstable Power Patron of Unity | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en |
+| 189 | 17762 | Bystial Magnamhut | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en |
+| 190 | 15239 | Dogmatika Ecclesia, the Virtuous | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en |
+| 191 | 22520 | Nervedo the Shadebeast Power Patron | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en |
+| 192 | 12950 | Ash Blossom & Joyous Spring | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 193 | 20500 | Mulcharmy Fuwalos | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 194 | 20206 | Mulcharmy Purulia | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=en |
+| 195 | 13587 | Ghost Belle & Haunted Mansion | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 196 | 22565 | Prohibited Power Patron Portal - Terminus | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en |
+| 197 | 22089 | The Fallen & The Virtuous | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en |
+| 198 | 22159 | Elfnotes: Welcome Home | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=en |
+| 199 | 22173 | Elfnotes: Rhapsodia of Madness | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=en |
+| 200 | 22356 | The Three Champions of Swordsoul [Synchro; Konami 22356] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en |
+| 201 | 18666 | Golden Cloud Beast - Malong [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en |
+| 202 | 22335 | Storm-Bane Dragon Destorbim [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en |
+| 203 | 22144 | Ecclesia and the Dark Dragon [extra; efecto y material según carta] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en |
+| 204 | 22143 | Elfnote Seraphim Strelitzia [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=en |
+| 205 | 22984 | Elfnote June Pride [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en |
+| 206 | 19188 | S:P Little Knight [Link] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 207 | 18505 | Despian Luluwalilith [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en |
+| 208 | 8038 | Arcanite Magician [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en |
+| 209 | 12321 | Crystal Wing Synchro Dragon [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en |
+| 210 | 13710 | F.A. Dawn Dragster [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=en |
+| 211 | 15996 | Ruddy Rose Dragon [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en |
+| 212 | 15994 | Albion the Branded Dragon [Fusion] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en |
+| 213 | 18507 | Chaos Angel [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en |
+| 214 | 22142 | Junora the Power Patron of Tuning [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=en |
+| 215 | 17764 | Bystial Druiswurm | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en |
+| 216 | 13587 | Ghost Belle & Haunted Mansion | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 217 | 9279 | Droll & Lock Bird | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 218 | 11708 | Ghost Ogre & Snow Rabbit | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en |
+| 219 | 13619 | Called by the Grave | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 220 | 15296 | Triple Tactics Talent | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 221 | 13407 | Contact "C" | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en |
+| 222 | 4861 | Solemn Judgment | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=en |
+| 223 | 6511 | Pot of Avarice | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 40 Main · 15 Extra · 15 Side · 0 Reserva. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
