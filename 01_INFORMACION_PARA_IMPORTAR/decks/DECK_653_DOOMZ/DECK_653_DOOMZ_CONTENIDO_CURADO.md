@@ -333,6 +333,57 @@ Los CID enlazan fichas Konami de referencia; no se atribuye traducción oficial 
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 653](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/653.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `44d1391ca3fc3bf03fa4000056b5abf712fc187c`.
+
+- **A03-T1:** 37 filas, 37 CID, 64 copias, Main/Extra/Side/Reserva 40/15/9/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 37/37 referencias oficiales con CID coherente; 37/37 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 16 rutas, 92 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/37 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 322 | 21419 | Medius el Puro | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en |
+| 323 | 21824 | Mando DoomZ «D.O.O.M.D.U.R.G.» | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=en |
+| 324 | 21777 | DoomZ Modelo de Poder | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=en |
+| 325 | 9279 | El Bufón y el Pájaro del Candado | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 326 | 22521 | Modelo de Poder Máquina de Sombras Zegredo | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=en |
+| 327 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 328 | 17119 | Therion «Rey» Regulus | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en |
+| 329 | 21774 | DoomZ XII Cero - Drastea | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=en |
+| 330 | 21775 | DoomZ V Cinco - Amalthe | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=en |
+| 331 | 21776 | DoomZ VII Siete - Elara | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=en |
+| 332 | 13631 | Infinito Temporal | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 333 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 334 | 22565 | Portal del Modelo de Poder Desatado - Terminus | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en |
+| 335 | 21823 | Incursores DoomZ | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=en |
+| 336 | 22519 | Vidrium, Modelo de Poder de la Exterminación del Caos | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en |
+| 337 | 22158 | Cambio DoomZ | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=en |
+| 338 | 21840 | Destrucción DoomZ | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2&request_locale=en |
+| 339 | 22567 | Mando DoomZ «A.D.R.A.S.T.E.I.A.» | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22567&ope=2&request_locale=en |
+| 340 | 14958 | Número F0: Futuro Draco Utópico | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=en |
+| 341 | 16002 | Springans Fiestero | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=en |
+| 342 | 18190 | Gigantesco «Campeón» Sargas | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=en |
+| 343 | 21811 | DoomZ XII Fin - Drastrius | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=en |
+| 344 | 22554 | DoomZ XIII Over - Graflario | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=en |
+| 345 | 21812 | Fractura DoomZ - Diactorus | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=en |
+| 346 | 21810 | Júpiter el Modelo de Poder de Destrucción | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=en |
+| 347 | 21453 | Número F0: Futuro Utópico Zexal | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=en |
+| 348 | 19886 | Varudras, el Último Portador del Fin de los Tiempos | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2&request_locale=en |
+| 349 | 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en |
+| 350 | 11413 | Número F0: Futuro Utópico | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=en |
+| 351 | 14920 | Mago Gagagaga | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=en |
+| 352 | 11708 | Ogro Fantasma & Conejo de las Nieves | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en |
+| 353 | 15296 | Talento de Tácticas Triples | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 354 | 14564 | Número 60: Dugares el Eterno | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2&request_locale=en |
+| 355 | 13619 | Llamado por la Tumba | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=en |
+| 356 | 14876 | Tormenta de Relámpagos | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en |
+| 357 | 14741 | Nibiru, el Ser Primitivo | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en |
+| 358 | 19184 | Súper Asesino Estelar TY-PHON - Crisis Celeste | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 40 Main · 15 Extra · 9 Side · 0 Reserva. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
