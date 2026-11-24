@@ -24232,14 +24232,14 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Tearlaments, complementado por paquetes Horus y Demoniherrero de la lista registrada.",
-      "Tipo de estrategia": "Fusión mediante efectos de envío al Cementerio y utilización de recursos recuperables.",
+      "Arquetipo": "Tiagrimientos / Horus / Demoniherrero",
+      "Tipo de estrategia": "Combo de Fusión por envío al Cementerio",
       "Estilo de juego": "motor de Cementerio, generación de ventajas y adaptación según qué cartas se envían.",
-      "Cómo se juega": "Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Primero: abre con Reinoheart o Scheiren y distingue envío por efecto de coste. Segundo: usa Havnis como respuesta cuando se cumpla su ventana de activación. Juego medio: reutiliza recursos Tearlaments sin asumir resultados de la molienda. Juego tardío: elige una Fusión legal y protege los nombres necesarios para otra secuencia. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.",
+      "Cómo se juega": "Primero: fusión dirigida a Kaleido-Heart. Invoca Normalmente Reinoheart, activa su efecto y manda Scheiren del Deck al Cementerio por efecto. En una nueva cadena, Scheiren activa su efecto de Fusión desde Cementerio; reúne a Scheiren y Havnis de Tipo Aqua en Cementerio y a Reinoheart Guerrero en Campo. Devuelve esos tres al fondo del Deck para Invocar Caleido-Heart. Si el rival controla una carta seleccionable, usa su disparo de Invocación Especial para barajarla al Deck. Kaleido-Heart de 3000 ATK/DEF, materiales reciclados; no se promete una negación ni una Fusión adicional. Segundo: elegir una Fusión con el campo rival. Para Garura, busca dos monstruos del mismo Tipo y Atributo, pero de nombres distintos; para Fangodragón, mismo Atributo y Tipos distintos; para Dragostapelia, un monstruo de Fusión y otro OSCURIDAD. Paga la carta adicional de mano al activar Súper Polimerización; utiliza únicamente materiales disponibles y permitidos. Después de la Fusión, conserva la Normal para Reinoheart si sigue en mano y valora la interacción real del monstruo obtenido. Dos cuerpos rivales retirados como materiales y una Fusión propia, si cumplen sus requisitos. Juego medio: administrar envíos y recuperación. Envía Grito con Bienes del Entierro Insensato para utilizar la búsqueda de Trampa que corresponda. Coloca Metarruido si la línea busca resolver una Fusión posterior o Crimanto si cumple la condición de negación. Durante el turno rival, conserva el Tiagrimientos en Campo que exige la Trampa y utiliza sus materiales solo si siguen disponibles. Recursos y acceso condicional a Kaleido-Heart; una negación con Crimanto solo cuando su activación es legal. Juego tardío: alternativa de Demoniherrero. Descarta Grabador para buscar Tracto; activa Tracto, añade Lurrie del Deck y descártalo durante la resolución. Cuando Lurrie se Invoque desde Cementerio, úsalo como material de Réquiem. Usa Réquiem y el retorno de Grabador para reunir los cuerpos exigidos por Secuencia. Fusiona mediante Secuencia con los materiales del Cementerio indicados; conserva la Normal para otro motor. Lácrima del Demoniherrero con Equipos y reducción de ATK según la ruta; no es una Fusión Tiagrimientos adicional automática.",
       "Cartas representativas": "Reinoheart, Scheiren, Merrli, Havnis y los destinos Tearlaments del Extra.",
-      "Qué vigilar": "descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-      "Estilo breve": "motor de Cementerio, generación de ventajas y adaptación según qué cartas se envían.",
-      "Resumen para ficha": "Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión."
+      "Qué vigilar": "Los envíos por coste no activan automáticamente los disparos de Fusión. No presupongas las cartas aleatorias ni cuentes materiales Xyz como cartas del Cementerio.",
+      "Estilo breve": "Envía Tiagrimientos por efecto para fusionar y reciclar materiales; Horus y Demoniherrero abren salidas independientes que complementan el plan.",
+      "Resumen para ficha": "Reinoheart envía Scheiren, Merrli o Havnis para activar Fusiones. Caleido-Heart aporta retirada; Súper Polimerización aprovecha parejas rivales y Horus/Demoniherrero extienden."
     },
     "summary": [
       {
@@ -33487,67 +33487,293 @@
       "featured_cards": [
         {
           "cid": 17417,
-          "role": "Pieza del motor: Tiagrimientos Reinoheart",
-          "reason": "En esta lista, Tiagrimientos Reinoheart cumple esta función documentada: Starter Tear de envíos con condición de efecto comprobable.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Tiagrimientos Reinoheart disponible en su zona válida y recursos para aprovechar Starter Tear de envíos con condición de efecto comprobable. sin gastar materiales inexistentes.",
+          "role": "Iniciador de envío dirigido al Cementerio",
+          "reason": "Al ser Invocado permite enviar un Tiagrimientos del Deck al Cementerio; es el acceso preciso a Scheiren o Merrli para preparar una Fusión.",
+          "when_to_use": "Úsalo para enviar el nombre que falta. La ruta de Caleido-Heart exige Reinoheart y otros dos Aqua elegibles.",
           "related_cids": []
         },
         {
           "cid": 17415,
-          "role": "Pieza del motor: Tiagrimientos Scheiren",
-          "reason": "En esta lista, Tiagrimientos Scheiren cumple esta función documentada: recuperación · extensor · habilitador de Extra. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck. Relación contextual con enviar cartas al Cementerio por efecto y aprovechar fusiones, reciclaje y motores Horus/Demoniherrero. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Tiagrimientos Scheiren disponible en su zona válida y recursos para aprovechar recuperación · extensor · habilitador de Extra. recuperación e invocación desde Cementerio/destierro; acceso al campo desde la mano; habilitación o continuación de una invocación del Extra Deck. Relación contextual con enviar cartas al Cementerio por efecto y aprovechar fusiones, reciclaje y motores Horus/Demoniherrero. Habilita una línea del motor sólo si coinciden recursos, objetivos y restricciones; no equivale a un combo completo validado. sin gastar materiales inexistentes.",
+          "role": "Extensora de mano y disparo de Fusión",
+          "reason": "Puede desarrollar un cuerpo de Nivel 4 y enviar recursos desde Deck; si llega al Cementerio por efecto, su disparo permite fusionar usando materiales válidos.",
+          "when_to_use": "Úsala para reunir un Nivel 4 o iniciar una Fusión desde Cementerio; distingue su envío por efecto de los costes de otras cartas.",
           "related_cids": []
         },
         {
           "cid": 17416,
-          "role": "Pieza del motor: Tiagrimientos Havnis",
-          "reason": "En esta lista, Tiagrimientos Havnis cumple esta función documentada: Pieza reactiva que abre molinos y posibles Fusiones.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Tiagrimientos Havnis disponible en su zona válida y recursos para aprovechar Pieza reactiva que abre molinos y posibles Fusiones. sin gastar materiales inexistentes.",
+          "role": "Respuesta desde mano y material Aqua",
+          "reason": "Puede responder a una activación rival de monstruo en Campo con su Invocación y envío de cartas; si llega al Cementerio por efecto, habilita su Fusión.",
+          "when_to_use": "Resérvala para una ventana rival compatible o úsala como Aqua disponible en una Fusión de Caleido-Heart.",
           "related_cids": []
         },
         {
           "cid": 17414,
-          "role": "Pieza del motor: Tiagrimientos Merrli",
-          "reason": "En esta lista, Tiagrimientos Merrli cumple esta función documentada: Generador de molienda y Fusion condicional.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Tiagrimientos Merrli disponible en su zona válida y recursos para aprovechar Generador de molienda y Fusion condicional. sin gastar materiales inexistentes.",
+          "role": "Iniciadora de envío y material de Fusión",
+          "reason": "Al ser Invocada puede enviar cartas superiores al Cementerio; su propio envío por efecto habilita la Fusión si existen materiales.",
+          "when_to_use": "Úsala cuando puedas aprovechar los recursos del Cementerio sin suponer los nombres que serán enviados.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: TEARLAMENTS",
-          "plan": "Ir primero: abre con Reinoheart o Scheiren y distingue envío por efecto de coste. Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "risks": "descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "related_route_ids": []
+          "title": "Primero: fusión dirigida a Kaleido-Heart",
+          "plan": "Invoca Normalmente Reinoheart, activa su efecto y manda Scheiren del Deck al Cementerio por efecto. En una nueva cadena, Scheiren activa su efecto de Fusión desde Cementerio; reúne a Scheiren y Havnis de Tipo Aqua en Cementerio y a Reinoheart Guerrero en Campo. Devuelve esos tres al fondo del Deck para Invocar Caleido-Heart. Si el rival controla una carta seleccionable, usa su disparo de Invocación Especial para barajarla al Deck. Kaleido-Heart de 3000 ATK/DEF, materiales reciclados; no se promete una negación ni una Fusión adicional.",
+          "preconditions": "Reinoheart en mano, Havnis en Cementerio desde una acción anterior, Scheiren en Deck y Caleido-Heart en Extra. Para otras ubicaciones de Havnis consulta la variante correspondiente.",
+          "risks": "Con Merrli como alternativa, usa la variante correspondiente si sigue en Deck y el resto de condiciones coincide.",
+          "related_route_ids": [
+            "656:A09:REINO:SCHEIREN:KALEIDO01",
+            "656:A09:REINO:MERRLI:KALEIDO01"
+          ]
         },
         {
           "id": "second",
-          "title": "Ir segundo: TEARLAMENTS",
-          "plan": "Ir segundo: usa Havnis como respuesta cuando se cumpla su ventana de activación. Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "risks": "descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "related_route_ids": []
+          "title": "Segundo: elegir una Fusión con el campo rival",
+          "plan": "Para Garura, busca dos monstruos del mismo Tipo y Atributo, pero de nombres distintos; para Fangodragón, mismo Atributo y Tipos distintos; para Dragostapelia, un monstruo de Fusión y otro OSCURIDAD. Paga la carta adicional de mano al activar Súper Polimerización; utiliza únicamente materiales disponibles y permitidos. Después de la Fusión, conserva la Normal para Reinoheart si sigue en mano y valora la interacción real del monstruo obtenido. Dos cuerpos rivales retirados como materiales y una Fusión propia, si cumplen sus requisitos.",
+          "preconditions": "Súper Polimerización en mano y otra carta para descartar; los dos monstruos rivales cumplen los materiales exactos de Garura, Dragostapelia o Fangodragón.",
+          "risks": "Si no hay pareja apta, no actives Súper Polimerización como si pudiera fusionar cualquier monstruo.",
+          "related_route_ids": [
+            "656:A09:SUPERPOLY:GARURA10",
+            "656:A09:V12:SUPERPOLY:OPP_LUBELLION_ALBAZ:DRAGOSTAPELIA",
+            "656:A09:V12:SUPERPOLY:OPP_ALBAZ_ALUBER:MUDRAGON"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: TEARLAMENTS",
-          "plan": "Juego medio: reutiliza recursos Tearlaments sin asumir resultados de la molienda. Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "risks": "descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "related_route_ids": []
+          "title": "Juego medio: administrar envíos y recuperación",
+          "plan": "Envía Grito con Bienes del Entierro Insensato para utilizar la búsqueda de Trampa que corresponda. Coloca Metarruido si la línea busca resolver una Fusión posterior o Crimanto si cumple la condición de negación. Durante el turno rival, conserva el Tiagrimientos en Campo que exige la Trampa y utiliza sus materiales solo si siguen disponibles. Recursos y acceso condicional a Kaleido-Heart; una negación con Crimanto solo cuando su activación es legal.",
+          "preconditions": "Bienes del Entierro Insensato y Reinoheart disponibles; quedan Grito y la Trampa correspondiente en Deck.",
+          "risks": "Si se pierde Reinoheart antes de usar Crimanto, no anuncies su negación; conserva otro recurso para reconstruir.",
+          "related_route_ids": [
+            "656:A09:GOODS:SCREAM:METANOISE:KALEIDO01",
+            "656:A09:GOODS:SCREAM:CRYME:KALEIDO02"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: TEARLAMENTS",
-          "plan": "Juego tardío: elige una Fusión legal y protege los nombres necesarios para otra secuencia. Reinoheart, Scheiren, Merrli y Havnis ayudan a disponer piezas para las Fusiones Tearlaments; Horus y Demoniherrero aportan opciones distintas, no equivalentes al mismo disparador de Fusión. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "risks": "descartar como coste NO activa automáticamente un efecto que exige envío por efecto. Confirmar materiales, nombres y Cementerio disponible.",
-          "related_route_ids": []
+          "title": "Juego tardío: alternativa de Demoniherrero",
+          "plan": "Descarta Grabador para buscar Tracto; activa Tracto, añade Lurrie del Deck y descártalo durante la resolución. Cuando Lurrie se Invoque desde Cementerio, úsalo como material de Réquiem. Usa Réquiem y el retorno de Grabador para reunir los cuerpos exigidos por Secuencia. Fusiona mediante Secuencia con los materiales del Cementerio indicados; conserva la Normal para otro motor. Lácrima del Demoniherrero con Equipos y reducción de ATK según la ruta; no es una Fusión Tiagrimientos adicional automática.",
+          "preconditions": "Grabador en mano; Tracto, Lurrie y las piezas Demoniherrero de Deck/Extra aún disponibles.",
+          "risks": "Si la apertura Demoniherrero se interrumpe, vuelve a Reinoheart solo cuando esté disponible y pueda resolver.",
+          "related_route_ids": [
+            "656:A09:ENGRAVER:LACRIMA01"
+          ]
         }
-      ]
+      ],
+      "strategy": {
+        "schema": "station-x-player-strategy/1",
+        "sections": [
+          {
+            "id": "first",
+            "title": "Primero: fusión dirigida a Kaleido-Heart",
+            "objective": "Obtener una amenaza de Fusión utilizando recursos reales en mano y Cementerio.",
+            "situation": "Reinoheart en mano, Havnis en Cementerio desde una acción anterior, Scheiren en Deck y Caleido-Heart en Extra. Para otras ubicaciones de Havnis consulta la variante correspondiente.",
+            "card_cids": [
+              17417,
+              17416,
+              17415,
+              17445
+            ],
+            "actions": [
+              "Invoca Normalmente Reinoheart, activa su efecto y manda Scheiren del Deck al Cementerio por efecto.",
+              "En una nueva cadena, Scheiren activa su efecto de Fusión desde Cementerio; reúne a Scheiren y Havnis de Tipo Aqua en Cementerio y a Reinoheart Guerrero en Campo.",
+              "Devuelve esos tres al fondo del Deck para Invocar Caleido-Heart. Si el rival controla una carta seleccionable, usa su disparo de Invocación Especial para barajarla al Deck."
+            ],
+            "expected_result": "Kaleido-Heart de 3000 ATK/DEF, materiales reciclados; no se promete una negación ni una Fusión adicional.",
+            "resources_to_keep": "La siguiente carta Tiagrimientos y el Cementerio que no se consumió en materiales.",
+            "alternative": "Con Merrli como alternativa, usa la variante correspondiente si sigue en Deck y el resto de condiciones coincide.",
+            "related_route_ids": [
+              "656:A09:REINO:SCHEIREN:KALEIDO01",
+              "656:A09:REINO:MERRLI:KALEIDO01"
+            ]
+          },
+          {
+            "id": "second",
+            "title": "Segundo: elegir una Fusión con el campo rival",
+            "objective": "Romper una pareja rival sin depender de un envío aleatorio desde Deck.",
+            "situation": "Súper Polimerización en mano y otra carta para descartar; los dos monstruos rivales cumplen los materiales exactos de Garura, Dragostapelia o Fangodragón.",
+            "card_cids": [
+              7445,
+              17746,
+              12870,
+              13454
+            ],
+            "actions": [
+              "Para Garura, busca dos monstruos del mismo Tipo y Atributo, pero de nombres distintos; para Fangodragón, mismo Atributo y Tipos distintos; para Dragostapelia, un monstruo de Fusión y otro OSCURIDAD.",
+              "Paga la carta adicional de mano al activar Súper Polimerización; utiliza únicamente materiales disponibles y permitidos.",
+              "Después de la Fusión, conserva la Normal para Reinoheart si sigue en mano y valora la interacción real del monstruo obtenido."
+            ],
+            "expected_result": "Dos cuerpos rivales retirados como materiales y una Fusión propia, si cumplen sus requisitos.",
+            "resources_to_keep": "Reinoheart o un iniciador independiente para continuar y una carta de mano si no es necesario usar la Magia.",
+            "alternative": "Si no hay pareja apta, no actives Súper Polimerización como si pudiera fusionar cualquier monstruo.",
+            "related_route_ids": [
+              "656:A09:SUPERPOLY:GARURA10",
+              "656:A09:V12:SUPERPOLY:OPP_LUBELLION_ALBAZ:DRAGOSTAPELIA",
+              "656:A09:V12:SUPERPOLY:OPP_ALBAZ_ALUBER:MUDRAGON"
+            ]
+          },
+          {
+            "id": "mid",
+            "title": "Juego medio: administrar envíos y recuperación",
+            "objective": "Conseguir recursos mediante Grito, Metarruido o Crimanto según el estado actual.",
+            "situation": "Bienes del Entierro Insensato y Reinoheart disponibles; quedan Grito y la Trampa correspondiente en Deck.",
+            "card_cids": [
+              12800,
+              17813,
+              17473,
+              17475,
+              17417,
+              17416,
+              17414,
+              17445
+            ],
+            "actions": [
+              "Envía Grito con Bienes del Entierro Insensato para utilizar la búsqueda de Trampa que corresponda.",
+              "Coloca Metarruido si la línea busca resolver una Fusión posterior o Crimanto si cumple la condición de negación.",
+              "Durante el turno rival, conserva el Tiagrimientos en Campo que exige la Trampa y utiliza sus materiales solo si siguen disponibles."
+            ],
+            "expected_result": "Recursos y acceso condicional a Kaleido-Heart; una negación con Crimanto solo cuando su activación es legal.",
+            "resources_to_keep": "Un monstruo Tiagrimientos en Campo y la Trampa preparada desde el turno anterior.",
+            "alternative": "Si se pierde Reinoheart antes de usar Crimanto, no anuncies su negación; conserva otro recurso para reconstruir.",
+            "related_route_ids": [
+              "656:A09:GOODS:SCREAM:METANOISE:KALEIDO01",
+              "656:A09:GOODS:SCREAM:CRYME:KALEIDO02"
+            ]
+          },
+          {
+            "id": "late",
+            "title": "Juego tardío: alternativa de Demoniherrero",
+            "objective": "Desarrollar una amenaza de Fusión sin exigir que el motor Tiagrimientos obtenga envíos favorables.",
+            "situation": "Grabador en mano; Tracto, Lurrie y las piezas Demoniherrero de Deck/Extra aún disponibles.",
+            "card_cids": [
+              20196,
+              20240,
+              8092,
+              20225,
+              20490,
+              20226,
+              20214
+            ],
+            "actions": [
+              "Descarta Grabador para buscar Tracto; activa Tracto, añade Lurrie del Deck y descártalo durante la resolución. Cuando Lurrie se Invoque desde Cementerio, úsalo como material de Réquiem.",
+              "Usa Réquiem y el retorno de Grabador para reunir los cuerpos exigidos por Secuencia.",
+              "Fusiona mediante Secuencia con los materiales del Cementerio indicados; conserva la Normal para otro motor."
+            ],
+            "expected_result": "Lácrima del Demoniherrero con Equipos y reducción de ATK según la ruta; no es una Fusión Tiagrimientos adicional automática.",
+            "resources_to_keep": "La Normal y las zonas de Magias/Trampas necesarias para los Equipos.",
+            "alternative": "Si la apertura Demoniherrero se interrumpe, vuelve a Reinoheart solo cuando esté disponible y pueda resolver.",
+            "related_route_ids": [
+              "656:A09:ENGRAVER:LACRIMA01"
+            ]
+          },
+          {
+            "id": "weak_hand",
+            "title": "Mano débil: elegir una fuente no aleatoria",
+            "objective": "Reconocer cuándo un envío dirigido es mejor que depender de cartas desconocidas del Deck.",
+            "situation": "Reinoheart, Grabador o Bienes del Entierro Insensato disponibles, sin asumir el contenido de las cartas superiores.",
+            "card_cids": [
+              17417,
+              17415,
+              20196,
+              12800,
+              18219,
+              17813
+            ],
+            "actions": [
+              "Con Reinoheart, envía un Tiagrimientos específico y comprueba si los materiales de Fusión ya existen.",
+              "Con Bienes, considera enviar Trivikarma para acceder a Grito en lugar de confiar en un envío aleatorio.",
+              "Con Grabador, usa el motor Demoniherrero si sus piezas siguen disponibles y no hay restricción incompatible."
+            ],
+            "expected_result": "Una preparación concreta o una Fusión según los recursos confirmados; los envíos aleatorios no prometen nombres.",
+            "resources_to_keep": "La Normal hasta elegir Reinoheart y un recurso de mano para la continuación.",
+            "alternative": "Si solo quedan Reinoheart y Scheiren como cuerpos Nivel 4, considera Redoer si su línea es legal, sin forzar una Fusión.",
+            "related_route_ids": [
+              "656:A09:V11:GOODS:TRIVIKARMA:SCREAM:REINO",
+              "656:A09:ENGRAVER:LACRIMA01",
+              "656:A09:V11:REINO:SCHEIREN:REDOER"
+            ]
+          },
+          {
+            "id": "disruption",
+            "title": "Interrupción: no contar un disparo que no existe",
+            "objective": "Preservar el motor restante cuando el rival niega el envío o retira un material.",
+            "situation": "La búsqueda, el envío al Cementerio o una Fusión recibe una respuesta del rival.",
+            "card_cids": [
+              17417,
+              17416,
+              17415,
+              17414,
+              7445,
+              17768,
+              19188
+            ],
+            "actions": [
+              "Si Reinoheart es negado, no cuentes el Tiagrimientos que pretendías enviar como carta del Cementerio.",
+              "Si un material de Fusión cambia de zona, vuelve a comprobar el requisito y los nombres permitidos antes de resolver.",
+              "Si tienes Fenrir y Reinoheart disponibles como cuerpos y no puedes desarrollar la Fusión, considera S:P; conserva Fenrir si su interacción resulta mejor."
+            ],
+            "expected_result": "Una continuación con recursos existentes o un campo reducido; no se afirma una Fusión desde materiales ausentes.",
+            "resources_to_keep": "Una carta de Fusión o interacción de mano y los efectos por nombre no utilizados.",
+            "alternative": "Cuando el rival tenga materiales adecuados, Súper Polimerización puede abrir otra línea si tienes su coste.",
+            "related_route_ids": [
+              "656:A09:FENRIR:REINO:SP_DIRECTA11",
+              "656:A09:SUPERPOLY:GARURA10"
+            ]
+          },
+          {
+            "id": "win_condition",
+            "title": "Ganar: reciclar y presionar",
+            "objective": "Convertir la ventaja de recursos en ataques y retirar la amenaza que bloquea el daño.",
+            "situation": "Kaleido-Heart, Lácrima del Demoniherrero o una Fusión de Súper Polimerización permanece en Campo.",
+            "card_cids": [
+              17445,
+              20214,
+              17746,
+              7445
+            ],
+            "actions": [
+              "Usa la retirada de Kaleido-Heart en su ventana y solo contra una carta elegible.",
+              "Si tienes Garura, calcula su daño doble únicamente cuando realmente inflija daño de batalla.",
+              "Combina los ataques disponibles después de comprobar defensas y LP, conservando material para una siguiente Fusión si no es letal."
+            ],
+            "expected_result": "Daño de batalla y ventaja por reciclaje; no se garantiza victoria por haber Invocado una Fusión.",
+            "resources_to_keep": "Un iniciador y materiales que aún puedan regresar al Deck en un turno posterior.",
+            "alternative": "Si conviene controlar en lugar de atacar, conserva tu Fusión y utiliza una interacción de mano según el estado.",
+            "related_route_ids": [
+              "656:A09:REINO:SCHEIREN:KALEIDO01",
+              "656:A09:SUPERPOLY:GARURA10",
+              "656:A09:ENGRAVER:LACRIMA01"
+            ]
+          },
+          {
+            "id": "common_errors",
+            "title": "Errores: envíos, costes y materiales",
+            "objective": "Evitar activar efectos Tiagrimientos cuando el evento de envío no es el requerido.",
+            "situation": "Se usan Scheiren, Sarcófago, Amset, efectos que descartan o Súper Polimerización.",
+            "card_cids": [
+              17415,
+              17416,
+              17414,
+              19200,
+              19153,
+              18153,
+              7445
+            ],
+            "actions": [
+              "Diferencia enviar al Cementerio por efecto de enviar como coste; los disparos de Fusión requieren el evento indicado por cada carta.",
+              "No atribuyas identidades concretas a las cartas enviadas por Vampiro Zombi o por la parte aleatoria de Scheiren.",
+              "Cuando los Horus estén acoplados a un Xyz, no los cuentes al mismo tiempo como monstruos disponibles en Cementerio."
+            ],
+            "expected_result": "Estado coherente de Cementerio, materiales y efectos; solo se activan disparos que realmente ocurrieron.",
+            "resources_to_keep": "Un efecto de Fusión no usado y los Horus o recursos que siguen en sus zonas.",
+            "alternative": "Si faltan los materiales de Kaleido-Heart, elige una salida alternativa documentada con los cuerpos reales.",
+            "related_route_ids": [
+              "656:A09:SARC:IMSETY_HAPI:ZOMBIE01",
+              "656:A09:V11:REINO:SCHEIREN:REDOER"
+            ]
+          }
+        ]
+      }
     }
   },
   "provenance": {

@@ -1,5 +1,7 @@
 # A01 — verificación individual Volcanic (687)
 
+> **ESTADO VIGENTE: A01 REABIERTO — revisión funcional 2.** Los checks históricos inferiores conservan su valor de prueba técnica anterior, no certifican el nuevo estándar. Revalidar T1–T5 individualmente: diagnóstico, ocho lecciones prácticas, evidencia por lección, revisión semántica y lectura completa en navegador real. No cerrar por longitud, paridad o importación.
+
 23-11-2026. TCG Advanced. Main 42 / Extra 15 / Side 0 / Reserva 14; 36 identidades y 22 registros de ruta. Inventario inalterado. Reserva no equivale a Side; no se evalúa banlist.
 
 Fuentes versionadas: Markdown blob `1fe95f73d986fb121de807b4c7e89e114ced1213`; JSON blob `c3413476e76821a4dc225519505aec8d8e2e3f13`.
@@ -28,3 +30,237 @@ CID, zonas, rutas y enlaces de fuentes cotejados con el registro exacto. Las ref
 - [x] T5: misma CI, job 138042292852, commit Platform `c8e38d72bdcfc3bbc2826d2f6056e4b99d9f1b7e`: ISOLATED_PASS de importación/exportación/reimportación, 36 fotografías, 22 registros de ruta, ocho rechazos e inventario conservado. PASS de presentación a 390 y 1280 px. Job finalizado exitosamente.
 
 Resultado: **5/5 acreditadas en entorno aislado**. Cero importaciones en producción. No iniciar A02.
+
+## Revisión funcional 2 — ocho lecciones propuestas
+
+Redacción individual basada en inventario y aperturas/resultados del paquete real, con condiciones y alternativas. No se modifica ningún efecto ni ruta; enlaces oficiales para cotejo. El nuevo cierre queda pendiente de la aplicación del contrato, verificación semántica completa y prueba real de interfaz.
+
+- first: cartas [Volcanic Trooper — Soldado Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2), [Volcanic Rocket — Misil Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2), [Volcanic Blaze Accelerator — Acelerador de Llama Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2), [Blaze Accelerator Reload — Recarga del Acelerador de Llama](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2), [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2), [Volcanic Inferno — Infierno Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2), [I:P Masquerena — I:P Enmascarada](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2); rutas fuente `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_IP01`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`.
+- second: cartas [Volcanic Trooper — Soldado Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2), [Volcanic Rocket — Misil Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2), [Volcanic Blaze Accelerator — Acelerador de Llama Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2), [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Knightmare Phoenix — Caballero de Pesadilla Fénix](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2), [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2), [Volcanic Inferno — Infierno Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2); rutas fuente `687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02`.
+- mid: cartas [Volcanic Blaze Accelerator — Acelerador de Llama Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2), [Volcanic Rimfire — Percusión Anular Volcánica](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2), [Volcanic Shell — Cartucho Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2), [Blaze Accelerator — Acelerador de Llama](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2), [Blaze Accelerator Reload — Recarga del Acelerador de Llama](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2); rutas fuente `687:A09:BLAZE:RIMFIRE:RELOAD01`, `687:A09:BLAZE:SHELL:RESOURCE01`.
+- late: cartas [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2), [I:P Masquerena — I:P Enmascarada](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2), [Knightmare Unicorn — Caballero de Pesadilla Unicornio](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2), [S:P Little Knight — S:P Pequeña Caballera](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2), [Forbidden Droplet — Gotas Prohibidas](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2); rutas fuente `687:A09:IP:EMPEROR:UNICORN14`, `687:A09:IP:EMPEROR:SP_DEFENSA16`.
+- weak_hand: cartas [Fire Ejection — Eyección de Fuego](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2), [Volcanic Rimfire — Percusión Anular Volcánica](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2), [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Volcanic Shell — Cartucho Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2), [Linkuriboh — Enlacekuriboh](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2); rutas fuente `687:A09:EJECTION:RIMFIRE:SCATTERSHOT`, `687:A09:SHELL:LINKURIBOH:DEFENSA15`.
+- disruption: cartas [Forbidden Droplet — Gotas Prohibidas](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2), [Blaze Accelerator Reload — Recarga del Acelerador de Llama](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2), [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Fire Ejection — Eyección de Fuego](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2), [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2); rutas fuente `687:A09:DROPLET:RELOAD:SCATTERSHOT01`, `687:A09:VBA:EJECTION:EMPEROR01`.
+- win_condition: cartas [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2), [Fire Ejection — Eyección de Fuego](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2), [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Volcanic Emission — Emisión Volcánica](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2), [Volcanic Inferno — Infierno Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2); rutas fuente `687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01`, `687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06`.
+- common_errors: cartas [Volcanic Scattershot — Disparo Disperso Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2), [Blaze Accelerator Reload — Recarga del Acelerador de Llama](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2), [Gozen Match — Emparejamiento de Atributos](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2), [Promethean Princess, Bestower of Flames — Princesa Prometea](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2), [Volcanic Emperor — Emperador Volcánico](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2), [I:P Masquerena — I:P Enmascarada](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2); rutas fuente `687:A09:DROPLET:RELOAD:SCATTERSHOT01`, `687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04`, `687:A09:TROOPER:ROCKET:SHELL:PRINCESS17`.
+
+<!-- A01_ESTRATEGIA_REVISADA -->
+```json
+{
+  "schema": "station-x-player-strategy/1",
+  "sections": [
+    {
+      "id": "first",
+      "title": "Primero: preparar Inferno y conservar munición",
+      "objective": "Dejar una respuesta concreta a un efecto de monstruo del rival sin necesitar que ya controle uno.",
+      "situation": "Soldado Volcánico (Trooper) y Eyección de Fuego en mano; quedan Infierno Volcánico (Inferno) y al menos dos Cartuchos Volcánicos (Shell) en Deck.",
+      "card_cids": [
+        18916,
+        18919,
+        7082,
+        18921,
+        18915,
+        18918,
+        7086,
+        14338
+      ],
+      "actions": [
+        "Invoca Normalmente Soldado Volcánico y añade Infierno Volcánico del Deck; Coloca la Trampa.",
+        "Activa Eyección de Fuego para enviar Cartucho Volcánico de Nivel 1 desde Deck al Cementerio; aplica su daño según el Nivel. Con Cartucho en Cementerio, paga 500 LP para buscar otra copia si queda disponible.",
+        "En turno rival, cuando active el efecto de un monstruo en Campo, usa Infierno en su ventana legal: destierra Cartucho del Cementerio, inflige 500 LP y puedes negar ese efecto porque desterraste un Volcánico."
+      ],
+      "expected_result": "Soldado en Campo, Infierno preparada y otra copia de Cartucho en mano si la búsqueda resolvió. En la End Phase rival, Infierno puede devolver hasta dos Volcánicos desterrados o en Cementerio al fondo del Deck.",
+      "resources_to_keep": "Un monstruo Volcánico en Cementerio para pagar Infierno; no basta con cualquier Piro si deseas negar el efecto.",
+      "alternative": "Con Acelerador de Llama Volcánico además de Soldado y Eyección, envía el Acelerador original del Deck al Cementerio, envía Emperador con Eyección y destierra el Acelerador original para Invocar Emperador. Convierte Soldado en Almiraj si quieres dejarlo como munición de Infierno.",
+      "related_route_ids": [
+        "687:A09:V11:TROOPER:EJECTION:SHELL:INFERNO",
+        "687:A09:SITUACION:GO_FIRST:TROOPER_VBA_EJECTION_INFERNO05"
+      ]
+    },
+    {
+      "id": "second",
+      "title": "Segundo: limpiar y retirar Magias/Trampas",
+      "objective": "Romper un campo enemigo antes de atacar con Emperador.",
+      "situation": "Trooper y Rocket en mano; el rival controla un monstruo y una Magia/Trampa elegibles; Phoenix y Emperador disponibles.",
+      "card_cids": [
+        18916,
+        7243,
+        18918,
+        7083,
+        13600,
+        18915,
+        18921
+      ],
+      "actions": [
+        "Con Soldado y Misil Volcánico en mano, Invoca Normalmente Soldado, busca Acelerador de Llama Volcánico y actívalo enviando el Acelerador original al Cementerio.",
+        "Usa el Acelerador Volcánico para Invocar Misil desde mano y buscar Recarga. Si hay un objetivo boca arriba, usa el otro efecto del Acelerador para enviar Percusión Anular de Nivel 1 y destruir ese monstruo.",
+        "Enlaza Soldado + Misil en Caballero de Pesadilla Fénix; descarta Recarga y selecciona una Magia/Trampa rival para destruirla. Recarga en Cementerio permite preparar la interacción de Disparo Disperso si están las tres copias; solo Invoca Emperador si se encuentra en mano o Cementerio y puedes pagar su procedimiento."
+      ],
+      "expected_result": "Fénix y retirada de una Magia/Trampa si resuelve; el barrido de Disparo Disperso y la Invocación de Emperador son extensiones condicionadas a sus recursos, no consecuencias automáticas.",
+      "resources_to_keep": "VBA e Inferno para el siguiente turno y cualquier Piro que aún pueda pagar su coste.",
+      "alternative": "Si no hay Magia/Trampa que justifique Phoenix, conserva los cuerpos o elige una retirada diferente.",
+      "related_route_ids": [
+        "687:A09:SITUACION:GO_SECOND:TROOPER_ROCKET_PHOENIX02"
+      ]
+    },
+    {
+      "id": "mid",
+      "title": "Juego medio: elegir la munición",
+      "objective": "Decidir entre recuperar Cartucho o preparar Reload sin gastar el mismo efecto dos veces.",
+      "situation": "VBA activo y una copia de Rimfire o Shell disponible en Deck según la variante; rival con objetivo destruible.",
+      "card_cids": [
+        18918,
+        18917,
+        7082,
+        7086,
+        11597
+      ],
+      "actions": [
+        "Cuando VBA pueda usar su efecto, elige Rimfire para preparar Reload o Shell para conservar recursos de mano.",
+        "Con Percusión Anular (Rimfire) en Cementerio, destierra un Acelerador de Llama de Campo boca arriba o Cementerio para poner Recarga boca arriba desde mano o Deck; no la mandes al Cementerio por este efecto.",
+        "Con Shell en Cementerio, paga los 500 LP solo si necesitas otra copia de Deck y puedes asumir ese coste."
+      ],
+      "expected_result": "Reload preparado o una Shell recuperada, además de la retirada del monstruo si resolvió; no ambos resultados del mismo uso de VBA.",
+      "resources_to_keep": "La copia de munición de Deck y los LP que exige Shell.",
+      "alternative": "Si no hay objetivo rival para el Acelerador, conserva su activación y prepara una línea de Fire Ejection.",
+      "related_route_ids": [
+        "687:A09:BLAZE:RIMFIRE:RELOAD01",
+        "687:A09:BLAZE:SHELL:RESOURCE01"
+      ]
+    },
+    {
+      "id": "late",
+      "title": "Juego tardío: Emperador o retirada puntual",
+      "objective": "Conservar la presión de daño de Emperador salvo que una amenaza deba retirarse inmediatamente.",
+      "situation": "Emperador e I:P permanecen en Campo y tienes recursos para la alternativa de Enlace.",
+      "card_cids": [
+        18915,
+        14676,
+        13601,
+        19188,
+        15299
+      ],
+      "actions": [
+        "Si Emperador está infligiendo presión al rival, evita convertirlo en material sin una razón concreta.",
+        "Con una carta de mano para el coste de Unicornio, evalúa I:P y Emperador para devolver una carta rival al Deck.",
+        "Si necesitas una respuesta de destierro temporal, considera S:P mediante I:P, respetando sus materiales y objetivos."
+      ],
+      "expected_result": "Emperador conservado para daño o una retirada puntual con Unicornio o S:P; no quedan los jefes simultáneamente.",
+      "resources_to_keep": "Un Piro de recuperación y recursos de mano suficientes para el coste de la salida elegida.",
+      "alternative": "Si no hay objetivo que justifique sacrificar Emperador, mantén la presión y prepara Inferno.",
+      "related_route_ids": [
+        "687:A09:IP:EMPEROR:UNICORN14",
+        "687:A09:IP:EMPEROR:SP_DEFENSA16"
+      ]
+    },
+    {
+      "id": "weak_hand",
+      "title": "Mano débil: Ejection o Shell",
+      "objective": "Obtener una ventaja concreta incluso cuando no puedes construir el campo completo.",
+      "situation": "Fire Ejection en mano con Rimfire y Scattershot en Deck, o Shell con otra copia y Linkuriboh disponible.",
+      "card_cids": [
+        18919,
+        18917,
+        7083,
+        7082,
+        13346
+      ],
+      "actions": [
+        "Con Ejection sola, envía Rimfire y usa su efecto posterior para preparar el Scattershot de la interacción documentada.",
+        "Aplica únicamente el daño de los efectos que se resuelvan; esta apertura no cumple el barrido de tres Scattershot.",
+        "Con Shell, utiliza la Normal hacia Linkuriboh y recupera otra copia por 500 LP si sigue disponible."
+      ],
+      "expected_result": "Hasta 600 LP en la línea breve de Ejection, o Linkuriboh con otra Shell y una defensa de batalla condicionada.",
+      "resources_to_keep": "La Normal en la apertura de Ejection y una Shell para la siguiente acción.",
+      "alternative": "Si no puedes pagar Shell o no queda otra copia, conserva tus LP y no declares un recurso de mano inexistente.",
+      "related_route_ids": [
+        "687:A09:EJECTION:RIMFIRE:SCATTERSHOT",
+        "687:A09:SHELL:LINKURIBOH:DEFENSA15"
+      ]
+    },
+    {
+      "id": "disruption",
+      "title": "Interrupción: Reload desde el Cementerio",
+      "objective": "Distinguir una negación que deja combustible disponible de una línea completamente cortada.",
+      "situation": "Gotas Prohibidas y Reload en mano, tres Scattershot disponibles en Deck y condiciones legales para activar Gotas.",
+      "card_cids": [
+        15299,
+        11597,
+        7083,
+        18919,
+        18915
+      ],
+      "actions": [
+        "Si puedes activar Gotas legalmente, envía Reload como parte del coste correspondiente.",
+        "En la ventana válida, destierra Reload desde Cementerio para enviar Scattershot mediante su efecto de Acelerador.",
+        "Resuelve la parte que permite enviar las otras dos Scattershot solo si siguen disponibles y se cumple el evento exigido."
+      ],
+      "expected_result": "Barrido de monstruos destruibles y 1500 LP de daño si resuelve la línea completa; no requiere activar una Trampa recién colocada.",
+      "resources_to_keep": "Las tres Scattershot y una copia de Emperador para una continuación que realmente lo habilite.",
+      "alternative": "Si falta una Scattershot, no prometas barrido; valora la línea directa de VBA y Fire Ejection hacia Emperador.",
+      "related_route_ids": [
+        "687:A09:DROPLET:RELOAD:SCATTERSHOT01",
+        "687:A09:VBA:EJECTION:EMPEROR01"
+      ]
+    },
+    {
+      "id": "win_condition",
+      "title": "Ganar: combinar daño directo y batalla",
+      "objective": "Reducir los LP mediante munición y Emperador sin suponer una cantidad de Invocaciones del rival.",
+      "situation": "Emperador en Campo o disponible mediante una ruta de Ejection; conoces LP, amenazas y el número real de Invocaciones Especiales.",
+      "card_cids": [
+        18915,
+        18919,
+        7083,
+        18920,
+        18921
+      ],
+      "actions": [
+        "Contabiliza el daño real de Scattershot y Ejection conforme a la carta enviada y al efecto resuelto.",
+        "Emperador causa 500 LP por cada Piro desterrado para su procedimiento (si eliges ese efecto), y luego 500 LP por cada evento de Invocación Especial rival, aunque ese evento invoque varios monstruos.",
+        "Decide si Emission permite una amenaza temporal adicional en el turno rival, o si Inferno es más útil para proteger el campo."
+      ],
+      "expected_result": "Presión de daño directo y 3100 ATK de Emperador; el letal requiere sumar únicamente eventos reales.",
+      "resources_to_keep": "Emperador y un Piro para Inferno si la partida no termina.",
+      "alternative": "Si el rival evita Invocaciones Especiales o retira Emperador, continúa con Acelerador y munición disponible.",
+      "related_route_ids": [
+        "687:A09:DROPLET:RELOAD:EJECTION:EMPEROR01",
+        "687:A09:SITUACION:OPPONENT_TURN:TROOPER_VBA_EJECTION_EMISSION06"
+      ]
+    },
+    {
+      "id": "common_errors",
+      "title": "Errores: tres Scattershot y restricciones de FUEGO",
+      "objective": "Evitar declarar limpieza, daño o un campo de Enlace que no permiten los recursos.",
+      "situation": "Estás utilizando Scattershot, Reload, Gozen o Princesa Prometea.",
+      "card_cids": [
+        7083,
+        11597,
+        7934,
+        19507,
+        18915,
+        14676
+      ],
+      "actions": [
+        "El barrido de Scattershot requiere el envío correspondiente por un Acelerador y otras dos copias disponibles.",
+        "Infierno recién Colocada debe esperar una ventana legal. Su efecto solo responde a monstruos en Campo: destierra un Piro del Cementerio, causa 500 LP y solo puede negar si el Piro desterrado era Volcánico.",
+        "Con Gozen o el límite de FUEGO de Princesa, revisa Atributos de I:P, S:P y las siguientes Invocaciones."
+      ],
+      "expected_result": "Daño, destrucción y Enlaces únicamente cuando las condiciones de cada efecto y restricción se cumplen.",
+      "resources_to_keep": "Munición suficiente y una respuesta que sea compatible con tus propios bloqueos.",
+      "alternative": "Si necesitas Gozen, usa la salida de Hiita FUEGO documentada en lugar del campo con I:P.",
+      "related_route_ids": [
+        "687:A09:DROPLET:RELOAD:SCATTERSHOT01",
+        "687:A09:SITUACION:GO_FIRST:TROOPER_ROCKET_GOZEN04",
+        "687:A09:TROOPER:ROCKET:SHELL:PRINCESS17"
+      ]
+    }
+  ]
+}
+```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+El primer turno se reemplazó por la apertura concreta Trooper + Fire Ejection que no presupone monstruos rivales ni obliga a pasar Reload a Cementerio sin explicación. La línea alternativa con Emperador requiere VBA y el Acelerador original disponible. Se detallaron los costes de Inferno, su negación solo al desterrar un Volcánico, y su reciclaje. Textos oficiales 18916, 18918, 18915, 18917, 18921 cotejados. Las rutas anteriores I:P/Phoenix requieren revisar sus pasos completos de ficha bomba, extensión de Rocket y destino de Reload antes de una certificación de ruta; no se alteran A09 ni las rutas existentes.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

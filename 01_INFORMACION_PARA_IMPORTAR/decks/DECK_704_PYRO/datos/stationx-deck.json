@@ -7263,14 +7263,14 @@
       }
     ],
     "profile": {
-      "Arquetipo": "Pyro/FUEGO de Rush Duel con Skill Alchemy Blaze y Fusiones nombradas.",
-      "Tipo de estrategia": "Combo-Midrange de Piro/FUEGO: acceso a materiales, Fusión y presión de combate.",
+      "Arquetipo": "Piro FUEGO / Alchemy Blaze",
+      "Tipo de estrategia": "Fusión y presión de batalla en Rush Duel",
       "Estilo de juego": "despliegue de cuerpos, preparación de materiales y presión de combate.",
-      "Cómo se juega": "Primero: desarrollar monstruos Piro/FUEGO y conservar Fusión/materiales sin prometer la Skill antes del turno 2. Segundo: si el rival controla monstruo, Hiperasistente Ember puede traer un Piro Nivel 7+ de la mano pagando su envío del Campo al Cementerio; después elegir materiales exactos para la Fusión. Medio/tardío: reusar materiales mediante Alchemy Blaze si todos los monstruos del Deck son FUEGO/Piro con DEF ≥100 y existe una carta revelable en mano. No usar materiales directamente desde la mano con la Mágica Fusión documentada.",
+      "Cómo se juega": "Primero: preparar materiales sin Skill anticipada. Elige la pareja de materiales de acuerdo con el destino que conservas en Extra: Cromatográfagas + Superasistente para Arquero, o Salamandra Quimicalizada + Superasistente para Salamandra Alquimicalizada. Si no reúnes la pareja legal, conserva Fusión y utiliza una defensa disponible como Gelatina Defensiva en su ventana correspondiente. Reserva Alchemy Blaze hasta turno 2 o posterior y revisa los requisitos de construcción, revelación y cartas disponibles en Deck. Preparación defensiva y recursos para el próximo turno. No hay una apertura autónoma de primer turno certificada en las tres rutas actuales. Segundo: Arquero con Orden Secreta. Aplica Alchemy Blaze únicamente si la Skill local está habilitada, el turno y la construcción son válidos y su resolución coloca Cromatográfagas en Cementerio y permite disponer de Superasistente y Fusión. Comprueba esos resultados antes de continuar. Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano. Activa Fusión con Cromatográfagas y Superasistente boca arriba para Invocar Arquero Ígneo Supergráfagas. Aplica su aumento de ATK solo si se cumplen sus condiciones; 5500 corresponde al escenario enlazado. Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático. Juego medio: retirar las Magias y Trampas. Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos. Invoca Hiperasistente con un monstruo rival presente. Envía Hiperasistente boca arriba al Cementerio como coste y desarrolla Salamandra Quimicalizada únicamente si su efecto resuelve. Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas. Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas. Juego tardío: presión sin consumir la Skill. Invoca Hiperasistente y usa su efecto legal para desarrollar Salamandra Quimicalizada. No sumes 800 ATK si Superasistente no está en Cementerio. Activa ¡Atraviesa! sobre Salamandra y calcula el daño contra la DEF real. Salamandra con penetración hasta el final del turno, sin prometer un daño determinado.",
       "Cartas representativas": "Germalewe, Ember, Chemicalized Salamander y la habilidad Alchemy Blaze.",
-      "Qué vigilar": "Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-      "Estilo breve": "Alinea Piro/FUEGO y materiales boca arriba para Fusión; Alchemy Blaze busca recursos desde el turno 2 si se cumple el requisito de DEF. Salamandra y Arquero son salidas distintas.",
-      "Resumen para ficha": "Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado."
+      "Qué vigilar": "Alchemy Blaze exige turno 2+, construcción y revelación válidas. Fusión usa materiales boca arriba; Salamandra Alquimicalizada destruye también tu apoyo.",
+      "Estilo breve": "Reúne materiales Piro para Arquero o Salamandra; usa Alchemy Blaze solo con la condición local y el turno permitido, y elige ataque o limpieza.",
+      "Resumen para ficha": "Cromatográfagas y Superasistente habilitan Arquero; Salamandra Quimicalizada y Superasistente habilitan Alquimicalizada. Hiperasistente prepara una alternativa sin Skill."
     },
     "summary": [
       {
@@ -11546,67 +11546,273 @@
       "featured_cards": [
         {
           "cid": 18583,
-          "role": "Pieza del motor: Cromatográfagas",
-          "reason": "En esta lista, Cromatográfagas cumple esta función documentada: Jefe Normal Nivel7 susceptible a soporte Pyro.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Cromatográfagas disponible en su zona válida y recursos para aprovechar Jefe Normal Nivel7 susceptible a soporte Pyro. sin gastar materiales inexistentes.",
+          "role": "Monstruo Normal de Nivel siete y material",
+          "reason": "Es el material nombrado de Arquero Ígneo Supergráfagas y puede aprovechar Orden Secreta; no tiene un efecto activado propio.",
+          "when_to_use": "Úsalo cuando puedas colocarlo boca arriba y reunir Superasistente y Fusión; reserva la Skill para el turno y condición permitidos.",
           "related_cids": []
         },
         {
           "cid": 17963,
-          "role": "Pieza del motor: Superasistente Ember",
-          "reason": "En esta lista, Superasistente Ember cumple esta función documentada: Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra. ALCHEMY BLAZE, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Superasistente Ember disponible en su zona válida y recursos para aprovechar Monstruo Normal — material de Fusión/Sacrificio o presencia de combate; sin efecto activado. Monstruo Normal de Nivel 1, material nombrado de dos Fusiones del Extra. ALCHEMY BLAZE, desde turno 2 y si se cumple el predicado de Pyro/FUEGO/DEF, puede recuperar dos piezas aptas; luego obliga a enviar una carta de mano. sin gastar materiales inexistentes.",
+          "role": "Material Normal de Nivel uno compartido",
+          "reason": "Es el segundo nombre requerido por Arquero y Salamandra Alquimicalizada; su presencia en Cementerio también puede habilitar la mejora de Hiperasistente.",
+          "when_to_use": "Conserva una copia accesible cuando vayas a fusionar; no la gastes como Tributo si necesitas ambos materiales en Campo.",
           "related_cids": []
         },
         {
           "cid": 16934,
-          "role": "Pieza del motor: Fusión",
-          "reason": "En esta lista, Fusión cumple esta función documentada: Habilitador de Fusion condicionado por disponibilidad de campo.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Fusión disponible en su zona válida y recursos para aprovechar Habilitador de Fusion condicionado por disponibilidad de campo. sin gastar materiales inexistentes.",
+          "role": "Magia de acceso a Fusiones Piro",
+          "reason": "Utiliza los materiales nombrados que controlas boca arriba para Invocar el destino correspondiente del Extra; las Normales múltiples de Rush ayudan a reunirlos.",
+          "when_to_use": "Actívala solo después de comprobar la pareja correcta: Cromatográfagas o Salamandra Quimicalizada junto con Superasistente.",
           "related_cids": []
         },
         {
           "cid": 18614,
-          "role": "Pieza del motor: Salamandra Alquimicalizada",
-          "reason": "En esta lista, Salamandra Alquimicalizada cumple esta función documentada: Limpieza bilateral de backrow y debilitamiento condicional.. Solo aporta esa ventaja cuando la acción es legal y se resuelven sus requisitos.",
-          "when_to_use": "Cuando tengas Salamandra Alquimicalizada disponible en su zona válida y recursos para aprovechar Limpieza bilateral de backrow y debilitamiento condicional. sin gastar materiales inexistentes.",
+          "role": "Fusión de limpieza y debilitamiento",
+          "reason": "Puede destruir Magias y Trampas de ambos Campos y reducir ATK rival según las Magias realmente destruidas; su salida es distinta de la ofensiva de Arquero.",
+          "when_to_use": "Úsala cuando el obstáculo sea el apoyo rival y puedas asumir perder tus propias Magias y Trampas.",
           "related_cids": []
         }
       ],
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: PYRO",
-          "plan": "Ir primero: prepara materiales Piro boca arriba y conserva la Mágica Fusión para cuando existan sus objetivos. Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "risks": "Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
+          "title": "Primero: preparar materiales sin Skill anticipada",
+          "plan": "Elige la pareja de materiales de acuerdo con el destino que conservas en Extra: Cromatográfagas + Superasistente para Arquero, o Salamandra Quimicalizada + Superasistente para Salamandra Alquimicalizada. Si no reúnes la pareja legal, conserva Fusión y utiliza una defensa disponible como Gelatina Defensiva en su ventana correspondiente. Reserva Alchemy Blaze hasta turno 2 o posterior y revisa los requisitos de construcción, revelación y cartas disponibles en Deck. Preparación defensiva y recursos para el próximo turno. No hay una apertura autónoma de primer turno certificada en las tres rutas actuales.",
+          "preconditions": "Primer turno del duelo, Fusión en mano y materiales Piro accesibles; Alchemy Blaze aún no está disponible. Comprueba si puedes reunir Cromatográfagas + Superasistente Ember o Salamandra Quimicalizada + Superasistente Ember boca arriba.",
+          "risks": "Conserva Hiperasistente para un turno con monstruo rival, cuando pueda desarrollar Salamandra Quimicalizada sin Skill.",
           "related_route_ids": []
         },
         {
           "id": "second",
-          "title": "Ir segundo: PYRO",
-          "plan": "Ir segundo: usa extensores para reunir los nombres correctos y escoge entre Arquero y Salamandra según las amenazas rivales. Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "risks": "Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "related_route_ids": []
+          "title": "Segundo: Arquero con Orden Secreta",
+          "plan": "Aplica Alchemy Blaze únicamente si la Skill local está habilitada, el turno y la construcción son válidos y su resolución coloca Cromatográfagas en Cementerio y permite disponer de Superasistente y Fusión. Comprueba esos resultados antes de continuar. Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano. Activa Fusión con Cromatográfagas y Superasistente boca arriba para Invocar Arquero Ígneo Supergráfagas. Aplica su aumento de ATK solo si se cumplen sus condiciones; 5500 corresponde al escenario enlazado. Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático.",
+          "preconditions": "Turno 2 o posterior, Cromatográfagas y Orden Secreta en mano; Skill disponible; Superasistente y Fusión en Deck.",
+          "risks": "Si Orden Secreta o un material falla, no anuncies Arquero; considera una salida Piro independiente.",
+          "related_route_ids": [
+            "704:A09:ALCHEMY:ARCHER01"
+          ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: PYRO",
-          "plan": "Juego medio: administra los materiales de Cementerio y aprovecha Alchemy Blaze a partir del turno permitido. Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "risks": "Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "related_route_ids": []
+          "title": "Juego medio: retirar las Magias y Trampas",
+          "plan": "Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos. Invoca Hiperasistente con un monstruo rival presente. Envía Hiperasistente boca arriba al Cementerio como coste y desarrolla Salamandra Quimicalizada únicamente si su efecto resuelve. Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas. Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas.",
+          "preconditions": "Salamandra Quimicalizada, Hiperasistente y una carta para el descarte de Skill; turno permitido y monstruo rival.",
+          "risks": "Si perder tus propias defensas es perjudicial, conserva la Fusión para otro momento.",
+          "related_route_ids": [
+            "704:A09:ALCHEMY:SALAMANDRA02"
+          ]
         },
         {
           "id": "late",
-          "title": "Juego tardío: PYRO",
-          "plan": "Juego tardío: mantén una vía de Fusión legal y evalúa si conviene limpiar Magias y Trampas propias y rivales. Reúne Chromatographagas/Ember o Chemicalized Salamander/Ember y Fusión para llegar a Arquero o Salamandra. Alchemy Blaze ayuda desde el turno 2 con mano y Deck elegibles; cada Fusión exige materiales en el Campo y un efecto propio condicionado. Antes de cada paso revisa los recursos que realmente tienes, las cartas ya utilizadas y las restricciones que cambian qué puedes Invocar o activar. Si una pieza es negada, no continúes como si el resultado hubiera ocurrido.",
-          "preconditions": "Confirmar piezas del Main y Extra en sus zonas reales, ventanas legales, cartas objetivo y recursos exigidos; Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "risks": "Alchemy Blaze exige turno 2+, revelar Chemicalized Salamander, Chromatographagas o Ember y que todos los monstruos del Deck sean Piro/FUEGO con DEF ≥100. Fusión usa monstruos boca arriba del Campo. Alchemicalize Salamandra destruye M/T propias y rivales y su rebaja de ATK depende de Magias realmente destruidas.",
-          "related_route_ids": []
+          "title": "Juego tardío: presión sin consumir la Skill",
+          "plan": "Invoca Hiperasistente y usa su efecto legal para desarrollar Salamandra Quimicalizada. No sumes 800 ATK si Superasistente no está en Cementerio. Activa ¡Atraviesa! sobre Salamandra y calcula el daño contra la DEF real. Salamandra con penetración hasta el final del turno, sin prometer un daño determinado.",
+          "preconditions": "Hiperasistente y ¡Atraviesa! disponibles, Salamandra accesible; rival con monstruo en Defensa elegible.",
+          "risks": "Si no existe un combate favorable, conserva Salamandra y la Magia para una oportunidad posterior.",
+          "related_route_ids": [
+            "704:A09:V11:HYPER:CHEMICALIZED:PIERCE"
+          ]
         }
-      ]
+      ],
+      "strategy": {
+        "schema": "station-x-player-strategy/1",
+        "sections": [
+          {
+            "id": "first",
+            "title": "Primero: preparar materiales sin Skill anticipada",
+            "objective": "Organizar una Fusión futura sin activar Alchemy Blaze antes del turno permitido.",
+            "situation": "Primer turno del duelo, Fusión en mano y materiales Piro accesibles; Alchemy Blaze aún no está disponible. Comprueba si puedes reunir Cromatográfagas + Superasistente Ember o Salamandra Quimicalizada + Superasistente Ember boca arriba.",
+            "card_cids": [
+              18583,
+              17963,
+              16934,
+              17868,
+              19990,
+              18614,
+              18646,
+              19291
+            ],
+            "actions": [
+              "Elige la pareja de materiales de acuerdo con el destino que conservas en Extra: Cromatográfagas + Superasistente para Arquero, o Salamandra Quimicalizada + Superasistente para Salamandra Alquimicalizada.",
+              "Si no reúnes la pareja legal, conserva Fusión y utiliza una defensa disponible como Gelatina Defensiva en su ventana correspondiente.",
+              "Reserva Alchemy Blaze hasta turno 2 o posterior y revisa los requisitos de construcción, revelación y cartas disponibles en Deck."
+            ],
+            "expected_result": "Preparación defensiva y recursos para el próximo turno. No hay una apertura autónoma de primer turno certificada en las tres rutas actuales.",
+            "resources_to_keep": "Fusión y los nombres de material que no puedas recuperar inmediatamente.",
+            "alternative": "Conserva Hiperasistente para un turno con monstruo rival, cuando pueda desarrollar Salamandra Quimicalizada sin Skill.",
+            "related_route_ids": []
+          },
+          {
+            "id": "second",
+            "title": "Segundo: Arquero con Orden Secreta",
+            "objective": "Convertir Cromatográfagas en una amenaza de ataque mediante una Fusión concreta.",
+            "situation": "Turno 2 o posterior, Cromatográfagas y Orden Secreta en mano; Skill disponible; Superasistente y Fusión en Deck.",
+            "card_cids": [
+              18583,
+              17212,
+              17963,
+              16934,
+              19990
+            ],
+            "actions": [
+              "Aplica Alchemy Blaze únicamente si la Skill local está habilitada, el turno y la construcción son válidos y su resolución coloca Cromatográfagas en Cementerio y permite disponer de Superasistente y Fusión. Comprueba esos resultados antes de continuar.",
+              "Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano.",
+              "Activa Fusión con Cromatográfagas y Superasistente boca arriba para Invocar Arquero Ígneo Supergráfagas. Aplica su aumento de ATK solo si se cumplen sus condiciones; 5500 corresponde al escenario enlazado."
+            ],
+            "expected_result": "Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático.",
+            "resources_to_keep": "Superasistente y Fusión disponibles en Deck antes de usar la Skill.",
+            "alternative": "Si Orden Secreta o un material falla, no anuncies Arquero; considera una salida Piro independiente.",
+            "related_route_ids": [
+              "704:A09:ALCHEMY:ARCHER01"
+            ]
+          },
+          {
+            "id": "mid",
+            "title": "Juego medio: retirar las Magias y Trampas",
+            "objective": "Usar Salamandra Alquimicalizada para limpiar el Campo cuando compense perder las propias Magias y Trampas.",
+            "situation": "Salamandra Quimicalizada, Hiperasistente y una carta para el descarte de Skill; turno permitido y monstruo rival.",
+            "card_cids": [
+              17868,
+              19291,
+              17963,
+              16934,
+              18614,
+              15204
+            ],
+            "actions": [
+              "Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos.",
+              "Invoca Hiperasistente con un monstruo rival presente. Envía Hiperasistente boca arriba al Cementerio como coste y desarrolla Salamandra Quimicalizada únicamente si su efecto resuelve.",
+              "Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas."
+            ],
+            "expected_result": "Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas.",
+            "resources_to_keep": "Una zona disponible para Superasistente y Fusión hasta que ambos materiales estén boca arriba.",
+            "alternative": "Si perder tus propias defensas es perjudicial, conserva la Fusión para otro momento.",
+            "related_route_ids": [
+              "704:A09:ALCHEMY:SALAMANDRA02"
+            ]
+          },
+          {
+            "id": "late",
+            "title": "Juego tardío: presión sin consumir la Skill",
+            "objective": "Aprovechar Salamandra Quimicalizada con penetración cuando no hay una Fusión completa.",
+            "situation": "Hiperasistente y ¡Atraviesa! disponibles, Salamandra accesible; rival con monstruo en Defensa elegible.",
+            "card_cids": [
+              19291,
+              17868,
+              15204,
+              17963
+            ],
+            "actions": [
+              "Invoca Hiperasistente y usa su efecto legal para desarrollar Salamandra Quimicalizada.",
+              "No sumes 800 ATK si Superasistente no está en Cementerio.",
+              "Activa ¡Atraviesa! sobre Salamandra y calcula el daño contra la DEF real."
+            ],
+            "expected_result": "Salamandra con penetración hasta el final del turno, sin prometer un daño determinado.",
+            "resources_to_keep": "La Skill y Fusión si todavía no fueron necesarias.",
+            "alternative": "Si no existe un combate favorable, conserva Salamandra y la Magia para una oportunidad posterior.",
+            "related_route_ids": [
+              "704:A09:V11:HYPER:CHEMICALIZED:PIERCE"
+            ]
+          },
+          {
+            "id": "weak_hand",
+            "title": "Mano débil: una salida de Hiperasistente",
+            "objective": "Desarrollar un monstruo útil aunque no hayas reunido la pareja de Fusión.",
+            "situation": "Hiperasistente en mano y una Salamandra accesible mediante su efecto; existe el requisito rival.",
+            "card_cids": [
+              19291,
+              17868,
+              15204,
+              16934
+            ],
+            "actions": [
+              "Invoca Hiperasistente y comprueba su condición antes de enviarlo al Cementerio.",
+              "Si resuelve, desarrolla Salamandra; usa ¡Atraviesa! únicamente si mejora un combate real.",
+              "Conserva Fusión si Superasistente no está disponible en Campo."
+            ],
+            "expected_result": "Una amenaza Piro que puede combatir sin depender de Alchemy Blaze.",
+            "resources_to_keep": "Fusión y la Skill aún no usada para reconstruir.",
+            "alternative": "Si el efecto de Hiperasistente no es viable, usa la defensa disponible en vez de gastar materiales inexistentes.",
+            "related_route_ids": [
+              "704:A09:V11:HYPER:CHEMICALIZED:PIERCE"
+            ]
+          },
+          {
+            "id": "disruption",
+            "title": "Interrupción: rescatar la línea de Fusión",
+            "objective": "Evitar activar Fusión después de que un material deje de estar disponible.",
+            "situation": "Una respuesta rival retira Hiperasistente, Cromatográfagas o Superasistente antes de la Fusión.",
+            "card_cids": [
+              19291,
+              18583,
+              17963,
+              16934,
+              17212
+            ],
+            "actions": [
+              "Comprueba si el material fue enviado como coste o retirado por el efecto rival.",
+              "Si Orden Secreta sigue disponible y Cromatográfagas está en una zona elegible, evalúa su Invocación antes de usar Fusión.",
+              "Solo activa Fusión cuando ambos materiales expresos sigan boca arriba en tu Campo."
+            ],
+            "expected_result": "Una Fusión únicamente si se reconstruye la pareja; en caso contrario se preserva la Magia.",
+            "resources_to_keep": "La carta de recuperación que todavía no se haya usado y una defensa para el siguiente turno.",
+            "alternative": "Si no recuperas el segundo material, conserva la amenaza Piro que sí esté en Campo.",
+            "related_route_ids": [
+              "704:A09:ALCHEMY:ARCHER01",
+              "704:A09:ALCHEMY:SALAMANDRA02"
+            ]
+          },
+          {
+            "id": "win_condition",
+            "title": "Ganar: escoger el jefe según el obstáculo",
+            "objective": "Convertir una Fusión en daño efectivo según el Campo, en vez de declarar un OTK por su ATK.",
+            "situation": "Puedes desarrollar Arquero o Salamandra; conoces las defensas y los LP del adversario.",
+            "card_cids": [
+              19990,
+              18614,
+              17868,
+              15204
+            ],
+            "actions": [
+              "Elige Arquero cuando el ataque temporal de 5500 permita superar las amenazas del escenario.",
+              "Elige Salamandra Alquimicalizada cuando retirar Magias y Trampas sea más importante que aumentar el ATK.",
+              "Recalcula la fuerza de los monstruos tras la resolución y solo entonces declara los ataques."
+            ],
+            "expected_result": "Daño de batalla calculado o Campo rival debilitado; ninguna Fusión garantiza victoria por sí sola.",
+            "resources_to_keep": "Una defensa o siguiente material si los LP del rival no llegan a cero.",
+            "alternative": "Si no puedes cerrar, mantén el jefe que mejor sostenga el próximo turno.",
+            "related_route_ids": [
+              "704:A09:ALCHEMY:ARCHER01",
+              "704:A09:ALCHEMY:SALAMANDRA02"
+            ]
+          },
+          {
+            "id": "common_errors",
+            "title": "Errores: materiales y límites de Alchemy Blaze",
+            "objective": "Respetar requisitos Rush y no confundir una Skill local con una carta de la mano.",
+            "situation": "Vas a usar Alchemy Blaze, Hiperasistente, Fusión o la reducción de Salamandra.",
+            "card_cids": [
+              18583,
+              19291,
+              17963,
+              16934,
+              18614
+            ],
+            "actions": [
+              "Comprueba turno 2+, revelación y composición Piro/FUEGO con DEF requerida antes de utilizar la Skill.",
+              "Fusión requiere los nombres correctos boca arriba en Campo; las múltiples Normales Rush no eliminan ese requisito.",
+              "La destrucción de Salamandra alcanza las Magias y Trampas propias y rivales; no sumes una reducción por cartas no destruidas."
+            ],
+            "expected_result": "Uso de Skill y Fusiones acorde con su construcción, costes y estado real.",
+            "resources_to_keep": "Los materiales de Fusión y los espacios de monstruo necesarios.",
+            "alternative": "Si la Skill local no está habilitada, utiliza las rutas independientes de Hiperasistente y la Fusión que puedas reunir.",
+            "related_route_ids": [
+              "704:A09:ALCHEMY:ARCHER01",
+              "704:A09:ALCHEMY:SALAMANDRA02",
+              "704:A09:V11:HYPER:CHEMICALIZED:PIERCE"
+            ]
+          }
+        ]
+      }
     }
   },
   "provenance": {

@@ -2,14 +2,165 @@
 
 ## APARTADO_01 — Perfil A01 importable 705
 
-- **Arquetipo:** Royal Rebel's (Rush Duel; habilidad Hard Rock Overture).
-- **Tipo de estrategia:** Combo-Midrange de Demonios/LUZ con Sacrificios de Nivel alto y control de mesa.
-- **Estilo breve:** Rush Duel de Demonios/LUZ: prepara Sacrificios para Heavy Metal, Doom Metal y Progrock; la habilidad coloca cuerpos, pero no sustituye una Invocación por Sacrificio.
-- **Resumen para ficha:** Despliega jefes Royal Rebel's con Sacrificios válidos: Heavy Metal elimina monstruos, Progrock responde a Magias/Trampas y Doom Metal limpia mesa si recibió los dos tributos adecuados. La habilidad recupera presencia, no los disparos de Tributo.
-- **Cómo se juega:** Primero: conservar materiales y preparar monstruos de Nivel alto; usar Hard Rock Overture solo con la condición de Demonios/LUZ y un Nivel 7/8 en mano. Segundo: elegir Heavy Metal contra monstruos, Progrock contra Magias/Trampas y Doom Metal únicamente cuando puedan tributarse DOS Demonios de Nivel 7 o más. Medio/tardío: aprovechar Phaser y recuperación del Cementerio sin prometer que una Invocación Especial cumpla los requisitos de una Invocación por Sacrificio.
-- **Qué vigilar:** El efecto de Heavy Metal o Progrock exige haberlos Invocado por Sacrificio usando al menos un Nivel 5+; Doom Metal exige dos Demonios de Nivel 7+ sacrificados. Colocar desde Skill no equivale a Invocar por Sacrificio. No hay Extra Deck cargado; no añadir invocaciones de Extra.
+- **Arquetipo:** Rebelde Real / Hard Rock Overture
+- **Tipo de estrategia:** Control por Sacrificio de Demonios en Rush Duel
+- **Estilo breve:** Reúne dos Tributos para elegir un Rebelde Real de Nivel alto según la amenaza; Phaser recupera Demonios y Canjear reorganiza la mano.
+- **Resumen para ficha:** Metal Maldito limpia monstruos, Heavy Metal gana ATK y Progrock retira apoyo. Hard Rock Overture ayuda en la apertura local de turno 2+; Phaser recupera cuerpos.
+- **Cómo se juega:** Primero: reservar el jefe y sus Tributos. Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida. Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes. Segundo: elegir entre Death Doom, Heavy y Progrock. Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio. Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto. Juego medio: Canjear y Phaser. Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida. Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba. Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa. Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio. Juego tardío: reconstruir Death Doom sin Skill. Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente. Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa. Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles. Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.
+- **Qué vigilar:** Colocar por Skill o revivir por Phaser no equivale a Invocar por Sacrificio. Los tres jefes son destinos alternativos y requieren recursos reales.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: reservar el jefe y sus Tributos
+
+**Objetivo:** Preparar un siguiente turno con los Demonios necesarios sin asumir la recuperación de Skill antes del turno dos.
+
+**Situación:** Primer turno del duelo: identifica Metal Maldito, Heavy Metal y Progrock en mano; comprueba si tienes defensas como Gelatina Defensiva o Agujero Trampa. La recuperación de Hard Rock Overture usada en las rutas exige turno 2+.
+
+**Cartas:** Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real, Phaser del Rebelde Real, Gelatina Defensiva, Agujero Trampa
+
+1. Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior.
+2. Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito.
+3. No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida.
+
+**Resultado esperado:** Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes.
+
+**Recursos que conservar:** Los tres Demonios de la apertura y Phaser si se puede emplear después.
+
+**Alternativa:** Si no dispones de la Skill, reúne cuerpos mediante las cartas de tu lista y no asumas Invocaciones gratuitas.
+
+#### Segundo: elegir entre Death Doom, Heavy y Progrock
+
+**Objetivo:** Retirar la amenaza relevante con un único jefe de Nivel 8, según el Campo rival.
+
+**Situación:** Turno 2+, Skill habilitada y los tres Rebelde Real de Nivel 8 en mano; rival con objetivos elegibles.
+
+**Cartas:** Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real
+
+1. Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK.
+2. Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto.
+3. Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio.
+
+**Resultado esperado:** Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto.
+
+**Recursos que conservar:** La posibilidad de mantener el jefe en Campo para el siguiente turno.
+
+**Alternativa:** Si falta la tercera carta o el objetivo no cumple la condición, no uses esta apertura como si estuviera completa.
+
+#### Juego medio: Canjear y Phaser
+
+**Objetivo:** Convertir un Nivel 8 de mano en dos robos y recuperar un cuerpo de Cementerio.
+
+**Situación:** Ya controlas Death Doom, tienes Canjear, Heavy Metal y Phaser en mano y queda espacio para la recuperación.
+
+**Cartas:** Canjear, Heavy Metal del Rebelde Real, Phaser del Rebelde Real, Metal Maldito del Rebelde Real
+
+1. Activa Canjear enviando Heavy Metal al Cementerio y roba dos cartas de identidad desconocida.
+2. Invoca normalmente Phaser y verifica que Death Doom sigue boca arriba.
+3. Envía Phaser al Cementerio mediante su efecto y recupera Heavy Metal en Defensa.
+
+**Resultado esperado:** Death Doom y Heavy Metal en Campo, más dos cartas robadas; Heavy no fue Invocado por Sacrificio.
+
+**Recursos que conservar:** El jefe de Nivel alto en Campo y las cartas robadas que realmente sean útiles.
+
+**Alternativa:** Si Death Doom desaparece antes del efecto, verifica que aún controlas un Demonio válido; si no, conserva Phaser.
+
+#### Juego tardío: reconstruir Death Doom sin Skill
+
+**Objetivo:** Usar Phaser y los Demonios acumulados para un nuevo jefe de limpieza.
+
+**Situación:** Una copia de Heavy Metal en Campo, otra en Cementerio, Phaser y Death Doom disponibles.
+
+**Cartas:** Heavy Metal del Rebelde Real, Phaser del Rebelde Real, Metal Maldito del Rebelde Real
+
+1. Invoca Phaser en una zona libre y aplica su efecto con el Demonio de Nivel alto presente.
+2. Recupera la segunda copia de Heavy Metal desde Cementerio en Defensa.
+3. Sacrifica ambos Heavy para Invocar a Death Doom y resuelve su efecto contra objetivos elegibles.
+
+**Resultado esperado:** Death Doom de 2500 ATK y monstruos rivales destruidos si el efecto y las condiciones lo permiten.
+
+**Recursos que conservar:** Una copia de Phaser o recursos de recuperación para otro turno.
+
+**Alternativa:** Si solo reúnes un Heavy, mantén el cuerpo en lugar de declarar una Invocación que exige dos Tributos.
+
+#### Mano débil: no gastar Phaser antes del jefe
+
+**Objetivo:** Conservar la recuperación cuando falta el Demonio de Nivel alto que la habilita.
+
+**Situación:** Phaser o Canjear disponibles, pero todavía no hay un Demonio Nivel 7+ boca arriba.
+
+**Cartas:** Phaser del Rebelde Real, Canjear, Heavy Metal del Rebelde Real, Gelatina Defensiva, Agujero Trampa
+
+1. Si tienes Canjear y un monstruo de Nivel 8 elegible, envíalo de mano al Cementerio como requisito y roba dos cartas. Decide con las cartas que realmente obtuviste.
+2. Reserva Phaser hasta controlar un Demonio de Nivel 7 o superior y tener un objetivo en Cementerio.
+3. Utiliza una defensa disponible si aún no puedes reunir los dos Tributos.
+
+**Resultado esperado:** Mano reorganizada o defensa del turno; no se obtiene una recuperación ilegal de Phaser.
+
+**Recursos que conservar:** Phaser y el jefe que pueda habilitar su efecto después.
+
+**Alternativa:** Si no puedes pagar Canjear, conserva el Nivel alto para la apertura futura con Skill.
+
+#### Interrupción: comprobar qué jefe permanece
+
+**Objetivo:** Reaccionar a la retirada de un material sin tratar la colocación por Skill como Invocación por Sacrificio.
+
+**Situación:** El rival retira un Demonio antes de la Invocación del jefe o impide una recuperación.
+
+**Cartas:** Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real, Phaser del Rebelde Real
+
+1. Recuenta los Demonios boca arriba que realmente quedan para Sacrificar.
+2. Si falta un Tributo y controlas un jefe de Nivel 7+, verifica si Phaser puede recuperar otro Demonio elegible.
+3. Si no consigues ambos materiales, conserva el jefe de mano y evita declarar su efecto de Invocación por Sacrificio.
+
+**Resultado esperado:** Jefe solo si se reúnen los materiales requeridos; si no, una posición que preserva recursos.
+
+**Recursos que conservar:** Phaser y el monstruo recuperable que aún está en Cementerio.
+
+**Alternativa:** Si no queda Demonio de Nivel alto en Campo, no uses Phaser contando un requisito perdido.
+
+#### Ganar: elegir ataque aumentado o penetración
+
+**Objetivo:** Aprovechar la defensa rival y el ATK temporal sin inventar ataques directos adicionales.
+
+**Situación:** Skill permitida con los materiales correspondientes; rival con monstruo boca arriba de ATK conocido o defensor de DEF conocida.
+
+**Cartas:** Heavy Metal del Rebelde Real, Kheiron el Caballero Estelar, Progrock del Rebelde Real, Metal Maldito del Rebelde Real
+
+1. Con Heavy, identifica al objetivo de menor Nivel aplicable y calcula su aumento de ATK solo si resuelve.
+2. Con Kheiron, paga el envío de la carta superior y aplica la penetración al Demonio elegido si existe el requisito.
+3. Si Kheiron tiene 2300 ATK y combate contra un defensor de 500 DEF, la perforación del escenario produce 1800 LP. Respeta también el límite de un ataque directo por monstruo de Nivel original 7+ impuesto por la Skill.
+
+**Resultado esperado:** Heavy alcanza 4100 en el ejemplo de objetivo de 1600 ATK; Kheiron inflige 1800 contra DEF 500 en el caso documentado.
+
+**Recursos que conservar:** Un jefe que pueda permanecer en Campo si no consigues cerrar los LP rivales.
+
+**Alternativa:** Si los objetivos no favorecen el ataque, elige la limpieza de Death Doom o Progrock.
+
+#### Errores: Sacrificio y Skill no son lo mismo
+
+**Objetivo:** Evitar aplicar efectos de jefes a monstruos colocados o recuperados sin su Invocación exigida.
+
+**Situación:** Se usa Hard Rock Overture, Canjear o Phaser con Rebelde Real.
+
+**Cartas:** Phaser del Rebelde Real, Metal Maldito del Rebelde Real, Heavy Metal del Rebelde Real, Progrock del Rebelde Real, Canjear
+
+1. La Skill coloca los materiales en Defensa; eso no equivale a Invocarlos por Sacrificio.
+2. Heavy Metal recuperado por Phaser no obtiene por ello su efecto de Invocación por Sacrificio.
+3. No sumes Death Doom, Heavy y Progrock como tres jefes desde la misma mano: son destinos alternativos de los dos Tributos.
+
+**Resultado esperado:** Un estado de Campo coherente, sin retiradas ni ataques atribuidos al jefe incorrecto.
+
+**Recursos que conservar:** Los dos Tributos efectivos y el objetivo que requiere el jefe elegido.
+
+**Alternativa:** Si no puedes Invocar por Sacrificio, utiliza el cuerpo recuperado como material futuro o defensa.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 

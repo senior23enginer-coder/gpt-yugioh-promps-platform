@@ -2,14 +2,166 @@
 
 ## APARTADO_01 — Perfil A01 importable 650
 
-- **Arquetipo:** Elfnote, con apoyos Dogmátika y otros recursos registrados.
-- **Tipo de estrategia:** despliegue de monstruos y preparación de Invocaciones por Sincronía.
-- **Estilo breve:** combinación de posicionamiento, extensiones y decisiones de Extra Deck.
-- **Resumen para ficha:** Lucina, Tinia y Fortuna ayudan a desarrollar el motor y aprovechar la zona central; los Cantantes y niveles disponibles permiten buscar salidas Sincro apropiadas. Otros paquetes ofrecen alternativas, no una misma línea automática.
-- **Cómo se juega:** Lucina, Tinia y Fortuna ayudan a desarrollar el motor y aprovechar la zona central; los Cantantes y niveles disponibles permiten buscar salidas Sincro apropiadas. Otros paquetes ofrecen alternativas, no una misma línea automática. Primero: abre con Lucina y aprovecha la zona central para elegir Regina o Patron según los recursos. Segundo: evalúa Tinia y Fortuna como interrupción y busca una Sincronía legal. Juego medio: reutiliza los cuerpos y conserva la zona central sin repetir la misma búsqueda. Juego tardío: recupera recursos con Strelitzia y decide entre extender o mantener el control. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** la zona central, los niveles, los materiales y restricciones del Extra. No asumir que dos motores se pueden encadenar sin conflicto.
+- **Arquetipo:** Elfnote / Modelo de Poder y apoyo Dogmátika
+- **Tipo de estrategia:** Combo posicional y Sincronía de control
+- **Estilo breve:** Ocupa y rota la zona principal central con Lucina, Regina y Tinia; usa sus soportes y Power Patron para mantener control y construir Sincronías.
+- **Resumen para ficha:** Lucina busca Regina, Tinia coloca Welcome Home y Fortuna prepara Rhapsodia. Power Patron habilita Strelitzia o Junora cuando los niveles y zonas coinciden.
+- **Cómo se juega:** Primero: dominar la zona central. Invoca Especialmente Lucina a la zona central mediante su procedimiento, activa su efecto en Main Phase y añade Regina del Deck. Desde mano, Regina envía Lucina del centro al Cementerio como coste y se Invoca al centro. Su efecto al llegar allí trae Tinia del Deck a una zona lateral. Tinia pone Welcome Home boca arriba desde el Deck. Envía Tinia AGUA con ese soporte para Invocar Fortuna LUZ en otra zona lateral; el Extra queda limitado a Sincronías. Con Fortuna, aplica su efecto de colocar Rhapsodia conforme a la ruta; comprueba que Regina quede en el centro y que ambos soportes estén boca arriba. Regina central de 2000 ATK, Fortuna lateral de 1800 DEF, Welcome Home y Rhapsodia. La Normal sigue libre. El centro recibe protección de destrucción por efecto mientras Welcome Home aplica; Rhapsodia condiciona los ataques del rival. Segundo: abrir campo con una Sincronía útil. Con Lucina en mano y centro libre, Invócala Especialmente y busca Power Patron; Invoca Normalmente al Cantante Nivel 1 para combinarlo con Lucina Nivel 6. Si necesitas retirar una carta, considera Arcanite con sus contadores; cada contador gastado reduce su ATK. Si conviene presión, sincroniza hacia Strelitzia y colócala en el centro para aprovechar los 3000 ATK. Arcanite con retirada condicionada o Strelitzia en la zona central; son destinos alternativos. Juego medio: aprovechar Welcome Home y Rhapsodia. Comprueba qué monstruo ocupa el centro antes de colocar o recuperar otra pieza. Cuando Welcome Home esté activo, confirma que el monstruo y el Atributo distinto requeridos estén disponibles. Usa las condiciones de Rhapsodia para recuperar o controlar recursos solo cuando su efecto tenga objetivo válido. Continuidad del campo posicional y recursos para una siguiente Sincronía, sin atribuir una negación cuando no controlas Sincro. Juego tardío: Junora con respaldo. Con Lucina y Tinia en mano, Invoca Lucina al centro y busca Power Patron. Invoca Normalmente Patron en una lateral; usa 6 + 1 para Strelitzia y busca Regina con Patron si resuelve. Aprovecha el incremento de Nivel del Patron solo en el monstruo que exige la ruta. Mantén Welcome Home para proteger al monstruo central de destrucción por efecto; revisa las columnas antes de usar Junora. Junora central de 3100 ATK y Regina recuperada si todos los pasos se resuelven.
+- **Qué vigilar:** Mantén libre la zona central cuando el procedimiento la requiera; Welcome Home necesita Atributo distinto y limita el Extra a Sincronías.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: dominar la zona central
+
+**Objetivo:** Establecer Regina, Fortuna y las Continuas manteniendo la Normal libre.
+
+**Situación:** Lucina o Tinia en mano, zona principal central libre; Regina, Fortuna, Welcome Home y Rhapsodia disponibles.
+
+**Cartas:** Elfnote Lucina, Elfnote Tinia, Elfnote Regina, Elfnote Fortuna, Elfnotes: Welcome Home, Elfnotes: Rhapsodia of Madness
+
+1. Invoca Especialmente Lucina a la zona central mediante su procedimiento, activa su efecto en Main Phase y añade Regina del Deck.
+2. Desde mano, Regina envía Lucina del centro al Cementerio como coste y se Invoca al centro. Su efecto al llegar allí trae Tinia del Deck a una zona lateral.
+3. Tinia pone Welcome Home boca arriba desde el Deck. Envía Tinia AGUA con ese soporte para Invocar Fortuna LUZ en otra zona lateral; el Extra queda limitado a Sincronías.
+4. Con Fortuna, aplica su efecto de colocar Rhapsodia conforme a la ruta; comprueba que Regina quede en el centro y que ambos soportes estén boca arriba.
+
+**Resultado esperado:** Regina central de 2000 ATK, Fortuna lateral de 1800 DEF, Welcome Home y Rhapsodia. La Normal sigue libre. El centro recibe protección de destrucción por efecto mientras Welcome Home aplica; Rhapsodia condiciona los ataques del rival.
+
+**Recursos que conservar:** Zona central, una carta Elfnote para los efectos posteriores y los distintos Atributos que requiere Welcome Home.
+
+**Alternativa:** Con Tinia como apertura, usa su colocación de soporte para llegar al mismo tipo de campo.
+
+#### Segundo: abrir campo con una Sincronía útil
+
+**Objetivo:** Elegir entre presión de Strelitzia y retirada de Arcanite según el obstáculo rival.
+
+**Situación:** Lucina y Power Patron disponibles mediante la apertura, zona central libre y objetivo rival elegible.
+
+**Cartas:** Elfnote Lucina, Elfnote Power Patron, Elfnote Seraphim Strelitzia [Synchro], Arcanite Magician [Synchro]
+
+1. Con Lucina en mano y centro libre, Invócala Especialmente y busca Power Patron; Invoca Normalmente al Cantante Nivel 1 para combinarlo con Lucina Nivel 6.
+2. Si necesitas retirar una carta, considera Arcanite con sus contadores; cada contador gastado reduce su ATK.
+3. Si conviene presión, sincroniza hacia Strelitzia y colócala en el centro para aprovechar los 3000 ATK.
+
+**Resultado esperado:** Arcanite con retirada condicionada o Strelitzia en la zona central; son destinos alternativos.
+
+**Recursos que conservar:** Regina en mano si la ruta la recupera y un recurso para defender el centro.
+
+**Alternativa:** Si el rival impide la Sincronía, conserva el motor posicional de Regina y Fortuna cuando puedas desarrollarlo.
+
+#### Juego medio: aprovechar Welcome Home y Rhapsodia
+
+**Objetivo:** Mantener el control del centro mientras reutilizas los Atributos del Cementerio.
+
+**Situación:** Regina o Fortuna disponibles, zona central utilizable y soporte Elfnote aún accesible.
+
+**Cartas:** Elfnote Regina, Elfnote Fortuna, Elfnotes: Welcome Home, Elfnotes: Rhapsodia of Madness, Elfnote Lucina, Elfnote Tinia
+
+1. Comprueba qué monstruo ocupa el centro antes de colocar o recuperar otra pieza.
+2. Cuando Welcome Home esté activo, confirma que el monstruo y el Atributo distinto requeridos estén disponibles.
+3. Usa las condiciones de Rhapsodia para recuperar o controlar recursos solo cuando su efecto tenga objetivo válido.
+
+**Resultado esperado:** Continuidad del campo posicional y recursos para una siguiente Sincronía, sin atribuir una negación cuando no controlas Sincro.
+
+**Recursos que conservar:** Una zona lateral libre y el recurso de Atributo distinto para la extensión.
+
+**Alternativa:** Si no puedes ocupar el centro, despeja o conserva tus recursos antes de intentar el procedimiento de Regina.
+
+#### Juego tardío: Junora con respaldo
+
+**Objetivo:** Convertir dos piezas en una amenaza de Nivel 10 y recuperar una carta para continuar.
+
+**Situación:** Lucina y Tinia disponibles; Patron, Regina y Welcome Home todavía pueden usarse en la secuencia.
+
+**Cartas:** Elfnote Lucina, Elfnote Tinia, Elfnote Power Patron, Elfnote Regina, Elfnotes: Welcome Home, Junora the Power Patron of Tuning [Synchro]
+
+1. Con Lucina y Tinia en mano, Invoca Lucina al centro y busca Power Patron. Invoca Normalmente Patron en una lateral; usa 6 + 1 para Strelitzia y busca Regina con Patron si resuelve.
+2. Aprovecha el incremento de Nivel del Patron solo en el monstruo que exige la ruta.
+3. Mantén Welcome Home para proteger al monstruo central de destrucción por efecto; revisa las columnas antes de usar Junora.
+
+**Resultado esperado:** Junora central de 3100 ATK y Regina recuperada si todos los pasos se resuelven.
+
+**Recursos que conservar:** Regina en mano y Welcome Home boca arriba para continuidad.
+
+**Alternativa:** Con una apertura más corta, elige Strelitzia de Nivel 7 en lugar de forzar Junora sin materiales.
+
+#### Mano débil: Lucina o Tinia
+
+**Objetivo:** Aprovechar un único Elfnote para llegar a una salida concreta.
+
+**Situación:** Lucina o Tinia en mano y el centro libre; el soporte y el Cantante correspondientes permanecen en Deck.
+
+**Cartas:** Elfnote Lucina, Elfnote Tinia, Elfnote Power Patron, Elfnote Seraphim Strelitzia [Synchro], Elfnote Regina
+
+1. Con Lucina, decide entre la línea de Regina y Fortuna o el acceso a Power Patron para Sincronía.
+2. Con Tinia, coloca Welcome Home y sigue el acceso a Lucina cuando existan los recursos de distinto Atributo.
+3. Reserva la Normal si eliges la línea de las Continuas; gástala solo cuando la ruta de Strelitzia la necesita.
+
+**Resultado esperado:** Campo posicional o Strelitzia con Regina en mano, según apertura real.
+
+**Recursos que conservar:** El centro libre y una pieza de recuperación para después de la primera interacción.
+
+**Alternativa:** Si falta el Patron, no prometas Strelitzia; valora el campo de Regina y Fortuna.
+
+#### Interrupción: preservar otro acceso al centro
+
+**Objetivo:** Evitar que la negación de una búsqueda consuma la segunda oportunidad de desarrollo.
+
+**Situación:** El rival responde a Lucina, Tinia o Medius; hay que revisar qué recurso sigue realmente en mano.
+
+**Cartas:** Elfnote Lucina, Elfnote Tinia, Medius the Pure, Elfnote Power Patron, Elfnote Regina, S:P Little Knight [Link]
+
+1. Si Lucina no obtuvo la búsqueda, verifica si ya tienes Regina, Tinia o Medius en mano.
+2. Si Medius puede actuar y no se ha impuesto un bloqueo incompatible, elige buscar o traer Patron según el efecto legal.
+3. Si dispones de Lucina y Medius como dos cuerpos y no hay bloqueo de Extra, considera S:P como respuesta de menor desarrollo.
+
+**Resultado esperado:** Una segunda apertura cuando sus cartas existen; S:P no obtiene su retirada de Invocación con esos dos materiales de Main.
+
+**Recursos que conservar:** La Normal hasta elegir el motor alternativo y las zonas de monstruos necesarias.
+
+**Alternativa:** Si el centro está ocupado y no hay salida, conserva una respuesta de mano para el siguiente turno.
+
+#### Ganar: control posicional y presión
+
+**Objetivo:** Transformar el centro protegido y las Sincronías en daño de batalla real.
+
+**Situación:** Strelitzia, Junora o June Pride en Campo; se conocen zonas y monstruos rivales.
+
+**Cartas:** Elfnote Seraphim Strelitzia [Synchro], Junora the Power Patron of Tuning [Synchro], Elfnote June Pride [Synchro], Elfnotes: Welcome Home, Elfnotes: Rhapsodia of Madness
+
+1. Mantén la amenaza principal en el centro si su efecto depende de esa ubicación.
+2. Con June Pride, considera qué ataques restringe mientras permanezca en el centro; no atribuyas un retorno automático.
+3. Calcula ataques y LP antes de abandonar la protección de Welcome Home o gastar otros cuerpos.
+
+**Resultado esperado:** Presión de 3000 o 3100 ATK según la Sincronía, combinada con control posicional; la batalla determina el daño.
+
+**Recursos que conservar:** Una carta Elfnote en mano y el soporte que protege el centro para otro turno.
+
+**Alternativa:** Si no puedes cerrar, conserva Regina o una Sincronía y reconstruye en lugar de gastar todos los recursos.
+
+#### Errores: centro, Atributos y bloqueos
+
+**Objetivo:** Evitar que una zona ocupada o un motor incompatible invalide el plan.
+
+**Situación:** Vas a Invocar Lucina, Regina, usar Welcome Home o elegir el paquete Dogmatika.
+
+**Cartas:** Elfnote Lucina, Elfnote Regina, Elfnotes: Welcome Home, Elfnote Power Patron, Dogmatika Ecclesia, the Virtuous, The Fallen & The Virtuous
+
+1. Comprueba el centro libre para los procedimientos que lo exigen; no basta con tener una zona cualquiera disponible.
+2. Welcome Home requiere recursos de Atributo distinto según su efecto y establece la restricción pertinente a Sincronía.
+3. Si eliges la alternativa Ecclesia/El Caído y La Virtuosa, respeta el bloqueo del Extra que establezcan sus efectos.
+
+**Resultado esperado:** Una ruta posicional, de Sincronía o de Fusión compatible con las restricciones activas.
+
+**Recursos que conservar:** El acceso a Patron y la carta necesaria para Regina o Welcome Home.
+
+**Alternativa:** Si quieres usar el plan de Fusión, elígelo antes de activar un efecto que lo impida; no lo sumes automáticamente a Elfnote.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 

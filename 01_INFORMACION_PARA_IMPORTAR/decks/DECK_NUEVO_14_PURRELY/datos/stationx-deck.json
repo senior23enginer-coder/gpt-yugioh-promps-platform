@@ -2109,13 +2109,13 @@
     ],
     "skills": [],
     "profile": {
-      "Arquetipo": "Purrely / Purrelyly, Recuerdos y monstruos Xyz.",
+      "Arquetipo": "Purrely / Recuerdos de Juego Rápido",
       "Estilo de juego": "Plan principal: transformar a Purrely/Purrelyly y los Recuerdos rápidos en Xyz Rango 2, añadir cartas como materiales y, cuando realmente se llegue a cinco o más, superponer Noir Expurrely de Rango 7. Una alternativa es la trampa ¿¡Purrelysaltó!?, que permite un cambio de Rango temporal con su propia condición de regreso al Extra.",
-      "Cómo se juega": "Primero, desarrolla Purrely con un Recuerdo Rápido en mano o Purrelyly con uno en el Cementerio y una Xyz que lo mencione. Purrely puede añadir una Mágica o Trampa Purrely excavada; Purrelyly busca una carta Purrely que no sea Mágica Rápida. Rechoncho reúne materiales de los Cementerios y de Recuerdos activados. Belleza ofrece interacción de monstruo, rápida con Bello Recuerdo como material. Segundo, evalúa Felicidad y el combate antes de considerar ZEUS. En juego medio recupera Recuerdos con Mi Amigo Purrely si una Xyz propia boca arriba sale del campo por carta rival; sus búsquedas no acoplan materiales directamente. En juego tardío sube a Noir sobre una Xyz de Rango 2 con cinco materiales o más, o mediante Purrelysaltó con retorno al Extra en la End Phase del próximo turno. Comprueba si Noir mantiene cinco materiales para resistir efectos activados rivales y si conserva un Purrely de Nivel 1 para su retirada rápida. No gastes dos materiales sin considerar la protección restante.",
-      "Tipo de estrategia": "Control-Midrange con Xyz de Rango 2, ventaja de materiales y remate condicional.",
-      "Estilo breve": "Purrely revela Recuerdos de la mano y Purrelyly acopla los del Cementerio; las Xyz de Rango 2 reúnen materiales para Noir o una subida temporal.",
-      "Resumen para ficha": "Desarrolla Belleza para interacción o Rechoncho para acumular materiales; con cinco en una Xyz de Rango 2 puedes ascender a Noir. Felicidad busca tras combatir. No presupongas Recuerdos excavados.",
-      "Qué vigilar": "La excavación no garantiza carta; Noir resiste efectos activados rivales solo con cinco materiales o más y su retirada cuesta dos. Purrelysaltó devuelve la Xyz al Extra en la End Phase del próximo turno. Kambi puede restringir las Invocaciones Especiales a Hadas."
+      "Cómo se juega": "Primero: Belleza como respuesta inicial. Invoca Purrely normalmente y resuelve su excavación sin contar cartas que todavía no has visto. En tu Main Phase, activa el efecto de Purrely que controlas boca arriba y muestra Bello Recuerdo de mano. Invoca Belleza desde el Extra usando a Purrely como material y acopla Bello. Comprueba los materiales reales de Belleza y reserva el efecto de interacción para una amenaza elegible. Belleza con Purrely y Bello Recuerdo como materiales. Belleza puede seleccionar un monstruo de efecto rival y negar sus efectos; con Bello como material, esa interacción es un Efecto Rápido. Segundo: Felicidad y combate. Desarrolla Felicidad mediante el Recuerdo correspondiente y conserva sus materiales reales. Elige un combate que cumpla sus condiciones; aplica la búsqueda de posbatalla solo si ocurrió y resolvió. En Main Phase 2, evalúa ZEUS si se cumple el procedimiento y limpiar otras cartas del Campo es más útil. Una búsqueda condicionada al combate o acceso posterior a ZEUS; no es una Xyz de primer turno garantizada por esta ruta. Juego medio: cuatro materiales en Rechoncho. Invoca Purrelyly y verifica que Delicioso Recuerdo siga en Cementerio para su procedimiento. Invoca Rechoncho usando Purrelyly en Campo y Delicioso Recuerdo de Cementerio; después selecciona hasta dos Magias/Trampas de los Cementerios para acoplarlas. Con Delicioso como material, este último efecto es rápido. Cuenta el resultado: cuatro materiales en este escenario, todavía insuficientes para el ascenso permanente a Noir. Rechoncho con cuatro materiales si los dos objetivos permanecen disponibles y resuelve el efecto. Juego tardío: elegir Noir permanente o temporal. Activa un Recuerdo Purrely de Juego Rápido; encadena el efecto de Rechoncho para acoplarlo desde Campo. Si los cuatro materiales anteriores siguen allí, tendrás cinco. Invoca Noir usando el Rango 2 con cinco o más materiales y transfiérelos. Noir es inmune a efectos ACTIVADOS del adversario mientras mantenga al menos cinco; no es inmune a todos los efectos ni a toda retirada. Con la Trampa ¿¡Purrelysaltó!?, usa una Xyz Purrely propia para Invocar otra de Rango diferente; transfiere los materiales y cuenta los reales. El monstruo obtenido regresa al Extra en la End Phase del siguiente turno. Noir permanente con cinco o más materiales, o Noir temporal por Trampa; sus condiciones y duración no son equivalentes.",
+      "Tipo de estrategia": "Control Xyz por acumulación de materiales",
+      "Estilo breve": "Convierte Recuerdos en materiales de Xyz: Belleza interrumpe monstruos, Rechoncho acumula recursos y Noir domina mediante retirada y protección condicionada.",
+      "Resumen para ficha": "Purrely usa Recuerdos de mano, Purrelyly los del Cementerio; Belleza responde a monstruos y Rechoncho acumula materiales para Noir. Felicidad ofrece combate y acceso a ZEUS.",
+      "Qué vigilar": "Noir exige cinco materiales para su inmunidad a efectos activados rivales; desacoplar dos puede perderla. La Trampa de ascenso devuelve la Xyz al Extra."
     },
     "summary": "",
     "engine_maps": [],
@@ -3264,9 +3264,9 @@
       "featured_cards": [
         {
           "cid": 18003,
-          "role": "Iniciador por excavación y acceso Xyz desde mano",
-          "reason": "Al ser Invocado puede obtener una Mágica o Trampa Purrely entre tres cartas excavadas; revela un Recuerdo Rápido de la mano para acceder a la Xyz que lo menciona.",
-          "when_to_use": "Cuando puedas Invocarlo y conserves un Recuerdo Rápido compatible; no supongas que la excavación encontrará una carta.",
+          "role": "Iniciador de excavación y Xyz desde Campo",
+          "reason": "Al ser Invocado puede obtener una Magia o Trampa Purrely entre tres cartas excavadas; muestra un Recuerdo de mano para Invocar una Xyz usando a Purrely en Campo.",
+          "when_to_use": "Úsalo con un Recuerdo compatible en mano; el resultado de la excavación no sustituye el requisito de mostrar una carta real.",
           "related_cids": [
             18012,
             18005,
@@ -3276,9 +3276,9 @@
         },
         {
           "cid": 18481,
-          "role": "Buscador y acceso Xyz con recursos del Cementerio",
-          "reason": "Al ser Invocado busca una carta Purrely que no sea Mágica Rápida. Puede convertir un Recuerdo Rápido del Cementerio en material de la Xyz correspondiente.",
-          "when_to_use": "Cuando haya un Recuerdo Rápido elegible en el Cementerio y una Xyz compatible disponible en el Extra; conserva la búsqueda para soporte útil.",
+          "role": "Buscador y acceso Xyz desde Cementerio",
+          "reason": "Busca una carta Purrely que no sea Magia Rápida al ser Invocado; utiliza un Recuerdo Rápido elegible del Cementerio para el acceso Xyz correspondiente.",
+          "when_to_use": "Úsalo cuando Delicioso Recuerdo ya esté en Cementerio para preparar Rechoncho, o con otro Recuerdo según la Xyz necesaria.",
           "related_cids": [
             18010,
             18013,
@@ -3287,9 +3287,9 @@
         },
         {
           "cid": 18005,
-          "role": "Interacción contra efectos de monstruo",
-          "reason": "Puede negar los efectos de un monstruo rival; con Bello Recuerdo como material dispone de la ventana de Efecto Rápido.",
-          "when_to_use": "Cuando necesites interacción ante un monstruo elegible y puedas conservar Bello Recuerdo como material para responder fuera de tu Main Phase.",
+          "role": "Xyz de interacción frente a monstruos",
+          "reason": "Puede seleccionar un monstruo de efecto rival y negar sus efectos; con Bello Recuerdo acoplado puede hacerlo como Efecto Rápido.",
+          "when_to_use": "Úsala cuando quieras una respuesta frente a un monstruo rival y puedas mantener Bello Recuerdo como material.",
           "related_cids": [
             18012,
             18003
@@ -3297,9 +3297,9 @@
         },
         {
           "cid": 18008,
-          "role": "Jefe de control por materiales y retirada de amenazas",
-          "reason": "Con cinco materiales o más resiste efectos activados del rival; desacopla dos para devolver una carta rival del Campo o Cementerio al fondo del Deck.",
-          "when_to_use": "Cuando una Xyz de Rango 2 tenga cinco materiales o más, o mediante la trampa de cambio de Rango. Comprueba la protección restante y el material Purrely de Nivel 1 antes de responder.",
+          "role": "Jefe de retirada y protección por materiales",
+          "reason": "Con cinco o más materiales es inmune a efectos activados del rival; desacopla dos para poner una carta rival del Campo o Cementerio al fondo del Deck.",
+          "when_to_use": "Úsalo sobre un Rango 2 de cinco materiales o por Trampa; conserva un Purrely de Nivel 1 como material para que la retirada sea rápida.",
           "related_cids": [
             18006,
             18014,
@@ -3311,10 +3311,10 @@
       "phases": [
         {
           "id": "first",
-          "title": "Ir primero: interacción y materiales",
-          "plan": "Desarrolla una Xyz de Rango 2 mediante el Recuerdo compatible con Purrely o Purrelyly. Elige Belleza con Bello Recuerdo para disponer de una respuesta rápida o Rechoncho con Delicioso Recuerdo para reunir materiales si existen Mágicas o Trampas en los Cementerios.",
-          "preconditions": "Disponer del monstruo inicial, el Recuerdo en la zona exigida y una Xyz compatible en el Extra.",
-          "risks": "La excavación no garantiza un Recuerdo y una negación puede dejarte sin acceso a la Xyz elegida.",
+          "title": "Primero: Belleza como respuesta inicial",
+          "plan": "Invoca Purrely normalmente y resuelve su excavación sin contar cartas que todavía no has visto. En tu Main Phase, activa el efecto de Purrely que controlas boca arriba y muestra Bello Recuerdo de mano. Invoca Belleza desde el Extra usando a Purrely como material y acopla Bello. Comprueba los materiales reales de Belleza y reserva el efecto de interacción para una amenaza elegible. Belleza con Purrely y Bello Recuerdo como materiales. Belleza puede seleccionar un monstruo de efecto rival y negar sus efectos; con Bello como material, esa interacción es un Efecto Rápido.",
+          "preconditions": "Purrely y Bello Recuerdo en mano, Belleza disponible en Extra, Campo propio vacío.",
+          "risks": "Si falta Bello pero Delicioso ya está en Cementerio y tienes Purrelyly, evalúa la ruta de Rechoncho.",
           "related_route_ids": [
             "660:A09:P-C01",
             "660:A09:P-C02"
@@ -3322,21 +3322,21 @@
         },
         {
           "id": "second",
-          "title": "Ir segundo: interacción o combate",
-          "plan": "Evalúa si Belleza puede neutralizar el monstruo que te impide desarrollar o si Felicidad permite buscar tras una batalla real. Si un monstruo Xyz ya combatió y tienes una Xyz disponible en la Main Phase 2, considera ZEUS como alternativa.",
-          "preconditions": "Objetivos rivales reales, materiales compatibles y Battle Phase disponible para el plan de combate.",
-          "risks": "No asumir batalla, daño o búsqueda si el rival retira el atacante; Kambi puede impedir un destino que no sea Hada.",
+          "title": "Segundo: Felicidad y combate",
+          "plan": "Desarrolla Felicidad mediante el Recuerdo correspondiente y conserva sus materiales reales. Elige un combate que cumpla sus condiciones; aplica la búsqueda de posbatalla solo si ocurrió y resolvió. En Main Phase 2, evalúa ZEUS si se cumple el procedimiento y limpiar otras cartas del Campo es más útil. Una búsqueda condicionada al combate o acceso posterior a ZEUS; no es una Xyz de primer turno garantizada por esta ruta.",
+          "preconditions": "Purrely y Feliz Recuerdo en mano; Felicidad en Extra y objetivo de batalla alcanzable.",
+          "risks": "Si el rival no ofrece un objetivo de batalla válido, prioriza el control de Belleza o la preparación de Noir.",
           "related_route_ids": [
-            "660:A09:P-C01",
-            "660:A09:P-C05"
+            "660:A09:P-C05",
+            "660:A09:P-C01"
           ]
         },
         {
           "id": "mid",
-          "title": "Juego medio: recuperar y acoplar",
-          "plan": "Rechoncho acopla Mágicas o Trampas elegibles de los Cementerios y puede añadir Recuerdos Rápidos activados como materiales. Mi Amigo Purrely facilita la mano y puede recuperar Recuerdos de nombres distintos si una Xyz propia boca arriba sale del campo por carta rival.",
-          "preconditions": "Confirmar objetivos en los Cementerios, Recuerdos activables, LP disponibles y el disparador de recuperación.",
-          "risks": "Buscar o recuperar una carta a mano no la convierte en material. No contar cartas consumidas dos veces.",
+          "title": "Juego medio: cuatro materiales en Rechoncho",
+          "plan": "Invoca Purrelyly y verifica que Delicioso Recuerdo siga en Cementerio para su procedimiento. Invoca Rechoncho usando Purrelyly en Campo y Delicioso Recuerdo de Cementerio; después selecciona hasta dos Magias/Trampas de los Cementerios para acoplarlas. Con Delicioso como material, este último efecto es rápido. Cuenta el resultado: cuatro materiales en este escenario, todavía insuficientes para el ascenso permanente a Noir. Rechoncho con cuatro materiales si los dos objetivos permanecen disponibles y resuelve el efecto.",
+          "preconditions": "Purrelyly en mano, Delicioso Recuerdo en Cementerio, dos Magias/Trampas elegibles adicionales y Rechoncho en Extra.",
+          "risks": "Si falta un objetivo de Cementerio, acepta un número menor de materiales y no declares Noir todavía.",
           "related_route_ids": [
             "660:A09:P-C02",
             "660:A09:P-C03"
@@ -3344,16 +3344,217 @@
         },
         {
           "id": "late",
-          "title": "Juego tardío: Noir permanente o temporal",
-          "plan": "Si una Xyz de Rango 2 alcanza cinco materiales o más, usa el procedimiento alternativo de Noir. Si no llega a ese umbral, la trampa Purrelysaltó puede cambiar el Rango de una Xyz Purrely, pero su resultado debe volver al Extra en la End Phase del próximo turno. Guarda materiales para proteger y responder.",
-          "preconditions": "Contar materiales reales, verificar un objetivo elegible y conservar una copia de Noir en el Extra.",
-          "risks": "Desacoplar dos materiales puede dejar a Noir por debajo de cinco; la retirada es rápida solo con un Purrely de Nivel 1 como material.",
+          "title": "Juego tardío: elegir Noir permanente o temporal",
+          "plan": "Activa un Recuerdo Purrely de Juego Rápido; encadena el efecto de Rechoncho para acoplarlo desde Campo. Si los cuatro materiales anteriores siguen allí, tendrás cinco. Invoca Noir usando el Rango 2 con cinco o más materiales y transfiérelos. Noir es inmune a efectos ACTIVADOS del adversario mientras mantenga al menos cinco; no es inmune a todos los efectos ni a toda retirada. Con la Trampa ¿¡Purrelysaltó!?, usa una Xyz Purrely propia para Invocar otra de Rango diferente; transfiere los materiales y cuenta los reales. El monstruo obtenido regresa al Extra en la End Phase del siguiente turno. Noir permanente con cinco o más materiales, o Noir temporal por Trampa; sus condiciones y duración no son equivalentes.",
+          "preconditions": "Rechoncho con cuatro materiales y otro Recuerdo activable, o una Xyz Purrely con ¿¡Purrelysaltó!? colocada desde el turno anterior.",
+          "risks": "Si no llegaste al quinto material, conserva Rechoncho o usa la Trampa solo cuando sea legal.",
           "related_route_ids": [
             "660:A09:P-C03",
             "660:A09:P-C04"
           ]
         }
-      ]
+      ],
+      "strategy": {
+        "schema": "station-x-player-strategy/1",
+        "sections": [
+          {
+            "id": "first",
+            "title": "Primero: Belleza como respuesta inicial",
+            "objective": "Establecer una Xyz Purrely con un Recuerdo que permita interacción de monstruo.",
+            "situation": "Purrely y Bello Recuerdo en mano, Belleza disponible en Extra, Campo propio vacío.",
+            "card_cids": [
+              18003,
+              18012,
+              18005
+            ],
+            "actions": [
+              "Invoca Purrely normalmente y resuelve su excavación sin contar cartas que todavía no has visto.",
+              "En tu Main Phase, activa el efecto de Purrely que controlas boca arriba y muestra Bello Recuerdo de mano. Invoca Belleza desde el Extra usando a Purrely como material y acopla Bello.",
+              "Comprueba los materiales reales de Belleza y reserva el efecto de interacción para una amenaza elegible."
+            ],
+            "expected_result": "Belleza con Purrely y Bello Recuerdo como materiales. Belleza puede seleccionar un monstruo de efecto rival y negar sus efectos; con Bello como material, esa interacción es un Efecto Rápido.",
+            "resources_to_keep": "Bello Recuerdo hasta completar el procedimiento y otros Recuerdos que permitan extender.",
+            "alternative": "Si falta Bello pero Delicioso ya está en Cementerio y tienes Purrelyly, evalúa la ruta de Rechoncho.",
+            "related_route_ids": [
+              "660:A09:P-C01",
+              "660:A09:P-C02"
+            ]
+          },
+          {
+            "id": "second",
+            "title": "Segundo: Felicidad y combate",
+            "objective": "Buscar recursos mediante combate o convertir una Xyz que batalló en ZEUS.",
+            "situation": "Purrely y Feliz Recuerdo en mano; Felicidad en Extra y objetivo de batalla alcanzable.",
+            "card_cids": [
+              18003,
+              18011,
+              18004,
+              15524
+            ],
+            "actions": [
+              "Desarrolla Felicidad mediante el Recuerdo correspondiente y conserva sus materiales reales.",
+              "Elige un combate que cumpla sus condiciones; aplica la búsqueda de posbatalla solo si ocurrió y resolvió.",
+              "En Main Phase 2, evalúa ZEUS si se cumple el procedimiento y limpiar otras cartas del Campo es más útil."
+            ],
+            "expected_result": "Una búsqueda condicionada al combate o acceso posterior a ZEUS; no es una Xyz de primer turno garantizada por esta ruta.",
+            "resources_to_keep": "Materiales de Felicidad o ZEUS y un Recuerdo que permita reconstruir.",
+            "alternative": "Si el rival no ofrece un objetivo de batalla válido, prioriza el control de Belleza o la preparación de Noir.",
+            "related_route_ids": [
+              "660:A09:P-C05",
+              "660:A09:P-C01"
+            ]
+          },
+          {
+            "id": "mid",
+            "title": "Juego medio: cuatro materiales en Rechoncho",
+            "objective": "Acumular recursos del Cementerio para desarrollar la siguiente Xyz sin atribuir materiales imaginarios.",
+            "situation": "Purrelyly en mano, Delicioso Recuerdo en Cementerio, dos Magias/Trampas elegibles adicionales y Rechoncho en Extra.",
+            "card_cids": [
+              18481,
+              18013,
+              18006,
+              18008
+            ],
+            "actions": [
+              "Invoca Purrelyly y verifica que Delicioso Recuerdo siga en Cementerio para su procedimiento.",
+              "Invoca Rechoncho usando Purrelyly en Campo y Delicioso Recuerdo de Cementerio; después selecciona hasta dos Magias/Trampas de los Cementerios para acoplarlas. Con Delicioso como material, este último efecto es rápido.",
+              "Cuenta el resultado: cuatro materiales en este escenario, todavía insuficientes para el ascenso permanente a Noir."
+            ],
+            "expected_result": "Rechoncho con cuatro materiales si los dos objetivos permanecen disponibles y resuelve el efecto.",
+            "resources_to_keep": "Un Recuerdo Rápido adicional en mano para alcanzar el quinto material.",
+            "alternative": "Si falta un objetivo de Cementerio, acepta un número menor de materiales y no declares Noir todavía.",
+            "related_route_ids": [
+              "660:A09:P-C02",
+              "660:A09:P-C03"
+            ]
+          },
+          {
+            "id": "late",
+            "title": "Juego tardío: elegir Noir permanente o temporal",
+            "objective": "Distinguir dos formas de acceder a Noir según los materiales y la Trampa disponible.",
+            "situation": "Rechoncho con cuatro materiales y otro Recuerdo activable, o una Xyz Purrely con ¿¡Purrelysaltó!? colocada desde el turno anterior.",
+            "card_cids": [
+              18006,
+              18008,
+              18014,
+              18013
+            ],
+            "actions": [
+              "Activa un Recuerdo Purrely de Juego Rápido; encadena el efecto de Rechoncho para acoplarlo desde Campo. Si los cuatro materiales anteriores siguen allí, tendrás cinco.",
+              "Invoca Noir usando el Rango 2 con cinco o más materiales y transfiérelos. Noir es inmune a efectos ACTIVADOS del adversario mientras mantenga al menos cinco; no es inmune a todos los efectos ni a toda retirada.",
+              "Con la Trampa ¿¡Purrelysaltó!?, usa una Xyz Purrely propia para Invocar otra de Rango diferente; transfiere los materiales y cuenta los reales. El monstruo obtenido regresa al Extra en la End Phase del siguiente turno."
+            ],
+            "expected_result": "Noir permanente con cinco o más materiales, o Noir temporal por Trampa; sus condiciones y duración no son equivalentes.",
+            "resources_to_keep": "Los cinco materiales si necesitas conservar la protección y las cartas que alimentan una nueva Xyz.",
+            "alternative": "Si no llegaste al quinto material, conserva Rechoncho o usa la Trampa solo cuando sea legal.",
+            "related_route_ids": [
+              "660:A09:P-C03",
+              "660:A09:P-C04"
+            ]
+          },
+          {
+            "id": "weak_hand",
+            "title": "Mano débil: confirmar el Recuerdo disponible",
+            "objective": "No depender de acertar una excavación para decidir el destino del Extra.",
+            "situation": "Purrely o Purrelyly disponibles, pero faltan Recuerdos o blancos adicionales de Cementerio.",
+            "card_cids": [
+              18003,
+              18481,
+              18012,
+              18013,
+              18005,
+              18006
+            ],
+            "actions": [
+              "Comprueba qué Recuerdo está realmente en mano antes de revelar con Purrely.",
+              "Si tienes Purrelyly y Delicioso en Cementerio, utiliza la vía de Rechoncho solo cuando la carta sigue allí.",
+              "Si obtienes un Recuerdo mediante excavación o búsqueda, elige la Xyz correspondiente a esa carta real."
+            ],
+            "expected_result": "Belleza o Rechoncho cuando hay acceso legítimo; si no, se conserva el motor sin prometer una Xyz.",
+            "resources_to_keep": "La Normal y los Recuerdos que puedan utilizarse después de la búsqueda.",
+            "alternative": "Si la excavación no ofrece el Recuerdo necesario, conserva tus defensas y espera otro recurso.",
+            "related_route_ids": [
+              "660:A09:P-C01",
+              "660:A09:P-C02"
+            ]
+          },
+          {
+            "id": "disruption",
+            "title": "Interrupción: proteger la cuenta de materiales",
+            "objective": "Mantener un plan defensivo si se pierde el Recuerdo o se niega el acoplamiento.",
+            "situation": "El rival niega Purrely, Purrelyly o el efecto que acoplaría un quinto material a Rechoncho.",
+            "card_cids": [
+              18003,
+              18481,
+              18006,
+              18008,
+              18014
+            ],
+            "actions": [
+              "Si Bello ya no está en mano o Purrely fue negado, no presentes Belleza como Invocada.",
+              "Si se perdió Delicioso del Cementerio, revisa el procedimiento de Purrelyly con los recursos que quedan.",
+              "Si Rechoncho permanece con cuatro materiales, conserva su Campo y evalúa la Trampa de ascenso solo si ya estaba colocada y es activable."
+            ],
+            "expected_result": "Una Xyz existente preservada o una salida temporal legal; no se fuerza Noir permanente con cuatro materiales.",
+            "resources_to_keep": "El Recuerdo todavía disponible y la Trampa que pueda responder en su turno correcto.",
+            "alternative": "Si la interrupción retira todos los cuerpos, conserva Purrelyly o un Recuerdo para reconstruir más adelante.",
+            "related_route_ids": [
+              "660:A09:P-C01",
+              "660:A09:P-C03",
+              "660:A09:P-C04"
+            ]
+          },
+          {
+            "id": "win_condition",
+            "title": "Ganar: controlar antes de buscar daño",
+            "objective": "Preservar Noir cuando su retirada es la ventaja principal y usar Felicidad para presionar.",
+            "situation": "Noir con materiales o Felicidad en Campo, con amenazas y LP rivales identificados.",
+            "card_cids": [
+              18008,
+              18004,
+              18006,
+              15524
+            ],
+            "actions": [
+              "Antes de devolver una carta rival al fondo del Deck con Noir, comprueba si puedes desacoplar dos materiales. La retirada es rápida si mantiene un Purrely de Nivel 1 acoplado; si baja de cinco, pierde la inmunidad indicada.",
+              "Si pasas de control a ataque, usa la línea de Felicidad cuando exista un combate útil y su efecto pueda resolver.",
+              "Calcula el daño de las criaturas realmente en Campo; no conviertas una retirada de Noir en daño garantizado."
+            ],
+            "expected_result": "Control por retirada y presión gradual mediante combate y recursos Xyz; no se presupone letal.",
+            "resources_to_keep": "Materiales suficientes para mantener la condición de Noir y un Recuerdo para otro turno.",
+            "alternative": "Si usar Noir deja de protegerlo y no permite ganar, conserva sus materiales hasta una amenaza más importante.",
+            "related_route_ids": [
+              "660:A09:P-C03",
+              "660:A09:P-C05"
+            ]
+          },
+          {
+            "id": "common_errors",
+            "title": "Errores: cinco materiales y duración de Noir",
+            "objective": "Evitar confundir un ascenso temporal con la condición de protección del jefe.",
+            "situation": "Estás gestionando Rechoncho, Noir y ¿¡Purrelysaltó!? después de una respuesta rival.",
+            "card_cids": [
+              18006,
+              18008,
+              18014,
+              18481
+            ],
+            "actions": [
+              "Cuenta los materiales que tiene la Xyz en ese momento, no las cartas que se pensaba acoplar.",
+              "No uses el procedimiento permanente de Noir desde cuatro materiales ni atribuyas protección a un Noir temporal que no cumple cinco.",
+              "Noir solo es inmune a efectos activados rivales con cinco o más materiales; después de desacoplar dos, vuelve a contar y conserva un Purrely de Nivel 1 si necesitas que su retirada sea rápida."
+            ],
+            "expected_result": "La duración y protección de Noir corresponden a su procedimiento y materiales reales.",
+            "resources_to_keep": "Recuerdos que sirvan para el quinto material y una Trampa que ya sea activable.",
+            "alternative": "Con cuatro materiales sin otra extensión, conserva Rechoncho en lugar de declarar un ascenso inexistente.",
+            "related_route_ids": [
+              "660:A09:P-C02",
+              "660:A09:P-C03",
+              "660:A09:P-C04"
+            ]
+          }
+        ]
+      }
     }
   },
   "provenance": {

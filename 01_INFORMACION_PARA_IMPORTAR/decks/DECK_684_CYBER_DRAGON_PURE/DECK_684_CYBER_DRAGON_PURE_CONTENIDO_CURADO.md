@@ -2,14 +2,165 @@
 
 ## APARTADO_01 — Perfil A01 importable 684
 
-- **Arquetipo:** Cyber Dragon, con piezas Cyberdark registradas.
-- **Tipo de estrategia:** despliegue de Máquinas y acceso a Fusiones y Xyz para responder al campo rival.
-- **Estilo breve:** ofensivo y de ruptura de campo, con diferentes rutas de Extra Deck.
-- **Resumen para ficha:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe.
-- **Cómo se juega:** las piezas Ciber Dragón reúnen cuerpos y acceden a Nova/Infinity o Fusiones cuando existen los materiales. El submotor Ciberoscuro aporta otras herramientas y no debe confundirse con una Invocación automática de cualquier jefe. Primero: usa Core y dos Máquinas adecuadas para preparar Nova. Segundo: valora Fusión o Xyz según el campo rival real. Juego medio: reutiliza Nachster y Herz bajo sus condiciones de recuperación. Juego tardío: elige Infinity o una Fusión sin contar materiales duplicados. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** ubicación real de los materiales, restricciones de Fusión/contacto y consumo compartido de monstruos entre alternativas.
+- **Arquetipo:** Cyber Dragon / apoyo Cyberdark
+- **Tipo de estrategia:** Combo ofensivo de Máquinas, Fusión y Xyz
+- **Estilo breve:** Reúne Máquinas y nombres Cyber Dragon para Infinity, rompe campos con Fortress o Megafleet y presiona con los ataques de Rampage.
+- **Resumen para ficha:** Core busca soporte y Wurm/Revsystem reúnen Nivel 5 para Nova e Infinity. Clockwork Night habilita Fortress, mientras Rampage convierte materiales en presión de batalla.
+- **Cómo se juega:** Primero: Infinity y una respuesta adicional. Invoca Normalmente Core y busca Cybernetic Overflow del Deck. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow. Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas. Segundo: retirar monstruos sin combate. Con Core y Clockwork Night, usa la búsqueda de Core y confirma que la carta rival ahora es Máquina. Si el material puede enviarse al Cementerio, utiliza el procedimiento de Fortress con Core y la Máquina rival. Si el problema es un monstruo elegible en Zona Extra, usa Cyber Dragon para Megafleet en lugar de depender de Clockwork Night. Fortress o Megafleet y el monstruo rival enviado como material; la elección depende del tipo, zona y restricciones reales. Juego medio: usar los Ciber del Cementerio. Activa Overload usando los materiales requeridos del Cementerio; comprueba los nombres aplicables allí. Con Rampage, decide qué Máquinas LUZ enviar del Deck para habilitar ataques adicionales. Si envías Herz y su efecto está disponible, revisa qué Cyber Dragon original puedes recuperar. Rampage listo para ataques múltiples si resolvió el efecto y se enviaron las cartas requeridas; materiales de Overload quedan desterrados. Juego tardío: reciclar destierro con Cyberload. Primero usa Overload para producir Rampage y deja identificados los materiales desterrados boca arriba. Después, si esos materiales son elegibles para Cyberload, devuélvelos al Deck mediante su efecto para la nueva Fusión. Respeta la restricción de ataques de Cyberload: únicamente la criatura fusionada por esa Magia podrá atacar el resto del turno. Dos Rampage en el caso documentado, pero solo el segundo puede atacar tras Cyberload; no se suman ataques de ambos.
+- **Qué vigilar:** Nachster puede imponer solo Máquinas; Megafleet necesita Zona Extra y Fortress material Máquina. Cyberload limita ataques y Power Bond puede dañarte en End Phase.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: Infinity y una respuesta adicional
+
+**Objetivo:** Construir una negación de activación sin confundir los materiales con monstruos independientes.
+
+**Situación:** Core, Wurm y Revsystem disponibles según la apertura; Cyber Dragon en Deck y Nova e Infinity en Extra.
+
+**Cartas:** Cyber Dragon Core, Cyberdark Wurm [Konami 21164], Cyber Revsystem, Cyber Dragon, Cyber Dragon Nova (Konami ID 10870), Cyber Dragon Infinity (Konami ID 11765), Cybernetic Overflow
+
+1. Invoca Normalmente Core y busca Cybernetic Overflow del Deck.
+2. Con Core en Campo, activa Wurm enviando Cyber Dragon original desde Deck al Cementerio como coste; Invoca Wurm si resuelve. Activa Cyber Revsystem para recuperar Cyber Dragon original.
+3. Superpón Wurm y Cyber Dragon, Máquinas de Nivel 5, para Nova; sobrepón Infinity transfiriendo los materiales y Coloca Overflow.
+
+**Resultado esperado:** Infinity con tres materiales, Core y Overflow colocada en la apertura indicada; una respuesta de Infinity y la retirada de Overflow son distintas.
+
+**Recursos que conservar:** Un material para Infinity y Core disponible como recurso de Overflow.
+
+**Alternativa:** Si falta Wurm pero Cyber Dragon y Revsystem están en mano con Herz ya en Cementerio, utiliza esa variante.
+
+#### Segundo: retirar monstruos sin combate
+
+**Objetivo:** Aprovechar el campo rival como material para Fortress o Megafleet cuando corresponde.
+
+**Situación:** Clockwork Night y Core, o Cyber Dragon disponible frente a un monstruo rival situado en Zona Extra y apto como material.
+
+**Cartas:** Clockwork Night, Cyber Dragon Core, Cyber Dragon, Chimeratech Fortress Dragon, Chimeratech Megafleet Dragon
+
+1. Con Core y Clockwork Night, usa la búsqueda de Core y confirma que la carta rival ahora es Máquina.
+2. Si el material puede enviarse al Cementerio, utiliza el procedimiento de Fortress con Core y la Máquina rival.
+3. Si el problema es un monstruo elegible en Zona Extra, usa Cyber Dragon para Megafleet en lugar de depender de Clockwork Night.
+
+**Resultado esperado:** Fortress o Megafleet y el monstruo rival enviado como material; la elección depende del tipo, zona y restricciones reales.
+
+**Recursos que conservar:** Cyber Emergency buscada por Core y las cartas de Fusión que no se hayan gastado.
+
+**Alternativa:** Si el rival solo controla monstruos de zonas principales y no son Máquina, Megafleet no ofrece esa retirada.
+
+#### Juego medio: usar los Ciber del Cementerio
+
+**Objetivo:** Recuperar un campo ofensivo después de que los primeros Ciber Dragones se conviertan en recursos.
+
+**Situación:** Overload Fusion en mano, Core y Herz en Cementerio, Rampage disponible en Extra.
+
+**Cartas:** Overload Fusion, Cyber Dragon Core, Cyber Dragon Herz, Chimeratech Rampage Dragon (Konami ID 11764), Cyber Dragon, Cyber Dragon Nachster
+
+1. Activa Overload usando los materiales requeridos del Cementerio; comprueba los nombres aplicables allí.
+2. Con Rampage, decide qué Máquinas LUZ enviar del Deck para habilitar ataques adicionales.
+3. Si envías Herz y su efecto está disponible, revisa qué Cyber Dragon original puedes recuperar.
+
+**Resultado esperado:** Rampage listo para ataques múltiples si resolvió el efecto y se enviaron las cartas requeridas; materiales de Overload quedan desterrados.
+
+**Recursos que conservar:** Cyber Dragon recuperable y una copia de Cyberload para recursos desterrados si luego es legal.
+
+**Alternativa:** Si no hay dos materiales aptos para Rampage, conserva Overload para cuando los recursos estén disponibles.
+
+#### Juego tardío: reciclar destierro con Cyberload
+
+**Objetivo:** Convertir recursos desterrados en otra Fusión cuando el primer Rampage ya no basta.
+
+**Situación:** Overload y Cyberload disponibles, con Core y Herz preparados inicialmente en Cementerio y destinos apropiados en Extra.
+
+**Cartas:** Overload Fusion, Cyberload Fusion, Cyber Dragon Core, Cyber Dragon Herz, Chimeratech Rampage Dragon (Konami ID 11764)
+
+1. Primero usa Overload para producir Rampage y deja identificados los materiales desterrados boca arriba.
+2. Después, si esos materiales son elegibles para Cyberload, devuélvelos al Deck mediante su efecto para la nueva Fusión.
+3. Respeta la restricción de ataques de Cyberload: únicamente la criatura fusionada por esa Magia podrá atacar el resto del turno.
+
+**Resultado esperado:** Dos Rampage en el caso documentado, pero solo el segundo puede atacar tras Cyberload; no se suman ataques de ambos.
+
+**Recursos que conservar:** Una reserva de nombres Ciber en el Deck y las Máquinas que aún puedas enviar.
+
+**Alternativa:** Si el primer Rampage tiene ataques suficientes, evita Cyberload hasta un momento en que su restricción no reduzca tu daño.
+
+#### Mano débil: Cyber Dragon y Nachster
+
+**Objetivo:** Construir un Enlace útil sin exigir dos Nivel 5 desde el inicio.
+
+**Situación:** Cyber Dragon original y Nachster en mano, Sieger disponible y condiciones de Invocación de la ruta cumplidas.
+
+**Cartas:** Cyber Dragon, Cyber Dragon Nachster, Cyber Dragon Sieger, Cyber Dragon Core, Cyber Emergency, S:P Little Knight
+
+1. Descarta Cyber Dragon original como coste del efecto de Nachster en mano; Invoca Nachster. En nueva cadena selecciona Cyber Dragon de 2100 ATK en Cementerio para revivirlo; desde esa resolución, solo Invocaciones Especiales de Máquinas el resto del turno.
+2. Enlaza ambos monstruos Máquina hacia Sieger, sin gastar la Normal. En Battle Phase, si Sieger no declaró ataque, su efecto puede dar +2100 ATK/DEF a una Máquina propia con al menos 2100 ATK; comprueba la restricción de daño de batalla.
+3. Si en cambio dispones de Cyber Dragon y Core, usa Core para buscar Cyber Emergency y considera la salida defensiva de S:P.
+
+**Resultado esperado:** Sieger (2100 ATK base) y Normal libre tras la línea Nachster. La rama Cyber Dragon + Core hacia S:P es diferente y no debe hacerse bajo el bloqueo Máquina de Nachster.
+
+**Recursos que conservar:** La Normal o Cyber Emergency según la apertura que hayas elegido.
+
+**Alternativa:** Si no tienes dos cuerpos válidos, conserva Cyber Dragon como presión y evita gastar la única pieza de recuperación.
+
+#### Interrupción: mantener otra vía de acceso
+
+**Objetivo:** Evitar perder toda la mano al ser negada la búsqueda de Core o el acceso a Nova.
+
+**Situación:** El rival responde a Core, Revsystem o Nova, pero aún conservas otros recursos en mano o Cementerio.
+
+**Cartas:** Cyber Dragon Core, Cyber Dragon, Clockwork Night, Chimeratech Fortress Dragon, Overload Fusion, Chimeratech Rampage Dragon (Konami ID 11764)
+
+1. Si Core no buscó, comprueba si aún permanece como material de Cyber Dragon en Campo.
+2. Si Clockwork Night y un monstruo rival Máquina son elegibles, evalúa Fortress sin depender de la búsqueda perdida.
+3. Si Revsystem no recuperó Herz, no cuentes dos Nivel 5; conserva la Fusión si ya tienes materiales aptos en Cementerio.
+
+**Resultado esperado:** Una alternativa de retirada o Fusión solo si existen sus requisitos; Infinity no aparece sin los materiales de Nova.
+
+**Recursos que conservar:** Clockwork Night, Overload y los nombres Ciber aún utilizables.
+
+**Alternativa:** Si no queda salida de Extra demostrable, conserva una defensa de mano y prepara la siguiente apertura.
+
+#### Ganar: calcular los ataques de Rampage
+
+**Objetivo:** Cerrar con daño de batalla real y tener en cuenta el coste futuro de Power Bond.
+
+**Situación:** Rampage en Campo, Battle Phase disponible y monstruos rivales identificados; Power Bond puede formar parte de la apertura.
+
+**Cartas:** Chimeratech Rampage Dragon (Konami ID 11764), Power Bond, Overload Fusion, Cyber Dragon Sieger, Limiter Removal
+
+1. Rampage puede enviar hasta dos Máquinas LUZ desde Deck al Cementerio y obtener un ataque adicional por cada una durante la Battle Phase de ese turno, si su efecto resuelve.
+2. Si fue Invocado por Power Bond, calcula su ATK aumentado y el daño que recibirás en End Phase si no terminas el duelo.
+3. Antes de usar Sieger o Limiter Removal, comprueba sus condiciones y calcula el daño después de defensas y restricciones.
+
+**Resultado esperado:** Ataques múltiples de Rampage y presión aumentada cuando correspondan; el letal depende de los LP y del campo rival.
+
+**Recursos que conservar:** Una salida posterior y suficientes LP para el posible daño de Power Bond.
+
+**Alternativa:** Si no puedes cerrar, prioriza una respuesta de Infinity o conserva Rampage sin consumir otro recurso de daño.
+
+#### Errores: materiales y límite de ataques
+
+**Objetivo:** Evitar confundir las distintas Fusiones y la protección que otorga cada carta.
+
+**Situación:** Estás eligiendo Megafleet, Fortress, Power Bond, Cyberload o la negación de Infinity.
+
+**Cartas:** Chimeratech Megafleet Dragon, Chimeratech Fortress Dragon, Power Bond, Cyberload Fusion, Cyber Dragon Infinity (Konami ID 11765), Cyber Eternity Dragon
+
+1. Megafleet exige una carta elegible en Zona Extra; Fortress necesita Cyber Dragon y material Máquina apto para el envío.
+2. El aumento de Power Bond no evita el daño de End Phase y Cyberload restringe quién puede atacar después.
+3. Infinity debe disponer del material requerido y de una activación a la que responder; no niega automáticamente todo el campo.
+
+**Resultado esperado:** Invocaciones, ataques y respuestas calculados con las restricciones correctas.
+
+**Recursos que conservar:** Material de Infinity o un recurso Ciber para reconstruir si no termina el duelo.
+
+**Alternativa:** Si una Fusión no puede cumplir sus materiales, elige otra salida documentada sin inventar una protección de Eternity.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 

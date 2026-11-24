@@ -2,14 +2,166 @@
 
 ## APARTADO_01 — Perfil A01 importable 670
 
-- **Arquetipo:** Infernoble Knight, con Equipos y motores auxiliares de la lista actual.
-- **Tipo de estrategia:** desarrollo de Guerreros FUEGO y acceso condicionado a Enlace/Sincronía.
-- **Estilo breve:** combos de equipamiento, búsqueda y reutilización de recursos.
-- **Resumen para ficha:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos.
-- **Cómo se juega:** Museo, Durendal, Almace y monstruos como Ogier, Oliver y Renaud ayudan a reunir Guerreros y Equipos. Las rutas hacia Isolde o Carlo requieren materiales y orden concretos. Primero: prepara Guerreros FUEGO con Ogier y Equipos antes de elegir Isolde o Sincronía. Segundo: desarrolla Oliver y Renaud solo con los costes legales. Juego medio: recicla Durendal y Almace con objetivos reales. Juego tardío: conserva Equipos y materiales para un jefe Infernoble invocable. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** Equipos disponibles, niveles de Sincro y efectos que bloqueen otras invocaciones del Extra.
+- **Arquetipo:** Infiernoble / Guerreros y Equipos
+- **Tipo de estrategia:** Combo de Guerreros FUEGO, Sincronía y Enlace
+- **Estilo breve:** Convierte Guerreros FUEGO y Equipos en materiales de Angélica y recursos de Museo; Isolde desarrolla cuerpos y Great Charles ofrece presión cuando su acceso existe.
+- **Resumen para ficha:** Ogier envía Equipos y Renaud recupera recursos para Angélica. Connector abre Isolde; un Charles Sincronía equipado habilita Great Charles como salida de control.
+- **Cómo se juega:** Primero: construir Angélica con Equipos disponibles. Invoca Normalmente Ogier de Nivel 4 y usa su disparo para enviar Durendal del Deck al Cementerio. Como controlas un Guerrero FUEGO, Invoca Renaud de Nivel 1 desde mano por su procedimiento propio; se trata como Cantante. Recupera Durendal de Cementerio con su disparo si resuelve. Sincroniza Ogier (4) + Renaud (1) para Angélica (5). Utiliza su efecto de Invocación Especial para añadir Museo y gestiona los Equipos conforme a sus requisitos. Conserva los Equipos; para que Angélica traiga Roland necesita su condición de selección en Campo. No existe Charles todavía. Angélica y Museo con recursos para continuar; Roland y Charles no están automáticamente en el Campo. Segundo: retirar una amenaza con Anima y S:P. Desarrolla Ogier y Renaud y conserva el Equipo recuperado según la ruta. Si la posición rival permite que Anima equipe un monstruo elegible, sigue la variante ofensiva con Anima. Convierte los materiales disponibles en S:P y resuelve su retirada solo si queda un objetivo elegible. S:P y Durendal en mano; Anima ya no queda en Campo cuando se usa como material. Juego medio: recuperar mediante Renaud. Si Connector puede resolver, trae Aqua Dolphin y usa ambos Guerreros para Isolde según la ruta existente. Usa las búsquedas y recuperación permitidas de Isolde y Renaud, respetando las limitaciones del Guerrero añadido. Activa Durendal para obtener Fire Flint Lady si esa continuación sigue disponible. Cuerpos adicionales y recursos de mano, no una Sincronía o negación gratuita. Juego tardío: convertir Charles equipado. Verifica que Charles esté realmente equipado y que la carta de Enlace permanezca disponible. Utiliza el procedimiento de Enlace que requiere al Charles equipado. Al Invocar Great Charles, selecciona al Charles Sincronía del Cementerio para su efecto de equipamiento. Reserva la Mágica de Equipo que deba enviarse para responder a una activación de Magia/Trampa. Great Charles de 3500 ATK con Charles equipado y una respuesta potencial a Magia/Trampa.
+- **Qué vigilar:** Distingue cómo fue Invocado Renaud y cuándo se trata como Cantante. No atribuyas Charles a Angélica sin niveles y materiales suficientes.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: construir Angélica con Equipos disponibles
+
+**Objetivo:** Preparar una Sincronía del motor y conservar acceso a los Equipos, sin anunciar un jefe no construido.
+
+**Situación:** Ogier y Renaud en mano; Durendal, Museo y Angélica disponibles, Normal libre.
+
+**Cartas:** Infernoble Caballero Ogier, Infernoble Caballero Renaud, Infernoble Arms - Durendal, Noble Arms Museum, Angelica, Princess of Noble Arms [Synchro], Infernoble Knight Captain Roland [Synchro]
+
+1. Invoca Normalmente Ogier de Nivel 4 y usa su disparo para enviar Durendal del Deck al Cementerio.
+2. Como controlas un Guerrero FUEGO, Invoca Renaud de Nivel 1 desde mano por su procedimiento propio; se trata como Cantante. Recupera Durendal de Cementerio con su disparo si resuelve.
+3. Sincroniza Ogier (4) + Renaud (1) para Angélica (5). Utiliza su efecto de Invocación Especial para añadir Museo y gestiona los Equipos conforme a sus requisitos.
+4. Conserva los Equipos; para que Angélica traiga Roland necesita su condición de selección en Campo. No existe Charles todavía.
+
+**Resultado esperado:** Angélica y Museo con recursos para continuar; Roland y Charles no están automáticamente en el Campo.
+
+**Recursos que conservar:** Equipo recuperado, Museo y un no Cantante de Nivel 4 si la continuación exige ese material.
+
+**Alternativa:** Si prefieres una respuesta corta con dos Guerreros, usa la ruta de S:P de la misma apertura.
+
+#### Segundo: retirar una amenaza con Anima y S:P
+
+**Objetivo:** Usar un recurso del Extra para retirar un monstruo en una posición elegible.
+
+**Situación:** Ogier y Renaud disponibles; la posición del monstruo rival permite la interacción de Anima y existe S:P en Extra.
+
+**Cartas:** Infernoble Caballero Ogier, Infernoble Caballero Renaud, Relinquished Anima [Link], S:P Little Knight [Link], Infernoble Arms - Durendal
+
+1. Desarrolla Ogier y Renaud y conserva el Equipo recuperado según la ruta.
+2. Si la posición rival permite que Anima equipe un monstruo elegible, sigue la variante ofensiva con Anima.
+3. Convierte los materiales disponibles en S:P y resuelve su retirada solo si queda un objetivo elegible.
+
+**Resultado esperado:** S:P y Durendal en mano; Anima ya no queda en Campo cuando se usa como material.
+
+**Recursos que conservar:** Durendal para desarrollar otro Guerrero y una apertura que no se haya gastado.
+
+**Alternativa:** Si no existe posición aprovechable para Anima, usa la línea directa de S:P o conserva Angélica.
+
+#### Juego medio: recuperar mediante Renaud
+
+**Objetivo:** Volver a obtener un Equipo y usarlo para conectar con otro Guerrero.
+
+**Situación:** Renaud disponible mediante una apertura válida; existe Durendal u otro Equipo recuperable según la secuencia.
+
+**Cartas:** Infernoble Caballero Renaud, Infernoble Arms - Durendal, Fire Flint Lady, Isolde, Two Tales of the Noble Knights [Link], Neo Space Connector, Neo-Spacian Aqua Dolphin
+
+1. Si Connector puede resolver, trae Aqua Dolphin y usa ambos Guerreros para Isolde según la ruta existente.
+2. Usa las búsquedas y recuperación permitidas de Isolde y Renaud, respetando las limitaciones del Guerrero añadido.
+3. Activa Durendal para obtener Fire Flint Lady si esa continuación sigue disponible.
+
+**Resultado esperado:** Cuerpos adicionales y recursos de mano, no una Sincronía o negación gratuita.
+
+**Recursos que conservar:** Un Equipo y el Guerrero que pueda Invocarse legalmente en ese turno.
+
+**Alternativa:** Si no se cumple el acceso a Isolde, utiliza Ogier y Renaud para la ruta de Angélica.
+
+#### Juego tardío: convertir Charles equipado
+
+**Objetivo:** Transformar un Charles ya construido en su amenaza de Enlace con interacción de Magia/Trampa.
+
+**Situación:** Charles Sincronía está en Campo y tiene una Mágica de Equipo propia equipada; Great Charles permanece en Extra.
+
+**Cartas:** Infernoble Knight Emperor Charles [Synchro], Emperor Charles the Great [Link], Infernoble Arms - Durendal, Noble Arms Museum
+
+1. Verifica que Charles esté realmente equipado y que la carta de Enlace permanezca disponible.
+2. Utiliza el procedimiento de Enlace que requiere al Charles equipado.
+3. Al Invocar Great Charles, selecciona al Charles Sincronía del Cementerio para su efecto de equipamiento. Reserva la Mágica de Equipo que deba enviarse para responder a una activación de Magia/Trampa.
+
+**Resultado esperado:** Great Charles de 3500 ATK con Charles equipado y una respuesta potencial a Magia/Trampa.
+
+**Recursos que conservar:** El recurso de Equipo necesario para la respuesta y un iniciador si el jefe es retirado.
+
+**Alternativa:** Si no controlas Charles equipado, no presentes Great Charles como salida de una carta; reconstruye primero el motor.
+
+#### Mano débil: Connector o Museo con Renaud
+
+**Objetivo:** Identificar una apertura que genere Guerreros reales sin depender de una mano ideal.
+
+**Situación:** Connector en mano o Museo y Renaud según la apertura; Aqua Dolphin y Equipos siguen en Deck.
+
+**Cartas:** Neo Space Connector, Neo-Spacian Aqua Dolphin, Noble Arms Museum, Infernoble Caballero Renaud, Isolde, Two Tales of the Noble Knights [Link], Infernoble Arms - Durendal
+
+1. Con Connector, usa su acceso a Aqua Dolphin para reunir los dos Guerreros requeridos.
+2. Con Museo y Renaud, sigue la variante documentada que obtiene un segundo Guerrero mediante el motor de Equipos.
+3. Detente en el resultado que acredita la línea: Isolde y Renaud con recursos de mano, no un Charles gratuito.
+
+**Resultado esperado:** Dos Guerreros convertidos en desarrollo de Enlace y acceso a Gearfried/Durendal cuando la búsqueda resuelve.
+
+**Recursos que conservar:** Durendal y cualquier cuerpo que no se necesite gastar en la primera apertura.
+
+**Alternativa:** Si la búsqueda de Isolde queda negada, revisa si Ogier y Renaud están realmente disponibles antes de cambiar a Angélica.
+
+#### Interrupción: separar motores de Guerrero y Diabellstar
+
+**Objetivo:** Conservar la Normal y una segunda vía cuando el rival detiene el primer efecto.
+
+**Situación:** Connector o una búsqueda de Equipo fue negada; WANTED, Diabellstar u Ogier pueden seguir disponibles.
+
+**Cartas:** WANTED: Seeker of Sinful Spoils, Diabellstar la Bruja Negra, Original Sinful Spoils - Snake-Eye, Infernoble Caballero Ogier, Fire Flint Lady, Infernoble Caballero Renaud
+
+1. Verifica si Aqua Dolphin o el Equipo llegaron realmente a su zona tras la negación.
+2. Si tienes WANTED, una carta que puedas enviar y Ogier según la apertura, valora la línea independiente de Diabellstar.
+3. Usa Original Sinful Spoils y los Guerreros de la ruta solo con sus recursos reales; conserva la Normal si la línea no la consume.
+
+**Resultado esperado:** Un nuevo cuerpo Ogier o una apertura alternativa si los recursos lo permiten; no se garantiza Charles tras la interrupción.
+
+**Recursos que conservar:** La Normal y el Equipo que no haya sido consumido.
+
+**Alternativa:** Con dos Guerreros válidos, considera la salida defensiva de S:P cuando una continuación mayor no sea posible.
+
+#### Ganar: presión de Charles y gestión de Equipos
+
+**Objetivo:** Asegurar un ataque favorable sin gastar la única respuesta de Great Charles.
+
+**Situación:** Great Charles ya está en Campo o puedes convertir un Charles equipado; el rival tiene recursos de Magia/Trampa.
+
+**Cartas:** Emperor Charles the Great [Link], Infernoble Knight Emperor Charles [Synchro], Angelica's Angelic Ring, Noble Arms Museum, Immortal Phoenix Gearfried
+
+1. Conserva el Equipo que permite la respuesta de Great Charles mientras exista una amenaza rival pendiente.
+2. Compara el ataque del jefe con los monstruos y LP rivales antes de decidir la Battle Phase.
+3. Si aún no puedes terminar, deja Museo o un Equipo disponible para recuperar el motor y no consumas todos los Guerreros.
+
+**Resultado esperado:** Presión de 3500 ATK y respuesta condicionada a Magia/Trampa; no implica daño letal por sí sola.
+
+**Recursos que conservar:** Una carta de Equipo utilizable y un Guerrero para el siguiente turno.
+
+**Alternativa:** Si no has reunido Charles, usa la salida documentada de Angélica o S:P según el campo real.
+
+#### Errores: nivel, Equipos y búsqueda de Isolde
+
+**Objetivo:** Evitar contar un Cantante o un jefe inexistente por la forma incorrecta de Invocación.
+
+**Situación:** Estás utilizando Renaud, Isolde, Angélica o Roland.
+
+**Cartas:** Infernoble Caballero Renaud, Isolde, Two Tales of the Noble Knights [Link], Angelica, Princess of Noble Arms [Synchro], Infernoble Knight Captain Roland [Synchro], Infernoble Knight Emperor Charles [Synchro], Infernoble Arms - Durendal
+
+1. Renaud es Cantante si fue Invocado mediante su procedimiento propio desde mano al controlar un Guerrero FUEGO; si Isolde lo Invoca desde Deck, ese cambio de tipo no se aplica.
+2. El Guerrero añadido por el efecto pertinente de Isolde tiene restricciones durante ese turno; no lo uses como si fuera una extensión libre.
+3. Angélica puede traer Roland solo si se abre su condición; para Charles Nivel 9 aún necesitas el material no Cantante exigido.
+
+**Resultado esperado:** Materiales y condiciones correctos para cada Sincronía o Enlace, sin sumar un jefe ausente.
+
+**Recursos que conservar:** Equipos reales, niveles de los cuerpos y efectos todavía disponibles.
+
+**Alternativa:** Si falta el Nivel 4 para Charles, conserva Roland y Angélica según su ruta, o elige otra salida documentada.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 

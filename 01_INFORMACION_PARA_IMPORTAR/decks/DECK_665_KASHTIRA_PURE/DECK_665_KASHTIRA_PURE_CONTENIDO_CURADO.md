@@ -2,14 +2,165 @@
 
 ## APARTADO_01 — Perfil A01 importable Kashtira Pure 665
 
-- **Arquetipo:** Kashtira
-- **Tipo de estrategia:** Control de recursos y zonas mediante destierro y Xyz de Rango 7
-- **Estilo breve:** Wraitsoth/Fenrir/Unicornio buscan Kash; Teosis/Birth habilitan recursos Nivel 7 y Shangri-Ira/Arise-Heart presionan si hay disparadores, materiales y ventanas legales.
-- **Resumen para ficha:** Con Wraitsoth, Unicornio o Fenrir accede a Teosis y Nacimiento, reúne dos Nivel 7 para Shangri-Ira y elige entre presión por destierro, Arise-Heart o retirada situacional según materiales y ventanas.
-- **Cómo se juega:** Primero, verifica si tu Campo está vacío antes de elegir Fenrir o Unicornio como entrada; sus procedimientos dependen de esa condición. Wraitsoth permite buscar una pieza Kashtira, y Teosis exige seleccionar un monstruo propio para traer desde Deck otro de Atributo distinto. Reúne dos Nivel siete para una Xyz solo si ambos cuerpos siguen en Campo. Shangri-Ira no bloquea zonas al Invocarse: necesita que se cumpla un destierro boca abajo válido del adversario. Segundo, usa Fenrir para retirar amenazas elegibles sin confundir destierro con negación; con dos Nivel siete, Big Eye puede tomar un monstruo rival pagando material, pero no puede atacar tras su efecto. En juego medio, Birth recupera cuerpos no Xyz del Cementerio o destierro según sus requisitos. En juego tardío, elige entre Shangri-Ira, Arise-Heart, Big Eye y ZEUS en función de materiales, restricciones y batalla previa. No supongas cartas ocultas ni daño letal automático.
-- **Qué vigilar:** Fenrir y Unicornio necesitan Campo propio vacío para su Invocación desde mano; Teosis y Riseheart pueden limitar el Extra a Xyz. Shangri-Ira bloquea zonas solo con el destierro boca abajo correcto. Arise-Heart necesita el procedimiento adecuado y materiales reales. Reserva no equivale a Side y no se juega desde ella.
+- **Arquetipo:** Kashtira / motor puro
+- **Tipo de estrategia:** Control de destierro y Xyz de Rango 7
+- **Estilo breve:** Despliega Nivel 7 con Fenrir, Unicornio y Teosis; Shangri-Ira restringe zonas y prepara Arise-Heart, mientras Nacimiento facilita la recuperación.
+- **Resumen para ficha:** Wraitsoth busca iniciadores, Unicornio accede a Teosis y Fenrir genera presión. Shangri-Ira prepara desarrollo; Arise-Heart retira cartas y altera el Cementerio.
+- **Cómo se juega:** Primero: Shangri-Ira con recursos. Si tienes Wraitsoth, actívalo para añadir Unicornio; Invoca Unicornio con el Campo propio sin monstruos. Busca Teosis con Unicornio y úsala sobre él para traer Fenrir de diferente Atributo. Superpón los Nivel 7 para Shangri-Ira; distingue el campo realmente obtenido de sus efectos futuros. Shangri-Ira con dos materiales y Wraitsoth si la apertura fue con Planeta; el bloqueo de zonas todavía no se produce automáticamente. Segundo: tomar o eliminar amenazas. Invoca Fenrir con Campo vacío y busca Unicornio. Activa Nacimiento; Invoca Normalmente Unicornio sin Sacrificios, busca Teosis y úsala para traer Ogro AGUA desde Deck. Si Ogro busca Preparaciones, Colócala. Superpón Fenrir y Ogro en Ojo Grande; desacopla Ogro y selecciona un monstruo rival elegible para tomar su control. Ojo Grande no puede atacar el turno de su efecto. Si necesitas destruir una carta en vez de tomar control, elige Dark Armed como ruta alternativa y respeta su coste y destierro posterior. Ojo Grande con un material (Fenrir), Unicornio, Nacimiento, Preparaciones Colocada y, si resolvió, un monstruo rival bajo tu control; la Normal se gastó y el Extra queda limitado a Xyz. Juego medio: usar Nacimiento para reconstruir. Comprueba que Ogro está realmente en Cementerio y que todavía puedes emplear la Invocación de Tearlaments Kashtira. En la línea documentada, destierra Ogro como recurso para desarrollar Tearlaments Kashtira. Usa Nacimiento para recuperar el Kashtira elegible y reúne dos Nivel 7 para Shangri-Ira. Shangri-Ira con dos materiales y Nacimiento boca arriba si los recursos sobreviven. Juego tardío: elegir Arise-Heart o mantener control. Activa la opción de Shangri-Ira en la Standby legal para desarrollar un Kashtira del Deck. En tu Main Phase, si el efecto de Shangri-Ira se activó exitosamente ese mismo turno, utiliza su procedimiento alternativo para Arise-Heart: superpón sobre Shangri-Ira y transfiere los materiales. Con dos materiales iniciales, Arise-Heart tiene tres. Evalúa si conservar Shangri-Ira y un Fenrir independiente es más útil que concentrar todo el Campo en un único Xyz. Arise-Heart con tres materiales y Fenrir independiente si Shangri-Ira trajo otra copia; su destierro rápido requiere desacoplar tres. Si Shangri-Ira deja el Campo, deja de aplicar su bloqueo de zonas.
+- **Qué vigilar:** Teosis restringe el Extra a Xyz; el bloqueo de Shangri-Ira requiere un destierro rival boca abajo mientras está presente. Arise-Heart necesita tres materiales para retirar.
 
 **Control:** perfil preparado para paquete individual; no certifica importación a producción ni jugadas de calculadora.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: Shangri-Ira con recursos
+
+**Objetivo:** Preparar control de zonas y mantener acceso a otro Kashtira.
+
+**Situación:** Wraitsoth o Unicornio en mano, campo vacío y Teosis, Fenrir y Shangri-Ira disponibles.
+
+**Cartas:** Pressured Planet Wraitsoth, Kashtira Unicorn, Kashtiratheosis, Kashtira Fenrir, Kashtira Shangri-Ira [Xyz rango 7]
+
+1. Si tienes Wraitsoth, actívalo para añadir Unicornio; Invoca Unicornio con el Campo propio sin monstruos.
+2. Busca Teosis con Unicornio y úsala sobre él para traer Fenrir de diferente Atributo.
+3. Superpón los Nivel 7 para Shangri-Ira; distingue el campo realmente obtenido de sus efectos futuros.
+
+**Resultado esperado:** Shangri-Ira con dos materiales y Wraitsoth si la apertura fue con Planeta; el bloqueo de zonas todavía no se produce automáticamente.
+
+**Recursos que conservar:** Una copia disponible de Fenrir para la Standby y materiales Xyz para las continuaciones.
+
+**Alternativa:** Con Fenrir solo, emplea su búsqueda de Riseheart y la línea alternativa de Shangri-Ira.
+
+#### Segundo: tomar o eliminar amenazas
+
+**Objetivo:** Elegir la Xyz que responde a la amenaza rival antes de atacar.
+
+**Situación:** Fenrir y Nacimiento en mano; existe un monstruo rival elegible para Ojo Grande, o una carta que Dark Armed pueda destruir.
+
+**Cartas:** Kashtira Fenrir, Kashtira Birth, Number 11: Big Eye [Xyz rango 7], Dark Armed, the Dragon of Annihilation [Xyz rango 7], Kashtira Unicorn
+
+1. Invoca Fenrir con Campo vacío y busca Unicornio. Activa Nacimiento; Invoca Normalmente Unicornio sin Sacrificios, busca Teosis y úsala para traer Ogro AGUA desde Deck.
+2. Si Ogro busca Preparaciones, Colócala. Superpón Fenrir y Ogro en Ojo Grande; desacopla Ogro y selecciona un monstruo rival elegible para tomar su control.
+3. Ojo Grande no puede atacar el turno de su efecto. Si necesitas destruir una carta en vez de tomar control, elige Dark Armed como ruta alternativa y respeta su coste y destierro posterior.
+
+**Resultado esperado:** Ojo Grande con un material (Fenrir), Unicornio, Nacimiento, Preparaciones Colocada y, si resolvió, un monstruo rival bajo tu control; la Normal se gastó y el Extra queda limitado a Xyz.
+
+**Recursos que conservar:** Nacimiento y los Nivel 7 independientes que no necesites convertir en materiales.
+
+**Alternativa:** Si ya no existe un objetivo legal para Ojo Grande, prioriza Shangri-Ira o una Xyz apropiada para la amenaza real.
+
+#### Juego medio: usar Nacimiento para reconstruir
+
+**Objetivo:** Recuperar un Kashtira de las zonas disponibles y convertirlo en nuevo material.
+
+**Situación:** Nacimiento activo; Ogro en Cementerio y Tearlaments Kashtira disponible según el escenario de recuperación.
+
+**Cartas:** Kashtira Birth, Kashtira Ogre, Tearlaments Kashtira, Kashtira Shangri-Ira [Xyz rango 7]
+
+1. Comprueba que Ogro está realmente en Cementerio y que todavía puedes emplear la Invocación de Tearlaments Kashtira.
+2. En la línea documentada, destierra Ogro como recurso para desarrollar Tearlaments Kashtira.
+3. Usa Nacimiento para recuperar el Kashtira elegible y reúne dos Nivel 7 para Shangri-Ira.
+
+**Resultado esperado:** Shangri-Ira con dos materiales y Nacimiento boca arriba si los recursos sobreviven.
+
+**Recursos que conservar:** Nacimiento y un Kashtira que pueda recuperarse en el siguiente turno.
+
+**Alternativa:** Si Ogro no está disponible, no presupongas un monstruo recuperable; usa la Standby de un Shangri-Ira que siga en Campo.
+
+#### Juego tardío: elegir Arise-Heart o mantener control
+
+**Objetivo:** Pasar de Shangri-Ira a presión de Cementerio sin sacrificar recursos sin necesidad.
+
+**Situación:** Shangri-Ira sigue boca arriba desde el turno anterior y su efecto de Standby puede resolverse.
+
+**Cartas:** Kashtira Shangri-Ira [Xyz rango 7], Kashtira Unicorn, Kashtira Fenrir, Kashtira Arise-Heart [Xyz rango 7], Pressured Planet Wraitsoth
+
+1. Activa la opción de Shangri-Ira en la Standby legal para desarrollar un Kashtira del Deck.
+2. En tu Main Phase, si el efecto de Shangri-Ira se activó exitosamente ese mismo turno, utiliza su procedimiento alternativo para Arise-Heart: superpón sobre Shangri-Ira y transfiere los materiales. Con dos materiales iniciales, Arise-Heart tiene tres.
+3. Evalúa si conservar Shangri-Ira y un Fenrir independiente es más útil que concentrar todo el Campo en un único Xyz.
+
+**Resultado esperado:** Arise-Heart con tres materiales y Fenrir independiente si Shangri-Ira trajo otra copia; su destierro rápido requiere desacoplar tres. Si Shangri-Ira deja el Campo, deja de aplicar su bloqueo de zonas.
+
+**Recursos que conservar:** Una salida adicional en Extra y un Fenrir o Nacimiento para volver a desarrollar.
+
+**Alternativa:** Con pocos materiales, conserva Shangri-Ira y no trates Arise-Heart como una negación universal.
+
+#### Mano débil: un solo Nivel 7
+
+**Objetivo:** Encontrar una apertura sin exigir Wraitsoth y múltiples monstruos.
+
+**Situación:** Fenrir o Unicornio en mano, Campo vacío y sus búsquedas todavía utilizables.
+
+**Cartas:** Kashtira Fenrir, Kashtira Unicorn, Kashtira Riseheart, Kashtiratheosis, Kashtira Shangri-Ira [Xyz rango 7]
+
+1. Invoca Fenrir si no controlas monstruos; busca Riseheart cuando quieras seguir esa línea.
+2. Con Unicornio, busca Teosis y comprueba un Kashtira de Atributo distinto disponible en Deck.
+3. Elige una salida de Shangri-Ira acorde con los recursos obtenidos, sin sumar al Campo los monstruos ya acoplados.
+
+**Resultado esperado:** Shangri-Ira o presión de un Nivel 7 si la búsqueda no permite extender.
+
+**Recursos que conservar:** La Invocación Normal cuando la línea de Unicornio permita reservarla.
+
+**Alternativa:** Si no queda objetivo de Teosis, usa la línea de Fenrir solo cuando dispongas realmente de ese iniciador.
+
+#### Interrupción: proteger la apertura correcta
+
+**Objetivo:** Identificar si se perdió la búsqueda o el acceso a los materiales Xyz.
+
+**Situación:** El rival niega el efecto de Unicornio, Fenrir o Teosis; todavía hay recursos de mano sin gastar.
+
+**Cartas:** Kashtira Unicorn, Kashtira Fenrir, Kashtiratheosis, Kashtira Birth, Book of Moon
+
+1. Si Unicornio no obtuvo Teosis, comprueba si Teosis ya estaba en mano o si Nacimiento permite una línea diferente.
+2. Si Teosis no resolvió, no cuentes el monstruo de Deck entre tus materiales.
+3. Si Nacimiento y un Nivel 7 están disponibles, verifica la continuación alternativa; conserva Fenrir como amenaza cuando no puedas extender.
+
+**Resultado esperado:** Una Xyz solo cuando reúnes los materiales reales, o un Nivel 7 que siga ofreciendo presión.
+
+**Recursos que conservar:** La Normal y Nacimiento antes de gastar recursos buscando un campo imposible.
+
+**Alternativa:** Si no existe segundo cuerpo, termina con Fenrir o Unicornio y reserva defensas de mano.
+
+#### Ganar: presión de destierro y batalla
+
+**Objetivo:** Reducir las opciones del rival y cerrar mediante ataques calculados.
+
+**Situación:** Arise-Heart o Fenrir en Campo con efectos disponibles; conoces LP y amenazas rivales.
+
+**Cartas:** Kashtira Arise-Heart [Xyz rango 7], Kashtira Fenrir, Kashtira Shangri-Ira [Xyz rango 7], Divine Arsenal AA-ZEUS – Sky Thunder [Xyz], Number 11: Big Eye [Xyz rango 7]
+
+1. Conserva tres materiales de Arise-Heart cuando necesites su retirada rápida; aplica su efecto continuo mientras esté boca arriba.
+2. Retira o toma la amenaza que impide tus ataques con una salida documentada y legal.
+3. Si un Xyz batalla y es mejor limpiar que atacar de nuevo, usa el procedimiento de ZEUS en Main Phase 2 cuando corresponda.
+
+**Resultado esperado:** Control de recursos y daño efectivo; ZEUS es una salida de limpieza, no daño letal garantizado.
+
+**Recursos que conservar:** Materiales de Arise-Heart y un recurso de recuperación si la partida continúa.
+
+**Alternativa:** Si no hay daño suficiente, no consumas todos los materiales buscando un letal inexistente.
+
+#### Errores: orden de bloqueo y materiales
+
+**Objetivo:** Evitar aplicar restricciones, bloqueos de zona o cuerpos fuera de su momento real.
+
+**Situación:** Se está usando Teosis, Riseheart, Shangri-Ira o Big Bang.
+
+**Cartas:** Kashtiratheosis, Kashtira Riseheart, Kashtira Shangri-Ira [Xyz rango 7], Kashtira Big Bang, Kashtira Arise-Heart [Xyz rango 7]
+
+1. Después de resolver Teosis, limita el Extra a Xyz el resto del turno; no apliques ese límite retroactivamente.
+2. Un destierro anterior a la presencia de Shangri-Ira no bloquea una zona por su efecto.
+3. Al acoplar Fenrir o Riseheart, retíralos de los cuerpos independientes; solo usa Big Bang y Arise-Heart si cumplen su procedimiento.
+
+**Resultado esperado:** Un Campo con zonas, materiales y restricciones acordes con el orden de resolución.
+
+**Recursos que conservar:** El material que corresponda a Big Bang y los efectos de Shangri-Ira realmente disponibles.
+
+**Alternativa:** Si buscas una Sincronía como Baronne, revisa la apertura específica antes de imponer el bloqueo Xyz.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del estudio histórico
 

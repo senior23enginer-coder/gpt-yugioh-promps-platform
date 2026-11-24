@@ -2,14 +2,165 @@
 
 ## APARTADO_01 — Perfil A01 importable 653
 
-- **Arquetipo:** DoomZ, con sus piezas de Modelo de Poder y Equipos registrados.
-- **Tipo de estrategia:** preparación de materiales y salidas Xyz condicionadas.
-- **Estilo breve:** desarrollo por efectos encadenados y aprovechamiento de recursos que se equipan, destruyen o recuperan.
-- **Resumen para ficha:** Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios.
-- **Cómo se juega:** Incursores y las piezas DoomZ dan acceso al motor; Amalthe y Elara ayudan a construir el campo. Drastrius y Júpiter representan salidas diferentes y deben cumplir procedimientos propios. Primero: desarrolla con Incursores DoomZ y Amalthe comprobando los Equipos. Segundo: elige entre retirar amenazas o extender sin confundir equipar y destruir. Juego medio: recupera Equipo y materiales con Elara según sus efectos. Juego tardío: decide si Drastrius tiene materiales y ventanas para cerrar la partida. Antes de continuar, coteja los materiales y ventanas del efecto concreto; un resultado documental no acredita una simulación.
-- **Qué vigilar:** niveles/materiales, bloqueos del Extra y consumo de Equipos. Enviar una carta no es lo mismo que destruirla.
+- **Arquetipo:** DoomZ / Modelo de Poder
+- **Tipo de estrategia:** Combo Xyz con control mediante Equipos
+- **Estilo breve:** Destruye recursos DoomZ para buscar o colocar soporte, equipa monstruos y conviértelos en Xyz Máquina VIENTO; Drastrius controla y Júpiter presiona.
+- **Resumen para ficha:** Incursores, Amalthe y Elara convierten destrucciones en búsquedas y Equipos. Drastea equipada accede a Drastrius; Medius abre alternativas con Diactorus o Júpiter.
+- **Cómo se juega:** Primero: Drastrius con una respuesta. Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck. En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea. Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8. Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba. Segundo: elegir cómo romper el campo. Completa la apertura hacia Drastrius solo si Incursores y Elara pueden resolver. Si Drastrius puede combatir y se cumple el procedimiento de ZEUS, valora sobreponerlo tras la batalla. Desacopla dos materiales de ZEUS únicamente cuando limpiar las otras cartas del Campo compense perder también recursos propios. ZEUS con materiales para limpieza condicional, o Drastrius conservado si la batalla o la limpieza no convienen. Juego medio: reciclar Equipos y destrucción. Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck. Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno. Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción. Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse. Juego tardío: presión de Júpiter. Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck. Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar. Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo. Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.
+- **Qué vigilar:** Respeta los límites de cada efecto de Elara y Amalthe, la restricción Xyz de Incursores y los materiales de Drastrius. Júpiter puede entrar sin materiales.
 
 **Procedencia:** paquete estructurado de esta identidad con inventario vivo validado en solo lectura; ninguna importación de producción se atribuye a este cambio.
+
+
+
+<!-- A01_PLAYER_STRATEGY_V2_START -->
+### Plan práctico de juego
+
+#### Primero: Drastrius con una respuesta
+
+**Objetivo:** Construir una interacción de monstruo sin gastar la Normal si la mano lo permite.
+
+**Situación:** Incursores DoomZ y Elara en mano; Drastea y Mando en Deck; Drastrius en Extra.
+
+**Cartas:** Incursores DoomZ, DoomZ VII Siete - Elara, DoomZ XII Cero - Drastea, Mando DoomZ «D.O.O.M.D.U.R.G.», DoomZ XII Fin - Drastrius
+
+1. Activa Incursores para destruir Elara por efecto e Invocar Drastea del Deck.
+2. En una cadena nueva, Elara Coloca Mando; actívalo como Mágica de Equipo sobre Drastea.
+3. Con Drastea equipada, activa su Efecto Rápido: Invoca Drastrius, Xyz Máquina VIENTO de Rango 8, acoplando Drastea y Mando. No necesitas tres monstruos de Nivel 8.
+
+**Resultado esperado:** Drastrius (2700 ATK) con Drastea y Mando como materiales; Incursores boca arriba, Elara en Cementerio y Normal libre. Una vez por turno, desacopla 1 para negar un efecto de monstruo rival activado en Campo o Cementerio; puede equipar después un monstruo rival boca arriba.
+
+**Recursos que conservar:** Un material para la interacción de Drastrius y la Normal si todavía está libre.
+
+**Alternativa:** Con Incursores y Amalthe, busca Elara tras destruir Amalthe y gasta la Normal para colocar Mando.
+
+#### Segundo: elegir cómo romper el campo
+
+**Objetivo:** Retirar una amenaza antes de comprometer los materiales restantes.
+
+**Situación:** El rival controla monstruos o cartas que siguen siendo vulnerables; dispones de una apertura hacia Drastrius y, si procede, de la Battle Phase.
+
+**Cartas:** DoomZ XII Fin - Drastrius, Divino Arsenal AA-ZEUS - Trueno del Cielo, Incursores DoomZ, DoomZ VII Siete - Elara
+
+1. Completa la apertura hacia Drastrius solo si Incursores y Elara pueden resolver.
+2. Si Drastrius puede combatir y se cumple el procedimiento de ZEUS, valora sobreponerlo tras la batalla.
+3. Desacopla dos materiales de ZEUS únicamente cuando limpiar las otras cartas del Campo compense perder también recursos propios.
+
+**Resultado esperado:** ZEUS con materiales para limpieza condicional, o Drastrius conservado si la batalla o la limpieza no convienen.
+
+**Recursos que conservar:** Materiales Xyz, Incursores y cartas de mano que no sea necesario gastar.
+
+**Alternativa:** Si el ataque no es posible, conserva Drastrius y su respuesta a monstruos en lugar de anunciar ZEUS.
+
+#### Juego medio: reciclar Equipos y destrucción
+
+**Objetivo:** Convertir una destrucción propia en otra amenaza sin perder la posibilidad de interacción.
+
+**Situación:** Elara y Drastea disponibles; existe Adrasteia o Mando en el Deck y una zona de Magias/Trampas utilizable.
+
+**Cartas:** DoomZ VII Siete - Elara, DoomZ XII Cero - Drastea, Mando DoomZ «A.D.R.A.S.T.E.I.A.», Destrucción DoomZ, Fractura DoomZ - Diactorus
+
+1. Si eliges Drastrius, Invoca Normalmente Elara y usa su disparo para Colocar Destrucción DoomZ desde el Deck.
+2. Desde mano, activa Drastea sobre Elara; destrúyela, Invoca Drastea y equipa Adrasteia del Deck si sigue disponible. Elara ya usó su efecto de colocar soporte este turno.
+3. Activa el Efecto Rápido de Drastea equipada para Invocar Drastrius con los dos materiales. Para Diactorus, elige en cambio la línea documentada que reserva el disparo de Elara hasta su destrucción.
+
+**Resultado esperado:** Drastrius de Rango 8 y Destrucción DoomZ Colocada; Diactorus es una ruta diferente. La Trampa requiere una ventana legal antes de poder aplicarse.
+
+**Recursos que conservar:** Una carta DoomZ para destruir, un Equipo utilizable y materiales del siguiente Xyz.
+
+**Alternativa:** Si no quedan Equipos válidos, evita gastar Drastea esperando una Xyz que no se puede completar.
+
+#### Juego tardío: presión de Júpiter
+
+**Objetivo:** Cambiar a una amenaza de 3500 ATK cuando el motor de Equipos no está disponible.
+
+**Situación:** Medius en mano, Jupredo (alias Zegredo en la lista) en Deck, Júpiter en Extra y al menos tres cartas para desterrar boca abajo.
+
+**Cartas:** Medius el Puro, Modelo de Poder Máquina de Sombras Zegredo, Júpiter el Modelo de Poder de Destrucción, DoomZ XII Fin - Drastrius
+
+1. Invoca Normalmente Medius y usa su efecto para Invocar Jupredo desde el Deck.
+2. Destierra las tres cartas superiores boca abajo para activar el efecto de monstruo de Jupredo. Destrúyelo al resolver para Invocar Júpiter; en la mano mínima no queda carta adicional que acoplar.
+3. Cuando Jupredo llegue boca arriba al Extra, usa su búsqueda opcional de Magia/Trampa DoomZ o Modelo de Poder si queda un objetivo.
+
+**Resultado esperado:** Júpiter de 3500 ATK y Medius en Campo; no hay material que desacoplar de Júpiter en esta apertura.
+
+**Recursos que conservar:** Piezas DoomZ que aún estén en Deck, y acceso a Drastrius para un turno posterior.
+
+**Alternativa:** Si quedan pocas cartas esenciales o el coste es demasiado arriesgado, usa la salida documentada de Medius con Modelo de Poder hacia Drastrius.
+
+#### Mano débil: abrir con Cambio o Medius
+
+**Objetivo:** Identificar una salida real aunque no se hayan robado Incursores y Elara juntos.
+
+**Situación:** La mano contiene Cambio DoomZ o Medius; comprueba las piezas todavía presentes en el Deck.
+
+**Cartas:** Cambio DoomZ, Medius el Puro, DoomZ Modelo de Poder, DoomZ VII Siete - Elara, Fractura DoomZ - Diactorus, DoomZ XII Fin - Drastrius
+
+1. Con Cambio, destruye Modelo de Poder desde el Deck y usa su búsqueda posterior para conseguir Elara.
+2. Invoca Elara, coloca y activa Mando, y sigue su acceso a Diactorus si sus condiciones se cumplen.
+3. Con Medius en lugar de Cambio, Invoca Modelo de Poder del Deck y utiliza su acceso alternativo a Diactorus.
+
+**Resultado esperado:** Un puente Xyz hacia Drastrius en las aperturas documentadas, no un campo garantizado si falta una pieza.
+
+**Recursos que conservar:** La Normal hasta saber qué iniciador se usará y las copias de Equipo que exigen las rutas.
+
+**Alternativa:** Si no está Modelo de Poder en Deck, cambia a la línea de Incursores con Amalthe solo cuando ambas estén disponibles.
+
+#### Interrupción: distinguir destrucción y búsqueda
+
+**Objetivo:** Conservar una apertura alternativa si el rival corta el primer efecto.
+
+**Situación:** El rival puede negar Incursores, Medius o la colocación de Elara; revisa qué llegó a resolverse.
+
+**Cartas:** Incursores DoomZ, DoomZ V Cinco - Amalthe, DoomZ VII Siete - Elara, Cambio DoomZ, Medius el Puro
+
+1. Si Incursores no resolvió su destrucción, Elara o Amalthe no obtienen un disparo por esa destrucción inexistente.
+2. Comprueba si Cambio sigue en mano y si queda un objetivo en Deck; úsalo como apertura distinta solo si todavía es legal.
+3. Si la búsqueda de Elara se perdió, conserva la Normal y valora Medius si está disponible y no hay restricción incompatible.
+
+**Resultado esperado:** La continuación depende de las cartas realmente conservadas; si no hay segundo iniciador, termina sin consumir más recursos.
+
+**Recursos que conservar:** La carta que sobreviva a la negación y cualquier iniciador independiente no utilizado.
+
+**Alternativa:** Si ninguna apertura puede resolver, conserva las respuestas defensivas y espera un turno en vez de gastar los Equipos sin objetivo.
+
+#### Ganar: alternar control y daño
+
+**Objetivo:** Usar las interacciones para abrir una Battle Phase favorable y cerrar con daño comprobable.
+
+**Situación:** Drastrius ya tiene materiales o se puede acceder a Júpiter; conoces los monstruos y LP rivales.
+
+**Cartas:** DoomZ XII Fin - Drastrius, Júpiter el Modelo de Poder de Destrucción, Divino Arsenal AA-ZEUS - Trueno del Cielo, DoomZ V Cinco - Amalthe, DoomZ VII Siete - Elara
+
+1. Con Drastrius, guarda la negación para una activación rival elegible que impida tu desarrollo o combate.
+2. Cuando sea tu turno, compara la suma de ataques disponibles con las defensas y LP del rival.
+3. Elige Júpiter como presión si su acceso es legal; reserva ZEUS para limpiar un campo que no puedas superar atacando.
+
+**Resultado esperado:** Ventaja por interacción y daño efectivo; 2700 o 3500 ATK por sí solos no equivalen a daño letal.
+
+**Recursos que conservar:** Material de interacción y un iniciador para reconstruir si el ataque no termina la partida.
+
+**Alternativa:** Si no puedes ganar este turno, prioriza conservar Drastrius o una salida de recuperación sobre atacar sin protección.
+
+#### Errores: costes, Equipos y restricciones
+
+**Objetivo:** Evitar perder una búsqueda o construir una Xyz ilegal por confundir operaciones.
+
+**Situación:** Estás decidiendo una ruta con Incursores, Drastea, Mando o Destrucción DoomZ.
+
+**Cartas:** Incursores DoomZ, DoomZ XII Cero - Drastea, Mando DoomZ «D.O.O.M.D.U.R.G.», Destrucción DoomZ, DoomZ XII Fin - Drastrius
+
+1. Distingue destruir por efecto de pagar un coste: los disparos de Elara y Amalthe necesitan su evento correspondiente.
+2. Después de colocar Mando, actívalo y equipa un objetivo válido antes de usar el procedimiento que lo convierte en material.
+3. Tras resolver el efecto pertinente de Incursores, respeta el límite a Xyz desde Extra; comprueba los materiales de Drastrius antes de negar.
+
+**Resultado esperado:** Las cartas terminan en sus zonas reales y las interacciones se emplean únicamente en la ventana correcta.
+
+**Recursos que conservar:** El Equipo que exige la Xyz y al menos un material para Drastrius si planeas responder.
+
+**Alternativa:** Si no cumples el requisito de Equipo, conserva el monstruo o busca una apertura alternativa desde Cambio.
+
+<!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
