@@ -164,6 +164,48 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 706; nombre en plataforma: Hero; nombre fuente: Hero; formato: `rush_duel`.
+- Carpeta única: `DECK_706_HERO`; documento: `DECK_706_HERO_CONTENIDO_CURADO.md`.
+- Main 30 / Extra 8 / Side 0 / Reserva 0; 17 CID; 17 filas; 1 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `767a01de0722edd070e2f42eef65779d00d3deee`; blob documental anterior: `64aa9a6d8af2233040920601caa3cc945d929988`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 706", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `8989ee2f50f67beefee871ac20fa6f0dd74a141a4bc4ceb98e79f863ed28406f`. SHA-256 del ZIP de entrada auditado: `3caf847995f6458b26010b5db981ee2cbde1d953d85b2ff40c79aac9d48fbcf0`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:23:44+00:00; lectura nativa de solo lectura: 2026-11-24T19:56:38.561028+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 412 | 20460 | Héroe Elemental Avian | main | 3 |
+| 413 | 20457 | Héroe Elemental Sparkman | main | 3 |
+| 414 | 20459 | Héroe Elemental Burstinatrix | main | 3 |
+| 415 | 20461 | Héroe Ascendente de Argen | main | 3 |
+| 416 | 16929 | Inicio Reinicio | main | 3 |
+| 417 | 20665 | Descenso de Héroe | main | 3 |
+| 418 | 20151 | Brillo Sombrío | main | 3 |
+| 419 | 20465 | Circulación Elemental | main | 3 |
+| 420 | 16358 | Estrategia Mágica Aviar | main | 2 |
+| 421 | 16934 | Fusión | main | 2 |
+| 422 | 15913 | Agujero Trampa | main | 1 |
+| 423 | 16372 | Olla de la Codicia | main | 1 |
+| 424 | 21316 | Héroe Elemental Voltic Wingman | extra | 2 |
+| 425 | 20454 | Héroe Elemental del Estallido Wingman | extra | 2 |
+| 426 | 20453 | Héroe Elemental de la Llama Wingman | extra | 1 |
+| 427 | 21501 | Héroe Elemental Heliosfera | extra | 1 |
+| 428 | 20610 | Héroe Elemental Shining Flare Wingman | extra | 2 |
+
+**Rutas existentes:** `706:A09:AVIAN:BURST01A`, `706:A09:AVIAN:BURST01B`, `706:A09:VOLTIC:SECOND01A`, `706:A09:VOLTIC:SECOND01B`, `706:A09:VOLTIC:SECOND01C`, `706:A09:SHINING:DOUBLE01`, `706:A09:V11:TRIPLE_NORMAL:HELIOSPHERE`, `706:A09:AVIAN:BURST01A/B`, `706:A09:VOLTIC:SECOND01A/B/C`.
+**Skills:** [{"name": "HERO RUSH RISING"}].
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -244,9 +286,9 @@
 - [ ] **A01-T5** — BLOQUEADA: sin evidencia de importación/exportación/render/rechazo para el deck 706.
 
 ### A02
-- [ ] **A02-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
-- [ ] **A02-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
-- [ ] **A02-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
+- [x] **A02-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — NO CERTIFICADA bajo la matriz nueva, conservar material histórico.
