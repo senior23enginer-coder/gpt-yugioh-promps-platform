@@ -328,6 +328,55 @@ Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad liter
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 39/39 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 39/39 filas por ID/zona/cantidad; huella FNV-1a64 `8486722fd8508376` (no es inventory_sha256 de Station X). Los 39 nombres por ID coinciden exactamente con V40 (FNV-1a64 `eb78da4f37f498db`); las 39 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 40/15/15/0; 39 identidades, 5 rutas, 26 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
+
+Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID de esta tabla **son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada**. No inferir YGOPRODeck ID, no cambiar inventario y no marcar T2 completa. Fuente oficial indicada por cada CID; pendiente consulta independiente y comparación de nombre, formato, requisitos, y escritura nativa autorizada mediante mecanismo seguro.
+
+| card_id | Nombre del inventario | Zona | Copias | CID candidato | Fuente oficial |
+|---:|---|---|---:|---:|---|
+| 598 | Salamangrande Gacela | main | 3 | 14240 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14240&ope=2&request_locale=es) |
+| 599 | Salamangrande de Fuego | main | 3 | 18908 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18908&ope=2&request_locale=es) |
+| 600 | Salamangrande Rotante | main | 2 | 14241 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14241&ope=2&request_locale=es) |
+| 601 | Salamangrande Comadreja | main | 1 | 18909 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18909&ope=2&request_locale=es) |
+| 602 | Salamangrande Zorro | main | 1 | 13890 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13890&ope=2&request_locale=es) |
+| 603 | Salamangrande Jaque Jaguar | main | 1 | 13892 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13892&ope=2&request_locale=es) |
+| 604 | Salamangrande Halcón | main | 1 | 13891 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13891&ope=2&request_locale=es) |
+| 605 | Salamangrande Topo | main | 1 | 14239 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14239&ope=2&request_locale=es) |
+| 606 | Hiita la Canalizadora del Fuego | main | 1 | 18813 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18813&ope=2&request_locale=es) |
+| 607 | Flor de Ceniza & Primavera Feliz | main | 3 | 12950 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) |
+| 608 | El Bufón y el Pájaro del Candado | main | 3 | 9279 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) |
+| 609 | Fuwalos Multivadora | main | 3 | 20500 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) |
+| 610 | Purulia Multivadora | main | 1 | 20206 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) |
+| 611 | Círculo Salamangrande | main | 3 | 14244 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14244&ope=2&request_locale=es) |
+| 612 | Cinet-Minado | main | 3 | 14301 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14301&ope=2&request_locale=es) |
+| 613 | Gobernante Oscuro No Más | main | 3 | 14742 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es) |
+| 614 | Santuario Salamangrande | main | 1 | 13938 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13938&ope=2&request_locale=es) |
+| 615 | Voluntad de la Salamangrande | main | 1 | 13940 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13940&ope=2&request_locale=es) |
+| 616 | Llamado por la Tumba | main | 1 | 13619 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) |
+| 617 | Infinito Temporal | main | 3 | 13631 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es) |
+| 618 | Rugido Salamangrande | main | 1 | 14247 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14247&ope=2&request_locale=es) |
+| 619 | Salamangrande Lincefogata | extra | 3 | 14249 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14249&ope=2&request_locale=es) |
+| 620 | Salamangrande Lobo de la Luz Solar | extra | 2 | 14125 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14125&ope=2&request_locale=es) |
+| 621 | Salamangrande Piro Fénix | extra | 2 | 14666 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14666&ope=2&request_locale=es) |
+| 622 | Salamangrande Fénix Furioso | extra | 2 | 18912 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18912&ope=2&request_locale=es) |
+| 623 | Salamangrande Espejismetal | extra | 1 | 14248 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14248&ope=2&request_locale=es) |
+| 624 | Princesa Prometeica, Otorgadora de Llamas | extra | 1 | 19507 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=es) |
+| 625 | Fénix de Fuego @Ignister | extra | 1 | 14855 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14855&ope=2&request_locale=es) |
+| 626 | Hiita la Encantadora del Fuego, Encendida | extra | 1 | 14133 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=es) |
+| 627 | Mago Proxy F | extra | 1 | 15033 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15033&ope=2&request_locale=es) |
+| 628 | Salamangrande Quimera Violeta | extra | 1 | 14111 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14111&ope=2&request_locale=es) |
+| 629 | Artefacto Lancea | side | 3 | 11243 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) |
+| 630 | Despertar del Poseído - Inari de Fuego Superior | side | 1 | 15406 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15406&ope=2&request_locale=es) |
+| 631 | Tormenta de Relámpagos | side | 2 | 14876 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es) |
+| 632 | Polvo de Pluma de Arpía | side | 1 | 4678 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=es) |
+| 633 | Máscara de la Debilidad | side | 3 | 5102 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5102&ope=2&request_locale=es) |
+| 634 | Pelea Pareja | side | 3 | 13293 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=es) |
+| 635 | Arte Espiritual del Fuego - Kurenai | side | 1 | 6441 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6441&ope=2&request_locale=es) |
+| 636 | Emparejamiento de Atributos | side | 1 | 7934 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=es) |
+
+Resultado: 39/39 filas con candidato único de CID en el paquete; 0/39 fichas con evidencia histórica de texto oficial y 0/39 con nombre de identidad histórico. La ausencia de huella no demuestra falta de efecto. T1/T3 conservan sus bloqueos de evidencia física, Skill si corresponde y censo semántico exhaustivo.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
