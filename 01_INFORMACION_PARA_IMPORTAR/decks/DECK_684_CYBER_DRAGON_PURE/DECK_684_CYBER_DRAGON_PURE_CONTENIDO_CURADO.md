@@ -164,6 +164,91 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 684; nombre en plataforma: Cyber Dragon Pure; nombre fuente: Cyber Dragon Pure; formato: `tcg_advanced`.
+- Carpeta única: `DECK_684_CYBER_DRAGON_PURE`; documento: `DECK_684_CYBER_DRAGON_PURE_CONTENIDO_CURADO.md`.
+- Main 42 / Extra 15 / Side 0 / Reserva 24; 52 CID; 60 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `c4f560bf8cafa0bca23a1015f3add823e81c47c2`; blob documental anterior: `8f0ba0335bf6ba707c3739159e8c14472a574ab6`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 684", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `c7574f2162e47eba12302495965aac6a32657b49713a0abec18109d00b05e6f9`. SHA-256 del ZIP de entrada auditado: `684e6a467668500ae263661c98f3921075e7aaa2346947ec83e1b83bf8e102d4`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:22:38+00:00; lectura nativa de solo lectura: 2026-11-24T19:55:44.971449+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 224 | 10866 | Cyber Dragon Core | main | 3 |
+| 225 | 6390 | Cyber Dragon | main | 1 |
+| 226 | 14047 | Cyber Dragon Nachster | main | 1 |
+| 227 | 13723 | Cyber Dragon Herz | main | 1 |
+| 228 | 16296 | Cyberdark Chimera | main | 1 |
+| 229 | 6830 | Cyberdark Horn | main | 1 |
+| 230 | 21164 | Cyberdark Wurm [Konami 21164] | main | 1 |
+| 231 | 13181 | Cyberdark Claw | main | 2 |
+| 232 | 6663 | Cyber Phoenix | main | 1 |
+| 233 | 21163 | Cyber Jormungardr [Konami 21163] | main | 1 |
+| 234 | 17119 | Therion "King" Regulus | main | 1 |
+| 235 | 12950 | Ash Blossom & Joyous Spring | main | 3 |
+| 236 | 13587 | Ghost Belle & Haunted Mansion | main | 2 |
+| 237 | 20205 | Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] | main | 1 |
+| 238 | 8428 | Cyber Emergency | main | 3 |
+| 239 | 16298 | Cyberdark Realm | main | 2 |
+| 240 | 13770 | Cyber Revsystem | main | 2 |
+| 241 | 16301 | Cybernetic Horizon | main | 2 |
+| 242 | 17625 | Clockwork Night | main | 2 |
+| 243 | 6398 | Power Bond | main | 1 |
+| 244 | 5129 | Limiter Removal | main | 1 |
+| 245 | 13849 | Cyberload Fusion | main | 1 |
+| 246 | 6783 | Overload Fusion | main | 1 |
+| 247 | 16297 | Cyber Eternal | main | 1 |
+| 248 | 4909 | Mystical Space Typhoon | main | 1 |
+| 249 | 12464 | Cosmic Cyclone | main | 1 |
+| 250 | 13631 | Infinite Impermanence | main | 3 |
+| 251 | 13787 | Cybernetic Overflow | main | 1 |
+| 252 | 11764 | Chimeratech Rampage Dragon (Konami ID 11764) | extra | 2 |
+| 253 | 13758 | Cyber Dragon Sieger | extra | 1 |
+| 254 | 7403 | Chimeratech Fortress Dragon | extra | 1 |
+| 255 | 20787 | Clockwork Knight (Konami ID 20787) | extra | 1 |
+| 256 | 14710 | Barricadeborg Blocker | extra | 1 |
+| 257 | 10870 | Cyber Dragon Nova (Konami ID 10870) | extra | 1 |
+| 258 | 20511 | Heosvarog the Mechanical Dawn (Konami ID 20511) | extra | 1 |
+| 259 | 13502 | Qliphort Genius | extra | 1 |
+| 260 | 13358 | Chimeratech Megafleet Dragon | extra | 1 |
+| 261 | 18448 | Sky Striker Ace - Azalea | extra | 1 |
+| 262 | 16233 | Chronomaly Vimana | extra | 1 |
+| 263 | 11765 | Cyber Dragon Infinity (Konami ID 11765) | extra | 1 |
+| 264 | 19188 | S:P Little Knight | extra | 1 |
+| 265 | 13847 | Cyber Eternity Dragon | extra | 1 |
+| 266 | 7436 | El Calculador | reserve | 2 |
+| 267 | 7400 | Prisión Dimensional | reserve | 1 |
+| 268 | 20500 | Fuwalos Multivadora | reserve | 2 |
+| 269 | 9279 | Droll & Lock Bird | reserve | 2 |
+| 270 | 16301 | Cybernetic Horizon | reserve | 1 |
+| 271 | 14876 | Tormenta de Relámpagos | reserve | 3 |
+| 272 | 12464 | Cosmic Cyclone | reserve | 1 |
+| 273 | 12872 | Fusion Recycling Plant | reserve | 1 |
+| 274 | 15296 | Talento de Tácticas Triples | reserve | 1 |
+| 275 | 16298 | Cyberdark Realm | reserve | 1 |
+| 276 | 6398 | Power Bond | reserve | 1 |
+| 277 | 13723 | Cyber Dragon Herz | reserve | 1 |
+| 278 | 13851 | Revolución Cibernética | reserve | 1 |
+| 279 | 13758 | Cyber Dragon Sieger | reserve | 1 |
+| 280 | 6397 | Dragón Ciber Final | reserve | 1 |
+| 281 | 20787 | Clockwork Knight (Konami ID 20787) | reserve | 2 |
+| 282 | 6734 | Chimeratech Overdragon | reserve | 1 |
+| 283 | 10870 | Cyber Dragon Nova (Konami ID 10870) | reserve | 1 |
+
+**Rutas existentes:** `684:A09:OVERLOAD:RAMPAGE01`, `684:A09:CLAW:REALM:POWERBOND:RAMPAGE01`, `684:A09:CLOCKWORK:FORTRESS01`, `684:A09:MEGAFLEET:CYBER01`, `684:A09:MEGAFLEET:CORE01`, `684:A09:REV:HERZ:NOVA:INFINITY01`, `684:A09:OVERLOAD:CYBERLOAD:DOUBLE_RAMPAGE01`, `684:A09:NACHSTER:SIEGER01`, `684:A09:POWERBOND:CYBER_NACHSTER:HEOS09`, `684:A09:POWERBOND:CYBER_HERZ_NACHSTER:ETERNITY10`, `684:A09:CYBER:CORE:SP_DEFENSA11`, `684:A09:CYBER:CORE:CLOCKWORK:GENIUS12`, `684:A09:CORE:NIGHT:CLOCKWORK_KNIGHT13`, `684:A09:CYBER:HORN:NIGHT:BARRICADEBORG14`, `684:A09:CYBER:CORE:AZALEA15`, `684:A09:JORMUNGARDR:VIMANA16`, `684:A09:V11:CORE:WURM:REVSYSTEM:INFINITY:OVERFLOW`.
+**Skills:** No aplica..
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -278,9 +363,9 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 - [ ] **A01-T5** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
-- [ ] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
+- [x] **A02-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — Sin evidencia nueva suficiente para certificación bajo este manifiesto. — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia nueva suficiente para certificación bajo este manifiesto.
