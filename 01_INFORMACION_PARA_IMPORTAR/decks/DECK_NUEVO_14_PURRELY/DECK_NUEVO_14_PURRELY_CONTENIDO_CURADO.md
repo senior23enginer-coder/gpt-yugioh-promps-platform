@@ -329,6 +329,52 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 36/36 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 36/36 filas por ID/zona/cantidad; huella FNV-1a64 `dcb3713b79d2103f` (no es inventory_sha256 de Station X). Los 36 nombres por ID coinciden exactamente con V40 (FNV-1a64 `ada89916a2244bc5`); las 36 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 48/15/7/0; 36 identidades, 5 rutas, 24 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
+
+Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID de esta tabla **son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada**. No inferir YGOPRODeck ID, no cambiar inventario y no marcar T2 completa. Fuente oficial indicada por cada CID; pendiente consulta independiente y comparación de nombre, formato, requisitos, y escritura nativa autorizada mediante mecanismo seguro.
+
+| card_id | Nombre del inventario | Zona | Copias | CID candidato | Fuente oficial |
+|---:|---|---|---:|---:|---|
+| 562 | Purrely | main | 3 | 18003 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es) |
+| 563 | Purrelyly | main | 2 | 18481 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) |
+| 564 | Flor de Ceniza & Primavera Feliz | main | 3 | 12950 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) |
+| 565 | Ángel del Alba Kambi | main | 3 | 21338 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) |
+| 566 | Hermana Fantasma & Conejo Espectral | main | 2 | 11708 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es) |
+| 567 | Bella Fantasma & Mansión Embrujada | main | 2 | 13587 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es) |
+| 568 | El Bufón y el Pájaro del Candado | main | 3 | 9279 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) |
+| 569 | Fuwalos Multivadora | main | 3 | 20500 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) |
+| 570 | Purulia Multivadora | main | 3 | 20206 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) |
+| 571 | Mi Amigo Purrely | main | 3 | 18010 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es) |
+| 572 | Calle Purrely Vagabundo | main | 3 | 18009 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es) |
+| 573 | Bello Recuerdo Purrely | main | 3 | 18012 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es) |
+| 574 | Feliz Recuerdo Purrely | main | 3 | 18011 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es) |
+| 575 | Delicioso Recuerdo Purrely | main | 2 | 18013 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es) |
+| 576 | Sueño Recuerdo Purrely | main | 2 | 18524 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es) |
+| 577 | Prohibida la Venta | main | 2 | 16868 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es) |
+| 578 | Olla de la Prosperidad | main | 1 | 15756 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=es) |
+| 579 | Talento de Tácticas Triples | main | 1 | 15296 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) |
+| 580 | Gobernante Oscuro No Más | main | 1 | 14742 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es) |
+| 581 | Monstruo Renacido | main | 1 | 4842 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es) |
+| 582 | ¿¡Purrelysaltó!? | main | 1 | 18014 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es) |
+| 583 | Infinito Temporal | main | 1 | 13631 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es) |
+| 584 | Felicidad Epurrely | extra | 2 | 18004 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es) |
+| 585 | Belleza Epurrely | extra | 2 | 18005 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es) |
+| 586 | Rechoncho Epurrely | extra | 2 | 18006 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es) |
+| 587 | Noir Expurrely | extra | 3 | 18008 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) |
+| 588 | Princesaduende Silvana | extra | 1 | 12027 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es) |
+| 589 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 | 15524 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es) |
+| 590 | Señoroscuro Condenado | extra | 1 | 14208 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es) |
+| 591 | Protector del Agente - Luna | extra | 1 | 16651 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es) |
+| 592 | S:P Pequeña Caballera | extra | 1 | 19188 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) |
+| 593 | Ánima Renunciada | extra | 1 | 13841 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es) |
+| 594 | Artefacto Lancea | side | 3 | 11243 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) |
+| 595 | Nibiru, el Ser Primitivo | side | 2 | 14741 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es) |
+| 596 | Impulso de Tácticas Triples | side | 1 | 18214 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es) |
+| 597 | Llamado por la Tumba | side | 1 | 13619 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) |
+
+Resultado: 36/36 filas con candidato único de CID en el paquete; 0/36 fichas con evidencia histórica de texto oficial y 0/36 con nombre de identidad histórico. La ausencia de huella no demuestra falta de efecto. T1/T3 conservan sus bloqueos de evidencia física, Skill si corresponde y censo semántico exhaustivo.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
