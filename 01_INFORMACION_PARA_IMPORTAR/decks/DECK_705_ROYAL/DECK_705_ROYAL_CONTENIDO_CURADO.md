@@ -227,6 +227,38 @@
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 705, Royal, formato rush_duel; Main/Extra/Side/Reserva 30/0/0/0; 16 CID y 16 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 705: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 16 IDs de ficha, 16 card_id, 6 route_id, 1 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 705](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/705.json), blob `43c3d13cc9332ecfb5a1961621e365fe9c499caa`. Paquete GPT: blob `e1f05ed950722ef7498c033fd2a1f2eaa53b6ac6`; Markdown anterior: blob `d8e933512ae940b5af6ff2b00972d2055bc5938e`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 16344 | Kheiron el Caballero Estelar | 705:A08:C001 | 466:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2 |
+| 16330 | Phaser del Rebelde Real | 705:A08:C002 | 467:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2 |
+| 19760 | Impasse Ignoto | 705:A08:C003 | 468:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2 |
+| 16331 | Metal Maldito del Rebelde Real | 705:A08:C004 | 469:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2 |
+| 15441 | Heavy Metal del Rebelde Real | 705:A08:C005 | 470:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2 |
+| 19761 | Progrock del Rebelde Real | 705:A08:C006 | 471:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2 |
+| 16135 | Descendiente de Titanes | 705:A08:C007 | 472:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2 |
+| 17721 | Canjear | 705:A08:C008 | 473:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2 |
+| 15673 | Aliento de Fuego del Genio | 705:A08:C009 | 474:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2 |
+| 17543 | Restauración de Cartas | 705:A08:C010 | 475:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2 |
+| 21007 | Maldición de la Luz Ascendente | 705:A08:C011 | 476:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2 |
+| 18646 | Gelatina Defensiva | 705:A08:C012 | 477:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja |
+| 19799 | Avaricia del Rey | 705:A08:C013 | 478:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2 |
+| 15913 | Agujero Trampa | 705:A08:C014 | 479:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 15674 | Esplendor del Rey | 705:A08:C015 | 480:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2 |
+| 16305 | Monstruo Reencarnado | 705:A08:C016 | 481:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2 |
+
+**Rutas preservadas:** `705:A09:OVERTURE:DEATHDOOM01`, `705:A09:OVERTURE:HEAVY01`, `705:A09:OVERTURE:PROGROCK01`, `705:A09:OVERTURE:KHEIRON01`, `705:A09:V11:PHASER:REVIVE:DEATHDOOM`, `705:A09:TRADEIN:PHASER01`.
+
+**Alcance:** solo A02 del deck 705; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Manifiesto:** `station-x-a01-a10-task-manifest/1` · **alcance exclusivo:** deck 705 · **A01 verificado:** T1 y T3 · **resto:** pendiente sin atribuir certificaciones retroactivas. A10B no fue solicitado.
 
 ### A01 (obligatorio)
@@ -237,9 +269,9 @@
 - [ ] **A01-T5** — BLOQUEADO: sin paquete nativo validado ni importación/exportación real en Station X
 
 ### A02 (obligatorio)
-- [ ] **A02-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
-- [ ] **A02-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
-- [ ] **A02-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03 (obligatorio)
 - [ ] **A03-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
