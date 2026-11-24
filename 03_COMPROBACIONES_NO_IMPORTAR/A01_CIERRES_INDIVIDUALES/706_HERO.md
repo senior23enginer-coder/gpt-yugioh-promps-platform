@@ -63,7 +63,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Invoca normalmente Avian y Burstinatrix boca arriba usando las reglas Rush.",
         "Activa Fusión con esos dos materiales; elige Llama Wingman o Estallido Wingman, no ambos.",
-        "Si escoges Estallido, valora su aumento de ATK pagando el envío de la carta superior conforme al efecto."
+        "Si eliges Estallido Wingman, su efecto permite enviar la carta superior al Cementerio para dar +1000 ATK a un Guerrero propio boca arriba hasta el final del siguiente turno rival y, cuando proceda, destruir una Magia/Trampa rival."
       ],
       "expected_result": "Un Wingman de 2100 ATK base; Estallido puede aumentar la fuerza de un Guerrero propio según su efecto.",
       "resources_to_keep": "Los materiales o una segunda Fusión para un turno posterior.",
@@ -89,8 +89,8 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Invoca los tres Normales y fusiona Sparkman con Avian para Voltic Wingman.",
-        "Usa la Skill enviando Burstinatrix; aplica la reducción de 600 a Voltic y recupera Fusión según el procedimiento.",
-        "Utiliza el efecto de Voltic con los materiales de Cementerio devueltos al Deck para escoger Estallido, Llama o Heliosfera según corresponda."
+        "Usa HERO RUSH RISING bajo sus reglas locales: envía Burstinatrix del Campo al Cementerio, elige Voltic para que pierda 600 ATK/DEF hasta fin de turno y recupera Fusión desde Cementerio conforme a la opción de la Skill.",
+        "Usa el efecto de Voltic para devolver Avian + Burstinatrix de Cementerio al Deck si eliges Llama o Estallido, o esos dos + Sparkman si eliges Heliosfera; son destinos alternativos."
       ],
       "expected_result": "Voltic de 1400 ATK temporal y una segunda Fusión elegida; Heliosfera puede robar y destruir solo si su condición se cumple.",
       "resources_to_keep": "La Fusión recuperada y los nombres reciclados en Deck.",
@@ -118,7 +118,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Recuenta los nombres de Cementerio antes de aplicar el efecto de Voltic.",
         "Si necesitas dos materiales, elige Llama o Estallido conforme al Campo rival.",
-        "Si eliges Heliosfera, utiliza los tres nombres; verifica al menos diez cartas en Deck para el robo documentado."
+        "Para Heliosfera, devuelve Sparkman, Avian y Burstinatrix al Deck. Si quedan al menos diez cartas en Deck en el momento exigido, puedes robar; solo si sale un monstruo podrá aplicarse la destrucción indicada."
       ],
       "expected_result": "Una segunda Fusión y reciclaje de los materiales usados, sin sumar otros destinos a la misma activación.",
       "resources_to_keep": "La Fusión de mano y los nombres que siguen disponibles después de reciclar.",
@@ -145,7 +145,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Invoca los tres Héroes Normales y usa la primera Fusión para Llama Wingman.",
         "Usa la segunda Fusión con Llama Wingman y Sparkman que permanecen boca arriba.",
-        "Cuenta los Guerreros de Cementerio para calcular el ATK real de Shining Flare."
+        "En el ejemplo con Avian, Burstinatrix, Sparkman y Llama Wingman en Cementerio, Shining Flare suma 4 × 300 ATK a sus 2500 base; si cambia el número de Guerreros, recalcula el ATK."
       ],
       "expected_result": "Shining Flare de 3700 ATK en el ejemplo con cuatro Guerreros en Cementerio, sin daño por la mera Invocación.",
       "resources_to_keep": "Una segunda Fusión antes de gastar la primera si pretendes completar esta línea.",
@@ -263,3 +263,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se concretaron la recuperación de Fusión, nombres devueltos al Deck, reducción temporal de Voltic y los efectos de cada destino. Heliosfera requiere diez cartas en Deck para su robo; Shining Flare depende de Guerreros en Cementerio. Las Skills locales se mantienen como condición, no como regla oficial general de Rush.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

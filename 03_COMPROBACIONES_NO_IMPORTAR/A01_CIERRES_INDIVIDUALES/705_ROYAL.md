@@ -52,20 +52,21 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "first",
       "title": "Primero: reservar el jefe y sus Tributos",
       "objective": "Preparar un siguiente turno con los Demonios necesarios sin asumir la recuperación de Skill antes del turno dos.",
-      "situation": "Primer turno del duelo, mano con Rebelde Real y cartas de defensa; Skill externa a la mano.",
+      "situation": "Primer turno del duelo: identifica Metal Maldito, Heavy Metal y Progrock en mano; comprueba si tienes defensas como Gelatina Defensiva o Agujero Trampa. La recuperación de Hard Rock Overture usada en las rutas exige turno 2+.",
       "card_cids": [
         16331,
         15441,
         19761,
         16330,
-        18646
+        18646,
+        15913
       ],
       "actions": [
-        "Identifica qué jefe necesitarás y qué Demonios de Nivel alto puedes convertir en materiales.",
-        "Si no puedes reunir dos Tributos legales, conserva los jefes y prepara defensa de manera legal.",
-        "Reserva la línea completa de Hard Rock Overture para el turno permitido con las tres cartas requeridas."
+        "Elige qué Demonio de Nivel 8 quieres conservar como jefe y qué dos servirían como Tributos en una apertura posterior.",
+        "Si no tienes dos monstruos que puedas Sacrificar legalmente, conserva el jefe en mano y Coloca las defensas que realmente tengas; actívalas solo al cumplirse su requisito.",
+        "No gastes la Skill esperando recuperar al jefe en turno uno. Guarda la apertura de tres Demonios para cuando su recuperación sea válida."
       ],
-      "expected_result": "Una preparación para el siguiente turno, sin prometer una Invocación por Sacrificio que todavía no puede realizarse.",
+      "expected_result": "Una preparación defensiva para el siguiente turno, no un campo final de jefe acreditado desde turno uno con las rutas existentes.",
       "resources_to_keep": "Los tres Demonios de la apertura y Phaser si se puede emplear después.",
       "alternative": "Si no dispones de la Skill, reúne cuerpos mediante las cartas de tu lista y no asumas Invocaciones gratuitas.",
       "related_route_ids": []
@@ -83,7 +84,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Escoge Death Doom si necesitas destruir monstruos boca arriba elegibles; Heavy Metal para destruir el objetivo de menor Nivel aplicable y ganar ATK.",
         "Escoge Progrock si el problema es una Magia o Trampa y una carta boca abajo susceptible a su efecto.",
-        "Envía el jefe elegido por la Skill, coloca los otros dos, recupera al elegido y Sacrifícalos para su Invocación."
+        "Envía el jefe elegido al Cementerio mediante Hard Rock Overture; coloca los otros dos Demonios de mano en Defensa boca arriba, recupera el jefe a mano por la opción de turno 2+ y Sacrifícalos para su Invocación Normal por Sacrificio."
       ],
       "expected_result": "Un solo jefe Invocado por Sacrificio y la retirada que su efecto haya resuelto.",
       "resources_to_keep": "La posibilidad de mantener el jefe en Campo para el siguiente turno.",
@@ -152,7 +153,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         15913
       ],
       "actions": [
-        "Si tienes Canjear y un Nivel 8 elegible, valora el intercambio de mano sin presuponer qué vas a robar.",
+        "Si tienes Canjear y un monstruo de Nivel 8 elegible, envíalo de mano al Cementerio como requisito y roba dos cartas. Decide con las cartas que realmente obtuviste.",
         "Reserva Phaser hasta controlar un Demonio de Nivel 7 o superior y tener un objetivo en Cementerio.",
         "Utiliza una defensa disponible si aún no puedes reunir los dos Tributos."
       ],
@@ -201,7 +202,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Con Heavy, identifica al objetivo de menor Nivel aplicable y calcula su aumento de ATK solo si resuelve.",
         "Con Kheiron, paga el envío de la carta superior y aplica la penetración al Demonio elegido si existe el requisito.",
-        "Calcula el daño y respeta el límite de ataques directos de Nivel original 7+ de la Skill."
+        "Si Kheiron tiene 2300 ATK y combate contra un defensor de 500 DEF, la perforación del escenario produce 1800 LP. Respeta también el límite de un ataque directo por monstruo de Nivel original 7+ impuesto por la Skill."
       ],
       "expected_result": "Heavy alcanza 4100 en el ejemplo de objetivo de 1600 ATK; Kheiron inflige 1800 contra DEF 500 en el caso documentado.",
       "resources_to_keep": "Un jefe que pueda permanecer en Campo si no consigues cerrar los LP rivales.",
@@ -242,3 +243,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se separó la preparación del primer turno de las tres líneas de turno 2 con Hard Rock Overture, se nombraron las defensas y los dos Tributos. En la fase de mano débil, Canjear exige el Nivel 8 y Phaser necesita un Demonio de Nivel 7+ en Campo. La Skill local y una apertura autónoma de turno uno siguen requiriendo evidencia antes de T4.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

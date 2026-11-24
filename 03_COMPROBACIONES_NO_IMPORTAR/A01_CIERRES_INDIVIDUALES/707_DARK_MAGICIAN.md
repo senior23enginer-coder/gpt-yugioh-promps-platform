@@ -57,12 +57,15 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         15410,
         17212,
         19598,
-        16371
+        16371,
+        15450,
+        15451,
+        19773
       ],
       "actions": [
-        "Si tienes Orden Secreta, usa su Invocación Especial de Mago Oscuro Nivel 7 desde mano.",
-        "Si tienes Piedra y ambos Magos, invócalos en dos zonas libres sin Sacrificios.",
-        "Conserva Mil Cuchillos o Ataque Mágico Oscuro hasta que exista una amenaza que justifique usarlos."
+        "Con Orden Secreta y Mago Oscuro Normal de Nivel 7 en mano, activa la Magia para Invocarlo Especialmente; gana 700 ATK y protección contra destrucción por Trampas rivales durante ese turno.",
+        "Con Piedra de los Magos Oscuros, Mago Oscuro y Chica Maga Oscura en mano, activa Piedra para Invocar ambos en dos zonas libres. No se aplican Sacrificios.",
+        "Guarda Mil Cuchillos y Ataque Mágico Oscuro si no hay una amenaza elegible. Ambas exigen controlar un monstruo que tenga el nombre Mago Oscuro."
       ],
       "expected_result": "Mago Oscuro disponible para las Magias de nombre o ambos Magos con Piedra; no se activa Illusion of Execution antes del turno 2.",
       "resources_to_keep": "La Skill para una ocasión posterior y las Magias de retirada.",
@@ -109,7 +112,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         15451
       ],
       "actions": [
-        "Revela Chica Maga Oscura para la Skill y excava tres; añade una Magia solo si aparece y eliges hacerlo.",
+        "Desde turno 2, con la Skill local Illusion of Execution habilitada y sin usar, revela Chica Maga Oscura y excava tres cartas. Puedes añadir una Magia excavada; las demás van al Cementerio.",
         "Si Mago Oscuro no fue enviado por la excavación, aplica la opción de enviarlo desde Deck al Cementerio.",
         "Invoca Sabio, envía Chica Maga Oscura según su efecto, roba una carta desconocida e Invoca Mago Oscuro desde Cementerio."
       ],
@@ -135,7 +138,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Invoca normalmente Sabio y Lily sin gastar sus efectos opcionales.",
-        "Sacrifica ambos cuerpos para Invocar al Hechicero de Nivel 7 y envía la carta superior como requisito de su efecto.",
+        "Sacrifica Sabio y Lily para la Invocación Normal por Sacrificio de Hechicero Eliminador de Nivel 7 (2500 ATK). Activa su efecto enviando la carta superior del Deck al Cementerio como requisito; su nombre pasa a Mago Oscuro hasta fin de turno.",
         "Una vez tenga el nombre temporal Mago Oscuro, utiliza la Magia de retirada que corresponda al Campo rival."
       ],
       "expected_result": "Hechicero de 2500 ATK, tratado como Mago Oscuro hasta final del turno, y la retirada elegida si resuelve.",
@@ -213,7 +216,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "actions": [
         "Si Piedra permite los dos Magos, establece ambos cuerpos sin contar una bonificación inexistente de Chica Maga.",
         "Elige Mil Cuchillos para el monstruo que bloquea el ataque o Ataque Mágico Oscuro para las Magias y Trampas.",
-        "Calcula los ATK efectivos: Orden Secreta da 3200 a Mago Oscuro solo durante ese turno; Piedra deja los valores documentados."
+        "Con Orden Secreta, Mago Oscuro tiene 3200 ATK ese turno. Con Piedra, Mago Oscuro tiene 2500 y Chica Maga 2000 ATK en el ejemplo de Cementerio vacío; calcula los cambios reales y el daño."
       ],
       "expected_result": "Presión de Mago Oscuro y, cuando procede, Chica Maga Oscura; victoria solo con daño efectivo suficiente.",
       "resources_to_keep": "Un acceso al nombre y una Magia de retirada si la partida continúa.",
@@ -254,3 +257,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se hizo explícito el requisito de controlar el nombre Mago Oscuro para ambas Magias, el aumento temporal y protección de Orden Secreta, y los dos Tributos para Hechicero. El primer turno no usa Illusion of Execution; las Fusiones Gaia continúan sin acceso demostrado. La Skill local requiere cotejar su fuente original antes de certificar T4.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

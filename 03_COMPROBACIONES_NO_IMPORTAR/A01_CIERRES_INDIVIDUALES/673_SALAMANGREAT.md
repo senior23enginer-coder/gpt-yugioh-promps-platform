@@ -63,9 +63,10 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         13938
       ],
       "actions": [
-        "Desarrolla Gacela y envía Rotante, siguiendo la secuencia hacia Espejismetal y Lincefogata.",
-        "Obtén Santuario y utiliza la Invocación del segundo Lobo con el primero según el procedimiento de reencarnación.",
-        "Coloca Jaque Jaguar en una zona apuntada por Lobo para recuperar el recurso elegible."
+        "Invoca Normalmente Gacela y envía Rotante del Deck al Cementerio con su efecto. Como controlas Gacela, Invoca Rotante mediante su efecto de Cementerio.",
+        "Superpón Gacela y Rotante (Nivel 3) para Espejismetal. Desacopla Rotante y trae Jaque Jaguar del Deck en Defensa; tras resolver, este turno solo puedes activar efectos de monstruos FUEGO.",
+        "Obtén Santuario mediante Lincefogata y construye Lobo usando los cuerpos de la ruta enlazada; usa Santuario para Invocar el segundo Lobo utilizando el primero según su procedimiento.",
+        "Usa Jaque Jaguar desde Cementerio devolviendo un Salamangrande elegible al Deck; Invócalo a una zona apuntada por Lobo y aprovecha su recuperación si está disponible."
       ],
       "expected_result": "Segundo Lobo, Jaque Jaguar y Santuario, con acceso a recuperar Gacela si se cumplen las condiciones; Rugido no fue obtenido por esta ruta.",
       "resources_to_keep": "Una copia de Lobo en Extra y Gacela disponible para la siguiente apertura.",
@@ -113,7 +114,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Comprueba que la flecha de Lobo apunta a una zona de monstruos libre.",
-        "Utiliza Jaque Jaguar desde Cementerio devolviendo el objetivo válido indicado por su efecto.",
+        "Desde Cementerio, activa Jaque Jaguar seleccionando otro Salamangrande elegible de Cementerio; devuélvelo al Deck y, si resuelve, Invoca Jaguar en una zona libre apuntada por tu Enlace Salamangrande.",
         "Cuando Jaque Jaguar llegue a la zona apuntada, aplica la recuperación de Lobo si su efecto sigue disponible."
       ],
       "expected_result": "Jaque Jaguar en Campo y una carta recuperada cuando resuelve el disparo de Lobo.",
@@ -161,8 +162,8 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         14249
       ],
       "actions": [
-        "Con Salamangrande de Fuego, utiliza su búsqueda de Gacela si queda disponible.",
-        "Desarrolla el motor hasta Lincefogata y Espejismetal siguiendo las restricciones de FUEGO.",
+        "Invoca Normalmente Salamangrande de Fuego y busca Gacela; tras resolver, solo puedes Invocar Especialmente monstruos FUEGO durante el resto del turno.",
+        "Enlaza de Fuego para Lincefogata; al llegar otro Salamangrande al Cementerio, Invoca Gacela desde mano si su disparo es válido y busca Santuario con Lincefogata. Envía Rotante con Gacela para preparar Espejismetal.",
         "Si partes directamente de Gacela y se mantienen los requisitos de la ruta de Lobo, sigue esa opción para ganar recursos."
       ],
       "expected_result": "Enlace 1 y Xyz de Rango 3 en la apertura de Fuego, o el campo de Lobo si se completa su secuencia.",
@@ -239,7 +240,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         14111
       ],
       "actions": [
-        "Respeta el límite de FUEGO establecido por las activaciones que lo imponen.",
+        "Tras la búsqueda de Salamangrande de Fuego se restringen las Invocaciones Especiales a FUEGO. Tras la Invocación desde Deck de Espejismetal, la restricción es a activaciones de efectos de monstruos FUEGO; no son el mismo bloqueo.",
         "Un Fénix Furioso reencarnado exige el primer Fénix ya construido y la segunda copia en Extra; no aparece por tener Santuario solo.",
         "Quimera necesita el habilitador de Fusión real Mago Proxy F en esta lista; no uses una Magia de Fusión ausente del inventario."
       ],
@@ -255,3 +256,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se hizo explícito el envío de Rotante, sus materiales de Espejismetal, su limitación de activaciones a monstruos FUEGO y la diferencia con el bloqueo de Salamangrande de Fuego. Se precisó la rama de recuperación de Jaque Jaguar y el resultado al pasar turno sin inventar Rugido. La primera construcción de Fénix sigue siendo una carencia documental, no se completa por inferencia.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

@@ -52,16 +52,16 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "first",
       "title": "Primero: preparar las ovejas para el siguiente turno",
       "objective": "Establecer defensa y preparar la transformación sin gastar la Invocación propia.",
-      "situation": "Scapegoat disponible y cuatro zonas libres al activarla en turno rival.",
+      "situation": "Scapegoat Colocada previamente, cuatro Zonas de Monstruos libres y ninguna otra Invocación ese turno. Conserva Metamorfosis en mano para el siguiente turno propio y Límite de los Mil Ojos en Extra.",
       "card_cids": [
         4818,
         5539,
         4740
       ],
       "actions": [
-        "Reserva Scapegoat colocada para una ventana legal del turno rival.",
-        "Invoca las cuatro fichas y espera a tu turno antes de usar Metamorfosis.",
-        "Sacrifica una ficha superviviente de Nivel 1 para Límite de los Mil Ojos."
+        "Durante el turno rival, activa Scapegoat en una ventana válida; Invoca cuatro fichas Oveja de Nivel 1 en Defensa. No realices otras Invocaciones ese turno.",
+        "En tu siguiente Main Phase, si sobrevive al menos una ficha, activa Metamorfosis ofreciendo esa ficha de Nivel 1 como Tributo para Invocar Límite de los Mil Ojos.",
+        "Utiliza su efecto de absorción contra un monstruo rival elegible. Conserva las fichas restantes como defensa, sin tratarlas como Tributos de una Invocación por Sacrificio."
       ],
       "expected_result": "Límite de los Mil Ojos puede absorber un monstruo elegible; quedan hasta tres fichas.",
       "resources_to_keep": "Metamorfosis y una ficha superviviente hasta tu Main Phase.",
@@ -83,9 +83,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         5302
       ],
       "actions": [
-        "Si el rival amenaza tu defensa, prepara Scapegoat en su turno con cuatro zonas libres.",
+        "Si tienes Scapegoat ya Colocada desde un turno previo, actívala durante el turno rival con cuatro zonas libres; si acabas de robarla, no asumas que puedes activarla desde mano en turno rival.",
         "En tu turno transforma una ficha y selecciona un monstruo que Límite pueda absorber.",
-        "Si ya controlas Parshath y puede infligir daño, considera mantenerlo para robar en vez de sacrificarlo."
+        "Si Parshath ya está en Campo, compara la retirada de una amenaza con la opción de atacar a un defensor de menor DEF: su perforación puede generar daño y su efecto permite robar cuando inflige daño de batalla."
       ],
       "expected_result": "Control de un monstruo rival o presión con robo de Parshath, según la posición.",
       "resources_to_keep": "Una defensa y la Magia de transformación si todavía no es necesaria.",
@@ -202,7 +202,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Resuelve Caridad Grácil y decide los descartes según las cartas realmente robadas.",
-        "Si hay un monstruo LUZ y otro OSCURIDAD elegibles en Cementerio, aplica la condición de Invocación del Soldado desde mano.",
+        "Si hay un monstruo LUZ y uno OSCURIDAD elegibles en Cementerio, destierra uno de cada Atributo para Invocar Especialmente al Soldado del Brillo Negro desde mano.",
         "Elige entre desterrar una amenaza o atacar, respetando que la opción de destierro impide atacar ese turno."
       ],
       "expected_result": "Presión de batalla o eliminación de un objetivo con el Soldado; Parshath puede sostener ventaja por robo.",
@@ -243,3 +243,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+Se concretó que la mano necesita Metamorfosis para el turno propio, que Scapegoat debe colocarse previamente si se activa en turno rival y que su efecto impide otras Invocaciones durante ese turno. Se añadieron las funciones tácticas de Límite y Parshath sin mezclar reglas TCG modernas con GOAT. El resultado de BLS sigue condicionado al Cementerio real.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.

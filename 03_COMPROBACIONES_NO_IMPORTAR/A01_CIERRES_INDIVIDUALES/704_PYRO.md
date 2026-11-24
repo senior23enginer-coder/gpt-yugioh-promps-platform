@@ -52,22 +52,25 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       "id": "first",
       "title": "Primero: preparar materiales sin Skill anticipada",
       "objective": "Organizar una Fusión futura sin activar Alchemy Blaze antes del turno permitido.",
-      "situation": "Turno inicial propio; tienes materiales Piro y Fusión, pero la Skill requiere turno de duelo 2 o posterior.",
+      "situation": "Primer turno del duelo, Fusión en mano y materiales Piro accesibles; Alchemy Blaze aún no está disponible. Comprueba si puedes reunir Cromatográfagas + Superasistente Ember o Salamandra Quimicalizada + Superasistente Ember boca arriba.",
       "card_cids": [
         18583,
         17963,
         16934,
-        19700,
-        18646
+        17868,
+        19990,
+        18614,
+        18646,
+        19291
       ],
       "actions": [
-        "Comprueba si puedes colocar en Campo los materiales de una Fusión con los recursos de la mano.",
-        "Si no reúnes los nombres exactos, conserva Fusión y prepara una defensa apropiada.",
-        "Reserva Alchemy Blaze para un turno permitido con la construcción y revelación requeridas."
+        "Elige la pareja de materiales de acuerdo con el destino que conservas en Extra: Cromatográfagas + Superasistente para Arquero, o Salamandra Quimicalizada + Superasistente para Salamandra Alquimicalizada.",
+        "Si no reúnes la pareja legal, conserva Fusión y utiliza una defensa disponible como Gelatina Defensiva en su ventana correspondiente.",
+        "Reserva Alchemy Blaze hasta turno 2 o posterior y revisa los requisitos de construcción, revelación y cartas disponibles en Deck."
       ],
-      "expected_result": "Recursos preservados para una Fusión posterior o una Fusión legal si los materiales ya existen.",
+      "expected_result": "Preparación defensiva y recursos para el próximo turno. No hay una apertura autónoma de primer turno certificada en las tres rutas actuales.",
       "resources_to_keep": "Fusión y los nombres de material que no puedas recuperar inmediatamente.",
-      "alternative": "Si no hay materiales, defiende el turno en lugar de atribuir cartas gratuitas a la Skill.",
+      "alternative": "Conserva Hiperasistente para un turno con monstruo rival, cuando pueda desarrollar Salamandra Quimicalizada sin Skill.",
       "related_route_ids": []
     },
     {
@@ -83,9 +86,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
         19990
       ],
       "actions": [
-        "Aplica Alchemy Blaze revelando Cromatográfagas conforme a los requisitos locales.",
+        "Aplica Alchemy Blaze únicamente si la Skill local está habilitada, el turno y la construcción son válidos y su resolución coloca Cromatográfagas en Cementerio y permite disponer de Superasistente y Fusión. Comprueba esos resultados antes de continuar.",
         "Usa Orden Secreta sobre Cromatográfagas en Cementerio; Invoca también Superasistente desde mano.",
-        "Activa Fusión con ambos materiales boca arriba para obtener Arquero Ígneo Supergráfagas y resuelve su efecto conforme a la secuencia."
+        "Activa Fusión con Cromatográfagas y Superasistente boca arriba para Invocar Arquero Ígneo Supergráfagas. Aplica su aumento de ATK solo si se cumplen sus condiciones; 5500 corresponde al escenario enlazado."
       ],
       "expected_result": "Arquero con 5500 ATK durante ese turno en la apertura documentada, no daño automático.",
       "resources_to_keep": "Superasistente y Fusión disponibles en Deck antes de usar la Skill.",
@@ -109,7 +112,7 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
       ],
       "actions": [
         "Aplica Alchemy Blaze revelando Salamandra y completa los recursos exigidos.",
-        "Invoca Hiperasistente y usa su efecto enviándolo al Cementerio para desarrollar Salamandra.",
+        "Invoca Hiperasistente con un monstruo rival presente. Envía Hiperasistente boca arriba al Cementerio como coste y desarrolla Salamandra Quimicalizada únicamente si su efecto resuelve.",
         "Invoca Superasistente y fusiona los dos nombres correctos; evalúa las Magias y Trampas que serán destruidas."
       ],
       "expected_result": "Salamandra Alquimicalizada de 3000 ATK; reducción temporal según las Magias realmente destruidas.",
@@ -243,3 +246,9 @@ Redacción individual basada en inventario y aperturas/resultados del paquete re
   ]
 }
 ```
+
+## Revisión técnica y pedagógica individual — 23-11-2026, revisión 3
+
+El primer turno se identifica como preparación, no como combo certificado con Skill. Se exigen nombres concretos para cada Fusión y se hace explícito que las rutas Alchemy Blaze dependen de una Skill local. La ruta de Arquero debe cotejar la transición de revelación a Cementerio, búsqueda de Superasistente/Fusión y efecto del jefe con la fuente local original; no se inventa el paso ausente. Se conserva A01 abierto para esos puntos.
+
+Se han leído las ocho lecciones. T2: ajuste de acciones y condiciones realizado en esta acta; T1/T3: contraste contra fuentes del expediente y rutas concretas, sin afirmar cotejo exhaustivo de todos los efectos; T4/T5: abiertos hasta reconciliar el JSON/Markdown, comprobar semántica restante y ejecutar las pruebas de la nueva revisión. No se ejecuta A02–A10 ni se aplica banlist.
