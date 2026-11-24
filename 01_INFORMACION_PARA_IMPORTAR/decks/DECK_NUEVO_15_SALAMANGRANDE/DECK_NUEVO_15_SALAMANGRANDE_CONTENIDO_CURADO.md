@@ -318,6 +318,59 @@ Estilo breve 164/190; Resumen para ficha 211/250. No cerrar T2 sin paridad liter
 
 ## A03 — INVENTARIO FÍSICO EXACTO
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 673](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/673.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `00de70076503819798de8e55983764803a2cbe05`.
+
+- **A03-T1:** 39 filas, 39 CID, 70 copias, Main/Extra/Side/Reserva 40/15/15/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 39/39 referencias oficiales con CID coherente; 0/39 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 5 rutas, 26 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/39 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 598 | 14240 | Salamangrande Gacela | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14240&ope=2&request_locale=es |
+| 599 | 18908 | Salamangrande de Fuego | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18908&ope=2&request_locale=es |
+| 600 | 14241 | Salamangrande Rotante | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14241&ope=2&request_locale=es |
+| 601 | 18909 | Salamangrande Comadreja | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18909&ope=2&request_locale=es |
+| 602 | 13890 | Salamangrande Zorro | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13890&ope=2&request_locale=es |
+| 603 | 13892 | Salamangrande Jaque Jaguar | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13892&ope=2&request_locale=es |
+| 604 | 13891 | Salamangrande Halcón | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13891&ope=2&request_locale=es |
+| 605 | 14239 | Salamangrande Topo | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14239&ope=2&request_locale=es |
+| 606 | 18813 | Hiita la Canalizadora del Fuego | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18813&ope=2&request_locale=es |
+| 607 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 608 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 609 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 610 | 20206 | Purulia Multivadora | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 611 | 14244 | Círculo Salamangrande | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14244&ope=2&request_locale=es |
+| 612 | 14301 | Cinet-Minado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14301&ope=2&request_locale=es |
+| 613 | 14742 | Gobernante Oscuro No Más | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es |
+| 614 | 13938 | Santuario Salamangrande | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13938&ope=2&request_locale=es |
+| 615 | 13940 | Voluntad de la Salamangrande | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13940&ope=2&request_locale=es |
+| 616 | 13619 | Llamado por la Tumba | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 617 | 13631 | Infinito Temporal | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es |
+| 618 | 14247 | Rugido Salamangrande | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14247&ope=2&request_locale=es |
+| 619 | 14249 | Salamangrande Lincefogata | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14249&ope=2&request_locale=es |
+| 620 | 14125 | Salamangrande Lobo de la Luz Solar | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14125&ope=2&request_locale=es |
+| 621 | 14666 | Salamangrande Piro Fénix | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14666&ope=2&request_locale=es |
+| 622 | 18912 | Salamangrande Fénix Furioso | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18912&ope=2&request_locale=es |
+| 623 | 14248 | Salamangrande Espejismetal | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14248&ope=2&request_locale=es |
+| 624 | 19507 | Princesa Prometeica, Otorgadora de Llamas | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=es |
+| 625 | 14855 | Fénix de Fuego @Ignister | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14855&ope=2&request_locale=es |
+| 626 | 14133 | Hiita la Encantadora del Fuego, Encendida | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=es |
+| 627 | 15033 | Mago Proxy F | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15033&ope=2&request_locale=es |
+| 628 | 14111 | Salamangrande Quimera Violeta | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14111&ope=2&request_locale=es |
+| 629 | 11243 | Artefacto Lancea | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 630 | 15406 | Despertar del Poseído - Inari de Fuego Superior | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15406&ope=2&request_locale=es |
+| 631 | 14876 | Tormenta de Relámpagos | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=es |
+| 632 | 4678 | Polvo de Pluma de Arpía | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=es |
+| 633 | 5102 | Máscara de la Debilidad | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5102&ope=2&request_locale=es |
+| 634 | 13293 | Pelea Pareja | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=es |
+| 635 | 6441 | Arte Espiritual del Fuego - Kurenai | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6441&ope=2&request_locale=es |
+| 636 | 7934 | Emparejamiento de Atributos | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 ### Main — monstruos 24
 
 | Cant. | Nombre |
