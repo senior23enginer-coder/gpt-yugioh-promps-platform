@@ -343,6 +343,65 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 670](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/670.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `c1af57d3da13bc4b3de8915b75f15a9c57ba3372`.
+
+- **A03-T1:** 45 filas, 45 CID, 69 copias, Main/Extra/Side/Reserva 42/15/0/12, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 45/45 referencias oficiales con CID coherente; 45/45 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 11 rutas, 56 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/45 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 136 | 17768 | Kashtira Fenrir | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en |
+| 137 | 18151 | Kashtira Riseheart | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en |
+| 138 | 19148 | Diabellstar la Bruja Negra | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2&request_locale=en |
+| 139 | 14801 | Immortal Phoenix Gearfried | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2&request_locale=en |
+| 140 | 18801 | Infernoble Caballero Turpin | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2&request_locale=en |
+| 141 | 15249 | Infernoble Caballero Maugis | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2&request_locale=en |
+| 142 | 15247 | Infernoble Caballero Ogier | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2&request_locale=en |
+| 143 | 18800 | Infernoble Caballero Ricciardetto | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2&request_locale=en |
+| 144 | 15082 | Infernoble Caballero Renaud | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2&request_locale=en |
+| 145 | 15248 | Infernoble Caballero Oliver | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2&request_locale=en |
+| 146 | 14085 | Neo Space Connector | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2&request_locale=en |
+| 147 | 6768 | Neo-Spacian Aqua Dolphin | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2&request_locale=en |
+| 148 | 15392 | Fire Flint Lady | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2&request_locale=en |
+| 149 | 9279 | Droll & Lock Bird | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 150 | 8933 | Effect Veiler | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en |
+| 151 | 12950 | Ash Blossom & Joyous Spring | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 152 | 19207 | Angelica's Angelic Ring | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2&request_locale=en |
+| 153 | 18843 | Infernoble Arms - Almace | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2&request_locale=en |
+| 154 | 15287 | Infernoble Arms - Durendal | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2&request_locale=en |
+| 155 | 18844 | Noble Arms Museum | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2&request_locale=en |
+| 156 | 6458 | Divine Sword - Phoenix Blade | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2&request_locale=en |
+| 157 | 7519 | D.D.R. - Different Dimension Reincarnation | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2&request_locale=en |
+| 158 | 19196 | WANTED: Seeker of Sinful Spoils | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2&request_locale=en |
+| 159 | 14075 | Heritage of the Chalice | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2&request_locale=en |
+| 160 | 5328 | Reinforcement of the Army | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2&request_locale=en |
+| 161 | 19199 | Original Sinful Spoils - Snake-Eye | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2&request_locale=en |
+| 162 | 15275 | Infernoble Knight Captain Roland [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2&request_locale=en |
+| 163 | 16386 | Baronne de Fleur [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en |
+| 164 | 15276 | Infernoble Knight Emperor Charles [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2&request_locale=en |
+| 165 | 18926 | Battlin' Boxer King Dempsey [Xyz] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2&request_locale=en |
+| 166 | 19184 | Super Starslayer TY-PHON - Sky Crisis [Xyz] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+| 167 | 18827 | Angelica, Princess of Noble Arms [Synchro] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2&request_locale=en |
+| 168 | 13500 | Isolde, Two Tales of the Noble Knights [Link] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2&request_locale=en |
+| 169 | 18835 | Emperor Charles the Great [Link] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2&request_locale=en |
+| 170 | 14496 | Apollousa, Bow of the Goddess [Link] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2&request_locale=en |
+| 171 | 13841 | Relinquished Anima [Link] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=en |
+| 172 | 13034 | Link Spider [Link] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2&request_locale=en |
+| 173 | 19188 | S:P Little Knight [Link] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 174 | 14741 | Nibiru, the Primal Being | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en |
+| 175 | 6980 | D.D. Crow | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2&request_locale=en |
+| 176 | 13950 | Herald of the Abyss | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2&request_locale=en |
+| 177 | 15296 | Triple Tactics Talent | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 178 | 18214 | Triple Tactics Thrust | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=en |
+| 179 | 13293 | Evenly Matched | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en |
+| 180 | 12668 | Dimensional Barrier | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 12 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
