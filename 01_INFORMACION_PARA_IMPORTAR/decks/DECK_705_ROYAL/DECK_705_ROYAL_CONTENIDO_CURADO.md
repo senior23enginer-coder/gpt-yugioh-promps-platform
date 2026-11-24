@@ -309,6 +309,36 @@
 
 ### A03 — Integridad del inventario físico por zonas
 
+#### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 705](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/705.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `d8e933512ae940b5af6ff2b00972d2055bc5938e`.
+
+- **A03-T1:** 16 filas, 16 CID, 30 copias, Main/Extra/Side/Reserva 30/0/0/0, 1 Skill(s): HARD ROCK OVERTURE. Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 16/16 referencias oficiales con CID coherente; 16/16 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia y fuente local de Skill.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 6 rutas, 28 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/16 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 466 | 16344 | Kheiron el Caballero Estelar | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2 |
+| 467 | 16330 | Phaser del Rebelde Real | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2 |
+| 468 | 19760 | Impasse Ignoto | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2 |
+| 469 | 16331 | Metal Maldito del Rebelde Real | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2 |
+| 470 | 15441 | Heavy Metal del Rebelde Real | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2 |
+| 471 | 19761 | Progrock del Rebelde Real | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2 |
+| 472 | 16135 | Descendiente de Titanes | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2 |
+| 473 | 17721 | Canjear | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2 |
+| 474 | 15673 | Aliento de Fuego del Genio | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2 |
+| 475 | 17543 | Restauración de Cartas | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2 |
+| 476 | 21007 | Maldición de la Luz Ascendente | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2 |
+| 477 | 18646 | Gelatina Defensiva | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja |
+| 478 | 19799 | Avaricia del Rey | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2 |
+| 479 | 15913 | Agujero Trampa | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 480 | 15674 | Esplendor del Rey | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2 |
+| 481 | 16305 | Monstruo Reencarnado | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2 |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 30 Main · 0 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
