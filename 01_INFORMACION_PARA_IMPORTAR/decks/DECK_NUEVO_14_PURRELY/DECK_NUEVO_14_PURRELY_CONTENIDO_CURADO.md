@@ -228,6 +228,58 @@ Estilo breve 160/190; Resumen para ficha 218/250. No cerrar T2 sin paridad liter
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 660, Purrely, formato tcg_advanced; Main/Extra/Side/Reserva 48/15/7/0; 36 CID y 36 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 660: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 36 IDs de ficha, 36 card_id, 5 route_id, 0 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 660](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/660.json), blob `ddf3ca5e7d986fa537639040c038eb4b6ac715a3`. Paquete GPT: blob `c3d527fca6d708c8d7dd55808931b7889c53dbf2`; Markdown anterior: blob `301c17e365831c4f70c798314468fc063de61f7a`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 4842 | Monstruo Renacido | 660:CARD:4842 | 581:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es |
+| 9279 | El Bufón y el Pájaro del Candado | 660:CARD:9279 | 568:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 11243 | Artefacto Lancea | 660:CARD:11243 | 594:side×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 11708 | Hermana Fantasma & Conejo Espectral | 660:CARD:11708 | 566:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es |
+| 12027 | Princesaduende Silvana | 660:CARD:12027 | 588:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es |
+| 12950 | Flor de Ceniza & Primavera Feliz | 660:CARD:12950 | 564:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 13587 | Bella Fantasma & Mansión Embrujada | 660:CARD:13587 | 567:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es |
+| 13619 | Llamado por la Tumba | 660:CARD:13619 | 597:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 13631 | Infinito Temporal | 660:CARD:13631 | 583:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es |
+| 13841 | Ánima Renunciada | 660:CARD:13841 | 593:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es |
+| 14208 | Señoroscuro Condenado | 660:CARD:14208 | 590:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es |
+| 14741 | Nibiru, el Ser Primitivo | 660:CARD:14741 | 595:side×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es |
+| 14742 | Gobernante Oscuro No Más | 660:CARD:14742 | 580:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es |
+| 15296 | Talento de Tácticas Triples | 660:CARD:15296 | 579:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | 660:CARD:15524 | 589:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es |
+| 15756 | Olla de la Prosperidad | 660:CARD:15756 | 578:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=es |
+| 16651 | Protector del Agente - Luna | 660:CARD:16651 | 591:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es |
+| 16868 | Prohibida la Venta | 660:CARD:16868 | 577:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es |
+| 18003 | Purrely | 660:CARD:18003 | 562:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es |
+| 18004 | Felicidad Epurrely | 660:CARD:18004 | 584:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es |
+| 18005 | Belleza Epurrely | 660:CARD:18005 | 585:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es |
+| 18006 | Rechoncho Epurrely | 660:CARD:18006 | 586:extra×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es |
+| 18008 | Noir Expurrely | 660:CARD:18008 | 587:extra×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es |
+| 18009 | Calle Purrely Vagabundo | 660:CARD:18009 | 572:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es |
+| 18010 | Mi Amigo Purrely | 660:CARD:18010 | 571:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es |
+| 18011 | Feliz Recuerdo Purrely | 660:CARD:18011 | 574:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es |
+| 18012 | Bello Recuerdo Purrely | 660:CARD:18012 | 573:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es |
+| 18013 | Delicioso Recuerdo Purrely | 660:CARD:18013 | 575:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es |
+| 18014 | ¿¡Purrelysaltó!? | 660:CARD:18014 | 582:main×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es |
+| 18214 | Impulso de Tácticas Triples | 660:CARD:18214 | 596:side×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es |
+| 18481 | Purrelyly | 660:CARD:18481 | 563:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es |
+| 18524 | Sueño Recuerdo Purrely | 660:CARD:18524 | 576:main×2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es |
+| 19188 | S:P Pequeña Caballera | 660:CARD:19188 | 592:extra×1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 20206 | Purulia Multivadora | 660:CARD:20206 | 570:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 20500 | Fuwalos Multivadora | 660:CARD:20500 | 569:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 21338 | Ángel del Alba Kambi | 660:CARD:21338 | 565:main×3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es |
+
+**Rutas preservadas:** `660:A09:P-C01`, `660:A09:P-C02`, `660:A09:P-C03`, `660:A09:P-C04`, `660:A09:P-C05`.
+
+**Alcance:** solo A02 del deck 660; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Estado:** A01-T1/T3 documentadas; A01-T2/T4/T5 bloqueadas a la espera de ZIP nativo y aceptación importable. No actualizar el estado histórico de A02–A10A; A10B no solicitado.
 
 ### A01
@@ -238,9 +290,9 @@ Estilo breve 160/190; Resumen para ficha 218/250. No cerrar T2 sin paridad liter
 - [ ] **A01-T5** — Sin evidencia de certificación completa con el contrato vigente.
 
 ### A02
-- [ ] **A02-T1** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T2** — Sin evidencia de certificación completa con el contrato vigente.
-- [ ] **A02-T3** — Sin evidencia de certificación completa con el contrato vigente.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — Sin evidencia de certificación completa con el contrato vigente.
