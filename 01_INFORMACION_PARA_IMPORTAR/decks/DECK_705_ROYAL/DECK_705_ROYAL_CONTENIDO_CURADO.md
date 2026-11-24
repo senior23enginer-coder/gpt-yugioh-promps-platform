@@ -164,6 +164,47 @@
 
 ## APARTADO_02 — Continuidad del contenido anterior
 
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 705; nombre en plataforma: Royal; nombre fuente: Royal; formato: `rush_duel`.
+- Carpeta única: `DECK_705_ROYAL`; documento: `DECK_705_ROYAL_CONTENIDO_CURADO.md`.
+- Main 30 / Extra 0 / Side 0 / Reserva 0; 16 CID; 16 filas; 1 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `e1f05ed950722ef7498c033fd2a1f2eaa53b6ac6`; blob documental anterior: `d8e933512ae940b5af6ff2b00972d2055bc5938e`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "Station X V40 structured study and live native decklist read-only 705", "source_revision": "20261117-folder-delivery-v40", "live_inventory_identical": true, "scope": "A01 profile and player guide, not A10B", "production_imports": 0}.
+- Huella de inventario nativa: `3203ae6afac7f91567e5ad840494b277dcbe9f4255f451a75bec5fd9ebda3ce5`. SHA-256 del ZIP de entrada auditado: `01c4343e9a0ea7c8324de45472471fd126949dac5d180c75110800697f718fb7`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:23:26+00:00; lectura nativa de solo lectura: 2026-11-24T19:56:23.535496+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 466 | 16344 | Kheiron el Caballero Estelar | main | 3 |
+| 467 | 16330 | Phaser del Rebelde Real | main | 3 |
+| 468 | 19760 | Impasse Ignoto | main | 3 |
+| 469 | 16331 | Metal Maldito del Rebelde Real | main | 2 |
+| 470 | 15441 | Heavy Metal del Rebelde Real | main | 2 |
+| 471 | 19761 | Progrock del Rebelde Real | main | 2 |
+| 472 | 16135 | Descendiente de Titanes | main | 2 |
+| 473 | 17721 | Canjear | main | 2 |
+| 474 | 15673 | Aliento de Fuego del Genio | main | 2 |
+| 475 | 17543 | Restauración de Cartas | main | 2 |
+| 476 | 21007 | Maldición de la Luz Ascendente | main | 2 |
+| 477 | 18646 | Gelatina Defensiva | main | 1 |
+| 478 | 19799 | Avaricia del Rey | main | 1 |
+| 479 | 15913 | Agujero Trampa | main | 1 |
+| 480 | 15674 | Esplendor del Rey | main | 1 |
+| 481 | 16305 | Monstruo Reencarnado | main | 1 |
+
+**Rutas existentes:** `705:A09:OVERTURE:DEATHDOOM01`, `705:A09:OVERTURE:HEAVY01`, `705:A09:OVERTURE:PROGROCK01`, `705:A09:OVERTURE:KHEIRON01`, `705:A09:V11:PHASER:REVIVE:DEATHDOOM`, `705:A09:TRADEIN:PHASER01`.
+**Skills:** [{"name": "HARD ROCK OVERTURE"}].
+
+**Checklist existente:** 5/37 checks obligatorios marcados; 32/37 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
+
 
 > **Alcance editorial de todas las cartas y guías de este deck:** Las fichas son interpretaciones tácticas: costes, objetivos, ventanas y límites deben cotejarse con el texto oficial antes de acreditar una secuencia A09. Las guías explican funciones derivadas; no certifican nuevas invocaciones ni cadenas.
 
@@ -237,9 +278,9 @@
 - [ ] **A01-T5** — BLOQUEADO: sin paquete nativo validado ni importación/exportación real en Station X
 
 ### A02 (obligatorio)
-- [ ] **A02-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
-- [ ] **A02-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
-- [ ] **A02-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
+- [x] **A02-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
+- [x] **A02-T2** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
+- [x] **A02-T3** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
 
 ### A03 (obligatorio)
 - [ ] **A03-T1** — NO CERTIFICADO BAJO EL MANIFIESTO ACTUAL; conservar análisis histórico existente y verificar evidencias antes de cerrar
