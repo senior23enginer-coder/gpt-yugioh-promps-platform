@@ -35,7 +35,17 @@ def readzip(blob):
         need(z.testzip() is None,'ZIP damaged')
         names=[n for n in z.namelist() if n.endswith('/datos/stationx-deck.json') or n=='datos/stationx-deck.json']
         need(len(names)==1,'ZIP must have one native JSON')
-        return json.loads(z.read(names[0]))
+        envelope=json.loads(z.read(names[0]))
+        folder=envelope['package_root']
+        need(all(n.startswith(folder+'/') and '..' not in n.split('/') for n in z.namelist()),'Native ZIP contains a foreign path')
+        source=envelope['source_document']
+        need(source.startswith(folder+'/') and source in z.namelist() and source.endswith('_CONTENIDO_CURADO.md'),'Native export source missing')
+        if envelope.get('content_mode')=='auto':
+            baseline=envelope.get('baseline',{})
+            need(hashlib.sha256(z.read(source)).hexdigest()==baseline.get('source_sha256'),'Native document baseline drift')
+            need(re.fullmatch(r'[0-9a-f]{64}',str(baseline.get('record_sha256',''))) is not None,'Native record baseline missing')
+            # Record bytes are compared against the approved source by identity/slots/skills/profile below.
+        return envelope
 def cell(s):return str(s).replace('|','\\|').replace('\n',' ')
 def audit(id,platform,folder):
     proof=PROOF[str(id)]
@@ -65,7 +75,10 @@ def audit(id,platform,folder):
     status=native(opener,api+'status');need(status.get('has_data') is True,'No native data')
     ex=readzip(get(opener,api+'export'));er=ex['record']
     need(ex['deck_id']==id and er['deck_id']==id and er['format']==r['format'] and ex['schema']==pkg['schema'],'Export identity/format drift')
-    need(ex['inventory_binding']=='deck-slots-v1' and ex['content_mode']=='structured','Export binding drift')
+    # Native exports use the real inventory SHA-256 and auto mode; portable GPT
+    # input packages use deck-slots-v1 and structured mode. Never confuse the two.
+    need(ex['package_root']==folder.name,'Native export folder drift')
+    need(ex.get('content_mode')=='auto' and re.fullmatch(r'[0-9a-f]{64}',str(ex.get('inventory_sha256',''))) is not None,'Native export missing authentic inventory SHA or auto mode')
     need(inv(ex['inventory'])==inv(pkg['inventory']) and slots(er)==rr and cards(er)==cc,'Export native row/CID identity drift')
     need(routes(er)==rt and no_images(er['skills'])==no_images(r['skills']),'Export route/Skill drift')
     need(er['profile']==r['profile'] and er['player_guide']==r['player_guide'],'A01 content drift')
@@ -110,7 +123,7 @@ def audit(id,platform,folder):
         '- ID: '+str(id)+'; nombre en plataforma: '+cell(live['deck'].get('name',''))+'; nombre fuente: '+cell(r.get('name',''))+'; formato: '+tick+r['format']+tick+'.',
         '- Carpeta única: '+tick+folder.name+tick+'; documento: '+tick+doc.name+tick+'.',
         '- Main '+str(counts['main'])+' / Extra '+str(counts['extra'])+' / Side '+str(counts['side'])+' / Reserva '+str(counts['reserve'])+'; '+str(len(cc))+' CID; '+str(len(rr))+' filas; '+str(len(r['skills']))+' Skill(s) separadas.',
-        '- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62, deck-slots-v1. A10B no solicitado.',
+        '- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.',
         '- Fuente GPT: '+tick+BASE+tick+'; blob JSON: '+tick+blob+tick+'; blob documental anterior: '+tick+git('hash-object',docrel)+tick+'.',
         '- Plataforma: '+tick+PLATFORM+tick+'; procedencia registrada: '+cell(json.dumps(pkg.get('provenance',{}),ensure_ascii=False))+'.',
         '- Huella de inventario nativa: '+(tick+str(native_hash)+tick if native_hash else 'no proporcionada, no fabricada')+'. SHA-256 del ZIP de entrada auditado: '+tick+zip_hash+tick+'.',
