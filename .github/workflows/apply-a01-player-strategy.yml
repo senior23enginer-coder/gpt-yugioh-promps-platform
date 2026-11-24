@@ -1,0 +1,30 @@
+name: Apply authored A01 lessons to assigned packages
+on:
+  push:
+    branches: [fix/a01-player-quality-20261123]
+    paths: ['.github/workflows/apply-a01-player-strategy.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/apply-a01-player-strategy.cjs
+      - run: node scripts/a01-player-quality-audit.cjs
+      - name: Commit only the validated package and documentation changes
+        run: |
+          git diff --check
+          git add -- 01_INFORMACION_PARA_IMPORTAR/decks
+          git diff --cached --stat
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis(A01): apply 128 authored lessons to 16 validated packages"
+            git push origin HEAD:refs/heads/fix/a01-player-quality-20261123
+          fi
+          git rev-parse HEAD

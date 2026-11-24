@@ -4,26 +4,26 @@
 
 Fecha: 23-11-2026. Alcance exclusivo A01 (T1–T5). Las actas individuales constituyen el registro de esta ejecución y complementan los estados históricos de los documentos curados. No actualizan estados de A02–A10 ni acreditan replays de motor.
 
-**Resultado documental:** 16/16 actas, 80/80 casillas marcadas, 0 casillas pendientes. Se comprobó la existencia de cada acta y su checklist. El inventario real se mantiene; no se aplica banlist, Side/Reserva no se inventan. GOAT y Rush admiten Main sin Extra.
+**Resultado histórico (no vigente):** 16/16 actas, 80/80 casillas marcadas en la revisión anterior. **Revisión 2:** 16/16 propuestas individuales redactadas, 128 lecciones; aceptación semántica y navegador pendientes. Se comprobó la existencia de cada acta y su checklist. El inventario real se mantiene; no se aplica banlist, Side/Reserva no se inventan. GOAT y Rush admiten Main sin Extra.
 
-| ID | Deck | Evidencia individual | Tareas A01 | Estado |
+| ID | Deck | Evidencia individual | Checks históricos | Estado vigente |
 |---:|---|---|---:|---|
-| 671 | Memento | [Acta](671_MEMENTO.md) | 5/5 | Acreditado aislado |
-| 677 | Crystron Horus | [Acta](677_CRYSTRON_HORUS.md) | 5/5 | Acreditado aislado |
-| 665 | Kashtira Pure | [Acta](665_KASHTIRA_PURE.md) | 5/5 | Acreditado aislado |
-| 650 | ElfNote | [Acta](650_ELFNOTE.md) | 5/5 | Acreditado aislado |
-| 653 | DoomZ | [Acta](653_DOOMZ.md) | 5/5 | Acreditado aislado |
-| 656 | Tearlaments | [Acta](656_TEARLAMENTS.md) | 5/5 | Acreditado aislado |
-| 670 | Infernoble | [Acta](670_INFERNOBLE.md) | 5/5 | Acreditado aislado |
-| 684 | Cyber Dragon Pure | [Acta](684_CYBER_DRAGON_PURE.md) | 5/5 | Acreditado aislado |
-| 687 | Volcanic | [Acta](687_VOLCANIC.md) | 5/5 | Acreditado aislado |
-| 660 | Purrely | [Acta](660_PURRELY.md) | 5/5 | Acreditado aislado |
-| 673 | Salamangreat | [Acta](673_SALAMANGREAT.md) | 5/5 | Acreditado aislado |
-| 699 | GOAT Control | [Acta](699_GOAT_CONTROL.md) | 5/5 | Acreditado aislado |
-| 704 | Pyro | [Acta](704_PYRO.md) | 5/5 | Acreditado aislado |
-| 705 | Royal | [Acta](705_ROYAL.md) | 5/5 | Acreditado aislado |
-| 706 | HERO | [Acta](706_HERO.md) | 5/5 | Acreditado aislado |
-| 707 | Dark Magician | [Acta](707_DARK_MAGICIAN.md) | 5/5 | Acreditado aislado |
+| 671 | Memento | [Acta](671_MEMENTO.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 677 | Crystron Horus | [Acta](677_CRYSTRON_HORUS.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 665 | Kashtira Pure | [Acta](665_KASHTIRA_PURE.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 650 | ElfNote | [Acta](650_ELFNOTE.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 653 | DoomZ | [Acta](653_DOOMZ.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 656 | Tearlaments | [Acta](656_TEARLAMENTS.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 670 | Infernoble | [Acta](670_INFERNOBLE.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 684 | Cyber Dragon Pure | [Acta](684_CYBER_DRAGON_PURE.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 687 | Volcanic | [Acta](687_VOLCANIC.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 660 | Purrely | [Acta](660_PURRELY.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 673 | Salamangreat | [Acta](673_SALAMANGREAT.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 699 | GOAT Control | [Acta](699_GOAT_CONTROL.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 704 | Pyro | [Acta](704_PYRO.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 705 | Royal | [Acta](705_ROYAL.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 706 | HERO | [Acta](706_HERO.md) | 5/5 | Reabierto; 8 lecciones redactadas |
+| 707 | Dark Magician | [Acta](707_DARK_MAGICIAN.md) | 5/5 | Reabierto; 8 lecciones redactadas |
 
 ## Evidencia técnica común
 
