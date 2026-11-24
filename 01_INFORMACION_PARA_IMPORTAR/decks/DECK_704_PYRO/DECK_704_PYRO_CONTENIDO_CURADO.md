@@ -234,6 +234,39 @@
 
 ## CONTROL_DE_TAREAS_A01_A10
 
+### A02 — recertificación individual 2026-11-24
+
+- **A02-T1: COMPLETA (identidad e inventario documental).** Deck 704, Pyro, formato rush_duel; Main/Extra/Side/Reserva 30/5/0/0; 17 CID y 17 filas físicas. Coinciden CID/card_id/zona/cantidad, nombres e IDs de ficha de Station X V40; no se consultó producción en esta sesión.
+- **A02-T2: COMPLETA (compatibilidad documental).** JSON y Markdown de entrada coinciden por SHA con revisión probada `62c0a4a3827ed5efb37a5dfd0c7320e9d4604e92`. [CI real #45311165600](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600/job/138166949337) reportó ISOLATED_PASS para 704: preparación ZIP nativa, publicación aislada, exportación/reimportación y 12 rechazos. Se ejecutaron ahora controles individuales de estructura y seis mutaciones negativas (deck_id, cantidad, CID, card_id, formato, ruta), todas rechazadas por el cotejo documental. No se ejecutó nuevamente PHP ni se publicó en producción; esta acta solo cambia el control privado del Markdown.
+- **A02-T3: COMPLETA (identificadores/procedencia).** 17 IDs de ficha, 17 card_id, 3 route_id, 1 Skill(s) intactos frente al snapshot. Contratos `station-x-deck-package/1`, `station-x-curated-v62`, `deck-slots-v1`. No se fabricó hash de inventario vivo ni se alteró calculadora.
+
+Fuente nativa: [V40 704](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/704.json), blob `3a24b71adf7ed96442403daab799319e193a1022`. Paquete GPT: blob `e84af86ea371d9595a952517df68763b3f292157`; Markdown anterior: blob `8221259f35efff4b8ecdd0c677f1201f917223da`. Revisión GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`.
+
+| CID | Carta | ID de ficha | card_id:zona×copias | Fuente registrada |
+|---:|---|---|---|---|
+| 15204 | ¡Atraviesa! | 704:A08:C001 | 429:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2 |
+| 17285 | Germalewe | 704:A08:C002 | 430:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2 |
+| 17212 | Orden Secreta | 704:A08:C003 | 431:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2 |
+| 19291 | Hiperasistente Ember | 704:A08:C004 | 432:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2 |
+| 18583 | Cromatográfagas | 704:A08:C005 | 433:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2 |
+| 17963 | Superasistente Ember | 704:A08:C006 | 434:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2 |
+| 16934 | Fusión | 704:A08:C007 | 435:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2 |
+| 16171 | Fuego Ardiente | 704:A08:C008 | 436:main×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2 |
+| 17868 | Salamandra Quimicalizada | 704:A08:C009 | 437:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2 |
+| 18646 | Gelatina Defensiva | 704:A08:C010 | 438:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja |
+| 19700 | Amparo del Protector Estelar | 704:A08:C011 | 439:main×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2 |
+| 16776 | Parar la Defensa | 704:A08:C012 | 440:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2 |
+| 15913 | Agujero Trampa | 704:A08:C013 | 441:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 17926 | Gobernante de las Llamas | 704:A08:C014 | 442:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2 |
+| 16372 | Olla de la Codicia | 704:A08:C015 | 443:main×1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 19990 | Arquero Ígneo Supergráfagas | 704:A08:C016 | 444:extra×2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2 |
+| 18614 | Salamandra Alquimicalizada | 704:A08:C017 | 445:extra×3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2 |
+
+**Rutas preservadas:** `704:A09:ALCHEMY:ARCHER01`, `704:A09:ALCHEMY:SALAMANDRA02`, `704:A09:V11:HYPER:CHEMICALIZED:PIERCE`.
+
+**Alcance:** solo A02 del deck 704; no acredita A01, A03–A10, legalidad de efectos ni inventario vivo. No se aplica banlist. Conteo literal del checklist existente tras el cambio: 5/37; los estados históricos de otros apartados no se recertifican.
+
+
 **Manifest:** `station-x-a01-a10-task-manifest/1` · deck_id **704** · **T1 y T3 evidenciadas**, T2/T4/T5 pendientes por paquete y pruebas físicas. La documentación previa A02–A10 se mantiene, sin cierre retroactivo de tareas del contrato nuevo.
 
 ### A01
@@ -244,9 +277,9 @@
 - [ ] **A01-T5** — BLOQUEADA: import/export/render físico del paquete no certificado.
 
 ### A02
-- [ ] **A02-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
-- [ ] **A02-T2** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
-- [ ] **A02-T3** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
+- [x] **A02-T1** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T2** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
+- [x] **A02-T3** — Evidencia individual vigente: recertificación A02 del 24-11-2026 en este control.
 
 ### A03
 - [ ] **A03-T1** — NO CERTIFICADA: conservar estudios previos sin convertirlos en evidencia de tarea actual.
