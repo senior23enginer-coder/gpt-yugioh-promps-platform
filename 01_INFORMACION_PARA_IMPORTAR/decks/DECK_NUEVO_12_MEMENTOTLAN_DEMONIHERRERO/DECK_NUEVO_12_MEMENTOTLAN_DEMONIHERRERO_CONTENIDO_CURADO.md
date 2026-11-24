@@ -2054,11 +2054,11 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
   - **Evidencia verificada:** Cruce CID/efecto/ruta: 19364→671:angwitch:search→C01/C04; 19363→671:dark-blade:goblin→C05; 19904→671:memento-fusion:fuse→C01/C06; 20216→671:creation-king:fusion-send→C01/C04; 19360→671:tecuhtlica:five-names→C02; 19188→671:sp:temporary-banish→C08.
 
 ### A02 — COMPLETA con evidencias
-- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T1** Verificar deck_id real, formato, identidad del paquete y referencia al inventario aprobado; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — Revalidación A02 24-11-2026: Identidad, formato, CID, fila y cantidades cotejados con la API y la fuente aprobada.
   - **Evidencia verificada:** Paquete station-x-deck-package/1 y record.schema station-x-curated-v62; deck_id=671 en ambos; format=tcg_advanced, carpeta NUEVO_12 es alias histórico, fuente de inventario original aprobada el 18-11-2026.
-- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T2** Comprobar compatibilidad documental del ZIP y datos/stationx-deck.json sin exigir record.calculator para A10A; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — Revalidación A02 24-11-2026: ZIP único, preflight PHP nativo y exportación/reimportación aisladas verificadas.
   - **Evidencia verificada:** Compatibilidad documental comprobada: content_mode=structured, inventory_binding=deck-slots-v1, source_document existe, 40 filas de inventory concordantes con record.cards[*].slots, 12 rutas/69 pasos con fotos. La prueba aislada de ZIP de Platform CI #44938444076 aprobó la estructura base; no se declara aquí una nueva importación viva posterior a la actualización del perfil A01.
-- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción
+- [x] **A02-T3** Asignar IDs estables y registrar procedencia/versionado del único contrato sin alterar Skills ni otros decks; adjuntar evidencia por CID/ID, fuente y control verificado, o bloqueo con causa y siguiente acción — Revalidación A02 24-11-2026: Identificadores, Skill y procedencia conservados; evidencia versionada en APARTADO_02.
   - **Evidencia verificada:** 40 card_id nativos estables, 39 CID y mismo formato/suma de cantidades en ambas copias del repositorio. Skills=0 y Reserva ausente por ser opcional. No se modificaron cartas, reglas, rutas ni otros decks.
 
 ### A03 — COMPLETA con evidencias
@@ -2392,6 +2392,71 @@ A04-T1 acredita presencia y referencias oficiales de las 39 identidades. **A04-T
 <!-- A01_PLAYER_STRATEGY_V2_END -->
 
 ## APARTADO_02 — Planes y estilo por situación
+
+<!-- A02_RECEPCION_IDENTIDAD_V1_START -->
+### A02 — Recepción e identidad técnica verificada
+
+**Estado: COMPLETA (3/3).** Solo A02; no acredita legalidad de combos, efectos ni calculadora.
+
+- ID: 671; nombre en plataforma: Memento; nombre fuente: Memento; formato: `tcg_advanced`.
+- Carpeta única: `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO`; documento: `DECK_NUEVO_12_MEMENTOTLAN_DEMONIHERRERO_CONTENIDO_CURADO.md`.
+- Main 41 / Extra 15 / Side 14 / Reserva 0; 39 CID; 40 filas; 0 Skill(s) separadas.
+- Transferencia ESTRUCTURADA_IMPORTABLE; station-x-deck-package/1, station-x-curated-v62. Entrada GPT: deck-slots-v1/structured; export nativo: inventory_sha256/auto con baseline. A10B no solicitado.
+- Fuente GPT: `7bd257a47655d332c931f9cf944f8cf099ee2ba7`; blob JSON: `c9b3829860dece151be739867ae1c4d26a037e71`; blob documental anterior: `707e5cb92607db7a7b7313ed66a564f0e06a8b6a`.
+- Plataforma: `574c6426b3c6668f1ae8b95cd1a539c79ee14d2f`; procedencia registrada: {"source": "platform-yugioh-md V40 structured editorial snapshot; GPT A01-A10 markdown preserved separately", "claim": "documentary and visual routes, not engine-certified"}.
+- Huella de inventario nativa: `1d7183257685ff5d8468d4bcee2a2f88b4b39ec9488679a4824ff65b5c088e39`. SHA-256 del ZIP de entrada auditado: `154c50a14180146a759dcbb53c13295c4cbe2977f9208ff504938e82ae62a7de`.
+- [Importación previa verificada](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311363853): 2026-11-24T03:20:57+00:00; lectura nativa de solo lectura: 2026-11-24T19:54:48.385004+00:00.
+- [Aceptación PHP previa](https://github.com/senior23enginer-coder/platform-yugioh-md/actions/runs/45311165600): 12 rechazos, preparación/publicación aislada, exportación y reimportación; se ejecuta el mismo preflight individual sobre este documento antes de confirmar el commit.
+
+| ID fila | CID | Carta | Zona | Copias |
+|---:|---:|---|---|---:|
+| 482 | 19364 | Angbruja | main | 3 |
+| 483 | 19362 | Tatsunootoshigo | main | 3 |
+| 484 | 19363 | Hoja Oscura | main | 3 |
+| 485 | 19366 | Goblin | main | 2 |
+| 486 | 19360 | Tecuhtlica - Creación Combinada | main | 1 |
+| 487 | 20491 | Akhíron | main | 1 |
+| 488 | 20199 | Dormiveja | main | 1 |
+| 489 | 19365 | Maza | main | 1 |
+| 490 | 19472 | Desvantasmas | main | 1 |
+| 491 | 19361 | Dragón de Cuerno | main | 1 |
+| 492 | 20196 | Demoniherrero Grabador | main | 1 |
+| 493 | 12950 | Flor de Ceniza | main | 3 |
+| 494 | 9279 | El Bufón y el Pájaro del Candado | main | 3 |
+| 495 | 20500 | Fuwalos | main | 1 |
+| 496 | 20500 | Fuwalos | side | 2 |
+| 497 | 19904 | Fusión Mementotlán | main | 3 |
+| 498 | 19368 | Fiesta de Huesos | main | 3 |
+| 499 | 9139 | Oleada de Calor | main | 3 |
+| 500 | 20533 | Gran Fuga Moto Goblin | main | 2 |
+| 501 | 15299 | Gotas Prohibidas | main | 2 |
+| 502 | 19367 | Mementomictlán | main | 1 |
+| 503 | 13619 | Llamado por la Tumba | main | 1 |
+| 504 | 15296 | Talento de Tácticas Triples | main | 1 |
+| 505 | 20423 | Princesa Necroequipo | extra | 1 |
+| 506 | 12870 | Predaplanta Dragostapelia | extra | 1 |
+| 507 | 16845 | Quimera Guardián | extra | 1 |
+| 508 | 20216 | Rey Creación | extra | 3 |
+| 509 | 19878 | Dragón Gemelo | extra | 1 |
+| 510 | 13081 | D/D/D César, Alto Rey de las Olas | extra | 1 |
+| 511 | 19184 | TY-PHON - Crisis Celeste | extra | 1 |
+| 512 | 20225 | Réquiem del Demoniherrero | extra | 1 |
+| 513 | 19188 | S:P Pequeña Caballera | extra | 1 |
+| 514 | 19932 | Luna del Cielo Cerrado | extra | 1 |
+| 515 | 20226 | Secuencia del Demoniherrero | extra | 1 |
+| 516 | 20389 | Duque de la Defunción | extra | 1 |
+| 517 | 9657 | Portaaviones Sumergible Aero Tiburón | extra | 1 |
+| 518 | 20764 | Meowls | side | 3 |
+| 519 | 20206 | Purulia | side | 3 |
+| 520 | 11243 | Artefacto Lancea | side | 3 |
+| 521 | 21203 | Rebanador Gordiano | side | 3 |
+
+**Rutas existentes:** `671:A09:C01`, `671:A09:C02`, `671:A09:C03`, `671:A09:C04`, `671:A09:C05`, `671:A09:C06`, `671:A09:C07`, `671:A09:C08`, `671:A09:C09`, `671:A09:C10`, `671:A09:C11`, `671:A09:C12`.
+**Skills:** No aplica..
+
+**Checklist existente:** 34/35 checks obligatorios marcados; 1/35 pendientes. Solo A02 se revalida aquí.
+<!-- A02_RECEPCION_IDENTIDAD_V1_END -->
+
 
 | Estado | Objetivo práctico | Decisión y coste | Límite/cambio de plan |
 |---|---|---|---|
