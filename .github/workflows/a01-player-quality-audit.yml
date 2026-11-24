@@ -1,0 +1,23 @@
+name: A01 quality source audit (16 explicitly assigned decks)
+on:
+  push:
+    branches: [fix/a01-player-quality-20261123]
+    paths: ['.github/workflows/a01-player-quality-audit.yml','scripts/a01-player-quality-audit.cjs','scripts/a01-player-guide-contract.cjs']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/a01-player-quality-audit.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: a01-quality-private-evidence
+          path: outputs/a01-*.json
+          if-no-files-found: error
