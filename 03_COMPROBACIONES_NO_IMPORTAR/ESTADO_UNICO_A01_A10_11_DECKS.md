@@ -42,6 +42,27 @@
 - Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
 - Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
 
+**T2, Royal 705 — guía de cotejo visual de las 16 identidades:** 30 copias en el inventario digital. Esta tabla cruza cada fila española del paquete con una impresión japonesa acreditada por Konami Rush. El código es un ejemplo, no la única edición posible; otra impresión se comprueba en el mismo CID. Para cartas traducidas, proxy o lista digital de RUSH_LOCAL, comparar la imagen o ficha del cliente con la fuente Rush y conservar el rótulo local. No usar el CID de TCG para Canjear, Agujero Trampa ni Monstruo Reencarnado. Esta evidencia de catálogo no prueba qué ejemplares tiene Miguel, no aprueba los alias para el lote y no modifica la Skill local externa.
+
+| Fila | Copias | Rótulo local | CID Rush | Ejemplo de edición JP |
+|---:|---:|---|---:|---|
+| 466 | 3 | Kheiron el Caballero Estelar | [16344](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16344&ope=2) | `RD/KP05-JP038` |
+| 467 | 3 | Phaser del Rebelde Real | [16330](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16330&ope=2) | `RD/KP05-JP023` |
+| 468 | 3 | Impasse Ignoto | [19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2) | `RD/SJMP-JP034` |
+| 469 | 2 | Metal Maldito del Rebelde Real | [16331](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16331&ope=2) | `RD/KP05-JP024` |
+| 470 | 2 | Heavy Metal del Rebelde Real | [15441](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15441&ope=2) | `RD/SA01-JP005` |
+| 471 | 2 | Progrock del Rebelde Real | [19761](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19761&ope=2) | `RD/HC01-JP017` |
+| 472 | 2 | Descendiente de Titanes | [16135](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16135&ope=2) | `RD/KP04-JP012` |
+| 473 | 2 | Canjear | [17721](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17721&ope=2) | `RD/MRP1-JP096` |
+| 474 | 2 | Aliento de Fuego del Genio | [15673](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15673&ope=2) | `RD/CP01-JP025` |
+| 475 | 2 | Restauración de Cartas | [17543](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17543&ope=2) | `RD/KP09-JP057` |
+| 476 | 2 | Maldición de la Luz Ascendente | [21007](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2) | `RD/KP19-JP056` |
+| 477 | 1 | Gelatina Defensiva | [18646](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2) | `RD/KP12-JP064` |
+| 478 | 1 | Avaricia del Rey | [19799](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19799&ope=2) | `RD/HC01-JP083` |
+| 479 | 1 | Agujero Trampa | [15913](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2) | `RD/MAX1-JP019` |
+| 480 | 1 | Esplendor del Rey | [15674](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2) | `RD/CP01-JP026` |
+| 481 | 1 | Monstruo Reencarnado | [16305](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2) | `RD/P003-JP003` |
+
 **T3, huellas de referencia en Station X:** se verificaron nuevamente los 16 ZIP nativos, sólo lectura, el 25-11-2026 entre 01:39:20 y 01:40:28 UTC. Los 584 registros (980 copias) coinciden por ID, zona y cantidad con el snapshot; los 562 registros de identidad cubren todas las filas. Las 16 huellas de inventario también coinciden con la verificación previa de A02. Se congela esta referencia digital, no la lista física final. En particular, un hash idéntico no valida ni corrige la discrepancia Noir de Purrely.
 
 | Mazo | Exportación UTC | SHA-256 de inventario |
