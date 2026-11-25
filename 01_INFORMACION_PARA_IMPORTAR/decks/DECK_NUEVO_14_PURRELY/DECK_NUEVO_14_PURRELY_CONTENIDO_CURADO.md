@@ -329,6 +329,17 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 36/36 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 36/36 filas por ID/zona/cantidad; huella FNV-1a64 `dcb3713b79d2103f` (no es inventory_sha256 de Station X). Los 36 nombres por ID coinciden exactamente con V40 (FNV-1a64 `ada89916a2244bc5`); las 36 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 48/15/7/0; 36 identidades, 5 rutas, 24 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 36/36; coincidencia normalizada de nombre 35/36. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `43a16cd4b562c2f622656d3a5926f279be4b6b0f1060c08affae65ac178ccdd6`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+| CID | Nombre registrado | Título oficial recuperado | Dictamen |
+|---:|---|---|---|
+| 11708 | Hermana Fantasma & Conejo Espectral | Ogro Fantasma & Conejo de las Nieves | Alias no literal; confirmar localización o fotografía antes de escritura. |
+
+36 CID candidatos pendientes de escritura nativa segura en notes.konami_cid; no utilizar el guardado destructivo de listas. A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
 ### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
 
 Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID de esta tabla **son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada**. No inferir YGOPRODeck ID, no cambiar inventario y no marcar T2 completa. Fuente oficial indicada por cada CID; pendiente consulta independiente y comparación de nombre, formato, requisitos, y escritura nativa autorizada mediante mecanismo seguro.
