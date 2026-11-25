@@ -335,7 +335,7 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 
 | CID | Nombre registrado | Título oficial recuperado | Dictamen |
 |---:|---|---|---|
-| 11708 | Hermana Fantasma & Conejo Espectral | Ogro Fantasma & Conejo de las Nieves | Alias no literal; confirmar localización o fotografía antes de escritura. |
+| 14275 | Hermana Fantasma & Cornejo Espectral | Hermana Fantasma & Cornejo Espectral | El nombre nativo tiene una errata («Conejo»); la identidad del Main fotografiado corresponde a 14275. |
 
 36 CID candidatos pendientes de escritura nativa segura en notes.konami_cid; no utilizar el guardado destructivo de listas. A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
 
@@ -350,7 +350,7 @@ Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, confo
 | 563 | Purrelyly | main | 2 | 18481 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) |
 | 564 | Flor de Ceniza & Primavera Feliz | main | 3 | 12950 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) |
 | 565 | Ángel del Alba Kambi | main | 3 | 21338 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) |
-| 566 | Hermana Fantasma & Conejo Espectral | main | 2 | 11708 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es) |
+| 566 | Hermana Fantasma & Conejo Espectral | main | 2 | 14275 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es) |
 | 567 | Bella Fantasma & Mansión Embrujada | main | 2 | 13587 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es) |
 | 568 | El Bufón y el Pájaro del Candado | main | 3 | 9279 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) |
 | 569 | Fuwalos Multivadora | main | 3 | 20500 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) |
@@ -393,7 +393,7 @@ Resultado: 36/36 filas con candidato único de CID en el paquete; 0/36 fichas co
 | 563 | 18481 | Purrelyly | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es |
 | 564 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
 | 565 | 21338 | Ángel del Alba Kambi | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es |
-| 566 | 11708 | Hermana Fantasma & Conejo Espectral | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es |
+| 566 | 14275 | Hermana Fantasma & Cornejo Espectral | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es |
 | 567 | 13587 | Bella Fantasma & Mansión Embrujada | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es |
 | 568 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
 | 569 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
@@ -437,7 +437,7 @@ Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04
 | 2 | Purrelyly |
 | 3 | Flor de Ceniza & Primavera Feliz |
 | 3 | Ángel del Alba Kambi |
-| 2 | Hermana Fantasma & Conejo Espectral |
+| 2 | Hermana Fantasma & Cornejo Espectral |
 | 2 | Bella Fantasma & Mansión Embrujada |
 | 3 | El Bufón y el Pájaro del Candado |
 | 3 | Fuwalos Multivadora |
@@ -499,7 +499,7 @@ Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04
 - Texto oficial Rechoncho: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=en
 - Texto oficial Noir grande: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=en
 - Texto oficial trampa: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=en
-- **Actualización A04 V35:** imágenes reutilizables por CID **10/36** (`12950`, `11708`, `13587`, `9279`, `20500`, `20206`, `15756`, `15296`, `13619`, `13631`); **26 faltantes**. Se copiaron de otros decks existentes en este maestro, sin alterar su contenido; los demás CIDs y textos siguen en revisión. Véase `profundización A01–A05 integrada`. No se usa arte sintético.
+- **Actualización A04 V35:** imágenes reutilizables por CID **10/36** (`12950`, `14275`, `13587`, `9279`, `20500`, `20206`, `15756`, `15296`, `13619`, `13631`); **26 faltantes**. Se copiaron de otros decks existentes en este maestro, sin alterar su contenido; los demás CIDs y textos siguen en revisión. Véase `profundización A01–A05 integrada`. No se usa arte sintético.
 
 ## A05 — Función, uso y propósito de **cada identidad**
 
@@ -509,7 +509,7 @@ Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04
 | Purrelyly ×2 | Busca carta Purrely NO Mágica Rápida al invocarse; Xyz con Recuerdo Rápido del GY, adjuntándolo | Requiere objetivo en GY; los dos efectos tienen su límite |
 | Flor de Ceniza ×3 | Cortar búsqueda, envío desde Deck o invocación desde Deck según texto de activación | Guardar para punto crítico rival |
 | Ángel del Alba Kambi ×3 | Hada LUZ Nivel 1: puede Invocarse Especial desde mano si no controlas monstruos o todos los propios son Hada; sacrifica Hadas, incluso a sí misma, para Invocar desde el Deck una Hada cuyo Nivel iguale la suma de Niveles originales sacrificados. **CID oficial 21338**. | La activación del efecto de sacrificio restringe tus Invocaciones Especiales del turno a **monstruos Hada**; por tanto, no combinar ese turno con Xyz que no sean Hada o Links ajenos al Tipo. No es una negación. |
-| Hermana Fantasma & Conejo Espectral ×2 | Destruir carta en campo cuando corresponde a su activación de efecto | Destrucción NO equivale a negar ese efecto |
+| Hermana Fantasma & Cornejo Espectral ×2 | Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase. | Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno. |
 | Bella Fantasma & Mansión Embrujada ×2 | Interacción frente a jugadas de Cementerio según efecto | Comparar activación y ventana |
 | El Bufón y el Pájaro del Candado ×3 | Restringe nuevas adiciones del Deck a mano tras primer añadido | También puede bloquear nuestras búsquedas según turno/contexto |
 | Fuwalos Multivadora ×3 | Handtrap de presión sobre invocaciones rivales cubiertas por su texto | No garantiza robo incondicional |
@@ -581,7 +581,7 @@ Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04
 | `660:CARD:18481` / [18481](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) · [foto](imagenes/18481.png) | Purrelyly | Main ×2 | Busca carta Purrely NO Mágica Rápida al invocarse; Xyz con Recuerdo Rápido del GY, adjuntándolo | MOTOR-PUR-01 / CONDICIONAL | Requiere objetivo en GY; los dos efectos tienen su límite | A09 candidatos P-C02 | PENDIENTE: probar participación causal y A07 |
 | `660:CARD:12950` / [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) · [foto](imagenes/12950.jpg) | Flor de Ceniza & Primavera Feliz | Main ×3 | Cortar búsqueda, envío desde Deck o invocación desde Deck según texto de activación | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Guardar para punto crítico rival | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:21338` / [21338](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) · [foto](imagenes/21338.png) | Ángel del Alba Kambi | Main ×3 | Hada LUZ Nivel 1: puede Invocarse Especial desde mano si no controlas monstruos o todos los propios son Hada; sacrifica Hadas, incluso a sí misma, para Invocar desde el Deck una Hada cuyo Nivel iguale la suma de Niveles originales sacrificados. **CID oficial 21338**. | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | La activación del efecto de sacrificio restringe tus Invocaciones Especiales del turno a **monstruos Hada**; por tanto, no combinar ese turno con Xyz que no sean Hada o Links ajenos al Tipo. No es una negación. | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
-| `660:CARD:11708` / [11708](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es) · [foto](imagenes/11708.jpg) | Hermana Fantasma & Conejo Espectral | Main ×2 | Destruir carta en campo cuando corresponde a su activación de efecto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Destrucción NO equivale a negar ese efecto | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
+| `660:CARD:14275` / [14275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es) · [foto](imagenes/14275.jpg) | Hermana Fantasma & Cornejo Espectral | Main ×2 | Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase. | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno. | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:13587` / [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es) · [foto](imagenes/13587.jpg) | Bella Fantasma & Mansión Embrujada | Main ×2 | Interacción frente a jugadas de Cementerio según efecto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Comparar activación y ventana | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:9279` / [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) · [foto](imagenes/9279.jpg) | El Bufón y el Pájaro del Candado | Main ×3 | Restringe nuevas adiciones del Deck a mano tras primer añadido | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | También puede bloquear nuestras búsquedas según turno/contexto | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:20500` / [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) · [foto](imagenes/20500.jpg) | Fuwalos Multivadora | Main ×3 | Handtrap de presión sobre invocaciones rivales cubiertas por su texto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | No garantiza robo incondicional | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
@@ -766,7 +766,7 @@ Se localizaron en **otros decks del mismo maestro** y se copiaron sin alteració
 | CID | Identidad en este deck | Evidencia local |
 |---:|---|---|
 | 12950 | Flor de Ceniza | `imagenes/12950.jpg` |
-| 11708 | Hermana Fantasma / Ghost Ogre | `imagenes/11708.jpg` |
+| 14275 | Hermana Fantasma / Ghost Sister & Spooky Dogwood | `imagenes/14275.jpg` |
 | 13587 | Bella Fantasma / Ghost Belle | `imagenes/13587.jpg` |
 | 9279 | Droll & Lock Bird | `imagenes/9279.jpg` |
 | 20500 | Fuwalos Multivadora | `imagenes/20500.jpg` |
