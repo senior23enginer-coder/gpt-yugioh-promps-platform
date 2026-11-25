@@ -325,6 +325,33 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 17/17 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 17/17 filas por ID/CID/zona/cantidad; huella FNV-1a64 `82e2e8141bfef34c` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/8/0/0; 17 identidades, 9 rutas, 35 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica HERO RUSH RISING preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 17/17; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `f2cc475b048bcfd6f4c0311be9d91163af2eeb48aac9a1be5d6244f19ceb81cb`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 20460 | E・HERO フェザーマン |
+| 20457 | E・HERO スパークマン |
+| 20459 | E・HERO バーストレディ |
+| 20461 | R・HERO アルジェント |
+| 16929 | スター・リスタート |
+| 20665 | ヒーロー・ディセント |
+| 20151 | シャイニーシェイディー |
+| 20465 | エレメンタル・サーキュレーション |
+| 16358 | 鳥呪戦術 |
+| 16934 | フュージョン |
+| 15913 | 落とし穴 |
+| 16372 | 強欲な壺 |
+| 21316 | E・HERO ボルテック・ウィングマン |
+| 20454 | E・HERO バースト・ウィングマン |
+| 20453 | E・HERO フレイム・ウィングマン |
+| 21501 | E・HERO ヘリオスフィアー |
+| 20610 | E・HERO シャイニング・フレア・ウィングマン |
+
+A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
 ### A03-T1/T2 — contraste externo de Skill (24-11-2026)
 
 **Hero Rush Rising** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Hero%20Rush%20Rising). Exige que monstruos con ATK >=1600 del Deck construido sean LUZ/Guerrero y que monstruos de Extra sean Guerrero. Envía una carta propia del campo al GY, reduce 600 ATK/DEF de un monstruo boca arriba y puede recuperar Fusion del Deck/GY. El nombre de la Skill también aparece en [resultados oficiales de Konami WCS 2026](https://www.konami.com/yugioh/worldchampionship/2026/en/). Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
