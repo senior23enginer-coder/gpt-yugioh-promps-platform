@@ -328,6 +328,36 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 20/20 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 20/20 filas por ID/CID/zona/cantidad; huella FNV-1a64 `8c1aea1b5384f02b` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/7/0/0; 20 identidades, 9 rutas, 35 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica ILLUSION OF EXECUTION preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 20/20; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `d96c5d04a677e7e2414373c9ce49f042b49d0e210c9f5e9d15f2b81bcc4d7986`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 15451 | 黒・魔・導 |
+| 16772 | アメイジング・ディーラー |
+| 18685 | レジェンド・マジシャン |
+| 19597 | 円熟の黒魔術師 |
+| 19329 | モンスター招集 |
+| 19773 | 黒魔導の遂行者 |
+| 17209 | 黒・魔・導・響・弾 |
+| 20151 | シャイニーシェイディー |
+| 19598 | 黒魔術師の宝石 |
+| 15410 | ブラック・マジシャン |
+| 20305 | リリースレイヤー |
+| 16371 | ブラック・マジシャン・ガール |
+| 15450 | 千本ナイフ |
+| 19341 | エクスキューティー・ライディング！ |
+| 17212 | 潜入開始 |
+| 16372 | 強欲な壺 |
+| 21007 | 昂光の呪縛 |
+| 19995 | 疾風の竜騎士ガイア |
+| 18298 | 竜騎士ガイア |
+| 19323 | 百戦の覇者ガイア |
+
+A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
 ### A03-T1/T2 — contraste externo de Skill (24-11-2026)
 
 **Illusion of Execution** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Illusion%20of%20Execution). Desde turno 2 y una vez por duelo; revelar monstruo Nivel 5+ y respetar Lanzadores de Conjuros y los tres nombres de alto Nivel admitidos. Excava tres cartas, puede recuperar una Mágica y envía restantes al GY; puede enviar Dark Magician del Deck al GY. El nombre de la Skill también aparece en [resultados oficiales de Konami WCS 2026](https://www.konami.com/yugioh/worldchampionship/2026/en/). Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
