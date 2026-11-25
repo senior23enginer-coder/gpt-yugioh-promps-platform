@@ -130,6 +130,520 @@
 | [20798](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=es) | 2 | 1 | 0 |
 | [20817](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=es) | 1 | 1 | 0 |
 
+**T3, censo de los diez mazos restantes — revisión por CID (25-11-2026 UTC):** lectura y clasificación de los textos oficiales, descontando duplicaciones de zona, costes, restricciones posteriores que forman parte de la resolución y modalidades de la misma activación. No se aplicó banlist. Las columnas separan activaciones (incluidos disparos obligatorios), cláusulas no activadas persistentes, reemplazos y procedimientos propios/restricciones impresas de Invocación, Colocación o activación desde la mano. Los efectos activados concedidos de forma explícita se cuentan una vez; copiar un efecto de nombre conocido o resolver uno de varios modos no añade una segunda activación independiente. Se mantienen los trazados anteriores a este recálculo.
+
+| Mazo | Identidades | Activaciones | Continuos | Reemplazos | Procedimientos/restricciones |
+|---|---:|---:|---:|---:|---:|
+| Kashtira Pure 665 | 38 | 58 | 8 | 2 | 11 |
+| Elfnote 650 | 42 | 69 | 14 | 0 | 6 |
+| DoomZ 653 | 37 | 63 | 13 | 1 | 8 |
+| Tearlaments 656 | 50 | 79 | 14 | 0 | 4 |
+| Infernoble 670 | 45 | 72 | 14 | 0 | 7 |
+| Cyber Dragon Pure 684 | 52 | 70 | 25 | 3 | 11 |
+| Volcanic 687 | 36 | 44 | 11 | 0 | 6 |
+| Purrely 660 | 36 | 53 | 5 | 0 | 5 |
+| Salamangrande 673 | 39 | 61 | 4 | 1 | 5 |
+| GOAT Control 699 | 39 | 39 | 16 | 1 | 6 |
+
+- **Kashtira:** Shangri-Ira y Arise-Heart tienen reemplazos distintos: sustituir la destrucción con material y desterrar en vez de enviar al Cementerio. Los procedimientos Xyz alternativos no son activaciones.
+- **DoomZ/Cyber Dragon:** se distingue el aumento de ATK continuo concedido por Regulus del acceso a su efecto de negación ya impreso; no se cuenta dos veces. Regulus sigue siendo la misma identidad en ambos mazos.
+- **Purrely:** el censo de 36 identidades emplea el CID 14275 corregido para la fila 566 y conserva como hipótesis de referencia la fila 587 sin separar. Si se confirma el Extra fotografiado (2 de 18008 y 1 de [18831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es)), la identidad adicional Noir Epurrely suma dos bloques activados (devolver cartas y acoplar una Mágica Rápida con la Colocación opcional incluida), resultando **37 identidades, 55 activaciones, 5 continuos, 0 reemplazos y 5 procedimientos**. No se generó un ID nativo para esa copia ni se congeló esa hipótesis.
+- **GOAT:** Neuron se usa para identidad. Para mecánica, los cambios históricos comprobados se contrastaron con originales y rulings de 2005/Netrep recopilados en [archivo de época](https://goatrulings.com/goat-all-rulings.html), [rulings de Anillo Destructor](https://www.goatformat.com/rulings6.html), [Serpiente Siniestra y Sangan](https://www.goatformat.com/rulings7.html) y [Ojama King](https://www.goatformat.com/rulings5.html). No trasladar la restricción moderna de Sangan ni el destierro posterior de Serpiente. Anillo calcula el ATK actual y daña a ambos. Se cuenta seleccionar zonas de Ojama King cuando queda boca arriba como un bloque activado histórico, no como una activación libre en Main Phase. El efecto de destrucción por ser seleccionado de Segador en la Pesadilla no se cuenta como nueva Cadena. Los dos Fusion sin efecto se registran con cero; no equivale a omitirlos.
+
+<details>
+<summary>Kashtira Pure 665: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4342](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5432](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5537](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7153&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [9352](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [9861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12464](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12668](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13896](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13974](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [14400](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [14740](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15366](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en) | 2 | 1 | 0 | 1 |
+| [15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [15741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en) | 2 | 1 | 0 | 1 |
+| [15756](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [15882](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en) | 2 | 1 | 0 | 1 |
+| [16386](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [17769](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [17770](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [17800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en) | 2 | 0 | 1 | 0 |
+| [17804](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17815](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [17831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18152](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en) | 1 | 2 | 0 | 0 |
+| [18153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [18191](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en) | 2 | 0 | 1 | 1 |
+| [18203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18220](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Elfnote 650: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [6511](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6511&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [8038](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8038&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [11708](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12321](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12321&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13407](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13407&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13710](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=es) | 2 | 2 | 0 | 0 |
+| [15239](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15239&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15994](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15994&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [15996](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15996&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17762](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17762&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17764&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18505](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18505&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18507](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18507&ope=2&request_locale=en) | 1 | 2 | 0 | 1 |
+| [18666](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18666&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [20206](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [21419](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22089](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22089&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [22116](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22116&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [22117](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22117&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [22118](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22118&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [22119](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22119&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [22142](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22142&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [22143](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22143&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [22144](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22144&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22159](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22159&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [22173](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22173&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [22335](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22335&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [22356](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22356&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22519](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en) | 3 | 1 | 0 | 1 |
+| [22520](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22520&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [22523](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22523&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [22533](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22533&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [22565](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22984](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22984&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>DoomZ 653: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [11413](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11413&ope=2&request_locale=en) | 1 | 1 | 1 | 0 |
+| [11708](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [14564](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14564&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14876](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14920](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14920&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14958](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14958&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [16002](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16002&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17119](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18190](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18190&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [19886](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19886&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [21419](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21419&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21453](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21453&ope=2&request_locale=en) | 1 | 2 | 0 | 0 |
+| [21774](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21774&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21775](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21775&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21776](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21776&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21777](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21777&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [21810](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21810&ope=2&request_locale=en) | 2 | 1 | 0 | 1 |
+| [21811](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21811&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [21812](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21812&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21823](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21823&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [21824](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21824&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [21840](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21840&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [22158](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22158&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22519](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=en) | 3 | 1 | 0 | 1 |
+| [22521](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22521&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [22554](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22554&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [22565](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22565&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [22567](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22567&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Tearlaments 656: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4678](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5537](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7445](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [8092](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8092&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [8933](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [10942](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10942&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [11005](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11005&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [12464](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12800&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13454](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [14356](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14356&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14676](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [14856](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14856&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [16850](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [17414](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17414&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17415](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17415&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17416](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17416&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17417](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17417&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17445](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17445&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17462](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17462&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [17473](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17473&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17475](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17475&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17603](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17603&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17604](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17604&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17746](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [17803](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17803&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [17813](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17813&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [18204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18219](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18219&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18807](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18807&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [19155](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=es) | 1 | 0 | 0 | 1 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [19200](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=es) | 2 | 1 | 0 | 0 |
+| [20196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [20214](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20214&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [20225](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [20226](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [20240](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20240&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [20490](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20490&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [20521](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20521&ope=2&request_locale=en) | 1 | 2 | 0 | 0 |
+| [22169](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22169&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Infernoble 670: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [5328](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5328&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [6458](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6458&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [6768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6768&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [6980](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6980&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7519](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7519&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [8933](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8933&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [12668](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13034](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13034&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13293](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13500&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [13841](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [13950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13950&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14075](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14075&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14085](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14085&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14496](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14496&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14801](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14801&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [15082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15082&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [15247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15247&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15248](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15248&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15249](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15249&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15275&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15276](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15276&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [15287](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15287&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15392](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15392&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [16386](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [17768](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [18151](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18214](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18800](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18800&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18801](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18801&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18827](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18827&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18835](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18835&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18843](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18843&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18844](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18844&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [18926](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18926&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19148](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19148&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [19196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19196&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19199](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19199&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19207](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19207&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+
+</details>
+
+<details>
+<summary>Cyber Dragon Pure 684: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4909](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5129](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [6390](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2&request_locale=en) | 0 | 0 | 0 | 1 |
+| [6397](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en) | 0 | 1 | 0 | 1 |
+| [6398](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [6663](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [6734](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en) | 1 | 2 | 0 | 1 |
+| [6783](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [6830](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=en) | 1 | 2 | 1 | 0 |
+| [7400](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7403](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2&request_locale=en) | 0 | 1 | 0 | 1 |
+| [7436](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=en) | 0 | 1 | 0 | 0 |
+| [8428](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [10866](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [10870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=es) | 3 | 0 | 0 | 0 |
+| [11764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [11765](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=es) | 2 | 1 | 0 | 1 |
+| [12464](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [12872](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13181](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=en) | 3 | 0 | 0 | 0 |
+| [13358](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2&request_locale=en) | 0 | 1 | 0 | 1 |
+| [13502](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13723](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [13758](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [13770](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13787](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [13847](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en) | 2 | 2 | 0 | 0 |
+| [13849](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13851](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14047](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [14710](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [14876](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [16233](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [16296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [16297](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=en) | 1 | 0 | 1 | 0 |
+| [16298](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en) | 2 | 0 | 1 | 0 |
+| [16301](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [17119](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [17625](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2&request_locale=en) | 1 | 3 | 0 | 0 |
+| [18448](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [20205](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=en) | 1 | 2 | 0 | 1 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [20511](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [20787](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [21163](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [21164](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Volcanic 687: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4678](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5622](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en) | 0 | 1 | 0 | 0 |
+| [6884](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en) | 0 | 1 | 0 | 0 |
+| [7082](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7083](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [7086](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [7934](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en) | 0 | 1 | 0 | 0 |
+| [8213](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [9455](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [11597](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13002](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13293](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13346](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [13600](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [13601](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [14133](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14144](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14338](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14676](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [15299](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en) | 2 | 1 | 0 | 1 |
+| [15756](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18915](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [18916](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [18917](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18918](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [18919](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18920](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18921](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [19027](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en) | 1 | 1 | 0 | 1 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [19507](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Purrely 660: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4842](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [11243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [12027](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13841](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=en) | 1 | 1 | 0 | 0 |
+| [14208](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [14275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [14741](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [14742](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [15524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en) | 2 | 0 | 0 | 1 |
+| [15756](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [16651](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [16868](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [18003](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18004](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18005](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18006](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18008](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [18009](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es) | 2 | 1 | 0 | 0 |
+| [18010](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18011](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [18012](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18013](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [18014](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18214](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [18481](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18524](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [20206](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [21338](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Salamangrande 673: clasificación por CID</summary>
+
+| CID (fuente Neurón) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4678](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [5102](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5102&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [6441](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6441&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [7934](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en) | 0 | 1 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [11243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13293](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [13631](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en) | 1 | 0 | 0 | 1 |
+| [13890](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13890&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [13891](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13891&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [13892](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13892&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [13938](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13938&ope=2&request_locale=es) | 1 | 0 | 0 | 1 |
+| [13940](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13940&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14111](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14111&ope=2&request_locale=es) | 2 | 1 | 0 | 0 |
+| [14125](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14125&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14133](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en) | 2 | 0 | 0 | 0 |
+| [14239](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14239&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14240](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14240&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14241](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14241&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14244](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14244&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [14247](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14247&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14248](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14248&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [14249](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14249&ope=2&request_locale=es) | 1 | 0 | 1 | 0 |
+| [14301](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14301&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [14666](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14666&ope=2&request_locale=es) | 3 | 0 | 0 | 0 |
+| [14742](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [14855](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14855&ope=2&request_locale=es) | 3 | 0 | 0 | 0 |
+| [14876](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en) | 1 | 0 | 0 | 0 |
+| [15033](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15033&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [15406](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15406&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [18813](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18813&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18908](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18908&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18909](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18909&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [18912](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18912&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
+| [19507](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en) | 2 | 1 | 0 | 0 |
+| [20206](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>GOAT Control 699: clasificación por CID</summary>
+
+| CID (fuente de identidad) | A | C | R | P |
+|---:|---:|---:|---:|---:|
+| [4054](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4054&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4174](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4174&ope=2&request_locale=es) | 0 | 0 | 0 | 0 |
+| [4300](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4300&ope=2&request_locale=es) | 0 | 0 | 0 | 0 |
+| [4434](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4434&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4481](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4481&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4597](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4597&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4740](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4740&ope=2&request_locale=es) | 1 | 2 | 1 | 0 |
+| [4812](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4812&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4818](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4844](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4844&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4887](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4887&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4891](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4891&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4898](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4898&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [4901](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4901&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4909](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4963](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4963&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4966](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4966&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [4988](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4988&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [4989](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4989&ope=2&request_locale=es) | 1 | 2 | 0 | 0 |
+| [5005](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5005&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5023](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5023&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
+| [5114](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5114&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5302](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5302&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [5319](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5319&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [5338](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5338&ope=2&request_locale=es) | 0 | 2 | 0 | 1 |
+| [5381](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5381&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [5432](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5528](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5528&ope=2&request_locale=es) | 1 | 3 | 0 | 0 |
+| [5539](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5539&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5655](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5655&ope=2&request_locale=es) | 2 | 1 | 0 | 0 |
+| [5660](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5660&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5663](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5663&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5719](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5719&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5780](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5780&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [5799](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5799&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [5835](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5835&ope=2&request_locale=es) | 2 | 0 | 0 | 1 |
+| [6126](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6126&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [6204](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6204&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+| [6264](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6264&ope=2&request_locale=es) | 1 | 0 | 0 | 0 |
+
+</details>
+
 **T3, censo base Rush de los cuatro mazos:** releídas las fichas del catálogo japonés para las 70 identidades sumadas por mazo (61 CID únicos), usando datos oficiales, no conteo de palabras o encabezados exclusivamente. Contar una activación por bloque de efecto, separar cláusulas continuas independientes, procedimientos y restricciones de Invocación. Una elección modal es una activación con opciones. Los materiales impresos de Fusión no son por sí mismos efectos. La Skill nativa queda en su propia columna; su texto completo del cliente no se presume verificado. Las condiciones, el uso por turno y los pasos de resolución no multiplican el número de efectos.
 
 | Deck | Identidades | Activaciones | Cláusulas continuas | Procedimientos propios | Restricciones impresas de Invocación | Sin efecto | Skills registradas |
@@ -144,7 +658,7 @@
 - **HERO:** continuas: 20453 tiene una y 20610 tiene dos (aumento de ATK y daño tras destruir en batalla). Restricción sólo por Fusión: 21316, 20454, 20453, 21501 y 20610. Sin efecto: 20460, 20457, 20459. Las otras 12 identidades tienen un bloque activado cada una.
 - **Dark Magician:** continua: 16371. Sin efecto: 15410 y la Fusión 18298. 19323 tiene una activación de efecto de elección con dos modalidades. Las otras 16 identidades tienen un bloque activado cada una.
 
-Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 integral sigue abierto: todavía no se congela la lista por falta del cotejo físico y falta el censo de otros diez mazos no Rush.
+Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 ahora tiene censo documental de los 16 mazos. El cierre integral sigue pendiente: congelar las listas aprobadas tras concluir T1/T2, especialmente la fila Noir y los alias de Royal. Los censos no certifican la legalidad de las rutas ni modifican producción.
 
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
