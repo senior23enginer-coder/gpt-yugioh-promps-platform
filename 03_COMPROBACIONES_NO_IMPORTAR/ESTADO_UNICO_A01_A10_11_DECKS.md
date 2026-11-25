@@ -42,7 +42,21 @@
 - Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
 - Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
 
-**T3, Royal Rush:** revisión de las 16 fichas de Konami en japonés: 14 efectos activados de carta, 1 efecto continuo y 1 procedimiento de Invocación de Impasse Ignoto. Descendiente de Titanes es un monstruo Normal sin efecto. La Skill nativa se cuenta por separado. Este denominador de Royal no sustituye el cotejo de las traducciones, ni los denominadores de los otros mazos, ni congela una lista que sigue pendiente de validación física.
+**T3, censo base Rush de los cuatro mazos:** releídas las fichas del catálogo japonés para las 70 identidades por mazo (64 CID únicos), usando datos oficiales, no conteo de palabras o encabezados exclusivamente. Contar una activación por bloque de efecto, separar cláusulas continuas independientes, procedimientos y restricciones de Invocación. Una elección modal es una activación con opciones. Los materiales impresos de Fusión no son por sí mismos efectos. La Skill nativa queda en su propia columna; su texto completo del cliente no se presume verificado. Las condiciones, el uso por turno y los pasos de resolución no multiplican el número de efectos.
+
+| Deck | Identidades | Activaciones | Cláusulas continuas | Procedimientos propios | Restricciones impresas de Invocación | Sin efecto | Skills registradas |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Pyro 704 | 17 | 13 | 1 | 0 | 0 | 3 | 1 |
+| Royal 705 | 16 | 14 | 1 | 1 | 0 | 1 | 1 |
+| HERO 706 | 17 | 12 | 3 | 0 | 5 | 3 | 1 |
+| Dark Magician 707 | 20 | 17 | 1 | 0 | 0 | 2 | 1 |
+
+- **Pyro:** continuas: Gobernante de las Llamas 17926. Sin efecto: 17285, 18583, 17963. Las otras 13 identidades tienen un bloque activado cada una.
+- **Royal:** 19760 tiene un procedimiento de Invocación desde la mano y una cláusula continua de ATK. 16135 es Normal sin efecto. Las demás 14 identidades tienen un bloque activado cada una.
+- **HERO:** continuas: 20453 tiene una y 20610 tiene dos (aumento de ATK y daño tras destruir en batalla). Restricción sólo por Fusión: 21316, 20454, 20453, 21501 y 20610. Sin efecto: 20460, 20457, 20459. Las otras 12 identidades tienen un bloque activado cada una.
+- **Dark Magician:** continua: 16371. Sin efecto: 15410 y la Fusión 18298. 19323 tiene una activación de efecto de elección con dos modalidades. Las otras 16 identidades tienen un bloque activado cada una.
+
+Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. Los doce mazos no Rush conservan T3 abierto.
 
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
