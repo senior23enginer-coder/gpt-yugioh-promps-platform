@@ -42,6 +42,50 @@
 - Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
 - Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
 
+**T3, Memento 671 — censo por CID:** lectura individual en Neuron España de 39 identidades en 40 filas. Total: **64 activaciones, 8 efectos o componentes continuos, 1 reemplazo, 6 procedimientos/requisitos propios de Invocación o Colocación y 1 mantenimiento**. No se cuentan las condiciones, límites por turno, materiales estándar, pasos de resolución o modos como nuevas activaciones. Ejemplos: las condiciones de Flor de Ceniza no son tres efectos; Talento tiene una activación y tres modos; el aumento de Réquiem se aplica como Equipo; la sustitución de destino de Dragón Gemelo y el mantenimiento de El Duque se separan de sus efectos activados. Censo de carta, no auditoría de legalidad de cada ruta.
+
+| CID | Activaciones | Continuos | Reemplazo | Procedimiento/requisito | Mantenimiento |
+|---:|---:|---:|---:|---:|---:|
+| [9139](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9139&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [9657](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9657&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [11243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) | 2 | 0 | 0 | 1 | 0 |
+| [12870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12870&ope=2&request_locale=es) | 1 | 1 | 0 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [13081](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13081&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [15299](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [16845](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16845&ope=2&request_locale=es) | 1 | 1 | 0 | 1 | 0 |
+| [19184](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=es) | 1 | 1 | 0 | 1 | 0 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19360](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19360&ope=2&request_locale=es) | 1 | 1 | 0 | 1 | 0 |
+| [19361](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19361&ope=2&request_locale=es) | 1 | 0 | 0 | 1 | 0 |
+| [19362](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19362&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19363](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19363&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19364](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19364&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19365](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19365&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19366](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19366&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19367](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19367&ope=2&request_locale=es) | 2 | 1 | 0 | 0 | 0 |
+| [19368](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19368&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19472](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19472&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19878](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19878&ope=2&request_locale=es) | 2 | 0 | 1 | 0 | 0 |
+| [19904](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19904&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [19932](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19932&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [20196](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20196&ope=2&request_locale=es) | 3 | 0 | 0 | 0 | 0 |
+| [20199](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20199&ope=2&request_locale=es) | 3 | 0 | 0 | 0 | 0 |
+| [20206](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [20216](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20216&ope=2&request_locale=es) | 3 | 0 | 0 | 0 | 0 |
+| [20225](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20225&ope=2&request_locale=es) | 2 | 1 | 0 | 0 | 0 |
+| [20226](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20226&ope=2&request_locale=es) | 2 | 1 | 0 | 0 | 0 |
+| [20389](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20389&ope=2&request_locale=es) | 2 | 1 | 0 | 0 | 1 |
+| [20423](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20423&ope=2&request_locale=es) | 1 | 0 | 0 | 1 | 0 |
+| [20491](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20491&ope=2&request_locale=es) | 3 | 0 | 0 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [20533](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20533&ope=2&request_locale=es) | 2 | 0 | 0 | 0 | 0 |
+| [20764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+| [21203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
+
 **T3, censo base Rush de los cuatro mazos:** releídas las fichas del catálogo japonés para las 70 identidades sumadas por mazo (61 CID únicos), usando datos oficiales, no conteo de palabras o encabezados exclusivamente. Contar una activación por bloque de efecto, separar cláusulas continuas independientes, procedimientos y restricciones de Invocación. Una elección modal es una activación con opciones. Los materiales impresos de Fusión no son por sí mismos efectos. La Skill nativa queda en su propia columna; su texto completo del cliente no se presume verificado. Las condiciones, el uso por turno y los pasos de resolución no multiplican el número de efectos.
 
 | Deck | Identidades | Activaciones | Cláusulas continuas | Procedimientos propios | Restricciones impresas de Invocación | Sin efecto | Skills registradas |
@@ -56,7 +100,7 @@
 - **HERO:** continuas: 20453 tiene una y 20610 tiene dos (aumento de ATK y daño tras destruir en batalla). Restricción sólo por Fusión: 21316, 20454, 20453, 21501 y 20610. Sin efecto: 20460, 20457, 20459. Las otras 12 identidades tienen un bloque activado cada una.
 - **Dark Magician:** continua: 16371. Sin efecto: 15410 y la Fusión 18298. 19323 tiene una activación de efecto de elección con dos modalidades. Las otras 16 identidades tienen un bloque activado cada una.
 
-Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. Los doce mazos no Rush conservan T3 abierto.
+Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 integral sigue abierto: todavía no se congela la lista por falta del cotejo físico y falta el censo de otros once mazos no Rush.
 
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
