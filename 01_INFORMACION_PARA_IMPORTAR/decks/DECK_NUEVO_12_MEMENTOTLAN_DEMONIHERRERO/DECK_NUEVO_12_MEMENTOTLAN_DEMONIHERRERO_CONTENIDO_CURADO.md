@@ -2455,6 +2455,36 @@ Mano de **cinco** cartas aleatorias sin reemplazo en Main de **41**, sin reorden
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 40/40 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Las 40 filas coinciden asimismo con V40 por ID/CID/zona/cantidad, huella de comparación FNV-1a64 `6191495d99bbbb60` (no es inventory_sha256 de Station X). No hay diferencias ni cambios de inventario. A03-T1: cotejo del inventario digital nativo completado para las cuatro zonas; sin inspección física presencial; Skill no aplica al formato TCG. A03-T2: correspondencia de CID nativo completa; falta revalidación oficial/mecánica independiente. A03-T3: denominador de filas/copias/identidades/rutas fijado en la tabla; censo exhaustivo de efectos oficiales aún por certificar. La revisión integral sigue abierta; no se altera el checklist histórico.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 39/39; coincidencia normalizada de nombre 19/39. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `fadbda5b52472e19a5a573640499bd4f43b3459de7f495f04202030e40432e52`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. El hash permite detectar cambios del paquete pero no certifica inventario físico. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+| CID | Nombre registrado | Título oficial recuperado | Dictamen |
+|---:|---|---|---|
+| 12950 | Flor de Ceniza | Flor de Ceniza & Primavera Feliz | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19184 | TY-PHON - Crisis Celeste | Súper Asesino Estelar TY-PHON - Crisis Celeste | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19360 | Tecuhtlica - Creación Combinada | Mementoal Tecuhtlica - Creación Combinada | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19361 | Dragón de Cuerno | Mementotlán Dragón de Cuerno | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19362 | Tatsunootoshigo | Mementotlán Tatsunootoshigo | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19363 | Hoja Oscura | Mementotlán Hoja Oscura | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19364 | Angbruja | Mementotlán Angbruja | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19365 | Maza | Mementotlán Maza | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19366 | Goblin | Mementotlán Goblin | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19368 | Fiesta de Huesos | Mementotlán Fiesta de Huesos | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19472 | Desvantasmas | Mementotlán Desvantasma | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 19878 | Dragón Gemelo | Mementotlán Dragón Gemelo | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20199 | Dormiveja | Mementotlán Dormiveja | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20206 | Purulia | Purulia Multivadora | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20216 | Rey Creación | Mementomictlán Tecuhtlica - Rey Creación | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20389 | Duque de la Defunción | El Duque de la Defunción | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20423 | Princesa Necroequipo | Princesa Necroquipo | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20491 | Akhíron | Mementotlán Akihiron | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20500 | Fuwalos | Fuwalos Multivadora | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+| 20764 | Meowls | Meowls Multivadora | Alias abreviado o variante ortográfica; mismo CID nativo cotejado, conservar nombre de inventario. |
+
+A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente (los marcadores de formato no son un conteo exhaustivo). No marcar cierre integral sin evidencia.
+
+
 
 | card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
 |---:|---:|---|---|---:|---|
