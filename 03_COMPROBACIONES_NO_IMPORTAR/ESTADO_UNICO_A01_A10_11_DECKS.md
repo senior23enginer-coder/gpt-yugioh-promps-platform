@@ -2,7 +2,30 @@
 
 ## A03 — recertificación secuencial de 16 mazos (25-11-2026 UTC)
 
-**Cierre integral aún abierto.** T1 distingue el inventario digital de las copias físicas. T2 distingue identidad oficial, alias de presentación y escritura nativa. T3 distingue los totales del inventario de un censo semántico. No se aplicó banlist, no se realizó escritura ni se inició A04.
+**A03 CERRADO · 16 de 16 mazos.** El propietario confirmó su inventario actual, los 16 nombres locales de Royal y la composición fotografiada de Purrely. El [inventario confirmado por carta](A03_INVENTARIO_CONFIRMADO_16_MAZOS.json) es el corte definitivo para el análisis: **585 filas editoriales, 980 copias, 563 identidades por mazo, 4 Skills externas, 193 rutas y 933 pasos documentados**. Las tablas de exportación nativa más abajo son el antecedente de 584 filas, no un comprobante de publicación. No se aplicó banlist, no se modificó producción ni se inició A04.
+
+| Orden | Mazo | T1 inventario confirmado | T2 identidad aprobada | T3 filas / copias / identidades | Rutas / pasos |
+|---:|---|---|---|---:|---:|
+| 1 | Memento (671) | Sí | Sí | 40 / 70 / 39 | 12 / 69 |
+| 2 | Crystron (677) | Sí | Sí | 40 / 70 / 39 | 14 / 60 |
+| 3 | Kashtira Pure (665) | Sí | Sí | 44 / 76 / 38 | 16 / 92 |
+| 4 | Elfnote (650) | Sí | Sí | 43 / 70 / 42 | 20 / 98 |
+| 5 | DoomZ (653) | Sí | Sí | 37 / 64 / 37 | 16 / 92 |
+| 6 | Tearlaments (656) | Sí | Sí | 53 / 75 / 50 | 23 / 105 |
+| 7 | Infernoble (670) | Sí | Sí | 45 / 69 / 45 | 11 / 56 |
+| 8 | Cyber Dragon Pure (684) | Sí | Sí | 60 / 81 / 52 | 17 / 80 |
+| 9 | Volcanic (687) | Sí | Sí | 38 / 71 / 36 | 22 / 95 |
+| 10 | Purrely (660) | Sí | Sí | 37 / 70 / 37 | 5 / 24 |
+| 11 | Salamangreat (673) | Sí | Sí | 39 / 70 / 39 | 5 / 26 |
+| 12 | Goat Control (699) | Sí | Sí | 39 / 54 / 39 | 5 / 23 |
+| 13 | Pyro (704) | Sí | Sí | 17 / 35 / 17 | 3 / 15 |
+| 14 | Royal (705) | Sí | Sí | 16 / 30 / 16 | 6 / 28 |
+| 15 | Hero (706) | Sí | Sí | 17 / 38 / 17 | 9 / 35 |
+| 16 | Dark Magician (707) | Sí | Sí | 20 / 37 / 20 | 9 / 35 |
+
+El cierre se basa en la confirmación del propietario, las fichas oficiales y la evidencia ya archivada; no se presenta como una inspección presencial. Las actas con estado «parcial» de la revisión del 24-11 son históricas. La identidad Noir Epurrely se registra por CID y deja el ID nativo sin asignar; no se utiliza el JSON de cierre como carga de Station X.
+
+### Evidencia previa de Station X (solo lectura, antes de la confirmación)
 
 | Orden | Mazo | Filas / copias digitales | Fichas oficiales recuperadas | Conciliación de CID en el lote |
 |---:|---|---:|---:|---|
@@ -23,7 +46,7 @@
 | 15 | Hero (706) | 17 / 38 | 17/17 | No pertenece al lote de CID faltantes |
 | 16 | Dark Magician (707) | 20 / 37 | 20/20 | No pertenece al lote de CID faltantes |
 
-**T1, inventario digital:** 584 filas y 980 copias del [snapshot de lectura](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715/artifacts/14973327314). Cotejo físico completo aún pendiente. Una foto histórica sirve para detectar discrepancias y no acredita que hoy todas las copias estén sin cambios.
+**T1, inventario digital:** 584 filas y 980 copias del [snapshot de lectura](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715/artifacts/14973327314). Al momento de la captura aún faltaba la confirmación del propietario; el cierre posterior consta arriba.
 
 **T1, Skills nativas:** los cuatro ZIP de sólo lectura de Station X se reexportaron y contienen exactamente una Skill por mazo. Huellas del inventario iguales a las exportaciones de A02. Esto prueba el nombre registrado, no que el texto de todas las Skills haya sido verificado dentro del cliente de juego.
 
@@ -36,13 +59,13 @@
 
 **T2, correcciones y retenciones:**
 - Purrely fila 566, Main ×2: la foto histórica del 17-11 muestra Hermana Fantasma & Cornejo Espectral, atributo AGUA ([CID 14275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es)). No corresponde a 11708. En el [borrador GPT #35](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/pull/35) se corrigieron ficha, efecto e imagen, sin variar la cantidad ni el ID de inventario.
-- Purrely fila 587, Extra ×3: el listado agrupa tres Noir Expurrely, pero en la foto se distinguen dos [Noir Expurrely, CID 18008](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) y un [Noir Epurrely, CID 18831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es). No es un alias. El CLI de [plataforma #49](https://github.com/senior23enginer-coder/platform-yugioh-md/pull/49) retiene la fila incluso con aprobación de alias; confirmar composición vigente y reconciliar por separado sin fabricar un card_id. Si se mantiene la composición fotografiada, el diseño de reparación conserva la fila 587 para Noir Expurrely ×2, asigna mediante la plataforma un nuevo ID para Noir Epurrely ×1, comprueba que Extra permanece en 15 y recoteja las referencias por CID y el hash de inventario. Generar un snapshot nuevo antes de preparar otro dry run; no reutilizar el anterior para esa lista. Ninguna de estas escrituras fue realizada.
-- Salamangrande fila 623 y GOAT fila 637: se observan respectivamente 1 Espejismental en Extra y 2 Caballero del Aire Parshath en Main en fotos del 17-11. Se contrastaron con los CID 14248 y 5023. Las tres aprobaciones de filas 566/623/637 se simularon localmente sólo para validar el plan. Resultado: **113 elegibles, 16 alias localizados de Royal pendientes de prueba de nombre y 1 agregado Noir retenido**. El plan es indivisible en el modo de escritura actual y no se ejecutó.
+- Purrely fila 587, Extra: la exportación agrupaba tres Noir Expurrely. La foto y la confirmación del propietario establecen **2 Noir Expurrely (CID 18008) y 1 [Noir Epurrely](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es) (CID 18831)**. El Extra sigue en 15. En el corte A03 se conserva el ID 587 para las 2 copias de 18008 y la identidad 18831 se registra sin inventar ID nativo. El [CLI #49](https://github.com/senior23enginer-coder/platform-yugioh-md/pull/49) no separa filas: una publicación posterior requiere un ID real, nueva exportación y nueva validación de dependencias.
+- Salamangrande fila 623 y GOAT fila 637: se observan respectivamente 1 Espejismental en Extra y 2 Caballero del Aire Parshath en Main en fotos del 17-11. Se contrastaron con los CID 14248 y 5023. Las tres aprobaciones de filas 566/623/637 se simularon localmente sólo para validar el plan. El ensayo inicial dio 113 elegibles. Con la confirmación de los 19 alias (3 documentados en fotos y 16 de Royal) el nuevo dry run arrojó **129 elegibles de 130**. Solo el agregado Noir sigue excluido del CLI de metadatos; no es un alias. No se ejecutó ninguna escritura.
 - DoomZ fila 336: conservar la etiqueta usada por Miguel, «Vidrium, Modelo de Poder de la Exterminación del Caos», sin sustituir copia ni CID. El mismo CID 22519 muestra en [japonés](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=ja) el nombre que contiene ヴィードリウム y en [español TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=es) «Vidolium el Inestable Modelo de Poder de Unidad». La correspondencia documental no equivale a leer el código de la copia física.
 - Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
 - Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
 
-**T2, Royal 705 — guía de cotejo visual de las 16 identidades:** 30 copias en el inventario digital. Esta tabla cruza cada fila española del paquete con una impresión japonesa acreditada por Konami Rush. El código es un ejemplo, no la única edición posible; otra impresión se comprueba en el mismo CID. Para cartas traducidas, proxy o lista digital de RUSH_LOCAL, comparar la imagen o ficha del cliente con la fuente Rush y conservar el rótulo local. No usar el CID de TCG para Canjear, Agujero Trampa ni Monstruo Reencarnado. Esta evidencia de catálogo no prueba qué ejemplares tiene Miguel, no aprueba los alias para el lote y no modifica la Skill local externa.
+**T2, Royal 705 — guía de cotejo visual de las 16 identidades:** 30 copias en el inventario digital. Esta tabla cruza cada fila española del paquete con una impresión japonesa acreditada por Konami Rush. El código es un ejemplo, no la única edición posible; otra impresión se comprueba en el mismo CID. Para cartas traducidas, proxy o lista digital de RUSH_LOCAL, comparar la imagen o ficha del cliente con la fuente Rush y conservar el rótulo local. No usar el CID de TCG para Canjear, Agujero Trampa ni Monstruo Reencarnado. La confirmación posterior aprueba las 16 correspondencias de nombres de la tabla sin reemplazar el rótulo local ni modificar la Skill externa.
 
 | Fila | Copias | Rótulo local | CID Rush | Ejemplo de edición JP |
 |---:|---:|---|---:|---|
@@ -63,7 +86,7 @@
 | 480 | 1 | Esplendor del Rey | [15674](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15674&ope=2) | `RD/CP01-JP026` |
 | 481 | 1 | Monstruo Reencarnado | [16305](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16305&ope=2) | `RD/P003-JP003` |
 
-**T3, huellas de referencia en Station X:** se verificaron nuevamente los 16 ZIP nativos, sólo lectura, el 25-11-2026 entre 01:39:20 y 01:40:28 UTC. Los 584 registros (980 copias) coinciden por ID, zona y cantidad con el snapshot; los 562 registros de identidad cubren todas las filas. Las 16 huellas de inventario también coinciden con la verificación previa de A02. Se congela esta referencia digital, no la lista física final. En particular, un hash idéntico no valida ni corrige la discrepancia Noir de Purrely.
+**T3, huellas de referencia en Station X:** se verificaron nuevamente los 16 ZIP nativos, sólo lectura, el 25-11-2026 entre 01:39:20 y 01:40:28 UTC. Los 584 registros (980 copias) coinciden por ID, zona y cantidad con el snapshot; los 562 registros de identidad cubren todas las filas. Las 16 huellas de inventario también coinciden con la verificación previa de A02. Estas huellas congelan el antecedente digital, no el inventario editorial confirmado. El hash de Purrely sigue siendo el del agregado nativo histórico.
 
 | Mazo | Exportación UTC | SHA-256 de inventario |
 |---|---|---|
@@ -183,13 +206,13 @@
 | Infernoble 670 | 45 | 72 | 14 | 0 | 7 |
 | Cyber Dragon Pure 684 | 52 | 70 | 25 | 3 | 11 |
 | Volcanic 687 | 36 | 44 | 11 | 0 | 6 |
-| Purrely 660 | 36 | 53 | 5 | 0 | 5 |
+| Purrely 660 | 37 | 55 | 5 | 0 | 5 |
 | Salamangrande 673 | 39 | 61 | 4 | 1 | 5 |
 | GOAT Control 699 | 39 | 39 | 16 | 1 | 6 |
 
 - **Kashtira:** Shangri-Ira y Arise-Heart tienen reemplazos distintos: sustituir la destrucción con material y desterrar en vez de enviar al Cementerio. Los procedimientos Xyz alternativos no son activaciones.
 - **DoomZ/Cyber Dragon:** se distingue el aumento de ATK continuo concedido por Regulus del acceso a su efecto de negación ya impreso; no se cuenta dos veces. Regulus sigue siendo la misma identidad en ambos mazos.
-- **Purrely:** el censo de 36 identidades emplea el CID 14275 corregido para la fila 566 y conserva como hipótesis de referencia la fila 587 sin separar. Si se confirma el Extra fotografiado (2 de 18008 y 1 de [18831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es)), la identidad adicional Noir Epurrely suma dos bloques activados (devolver cartas y acoplar una Mágica Rápida con la Colocación opcional incluida), resultando **37 identidades, 55 activaciones, 5 continuos, 0 reemplazos y 5 procedimientos**. No se generó un ID nativo para esa copia ni se congeló esa hipótesis.
+- **Purrely:** el censo confirmado incluye el CID 14275 en Main y distingue 18008 de 18831 en Extra. Noir Epurrely añade dos activaciones: devolver cartas y acoplar una Rápida (su Colocación opcional es parte de esa misma resolución). Se separan 37 identidades, 55 activaciones, 5 continuos, 0 reemplazos y 5 procedimientos; las 70 copias se conservan.
 - **GOAT:** Neuron se usa para identidad. Para mecánica, los cambios históricos comprobados se contrastaron con originales y rulings de 2005/Netrep recopilados en [archivo de época](https://goatrulings.com/goat-all-rulings.html), [rulings de Anillo Destructor](https://www.goatformat.com/rulings6.html), [Serpiente Siniestra y Sangan](https://www.goatformat.com/rulings7.html) y [Ojama King](https://www.goatformat.com/rulings5.html). No trasladar la restricción moderna de Sangan ni el destierro posterior de Serpiente. Anillo calcula el ATK actual y daña a ambos. Se cuenta seleccionar zonas de Ojama King cuando queda boca arriba como un bloque activado histórico, no como una activación libre en Main Phase. El efecto de destrucción por ser seleccionado de Segador en la Pesadilla no se cuenta como nueva Cadena. Los dos Fusion sin efecto se registran con cero; no equivale a omitirlos.
 
 <details>
@@ -576,6 +599,7 @@
 | [18005](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
 | [18006](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
 | [18008](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) | 1 | 1 | 0 | 1 |
+| [18831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
 | [18009](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es) | 2 | 1 | 0 | 0 |
 | [18010](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es) | 2 | 0 | 0 | 0 |
 | [18011](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es) | 1 | 1 | 0 | 0 |
@@ -700,7 +724,7 @@
 - **HERO:** continuas: 20453 tiene una y 20610 tiene dos (aumento de ATK y daño tras destruir en batalla). Restricción sólo por Fusión: 21316, 20454, 20453, 21501 y 20610. Sin efecto: 20460, 20457, 20459. Las otras 12 identidades tienen un bloque activado cada una.
 - **Dark Magician:** continua: 16371. Sin efecto: 15410 y la Fusión 18298. 19323 tiene una activación de efecto de elección con dos modalidades. Las otras 16 identidades tienen un bloque activado cada una.
 
-Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 ahora tiene censo documental de los 16 mazos. El cierre integral sigue pendiente: congelar las listas aprobadas tras concluir T1/T2, especialmente la fila Noir y los alias de Royal. Los censos no certifican la legalidad de las rutas ni modifican producción.
+Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). El censo de cartas de los 16 mazos está congelado en el acta de cierre. No certifica cada ruta ni verifica el texto íntegro de las Skills dentro del cliente.
 
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
