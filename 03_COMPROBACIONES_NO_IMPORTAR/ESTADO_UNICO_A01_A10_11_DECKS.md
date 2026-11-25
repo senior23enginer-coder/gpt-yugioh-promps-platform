@@ -86,6 +86,50 @@
 | [20764](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20764&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
 | [21203](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21203&ope=2&request_locale=es) | 1 | 0 | 0 | 0 | 0 |
 
+**T3, Crystron Horus 677 — censo por CID:** 39 identidades, 40 filas; Purulia aparece en dos zonas pero se cuenta como una identidad. Total: **58 activaciones, 13 cláusulas continuas y 5 procedimientos propios de Invocación o Colocación**. La modificación del destino de materiales de Citree pertenece a la resolución de su efecto, no es una segunda activación. La Invocación de Horus desde Cementerio cuando controlas Sarcófago cuenta como procedimiento propio de cada Horus, no como efecto activado del Sarcófago. Sus efectos de enviar carta y enviar al monstruo rival en combate sí se cuentan en el Sarcófago. Mantener los datos de A03 separados de una auditoría de rutas.
+
+| CID | Activaciones | Continuos | Procedimiento |
+|---:|---:|---:|---:|
+| [4861](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [5236](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5236&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [7445](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [9454](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=es) | 1 | 1 | 0 |
+| [10870](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=es) | 3 | 0 | 0 |
+| [11243](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) | 2 | 0 | 1 |
+| [11411](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11411&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [11765](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=es) | 2 | 1 | 1 |
+| [11849](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11849&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [12157](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [12606](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [12608](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [12609](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [12756](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [12781](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [13360](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=es) | 1 | 1 | 0 |
+| [13454](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=es) | 1 | 1 | 0 |
+| [13619](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [13710](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=es) | 2 | 2 | 0 |
+| [13826](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=es) | 2 | 1 | 0 |
+| [15296](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [15299](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [16850](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=es) | 1 | 1 | 1 |
+| [16868](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [17746](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=es) | 1 | 1 | 0 |
+| [19153](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=es) | 2 | 0 | 1 |
+| [19155](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=es) | 1 | 0 | 1 |
+| [19188](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [19200](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=es) | 2 | 1 | 0 |
+| [20206](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) | 1 | 0 | 0 |
+| [20758](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [20759](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [20778](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=es) | 2 | 1 | 0 |
+| [20787](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=es) | 2 | 0 | 0 |
+| [20798](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=es) | 2 | 1 | 0 |
+| [20817](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=es) | 1 | 1 | 0 |
+
 **T3, censo base Rush de los cuatro mazos:** releídas las fichas del catálogo japonés para las 70 identidades sumadas por mazo (61 CID únicos), usando datos oficiales, no conteo de palabras o encabezados exclusivamente. Contar una activación por bloque de efecto, separar cláusulas continuas independientes, procedimientos y restricciones de Invocación. Una elección modal es una activación con opciones. Los materiales impresos de Fusión no son por sí mismos efectos. La Skill nativa queda en su propia columna; su texto completo del cliente no se presume verificado. Las condiciones, el uso por turno y los pasos de resolución no multiplican el número de efectos.
 
 | Deck | Identidades | Activaciones | Cláusulas continuas | Procedimientos propios | Restricciones impresas de Invocación | Sin efecto | Skills registradas |
@@ -100,7 +144,7 @@
 - **HERO:** continuas: 20453 tiene una y 20610 tiene dos (aumento de ATK y daño tras destruir en batalla). Restricción sólo por Fusión: 21316, 20454, 20453, 21501 y 20610. Sin efecto: 20460, 20457, 20459. Las otras 12 identidades tienen un bloque activado cada una.
 - **Dark Magician:** continua: 16371. Sin efecto: 15410 y la Fusión 18298. 19323 tiene una activación de efecto de elección con dos modalidades. Las otras 16 identidades tienen un bloque activado cada una.
 
-Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 integral sigue abierto: todavía no se congela la lista por falta del cotejo físico y falta el censo de otros once mazos no Rush.
+Ejemplos de fuente: [Impasse Ignoto 19760](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19760&ope=2), [Wingman 20610](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20610&ope=2), [Gaia 19323](https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2). Este censo no congela las listas ni elimina la revisión de alias localizados, la confirmación física o el cotejo de cada Skill. T3 integral sigue abierto: todavía no se congela la lista por falta del cotejo físico y falta el censo de otros diez mazos no Rush.
 
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
