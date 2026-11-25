@@ -319,6 +319,32 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 16/16 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 16/16 filas por ID/zona/cantidad; huella FNV-1a64 `0822a523c660723d` (no es inventory_sha256 de Station X). Los 16 nombres por ID coinciden exactamente con V40 (FNV-1a64 `ae51cc7602454ea3`); las 16 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 30/0/0/0; 16 identidades, 6 rutas, 28 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica HARD ROCK OVERTURE preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 16/16; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `18c6845fbce8d27c4ee350d40be6bb9b470d9d95a47783dd572b03d75c66400d`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 16344 | 星戦騎ケーロン |
+| 16330 | ロイヤルデモンズ・フェイザー |
+| 19760 | 無貌のカルドサック |
+| 16331 | ロイヤルデモンズ・デスドゥーム |
+| 15441 | ロイヤルデモンズ・ヘヴィメタル |
+| 19761 | ロイヤルデモンズ・プログレッシブ |
+| 16135 | ティタンの末裔 |
+| 17721 | トレード・イン |
+| 15673 | 魔人の熱風 |
+| 17543 | 手札増刷 |
+| 21007 | 昂光の呪縛 |
+| 18646 | バッファード・スライム |
+| 19799 | キングス・グリード |
+| 15913 | 落とし穴 |
+| 15674 | キングス・ディグニティ |
+| 16305 | 死者転生 |
+
+16 CID candidatos pendientes de escritura nativa segura en notes.konami_cid; no utilizar el guardado destructivo de listas. A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
 ### A03-T1/T2 — contraste externo de Skill (24-11-2026)
 
 **Hard Rock Overture** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Hard%20Rock%20Overture). Requiere monstruos LUZ/Demonio en Deck y Extra, y enviar un monstruo Nivel 7/8 de mano al GY. Coloca hasta dos de Nivel 7/8 en Defensa boca arriba desde mano/GY; recuperar un monstruo adicional solo desde turno 2. La colocación no equivale a Invocación por Tributo; revisar el uso del verbo invocar en documentos causales previos, sin alterar A05/A09 en esta revisión. El nombre de la Skill también aparece en [resultados oficiales de Konami WCS 2026](https://www.konami.com/yugioh/worldchampionship/2026/en/). Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
