@@ -349,6 +349,90 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 684](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/684.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `8f0ba0335bf6ba707c3739159e8c14472a574ab6`.
+
+- **A03-T1:** 60 filas, 52 CID, 81 copias, Main/Extra/Side/Reserva 42/15/0/24, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 52/52 referencias oficiales con CID coherente; 52/52 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 17 rutas, 80 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/52 CID representados). Conteo documental, no censo oficial exhaustivo. CID multizona: 13723, 16298, 16301, 6398, 12464, 13758, 20787, 10870. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 60/60 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 60/60 filas por ID/CID/zona/cantidad; huella FNV-1a64 `ecbe9de8c1a95424` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 42/15/0/24; 52 identidades, 17 rutas, 80 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 52/52; coincidencia normalizada de nombre 52/52. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `1b8cf17643f496be18e8f60d9f1bfb6bfd441d3bafe09e81c9b5bb112d8252f0`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 224 | 10866 | Cyber Dragon Core | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10866&ope=2&request_locale=en |
+| 225 | 6390 | Cyber Dragon | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6390&ope=2&request_locale=en |
+| 226 | 14047 | Cyber Dragon Nachster | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14047&ope=2&request_locale=en |
+| 227 | 13723 | Cyber Dragon Herz | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=en |
+| 228 | 16296 | Cyberdark Chimera | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16296&ope=2&request_locale=en |
+| 229 | 6830 | Cyberdark Horn | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6830&ope=2&request_locale=en |
+| 230 | 21164 | Cyberdark Wurm [Konami 21164] | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21164&ope=2&request_locale=en |
+| 231 | 13181 | Cyberdark Claw | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13181&ope=2&request_locale=en |
+| 232 | 6663 | Cyber Phoenix | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6663&ope=2&request_locale=en |
+| 233 | 21163 | Cyber Jormungardr [Konami 21163] | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21163&ope=2&request_locale=en |
+| 234 | 17119 | Therion "King" Regulus | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17119&ope=2&request_locale=en |
+| 235 | 12950 | Ash Blossom & Joyous Spring | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 236 | 13587 | Ghost Belle & Haunted Mansion | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 237 | 20205 | Inactidisparador, la Fortaleza de la Negación [Máquina/Péndulo/EFECTO; texto fotografiado y nombre confirmado] | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20205&ope=2&request_locale=en |
+| 238 | 8428 | Cyber Emergency | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8428&ope=2&request_locale=en |
+| 239 | 16298 | Cyberdark Realm | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en |
+| 240 | 13770 | Cyber Revsystem | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13770&ope=2&request_locale=en |
+| 241 | 16301 | Cybernetic Horizon | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en |
+| 242 | 17625 | Clockwork Night | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17625&ope=2&request_locale=en |
+| 243 | 6398 | Power Bond | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=en |
+| 244 | 5129 | Limiter Removal | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5129&ope=2&request_locale=en |
+| 245 | 13849 | Cyberload Fusion | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13849&ope=2&request_locale=en |
+| 246 | 6783 | Overload Fusion | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6783&ope=2&request_locale=en |
+| 247 | 16297 | Cyber Eternal | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16297&ope=2&request_locale=en |
+| 248 | 4909 | Mystical Space Typhoon | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=en |
+| 249 | 12464 | Cosmic Cyclone | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 250 | 13631 | Infinite Impermanence | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 251 | 13787 | Cybernetic Overflow | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13787&ope=2&request_locale=en |
+| 252 | 11764 | Chimeratech Rampage Dragon (Konami ID 11764) | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11764&ope=2&request_locale=en |
+| 253 | 13758 | Cyber Dragon Sieger | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en |
+| 254 | 7403 | Chimeratech Fortress Dragon | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7403&ope=2&request_locale=en |
+| 255 | 20787 | Clockwork Knight (Konami ID 20787) | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en |
+| 256 | 14710 | Barricadeborg Blocker | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14710&ope=2&request_locale=en |
+| 257 | 10870 | Cyber Dragon Nova (Konami ID 10870) | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en |
+| 258 | 20511 | Heosvarog the Mechanical Dawn (Konami ID 20511) | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20511&ope=2&request_locale=en |
+| 259 | 13502 | Qliphort Genius | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13502&ope=2&request_locale=en |
+| 260 | 13358 | Chimeratech Megafleet Dragon | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13358&ope=2&request_locale=en |
+| 261 | 18448 | Sky Striker Ace - Azalea | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18448&ope=2&request_locale=en |
+| 262 | 16233 | Chronomaly Vimana | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16233&ope=2&request_locale=en |
+| 263 | 11765 | Cyber Dragon Infinity (Konami ID 11765) | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=en |
+| 264 | 19188 | S:P Little Knight | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 265 | 13847 | Cyber Eternity Dragon | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13847&ope=2&request_locale=en |
+| 266 | 7436 | El Calculador | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7436&ope=2&request_locale=en |
+| 267 | 7400 | Prisión Dimensional | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7400&ope=2&request_locale=en |
+| 268 | 20500 | Fuwalos Multivadora | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=en |
+| 269 | 9279 | Droll & Lock Bird | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 270 | 16301 | Cybernetic Horizon | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16301&ope=2&request_locale=en |
+| 271 | 14876 | Tormenta de Relámpagos | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14876&ope=2&request_locale=en |
+| 272 | 12464 | Cosmic Cyclone | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 273 | 12872 | Fusion Recycling Plant | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12872&ope=2&request_locale=en |
+| 274 | 15296 | Talento de Tácticas Triples | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 275 | 16298 | Cyberdark Realm | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16298&ope=2&request_locale=en |
+| 276 | 6398 | Power Bond | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6398&ope=2&request_locale=en |
+| 277 | 13723 | Cyber Dragon Herz | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13723&ope=2&request_locale=en |
+| 278 | 13851 | Revolución Cibernética | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13851&ope=2&request_locale=en |
+| 279 | 13758 | Cyber Dragon Sieger | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13758&ope=2&request_locale=en |
+| 280 | 6397 | Dragón Ciber Final | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6397&ope=2&request_locale=en |
+| 281 | 20787 | Clockwork Knight (Konami ID 20787) | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=en |
+| 282 | 6734 | Chimeratech Overdragon | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6734&ope=2&request_locale=en |
+| 283 | 10870 | Cyber Dragon Nova (Konami ID 10870) | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 24 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 

@@ -354,11 +354,11 @@
         ]
       },
       {
-        "id": "660:CARD:11708",
-        "cid": 11708,
-        "name": "Hermana Fantasma & Conejo Espectral",
-        "image": "./assets/editorial/20261104-checked-study/images/tcg/11708.jpg",
-        "full_image": "./assets/editorial/20261104-checked-study/images/tcg/11708.jpg",
+        "id": "660:CARD:14275",
+        "cid": 14275,
+        "name": "Hermana Fantasma & Cornejo Espectral",
+        "image": "imagenes/14275.jpg",
+        "full_image": "imagenes/14275.jpg",
         "slots": [
           {
             "section": "main",
@@ -369,37 +369,37 @@
         "fields": [
           {
             "title": "Función en este deck",
-            "text": "Destruir carta en campo cuando corresponde a su activación de efecto"
+            "text": "Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase."
           },
           {
             "title": "Cómo usarla y qué vigilar",
-            "text": "Destrucción NO equivale a negar ese efecto"
+            "text": "Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno."
           }
         ],
         "practical": [
           {
             "title": "Función en este deck",
-            "text": "Destruir carta en campo cuando corresponde a su activación de efecto"
+            "text": "Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase."
           },
           {
             "title": "Cómo usarla y qué vigilar",
-            "text": "Destrucción NO equivale a negar ese efecto"
+            "text": "Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno."
           }
         ],
         "operational": {},
         "learning": {},
         "functional": {
-          "purpose": "Destruir carta en campo cuando corresponde a su activación de efecto",
-          "explanation": "Destrucción NO equivale a negar ese efecto"
+          "purpose": "Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase.",
+          "explanation": "Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno."
         },
-        "role": "Destruir carta en campo cuando corresponde a su activación de efecto",
+        "role": "Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase.",
         "synergy": {
           "labels": [],
           "resource": "",
           "relation": ""
         },
         "sources": [
-          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es"
+          "https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es"
         ],
         "source_aliases": [
           "Hermana Fantasma & Conejo Espectral"

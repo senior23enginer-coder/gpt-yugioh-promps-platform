@@ -265,6 +265,122 @@
 
 ## A03 — INVENTARIO FÍSICO CON COPIAS
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 699](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/699.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `defa7bd98376cac02d8ba4fab95aa386f4a51a92`.
+
+- **A03-T1:** 39 filas, 39 CID, 54 copias, Main/Extra/Side/Reserva 40/14/0/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 39/39 referencias oficiales con CID coherente; 0/39 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 5 rutas, 23 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/39 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 39/39 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 39/39 filas por ID/zona/cantidad; huella FNV-1a64 `312d7b4f772dbdc9` (no es inventory_sha256 de Station X). Los 39 nombres por ID coinciden exactamente con V40 (FNV-1a64 `c14bfab6efe8f85b`); las 39 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 40/14/0/0; 39 identidades, 5 rutas, 23 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill no aplica al formato GOAT. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 39/39; coincidencia normalizada de nombre 38/39. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `7506175e5fada2e070f05cd5c6a79e1e3aaf3a1482ab9518cd61e52ac296ba93`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+| CID | Nombre registrado | Título oficial recuperado | Dictamen |
+|---:|---|---|---|
+| 5023 | Caballero del Aire Parshath | Caballero del Aire Parsath | Variante ortográfica; candidato mismo CID, no cambia nombre nativo. |
+
+39 CID candidatos pendientes de escritura nativa segura en notes.konami_cid; no utilizar el guardado destructivo de listas. A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
+
+Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID de esta tabla **son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada**. No inferir YGOPRODeck ID, no cambiar inventario y no marcar T2 completa. Fuente oficial indicada por cada CID; pendiente consulta independiente y comparación de nombre, formato, requisitos, y escritura nativa autorizada mediante mecanismo seguro.
+
+| card_id | Nombre del inventario | Zona | Copias | CID candidato | Fuente oficial |
+|---:|---|---|---:|---:|---|
+| 637 | Caballero del Aire Parshath | main | 2 | 5023 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5023&ope=2&request_locale=es) |
+| 638 | Mago de la Fe | main | 2 | 4434 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4434&ope=2&request_locale=es) |
+| 639 | Mercader Mágico | main | 2 | 5663 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5663&ope=2&request_locale=es) |
+| 640 | Tsukuyomi | main | 2 | 5780 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5780&ope=2&request_locale=es) |
+| 641 | Soldado del Brillo Negro - Enviado del Principio | main | 1 | 5835 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5835&ope=2&request_locale=es) |
+| 642 | Sacerdote de Asura | main | 1 | 5381 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5381&ope=2&request_locale=es) |
+| 643 | D.D. Dama Guerrera | main | 1 | 5719 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5719&ope=2&request_locale=es) |
+| 644 | Serpiente Siniestra | main | 1 | 4481 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4481&ope=2&request_locale=es) |
+| 645 | Sangan | main | 1 | 4054 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4054&ope=2&request_locale=es) |
+| 646 | Breaker el Guerrero Mágico | main | 1 | 5655 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5655&ope=2&request_locale=es) |
+| 647 | Jarra de la Metamorfosis | main | 1 | 4597 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4597&ope=2&request_locale=es) |
+| 648 | Virus Infecta-Tribu | main | 1 | 5660 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5660&ope=2&request_locale=es) |
+| 649 | Metamorfosis | main | 3 | 5539 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5539&ope=2&request_locale=es) |
+| 650 | Scapegoat | main | 2 | 4818 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es) |
+| 651 | Libro de la Luna | main | 2 | 5432 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=es) |
+| 652 | Noble de Crossout | main | 2 | 4963 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4963&ope=2&request_locale=es) |
+| 653 | Olla de la Codicia | main | 1 | 4844 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4844&ope=2&request_locale=es) |
+| 654 | Caridad Grácil | main | 1 | 4812 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4812&ope=2&request_locale=es) |
+| 655 | Dúo de Delincuentes | main | 1 | 4901 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4901&ope=2&request_locale=es) |
+| 656 | Tormenta Fuerte | main | 1 | 4891 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4891&ope=2&request_locale=es) |
+| 657 | Tifón del Espacio Místico | main | 1 | 4909 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=es) |
+| 658 | Robo Oportunista | main | 1 | 4898 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4898&ope=2&request_locale=es) |
+| 659 | Entierro Prematuro | main | 1 | 4966 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4966&ope=2&request_locale=es) |
+| 660 | Tornado de Polvo | main | 2 | 4988 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4988&ope=2&request_locale=es) |
+| 661 | Armadura Sakuretsu | main | 2 | 5799 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5799&ope=2&request_locale=es) |
+| 662 | Fuerza de Espejo | main | 1 | 4887 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4887&ope=2&request_locale=es) |
+| 663 | Tributo Torrencial | main | 1 | 5114 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5114&ope=2&request_locale=es) |
+| 664 | Anillo Destructor | main | 1 | 5005 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5005&ope=2&request_locale=es) |
+| 665 | Llamada de los Condenados | main | 1 | 4989 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4989&ope=2&request_locale=es) |
+| 666 | Límite de los Mil Ojos | extra | 3 | 4740 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4740&ope=2&request_locale=es) |
+| 667 | Balter Oscuro el Terrible | extra | 2 | 5302 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5302&ope=2&request_locale=es) |
+| 668 | Hoja Oscura el Caballero Dragón | extra | 2 | 6204 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6204&ope=2&request_locale=es) |
+| 669 | Ryu Senshi | extra | 1 | 5319 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5319&ope=2&request_locale=es) |
+| 670 | Dragón Gatling | extra | 1 | 6264 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6264&ope=2&request_locale=es) |
+| 671 | Rey Ojama | extra | 1 | 6126 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6126&ope=2&request_locale=es) |
+| 672 | Dragoness, el Caballero Perverso | extra | 1 | 4300 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4300&ope=2&request_locale=es) |
+| 673 | Dragón de Fuego Oscuro | extra | 1 | 4174 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4174&ope=2&request_locale=es) |
+| 674 | Dragón Cráneo Demonio | extra | 1 | 5338 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5338&ope=2&request_locale=es) |
+| 675 | Segador en la Pesadilla | extra | 1 | 5528 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5528&ope=2&request_locale=es) |
+
+Resultado: 39/39 filas con candidato único de CID en el paquete; 0/39 fichas con evidencia histórica de texto oficial y 0/39 con nombre de identidad histórico. La ausencia de huella no demuestra falta de efecto. T1/T3 conservan sus bloqueos de evidencia física, Skill si corresponde y censo semántico exhaustivo.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 637 | 5023 | Caballero del Aire Parshath | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5023&ope=2&request_locale=es |
+| 638 | 4434 | Mago de la Fe | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4434&ope=2&request_locale=es |
+| 639 | 5663 | Mercader Mágico | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5663&ope=2&request_locale=es |
+| 640 | 5780 | Tsukuyomi | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5780&ope=2&request_locale=es |
+| 641 | 5835 | Soldado del Brillo Negro - Enviado del Principio | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5835&ope=2&request_locale=es |
+| 642 | 5381 | Sacerdote de Asura | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5381&ope=2&request_locale=es |
+| 643 | 5719 | D.D. Dama Guerrera | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5719&ope=2&request_locale=es |
+| 644 | 4481 | Serpiente Siniestra | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4481&ope=2&request_locale=es |
+| 645 | 4054 | Sangan | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4054&ope=2&request_locale=es |
+| 646 | 5655 | Breaker el Guerrero Mágico | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5655&ope=2&request_locale=es |
+| 647 | 4597 | Jarra de la Metamorfosis | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4597&ope=2&request_locale=es |
+| 648 | 5660 | Virus Infecta-Tribu | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5660&ope=2&request_locale=es |
+| 649 | 5539 | Metamorfosis | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5539&ope=2&request_locale=es |
+| 650 | 4818 | Scapegoat | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4818&ope=2&request_locale=es |
+| 651 | 5432 | Libro de la Luna | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=es |
+| 652 | 4963 | Noble de Crossout | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4963&ope=2&request_locale=es |
+| 653 | 4844 | Olla de la Codicia | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4844&ope=2&request_locale=es |
+| 654 | 4812 | Caridad Grácil | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4812&ope=2&request_locale=es |
+| 655 | 4901 | Dúo de Delincuentes | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4901&ope=2&request_locale=es |
+| 656 | 4891 | Tormenta Fuerte | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4891&ope=2&request_locale=es |
+| 657 | 4909 | Tifón del Espacio Místico | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4909&ope=2&request_locale=es |
+| 658 | 4898 | Robo Oportunista | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4898&ope=2&request_locale=es |
+| 659 | 4966 | Entierro Prematuro | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4966&ope=2&request_locale=es |
+| 660 | 4988 | Tornado de Polvo | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4988&ope=2&request_locale=es |
+| 661 | 5799 | Armadura Sakuretsu | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5799&ope=2&request_locale=es |
+| 662 | 4887 | Fuerza de Espejo | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4887&ope=2&request_locale=es |
+| 663 | 5114 | Tributo Torrencial | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5114&ope=2&request_locale=es |
+| 664 | 5005 | Anillo Destructor | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5005&ope=2&request_locale=es |
+| 665 | 4989 | Llamada de los Condenados | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4989&ope=2&request_locale=es |
+| 666 | 4740 | Límite de los Mil Ojos | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4740&ope=2&request_locale=es |
+| 667 | 5302 | Balter Oscuro el Terrible | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5302&ope=2&request_locale=es |
+| 668 | 6204 | Hoja Oscura el Caballero Dragón | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6204&ope=2&request_locale=es |
+| 669 | 5319 | Ryu Senshi | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5319&ope=2&request_locale=es |
+| 670 | 6264 | Dragón Gatling | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6264&ope=2&request_locale=es |
+| 671 | 6126 | Rey Ojama | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6126&ope=2&request_locale=es |
+| 672 | 4300 | Dragoness, el Caballero Perverso | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4300&ope=2&request_locale=es |
+| 673 | 4174 | Dragón de Fuego Oscuro | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4174&ope=2&request_locale=es |
+| 674 | 5338 | Dragón Cráneo Demonio | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5338&ope=2&request_locale=es |
+| 675 | 5528 | Segador en la Pesadilla | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5528&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 ### Main — monstruos 16
 
 | Copias | Carta |

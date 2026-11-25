@@ -319,6 +319,116 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 
 ## A03 — Inventario físico íntegro
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 660](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/660.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `301c17e365831c4f70c798314468fc063de61f7a`.
+
+- **A03-T1:** 36 filas, 36 CID, 70 copias, Main/Extra/Side/Reserva 48/15/7/0, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 36/36 referencias oficiales con CID coherente; 0/36 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 5 rutas, 24 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/36 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 36/36 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 36/36 filas por ID/zona/cantidad; huella FNV-1a64 `dcb3713b79d2103f` (no es inventory_sha256 de Station X). Los 36 nombres por ID coinciden exactamente con V40 (FNV-1a64 `ada89916a2244bc5`); las 36 filas carecen de CID y ygoprodeck_id en producción. No se altera ni se rellena el inventario por inferencia. Zonas 48/15/7/0; 36 identidades, 5 rutas, 24 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta reconciliar la identidad oficial y CID nativo ausente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 36/36; coincidencia normalizada de nombre 35/36. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `43a16cd4b562c2f622656d3a5926f279be4b6b0f1060c08affae65ac178ccdd6`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+| CID | Nombre registrado | Título oficial recuperado | Dictamen |
+|---:|---|---|---|
+| 14275 | Hermana Fantasma & Cornejo Espectral | Hermana Fantasma & Cornejo Espectral | El nombre nativo tiene una errata («Conejo»); la identidad del Main fotografiado corresponde a 14275. |
+
+36 CID candidatos pendientes de escritura nativa segura en notes.konami_cid; no utilizar el guardado destructivo de listas. A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+### A03-T2 — matriz de conciliación propuesta de CID nativos ausentes (24-11-2026)
+
+Cruce por `card_id` exacto, nombre, zona y cantidad contra el paquete V40, conforme a la auditoría nativa anterior. Los CID de esta tabla **son candidatos documentados, no valores escritos en producción ni identidad oficial recertificada**. No inferir YGOPRODeck ID, no cambiar inventario y no marcar T2 completa. Fuente oficial indicada por cada CID; pendiente consulta independiente y comparación de nombre, formato, requisitos, y escritura nativa autorizada mediante mecanismo seguro.
+
+| card_id | Nombre del inventario | Zona | Copias | CID candidato | Fuente oficial |
+|---:|---|---|---:|---:|---|
+| 562 | Purrely | main | 3 | 18003 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es) |
+| 563 | Purrelyly | main | 2 | 18481 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) |
+| 564 | Flor de Ceniza & Primavera Feliz | main | 3 | 12950 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) |
+| 565 | Ángel del Alba Kambi | main | 3 | 21338 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) |
+| 566 | Hermana Fantasma & Conejo Espectral | main | 2 | 14275 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es) |
+| 567 | Bella Fantasma & Mansión Embrujada | main | 2 | 13587 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es) |
+| 568 | El Bufón y el Pájaro del Candado | main | 3 | 9279 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) |
+| 569 | Fuwalos Multivadora | main | 3 | 20500 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) |
+| 570 | Purulia Multivadora | main | 3 | 20206 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es) |
+| 571 | Mi Amigo Purrely | main | 3 | 18010 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es) |
+| 572 | Calle Purrely Vagabundo | main | 3 | 18009 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es) |
+| 573 | Bello Recuerdo Purrely | main | 3 | 18012 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es) |
+| 574 | Feliz Recuerdo Purrely | main | 3 | 18011 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es) |
+| 575 | Delicioso Recuerdo Purrely | main | 2 | 18013 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es) |
+| 576 | Sueño Recuerdo Purrely | main | 2 | 18524 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es) |
+| 577 | Prohibida la Venta | main | 2 | 16868 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es) |
+| 578 | Olla de la Prosperidad | main | 1 | 15756 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=es) |
+| 579 | Talento de Tácticas Triples | main | 1 | 15296 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es) |
+| 580 | Gobernante Oscuro No Más | main | 1 | 14742 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es) |
+| 581 | Monstruo Renacido | main | 1 | 4842 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es) |
+| 582 | ¿¡Purrelysaltó!? | main | 1 | 18014 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es) |
+| 583 | Infinito Temporal | main | 1 | 13631 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es) |
+| 584 | Felicidad Epurrely | extra | 2 | 18004 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es) |
+| 585 | Belleza Epurrely | extra | 2 | 18005 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es) |
+| 586 | Rechoncho Epurrely | extra | 2 | 18006 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es) |
+| 587 | Noir Expurrely | extra | 3 | 18008 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) |
+| 588 | Princesaduende Silvana | extra | 1 | 12027 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es) |
+| 589 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 | 15524 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es) |
+| 590 | Señoroscuro Condenado | extra | 1 | 14208 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es) |
+| 591 | Protector del Agente - Luna | extra | 1 | 16651 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es) |
+| 592 | S:P Pequeña Caballera | extra | 1 | 19188 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es) |
+| 593 | Ánima Renunciada | extra | 1 | 13841 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es) |
+| 594 | Artefacto Lancea | side | 3 | 11243 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es) |
+| 595 | Nibiru, el Ser Primitivo | side | 2 | 14741 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es) |
+| 596 | Impulso de Tácticas Triples | side | 1 | 18214 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es) |
+| 597 | Llamado por la Tumba | side | 1 | 13619 | [Konami](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es) |
+
+Resultado: 36/36 filas con candidato único de CID en el paquete; 0/36 fichas con evidencia histórica de texto oficial y 0/36 con nombre de identidad histórico. La ausencia de huella no demuestra falta de efecto. T1/T3 conservan sus bloqueos de evidencia física, Skill si corresponde y censo semántico exhaustivo.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 562 | 18003 | Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18003&ope=2&request_locale=es |
+| 563 | 18481 | Purrelyly | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es |
+| 564 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 565 | 21338 | Ángel del Alba Kambi | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es |
+| 566 | 14275 | Hermana Fantasma & Cornejo Espectral | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es |
+| 567 | 13587 | Bella Fantasma & Mansión Embrujada | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es |
+| 568 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 569 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 570 | 20206 | Purulia Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 571 | 18010 | Mi Amigo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18010&ope=2&request_locale=es |
+| 572 | 18009 | Calle Purrely Vagabundo | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18009&ope=2&request_locale=es |
+| 573 | 18012 | Bello Recuerdo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18012&ope=2&request_locale=es |
+| 574 | 18011 | Feliz Recuerdo Purrely | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18011&ope=2&request_locale=es |
+| 575 | 18013 | Delicioso Recuerdo Purrely | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18013&ope=2&request_locale=es |
+| 576 | 18524 | Sueño Recuerdo Purrely | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18524&ope=2&request_locale=es |
+| 577 | 16868 | Prohibida la Venta | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es |
+| 578 | 15756 | Olla de la Prosperidad | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=es |
+| 579 | 15296 | Talento de Tácticas Triples | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 580 | 14742 | Gobernante Oscuro No Más | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14742&ope=2&request_locale=es |
+| 581 | 4842 | Monstruo Renacido | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4842&ope=2&request_locale=es |
+| 582 | 18014 | ¿¡Purrelysaltó!? | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=es |
+| 583 | 13631 | Infinito Temporal | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=es |
+| 584 | 18004 | Felicidad Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18004&ope=2&request_locale=es |
+| 585 | 18005 | Belleza Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18005&ope=2&request_locale=es |
+| 586 | 18006 | Rechoncho Epurrely | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=es |
+| 587 | 18008 | Noir Expurrely | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es |
+| 588 | 12027 | Princesaduende Silvana | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12027&ope=2&request_locale=es |
+| 589 | 15524 | Divino Arsenal AA-ZEUS - Trueno del Cielo | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=es |
+| 590 | 14208 | Señoroscuro Condenado | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14208&ope=2&request_locale=es |
+| 591 | 16651 | Protector del Agente - Luna | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16651&ope=2&request_locale=es |
+| 592 | 19188 | S:P Pequeña Caballera | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 593 | 13841 | Ánima Renunciada | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13841&ope=2&request_locale=es |
+| 594 | 11243 | Artefacto Lancea | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 595 | 14741 | Nibiru, el Ser Primitivo | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=es |
+| 596 | 18214 | Impulso de Tácticas Triples | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18214&ope=2&request_locale=es |
+| 597 | 13619 | Llamado por la Tumba | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 ### MAIN DECK — MONSTRUOS (24)
 
 | Copias | Carta |
@@ -327,7 +437,7 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 | 2 | Purrelyly |
 | 3 | Flor de Ceniza & Primavera Feliz |
 | 3 | Ángel del Alba Kambi |
-| 2 | Hermana Fantasma & Conejo Espectral |
+| 2 | Hermana Fantasma & Cornejo Espectral |
 | 2 | Bella Fantasma & Mansión Embrujada |
 | 3 | El Bufón y el Pájaro del Candado |
 | 3 | Fuwalos Multivadora |
@@ -389,7 +499,7 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 - Texto oficial Rechoncho: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18006&ope=2&request_locale=en
 - Texto oficial Noir grande: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=en
 - Texto oficial trampa: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18014&ope=2&request_locale=en
-- **Actualización A04 V35:** imágenes reutilizables por CID **10/36** (`12950`, `11708`, `13587`, `9279`, `20500`, `20206`, `15756`, `15296`, `13619`, `13631`); **26 faltantes**. Se copiaron de otros decks existentes en este maestro, sin alterar su contenido; los demás CIDs y textos siguen en revisión. Véase `profundización A01–A05 integrada`. No se usa arte sintético.
+- **Actualización A04 V35:** imágenes reutilizables por CID **10/36** (`12950`, `14275`, `13587`, `9279`, `20500`, `20206`, `15756`, `15296`, `13619`, `13631`); **26 faltantes**. Se copiaron de otros decks existentes en este maestro, sin alterar su contenido; los demás CIDs y textos siguen en revisión. Véase `profundización A01–A05 integrada`. No se usa arte sintético.
 
 ## A05 — Función, uso y propósito de **cada identidad**
 
@@ -399,7 +509,7 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 | Purrelyly ×2 | Busca carta Purrely NO Mágica Rápida al invocarse; Xyz con Recuerdo Rápido del GY, adjuntándolo | Requiere objetivo en GY; los dos efectos tienen su límite |
 | Flor de Ceniza ×3 | Cortar búsqueda, envío desde Deck o invocación desde Deck según texto de activación | Guardar para punto crítico rival |
 | Ángel del Alba Kambi ×3 | Hada LUZ Nivel 1: puede Invocarse Especial desde mano si no controlas monstruos o todos los propios son Hada; sacrifica Hadas, incluso a sí misma, para Invocar desde el Deck una Hada cuyo Nivel iguale la suma de Niveles originales sacrificados. **CID oficial 21338**. | La activación del efecto de sacrificio restringe tus Invocaciones Especiales del turno a **monstruos Hada**; por tanto, no combinar ese turno con Xyz que no sean Hada o Links ajenos al Tipo. No es una negación. |
-| Hermana Fantasma & Conejo Espectral ×2 | Destruir carta en campo cuando corresponde a su activación de efecto | Destrucción NO equivale a negar ese efecto |
+| Hermana Fantasma & Cornejo Espectral ×2 | Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase. | Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno. |
 | Bella Fantasma & Mansión Embrujada ×2 | Interacción frente a jugadas de Cementerio según efecto | Comparar activación y ventana |
 | El Bufón y el Pájaro del Candado ×3 | Restringe nuevas adiciones del Deck a mano tras primer añadido | También puede bloquear nuestras búsquedas según turno/contexto |
 | Fuwalos Multivadora ×3 | Handtrap de presión sobre invocaciones rivales cubiertas por su texto | No garantiza robo incondicional |
@@ -471,7 +581,7 @@ El estudio preserva el inventario registrado y evalúa el efecto y los materiale
 | `660:CARD:18481` / [18481](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18481&ope=2&request_locale=es) · [foto](imagenes/18481.png) | Purrelyly | Main ×2 | Busca carta Purrely NO Mágica Rápida al invocarse; Xyz con Recuerdo Rápido del GY, adjuntándolo | MOTOR-PUR-01 / CONDICIONAL | Requiere objetivo en GY; los dos efectos tienen su límite | A09 candidatos P-C02 | PENDIENTE: probar participación causal y A07 |
 | `660:CARD:12950` / [12950](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es) · [foto](imagenes/12950.jpg) | Flor de Ceniza & Primavera Feliz | Main ×3 | Cortar búsqueda, envío desde Deck o invocación desde Deck según texto de activación | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Guardar para punto crítico rival | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:21338` / [21338](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=21338&ope=2&request_locale=es) · [foto](imagenes/21338.png) | Ángel del Alba Kambi | Main ×3 | Hada LUZ Nivel 1: puede Invocarse Especial desde mano si no controlas monstruos o todos los propios son Hada; sacrifica Hadas, incluso a sí misma, para Invocar desde el Deck una Hada cuyo Nivel iguale la suma de Niveles originales sacrificados. **CID oficial 21338**. | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | La activación del efecto de sacrificio restringe tus Invocaciones Especiales del turno a **monstruos Hada**; por tanto, no combinar ese turno con Xyz que no sean Hada o Links ajenos al Tipo. No es una negación. | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
-| `660:CARD:11708` / [11708](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11708&ope=2&request_locale=es) · [foto](imagenes/11708.jpg) | Hermana Fantasma & Conejo Espectral | Main ×2 | Destruir carta en campo cuando corresponde a su activación de efecto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Destrucción NO equivale a negar ese efecto | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
+| `660:CARD:14275` / [14275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es) · [foto](imagenes/14275.jpg) | Hermana Fantasma & Cornejo Espectral | Main ×2 | Ganar LP cuando el adversario Invoca de Modo Especial monstruos de efecto en la Main Phase o Battle Phase. | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Descártala como Efecto Rápido fuera de la End Phase. Si no ganaste LP por este efecto, tus LP se reducen a la mitad en la End Phase. No niega ni destruye; úsala sólo una vez por turno. | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:13587` / [13587](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=es) · [foto](imagenes/13587.jpg) | Bella Fantasma & Mansión Embrujada | Main ×2 | Interacción frente a jugadas de Cementerio según efecto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | Comparar activación y ventana | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:9279` / [9279](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es) · [foto](imagenes/9279.jpg) | El Bufón y el Pájaro del Candado | Main ×3 | Restringe nuevas adiciones del Deck a mano tras primer añadido | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | También puede bloquear nuestras búsquedas según turno/contexto | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
 | `660:CARD:20500` / [20500](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es) · [foto](imagenes/20500.jpg) | Fuwalos Multivadora | Main ×3 | Handtrap de presión sobre invocaciones rivales cubiertas por su texto | FUNCIÓN_AUTÓNOMA O INDIRECTA; SIN_RELACIÓN_CAUSAL_ACREDITADA | No garantiza robo incondicional | SIN_COMBO_IDENTIFICADO | PENDIENTE: justificar uso autónomo / ausencia de ruta |
@@ -656,7 +766,7 @@ Se localizaron en **otros decks del mismo maestro** y se copiaron sin alteració
 | CID | Identidad en este deck | Evidencia local |
 |---:|---|---|
 | 12950 | Flor de Ceniza | `imagenes/12950.jpg` |
-| 11708 | Hermana Fantasma / Ghost Ogre | `imagenes/11708.jpg` |
+| 14275 | Hermana Fantasma / Ghost Sister & Spooky Dogwood | `imagenes/14275.jpg` |
 | 13587 | Bella Fantasma / Ghost Belle | `imagenes/13587.jpg` |
 | 9279 | Droll & Lock Bird | `imagenes/9279.jpg` |
 | 20500 | Fuwalos Multivadora | `imagenes/20500.jpg` |

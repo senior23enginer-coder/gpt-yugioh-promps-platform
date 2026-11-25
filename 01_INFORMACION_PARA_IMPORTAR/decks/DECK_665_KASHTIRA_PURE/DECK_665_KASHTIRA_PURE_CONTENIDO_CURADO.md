@@ -6020,6 +6020,74 @@ Material hist?rico para estudio: no acredita reglas, replays ni posiciones espac
 
 ## APARTADO_03 — Kashtira Pure 665 · identidad física congelada y compatibilidad mecánica (22-11-2026)
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas; no se reabren otras etapas. Fuente: [Station X V40 665](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `f40771c98b71700aac5d8a2a6acf3cc578c0ac51`.
+
+- **A03-T1:** 44 filas nativas, 38 CID, 76 copias, Main/Extra/Side/Reserva 42/15/0/19, 0 Skill(s). Cotejo por ID/CID/nombre/zona/cantidad y slots frente al snapshot: PASS. No se consultó la BD viva ni se inspeccionaron cartas físicas; no se acredita nuevo cierre físico.
+- **A03-T2:** 38/38 referencias oficiales con CID coherente, 38/38 fichas con huella histórica de texto oficial V22; unicidad y nombre documental cotejados frente a V40. El identificador histórico de ficha difiere del patrón CID en 38 entradas, pero coincide exactamente con V40; se preserva sin renombrar. No se descargó nuevamente el texto oficial de todas las cartas ni se certificaron requisitos de invocación; identidad oficial/mecánica pendiente de cotejo independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit y las filas anteriores (sin inventar hash vivo); 16 rutas existentes, 92 pasos, 90 IDs de efecto A05 del deck identificados por patrón en el Markdown (38/38 CID representados). Este conteo es de referencias documentales distintas, no un censo oficial exhaustivo; no contar variantes de calculadora como efectos. CID en varias filas preservados: 17769, 14740, 5432, 15756, 9352, 15296. Cierre pendiente de denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 44/44 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 44/44 filas por ID/CID/zona/cantidad; huella FNV-1a64 `611dacbd811d4b2e` (no es inventory_sha256 de Station X). Zonas 42/15/0/19; 38 identidades, 16 rutas, 92 pasos; 90 IDs de efecto documentados, no un nuevo censo oficial. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: CID nativo completo; falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 38/38; coincidencia normalizada de nombre 38/38. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `4aa8eabae15c303cf0847d456f8d441d08b6ada0ede322c1476739c6a2aa356e`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. El hash permite detectar cambios del paquete pero no certifica inventario físico. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente (los marcadores de formato no son un conteo exhaustivo). No marcar cierre integral sin evidencia.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 92 | 17768 | Kashtira Fenrir | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17768&ope=2&request_locale=en |
+| 93 | 17769 | Kashtira Unicorn | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en |
+| 94 | 18151 | Kashtira Riseheart | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18151&ope=2&request_locale=en |
+| 95 | 17770 | Kashtira Ogre | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17770&ope=2&request_locale=en |
+| 96 | 18152 | Scareclaw Kashtira | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18152&ope=2&request_locale=en |
+| 97 | 18153 | Tearlaments Kashtira | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18153&ope=2&request_locale=en |
+| 98 | 12950 | Ash Blossom & Joyous Spring | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 99 | 14740 | Dimension Shifter | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en |
+| 100 | 18204 | Pressured Planet Wraitsoth | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18204&ope=2&request_locale=en |
+| 101 | 17815 | Kashtira Birth | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17815&ope=2&request_locale=en |
+| 102 | 18203 | Kashtiratheosis | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18203&ope=2&request_locale=en |
+| 103 | 5537 | Terraforming | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5537&ope=2&request_locale=en |
+| 104 | 5432 | Book of Moon | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en |
+| 105 | 4342 | Dark Hole | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4342&ope=2&request_locale=en |
+| 106 | 15756 | Pot of Prosperity | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en |
+| 107 | 12464 | Cosmic Cyclone | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12464&ope=2&request_locale=en |
+| 108 | 9352 | Forbidden Lance | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en |
+| 109 | 15296 | Triple Tactics Talent | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 110 | 13631 | Infinite Impermanence | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 111 | 17831 | Kashtira Preparations | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17831&ope=2&request_locale=en |
+| 112 | 18220 | Kashtira Big Bang | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18220&ope=2&request_locale=en |
+| 113 | 17800 | Kashtira Shangri-Ira [Xyz rango 7] | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17800&ope=2&request_locale=en |
+| 114 | 18191 | Kashtira Arise-Heart [Xyz rango 7] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18191&ope=2&request_locale=en |
+| 115 | 9861 | Number 11: Big Eye [Xyz rango 7] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9861&ope=2&request_locale=en |
+| 116 | 15524 | Divine Arsenal AA-ZEUS – Sky Thunder [Xyz] | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15524&ope=2&request_locale=en |
+| 117 | 13974 | Dark Armed, the Dragon of Annihilation [Xyz rango 7] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13974&ope=2&request_locale=en |
+| 118 | 16386 | Baronne de Fleur [Synchro nivel 10] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16386&ope=2&request_locale=en |
+| 119 | 17804 | Donner, Dagger Fur Hire [Link-2] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17804&ope=2&request_locale=en |
+| 120 | 15741 | Underworld Goddess of the Closed World [Link-5] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en |
+| 121 | 15366 | Fossil Warrior Skull Knight [Fusión] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15366&ope=2&request_locale=en |
+| 122 | 15882 | Fossil Machine Skull Wagon [Fusión] | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15882&ope=2&request_locale=en |
+| 123 | 5432 | Book of Moon | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5432&ope=2&request_locale=en |
+| 124 | 15296 | Triple Tactics Talent | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=en |
+| 125 | 7153 | Eradicator Epidemic Virus | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7153&ope=2&request_locale=en |
+| 126 | 14740 | Dimension Shifter | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14740&ope=2&request_locale=en |
+| 127 | 9352 | Forbidden Lance | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9352&ope=2&request_locale=en |
+| 128 | 17769 | Kashtira Unicorn | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17769&ope=2&request_locale=en |
+| 129 | 13896 | Dinowrestler Pankratops | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13896&ope=2&request_locale=en |
+| 130 | 12668 | Dimensional Barrier | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12668&ope=2&request_locale=en |
+| 131 | 15756 | Pot of Prosperity | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en |
+| 132 | 14741 | Nibiru, the Primal Being | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14741&ope=2&request_locale=en |
+| 133 | 9279 | Droll & Lock Bird | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=en |
+| 134 | 13587 | Ghost Belle & Haunted Mansion | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13587&ope=2&request_locale=en |
+| 135 | 14400 | Infinitrack Goliath [monstruo Link para intercambio con Extra Deck] | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14400&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación o ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, confirmar evidencia física/nativa actual y cerrar denominadores. Los checks históricos mantienen su alcance, no representan esta nueva revisión.
+
+
 ### A03.1 — Inventario canónico completo (44 card_id nativos)
 
 El usuario asignó expresamente A03 al mismo deck 665 tras aprobar la continuidad A01/A02 sin Side. Se aplica la **excepción explícita A03** exclusivamente para certificar este inventario con `side=0`, sin cambiar Main, Extra, Side, Reserva ni aplicar banlist. Los 44 IDs de fila son auténticos, proceden del [registro Station X V40](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/665.json), Git blob `29a120ffd8378ea9606e4b509a478fde34e423bd`, y coinciden con `datos/stationx-deck.json` (`deck-slots-v1`). La identidad `cid` no reemplaza `card_id`: **un mismo CID puede aparecer legítimamente en dos filas distintas de Main y Reserva**.

@@ -333,6 +333,68 @@ Todos los CID provienen de la fuente previa. El enlace de referencia **no certif
 
 ### A03 — Integridad del inventario físico por zonas
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 687](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/687.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `40aa314166271468cdb2b4cf3c80fae1eb3b365c`.
+
+- **A03-T1:** 38 filas, 36 CID, 71 copias, Main/Extra/Side/Reserva 42/15/0/14, 0 Skill(s). Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 36/36 referencias oficiales con CID coherente; 36/36 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 22 rutas, 95 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/36 CID representados). Conteo documental, no censo oficial exhaustivo. CID multizona: 9455, 7934. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 38/38 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 38/38 filas por ID/CID/zona/cantidad; huella FNV-1a64 `8865ac903f24a3a4` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 42/15/0/14; 36 identidades, 22 rutas, 95 pasos. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 36/36; coincidencia normalizada de nombre 36/36. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `1a77adc28448840a4b4baeceacd5ae5449ef2c371e5e5fc48bce58aa08a1bdf3`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 284 | 18916 | Volcanic Trooper — Soldado Volcánico | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18916&ope=2&request_locale=en |
+| 285 | 18915 | Volcanic Emperor — Emperador Volcánico | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18915&ope=2&request_locale=en |
+| 286 | 7243 | Volcanic Rocket — Misil Volcánico | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7243&ope=2&request_locale=en |
+| 287 | 18917 | Volcanic Rimfire — Percusión Anular Volcánica | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18917&ope=2&request_locale=en |
+| 288 | 7083 | Volcanic Scattershot — Disparo Disperso Volcánico | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7083&ope=2&request_locale=en |
+| 289 | 7082 | Volcanic Shell — Cartucho Volcánico | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7082&ope=2&request_locale=en |
+| 290 | 6884 | Barrier Statue of the Inferno — Estatua-Barrera del Infierno | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=6884&ope=2&request_locale=en |
+| 291 | 9455 | Maxx "C" — «C» Maxx | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en |
+| 292 | 18918 | Volcanic Blaze Accelerator — Acelerador de Llama Volcánico | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18918&ope=2&request_locale=en |
+| 293 | 7086 | Blaze Accelerator — Acelerador de Llama | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7086&ope=2&request_locale=en |
+| 294 | 18919 | Fire Ejection — Eyección de Fuego | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18919&ope=2&request_locale=en |
+| 295 | 15299 | Forbidden Droplet — Gotas Prohibidas | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=en |
+| 296 | 19027 | Bonfire — Hoguera | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19027&ope=2&request_locale=en |
+| 297 | 14144 | Pot of Extravagance — Olla de la Extravagancia | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14144&ope=2&request_locale=en |
+| 298 | 11597 | Blaze Accelerator Reload — Recarga del Acelerador de Llama | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11597&ope=2&request_locale=en |
+| 299 | 18921 | Volcanic Inferno — Infierno Volcánico | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18921&ope=2&request_locale=en |
+| 300 | 18920 | Volcanic Emission — Emisión Volcánica | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18920&ope=2&request_locale=en |
+| 301 | 7934 | Gozen Match — Emparejamiento de Atributos | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en |
+| 302 | 14676 | I:P Masquerena — I:P Enmascarada | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14676&ope=2&request_locale=en |
+| 303 | 14133 | Hiita the Fire Charmer, Ablaze — Hiita, la Encantadora del Fuego Encendida | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14133&ope=2&request_locale=en |
+| 304 | 13601 | Knightmare Unicorn — Caballero de Pesadilla Unicornio | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13601&ope=2&request_locale=en |
+| 305 | 15741 | Underworld Goddess of the Closed World — Diosa del Inframundo del Mundo Cerrado | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15741&ope=2&request_locale=en |
+| 306 | 13600 | Knightmare Phoenix — Caballero de Pesadilla Fénix | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13600&ope=2&request_locale=en |
+| 307 | 13346 | Linkuriboh — Enlacekuriboh | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13346&ope=2&request_locale=en |
+| 308 | 19184 | Super Starslayer TY-PHON - Sky Crisis — Súper Asesino Estelar TY-PHON | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19184&ope=2&request_locale=en |
+| 309 | 19188 | S:P Little Knight — S:P Pequeña Caballera | extra | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=en |
+| 310 | 14338 | Salamangreat Almiraj — Salamangrande Almiraj | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14338&ope=2&request_locale=en |
+| 311 | 19507 | Promethean Princess, Bestower of Flames — Princesa Prometea | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19507&ope=2&request_locale=en |
+| 312 | 13631 | Infinite Impermanence — Infinito Temporal | reserve | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13631&ope=2&request_locale=en |
+| 313 | 12950 | Ash Blossom & Joyous Spring — Flor de Ceniza y Primavera Feliz | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=en |
+| 314 | 8213 | Forbidden Chalice — Corona Prohibida | reserve | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=8213&ope=2&request_locale=en |
+| 315 | 13002 | Clashing Souls — Almas en Choque | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13002&ope=2&request_locale=en |
+| 316 | 13293 | Evenly Matched — Pelea Pareja | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13293&ope=2&request_locale=en |
+| 317 | 5622 | Rivalry of Warlords — Rivalidad de los Señores de la Guerra | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5622&ope=2&request_locale=en |
+| 318 | 4678 | Harpie's Feather Duster — Polvo de Pluma de Arpía | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4678&ope=2&request_locale=en |
+| 319 | 9455 | Maxx "C" — «C» Maxx | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9455&ope=2&request_locale=en |
+| 320 | 7934 | Gozen Match — Emparejamiento de Atributos | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7934&ope=2&request_locale=en |
+| 321 | 15756 | Pot of Prosperity — Olla de la Prosperidad | reserve | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15756&ope=2&request_locale=en |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 42 Main · 15 Extra · 0 Side recibido · 14 Reserva separada. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 

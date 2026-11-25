@@ -315,6 +315,72 @@
 
 ### A03 — Integridad del inventario físico por zonas
 
+#### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 704](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/704.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `8221259f35efff4b8ecdd0c677f1201f917223da`.
+
+- **A03-T1:** 17 filas, 17 CID, 35 copias, Main/Extra/Side/Reserva 30/5/0/0, 1 Skill(s): ALCHEMY BLAZE. Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 17/17 referencias oficiales con CID coherente; 17/17 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia y fuente local de Skill.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 3 rutas, 15 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/17 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 17/17 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 17/17 filas por ID/CID/zona/cantidad; huella FNV-1a64 `0f8c996ce8713c20` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/5/0/0; 17 identidades, 3 rutas, 15 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica ALCHEMY BLAZE preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 17/17; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `8a0d47ec50df08cad0662b1677cc5a81aaea298f6c80e9b585d789687d2b5d52`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 15204 | 貫通！ |
+| 17285 | ジャーマレーベ |
+| 17212 | 潜入開始 |
+| 19291 | HPアシスタント・アーチ |
+| 18583 | クロマトグラファガス |
+| 17963 | SPアシスタント・アーチ |
+| 16934 | フュージョン |
+| 16171 | 火炎 |
+| 17868 | ケミカライズ・サラマンダー |
+| 18646 | バッファード・スライム |
+| 19700 | 救惺望御 |
+| 16776 | 『守備』封じ |
+| 15913 | 落とし穴 |
+| 17926 | 炎を支配する者 |
+| 16372 | 強欲な壺 |
+| 19990 | SPグラファガス・アーチャー |
+| 18614 | アルケミカライズ・サラマンドラ |
+
+A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+### A03-T1/T2 — contraste externo de Skill (24-11-2026)
+
+**Alchemy Blaze** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Alchemy%20Blaze). Desde el turno 2: revelar uno de tres nombres elegibles; los monstruos deben ser Piro/FUEGO con DEF >=100. Recupera dos recursos elegibles del Deck/GY y después envía una carta de mano al GY. No constituye apertura autónoma de turno 1.  Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 429 | 15204 | ¡Atraviesa! | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15204&ope=2 |
+| 430 | 17285 | Germalewe | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17285&ope=2 |
+| 431 | 17212 | Orden Secreta | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2 |
+| 432 | 19291 | Hiperasistente Ember | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19291&ope=2 |
+| 433 | 18583 | Cromatográfagas | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18583&ope=2 |
+| 434 | 17963 | Superasistente Ember | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17963&ope=2 |
+| 435 | 16934 | Fusión | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16934&ope=2 |
+| 436 | 16171 | Fuego Ardiente | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16171&ope=2 |
+| 437 | 17868 | Salamandra Quimicalizada | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17868&ope=2 |
+| 438 | 18646 | Gelatina Defensiva | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18646&ope=2&request_locale=ja |
+| 439 | 19700 | Amparo del Protector Estelar | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19700&ope=2 |
+| 440 | 16776 | Parar la Defensa | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16776&ope=2 |
+| 441 | 15913 | Agujero Trampa | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15913&ope=2 |
+| 442 | 17926 | Gobernante de las Llamas | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17926&ope=2 |
+| 443 | 16372 | Olla de la Codicia | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 444 | 19990 | Arquero Ígneo Supergráfagas | extra | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19990&ope=2 |
+| 445 | 18614 | Salamandra Alquimicalizada | extra | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18614&ope=2 |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 30 Main · 5 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 

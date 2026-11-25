@@ -391,6 +391,70 @@ Los CID de esta matriz se cotejaron con las **39 identidades físicas** de `reco
 
 ## APARTADO_03 y APARTADO_04 — Inventario y fuentes
 
+### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas; no se reabren otras etapas. Fuente: [Station X V40 677](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/677.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `c2ac48e9d5778a232cc1ef8a8702c1071a4b568b`.
+
+- **A03-T1:** 40 filas nativas, 39 CID, 70 copias, Main/Extra/Side/Reserva 40/15/15/0, 0 Skill(s). Cotejo por ID/CID/nombre/zona/cantidad y slots frente al snapshot: PASS. No se consultó la BD viva ni se inspeccionaron cartas físicas; no se acredita nuevo cierre físico.
+- **A03-T2:** 39/39 referencias oficiales con CID coherente, 0/39 fichas con huella histórica de texto oficial V22; unicidad y nombre documental cotejados frente a V40. No se descargó nuevamente el texto oficial de todas las cartas ni se certificaron requisitos de invocación; identidad oficial/mecánica pendiente de cotejo independiente donde falte evidencia.
+- **A03-T3:** inventario congelado por referencia al commit y las filas anteriores (sin inventar hash vivo); 14 rutas existentes, 60 pasos, 92 IDs de efecto A05 del deck identificados por patrón en el Markdown (39/39 CID representados). Este conteo es de referencias documentales distintas, no un censo oficial exhaustivo; no contar variantes de calculadora como efectos. CID en varias filas preservados: 20206. Cierre pendiente de denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 40/40 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 40/40 filas por ID/CID/zona/cantidad; huella FNV-1a64 `5d6c4a50343a0ad7` (no es inventory_sha256 de Station X). Zonas 40/15/15/0; 39 identidades, 14 rutas, 60 pasos; 92 IDs de efecto documentados, no un nuevo censo oficial. A03-T1: cotejo del inventario digital nativo completado; no hubo inspección física presencial; Skill no aplica al formato TCG. A03-T2: CID nativo completo; falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 39/39; coincidencia normalizada de nombre 39/39. Puerta de elegibilidad aprobada. SHA-256 de los bytes del paquete auditado `b787cd00acc023eb5c4f1ed659092d9baae8721adaf51b7a135c3e83fd789777`; no equivale al hash nativo de inventario. Lista preservada; no se alteran cartas, cantidades, zonas, efectos ni rutas. El hash permite detectar cambios del paquete pero no certifica inventario físico. Las huellas de texto de Konami se conservan por CID en el artefacto. 
+
+A03-T1: inspección física no acreditada. A03-T2: fuente e identidad digital recuperadas; no equivale a revisión de todas las condiciones mecánicas. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente (los marcadores de formato no son un conteo exhaustivo). No marcar cierre integral sin evidencia.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 522 | 20759 | Cristron Sulfador | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20759&ope=2&request_locale=es |
+| 523 | 12608 | Cristron Smiger | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12608&ope=2&request_locale=es |
+| 524 | 20758 | Cristron Tristaros | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20758&ope=2&request_locale=es |
+| 525 | 12756 | Cristron Azufafnir | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12756&ope=2&request_locale=es |
+| 526 | 12606 | Cristron Citree | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12606&ope=2&request_locale=es |
+| 527 | 12609 | Cristron Thystvern | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12609&ope=2&request_locale=es |
+| 528 | 19153 | Amset, Gloria de Horus | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19153&ope=2&request_locale=es |
+| 529 | 19155 | Hapi, Guía de Horus | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19155&ope=2&request_locale=es |
+| 530 | 12950 | Flor de Ceniza & Primavera Feliz | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12950&ope=2&request_locale=es |
+| 531 | 9279 | El Bufón y el Pájaro del Candado | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9279&ope=2&request_locale=es |
+| 532 | 20500 | Fuwalos Multivadora | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20500&ope=2&request_locale=es |
+| 533 | 20206 | Purulia Multivadora | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 534 | 20206 | Purulia Multivadora | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20206&ope=2&request_locale=es |
+| 535 | 20798 | Inclusión Cristron | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20798&ope=2&request_locale=es |
+| 536 | 19200 | Sarcófago del Rey | main | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19200&ope=2&request_locale=es |
+| 537 | 7445 | Súper Polimerización | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=7445&ope=2&request_locale=es |
+| 538 | 15299 | Gotas Prohibidas | main | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15299&ope=2&request_locale=es |
+| 539 | 5236 | Entierro Insensato | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=5236&ope=2&request_locale=es |
+| 540 | 20817 | Agrupamiento Cristron | main | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20817&ope=2&request_locale=es |
+| 541 | 13710 | F.A. Coche Trucado del Amanecer | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13710&ope=2&request_locale=es |
+| 542 | 20778 | Cristron Elesqueletus | extra | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20778&ope=2&request_locale=es |
+| 543 | 12781 | Cristron Quariongandrax | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12781&ope=2&request_locale=es |
+| 544 | 19188 | S:P Pequeña Caballera | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=19188&ope=2&request_locale=es |
+| 545 | 20787 | Caballero Mecánico | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=20787&ope=2&request_locale=es |
+| 546 | 11765 | Ciber Dragón del Infinito | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11765&ope=2&request_locale=es |
+| 547 | 10870 | Ciber Dragón Nova | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=10870&ope=2&request_locale=es |
+| 548 | 12157 | Hagoita de Alta-Velociroid | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=12157&ope=2&request_locale=es |
+| 549 | 13826 | Número 90: Señor Fotónico de Ojos Galácticos | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13826&ope=2&request_locale=es |
+| 550 | 16850 | El Vampiro Zombi | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16850&ope=2&request_locale=es |
+| 551 | 13360 | Destructor Samurái | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13360&ope=2&request_locale=es |
+| 552 | 17746 | Garura, Alas de Vida Resonante | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=17746&ope=2&request_locale=es |
+| 553 | 13454 | Fangodragón del Pantano | extra | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13454&ope=2&request_locale=es |
+| 554 | 9454 | Cazadora del Caos | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=9454&ope=2&request_locale=es |
+| 555 | 11243 | Artefacto Lancea | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11243&ope=2&request_locale=es |
+| 556 | 11411 | Regaño Solemne | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11411&ope=2&request_locale=es |
+| 557 | 13619 | Llamado por la Tumba | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=13619&ope=2&request_locale=es |
+| 558 | 15296 | Talento de Tácticas Triples | side | 1 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=15296&ope=2&request_locale=es |
+| 559 | 16868 | Prohibida la Venta | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=16868&ope=2&request_locale=es |
+| 560 | 11849 | Arresto Erróneo | side | 2 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=11849&ope=2&request_locale=es |
+| 561 | 4861 | Juicio Solemne | side | 3 | https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4861&ope=2&request_locale=es |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación o ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, confirmar evidencia física/nativa actual y cerrar denominadores. Los checks históricos mantienen su alcance, no representan esta nueva revisión.
+
+
 La matriz A06 de abajo conserva **cada carta y copia** del inventario comunicado, con una sola fila por identidad y dos columnas de zona si una misma carta aparece en Main y Side.
 
 **A03:** nombres y cantidades de Miguel inalterados: 40 Main (27 monstruos, 12 mágicas, 1 trampa), 15 Extra y 15 Side. Ninguna carta del Side se cuenta como inicial; el cotejo es numérico y de zonas.

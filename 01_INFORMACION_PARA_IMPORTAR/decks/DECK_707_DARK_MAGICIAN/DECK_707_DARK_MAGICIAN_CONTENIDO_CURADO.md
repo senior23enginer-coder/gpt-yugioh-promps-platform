@@ -318,6 +318,78 @@
 
 ### A03 — Integridad del inventario físico por zonas
 
+#### A03 — Revisión secuencial 24-11-2026 (evidencia privada)
+
+**Estado de esta nueva ejecución: PARCIAL — cotejo documental satisfactorio; cierre físico/oficial pendiente**. No sustituye evidencias ni aprobaciones históricas. [Station X V40 707](https://github.com/senior23enginer-coder/platform-yugioh-md/blob/base/torneos_yugioh/assets/editorial/20261117-folder-delivery-v40/707.json), GPT `7bd257a47655d332c931f9cf944f8cf099ee2ba7`, Markdown anterior blob `b2bd1fe04297f84081bc0a739f7e9a1b66e79b56`.
+
+- **A03-T1:** 20 filas, 20 CID, 37 copias, Main/Extra/Side/Reserva 30/7/0/0, 1 Skill(s): ILLUSION OF EXECUTION. Cotejo ID/CID/nombre/zona/cantidad y slots: PASS. Sin consulta BD viva ni inspección física; no se acredita nuevo cierre físico.
+- **A03-T2:** 20/20 referencias oficiales con CID coherente; 20/20 fichas con huella histórica V22. Nombre documental e IDs cotejados con V40; pendiente cotejo oficial/mecánico independiente donde falte evidencia y fuente local de Skill.
+- **A03-T3:** inventario congelado por referencia al commit (sin hash vivo inventado); 9 rutas, 35 pasos, 0 IDs de efecto A05 distintos identificados por patrón en Markdown (0/20 CID representados). Conteo documental, no censo oficial exhaustivo. Sin CID repartidos en varias filas. No se cuentan reglas/variantes como efectos; falta denominador oficial contrastado.
+
+**Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 20/20 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 20/20 filas por ID/CID/zona/cantidad; huella FNV-1a64 `8c1aea1b5384f02b` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/7/0/0; 20 identidades, 9 rutas, 35 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica ILLUSION OF EXECUTION preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
+
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 20/20; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `d96c5d04a677e7e2414373c9ce49f042b49d0e210c9f5e9d15f2b81bcc4d7986`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 15451 | 黒・魔・導 |
+| 16772 | アメイジング・ディーラー |
+| 18685 | レジェンド・マジシャン |
+| 19597 | 円熟の黒魔術師 |
+| 19329 | モンスター招集 |
+| 19773 | 黒魔導の遂行者 |
+| 17209 | 黒・魔・導・響・弾 |
+| 20151 | シャイニーシェイディー |
+| 19598 | 黒魔術師の宝石 |
+| 15410 | ブラック・マジシャン |
+| 20305 | リリースレイヤー |
+| 16371 | ブラック・マジシャン・ガール |
+| 15450 | 千本ナイフ |
+| 19341 | エクスキューティー・ライディング！ |
+| 17212 | 潜入開始 |
+| 16372 | 強欲な壺 |
+| 21007 | 昂光の呪縛 |
+| 19995 | 疾風の竜騎士ガイア |
+| 18298 | 竜騎士ガイア |
+| 19323 | 百戦の覇者ガイア |
+
+A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
+### A03-T1/T2 — contraste externo de Skill (24-11-2026)
+
+**Illusion of Execution** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Illusion%20of%20Execution). Desde turno 2 y una vez por duelo; revelar monstruo Nivel 5+ y respetar Lanzadores de Conjuros y los tres nombres de alto Nivel admitidos. Excava tres cartas, puede recuperar una Mágica y envía restantes al GY; puede enviar Dark Magician del Deck al GY. El nombre de la Skill también aparece en [resultados oficiales de Konami WCS 2026](https://www.konami.com/yugioh/worldchampionship/2026/en/). Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
+
+
+
+| card_id | CID | Nombre documental | Zona | Copias | Fuente registrada |
+|---:|---:|---|---|---:|---|
+| 446 | 15451 | Ataque Mágico Oscuro | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15451&ope=2 |
+| 447 | 16772 | Distribuidor Maravilloso | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16772&ope=2 |
+| 448 | 18685 | Maga Legendaria | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18685&ope=2 |
+| 449 | 19597 | Mago Oscuro Sabio | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19597&ope=2 |
+| 450 | 19329 | Grito de Monstruo | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19329&ope=2 |
+| 451 | 19773 | Hechicero Eliminador Oscuro | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19773&ope=2 |
+| 452 | 17209 | Ráfaga de Resonancia Oscura | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17209&ope=2 |
+| 453 | 20151 | Brillo Sombrío | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20151&ope=2 |
+| 454 | 19598 | Piedra de los Magos Oscuros | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19598&ope=2 |
+| 455 | 15410 | Mago Oscuro | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15410&ope=2 |
+| 456 | 20305 | Lily Aniquiladora | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=20305&ope=2 |
+| 457 | 16371 | Chica Maga Oscura | main | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16371&ope=2 |
+| 458 | 15450 | Mil Cuchillos | main | 2 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=15450&ope=2 |
+| 459 | 19341 | ¡Equitación Lindasesina! | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19341&ope=2 |
+| 460 | 17212 | Orden Secreta | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=17212&ope=2 |
+| 461 | 16372 | Olla de la Codicia | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=16372&ope=2 |
+| 462 | 21007 | Maldición de la Luz Ascendente | main | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=21007&ope=2 |
+| 463 | 19995 | Gaia el Campeón Dragón Rápido | extra | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19995&ope=2 |
+| 464 | 18298 | Gaia el Campeón Dragón | extra | 3 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=18298&ope=2 |
+| 465 | 19323 | Gaia, el Conquistador de Campeones | extra | 1 | https://www.db.yugioh-card.com/rushdb/card_search.action?cid=19323&ope=2 |
+
+Sin banlist, cambios de cartas, Skills, rutas, importación ni ejecución de A04–A10. Siguiente acción A03: completar fuentes oficiales, evidencia física/nativa actual y denominadores. Checks históricos no representan esta nueva revisión.
+
+
 - **Conteo recibido:** 30 Main · 7 Extra · 0 Side · 0 Reserva; Skill registrada fuera de mano. No convertir Reserva en Side ni una Skill en carta de mano.
 - **Control:** la lista individual y su CID/fotografía prevalecen ante cualquier ejemplo táctico; no se crean, sustituyen ni retiran cartas en esta sección.
 
