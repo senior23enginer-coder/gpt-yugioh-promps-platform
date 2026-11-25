@@ -325,6 +325,33 @@
 
 **Actualización verificable de producción — 24-11-2026 (A03, solo lectura):** [GitHub Actions 45261058715, reejecución](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715), artefacto `14973327314`, SHA-256 ZIP `3270bfd9e97674fc99e6dd1a3472021ecf419d546cc68eaa93731ccbeb43eff5`. Se comparó el snapshot nativo del 23-11 (artefacto `14859883893`) con la nueva extracción: 17/17 filas coinciden por ID, nombre, zona, cantidad, CID y ygoprodeck_id. Coincidencia con V40: 17/17 filas por ID/CID/zona/cantidad; huella FNV-1a64 `0f8c996ce8713c20` (no es inventory_sha256 de Station X). CID nativo completo. Zonas 30/5/0/0; 17 identidades, 3 rutas, 15 pasos. A03-T1: cotejo digital nativo de cartas completado; no hubo inspección física presencial. Skill histórica ALCHEMY BLAZE preservada; el snapshot de producción no incluye Skills, por lo que falta confirmación nativa de la Skill. A03-T2: falta revalidación oficial/mecánica independiente. A03-T3: denominadores de inventario y rutas fijados; censo exhaustivo de efectos oficiales aún por certificar. Revisión integral abierta; no se altera el checklist histórico ni el inventario.
 
+### A03-T2/T3 — resultado de fuente oficial y huella de paquete (24-11-2026)
+
+[Auditoría oficial completada #45515416575](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45515416575), artefacto 14977781604, digest ZIP SHA-256 `8498f8fdaf512b6ced02ffa2e0f7909d7ad073876afe0ea334ccced5795f274d`. Fuentes Neuron recuperadas 17/17; los títulos oficiales de Rush Duel son japoneses y no coinciden literalmente con las denominaciones españolas documentales. No es una discrepancia de CID por sí misma. Puerta de elegibilidad aprobada. SHA-256 del paquete auditado `8a0d47ec50df08cad0662b1677cc5a81aaea298f6c80e9b585d789687d2b5d52`. Se conserva el nombre de inventario; el título oficial se documenta por CID sin presentarlo como traducción oficial española. Las huellas de texto se conservan en el artefacto.
+
+| CID | Título japonés recuperado de Konami |
+|---:|---|
+| 15204 | 貫通！ |
+| 17285 | ジャーマレーベ |
+| 17212 | 潜入開始 |
+| 19291 | HPアシスタント・アーチ |
+| 18583 | クロマトグラファガス |
+| 17963 | SPアシスタント・アーチ |
+| 16934 | フュージョン |
+| 16171 | 火炎 |
+| 17868 | ケミカライズ・サラマンダー |
+| 18646 | バッファード・スライム |
+| 19700 | 救惺望御 |
+| 16776 | 『守備』封じ |
+| 15913 | 落とし穴 |
+| 17926 | 炎を支配する者 |
+| 16372 | 強欲な壺 |
+| 19990 | SPグラファガス・アーチャー |
+| 18614 | アルケミカライズ・サラマンドラ |
+
+A03-T1: inventario físico y Skill nativa no acreditados. A03-T2: fuente e identidad digital recuperadas; traducciones y compatibilidad mecánica requieren verificación semántica. A03-T3: denominadores de filas, copias, identidades y rutas ya documentados; censo semántico de efectos pendiente. No marcar cierre integral sin evidencia.
+
+
 ### A03-T1/T2 — contraste externo de Skill (24-11-2026)
 
 **Alchemy Blaze** — [fuente secundaria Duel Links Meta](https://www.duellinksmeta.com/skills/Alchemy%20Blaze). Desde el turno 2: revelar uno de tres nombres elegibles; los monstruos deben ser Piro/FUEGO con DEF >=100. Recupera dos recursos elegibles del Deck/GY y después envía una carta de mano al GY. No constituye apertura autónoma de turno 1.  Identidad externa contrastada; no es evidencia de selección nativa ni compatibilidad de todos los monstruos físicos, y la fuente secundaria no reemplaza el texto vigente en el juego. Mantener A03 abierto para estos controles.
