@@ -42,6 +42,27 @@
 - Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
 - Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
 
+**T3, huellas de referencia en Station X:** se verificaron nuevamente los 16 ZIP nativos, sólo lectura, el 25-11-2026 entre 01:39:20 y 01:40:28 UTC. Los 584 registros (980 copias) coinciden por ID, zona y cantidad con el snapshot; los 562 registros de identidad cubren todas las filas. Las 16 huellas de inventario también coinciden con la verificación previa de A02. Se congela esta referencia digital, no la lista física final. En particular, un hash idéntico no valida ni corrige la discrepancia Noir de Purrely.
+
+| Mazo | Exportación UTC | SHA-256 de inventario |
+|---|---|---|
+| Elfnote 650 | 01:39:20 | `3382d8139bd7e8a97d605c436c6de8c71f2b85e236de2186f2f028ac2f7f2013` |
+| DoomZ 653 | 01:39:22 | `6eb8724eeef5e76e866fa0de0be7718729496ad4634c4793ce8f776c8431789c` |
+| Tearlaments 656 | 01:39:22 | `2ced0a8c06534699264da7edf3961e78790d681af0df76b049839f4385f16543` |
+| Purrely 660 | 01:39:20 | `7036480904e6251c5ac5d447195583c532ab60cb082d5231919f4719dc5286d8` |
+| Kashtira Pure 665 | 01:39:26 | `b7a6c8d26a045b20d03c39640ca453997d913d68967b32d015de9402b29a7915` |
+| Infernoble 670 | 01:39:25 | `ee21cd4285b6618ba9c3805eb44e3b3ef655908cc9ca0e64b93a802f629ed972` |
+| Memento 671 | 01:40:24 | `1d7183257685ff5d8468d4bcee2a2f88b4b39ec9488679a4824ff65b5c088e39` |
+| Salamangreat 673 | 01:39:26 | `4824791265686b77223e5a6af87ca01408cc480d1255c321e98aeef4541fac61` |
+| Crystron 677 | 01:40:16 | `d406c0ef79662cdd542d13b75364b7b475c5e6998c51d110fb41331e3721c9ef` |
+| Cyber Dragon Pure 684 | 01:39:28 | `c7574f2162e47eba12302495965aac6a32657b49713a0abec18109d00b05e6f9` |
+| Volcanic 687 | 01:39:29 | `e98d5481e6595519a11c98635c1ae83fd80cdeb7fb30fde4b08d97cf74213dcf` |
+| Goat Control 699 | 01:39:31 | `7034b109c842c1135042b181eeca590717b52d21ce980f37c66763d79f45a318` |
+| Pyro 704 | 01:39:59 | `f2389cd54fa4cb17248bd1f15c96a63f244886f0eb82fb962306bdd367900a47` |
+| Royal 705 | 01:39:59 | `3203ae6afac7f91567e5ad840494b277dcbe9f4255f451a75bec5fd9ebda3ce5` |
+| Hero 706 | 01:40:28 | `8989ee2f50f67beefee871ac20fa6f0dd74a141a4bc4ceb98e79f863ed28406f` |
+| Dark Magician 707 | 01:40:28 | `1514080ee239642bf0ade6b59d3e81689d5f3972e1ba2be8f3d536bc58d7f8a4` |
+
 **T3, Memento 671 — censo por CID:** lectura individual en Neuron España de 39 identidades en 40 filas. Total: **64 activaciones, 8 efectos o componentes continuos, 1 reemplazo, 6 procedimientos/requisitos propios de Invocación o Colocación y 1 mantenimiento**. No se cuentan las condiciones, límites por turno, materiales estándar, pasos de resolución o modos como nuevas activaciones. Ejemplos: las condiciones de Flor de Ceniza no son tres efectos; Talento tiene una activación y tres modos; el aumento de Réquiem se aplica como Equipo; la sustitución de destino de Dragón Gemelo y el mantenimiento de El Duque se separan de sus efectos activados. Censo de carta, no auditoría de legalidad de cada ruta.
 
 | CID | Activaciones | Continuos | Reemplazo | Procedimiento/requisito | Mantenimiento |
