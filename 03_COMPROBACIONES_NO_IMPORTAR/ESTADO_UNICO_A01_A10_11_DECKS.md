@@ -1,5 +1,49 @@
 # Station X — Estado único de avance, validaciones y pendientes (A01–A10; 16 decks, 11 de estudio previo)
 
+## A03 — recertificación secuencial de 16 mazos (25-11-2026 UTC)
+
+**Cierre integral aún abierto.** T1 distingue el inventario digital de las copias físicas. T2 distingue identidad oficial, alias de presentación y escritura nativa. T3 distingue los totales del inventario de un censo semántico. No se aplicó banlist, no se realizó escritura ni se inició A04.
+
+| Orden | Mazo | Filas / copias digitales | Fichas oficiales recuperadas | Conciliación de CID en el lote |
+|---:|---|---:|---:|---|
+| 1 | Memento (671) | 40 / 70 | 39/39 | No pertenece al lote de CID faltantes |
+| 2 | Crystron (677) | 40 / 70 | 39/39 | No pertenece al lote de CID faltantes |
+| 3 | Kashtira Pure (665) | 44 / 76 | 38/38 | No pertenece al lote de CID faltantes |
+| 4 | Elfnote (650) | 43 / 70 | 42/42 | No pertenece al lote de CID faltantes |
+| 5 | DoomZ (653) | 37 / 64 | 37/37 | No pertenece al lote de CID faltantes |
+| 6 | Tearlaments (656) | 53 / 75 | 50/50 | No pertenece al lote de CID faltantes |
+| 7 | Infernoble (670) | 45 / 69 | 45/45 | No pertenece al lote de CID faltantes |
+| 8 | Cyber Dragon Pure (684) | 60 / 81 | 52/52 | No pertenece al lote de CID faltantes |
+| 9 | Volcanic (687) | 38 / 71 | 36/36 | No pertenece al lote de CID faltantes |
+| 10 | Purrely (660) | 36 / 70 | 36/36 | 35/36 elegibles en la simulación con tres alias locales |
+| 11 | Salamangreat (673) | 39 / 70 | 39/39 | 39/39 elegibles en la simulación con tres alias locales |
+| 12 | Goat Control (699) | 39 / 54 | 39/39 | 39/39 elegibles en la simulación con tres alias locales |
+| 13 | Pyro (704) | 17 / 35 | 17/17 | No pertenece al lote de CID faltantes |
+| 14 | Royal (705) | 16 / 30 | 16/16 | 0/16 elegibles en la simulación con tres alias locales |
+| 15 | Hero (706) | 17 / 38 | 17/17 | No pertenece al lote de CID faltantes |
+| 16 | Dark Magician (707) | 20 / 37 | 20/20 | No pertenece al lote de CID faltantes |
+
+**T1, inventario digital:** 584 filas y 980 copias del [snapshot de lectura](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/actions/runs/45261058715/artifacts/14973327314). Cotejo físico completo aún pendiente. Una foto histórica sirve para detectar discrepancias y no acredita que hoy todas las copias estén sin cambios.
+
+**T1, Skills nativas:** los cuatro ZIP de sólo lectura de Station X se reexportaron y contienen exactamente una Skill por mazo. Huellas del inventario iguales a las exportaciones de A02. Esto prueba el nombre registrado, no que el texto de todas las Skills haya sido verificado dentro del cliente de juego.
+
+| Mazo | Skill en ZIP nativo | SHA-256 de inventario |
+|---|---|---|
+| 704 | ALCHEMY BLAZE | `f2389cd54fa4cb17248bd1f15c96a63f244886f0eb82fb962306bdd367900a47` |
+| 705 | HARD ROCK OVERTURE | `3203ae6afac7f91567e5ad840494b277dcbe9f4255f451a75bec5fd9ebda3ce5` |
+| 706 | HERO RUSH RISING | `8989ee2f50f67beefee871ac20fa6f0dd74a141a4bc4ceb98e79f863ed28406f` |
+| 707 | ILLUSION OF EXECUTION | `1514080ee239642bf0ade6b59d3e81689d5f3972e1ba2be8f3d536bc58d7f8a4` |
+
+**T2, correcciones y retenciones:**
+- Purrely fila 566, Main ×2: la foto histórica del 17-11 muestra Hermana Fantasma & Cornejo Espectral, atributo AGUA ([CID 14275](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=14275&ope=2&request_locale=es)). No corresponde a 11708. En el [borrador GPT #35](https://github.com/senior23enginer-coder/gpt-yugioh-promps-platform/pull/35) se corrigieron ficha, efecto e imagen, sin variar la cantidad ni el ID de inventario.
+- Purrely fila 587, Extra ×3: el listado agrupa tres Noir Expurrely, pero en la foto se distinguen dos [Noir Expurrely, CID 18008](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18008&ope=2&request_locale=es) y un [Noir Epurrely, CID 18831](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=18831&ope=2&request_locale=es). No es un alias. El CLI de [plataforma #49](https://github.com/senior23enginer-coder/platform-yugioh-md/pull/49) retiene la fila incluso con aprobación de alias; confirmar composición vigente y reconciliar por separado sin fabricar un card_id.
+- Salamangrande fila 623 y GOAT fila 637: se observan respectivamente 1 Espejismental en Extra y 2 Caballero del Aire Parshath en Main en fotos del 17-11. Se contrastaron con los CID 14248 y 5023. Las tres aprobaciones de filas 566/623/637 se simularon localmente sólo para validar el plan. Resultado: **113 elegibles, 16 alias localizados de Royal pendientes de prueba de nombre y 1 agregado Noir retenido**. El plan es indivisible en el modo de escritura actual y no se ejecutó.
+- DoomZ fila 336: conservar la etiqueta usada por Miguel, «Vidrium, Modelo de Poder de la Exterminación del Caos», sin sustituir copia ni CID. El mismo CID 22519 muestra en [japonés](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=ja) el nombre que contiene ヴィードリウム y en [español TCG](https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=22519&ope=2&request_locale=es) «Vidolium el Inestable Modelo de Poder de Unidad». La correspondencia documental no equivale a leer el código de la copia física.
+- Memento: 39 fichas oficiales en español cubren 40 filas; 20 eran variantes y ninguna colisiona con otro CID al normalizar dentro del mazo. Crystron Horus: 39 fichas coinciden literalmente, con 40 filas; Purulia es el mismo CID en dos zonas.
+- Para GOAT, usar Neuron para identidad y texto de 2005 para mecánica (Sangan, Serpiente Siniestra, Anillo Destructor); no validar con la errata moderna.
+
+**T3, Royal Rush:** revisión de las 16 fichas de Konami en japonés: 14 efectos activados de carta, 1 efecto continuo y 1 procedimiento de Invocación de Impasse Ignoto. Descendiente de Titanes es un monstruo Normal sin efecto. La Skill nativa se cuenta por separado. Este denominador de Royal no sustituye el cotejo de las traducciones, ni los denominadores de los otros mazos, ni congela una lista que sigue pendiente de validación física.
+
 ## Ejecución individual A02 — Memento 671 (18-11-2026)
 
 **A02 cerrado como planificación documental, sin ejecutar A03:** la ficha Mementotlán/Demoniherrero 671 concilia planes de primero, segundo, control con Oleada, conservación, recuperación de medio/tardío y respuestas a interrupciones mediante C01–C12, B01–B06, MC-X01–04 y H01–H24. Se distinguen 20 ejercicios parciales H01–H20 y cuatro ejemplos explícitos de cinco cartas H21–H24; ninguno es replay ni muestra estadística. Probabilidades combinatorias sobre Main 41 recalculadas: 56,68 %, 73,13 %, 9,36 %, 33,02 % y 16,57 %; no miden victoria ni éxito de combos. **Estado A02: COMPLETA en planes y decisiones**; la ejecución causal y resultados empíricos permanecen en A05–A09. Inventario 41/15/14 intacto; A03–A10 sin modificación de estado.
