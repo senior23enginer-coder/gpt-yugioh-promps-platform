@@ -1,4 +1,17 @@
 # Station X — Prompts y entregas de Yu-Gi-Oh
+<!-- station-x-repository-guide:start -->
+
+## Guía de esta copia
+
+### Ruta para colaboradores
+Empieza por la elegibilidad y el contrato vigentes de este README. [02_PROMPT_PARA_CODEX](./02_PROMPT_PARA_CODEX) reúne los contratos y las instrucciones, [01_INFORMACION_A_IMPORTAR](./01_INFORMACION_A_IMPORTAR) las entregas de origen y [scripts](./scripts) las comprobaciones de infraestructura.
+### Validación técnica y entrega
+Ejecuta las comprobaciones de contrato citadas en las secciones correspondientes. Cada entrega conserva el deck autorizado, sus identificadores, cantidades, secciones, Skills y estados de verificación. En la integración, la aplicación consume el paquete conforme al contrato documentado.
+### Trabajo entre repositorios
+El código de la aplicación se mantiene en [Station X Platform](https://github.com/senior23enginer-coder/platform-yugioh-md). Consulta [AGENTS.md](./AGENTS.md) para los límites editoriales y trabaja sobre la rama base.
+
+<!-- station-x-repository-guide:end -->
+
 ## Regla de elegibilidad y contrato con Station X (23-11-2026)
 
 Por instrucción del propietario, **TCG/OCG requieren Main Deck y Extra Deck; GOAT y Rush Duel requieren únicamente Main Deck** para A01–A10A. Extra Deck es opcional en GOAT/Rush Duel; Side Deck y Reserva son opcionales en todos los formatos. Conservar siempre secciones reales, cantidades, CIDs, `card_id`, formato y fuentes; no completar Side desde Reserva ni consultar banlist sin petición expresa. La selección explícita por deck sigue siendo obligatoria. Las excepciones documentales antiguas de Kashtira Side=0 son históricas y no una puerta necesaria.
